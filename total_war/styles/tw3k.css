@@ -1,0 +1,510 @@
+/* ============================================
+   190 Expanded Wiki - Three Kingdoms Theme
+   ============================================ */
+
+:root {
+    /* Gold palette */
+    --gold-primary: #c9a227;
+    --gold-light: #e8d48b;
+    --gold-dark: #8b6914;
+    
+    /* Red palette */
+    --red-primary: #8b1a1a;
+    --red-dark: #5c1010;
+    --red-darker: #3a0a0a;
+    
+    /* Base colors */
+    --bg-primary: #0a0a0c;
+    --bg-secondary: #0f0f14;
+    --bg-card: #151519;
+    --bg-card-hover: #1a1a20;
+    
+    /* Text */
+    --text-primary: #e6e6eb;
+    --text-secondary: #a09a90;
+    --text-muted: #706a60;
+    
+    /* Faction colors */
+    --faction-han: #c9a227;
+    --faction-yellow-turban: #d4a017;
+    --faction-nanman: #2e8b57;
+    --faction-nomad: #7b68ee;
+    --faction-korean: #4682b4;
+    --faction-bandit: #8b4513;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* Subtle texture overlay */
+.page-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.02;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+/* ============================================
+   Header
+   ============================================ */
+
+header {
+    background: linear-gradient(180deg, var(--red-dark) 0%, var(--red-darker) 60%, var(--bg-primary) 100%);
+    border-bottom: 2px solid var(--gold-dark);
+    padding: 1rem 2rem 3rem;
+    text-align: center;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 20%;
+    right: 20%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+}
+
+.top-nav {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.back-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: var(--gold-primary);
+}
+
+.header-content .subtitle {
+    font-size: 0.85rem;
+    color: var(--gold-light);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+header h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 700;
+    color: var(--gold-primary);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+/* ============================================
+   Navigation (for sub-pages)
+   ============================================ */
+
+nav.main-nav {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--gold-dark);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav.main-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+}
+
+nav.main-nav a {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+}
+
+nav.main-nav a:hover,
+nav.main-nav a.active {
+    color: var(--gold-primary);
+    border-bottom-color: var(--gold-primary);
+}
+
+/* ============================================
+   Main Content Area
+   ============================================ */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+/* ============================================
+   Index Page - Wiki Cards
+   ============================================ */
+
+.wiki-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.wiki-card {
+    background: linear-gradient(145deg, var(--bg-card) 0%, #101014 100%);
+    border: 1px solid #252530;
+    border-left: 3px solid var(--gold-dark);
+    padding: 2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.wiki-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(201, 162, 39, 0.05) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.wiki-card:hover {
+    border-color: var(--gold-dark);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+}
+
+.wiki-card:hover::before {
+    opacity: 1;
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--gold-primary);
+    font-family: serif;
+}
+
+.wiki-card h2 {
+    font-size: 1.3rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.wiki-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    position: relative;
+}
+
+/* Quick stats */
+.quick-stats {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+    border-top: 1px solid #252530;
+    border-bottom: 1px solid #252530;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--gold-primary);
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* ============================================
+   Factions Page
+   ============================================ */
+
+.intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #252530;
+}
+
+.intro p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* Category sections */
+.faction-category {
+    margin-bottom: 3rem;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.category-header::before,
+.category-header::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, #252530, transparent);
+}
+
+.category-header::after {
+    background: linear-gradient(270deg, #252530, transparent);
+}
+
+.category-title {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--gold-primary);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.category-title .toggle-icon {
+    font-size: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+.faction-category.collapsed .toggle-icon {
+    transform: rotate(-90deg);
+}
+
+.category-count {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+/* Faction grid */
+.faction-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+}
+
+.faction-category.collapsed .faction-grid {
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+}
+
+/* Faction cards */
+.faction-card {
+    background: var(--bg-card);
+    border: 1px solid #202025;
+    border-left: 3px solid var(--faction-color, var(--gold-dark));
+    padding: 1rem 1.25rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.faction-card:hover {
+    background: var(--bg-card-hover);
+    border-color: #303035;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.faction-card[data-type="han"] { --faction-color: var(--faction-han); }
+.faction-card[data-type="yellow-turban"] { --faction-color: var(--faction-yellow-turban); }
+.faction-card[data-type="nanman"] { --faction-color: var(--faction-nanman); }
+.faction-card[data-type="nomad"] { --faction-color: var(--faction-nomad); }
+.faction-card[data-type="korean"] { --faction-color: var(--faction-korean); }
+.faction-card[data-type="bandit"] { --faction-color: var(--faction-bandit); }
+
+.faction-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.faction-leader {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+}
+
+.faction-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.faction-tag {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    background: rgba(201, 162, 39, 0.1);
+    border: 1px solid var(--gold-dark);
+    color: var(--gold-light);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.faction-tag.modded {
+    background: rgba(139, 26, 26, 0.2);
+    border-color: var(--red-primary);
+    color: #e8a0a0;
+}
+
+.faction-tag.dlc {
+    background: rgba(100, 100, 200, 0.15);
+    border-color: #5050a0;
+    color: #a0a0e8;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid #252530;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+footer a {
+    color: var(--gold-primary);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+
+.faction-card {
+    opacity: 0;
+    transform: translateY(15px);
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.faction-grid .faction-card:nth-child(1) { animation-delay: 0.02s; }
+.faction-grid .faction-card:nth-child(2) { animation-delay: 0.04s; }
+.faction-grid .faction-card:nth-child(3) { animation-delay: 0.06s; }
+.faction-grid .faction-card:nth-child(4) { animation-delay: 0.08s; }
+.faction-grid .faction-card:nth-child(5) { animation-delay: 0.10s; }
+.faction-grid .faction-card:nth-child(6) { animation-delay: 0.12s; }
+.faction-grid .faction-card:nth-child(7) { animation-delay: 0.14s; }
+.faction-grid .faction-card:nth-child(8) { animation-delay: 0.16s; }
+.faction-grid .faction-card:nth-child(9) { animation-delay: 0.18s; }
+.faction-grid .faction-card:nth-child(10) { animation-delay: 0.20s; }
+
+/* ============================================
+   Responsive
+   ============================================ */
+
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 1rem 2rem;
+    }
+    
+    main {
+        padding: 2rem 1rem;
+    }
+    
+    nav.main-nav ul {
+        gap: 1rem;
+    }
+    
+    nav.main-nav a {
+        font-size: 0.75rem;
+    }
+    
+    .category-title {
+        font-size: 1.1rem;
+    }
+    
+    .quick-stats {
+        gap: 2rem;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+}
