@@ -64,16 +64,11 @@
                     <p class="faction-leader">The Tyrant</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
-
-                <!-- Example override:
-                     <article class="faction-card" data-type="han" data-loc-key="yuan_shao">
-                -->
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Yuan Shao</h3>
                     <p class="faction-leader">The Dragon of the North</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
-
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Yuan Shu</h3>
                     <p class="faction-leader">The Pretender</p>
@@ -86,7 +81,7 @@
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Gongsun Zan</h3>
-                    <p class="faction-leader">The Ironfist General</p>
+                    <p class="faction-leader">The White Horse General</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
@@ -96,12 +91,12 @@
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Liu Biao</h3>
-                    <p class="faction-leader">Gentleman of the Han</p>
+                    <p class="faction-leader">Gentleman of Jing</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Liu Yan</h3>
-                    <p class="faction-leader">Governor of Yi Province</p>
+                    <p class="faction-leader">Governor of Yi</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
@@ -129,7 +124,7 @@
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Tao Qian</h3>
-                    <p class="faction-leader">Governor of Xu Province</p>
+                    <p class="faction-leader">Governor of Xu</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
@@ -144,22 +139,22 @@
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Liu Yu</h3>
-                    <p class="faction-leader">Inspector of You Province</p>
+                    <p class="faction-leader">Inspector of You</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Liu Yao</h3>
-                    <p class="faction-leader">Governor of Yang Province</p>
+                    <p class="faction-leader">Governor of Yang</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Liu Dai</h3>
-                    <p class="faction-leader">Governor of Yan Province</p>
+                    <p class="faction-leader">Governor of Yan</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Han Fu</h3>
-                    <p class="faction-leader">Governor of Ji Province</p>
+                    <p class="faction-leader">Governor of Ji</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
@@ -194,7 +189,7 @@
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Gao Gan</h3>
-                    <p class="faction-leader">Governor of Bing Province</p>
+                    <p class="faction-leader">Governor of Bing</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
                 <article class="faction-card" data-type="han">
@@ -209,7 +204,7 @@
                 </article>
                 <article class="faction-card" data-type="han">
                     <h3 class="faction-name">Kong Zhou</h3>
-                    <p class="faction-leader">Governor of Yu Province</p>
+                    <p class="faction-leader">Governor of Yu</p>
                     <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
                 </article>
             </div>
@@ -707,94 +702,112 @@
             });
         });
 
-        // ===== Titles from TSV =====
-        // Rule:
-        //  - faction-name: "Yuan Shao"
-        //  - loc key default: "yuan_shao"
-        //  - find a TSV row whose key contains: career + title + yuan_shao
-        // Override:
-        //  - <article class="faction-card" data-loc-key="yuan_shao">
-        //  - OR <h3 class="faction-name" data-loc-key="yuan_shao">
+        // ============================
+        // Titles from TSV (GitHub Pages)
+        // ============================
+        //
+        // Default behavior:
+        //   faction-name "Yuan Shao" -> locKey "yuan_shao"
+        //   Finds TSV row where key contains: "career" AND "title" AND locKey (as a whole token)
+        //
+        // Overrides:
+        //   Put data-loc-key on the card OR the name:
+        //     <article class="faction-card" data-loc-key="zhang_lu">
+        //     <h3 class="faction-name" data-loc-key="zhang_lu">
+        //
+        // Notes:
+        // - Do NOT use github.com/blob URL for fetch (it's HTML).
+        // - Prefer relative path on GitHub Pages (/data/...), with raw as fallback.
 
         function slugifyToLocKey(name) {
             return (name || "")
+                .trim()
                 .toLowerCase()
                 .normalize("NFKD")
-                .replace(/[\u0300-\u036f]/g, "") // remove diacritics
-                .replace(/['’]/g, "")           // remove apostrophes
-                .replace(/[^a-z0-9]+/g, "_")     // non-alnum -> _
-                .replace(/^_+|_+$/g, "")         // trim underscores
-                .replace(/_+/g, "_");            // collapse
+                .replace(/[\u0300-\u036f]/g, "") // remove diacritics (e.g., Lü -> Lu)
+                .replace(/[’']/g, "")              // remove apostrophes
+                .replace(/[^a-z0-9]+/g, "_")        // non-alnum -> underscore
+                .replace(/^_+|_+$/g, "")            // trim underscores
+                .replace(/_+/g, "_");               // collapse underscores
+        }
+
+        function escapeRegex(s) {
+            return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
         }
 
         function parseLocTsv(tsvText) {
-            // Expected: key \t value (optionally more cols, we keep first 2)
-            const map = new Map();
-
+            // Expected: key \t text \t tooltip (tooltip optional)
+            const rows = [];
             const lines = tsvText.split(/\r?\n/);
+
             for (const line of lines) {
                 if (!line) continue;
-                if (line.startsWith("#")) continue;
+                if (line.startsWith("#")) continue; // skips #Loc;... and comments
 
                 const cols = line.split("\t");
                 if (cols.length < 2) continue;
 
                 const key = (cols[0] || "").trim();
-                const val = (cols[1] || "").trim();
+                const text = (cols[1] || "").trim();
 
-                if (!key) continue;
-                // Keep the first seen; if you want "last wins", replace this condition.
-                if (!map.has(key)) map.set(key, val);
+                if (!key || key === "key") continue; // skip header row
+                rows.push({ key, text });
             }
-
-            return map;
+            return rows;
         }
 
-        function findBestCareerTitle(locMap, locKey) {
-            const want = (locKey || "").toLowerCase();
+        function findBestCareerTitle(rows, locKey) {
+            const want = (locKey || "").toLowerCase().trim();
             if (!want) return null;
 
-            // Candidate keys: must contain career + title + locKey
-            const candidates = [];
-            for (const [k, v] of locMap.entries()) {
+            // Boundary-safe match so "zhang_lu" does NOT match "zhang_luo"
+            // Treat any non-alphanumeric as a boundary (underscore counts as non-alnum here).
+            const wantRe = new RegExp(`(^|[^a-z0-9])${escapeRegex(want)}([^a-z0-9]|$)`, "i");
+
+            let best = null;
+            let bestScore = -Infinity;
+
+            for (const row of rows) {
+                const k = row.key;
                 const lk = k.toLowerCase();
-                if (lk.includes("career") && lk.includes("title") && lk.includes(want)) {
-                    candidates.push({ k, v, lk });
+
+                // Must include both tokens
+                if (!lk.includes("career")) continue;
+                if (!lk.includes("title")) continue;
+
+                // Must include locKey as a whole token
+                if (!wantRe.test(lk)) continue;
+
+                // Scoring: prefer closer / more specific keys
+                let score = 0;
+
+                // Strong preference: career_title_<locKey>
+                if (lk.includes(`career_title_${want}`)) score += 2000;
+
+                // Preference: exact token placement
+                if (lk.includes(`_${want}_`)) score += 400;
+                if (lk.endsWith(`_${want}`)) score += 250;
+                if (lk.startsWith(`${want}_`)) score += 200;
+
+                // Prefer shorter keys (less nested / less generic)
+                score += Math.max(0, 300 - lk.length);
+
+                if (score > bestScore) {
+                    bestScore = score;
+                    best = row;
                 }
             }
-            if (!candidates.length) return null;
 
-            // Prefer very direct patterns first, then shortest key as tie-break.
-            const preferredPrefixes = [
-                `career_title_${want}`,
-                `career_title_${want}_`,
-                `career_title_${want}.`,
-                `career_title_${want}-`,
-                `career_title_${want}__`
-            ];
-
-            candidates.sort((a, b) => {
-                const aScore =
-                    preferredPrefixes.some(p => a.lk.includes(p)) ? 0 :
-                    a.lk.includes(`career_title_`) ? 1 : 2;
-                const bScore =
-                    preferredPrefixes.some(p => b.lk.includes(p)) ? 0 :
-                    b.lk.includes(`career_title_`) ? 1 : 2;
-
-                if (aScore !== bScore) return aScore - bScore;
-                return a.k.length - b.k.length;
-            });
-
-            return candidates[0].v || null;
+            return best ? best.text : null;
         }
 
         async function fetchFirstOk(urls) {
             let lastErr = null;
             for (const url of urls) {
                 try {
-                    const res = await fetch(url, { cache: "no-cache" });
+                    const res = await fetch(url, { cache: "no-store" });
                     if (!res.ok) {
-                        lastErr = new Error(`HTTP ${res.status} for ${url}`);
+                        lastErr = new Error(`HTTP ${res.status} ${res.statusText} for ${url}`);
                         continue;
                     }
                     return await res.text();
@@ -806,18 +819,19 @@
         }
 
         async function applyTitlesFromTsv() {
-            // Try a few likely paths so you don't have to care whether factions.html
-            // lives in /total_war/ or root.
             const tsvUrls = [
-                "data/all_titles_full.loc.tsv",
+                // If factions.html is in /total_war/ (your nav suggests that), ../data is correct:
                 "../data/all_titles_full.loc.tsv",
+                // If factions.html is served from repo root:
+                "./data/all_titles_full.loc.tsv",
+                // Extra fallback if you nest deeper:
                 "../../data/all_titles_full.loc.tsv",
-                // Absolute fallback (works even if file is elsewhere)
+                // Raw GitHub fallback:
                 "https://raw.githubusercontent.com/Ironictw2st/ironictw2st.github.io/main/data/all_titles_full.loc.tsv"
             ];
 
             const tsvText = await fetchFirstOk(tsvUrls);
-            const locMap = parseLocTsv(tsvText);
+            const rows = parseLocTsv(tsvText);
 
             document.querySelectorAll(".faction-card").forEach(card => {
                 const nameEl = card.querySelector(".faction-name");
@@ -827,18 +841,18 @@
                 const factionName = (nameEl.textContent || "").trim();
                 if (!factionName) return;
 
-                const overrideKey =
+                // Override locKey via data-loc-key on card or name element
+                const override =
                     (card.dataset.locKey && card.dataset.locKey.trim()) ||
                     (nameEl.dataset.locKey && nameEl.dataset.locKey.trim()) ||
                     "";
 
-                const locKey = overrideKey || slugifyToLocKey(factionName);
+                const locKey = override ? slugifyToLocKey(override) : slugifyToLocKey(factionName);
 
-                const title = findBestCareerTitle(locMap, locKey);
+                const title = findBestCareerTitle(rows, locKey);
                 if (title) {
                     leaderEl.textContent = title;
-                    // optional: expose what key was used for debugging
-                    card.dataset.resolvedLocKey = locKey;
+                    card.dataset.resolvedLocKey = locKey; // handy for debugging in DevTools
                 }
             });
         }
