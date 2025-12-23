@@ -2,18 +2,27 @@
    190 Expanded Wiki - Three Kingdoms Theme
    ============================================ */
 
+/* Google Fonts - Cinzel for headers (classical feel) */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
 :root {
-    /* Gold palette */
+    /* TW3K Title Colors - cream/off-white like the logo */
+    --title-cream: #f5f0e1;
+    --title-cream-dark: #d4cbb8;
+    --title-shadow: rgba(0, 0, 0, 0.8);
+    
+    /* Gold palette - for accents */
     --gold-primary: #c9a227;
     --gold-light: #e8d48b;
     --gold-dark: #8b6914;
     
-    /* Red palette */
+    /* Red palette - subtle, used sparingly */
     --red-primary: #8b1a1a;
     --red-dark: #5c1010;
-    --red-darker: #3a0a0a;
+    --red-darker: #2a0808;
+    --red-accent: #c41e3a;
     
-    /* Base colors */
+    /* Base colors - dark like the TW3K UI */
     --bg-primary: #0a0a0c;
     --bg-secondary: #0f0f14;
     --bg-card: #151519;
@@ -61,30 +70,48 @@ body {
 }
 
 /* ============================================
-   Header
+   Header - TW3K Logo Style
    ============================================ */
 
 header {
-    background: linear-gradient(180deg, var(--red-dark) 0%, var(--red-darker) 60%, var(--bg-primary) 100%);
-    border-bottom: 2px solid var(--gold-dark);
+    background: 
+        linear-gradient(180deg, 
+            rgba(20, 10, 10, 0.9) 0%, 
+            rgba(10, 10, 12, 0.95) 60%, 
+            var(--bg-primary) 100%
+        ),
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    border-bottom: 1px solid rgba(201, 162, 39, 0.3);
     padding: 1rem 2rem 3rem;
     text-align: center;
     position: relative;
 }
 
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at center top, rgba(139, 26, 26, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+}
+
 header::after {
     content: '';
     position: absolute;
-    bottom: -2px;
-    left: 20%;
-    right: 20%;
+    bottom: -1px;
+    left: 10%;
+    right: 10%;
     height: 1px;
-    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+    background: linear-gradient(90deg, transparent, rgba(245, 240, 225, 0.3), transparent);
 }
 
 .top-nav {
     text-align: left;
     margin-bottom: 2rem;
+    position: relative;
 }
 
 .back-link {
@@ -95,32 +122,65 @@ header::after {
 }
 
 .back-link:hover {
-    color: var(--gold-primary);
+    color: var(--title-cream);
+}
+
+.header-content {
+    position: relative;
 }
 
 .header-content .subtitle {
-    font-size: 0.85rem;
-    color: var(--gold-light);
-    letter-spacing: 0.3em;
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    letter-spacing: 0.4em;
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
+/* Main Title - TW3K Logo Style */
 header h1 {
-    font-family: 'Times New Roman', serif;
-    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
     font-weight: 700;
-    color: var(--gold-primary);
-    letter-spacing: 0.1em;
+    color: var(--title-cream);
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     margin-bottom: 1rem;
+    position: relative;
+    
+    /* Multi-layer shadow for depth like the TW3K logo */
+    text-shadow: 
+        0 1px 0 rgba(255, 255, 255, 0.1),
+        0 2px 4px rgba(0, 0, 0, 0.5),
+        0 4px 8px rgba(0, 0, 0, 0.4),
+        0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Ink brush stroke decoration under title */
+header h1::after {
+    content: '';
+    display: block;
+    width: 60%;
+    max-width: 300px;
+    height: 3px;
+    margin: 1rem auto 0;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        var(--red-accent) 20%, 
+        var(--red-accent) 80%, 
+        transparent 100%
+    );
+    opacity: 0.7;
+    border-radius: 2px;
 }
 
 .tagline {
     font-style: italic;
     color: var(--text-secondary);
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
 
 /* ============================================
@@ -129,7 +189,7 @@ header h1 {
 
 nav.main-nav {
     background: var(--bg-secondary);
-    border-bottom: 1px solid var(--gold-dark);
+    border-bottom: 1px solid rgba(201, 162, 39, 0.2);
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -148,10 +208,12 @@ nav.main-nav ul {
 }
 
 nav.main-nav a {
-    font-size: 0.85rem;
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-size: 0.8rem;
+    font-weight: 500;
     color: var(--text-secondary);
     text-decoration: none;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     transition: color 0.3s ease;
     padding: 0.25rem 0;
@@ -160,8 +222,8 @@ nav.main-nav a {
 
 nav.main-nav a:hover,
 nav.main-nav a.active {
-    color: var(--gold-primary);
-    border-bottom-color: var(--gold-primary);
+    color: var(--title-cream);
+    border-bottom-color: var(--red-accent);
 }
 
 /* ============================================
@@ -210,7 +272,8 @@ main {
 }
 
 .wiki-card:hover {
-    border-color: var(--gold-dark);
+    border-color: rgba(196, 30, 58, 0.5);
+    border-left-color: var(--red-accent);
     transform: translateY(-4px);
     box-shadow: 0 12px 32px rgba(0,0,0,0.4);
 }
@@ -222,15 +285,18 @@ main {
 .card-icon {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: var(--gold-primary);
+    color: var(--red-accent);
     font-family: serif;
+    opacity: 0.9;
 }
 
 .wiki-card h2 {
+    font-family: 'Cinzel', 'Times New Roman', serif;
     font-size: 1.3rem;
-    color: var(--text-primary);
+    color: var(--title-cream);
     margin-bottom: 0.5rem;
     position: relative;
+    letter-spacing: 0.05em;
 }
 
 .wiki-card p {
@@ -256,9 +322,11 @@ main {
 
 .stat-number {
     display: block;
+    font-family: 'Cinzel', 'Times New Roman', serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--gold-primary);
+    color: var(--title-cream);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .stat-label {
@@ -313,16 +381,17 @@ main {
 }
 
 .category-title {
-    font-family: 'Times New Roman', serif;
-    font-size: 1.3rem;
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-size: 1.2rem;
     font-weight: 600;
-    color: var(--gold-primary);
+    color: var(--title-cream);
     letter-spacing: 0.15em;
     text-transform: uppercase;
     white-space: nowrap;
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .category-title .toggle-icon {
@@ -381,10 +450,12 @@ main {
 .faction-card[data-type="bandit"] { --faction-color: var(--faction-bandit); }
 
 .faction-name {
+    font-family: 'Cinzel', 'Times New Roman', serif;
     font-size: 1rem;
     font-weight: 600;
-    color: var(--text-primary);
+    color: var(--title-cream);
     margin-bottom: 0.25rem;
+    letter-spacing: 0.03em;
 }
 
 .faction-leader {
@@ -439,7 +510,7 @@ footer p {
 }
 
 footer a {
-    color: var(--gold-primary);
+    color: var(--title-cream);
     text-decoration: none;
 }
 
