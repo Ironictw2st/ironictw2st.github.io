@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters | 190 Expanded Wiki</title>
+    <link rel="stylesheet" href="styles/tw3k.css">
+    <style>
+        /* Characters page specific styles */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid #252530;
+            border-radius: 4px;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-group label {
+            font-family: 'Cinzel', serif;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .filter-group input,
+        .filter-group select {
+            padding: 0.5rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid #303035;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            min-width: 150px;
+        }
+
+        .filter-group input:focus,
+        .filter-group select:focus {
+            outline: none;
+            border-color: var(--gold-dark);
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+        }
+
+        .results-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #252530;
+        }
+
+        .results-count {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .view-toggle button {
+            padding: 0.4rem 0.8rem;
+            background: var(--bg-card);
+            border: 1px solid #303035;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .view-toggle button.active {
+            background: var(--red-dark);
+            border-color: var(--red-primary);
+            color: var(--title-cream);
+        }
+
+        /* Character grid */
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .character-grid.list-view {
+            grid-template-columns: 1fr;
+        }
+
+        /* Character card */
+        .character-card {
+            background: var(--bg-card);
+            border: 1px solid #202025;
+            border-left: 3px solid var(--element-color, var(--gold-dark));
+            padding: 1.25rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .character-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateX(4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        }
+
+        .character-card[data-element="fire"] { --element-color: #c41e3a; }
+        .character-card[data-element="earth"] { --element-color: #b8860b; }
+        .character-card[data-element="water"] { --element-color: #4169e1; }
+        .character-card[data-element="wood"] { --element-color: #228b22; }
+        .character-card[data-element="metal"] { --element-color: #c0c0c0; }
+        .character-card[data-element="nanman"] { --element-color: #2e8b57; }
+
+        .character-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+        }
+
+        .character-name {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--title-cream);
+            margin: 0;
+        }
+
+        .character-element {
+            font-size: 0.65rem;
+            padding: 0.2rem 0.5rem;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--element-color);
+            color: var(--element-color);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .character-title {
+            font-size: 0.9rem;
+            color: var(--gold-primary);
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .character-description {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .character-meta {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #252530;
+        }
+
+        .meta-tag {
+            font-size: 0.7rem;
+            padding: 0.15rem 0.4rem;
+            background: rgba(201, 162, 39, 0.1);
+            border: 1px solid #353530;
+            color: var(--text-muted);
+        }
+
+        .meta-tag.unique {
+            border-color: var(--gold-dark);
+            color: var(--gold-light);
+        }
+
+        .meta-tag.female {
+            border-color: #9966cc;
+            color: #cc99ff;
+        }
+
+        /* List view styles */
+        .list-view .character-card {
+            display: grid;
+            grid-template-columns: 200px 150px 1fr auto;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem 1.25rem;
+        }
+
+        .list-view .character-header {
+            margin: 0;
+        }
+
+        .list-view .character-title {
+            margin: 0;
+        }
+
+        .list-view .character-description {
+            -webkit-line-clamp: 1;
+        }
+
+        .list-view .character-meta {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+
+        /* Stats bar */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            background: var(--bg-card);
+            border: 1px solid #252530;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item .number {
+            font-family: 'Cinzel', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--title-cream);
+        }
+
+        .stat-item .label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* Element breakdown */
+        .element-breakdown {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .element-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--bg-card);
+            border: 1px solid #303035;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .element-btn:hover,
+        .element-btn.active {
+            border-color: var(--element-color);
+            color: var(--element-color);
+        }
+
+        .element-btn[data-element="fire"] { --element-color: #c41e3a; }
+        .element-btn[data-element="earth"] { --element-color: #b8860b; }
+        .element-btn[data-element="water"] { --element-color: #4169e1; }
+        .element-btn[data-element="wood"] { --element-color: #228b22; }
+        .element-btn[data-element="metal"] { --element-color: #c0c0c0; }
+        .element-btn[data-element="all"] { --element-color: var(--gold-primary); }
+
+        .element-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--element-color);
+        }
+
+        /* No results */
+        .no-results {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        .no-results h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--title-cream);
+            margin-bottom: 1rem;
+        }
+
+        /* Loading state */
+        .loading {
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .filters {
+                flex-direction: column;
+            }
+
+            .list-view .character-card {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+
+            .stats-bar {
+                gap: 1rem;
+            }
+
+            .stat-item .number {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-bg"></div>
+    
+    <header>
+        <nav class="top-nav">
+            <a href="../index.html" class="back-link">← Back to Hub</a>
+        </nav>
+        <div class="header-content">
+            <p class="subtitle">190 Expanded Wiki</p>
+            <h1>Characters</h1>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="factions.html">Factions</a></li>
+            <li><a href="characters.html" class="active">Characters</a></li>
+            <li><a href="mechanics.html">Mechanics</a></li>
+            <li><a href="changelog.html">Changelog</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Stats bar -->
+        <div class="stats-bar" id="stats-bar">
+            <div class="stat-item">
+                <span class="number" id="stat-total">-</span>
+                <span class="label">Total</span>
+            </div>
+            <div class="stat-item">
+                <span class="number" id="stat-unique">-</span>
+                <span class="label">Unique</span>
+            </div>
+            <div class="stat-item">
+                <span class="number" id="stat-male">-</span>
+                <span class="label">Male</span>
+            </div>
+            <div class="stat-item">
+                <span class="number" id="stat-female">-</span>
+                <span class="label">Female</span>
+            </div>
+        </div>
+
+        <!-- Element filter buttons -->
+        <div class="element-breakdown">
+            <button class="element-btn active" data-element="all">
+                <span class="element-dot"></span>
+                All
+            </button>
+            <button class="element-btn" data-element="fire">
+                <span class="element-dot"></span>
+                Fire <span class="count" id="count-fire"></span>
+            </button>
+            <button class="element-btn" data-element="earth">
+                <span class="element-dot"></span>
+                Earth <span class="count" id="count-earth"></span>
+            </button>
+            <button class="element-btn" data-element="water">
+                <span class="element-dot"></span>
+                Water <span class="count" id="count-water"></span>
+            </button>
+            <button class="element-btn" data-element="wood">
+                <span class="element-dot"></span>
+                Wood <span class="count" id="count-wood"></span>
+            </button>
+            <button class="element-btn" data-element="metal">
+                <span class="element-dot"></span>
+                Metal <span class="count" id="count-metal"></span>
+            </button>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <div class="filter-group search-box">
+                <label for="search">Search</label>
+                <input type="text" id="search" placeholder="Search by name or title...">
+            </div>
+            <div class="filter-group">
+                <label for="gender-filter">Gender</label>
+                <select id="gender-filter">
+                    <option value="all">All</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="unique-filter">Type</label>
+                <select id="unique-filter">
+                    <option value="all">All</option>
+                    <option value="unique">Unique Only</option>
+                    <option value="generic">Generic Only</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sort-filter">Sort By</label>
+                <select id="sort-filter">
+                    <option value="name">Name (A-Z)</option>
+                    <option value="name-desc">Name (Z-A)</option>
+                    <option value="element">Element</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Results info -->
+        <div class="results-info">
+            <span class="results-count" id="results-count">Loading...</span>
+            <div class="view-toggle">
+                <button id="grid-view" class="active" title="Grid View">▦</button>
+                <button id="list-view" title="List View">☰</button>
+            </div>
+        </div>
+
+        <!-- Character grid -->
+        <div class="character-grid" id="character-grid">
+            <div class="loading">Loading characters...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>190 Expanded Wiki · Created by Ironic</p>
+    </footer>
+
+    <!-- Load character data -->
+    <script src="data/characters.js"></script>
+    <script>
+        // State
+        let currentElement = 'all';
+        let currentSearch = '';
+        let currentGender = 'all';
+        let currentUnique = 'all';
+        let currentSort = 'name';
+        let isListView = false;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            updateStats();
+            updateElementCounts();
+            renderCharacters();
+            setupEventListeners();
+        });
+
+        function updateStats() {
+            document.getElementById('stat-total').textContent = CHARACTER_STATS.total;
+            document.getElementById('stat-unique').textContent = CHARACTER_STATS.unique;
+            document.getElementById('stat-male').textContent = CHARACTER_STATS.male;
+            document.getElementById('stat-female').textContent = CHARACTER_STATS.female;
+        }
+
+        function updateElementCounts() {
+            document.getElementById('count-fire').textContent = `(${CHARACTER_STATS.byElement.fire})`;
+            document.getElementById('count-earth').textContent = `(${CHARACTER_STATS.byElement.earth})`;
+            document.getElementById('count-water').textContent = `(${CHARACTER_STATS.byElement.water})`;
+            document.getElementById('count-wood').textContent = `(${CHARACTER_STATS.byElement.wood})`;
+            document.getElementById('count-metal').textContent = `(${CHARACTER_STATS.byElement.metal})`;
+        }
+
+        function setupEventListeners() {
+            // Element buttons
+            document.querySelectorAll('.element-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.element-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentElement = btn.dataset.element;
+                    renderCharacters();
+                });
+            });
+
+            // Search
+            document.getElementById('search').addEventListener('input', (e) => {
+                currentSearch = e.target.value.toLowerCase();
+                renderCharacters();
+            });
+
+            // Gender filter
+            document.getElementById('gender-filter').addEventListener('change', (e) => {
+                currentGender = e.target.value;
+                renderCharacters();
+            });
+
+            // Unique filter
+            document.getElementById('unique-filter').addEventListener('change', (e) => {
+                currentUnique = e.target.value;
+                renderCharacters();
+            });
+
+            // Sort
+            document.getElementById('sort-filter').addEventListener('change', (e) => {
+                currentSort = e.target.value;
+                renderCharacters();
+            });
+
+            // View toggle
+            document.getElementById('grid-view').addEventListener('click', () => {
+                isListView = false;
+                document.getElementById('grid-view').classList.add('active');
+                document.getElementById('list-view').classList.remove('active');
+                document.getElementById('character-grid').classList.remove('list-view');
+            });
+
+            document.getElementById('list-view').addEventListener('click', () => {
+                isListView = true;
+                document.getElementById('list-view').classList.add('active');
+                document.getElementById('grid-view').classList.remove('active');
+                document.getElementById('character-grid').classList.add('list-view');
+            });
+        }
+
+        function filterCharacters() {
+            let filtered = [...CHARACTER_DATA];
+
+            // Element filter
+            if (currentElement !== 'all') {
+                filtered = filtered.filter(c => c.element === currentElement);
+            }
+
+            // Search filter
+            if (currentSearch) {
+                filtered = filtered.filter(c => 
+                    c.display_name.toLowerCase().includes(currentSearch) ||
+                    c.title.toLowerCase().includes(currentSearch) ||
+                    c.name_key.toLowerCase().includes(currentSearch)
+                );
+            }
+
+            // Gender filter
+            if (currentGender !== 'all') {
+                filtered = filtered.filter(c => 
+                    currentGender === 'male' ? c.is_male : !c.is_male
+                );
+            }
+
+            // Unique filter
+            if (currentUnique !== 'all') {
+                filtered = filtered.filter(c => 
+                    currentUnique === 'unique' ? c.is_unique : !c.is_unique
+                );
+            }
+
+            // Sort
+            filtered.sort((a, b) => {
+                switch (currentSort) {
+                    case 'name':
+                        return a.display_name.localeCompare(b.display_name);
+                    case 'name-desc':
+                        return b.display_name.localeCompare(a.display_name);
+                    case 'element':
+                        return a.element.localeCompare(b.element) || a.display_name.localeCompare(b.display_name);
+                    default:
+                        return 0;
+                }
+            });
+
+            return filtered;
+        }
+
+        function renderCharacters() {
+            const filtered = filterCharacters();
+            const grid = document.getElementById('character-grid');
+            
+            // Update count
+            document.getElementById('results-count').textContent = 
+                `Showing ${filtered.length} of ${CHARACTER_DATA.length} characters`;
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="no-results">
+                        <h3>No characters found</h3>
+                        <p>Try adjusting your filters or search term.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Render cards
+            grid.innerHTML = filtered.map(char => `
+                <article class="character-card" data-element="${char.element}">
+                    <div class="character-header">
+                        <h3 class="character-name">${char.display_name}</h3>
+                        <span class="character-element">${char.element}</span>
+                    </div>
+                    ${char.title ? `<p class="character-title">${char.title}</p>` : ''}
+                    ${char.description ? `<p class="character-description">${char.description}</p>` : ''}
+                    <div class="character-meta">
+                        ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
+                        ${!char.is_male ? '<span class="meta-tag female">Female</span>' : ''}
+                    </div>
+                </article>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
