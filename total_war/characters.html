@@ -193,6 +193,11 @@
             color: #cc99ff;
         }
 
+        .meta-tag.birth-year {
+            border-color: #4a6fa5;
+            color: #8ab4f8;
+        }
+
         /* List view styles */
         .list-view .character-card {
             display: grid;
@@ -618,6 +623,7 @@
                     <div class="character-meta">
                         ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
                         ${!char.is_male ? '<span class="meta-tag female">Female</span>' : ''}
+                        ${char.birth_year ? `<span class="meta-tag birth-year">Born ${char.birth_year} AD</span>` : ''}
                     </div>
                 </article>
             `).join('');
