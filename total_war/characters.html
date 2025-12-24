@@ -188,6 +188,11 @@
             color: var(--gold-light);
         }
 
+        .meta-tag.male {
+            border-color: #a84f26;
+            color: #a84f26;
+        }
+
         .meta-tag.female {
             border-color: #9966cc;
             color: #cc99ff;
@@ -477,6 +482,7 @@
             updateElementCounts();
             renderCharacters();
             setupEventListeners();
+            attachCharacterNavigation();
         });
 
         function updateStats() {
@@ -545,6 +551,39 @@
             });
         }
 
+        function attachCharacterNavigation() {
+            const grid = document.getElementById('character-grid');
+            if (!grid) return;
+
+            // Mouse click
+            grid.addEventListener('click', (e) => {
+            const card = e.target.closest('.character-card');
+            if (!card) return;
+
+            const key = card.dataset.key;
+            if (!key) return;
+
+            window.location.href =
+                `character.html?key=${encodeURIComponent(key)}`;
+            });
+
+            // Keyboard (Enter / Space)
+            grid.addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter' && e.key !== ' ') return;
+
+            const card = e.target.closest('.character-card');
+            if (!card) return;
+
+            e.preventDefault();
+            const key = card.dataset.key;
+            if (!key) return;
+
+            window.location.href =
+                `character.html?key=${encodeURIComponent(key)}`;
+            });
+        }
+
+
         function filterCharacters() {
             let filtered = [...CHARACTER_DATA];
 
@@ -593,6 +632,9 @@
             return filtered;
         }
 
+        
+
+
         function renderCharacters() {
             const filtered = filterCharacters();
             const grid = document.getElementById('character-grid');
@@ -613,7 +655,11 @@
 
             // Render cards
             grid.innerHTML = filtered.map(char => `
-                <article class="character-card" data-element="${char.element}">
+                    <article class="character-card"
+                            data-key="${char.key}"
+                            tabindex="0"
+                            role="link"
+                            aria-label="Open ${char.display_name}">
                     <div class="character-header">
                         <h3 class="character-name">${char.display_name}</h3>
                         <span class="character-element">${char.element}</span>
@@ -622,7 +668,7 @@
                     ${char.description ? `<p class="character-description">${char.description}</p>` : ''}
                     <div class="character-meta">
                         ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
-                        ${!char.is_male ? '<span class="meta-tag female">Female</span>' : ''}
+                        ${!char.is_male ? '<span class="meta-tag female">Female</span>' : '<span class="meta-tag male">Male</span>'}
                         ${char.birth_year ? `<span class="meta-tag birth-year">Born ${char.birth_year} AD</span>` : ''}
                     </div>
                 </article>

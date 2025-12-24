@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Character | 190 Expanded Wiki</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/tw3k.css" />
+
+  <style>
+    /* Minimal page-specific styles that match your existing theme */
+
+    .character-page { display: grid; gap: 1.25rem; }
+
+    .character-hero {
+      background: var(--bg-card);
+      border: 1px solid #252530;
+      border-left: 3px solid var(--element-color, var(--gold-dark));
+      padding: 1.5rem;
+    }
+
+    .character-hero[data-element="fire"] { --element-color: #c41e3a; }
+    .character-hero[data-element="earth"] { --element-color: #b8860b; }
+    .character-hero[data-element="water"] { --element-color: #4169e1; }
+    .character-hero[data-element="wood"] { --element-color: #228b22; }
+    .character-hero[data-element="metal"] { --element-color: #c0c0c0; }
+    .character-hero[data-element="nanman"] { --element-color: #2e8b57; }
+
+    .character-hero h1 {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      font-size: 1.8rem;
+      color: var(--title-cream);
+      font-weight: 600;
+    }
+
+    .character-hero h2 {
+      margin: 0.4rem 0 0;
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 500;
+      color: var(--gold-primary);
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.9rem;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.45rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid #353530;
+      color: var(--text-muted);
+    }
+
+    .tag.unique { border-color: var(--gold-dark); color: var(--gold-light); }
+    .tag.generic { border-color: #353530; color: var(--text-muted); }
+    .tag.male { border-color: #a84f26; color: #a84f26; }
+    .tag.female { border-color: #9966cc; color: #cc99ff; }
+    .tag.element { border-color: var(--element-color, var(--gold-dark)); color: var(--element-color, var(--gold-dark)); text-transform: uppercase; letter-spacing: 0.05em; }
+
+    /* Tabs (multiple selections) */
+    .section-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      background: var(--bg-card);
+      border: 1px solid #252530;
+      padding: 0.75rem;
+    }
+
+    .tab-btn {
+      padding: 0.5rem 0.9rem;
+      background: var(--bg-secondary);
+      border: 1px solid #303035;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .tab-btn.active {
+      background: var(--red-dark);
+      border-color: var(--red-primary);
+      color: var(--title-cream);
+    }
+
+    /* Panels */
+    .panel {
+      background: var(--bg-card);
+      border: 1px solid #252530;
+      padding: 1.25rem 1.5rem;
+      display: none;
+    }
+
+    .panel.active { display: block; }
+
+    /* Portrait */
+    .portrait-wrap {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 1.25rem;
+      align-items: start;
+    }
+
+    .portrait-frame {
+      border: 1px solid #303035;
+      background: rgba(0,0,0,0.35);
+      padding: 0.5rem;
+    }
+
+    .portrait-frame img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .portrait-caption {
+      margin-top: 0.5rem;
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      font-style: italic;
+    }
+
+    /* Effects */
+    .effects-list { display: grid; gap: 0.75rem; }
+    .effect-card {
+      border: 1px solid #303035;
+      background: rgba(255,255,255,0.03);
+      padding: 0.85rem 1rem;
+    }
+    .effect-card .name {
+      font-family: 'Cinzel', serif;
+      color: var(--title-cream);
+      margin: 0 0 0.25rem;
+      font-size: 1rem;
+    }
+    .effect-card .desc {
+      margin: 0;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      font-size: 0.9rem;
+      white-space: pre-wrap;
+    }
+
+    /* Bio */
+    .bio-text {
+      margin: 0;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      white-space: pre-wrap;
+      font-size: 0.95rem;
+    }
+
+    .muted { color: var(--text-secondary); opacity: 0.8; }
+
+    /* Details */
+    .character-details dl {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 0.5rem 1rem;
+    }
+
+    .character-details dt {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .character-details dd {
+      margin: 0;
+      color: var(--text-primary);
+      overflow-wrap: anywhere;
+    }
+
+    code { color: var(--gold-primary); }
+
+    @media (max-width: 860px) {
+      .portrait-wrap { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-bg"></div>
+
+  <header>
+    <nav class="top-nav">
+      <a href="../index.html" class="back-link">← Back to Hub</a>
+    </nav>
+    <div class="header-content">
+      <p class="subtitle">190 Expanded Wiki</p>
+      <h1>Character</h1>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="factions.html">Factions</a></li>
+      <li><a href="characters.html" class="active">Characters</a></li>
+      <li><a href="mechanics.html">Mechanics</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <a class="back-link" href="characters.html">← Back to Characters</a>
+    <section id="character-root" class="character-page"></section>
+  </main>
+
+  <footer>
+    <p>190 Expanded Wiki · Created by Ironic</p>
+  </footer>
+
+    <script src="data/characters.js"></script>
+    <script src="data/character_details.js"></script>
+    <script src="data/character_bios.js"></script>
+
+
+  <script>
+    function escapeHtml(s) {
+      return String(s ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function setActiveTab(root, tabId) {
+      root.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === tabId);
+      });
+      root.querySelectorAll('.panel').forEach(p => {
+        p.classList.toggle('active', p.dataset.panel === tabId);
+      });
+    }
+
+    function renderCharacter(char) {
+      const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
+        ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)
+        : null;
+
+      document.title = `${char.display_name} | 190 Expanded Wiki`;
+
+      const element = char.element || 'unknown';
+
+      // Portrait data
+      const portraitUrl = details?.portrait?.url || '';
+      const portraitAlt = details?.portrait?.alt || `${char.display_name} portrait`;
+      const portraitCaption = details?.portrait?.caption || '';
+
+      // Effects
+      const effects = Array.isArray(details?.effects) ? details.effects : [];
+
+      // Biography
+      const biography = (typeof CHARACTER_BIOS_LOOKUP !== 'undefined'
+        ? (CHARACTER_BIOS_LOOKUP[char.key] || '')
+        : ''
+        ).trim();
+
+      const root = document.getElementById('character-root');
+      root.innerHTML = `
+        <header class="character-hero" data-element="${escapeHtml(element)}">
+          <h1>${escapeHtml(char.display_name)}</h1>
+          ${char.title ? `<h2>${escapeHtml(char.title)}</h2>` : ''}
+
+          <div class="hero-tags">
+            <span class="tag ${char.is_unique ? 'unique' : 'generic'}">
+              ${char.is_unique ? 'Unique' : 'Generic'}
+            </span>
+
+            <span class="tag ${char.is_male ? 'male' : 'female'}">
+              ${char.is_male ? 'Male' : 'Female'}
+            </span>
+
+            <span class="tag element">
+              ${escapeHtml(element)}
+            </span>
+          </div>
+        </header>
+
+        <div class="section-tabs" role="tablist" aria-label="Character Sections">
+          <button class="tab-btn active" data-tab="portrait" type="button">Portrait</button>
+          <button class="tab-btn" data-tab="effects" type="button">Effects</button>
+          <button class="tab-btn" data-tab="biography" type="button">Biography</button>
+        </div>
+
+        <section class="panel active" data-panel="portrait">
+          <div class="portrait-wrap">
+            <div class="portrait-frame">
+              ${
+                portraitUrl
+                  ? `<img src="${escapeHtml(portraitUrl)}" alt="${escapeHtml(portraitAlt)}" />`
+                  : `<div class="muted" style="padding:1rem;">No portrait available.</div>`
+              }
+              ${portraitCaption ? `<div class="portrait-caption">${escapeHtml(portraitCaption)}</div>` : ''}
+            </div>
+
+            <div>
+              <p class="muted">
+                This portrait is loaded from <code>data/character_details.js</code>.
+              </p>
+
+              <div class="character-details" style="margin-top:1rem;">
+                <dl>
+                  <dt>Template Key</dt>
+                  <dd><code>${escapeHtml(char.key)}</code></dd>
+
+                  <dt>Name Key</dt>
+                  <dd><code>${escapeHtml(char.name_key || '')}</code></dd>
+
+                  <dt>Subtype</dt>
+                  <dd>${escapeHtml(char.subtype || '')}</dd>
+
+                  <dt>Birth Year</dt>
+                  <dd>${escapeHtml(char.birth_year || '')}</dd>
+
+                  <dt>Forename</dt>
+                  <dd>${escapeHtml(char.forename || '')}</dd>
+
+                  <dt>Family Name</dt>
+                  <dd>${escapeHtml(char.family_name || '')}</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" data-panel="effects">
+          ${
+            effects.length
+              ? `<div class="effects-list">
+                  ${effects.map(eff => `
+                    <div class="effect-card">
+                      <div class="name">${escapeHtml(eff.name || 'Effect')}</div>
+                      <p class="desc">${escapeHtml(eff.desc || '')}</p>
+                    </div>
+                  `).join('')}
+                </div>`
+              : `<p class="muted">No effects available.</p>`
+          }
+        </section>
+
+        <section class="panel" data-panel="biography">
+          ${
+            biography
+              ? `<p class="bio-text">${escapeHtml(biography)}</p>`
+              : `<p class="muted">No biography available.</p>`
+          }
+        </section>
+      `;
+
+      // Tab click wiring
+      root.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => setActiveTab(root, btn.dataset.tab));
+      });
+    }
+
+    function renderNotFound(key) {
+      document.title = "Character not found | 190 Expanded Wiki";
+      document.getElementById('character-root').innerHTML = `
+        <header class="character-hero">
+          <h1>Character not found</h1>
+          <div class="hero-tags">
+            <span class="tag generic">Missing</span>
+          </div>
+        </header>
+        <section class="panel active" style="display:block;">
+          <p class="muted">No entry for key:</p>
+          <p><code>${escapeHtml(key)}</code></p>
+        </section>
+      `;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const key = params.get('key');
+
+    if (!key) {
+      renderNotFound('(missing key)');
+    } else {
+      const char = (typeof CHARACTER_DATA !== 'undefined')
+        ? CHARACTER_DATA.find(c => c.key === key)
+        : null;
+
+      if (!char) renderNotFound(key);
+      else renderCharacter(char);
+    }
+  </script>
+</body>
+</html>
