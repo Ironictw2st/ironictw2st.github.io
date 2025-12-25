@@ -7,185 +7,439 @@
   <link rel="stylesheet" href="styles/tw3k.css" />
 
   <style>
-    /* Minimal page-specific styles that match your existing theme */
+    /* =========================
+   Element Theme (Muted / TW-style)
+   ========================= */
 
-    .character-page { display: grid; gap: 1.25rem; }
+    .character-page {
+      --theme: #9a8648; /* fallback: aged earth gold */
+      --theme-soft: rgba(154, 134, 72, 0.16);
+      --theme-glow: rgba(154, 134, 72, 0.22);
+    }
 
-    .character-hero {
-      background: var(--bg-card);
+    /* Muted element mappings */
+    .character-page[data-element="water"] {
+      --theme: #4f6f8f;
+      --theme-soft: rgba(79, 111, 143, 0.16);
+      --theme-glow: rgba(79, 111, 143, 0.22);
+    }
+
+    .character-page[data-element="wood"] {
+      --theme: #4f7a55;
+      --theme-soft: rgba(79, 122, 85, 0.16);
+      --theme-glow: rgba(79, 122, 85, 0.22);
+    }
+
+    .character-page[data-element="fire"] {
+      --theme: #8c3a3a;
+      --theme-soft: rgba(140, 58, 58, 0.16);
+      --theme-glow: rgba(140, 58, 58, 0.22);
+    }
+
+    .character-page[data-element="earth"] {
+      --theme: #9a8648;
+      --theme-soft: rgba(154, 134, 72, 0.16);
+      --theme-glow: rgba(154, 134, 72, 0.22);
+    }
+
+    .character-page[data-element="metal"] {
+      --theme: #7a6a99;
+      --theme-soft: rgba(122, 106, 153, 0.16);
+      --theme-glow: rgba(122, 106, 153, 0.22);
+    }
+
+    .character-page[data-element="nanman"] {
+      --theme: #7f8f4a;
+      --theme-soft: rgba(127, 143, 74, 0.16);
+      --theme-glow: rgba(127, 143, 74, 0.22);
+    }
+
+    /* =========================
+       Character Page Layout
+       ========================= */
+
+    .character-page {
+      display: grid;
+      grid-template-columns: 1.6fr 0.9fr;
+      min-height: 800px;
       border: 1px solid #252530;
-      border-left: 3px solid var(--element-color, var(--gold-dark));
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 0 18px var(--theme-glow);
+    }
+
+    /* Left content area */
+    .content-area {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Row 1: Title/Desc + Name/Dates */
+    .row-top {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      border-bottom: 1px solid #252530;
+    }
+
+    /* Row 2: Bio + Effects */
+    .row-bottom {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      flex: 1;
+    }
+
+    /* =========================
+       Portrait column (right)
+       ========================= */
+
+    .portrait-column {
+      background-color: #0a0a0c;
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      border-left: 1px solid #252530;
+      position: relative;
+      min-height: 500px;
+    }
+
+    /* Contain mode - shows full image */
+    .portrait-column.contain-mode {
+      background-size: contain;
+      background-position: center center;
+    }
+
+    .portrait-column::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      background: linear-gradient(to top, rgba(10,10,12,0.9) 0%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .portrait-toggle {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 10;
+      background: rgba(0,0,0,0.7);
+      border: 1px solid rgba(255,255,255,0.18);
+      color: var(--text-muted);
+      padding: 0.3rem 0.5rem;
+      font-size: 0.65rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+    }
+
+    .portrait-toggle:hover {
+      background: rgba(40,40,40,0.9);
+      color: var(--text-secondary);
+      border-color: rgba(255,255,255,0.28);
+    }
+
+    .no-portrait-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: var(--text-muted);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    /* =========================
+       Shared panel styling
+       ========================= */
+
+    .panel {
+      background: var(--bg-card);
       padding: 1.5rem;
     }
 
-    .character-hero[data-element="fire"] { --element-color: #c41e3a; }
-    .character-hero[data-element="earth"] { --element-color: #b8860b; }
-    .character-hero[data-element="water"] { --element-color: #4169e1; }
-    .character-hero[data-element="wood"] { --element-color: #228b22; }
-    .character-hero[data-element="metal"] { --element-color: #c0c0c0; }
-    .character-hero[data-element="nanman"] { --element-color: #2e8b57; }
+    .panel-divider-right {
+      border-right: 1px solid #252530;
+    }
 
-    .character-hero h1 {
-      margin: 0;
+    .panel-divider-bottom {
+      border-bottom: 1px solid #252530;
+    }
+
+    /* =========================
+       Title/Description Panel
+       ========================= */
+
+    .title-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 180px;
+      border-left: 4px solid var(--theme);
+    }
+
+    .char-title {
       font-family: 'Cinzel', serif;
-      font-size: 1.8rem;
-      color: var(--title-cream);
+      font-size: 1.3rem;
       font-weight: 600;
+      color: var(--color, var(--gold-primary)); /* ← USE the variable */
+      margin: 0 0 0.75rem 0;
+      text-shadow: 0 0 6px var(--theme-glow, rgba(0,0,0,0.4));
     }
 
-    .character-hero h2 {
-      margin: 0.4rem 0 0;
-      font-size: 1rem;
+    /* Muted element mappings — char-title ONLY */
+    .char-title[data-element="water"] {
+      --color: #4f6f8f;
+      --theme-glow: rgba(79, 111, 143, 0.22);
+    }
+
+    .char-title[data-element="wood"] {
+      --color: #4f7a55;
+      --theme-glow: rgba(79, 122, 85, 0.22);
+    }
+
+    .char-title[data-element="fire"] {
+      --color: #8c3a3a;
+      --theme-glow: rgba(140, 58, 58, 0.22);
+    }
+
+    .char-title[data-element="earth"] {
+      --color: #9a8648;
+      --theme-glow: rgba(154, 134, 72, 0.22);
+    }
+
+    .char-title[data-element="metal"] {
+      --color: #7a6a99;
+      --theme-glow: rgba(122, 106, 153, 0.22);
+    }
+
+    .char-title[data-element="nanman"] {
+      --color: #7f8f4a;
+      --theme-glow: rgba(127, 143, 74, 0.22);
+    }
+
+
+    .char-description {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin: 0;
       font-style: italic;
-      font-weight: 500;
-      color: var(--gold-primary);
     }
 
-    .hero-tags {
+    .no-title-desc {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* =========================
+       Name/Info Panel
+       ========================= */
+
+    .info-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 180px;
+    }
+
+    .info-panel h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--title-cream);
+      margin: 0 0 0.4rem 0;
+    }
+
+    .char-dates {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      margin: 0 0 1rem 0;
+    }
+
+    .char-tags {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
-      margin-top: 0.9rem;
     }
 
     .tag {
-      font-size: 0.75rem;
-      padding: 0.2rem 0.45rem;
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
       background: rgba(255,255,255,0.04);
       border: 1px solid #353530;
       color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     .tag.unique { border-color: var(--gold-dark); color: var(--gold-light); }
-    .tag.generic { border-color: #353530; color: var(--text-muted); }
-    .tag.male { border-color: #a84f26; color: #a84f26; }
+    .tag.generic { border-color: #353530; }
+    .tag.male { border-color: #6b8cae; color: #8ab4d9; }
     .tag.female { border-color: #9966cc; color: #cc99ff; }
-    .tag.element { border-color: var(--element-color, var(--gold-dark)); color: var(--element-color, var(--gold-dark)); text-transform: uppercase; letter-spacing: 0.05em; }
 
-    /* Tabs (multiple selections) */
-    .section-tabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      background: var(--bg-card);
-      border: 1px solid #252530;
-      padding: 0.75rem;
+    /* Element tag styling to match your screenshot:
+       - transparent/dark background
+       - outlined border in element color
+       - text in element color
+    */
+    .tag.element {
+      background: rgba(0,0,0,0.25);
+      border-color: var(--theme);
+      color: var(--theme);
+      box-shadow: inset 0 0 0 1px rgba(0,0,0,0.35);
     }
 
-    .tab-btn {
-      padding: 0.5rem 0.9rem;
-      background: var(--bg-secondary);
-      border: 1px solid #303035;
-      color: var(--text-secondary);
-      cursor: pointer;
-      transition: all 0.2s;
+    /* =========================
+       Bio Panel
+       ========================= */
+
+    .bio-panel {
+      min-height: 250px;
+    }
+
+    .panel-header {
       font-family: 'Cinzel', serif;
       font-size: 0.8rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .tab-btn.active {
-      background: var(--red-dark);
-      border-color: var(--red-primary);
-      color: var(--title-cream);
-    }
-
-    /* Panels */
-    .panel {
-      background: var(--bg-card);
-      border: 1px solid #252530;
-      padding: 1.25rem 1.5rem;
-      display: none;
-    }
-
-    .panel.active { display: block; }
-
-    /* Portrait */
-    .portrait-wrap {
-      display: grid;
-      grid-template-columns: 260px 1fr;
-      gap: 1.25rem;
-      align-items: start;
-    }
-
-    .portrait-frame {
-      border: 1px solid #303035;
-      background: rgba(0,0,0,0.35);
-      padding: 0.5rem;
-    }
-
-    .portrait-frame img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .portrait-caption {
-      margin-top: 0.5rem;
-      color: var(--text-secondary);
-      font-size: 0.85rem;
-      font-style: italic;
-    }
-
-    /* Effects */
-    .effects-list { display: grid; gap: 0.75rem; }
-    .effect-card {
-      border: 1px solid #303035;
-      background: rgba(255,255,255,0.03);
-      padding: 0.85rem 1rem;
-    }
-    .effect-card .name {
-      font-family: 'Cinzel', serif;
-      color: var(--title-cream);
-      margin: 0 0 0.25rem;
-      font-size: 1rem;
-    }
-    .effect-card .desc {
-      margin: 0;
-      color: var(--text-secondary);
-      line-height: 1.6;
-      font-size: 0.9rem;
-      white-space: pre-wrap;
-    }
-
-    /* Bio */
-    .bio-text {
-      margin: 0;
-      color: var(--text-secondary);
-      line-height: 1.7;
-      white-space: pre-wrap;
-      font-size: 0.95rem;
-    }
-
-    .muted { color: var(--text-secondary); opacity: 0.8; }
-
-    /* Details */
-    .character-details dl {
-      margin: 0;
-      display: grid;
-      grid-template-columns: 180px 1fr;
-      gap: 0.5rem 1rem;
-    }
-
-    .character-details dt {
-      font-family: 'Cinzel', serif;
-      font-size: 0.75rem;
-      color: var(--text-secondary);
+      font-weight: 600;
+      color: var(--theme);
       text-transform: uppercase;
       letter-spacing: 0.1em;
+      margin: 0 0 1rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
     }
 
-    .character-details dd {
+    .bio-text {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      line-height: 1.8;
       margin: 0;
-      color: var(--text-primary);
-      overflow-wrap: anywhere;
+      white-space: pre-wrap;
     }
 
-    code { color: var(--gold-primary); }
+    .no-content {
+      color: var(--text-muted);
+      font-style: italic;
+      font-size: 0.85rem;
+    }
 
-    @media (max-width: 860px) {
-      .portrait-wrap { grid-template-columns: 1fr; }
+    /* =========================
+       Effects Panel
+       ========================= */
+
+    .effects-panel {
+      min-height: 250px;
+      background: rgba(0,0,0,0.15);
+    }
+
+    .effect-category {
+      margin-bottom: 1rem;
+    }
+
+    .effect-category:last-child {
+      margin-bottom: 0;
+    }
+
+    .effect-category-header {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--theme);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0 0 0.4rem 0;
+      padding-bottom: 0.15rem;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+
+    .effect-category-items {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .effect-item {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      padding: 0.15rem 0.25rem;
+      background: rgba(255,255,255,0.03);
+      border-left: 2px solid rgba(255,255,255,0.18);
+    }
+
+    /* Color code by effect group (keep your original intent) */
+    .effect-category:nth-child(1) .effect-item { border-left-color: var(--theme); }
+    .effect-category:nth-child(2) .effect-item { border-left-color: rgba(196,30,58,0.55); }
+    .effect-category:nth-child(3) .effect-item { border-left-color: rgba(34,139,34,0.55); }
+    .effect-category:nth-child(4) .effect-item { border-left-color: rgba(65,105,225,0.55); }
+    .effect-category:nth-child(5) .effect-item { border-left-color: rgba(255,255,255,0.18); }
+
+    /* =========================
+       Technical Details
+       ========================= */
+
+    .tech-details {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid #252530;
+    }
+
+    .tech-details summary {
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      padding: 0.5rem 0;
+    }
+
+    .tech-details dl {
+      margin: 1rem 0 0 0;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 0.3rem 0.75rem;
+      font-size: 0.75rem;
+    }
+
+    .tech-details dt {
+      color: var(--text-muted);
+    }
+
+    .tech-details dd {
+      margin: 0;
+      color: var(--text-secondary);
+      word-break: break-all;
+    }
+
+    .tech-details code {
+      font-size: 0.7rem;
+      color: var(--gold-primary);
+    }
+
+    /* =========================
+       Responsive
+       ========================= */
+
+    @media (max-width: 1000px) {
+      .character-page {
+        grid-template-columns: 1fr;
+      }
+
+      .portrait-column {
+        min-height: 300px;
+        order: -1;
+      }
+
+      .row-top,
+      .row-bottom {
+        grid-template-columns: 1fr;
+      }
+
+      .panel-divider-right {
+        border-right: none;
+        border-bottom: 1px solid #252530;
+      }
     }
   </style>
 </head>
@@ -214,7 +468,7 @@
   </nav>
 
   <main>
-    <a class="back-link" href="characters.html">← Back to Characters</a>
+    <a class="back-link" href="characters.html" style="margin-bottom: 1rem; display: inline-block;">← Back to Characters</a>
     <section id="character-root" class="character-page"></section>
   </main>
 
@@ -222,28 +476,18 @@
     <p>190 Expanded Wiki · Created by Ironic</p>
   </footer>
 
-    <script src="data/characters.js"></script>
-    <script src="data/character_details.js"></script>
-    <script src="data/character_bios.js"></script>
-
+  <script src="data/characters.js"></script>
+  <script src="data/character_details.js"></script>
+  <script src="data/character_bios.js"></script>
 
   <script>
     function escapeHtml(s) {
       return String(s ?? '')
-        .replaceAll('&', '&amp;')
-        .replaceAll('<', '&lt;')
-        .replaceAll('>', '&gt;')
-        .replaceAll('"', '&quot;')
-        .replaceAll("'", '&#039;');
-    }
-
-    function setActiveTab(root, tabId) {
-      root.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.tab === tabId);
-      });
-      root.querySelectorAll('.panel').forEach(p => {
-        p.classList.toggle('active', p.dataset.panel === tabId);
-      });
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
     }
 
     function renderCharacter(char) {
@@ -251,150 +495,238 @@
         ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)
         : null;
 
+      const biography = (typeof CHARACTER_BIOS_LOOKUP !== 'undefined')
+        ? (CHARACTER_BIOS_LOOKUP[char.key] || '')
+        : '';
+
       document.title = `${char.display_name} | 190 Expanded Wiki`;
 
-      const element = char.element || 'unknown';
-
-      // Portrait data
+      const element = (char.element || 'unknown').toLowerCase();
       const portraitUrl = details?.portrait?.url || '';
-      const portraitAlt = details?.portrait?.alt || `${char.display_name} portrait`;
-      const portraitCaption = details?.portrait?.caption || '';
-
-      // Effects
       const effects = Array.isArray(details?.effects) ? details.effects : [];
 
-      // Biography
-      const biography = (typeof CHARACTER_BIOS_LOOKUP !== 'undefined'
-        ? (CHARACTER_BIOS_LOOKUP[char.key] || '')
-        : ''
-        ).trim();
+      // Format birth/death years
+      let dateStr = '';
+      if (char.birth_year) {
+        dateStr = `${char.birth_year} AD`;
+        if (details?.death_year) {
+          dateStr += ` – ${details.death_year} AD`;
+        } else {
+          dateStr += ' – ???';
+        }
+      }
 
       const root = document.getElementById('character-root');
+
+      // Apply element theme to whole page section
+      root.setAttribute('data-element', element);
+
       root.innerHTML = `
-        <header class="character-hero" data-element="${escapeHtml(element)}">
-          <h1>${escapeHtml(char.display_name)}</h1>
-          ${char.title ? `<h2>${escapeHtml(char.title)}</h2>` : ''}
-
-          <div class="hero-tags">
-            <span class="tag ${char.is_unique ? 'unique' : 'generic'}">
-              ${char.is_unique ? 'Unique' : 'Generic'}
-            </span>
-
-            <span class="tag ${char.is_male ? 'male' : 'female'}">
-              ${char.is_male ? 'Male' : 'Female'}
-            </span>
-
-            <span class="tag element">
-              ${escapeHtml(element)}
-            </span>
-          </div>
-        </header>
-
-        <div class="section-tabs" role="tablist" aria-label="Character Sections">
-          <button class="tab-btn active" data-tab="portrait" type="button">Portrait</button>
-          <button class="tab-btn" data-tab="effects" type="button">Effects</button>
-          <button class="tab-btn" data-tab="biography" type="button">Biography</button>
-        </div>
-
-        <section class="panel active" data-panel="portrait">
-          <div class="portrait-wrap">
-            <div class="portrait-frame">
-              ${
-                portraitUrl
-                  ? `<img src="${escapeHtml(portraitUrl)}" alt="${escapeHtml(portraitAlt)}" />`
-                  : `<div class="muted" style="padding:1rem;">No portrait available.</div>`
+        <!-- Left Content Area -->
+        <div class="content-area">
+          <!-- Row 1: Title/Desc + Name/Info -->
+          <div class="row-top">
+            <!-- Title & Description -->
+            <div class="panel panel-divider-right panel-divider-bottom title-panel">
+              ${char.title
+                ? `<h2 class="char-title" data-element="${escapeHtml(element)}">
+                    ${escapeHtml(char.title)}
+                  </h2>
+                  `
+                : ''
               }
-              ${portraitCaption ? `<div class="portrait-caption">${escapeHtml(portraitCaption)}</div>` : ''}
+              ${char.description
+                ? `<p class="char-description">${escapeHtml(char.description)}</p>`
+                : ''
+              }
+              ${!char.title && !char.description
+                ? `<p class="no-title-desc">No title or description available.</p>`
+                : ''
+              }
             </div>
 
-            <div>
-              <p class="muted">
-                This portrait is loaded from <code>data/character_details.js</code>.
-              </p>
-
-              <div class="character-details" style="margin-top:1rem;">
-                <dl>
-                  <dt>Template Key</dt>
-                  <dd><code>${escapeHtml(char.key)}</code></dd>
-
-                  <dt>Name Key</dt>
-                  <dd><code>${escapeHtml(char.name_key || '')}</code></dd>
-
-                  <dt>Subtype</dt>
-                  <dd>${escapeHtml(char.subtype || '')}</dd>
-
-                  <dt>Birth Year</dt>
-                  <dd>${escapeHtml(char.birth_year || '')}</dd>
-
-                  <dt>Forename</dt>
-                  <dd>${escapeHtml(char.forename || '')}</dd>
-
-                  <dt>Family Name</dt>
-                  <dd>${escapeHtml(char.family_name || '')}</dd>
-                </dl>
+            <!-- Name & Info -->
+            <div class="panel panel-divider-bottom info-panel">
+              <h1>${escapeHtml(char.display_name)}</h1>
+              ${dateStr ? `<p class="char-dates">${escapeHtml(dateStr)}</p>` : ''}
+              <div class="char-tags">
+                <span class="tag ${char.is_unique ? 'unique' : 'generic'}">
+                  ${char.is_unique ? 'Unique' : 'Generic'}
+                </span>
+                <span class="tag ${char.is_male ? 'male' : 'female'}">
+                  ${char.is_male ? 'Male' : 'Female'}
+                </span>
+                <span class="tag element">
+                  ${escapeHtml(element)}
+                </span>
               </div>
             </div>
           </div>
-        </section>
 
-        <section class="panel" data-panel="effects">
-          ${
-            effects.length
-              ? `<div class="effects-list">
-                  ${effects.map(eff => `
-                    <div class="effect-card">
-                      <div class="name">${escapeHtml(eff.name || 'Effect')}</div>
-                      <p class="desc">${escapeHtml(eff.desc || '')}</p>
-                    </div>
-                  `).join('')}
-                </div>`
-              : `<p class="muted">No effects available.</p>`
-          }
-        </section>
+          <!-- Row 2: Bio + Effects -->
+          <div class="row-bottom">
+            <!-- Biography -->
+            <div class="panel panel-divider-right bio-panel">
+              <h3 class="panel-header">Biography</h3>
+              ${biography.trim()
+                ? `<p class="bio-text">${escapeHtml(biography)}</p>`
+                : `<p class="no-content">No biography available for this character.</p>`
+              }
 
-        <section class="panel" data-panel="biography">
-          ${
-            biography
-              ? `<p class="bio-text">${escapeHtml(biography)}</p>`
-              : `<p class="muted">No biography available.</p>`
-          }
-        </section>
+              <!-- Technical Details -->
+              <details class="tech-details">
+                <summary>Technical Details</summary>
+                <dl>
+                  <dt>Template Key</dt>
+                  <dd><code>${escapeHtml(char.key)}</code></dd>
+                  <dt>Name Key</dt>
+                  <dd><code>${escapeHtml(char.name_key || '')}</code></dd>
+                  <dt>Subtype</dt>
+                  <dd>${escapeHtml(char.subtype || 'N/A')}</dd>
+                  <dt>Forename</dt>
+                  <dd>${escapeHtml(char.forename || 'N/A')}</dd>
+                  <dt>Family Name</dt>
+                  <dd>${escapeHtml(char.family_name || 'N/A')}</dd>
+                </dl>
+              </details>
+            </div>
+
+            <!-- Effects -->
+            <div class="panel effects-panel">
+              <h3 class="panel-header">Effects</h3>
+              <div id="effects-container"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Portrait Column -->
+        <div class="portrait-column" id="portrait-column" ${portraitUrl ? `style="background-image: url('${escapeHtml(portraitUrl)}')"` : ''}>
+          ${portraitUrl ? '<button class="portrait-toggle" id="portrait-toggle" title="Toggle fit mode">Fit</button>' : ''}
+          ${!portraitUrl ? '<div class="no-portrait-placeholder">No Portrait Available</div>' : ''}
+        </div>
       `;
 
-      // Tab click wiring
-      root.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.addEventListener('click', () => setActiveTab(root, btn.dataset.tab));
+      // Render categorized effects
+      renderEffects(effects);
+
+      // Portrait toggle functionality
+      if (portraitUrl) {
+        const portraitCol = document.getElementById('portrait-column');
+        const toggleBtn = document.getElementById('portrait-toggle');
+
+        const img = new Image();
+        img.onload = function() {
+          const imgRatio = img.width / img.height;
+
+          // If image is much wider than tall (or very extreme), default to contain
+          if (imgRatio > 1.2 || imgRatio < 0.4) {
+            portraitCol.classList.add('contain-mode');
+            toggleBtn.textContent = 'Fill';
+          }
+        };
+        img.src = portraitUrl;
+
+        toggleBtn.addEventListener('click', function() {
+          portraitCol.classList.toggle('contain-mode');
+          toggleBtn.textContent = portraitCol.classList.contains('contain-mode') ? 'Fill' : 'Fit';
+        });
+      }
+    }
+
+    function categorizeEffects(effects) {
+      const categories = {
+        attributes: { label: 'Attributes', items: [], order: 1 },
+        lives: { label: 'Lives', items: [], order: 2 },
+        wealth: { label: 'Wealth', items: [], order: 3 },
+        ai_hint: { label: 'AI Hint', items: [], order: 4 },
+        other: { label: 'Other', items: [], order: 5 }
+      };
+
+      const attributeKeywords = ['instinct', 'resolve', 'cunning', 'expertise', 'authority'];
+
+      effects.forEach(eff => {
+        const name = (eff.name || '').toLowerCase();
+
+        if (attributeKeywords.some(attr => name.includes(attr))) {
+          categories.attributes.items.push(eff);
+        } else if (name.includes('lives') || name.includes('num_lives') || name.includes('life')) {
+          categories.lives.items.push(eff);
+        } else if (name.includes('wealth')) {
+          categories.wealth.items.push(eff);
+        } else if (name.includes('ai_hint') || name.includes('ai hint')) {
+          categories.ai_hint.items.push(eff);
+        } else {
+          categories.other.items.push(eff);
+        }
       });
+
+      return categories;
+    }
+
+    function renderEffects(effects) {
+      const container = document.getElementById('effects-container');
+
+      if (!effects || effects.length === 0) {
+        container.innerHTML = '<p class="no-content">No effects data available.</p>';
+        return;
+      }
+
+      const categories = categorizeEffects(effects);
+      const sortedCategories = Object.values(categories)
+        .filter(cat => cat.items.length > 0)
+        .sort((a, b) => a.order - b.order);
+
+      if (sortedCategories.length === 0) {
+        container.innerHTML = '<p class="no-content">No effects data available.</p>';
+        return;
+      }
+
+      let html = '';
+      sortedCategories.forEach(category => {
+        html += `
+          <div class="effect-category">
+            <h4 class="effect-category-header">${escapeHtml(category.label)}</h4>
+            <div class="effect-category-items">
+              ${category.items.map(eff => {
+                const name = eff.name || 'Effect';
+                return `<div class="effect-item">${escapeHtml(name)}</div>`;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      });
+
+      container.innerHTML = html;
     }
 
     function renderNotFound(key) {
       document.title = "Character not found | 190 Expanded Wiki";
       document.getElementById('character-root').innerHTML = `
-        <header class="character-hero">
-          <h1>Character not found</h1>
-          <div class="hero-tags">
-            <span class="tag generic">Missing</span>
+        <div class="content-area" style="grid-column: 1 / -1;">
+          <div class="panel title-panel" style="min-height: 200px;">
+            <h2 class="char-title">Character Not Found</h2>
+            <p class="char-description">No character exists with the key: <code>${escapeHtml(key)}</code></p>
           </div>
-        </header>
-        <section class="panel active" style="display:block;">
-          <p class="muted">No entry for key:</p>
-          <p><code>${escapeHtml(key)}</code></p>
-        </section>
+        </div>
       `;
     }
 
+    // Initialize
     const params = new URLSearchParams(window.location.search);
     const key = params.get('key');
 
     if (!key) {
-      renderNotFound('(missing key)');
+      renderNotFound('(no key provided)');
     } else {
       const char = (typeof CHARACTER_DATA !== 'undefined')
         ? CHARACTER_DATA.find(c => c.key === key)
         : null;
 
-      if (!char) renderNotFound(key);
-      else renderCharacter(char);
+      if (!char) {
+        renderNotFound(key);
+      } else {
+        renderCharacter(char);
+      }
     }
   </script>
 </body>

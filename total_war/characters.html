@@ -118,12 +118,16 @@
             box-shadow: 0 4px 16px rgba(0,0,0,0.3);
         }
 
-        .character-card[data-element="fire"] { --element-color: #c41e3a; }
-        .character-card[data-element="earth"] { --element-color: #b8860b; }
-        .character-card[data-element="water"] { --element-color: #4169e1; }
-        .character-card[data-element="wood"] { --element-color: #228b22; }
-        .character-card[data-element="metal"] { --element-color: #c0c0c0; }
-        .character-card[data-element="nanman"] { --element-color: #2e8b57; }
+        /* Muted TW-style element colors (match character.html) */
+        .character-card[data-element="water"]  { --element-color: #4f6f8f; }
+        .character-card[data-element="wood"]   { --element-color: #4f7a55; }
+        .character-card[data-element="fire"]   { --element-color: #8c3a3a; }
+        .character-card[data-element="earth"]  { --element-color: #9a8648; }
+        .character-card[data-element="metal"]  { --element-color: #7a6a99; }
+        .character-card[data-element="nanman"] { --element-color: #7f8f4a; }
+        .character-card[data-element="unknown"] { --element-color: var(--gold-dark); }
+
+
 
         .character-header {
             display: flex;
@@ -292,6 +296,7 @@
         .element-btn[data-element="water"] { --element-color: #4169e1; }
         .element-btn[data-element="wood"] { --element-color: #228b22; }
         .element-btn[data-element="metal"] { --element-color: #c0c0c0; }
+        .element-btn[data-element="nanman"] { --element-color: #7f8f4a; }
         .element-btn[data-element="all"] { --element-color: var(--gold-primary); }
 
         .element-dot {
@@ -412,6 +417,10 @@
                 <span class="element-dot"></span>
                 Metal <span class="count" id="count-metal"></span>
             </button>
+            <button class="element-btn" data-element="nanman">
+                <span class="element-dot"></span>
+                Nanman <span class="count" id="count-nanman"></span>
+            </button>
         </div>
 
         <!-- Filters -->
@@ -498,6 +507,7 @@
             document.getElementById('count-water').textContent = `(${CHARACTER_STATS.byElement.water})`;
             document.getElementById('count-wood').textContent = `(${CHARACTER_STATS.byElement.wood})`;
             document.getElementById('count-metal').textContent = `(${CHARACTER_STATS.byElement.metal})`;
+            document.getElementById('count-nanman').textContent = `(${CHARACTER_STATS.byElement.nanman})`;
         }
 
         function setupEventListeners() {
@@ -657,6 +667,7 @@
             grid.innerHTML = filtered.map(char => `
                     <article class="character-card"
                             data-key="${char.key}"
+                            data-element="${(char.element || 'unknown').toLowerCase()}"
                             tabindex="0"
                             role="link"
                             aria-label="Open ${char.display_name}">

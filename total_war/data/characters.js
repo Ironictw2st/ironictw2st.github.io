@@ -1,5 +1,5 @@
 // Auto-generated character data for 190 Expanded Wiki
-// Total characters: 1072
+// Total characters: 1566
 
 const CHARACTER_DATA = [
   {
@@ -31,6 +31,20 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "ep_template_historical_bai_jin_hero_fire_jiangxia",
+    "name_key": "bai_jin",
+    "display_name": "Bai Jin",
+    "forename": "Jin",
+    "family_name": "Bai",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "271"
+  },
+  {
     "key": "3k_dlc04_template_historical_bao_dan_water",
     "name_key": "bao_dan",
     "display_name": "Bao Dan",
@@ -59,6 +73,20 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "ep_template_historical_bao_luan_hero_fire",
+    "name_key": "bao_luan",
+    "display_name": "Bao Luan",
+    "forename": "Luan",
+    "family_name": "Bao",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "261"
+  },
+  {
     "key": "ironic_template_historical_bao_tao_hero_fire",
     "name_key": "bao_tao",
     "display_name": "Bao Tao",
@@ -71,6 +99,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162"
+  },
+  {
+    "key": "ep_template_historical_bao_xiangru_hero_fire",
+    "name_key": "bao_xiangru",
+    "display_name": "Bao Xiangru",
+    "forename": "Xiangru",
+    "family_name": "Bao",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "269"
   },
   {
     "key": "3k_main_template_historical_bao_xin_hero_metal",
@@ -213,6 +255,20 @@ const CHARACTER_DATA = [
     "birth_year": "163"
   },
   {
+    "key": "3k_dlc04_template_historical_bi_lan_water",
+    "name_key": "bi_lan",
+    "display_name": "Bi Lan",
+    "forename": "Lan",
+    "family_name": "Bi",
+    "title": "Architect of the Southern Palace",
+    "description": "Once complete, the Anterior Pavillion will be a delight to behold – it'll even have a water feature!",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "141"
+  },
+  {
     "key": "ironic_template_historical_bian_baozhai_hero_earth",
     "name_key": "bian_baozhai",
     "display_name": "Bian Baozhai",
@@ -225,6 +281,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "178"
+  },
+  {
+    "key": "ep_template_historical_bian_bing_hero_wood",
+    "name_key": "bian_bing",
+    "display_name": "Bian Bing",
+    "forename": "Bing",
+    "family_name": "Bian",
+    "title": "Labourer",
+    "description": "They toil so that others don't have to, presumably. It is the order of things.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "266"
   },
   {
     "key": "ironic_template_historical_bian_hong_hero_wood",
@@ -337,6 +407,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "150"
+  },
+  {
+    "key": "ep_template_historical_bu_ci_hero_metal",
+    "name_key": "bu_ci",
+    "display_name": "Bu Ci",
+    "forename": "Ci",
+    "family_name": "Bu",
+    "title": "Trader",
+    "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "269"
+  },
+  {
+    "key": "3k_main_template_historical_bu_ji_hero_fire",
+    "name_key": "bu_ji",
+    "display_name": "Bu Ji",
+    "forename": "Ji",
+    "family_name": "Bu",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "216"
+  },
+  {
+    "key": "ep_template_historical_bu_jun_hero_fire",
+    "name_key": "bu_jun",
+    "display_name": "Bu Jun",
+    "forename": "Jun",
+    "family_name": "Bu",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
   },
   {
     "key": "3k_main_template_historical_lady_bu_lianshi_hero_wood",
@@ -463,6 +575,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "166"
+  },
+  {
+    "key": "3k_main_template_historical_lady_cai_yan_hero_water",
+    "name_key": "cai_yan",
+    "display_name": "Cai Yan",
+    "forename": "Yan",
+    "family_name": "Cai",
+    "title": "The Nightingale",
+    "description": "Even the morningsong that drifts on the wind cannot compare to the sweet lyric of the muse.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "177"
   },
   {
     "key": "ironic_template_historical_cai_yan_m_hero_earth",
@@ -605,6 +731,34 @@ const CHARACTER_DATA = [
     "birth_year": "195"
   },
   {
+    "key": "3k_main_template_historical_cao_cao_hero_earth",
+    "name_key": "cao_cao",
+    "display_name": "Cao Cao",
+    "forename": "Cao",
+    "family_name": "Cao",
+    "title": "Strategic Mastermind",
+    "description": "The wily Cao Cao sees opportunity in the hardships of others, skewing things to his advantage.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "155"
+  },
+  {
+    "key": "3k_main_template_historical_cao_chong_hero_water",
+    "name_key": "cao_chong",
+    "display_name": "Cao Chong",
+    "forename": "Chong",
+    "family_name": "Cao",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "196"
+  },
+  {
     "key": "3k_main_template_historical_cao_chun_hero_fire",
     "name_key": "cao_chun",
     "display_name": "Cao Chun",
@@ -631,6 +785,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158"
+  },
+  {
+    "key": "3k_dlc04_template_historical_cao_ding_fire",
+    "name_key": "cao_ding",
+    "display_name": "Cao Ding",
+    "forename": "Ding",
+    "family_name": "Cao",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "124"
+  },
+  {
+    "key": "3k_main_template_historical_cao_fan_hero_earth",
+    "name_key": "cao_fan",
+    "display_name": "Cao Fan",
+    "forename": "Fan",
+    "family_name": "Cao",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "190"
   },
   {
     "key": "3k_main_template_historical_cao_hong_hero_wood",
@@ -661,6 +843,20 @@ const CHARACTER_DATA = [
     "birth_year": "151"
   },
   {
+    "key": "ep_template_historical_cao_huan_hero_earth",
+    "name_key": "cao_huan",
+    "display_name": "Cao Huan",
+    "forename": "Huan",
+    "family_name": "Cao",
+    "title": "Peacekeeper",
+    "description": "Conflict must be prevented by any means necessary.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "246"
+  },
+  {
     "key": "3k_main_template_historical_lady_cao_jie_hero_earth",
     "name_key": "cao_jie",
     "display_name": "Cao Jie",
@@ -675,6 +871,34 @@ const CHARACTER_DATA = [
     "birth_year": "197"
   },
   {
+    "key": "3k_main_template_historical_cao_jun_hero_earth",
+    "name_key": "cao_jun",
+    "display_name": "Cao Jun",
+    "forename": "Jun",
+    "family_name": "Cao",
+    "title": "Scout",
+    "description": "Ranging forward, this general guards the troops against threats from without.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "219"
+  },
+  {
+    "key": "3k_main_template_historical_cao_pi_hero_earth",
+    "name_key": "cao_pi",
+    "display_name": "Cao Pi",
+    "forename": "Pi",
+    "family_name": "Cao",
+    "title": "Political Animal",
+    "description": "In war, you can only be killed once, but in politics, many times.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "187"
+  },
+  {
     "key": "ironic_template_historical_cao_qinghe_hero_earth",
     "name_key": "cao_qinghe",
     "display_name": "Cao Qinghe",
@@ -687,6 +911,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "176"
+  },
+  {
+    "key": "3k_main_template_historical_cao_ren_hero_earth",
+    "name_key": "cao_ren",
+    "display_name": "Cao Ren",
+    "forename": "Ren",
+    "family_name": "Cao",
+    "title": "Brave Hunter",
+    "description": "The skills of a fearless outdoorsman – horse-riding, archery, and hunting – make Cao Ren a valued battlefield ally.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "168"
   },
   {
     "key": "3k_main_template_historical_cao_rui_hero_earth",
@@ -773,6 +1011,20 @@ const CHARACTER_DATA = [
     "birth_year": "175"
   },
   {
+    "key": "3k_main_template_historical_cao_yan_hero_fire",
+    "name_key": "cao_yan",
+    "display_name": "Cao Yan",
+    "forename": "Yan",
+    "family_name": "Cao",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "204"
+  },
+  {
     "key": "3k_main_template_historical_cao_zhang_hero_wood",
     "name_key": "cao_zhang",
     "display_name": "Cao Zhang",
@@ -813,6 +1065,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "192"
+  },
+  {
+    "key": "ep_template_historical_chai_chang_hero_earth",
+    "name_key": "chai_chang",
+    "display_name": "Chai Chang",
+    "forename": "Chang",
+    "family_name": "Chai",
+    "title": "Scout",
+    "description": "Ranging forward, this general guards the troops against threats from without.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
+  },
+  {
+    "key": "3k_main_template_historical_chang_diao_hero_metal",
+    "name_key": "chang_diao",
+    "display_name": "Chang Diao",
+    "forename": "Diao",
+    "family_name": "Chang",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "182"
+  },
+  {
+    "key": "3k_main_template_historical_chang_lin_hero_water",
+    "name_key": "chang_lin",
+    "display_name": "Chang Lin",
+    "forename": "Lin",
+    "family_name": "Chang",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
   },
   {
     "key": "3k_main_template_historical_chang_xi_hero_wood",
@@ -913,6 +1207,20 @@ const CHARACTER_DATA = [
     "birth_year": "145"
   },
   {
+    "key": "3k_main_template_historical_chen_biao_hero_water",
+    "name_key": "chen_biao",
+    "display_name": "Chen Biao",
+    "forename": "Biao",
+    "family_name": "Chen",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "204"
+  },
+  {
     "key": "ironic_template_historical_chen_ce_hero_metal",
     "name_key": "chen_ce",
     "display_name": "Chen Ce",
@@ -955,6 +1263,20 @@ const CHARACTER_DATA = [
     "birth_year": "163"
   },
   {
+    "key": "3k_dlc04_template_historical_chen_dan_hangong_metal",
+    "name_key": "chen_dan_hangong",
+    "display_name": "Chen Dan",
+    "forename": "Dan",
+    "family_name": "Chen",
+    "title": "Agent",
+    "description": "I am charged with a duty that I am honour-bound to prosecute. Stand aside.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "144"
+  },
+  {
     "key": "ironic_template_historical_chen_dao_hero_earth",
     "name_key": "chen_dao",
     "display_name": "Chen Dao",
@@ -983,6 +1305,20 @@ const CHARACTER_DATA = [
     "birth_year": "170"
   },
   {
+    "key": "3k_main_template_historical_chen_di_hero_water",
+    "name_key": "chen_di",
+    "display_name": "Chen Di",
+    "forename": "Di",
+    "family_name": "Chen",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "202"
+  },
+  {
     "key": "ironic_template_historical_chen_duan_hero_earth",
     "name_key": "chen_duan",
     "display_name": "Chen Duan",
@@ -1009,6 +1345,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "165"
+  },
+  {
+    "key": "3k_main_template_historical_chen_gong_hero_water",
+    "name_key": "chen_gong",
+    "display_name": "Chen Gong",
+    "forename": "Gong",
+    "family_name": "Chen",
+    "title": "Master Magistrate",
+    "description": "Chen Gong knows that even great men are imperfect, and righteousness is often not immediately obvious.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154"
   },
   {
     "key": "3k_dlc_04_template_historical_chen_gui_water",
@@ -1207,6 +1557,20 @@ const CHARACTER_DATA = [
     "birth_year": "211"
   },
   {
+    "key": "3k_main_template_historical_chen_rong_hero_earth",
+    "name_key": "chen_rong",
+    "display_name": "Chen Rong",
+    "forename": "Rong",
+    "family_name": "Chen",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "144"
+  },
+  {
     "key": "ironic_template_historical_chen_sheng_hero_wood",
     "name_key": "chen_sheng",
     "display_name": "Chen Sheng",
@@ -1347,6 +1711,20 @@ const CHARACTER_DATA = [
     "birth_year": "198"
   },
   {
+    "key": "3k_main_template_historical_chen_zheng_hero_fire",
+    "name_key": "chen_zheng",
+    "display_name": "Chen Zheng",
+    "forename": "Zheng",
+    "family_name": "Chen",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "201"
+  },
+  {
     "key": "3k_main_template_historical_chen_zhi_hero_fire",
     "name_key": "chen_zhi",
     "display_name": "Chen Zhi",
@@ -1389,6 +1767,20 @@ const CHARACTER_DATA = [
     "birth_year": "153"
   },
   {
+    "key": "3k_main_template_historical_cheng_ji_hero_fire",
+    "name_key": "cheng_ji",
+    "display_name": "Cheng Ji",
+    "forename": "Ji",
+    "family_name": "Cheng",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "206"
+  },
+  {
     "key": "ironic_template_historical_cheng_ji_hero_fire",
     "name_key": "cheng_ji",
     "display_name": "Cheng Ji",
@@ -1403,6 +1795,20 @@ const CHARACTER_DATA = [
     "birth_year": "158"
   },
   {
+    "key": "3k_main_template_historical_cheng_pu_hero_metal",
+    "name_key": "cheng_pu",
+    "display_name": "Cheng Pu",
+    "forename": "Pu",
+    "family_name": "Cheng",
+    "title": "Bandit Killer",
+    "description": "'The General of the Household Who Defeats Bandits' is living proof that bravery can overcome adversity.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154"
+  },
+  {
     "key": "3k_dlc04_template_historical_cheng_qiu_water",
     "name_key": "cheng_qiu",
     "display_name": "Cheng Qiu",
@@ -1415,6 +1821,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "149"
+  },
+  {
+    "key": "3k_main_template_historical_cheng_xu_hero_water",
+    "name_key": "cheng_xu",
+    "display_name": "Cheng Xu",
+    "forename": "Xu",
+    "family_name": "Cheng",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "152"
   },
   {
     "key": "3k_main_template_historical_cheng_yi_hero_wood",
@@ -1543,6 +1963,20 @@ const CHARACTER_DATA = [
     "birth_year": "174"
   },
   {
+    "key": "3k_main_template_historical_chunyu_qiong_hero_fire",
+    "name_key": "chunyu_qiong",
+    "display_name": "Chunyu Qiong",
+    "forename": "Qiong",
+    "family_name": "Chunyu",
+    "title": "Drunken Incompetent",
+    "description": "Whatever Chunyu Qiong suggests, do the opposite.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "145"
+  },
+  {
     "key": "ironic_template_historical_chunyu_shi_hero_metal",
     "name_key": "chunyu_shi",
     "display_name": "Chunyu Shi",
@@ -1613,6 +2047,20 @@ const CHARACTER_DATA = [
     "birth_year": "164"
   },
   {
+    "key": "3k_main_template_historical_cui_lin_hero_water",
+    "name_key": "cui_lin",
+    "display_name": "Cui Lin",
+    "forename": "Lin",
+    "family_name": "Cui",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "189"
+  },
+  {
     "key": "3k_main_template_historical_cui_yan_hero_water",
     "name_key": "cui_yan",
     "display_name": "Cui Yan",
@@ -1625,6 +2073,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "163"
+  },
+  {
+    "key": "3k_main_template_historical_lady_da_qiao_hero_earth",
+    "name_key": "da_qiao",
+    "display_name": "Da Qiao",
+    "forename": "Qiao",
+    "family_name": "Da",
+    "title": "Daughter of the Southlands",
+    "description": "The south produces boons to its nobles: two daughters, fair of mind and strong of resolve.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "177"
   },
   {
     "key": "ironic_template_historical_dai_liang_hero_water",
@@ -1753,6 +2215,20 @@ const CHARACTER_DATA = [
     "birth_year": "154"
   },
   {
+    "key": "3k_main_template_historical_deng_ju_hero_fire",
+    "name_key": "deng_ju",
+    "display_name": "Deng Ju",
+    "forename": "Ju",
+    "family_name": "Deng",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "219"
+  },
+  {
     "key": "ironic_template_historical_deng_kai_hero_earth",
     "name_key": "deng_kai",
     "display_name": "Deng Kai",
@@ -1793,6 +2269,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "157"
+  },
+  {
+    "key": "3k_dlc04_template_historical_deng_sheng_boneng_fire",
+    "name_key": "deng_sheng_boneng",
+    "display_name": "Deng Sheng",
+    "forename": "Sheng",
+    "family_name": "Deng",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "137"
   },
   {
     "key": "3k_main_template_historical_deng_sheng_hero_fire",
@@ -1851,6 +2341,20 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "3k_main_template_historical_deng_yang_hero_fire",
+    "name_key": "deng_yang",
+    "display_name": "Deng Yang",
+    "forename": "Yang",
+    "family_name": "Deng",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "202"
+  },
+  {
     "key": "3k_main_template_historical_deng_yuan_hero_earth",
     "name_key": "deng_yuan",
     "display_name": "Deng Yuan",
@@ -1893,6 +2397,34 @@ const CHARACTER_DATA = [
     "birth_year": "209"
   },
   {
+    "key": "3k_main_template_historical_dian_wei_hero_wood",
+    "name_key": "dian_wei",
+    "display_name": "Dian Wei",
+    "forename": "Wei",
+    "family_name": "Dian",
+    "title": "Brute of Unmatched Power",
+    "description": "Such prowess! This is old Elai again!",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "160"
+  },
+  {
+    "key": "3k_main_template_historical_lady_diao_chan_hero_water",
+    "name_key": "diao_chan",
+    "display_name": "Diaochan",
+    "forename": "",
+    "family_name": "Diaochan",
+    "title": "Deadly Beauty",
+    "description": "Diao Chan uses her enchanting beauty to hide her ambition; one which can topple tyrants.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "172"
+  },
+  {
     "key": "ironic_template_historical_ding_fan_hero_earth",
     "name_key": "ding_fan",
     "display_name": "Ding Fan",
@@ -1921,6 +2453,20 @@ const CHARACTER_DATA = [
     "birth_year": "215"
   },
   {
+    "key": "3k_main_template_historical_ding_yi_hero_water",
+    "name_key": "ding_yi",
+    "display_name": "Ding Yi",
+    "forename": "Yi",
+    "family_name": "Ding",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "169"
+  },
+  {
     "key": "3k_dlc04_template_historical_ding_yuan_wood",
     "name_key": "ding_yuan",
     "display_name": "Ding Yuan",
@@ -1933,6 +2479,104 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "135"
+  },
+  {
+    "key": "3k_main_template_historical_dong_bai_hero_fire",
+    "name_key": "dong_bai",
+    "display_name": "Dong Ba",
+    "forename": "Ba",
+    "family_name": "Dong",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "154"
+  },
+  {
+    "key": "3k_main_template_historical_dong_bai_hero_metal",
+    "name_key": "dong_bai",
+    "display_name": "Dong Bai",
+    "forename": "Bai",
+    "family_name": "Dong",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "178"
+  },
+  {
+    "key": "3k_main_template_historical_dong_bi_hero_fire",
+    "name_key": "dong_bi",
+    "display_name": "Dong Bi",
+    "forename": "Bi",
+    "family_name": "Dong",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "195"
+  },
+  {
+    "key": "3k_main_template_historical_dong_chao_hero_fire",
+    "name_key": "dong_chao",
+    "display_name": "Dong Chao",
+    "forename": "Chao",
+    "family_name": "Dong",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "193"
+  },
+  {
+    "key": "3k_main_template_historical_dong_cheng_hero_fire",
+    "name_key": "dong_cheng",
+    "display_name": "Dong Cheng",
+    "forename": "Cheng",
+    "family_name": "Dong",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "145"
+  },
+  {
+    "key": "3k_dlc04_template_historical_dong_zhong_metal",
+    "name_key": "dong_zhong",
+    "display_name": "Dong Chong",
+    "forename": "Chong",
+    "family_name": "Dong",
+    "title": "Clerk",
+    "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "136"
+  },
+  {
+    "key": "3k_main_template_historical_dong_feng_hero_wood",
+    "name_key": "dong_feng",
+    "display_name": "Dong Feng",
+    "forename": "Feng",
+    "family_name": "Dong",
+    "title": "Filial & Pious",
+    "description": "Respect for parents, elders, and ancestors is the root of all virtue, the stem from which all moral teachings grow.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "220"
   },
   {
     "key": "ironic_template_historical_dong_fu_hero_water",
@@ -1963,6 +2607,34 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "3k_main_template_historical_dong_heng_hero_fire",
+    "name_key": "dong_heng",
+    "display_name": "Dong Heng",
+    "forename": "Heng",
+    "family_name": "Dong",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "184"
+  },
+  {
+    "key": "3k_main_template_historical_dong_huang_hero_fire",
+    "name_key": "dong_huang",
+    "display_name": "Dong Huang",
+    "forename": "Huang",
+    "family_name": "Dong",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "161"
+  },
+  {
     "key": "3k_main_template_generated_lady_dong_li_hero_metal",
     "name_key": "dong_li",
     "display_name": "Dong Li",
@@ -1975,6 +2647,34 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "172"
+  },
+  {
+    "key": "3k_main_template_historical_dong_min_hero_earth",
+    "name_key": "dong_min",
+    "display_name": "Dong Min",
+    "forename": "Min",
+    "family_name": "Dong",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "143"
+  },
+  {
+    "key": "3k_main_template_historical_lady_dong_peishan_hero_earth",
+    "name_key": "dong_peishan",
+    "display_name": "Dong Peishan",
+    "forename": "Peishan",
+    "family_name": "Dong",
+    "title": "Magistrate",
+    "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "148"
   },
   {
     "key": "3k_main_template_historical_dong_xi_hero_fire",
@@ -1991,6 +2691,20 @@ const CHARACTER_DATA = [
     "birth_year": "166"
   },
   {
+    "key": "3k_main_template_historical_dong_yue_hero_fire",
+    "name_key": "dong_yue",
+    "display_name": "Dong Yue",
+    "forename": "Yue",
+    "family_name": "Dong",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "157"
+  },
+  {
     "key": "3k_main_template_historical_dong_yun_hero_water",
     "name_key": "dong_yun",
     "display_name": "Dong Yun",
@@ -2003,6 +2717,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "215"
+  },
+  {
+    "key": "3k_main_template_historical_dong_zhao_hero_water",
+    "name_key": "dong_zhao",
+    "display_name": "Dong Zhao",
+    "forename": "Zhao",
+    "family_name": "Dong",
+    "title": "Perfectly Cromulent",
+    "description": "A noble spirit embiggens the smallest man.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "156"
+  },
+  {
+    "key": "3k_main_template_historical_dong_zhuo_hero_fire",
+    "name_key": "dong_zhuo",
+    "display_name": "Dong Zhuo",
+    "forename": "Zhuo",
+    "family_name": "Dong",
+    "title": "Cruel Tyrant",
+    "description": "Consumed by his hunger for power, Dong Zhuo's despotism knows no bounds.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "138"
   },
   {
     "key": "3k_dlc06_template_historical_dongtuna_hero_nanman",
@@ -2019,6 +2761,20 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "3k_main_template_historical_dou_fu_hero_fire",
+    "name_key": "dou_fu",
+    "display_name": "Dou Fu",
+    "forename": "Fu",
+    "family_name": "Dou",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "167"
+  },
+  {
     "key": "ironic_template_historical_duo_mao_hero_wood",
     "name_key": "duo_mao",
     "display_name": "Dou Mao",
@@ -2031,6 +2787,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159"
+  },
+  {
+    "key": "ep_template_historical_du_cha_hero_water",
+    "name_key": "du_cha",
+    "display_name": "Du Cha",
+    "forename": "Cha",
+    "family_name": "Du",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
   },
   {
     "key": "3k_main_template_historical_du_ji_hero_fire",
@@ -2075,6 +2845,20 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "3k_main_template_historical_du_shu_hero_fire",
+    "name_key": "du_shu",
+    "display_name": "Du Shu",
+    "forename": "Shu",
+    "family_name": "Du",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "198"
+  },
+  {
     "key": "ironic_template_historical_du_song_hero_water",
     "name_key": "du_song",
     "display_name": "Du Song",
@@ -2089,6 +2873,34 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "3k_dlc04_template_historical_duan_gui_ziyin_fire",
+    "name_key": "duan_gui_ziyin",
+    "display_name": "Duan Gui",
+    "forename": "Gui",
+    "family_name": "Duan",
+    "title": "Enforcer",
+    "description": "I've heard that bandits have been abroad around these parts recently. Me? No, I know nothing about such things...",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "138"
+  },
+  {
+    "key": "3k_main_template_historical_duan_wei_hero_fire",
+    "name_key": "duan_wei",
+    "display_name": "Duan Wei",
+    "forename": "Wei",
+    "family_name": "Duan",
+    "title": "Dignified Patrician",
+    "description": "The noble Duan Wei attempts to maintain an aura of dignity and honour in a difficult enviornment.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "158"
+  },
+  {
     "key": "3k_dlc06_template_historical_king_duosi_hero_nanman",
     "name_key": "king_duosi",
     "display_name": "Duosi",
@@ -2101,6 +2913,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "171"
+  },
+  {
+    "key": "3k_dlc04_template_historical_empress_he_fire",
+    "name_key": "empress_he",
+    "display_name": "Empress He",
+    "forename": "",
+    "family_name": "Empress He",
+    "title": "Subtle Manipulator",
+    "description": "Always plotting, always scheming, always something beneath the obvious. Always.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "152"
+  },
+  {
+    "key": "3k_main_template_historical_fa_zheng_hero_water",
+    "name_key": "fa_zheng",
+    "display_name": "Fa Zheng",
+    "forename": "Zheng",
+    "family_name": "Fa",
+    "title": "Vindictive Strategist",
+    "description": "The intelligent and vengeful Fa Zheng should not be crossed, lest you become the target of his deadly schemes.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "176"
   },
   {
     "key": "3k_main_template_historical_fan_chou_hero_fire",
@@ -2187,6 +3027,20 @@ const CHARACTER_DATA = [
     "birth_year": "159"
   },
   {
+    "key": "3k_main_template_historical_fan_qin_hero_water",
+    "name_key": "fan_qin",
+    "display_name": "Fan Qin",
+    "forename": "Qin",
+    "family_name": "Fan",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "179"
+  },
+  {
     "key": "ironic_template_historical_fan_xian_hero_earth",
     "name_key": "fan_xian",
     "display_name": "Fan Xian",
@@ -2227,6 +3081,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "165"
+  },
+  {
+    "key": "ep_template_historical_fan_zhou_hero_water",
+    "name_key": "fan_zhou",
+    "display_name": "Fan Zhou",
+    "forename": "Zhou",
+    "family_name": "Fan",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "259"
   },
   {
     "key": "ironic_template_historical_fang_yue_hero_wood",
@@ -2369,6 +3237,20 @@ const CHARACTER_DATA = [
     "birth_year": "139"
   },
   {
+    "key": "3k_main_template_historical_feng_li_hero_fire",
+    "name_key": "feng_li",
+    "display_name": "Feng Li",
+    "forename": "Li",
+    "family_name": "Feng",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "167"
+  },
+  {
     "key": "3k_main_template_historical_feng_shuo_hero_water",
     "name_key": "feng_shuo",
     "display_name": "Feng Shuo",
@@ -2409,6 +3291,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "175"
+  },
+  {
+    "key": "3k_main_template_historical_fu_jia_hero_water",
+    "name_key": "fu_jia",
+    "display_name": "Fu Jia",
+    "forename": "Jia",
+    "family_name": "Fu",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209"
   },
   {
     "key": "3k_main_template_historical_fu_qian_hero_fire",
@@ -2453,6 +3349,34 @@ const CHARACTER_DATA = [
     "birth_year": "180"
   },
   {
+    "key": "3k_main_template_historical_fu_shou_hero_earth",
+    "name_key": "fu_shou",
+    "display_name": "Fu Shou",
+    "forename": "Shou",
+    "family_name": "Fu",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "180"
+  },
+  {
+    "key": "3k_main_template_historical_fu_wan_hero_water",
+    "name_key": "fu_wan",
+    "display_name": "Fu Wan",
+    "forename": "Wan",
+    "family_name": "Fu",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "167"
+  },
+  {
     "key": "3k_dlc04_template_historical_fu_xie_nanrong_wood",
     "name_key": "fu_xie_nanrong",
     "display_name": "Fu Xie",
@@ -2465,6 +3389,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "139"
+  },
+  {
+    "key": "3k_main_template_historical_fu_xuan_hero_fire",
+    "name_key": "fu_xuan",
+    "display_name": "Fu Xuan",
+    "forename": "Xuan",
+    "family_name": "Fu",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "217"
   },
   {
     "key": "ironic_template_historical_fu_xun_hero_water",
@@ -2495,6 +3433,20 @@ const CHARACTER_DATA = [
     "birth_year": "167"
   },
   {
+    "key": "3k_main_template_historical_gan_ji_hero_earth",
+    "name_key": "gan_ji",
+    "display_name": "Gan Ji",
+    "forename": "Ji",
+    "family_name": "Gan",
+    "title": "Outsider",
+    "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "156"
+  },
+  {
     "key": "3k_main_template_historical_gan_li_hero_metal",
     "name_key": "gan_li",
     "display_name": "Gan Li",
@@ -2521,6 +3473,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "174"
+  },
+  {
+    "key": "3k_main_template_historical_gan_ning_hero_fire",
+    "name_key": "gan_ning",
+    "display_name": "Gan Ning",
+    "forename": "Ning",
+    "family_name": "Gan",
+    "title": "Pirate of the Bells",
+    "description": "Cao Cao may have Zhang Liao, but I have Gan Ning! Thus we are evenly matched.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "172"
   },
   {
     "key": "ironic_template_historical_ganwigeo_hero_fire",
@@ -2593,6 +3559,20 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "3k_main_template_historical_gao_lu_hero_fire",
+    "name_key": "gao_lu",
+    "display_name": "Gao Lü",
+    "forename": "Lü",
+    "family_name": "Gao",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "186"
+  },
+  {
     "key": "3k_main_template_historical_gao_pei_hero_fire",
     "name_key": "gao_pei",
     "display_name": "Gao Pei",
@@ -2605,6 +3585,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "164"
+  },
+  {
+    "key": "3k_main_template_historical_gao_rou_hero_water",
+    "name_key": "gao_rou",
+    "display_name": "Gao Rou",
+    "forename": "Rou",
+    "family_name": "Gao",
+    "title": "Incorruptible and Veracious",
+    "description": "You think you can bribe me? Do I look like I can be bribed?",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174"
   },
   {
     "key": "3k_main_template_historical_gao_sheng_hero_wood",
@@ -2621,6 +3615,34 @@ const CHARACTER_DATA = [
     "birth_year": "185"
   },
   {
+    "key": "3k_main_template_historical_gao_shun_hero_fire",
+    "name_key": "gao_shun",
+    "display_name": "Gao Shun",
+    "forename": "Shun",
+    "family_name": "Gao",
+    "title": "Formation Breaker",
+    "description": "The enemy will break. Gao Shun will not.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "167"
+  },
+  {
+    "key": "3k_dlc04_template_historical_gao_wang_water",
+    "name_key": "gao_wang",
+    "display_name": "Gao Wang",
+    "forename": "Wang",
+    "family_name": "Gao",
+    "title": "Officer for Medicines",
+    "description": "After a thorough examination, I've decided the best way forward is a course of leeches.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "128"
+  },
+  {
     "key": "3k_dlc04_template_historical_gao_you_water",
     "name_key": "gao_you",
     "display_name": "Gao You",
@@ -2635,6 +3657,20 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "3k_main_template_historical_gaotang_long_hero_water",
+    "name_key": "gaotang_long",
+    "display_name": "Gaotang Long",
+    "forename": "Long",
+    "family_name": "Gaotang",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "203"
+  },
+  {
     "key": "ironic_template_historical_ge_jing_hero_water",
     "name_key": "ge_jing",
     "display_name": "Ge Jing",
@@ -2647,6 +3683,48 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "162"
+  },
+  {
+    "key": "3k_main_template_historical_ge_xuan_hero_earth",
+    "name_key": "ge_xuan",
+    "display_name": "Ge Xuan",
+    "forename": "Xuan",
+    "family_name": "Ge",
+    "title": "Scout",
+    "description": "Ranging forward, this general guards the troops against threats from without.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "164"
+  },
+  {
+    "key": "3k_dlc04_template_historical_geng_bi_wood",
+    "name_key": "geng_bi",
+    "display_name": "Geng Bi",
+    "forename": "Bi",
+    "family_name": "Geng",
+    "title": "Local Hero",
+    "description": "Not all heroes wear armour. But some, also, do.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "155"
+  },
+  {
+    "key": "3k_main_template_historical_geng_ji_hero_fire",
+    "name_key": "geng_ji",
+    "display_name": "Geng Ji",
+    "forename": "Ji",
+    "family_name": "Geng",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174"
   },
   {
     "key": "3k_main_template_historical_geng_wu_hero_earth",
@@ -2675,6 +3753,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159"
+  },
+  {
+    "key": "3k_ytr_template_historical_gong_du_hero_wood",
+    "name_key": "gong_du",
+    "display_name": "Gong Du",
+    "forename": "Du",
+    "family_name": "Gong",
+    "title": "Master of the Land",
+    "description": "Far from being just a heartless bandit, Gong Du is a principled soldier of honour.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "153"
+  },
+  {
+    "key": "3k_main_template_historical_gong_lu_hero_fire",
+    "name_key": "gong_lu",
+    "display_name": "Gong Lu",
+    "forename": "Lu",
+    "family_name": "Gong",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "195"
   },
   {
     "key": "ironic_template_historical_gongsun_baoyue_hero_earth",
@@ -2733,6 +3839,20 @@ const CHARACTER_DATA = [
     "birth_year": "172"
   },
   {
+    "key": "ep_template_historical_gongsun_hong_hero_water",
+    "name_key": "gongsun_hong",
+    "display_name": "Gongsun Hong",
+    "forename": "Hong",
+    "family_name": "Gongsun",
+    "title": "Observant Advisor",
+    "description": "Sima Wei's confidante; often sees things that others do not",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "258"
+  },
+  {
     "key": "3k_main_template_historical_gongsun_kang_hero_earth",
     "name_key": "gongsun_kang",
     "display_name": "Gongsun Kang",
@@ -2759,6 +3879,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_gongsun_xiu_hero_water",
+    "name_key": "gongsun_xiu",
+    "display_name": "Gongsun Xiu",
+    "forename": "Xiu",
+    "family_name": "Gongsun",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "197"
   },
   {
     "key": "3k_main_template_historical_gongsun_xu_hero_metal",
@@ -2845,6 +3979,34 @@ const CHARACTER_DATA = [
     "birth_year": "164"
   },
   {
+    "key": "3k_main_template_historical_gongsun_zan_hero_fire",
+    "name_key": "gongsun_zan",
+    "display_name": "Gongsun Zan",
+    "forename": "Zan",
+    "family_name": "Gongsun",
+    "title": "The Iron Fist General",
+    "description": "Defence of the frontiers requires more than just the resources of a warlord, but also a merciless attitude.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "152"
+  },
+  {
+    "key": "3k_ytr_template_generated_gongxu_yan_hero_metal",
+    "name_key": "gongxu_yan",
+    "display_name": "Gongxu Yan",
+    "forename": "Yan",
+    "family_name": "Gongxu",
+    "title": "Potter",
+    "description": "I have everything - large bowls, small bowls, tiny bowls. A cup? Are you sure you wouldn’t rather have a nice bowl instead?",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "169"
+  },
+  {
     "key": "ironic_template_historical_gu_hui_hero_wood",
     "name_key": "gu_hui",
     "display_name": "Gu Hui",
@@ -2901,6 +4063,20 @@ const CHARACTER_DATA = [
     "birth_year": "188"
   },
   {
+    "key": "ep_template_historical_lady_gu_yanyan_hero_metal",
+    "name_key": "gu_yanyan",
+    "display_name": "Gu Yanyan",
+    "forename": "Yanyan",
+    "family_name": "Gu",
+    "title": "Agent",
+    "description": "I am charged with a duty that I am honour-bound to prosecute. Stand aside.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "273"
+  },
+  {
     "key": "3k_main_template_historical_gu_yong_hero_water",
     "name_key": "gu_yong",
     "display_name": "Gu Yong",
@@ -2913,6 +4089,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168"
+  },
+  {
+    "key": "ep_template_historical_gu_zhen_hero_wood",
+    "name_key": "gu_zhen",
+    "display_name": "Gu Zhen",
+    "forename": "Zhen",
+    "family_name": "Gu",
+    "title": "Village Chief",
+    "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "269"
   },
   {
     "key": "3k_main_template_historical_guan_chun_hero_water",
@@ -2957,6 +4147,34 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "3k_main_template_historical_guan_lu_hero_water",
+    "name_key": "guan_lu",
+    "display_name": "Guan Lu",
+    "forename": "Lu",
+    "family_name": "Guan",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209"
+  },
+  {
+    "key": "3k_main_template_historical_guan_ning_hero_water",
+    "name_key": "guan_ning",
+    "display_name": "Guan Ning",
+    "forename": "Ning",
+    "family_name": "Guan",
+    "title": "The Dragon's Tail",
+    "description": "A scholarly man never trusts in outward appearances alone.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "158"
+  },
+  {
     "key": "3k_main_template_historical_guan_ping_hero_fire",
     "name_key": "guan_ping",
     "display_name": "Guan Ping",
@@ -2983,6 +4201,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "193"
+  },
+  {
+    "key": "3k_main_template_historical_lady_guan_yinping_hero_wood",
+    "name_key": "guan_yinping",
+    "display_name": "Guan Yinping",
+    "forename": "Yinping",
+    "family_name": "Guan",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "wood",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "204"
+  },
+  {
+    "key": "3k_main_template_historical_guan_yu_hero_wood",
+    "name_key": "guan_yu",
+    "display_name": "Guan Yu",
+    "forename": "Yu",
+    "family_name": "Guan",
+    "title": "God of War",
+    "description": "A famed warrior and righteous slayer of all who dare oppose him, Guan Yu’s deification is already assured.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "162"
   },
   {
     "key": "3k_main_template_historical_guanqiu_dian_hero_water",
@@ -3069,6 +4315,20 @@ const CHARACTER_DATA = [
     "birth_year": "187"
   },
   {
+    "key": "3k_main_template_historical_guo_jia_hero_water",
+    "name_key": "guo_jia",
+    "display_name": "Guo Jia",
+    "forename": "Jia",
+    "family_name": "Guo",
+    "title": "Astute Advisor",
+    "description": "Guo Jia is a confidant of unparalleled foresight – to ignore his counsel is to invite failure and defeat.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "170"
+  },
+  {
     "key": "3k_main_template_historical_guo_nuwang_hero_earth",
     "name_key": "guo_nuwang",
     "display_name": "Guo Nüwang",
@@ -3081,6 +4341,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "184"
+  },
+  {
+    "key": "3k_dlc04_template_historical_guo_sheng_metal",
+    "name_key": "guo_sheng",
+    "display_name": "Guo Sheng",
+    "forename": "Sheng",
+    "family_name": "Guo",
+    "title": "Friend of the He",
+    "description": "Do I know the He? Oh yes, we go waaaaay back. I could tell you stories...",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "160"
   },
   {
     "key": "3k_main_template_historical_guo_si_hero_fire",
@@ -3109,6 +4383,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159"
+  },
+  {
+    "key": "3k_main_template_historical_guo_xian_hero_metal",
+    "name_key": "guo_xian",
+    "display_name": "Guo Xian",
+    "forename": "Xian",
+    "family_name": "Guo",
+    "title": "Agent",
+    "description": "I am charged with a duty that I am honour-bound to prosecute. Stand aside.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "199"
   },
   {
     "key": "ironic_template_historical_guo_xian_hero_metal",
@@ -3237,6 +4525,34 @@ const CHARACTER_DATA = [
     "birth_year": "210"
   },
   {
+    "key": "3k_main_template_historical_han_juzi_hero_fire",
+    "name_key": "han_juzi",
+    "display_name": "Han Juzi",
+    "forename": "Juzi",
+    "family_name": "Han",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "161"
+  },
+  {
+    "key": "3k_dlc04_template_historical_han_kui_earth",
+    "name_key": "han_kui",
+    "display_name": "Han Kui",
+    "forename": "Kui",
+    "family_name": "Han",
+    "title": "Magistrate",
+    "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "150"
+  },
+  {
     "key": "3k_main_template_generated_lady_han_lian_hero_earth",
     "name_key": "han_lian",
     "display_name": "Han Lian",
@@ -3251,6 +4567,34 @@ const CHARACTER_DATA = [
     "birth_year": "174"
   },
   {
+    "key": "3k_main_template_historical_han_ran_hero_water",
+    "name_key": "han_ran",
+    "display_name": "Han Ran",
+    "forename": "Ran",
+    "family_name": "Han",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "187"
+  },
+  {
+    "key": "3k_main_template_historical_han_rong_hero_water",
+    "name_key": "han_rong",
+    "display_name": "Han Rong",
+    "forename": "Rong",
+    "family_name": "Han",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "155"
+  },
+  {
     "key": "ironic_template_historical_han_song_hero_metal",
     "name_key": "han_song",
     "display_name": "Han Song",
@@ -3263,6 +4607,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "154"
+  },
+  {
+    "key": "3k_main_template_historical_han_sui_hero_metal",
+    "name_key": "han_sui",
+    "display_name": "Han Sui",
+    "forename": "Sui",
+    "family_name": "Han",
+    "title": "Tireless Insurgent",
+    "description": "Insurrection is in Han Sui’s blood. To him, subservience cannot be permanent.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "144"
   },
   {
     "key": "3k_main_template_generated_han_tong_hero_wood",
@@ -3377,6 +4735,34 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "3k_main_template_historical_handan_chun_hero_water",
+    "name_key": "handan_chun",
+    "display_name": "Handan Chun",
+    "forename": "Chun",
+    "family_name": "Handan",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "132"
+  },
+  {
+    "key": "3k_main_template_historical_handan_shang_hero_water",
+    "name_key": "handan_shang",
+    "display_name": "Handan Shang",
+    "forename": "Shang",
+    "family_name": "Handan",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "153"
+  },
+  {
     "key": "ironic_template_historical_handan_shang_hero_wood",
     "name_key": "handan_shang",
     "display_name": "Handan Shang",
@@ -3433,6 +4819,20 @@ const CHARACTER_DATA = [
     "birth_year": "178"
   },
   {
+    "key": "3k_dlc04_template_historical_he_jin_metal",
+    "name_key": "he_jin",
+    "display_name": "He Jin",
+    "forename": "Jin",
+    "family_name": "He",
+    "title": "The Butcher of the He",
+    "description": "The axe that cleaves through beast can so easily be turned to rend man too.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "147"
+  },
+  {
     "key": "ironic_template_historical_he_kui_hero_wood",
     "name_key": "he_kui",
     "display_name": "He Kui",
@@ -3459,6 +4859,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168"
+  },
+  {
+    "key": "ep_template_historical_he_lun_hero_earth",
+    "name_key": "he_lun",
+    "display_name": "He Lun",
+    "forename": "Lun",
+    "family_name": "He",
+    "title": "Loyal Officer",
+    "description": "Although subordinate to Sima Yue, he is a loyal and capable advisor",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "258"
+  },
+  {
+    "key": "3k_ytr_template_historical_he_man_hero_metal",
+    "name_key": "he_man",
+    "display_name": "He Man",
+    "forename": "Man",
+    "family_name": "He",
+    "title": "The Most Powerful",
+    "description": "I am He Man, the devil who shoots across the sky! Who dares challenge me?",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "169"
   },
   {
     "key": "3k_main_template_historical_he_qi_hero_fire",
@@ -3517,6 +4945,34 @@ const CHARACTER_DATA = [
     "birth_year": "193"
   },
   {
+    "key": "3k_ytr_template_historical_he_yi_hero_water",
+    "name_key": "he_yi",
+    "display_name": "He Yi",
+    "forename": "Yi",
+    "family_name": "He",
+    "title": "Leader of the People",
+    "description": "With unwavering faith, He Yi inspires others to follow in his righteous footsteps.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "160"
+  },
+  {
+    "key": "3k_main_template_historical_he_zeng_hero_water",
+    "name_key": "he_zeng",
+    "display_name": "He Zeng",
+    "forename": "Zeng",
+    "family_name": "He",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "199"
+  },
+  {
     "key": "ironic_template_historical_he_zong_ironic_hero_water",
     "name_key": "he_zong_ironic",
     "display_name": "He Zong",
@@ -3571,6 +5027,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_hong_ming_hero_wood",
+    "name_key": "hong_ming",
+    "display_name": "Hong Ming",
+    "forename": "Ming",
+    "family_name": "Hong",
+    "title": "Hoary and Haggard",
+    "description": "A strongman from an obscure clan in the southern mountains, Hong Ming prefers to let his weapon do the talking.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "175"
   },
   {
     "key": "3k_dlc05_template_historical_hou_cheng_hero_wood",
@@ -3643,6 +5113,20 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "3k_main_template_historical_hu_feng_hero_fire",
+    "name_key": "hu_feng",
+    "display_name": "Hu Feng",
+    "forename": "Feng",
+    "family_name": "Hu",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "151"
+  },
+  {
     "key": "ironic_template_historical_hu_man_ironic_hero_earth",
     "name_key": "hu_man_ironic",
     "display_name": "Hu Man",
@@ -3685,6 +5169,20 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "3k_main_template_historical_hu_zhao_hero_water",
+    "name_key": "hu_zhao",
+    "display_name": "Hu Zhao",
+    "forename": "Zhao",
+    "family_name": "Hu",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "162"
+  },
+  {
     "key": "ironic_template_historical_hu_zhen_hero_earth",
     "name_key": "hu_zhen",
     "display_name": "Hu Zhen",
@@ -3697,6 +5195,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "148"
+  },
+  {
+    "key": "3k_main_template_historical_hu_zhi_hero_water",
+    "name_key": "hu_zhi",
+    "display_name": "Hu Zhi",
+    "forename": "Zhi",
+    "family_name": "Hu",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "217"
+  },
+  {
+    "key": "3k_main_template_historical_hu_zong_hero_water",
+    "name_key": "hu_zong",
+    "display_name": "Hu Zong",
+    "forename": "Zong",
+    "family_name": "Hu",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "185"
+  },
+  {
+    "key": "3k_main_template_historical_hua_biao_hero_water",
+    "name_key": "hua_biao",
+    "display_name": "Hua Biao",
+    "forename": "Biao",
+    "family_name": "Hua",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "204"
   },
   {
     "key": "ironic_template_historical_hua_dang_hero_fire",
@@ -3727,6 +5267,48 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "ep_template_historical_lady_hua_jinting_hero_water",
+    "name_key": "hua_jinting",
+    "display_name": "Hua Jinting",
+    "forename": "Jinting",
+    "family_name": "Hua",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "272"
+  },
+  {
+    "key": "3k_main_template_generated_lady_ma_lanli_hero_metal",
+    "name_key": "ma_lanli",
+    "display_name": "Hua Lanli",
+    "forename": "Lanli",
+    "family_name": "Hua",
+    "title": "Clerk",
+    "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "158"
+  },
+  {
+    "key": "3k_main_template_historical_hua_rong_hero_fire",
+    "name_key": "hua_rong",
+    "display_name": "Hua Rong",
+    "forename": "Rong",
+    "family_name": "Hua",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "216"
+  },
+  {
     "key": "3k_main_template_historical_hua_tuo_hero_water",
     "name_key": "hua_tuo",
     "display_name": "Hua Tuo",
@@ -3739,6 +5321,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160"
+  },
+  {
+    "key": "3k_main_template_historical_hua_xin_hero_water",
+    "name_key": "hua_xin",
+    "display_name": "Hua Xin",
+    "forename": "Xin",
+    "family_name": "Hua",
+    "title": "placeholder",
+    "description": "placeholder",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "157"
   },
   {
     "key": "3k_main_template_historical_hua_xiong_hero_fire",
@@ -3767,6 +5363,48 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "178"
+  },
+  {
+    "key": "3k_main_template_historical_huan_dian_hero_water",
+    "name_key": "huan_dian",
+    "display_name": "Huan Dian",
+    "forename": "Dian",
+    "family_name": "Huan",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_huan_fan_hero_water",
+    "name_key": "huan_fan",
+    "display_name": "Huan Fan",
+    "forename": "Fan",
+    "family_name": "Huan",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "211"
+  },
+  {
+    "key": "3k_main_template_historical_huan_jia_hero_water",
+    "name_key": "huan_jia",
+    "display_name": "Huan Jia",
+    "forename": "Jia",
+    "family_name": "Huan",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "208"
   },
   {
     "key": "ironic_template_historical_huan_jie_ironic_hero_water",
@@ -3909,6 +5547,34 @@ const CHARACTER_DATA = [
     "birth_year": "163"
   },
   {
+    "key": "3k_cp01_template_historical_huang_gai_hero_fire",
+    "name_key": "huang_gai",
+    "display_name": "Huang Gai",
+    "forename": "Gai",
+    "family_name": "Huang",
+    "title": "Unreadable Warrior",
+    "description": "His outward demeanour belies his real allegiances – Huang Gai truly is the very definition of inscrutability.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154"
+  },
+  {
+    "key": "3k_main_template_historical_huang_gai_hero_wood",
+    "name_key": "huang_gai",
+    "display_name": "Huang Gai",
+    "forename": "Gai",
+    "family_name": "Huang",
+    "title": "Unreadable Warrior",
+    "description": "His outward demeanour belies his real allegiances – Huang Gai truly is the very definition of inscrutability.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154"
+  },
+  {
     "key": "ironic_template_historical_huang_hua_hero_earth",
     "name_key": "huang_hua",
     "display_name": "Huang Hua",
@@ -3979,6 +5645,20 @@ const CHARACTER_DATA = [
     "birth_year": "177"
   },
   {
+    "key": "3k_ytr_template_historical_huang_shao_hero_metal",
+    "name_key": "huang_shao",
+    "display_name": "Huang Shao",
+    "forename": "Shao",
+    "family_name": "Huang",
+    "title": "Wielder of the Heavenly Way",
+    "description": "All uprisings, no matter how widespread, stand little chance of success without strong leadership.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "144"
+  },
+  {
     "key": "3k_main_template_historical_huang_she_hero_metal",
     "name_key": "huang_she",
     "display_name": "Huang She",
@@ -4007,6 +5687,20 @@ const CHARACTER_DATA = [
     "birth_year": "141"
   },
   {
+    "key": "ep_template_historical_huang_xin_hero_metal",
+    "name_key": "huang_xin",
+    "display_name": "Huang Xin",
+    "forename": "Xin",
+    "family_name": "Huang",
+    "title": "Lookout",
+    "description": "Keen eyesight enables this person to spot the enemy clearly, even under cover of night.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "261"
+  },
+  {
     "key": "ironic_template_historical_huang_xun_hero_earth",
     "name_key": "huang_xun",
     "display_name": "Huang Xun",
@@ -4021,6 +5715,20 @@ const CHARACTER_DATA = [
     "birth_year": "156"
   },
   {
+    "key": "3k_dlc04_template_historical_huang_yan_water",
+    "name_key": "huang_yan",
+    "display_name": "Huang Yan",
+    "forename": "Yan",
+    "family_name": "Huang",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "136"
+  },
+  {
     "key": "3k_main_template_historical_lady_huang_yueying_hero_wood",
     "name_key": "huang_yueying",
     "display_name": "Huang Yueying",
@@ -4033,6 +5741,34 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "189"
+  },
+  {
+    "key": "3k_main_template_historical_huang_zhong_hero_metal",
+    "name_key": "huang_zhong",
+    "display_name": "Huang Zhong",
+    "forename": "Zhong",
+    "family_name": "Huang",
+    "title": "of the Ageless Strength",
+    "description": "The venerable Huang Zhong, to whom age is just a number, is frequently underestimated in battle.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "147"
+  },
+  {
+    "key": "3k_main_template_historical_huang_zu_hero_wood",
+    "name_key": "huang_zu",
+    "display_name": "Huang Zu",
+    "forename": "Zu",
+    "family_name": "Huang",
+    "title": "Ranged Ambusher",
+    "description": "Huang Zu likes to start offensives on the front foot, from a safe distance and out of sight.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "147"
   },
   {
     "key": "ironic_template_historical_huangfu_qi_ironic_hero_metal",
@@ -4061,6 +5797,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168"
+  },
+  {
+    "key": "3k_main_template_historical_huangfu_mi_hero_water",
+    "name_key": "huangfu_mi",
+    "display_name": "Huangfu Mi",
+    "forename": "Mi",
+    "family_name": "Huangfu",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "215"
+  },
+  {
+    "key": "ep_template_historical_huangfu_shang_hero_metal",
+    "name_key": "huangfu_shang",
+    "display_name": "Huangfu Shang",
+    "forename": "Shang",
+    "family_name": "Huangfu",
+    "title": "Facilitator",
+    "description": "Has fought Li Han for years, now works on behalf of Sima Ai, fighting wars or making deals wherever needed",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "245"
+  },
+  {
+    "key": "3k_main_template_historical_huangfu_song_hero_metal",
+    "name_key": "huangfu_song",
+    "display_name": "Huangfu Song",
+    "forename": "Song",
+    "family_name": "Huangfu",
+    "title": "Modest & Stalwart",
+    "description": "This one's unwavering loyalty is matched only by their demure nature.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "131"
   },
   {
     "key": "3k_main_template_historical_huanglong_hero_fire",
@@ -4175,6 +5953,20 @@ const CHARACTER_DATA = [
     "birth_year": "173"
   },
   {
+    "key": "3k_main_template_historical_huo_xing_hero_fire",
+    "name_key": "huo_xing",
+    "display_name": "Huo Xing",
+    "forename": "Xing",
+    "family_name": "Huo",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "164"
+  },
+  {
     "key": "3k_main_template_historical_ji_ben_hero_wood",
     "name_key": "ji_ben",
     "display_name": "Ji Ben",
@@ -4189,6 +5981,48 @@ const CHARACTER_DATA = [
     "birth_year": "184"
   },
   {
+    "key": "3k_main_template_historical_ji_ling_hero_fire",
+    "name_key": "ji_ling",
+    "display_name": "Ji Ling",
+    "forename": "Ling",
+    "family_name": "Ji",
+    "title": "Blunt Instrument",
+    "description": "Ji Ling believes most problems can be solved through the overwhelming application of brute force.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "159"
+  },
+  {
+    "key": "3k_main_template_historical_ji_miao_hero_water",
+    "name_key": "ji_miao",
+    "display_name": "Ji Miao",
+    "forename": "Miao",
+    "family_name": "Ji",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "177"
+  },
+  {
+    "key": "3k_main_template_historical_ji_mu_hero_water",
+    "name_key": "ji_mu",
+    "display_name": "Ji Mu",
+    "forename": "Mu",
+    "family_name": "Ji",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "195"
+  },
+  {
     "key": "3k_main_template_historical_jia_chong_hero_water",
     "name_key": "jia_chong",
     "display_name": "Jia Chong",
@@ -4201,6 +6035,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "217"
+  },
+  {
+    "key": "3k_main_template_historical_jia_cong_hero_water",
+    "name_key": "jia_cong",
+    "display_name": "Jia Cong",
+    "forename": "Cong",
+    "family_name": "Jia",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "150"
+  },
+  {
+    "key": "3k_main_template_historical_jia_fan_hero_fire",
+    "name_key": "jia_fan",
+    "display_name": "Jia Fan",
+    "forename": "Fan",
+    "family_name": "Jia",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "198"
   },
   {
     "key": "ironic_template_historical_jia_hua_hero_wood",
@@ -4257,6 +6119,62 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "182"
+  },
+  {
+    "key": "ep_template_historical_jia_mi_hero_fire",
+    "name_key": "jia_mi",
+    "display_name": "Jia Mi",
+    "forename": "Mi",
+    "family_name": "Jia",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_jia_mo_hero_metal",
+    "name_key": "jia_mo",
+    "display_name": "Jia Mo",
+    "forename": "Mo",
+    "family_name": "Jia",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "259"
+  },
+  {
+    "key": "3k_main_template_historical_jia_xu_hero_water",
+    "name_key": "jia_xu",
+    "display_name": "Jia Xu",
+    "forename": "Xu",
+    "family_name": "Jia",
+    "title": "The Blade in the Dark",
+    "description": "Decisions made in secret can have the deadliest outcomes.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "147"
+  },
+  {
+    "key": "3k_main_template_historical_jian_yong_hero_metal",
+    "name_key": "jian_yong",
+    "display_name": "Jian Yong",
+    "forename": "Yong",
+    "family_name": "Jian",
+    "title": "Clerk",
+    "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "161"
   },
   {
     "key": "ironic_template_historical_jiang_gan_hero_water",
@@ -4413,6 +6331,20 @@ const CHARACTER_DATA = [
     "birth_year": "156"
   },
   {
+    "key": "3k_main_template_historical_jin_yi_hero_water",
+    "name_key": "jin_yi",
+    "display_name": "Jin Yi",
+    "forename": "Yi",
+    "family_name": "Jin",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "194"
+  },
+  {
     "key": "ironic_template_historical_jin_yi_hero_water",
     "name_key": "jin_yi",
     "display_name": "Jin Yi",
@@ -4425,6 +6357,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178"
+  },
+  {
+    "key": "ep_template_historical_jin_yu_hero_fire",
+    "name_key": "jin_yu",
+    "display_name": "Jin Yu",
+    "forename": "Yu",
+    "family_name": "Jin",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "258"
+  },
+  {
+    "key": "ep_template_historical_jin_hong_hero_earth",
+    "name_key": "jin_hong",
+    "display_name": "Jing Hong",
+    "forename": "Hong",
+    "family_name": "Jing",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "260"
   },
   {
     "key": "ironic_template_historical_jing_yi_hero_wood",
@@ -4483,6 +6443,34 @@ const CHARACTER_DATA = [
     "birth_year": "124"
   },
   {
+    "key": "3k_main_template_historical_ju_jun_hero_fire",
+    "name_key": "ju_jun",
+    "display_name": "Ju Jun",
+    "forename": "Jun",
+    "family_name": "Ju",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "171"
+  },
+  {
+    "key": "ep_template_historical_ju_ruo_hero_water_dai",
+    "name_key": "ju_ruo",
+    "display_name": "Ju Ruo",
+    "forename": "Ruo",
+    "family_name": "Ju",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "251"
+  },
+  {
     "key": "3k_main_template_historical_ju_shou_hero_water",
     "name_key": "ju_shou",
     "display_name": "Ju Shou",
@@ -4537,6 +6525,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "216"
+  },
+  {
+    "key": "ep_template_historical_kang_ji_hero_wood_yanmen",
+    "name_key": "kang_ji",
+    "display_name": "Kang Ji",
+    "forename": "Ji",
+    "family_name": "Kang",
+    "title": "Village Chief",
+    "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "262"
   },
   {
     "key": "3k_main_template_generated_lady_wang_qinmeng_hero_earth",
@@ -4623,6 +6625,20 @@ const CHARACTER_DATA = [
     "birth_year": "174"
   },
   {
+    "key": "3k_main_template_historical_kong_rong_hero_water",
+    "name_key": "kong_rong",
+    "display_name": "Kong Rong",
+    "forename": "Rong",
+    "family_name": "Kong",
+    "title": "Master Scholar",
+    "description": "Kong Rong claims descent from the great Confucius himself, attested to by his remarkable wit and scholarly fame.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "153"
+  },
+  {
     "key": "3k_main_template_historical_kong_zhou_hero_water",
     "name_key": "kong_zhou",
     "display_name": "Kong Zhou",
@@ -4649,6 +6665,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "169"
+  },
+  {
+    "key": "ep_template_historical_ku_song_hero_fire",
+    "name_key": "ku_song",
+    "display_name": "Ku Song",
+    "forename": "Song",
+    "family_name": "Ku",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "272"
   },
   {
     "key": "3k_main_template_historical_kuai_liang_hero_water",
@@ -4721,6 +6751,20 @@ const CHARACTER_DATA = [
     "birth_year": "163"
   },
   {
+    "key": "3k_main_template_historical_lady_bian_huilan_hero_wood",
+    "name_key": "bian_huilan",
+    "display_name": "Lady Bian",
+    "forename": "",
+    "family_name": "Lady Bian",
+    "title": "Humble Matriarch",
+    "description": "It takes patience and wisdom to manage the fractious brood that is the Cao family.",
+    "element": "wood",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "160"
+  },
+  {
     "key": "3k_main_template_historical_lady_cai_yuxiang_hero_earth",
     "name_key": "cai_yuxiang",
     "display_name": "Lady Cai",
@@ -4733,6 +6777,34 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "158"
+  },
+  {
+    "key": "ep_template_generated_lady_cheng_hero_earth",
+    "name_key": "cheng",
+    "display_name": "Lady Cheng",
+    "forename": "",
+    "family_name": "Lady Cheng",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "266"
+  },
+  {
+    "key": "3k_dlc04_template_historical_lady_ding_earth",
+    "name_key": "ding",
+    "display_name": "Lady Ding",
+    "forename": "",
+    "family_name": "Lady Ding",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "144"
   },
   {
     "key": "3k_mtu_template_historical_lady_feng_hero_earth",
@@ -4777,6 +6849,48 @@ const CHARACTER_DATA = [
     "birth_year": "152"
   },
   {
+    "key": "3k_dlc04_template_historical_lady_lu_metal",
+    "name_key": "lu",
+    "display_name": "Lady Lu",
+    "forename": "",
+    "family_name": "Lady Lu",
+    "title": "Lookout",
+    "description": "Keen eyesight enables this person to spot the enemy clearly, even under cover of night.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "150"
+  },
+  {
+    "key": "3k_dlc04_template_historical_lady_mi_earth",
+    "name_key": "mi",
+    "display_name": "Lady Mi",
+    "forename": "",
+    "family_name": "Lady Mi",
+    "title": "Steadfast Loyalist",
+    "description": "Lady Mi will do anything to protect her family – even if it means sacrificing herself.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "167"
+  },
+  {
+    "key": "3k_main_template_historical_lady_wu_minyu_hero_earth",
+    "name_key": "wu_minyu",
+    "display_name": "Lady Wu",
+    "forename": "",
+    "family_name": "Lady Wu",
+    "title": "Outsider",
+    "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "159"
+  },
+  {
     "key": "ironic_template_historical_lady_xiahou_hero_water",
     "name_key": "xiahou",
     "display_name": "Lady Xiahou",
@@ -4817,6 +6931,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "178"
+  },
+  {
+    "key": "3k_dlc07_template_historical_lady_zhen_water",
+    "name_key": "zhen",
+    "display_name": "Lady Zhen",
+    "forename": "",
+    "family_name": "Lady Zhen",
+    "title": "Elegant Survivor",
+    "description": "To step between warring factions is quite the task. To be loved by both? Quite the accomplishment.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "183"
   },
   {
     "key": "ironic_template_historical_lai_feng_hero_metal",
@@ -5001,6 +7129,20 @@ const CHARACTER_DATA = [
     "birth_year": "166"
   },
   {
+    "key": "ep_template_historical_li_chang_hero_earth_lingling",
+    "name_key": "li_chang",
+    "display_name": "Li Chang",
+    "forename": "Chang",
+    "family_name": "Li",
+    "title": "Magistrate",
+    "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
+  },
+  {
     "key": "3k_main_template_historical_li_chao_hero_water",
     "name_key": "li_chao",
     "display_name": "Li Chao",
@@ -5057,6 +7199,20 @@ const CHARACTER_DATA = [
     "birth_year": "151"
   },
   {
+    "key": "3k_main_template_historical_li_fu_hero_water",
+    "name_key": "li_fu",
+    "display_name": "Li Fu",
+    "forename": "Fu",
+    "family_name": "Li",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "204"
+  },
+  {
     "key": "ironic_template_historical_li_fu_hero_water",
     "name_key": "li_fu",
     "display_name": "Li Fu",
@@ -5083,6 +7239,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168"
+  },
+  {
+    "key": "ep_template_historical_li_han_hero_earth",
+    "name_key": "li_han",
+    "display_name": "Li Han",
+    "forename": "Han",
+    "family_name": "Li",
+    "title": "Keeper of Secrets",
+    "description": "Li Han draws information to himself; so well-regarded is his knowledge that he often fears his life is jeopardised by what he knows.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "246"
   },
   {
     "key": "3k_main_template_historical_li_huan_hero_wood",
@@ -5113,6 +7283,20 @@ const CHARACTER_DATA = [
     "birth_year": "180"
   },
   {
+    "key": "3k_main_template_historical_li_jue_hero_fire",
+    "name_key": "li_jue",
+    "display_name": "Li Jue",
+    "forename": "Jue",
+    "family_name": "Li",
+    "title": "Vicious Strongman",
+    "description": "In Li Jue's view, politics is just the continuation of war by other means.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "142"
+  },
+  {
     "key": "3k_main_template_historical_li_kan_hero_fire",
     "name_key": "li_kan",
     "display_name": "Li Kan",
@@ -5125,6 +7309,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "152"
+  },
+  {
+    "key": "3k_main_template_historical_li_kang_hero_water",
+    "name_key": "li_kang",
+    "display_name": "Li Kang",
+    "forename": "Kang",
+    "family_name": "Li",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "196"
+  },
+  {
+    "key": "3k_main_template_historical_li_le_hero_fire",
+    "name_key": "li_le",
+    "display_name": "Li Le",
+    "forename": "Le",
+    "family_name": "Li",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174"
   },
   {
     "key": "3k_dlc05_template_historical_li_li_hero_fire",
@@ -5197,6 +7409,20 @@ const CHARACTER_DATA = [
     "birth_year": "155"
   },
   {
+    "key": "3k_main_template_historical_li_ru_hero_water",
+    "name_key": "li_ru",
+    "display_name": "Li Ru",
+    "forename": "Ru",
+    "family_name": "Li",
+    "title": "Vicious Shadow",
+    "description": "Behind every despot’s schemes is the intellect of a consummate strategist.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "149"
+  },
+  {
     "key": "3k_main_template_historical_li_shao_hero_water",
     "name_key": "li_shao",
     "display_name": "Li Shao",
@@ -5253,6 +7479,20 @@ const CHARACTER_DATA = [
     "birth_year": "145"
   },
   {
+    "key": "3k_dlc04_template_historical_li_song_fire",
+    "name_key": "li_song",
+    "display_name": "Li Song",
+    "forename": "Song",
+    "family_name": "Li",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "134"
+  },
+  {
     "key": "3k_main_template_historical_li_su_hero_fire",
     "name_key": "li_su",
     "display_name": "Li Su",
@@ -5295,6 +7535,20 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "3k_dlc04_template_historical_li_wenhou_wood",
+    "name_key": "li_wenhou",
+    "display_name": "Li Wenhou",
+    "forename": "Wenhou",
+    "family_name": "Li",
+    "title": "Creeping Dread",
+    "description": "Death personified; the slow knife that appears, unexpected and lethal.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "154"
+  },
+  {
     "key": "3k_dlc05_template_historical_li_xian_hero_metal",
     "name_key": "li_xian",
     "display_name": "Li Xian",
@@ -5309,6 +7563,20 @@ const CHARACTER_DATA = [
     "birth_year": "175"
   },
   {
+    "key": "3k_main_template_historical_li_xian_hero_fire",
+    "name_key": "li_xian",
+    "display_name": "Li Xian",
+    "forename": "Xian",
+    "family_name": "Li",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174"
+  },
+  {
     "key": "3k_main_template_historical_li_xiu_hero_water",
     "name_key": "li_xiu",
     "display_name": "Li Xiu",
@@ -5321,6 +7589,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "144"
+  },
+  {
+    "key": "3k_main_template_historical_li_xu_hero_fire",
+    "name_key": "li_xu",
+    "display_name": "Li Xu",
+    "forename": "Xu",
+    "family_name": "Li",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "219"
   },
   {
     "key": "3k_main_template_historical_li_yan_hero_fire",
@@ -5363,6 +7645,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150"
+  },
+  {
+    "key": "3k_main_template_historical_li_yu_hero_wood",
+    "name_key": "li_yu",
+    "display_name": "Li Yu",
+    "forename": "Yu",
+    "family_name": "Li",
+    "title": "Alligator Wrangler",
+    "description": "Crikey, mate, this one's a beaut'!",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "161"
   },
   {
     "key": "3k_main_template_generated_lady_liu_zhi_hero_earth",
@@ -5421,6 +7717,20 @@ const CHARACTER_DATA = [
     "birth_year": "145"
   },
   {
+    "key": "ep_template_historical_liang_shi_hero_earth",
+    "name_key": "liang_shi",
+    "display_name": "Liang Shi",
+    "forename": "Shi",
+    "family_name": "Liang",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "267"
+  },
+  {
     "key": "ironic_template_historical_liang_shuang_hero_wood",
     "name_key": "liang_shuang",
     "display_name": "Liang Shuang",
@@ -5433,6 +7743,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "150"
+  },
+  {
+    "key": "3k_main_template_historical_liang_xi_hero_fire",
+    "name_key": "liang_xi",
+    "display_name": "Liang Xi",
+    "forename": "Xi",
+    "family_name": "Liang",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "189"
   },
   {
     "key": "3k_main_template_historical_liang_xing_hero_metal",
@@ -5505,6 +7829,20 @@ const CHARACTER_DATA = [
     "birth_year": "190"
   },
   {
+    "key": "3k_main_template_historical_lin_xun_hero_fire",
+    "name_key": "lin_xun",
+    "display_name": "Lin Xun",
+    "forename": "Xun",
+    "family_name": "Lin",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "206"
+  },
+  {
     "key": "3k_main_template_historical_ling_cao_hero_fire",
     "name_key": "ling_cao",
     "display_name": "Ling Cao",
@@ -5533,6 +7871,20 @@ const CHARACTER_DATA = [
     "birth_year": "189"
   },
   {
+    "key": "3k_dlc04_template_historical_ling_zheng_metal",
+    "name_key": "ling_zheng",
+    "display_name": "Ling Zheng",
+    "forename": "Zheng",
+    "family_name": "Ling",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "126"
+  },
+  {
     "key": "ironic_template_historical_linghu_na_hero_earth",
     "name_key": "linghu_na",
     "display_name": "Linghu Na",
@@ -5559,6 +7911,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "155"
+  },
+  {
+    "key": "3k_main_template_historical_linghu_yu_hero_fire",
+    "name_key": "linghu_yu",
+    "display_name": "Linghu Yu",
+    "forename": "Yu",
+    "family_name": "Linghu",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "213"
   },
   {
     "key": "ironic_template_historical_liu_ai_hero_metal",
@@ -5603,6 +7969,48 @@ const CHARACTER_DATA = [
     "birth_year": "182"
   },
   {
+    "key": "3k_main_template_historical_liu_bei_hero_earth",
+    "name_key": "liu_bei",
+    "display_name": "Liu Bei",
+    "forename": "Bei",
+    "family_name": "Liu",
+    "title": "Virtuous Idealist",
+    "description": "Despite having come from modest beginnings, the blood of ancient Han emperors flows through Liu Bei’s veins.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "161"
+  },
+  {
+    "key": "3k_dlc04_template_historical_emperor_shao_earth",
+    "name_key": "emperor_shao",
+    "display_name": "Liu Bian",
+    "forename": "Bian",
+    "family_name": "Liu",
+    "title": "Lord Shi",
+    "description": "Due to fears for his health, Liu Bian was raised away from the capital by the famed Taoist, Shi Zimiao, earning him the nickname 'Lord Shi'.",
+    "element": "earth",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "176"
+  },
+  {
+    "key": "3k_main_template_historical_liu_biao_hero_earth",
+    "name_key": "liu_biao",
+    "display_name": "Liu Biao",
+    "forename": "Biao",
+    "family_name": "Liu",
+    "title": "Gentleman of the Han",
+    "description": "A man seldom ruffled, Liu Biao demonstrates his aristocratic pedigree through stable officiality.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "142"
+  },
+  {
     "key": "ironic_template_historical_liu_chan_hero_earth",
     "name_key": "liu_chan",
     "display_name": "Liu Chan",
@@ -5615,6 +8023,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "189"
+  },
+  {
+    "key": "3k_dlc04_template_historical_liu_cheng_hero_earth",
+    "name_key": "liu_cheng",
+    "display_name": "Liu Cheng",
+    "forename": "Cheng",
+    "family_name": "Liu",
+    "title": "Outsider",
+    "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "105"
+  },
+  {
+    "key": "3k_main_template_historical_liu_cheng_hero_fire",
+    "name_key": "liu_cheng",
+    "display_name": "Liu Cheng",
+    "forename": "Cheng",
+    "family_name": "Liu",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209"
+  },
+  {
+    "key": "3k_main_template_historical_liu_chong_hero_earth",
+    "name_key": "liu_chong",
+    "display_name": "Liu Chong",
+    "forename": "Chong",
+    "family_name": "Liu",
+    "title": "Prince of Chen",
+    "description": "Liu Chong is not the heir apparent, but is the prince most active and beloved by his people.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "141"
   },
   {
     "key": "3k_main_template_historical_liu_cong_hero_earth",
@@ -5701,6 +8151,34 @@ const CHARACTER_DATA = [
     "birth_year": "150"
   },
   {
+    "key": "3k_main_template_historical_liu_fan_hero_fire",
+    "name_key": "liu_fan",
+    "display_name": "Liu Fan",
+    "forename": "Fan",
+    "family_name": "Liu",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "140"
+  },
+  {
+    "key": "3k_main_template_historical_liu_fang_hero_fire",
+    "name_key": "liu_fang",
+    "display_name": "Liu Fang",
+    "forename": "Fang",
+    "family_name": "Liu",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "195"
+  },
+  {
     "key": "3k_main_template_historical_liu_feng_hero_fire",
     "name_key": "liu_feng",
     "display_name": "Liu Feng",
@@ -5771,6 +8249,20 @@ const CHARACTER_DATA = [
     "birth_year": "164"
   },
   {
+    "key": "3k_dlc04_template_historical_emperor_ling_earth",
+    "name_key": "emperor_ling",
+    "display_name": "Liu Hong",
+    "forename": "Hong",
+    "family_name": "Liu",
+    "title": "The Inconstant Emperor",
+    "description": "He who flits and fluctuates risks appearing inconsistent, unsteady and, eventually, unstable...",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "156"
+  },
+  {
     "key": "3k_dlc04_template_historical_liu_hong_water",
     "name_key": "liu_hong",
     "display_name": "Liu Hong",
@@ -5827,6 +8319,20 @@ const CHARACTER_DATA = [
     "birth_year": "185"
   },
   {
+    "key": "3k_main_template_historical_liu_ji_hero_water",
+    "name_key": "liu_ji",
+    "display_name": "Liu Ji",
+    "forename": "Ji",
+    "family_name": "Liu",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
+  },
+  {
     "key": "ironic_template_historical_liu_jin_hero_wood",
     "name_key": "liu_jin",
     "display_name": "Liu Jin",
@@ -5867,6 +8373,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "148"
+  },
+  {
+    "key": "3k_main_template_historical_liu_jun_hero_fire",
+    "name_key": "liu_jun",
+    "display_name": "Liu Jun",
+    "forename": "Jun",
+    "family_name": "Liu",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "212"
   },
   {
     "key": "3k_dlc07_template_historical_liu_mao_hero_water",
@@ -5953,6 +8473,20 @@ const CHARACTER_DATA = [
     "birth_year": "170"
   },
   {
+    "key": "ep_template_historical_liu_qi_hero_metal",
+    "name_key": "liu_qi",
+    "display_name": "Liu Qi",
+    "forename": "Qi",
+    "family_name": "Liu",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "235"
+  },
+  {
     "key": "ironic_template_historical_liu_rui_ironic_hero_water",
     "name_key": "liu_rui_ironic",
     "display_name": "Liu Rui",
@@ -6007,6 +8541,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "188"
+  },
+  {
+    "key": "ep_template_historical_liu_shen_hero_wood",
+    "name_key": "liu_shen",
+    "display_name": "Liu Shen",
+    "forename": "Shen",
+    "family_name": "Liu",
+    "title": "Militia Veteran",
+    "description": "This veteran has seen it all, done it all, and he will almost certainly tell you about it, given the chance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "264"
   },
   {
     "key": "ironic_template_historical_liu_ting_hero_water",
@@ -6079,6 +8627,34 @@ const CHARACTER_DATA = [
     "birth_year": "178"
   },
   {
+    "key": "3k_dlc04_template_historical_emperor_xian_earth",
+    "name_key": "emperor_xian",
+    "display_name": "Liu Xie",
+    "forename": "Xie",
+    "family_name": "Liu",
+    "title": "Lord Dong",
+    "description": "Though he officially retired from political life some time ago, the empress-dowager still has a care for Lord Dong and his views.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "181"
+  },
+  {
+    "key": "3k_main_template_historical_liu_xie_hero_earth",
+    "name_key": "liu_xie",
+    "display_name": "Liu Xie",
+    "forename": "Xie",
+    "family_name": "Liu",
+    "title": "Lord Dong",
+    "description": "Though he officially retired from political life some time ago, the empress-dowager still has a care for Lord Dong and his views.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
+  },
+  {
     "key": "ironic_template_historical_liu_xie_hero_water",
     "name_key": "liu_xie",
     "display_name": "Liu Xie",
@@ -6135,6 +8711,20 @@ const CHARACTER_DATA = [
     "birth_year": "185"
   },
   {
+    "key": "3k_main_template_historical_liu_yan_hero_water",
+    "name_key": "liu_yan",
+    "display_name": "Liu Yan",
+    "forename": "Yan",
+    "family_name": "Liu",
+    "title": "Opportunistic Ruler",
+    "description": "Some men just want to watch the world burn, while others use the opportunities placed before them.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "131"
+  },
+  {
     "key": "ironic_template_historical_liu_yan_hero_fire",
     "name_key": "liu_yan",
     "display_name": "Liu Yan",
@@ -6161,6 +8751,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "165"
+  },
+  {
+    "key": "3k_main_template_historical_liu_yao_hero_earth",
+    "name_key": "liu_yao",
+    "display_name": "Liu Yao",
+    "forename": "Yao",
+    "family_name": "Liu",
+    "title": "Welcoming Magistrate",
+    "description": "Liu Yao appears to be a ‘yes’ man, but is nevertheless known for his staunch incorruptibility.",
+    "element": "earth",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "156"
   },
   {
     "key": "3k_main_template_historical_liu_ye_hero_water",
@@ -6233,6 +8837,34 @@ const CHARACTER_DATA = [
     "birth_year": "144"
   },
   {
+    "key": "3k_main_template_historical_liu_zan_hero_fire",
+    "name_key": "liu_zan",
+    "display_name": "Liu Zan",
+    "forename": "Zan",
+    "family_name": "Liu",
+    "title": "The Unflinchable Landslide",
+    "description": "Not even maiming and grievous injury will slow down the mighty Liu Zan. He walks off wounds that would end the careers of other warriors, and keeps going stronger than ever.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "183"
+  },
+  {
+    "key": "3k_main_template_historical_liu_zhang_hero_earth",
+    "name_key": "liu_zhang",
+    "display_name": "Liu Zhang",
+    "forename": "Zhang",
+    "family_name": "Liu",
+    "title": "Proponent of Peace",
+    "description": "A timid and suspicious noble, Liu Zhang displays a willingness to avoid war, even if that means surrender.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "161"
+  },
+  {
     "key": "3k_main_template_historical_liu_zhen_hero_water",
     "name_key": "liu_zhen",
     "display_name": "Liu Zhen",
@@ -6287,6 +8919,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "179"
+  },
+  {
+    "key": "3k_dlc04_template_historical_lu_bao_shuming_wood",
+    "name_key": "lu_bao_shuming",
+    "display_name": "Lu Bao",
+    "forename": "Bao",
+    "family_name": "Lu",
+    "title": "Militia Veteran",
+    "description": "This veteran has seen it all, done it all, and he will almost certainly tell you about it, given the chance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "107"
   },
   {
     "key": "ironic_template_historical_lu_bing_kang_hero_water",
@@ -6359,6 +9005,20 @@ const CHARACTER_DATA = [
     "birth_year": "187"
   },
   {
+    "key": "ep_template_historical_lu_ji_hero_water",
+    "name_key": "lu_ji",
+    "display_name": "Lu Ji",
+    "forename": "Ji",
+    "family_name": "Lu",
+    "title": "Renowned Scholar",
+    "description": "Famed thoughout the realm as a gifted writer and literary critic. However, his ability as a commander remains... questionable.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "261"
+  },
+  {
     "key": "3k_dlc04_template_historical_lu_jun_earth",
     "name_key": "lu_jun",
     "display_name": "Lu Jun",
@@ -6401,6 +9061,20 @@ const CHARACTER_DATA = [
     "birth_year": "126"
   },
   {
+    "key": "ep_template_historical_lady_lu_lianshi_hero_earth",
+    "name_key": "lu_lianshi",
+    "display_name": "Lu Lianshi",
+    "forename": "Lianshi",
+    "family_name": "Lu",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "269"
+  },
+  {
     "key": "3k_main_template_historical_lu_mao_hero_water",
     "name_key": "lu_mao",
     "display_name": "Lu Mao",
@@ -6429,6 +9103,20 @@ const CHARACTER_DATA = [
     "birth_year": "169"
   },
   {
+    "key": "3k_dlc04_template_historical_lu_kang_brother_wood",
+    "name_key": "lu_kang_brother",
+    "display_name": "Lu Qian",
+    "forename": "Qian",
+    "family_name": "Lu",
+    "title": "Village Chief",
+    "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "110"
+  },
+  {
     "key": "3k_dlc04_template_historical_lu_shang_fire",
     "name_key": "lu_shang",
     "display_name": "Lu Shang",
@@ -6441,6 +9129,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_lu_shu_hero_fire",
+    "name_key": "lu_shu",
+    "display_name": "Lu Shu",
+    "forename": "Shu",
+    "family_name": "Lu",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "217"
   },
   {
     "key": "3k_main_template_historical_lu_su_hero_water",
@@ -6499,6 +9201,132 @@ const CHARACTER_DATA = [
     "birth_year": "160"
   },
   {
+    "key": "3k_dlc04_template_historical_lu_yu_metal",
+    "name_key": "lu_yu",
+    "display_name": "Lu Yu",
+    "forename": "Yu",
+    "family_name": "Lu",
+    "title": "Captain of the Guards",
+    "description": "All for one, and one for all!",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "130"
+  },
+  {
+    "key": "3k_main_template_historical_lu_yu_hero_water",
+    "name_key": "lu_yu",
+    "display_name": "Lu Yu",
+    "forename": "Yu",
+    "family_name": "Lu",
+    "title": "Prodigal Son",
+    "description": "With Lu Yu's blossoming talents, it is safe to say the prosperity of the Lu family is very much secured.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "183"
+  },
+  {
+    "key": "ep_template_historical_lu_yun_hero_fire",
+    "name_key": "lu_yun",
+    "display_name": "Lu Yun",
+    "forename": "Yun",
+    "family_name": "Lu",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "264"
+  },
+  {
+    "key": "3k_main_template_historical_lady_lu_zheng_hero_water",
+    "name_key": "lu_zheng",
+    "display_name": "Lu Zheng",
+    "forename": "Zheng",
+    "family_name": "Lu",
+    "title": "Trickster",
+    "description": "This person always has a hidden agenda; do not trust them any further than you can throw them!",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "165"
+  },
+  {
+    "key": "3k_dlc04_template_historical_lu_zhi_hero_water",
+    "name_key": "lu_zhi",
+    "display_name": "Lu Zhi",
+    "forename": "Zhi",
+    "family_name": "Lu",
+    "title": "Respected Mentor",
+    "description": "A peerless teacher and favoured friend, though chronically misfortunate.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "139"
+  },
+  {
+    "key": "3k_main_template_historical_lu_zhi_hero_metal",
+    "name_key": "lu_zhi",
+    "display_name": "Lu Zhi",
+    "forename": "Zhi",
+    "family_name": "Lu",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "139"
+  },
+  {
+    "key": "ep_template_historical_lu_zhi_hero_water",
+    "name_key": "lu_zhi",
+    "display_name": "Lu Zhi",
+    "forename": "Zhi",
+    "family_name": "Lu",
+    "title": "Skilled Mediator",
+    "description": "Sima Ying's close advisor, known for being capable and loyal",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "256"
+  },
+  {
+    "key": "3k_main_template_historical_lun_zhi_hero_fire",
+    "name_key": "lun_zhi",
+    "display_name": "Lun Zhi",
+    "forename": "Zhi",
+    "family_name": "Lun",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "194"
+  },
+  {
+    "key": "3k_dlc04_template_historical_luo_jun_xiaoyuan_wood",
+    "name_key": "luo_jun_xiaoyuan",
+    "display_name": "Luo Jun",
+    "forename": "Jun",
+    "family_name": "Luo",
+    "title": "Guardian of the People",
+    "description": "There is nothing to be gained from oppressing the people; they, ultimately, will decide our fate.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "157"
+  },
+  {
     "key": "ironic_template_historical_luo_li_hero_fire",
     "name_key": "luo_li",
     "display_name": "Luo Li",
@@ -6511,6 +9339,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "189"
+  },
+  {
+    "key": "ep_template_historical_luo_luban_hero_metal",
+    "name_key": "luo_luban",
+    "display_name": "Luo Luban",
+    "forename": "Luban",
+    "family_name": "Luo",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "246"
   },
   {
     "key": "3k_main_template_historical_luo_tong_hero_fire",
@@ -6527,6 +9369,20 @@ const CHARACTER_DATA = [
     "birth_year": "193"
   },
   {
+    "key": "3k_main_template_historical_lu_an_hero_water",
+    "name_key": "lu_an",
+    "display_name": "Lü An",
+    "forename": "An",
+    "family_name": "Lü",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "218"
+  },
+  {
     "key": "ironic_template_historical_lu_bing_hero_water",
     "name_key": "lu_bing",
     "display_name": "Lü Bing",
@@ -6539,6 +9395,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_dlc04_template_historical_lu_boshe_wood",
+    "name_key": "lu_boshe",
+    "display_name": "Lü Boshe",
+    "forename": "Boshe",
+    "family_name": "Lü",
+    "title": "Gracious Host",
+    "description": "Come in, my friend, come in! Tea, perhaps? Or something stronger…?",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "133"
+  },
+  {
+    "key": "3k_main_template_historical_lu_bu_hero_fire",
+    "name_key": "lu_bu",
+    "display_name": "Lü Bu",
+    "forename": "Bu",
+    "family_name": "Lü",
+    "title": "Warrior Without Equal",
+    "description": "With unpredictable loyalty and unsurpassed martial skill, Lü Bu is the most dangerous warrior beneath the heavens.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "159"
+  },
+  {
+    "key": "3k_main_template_historical_lu_chang_hero_fire",
+    "name_key": "lu_chang",
+    "display_name": "Lü Chang",
+    "forename": "Chang",
+    "family_name": "Lü",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "160"
   },
   {
     "key": "3k_main_template_historical_lu_dai_hero_fire",
@@ -6595,6 +9493,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "166"
+  },
+  {
+    "key": "3k_dlc05_template_historical_lu_lingqi_hero_metal",
+    "name_key": "lu_lingqi",
+    "display_name": "Lü Ji",
+    "forename": "Ji",
+    "family_name": "Lü",
+    "title": "Daughter of the Dragon",
+    "description": "The apple doesn't fall far from the tree. Lü Bu's daughter is as beautiful as she is deadly.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "180"
   },
   {
     "key": "3k_main_template_historical_lu_ju_hero_fire",
@@ -6667,6 +9579,20 @@ const CHARACTER_DATA = [
     "birth_year": "171"
   },
   {
+    "key": "3k_main_template_historical_lu_xing_hero_water",
+    "name_key": "lu_xing",
+    "display_name": "Lü Xing",
+    "forename": "Xing",
+    "family_name": "Lü",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "218"
+  },
+  {
     "key": "3k_main_template_historical_lu_yi_hero_water",
     "name_key": "lu_yi",
     "display_name": "Lü Yi",
@@ -6723,6 +9649,20 @@ const CHARACTER_DATA = [
     "birth_year": "158"
   },
   {
+    "key": "3k_main_template_historical_ma_chao_hero_fire",
+    "name_key": "ma_chao",
+    "display_name": "Ma Chao",
+    "forename": "Chao",
+    "family_name": "Ma",
+    "title": "Most-brilliant Warrior",
+    "description": "With a complexion like jade and eyes like shooting stars, Ma Chao is a warrior truly brilliant in appearance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "176"
+  },
+  {
     "key": "3k_main_template_historical_ma_dai_hero_fire",
     "name_key": "ma_dai",
     "display_name": "Ma Dai",
@@ -6765,6 +9705,20 @@ const CHARACTER_DATA = [
     "birth_year": "187"
   },
   {
+    "key": "3k_main_template_historical_ma_mao_hero_metal",
+    "name_key": "ma_mao",
+    "display_name": "Ma Mao",
+    "forename": "Mao",
+    "family_name": "Ma",
+    "title": "Trader",
+    "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "198"
+  },
+  {
     "key": "3k_main_template_historical_ma_midi_hero_water",
     "name_key": "ma_midi",
     "display_name": "Ma Midi",
@@ -6793,6 +9747,20 @@ const CHARACTER_DATA = [
     "birth_year": "186"
   },
   {
+    "key": "3k_main_template_historical_ma_qiu_hero_water",
+    "name_key": "ma_qiu",
+    "display_name": "Ma Qiu",
+    "forename": "Qiu",
+    "family_name": "Ma",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "159"
+  },
+  {
     "key": "3k_main_template_historical_ma_su_hero_water",
     "name_key": "ma_su",
     "display_name": "Ma Su",
@@ -6805,6 +9773,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190"
+  },
+  {
+    "key": "3k_main_template_historical_ma_teng_hero_fire",
+    "name_key": "ma_teng",
+    "display_name": "Ma Teng",
+    "forename": "Teng",
+    "family_name": "Ma",
+    "title": "Protector of the West",
+    "description": "Ma Teng may treat his friends well, but he remains merciless with the Han's enemies.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "145"
   },
   {
     "key": "3k_main_template_historical_ma_tie_hero_fire",
@@ -6875,6 +9857,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "180"
+  },
+  {
+    "key": "3k_main_template_historical_ma_yu_hero_water",
+    "name_key": "ma_yu",
+    "display_name": "Ma Yu",
+    "forename": "Yu",
+    "family_name": "Ma",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "141"
   },
   {
     "key": "3k_dlc04_template_historical_ma_yuanyi_metal",
@@ -6975,6 +9971,20 @@ const CHARACTER_DATA = [
     "birth_year": "167"
   },
   {
+    "key": "3k_main_template_historical_mao_jia_hero_fire",
+    "name_key": "mao_jia",
+    "display_name": "Mao Jia",
+    "forename": "Jia",
+    "family_name": "Mao",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "205"
+  },
+  {
     "key": "3k_main_template_historical_mao_jie_hero_water",
     "name_key": "mao_jie",
     "display_name": "Mao Jie",
@@ -6987,6 +9997,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "169"
+  },
+  {
+    "key": "ep_template_historical_mao_ren_hero_metal_wuling",
+    "name_key": "mao_ren",
+    "display_name": "Mao Ren",
+    "forename": "Ren",
+    "family_name": "Mao",
+    "title": "Lookout",
+    "description": "Keen eyesight enables this person to spot the enemy clearly, even under cover of night.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "259"
   },
   {
     "key": "3k_main_template_historical_mei_cheng_hero_metal",
@@ -7073,6 +10097,20 @@ const CHARACTER_DATA = [
     "birth_year": "173"
   },
   {
+    "key": "ep_template_historical_mi_dian_hero_water_dongping",
+    "name_key": "mi_dian",
+    "display_name": "Mi Dian",
+    "forename": "Dian",
+    "family_name": "Mi",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "252"
+  },
+  {
     "key": "3k_dlc04_template_historical_mi_fang_metal",
     "name_key": "mi_fang",
     "display_name": "Mi Fang",
@@ -7143,6 +10181,20 @@ const CHARACTER_DATA = [
     "birth_year": "151"
   },
   {
+    "key": "3k_main_template_historical_miao_xi_hero_water",
+    "name_key": "miao_xi",
+    "display_name": "Miao Xi",
+    "forename": "Xi",
+    "family_name": "Miao",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "186"
+  },
+  {
     "key": "ironic_template_historical_mike_hero_metal",
     "name_key": "mike",
     "display_name": "Mike",
@@ -7205,7 +10257,7 @@ const CHARACTER_DATA = [
     "forename": "Shun",
     "family_name": "Mu",
     "title": "The Unstoppable",
-    "description": "Few can match Mu Shun's prowess in battle! Just you wait, he'll soon win a great victory and- what?! What do you mean, he's already defeated?!\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_miao_shang_ironic\tJittery Supervisor\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_miao_shang_ironic\tAfter being subjected to multiple, bloody regime changes, anyone would be at least slightly nervous.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_min_chun_ironic\tForthright Attendant\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_min_chun_ironic\tSurrender? My lord, you cannot be serious! I would rather die with honour than give up!\"",
+    "description": "Few can match Mu Shun's prowess in battle! Just you wait, he'll soon win a great victory and- what?! What do you mean, he's already defeated?!\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_miao_shang_ironic\tJittery Supervisor\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_miao_shang_ironic\tAfter being subjected to multiple, bloody regime changes, anyone would be at least slightly nervous.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_min_chun_ironic\tForthright Attendant\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_min_chun_ironic\tSurrender? My lord, you cannot be serious! I would rather die with honour than give up!\"",
     "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
@@ -7288,8 +10340,8 @@ const CHARACTER_DATA = [
     "display_name": "Nanlu",
     "forename": "",
     "family_name": "Nanlu",
-    "title": "The Howling Wolf",
-    "description": "Nanlou thanklessly strives to ensure the survival of his pack, even when facing disaster.",
+    "title": "",
+    "description": "",
     "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
@@ -7563,6 +10615,20 @@ const CHARACTER_DATA = [
     "birth_year": "141"
   },
   {
+    "key": "3k_main_template_historical_pan_xu_hero_water",
+    "name_key": "pan_xu",
+    "display_name": "Pan Xu",
+    "forename": "Xu",
+    "family_name": "Pan",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "188"
+  },
+  {
     "key": "3k_main_template_historical_pan_zhang_hero_fire",
     "name_key": "pan_zhang",
     "display_name": "Pan Zhang",
@@ -7575,6 +10641,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "171"
+  },
+  {
+    "key": "3k_main_template_historical_pang_de_hero_wood",
+    "name_key": "pang_de",
+    "display_name": "Pang De",
+    "forename": "De",
+    "family_name": "Pang",
+    "title": "White Horse General",
+    "description": "Pang De is an unrelenting force, whose avowed enemies know they must face him sooner or later.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "168"
   },
   {
     "key": "ironic_template_historical_pang_degong_hero_earth",
@@ -7633,6 +10713,20 @@ const CHARACTER_DATA = [
     "birth_year": "176"
   },
   {
+    "key": "3k_main_template_historical_pang_tong_hero_water",
+    "name_key": "pang_tong",
+    "display_name": "Pang Tong",
+    "forename": "Tong",
+    "family_name": "Pang",
+    "title": "Fledgling Phoenix",
+    "description": "Having risen from the ashes of obscurity, the 'Crown of Learned Men' is an advisor of the highest esteem.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "179"
+  },
+  {
     "key": "ironic_template_historical_pang_xi_hero_water",
     "name_key": "pang_xi",
     "display_name": "Pang Xi",
@@ -7661,6 +10755,20 @@ const CHARACTER_DATA = [
     "birth_year": "159"
   },
   {
+    "key": "3k_main_template_historical_pei_jun_hero_water",
+    "name_key": "pei_jun",
+    "display_name": "Pei Jun",
+    "forename": "Jun",
+    "family_name": "Pei",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "179"
+  },
+  {
     "key": "3k_main_template_historical_pei_qian_hero_water",
     "name_key": "pei_qian",
     "display_name": "Pei Qian",
@@ -7673,6 +10781,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209"
+  },
+  {
+    "key": "ep_template_historical_pei_wei_hero_earth",
+    "name_key": "pei_wei",
+    "display_name": "Pei Wei",
+    "forename": "Wei",
+    "family_name": "Pei",
+    "title": "Magistrate",
+    "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "255"
+  },
+  {
+    "key": "3k_ytr_template_historical_pei_yuanshao_hero_wood",
+    "name_key": "pei_yuanshao",
+    "display_name": "Pei Yuanshao",
+    "forename": "Yuanshao",
+    "family_name": "Pei",
+    "title": "Virtuous Outrider",
+    "description": "Whether in charge of brigands or soldiers, one must lead by example, always riding at the head of the host.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "152"
   },
   {
     "key": "ironic_template_historical_peng_cai_hero_wood",
@@ -7731,6 +10867,20 @@ const CHARACTER_DATA = [
     "birth_year": "178"
   },
   {
+    "key": "ep_template_historical_princess_pei_hero_metal",
+    "name_key": "princess_pei",
+    "display_name": "Princess Pei",
+    "forename": "",
+    "family_name": "Princess Pei",
+    "title": "Insightful Survivalist",
+    "description": "This one is gifted with insight and adamant perseverance.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "254"
+  },
+  {
     "key": "ironic_template_historical_puyang_lian_hero_earth",
     "name_key": "puyang_lian",
     "display_name": "Puyang Lian",
@@ -7759,6 +10909,34 @@ const CHARACTER_DATA = [
     "birth_year": "172"
   },
   {
+    "key": "ep_template_historical_qi_sheng_hero_metal",
+    "name_key": "qi_sheng",
+    "display_name": "Qi Sheng",
+    "forename": "Sheng",
+    "family_name": "Qi",
+    "title": "Cunning Clerk",
+    "description": "Assistant and advisor to Sima Wei - his wily observations may direct one to glory or to ruin",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "255"
+  },
+  {
+    "key": "3k_main_template_historical_qi_zhou_hero_water",
+    "name_key": "qi_zhou",
+    "display_name": "Qi Zhou",
+    "forename": "Zhou",
+    "family_name": "Qi",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "176"
+  },
+  {
     "key": "ironic_template_historical_qian_bo_z_hero_wood",
     "name_key": "qian_bo_z",
     "display_name": "Qian Bo",
@@ -7785,6 +10963,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "174"
+  },
+  {
+    "key": "ep_template_historical_qian_pu_hero_water",
+    "name_key": "qian_pu",
+    "display_name": "Qian Pu",
+    "forename": "Pu",
+    "family_name": "Qian",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "266"
   },
   {
     "key": "ironic_template_historical_qian_tong_hero_fire",
@@ -7913,6 +11105,20 @@ const CHARACTER_DATA = [
     "birth_year": "150"
   },
   {
+    "key": "3k_main_template_historical_qin_huang_hero_fire",
+    "name_key": "qin_huang",
+    "display_name": "Qin Huang",
+    "forename": "Huang",
+    "family_name": "Qin",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "218"
+  },
+  {
     "key": "ironic_template_historical_qin_lang_hero_wood",
     "name_key": "qin_lang",
     "display_name": "Qin Lang",
@@ -7997,6 +11203,20 @@ const CHARACTER_DATA = [
     "birth_year": "169"
   },
   {
+    "key": "3k_main_template_historical_qu_gong_hero_wood",
+    "name_key": "qu_gong",
+    "display_name": "Qu Gong",
+    "forename": "Gong",
+    "family_name": "Qu",
+    "title": "Poacher",
+    "description": "Clever girl…",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "163"
+  },
+  {
     "key": "ironic_template_historical_qu_pan_hero_earth",
     "name_key": "qu_pan",
     "display_name": "Qu Pan",
@@ -8039,6 +11259,20 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "3k_main_template_historical_qu_ying_hero_metal",
+    "name_key": "qu_ying",
+    "display_name": "Qu Ying",
+    "forename": "Ying",
+    "family_name": "Qu",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "186"
+  },
+  {
     "key": "3k_main_template_historical_quan_cong_hero_fire",
     "name_key": "quan_cong",
     "display_name": "Quan Cong",
@@ -8051,6 +11285,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "198"
+  },
+  {
+    "key": "3k_main_template_historical_quan_ji_hero_water",
+    "name_key": "quan_ji",
+    "display_name": "Quan Ji",
+    "forename": "Ji",
+    "family_name": "Quan",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "212"
   },
   {
     "key": "3k_main_template_historical_quan_rou_hero_wood",
@@ -8067,6 +11315,20 @@ const CHARACTER_DATA = [
     "birth_year": "155"
   },
   {
+    "key": "3k_main_template_historical_quan_xi_hero_fire",
+    "name_key": "quan_xi",
+    "display_name": "Quan Xi",
+    "forename": "Xi",
+    "family_name": "Quan",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "203"
+  },
+  {
     "key": "ironic_template_historical_qubei_hero_earth",
     "name_key": "qubei",
     "display_name": "Qubei",
@@ -8079,6 +11341,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158"
+  },
+  {
+    "key": "ep_template_historical_que_chang_hero_wood",
+    "name_key": "que_chang",
+    "display_name": "Que Chang",
+    "forename": "Chang",
+    "family_name": "Que",
+    "title": "Local Hero",
+    "description": "Not all heroes wear armour. But some, also, do.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "257"
   },
   {
     "key": "3k_dlc07_template_generated_xi_jian_hero_earth",
@@ -8107,6 +11383,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158"
+  },
+  {
+    "key": "3k_main_template_historical_ren_an_hero_water",
+    "name_key": "ren_an",
+    "display_name": "Ren An",
+    "forename": "An",
+    "family_name": "Ren",
+    "title": "Reclusive Sage",
+    "description": "A wise person reflecting a thousand times will still make mistakes.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "124"
+  },
+  {
+    "key": "3k_main_template_historical_ren_jun_hero_water",
+    "name_key": "ren_jun",
+    "display_name": "Ren Jun",
+    "forename": "Jun",
+    "family_name": "Ren",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "159"
+  },
+  {
+    "key": "3k_main_template_historical_ren_kui_hero_fire",
+    "name_key": "ren_kui",
+    "display_name": "Ren Kui",
+    "forename": "Kui",
+    "family_name": "Ren",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "166"
   },
   {
     "key": "3k_main_template_historical_ren_qi_hero_fire",
@@ -8163,6 +11481,34 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_ruan_ji_hero_fire",
+    "name_key": "ruan_ji",
+    "display_name": "Ruan Ji",
+    "forename": "Ji",
+    "family_name": "Ruan",
+    "title": "Sagacious Wonder",
+    "description": "Considered a prodigy amongst his generation, Ruan Ji's literary works are a marvel to behold.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "210"
+  },
+  {
+    "key": "ep_template_historical_ruan_shen_hero_water_poyang",
+    "name_key": "ruan_shen",
+    "display_name": "Ruan Shen",
+    "forename": "Shen",
+    "family_name": "Ruan",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "255"
   },
   {
     "key": "3k_main_template_historical_ruan_yu_hero_water",
@@ -8249,18 +11595,18 @@ const CHARACTER_DATA = [
     "birth_year": "160"
   },
   {
-    "key": "3k_dlc06_template_historical_king_shamoke_hero_nanman_194",
-    "name_key": "king_shamoke",
-    "display_name": "Shamoke",
-    "forename": "Shamoke",
-    "family_name": "",
-    "title": "Ruler of the Five Valleys",
-    "description": "Shamoke brooks no resistance to his rule, showing mercy to his tribes and destruction to his enemies.",
-    "element": "nanman",
-    "subtype": "3k_general_nanman",
+    "key": "3k_main_template_historical_shan_gu_hero_water",
+    "name_key": "shan_gu",
+    "display_name": "Shan Gu",
+    "forename": "Gu",
+    "family_name": "Shan",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
     "is_male": true,
-    "is_unique": true,
-    "birth_year": "160"
+    "is_unique": false,
+    "birth_year": "219"
   },
   {
     "key": "ironic_template_historical_shan_jing_hero_metal",
@@ -8275,6 +11621,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "160"
+  },
+  {
+    "key": "3k_main_template_historical_shan_tao_hero_water",
+    "name_key": "shan_tao",
+    "display_name": "Shan Tao",
+    "forename": "Tao",
+    "family_name": "Shan",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "205"
+  },
+  {
+    "key": "ep_template_historical_shan_yu_hero_earth_badong",
+    "name_key": "shan_yu",
+    "display_name": "Shan Yu",
+    "forename": "Yu",
+    "family_name": "Shan",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "257"
   },
   {
     "key": "ironic_template_historical_shang_sheng_hero_fire",
@@ -8333,6 +11707,20 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "ep_template_historical_shen_chuan_hero_fire",
+    "name_key": "shen_chuan",
+    "display_name": "Shen Chuan",
+    "forename": "Chuan",
+    "family_name": "Shen",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "267"
+  },
+  {
     "key": "ironic_template_historical_shen_dan_hero_earth",
     "name_key": "shen_dan",
     "display_name": "Shen Dan",
@@ -8345,6 +11733,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "173"
+  },
+  {
+    "key": "3k_main_template_historical_shen_de_hero_fire",
+    "name_key": "shen_de",
+    "display_name": "Shen De",
+    "forename": "De",
+    "family_name": "Shen",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "189"
   },
   {
     "key": "ironic_template_historical_shen_mi_hero_wood",
@@ -8361,6 +11763,20 @@ const CHARACTER_DATA = [
     "birth_year": "172"
   },
   {
+    "key": "3k_main_template_historical_shen_pei_hero_water",
+    "name_key": "shen_pei",
+    "display_name": "Shen Pei",
+    "forename": "Pei",
+    "family_name": "Shen",
+    "title": "The Dependable",
+    "description": "When everyone else is losing their heads, Shen Pei can be trusted to keep things going.",
+    "element": "water",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154"
+  },
+  {
     "key": "ironic_template_historical_shen_yi_hero_fire",
     "name_key": "shen_yi",
     "display_name": "Shen Yi",
@@ -8373,6 +11789,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178"
+  },
+  {
+    "key": "3k_main_template_historical_shen_you_hero_water",
+    "name_key": "shen_you",
+    "display_name": "Shen You",
+    "forename": "You",
+    "family_name": "Shen",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "176"
   },
   {
     "key": "ironic_template_historical_sheng_dao_hero_earth",
@@ -8513,6 +11943,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "182"
+  },
+  {
+    "key": "ep_template_historical_shi_chao_hero_metal",
+    "name_key": "shi_chao",
+    "display_name": "Shi Chao",
+    "forename": "Chao",
+    "family_name": "Shi",
+    "title": "Central Army Protector",
+    "description": "A talented general who has seen dynasties fall as his loyalties shifted",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "268"
   },
   {
     "key": "ironic_template_historical_shi_en_ironic_hero_metal",
@@ -8669,6 +12113,20 @@ const CHARACTER_DATA = [
     "birth_year": "208"
   },
   {
+    "key": "ep_template_historical_shi_wei_hero_fire",
+    "name_key": "shi_wei",
+    "display_name": "Shi Wei",
+    "forename": "Wei",
+    "family_name": "Shi",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "266"
+  },
+  {
     "key": "3k_main_template_historical_shi_wu_hero_fire",
     "name_key": "shi_wu",
     "display_name": "Shi Wu",
@@ -8683,6 +12141,20 @@ const CHARACTER_DATA = [
     "birth_year": "145"
   },
   {
+    "key": "3k_main_template_historical_shi_xie_hero_water",
+    "name_key": "shi_xie",
+    "display_name": "Shi Xie",
+    "forename": "Xie",
+    "family_name": "Shi",
+    "title": "Governor Shi",
+    "description": "With his long and distinguished record of sophisticated service, Shi Xie is destined for stately eminence.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "137"
+  },
+  {
     "key": "3k_dlc06_template_historical_shi_xin_hero_wood",
     "name_key": "shi_xin",
     "display_name": "Shi Xin",
@@ -8692,6 +12164,20 @@ const CHARACTER_DATA = [
     "description": "There must be only total devotion to the cause; anything less is as good as treason.",
     "element": "wood",
     "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "160"
+  },
+  {
+    "key": "3k_main_template_historical_shi_yi_hero_metal",
+    "name_key": "shi_yi",
+    "display_name": "Shi Yi",
+    "forename": "Yi",
+    "family_name": "Shi",
+    "title": "Complacent Administrator",
+    "description": "I have no strong feelings one way or the other.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
     "birth_year": "160"
@@ -8711,20 +12197,6 @@ const CHARACTER_DATA = [
     "birth_year": "169"
   },
   {
-    "key": "3k_main_template_historical_shi_yi_hero_metal",
-    "name_key": "shi_yi",
-    "display_name": "Shi Yi",
-    "forename": "Yi",
-    "family_name": "Shi",
-    "title": "Complacent Administrator",
-    "description": "I have no strong feelings one way or the other.",
-    "element": "metal",
-    "subtype": "3k_general_metal",
-    "is_male": true,
-    "is_unique": true,
-    "birth_year": "160"
-  },
-  {
     "key": "3k_main_template_historical_shi_zhi_hero_water",
     "name_key": "shi_zhi",
     "display_name": "Shi Zhi",
@@ -8737,6 +12209,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168"
+  },
+  {
+    "key": "3k_main_template_historical_shi_zuan_hero_fire",
+    "name_key": "shi_zuan",
+    "display_name": "Shi Zuan",
+    "forename": "Zuan",
+    "family_name": "Shi",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "213"
   },
   {
     "key": "3k_main_template_historical_shisun_rui_hero_fire",
@@ -8767,6 +12253,20 @@ const CHARACTER_DATA = [
     "birth_year": "158"
   },
   {
+    "key": "ep_template_historical_shu_yu_hero_metal",
+    "name_key": "shu_yu",
+    "display_name": "Shu Yu",
+    "forename": "Yu",
+    "family_name": "Shu",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "264"
+  },
+  {
     "key": "ironic_template_historical_si_cong_hero_wood",
     "name_key": "si_cong",
     "display_name": "Si Cong",
@@ -8795,6 +12295,230 @@ const CHARACTER_DATA = [
     "birth_year": "171"
   },
   {
+    "key": "ep_template_historical_sima_ai_hero_wood_prince",
+    "name_key": "sima_ai",
+    "display_name": "Sima Ai",
+    "forename": "Ai",
+    "family_name": "Sima",
+    "title": "Principled Administrator",
+    "description": "I am afraid I cannot allow that. You see, in sub-section five, paragraph nine...",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_sima_bing_hero_water",
+    "name_key": "sima_bing",
+    "display_name": "Sima Bing",
+    "forename": "Bing",
+    "family_name": "Sima",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "282"
+  },
+  {
+    "key": "ep_template_historical_sima_chang_hero_wood",
+    "name_key": "sima_chang",
+    "display_name": "Sima Chang",
+    "forename": "Chang",
+    "family_name": "Sima",
+    "title": "Labourer",
+    "description": "They toil so that others don't have to, presumably. It is the order of things.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
+  },
+  {
+    "key": "ep_template_historical_sima_chao_hero_fire",
+    "name_key": "sima_chao",
+    "display_name": "Sima Chao",
+    "forename": "Chao",
+    "family_name": "Sima",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "280"
+  },
+  {
+    "key": "ep_template_historical_sima_chi_hero_water",
+    "name_key": "sima_chi",
+    "display_name": "Sima Chi",
+    "forename": "Chi",
+    "family_name": "Sima",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_sima_cui_hero_metal",
+    "name_key": "sima_cui",
+    "display_name": "Sima Cui",
+    "forename": "Cui",
+    "family_name": "Sima",
+    "title": "Jade Carver",
+    "description": "Sima Liang's son. Not being titled as prince has given him a desire to prove his worth",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "250"
+  },
+  {
+    "key": "ep_template_historical_sima_dan_hero_earth",
+    "name_key": "sima_dan",
+    "display_name": "Sima Dan",
+    "forename": "Dan",
+    "family_name": "Sima",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "262"
+  },
+  {
+    "key": "ep_template_historical_sima_di_hero_water",
+    "name_key": "sima_di",
+    "display_name": "Sima Di",
+    "forename": "Di",
+    "family_name": "Sima",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "267"
+  },
+  {
+    "key": "ep_template_historical_sima_fan_hero_wood",
+    "name_key": "sima_fan",
+    "display_name": "Sima Fan",
+    "forename": "Fan",
+    "family_name": "Sima",
+    "title": "Militia Veteran",
+    "description": "This veteran has seen it all, done it all, and he will almost certainly tell you about it, given the chance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "286"
+  },
+  {
+    "key": "3k_main_template_historical_sima_fang_hero_water",
+    "name_key": "sima_fang",
+    "display_name": "Sima Fang",
+    "forename": "Fang",
+    "family_name": "Sima",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "149"
+  },
+  {
+    "key": "3k_main_template_historical_sima_fu_hero_water",
+    "name_key": "sima_fu",
+    "display_name": "Sima Fu",
+    "forename": "Fu",
+    "family_name": "Sima",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "180"
+  },
+  {
+    "key": "ep_template_historical_sima_fu_hero_earth_zhao",
+    "name_key": "sima_fu",
+    "display_name": "Sima Fu",
+    "forename": "Fu",
+    "family_name": "Sima",
+    "title": "Magistrate",
+    "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "267"
+  },
+  {
+    "key": "ep_template_historical_sima_fu_hero_metal_zhao",
+    "name_key": "sima_fu",
+    "display_name": "Sima Fu",
+    "forename": "Fu",
+    "family_name": "Sima",
+    "title": "Trader",
+    "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "264"
+  },
+  {
+    "key": "ep_template_historical_sima_gan_hero_metal",
+    "name_key": "sima_gan",
+    "display_name": "Sima Gan",
+    "forename": "Gan",
+    "family_name": "Sima",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "232"
+  },
+  {
+    "key": "ep_template_historical_sima_hong_hero_metal",
+    "name_key": "sima_hong",
+    "display_name": "Sima Hong",
+    "forename": "Hong",
+    "family_name": "Sima",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "261"
+  },
+  {
+    "key": "ep_template_historical_sima_huang_hero_wood",
+    "name_key": "sima_huang",
+    "display_name": "Sima Huang",
+    "forename": "Huang",
+    "family_name": "Sima",
+    "title": "Farmer",
+    "description": "This is what real hard work smells like – blood, sweat and animal faeces.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "240"
+  },
+  {
     "key": "ironic_template_historical_sima_hui_hero_water",
     "name_key": "sima_hui",
     "display_name": "Sima Hui",
@@ -8807,6 +12531,90 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "148"
+  },
+  {
+    "key": "ep_template_historical_sima_hun_hero_earth",
+    "name_key": "sima_hun",
+    "display_name": "Sima Hun",
+    "forename": "Hun",
+    "family_name": "Sima",
+    "title": "Outsider",
+    "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "261"
+  },
+  {
+    "key": "ep_template_historical_sima_ji_hero_fire_yan",
+    "name_key": "sima_ji",
+    "display_name": "Sima Ji",
+    "forename": "Ji",
+    "family_name": "Sima",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "257"
+  },
+  {
+    "key": "ep_template_historical_sima_ji_hero_water_rencheng",
+    "name_key": "sima_ji",
+    "display_name": "Sima Ji",
+    "forename": "Ji",
+    "family_name": "Sima",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
+  },
+  {
+    "key": "ep_template_historical_sima_jian_hero_earth_lean",
+    "name_key": "sima_jian",
+    "display_name": "Sima Jian",
+    "forename": "Jian",
+    "family_name": "Sima",
+    "title": "Magistrate",
+    "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "239"
+  },
+  {
+    "key": "ep_template_historical_sima_jian_hero_water_qin",
+    "name_key": "sima_jian",
+    "display_name": "Sima Jian",
+    "forename": "Jian",
+    "family_name": "Sima",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "262"
+  },
+  {
+    "key": "ep_template_historical_sima_jiong_hero_earth_prince",
+    "name_key": "sima_jiong",
+    "display_name": "Sima Jiong",
+    "forename": "Jiong",
+    "family_name": "Sima",
+    "title": "Imperious Regent",
+    "description": "A regent is like air; unseen and barely felt, but vital all the same.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "264"
   },
   {
     "key": "3k_dlc04_template_historical_sima_ju_metal",
@@ -8823,6 +12631,202 @@ const CHARACTER_DATA = [
     "birth_year": "163"
   },
   {
+    "key": "ep_template_historical_sima_ju_hero_earth",
+    "name_key": "sima_ju",
+    "display_name": "Sima Ju",
+    "forename": "Ju",
+    "family_name": "Sima",
+    "title": "Outsider Heir",
+    "description": "Sima Liang's son and heir, considered an outsider but not to be underestimated",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "253"
+  },
+  {
+    "key": "ep_template_historical_sima_kuo_hero_metal",
+    "name_key": "sima_kuo",
+    "display_name": "Sima Kuo",
+    "forename": "Kuo",
+    "family_name": "Sima",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "290"
+  },
+  {
+    "key": "3k_main_template_historical_sima_lang_hero_water",
+    "name_key": "sima_lang",
+    "display_name": "Sima Lang",
+    "forename": "Lang",
+    "family_name": "Sima",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "171"
+  },
+  {
+    "key": "ep_template_historical_sima_liang_hero_wood_prince",
+    "name_key": "sima_liang",
+    "display_name": "Sima Liang",
+    "forename": "Liang",
+    "family_name": "Sima",
+    "title": "Rightful Regent",
+    "description": "Son of the legendary Sima Yi, he has watched the Jin dynasty scuffle in his shadow.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "229"
+  },
+  {
+    "key": "ep_template_historical_sima_lun_hero_earth_prince",
+    "name_key": "sima_lun",
+    "display_name": "Sima Lun",
+    "forename": "Lun",
+    "family_name": "Sima",
+    "title": "Usurper Prince",
+    "description": "The Jin dynasty will endure under a wise and deserving emperor - me!",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "247"
+  },
+  {
+    "key": "ep_template_historical_sima_mao_hero_metal_jiangling",
+    "name_key": "sima_mao",
+    "display_name": "Sima Mao",
+    "forename": "Mao",
+    "family_name": "Sima",
+    "title": "Trader",
+    "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "244"
+  },
+  {
+    "key": "ep_template_historical_sima_mo_hero_fire",
+    "name_key": "sima_mo",
+    "display_name": "Sima Mo",
+    "forename": "Mo",
+    "family_name": "Sima",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "254"
+  },
+  {
+    "key": "ep_template_historical_sima_mu_hero_fire",
+    "name_key": "sima_mu",
+    "display_name": "Sima Mu",
+    "forename": "Mu",
+    "family_name": "Sima",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "256"
+  },
+  {
+    "key": "ep_template_historical_sima_pi_hero_wood",
+    "name_key": "sima_pi",
+    "display_name": "Sima Pi",
+    "forename": "Pi",
+    "family_name": "Sima",
+    "title": "Village Chief",
+    "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "275"
+  },
+  {
+    "key": "ep_template_historical_sima_pu_hero_fire",
+    "name_key": "sima_pu",
+    "display_name": "Sima Pu",
+    "forename": "Pu",
+    "family_name": "Sima",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "288"
+  },
+  {
+    "key": "ep_template_historical_sima_qian_hero_water",
+    "name_key": "sima_qian",
+    "display_name": "Sima Qian",
+    "forename": "Qian",
+    "family_name": "Sima",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "270"
+  },
+  {
+    "key": "ep_template_historical_sima_rong_hero_metal_liang",
+    "name_key": "sima_rong",
+    "display_name": "Sima Rong",
+    "forename": "Rong",
+    "family_name": "Sima",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "245"
+  },
+  {
+    "key": "ep_template_historical_sima_rui_hero_earth_langye",
+    "name_key": "sima_rui",
+    "display_name": "Sima Rui",
+    "forename": "Rui",
+    "family_name": "Sima",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_sima_rui_hero_fire",
+    "name_key": "sima_rui",
+    "display_name": "Sima Rui",
+    "forename": "Rui",
+    "family_name": "Sima",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "269"
+  },
+  {
     "key": "3k_main_template_historical_sima_shi_hero_earth",
     "name_key": "sima_shi",
     "display_name": "Sima Shi",
@@ -8837,6 +12841,398 @@ const CHARACTER_DATA = [
     "birth_year": "208"
   },
   {
+    "key": "ep_template_historical_sima_shi_hero_water",
+    "name_key": "sima_shi",
+    "display_name": "Sima Shi",
+    "forename": "Shi",
+    "family_name": "Sima",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "266"
+  },
+  {
+    "key": "ep_template_historical_sima_shuo_hero_earth",
+    "name_key": "sima_shuo",
+    "display_name": "Sima Shuo",
+    "forename": "Shuo",
+    "family_name": "Sima",
+    "title": "Peacekeeper",
+    "description": "Conflict must be prevented by any means necessary.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "290"
+  },
+  {
+    "key": "ep_template_historical_sima_song_hero_earth",
+    "name_key": "sima_song",
+    "display_name": "Sima Song",
+    "forename": "Song",
+    "family_name": "Sima",
+    "title": "Magistrate",
+    "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "268"
+  },
+  {
+    "key": "ep_template_historical_sima_sui_hero_water",
+    "name_key": "sima_sui",
+    "display_name": "Sima Sui",
+    "forename": "Sui",
+    "family_name": "Sima",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
+  },
+  {
+    "key": "ep_template_historical_sima_tai_hero_fire_donghai",
+    "name_key": "sima_tai",
+    "display_name": "Sima Tai",
+    "forename": "Tai",
+    "family_name": "Sima",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "225"
+  },
+  {
+    "key": "ep_template_historical_sima_tai_hero_metal_longxi",
+    "name_key": "sima_tai",
+    "display_name": "Sima Tai",
+    "forename": "Tai",
+    "family_name": "Sima",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "250"
+  },
+  {
+    "key": "3k_main_template_historical_sima_wang_hero_fire",
+    "name_key": "sima_wang",
+    "display_name": "Sima Wang",
+    "forename": "Wang",
+    "family_name": "Sima",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "205"
+  },
+  {
+    "key": "ep_template_historical_sima_wei_hero_fire_prince",
+    "name_key": "sima_wei",
+    "display_name": "Sima Wei",
+    "forename": "Wei",
+    "family_name": "Sima",
+    "title": "Tempestuous General",
+    "description": "His reputation for belligerence is perhaps undeserved. Not so his famously short temper.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "258"
+  },
+  {
+    "key": "ep_template_historical_sima_wei_hero_fire_yiyang",
+    "name_key": "sima_wei",
+    "display_name": "Sima Wei",
+    "forename": "Wei",
+    "family_name": "Sima",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "270"
+  },
+  {
+    "key": "ep_template_historical_sima_xi_hero_metal",
+    "name_key": "sima_xi",
+    "display_name": "Sima Xi",
+    "forename": "Xi",
+    "family_name": "Sima",
+    "title": "Clerk",
+    "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "283"
+  },
+  {
+    "key": "ep_template_historical_sima_xia_hero_fire",
+    "name_key": "sima_xia",
+    "display_name": "Sima Xia",
+    "forename": "Xia",
+    "family_name": "Sima",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_sima_xiao_hero_metal",
+    "name_key": "sima_xiao",
+    "display_name": "Sima Xiao",
+    "forename": "Xiao",
+    "family_name": "Sima",
+    "title": "Clerk",
+    "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "270"
+  },
+  {
+    "key": "ep_template_historical_sima_xin_hero_fire",
+    "name_key": "sima_xin",
+    "display_name": "Sima Xin",
+    "forename": "Xin",
+    "family_name": "Sima",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "268"
+  },
+  {
+    "key": "ep_template_historical_sima_xu_hero_metal",
+    "name_key": "sima_xu",
+    "display_name": "Sima Xu",
+    "forename": "Xu",
+    "family_name": "Sima",
+    "title": "Lookout",
+    "description": "Keen eyesight enables this person to spot the enemy clearly, even under cover of night.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "275"
+  },
+  {
+    "key": "ep_template_historical_sima_yan_hero_metal",
+    "name_key": "sima_yan",
+    "display_name": "Sima Yan",
+    "forename": "Yan",
+    "family_name": "Sima",
+    "title": "Clerk",
+    "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_sima_yang_hero_water_runan",
+    "name_key": "sima_yang",
+    "display_name": "Sima Yang",
+    "forename": "Yang",
+    "family_name": "Sima",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "261"
+  },
+  {
+    "key": "ep_template_historical_sima_yao_hero_wood_dongan",
+    "name_key": "sima_yao",
+    "display_name": "Sima Yao",
+    "forename": "Yao",
+    "family_name": "Sima",
+    "title": "Filial & Pious",
+    "description": "Respect for parents, elders, and ancestors is the root of all virtue, the stem from which all moral teachings grow.",
+    "element": "water",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "252"
+  },
+  {
+    "key": "3k_main_template_historical_sima_yi_hero_water",
+    "name_key": "sima_yi",
+    "display_name": "Sima Yi",
+    "forename": "Yi",
+    "family_name": "Sima",
+    "title": "Silver Eminence",
+    "description": "If you cannot fight, defend. If you cannot defend, flee. If you cannot flee, surrender. If you cannot surrender, die!",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "179"
+  },
+  {
+    "key": "ep_template_historical_sima_yi_hero_earth_chu",
+    "name_key": "sima_yi",
+    "display_name": "Sima Yi",
+    "forename": "Yi",
+    "family_name": "Sima",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "288"
+  },
+  {
+    "key": "ep_template_historical_sima_yi_hero_wood_piling",
+    "name_key": "sima_yi",
+    "display_name": "Sima Yi",
+    "forename": "Yi",
+    "family_name": "Sima",
+    "title": "Local Hero",
+    "description": "Not all heroes wear armour. But some, also, do.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "251"
+  },
+  {
+    "key": "ep_template_historical_sima_yin_hero_earth",
+    "name_key": "sima_yin",
+    "display_name": "Sima Yin",
+    "forename": "Yin",
+    "family_name": "Sima",
+    "title": "Scout",
+    "description": "Ranging forward, this general guards the troops against threats from without.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "266"
+  },
+  {
+    "key": "ep_template_historical_sima_ying_hero_metal_qi",
+    "name_key": "sima_ying",
+    "display_name": "Sima Ying",
+    "forename": "Ying",
+    "family_name": "Sima",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "283"
+  },
+  {
+    "key": "ep_template_historical_sima_ying_hero_water_prince",
+    "name_key": "sima_ying",
+    "display_name": "Sima Ying",
+    "forename": "Ying",
+    "family_name": "Sima",
+    "title": "Beloved Governor",
+    "description": "Madness may grip the court, but Sima Ying will always think of his people.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_sima_yong_hero_fire_prince",
+    "name_key": "sima_yong",
+    "display_name": "Sima Yong",
+    "forename": "Yong",
+    "family_name": "Sima",
+    "title": "Shrewd Defender",
+    "description": "Sima Yong has a duty to the emperor, and his loyalty will never waver.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "244"
+  },
+  {
+    "key": "ep_template_historical_sima_you_hero_wood",
+    "name_key": "sima_you",
+    "display_name": "Sima You",
+    "forename": "You",
+    "family_name": "Sima",
+    "title": "Militia Veteran",
+    "description": "This veteran has seen it all, done it all, and he will almost certainly tell you about it, given the chance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "266"
+  },
+  {
+    "key": "ep_template_historical_sima_yue_hero_metal_prince",
+    "name_key": "sima_yue",
+    "display_name": "Sima Yue",
+    "forename": "Yue",
+    "family_name": "Sima",
+    "title": "Imperial Overseer",
+    "description": "There must be oversight in all things, especially important matters of state.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "254"
+  },
+  {
+    "key": "ep_template_historical_sima_yun_hero_metal",
+    "name_key": "sima_yun",
+    "display_name": "Sima Yun",
+    "forename": "Yun",
+    "family_name": "Sima",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "272"
+  },
+  {
+    "key": "ep_template_historical_sima_zan_hero_water",
+    "name_key": "sima_zan",
+    "display_name": "Sima Zan",
+    "forename": "Zan",
+    "family_name": "Sima",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "268"
+  },
+  {
     "key": "3k_main_template_historical_sima_zhao_hero_earth",
     "name_key": "sima_zhao",
     "display_name": "Sima Zhao",
@@ -8849,6 +13245,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "211"
+  },
+  {
+    "key": "ep_template_historical_sima_zhi_hero_earth",
+    "name_key": "sima_zhi",
+    "display_name": "Sima Zhi",
+    "forename": "Zhi",
+    "family_name": "Sima",
+    "title": "Scout",
+    "description": "Ranging forward, this general guards the troops against threats from without.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "232"
+  },
+  {
+    "key": "ep_template_historical_sima_zong_hero_wood_runan",
+    "name_key": "sima_zong",
+    "display_name": "Sima Zong",
+    "forename": "Zong",
+    "family_name": "Sima",
+    "title": "Local Hero",
+    "description": "Not all heroes wear armour. But some, also, do.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "278"
   },
   {
     "key": "ironic_template_historical_song_shurou_ironic_hero_earth",
@@ -8879,6 +13303,20 @@ const CHARACTER_DATA = [
     "birth_year": "158"
   },
   {
+    "key": "3k_dlc04_template_historical_song_dian_earth",
+    "name_key": "song_dian",
+    "display_name": "Song Dian",
+    "forename": "Dian",
+    "family_name": "Song",
+    "title": "Architect of the Jade Hall",
+    "description": "Emperor Shun's hall was a thing of unbridled splendour, but has fallen into some disrepair. This man has been tasked with its maintenance.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "142"
+  },
+  {
     "key": "3k_main_template_historical_song_jian_hero_metal",
     "name_key": "song_jian",
     "display_name": "Song Jian",
@@ -8893,6 +13331,20 @@ const CHARACTER_DATA = [
     "birth_year": "149"
   },
   {
+    "key": "3k_main_template_generated_lady_gongsun_jinting_hero_water",
+    "name_key": "gongsun_jinting",
+    "display_name": "Song Jinting",
+    "forename": "Jinting",
+    "family_name": "Song",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "156"
+  },
+  {
     "key": "ironic_template_historical_song_qian_hero_fire",
     "name_key": "song_qian",
     "display_name": "Song Qian",
@@ -8905,6 +13357,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168"
+  },
+  {
+    "key": "ep_template_historical_song_wei_hero_earth",
+    "name_key": "song_wei",
+    "display_name": "Song Wei",
+    "forename": "Wei",
+    "family_name": "Song",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "255"
   },
   {
     "key": "ironic_template_historical_song_xian_hero_metal",
@@ -8947,6 +13413,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "151"
+  },
+  {
+    "key": "ep_template_historical_song_zhou_hero_earth",
+    "name_key": "song_zhou",
+    "display_name": "Song Zhou",
+    "forename": "Zhou",
+    "family_name": "Song",
+    "title": "Preacher",
+    "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "270"
   },
   {
     "key": "ironic_template_historical_su_dai_hero_wood",
@@ -9003,6 +13483,62 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "172"
+  },
+  {
+    "key": "3k_main_template_historical_su_shang_hero_fire",
+    "name_key": "su_shang",
+    "display_name": "Su Shang",
+    "forename": "Shang",
+    "family_name": "Su",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "191"
+  },
+  {
+    "key": "3k_main_template_historical_su_shuo_hero_water",
+    "name_key": "su_shuo",
+    "display_name": "Su Shuo",
+    "forename": "Shuo",
+    "family_name": "Su",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "218"
+  },
+  {
+    "key": "ep_template_historical_su_ting_hero_metal",
+    "name_key": "su_ting",
+    "display_name": "Su Ting",
+    "forename": "Ting",
+    "family_name": "Su",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "265"
+  },
+  {
+    "key": "3k_main_template_historical_su_ze_hero_water",
+    "name_key": "su_ze",
+    "display_name": "Su Ze",
+    "forename": "Ze",
+    "family_name": "Su",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "178"
   },
   {
     "key": "ironic_template_historical_sui_chun_hero_earth",
@@ -9073,6 +13609,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_sun_ce_hero_fire",
+    "name_key": "sun_ce",
+    "display_name": "Sun Ce",
+    "forename": "Ce",
+    "family_name": "Sun",
+    "title": "The Little Conqueror",
+    "description": "Sun Ce has been likened to the warrior-kings of old, with an aptitude for military leadership that belies his youth.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "175"
   },
   {
     "key": "3k_main_template_historical_sun_deng_hero_earth",
@@ -9159,6 +13709,20 @@ const CHARACTER_DATA = [
     "birth_year": "195"
   },
   {
+    "key": "3k_main_template_historical_sun_jian_hero_metal",
+    "name_key": "sun_jian",
+    "display_name": "Sun Jian",
+    "forename": "Jian",
+    "family_name": "Sun",
+    "title": "Tiger of Jiangdong",
+    "description": "Claiming ancestry with the renowned military strategist Sun Tzu, the fearless Sun Jian has war flowing through his veins.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "155"
+  },
+  {
     "key": "3k_main_template_historical_sun_jiao_hero_fire",
     "name_key": "sun_jiao",
     "display_name": "Sun Jiao",
@@ -9199,6 +13763,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156"
+  },
+  {
+    "key": "3k_main_template_historical_sun_jun_hero_earth",
+    "name_key": "sun_jun",
+    "display_name": "Sun Jun",
+    "forename": "Jun",
+    "family_name": "Sun",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "219"
   },
   {
     "key": "ironic_template_historical_sun_kuang_hero_earth",
@@ -9243,6 +13821,34 @@ const CHARACTER_DATA = [
     "birth_year": "208"
   },
   {
+    "key": "3k_main_template_historical_sun_luyu_hero_earth",
+    "name_key": "sun_luyu",
+    "display_name": "Sun Luyu",
+    "forename": "Luyu",
+    "family_name": "Sun",
+    "title": "Outsider",
+    "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "205"
+  },
+  {
+    "key": "3k_main_template_historical_sun_lu_hero_earth",
+    "name_key": "sun_lu",
+    "display_name": "Sun Lü",
+    "forename": "Lü",
+    "family_name": "Sun",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "213"
+  },
+  {
     "key": "3k_main_template_historical_sun_qian_hero_water",
     "name_key": "sun_qian",
     "display_name": "Sun Qian",
@@ -9269,6 +13875,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "153"
+  },
+  {
+    "key": "3k_main_template_historical_sun_quan_hero_earth",
+    "name_key": "sun_quan",
+    "display_name": "Sun Quan",
+    "forename": "Quan",
+    "family_name": "Sun",
+    "title": "Emerald-eyed Administrator",
+    "description": "Striking looks and a sturdy frame betokens Sun Quan’s great nobility, heroism and longevity.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "182"
+  },
+  {
+    "key": "3k_main_template_historical_lady_sun_shangxiang_hero_fire",
+    "name_key": "sun_shangxiang",
+    "display_name": "Sun Ren",
+    "forename": "Ren",
+    "family_name": "Sun",
+    "title": "The Rising Sun",
+    "description": "As surely as the sun rises, the Lady will always endeavour to get her way.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "189"
   },
   {
     "key": "3k_main_template_historical_sun_shao_hero_metal",
@@ -9313,6 +13947,34 @@ const CHARACTER_DATA = [
     "birth_year": "150"
   },
   {
+    "key": "ep_template_historical_sun_xiu_hero_water",
+    "name_key": "sun_xiu",
+    "display_name": "Sun Xiu",
+    "forename": "Xiu",
+    "family_name": "Sun",
+    "title": "Partisan",
+    "description": "If I may, my lord, I have a rather compelling argument...",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "243"
+  },
+  {
+    "key": "3k_main_template_historical_sun_xu_hero_water",
+    "name_key": "sun_xu",
+    "display_name": "Sun Xu",
+    "forename": "Xu",
+    "family_name": "Sun",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "207"
+  },
+  {
     "key": "3k_main_template_historical_sun_yi_hero_fire",
     "name_key": "sun_yi",
     "display_name": "Sun Yi",
@@ -9339,6 +14001,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "177"
+  },
+  {
+    "key": "3k_dlc04_template_historical_sun_zhang_wood",
+    "name_key": "sun_zhang",
+    "display_name": "Sun Zhang",
+    "forename": "Zhang",
+    "family_name": "Sun",
+    "title": "Local Hero",
+    "description": "Not all heroes wear armour. But some, also, do.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "140"
   },
   {
     "key": "3k_main_template_historical_sun_zi_hero_fire",
@@ -9397,6 +14073,48 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "3k_main_template_historical_taishi_ci_hero_metal",
+    "name_key": "taishi_ci",
+    "display_name": "Taishi Ci",
+    "forename": "Ci",
+    "family_name": "Taishi",
+    "title": "of Exceptional Dexterity",
+    "description": "From horse-riding to archery, Taishi Ci excels in all manner of physical pursuits.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "166"
+  },
+  {
+    "key": "ep_template_historical_tang_si_hero_fire",
+    "name_key": "tang_si",
+    "display_name": "Tang Si",
+    "forename": "Si",
+    "family_name": "Tang",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "260"
+  },
+  {
+    "key": "ep_template_historical_tang_wen_hero_wood",
+    "name_key": "tang_wen",
+    "display_name": "Tang Wen",
+    "forename": "Wen",
+    "family_name": "Tang",
+    "title": "Labourer",
+    "description": "They toil so that others don't have to, presumably. It is the order of things.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "258"
+  },
+  {
     "key": "3k_dlc04_template_historical_tang_zhou_water",
     "name_key": "tang_zhou",
     "display_name": "Tang Zhou",
@@ -9423,6 +14141,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "133"
+  },
+  {
+    "key": "3k_main_template_historical_tao_qian_hero_water",
+    "name_key": "tao_qian",
+    "display_name": "Tao Qian",
+    "forename": "Qian",
+    "family_name": "Tao",
+    "title": "Benevolent Arbiter",
+    "description": "Tao Qian may be a highly influential and ambitious figure, but expansionism is not on his personal agenda.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "132"
   },
   {
     "key": "3k_main_template_historical_tao_shang_hero_metal",
@@ -9481,6 +14213,20 @@ const CHARACTER_DATA = [
     "birth_year": "167"
   },
   {
+    "key": "3k_main_template_historical_teng_yin_hero_water",
+    "name_key": "teng_yin",
+    "display_name": "Teng Yin",
+    "forename": "Yin",
+    "family_name": "Teng",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "212"
+  },
+  {
     "key": "ironic_template_historical_teng_zhou_hero_earth",
     "name_key": "teng_zhou",
     "display_name": "Teng Zhou",
@@ -9493,6 +14239,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "165"
+  },
+  {
+    "key": "ep_template_historical_tian_ben_hero_wood",
+    "name_key": "tian_ben",
+    "display_name": "Tian Ben",
+    "forename": "Ben",
+    "family_name": "Tian",
+    "title": "Village Chief",
+    "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "270"
   },
   {
     "key": "3k_main_template_historical_tian_chou_hero_water",
@@ -9535,6 +14295,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "144"
+  },
+  {
+    "key": "3k_main_template_historical_tian_jing_hero_water",
+    "name_key": "tian_jing",
+    "display_name": "Tian Jing",
+    "forename": "Jing",
+    "family_name": "Tian",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "165"
   },
   {
     "key": "3k_main_template_historical_tian_kai_hero_earth",
@@ -9733,6 +14507,20 @@ const CHARACTER_DATA = [
     "birth_year": "164"
   },
   {
+    "key": "ep_template_historical_wan_buyi_hero_fire",
+    "name_key": "wan_buyi",
+    "display_name": "Wan Buyi",
+    "forename": "Buyi",
+    "family_name": "Wan",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "245"
+  },
+  {
     "key": "ironic_template_historical_wan_yan_hero_water",
     "name_key": "wan_yan",
     "display_name": "Wan Yan",
@@ -9775,6 +14563,20 @@ const CHARACTER_DATA = [
     "birth_year": "175"
   },
   {
+    "key": "ep_template_historical_wang_bao_hero_wood",
+    "name_key": "wang_bao",
+    "display_name": "Wang Bao",
+    "forename": "Bao",
+    "family_name": "Wang",
+    "title": "Steadfast Preacher",
+    "description": "Courtier of Sima Jiong's regency. Has strong beliefs and a loose tongue that may cause him trouble",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "265"
+  },
+  {
     "key": "3k_main_template_generated_lady_wang_baolan_hero_water",
     "name_key": "wang_baolan",
     "display_name": "Wang Baolan",
@@ -9803,6 +14605,34 @@ const CHARACTER_DATA = [
     "birth_year": "177"
   },
   {
+    "key": "3k_main_template_historical_wang_biao_hero_water",
+    "name_key": "wang_biao",
+    "display_name": "Wang Biao",
+    "forename": "Biao",
+    "family_name": "Wang",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209"
+  },
+  {
+    "key": "3k_main_template_historical_wang_can_hero_water",
+    "name_key": "wang_can",
+    "display_name": "Wang Can",
+    "forename": "Can",
+    "family_name": "Wang",
+    "title": "Scholar of Renown",
+    "description": "Wang Can is one of the most famed minds of his generation, and as well as recording the deeds of heroes, is set to become one himself.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "177"
+  },
+  {
     "key": "3k_main_template_historical_wang_dang_hero_water",
     "name_key": "wang_dang",
     "display_name": "Wang Dang",
@@ -9815,6 +14645,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "163"
+  },
+  {
+    "key": "3k_ytr_template_historical_wang_du_hero_water",
+    "name_key": "wang_du",
+    "display_name": "Wang Du",
+    "forename": "Du",
+    "family_name": "Wang",
+    "title": "Fortune-teller",
+    "description": "I can tell you your future, but I cannot guarantee whether or not you will be glad of what you hear.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "141"
   },
   {
     "key": "ironic_template_historical_wang_feng_hero_water",
@@ -9929,6 +14773,20 @@ const CHARACTER_DATA = [
     "birth_year": "190"
   },
   {
+    "key": "3k_main_template_historical_wang_jian_hero_water",
+    "name_key": "wang_jian",
+    "display_name": "Wang Jian",
+    "forename": "Jian",
+    "family_name": "Wang",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "191"
+  },
+  {
     "key": "ironic_template_historical_wang_jin_hero_wood",
     "name_key": "wang_jin",
     "display_name": "Wang Jin",
@@ -9941,6 +14799,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "174"
+  },
+  {
+    "key": "3k_main_template_historical_wang_jing_hero_fire",
+    "name_key": "wang_jing",
+    "display_name": "Wang Jing",
+    "forename": "Jing",
+    "family_name": "Wang",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "218"
   },
   {
     "key": "3k_main_template_historical_wang_jun_hero_fire",
@@ -9985,6 +14857,34 @@ const CHARACTER_DATA = [
     "birth_year": "138"
   },
   {
+    "key": "3k_main_template_historical_wang_lan_hero_water",
+    "name_key": "wang_lan",
+    "display_name": "Wang Lan",
+    "forename": "Lan",
+    "family_name": "Wang",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "206"
+  },
+  {
+    "key": "3k_main_template_historical_wang_lang_hero_earth",
+    "name_key": "wang_lang",
+    "display_name": "Wang Lang",
+    "forename": "Lang",
+    "family_name": "Wang",
+    "title": "Ardent Educator",
+    "description": "A keen imparter of knowledge, even when it is neither wanted nor welcome.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "161"
+  },
+  {
     "key": "3k_main_template_generated_lady_wang_lanlan_hero_earth",
     "name_key": "wang_lanlan",
     "display_name": "Wang Lanlan",
@@ -10027,6 +14927,20 @@ const CHARACTER_DATA = [
     "birth_year": "178"
   },
   {
+    "key": "3k_main_template_historical_wang_lie_hero_water",
+    "name_key": "wang_lie",
+    "display_name": "Wang Lie",
+    "forename": "Lie",
+    "family_name": "Wang",
+    "title": "Seeker of Solitude",
+    "description": "This wise disciple wishes only for peace and quiet, and for these damned warlords to leave him alone.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "141"
+  },
+  {
     "key": "ironic_template_historical_wang_lie_hero_water",
     "name_key": "wang_lie",
     "display_name": "Wang Lie",
@@ -10039,6 +14953,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_wang_ling_hero_fire",
+    "name_key": "wang_ling",
+    "display_name": "Wang Ling",
+    "forename": "Ling",
+    "family_name": "Wang",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "215"
   },
   {
     "key": "ironic_template_historical_wang_men_hero_earth",
@@ -10097,6 +15025,34 @@ const CHARACTER_DATA = [
     "birth_year": "174"
   },
   {
+    "key": "3k_main_template_historical_wang_qi_hero_fire",
+    "name_key": "wang_qi",
+    "display_name": "Wang Qi",
+    "forename": "Qi",
+    "family_name": "Wang",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "151"
+  },
+  {
+    "key": "3k_ytr_template_historical_wang_rao_hero_metal",
+    "name_key": "wang_rao",
+    "display_name": "Wang Rao",
+    "forename": "Rao",
+    "family_name": "Wang",
+    "title": "Brewer",
+    "description": "China has many noble professions, but this person has chosen the noblest: to quench people’s thirst with beer.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "155"
+  },
+  {
     "key": "3k_dlc04_template_historical_wang_rui_fire",
     "name_key": "wang_rui",
     "display_name": "Wang Rui",
@@ -10153,6 +15109,20 @@ const CHARACTER_DATA = [
     "birth_year": "185"
   },
   {
+    "key": "3k_main_template_generated_wang_shu_hero_water",
+    "name_key": "wang_shu",
+    "display_name": "Wang Shu",
+    "forename": "Shu",
+    "family_name": "Wang",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "180"
+  },
+  {
     "key": "3k_main_template_historical_wang_shuang_hero_fire",
     "name_key": "wang_shuang",
     "display_name": "Wang Shuang",
@@ -10181,6 +15151,20 @@ const CHARACTER_DATA = [
     "birth_year": "158"
   },
   {
+    "key": "3k_main_template_historical_wang_su_hero_metal",
+    "name_key": "wang_su",
+    "display_name": "Wang Su",
+    "forename": "Su",
+    "family_name": "Wang",
+    "title": "Clerk",
+    "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "189"
+  },
+  {
     "key": "3k_main_template_historical_wang_su_hero_water",
     "name_key": "wang_su",
     "display_name": "Wang Su",
@@ -10207,6 +15191,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "155"
+  },
+  {
+    "key": "3k_main_template_historical_wang_xi_hero_wood",
+    "name_key": "wang_xi",
+    "display_name": "Wang Xi",
+    "forename": "Xi",
+    "family_name": "Wang",
+    "title": "Village Chief",
+    "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "210"
   },
   {
     "key": "ironic_template_historical_wang_xian_hero_water",
@@ -10363,6 +15361,20 @@ const CHARACTER_DATA = [
     "birth_year": "169"
   },
   {
+    "key": "3k_main_template_historical_wei_dan_hero_water",
+    "name_key": "wei_dan",
+    "display_name": "Wei Dan",
+    "forename": "Dan",
+    "family_name": "Wei",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "179"
+  },
+  {
     "key": "ironic_template_historical_wei_dan_hero_water",
     "name_key": "wei_dan",
     "display_name": "Wei Dan",
@@ -10419,6 +15431,34 @@ const CHARACTER_DATA = [
     "birth_year": "168"
   },
   {
+    "key": "3k_main_template_historical_wei_guan_hero_fire",
+    "name_key": "wei_guan",
+    "display_name": "Wei Guan",
+    "forename": "Guan",
+    "family_name": "Wei",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "220"
+  },
+  {
+    "key": "ep_template_historical_wei_guan_hero_water",
+    "name_key": "wei_guan",
+    "display_name": "Wei Guan",
+    "forename": "Guan",
+    "family_name": "Wei",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "220"
+  },
+  {
     "key": "3k_main_template_historical_wei_huang_hero_water",
     "name_key": "wei_huang",
     "display_name": "Wei Huang",
@@ -10433,6 +15473,20 @@ const CHARACTER_DATA = [
     "birth_year": "170"
   },
   {
+    "key": "3k_main_template_historical_wei_ji_hero_fire",
+    "name_key": "wei_ji",
+    "display_name": "Wei Ji",
+    "forename": "Ji",
+    "family_name": "Wei",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "220"
+  },
+  {
     "key": "3k_main_template_historical_wei_jie_hero_wood",
     "name_key": "wei_jie",
     "display_name": "Wei Jie",
@@ -10445,6 +15499,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_wei_kai_hero_fire",
+    "name_key": "wei_kai",
+    "display_name": "Wei Kai",
+    "forename": "Kai",
+    "family_name": "Wei",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "168"
+  },
+  {
+    "key": "3k_main_template_historical_wei_kang_hero_fire",
+    "name_key": "wei_kang",
+    "display_name": "Wei Kang",
+    "forename": "Kang",
+    "family_name": "Wei",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
   },
   {
     "key": "ironic_template_historical_wei_kang_hero_earth",
@@ -10489,6 +15571,34 @@ const CHARACTER_DATA = [
     "birth_year": "158"
   },
   {
+    "key": "3k_main_template_historical_wei_shu_hero_water",
+    "name_key": "wei_shu",
+    "display_name": "Wei Shu",
+    "forename": "Shu",
+    "family_name": "Wei",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209"
+  },
+  {
+    "key": "3k_main_template_historical_wei_wen_hero_fire",
+    "name_key": "wei_wen",
+    "display_name": "Wei Wen",
+    "forename": "Wen",
+    "family_name": "Wei",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
+  },
+  {
     "key": "ironic_template_historical_wei_xu_hero_metal",
     "name_key": "wei_xu",
     "display_name": "Wei Xu",
@@ -10501,6 +15611,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165"
+  },
+  {
+    "key": "3k_main_template_historical_wei_yan_hero_fire",
+    "name_key": "wei_yan",
+    "display_name": "Wei Yan",
+    "forename": "Yan",
+    "family_name": "Wei",
+    "title": "Disobedient Tiger",
+    "description": "For the distrustful Wei Yan, a violent betrayal always simmers below the surface.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "174"
+  },
+  {
+    "key": "3k_main_template_historical_wei_yan_hero_wood",
+    "name_key": "wei_yan",
+    "display_name": "Wei Yan",
+    "forename": "Yan",
+    "family_name": "Wei",
+    "title": "Disobedient Tiger",
+    "description": "For the distrustful Wei Yan, a violent betrayal always simmers below the surface.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "174"
   },
   {
     "key": "3k_main_template_historical_wei_you_hero_water",
@@ -10517,6 +15655,20 @@ const CHARACTER_DATA = [
     "birth_year": "136"
   },
   {
+    "key": "3k_main_template_historical_wei_zhao_hero_water",
+    "name_key": "wei_zhao",
+    "display_name": "Wei Zhao",
+    "forename": "Zhao",
+    "family_name": "Wei",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "204"
+  },
+  {
     "key": "ironic_template_historical_wei_zi_hero_fire",
     "name_key": "wei_zi",
     "display_name": "Wei Zi",
@@ -10531,6 +15683,20 @@ const CHARACTER_DATA = [
     "birth_year": "142"
   },
   {
+    "key": "3k_main_template_historical_wen_chou_hero_wood",
+    "name_key": "wen_chou",
+    "display_name": "Wen Chou",
+    "forename": "Chou",
+    "family_name": "Wen",
+    "title": "Fierce Firebrand",
+    "description": "If only Wen Chou were here, I’d have nothing to fear!",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "160"
+  },
+  {
     "key": "ironic_template_historical_wen_gong_hero_water",
     "name_key": "wen_gong",
     "display_name": "Wen Gong",
@@ -10543,6 +15709,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "181"
+  },
+  {
+    "key": "3k_main_template_historical_wen_hui_hero_water",
+    "name_key": "wen_hui",
+    "display_name": "Wen Hui",
+    "forename": "Hui",
+    "family_name": "Wen",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "178"
   },
   {
     "key": "ironic_template_historical_wen_ji_hero_fire",
@@ -10713,6 +15893,20 @@ const CHARACTER_DATA = [
     "birth_year": "178"
   },
   {
+    "key": "3k_main_template_historical_wu_fu_hero_fire",
+    "name_key": "wu_fu",
+    "display_name": "Wu Fu",
+    "forename": "Fu",
+    "family_name": "Wu",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "152"
+  },
+  {
     "key": "3k_main_template_generated_wu_hua_hero_fire",
     "name_key": "wu_hua",
     "display_name": "Wu Huai",
@@ -10853,6 +16047,20 @@ const CHARACTER_DATA = [
     "birth_year": "145"
   },
   {
+    "key": "3k_main_template_historical_wu_shuo_hero_water",
+    "name_key": "wu_shuo",
+    "display_name": "Wu Shuo",
+    "forename": "Shuo",
+    "family_name": "Wu",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "165"
+  },
+  {
     "key": "ironic_template_historical_wu_wu_hero_fire",
     "name_key": "wu_wu",
     "display_name": "Wu Wu",
@@ -10923,6 +16131,20 @@ const CHARACTER_DATA = [
     "birth_year": "172"
   },
   {
+    "key": "3k_main_template_historical_wu_zhi_hero_water",
+    "name_key": "wu_zhi",
+    "display_name": "Wu Zhi",
+    "forename": "Zhi",
+    "family_name": "Wu",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "177"
+  },
+  {
     "key": "3k_dlc06_template_historical_king_wutugu_hero_nanman",
     "name_key": "king_wutugu",
     "display_name": "Wutugu",
@@ -10963,6 +16185,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "154"
+  },
+  {
+    "key": "ep_template_historical_xi_kan_hero_earth",
+    "name_key": "xi_kan",
+    "display_name": "Xi Kan",
+    "forename": "Kan",
+    "family_name": "Xi",
+    "title": "Peacekeeper",
+    "description": "Conflict must be prevented by any means necessary.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "268"
   },
   {
     "key": "3k_dlc06_template_historical_xi_ni_hero_nanman",
@@ -11021,6 +16257,34 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "3k_main_template_historical_xia_she_hero_fire",
+    "name_key": "xia_she",
+    "display_name": "Xia She",
+    "forename": "She",
+    "family_name": "Xia",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
+  },
+  {
+    "key": "3k_dlc04_template_historical_xia_yun_water",
+    "name_key": "xia_yun",
+    "display_name": "Xia Yun",
+    "forename": "Yun",
+    "family_name": "Xia",
+    "title": "Financial Genius",
+    "description": "Having mastered finance's decidedly black arts, this one is able to generate funds almost from thin air.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "150"
+  },
+  {
     "key": "3k_main_template_historical_xia_zhao_hero_metal",
     "name_key": "xia_zhao",
     "display_name": "Xia Zhao",
@@ -11049,6 +16313,20 @@ const CHARACTER_DATA = [
     "birth_year": "186"
   },
   {
+    "key": "3k_main_template_historical_xiahou_dun_hero_wood",
+    "name_key": "xiahou_dun",
+    "display_name": "Xiahou Dun",
+    "forename": "Dun",
+    "family_name": "Xiahou",
+    "title": "Hot-headed Officer",
+    "description": "Those who know Xiahou Dun know not to get on his bad side.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "156"
+  },
+  {
     "key": "ironic_template_historical_xiahou_heng_hero_metal",
     "name_key": "xiahou_heng",
     "display_name": "Xiahou Heng",
@@ -11061,6 +16339,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "181"
+  },
+  {
+    "key": "3k_main_template_historical_xiahou_hui_hero_earth",
+    "name_key": "xiahou_hui",
+    "display_name": "Xiahou Hui",
+    "forename": "Hui",
+    "family_name": "Xiahou",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "211"
   },
   {
     "key": "3k_main_template_historical_xiahou_jie_hero_fire",
@@ -11105,6 +16397,20 @@ const CHARACTER_DATA = [
     "birth_year": "186"
   },
   {
+    "key": "3k_main_template_historical_xiahou_rong_hero_water",
+    "name_key": "xiahou_rong",
+    "display_name": "Xiahou Rong",
+    "forename": "Rong",
+    "family_name": "Xiahou",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "166"
+  },
+  {
     "key": "3k_main_template_historical_xiahou_shang_hero_fire",
     "name_key": "xiahou_shang",
     "display_name": "Xiahou Shang",
@@ -11117,6 +16423,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "185"
+  },
+  {
+    "key": "3k_main_template_historical_xiahou_xuan_hero_water",
+    "name_key": "xiahou_xuan",
+    "display_name": "Xiahou Xuan",
+    "forename": "Xuan",
+    "family_name": "Xiahou",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209"
+  },
+  {
+    "key": "3k_main_template_historical_xiahou_yuan_hero_fire",
+    "name_key": "xiahou_yuan",
+    "display_name": "Xiahou Yuan",
+    "forename": "Yuan",
+    "family_name": "Xiahou",
+    "title": "Maker of Ways",
+    "description": "When it comes to military logistics, where there’s a will, Xiahou Yuan has a way.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "162"
+  },
+  {
+    "key": "3k_main_template_historical_xiahou_zuo_hero_water",
+    "name_key": "xiahou_zuo",
+    "display_name": "Xiahou Zuo",
+    "forename": "Zuo",
+    "family_name": "Xiahou",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "216"
   },
   {
     "key": "3k_main_template_historical_xiang_chong_hero_fire",
@@ -11133,6 +16481,20 @@ const CHARACTER_DATA = [
     "birth_year": "189"
   },
   {
+    "key": "3k_main_template_historical_xiang_cun_hero_fire",
+    "name_key": "xiang_cun",
+    "display_name": "Xiang Cun",
+    "forename": "Cun",
+    "family_name": "Xiang",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "161"
+  },
+  {
     "key": "3k_main_template_historical_xiang_lang_hero_water",
     "name_key": "xiang_lang",
     "display_name": "Xiang Lang",
@@ -11145,6 +16507,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "167"
+  },
+  {
+    "key": "ep_template_historical_xiang_shi_hero_metal",
+    "name_key": "xiang_shi",
+    "display_name": "Xiang Shi",
+    "forename": "Shi",
+    "family_name": "Xiang",
+    "title": "Agent",
+    "description": "I am charged with a duty that I am honour-bound to prosecute. Stand aside.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "266"
   },
   {
     "key": "ironic_template_historical_xianyu_dan_hero_fire",
@@ -11201,6 +16577,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "147"
+  },
+  {
+    "key": "3k_main_template_historical_lady_xiao_qiao_hero_metal",
+    "name_key": "xiao_qiao",
+    "display_name": "Xiao Qiao",
+    "forename": "Qiao",
+    "family_name": "Xiao",
+    "title": "Daughter of the Southlands",
+    "description": "To the filial and the devout, life will give not one, but two measures of its respect.",
+    "element": "metal",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "178"
   },
   {
     "key": "ironic_template_historical_xie_cheng_hero_water",
@@ -11343,6 +16733,48 @@ const CHARACTER_DATA = [
     "birth_year": "169"
   },
   {
+    "key": "3k_main_template_historical_xing_yong_hero_water",
+    "name_key": "xing_yong",
+    "display_name": "Xing Yong",
+    "forename": "Yong",
+    "family_name": "Xing",
+    "title": "Mediator",
+    "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "177"
+  },
+  {
+    "key": "3k_dlc04_template_historical_xing_zhang_wood",
+    "name_key": "xing_zhang",
+    "display_name": "Xing Zhang",
+    "forename": "Zhang",
+    "family_name": "Xing",
+    "title": "Filial & Pious",
+    "description": "Respect for parents, elders, and ancestors is the root of all virtue, the stem from which all moral teachings grow.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "145"
+  },
+  {
+    "key": "3k_main_template_historical_xu_chu_hero_wood",
+    "name_key": "xu_chu",
+    "display_name": "Xu Chu",
+    "forename": "Chu",
+    "family_name": "Xu",
+    "title": "Tiger Fool",
+    "description": "Xu Chu is a man of simple thoughts and principles, but an impressive warrior who fights with a bestial rage.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "170"
+  },
+  {
     "key": "ironic_template_historical_xu_ci_hero_water",
     "name_key": "xu_ci",
     "display_name": "Xu Ci",
@@ -11369,6 +16801,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "167"
+  },
+  {
+    "key": "3k_main_template_historical_xu_gan_hero_water",
+    "name_key": "xu_gan",
+    "display_name": "Xu Gan",
+    "forename": "Gan",
+    "family_name": "Xu",
+    "title": "Exiled Poet",
+    "description": "Even when forced on the run, living out as a hermit or refugee, this scholar is capable of crafting the most beautiful of poems, and the most critical of commentaries.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "170"
   },
   {
     "key": "3k_main_template_historical_xu_gong_hero_fire",
@@ -11399,6 +16845,20 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "3k_main_template_historical_xu_huang_hero_metal",
+    "name_key": "xu_huang",
+    "display_name": "Xu Huang",
+    "forename": "Huang",
+    "family_name": "Xu",
+    "title": "Guardian of the Gates",
+    "description": "When assigned to guardianship, Xu Huang is an immovable sentinel, requiring a tremendous effort to bypass.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "169"
+  },
+  {
     "key": "3k_main_template_historical_xu_jing_hero_water",
     "name_key": "xu_jing",
     "display_name": "Xu Jing",
@@ -11425,6 +16885,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167"
+  },
+  {
+    "key": "3k_main_template_historical_xu_miao_hero_water",
+    "name_key": "xu_miao",
+    "display_name": "Xu Miao",
+    "forename": "Miao",
+    "family_name": "Xu",
+    "title": "Mirthful Overseer",
+    "description": "Xu Miao has a deep passion to strive for the protection and prosperity of the western regions, and makes it his life's work to fulfil.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "171"
   },
   {
     "key": "ironic_template_historical_xu_qian_hero_earth",
@@ -11481,6 +16955,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174"
+  },
+  {
+    "key": "3k_main_template_historical_xu_shu_hero_water",
+    "name_key": "xu_shu",
+    "display_name": "Xu Shu",
+    "forename": "Shu",
+    "family_name": "Xu",
+    "title": "Reformed Vigilante",
+    "description": "Xu Shu once wandered the lands as a roaming swordsman - but now his mind is his sharpest weapon.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "170"
   },
   {
     "key": "ironic_template_historical_xu_si_hero_water",
@@ -11551,6 +17039,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "200"
+  },
+  {
+    "key": "3k_main_template_historical_xu_yan_hero_fire",
+    "name_key": "xu_yan",
+    "display_name": "Xu Yan",
+    "forename": "Yan",
+    "family_name": "Xu",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "200"
+  },
+  {
+    "key": "ep_template_historical_xu_yan_hero_water",
+    "name_key": "xu_yan",
+    "display_name": "Xu Yan",
+    "forename": "Yan",
+    "family_name": "Xu",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "257"
+  },
+  {
+    "key": "3k_main_template_historical_xu_yi_hero_fire",
+    "name_key": "xu_yi",
+    "display_name": "Xu Yi",
+    "forename": "Yi",
+    "family_name": "Xu",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "211"
   },
   {
     "key": "ironic_template_historical_xu_yi_hero_fire",
@@ -11637,6 +17167,20 @@ const CHARACTER_DATA = [
     "birth_year": "145"
   },
   {
+    "key": "3k_main_template_historical_xu_zhi_hero_fire",
+    "name_key": "xu_zhi",
+    "display_name": "Xu Zhi",
+    "forename": "Zhi",
+    "family_name": "Xu",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "212"
+  },
+  {
     "key": "3k_main_template_historical_xuan_fan_hero_water",
     "name_key": "xuan_fan",
     "display_name": "Xuan Fan",
@@ -11651,6 +17195,20 @@ const CHARACTER_DATA = [
     "birth_year": "150"
   },
   {
+    "key": "3k_main_template_historical_xue_lan_hero_fire",
+    "name_key": "xue_lan",
+    "display_name": "Xue Lan",
+    "forename": "Lan",
+    "family_name": "Xue",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "139"
+  },
+  {
     "key": "3k_main_template_historical_xue_li_hero_metal",
     "name_key": "xue_li",
     "display_name": "Xue Li",
@@ -11663,6 +17221,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "141"
+  },
+  {
+    "key": "3k_main_template_historical_xue_xu_hero_fire",
+    "name_key": "xue_xu",
+    "display_name": "Xue Xu",
+    "forename": "Xu",
+    "family_name": "Xue",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "207"
   },
   {
     "key": "3k_dlc04_template_historical_xue_zhou_wood",
@@ -11721,6 +17293,76 @@ const CHARACTER_DATA = [
     "birth_year": "128"
   },
   {
+    "key": "3k_main_template_historical_xun_wei_hero_water",
+    "name_key": "xun_wei",
+    "display_name": "Xun Wei",
+    "forename": "Wei",
+    "family_name": "Xun",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "182"
+  },
+  {
+    "key": "3k_main_template_historical_xun_you_hero_earth",
+    "name_key": "xun_you",
+    "display_name": "Xun You",
+    "forename": "You",
+    "family_name": "Xun",
+    "title": "Gentleman Attendant",
+    "description": "A member of the learned scholar-gentry, Xun You is a profound thinker of great insight.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "157"
+  },
+  {
+    "key": "3k_main_template_historical_xun_you_hero_water",
+    "name_key": "xun_you",
+    "display_name": "Xun You",
+    "forename": "You",
+    "family_name": "Xun",
+    "title": "Gentleman Attendant",
+    "description": "A member of the learned scholar-gentry, Xun You is a profound thinker of great insight.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "157"
+  },
+  {
+    "key": "3k_main_template_historical_xun_yu_hero_water",
+    "name_key": "xun_yu",
+    "display_name": "Xun Yu",
+    "forename": "Yu",
+    "family_name": "Xun",
+    "title": "Hegemon's Aide",
+    "description": "Here comes my Zifang!",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "163"
+  },
+  {
+    "key": "3k_main_template_historical_xun_yue_hero_water",
+    "name_key": "xun_yue",
+    "display_name": "Xun Yue",
+    "forename": "Yue",
+    "family_name": "Xun",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "148"
+  },
+  {
     "key": "ironic_template_historical_xun_zheng_hero_wood",
     "name_key": "xun_zheng",
     "display_name": "Xun Zheng",
@@ -11747,6 +17389,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "174"
+  },
+  {
+    "key": "3k_main_template_historical_yan_baihu_hero_metal",
+    "name_key": "yan_baihu",
+    "display_name": "Yan Baihu",
+    "forename": "Baihu",
+    "family_name": "Yan",
+    "title": "The White Tiger",
+    "description": "I am Yan Baihu, the White Tiger, hear my roar!",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "166"
   },
   {
     "key": "3k_main_template_historical_yan_gang_hero_metal",
@@ -11805,6 +17461,20 @@ const CHARACTER_DATA = [
     "birth_year": "190"
   },
   {
+    "key": "3k_main_template_historical_yan_liang_hero_fire",
+    "name_key": "yan_liang",
+    "display_name": "Yan Liang",
+    "forename": "Liang",
+    "family_name": "Yan",
+    "title": "Valiant Vanguard",
+    "description": "A foremost general of considerable military prowess, the gutsy Yan Liang is unmatched among ordinary warriors.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "159"
+  },
+  {
     "key": "3k_main_template_historical_yan_pu_hero_water",
     "name_key": "yan_pu",
     "display_name": "Yan Pu",
@@ -11833,6 +17503,20 @@ const CHARACTER_DATA = [
     "birth_year": "175"
   },
   {
+    "key": "3k_main_template_historical_yan_wen_hero_fire",
+    "name_key": "yan_wen",
+    "display_name": "Yan Wen",
+    "forename": "Wen",
+    "family_name": "Yan",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "178"
+  },
+  {
     "key": "ironic_template_historical_yan_xia_hero_metal",
     "name_key": "yan_xia",
     "display_name": "Yan Xia",
@@ -11845,20 +17529,6 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "188"
-  },
-  {
-    "key": "3k_main_template_historical_yan_xiang_hero_water",
-    "name_key": "yan_xiang",
-    "display_name": "Yan Xiang",
-    "forename": "Xiang",
-    "family_name": "Yan",
-    "title": "Academic",
-    "description": "This one sees the value of institutionalised learning, and has embraced it.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "170"
   },
   {
     "key": "3k_mtu_template_historical_yan_xiang_hero_water",
@@ -11915,6 +17585,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150"
+  },
+  {
+    "key": "3k_main_template_historical_yan_yu_hero_water",
+    "name_key": "yan_yu",
+    "display_name": "Yan Yu",
+    "forename": "Yu",
+    "family_name": "Yan",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "142"
+  },
+  {
+    "key": "3k_main_template_historical_yan_yu_hero_wood",
+    "name_key": "yan_yu",
+    "display_name": "Yan Yu",
+    "forename": "Yu",
+    "family_name": "Yan",
+    "title": "Tiger Cub",
+    "description": "The most furious cub may not necessarily become the most ferocious tiger.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "172"
   },
   {
     "key": "ironic_template_historical_yang_ling_ironic_hero_fire",
@@ -11987,6 +17685,20 @@ const CHARACTER_DATA = [
     "birth_year": "159"
   },
   {
+    "key": "3k_main_template_historical_yang_dao_hero_water",
+    "name_key": "yang_dao",
+    "display_name": "Yang Dao",
+    "forename": "Dao",
+    "family_name": "Yang",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "197"
+  },
+  {
     "key": "ironic_template_historical_yang_ding_hero_fire",
     "name_key": "yang_ding",
     "display_name": "Yang Ding",
@@ -11998,6 +17710,20 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
+    "birth_year": "162"
+  },
+  {
+    "key": "3k_dlc06_template_historical_yang_feng_hero_nanman",
+    "name_key": "yang_feng",
+    "display_name": "Yang Feng",
+    "forename": "Feng",
+    "family_name": "Yang",
+    "title": "The Indulgent",
+    "description": "Yang Feng is loyal to his tribe and his leader… until his own safety is jeopardised.",
+    "element": "nanman",
+    "subtype": "3k_general_nanman",
+    "is_male": true,
+    "is_unique": true,
     "birth_year": "162"
   },
   {
@@ -12015,18 +17741,18 @@ const CHARACTER_DATA = [
     "birth_year": "147"
   },
   {
-    "key": "3k_dlc06_template_historical_yang_feng_hero_nanman",
-    "name_key": "yang_feng",
-    "display_name": "Yang Feng",
-    "forename": "Feng",
+    "key": "3k_main_template_historical_yang_hong_hero_metal",
+    "name_key": "yang_hong",
+    "display_name": "Yang Hong",
+    "forename": "Hong",
     "family_name": "Yang",
-    "title": "The Indulgent",
-    "description": "Yang Feng is loyal to his tribe and his leader… until his own safety is jeopardised.",
-    "element": "nanman",
-    "subtype": "3k_general_nanman",
+    "title": "The Ignored Official",
+    "description": "Yang Hong retains his loyalty to his lord, even when all of his wisdom is ignored.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "155"
   },
   {
     "key": "ironic_template_historical_yang_hong_ironic_hero_wood",
@@ -12055,6 +17781,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170"
+  },
+  {
+    "key": "3k_main_template_historical_yang_huiyu_hero_earth",
+    "name_key": "yang_huiyu",
+    "display_name": "Yang Huiyu",
+    "forename": "Huiyu",
+    "family_name": "Yang",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "214"
   },
   {
     "key": "ironic_template_historical_yang_jun_hero_metal",
@@ -12113,6 +17853,20 @@ const CHARACTER_DATA = [
     "birth_year": "153"
   },
   {
+    "key": "3k_main_template_historical_yang_qun_hero_fire",
+    "name_key": "yang_qun",
+    "display_name": "Yang Qun",
+    "forename": "Qun",
+    "family_name": "Yang",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "191"
+  },
+  {
     "key": "3k_main_template_historical_yang_ren_hero_fire",
     "name_key": "yang_ren",
     "display_name": "Yang Ren",
@@ -12139,6 +17893,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162"
+  },
+  {
+    "key": "3k_main_template_historical_yang_xi_hero_water",
+    "name_key": "yang_xi",
+    "display_name": "Yang Xi",
+    "forename": "Xi",
+    "family_name": "Yang",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209"
   },
   {
     "key": "3k_main_template_historical_yang_xiu_hero_water",
@@ -12195,6 +17963,48 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "184"
+  },
+  {
+    "key": "3k_main_template_historical_yang_zhong_hero_metal",
+    "name_key": "yang_zhong",
+    "display_name": "Yang Zhong",
+    "forename": "Zhong",
+    "family_name": "Yang",
+    "title": "Tax Collector",
+    "description": "Tax collection is a necessary evil, as are its instruments.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "140"
+  },
+  {
+    "key": "ep_template_historical_yang_zhuo_hero_earth",
+    "name_key": "yang_zhuo",
+    "display_name": "Yang Zhuo",
+    "forename": "Zhuo",
+    "family_name": "Yang",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "262"
+  },
+  {
+    "key": "3k_main_template_historical_yao_tai_hero_water",
+    "name_key": "yao_tai",
+    "display_name": "Yao Tai",
+    "forename": "Tai",
+    "family_name": "Yao",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "183"
   },
   {
     "key": "3k_main_template_historical_yan_xiang_hero_water",
@@ -12267,6 +18077,20 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "3k_main_template_generated_lady_wang_liting_hero_metal",
+    "name_key": "wang_liting",
+    "display_name": "Yijian Liting",
+    "forename": "Liting",
+    "family_name": "Yijian",
+    "title": "Trader",
+    "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "150"
+  },
+  {
     "key": "ironic_template_historical_yin_feng_hero_wood",
     "name_key": "yin_feng",
     "display_name": "Yin Feng",
@@ -12295,6 +18119,20 @@ const CHARACTER_DATA = [
     "birth_year": "160"
   },
   {
+    "key": "3k_main_template_historical_yin_lu_hero_fire",
+    "name_key": "yin_lu",
+    "display_name": "Yin Lu",
+    "forename": "Lu",
+    "family_name": "Yin",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
+  },
+  {
     "key": "ironic_template_historical_yin_mo_ironic_hero_earth",
     "name_key": "yin_mo_ironic",
     "display_name": "Yin Mo",
@@ -12309,6 +18147,20 @@ const CHARACTER_DATA = [
     "birth_year": "172"
   },
   {
+    "key": "3k_dlc04_template_historical_ying_feng_shishu_earth",
+    "name_key": "ying_feng_shishu",
+    "display_name": "Ying Feng",
+    "forename": "Feng",
+    "family_name": "Ying",
+    "title": "Peacekeeper",
+    "description": "Conflict must be prevented by any means necessary.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "110"
+  },
+  {
     "key": "ironic_template_historical_ying_lun_hero_water",
     "name_key": "ying_lun",
     "display_name": "Ying Lun",
@@ -12321,6 +18173,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "176"
+  },
+  {
+    "key": "3k_main_template_historical_ying_qu_hero_water",
+    "name_key": "ying_qu",
+    "display_name": "Ying Qu",
+    "forename": "Qu",
+    "family_name": "Ying",
+    "title": "Bookish Scholar",
+    "description": "The words of these tomes take the reader to another world, if only temporarily…",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "190"
   },
   {
     "key": "ironic_template_historical_ying_rong_hero_water",
@@ -12351,6 +18217,20 @@ const CHARACTER_DATA = [
     "birth_year": "144"
   },
   {
+    "key": "ep_template_historical_ying_xiang_hero_earth",
+    "name_key": "ying_xiang",
+    "display_name": "Ying Xiang",
+    "forename": "Xiang",
+    "family_name": "Ying",
+    "title": "Officer",
+    "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "268"
+  },
+  {
     "key": "3k_dlc04_template_historical_ying_xun_jiyu_fire",
     "name_key": "ying_xun_jiyu",
     "display_name": "Ying Xun",
@@ -12377,6 +18257,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "183"
+  },
+  {
+    "key": "3k_main_template_historical_ying_yu_hero_water",
+    "name_key": "ying_yu",
+    "display_name": "Ying Yu",
+    "forename": "Yu",
+    "family_name": "Ying",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "168"
   },
   {
     "key": "3k_main_template_historical_yong_kai_hero_fire",
@@ -12449,6 +18343,20 @@ const CHARACTER_DATA = [
     "birth_year": "166"
   },
   {
+    "key": "3k_main_template_historical_wang_yi_hero_fire",
+    "name_key": "wang_yi",
+    "display_name": "Yu Degong",
+    "forename": "Degong",
+    "family_name": "Yu",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "168"
+  },
+  {
     "key": "3k_main_template_historical_yu_du_hero_fire",
     "name_key": "yu_du",
     "display_name": "Yu Du",
@@ -12491,6 +18399,20 @@ const CHARACTER_DATA = [
     "birth_year": "165"
   },
   {
+    "key": "3k_main_template_historical_yu_jin_hero_metal",
+    "name_key": "yu_jin",
+    "display_name": "Yu Jin",
+    "forename": "Jin",
+    "family_name": "Yu",
+    "title": "Enforcer of the Law",
+    "description": "As an imperious, by-the-book disciplinarian, Yu Jin rules his subordinates with fear and drilled-in obedience.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "158"
+  },
+  {
     "key": "ironic_template_historical_yu_mi_hero_fire",
     "name_key": "yu_mi",
     "display_name": "Yu Mi",
@@ -12519,6 +18441,20 @@ const CHARACTER_DATA = [
     "birth_year": "166"
   },
   {
+    "key": "3k_main_template_historical_yu_qin_hero_wood",
+    "name_key": "yu_qin",
+    "display_name": "Yu Qin",
+    "forename": "Qin",
+    "family_name": "Yu",
+    "title": "Labourer",
+    "description": "They toil so that others don't have to, presumably. It is the order of things.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "217"
+  },
+  {
     "key": "ironic_template_historical_yu_she_hero_metal",
     "name_key": "yu_she",
     "display_name": "Yu She",
@@ -12531,6 +18467,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "142"
+  },
+  {
+    "key": "3k_main_template_historical_yu_zhujian_hero_fire",
+    "name_key": "yu_zhujian",
+    "display_name": "Yu Zhujian",
+    "forename": "Zhujian",
+    "family_name": "Yu",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "176"
   },
   {
     "key": "ironic_template_historical_yu_zi_hero_wood",
@@ -12552,8 +18502,8 @@ const CHARACTER_DATA = [
     "display_name": "Yuan Anyang",
     "forename": "Anyang",
     "family_name": "Yuan",
-    "title": "Princess Zhong",
-    "description": "The beauty and qualities of Yuan Anyang, a princess of the Zhong Kingdom, were known throughout the land.",
+    "title": "",
+    "description": "",
     "element": "water",
     "subtype": "3k_general_water",
     "is_male": false,
@@ -12629,6 +18579,62 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "158"
+  },
+  {
+    "key": "3k_main_template_historical_yuan_shang_hero_earth",
+    "name_key": "yuan_shang",
+    "display_name": "Yuan Shang",
+    "forename": "Shang",
+    "family_name": "Yuan",
+    "title": "Favoured Son",
+    "description": "To be chosen is an accolade in its own right. To take the reigns of one's own lineage? Perhaps that is a blessing.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "176"
+  },
+  {
+    "key": "3k_main_template_historical_yuan_shao_hero_earth",
+    "name_key": "yuan_shao",
+    "display_name": "Yuan Shao",
+    "forename": "Shao",
+    "family_name": "Yuan",
+    "title": "Preeminent Commander",
+    "description": "Yuan Shao's astuteness, dignity and arrogance are the mark of his ancestors, many of whom served emperors past.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154"
+  },
+  {
+    "key": "3k_main_template_historical_yuan_shu_hero_earth",
+    "name_key": "yuan_shu",
+    "display_name": "Yuan Shu",
+    "forename": "Shu",
+    "family_name": "Yuan",
+    "title": "Ambitious Powermonger",
+    "description": "Yuan Shu is an ambitious but overconfident individual – time will tell whether such qualities shall trip him or aid his desires.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "156"
+  },
+  {
+    "key": "3k_main_template_historical_yuan_tan_hero_earth",
+    "name_key": "yuan_tan",
+    "display_name": "Yuan Tan",
+    "forename": "Tan",
+    "family_name": "Yuan",
+    "title": "Unfavoured Son",
+    "description": "A prestigious lineage can be both a boon and a burden – especially when your father is as ambitious as Yuan Tan's.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "172"
   },
   {
     "key": "3k_main_template_historical_yuan_xi_hero_earth",
@@ -12713,6 +18719,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "142"
+  },
+  {
+    "key": "3k_main_template_historical_yue_dun_hero_water",
+    "name_key": "yue_dun",
+    "display_name": "Yue Dun",
+    "forename": "Dun",
+    "family_name": "Yue",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "211"
+  },
+  {
+    "key": "3k_main_template_historical_yue_jin_hero_metal",
+    "name_key": "yue_jin",
+    "display_name": "Yue Jin",
+    "forename": "Jin",
+    "family_name": "Yue",
+    "title": "The Lion of Yangping",
+    "description": "What Yue Jin lacks in stature he makes up for in fierceness, fearlessness, and deadliness with his bow.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "158"
   },
   {
     "key": "3k_main_template_historical_yue_jiu_hero_fire",
@@ -12883,6 +18917,20 @@ const CHARACTER_DATA = [
     "birth_year": "150"
   },
   {
+    "key": "3k_main_template_historical_zhang_ba_hero_fire",
+    "name_key": "zhang_ba",
+    "display_name": "Zhang Ba",
+    "forename": "Ba",
+    "family_name": "Zhang",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "182"
+  },
+  {
     "key": "3k_main_template_historical_zhang_bu_hero_fire",
     "name_key": "zhang_bu",
     "display_name": "Zhang Bu",
@@ -13023,6 +19071,48 @@ const CHARACTER_DATA = [
     "birth_year": "183"
   },
   {
+    "key": "3k_main_template_historical_zhang_fang_hero_wood",
+    "name_key": "zhang_fang",
+    "display_name": "Zhang Fang",
+    "forename": "Fang",
+    "family_name": "Zhang",
+    "title": "Militia Veteran",
+    "description": "This veteran has seen it all, done it all, and he will almost certainly tell you about it, given the chance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "179"
+  },
+  {
+    "key": "ep_template_historical_zhang_fang_hero_fire",
+    "name_key": "zhang_fang",
+    "display_name": "Zhang Fang",
+    "forename": "Fang",
+    "family_name": "Zhang",
+    "title": "Uncompromising Warrior",
+    "description": "When fighting for his master, Zhang Fang is not known to concern himself with scruples like 'civilian casualties'",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "249"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_fei_hero_fire",
+    "name_key": "zhang_fei",
+    "display_name": "Zhang Fei",
+    "forename": "Fei",
+    "family_name": "Zhang",
+    "title": "Drunken Brawler",
+    "description": "Hold my wine…",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "167"
+  },
+  {
     "key": "3k_main_template_historical_zhang_fu_hero_wood",
     "name_key": "zhang_fu",
     "display_name": "Zhang Fu",
@@ -13035,6 +19125,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "183"
+  },
+  {
+    "key": "3k_dlc04_template_historical_zhang_gong_wood",
+    "name_key": "zhang_gong",
+    "display_name": "Zhang Gong",
+    "forename": "Gong",
+    "family_name": "Zhang",
+    "title": "Farmer",
+    "description": "This is what real hard work smells like – blood, sweat and animal faeces.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "130"
   },
   {
     "key": "3k_main_template_historical_zhang_guang_hero_wood",
@@ -13051,6 +19155,20 @@ const CHARACTER_DATA = [
     "birth_year": "185"
   },
   {
+    "key": "3k_main_template_historical_zhang_he_hero_fire",
+    "name_key": "zhang_he",
+    "display_name": "Zhang He",
+    "forename": "He",
+    "family_name": "Zhang",
+    "title": "Courageous General",
+    "description": "Zhang He’s fearlessness enables him to retain his composure when having to adapt to unfavourable situations.",
+    "element": "fire",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "166"
+  },
+  {
     "key": "ironic_template_historical_zhang_heng_hero_earth",
     "name_key": "zhang_heng",
     "display_name": "Zhang Heng",
@@ -13065,6 +19183,20 @@ const CHARACTER_DATA = [
     "birth_year": "150"
   },
   {
+    "key": "3k_main_template_historical_zhang_hong_hero_water",
+    "name_key": "zhang_hong",
+    "display_name": "Zhang Hong",
+    "forename": "Hong",
+    "family_name": "Zhang",
+    "title": "Adept Diplomat",
+    "description": "With a quick wit and unflappable demeanour, Zhang Hong moves between courts with consummate ease.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "153"
+  },
+  {
     "key": "3k_main_template_historical_zhang_hu_hero_metal",
     "name_key": "zhang_hu",
     "display_name": "Zhang Hu",
@@ -13077,6 +19209,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "154"
+  },
+  {
+    "key": "ep_template_historical_zhang_hua_hero_water",
+    "name_key": "zhang_hua",
+    "display_name": "Zhang Hua",
+    "forename": "Hua",
+    "family_name": "Zhang",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "232"
   },
   {
     "key": "3k_main_template_historical_zhang_ji_hero_water",
@@ -13105,6 +19251,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_jian_hero_fire",
+    "name_key": "zhang_jian",
+    "display_name": "Zhang Jian",
+    "forename": "Jian",
+    "family_name": "Zhang",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "126"
   },
   {
     "key": "3k_main_template_historical_zhang_jin_hero_fire",
@@ -13147,6 +19307,48 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "177"
+  },
+  {
+    "key": "3k_dlc05_template_generated_lady_zhang_jinglan_hero_metal",
+    "name_key": "zhang_jinglan",
+    "display_name": "Zhang Jinglan",
+    "forename": "Jinglan",
+    "family_name": "Zhang",
+    "title": "Agent",
+    "description": "I am charged with a duty that I am honour-bound to prosecute. Stand aside.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "164"
+  },
+  {
+    "key": "3k_ytr_template_historical_zhang_kai_hero_wood",
+    "name_key": "zhang_kai",
+    "display_name": "Zhang Kai",
+    "forename": "Kai",
+    "family_name": "Zhang",
+    "title": "Slayer of Tyrants",
+    "description": "The unjust rulers of the old regime shall perish.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "167"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_liao_hero_metal",
+    "name_key": "zhang_liao",
+    "display_name": "Zhang Liao",
+    "forename": "Liao",
+    "family_name": "Zhang",
+    "title": "The Heavenly Dragon General",
+    "description": "The model of professionalism and organisation, Zhang Liao has heavenly leadership skills.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "169"
   },
   {
     "key": "ironic_template_historical_zhang_lili_hero_earth",
@@ -13247,6 +19449,20 @@ const CHARACTER_DATA = [
     "birth_year": "167"
   },
   {
+    "key": "3k_main_template_historical_zhang_mi_hero_fire",
+    "name_key": "zhang_mi",
+    "display_name": "Zhang Mi",
+    "forename": "Mi",
+    "family_name": "Zhang",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "178"
+  },
+  {
     "key": "3k_main_template_historical_zhang_miao_hero_water",
     "name_key": "zhang_miao",
     "display_name": "Zhang Miao",
@@ -13275,6 +19491,20 @@ const CHARACTER_DATA = [
     "birth_year": "147"
   },
   {
+    "key": "3k_main_template_historical_zhang_mu_hero_fire",
+    "name_key": "zhang_mu",
+    "display_name": "Zhang Mu",
+    "forename": "Mu",
+    "family_name": "Zhang",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "189"
+  },
+  {
     "key": "3k_main_template_historical_zhang_nan_hero_fire",
     "name_key": "zhang_nan",
     "display_name": "Zhang Nan",
@@ -13301,6 +19531,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_quan_hero_water",
+    "name_key": "zhang_quan",
+    "display_name": "Zhang Quan",
+    "forename": "Quan",
+    "family_name": "Zhang",
+    "title": "Manipulator",
+    "description": "Always working behind the scenes, this individual is a master of intrigue.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "165"
+  },
+  {
+    "key": "3k_dlc04_template_historical_zhang_rang_earth",
+    "name_key": "zhang_rang",
+    "display_name": "Zhang Rang",
+    "forename": "Rang",
+    "family_name": "Zhang",
+    "title": "Imperial Father",
+    "description": "Though they share no blood, this man has been like a father to the emperor.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "132"
   },
   {
     "key": "3k_main_template_historical_zhang_ren_hero_fire",
@@ -13485,13 +19743,27 @@ const CHARACTER_DATA = [
     "birth_year": "140"
   },
   {
+    "key": "3k_main_template_historical_zhang_yan_hero_wood",
+    "name_key": "zhang_yan",
+    "display_name": "Zhang Yan",
+    "forename": "Yan",
+    "family_name": "Zhang",
+    "title": "King of Black Mountain",
+    "description": "With his scores of followers, the bandit leader known as 'Flying Swallow' wields the influence of a king.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "152"
+  },
+  {
     "key": "ironic_template_historical_zhang_yan_hero_wood",
     "name_key": "zhang_yan",
     "display_name": "Zhang Yan",
     "forename": "Yan",
     "family_name": "Zhang",
     "title": "Callous Criminal",
-    "description": "I am Zhang Yan, the famous mountain bandit, what do you mean you don't recognise me?\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_zhang_cheng_ironic\tRebellious Outlaw\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_zhang_cheng_ironic\tAtop his white steed, and with an independent spirit, Zhang Cheng rushes forth wherever the winds guide him.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_hu_cai_ironic\tTough and Hefty\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_hu_cai_ironic\tThrowing your weight around isn't the most subtle way to get what you want, but you cannot deny the results.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_li_le_ironic\tFleetfooted Thief\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_li_le_ironic\tLi Le aims to be in and out, and long gone before anyone even realises they have been robbed!\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_xu_dan_ironic\tCommitted Agent\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_xu_dan_ironic\tXu Dan is certainly loyal to someone - you had best hope that it is you, if you put him in a position of power.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_shi_ren_ironic\tOf Simmering Resent\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_shi_ren_ironic\tWhatever minor slights or faults are committed against Shi Ren, they simmer and boil under the surface, destined to one day explode spectacularly. \ttrue\nceo_nodes_title_3k_main_ceo_career_historical_he_kui_ironic\tDignified Moralist\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_he_kui_ironic\tA true man of good moral standing will not allow himself to be bullied or intimidated by the villainous.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_guo_gong_ironic\tMusterer of Armies\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_guo_gong_ironic\tWhen Guo Gong announces his call to arms, a force of ten thousand will rush to join him.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_shu_shao_ironic\tDistributor of Rations\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_shu_shao_ironic\tWhen the people are hungry and desperate, their needs must be considered above even military matters.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_ying_rong_ironic\tIncorruptible Tutor\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_ying_rong_ironic\tIntegrity, skill, wisdom and intelligence - such things are forged in adversary.\"",
+    "description": "I am Zhang Yan, the famous mountain bandit, what do you mean you don't recognise me?\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_zhang_cheng_ironic\tRebellious Outlaw\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_zhang_cheng_ironic\tAtop his white steed, and with an independent spirit, Zhang Cheng rushes forth wherever the winds guide him.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_hu_cai_ironic\tTough and Hefty\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_hu_cai_ironic\tThrowing your weight around isn't the most subtle way to get what you want, but you cannot deny the results.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_li_le_ironic\tFleetfooted Thief\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_li_le_ironic\tLi Le aims to be in and out, and long gone before anyone even realises they have been robbed!\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_xu_dan_ironic\tCommitted Agent\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_xu_dan_ironic\tXu Dan is certainly loyal to someone - you had best hope that it is you, if you put him in a position of power.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_shi_ren_ironic\tOf Simmering Resent\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_shi_ren_ironic\tWhatever minor slights or faults are committed against Shi Ren, they simmer and boil under the surface, destined to one day explode spectacularly. \ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_he_kui_ironic\tDignified Moralist\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_he_kui_ironic\tA true man of good moral standing will not allow himself to be bullied or intimidated by the villainous.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_guo_gong_ironic\tMusterer of Armies\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_guo_gong_ironic\tWhen Guo Gong announces his call to arms, a force of ten thousand will rush to join him.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_shu_shao_ironic\tDistributor of Rations\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_shu_shao_ironic\tWhen the people are hungry and desperate, their needs must be considered above even military matters.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_ying_rong_ironic\tIncorruptible Tutor\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_ying_rong_ironic\tIntegrity, skill, wisdom and intelligence - such things are forged in adversary.\"",
     "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
@@ -13525,6 +19797,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "172"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_yi_hero_fire",
+    "name_key": "zhang_yi",
+    "display_name": "Zhang Yi",
+    "forename": "Yi",
+    "family_name": "Zhang",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "188"
   },
   {
     "key": "ironic_template_historical_zhang_yi_hero_metal",
@@ -13611,6 +19897,76 @@ const CHARACTER_DATA = [
     "birth_year": "162"
   },
   {
+    "key": "3k_main_template_historical_zhang_zan_hero_water",
+    "name_key": "zhang_zan",
+    "display_name": "Zhang Zan",
+    "forename": "Zan",
+    "family_name": "Zhang",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "150"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_ze_hero_fire",
+    "name_key": "zhang_ze",
+    "display_name": "Zhang Ze",
+    "forename": "Ze",
+    "family_name": "Zhang",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "192"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_zhao_hero_water",
+    "name_key": "zhang_zhao",
+    "display_name": "Zhang Zhao",
+    "forename": "Zhao",
+    "family_name": "Zhang",
+    "title": "Stern Advisor",
+    "description": "Even the mightiest warlords need a sharp rebuke from time to time. Zhang Zhao can be relied upon to provide it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "156"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_zhen_hero_water",
+    "name_key": "zhang_zhen",
+    "display_name": "Zhang Zhen",
+    "forename": "Zhen",
+    "family_name": "Zhang",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "210"
+  },
+  {
+    "key": "3k_main_template_historical_zhang_zhi_hero_water",
+    "name_key": "zhang_zhi",
+    "display_name": "Zhang Zhi",
+    "forename": "Zhi",
+    "family_name": "Zhang",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "158"
+  },
+  {
     "key": "3k_main_template_historical_zhang_zun_hero_fire",
     "name_key": "zhang_zun",
     "display_name": "Zhang Zun",
@@ -13623,6 +19979,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "218"
+  },
+  {
+    "key": "3k_main_template_historical_zhao_ang_hero_water",
+    "name_key": "zhao_ang",
+    "display_name": "Zhao Ang",
+    "forename": "Ang",
+    "family_name": "Zhao",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181"
   },
   {
     "key": "ironic_template_historical_zhao_ang_hero_water",
@@ -13681,6 +20051,20 @@ const CHARACTER_DATA = [
     "birth_year": "171"
   },
   {
+    "key": "3k_main_template_historical_zhao_du_hero_wood",
+    "name_key": "zhao_du",
+    "display_name": "Zhao Du",
+    "forename": "Du",
+    "family_name": "Zhao",
+    "title": "Farmer",
+    "description": "This is what real hard work smells like – blood, sweat and animal faeces.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "173"
+  },
+  {
     "key": "ironic_template_historical_zhao_e_hero_metal",
     "name_key": "zhao_e",
     "display_name": "Zhao E",
@@ -13723,6 +20107,34 @@ const CHARACTER_DATA = [
     "birth_year": "210"
   },
   {
+    "key": "3k_dlc04_template_historical_zhao_hong_water",
+    "name_key": "zhao_hong",
+    "display_name": "Zhao Hong",
+    "forename": "Hong",
+    "family_name": "Zhao",
+    "title": "The Turtle",
+    "description": "Behold, you assault the Turtle! Nothing shall pierce my shell!",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "141"
+  },
+  {
+    "key": "3k_main_template_historical_zhao_lei_hero_fire",
+    "name_key": "zhao_lei",
+    "display_name": "Zhao Lei",
+    "forename": "Lei",
+    "family_name": "Zhao",
+    "title": "Faithful General",
+    "description": "I swore loyalty and fealty, my lord. My men and I would rather fall on the battlefield than either retreat or surrender.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "173"
+  },
+  {
     "key": "ironic_template_historical_zhao_lingjing_hero_earth",
     "name_key": "zhao_lingjing",
     "display_name": "Zhao Lingjing",
@@ -13735,6 +20147,48 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "178"
+  },
+  {
+    "key": "3k_main_template_historical_zhao_qi_hero_water",
+    "name_key": "zhao_qi",
+    "display_name": "Zhao Qi",
+    "forename": "Qi",
+    "family_name": "Zhao",
+    "title": "Tactician",
+    "description": "When it comes to strategy and battlefield manoeuvres, the devil is very much in the detail.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "108"
+  },
+  {
+    "key": "3k_main_template_historical_zhao_qian_hero_fire",
+    "name_key": "zhao_qian",
+    "display_name": "Zhao Qian",
+    "forename": "Qian",
+    "family_name": "Zhao",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "152"
+  },
+  {
+    "key": "3k_main_template_historical_zhao_rui_hero_fire",
+    "name_key": "zhao_rui",
+    "display_name": "Zhao Rui",
+    "forename": "Rui",
+    "family_name": "Zhao",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "176"
   },
   {
     "key": "ironic_template_historical_zhao_shurou_hero_water",
@@ -13793,6 +20247,20 @@ const CHARACTER_DATA = [
     "birth_year": "171"
   },
   {
+    "key": "3k_main_template_historical_zhao_yi_hero_water",
+    "name_key": "zhao_yi",
+    "display_name": "Zhao Yi",
+    "forename": "Yi",
+    "family_name": "Zhao",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "122"
+  },
+  {
     "key": "ironic_template_historical_zhao_yu_hero_earth",
     "name_key": "zhao_yu",
     "display_name": "Zhao Yu",
@@ -13821,6 +20289,76 @@ const CHARACTER_DATA = [
     "birth_year": "174"
   },
   {
+    "key": "3k_main_template_historical_zhao_yun_hero_metal",
+    "name_key": "zhao_yun",
+    "display_name": "Zhao Yun",
+    "forename": "Yun",
+    "family_name": "Zhao",
+    "title": "Light in the Dark",
+    "description": "In the darkest times of war, the auras of the most resplendent warriors gleam brightest.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "168"
+  },
+  {
+    "key": "3k_dlc04_template_historical_zhao_zhi_metal",
+    "name_key": "zhao_zhi",
+    "display_name": "Zhao Zhi",
+    "forename": "Zhi",
+    "family_name": "Zhao",
+    "title": "Potter",
+    "description": "I have everything - large bowls, small bowls, tiny bowls. A cup? Are you sure you wouldn’t rather have a nice bowl instead?",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "142"
+  },
+  {
+    "key": "3k_dlc04_template_historical_zhao_zhong_water",
+    "name_key": "zhao_zhong",
+    "display_name": "Zhao Zhong",
+    "forename": "Zhong",
+    "family_name": "Zhao",
+    "title": "Imperial Mother",
+    "description": "Though they are unrelated, this man has been as a mother to the emperor.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "123"
+  },
+  {
+    "key": "3k_main_template_historical_zhen_xiang_hero_fire",
+    "name_key": "zhen_xiang",
+    "display_name": "Zhen Xiang",
+    "forename": "Xiang",
+    "family_name": "Zhen",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "192"
+  },
+  {
+    "key": "3k_main_template_historical_zheng_bao_hero_metal",
+    "name_key": "zheng_bao",
+    "display_name": "Zheng Bao",
+    "forename": "Bao",
+    "family_name": "Zheng",
+    "title": "Lookout",
+    "description": "Keen eyesight enables this person to spot the enemy clearly, even under cover of night.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "156"
+  },
+  {
     "key": "ironic_template_historical_zheng_bao_hero_wood",
     "name_key": "zheng_bao",
     "display_name": "Zheng Bao",
@@ -13833,6 +20371,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162"
+  },
+  {
+    "key": "ep_template_historical_zheng_dan_hero_wood",
+    "name_key": "zheng_dan",
+    "display_name": "Zheng Dan",
+    "forename": "Dan",
+    "family_name": "Zheng",
+    "title": "Farmer",
+    "description": "This is what real hard work smells like – blood, sweat and animal faeces.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "260"
   },
   {
     "key": "ironic_template_historical_zheng_du_hero_water",
@@ -13863,6 +20415,20 @@ const CHARACTER_DATA = [
     "birth_year": "172"
   },
   {
+    "key": "3k_main_template_historical_zheng_gan_hero_fire",
+    "name_key": "zheng_gan",
+    "display_name": "Zheng Gan",
+    "forename": "Gan",
+    "family_name": "Zheng",
+    "title": "Militant",
+    "description": "When war comes, those who stay ready are first to be called.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "171"
+  },
+  {
     "key": "ironic_template_historical_zheng_hun_hero_wood",
     "name_key": "zheng_hun",
     "display_name": "Zheng Hun",
@@ -13877,6 +20443,20 @@ const CHARACTER_DATA = [
     "birth_year": "155"
   },
   {
+    "key": "3k_main_template_historical_lady_zheng_jiang_hero_wood",
+    "name_key": "zheng_jiang",
+    "display_name": "Zheng Jiang",
+    "forename": "Jiang",
+    "family_name": "Zheng",
+    "title": "Bandit Queen",
+    "description": "Hell-bent on plunder, Zheng Jiang goes to unspeakable lengths to obtain her loot.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "172"
+  },
+  {
     "key": "3k_main_template_historical_zheng_mao_hero_water",
     "name_key": "zheng_mao",
     "display_name": "Zheng Mao",
@@ -13889,6 +20469,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "189"
+  },
+  {
+    "key": "3k_main_template_historical_zheng_mo_hero_water",
+    "name_key": "zheng_mo",
+    "display_name": "Zheng Mo",
+    "forename": "Mo",
+    "family_name": "Zheng",
+    "title": "Savant",
+    "description": "A most prodigious talent, beyond anything anyone has ever seen.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "213"
+  },
+  {
+    "key": "3k_main_template_historical_zheng_sui_hero_water",
+    "name_key": "zheng_sui",
+    "display_name": "Zheng Sui",
+    "forename": "Sui",
+    "family_name": "Zheng",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "139"
   },
   {
     "key": "3k_main_template_historical_zheng_tai_hero_water",
@@ -13975,6 +20583,20 @@ const CHARACTER_DATA = [
     "birth_year": "225"
   },
   {
+    "key": "3k_main_template_historical_zhong_ji_hero_fire",
+    "name_key": "zhong_ji",
+    "display_name": "Zhong Ji",
+    "forename": "Ji",
+    "family_name": "Zhong",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "158"
+  },
+  {
     "key": "3k_main_template_historical_zhong_yao_hero_water",
     "name_key": "zhong_yao",
     "display_name": "Zhong Yao",
@@ -13987,6 +20609,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "151"
+  },
+  {
+    "key": "3k_main_template_historical_zhong_yong_hero_fire",
+    "name_key": "zhong_yong",
+    "display_name": "Zhong Yong",
+    "forename": "Yong",
+    "family_name": "Zhong",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "216"
+  },
+  {
+    "key": "3k_main_template_historical_zhongchang_tong_hero_water",
+    "name_key": "zhongchang_tong",
+    "display_name": "Zhongchang Tong",
+    "forename": "Tong",
+    "family_name": "Zhongchang",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "180"
   },
   {
     "key": "ironic_template_historical_zhongli_xu_hero_earth",
@@ -14087,6 +20737,20 @@ const CHARACTER_DATA = [
     "birth_year": "171"
   },
   {
+    "key": "3k_main_template_historical_zhou_he_hero_fire",
+    "name_key": "zhou_he",
+    "display_name": "Zhou He",
+    "forename": "He",
+    "family_name": "Zhou",
+    "title": "Guerrilla",
+    "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "208"
+  },
+  {
     "key": "3k_main_template_historical_zhou_huan_hero_water",
     "name_key": "zhou_huan",
     "display_name": "Zhou Huan",
@@ -14185,6 +20849,34 @@ const CHARACTER_DATA = [
     "birth_year": "148"
   },
   {
+    "key": "3k_main_template_historical_zhou_shao_hero_fire",
+    "name_key": "zhou_shao",
+    "display_name": "Zhou Shao",
+    "forename": "Shao",
+    "family_name": "Zhou",
+    "title": "Hunter",
+    "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "198"
+  },
+  {
+    "key": "3k_dlc04_template_historical_zhou_shen_metal",
+    "name_key": "zhou_shen",
+    "display_name": "Zhou Shen",
+    "forename": "Shen",
+    "family_name": "Zhou",
+    "title": "Trader",
+    "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "141"
+  },
+  {
     "key": "ironic_template_historical_zhou_shu_hero_wood",
     "name_key": "zhou_shu",
     "display_name": "Zhou Shu",
@@ -14199,6 +20891,20 @@ const CHARACTER_DATA = [
     "birth_year": "133"
   },
   {
+    "key": "3k_main_template_historical_zhou_tai_hero_fire",
+    "name_key": "zhou_tai",
+    "display_name": "Zhou Tai",
+    "forename": "Tai",
+    "family_name": "Zhou",
+    "title": "Reformed Brigand",
+    "description": "Do not let Zhou Tai's chequered past and grim expression mislead you - he will serve his master with a fierce loyalty.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "163"
+  },
+  {
     "key": "3k_main_template_historical_zhou_xin_hero_fire",
     "name_key": "zhou_xin",
     "display_name": "Zhou Xin",
@@ -14211,6 +20917,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "152"
+  },
+  {
+    "key": "3k_main_template_historical_zhou_yin_hero_fire",
+    "name_key": "zhou_yin",
+    "display_name": "Zhou Yin",
+    "forename": "Yin",
+    "family_name": "Zhou",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "206"
   },
   {
     "key": "ironic_template_historical_zhou_ying_hero_metal",
@@ -14241,6 +20961,34 @@ const CHARACTER_DATA = [
     "birth_year": "155"
   },
   {
+    "key": "3k_main_template_historical_zhou_yu_hero_water",
+    "name_key": "zhou_yu",
+    "display_name": "Zhou Yu",
+    "forename": "Yu",
+    "family_name": "Zhou",
+    "title": "Melodic Strategist",
+    "description": "If there is a mistake in the tune, Zhou Yu will look up.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "175"
+  },
+  {
+    "key": "3k_main_template_historical_zhou_zhi_hero_water",
+    "name_key": "zhou_zhi",
+    "display_name": "Zhou Zhi",
+    "forename": "Zhi",
+    "family_name": "Zhou",
+    "title": "Advisor",
+    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "192"
+  },
+  {
     "key": "ironic_template_historical_zhu_liu_ironic_hero_earth",
     "name_key": "zhu_liu_ironic",
     "display_name": "Zhu",
@@ -14253,6 +21001,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": false,
     "birth_year": "175"
+  },
+  {
+    "key": "3k_main_template_historical_zhu_en_hero_water",
+    "name_key": "zhu_en",
+    "display_name": "Zhu En",
+    "forename": "En",
+    "family_name": "Zhu",
+    "title": "Able Aristocrat",
+    "description": "This seasoned member of the noble Zhu clan watches over his clan with a stern sense of dignity.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "208"
   },
   {
     "key": "3k_main_template_historical_zhu_fu_hero_water",
@@ -14323,6 +21085,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "176"
+  },
+  {
+    "key": "3k_main_template_historical_zhu_ju_hero_fire",
+    "name_key": "zhu_ju",
+    "display_name": "Zhu Ju",
+    "forename": "Ju",
+    "family_name": "Zhu",
+    "title": "Partisan",
+    "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "194"
   },
   {
     "key": "3k_main_template_historical_zhu_jun_hero_fire",
@@ -14421,6 +21197,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "208"
+  },
+  {
+    "key": "3k_main_template_historical_zhu_zhen_hero_fire",
+    "name_key": "zhu_zhen",
+    "display_name": "Zhu Zhen",
+    "forename": "Zhen",
+    "family_name": "Zhu",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "206"
   },
   {
     "key": "3k_main_template_historical_zhu_zhi_hero_metal",
@@ -14583,7 +21373,7 @@ const CHARACTER_DATA = [
     "forename": "Jun",
     "family_name": "Zhuge",
     "title": "Tactful Keeper",
-    "description": "Oh, my brother is unfortunately absent, my lords, but please, do come in and have some tea and rest after your long journey.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_fu_ironic\tOf Elegant Poise\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_fu_ironic\tWith her admirable beauty and charming wit, Zhuge Fu's lovely presence masks her intelligence and scholarly wisdom from the unsuspecting.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_luo_ironic\tThe Intrepid Dragon\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_luo_ironic\tThe energetic and adventurous spirit of Zhuge Luo is coupled with enthusiasm and determination, making her both impressive and quite a handful to deal with.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_gan_ironic\tShield of the Hatchlings\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_gan_ironic\tThis warrior humbly accepts his duty to protect his charges with his life - to him, there is no grater honour than acting as a simple guard for the children of his clan.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_dan_ironic\tThe Hound of Shouchun\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_dan_ironic\tEvery dog has its day...\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_bin_ironic\tWizened Steward\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_bin_ironic\tThe experienced and wise Zhuge Bin continues to act as a mentor and guardian for the youth of his esteemed family, even as the ravages of time catch up to him.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_qiong_ironic\tThe Undaunted Blade\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_qiong_ironic\tBack, you curs! I will not allow you to take a step closer to my loved ones!\"",
+    "description": "Oh, my brother is unfortunately absent, my lords, but please, do come in and have some tea and rest after your long journey.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_fu_ironic\tOf Elegant Poise\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_fu_ironic\tWith her admirable beauty and charming wit, Zhuge Fu's lovely presence masks her intelligence and scholarly wisdom from the unsuspecting.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_luo_ironic\tThe Intrepid Dragon\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_luo_ironic\tThe energetic and adventurous spirit of Zhuge Luo is coupled with enthusiasm and determination, making her both impressive and quite a handful to deal with.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_gan_ironic\tShield of the Hatchlings\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_gan_ironic\tThis warrior humbly accepts his duty to protect his charges with his life - to him, there is no grater honour than acting as a simple guard for the children of his clan.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_dan_ironic\tThe Hound of Shouchun\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_dan_ironic\tEvery dog has its day...\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_bin_ironic\tWizened Steward\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_bin_ironic\tThe experienced and wise Zhuge Bin continues to act as a mentor and guardian for the youth of his esteemed family, even as the ravages of time catch up to him.\ttrue\r\nceo_nodes_title_3k_main_ceo_career_historical_zhuge_qiong_ironic\tThe Undaunted Blade\ttrue\r\nceo_nodes_description_3k_main_ceo_career_historical_zhuge_qiong_ironic\tBack, you curs! I will not allow you to take a step closer to my loved ones!\"",
     "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
@@ -14603,6 +21393,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "203"
+  },
+  {
+    "key": "3k_main_template_historical_zhuge_liang_hero_water",
+    "name_key": "zhuge_liang",
+    "display_name": "Zhuge Liang",
+    "forename": "Liang",
+    "family_name": "Zhuge",
+    "title": "Sleeping Dragon",
+    "description": "A peerless genius and insightful strategist, there are few situations that Zhuge Liang’s astute intellect cannot overcome.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "181"
   },
   {
     "key": "ironic_template_historical_zhuge_luo_hero_earth",
@@ -14633,6 +21437,20 @@ const CHARACTER_DATA = [
     "birth_year": "179"
   },
   {
+    "key": "3k_main_template_historical_zhuge_qiao_hero_fire",
+    "name_key": "zhuge_qiao",
+    "display_name": "Zhuge Qiao",
+    "forename": "Qiao",
+    "family_name": "Zhuge",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "197"
+  },
+  {
     "key": "ironic_template_historical_zhuge_qiong_hero_fire",
     "name_key": "zhuge_qiong",
     "display_name": "Zhuge Qiong",
@@ -14645,6 +21463,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "160"
+  },
+  {
+    "key": "3k_main_template_historical_zhuge_rong_hero_fire",
+    "name_key": "zhuge_rong",
+    "display_name": "Zhuge Rong",
+    "forename": "Rong",
+    "family_name": "Zhuge",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "215"
   },
   {
     "key": "ironic_template_historical_zhuge_xu_hero_metal",
@@ -14673,6 +21505,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "139"
+  },
+  {
+    "key": "3k_main_template_historical_zhuge_zhi_hero_fire",
+    "name_key": "zhuge_zhi",
+    "display_name": "Zhuge Zhi",
+    "forename": "Zhi",
+    "family_name": "Zhuge",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "197"
   },
   {
     "key": "ironic_template_historical_zhuo_xiangyun_hero_earth",
@@ -14745,6 +21591,34 @@ const CHARACTER_DATA = [
     "birth_year": "157"
   },
   {
+    "key": "ep_template_historical_zong_yi_hero_fire",
+    "name_key": "zong_yi",
+    "display_name": "Zong Yi",
+    "forename": "Yi",
+    "family_name": "Zong",
+    "title": "Inspector",
+    "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "258"
+  },
+  {
+    "key": "3k_main_template_historical_zong_yu_hero_fire",
+    "name_key": "zong_yu",
+    "display_name": "Zong Yu",
+    "forename": "Yu",
+    "family_name": "Zong",
+    "title": "Warrior",
+    "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "187"
+  },
+  {
     "key": "3k_dlc04_template_historical_zong_yuan_fire",
     "name_key": "zong_yuan",
     "display_name": "Zong Yuan",
@@ -14771,6 +21645,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "148"
+  },
+  {
+    "key": "3k_dlc04_template_historical_zou_jing_hero_metal",
+    "name_key": "zou_jing",
+    "display_name": "Zou Jing",
+    "forename": "Jing",
+    "family_name": "Zou",
+    "title": "Guard",
+    "description": "A stalwart protector, they never fall asleep at their post.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "133"
   },
   {
     "key": "3k_main_template_historical_zou_lin_hero_wood",
@@ -14925,6 +21813,20 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "181"
+  },
+  {
+    "key": "ep_template_historical_zuo_cen_hero_wood",
+    "name_key": "zuo_cen",
+    "display_name": "Zuo Cen",
+    "forename": "Cen",
+    "family_name": "Zuo",
+    "title": "Militia Veteran",
+    "description": "This veteran has seen it all, done it all, and he will almost certainly tell you about it, given the chance.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "269"
   },
   {
     "key": "ironic_template_historical_zuo_chengxu_hero_water",
