@@ -182,7 +182,7 @@
       font-family: 'Cinzel', serif;
       font-size: 1.3rem;
       font-weight: 600;
-      color: var(--color, var(--gold-primary)); /* ← USE the variable */
+      color: var(--color, var(--gold-primary));
       margin: 0 0 0.75rem 0;
       text-shadow: 0 0 6px var(--theme-glow, rgba(0,0,0,0.4));
     }
@@ -218,7 +218,6 @@
       --theme-glow: rgba(127, 143, 74, 0.22);
     }
 
-
     .char-description {
       color: var(--text-secondary);
       font-size: 0.95rem;
@@ -248,7 +247,34 @@
       font-size: 1.5rem;
       font-weight: 600;
       color: var(--title-cream);
-      margin: 0 0 0.4rem 0;
+      margin: 0 0 0.2rem 0;
+    }
+
+    .chinese-name {
+      font-size: 0.8em;
+      color: var(--text-secondary);
+      margin-left: 0.5rem;
+      font-weight: normal;
+      opacity: 0.8;
+    }
+
+    .courtesy-name {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin: 0.25rem 0 0.75rem 0;
+    }
+
+    .courtesy-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-right: 0.5rem;
+    }
+
+    .chinese-text {
+      margin-left: 0.5rem;
+      opacity: 0.8;
     }
 
     .char-dates {
@@ -278,11 +304,6 @@
     .tag.male { border-color: #6b8cae; color: #8ab4d9; }
     .tag.female { border-color: #9966cc; color: #cc99ff; }
 
-    /* Element tag styling to match your screenshot:
-       - transparent/dark background
-       - outlined border in element color
-       - text in element color
-    */
     .tag.element {
       background: rgba(0,0,0,0.25);
       border-color: var(--theme);
@@ -367,7 +388,6 @@
       border-left: 2px solid rgba(255,255,255,0.18);
     }
 
-    /* Color code by effect group (keep your original intent) */
     .effect-category:nth-child(1) .effect-item { border-left-color: var(--theme); }
     .effect-category:nth-child(2) .effect-item { border-left-color: rgba(196,30,58,0.55); }
     .effect-category:nth-child(3) .effect-item { border-left-color: rgba(34,139,34,0.55); }
@@ -418,6 +438,196 @@
     }
 
     /* =========================
+       Family Tree Section
+       ========================= */
+    
+    .family-tree-section {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        background: var(--bg-card);
+        border: 1px solid #252530;
+    }
+
+    .family-tree-header {
+        font-family: 'Cinzel', serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--theme);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 0 0 1.5rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+
+    .family-members {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .family-group {
+        margin-bottom: 2rem;
+    }
+
+    .family-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .family-group-title {
+        font-family: 'Cinzel', serif;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .family-member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .family-member:hover {
+        transform: translateY(-4px);
+    }
+
+    .family-member-missing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: not-allowed;
+        opacity: 0.7;
+        position: relative;
+    }
+
+    .family-member-missing .family-portrait {
+        border-style: dashed;
+        border-color: #404045;
+    }
+
+    .family-member-missing .family-portrait.no-portrait::after {
+        content: '—';
+        font-size: 1.5rem;
+        color: var(--text-muted);
+        opacity: 0.5;
+    }
+
+    .family-member-missing .family-member-name {
+        font-style: italic;
+        color: var(--text-muted);
+    }
+
+    .family-member-missing:hover {
+        transform: none;
+    }
+
+    .family-member-missing .family-portrait:hover {
+        border-color: #404045;
+        box-shadow: none;
+    }
+
+    .family-portrait {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: #0a0a0c;
+        background-size: cover;
+        background-position: center top;
+        border: 2px solid #252530;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .family-member:hover .family-portrait {
+        border-color: var(--theme);
+        box-shadow: 0 0 12px var(--theme-glow);
+    }
+
+    .family-portrait.no-portrait {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #1a1a1d 0%, #0a0a0c 100%);
+    }
+
+    .family-portrait.no-portrait::after {
+        content: '?';
+        font-family: 'Cinzel', serif;
+        font-size: 1.8rem;
+        color: var(--text-muted);
+    }
+
+    .family-member-name {
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        text-align: center;
+        max-width: 100px;
+        line-height: 1.2;
+    }
+
+    .family-member:hover .family-member-name {
+        color: var(--title-cream);
+    }
+
+    .relationship-label {
+        position: absolute;
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.6rem;
+        padding: 0.1rem 0.4rem;
+        background: var(--bg-card);
+        border: 1px solid #252530;
+        color: var(--theme);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        white-space: nowrap;
+        z-index: 1;
+    }
+
+    .family-tree-empty {
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-muted);
+        font-style: italic;
+    }
+
+    .family-connections {
+        position: relative;
+        padding: 2rem 0;
+    }
+
+    /* Extended family section */
+    .extended-family-section {
+        margin-top: 2.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .extended-family-header {
+        font-family: 'Cinzel', serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--theme);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 0 0 1.5rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+        opacity: 0.8;
+    }
+
+    /* =========================
        Responsive
        ========================= */
 
@@ -439,6 +649,15 @@
       .panel-divider-right {
         border-right: none;
         border-bottom: 1px solid #252530;
+      }
+
+      .family-members {
+        gap: 1rem;
+      }
+
+      .family-portrait {
+        width: 60px;
+        height: 60px;
       }
     }
   </style>
@@ -462,7 +681,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="factions.html">Factions</a></li>
       <li><a href="characters.html" class="active">Characters</a></li>
-      <li><a href="mechanics.html">Mechanics</a></li>
+      <li><a href="guides.html">Guides</a></li>
       <li><a href="changelog.html">Changelog</a></li>
     </ul>
   </nav>
@@ -470,6 +689,7 @@
   <main>
     <a class="back-link" href="characters.html" style="margin-bottom: 1rem; display: inline-block;">← Back to Characters</a>
     <section id="character-root" class="character-page"></section>
+    <section id="family-tree-root"></section>
   </main>
 
   <footer>
@@ -479,6 +699,7 @@
   <script src="data/characters.js"></script>
   <script src="data/character_details.js"></script>
   <script src="data/character_bios.js"></script>
+  <script src="data/family_tree.js"></script>
 
   <script>
     function escapeHtml(s) {
@@ -488,6 +709,223 @@
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#039;');
+    }
+
+    function extractNameForMissingCharacter(templateKey, currentFamilyName, relationship) {
+        if (!templateKey) return 'Unknown';
+        
+        const isGeneric = templateKey.toLowerCase().includes('generic') || 
+                         templateKey.toLowerCase().includes('villager') || 
+                         templateKey.toLowerCase().includes('normal');
+        
+        if (isGeneric) {
+            if (currentFamilyName) {
+                if (relationship === 'parent' || relationship === 'sibling') {
+                    return `${currentFamilyName} ???`;
+                }
+                else if (relationship === 'spouse') {
+                    return 'Unknown Spouse';
+                }
+                else if (relationship === 'child') {
+                    return `${currentFamilyName} ???`;
+                }
+            }
+            return 'Unknown Relative';
+        }
+        
+        const patterns = [
+            /template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)_(?:hero_)?(?:fire|earth|water|wood|metal|nanman)$/,
+            /template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)$/,
+            /ironic_template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)_(?:hero_)?(?:fire|earth|water|wood|metal|nanman)$/,
+            /ironic_template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)$/,
+        ];
+        
+        for (const pattern of patterns) {
+            const match = templateKey.match(pattern);
+            if (match) {
+                const name = match[1].replace(/_/g, ' ');
+                return name.split(' ').map(word => 
+                    word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+                ).join(' ');
+            }
+        }
+        
+        return templateKey.replace(/^.*template_/, '').replace(/_/g, ' ');
+    }
+
+    function renderFamilyMember(character, relationshipType, isMissing = false) {
+        if (isMissing) {
+            const relationLabel = relationshipType.charAt(0).toUpperCase() + relationshipType.slice(1);
+            
+            return `
+                <div class="family-member family-member-missing"
+                     title="${character.display_name} (No character data available)">
+                    <span class="relationship-label">${relationLabel}</span>
+                    <div class="family-portrait no-portrait">
+                    </div>
+                    <div class="family-member-name">
+                        ${escapeHtml(character.display_name)}
+                    </div>
+                </div>
+            `;
+        }
+        
+        const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
+            ? (CHARACTER_DETAILS_LOOKUP[character.key] || null)
+            : null;
+        
+        const portraitUrl = details?.portrait?.url || '';
+        const relationLabel = relationshipType.charAt(0).toUpperCase() + relationshipType.slice(1);
+
+        return `
+            <a href="character.html?key=${encodeURIComponent(character.key)}" 
+               class="family-member"
+               title="View ${character.display_name}'s page">
+                <span class="relationship-label">${relationLabel}</span>
+                <div class="family-portrait ${!portraitUrl ? 'no-portrait' : ''}"
+                     ${portraitUrl ? `style="background-image: url('${escapeHtml(portraitUrl)}')"` : ''}>
+                </div>
+                <div class="family-member-name">
+                    ${escapeHtml(character.display_name)}
+                    ${character.display_name_alt ? `<br><span style="font-size: 0.65rem; opacity: 0.8;">${escapeHtml(character.display_name_alt)}</span>` : ''}
+                </div>
+            </a>
+        `;
+    }
+
+    function renderFamilyTree(char) {
+        if (typeof FAMILY_BY_CHARACTER === 'undefined' || typeof getFamilyMembers === 'undefined') {
+            return '';
+        }
+
+        const familyMembers = getFamilyMembers(char.key);
+        
+        if (!familyMembers || familyMembers.length === 0) {
+            return `
+                <div class="family-tree-section">
+                    <h3 class="family-tree-header">Family Tree</h3>
+                    <div class="family-tree-empty">
+                        No known family relationships for this character.
+                    </div>
+                </div>
+            `;
+        }
+
+        const grouped = {
+            parent: [],
+            spouse: [],
+            sibling: [],
+            child: [],
+            grandparent: [],
+            grandchild: [],
+            uncle: [],
+            aunt: [],
+            nephew: [],
+            niece: [],
+            cousin: []
+        };
+
+        familyMembers.forEach(rel => {
+            const relatedChar = CHARACTER_DATA.find(c => c.key === rel.related_to);
+            
+            if (relatedChar) {
+                grouped[rel.relationship] = grouped[rel.relationship] || [];
+                grouped[rel.relationship].push({
+                    character: relatedChar,
+                    relationship: rel.relationship,
+                    isMissing: false
+                });
+            } else {
+                const placeholderChar = {
+                    key: rel.related_to,
+                    display_name: extractNameForMissingCharacter(rel.related_to, char.family_name, rel.relationship),
+                    name_key: rel.related_name || ''
+                };
+                
+                grouped[rel.relationship] = grouped[rel.relationship] || [];
+                grouped[rel.relationship].push({
+                    character: placeholderChar,
+                    relationship: rel.relationship,
+                    isMissing: true
+                });
+            }
+        });
+
+        let immediateHTML = '';
+        const immediateOrder = [
+            { key: 'parent', label: 'Parents' },
+            { key: 'spouse', label: 'Spouses' },
+            { key: 'sibling', label: 'Siblings' },
+            { key: 'child', label: 'Children' }
+        ];
+
+        immediateOrder.forEach(relType => {
+            const members = grouped[relType.key];
+            if (members && members.length > 0) {
+                immediateHTML += `
+                    <div class="family-group">
+                        <div class="family-group-title">${relType.label}</div>
+                        <div class="family-members">
+                            ${members.map(m => 
+                                renderFamilyMember(m.character, relType.key, m.isMissing)
+                            ).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+        });
+
+        let extendedHTML = '';
+        const extendedTypes = [
+            { key: 'grandparent', label: 'Grandparents' },
+            { key: 'grandchild', label: 'Grandchildren' },
+            { key: 'uncle', label: 'Uncles' },
+            { key: 'aunt', label: 'Aunts' },
+            { key: 'nephew', label: 'Nephews' },
+            { key: 'niece', label: 'Nieces' },
+            { key: 'cousin', label: 'Cousins' }
+        ];
+
+        let hasExtendedFamily = false;
+        extendedTypes.forEach(relType => {
+            const members = grouped[relType.key];
+            if (members && members.length > 0) {
+                hasExtendedFamily = true;
+                extendedHTML += `
+                    <div class="family-group">
+                        <div class="family-group-title">${relType.label}</div>
+                        <div class="family-members">
+                            ${members.map(m => 
+                                renderFamilyMember(m.character, relType.key, m.isMissing)
+                            ).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+        });
+
+        let finalHTML = `
+            <div class="family-tree-section">
+                <h3 class="family-tree-header">Family Tree</h3>
+                <div class="family-connections">
+                    ${immediateHTML}
+                </div>
+        `;
+
+        if (hasExtendedFamily) {
+            finalHTML += `
+                <div class="extended-family-section">
+                    <h3 class="extended-family-header">Related To</h3>
+                    <div class="family-connections">
+                        ${extendedHTML}
+                    </div>
+                </div>
+            `;
+        }
+
+        finalHTML += '</div>';
+
+        return finalHTML;
     }
 
     function renderCharacter(char) {
@@ -517,8 +955,6 @@
       }
 
       const root = document.getElementById('character-root');
-
-      // Apply element theme to whole page section
       root.setAttribute('data-element', element);
 
       root.innerHTML = `
@@ -547,7 +983,17 @@
 
             <!-- Name & Info -->
             <div class="panel panel-divider-bottom info-panel">
-              <h1>${escapeHtml(char.display_name)}</h1>
+              <h1>
+                ${escapeHtml(char.display_name)}
+                ${char.display_name_alt ? `<span class="chinese-name">${escapeHtml(char.display_name_alt)}</span>` : ''}
+              </h1>
+              ${char.courtesy_name ? `
+                <p class="courtesy-name">
+                  <span class="courtesy-label">Courtesy Name:</span> 
+                  ${escapeHtml(char.courtesy_name)}
+                  ${char.courtesy_name_alt ? `<span class="chinese-text">${escapeHtml(char.courtesy_name_alt)}</span>` : ''}
+                </p>
+              ` : ''}
               ${dateStr ? `<p class="char-dates">${escapeHtml(dateStr)}</p>` : ''}
               <div class="char-tags">
                 <span class="tag ${char.is_unique ? 'unique' : 'generic'}">
@@ -584,9 +1030,13 @@
                   <dt>Subtype</dt>
                   <dd>${escapeHtml(char.subtype || 'N/A')}</dd>
                   <dt>Forename</dt>
-                  <dd>${escapeHtml(char.forename || 'N/A')}</dd>
+                  <dd>${escapeHtml(char.forename || 'N/A')} ${char.forename_alt ? `(${escapeHtml(char.forename_alt)})` : ''}</dd>
                   <dt>Family Name</dt>
-                  <dd>${escapeHtml(char.family_name || 'N/A')}</dd>
+                  <dd>${escapeHtml(char.family_name || 'N/A')} ${char.family_name_alt ? `(${escapeHtml(char.family_name_alt)})` : ''}</dd>
+                  ${char.courtesy_name ? `
+                    <dt>Courtesy</dt>
+                    <dd>${escapeHtml(char.courtesy_name)} ${char.courtesy_name_alt ? `(${escapeHtml(char.courtesy_name_alt)})` : ''}</dd>
+                  ` : ''}
                 </dl>
               </details>
             </div>
@@ -609,6 +1059,12 @@
       // Render categorized effects
       renderEffects(effects);
 
+      // Render family tree
+      const familyTreeRoot = document.getElementById('family-tree-root');
+      if (familyTreeRoot) {
+        familyTreeRoot.innerHTML = renderFamilyTree(char);
+      }
+
       // Portrait toggle functionality
       if (portraitUrl) {
         const portraitCol = document.getElementById('portrait-column');
@@ -617,8 +1073,6 @@
         const img = new Image();
         img.onload = function() {
           const imgRatio = img.width / img.height;
-
-          // If image is much wider than tall (or very extreme), default to contain
           if (imgRatio > 1.2 || imgRatio < 0.4) {
             portraitCol.classList.add('contain-mode');
             toggleBtn.textContent = 'Fill';

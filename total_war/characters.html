@@ -127,8 +127,6 @@
         .character-card[data-element="nanman"] { --element-color: #7f8f4a; }
         .character-card[data-element="unknown"] { --element-color: var(--gold-dark); }
 
-
-
         .character-header {
             display: flex;
             justify-content: space-between;
@@ -142,6 +140,13 @@
             font-weight: 600;
             color: var(--title-cream);
             margin: 0;
+        }
+
+        .character-name-chinese {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.2rem;
+            opacity: 0.8;
         }
 
         .character-element {
@@ -159,6 +164,20 @@
             color: var(--gold-primary);
             font-style: italic;
             margin-bottom: 0.5rem;
+        }
+
+        .character-courtesy {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.3rem;
+        }
+
+        .character-courtesy-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-right: 0.3rem;
         }
 
         .character-description {
@@ -210,7 +229,7 @@
         /* List view styles */
         .list-view .character-card {
             display: grid;
-            grid-template-columns: 200px 150px 1fr auto;
+            grid-template-columns: 250px 180px 1fr auto;
             align-items: center;
             gap: 1rem;
             padding: 0.75rem 1.25rem;
@@ -220,7 +239,8 @@
             margin: 0;
         }
 
-        .list-view .character-title {
+        .list-view .character-title,
+        .list-view .character-courtesy {
             margin: 0;
         }
 
@@ -365,7 +385,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="factions.html">Factions</a></li>
             <li><a href="characters.html" class="active">Characters</a></li>
-            <li><a href="mechanics.html">Mechanics</a></li>
+            <li><a href="guides.html">Guides</a></li>
             <li><a href="changelog.html">Changelog</a></li>
         </ul>
     </nav>
@@ -477,6 +497,16 @@
     <!-- Load character data -->
     <script src="data/characters.js"></script>
     <script>
+        // Helper function to normalize text for searching
+        function normalizeText(text) {
+            // Convert to lowercase and normalize unicode characters
+            return text.toLowerCase()
+                .normalize('NFD') // Decompose combined characters
+                .replace(/[\u0300-\u036f]/g, '') // Remove diacritical marks
+                .replace(/['']/g, "'") // Normalize apostrophes
+                .replace(/[""]/g, '"'); // Normalize quotes
+        }
+
         // State
         let currentElement = 'all';
         let currentSearch = '';
@@ -523,7 +553,7 @@
 
             // Search
             document.getElementById('search').addEventListener('input', (e) => {
-                currentSearch = e.target.value; // Keep original for display if needed
+                currentSearch = e.target.value;
                 renderCharacters();
             });
 
@@ -567,41 +597,28 @@
 
             // Mouse click
             grid.addEventListener('click', (e) => {
-            const card = e.target.closest('.character-card');
-            if (!card) return;
+                const card = e.target.closest('.character-card');
+                if (!card) return;
 
-            const key = card.dataset.key;
-            if (!key) return;
+                const key = card.dataset.key;
+                if (!key) return;
 
-            window.location.href =
-                `character.html?key=${encodeURIComponent(key)}`;
+                window.location.href = `character.html?key=${encodeURIComponent(key)}`;
             });
 
             // Keyboard (Enter / Space)
             grid.addEventListener('keydown', (e) => {
-            if (e.key !== 'Enter' && e.key !== ' ') return;
+                if (e.key !== 'Enter' && e.key !== ' ') return;
 
-            const card = e.target.closest('.character-card');
-            if (!card) return;
+                const card = e.target.closest('.character-card');
+                if (!card) return;
 
-            e.preventDefault();
-            const key = card.dataset.key;
-            if (!key) return;
+                e.preventDefault();
+                const key = card.dataset.key;
+                if (!key) return;
 
-            window.location.href =
-                `character.html?key=${encodeURIComponent(key)}`;
+                window.location.href = `character.html?key=${encodeURIComponent(key)}`;
             });
-        }
-
-
-                // Add this helper function to normalize text for searching
-        function normalizeText(text) {
-            // Convert to lowercase and normalize unicode characters
-            return text.toLowerCase()
-                .normalize('NFD') // Decompose combined characters
-                .replace(/[\u0300-\u036f]/g, '') // Remove diacritical marks
-                .replace(/['']/g, "'") // Normalize apostrophes
-                .replace(/[""]/g, '"'); // Normalize quotes
         }
 
         function filterCharacters() {
@@ -619,17 +636,21 @@
                 filtered = filtered.filter(c => {
                     // Normalize all searchable fields
                     const normalizedName = normalizeText(c.display_name);
+                    const normalizedNameAlt = normalizeText(c.display_name_alt || '');
                     const normalizedTitle = normalizeText(c.title || '');
                     const normalizedKey = normalizeText(c.name_key);
                     const normalizedForename = normalizeText(c.forename || '');
                     const normalizedFamilyName = normalizeText(c.family_name || '');
+                    const normalizedCourtesy = normalizeText(c.courtesy_name || '');
                     
                     // Check if any normalized field contains the normalized search term
                     return normalizedName.includes(normalizedSearch) ||
-                        normalizedTitle.includes(normalizedSearch) ||
-                        normalizedKey.includes(normalizedSearch) ||
-                        normalizedForename.includes(normalizedSearch) ||
-                        normalizedFamilyName.includes(normalizedSearch);
+                           normalizedNameAlt.includes(normalizedSearch) ||
+                           normalizedTitle.includes(normalizedSearch) ||
+                           normalizedKey.includes(normalizedSearch) ||
+                           normalizedForename.includes(normalizedSearch) ||
+                           normalizedFamilyName.includes(normalizedSearch) ||
+                           normalizedCourtesy.includes(normalizedSearch);
                 });
             }
 
@@ -664,10 +685,11 @@
             return filtered;
         }
 
-
-
-        
-
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
 
         function renderCharacters() {
             const filtered = filterCharacters();
@@ -689,18 +711,30 @@
 
             // Render cards
             grid.innerHTML = filtered.map(char => `
-                    <article class="character-card"
-                            data-key="${char.key}"
-                            data-element="${(char.element || 'unknown').toLowerCase()}"
-                            tabindex="0"
-                            role="link"
-                            aria-label="Open ${char.display_name}">
+                <article class="character-card"
+                        data-key="${char.key}"
+                        data-element="${(char.element || 'unknown').toLowerCase()}"
+                        tabindex="0"
+                        role="link"
+                        aria-label="Open ${char.display_name}">
                     <div class="character-header">
-                        <h3 class="character-name">${char.display_name}</h3>
+                        <div>
+                            <h3 class="character-name">
+                                ${escapeHtml(char.display_name)}
+                                ${char.display_name_alt ? `<div class="character-name-chinese">${escapeHtml(char.display_name_alt)}</div>` : ''}
+                            </h3>
+                        </div>
                         <span class="character-element">${char.element}</span>
                     </div>
-                    ${char.title ? `<p class="character-title">${char.title}</p>` : ''}
-                    ${char.description ? `<p class="character-description">${char.description}</p>` : ''}
+                    ${char.courtesy_name ? `
+                        <p class="character-courtesy">
+                            <span class="character-courtesy-label">字:</span>
+                            ${escapeHtml(char.courtesy_name)}
+                            ${char.courtesy_name_alt ? ` ${escapeHtml(char.courtesy_name_alt)}` : ''}
+                        </p>
+                    ` : ''}
+                    ${char.title ? `<p class="character-title">${escapeHtml(char.title)}</p>` : ''}
+                    ${char.description ? `<p class="character-description">${escapeHtml(char.description)}</p>` : ''}
                     <div class="character-meta">
                         ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
                         ${!char.is_male ? '<span class="meta-tag female">Female</span>' : '<span class="meta-tag male">Male</span>'}
