@@ -37,7 +37,7 @@ const CHARACTER_DETAILS = {
   },
   "3k_dlc04_template_historical_bao_dan_water": {
     "portrait": {
-      "url": "data/images/db/3k_main_hero_special_bao_dan_water.png",
+      "url": "data/images/db/water_strategist/male.png",
       "alt": "Bao Dan portrait",
       "caption": ""
     },

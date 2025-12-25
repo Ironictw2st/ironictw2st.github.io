@@ -947,8 +947,8 @@
       let dateStr = '';
       if (char.birth_year) {
         dateStr = `${char.birth_year} AD`;
-        if (details?.death_year) {
-          dateStr += ` – ${details.death_year} AD`;
+        if (char?.death_year) {
+          dateStr += ` – ${char.death_year} AD`;
         } else {
           dateStr += ' – ???';
         }

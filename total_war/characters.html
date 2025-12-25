@@ -691,6 +691,24 @@
             return div.innerHTML;
         }
 
+        function formatLifespan(char) {
+            const b = char.birth_year;
+            const d = char.death_year;
+
+            // No data
+            if (!b && !d) return '';
+
+            // Both present: "169–199 AD"
+            if (b && d) return `${b}–${d} AD`;
+
+            // Only birth: "Born 169 AD"
+            if (b) return `Born ${b} AD`;
+
+            // Only death: "Died 199 AD"
+            return `Died ${d} AD`;
+        }
+
+
         function renderCharacters() {
             const filtered = filterCharacters();
             const grid = document.getElementById('character-grid');
@@ -738,7 +756,7 @@
                     <div class="character-meta">
                         ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
                         ${!char.is_male ? '<span class="meta-tag female">Female</span>' : '<span class="meta-tag male">Male</span>'}
-                        ${char.birth_year ? `<span class="meta-tag birth-year">Born ${char.birth_year} AD</span>` : ''}
+                        ${(char.birth_year || char.death_year) ? `<span class="meta-tag birth-year">${escapeHtml(formatLifespan(char))}</span>` : ''}
                     </div>
                 </article>
             `).join('');

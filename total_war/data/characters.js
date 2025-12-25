@@ -19,7 +19,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_ahuinan_hero_nanman",
@@ -38,7 +39,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_bai_jin_hero_fire_jiangxia",
@@ -57,7 +59,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "271"
+    "birth_year": "271",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_wu_minyu_hero_earth",
@@ -76,7 +79,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_bao_dan_water",
@@ -95,7 +99,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "120"
+    "birth_year": "120",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bao_long_hero_wood",
@@ -114,7 +119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_bao_luan_hero_fire",
@@ -133,7 +139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "261"
+    "birth_year": "261",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bao_tao_hero_fire",
@@ -152,7 +159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_bao_xiangru_hero_fire",
@@ -171,7 +179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "269"
+    "birth_year": "269",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_bao_xin_hero_metal",
@@ -190,7 +199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_bao_xun_hero_water",
@@ -209,7 +219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bao_zhong_hero_water",
@@ -228,7 +239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bei_chong_hero_water",
@@ -247,7 +259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bei_jia_hero_water",
@@ -266,7 +279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bei_yu_hero_fire",
@@ -285,7 +299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_beigong_boyu_fire",
@@ -304,7 +319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "146"
+    "birth_year": "146",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_beolhyu_hero_water",
@@ -323,7 +339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bi_chen_hero_metal",
@@ -342,7 +359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_zhang_jieyan_hero_earth",
@@ -361,7 +379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_bi_lan_water",
@@ -380,7 +399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bian_baozhai_hero_earth",
@@ -399,7 +419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_bian_bing_hero_wood",
@@ -418,7 +439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bian_hong_hero_wood",
@@ -437,7 +459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_bian_rang_hero_water",
@@ -456,7 +479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bian_rou_hero_metal",
@@ -475,7 +499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bian_xi_hero_wood",
@@ -494,7 +519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_bian_zhang_metal",
@@ -513,7 +539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "133"
+    "birth_year": "133",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bing_yuan_hero_earth",
@@ -532,7 +559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_bing_zhi_hero_metal",
@@ -551,7 +579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_bo_cai_wood",
@@ -570,7 +599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_bu_ci_hero_metal",
@@ -589,7 +619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "269"
+    "birth_year": "269",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_lu_lingqi_hero_metal",
@@ -608,7 +639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_bu_ji_hero_fire",
@@ -627,7 +659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_bu_jun_hero_fire",
@@ -646,7 +679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_bu_lianshi_hero_wood",
@@ -665,7 +699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_bu_si_metal",
@@ -684,7 +719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_bu_zhi_hero_fire",
@@ -703,7 +739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_budugen_hero_metal",
@@ -722,7 +759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cai_he_hero_metal",
@@ -741,7 +779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cai_hui_hero_metal",
@@ -760,7 +799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cai_huizhen_hero_earth",
@@ -779,7 +819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cai_mao_hero_fire",
@@ -798,7 +839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cai_xun_hero_earth",
@@ -817,7 +859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cai_yan_m_hero_earth",
@@ -836,7 +879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cai_yang_hero_metal",
@@ -855,7 +899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cai_yong_hero_water",
@@ -874,7 +919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "132"
+    "birth_year": "132",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cai_zan_hero_water",
@@ -893,7 +939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cai_zhong_hero_wood",
@@ -912,7 +959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cang_ci_hero_metal",
@@ -931,7 +979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_cai_qinting_hero_earth",
@@ -950,7 +999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_ang_hero_wood",
@@ -969,7 +1019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cao_anmin_hero_water",
@@ -988,7 +1039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_biao_hero_earth",
@@ -1007,7 +1059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_cao_hero_earth",
@@ -1026,7 +1079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "220"
   },
   {
     "key": "3k_main_template_historical_cao_chong_hero_water",
@@ -1045,7 +1099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "196"
+    "birth_year": "196",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_chun_hero_fire",
@@ -1064,7 +1119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_cao_de_earth",
@@ -1083,7 +1139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_cao_ding_fire",
@@ -1102,7 +1159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "124"
+    "birth_year": "124",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_fan_hero_earth",
@@ -1121,7 +1179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_hong_hero_wood",
@@ -1140,7 +1199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cao_hong_hero_earth",
@@ -1159,7 +1219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_cao_huan_hero_earth",
@@ -1178,7 +1239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "246"
+    "birth_year": "246",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_cao_jie_hero_earth",
@@ -1197,7 +1259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_jun_hero_earth",
@@ -1216,7 +1279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "219"
+    "birth_year": "219",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_pi_hero_earth",
@@ -1235,7 +1299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cao_qinghe_hero_earth",
@@ -1254,7 +1319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_ren_hero_earth",
@@ -1273,7 +1339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_rui_hero_earth",
@@ -1292,7 +1359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "205"
+    "birth_year": "205",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_shuang_hero_wood",
@@ -1311,7 +1379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "203"
+    "birth_year": "203",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_song_hero_earth",
@@ -1330,7 +1399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_xi_hero_wood",
@@ -1349,7 +1419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "210"
+    "birth_year": "210",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_xing_hero_wood",
@@ -1368,7 +1439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_xiu_hero_fire",
@@ -1387,7 +1459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_yan_hero_fire",
@@ -1406,7 +1479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "204"
+    "birth_year": "204",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_zhang_hero_wood",
@@ -1425,7 +1499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_zhen_hero_earth",
@@ -1444,7 +1519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cao_zhi_hero_water",
@@ -1463,7 +1539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "192"
+    "birth_year": "192",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_chai_chang_hero_earth",
@@ -1482,7 +1559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chang_diao_hero_metal",
@@ -1501,7 +1579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chang_lin_hero_water",
@@ -1520,7 +1599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chang_xi_hero_wood",
@@ -1539,7 +1619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chang_xia_hero_metal",
@@ -1558,7 +1639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_che_zhou_hero_water",
@@ -1577,7 +1659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_sun_hero_fire",
@@ -1596,7 +1679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_generated_chen_bai_hero_earth",
@@ -1615,7 +1699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_generated_wan_bing_hero_fire",
@@ -1634,7 +1719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_bao_hero_wood",
@@ -1653,7 +1739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_biao_hero_water",
@@ -1672,7 +1759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "204"
+    "birth_year": "204",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_ce_hero_metal",
@@ -1691,7 +1779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_chao_hero_fire",
@@ -1710,7 +1799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_cong_hero_earth",
@@ -1729,7 +1819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_chen_dan_hangong_metal",
@@ -1748,7 +1839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_dao_hero_earth",
@@ -1767,7 +1859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_chen_deng_yuanlong_water",
@@ -1786,7 +1879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_di_hero_water",
@@ -1805,7 +1899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "202"
+    "birth_year": "202",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_duan_hero_earth",
@@ -1824,7 +1919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_fu_hero_metal",
@@ -1843,7 +1939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_gong_hero_water",
@@ -1862,7 +1959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc_04_template_historical_chen_gui_water",
@@ -1881,7 +1979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_han_hero_water",
@@ -1900,7 +1999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "116"
+    "birth_year": "116",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_heng_hero_metal",
@@ -1919,7 +2019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_ji_hero_earth",
@@ -1938,7 +2039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "135"
+    "birth_year": "135",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_jiao_hero_metal",
@@ -1957,7 +2059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_jiu_hero_wood",
@@ -1976,7 +2079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_lan_hero_wood",
@@ -1995,7 +2099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_lin_hero_water",
@@ -2014,7 +2119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_mu_hero_metal",
@@ -2033,7 +2139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_pu_hero_metal",
@@ -2052,7 +2159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_qian_hero_metal",
@@ -2071,7 +2179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "211"
+    "birth_year": "211",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_qiao_hero_water",
@@ -2090,7 +2199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "80"
+    "birth_year": "80",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_qiu_hero_water",
@@ -2109,7 +2219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "118"
+    "birth_year": "118",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_qun_hero_water",
@@ -2128,7 +2239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "211"
+    "birth_year": "211",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_rong_hero_earth",
@@ -2147,7 +2259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_sheng_hero_wood",
@@ -2166,7 +2279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "146"
+    "birth_year": "146",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_shi_ironic_hero_metal",
@@ -2185,7 +2299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_chen_su_water",
@@ -2204,7 +2319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_wen_hero_water",
@@ -2223,7 +2339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_wu_hero_metal",
@@ -2242,7 +2359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_xiu_hero_metal",
@@ -2261,7 +2379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_ying_z_hero_fire",
@@ -2280,7 +2399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chen_ying_hero_water",
@@ -2299,7 +2419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_chen_yu_hero_water",
@@ -2318,7 +2439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_zhen_hero_water",
@@ -2337,7 +2459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "198"
+    "birth_year": "198",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_zheng_hero_fire",
@@ -2356,7 +2479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "201"
+    "birth_year": "201",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chen_zhi_hero_fire",
@@ -2375,7 +2499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_cheng_bing_hero_water",
@@ -2394,7 +2519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cheng_fu_hero_fire",
@@ -2413,7 +2539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cheng_ji_hero_fire",
@@ -2432,7 +2559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cheng_ji_hero_fire",
@@ -2451,7 +2579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cheng_pu_hero_metal",
@@ -2470,7 +2599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_cheng_qiu_water",
@@ -2489,7 +2619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cheng_xu_hero_water",
@@ -2508,7 +2639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cheng_yi_hero_wood",
@@ -2527,7 +2659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cheng_yin_hero_metal",
@@ -2546,7 +2679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cheng_yu_hero_water",
@@ -2565,7 +2699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cheng_yu_hero_earth",
@@ -2584,7 +2719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chenggong_ying_hero_fire",
@@ -2603,7 +2739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chenglugui_hero_metal",
@@ -2622,7 +2759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chogo_hero_earth",
@@ -2641,7 +2779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_chu_gong_metal",
@@ -2660,7 +2799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "122"
+    "birth_year": "122",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chunyu_dan_hero_fire",
@@ -2679,7 +2819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_chunyu_qiong_hero_fire",
@@ -2698,7 +2839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_chunyu_shi_hero_metal",
@@ -2717,7 +2859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_congqian_hero_metal",
@@ -2736,7 +2879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_cuan_xi_hero_wood",
@@ -2755,7 +2899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cui_jun_hero_metal",
@@ -2774,7 +2919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cui_lie_hero_fire",
@@ -2793,7 +2939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cui_lin_hero_water",
@@ -2812,7 +2959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_cui_yan_hero_water",
@@ -2831,7 +2979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_da_qiao_hero_earth",
@@ -2850,7 +2999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_dai_liang_hero_water",
@@ -2869,7 +3019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_dai_yuan_hero_fire",
@@ -2888,7 +3039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_dailaidongzhu_hero_nanman",
@@ -2907,7 +3059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_dan_meng_hero_metal",
@@ -2926,7 +3079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_dang_lianhua_hero_earth",
@@ -2945,7 +3099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_deng_zixiao_ironic_hero_fire",
@@ -2964,7 +3119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_ai_hero_metal",
@@ -2983,7 +3139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_fang_hero_fire",
@@ -3002,7 +3159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_deng_ji_hero_earth",
@@ -3021,7 +3179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_ju_hero_fire",
@@ -3040,7 +3199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "219"
+    "birth_year": "219",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_deng_kai_hero_earth",
@@ -3059,7 +3219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_deng_long_hero_metal",
@@ -3078,7 +3239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_ze_ningqin_hero_metal",
@@ -3097,7 +3259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_deng_sheng_boneng_fire",
@@ -3116,7 +3279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "137"
+    "birth_year": "137",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_sheng_hero_fire",
@@ -3135,7 +3299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_deng_yi_hero_wood",
@@ -3154,7 +3319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_deng_xi_ironic_hero_wood",
@@ -3173,7 +3339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_deng_xian_ironic_hero_wood",
@@ -3192,7 +3359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_yang_hero_fire",
@@ -3211,7 +3379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "202"
+    "birth_year": "202",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_yuan_hero_earth",
@@ -3230,7 +3399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_zhi_hero_fire",
@@ -3249,7 +3419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_deng_zhong_hero_fire",
@@ -3268,7 +3439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dian_wei_hero_wood",
@@ -3287,7 +3459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_diao_chan_hero_water",
@@ -3306,7 +3479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ding_fan_hero_earth",
@@ -3325,7 +3499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ding_feng_hero_metal",
@@ -3344,7 +3519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "215"
+    "birth_year": "215",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ding_yi_hero_water",
@@ -3363,7 +3539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_ding_yuan_wood",
@@ -3382,7 +3559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "135"
+    "birth_year": "135",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_bai_hero_fire",
@@ -3401,7 +3579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_bai_hero_metal",
@@ -3420,7 +3599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_bi_hero_fire",
@@ -3439,7 +3619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_chao_hero_fire",
@@ -3458,7 +3639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "193"
+    "birth_year": "193",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_cheng_hero_fire",
@@ -3477,7 +3659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_dong_zhong_metal",
@@ -3496,7 +3679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "136"
+    "birth_year": "136",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_feng_hero_wood",
@@ -3515,7 +3699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "220"
+    "birth_year": "220",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_dong_fu_hero_water",
@@ -3534,7 +3719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "131"
+    "birth_year": "131",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_dong_he_earth",
@@ -3553,7 +3739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_heng_hero_fire",
@@ -3572,7 +3759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_huang_hero_fire",
@@ -3591,7 +3779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_dong_li_hero_metal",
@@ -3610,7 +3799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_dong_min_hero_earth",
@@ -3629,7 +3819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "143"
+    "birth_year": "143",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_dong_peishan_hero_earth",
@@ -3648,7 +3839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_xi_hero_fire",
@@ -3667,7 +3859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_yue_hero_fire",
@@ -3686,7 +3879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_yun_hero_water",
@@ -3705,7 +3899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "215"
+    "birth_year": "215",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_zhao_hero_water",
@@ -3724,7 +3919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_zhuo_hero_fire",
@@ -3743,7 +3939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_dongtuna_hero_nanman",
@@ -3762,7 +3959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dou_fu_hero_fire",
@@ -3781,7 +3979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_duo_mao_hero_wood",
@@ -3800,7 +3999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_du_hero_earth",
@@ -3819,7 +4019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_du_cha_hero_water",
@@ -3838,7 +4039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_du_ji_hero_fire",
@@ -3857,7 +4059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_du_kui_ironic_hero_earth",
@@ -3876,7 +4079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_du_qiong_hero_water",
@@ -3895,7 +4099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_du_shu_hero_fire",
@@ -3914,7 +4119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "198"
+    "birth_year": "198",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_du_song_hero_water",
@@ -3933,7 +4139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_duan_gui_ziyin_fire",
@@ -3952,7 +4159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_duan_wei_hero_fire",
@@ -3971,7 +4179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_king_duosi_hero_nanman",
@@ -3990,7 +4199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_empress_he_fire",
@@ -4009,7 +4219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fa_zheng_hero_water",
@@ -4028,7 +4239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fan_chou_hero_fire",
@@ -4047,7 +4259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fan_fang_hero_wood",
@@ -4066,7 +4279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_zhang_liyan_hero_earth",
@@ -4085,7 +4299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pan_miao_hero_fire",
@@ -4104,7 +4319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fan_min_hero_water",
@@ -4123,7 +4339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "119"
+    "birth_year": "119",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fan_neng_hero_metal",
@@ -4142,7 +4359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_dong_peishan_hero_earth",
@@ -4161,7 +4379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fan_qin_hero_water",
@@ -4180,7 +4399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fan_xian_hero_earth",
@@ -4199,7 +4419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pan_xin_hero_water",
@@ -4218,7 +4439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fan_yufeng_hero_earth",
@@ -4237,7 +4459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_fan_zhou_hero_water",
@@ -4256,7 +4479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "259"
+    "birth_year": "259",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fang_yue_hero_wood",
@@ -4275,7 +4499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fei_yuelan_hero_earth",
@@ -4294,7 +4519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fei_guan_hero_metal",
@@ -4313,7 +4539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_generated_lady_liu_zhang_water",
@@ -4332,7 +4559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fei_shi_hero_metal",
@@ -4351,7 +4579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fei_xin_hero_metal",
@@ -4370,7 +4599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fei_yang_hero_earth",
@@ -4389,7 +4619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fei_yi_hero_earth",
@@ -4408,7 +4639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fei_zhan_hero_fire",
@@ -4427,7 +4659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_feng_fang_earth",
@@ -4446,7 +4679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_feng_li_hero_fire",
@@ -4465,7 +4699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_feng_shuo_hero_water",
@@ -4484,7 +4719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_feng_xi_hero_fire",
@@ -4503,7 +4739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fu_gan_hero_water",
@@ -4522,7 +4759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fu_jia_hero_water",
@@ -4541,7 +4779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fu_qian_hero_fire",
@@ -4560,7 +4799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fu_qun_hero_metal",
@@ -4579,7 +4819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fu_rong_hero_fire",
@@ -4598,7 +4839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fu_shou_hero_earth",
@@ -4617,7 +4859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fu_wan_hero_water",
@@ -4636,7 +4879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_fu_xie_nanrong_wood",
@@ -4655,7 +4899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_fu_xuan_hero_fire",
@@ -4674,7 +4919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "217"
+    "birth_year": "217",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fu_xun_hero_water",
@@ -4693,7 +4939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_fulohan_hero_metal",
@@ -4712,7 +4959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gan_ji_hero_earth",
@@ -4731,7 +4979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gan_li_hero_metal",
@@ -4750,7 +4999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gan_mei_hero_water",
@@ -4769,7 +5019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gan_ning_hero_fire",
@@ -4788,7 +5039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ganwigeo_hero_fire",
@@ -4807,7 +5059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_dai_hero_water",
@@ -4826,7 +5079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_ding_hero_wood",
@@ -4845,7 +5099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_gan_hero_metal",
@@ -4864,7 +5119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_lan_hero_wood",
@@ -4883,7 +5139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_lu_hero_fire",
@@ -4902,7 +5159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_pei_hero_fire",
@@ -4921,7 +5179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_rou_hero_water",
@@ -4940,7 +5199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_sheng_hero_wood",
@@ -4959,7 +5219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gao_shun_hero_fire",
@@ -4978,7 +5239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_gao_wang_water",
@@ -4997,7 +5259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "128"
+    "birth_year": "128",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_gao_you_water",
@@ -5016,7 +5279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gaotang_long_hero_water",
@@ -5035,7 +5299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "203"
+    "birth_year": "203",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ge_jing_hero_water",
@@ -5054,7 +5319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ge_xuan_hero_earth",
@@ -5073,7 +5339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_geng_bi_wood",
@@ -5092,7 +5359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_geng_ji_hero_fire",
@@ -5111,7 +5379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_geng_wu_hero_earth",
@@ -5130,7 +5399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gogukcheon_hero_fire",
@@ -5149,7 +5419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_gong_du_hero_wood",
@@ -5168,7 +5439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gong_lu_hero_fire",
@@ -5187,7 +5459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gongsun_baoyue_hero_earth",
@@ -5206,7 +5479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_du_hero_metal",
@@ -5225,7 +5499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_fan_hero_fire",
@@ -5244,7 +5519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_gong_hero_earth",
@@ -5263,7 +5539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_gongsun_hong_hero_water",
@@ -5282,7 +5559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "258"
+    "birth_year": "258",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_gongsun_jinting_hero_water",
@@ -5301,7 +5579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_kang_hero_earth",
@@ -5320,7 +5599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gongsun_mo_hero_wood",
@@ -5339,7 +5619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_xiu_hero_water",
@@ -5358,7 +5639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_xu_hero_metal",
@@ -5377,7 +5659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gongsun_ya_hero_water",
@@ -5396,7 +5679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gong_father_son_fire",
@@ -5415,7 +5699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gongsun_father_fire",
@@ -5434,7 +5719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "120"
+    "birth_year": "120",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_yuan_hero_fire",
@@ -5453,7 +5739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "210"
+    "birth_year": "210",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_yue_hero_fire",
@@ -5472,7 +5759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gongsun_zan_hero_fire",
@@ -5491,7 +5779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_generated_gongxu_yan_hero_metal",
@@ -5510,7 +5799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gu_hui_hero_wood",
@@ -5529,7 +5819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gu_li_hero_wood",
@@ -5548,7 +5839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_han_ruilan_hero_earth",
@@ -5567,7 +5859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gu_shao_hero_water",
@@ -5586,7 +5879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_lady_gu_yanyan_hero_metal",
@@ -5605,7 +5899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "273"
+    "birth_year": "273",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_gu_yong_hero_water",
@@ -5624,7 +5919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_gu_zhen_hero_wood",
@@ -5643,7 +5939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "269"
+    "birth_year": "269",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guan_chun_hero_water",
@@ -5662,7 +5959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_guan_hai_hero_wood",
@@ -5681,7 +5979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guan_jing_hero_water",
@@ -5700,7 +5999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guan_lu_hero_water",
@@ -5719,7 +6019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guan_ning_hero_water",
@@ -5738,7 +6039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guan_ping_hero_fire",
@@ -5757,7 +6059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guan_xing_hero_wood",
@@ -5776,7 +6079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "193"
+    "birth_year": "193",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_guan_yinping_hero_wood",
@@ -5795,7 +6099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "204"
+    "birth_year": "204",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_guan_yinping_hero_wood",
@@ -5814,7 +6119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guan_yu_hero_wood",
@@ -5833,7 +6139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guanqiu_dian_hero_water",
@@ -5852,7 +6159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gui_lan_hero_metal",
@@ -5871,7 +6179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_lu_zheng_hero_water",
@@ -5890,7 +6199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gujin_hero_fire",
@@ -5909,7 +6219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_guo_da_hero_metal",
@@ -5928,7 +6239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_guo_gong_hero_fire",
@@ -5947,7 +6259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guo_huai_hero_earth",
@@ -5966,7 +6279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guo_jia_hero_water",
@@ -5985,7 +6299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guo_nuwang_hero_earth",
@@ -6004,7 +6319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_guo_sheng_metal",
@@ -6023,7 +6339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guo_si_hero_fire",
@@ -6042,7 +6359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guo_tu_hero_water",
@@ -6061,7 +6379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guo_xian_hero_metal",
@@ -6080,7 +6399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "199"
+    "birth_year": "199",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_guo_xian_hero_metal",
@@ -6099,7 +6419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_guo_yuan_hero_fire",
@@ -6118,7 +6439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gurudun_hero_fire",
@@ -6137,7 +6459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_han_anyue_hero_metal",
@@ -6156,7 +6479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_han_chong_hero_wood",
@@ -6175,7 +6499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_dang_hero_fire",
@@ -6194,7 +6519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_fu_hero_earth",
@@ -6213,7 +6539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_hao_hero_wood",
@@ -6232,7 +6559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_ji_hero_water",
@@ -6251,7 +6579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "210"
+    "birth_year": "210",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_juzi_hero_fire",
@@ -6270,7 +6599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_han_kui_earth",
@@ -6289,7 +6619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_han_lian_hero_earth",
@@ -6308,7 +6639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_ran_hero_water",
@@ -6327,7 +6659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_rong_hero_water",
@@ -6346,7 +6679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_han_song_hero_metal",
@@ -6365,7 +6699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_sui_hero_metal",
@@ -6384,7 +6719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_han_tong_hero_wood",
@@ -6403,7 +6739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_han_xi_ironic_hero_wood",
@@ -6422,7 +6759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_han_xian_hero_water",
@@ -6441,7 +6779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_han_xin_hero_fire",
@@ -6460,7 +6799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_han_xuan_hero_water",
@@ -6479,7 +6819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_han_yan_hero_earth",
@@ -6498,7 +6839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_han_yin_hero_water",
@@ -6517,7 +6859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_han_zhong_water",
@@ -6536,7 +6879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_handan_chun_hero_water",
@@ -6555,7 +6899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "132"
+    "birth_year": "132",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_handan_shang_hero_water",
@@ -6574,7 +6919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_handan_shang_hero_wood",
@@ -6593,7 +6939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hao_meng_hero_fire",
@@ -6612,7 +6959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hao_pu_hero_fire",
@@ -6631,7 +6979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_he_da_hero_fire",
@@ -6650,7 +6999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_he_jin_metal",
@@ -6669,7 +7019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_he_kui_hero_wood",
@@ -6688,7 +7039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_he_luan_hero_earth",
@@ -6707,7 +7059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_he_lun_hero_earth",
@@ -6726,7 +7079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "258"
+    "birth_year": "258",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_he_man_hero_metal",
@@ -6745,7 +7099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_he_qi_hero_fire",
@@ -6764,7 +7119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_he_qia_ironic_hero_fire",
@@ -6783,7 +7139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_he_xiong_hero_wood",
@@ -6802,7 +7159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_he_yan_hero_water",
@@ -6821,7 +7179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "193"
+    "birth_year": "193",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_he_yi_hero_water",
@@ -6840,7 +7199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_he_zeng_hero_water",
@@ -6859,7 +7219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "199"
+    "birth_year": "199",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_he_zong_ironic_hero_water",
@@ -6878,7 +7239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_helian_hero_metal",
@@ -6897,7 +7259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_heng_ruiling_hero_earth",
@@ -6916,7 +7279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hong_jin_hero_earth",
@@ -6935,7 +7299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hong_ming_hero_wood",
@@ -6954,7 +7319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_hou_cheng_hero_wood",
@@ -6973,7 +7339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_gongsun_jinting_hero_water",
@@ -6992,7 +7359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hou_xuan_hero_fire",
@@ -7011,7 +7379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hou_yin_hero_metal",
@@ -7030,7 +7399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hu_yu_ironic_hero_metal",
@@ -7049,7 +7419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hu_cai_hero_earth",
@@ -7068,7 +7439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hu_feng_hero_fire",
@@ -7087,7 +7459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hu_man_ironic_hero_earth",
@@ -7106,7 +7479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_hu_mao_hero_metal",
@@ -7125,7 +7499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hu_qian_hero_earth",
@@ -7144,7 +7519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hu_zhao_hero_water",
@@ -7163,7 +7539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hu_zhen_hero_earth",
@@ -7182,7 +7559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hu_zhi_hero_water",
@@ -7201,7 +7579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "217"
+    "birth_year": "217",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hu_zong_hero_water",
@@ -7220,7 +7599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hua_biao_hero_water",
@@ -7239,7 +7619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "204"
+    "birth_year": "204",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hua_dang_hero_fire",
@@ -7258,7 +7639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hua_ji_hero_wood",
@@ -7277,7 +7659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_lady_hua_jinting_hero_water",
@@ -7296,7 +7679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_ma_lanli_hero_metal",
@@ -7315,7 +7699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hua_rong_hero_fire",
@@ -7334,7 +7719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hua_tuo_hero_water",
@@ -7353,7 +7739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hua_xin_hero_water",
@@ -7372,7 +7759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_hua_xiong_hero_fire",
@@ -7391,7 +7779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_cai_yan_hero_water",
@@ -7410,7 +7799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_yuan_anyang_hero_earth",
@@ -7429,7 +7819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huan_dian_hero_water",
@@ -7448,7 +7839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huan_fan_hero_water",
@@ -7467,7 +7859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "211"
+    "birth_year": "211",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huan_jia_hero_water",
@@ -7486,7 +7879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huan_jie_ironic_hero_water",
@@ -7505,7 +7899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huan_lin_hero_wood",
@@ -7524,7 +7919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huan_shao_hero_water",
@@ -7543,7 +7939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huan_ye_hero_fire",
@@ -7562,7 +7959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huan_zhi_hero_wood",
@@ -7581,7 +7979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_huang_anbao_hero_water",
@@ -7600,7 +7999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huang_ang_hero_water",
@@ -7619,7 +8019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huang_chengyan_hero_water",
@@ -7638,7 +8039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huang_chong_hero_fire",
@@ -7657,7 +8059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huang_chun_hero_earth",
@@ -7676,7 +8079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_cp01_template_historical_huang_gai_hero_fire",
@@ -7695,7 +8099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huang_gai_hero_wood",
@@ -7714,7 +8119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huang_hua_hero_earth",
@@ -7733,7 +8139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huang_kui_hero_water",
@@ -7752,7 +8159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huanglong_luo_hero_fire",
@@ -7771,7 +8179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huang_min_hero_water",
@@ -7790,7 +8199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huang_quan_hero_fire",
@@ -7809,7 +8219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_huang_shao_hero_metal",
@@ -7828,7 +8239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huang_she_hero_metal",
@@ -7847,7 +8259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huang_wan_hero_water",
@@ -7866,7 +8279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_huang_xin_hero_metal",
@@ -7885,7 +8299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "261"
+    "birth_year": "261",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huang_xun_hero_earth",
@@ -7904,7 +8319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_huang_yan_water",
@@ -7923,7 +8339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "136"
+    "birth_year": "136",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_huang_yueying_hero_wood",
@@ -7942,7 +8359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huang_zhong_hero_metal",
@@ -7961,7 +8379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huang_zu_hero_wood",
@@ -7980,7 +8399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huangfu_qi_ironic_hero_metal",
@@ -7999,7 +8419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huangfu_jianshou_hero_metal",
@@ -8018,7 +8439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huangfu_mi_hero_water",
@@ -8037,7 +8459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "215"
+    "birth_year": "215",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_huangfu_shang_hero_metal",
@@ -8056,7 +8479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "245"
+    "birth_year": "245",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huangfu_song_hero_metal",
@@ -8075,7 +8499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "131"
+    "birth_year": "131",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huanglong_hero_fire",
@@ -8094,7 +8519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_huanglong_luo_hero_fire",
@@ -8113,7 +8539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huche_er_hero_wood",
@@ -8132,7 +8559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huchuquan_hero_earth",
@@ -8151,7 +8579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qu_gong_hero_wood",
@@ -8170,7 +8599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_ma_lanli_hero_metal",
@@ -8189,7 +8619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_hui_qu_hero_wood",
@@ -8208,7 +8639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huo_du_hero_fire",
@@ -8227,7 +8659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huo_jun_hero_fire",
@@ -8246,7 +8679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huo_nu_hero_wood",
@@ -8265,7 +8699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_huo_xing_hero_fire",
@@ -8284,7 +8719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ji_ben_hero_wood",
@@ -8303,7 +8739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ji_ling_hero_fire",
@@ -8322,7 +8759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ji_miao_hero_water",
@@ -8341,7 +8779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ji_mu_hero_water",
@@ -8360,7 +8799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jia_chong_hero_water",
@@ -8379,7 +8819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "217"
+    "birth_year": "217",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jia_cong_hero_water",
@@ -8398,7 +8839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jia_fan_hero_fire",
@@ -8417,7 +8859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "198"
+    "birth_year": "198",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jia_hua_hero_wood",
@@ -8436,7 +8879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jia_kui_hero_fire",
@@ -8455,7 +8899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jia_long_hero_metal",
@@ -8474,7 +8919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jia_mei_hero_earth",
@@ -8493,7 +8939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_jia_mi_hero_fire",
@@ -8512,7 +8959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_jia_mo_hero_metal",
@@ -8531,7 +8979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "259"
+    "birth_year": "259",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jia_xu_hero_water",
@@ -8550,7 +8999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pang_de_hero_wood",
@@ -8569,7 +9019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jian_yong_hero_metal",
@@ -8588,7 +9039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_jian_yong_hero_metal",
@@ -8607,7 +9059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jiang_gan_hero_water",
@@ -8626,7 +9079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jiang_gong_hero_wood",
@@ -8645,7 +9099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jiang_gong_hero_wood",
@@ -8664,7 +9119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jiang_ji_hero_water",
@@ -8683,7 +9139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jiang_qin_hero_fire",
@@ -8702,7 +9159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jiang_shi_hero_wood",
@@ -8721,7 +9179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jiang_wan_hero_earth",
@@ -8740,7 +9199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jiang_wei_hero_fire",
@@ -8759,7 +9219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "202"
+    "birth_year": "202",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jiao_yi_hero_wood",
@@ -8778,7 +9239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jin_qi_hero_water",
@@ -8797,7 +9259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jin_xuan_hero_earth",
@@ -8816,7 +9279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_jin_yi_hero_water",
@@ -8835,7 +9299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "194"
+    "birth_year": "194",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jin_yi_hero_water",
@@ -8854,7 +9319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_jin_yu_hero_fire",
@@ -8873,7 +9339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "258"
+    "birth_year": "258",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_jin_hong_hero_earth",
@@ -8892,7 +9359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "260"
+    "birth_year": "260",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jing_yi_hero_wood",
@@ -8911,7 +9379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "109"
+    "birth_year": "109",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_jinhuansanjie_hero_nanman",
@@ -8930,7 +9399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jiong_mu_hero_earth",
@@ -8949,7 +9419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_jiu_dan_water",
@@ -8968,7 +9439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "124"
+    "birth_year": "124",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ju_jun_hero_fire",
@@ -8987,7 +9459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_ju_ruo_hero_water_dai",
@@ -9006,7 +9479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "251"
+    "birth_year": "251",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ju_shou_hero_water",
@@ -9025,7 +9499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_liu_jiejie_hero_earth",
@@ -9044,7 +9519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_jueji_hero_metal",
@@ -9063,7 +9539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_kan_ze_hero_water",
@@ -9082,7 +9559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_kang_ji_hero_wood_yanmen",
@@ -9101,7 +9579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "262"
+    "birth_year": "262",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_wang_qinmeng_hero_earth",
@@ -9120,7 +9599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ke_ren_hero_metal",
@@ -9139,7 +9619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ke_wu_hero_fire",
@@ -9158,7 +9639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_kebineng_hero_metal",
@@ -9177,7 +9659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_kim_suro_hero_earth",
@@ -9196,7 +9679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_kong_gui_hero_water",
@@ -9215,7 +9699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_kong_rong_hero_water",
@@ -9234,7 +9719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_kong_zhou_hero_water",
@@ -9253,7 +9739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_kou_xiaolan_ironic_hero_metal",
@@ -9272,7 +9759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_ku_song_hero_fire",
@@ -9291,7 +9779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_kuai_liang_hero_water",
@@ -9310,7 +9799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_kuai_qi_hero_metal",
@@ -9329,7 +9819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_kuai_yue_hero_water",
@@ -9348,7 +9839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_kuang_gan_hero_water",
@@ -9367,7 +9859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_kuitou_hero_metal",
@@ -9386,7 +9879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_bian_huilan_hero_wood",
@@ -9405,7 +9899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_cai_yuxiang_hero_earth",
@@ -9424,7 +9919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ep_template_generated_lady_cheng_hero_earth",
@@ -9443,7 +9939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lady_ding_earth",
@@ -9462,7 +9959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_feng_hero_earth",
@@ -9481,7 +9979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_lady_gan_water",
@@ -9500,7 +9999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "133"
+    "birth_year": "133",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_liu_limin_hero_earth",
@@ -9519,7 +10019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lady_lu_metal",
@@ -9538,7 +10039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lady_mi_earth",
@@ -9557,7 +10059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_wu_minyu_hero_earth",
@@ -9576,7 +10079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lady_xiahou_hero_water",
@@ -9595,7 +10099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_lady_yan_hero_earth",
@@ -9614,7 +10119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lady_yang_hero_water",
@@ -9633,7 +10139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_historical_lady_zhen_water",
@@ -9652,7 +10159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lai_feng_hero_metal",
@@ -9671,7 +10179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lai_xun_hero_water",
@@ -9690,7 +10199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lai_gong_hero_fire",
@@ -9709,7 +10219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lai_min_hero_water",
@@ -9728,7 +10239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lai_shuang_hero_water",
@@ -9747,7 +10259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lai_zu_hero_wood",
@@ -9766,7 +10279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lang_zhi_hero_fire",
@@ -9785,7 +10299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_zhang_zhumeng_hero_metal",
@@ -9804,7 +10319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lei_xu_hero_metal",
@@ -9823,7 +10339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lei_ding_hero_fire",
@@ -9842,7 +10359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lei_tong_hero_fire",
@@ -9861,7 +10379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_leng_bao_hero_wood",
@@ -9880,7 +10399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_bao_li_nanman",
@@ -9899,7 +10419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_li_chang_hero_earth_lingling",
@@ -9918,7 +10439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_chao_hero_water",
@@ -9937,7 +10459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_damu_hero_wood",
@@ -9956,7 +10479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_dian_hero_metal",
@@ -9975,7 +10499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_feng_hero_wood",
@@ -9994,7 +10519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_fu_hero_water",
@@ -10013,7 +10539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "204"
+    "birth_year": "204",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_fu_hero_water",
@@ -10032,7 +10559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_gui_hero_water",
@@ -10051,7 +10579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_li_han_hero_earth",
@@ -10070,7 +10599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "246"
+    "birth_year": "246",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_huan_hero_wood",
@@ -10089,7 +10619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_hui_hero_fire",
@@ -10108,7 +10639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_jue_hero_fire",
@@ -10127,7 +10659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_kan_hero_fire",
@@ -10146,7 +10679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_kang_hero_water",
@@ -10165,7 +10699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "196"
+    "birth_year": "196",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_le_hero_fire",
@@ -10184,7 +10719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_li_li_hero_fire",
@@ -10203,7 +10739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_meng_hero_fire",
@@ -10222,7 +10759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_miao_hero_fire",
@@ -10241,7 +10779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_qian_hero_metal",
@@ -10260,7 +10799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_quan_hero_earth",
@@ -10279,7 +10819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_ru_hero_water",
@@ -10298,7 +10839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_shao_hero_water",
@@ -10317,7 +10859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_shi_jiejin_hero_water",
@@ -10336,7 +10879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_shu_hero_water",
@@ -10355,7 +10899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_si_hero_water",
@@ -10374,7 +10919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_li_song_fire",
@@ -10393,7 +10939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "134"
+    "birth_year": "134",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_su_hero_fire",
@@ -10412,7 +10959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_tiao_hero_fire",
@@ -10431,7 +10979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_tong_hero_fire",
@@ -10450,7 +10999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_li_wenhou_wood",
@@ -10469,7 +11019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_li_xian_hero_metal",
@@ -10488,7 +11039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_xian_hero_fire",
@@ -10507,7 +11059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_xiu_hero_water",
@@ -10526,7 +11079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_xu_hero_fire",
@@ -10545,7 +11099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "219"
+    "birth_year": "219",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_yan_hero_fire",
@@ -10564,7 +11119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_li_yi_hero_fire",
@@ -10583,7 +11139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_li_ying_hero_water",
@@ -10602,7 +11159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_li_yu_hero_wood",
@@ -10621,7 +11179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_liu_zhi_hero_earth",
@@ -10640,7 +11199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_liang_boning_water",
@@ -10659,7 +11219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "120"
+    "birth_year": "120",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liang_gang_hero_fire",
@@ -10678,7 +11239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liang_mao_hero_water",
@@ -10697,7 +11259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_liang_shi_hero_earth",
@@ -10716,7 +11279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "267"
+    "birth_year": "267",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liang_shuang_hero_wood",
@@ -10735,7 +11299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liang_xi_hero_fire",
@@ -10754,7 +11319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liang_xing_hero_metal",
@@ -10773,7 +11339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_liang_zhongning_wood",
@@ -10792,7 +11359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_liao_hua_hero_wood",
@@ -10811,7 +11379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liao_li_hero_metal",
@@ -10830,7 +11399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liao_shi_hero_water",
@@ -10849,7 +11419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lin_xun_hero_fire",
@@ -10868,7 +11439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ling_cao_hero_fire",
@@ -10887,7 +11459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ling_tong_hero_wood",
@@ -10906,7 +11479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_ling_zheng_metal",
@@ -10925,7 +11499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "126"
+    "birth_year": "126",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_linghu_na_hero_earth",
@@ -10944,7 +11519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_linghu_qian_hero_earth",
@@ -10963,7 +11539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_linghu_yu_hero_fire",
@@ -10982,7 +11559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "213"
+    "birth_year": "213",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_ai_hero_metal",
@@ -11001,7 +11579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_ba_hero_water",
@@ -11020,7 +11599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_bao_hero_earth",
@@ -11039,7 +11619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_bei_hero_earth",
@@ -11058,7 +11639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_emperor_shao_earth",
@@ -11077,7 +11659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_biao_hero_earth",
@@ -11096,7 +11679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_chan_hero_earth",
@@ -11115,7 +11699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_liu_cheng_hero_earth",
@@ -11134,7 +11719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "105"
+    "birth_year": "105",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_cheng_hero_fire",
@@ -11153,7 +11739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_chong_hero_earth",
@@ -11172,7 +11759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_cong_hero_earth",
@@ -11191,7 +11779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_dai_hero_water",
@@ -11210,7 +11799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "146"
+    "birth_year": "146",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_historical_liu_dan_hero_wood",
@@ -11229,7 +11819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_du_hero_water",
@@ -11248,7 +11839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_dun_hero_water",
@@ -11267,7 +11859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_historical_liu_fan_hero_earth",
@@ -11286,7 +11879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_fan_hero_fire",
@@ -11305,7 +11899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_fang_hero_fire",
@@ -11324,7 +11919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_feng_hero_fire",
@@ -11343,7 +11939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "192"
+    "birth_year": "192",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_fu_hero_water",
@@ -11362,7 +11959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_gui_hero_wood",
@@ -11381,7 +11979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_he_hero_water",
@@ -11400,7 +11999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_he_hero_earth",
@@ -11419,7 +12019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_emperor_ling_earth",
@@ -11438,7 +12039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_liu_hong_water",
@@ -11457,7 +12059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "123"
+    "birth_year": "123",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_hu_ironic_hero_metal",
@@ -11476,7 +12079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_liu_huimin_hero_earth",
@@ -11495,7 +12099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_ji_hero_fire",
@@ -11514,7 +12119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_ji_hero_water",
@@ -11533,7 +12139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_jin_hero_wood",
@@ -11552,7 +12159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_jing_hero_fire",
@@ -11571,7 +12179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_jue_hero_metal",
@@ -11590,7 +12199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_jun_hero_fire",
@@ -11609,7 +12219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "212"
+    "birth_year": "212",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_historical_liu_mao_hero_water",
@@ -11628,7 +12239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_liu_min_hero_water",
@@ -11647,7 +12259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_pan_hero_earth",
@@ -11666,7 +12279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_liu_pi_hero_water",
@@ -11685,7 +12299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_liu_pingming_hero_metal",
@@ -11704,7 +12319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_qi_hero_earth",
@@ -11723,7 +12339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_liu_qi_hero_metal",
@@ -11742,7 +12359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "235"
+    "birth_year": "235",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_rui_ironic_hero_water",
@@ -11761,7 +12379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_shan_hero_earth",
@@ -11780,7 +12399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "200"
+    "birth_year": "200",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_shang_hero_metal",
@@ -11799,7 +12419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_shao_hero_wood",
@@ -11818,7 +12439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_liu_shen_hero_wood",
@@ -11837,7 +12459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "264"
+    "birth_year": "264",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_ting_hero_water",
@@ -11856,7 +12479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_wei_hero_metal",
@@ -11875,7 +12499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_xi_ironic_hero_water",
@@ -11894,7 +12519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_xian_hero_metal",
@@ -11913,7 +12539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_xian_ironic_hero_fire",
@@ -11932,7 +12559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_emperor_xian_earth",
@@ -11951,7 +12579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_xie_hero_earth",
@@ -11970,7 +12599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_xie_hero_water",
@@ -11989,7 +12619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_xiu_hero_earth",
@@ -12008,7 +12639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_liu_xun_fire",
@@ -12027,7 +12659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_generated_liu_xun_metal",
@@ -12046,7 +12679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_yan_hero_water",
@@ -12065,7 +12699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "131"
+    "birth_year": "131",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_yan_hero_fire",
@@ -12084,7 +12719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_yan_ironic_hero_fire",
@@ -12103,7 +12739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_yao_hero_earth",
@@ -12122,7 +12759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_ye_hero_water",
@@ -12141,7 +12779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_yi_hero_water",
@@ -12160,7 +12799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_liu_yi_hero_fire",
@@ -12179,7 +12819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_yin_hero_fire",
@@ -12198,7 +12839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_yu_hero_earth",
@@ -12217,7 +12859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_zan_hero_fire",
@@ -12236,7 +12879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_zhang_hero_earth",
@@ -12255,7 +12899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_liu_zhen_hero_water",
@@ -12274,7 +12919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lou_fa_hero_water",
@@ -12293,7 +12939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lou_gui_hero_fire",
@@ -12312,7 +12959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_leipan_hero_fire",
@@ -12331,7 +12979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_bao_shuming_wood",
@@ -12350,7 +12999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "107"
+    "birth_year": "107",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_bing_kang_hero_water",
@@ -12369,7 +13019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_dang_hero_fire",
@@ -12388,7 +13039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_fei_hero_metal",
@@ -12407,7 +13059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_he_hero_wood",
@@ -12426,7 +13079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_ji_hero_water",
@@ -12445,7 +13099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_lu_ji_hero_water",
@@ -12464,7 +13119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "261"
+    "birth_year": "261",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_jun_earth",
@@ -12483,7 +13139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "146"
+    "birth_year": "146",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_jun_jicai_earth",
@@ -12502,7 +13159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_luo_jun_xiaoyuan_wood",
@@ -12521,7 +13179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_kang_hero_water",
@@ -12540,7 +13199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "126"
+    "birth_year": "126",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_lady_lu_lianshi_hero_earth",
@@ -12559,7 +13219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "269"
+    "birth_year": "269",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_mao_hero_water",
@@ -12578,7 +13239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_mei_hero_metal",
@@ -12597,7 +13259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_kang_brother_wood",
@@ -12616,7 +13279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "110"
+    "birth_year": "110",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_shang_fire",
@@ -12635,7 +13299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_shu_hero_fire",
@@ -12654,7 +13319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "217"
+    "birth_year": "217",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_su_hero_water",
@@ -12673,7 +13339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_xu_hero_earth",
@@ -12692,7 +13359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_xun_hero_water",
@@ -12711,7 +13379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_liu_yanglan_hero_water",
@@ -12730,7 +13399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_yu_metal",
@@ -12749,7 +13419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "130"
+    "birth_year": "130",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_yu_hero_water",
@@ -12768,7 +13439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_lu_yun_hero_fire",
@@ -12787,7 +13459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "264"
+    "birth_year": "264",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_lu_zheng_hero_water",
@@ -12806,7 +13479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_zhi_hero_water",
@@ -12825,7 +13499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_zhi_hero_metal",
@@ -12844,7 +13519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_lu_zhi_hero_water",
@@ -12863,7 +13539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "256"
+    "birth_year": "256",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lun_zhi_hero_fire",
@@ -12882,7 +13559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "194"
+    "birth_year": "194",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_luo_li_hero_fire",
@@ -12901,7 +13579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_luo_luban_hero_metal",
@@ -12920,7 +13599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "246"
+    "birth_year": "246",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_luo_tong_hero_fire",
@@ -12939,7 +13619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "193"
+    "birth_year": "193",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_an_hero_water",
@@ -12958,7 +13639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "218"
+    "birth_year": "218",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_bing_hero_water",
@@ -12977,7 +13659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lu_boshe_wood",
@@ -12996,7 +13679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "133"
+    "birth_year": "133",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_bu_hero_fire",
@@ -13015,7 +13699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_chang_hero_fire",
@@ -13034,7 +13719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_dai_hero_fire",
@@ -13053,7 +13739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_fan_hero_water",
@@ -13072,7 +13759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_gong_hero_fire",
@@ -13091,7 +13779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_he_hero_metal",
@@ -13110,7 +13799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_lu_ji_hero_wood",
@@ -13129,7 +13819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_ju_hero_fire",
@@ -13148,7 +13839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "214"
+    "birth_year": "214",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_kai_hero_water",
@@ -13167,7 +13859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "202"
+    "birth_year": "202",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_meng_hero_metal",
@@ -13186,7 +13879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_qian_hero_metal",
@@ -13205,7 +13899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_weihuang_hero_fire",
@@ -13224,7 +13919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_xing_hero_water",
@@ -13243,7 +13939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "218"
+    "birth_year": "218",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lu_yi_hero_water",
@@ -13262,7 +13959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lü_you_hero_water",
@@ -13281,7 +13979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_lu_you_hero_water",
@@ -13300,7 +13999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ma_ai_hero_fire",
@@ -13319,7 +14019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_chao_hero_fire",
@@ -13338,7 +14039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_dai_hero_fire",
@@ -13357,7 +14059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ma_han_hero_wood",
@@ -13376,7 +14079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_liang_hero_water",
@@ -13395,7 +14099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_mao_hero_metal",
@@ -13414,7 +14119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "198"
+    "birth_year": "198",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_midi_hero_water",
@@ -13433,7 +14139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ma_qin_hero_metal",
@@ -13452,7 +14159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_qiu_hero_water",
@@ -13471,7 +14179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_su_hero_water",
@@ -13490,7 +14199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_teng_hero_fire",
@@ -13509,7 +14219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_tie_hero_fire",
@@ -13528,7 +14239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_wan_hero_fire",
@@ -13547,7 +14259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_ma_xiang_water",
@@ -13566,7 +14279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_xiu_hero_fire",
@@ -13585,7 +14299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ma_xun_hero_fire",
@@ -13604,7 +14319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ma_yu_hero_water",
@@ -13623,7 +14339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_ma_yuanyi_metal",
@@ -13642,7 +14359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_ma_yunlu_hero_metal",
@@ -13661,7 +14379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ma_zhong_hero_wood",
@@ -13680,7 +14399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ma_zhong_hero_fire",
@@ -13699,7 +14419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_man_chong_hero_fire",
@@ -13718,7 +14439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_mangyachang_hero_nanman",
@@ -13737,7 +14459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_mao_gan_hero_fire",
@@ -13756,7 +14479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_mao_jun_hero_wood",
@@ -13775,7 +14499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_mao_jia_hero_fire",
@@ -13794,7 +14519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "205"
+    "birth_year": "205",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_mao_jie_hero_water",
@@ -13813,7 +14539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_mao_ren_hero_metal_wuling",
@@ -13832,7 +14559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "259"
+    "birth_year": "259",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_mei_cheng_hero_metal",
@@ -13851,7 +14579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_meng_da_hero_fire",
@@ -13870,7 +14599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "193"
+    "birth_year": "193",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_meng_guang_hero_water",
@@ -13889,7 +14619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_king_meng_huo_hero_nanman",
@@ -13908,7 +14639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_meng_jie_hero_nanman",
@@ -13927,7 +14659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_meng_you_hero_nanman",
@@ -13946,7 +14679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_mi_dian_hero_water_dongping",
@@ -13965,7 +14699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "252"
+    "birth_year": "252",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_mi_fang_metal",
@@ -13984,7 +14719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_mi_heng_hero_water",
@@ -14003,7 +14739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_mi_zhu_hero_water",
@@ -14022,7 +14759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_miao_shang_hero_wood",
@@ -14041,7 +14779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_han_wanwan_hero_metal",
@@ -14060,7 +14799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_miao_xi_hero_water",
@@ -14079,7 +14819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_mike_hero_metal",
@@ -14098,7 +14839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_min_chun_hero_water",
@@ -14117,7 +14859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_mohuba_hero_metal",
@@ -14136,7 +14879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_mou_rong_hero_water",
@@ -14155,7 +14899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_mu_shun_hero_fire",
@@ -14174,7 +14919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_king_mulu_hero_nanman",
@@ -14193,7 +14939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_munseong_hero_water",
@@ -14212,7 +14959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_murong_hero_metal",
@@ -14231,7 +14979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "125"
+    "birth_year": "125",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_nangong_xinyu_hero_water",
@@ -14250,7 +14999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_nangong_zixiao_hero_wood",
@@ -14269,7 +15019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_nanlu_hero_fire",
@@ -14288,7 +15039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_nanlou_hero_fire",
@@ -14307,7 +15059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ni_kan_hero_wood",
@@ -14326,7 +15079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ni_lu_hero_water",
@@ -14345,7 +15099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ni_nu_hero_metal",
@@ -14364,7 +15119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ni_xiaode_hero_fire",
@@ -14383,7 +15139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_gongsun_tingping_hero_metal",
@@ -14402,7 +15159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_niu_wei_ironic_hero_water",
@@ -14421,7 +15179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_niu_dan_ironic_hero_earth",
@@ -14440,7 +15199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_niu_fu_hero_fire",
@@ -14459,7 +15219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qu_jing_hero_earth",
@@ -14478,7 +15239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ouhou_cai_hero_metal",
@@ -14497,7 +15259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ouyang_su_hero_earth",
@@ -14516,7 +15279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pan_feng_hero_fire",
@@ -14535,7 +15299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pan_juan_hero_water",
@@ -14554,7 +15319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pan_jun_hero_fire",
@@ -14573,7 +15339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "191"
+    "birth_year": "191",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pan_ke_hero_metal",
@@ -14592,7 +15359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_pan_lin_hero_water",
@@ -14611,7 +15379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pan_man_hero_earth",
@@ -14630,7 +15399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pan_shun_hero_wood",
@@ -14649,7 +15419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pan_xu_hero_water",
@@ -14668,7 +15439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pan_zhang_hero_fire",
@@ -14687,7 +15459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_chen_jiu_hero_wood",
@@ -14706,7 +15479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pang_degong_hero_earth",
@@ -14725,7 +15499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pang_ji_hero_water",
@@ -14744,7 +15519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pang_le_hero_metal",
@@ -14763,7 +15539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pang_shanmin_hero_metal",
@@ -14782,7 +15559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pang_tong_hero_water",
@@ -14801,7 +15579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pang_xi_hero_water",
@@ -14820,7 +15599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_pang_yu_hero_wood",
@@ -14839,7 +15619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pei_jun_hero_water",
@@ -14858,7 +15639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_pei_qian_hero_water",
@@ -14877,7 +15659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_pei_wei_hero_earth",
@@ -14896,7 +15679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "255"
+    "birth_year": "255",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_pei_yuanshao_hero_wood",
@@ -14915,7 +15699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_peng_cai_hero_wood",
@@ -14934,7 +15719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_peng_hu_hero_wood",
@@ -14953,7 +15739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_peng_shi_hero_wood",
@@ -14972,7 +15759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_peng_yang_hero_water",
@@ -14991,7 +15779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_princess_pei_hero_metal",
@@ -15010,7 +15799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "254"
+    "birth_year": "254",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_puyang_lian_hero_earth",
@@ -15029,7 +15819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_puyang_yi_hero_water",
@@ -15048,7 +15839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_wang_liting_hero_metal",
@@ -15067,7 +15859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_qi_sheng_hero_metal",
@@ -15086,7 +15879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "255"
+    "birth_year": "255",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qi_zhou_hero_water",
@@ -15105,7 +15899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qian_bo_z_hero_wood",
@@ -15124,7 +15919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qian_bo_hero_wood",
@@ -15143,7 +15939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_qian_pu_hero_water",
@@ -15162,7 +15959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qian_tong_hero_fire",
@@ -15181,7 +15979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qian_zhao_hero_fire",
@@ -15200,7 +15999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qiang_duan_hero_wood",
@@ -15219,7 +16019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qlianman_hero_metal",
@@ -15238,7 +16039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qiao_mao_hero_earth",
@@ -15257,7 +16059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qiao_rui_hero_fire",
@@ -15276,7 +16079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_qiao_xuan_gongzu_water",
@@ -15295,7 +16099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "110"
+    "birth_year": "110",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qiao_zhou_hero_water",
@@ -15314,7 +16119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "201"
+    "birth_year": "201",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qimu_kai_hero_water",
@@ -15333,7 +16139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qin_huang_hero_fire",
@@ -15352,7 +16159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "218"
+    "birth_year": "218",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qin_lang_hero_wood",
@@ -15371,7 +16179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qin_mi_hero_water",
@@ -15390,7 +16199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qin_song_hero_water",
@@ -15409,7 +16219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qin_yilu_hero_fire",
@@ -15428,7 +16239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qiulijiu_hero_fire",
@@ -15447,7 +16259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qu_chuntao_hero_water",
@@ -15466,7 +16279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_qu_gong_hero_wood",
@@ -15485,7 +16299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qu_pan_hero_earth",
@@ -15504,7 +16319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qu_yan_hero_metal",
@@ -15523,7 +16339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qu_yi_hero_earth",
@@ -15542,7 +16359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_qu_ying_hero_metal",
@@ -15561,7 +16379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_quan_cong_hero_fire",
@@ -15580,7 +16399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "198"
+    "birth_year": "198",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_quan_ji_hero_water",
@@ -15599,7 +16419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "212"
+    "birth_year": "212",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_quan_rou_hero_wood",
@@ -15618,7 +16439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_quan_xi_hero_fire",
@@ -15637,7 +16459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "203"
+    "birth_year": "203",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_qubei_hero_earth",
@@ -15656,7 +16479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_que_chang_hero_wood",
@@ -15675,7 +16499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "257"
+    "birth_year": "257",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc07_template_generated_xi_jian_hero_earth",
@@ -15694,7 +16519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_que_xuan_hero_water",
@@ -15713,7 +16539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ren_an_hero_water",
@@ -15732,7 +16559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "124"
+    "birth_year": "124",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ren_jun_hero_water",
@@ -15751,7 +16579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ren_kui_hero_fire",
@@ -15770,7 +16599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ren_qi_hero_fire",
@@ -15789,7 +16619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ying_rong_ironic_hero_metal",
@@ -15808,7 +16639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_rong_fang_hero_earth",
@@ -15827,7 +16659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ru_xun_hero_water",
@@ -15846,7 +16679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ruan_ji_hero_fire",
@@ -15865,7 +16699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "210"
+    "birth_year": "210",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_ruan_shen_hero_water_poyang",
@@ -15884,7 +16719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "255"
+    "birth_year": "255",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ruan_yu_hero_water",
@@ -15903,7 +16739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_rui_liang_hero_metal",
@@ -15922,7 +16759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_rui_xuan_hero_fire",
@@ -15941,7 +16779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_rui_zhi_hero_wood",
@@ -15960,7 +16799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_liu_mengan_hero_water",
@@ -15979,7 +16819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "135"
+    "birth_year": "135",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_king_shamoke_hero_nanman",
@@ -15998,26 +16839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
-  },
-  {
-    "key": "3k_dlc06_template_historical_king_shamoke_hero_nanman_194",
-    "name_key": "king_shamoke",
-    "display_name": "Shamoke",
-    "display_name_alt": "沙摩柯",
-    "forename": "Shamoke",
-    "family_name": "",
-    "forename_alt": "沙摩柯",
-    "family_name_alt": "",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Ruler of the Five Valleys",
-    "description": "Shamoke brooks no resistance to his rule, showing mercy to his tribes and destruction to his enemies.",
-    "element": "unknown",
-    "subtype": "3k_general_nanman",
-    "is_male": true,
-    "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shan_gu_hero_water",
@@ -16036,7 +16859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "219"
+    "birth_year": "219",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shan_jing_hero_metal",
@@ -16055,7 +16879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shan_tao_hero_water",
@@ -16074,7 +16899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "205"
+    "birth_year": "205",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_shan_yu_hero_earth_badong",
@@ -16093,7 +16919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "257"
+    "birth_year": "257",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shang_sheng_hero_fire",
@@ -16112,7 +16939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_she_jian_ironic_hero_wood",
@@ -16131,7 +16959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_she_yuan_ironic_hero_earth",
@@ -16150,7 +16979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shen_cheng_hero_earth",
@@ -16169,7 +16999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_shen_chuan_hero_fire",
@@ -16188,7 +17019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "267"
+    "birth_year": "267",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shen_dan_hero_earth",
@@ -16207,7 +17039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shen_de_hero_fire",
@@ -16226,7 +17059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shen_mi_hero_wood",
@@ -16245,7 +17079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shen_pei_hero_water",
@@ -16264,7 +17099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shen_yi_hero_fire",
@@ -16283,7 +17119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shen_you_hero_water",
@@ -16302,7 +17139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sheng_dao_hero_earth",
@@ -16321,7 +17159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sheng_kuang_hero_fire",
@@ -16340,7 +17179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sheng_mai_hero_metal",
@@ -16359,7 +17199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sheng_xian_hero_water",
@@ -16378,7 +17219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shentu_xiang_hero_water",
@@ -16397,7 +17239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_caiwei_hero_metal",
@@ -16416,7 +17259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_han_hero_earth",
@@ -16435,7 +17279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_lihua_hero_water",
@@ -16454,7 +17299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_qi_ironic_hero_water",
@@ -16473,7 +17319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_changchang_ironic_hero_earth",
@@ -16492,7 +17339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_shi_chao_hero_metal",
@@ -16511,7 +17359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "268"
+    "birth_year": "268",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_en_ironic_hero_metal",
@@ -16530,7 +17379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_fen_hero_water",
@@ -16549,7 +17399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_gan_hero_metal",
@@ -16568,7 +17419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_huan_hero_fire",
@@ -16587,7 +17439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_huang_hero_earth",
@@ -16606,7 +17459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "137"
+    "birth_year": "137",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_hui_hero_earth",
@@ -16625,7 +17479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_shi_kuang_hero_fire",
@@ -16644,7 +17499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_ren_hero_wood",
@@ -16663,7 +17519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shi_song_hero_earth",
@@ -16682,7 +17539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_shi_wei_hero_metal",
@@ -16701,7 +17559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_wei_hero_water",
@@ -16720,7 +17579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_shi_wei_hero_fire",
@@ -16739,7 +17599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_wu_hero_fire",
@@ -16758,7 +17619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_xie_hero_water",
@@ -16777,7 +17639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "137"
+    "birth_year": "137",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_shi_xin_hero_wood",
@@ -16796,7 +17659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_yi_hero_metal",
@@ -16815,7 +17679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_yi_hero_water",
@@ -16834,7 +17699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_zhi_hero_water",
@@ -16853,7 +17719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shi_zuan_hero_fire",
@@ -16872,7 +17739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "213"
+    "birth_year": "213",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_shisun_rui_hero_fire",
@@ -16891,7 +17759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_shu_shao_hero_metal",
@@ -16910,7 +17779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_shu_yu_hero_metal",
@@ -16929,7 +17799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "264"
+    "birth_year": "264",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_si_cong_hero_wood",
@@ -16948,7 +17819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sima_zhi_ironic_hero_metal",
@@ -16967,7 +17839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_ai_hero_wood_prince",
@@ -16986,7 +17859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_bing_hero_water",
@@ -17005,7 +17879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "282"
+    "birth_year": "282",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_chang_hero_wood",
@@ -17024,7 +17899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_chao_hero_fire",
@@ -17043,7 +17919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "280"
+    "birth_year": "280",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_chi_hero_water",
@@ -17062,7 +17939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_cui_hero_metal",
@@ -17081,7 +17959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "250"
+    "birth_year": "250",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_dan_hero_earth",
@@ -17100,7 +17979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "262"
+    "birth_year": "262",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_di_hero_water",
@@ -17119,7 +17999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "267"
+    "birth_year": "267",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_fan_hero_wood",
@@ -17138,7 +18019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "286"
+    "birth_year": "286",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sima_fang_hero_water",
@@ -17157,7 +18039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sima_fu_hero_water",
@@ -17176,7 +18059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_fu_hero_earth_zhao",
@@ -17195,7 +18079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "267"
+    "birth_year": "267",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_fu_hero_metal_zhao",
@@ -17214,7 +18099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "264"
+    "birth_year": "264",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_gan_hero_metal",
@@ -17233,7 +18119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "232"
+    "birth_year": "232",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_hong_hero_metal",
@@ -17252,7 +18139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "261"
+    "birth_year": "261",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_huang_hero_wood",
@@ -17271,7 +18159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "240"
+    "birth_year": "240",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sima_hui_hero_water",
@@ -17290,7 +18179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_hun_hero_earth",
@@ -17309,7 +18199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "261"
+    "birth_year": "261",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_ji_hero_fire_yan",
@@ -17328,7 +18219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "257"
+    "birth_year": "257",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_ji_hero_water_rencheng",
@@ -17347,7 +18239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_jian_hero_earth_lean",
@@ -17366,7 +18259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "239"
+    "birth_year": "239",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_jian_hero_water_qin",
@@ -17385,7 +18279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "262"
+    "birth_year": "262",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_jiong_hero_earth_prince",
@@ -17404,7 +18299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "264"
+    "birth_year": "264",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_sima_ju_metal",
@@ -17423,7 +18319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_ju_hero_earth",
@@ -17442,7 +18339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "253"
+    "birth_year": "253",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_kuo_hero_metal",
@@ -17461,7 +18359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "290"
+    "birth_year": "290",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sima_lang_hero_water",
@@ -17480,7 +18379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_liang_hero_wood_prince",
@@ -17499,7 +18399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "229"
+    "birth_year": "229",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_lun_hero_earth_prince",
@@ -17518,7 +18419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "247"
+    "birth_year": "247",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_mao_hero_metal_jiangling",
@@ -17537,7 +18439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "244"
+    "birth_year": "244",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_mo_hero_fire",
@@ -17556,7 +18459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "254"
+    "birth_year": "254",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_mu_hero_fire",
@@ -17575,7 +18479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "256"
+    "birth_year": "256",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_pi_hero_wood",
@@ -17594,7 +18499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "275"
+    "birth_year": "275",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_pu_hero_fire",
@@ -17613,7 +18519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "288"
+    "birth_year": "288",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_qian_hero_water",
@@ -17632,7 +18539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "270"
+    "birth_year": "270",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_rong_hero_metal_liang",
@@ -17651,7 +18559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "245"
+    "birth_year": "245",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_rui_hero_earth_langye",
@@ -17670,7 +18579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_rui_hero_fire",
@@ -17689,7 +18599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "269"
+    "birth_year": "269",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sima_shi_hero_earth",
@@ -17708,7 +18619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_shi_hero_water",
@@ -17727,7 +18639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_shuo_hero_earth",
@@ -17746,7 +18659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "290"
+    "birth_year": "290",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_song_hero_earth",
@@ -17765,7 +18679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "268"
+    "birth_year": "268",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_sui_hero_water",
@@ -17784,7 +18699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_tai_hero_fire_donghai",
@@ -17803,7 +18719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "225"
+    "birth_year": "225",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_tai_hero_metal_longxi",
@@ -17822,7 +18739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "250"
+    "birth_year": "250",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sima_wang_hero_fire",
@@ -17841,7 +18759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "205"
+    "birth_year": "205",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_wei_hero_fire_prince",
@@ -17860,7 +18779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "258"
+    "birth_year": "258",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_wei_hero_fire_yiyang",
@@ -17879,7 +18799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "270"
+    "birth_year": "270",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_xi_hero_metal",
@@ -17898,7 +18819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "283"
+    "birth_year": "283",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_xia_hero_fire",
@@ -17917,7 +18839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_xiao_hero_metal",
@@ -17936,7 +18859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "270"
+    "birth_year": "270",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_xin_hero_fire",
@@ -17955,7 +18879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "268"
+    "birth_year": "268",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_xu_hero_metal",
@@ -17974,7 +18899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "275"
+    "birth_year": "275",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yan_hero_metal",
@@ -17993,7 +18919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yang_hero_water_runan",
@@ -18012,7 +18939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "261"
+    "birth_year": "261",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yao_hero_wood_dongan",
@@ -18031,7 +18959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "252"
+    "birth_year": "252",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sima_yi_hero_water",
@@ -18050,7 +18979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yi_hero_earth_chu",
@@ -18069,7 +18999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "288"
+    "birth_year": "288",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yi_hero_wood_piling",
@@ -18088,7 +19019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "251"
+    "birth_year": "251",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yin_hero_earth",
@@ -18107,7 +19039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_ying_hero_metal_qi",
@@ -18126,7 +19059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "283"
+    "birth_year": "283",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_ying_hero_water_prince",
@@ -18145,7 +19079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yong_hero_fire_prince",
@@ -18164,7 +19099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "244"
+    "birth_year": "244",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_you_hero_wood",
@@ -18183,7 +19119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yue_hero_metal_prince",
@@ -18202,7 +19139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "254"
+    "birth_year": "254",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_yun_hero_metal",
@@ -18221,7 +19159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "272"
+    "birth_year": "272",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_zan_hero_water",
@@ -18240,7 +19179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "268"
+    "birth_year": "268",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sima_zhao_hero_earth",
@@ -18259,7 +19199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "211"
+    "birth_year": "211",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_zhi_hero_earth",
@@ -18278,7 +19219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "232"
+    "birth_year": "232",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sima_zong_hero_wood_runan",
@@ -18297,7 +19239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "278"
+    "birth_year": "278",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_song_shurou_ironic_hero_earth",
@@ -18316,7 +19259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_feng_hero_water",
@@ -18335,7 +19279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_song_dian_earth",
@@ -18354,7 +19299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_song_jian_hero_metal",
@@ -18373,7 +19319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_song_qian_hero_fire",
@@ -18392,7 +19339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_song_wei_hero_earth",
@@ -18411,7 +19359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "255"
+    "birth_year": "255",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_song_xian_hero_metal",
@@ -18430,7 +19379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_song_yang_hero_wood",
@@ -18449,7 +19399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_song_zhong_hero_water",
@@ -18468,7 +19419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_song_zhou_hero_earth",
@@ -18487,7 +19439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "270"
+    "birth_year": "270",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_su_dai_hero_wood",
@@ -18506,7 +19459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_su_fei_hero_fire",
@@ -18525,7 +19479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_su_kelan_hero_metal",
@@ -18544,7 +19499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_su_ping_hero_earth",
@@ -18563,7 +19519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_su_shang_hero_fire",
@@ -18582,7 +19539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "191"
+    "birth_year": "191",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_su_shuo_hero_water",
@@ -18601,7 +19559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "218"
+    "birth_year": "218",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_su_ting_hero_metal",
@@ -18620,7 +19579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_su_ze_hero_water",
@@ -18639,7 +19599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sui_chun_hero_earth",
@@ -18658,7 +19619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sui_gu_hero_metal",
@@ -18677,7 +19639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sui_yuanjin_hero_fire",
@@ -18696,7 +19659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_Suli_hero_metal",
@@ -18715,7 +19679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_ben_hero_fire",
@@ -18734,7 +19699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_ce_hero_fire",
@@ -18753,7 +19719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_deng_hero_earth",
@@ -18772,7 +19739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_fu_hero_earth",
@@ -18791,7 +19759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_guan_hero_wood",
@@ -18810,7 +19779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_hao_hero_water",
@@ -18829,7 +19799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_he_hero_fire",
@@ -18848,7 +19819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_huan_hero_fire",
@@ -18867,7 +19839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_jian_hero_metal",
@@ -18886,7 +19859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_jiao_hero_fire",
@@ -18905,7 +19879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_jing_hero_wood",
@@ -18924,7 +19899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_jing_hero_wood",
@@ -18943,7 +19919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_jun_hero_earth",
@@ -18962,7 +19939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "219"
+    "birth_year": "219",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_kuang_hero_earth",
@@ -18981,7 +19959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_lang_hero_fire",
@@ -19000,7 +19979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_li_hero_fire",
@@ -19019,7 +19999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_luyu_hero_earth",
@@ -19038,7 +20019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "205"
+    "birth_year": "205",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_lu_hero_earth",
@@ -19057,7 +20039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "213"
+    "birth_year": "213",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_qian_hero_water",
@@ -19076,7 +20059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_qiang_hero_fire",
@@ -19095,7 +20079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_quan_hero_earth",
@@ -19114,7 +20099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_sun_shangxiang_hero_fire",
@@ -19133,7 +20119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_shao_hero_metal",
@@ -19152,7 +20139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_shao_hero_fire",
@@ -19171,7 +20159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_sun_shi_hero_earth",
@@ -19190,7 +20179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_sun_xiu_hero_water",
@@ -19209,7 +20199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "243"
+    "birth_year": "243",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_xu_hero_water",
@@ -19228,7 +20219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "207"
+    "birth_year": "207",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_yi_hero_fire",
@@ -19247,7 +20239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_yu_hero_fire",
@@ -19266,7 +20259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_sun_zhang_wood",
@@ -19285,7 +20279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_sun_zi_hero_fire",
@@ -19304,7 +20299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_supuyan_hero_fire",
@@ -19323,7 +20319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_syiyan_hero_metal",
@@ -19342,7 +20339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tadun_hero_fire",
@@ -19361,7 +20359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_taishi_ci_hero_metal",
@@ -19380,7 +20379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_tang_si_hero_fire",
@@ -19399,7 +20399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "260"
+    "birth_year": "260",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_tang_wen_hero_wood",
@@ -19418,7 +20419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "258"
+    "birth_year": "258",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_tang_zhou_water",
@@ -19437,7 +20439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tanshihuai_hero_metal",
@@ -19456,7 +20459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "133"
+    "birth_year": "133",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tao_qian_hero_water",
@@ -19475,7 +20479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "132"
+    "birth_year": "132",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tao_shang_hero_metal",
@@ -19494,7 +20499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tao_ying_hero_wood",
@@ -19513,7 +20519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_teng_dan_hero_water",
@@ -19532,7 +20539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_teng_ling_hero_earth",
@@ -19551,7 +20559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_teng_yin_hero_water",
@@ -19570,7 +20579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "212"
+    "birth_year": "212",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_teng_zhou_hero_earth",
@@ -19589,7 +20599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_tian_ben_hero_wood",
@@ -19608,7 +20619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "270"
+    "birth_year": "270",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tian_chou_hero_water",
@@ -19627,7 +20639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tian_fen_hero_metal",
@@ -19646,7 +20659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tian_feng_hero_water",
@@ -19665,7 +20679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tian_jing_hero_water",
@@ -19684,7 +20699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tian_kai_hero_earth",
@@ -19703,7 +20719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tian_le_hero_earth",
@@ -19722,7 +20739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tian_yu_hero_fire",
@@ -19741,7 +20759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tong_jie_hero_metal",
@@ -19760,7 +20779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tong_yang_hero_metal",
@@ -19779,7 +20799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tong_yin_hero_fire",
@@ -19798,7 +20819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tong_you_hero_earth",
@@ -19817,7 +20839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_kong_yurui_hero_water",
@@ -19836,7 +20859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tong_zhi_hero_water",
@@ -19855,7 +20879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_trieu_hero_wood",
@@ -19874,7 +20899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "218"
+    "birth_year": "218",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_tu_an_hero_nanman",
@@ -19893,7 +20919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tufa_pigu_hero_metal",
@@ -19912,7 +20939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_tuoba_jiefan_hero_metal",
@@ -19931,7 +20959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_tuoba_liwei_hero_wood",
@@ -19950,7 +20979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wan_bing_hero_metal",
@@ -19969,7 +20999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_wan_buyi_hero_fire",
@@ -19988,7 +21019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "245"
+    "birth_year": "245",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wan_yan_hero_water",
@@ -20007,7 +21039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_qian_ironic_hero_metal",
@@ -20026,7 +21059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_kai_ironic_hero_earth",
@@ -20045,7 +21079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_wang_bao_hero_wood",
@@ -20064,7 +21099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "265"
+    "birth_year": "265",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_wang_baolan_hero_water",
@@ -20083,7 +21119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_bi_hero_fire",
@@ -20102,7 +21139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_biao_hero_water",
@@ -20121,7 +21159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_can_hero_water",
@@ -20140,7 +21179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_dang_hero_water",
@@ -20159,7 +21199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_wang_du_hero_water",
@@ -20178,7 +21219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_feng_hero_water",
@@ -20197,7 +21239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_wang_fangyue_hero_water",
@@ -20216,7 +21259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_fu_hero_water",
@@ -20235,7 +21279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_hong_hero_earth",
@@ -20254,7 +21299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_gong_hero_wood",
@@ -20273,7 +21319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_wang_guo_metal",
@@ -20292,7 +21339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_hai_hero_water",
@@ -20311,7 +21359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_ji_hero_fire",
@@ -20330,7 +21379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_jian_hero_water",
@@ -20349,7 +21399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "191"
+    "birth_year": "191",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_jin_hero_wood",
@@ -20368,7 +21419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_jing_hero_fire",
@@ -20387,7 +21439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "218"
+    "birth_year": "218",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_jun_hero_fire",
@@ -20406,7 +21459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_kai_hero_earth",
@@ -20425,7 +21479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_kuang_hero_metal",
@@ -20444,7 +21499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_lan_hero_water",
@@ -20463,7 +21519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_lang_hero_earth",
@@ -20482,7 +21539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_wang_lanlan_hero_earth",
@@ -20501,7 +21559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_lei_hero_water",
@@ -20520,7 +21579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_lian_hero_metal",
@@ -20539,7 +21599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_lie_hero_water",
@@ -20558,7 +21619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_lie_hero_water",
@@ -20577,7 +21639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_ling_hero_fire",
@@ -20596,7 +21659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "215"
+    "birth_year": "215",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_men_hero_earth",
@@ -20615,7 +21679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_shi_mengjuan_hero_water",
@@ -20634,7 +21699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_mou_hero_wood",
@@ -20653,7 +21719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_ping_hero_fire",
@@ -20672,7 +21739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_qi_hero_fire",
@@ -20691,7 +21759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_wang_rao_hero_metal",
@@ -20710,7 +21779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_wang_rui_fire",
@@ -20729,7 +21799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_shang_hero_metal",
@@ -20748,7 +21819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_sheng_hero_earth",
@@ -20767,7 +21839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_shi_hero_fire",
@@ -20786,7 +21859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_wang_shu_hero_water",
@@ -20805,7 +21879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_shuang_hero_fire",
@@ -20824,7 +21899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_lady_wang_song_water",
@@ -20843,7 +21919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_su_hero_metal",
@@ -20862,7 +21939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_su_hero_water",
@@ -20881,7 +21959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "195"
+    "birth_year": "195",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_wei_hero_wood",
@@ -20900,7 +21979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_xi_hero_wood",
@@ -20919,7 +21999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "210"
+    "birth_year": "210",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_xian_hero_water",
@@ -20938,7 +22019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_xiang_hero_water",
@@ -20957,7 +22039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_xiang_hero_earth",
@@ -20976,7 +22059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_xiu_hero_earth",
@@ -20995,7 +22079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_yi_hero_earth",
@@ -21014,7 +22099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_yu_hero_metal",
@@ -21033,7 +22119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_yuanji_hero_earth",
@@ -21052,7 +22139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "217"
+    "birth_year": "217",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_yun_hero_earth",
@@ -21071,7 +22159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "137"
+    "birth_year": "137",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_zhi_hero_fire",
@@ -21090,7 +22179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wang_zifu_hero_metal",
@@ -21109,7 +22199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wangdong_hero_fire",
@@ -21128,7 +22219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_dan_hero_water",
@@ -21147,7 +22239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wei_dan_hero_water",
@@ -21166,7 +22259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wei_duan_hero_wood",
@@ -21185,7 +22279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_feng_hero_water",
@@ -21204,7 +22299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_gu_hero_fire",
@@ -21223,7 +22319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_guan_hero_fire",
@@ -21242,7 +22339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "220"
+    "birth_year": "220",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_wei_guan_hero_water",
@@ -21261,7 +22359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "220"
+    "birth_year": "220",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_huang_hero_water",
@@ -21280,7 +22379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_ji_hero_fire",
@@ -21299,7 +22399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "220"
+    "birth_year": "220",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_jie_hero_wood",
@@ -21318,7 +22419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_kai_hero_fire",
@@ -21337,7 +22439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_kang_hero_fire",
@@ -21356,7 +22459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wei_kang_hero_earth",
@@ -21375,7 +22479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wei_qian_hero_earth",
@@ -21394,7 +22499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wei_qing_f_hero_earth",
@@ -21413,7 +22519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_shu_hero_water",
@@ -21432,7 +22539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_wen_hero_fire",
@@ -21451,7 +22559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wei_xu_hero_metal",
@@ -21470,7 +22579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_yan_hero_fire",
@@ -21489,7 +22599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_yan_hero_wood",
@@ -21508,7 +22619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_you_hero_water",
@@ -21527,7 +22639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "136"
+    "birth_year": "136",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wei_zhao_hero_water",
@@ -21546,7 +22659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "204"
+    "birth_year": "204",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wei_zi_hero_fire",
@@ -21565,7 +22679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wen_chou_hero_wood",
@@ -21584,7 +22699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wen_gong_hero_water",
@@ -21603,7 +22719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wen_hui_hero_water",
@@ -21622,7 +22739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wen_ji_hero_fire",
@@ -21641,7 +22759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wen_pin_hero_wood",
@@ -21660,7 +22779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wen_qin_hero_earth",
@@ -21679,7 +22799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wen_ying_ironic_hero_water",
@@ -21698,7 +22819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_wu_anguo_hero_wood",
@@ -21717,7 +22839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_wu_ba_water",
@@ -21736,7 +22859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "132"
+    "birth_year": "132",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_ban_hero_fire",
@@ -21755,7 +22879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_can_hero_fire",
@@ -21774,7 +22899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_chen_hero_wood",
@@ -21793,7 +22919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_dang_hero_earth",
@@ -21812,7 +22939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_dun_hero_wood",
@@ -21831,7 +22959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_fan_hero_water",
@@ -21850,7 +22979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_fen_hero_wood",
@@ -21869,7 +22999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_fu_hero_fire",
@@ -21888,7 +23019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_wu_hua_hero_fire",
@@ -21907,7 +23039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "122"
+    "birth_year": "122",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_huan_hero_metal",
@@ -21926,7 +23059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_jing_hero_fire",
@@ -21945,7 +23079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_ju_hero_earth",
@@ -21964,7 +23099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_kuang_hero_metal",
@@ -21983,7 +23119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_lan_hero_fire",
@@ -22002,7 +23139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_mai_hero_earth",
@@ -22021,7 +23159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_mian_hero_earth",
@@ -22040,7 +23179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_qi_hero_metal",
@@ -22059,7 +23199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_wu_qiong_deyu_earth",
@@ -22078,7 +23219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_shuo_hero_water",
@@ -22097,7 +23239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_wu_hero_fire",
@@ -22116,7 +23259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_xi_hero_earth",
@@ -22135,7 +23279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_xi_hero_metal",
@@ -22154,7 +23299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wu_xiang_hero_metal",
@@ -22173,7 +23319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_yi_hero_fire",
@@ -22192,7 +23339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wu_zhi_hero_water",
@@ -22211,7 +23359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_king_wutugu_hero_nanman",
@@ -22230,7 +23379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_wuyan_hero_fire",
@@ -22249,7 +23399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xi_jiao_hero_wood",
@@ -22268,7 +23419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_xi_kan_hero_earth",
@@ -22287,7 +23439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "268"
+    "birth_year": "268",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_xi_ni_hero_nanman",
@@ -22306,7 +23459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xi_zhen_hero_fire",
@@ -22325,7 +23479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xi_zhen_ironic_hero_water",
@@ -22344,7 +23499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xi_zhicai_hero_water",
@@ -22363,7 +23519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xia_she_hero_fire",
@@ -22382,7 +23539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_xia_yun_water",
@@ -22401,7 +23559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xia_zhao_hero_metal",
@@ -22420,7 +23579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_ba_hero_fire",
@@ -22439,7 +23599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_dun_hero_wood",
@@ -22458,7 +23619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xiahou_heng_hero_metal",
@@ -22477,7 +23639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_hui_hero_earth",
@@ -22496,7 +23659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "211"
+    "birth_year": "211",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_jie_hero_fire",
@@ -22515,7 +23679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xiahou_lan_hero_water",
@@ -22534,7 +23699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xiahou_mao_hero_fire",
@@ -22553,7 +23719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_rong_hero_water",
@@ -22572,7 +23739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_shang_hero_fire",
@@ -22591,7 +23759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_xuan_hero_water",
@@ -22610,7 +23779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_yuan_hero_fire",
@@ -22629,7 +23799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiahou_zuo_hero_water",
@@ -22648,7 +23819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiang_chong_hero_fire",
@@ -22667,7 +23839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiang_cun_hero_fire",
@@ -22686,7 +23859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xiang_lang_hero_water",
@@ -22705,7 +23879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_xiang_shi_hero_metal",
@@ -22724,7 +23899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "266"
+    "birth_year": "266",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xianyu_dan_hero_fire",
@@ -22743,7 +23919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xianyu_fu_hero_fire",
@@ -22762,7 +23939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xianyu_yin_hero_wood",
@@ -22781,7 +23959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xiao_jian_hero_fire",
@@ -22800,7 +23979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_xiao_qiao_hero_metal",
@@ -22819,7 +23999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xie_cheng_hero_water",
@@ -22838,7 +24019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xie_jiong_hero_metal",
@@ -22857,7 +24039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xie_mi_hero_water",
@@ -22876,7 +24059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_huang_yingxiu_hero_metal",
@@ -22895,7 +24079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xie_zhen_hero_water",
@@ -22914,7 +24099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xin_fangyue_hero_water",
@@ -22933,7 +24119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xin_pi_hero_water",
@@ -22952,7 +24139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xin_ping_hero_wood",
@@ -22971,7 +24159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xin_xianying_hero_water",
@@ -22990,7 +24179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "191"
+    "birth_year": "191",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xing_daorong_ironic_hero_wood",
@@ -23009,7 +24199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xing_yong_hero_water",
@@ -23028,7 +24219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_xing_zhang_wood",
@@ -23047,7 +24239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_chu_hero_wood",
@@ -23066,7 +24259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_ci_hero_water",
@@ -23085,7 +24279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_dan_hero_earth",
@@ -23104,7 +24299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_gan_hero_water",
@@ -23123,7 +24319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_gong_hero_fire",
@@ -23142,7 +24339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_xu_he_hero_metal",
@@ -23161,7 +24359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_huang_hero_metal",
@@ -23180,7 +24379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_jing_hero_water",
@@ -23199,7 +24399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_kun_hero_wood",
@@ -23218,7 +24419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_miao_hero_water",
@@ -23237,7 +24439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_qian_hero_earth",
@@ -23256,7 +24459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_rong_hero_fire",
@@ -23275,7 +24479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_shao_hero_water",
@@ -23294,7 +24499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_sheng_hero_earth",
@@ -23313,7 +24519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_shu_hero_water",
@@ -23332,7 +24539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_si_hero_water",
@@ -23351,7 +24559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_ta_hero_water",
@@ -23370,7 +24579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_xi_hero_fire",
@@ -23389,7 +24599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_xiu_hero_metal",
@@ -23408,7 +24619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_xuan_hero_water",
@@ -23427,7 +24639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "200"
+    "birth_year": "200",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_yan_hero_fire",
@@ -23446,7 +24659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "200"
+    "birth_year": "200",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_xu_yan_hero_water",
@@ -23465,7 +24679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "257"
+    "birth_year": "257",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_yi_hero_fire",
@@ -23484,7 +24699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "211"
+    "birth_year": "211",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_yi_hero_fire",
@@ -23503,7 +24719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_yi_hero_wood",
@@ -23522,7 +24739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_you_hero_water",
@@ -23541,7 +24759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_yuanxian_hero_metal",
@@ -23560,7 +24779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_zhao_hero_earth",
@@ -23579,7 +24799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xu_zhen_hero_water",
@@ -23598,7 +24819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xu_zhi_hero_fire",
@@ -23617,7 +24839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "212"
+    "birth_year": "212",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xuan_fan_hero_water",
@@ -23636,7 +24859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xue_lan_hero_fire",
@@ -23655,7 +24879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xue_li_hero_metal",
@@ -23674,7 +24899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xue_xu_hero_fire",
@@ -23693,7 +24919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "207"
+    "birth_year": "207",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_xue_zhou_wood",
@@ -23712,7 +24939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xue_zong_hero_water",
@@ -23731,7 +24959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xun_chen_hero_water",
@@ -23750,7 +24979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_xun_shuang_ciming_wood",
@@ -23769,7 +24999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "128"
+    "birth_year": "128",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xun_wei_hero_water",
@@ -23788,7 +25019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xun_you_hero_earth",
@@ -23807,7 +25039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xun_you_hero_water",
@@ -23826,7 +25059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xun_yu_hero_water",
@@ -23845,7 +25079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_xun_yue_hero_water",
@@ -23864,7 +25099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_xun_zheng_hero_wood",
@@ -23883,7 +25119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yalu_hero_fire",
@@ -23902,7 +25139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_baihu_hero_metal",
@@ -23921,7 +25159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_gang_hero_metal",
@@ -23940,7 +25179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yan_jun_hero_metal",
@@ -23959,7 +25199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yan_jun_hero_water",
@@ -23978,7 +25219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yan_lan_hero_water",
@@ -23997,7 +25239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_liang_hero_fire",
@@ -24016,7 +25259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_pu_hero_water",
@@ -24035,7 +25279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_rou_hero_fire",
@@ -24054,7 +25299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_wen_hero_fire",
@@ -24073,7 +25319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yan_xia_hero_metal",
@@ -24092,7 +25339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_yan_xiang_hero_water",
@@ -24111,7 +25359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yan_xiang_hero_metal",
@@ -24130,7 +25379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_xing_hero_metal",
@@ -24149,7 +25399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yan_yan_hero_metal",
@@ -24168,7 +25419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_yu_hero_water",
@@ -24187,7 +25439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_yu_hero_wood",
@@ -24206,7 +25459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_ling_ironic_hero_fire",
@@ -24225,7 +25479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_ang_hero_fire",
@@ -24244,7 +25499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_biao_hero_water",
@@ -24263,7 +25519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_bo_hero_metal",
@@ -24282,7 +25539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_chou_hero_water",
@@ -24301,7 +25559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_dao_hero_water",
@@ -24320,7 +25579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_ding_hero_fire",
@@ -24339,7 +25599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_yang_feng_hero_nanman",
@@ -24358,7 +25619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_feng_hero_wood",
@@ -24377,7 +25639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_hong_hero_metal",
@@ -24396,7 +25659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_hong_ironic_hero_wood",
@@ -24415,7 +25679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_huai_hero_fire",
@@ -24434,7 +25699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_huiyu_hero_earth",
@@ -24453,7 +25719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "214"
+    "birth_year": "214",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_jun_hero_metal",
@@ -24472,7 +25739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_kui_hero_earth",
@@ -24491,7 +25759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_qianwan_hero_wood",
@@ -24510,7 +25779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_qiu_hero_wood",
@@ -24529,7 +25799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_qun_hero_fire",
@@ -24548,7 +25819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "191"
+    "birth_year": "191",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_ren_hero_fire",
@@ -24567,7 +25839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_song_hero_earth",
@@ -24586,7 +25859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_xi_hero_water",
@@ -24605,7 +25879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_xiu_hero_water",
@@ -24624,7 +25899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_yi_hero_fire",
@@ -24643,7 +25919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_yi_hero_water",
@@ -24662,7 +25939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yang_yong_hero_water",
@@ -24681,7 +25959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "184"
+    "birth_year": "184",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yang_zhong_hero_metal",
@@ -24700,7 +25979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_yang_zhuo_hero_earth",
@@ -24719,7 +25999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "262"
+    "birth_year": "262",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yao_tai_hero_water",
@@ -24738,7 +26019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yan_xiang_hero_water",
@@ -24757,7 +26039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yao_zhou_hero_water",
@@ -24776,7 +26059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yeonbul_hero_metal",
@@ -24795,7 +26079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yi_ji_ironic_hero_water",
@@ -24814,7 +26099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yi_liao_hero_fire",
@@ -24833,7 +26119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_wang_liting_hero_metal",
@@ -24852,7 +26139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yin_feng_hero_wood",
@@ -24871,7 +26159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yin_li_hero_metal",
@@ -24890,7 +26179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yin_lu_hero_fire",
@@ -24909,7 +26199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yin_mo_ironic_hero_earth",
@@ -24928,7 +26219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_ying_feng_shishu_earth",
@@ -24947,7 +26239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "110"
+    "birth_year": "110",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ying_lun_hero_water",
@@ -24966,7 +26259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ying_qu_hero_water",
@@ -24985,7 +26279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_ying_rong_hero_water",
@@ -25004,7 +26299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "159"
+    "birth_year": "159",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ying_shao_hero_fire",
@@ -25023,7 +26319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_ying_xiang_hero_earth",
@@ -25042,7 +26339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "268"
+    "birth_year": "268",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_ying_xun_jiyu_fire",
@@ -25061,7 +26359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "146"
+    "birth_year": "146",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ying_yang_hero_water",
@@ -25080,7 +26379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ying_yu_hero_water",
@@ -25099,7 +26399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yong_kai_hero_fire",
@@ -25118,7 +26419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_you_mi_hero_metal",
@@ -25137,7 +26439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_you_tu_hero_wood",
@@ -25156,7 +26459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_you_yu_hero_water",
@@ -25175,7 +26479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yu_bao_ironic_hero_wood",
@@ -25194,7 +26499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_wang_yi_hero_fire",
@@ -25213,7 +26519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yu_du_hero_fire",
@@ -25232,7 +26539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yu_fan_hero_water",
@@ -25251,7 +26559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gan_ji_hero_metal",
@@ -25270,7 +26579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yu_jin_hero_metal",
@@ -25289,7 +26599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yu_mi_hero_fire",
@@ -25308,7 +26619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_jia_minxiang_hero_earth",
@@ -25327,7 +26639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yu_qin_hero_wood",
@@ -25346,7 +26659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "217"
+    "birth_year": "217",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yu_she_hero_metal",
@@ -25365,7 +26679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yu_zhujian_hero_fire",
@@ -25384,7 +26699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yu_zi_hero_wood",
@@ -25403,7 +26719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_yuan_anyang_hero_water",
@@ -25422,7 +26739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yuan_ba_hero_water",
@@ -25441,7 +26759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_huan_hero_earth",
@@ -25460,7 +26779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yuan_hui_hero_earth",
@@ -25479,7 +26799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_long_hero_water",
@@ -25498,7 +26819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yuan_min_hero_wood",
@@ -25517,7 +26839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_shang_hero_earth",
@@ -25536,7 +26859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_shao_hero_earth",
@@ -25555,7 +26879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_shu_hero_earth",
@@ -25574,7 +26899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_tan_hero_earth",
@@ -25593,7 +26919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_xi_hero_earth",
@@ -25612,7 +26939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_yao_hero_earth",
@@ -25631,7 +26959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yuan_yi_hero_water",
@@ -25650,7 +26979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yuan_yin_hero_earth",
@@ -25669,7 +26999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yuan_yu_hero_fire",
@@ -25688,7 +27019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_yuan_zhong_hero_metal",
@@ -25707,7 +27039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yue_dun_hero_water",
@@ -25726,7 +27059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "211"
+    "birth_year": "211",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yue_jin_hero_metal",
@@ -25745,7 +27079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yue_jiu_hero_fire",
@@ -25764,7 +27099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yue_lin_hero_fire",
@@ -25783,7 +27119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "203"
+    "birth_year": "203",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_yufuluo_hero_earth",
@@ -25802,7 +27139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zang_ba_hero_wood",
@@ -25821,7 +27159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zang_hong_hero_metal",
@@ -25840,7 +27179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zao_zhan_hero_water",
@@ -25859,7 +27199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zao_zhi_hero_wood",
@@ -25878,7 +27219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_ze_bu_hero_wood",
@@ -25897,7 +27239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_ze_rong_hero_fire",
@@ -25916,7 +27259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "146"
+    "birth_year": "146",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_ze_yue_hero_metal",
@@ -25935,7 +27279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhan_qiang_hero_earth",
@@ -25954,7 +27299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_zhang_xingcai_hero_fire",
@@ -25973,7 +27319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_zhongjing_ironic_hero_water",
@@ -25992,7 +27339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_ba_hero_fire",
@@ -26011,7 +27359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_zhang_bao_hero_fire",
@@ -26030,7 +27379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "192"
+    "birth_year": "192",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_bu_hero_fire",
@@ -26049,7 +27399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "220"
+    "birth_year": "220",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_chang_hero_earth",
@@ -26068,7 +27419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_chao_hero_water",
@@ -26087,7 +27439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_cheng_hero_water",
@@ -26106,7 +27459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "146"
+    "birth_year": "146",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_cheng_hero_fire",
@@ -26125,7 +27479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_chi_hero_fire",
@@ -26144,7 +27499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_chunhua_hero_water",
@@ -26163,7 +27519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_cun_ironic_hero_wood",
@@ -26182,7 +27539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_duo_hero_fire",
@@ -26201,7 +27559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_zhang_fang_hero_earth",
@@ -26220,7 +27579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_fang_hero_wood",
@@ -26239,7 +27599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_zhang_fang_hero_fire",
@@ -26258,7 +27619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "249"
+    "birth_year": "249",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_fei_hero_fire",
@@ -26277,7 +27639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_fu_hero_wood",
@@ -26296,7 +27659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhang_gong_wood",
@@ -26315,7 +27679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "130"
+    "birth_year": "130",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_guang_hero_wood",
@@ -26334,7 +27699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "185"
+    "birth_year": "185",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_he_hero_fire",
@@ -26353,7 +27719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_heng_hero_earth",
@@ -26372,7 +27739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_hong_hero_water",
@@ -26391,7 +27759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "153"
+    "birth_year": "153",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_hu_hero_metal",
@@ -26410,7 +27779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "154"
+    "birth_year": "154",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_zhang_hua_hero_water",
@@ -26429,7 +27799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "232"
+    "birth_year": "232",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_ji_hero_water",
@@ -26448,7 +27819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_ji_dong_zhou_hero_earth",
@@ -26467,7 +27839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_jian_hero_fire",
@@ -26486,7 +27859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "126"
+    "birth_year": "126",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_jin_hero_fire",
@@ -26505,7 +27879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_jin_hero_metal",
@@ -26524,7 +27899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_jing_ironic_hero_metal",
@@ -26543,7 +27919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_zhang_kai_hero_wood",
@@ -26562,7 +27939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_liao_hero_metal",
@@ -26581,7 +27959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_lili_hero_earth",
@@ -26600,7 +27979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_lu_hero_wood",
@@ -26619,7 +27999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_luo_hero_water",
@@ -26638,7 +28019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_luoluo_hero_metal",
@@ -26657,7 +28039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhang_mancheng_wood",
@@ -26676,7 +28059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "134"
+    "birth_year": "134",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_meimei_hero_metal",
@@ -26695,7 +28079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_meng_hero_fire",
@@ -26714,7 +28099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_mi_hero_fire",
@@ -26733,7 +28119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_miao_hero_water",
@@ -26752,7 +28139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_min_hero_water",
@@ -26771,7 +28159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "147"
+    "birth_year": "147",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_mu_hero_fire",
@@ -26790,7 +28179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_nan_hero_fire",
@@ -26809,7 +28199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "194"
+    "birth_year": "194",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_ni_hero_wood",
@@ -26828,7 +28219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_quan_hero_water",
@@ -26847,7 +28239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhang_rang_earth",
@@ -26866,7 +28259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "132"
+    "birth_year": "132",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_ren_hero_fire",
@@ -26885,7 +28279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_zhang_shangxiu_hero_water",
@@ -26904,7 +28299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_shuo_hero_earth",
@@ -26923,7 +28319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "145"
+    "birth_year": "145",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_song_hero_water",
@@ -26942,7 +28339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_su_hero_water",
@@ -26961,7 +28359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_wei_hero_earth",
@@ -26980,7 +28379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_wen_hero_water",
@@ -26999,7 +28399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_wu_hero_wood",
@@ -27018,7 +28419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_xian_hero_metal",
@@ -27037,7 +28439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_xiang_ironic_hero_wood",
@@ -27056,7 +28459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "166"
+    "birth_year": "166",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_zhang_xiangyang_hero_metal",
@@ -27075,7 +28479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_xiu_hero_fire",
@@ -27094,7 +28499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_zhang_xun_hero_earth",
@@ -27113,7 +28519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_ya_hero_metal",
@@ -27132,7 +28539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "140"
+    "birth_year": "140",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_yan_hero_wood",
@@ -27151,7 +28559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_yan_hero_wood",
@@ -27170,7 +28579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_yang_hero_earth",
@@ -27189,7 +28599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_zhang_yanyan_hero_earth",
@@ -27208,7 +28619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_yi_hero_fire",
@@ -27227,7 +28639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_yi_hero_metal",
@@ -27246,7 +28659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_yi_title_hero_metal",
@@ -27265,7 +28679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_yi_ironic_hero_fire",
@@ -27284,7 +28699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_ying_hero_wood",
@@ -27303,7 +28719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_yu_hero_earth",
@@ -27322,7 +28739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "177"
+    "birth_year": "177",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_yun_hero_water",
@@ -27341,7 +28759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_zan_hero_water",
@@ -27360,7 +28779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "150"
+    "birth_year": "150",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_ze_hero_fire",
@@ -27379,7 +28799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "192"
+    "birth_year": "192",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_zhao_hero_water",
@@ -27398,7 +28819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_zhen_hero_water",
@@ -27417,7 +28839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "210"
+    "birth_year": "210",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_zhi_hero_water",
@@ -27436,7 +28859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhang_zun_hero_fire",
@@ -27455,7 +28879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "218"
+    "birth_year": "218",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_trieu_quocdat_hero_earth",
@@ -27474,7 +28899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_ang_hero_water",
@@ -27493,7 +28919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_ang_hero_water",
@@ -27512,7 +28939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_ytr_template_historical_zhao_bo_hero_wood",
@@ -27531,7 +28959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_cen_hero_metal",
@@ -27550,7 +28979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_da_hero_water",
@@ -27569,7 +28999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_du_hero_wood",
@@ -27588,7 +29019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_e_hero_metal",
@@ -27607,7 +29039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_fan_hero_water",
@@ -27626,7 +29059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_guang_hero_fire",
@@ -27645,7 +29079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "210"
+    "birth_year": "210",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhao_hong_water",
@@ -27664,7 +29099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_lei_hero_fire",
@@ -27683,7 +29119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_lingjing_hero_earth",
@@ -27702,7 +29139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "178"
+    "birth_year": "178",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_qi_hero_water",
@@ -27721,7 +29159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "108"
+    "birth_year": "108",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_qian_hero_fire",
@@ -27740,7 +29179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_rui_hero_fire",
@@ -27759,7 +29199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_shurou_hero_water",
@@ -27778,7 +29219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_wei_hero_water",
@@ -27797,7 +29239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_wen_hero_water",
@@ -27816,7 +29259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "137"
+    "birth_year": "137",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_yan_hero_water",
@@ -27835,7 +29279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_yi_hero_water",
@@ -27854,7 +29299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "122"
+    "birth_year": "122",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_yu_hero_earth",
@@ -27873,7 +29319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "138"
+    "birth_year": "138",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhao_yuanjiang_hero_metal",
@@ -27892,7 +29339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhao_yun_hero_metal",
@@ -27911,7 +29359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "168"
+    "birth_year": "168",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhao_zhi_metal",
@@ -27930,7 +29379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "142"
+    "birth_year": "142",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhao_zhong_water",
@@ -27949,7 +29399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "123"
+    "birth_year": "123",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhen_xiang_hero_fire",
@@ -27968,7 +29419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "192"
+    "birth_year": "192",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_bao_hero_metal",
@@ -27987,7 +29439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zheng_bao_hero_wood",
@@ -28006,7 +29459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_zheng_dan_hero_wood",
@@ -28025,7 +29479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "260"
+    "birth_year": "260",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zheng_du_hero_water",
@@ -28044,7 +29499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zheng_fei_hero_earth",
@@ -28063,7 +29519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_gan_hero_fire",
@@ -28082,7 +29539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zheng_hun_hero_wood",
@@ -28101,7 +29559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_lady_zheng_jiang_hero_wood",
@@ -28120,7 +29579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_generated_lady_zhang_jinglan_hero_metal",
@@ -28139,7 +29599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_mao_hero_water",
@@ -28158,7 +29619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "189"
+    "birth_year": "189",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_dong_min_hero_earth",
@@ -28177,7 +29639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "143"
+    "birth_year": "143",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_mo_hero_water",
@@ -28196,7 +29659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "213"
+    "birth_year": "213",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_sui_hero_water",
@@ -28215,7 +29679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_tai_hero_water",
@@ -28234,7 +29699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhang_tiansheng_ironic_hero_earth",
@@ -28253,7 +29719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_xuan_hero_water",
@@ -28272,7 +29739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "127"
+    "birth_year": "127",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zheng_yan_hero_wood",
@@ -28291,7 +29759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_gong_zhi_ironic_hero_metal",
@@ -28310,7 +29779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhong_hui_hero_earth",
@@ -28329,7 +29799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "225"
+    "birth_year": "225",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhong_ji_hero_fire",
@@ -28348,7 +29819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhong_yao_hero_water",
@@ -28367,7 +29839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "151"
+    "birth_year": "151",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhong_yong_hero_fire",
@@ -28386,7 +29859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "216"
+    "birth_year": "216",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhongchang_tong_hero_water",
@@ -28405,7 +29879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhongli_xu_hero_earth",
@@ -28424,7 +29899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhou_ang_earth",
@@ -28443,7 +29919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhou_bi_zhongyuan_water",
@@ -28462,7 +29939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc05_template_historical_zhou_bo_hero_earth",
@@ -28481,7 +29959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_cang_hero_wood",
@@ -28500,7 +29979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_che_hero_metal",
@@ -28519,7 +29999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "209"
+    "birth_year": "209",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_gu_hero_wood",
@@ -28538,7 +30019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_he_hero_fire",
@@ -28557,7 +30039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_huan_hero_water",
@@ -28576,7 +30059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "143"
+    "birth_year": "143",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huan_zhi_hero_wood",
@@ -28595,7 +30079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_huan_lin_hero_metal",
@@ -28614,7 +30099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_jing_hero_water",
@@ -28633,7 +30119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_qun_hero_water",
@@ -28652,7 +30139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_shan_hero_fire",
@@ -28671,7 +30159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_shang_hero_water",
@@ -28690,7 +30179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_shao_hero_fire",
@@ -28709,7 +30199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "198"
+    "birth_year": "198",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhou_shen_metal",
@@ -28728,7 +30219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_shu_hero_wood",
@@ -28747,7 +30239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "133"
+    "birth_year": "133",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_tai_hero_fire",
@@ -28766,7 +30259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "163"
+    "birth_year": "163",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_xin_hero_fire",
@@ -28785,7 +30279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_yin_hero_fire",
@@ -28804,7 +30299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhou_ying_hero_metal",
@@ -28823,7 +30319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "161"
+    "birth_year": "161",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zhou_yu_renming_fire",
@@ -28842,7 +30339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "155"
+    "birth_year": "155",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_yu_hero_water",
@@ -28861,7 +30359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhou_zhi_hero_water",
@@ -28880,7 +30379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "192"
+    "birth_year": "192",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_zhu_beng_hero_wood",
@@ -28899,7 +30399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhu_liu_ironic_hero_earth",
@@ -28918,7 +30419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "175"
+    "birth_year": "175",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_en_hero_water",
@@ -28937,7 +30439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_fu_hero_water",
@@ -28956,7 +30459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_gui_hero_water",
@@ -28975,7 +30479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_han_hero_water",
@@ -28994,7 +30499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_hao_hero_fire",
@@ -29013,7 +30519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "167"
+    "birth_year": "167",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_huan_hero_fire",
@@ -29032,7 +30539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_ju_hero_fire",
@@ -29051,7 +30559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "194"
+    "birth_year": "194",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_jun_hero_fire",
@@ -29070,7 +30579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "144"
+    "birth_year": "144",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhu_lian_hero_metal",
@@ -29089,7 +30599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_ling_hero_fire",
@@ -29108,7 +30619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhu_min_hero_earth",
@@ -29127,7 +30639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_ran_hero_fire",
@@ -29146,7 +30659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhu_shulian_hero_water",
@@ -29165,7 +30679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_yi_hero_fire",
@@ -29184,7 +30699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "208"
+    "birth_year": "208",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_zhen_hero_fire",
@@ -29203,7 +30719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206"
+    "birth_year": "206",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhu_zhi_hero_metal",
@@ -29222,7 +30739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "156"
+    "birth_year": "156",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuang_zhen_hero_wood",
@@ -29241,7 +30759,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "169"
+    "birth_year": "169",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_bin_hero_wood",
@@ -29260,7 +30779,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "130"
+    "birth_year": "130",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_dan_hero_fire",
@@ -29279,7 +30799,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "188"
+    "birth_year": "188",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_dan_hero_fire",
@@ -29298,7 +30819,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_fu_hero_metal",
@@ -29317,7 +30839,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_gan_hero_wood",
@@ -29336,7 +30859,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_guo_hero_metal",
@@ -29355,7 +30879,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_ji_hero_earth",
@@ -29374,7 +30899,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_jin_hero_water",
@@ -29393,7 +30919,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_jin_hero_water",
@@ -29412,7 +30939,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_jun_hero_earth",
@@ -29431,7 +30959,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "186"
+    "birth_year": "186",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_ke_hero_earth",
@@ -29450,7 +30979,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "203"
+    "birth_year": "203",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_liang_hero_water",
@@ -29469,7 +30999,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_luo_hero_earth",
@@ -29488,7 +31019,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "180"
+    "birth_year": "180",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_pian_hero_earth",
@@ -29507,7 +31039,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "179"
+    "birth_year": "179",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_qiao_hero_fire",
@@ -29526,7 +31059,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_qiong_hero_fire",
@@ -29545,7 +31079,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_rong_hero_fire",
@@ -29564,7 +31099,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "215"
+    "birth_year": "215",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuge_xu_hero_metal",
@@ -29583,7 +31119,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "190"
+    "birth_year": "190",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_xuan_hero_fire",
@@ -29602,7 +31139,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "139"
+    "birth_year": "139",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zhuge_zhi_hero_fire",
@@ -29621,7 +31159,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "197"
+    "birth_year": "197",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuo_xiangyun_hero_earth",
@@ -29640,7 +31179,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zhuo_ying_ironic_hero_fire",
@@ -29659,7 +31199,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "176"
+    "birth_year": "176",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc06_template_historical_lady_zhurong_hero_nanman",
@@ -29678,7 +31219,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_nanman",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zong_bao_hero_wood",
@@ -29697,7 +31239,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zong_cheng_hero_water",
@@ -29716,7 +31259,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "157"
+    "birth_year": "157",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_zong_yi_hero_fire",
@@ -29735,7 +31279,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "258"
+    "birth_year": "258",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zong_yu_hero_fire",
@@ -29754,7 +31299,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zong_yuan_fire",
@@ -29773,7 +31319,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "141"
+    "birth_year": "141",
+    "death_year": "???"
   },
   {
     "key": "3k_mtu_template_historical_lady_zou_yuan_hero_water",
@@ -29792,7 +31339,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "160"
+    "birth_year": "160",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zou_dan_hero_fire",
@@ -29811,7 +31359,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "148"
+    "birth_year": "148",
+    "death_year": "???"
   },
   {
     "key": "3k_dlc04_template_historical_zou_jing_hero_metal",
@@ -29830,7 +31379,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "133"
+    "birth_year": "133",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zou_lin_hero_wood",
@@ -29849,7 +31399,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "165"
+    "birth_year": "165",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zou_ta_hero_metal",
@@ -29868,7 +31419,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "162"
+    "birth_year": "162",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_si_ironic_hero_earth",
@@ -29887,7 +31439,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_cui_hero_water",
@@ -29906,7 +31459,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "183"
+    "birth_year": "183",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_hong_hero_wood",
@@ -29925,7 +31479,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "187"
+    "birth_year": "187",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_lang_hero_wood",
@@ -29944,7 +31499,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "152"
+    "birth_year": "152",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_mao_hero_wood",
@@ -29963,7 +31519,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "149"
+    "birth_year": "149",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_mo_hero_water",
@@ -29982,7 +31539,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_shan_hero_fire",
@@ -30001,7 +31559,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172"
+    "birth_year": "172",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_si_hero_earth",
@@ -30020,7 +31579,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "174"
+    "birth_year": "174",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zu_ting_hero_wood",
@@ -30039,7 +31599,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "181"
+    "birth_year": "181",
+    "death_year": "???"
   },
   {
     "key": "ep_template_historical_zuo_cen_hero_wood",
@@ -30058,7 +31619,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "269"
+    "birth_year": "269",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zuo_chengxu_hero_water",
@@ -30077,7 +31639,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "170"
+    "birth_year": "170",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zuo_chengxu_hero_fire",
@@ -30096,7 +31659,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "164"
+    "birth_year": "164",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zuo_xian_hero_water",
@@ -30115,7 +31679,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173"
+    "birth_year": "173",
+    "death_year": "???"
   },
   {
     "key": "ironic_template_historical_zuo_yu_hero_metal",
@@ -30134,7 +31699,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "158"
+    "birth_year": "158",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_historical_zuozi_hangba_hero_wood",
@@ -30153,7 +31719,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "182"
+    "birth_year": "182",
+    "death_year": "???"
   },
   {
     "key": "3k_main_template_generated_lady_gao_zhulan_hero_metal",
@@ -30172,7 +31739,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
-    "birth_year": "171"
+    "birth_year": "171",
+    "death_year": "???"
   }
 ];
 
