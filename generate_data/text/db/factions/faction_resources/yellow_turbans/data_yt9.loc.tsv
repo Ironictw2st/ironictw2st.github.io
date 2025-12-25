@@ -1,0 +1,87 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/yellow_turbans/data_yt9.loc		
+effects_description_3k_ytr_guv_embers_gong_du_caches	[[b]]%+n[[/b]] embers	false
+frontend_faction_leader_unique_features_localised_description_3k_ytr_unique_features_gong_du_technology	Unlocked technology "Pardon Old-Regime Supports" from the start:\\n\\n[[col:green]]+[[/col]] Enlightenment\\n\\nUnlocks unit through Technology:\\n[[b]]Guardians of the Land[[/b]]\\n[[col:scope_description]]Heavy assault infantry[[/col]]\\n\\nRole: frontline\\n[[col:green]]+[[/col]] Good armour\\n[[col:green]]+[[/col]] Good in melee\\n\\n[[col:flavour]][[i]] Armoured former palace guards who use ji polearms raided from their previous masters in the fight for the Great Peace.[[/col]][[/i]]\\n\\nUnlocks unit through Technology:\\n\\n[[b]]Stalwart Shields[[/b]]\\n[[col:scope_description]]Heavy spear infantry[[/col]]\\n\\nRole: anti-cavalry\\n[[col:green]]+[[/col]] Good morale\\n[[col:green]]+[[/col]] Missile defence\\n\\n[[col:flavour]][[i]] The Yellow Turbans must be sword and shield both, holding back the tide of corruption whilst simultaneously pushing it back.[[/col]][[/i]]	true
+frontend_faction_leader_unique_features_localised_description_3k_ytr_unique_features_he_yi_technology	Unlocked technology "Call for Warriors" from the start:\\n\\n[[col:green]]+[[/col]] Enlightenment\\n\\nUnlocks unit through Technology:\\n[[b]]Youxia[[/b]]\\n[[col:scope_description]]Heavy assault infantry[[/col]]\\n\\nRole: frontline\\n[[col:green]]+[[/col]] Good armour\\n[[col:green]]+[[/col]] Guerrilla deployment\\n\\n[[col:flavour]][[i]] With a tally of many victories between them, this armoured infantry form the vanguard of the frontline with sword and shield. [[/col]][[/i]]\\n\\nUnlocks unit through Technology:\\n[[b]]Jiazi Raiders[[/b]]\\n[[col:scope_description]]Heavy sword cavalry[[/col]]\\n\\nRole: all-rounder\\n[[col:green]]+[[/col]] Good armour\\n[[col:red]]-[[/col]] Small unit\\n\\n[[col:flavour]][[i]] When you fight to live, you tend to become exceedingly good at it.[[/col]][[/i]]	true
+frontend_faction_leader_unique_features_localised_description_3k_ytr_unique_features_huang_shao_technology	Unlocked technology "Archer's Discipline" from the start:\\n\\n[[col:green]]+[[/col]] Enlightenment\\n\\nUnlocks unit through Technology:\\n[[b]]Archery Masters[[/b]]\\n[[col:scope_description]]Archer infantry[[/col]]\\n\\nRole: suppression\\n[[col:green]]+[[/col]] Missile attack\\n[[col:red]]-[[/col]] Poor in melee\\n\\n[[col:flavour]][[i]] Archers with an unerring eye; their arrows rarely miss their targets.[[/col]][[/i]]\\n\\nUnlocks unit through Technology:\\n[[b]]The Land's Chosen[[/b]]\\n[[col:scope_description]]Archer infantry[[/col]]\\n\\nRole: rear line\\n[[col:green]]+[[/col]] Missile attack\\n[[col:red]]-[[/col]] Weak against cavalry\\n\\n[[col:flavour]][[i]] Nature must be preserved and the world saved. These warriors will see it done.[[/col]][[/i]]	true
+effects_description_3k_ytr_faction_trait_he_yi_3_population_recruitment	He Yi's Population reduces recruitment cost in local {{tr:map_provinces}}	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_gong_du_0	• Resource shared with other Yellow Turbans	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_gong_du_1	• Increases campaign movement range	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_gong_du_2	• Increases loot from battles	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_gong_du_2_2	• Embers is gained from inflicting casualties	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_gong_du_3	• Decreases over time	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_he_yi_0	• Resource shared with other Yellow Turbans	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_he_yi_1	• Increases population growth	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_he_yi_2	• Increases replenishment	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_he_yi_2_2	• Embers is gained from population size	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_he_yi_3_recruitment	• Decreases over time	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_huang_shao_0	• Resource shared with other Yellow Turbans	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_huang_shao_1	• Increases character experience	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_huang_shao_2	• Increases research rate	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_huang_shao_2_2	• Embers is gained from most reforms	true
+effects_generalised_descriptions_localised_description_3k_main_faction_trait_huang_shao_3	• Decreases over time	true
+effects_description_3k_ytr_faction_trait_gong_du_0_dummy	The [[b]]embers[[/b]] resource is shared between you and other [[b]]Yellow Turban[[/b]] factions. Each of you feed into the resource.\\n\\nThe bonuses received are individual.	true
+effects_description_3k_ytr_faction_trait_gong_du_1_dummy	This increases the [[b]]movement extent[[/b]] that armies can move each turn.	true
+effects_description_3k_ytr_faction_trait_gong_du_2_dummy	[[b]]Funds[[/b]] are gained as loot after victorious battles.	true
+effects_description_3k_ytr_faction_trait_gong_du_2_2_dummy	[[b]]Gong Du[[/b]] earns [[b]]embers[[/b]] from inflicting casualties on enemies in battle.\\n\\nThe amount is greater if you score a victory in the process.	true
+effects_description_3k_ytr_faction_trait_gong_du_3_dummy	[[b]]embers[[/b]] will decrease over time, causing penalties at lower levels.	true
+effects_description_3k_ytr_faction_trait_he_yi_0_dummy	The [[b]]embers[[/b]] resource is shared between you and other [[b]]Yellow Turban[[/b]] factions. Each of you feed into the resource.\\n\\nThe bonuses received are individual.	true
+effects_description_3k_ytr_faction_trait_he_yi_1_dummy	[[b]]Population[[/b]] are the citizens in your settlements and commanderies. They are a primary driver for your [[b]]economy[[/b]] and [[b]]replenishment[[/b]] of military armies.	true
+effects_description_3k_ytr_faction_trait_he_yi_2_dummy	Units that recover lost men are [[b]]replenishing[[/b]]. This typically happens every turn.	true
+effects_description_3k_ytr_faction_trait_he_yi_2_2_dummy	[[b]]He Yi[[/b]] earns [[b]]embers[[/b]] from the size of populations.\\n\\nAdditionally, He Yi's settlements give recruitment cost reduction based on population size.	true
+effects_description_3k_ytr_faction_trait_he_yi_3_dummy	[[b]]embers[[/b]] will decrease over time, causing penalties at lower levels.	true
+effects_description_3k_ytr_faction_trait_huang_shao_0_dummy	The [[b]]embers[[/b]] resource is shared between you and other [[b]]Yellow Turban[[/b]] factions. Each of you feed into the resource.\\n\\nThe bonuses received are individual.	true
+effects_description_3k_ytr_faction_trait_huang_shao_1_dummy	Characters increase their [[b]]rank[[/b]] by accumulating [[b]]experience[[/b]] through military and civic activities.	true
+effects_description_3k_ytr_faction_trait_huang_shao_2_dummy	Yellow Turban factions can [[b]]research[[/b]] reforms at varying speed. The higher the [[b]]research rate[[/b]], the higher the frequency at which new reforms can be chosen.	true
+effects_description_3k_ytr_faction_trait_huang_shao_2_2_dummy	[[b]]Huang Shao[[/b]] earns [[b]]embers[[/b]] from researching reforms.	true
+effects_description_3k_ytr_faction_trait_huang_shao_3_dummy	[[b]]embers[[/b]] will decrease over time, causing penalties at lower levels.	true
+effect_bundles_localised_title_3k_ytr_faction_trait_gong_du	Embers	true
+effect_bundles_localised_description_3k_ytr_faction_trait_gong_du	[[b]]Embers[[/b]] is this faction's unique resource.\\n\\n[[i]][[col:flavour]]Embers represents the last dying and desprate will for the yellow turban cause.[[/col]][[/i]]	true
+effect_bundles_localised_title_3k_ytr_faction_trait_huang_shao	Embers	true
+effect_bundles_localised_description_3k_ytr_faction_trait_huang_shao	[[b]]Embers[[/b]] is this faction's unique resource.\\n\\n[[i]][[col:flavour]]Embers represents the last dying and desprate will for the yellow turban cause.[[/col]][[/i]]	true
+effect_bundles_localised_title_3k_ytr_faction_trait_he_yi	Embers	true
+effect_bundles_localised_description_3k_ytr_faction_trait_he_yi	[[b]]Embers[[/b]] is this faction's unique resource.\\n\\n[[i]][[col:flavour]]Embers represents the last dying and desprate will for the yellow turban cause.[[/col]][[/i]]	true
+effect_bundles_localised_title_3k_ytr_frontend_leader_gong_du_specialisation	Embers	true
+effect_bundles_localised_description_3k_ytr_frontend_leader_gong_du_specialisation	[[b]]Embers[[/b]] is this faction's unique resource.\\n\\n[[i]][[col:flavour]]Embers represents the last dying and desprate will for the yellow turban cause.[[/col]][[/i]]	true
+effect_bundles_localised_title_3k_ytr_frontend_leader_he_yi_specialisation	Embers	true
+effect_bundles_localised_description_3k_ytr_frontend_leader_he_yi_specialisation	[[b]]Embers[[/b]] is this faction's unique resource.\\n\\n[[i]][[col:flavour]]Embers represents the last dying and desprate will for the yellow turban cause.[[/col]][[/i]]	true
+effect_bundles_localised_title_3k_ytr_frontend_leader_huang_shao_specialisation	Embers	true
+effect_bundles_localised_description_3k_ytr_frontend_leader_huang_shao_specialisation	[[b]]Embers[[/b]] is this faction's unique resource.\\n\\n[[i]][[col:flavour]]Embers represents the last dying and desprate will for the yellow turban cause.[[/col]][[/i]]	true
+effect_bundles_localised_title_3k_faction_trait_gong_du	United In One Goal	true
+effect_bundles_localised_title_3k_faction_trait_huang_shao	United In One Goal	true
+effect_bundles_localised_title_3k_faction_trait_he_yi	United In One Goal	true
+effect_bundles_localised_title_3k_faction_trait_yt_generic	United In One Goal	true
+effect_bundles_localised_description_3k_faction_trait_gong_du	"United we are strong - few and we dwindle and fade away."	true
+effect_bundles_localised_description_3k_faction_trait_huang_shao	"United we are strong - few and we dwindle and fade away."	true
+effect_bundles_localised_description_3k_faction_trait_he_yi	"United we are strong - few and we dwindle and fade away."	true
+effect_bundles_localised_description_3k_faction_trait_yt_generic	"United we are strong - few and we dwindle and fade away."	true
+effect_bundles_localised_title_3k_he_yi_embers_bundle_1	A Futile Cause	true
+effect_bundles_localised_title_3k_he_yi_embers_bundle_2	Enkindled Passion	true
+effect_bundles_localised_title_3k_he_yi_embers_bundle_3	Burning Support	true
+effect_bundles_localised_title_3k_he_yi_embers_bundle_4	Fiery Determination	true
+effect_bundles_localised_title_3k_he_yi_embers_bundle_5	Explosive Fanaticism	true
+effect_bundles_localised_title_3k_gong_du_embers_bundle_1	A Futile Cause	true
+effect_bundles_localised_title_3k_gong_du_embers_bundle_2	Enkindled Passion	true
+effect_bundles_localised_title_3k_gong_du_embers_bundle_3	Burning Support	true
+effect_bundles_localised_title_3k_gong_du_embers_bundle_4	Fiery Determination	true
+effect_bundles_localised_title_3k_gong_du_embers_bundle_5	Explosive Fanaticism	true
+effect_bundles_localised_title_3k_huang_shao_embers_bundle_1	A Futile Cause	true
+effect_bundles_localised_title_3k_huang_shao_embers_bundle_2	Enkindled Passion	true
+effect_bundles_localised_title_3k_huang_shao_embers_bundle_3	Burning Support	true
+effect_bundles_localised_title_3k_huang_shao_embers_bundle_4	Fiery Determination	true
+effect_bundles_localised_title_3k_huang_shao_embers_bundle_5	Explosive Fanaticism	true
+effect_bundles_localised_description_3k_he_yi_embers_bundle_1	The yellow turban cause has failed.	true
+effect_bundles_localised_description_3k_he_yi_embers_bundle_2	They speak of our message, and some join us, but many remain wary and afraid.	true
+effect_bundles_localised_description_3k_he_yi_embers_bundle_3	They hear our words and understand. More have come to join us, and spread the word to others.	true
+effect_bundles_localised_description_3k_he_yi_embers_bundle_4	Our reach is great and many come to follow us.	true
+effect_bundles_localised_description_3k_he_yi_embers_bundle_5	The Yellow Sky looms large - followers flock to us in droves!	true
+effect_bundles_localised_description_3k_gong_du_embers_bundle_1	The yellow turban cause has failed.	true
+effect_bundles_localised_description_3k_gong_du_embers_bundle_2	They speak of our message, and some join us, but many remain wary and afraid.	true
+effect_bundles_localised_description_3k_gong_du_embers_bundle_3	They hear our words and understand. More have come to join us, and spread the word to others.	true
+effect_bundles_localised_description_3k_gong_du_embers_bundle_4	Our reach is great and many come to follow us.	true
+effect_bundles_localised_description_3k_gong_du_embers_bundle_5	The Yellow Sky looms large - followers flock to us in droves!	true
+effect_bundles_localised_description_3k_huang_shao_embers_bundle_1	The yellow turban cause has failed.	true
+effect_bundles_localised_description_3k_huang_shao_embers_bundle_2	They speak of our message, and some join us, but many remain wary and afraid.	true
+effect_bundles_localised_description_3k_huang_shao_embers_bundle_3	They hear our words and understand. More have come to join us, and spread the word to others.	true
+effect_bundles_localised_description_3k_huang_shao_embers_bundle_4	Our reach is great and many come to follow us.	true
+effect_bundles_localised_description_3k_huang_shao_embers_bundle_5	The Yellow Sky looms large - followers flock to us in droves!	true

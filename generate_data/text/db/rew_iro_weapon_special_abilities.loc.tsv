@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/rew_iro_weapon_special_abilities.loc		
+unit_abilities_tooltip_text_rew_iro_resonant_blades	Two blades wtih entertwined destinies, they can only reveal their true essence when wielded jointly.	false
+unit_abilities_onscreen_name_rew_iro_resonant_blades	Paired Resonance	false

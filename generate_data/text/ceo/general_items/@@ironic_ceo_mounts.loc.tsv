@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/@@ironic_ceo_mounts.loc		
+ceo_nodes_title_3k_main_ancillary_mount_wuhuan_horse	Wuhuan Stallion	false
+ceo_nodes_description_3k_main_ancillary_mount_wuhuan_horse	Horses are a prized part of the culture of the Wuhuan peoples, and this specimen is a particularly fine example.	false
+ceo_nodes_title_3k_main_ancillary_mount_xianbei_horse	Xianbei Warhorse	false
+ceo_nodes_description_3k_main_ancillary_mount_xianbei_horse	This steed of the Xianbei has been bred specifically for a single purpose - warfare.	false
+ceo_nodes_title_3k_main_ancillary_mount_xiongnu_horse	Xiongnu Galloper	false
+ceo_nodes_description_3k_main_ancillary_mount_xiongnu_horse	The steeds of the Xiongnu are specifically bred for travel across the vast distances of the northern steppes, and their stamina is unmatched.	false
+ceo_nodes_title_	PLACEHOLDER	false
+ceo_nodes_description_	PLACEHOLDER	false

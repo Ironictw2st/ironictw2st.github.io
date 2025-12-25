@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/songjian/songjian.loc		
+land_units_onscreen_name_ironic_chibi_jian_qiang_lords	Defender of Ways	true
+land_units_concealed_name_ironic_chibi_jian_qiang_lords	Defender of Ways	true
+land_units_onscreen_name_ironic_chibi_jian_qiang_rangers	Hoarder of Sources	true
+land_units_concealed_name_ironic_chibi_jian_qiang_rangers	Hoarder of Sources	true
+unit_abilities_tooltip_text_ironic_chibi_qiang_training	Our men surpass those of other tribes and even those of the Han, we shall never tire!	true
+unit_abilities_onscreen_name_ironic_chibi_qiang_training	Qiang Training	true
+special_ability_phases_onscreen_name_ironic_chibi_qiang_training	Qiang Training	true
+unit_ability_types_onscreen_name_ironic_chibi_qiang_training	Passive Buff	true

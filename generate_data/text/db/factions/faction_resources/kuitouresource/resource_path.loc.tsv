@@ -1,0 +1,63 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/kuitouresource/resource_path.loc		
+effect_bundles_localised_title_ironic_frontend_leader_path_ts_special	Path to Succession	true
+effect_bundles_localised_title_ironic_path_ts_resource_level_0	Path to Succession: Broken Road	true
+effect_bundles_localised_title_ironic_path_ts_resource_level_1	Path to Succession: Mustering Tribes	true
+effect_bundles_localised_title_ironic_path_ts_resource_level_2	Path to Succession: Call to Arms	true
+effect_bundles_localised_title_ironic_path_ts_resource_level_3	Path to Succession: Gathering Candidates	true
+effect_bundles_localised_title_ironic_path_ts_resource_level_4	Path to Succession: Maker of Kings	true
+effect_bundles_localised_description_ironic_path_ts_resource_level_0	The chieftains and warriors still mourn Tanshihuai and the confederation he built. Until the specters of the past are lifted, there is no hopeful future.	true
+effect_bundles_localised_description_ironic_path_ts_resource_level_1	The disparate peoples of the Xianbei must be reunited and brought back into one fold, however without a great leader to unite them, any alliance would be only temporary...	true
+effect_bundles_localised_description_ironic_path_ts_resource_level_2	The great and famous chieftains and headsmen must step forth, and forge their people a path out of the darkness.	true
+effect_bundles_localised_description_ironic_path_ts_resource_level_3	The shackles of the past must be lifted once and for all. The young, the keen, the brave and the wise stake their claims, and let their ambitions be known.	true
+effect_bundles_localised_description_ironic_path_ts_resource_level_4	A new nation of the Xianbei has been forged by blood, and a nascent legacy of a chief among chiefs is waiting to ascend previously unheard of heights.	true
+effects_description_ironic_path_ts_decay	[[b]]%+n[[/b]] Path to Succession	true
+effects_description_ironic_path_ts_armies	[[b]]%+n[[/b]] Path to Succession	true
+effects_description_ironic_path_ts_robin_hood	[[b]]%+n[[/b]] Path to Succession	true
+effects_description_ironic_path_ts_garrisoned	[[b]]%+n[[/b]] Path to Succession	true
+effects_description_ironic_path_ts_vassalized	[[b]]%+n[[/b]] Path to Succession	true
+effects_description_ironic_path_ts_info_gain	[[b]]Path to Succession[[/b]] can be increased by winning battles, and having casualities on both sides.	true
+effects_description_ironic_path_ts_info_loss	[[b]]Path to Succession[[/b]] can be decreased by losing battles and decay	true
+effect_bundles_localised_title_ironic_path_ts_effect_bundle	[[b]] Path to Succession[[/b]] / [[b]]Ancestral Legacy [[/b]]	false
+effect_bundles_localised_description_ironic_path_ts_effect_bundle	For the Xianbei to truly thrive, the strong must strive. \\n\\n The old paths of succession must be maintained, lest the clans crumble and disperse.	false
+effects_generalised_descriptions_localised_description_ironic_path_ts_effect_bundle_frontend_1	• Path increases attributes of units and generals, boosting morale and replenishment	true
+effects_generalised_descriptions_localised_description_ironic_path_ts_effect_bundle_frontend_2	• Path reduces the happiness of generals	true
+effects_generalised_descriptions_localised_description_ironic_path_ts_effect_bundle_frontend_3	• Path is gained through winning battles and casualities on both sides	true
+effects_generalised_descriptions_localised_description_ironic_path_ts_effect_bundle_frontend_4	• Path is loss through lossing battles and decay	true
+effects_generalised_descriptions_localised_description_ironic_path_ts_effect_bundle_frontend_5	• Legacy is used to recruit, release, unassign and banish characters	false
+effects_generalised_descriptions_localised_description_ironic_path_ts_effect_bundle_frontend_6	• Legacy is gained through faction leader, faction heir positions, and family	false
+pooled_resource_factors_display_name_negative_ironic_path_ts_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_path_ts_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_path_ts_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_path_ts_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_path_ts_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_path_ts_at_war	At War	true
+pooled_resources_description_ironic_path_ts	For the Xianbei to truly thrive, the strong must strive.	true
+pooled_resources_display_name_ironic_path_ts	Path to Succession	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_path_ts	For the Xianbei to truly thrive, the strong must strive.	true
+pooled_resources_negative_factors_display_name_ironic_path_ts	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_path_ts	Increase	true
+ui_text_replacements_localised_text_victory_condition_path_ts	CHINA MUST BE UNITED!	true
+pooled_resource_factors_display_name_negative_ironic_path_ts_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_path_ts_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_path_ts_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_path_ts_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_path_ts_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_path_ts_assignments	Assignments	false
+pooled_resource_factors_display_name_positive_ironic_path_ts_casualities	Casualities	false
+pooled_resource_factors_display_name_negative_ironic_path_ts_casualities	Casualities	false
+pooled_resource_factors_display_name_positive_ironic_path_ts_remove_heir	Removed Heir	false
+pooled_resource_factors_display_name_negative_ironic_path_ts_remove_heir	Removed Heir	false
+effects_description_ironic_path_ts_captives_post_battle	[[b]]%+n[[/b]] Path to Succession	false
+effects_description_ironic_path_ts_characters	[[b]]%+n[[/b]] Path to Succession	false
+effects_description_ironic_path_ts_executed	[[b]]%+n[[/b]] Path to Succession	false
+effects_description_ironic_path_ts_assignments	[[b]]%+n[[/b]] Path to Succession	false

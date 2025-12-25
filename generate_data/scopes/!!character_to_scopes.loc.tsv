@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/effects/!!character_to_scopes.loc		
+campaign_effect_scopes_localised_text_character_to_spouse_character_own	[[col:scope_description]](to spouse)[[/col]]	true
+campaign_effect_scopes_localised_text_character_to_spouse_region_own	[[col:scope_description]](current spouse's region)[[/col]]	true
+campaign_effect_scopes_localised_text_character_to_spouse_faction_own	[[col:scope_description]](this spouse's faction)[[/col]]	true
+campaign_effect_scopes_localised_text_character_to_spouse_army_own	[[col:scope_description]](this spouse's army)[[/col]]	true
+campaign_effect_scopes_localised_text_character_to_spouse_retinue_own	[[col:scope_description]](this spouse's retinue)[[/col]]	true
+campaign_effect_scopes_localised_text_character_to_spouse_faction_minister_own	[[col:scope_description]](this spouse's faction) (if minister)[[/col]]	true
+campaign_effect_scopes_localised_text_character_to_council_minister_own	[[col:scope_description]](when council member)[[/col]]	false

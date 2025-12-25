@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/zhanglu/zhangfrontend.loc		
+effect_bundles_localised_title_ironic_faction_bundle_zhang_lu	Celestial Masters	true
+effect_bundles_localised_description_ironic_faction_bundle_zhang_lu		true
+effects_generalised_descriptions_localised_description_ironic_unique_resource_zhang_lu_1	• Increases Food, Population, and Peasantry	true
+effects_generalised_descriptions_localised_description_ironic_unique_resource_zhang_lu_2	• Select buildings increase and reduce Celestial Masters	true
+effects_generalised_descriptions_localised_description_ironic_unique_resource_zhang_lu_3	• Reduces from the amount of casualities taken	true
+frontend_faction_leader_unique_features_localised_description_ironic_tao_penitents_wood	[[b]]Tao Penitents[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Support\\n[[col:green]]+[[/col]] Encourages\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_ironic_zhenren_defenders_wood	[[b]]Zhenren Defenders[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Armour\\n[[col:green]]+[[/col]] Has Ranged\\n	true
+frontend_faction_leader_unique_features_localised_description_ironic_zhang_lu_unique_roster	[[b]]Taoist Soldiers[[/b]]\\n[[col:scope_description]]Unique Roster[[/col]]\\n\\n[[col:scope_description]]Soldiers formed from both the worst and best of your men, they would fight to death for you.[[/col]]\\n\\n[[col:flavour]][[i]]Your people love you, they would fight to death for you, for your ancestors and successors.[[/col]][[/i]]	true

@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/huangzu/stanceeffect.loc		
+effect_bundles_localised_title_ironic_huang_zu_unique_ambush_stance	Stance: Ambush	true
+effect_bundles_localised_description_ironic_huang_zu_unique_ambush_stance	Conceals this army, allowing surprise attacks against passing enemies.	true
+effect_bundles_localised_title_ironic_huang_zu_unique_default_stance	Stance: Stalk	true
+effect_bundles_localised_description_ironic_huang_zu_unique_default_stance	This army has a chance to ambush the enemy when attacking. The chance is based on the ground type.	true
+effect_bundles_localised_title_ironic_huang_zu_vassal_master	Under One Lord	true
+effect_bundles_localised_description_ironic_huang_zu_vassal_master	You feel at peace when serving another, whether it be having not to deal with a large court, or some other reason.	true
+effect_bundles_localised_title_ironic_huang_zu_alone_vassal	Under None	true
+effect_bundles_localised_description_ironic_huang_zu_alone_vassal	The stress has increased, you must govern your lands alone and your court schemes against you if you make one fault.	true

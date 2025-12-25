@@ -1,0 +1,35 @@
+key	text	tooltip
+#Loc;1;text/db/error_missing_mods.loc		
+campaign_payload_ui_details_description_TUP_ENABLED	Total Unique Pack is enabled, please disable this to continue to play!	false
+incidents_localised_title_ironic_error_tup	Total Unique Pack is enabled	false
+incidents_localised_description_ironic_error_tup	In order for no bugs to order and or mismatches, to happen please disable Total Unique Pack!	false
+campaign_payload_ui_details_description_ironic_error_wu	Wu Kingdassance is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_ngc	New General Collection (NGC) is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_radious	Radious is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_afp	All Faction Playable is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_nanman_chief	Nanman Chieftain is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_uad	UAD is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_gathering_heroes	Gathering Heroes is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_trom	The Rule of Might (TROM)  is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_koihime	Koihime is enabled, please disable this to continue to play!	false
+campaign_payload_ui_details_description_ironic_error_turns	Extra turns per year is enabled, please disable this to continue to play!	false
+incidents_localised_title_ironic_error_wu	Wu Kingdsassance is enabled	false
+incidents_localised_description_ironic_error_wu	In order for no bugs to order and or mismatches, to happen please disable Wu Kingdassance	false
+incidents_localised_title_ironic_error_ngc	New General Collection is enabled	false
+incidents_localised_description_ironic_error_ngc	In order for no bugs to order and or mismatches, to happen please disable New General Collection	false
+incidents_localised_title_ironic_error_radious	Radious is enabled	false
+incidents_localised_description_ironic_error_radious	In order for no bugs to order and or mismatches, to happen please disable Radious	false
+incidents_localised_title_ironic_error_afp	All Faction Playable is enabled	false
+incidents_localised_description_ironic_error_afp	In order for no bugs to order and or mismatches, to happen please disable All Faction Playable 	false
+incidents_localised_title_ironic_error_nanman_chief	Nanman Chieftain is enabled	false
+incidents_localised_description_ironic_error_nanman_chief	In order for no bugs to order and or mismatches, to happen please disable Nanman Chieftain	false
+incidents_localised_title_ironic_error_uad	UAD is enabled	false
+incidents_localised_description_ironic_error_uad	In order for no bugs to order and or mismatches, to happen please disable UAD	false
+incidents_localised_title_ironic_error_gathering_heroes	Gathering Heroes is enabled	false
+incidents_localised_description_ironic_error_gathering_heroes	In order for no bugs to order and or mismatches, to happen please disable Gathering Heroes	false
+incidents_localised_title_ironic_error_trom	The Rule of Might is enabled	false
+incidents_localised_description_ironic_error_trom	In order for no bugs to order and or mismatches, to happen please disable TROM	false
+incidents_localised_title_ironic_error_koihime	Koihime is enabled	false
+incidents_localised_description_ironic_error_koihime	In order for no bugs to order and or mismatches, to happen please disable Koihime	false
+incidents_localised_title_ironic_error_turns	Extra Turn per Year is enabled	false
+incidents_localised_description_ironic_error_turns	In order for no bugs to order and or mismatches, to happen please disable Extra Turn per Year 	false

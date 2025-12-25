@@ -1,0 +1,377 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/@@ironic_ceo_titles_description.loc		
+ceo_nodes_description_3k_main_ceo_node_career_historical_wang_kuang	Whilst some govern their domains with benevolence and fairness, Wang Kuang prefers more.. blunt means.	true
+ceo_nodes_description_3k_main_ceo_career_historical_sheng_xian	When in an era of chaos, there is a fine line between cowardice and pragmatism.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_chun	It is thanks to Cao Chun that the Tiger and Leopard cavalry are so famed and feared across the Central Plains.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_hong	"The world can do without Cao Hong, but it cannot do without Cao Cao!"	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_xiu	There is no distance too far for Cao Xiu, if it means serving his family's cause.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_zhen	Not even the most sagacious of strategists can penetrate Cao Zhen's tried and tested defenses.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_biao	The straight-forward nature of Cao Biao can make him too honest for his own good, at times.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_jie	As the dutiful final Empress of the Han, Cao Jie's graceful poise allows her to stand up for her husband even against her own family.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_rui	Cao Rui offers a stable hand to the state, but also one mired in expenses.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_shuang	When you play the Game of Thrones, you either win, or you die.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_xi	"I told you not to surrender. Now we're on the chopping board" 	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_zhang	Any foe who spies the distinctive facial hair of Cao Zhang had best prepare for a brawl.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_zhi	As with many successful artists and poets in history, Cao Zhi unfortunately tends to slip into the pleasures of excess.	true
+ceo_nodes_description_3k_main_ceo_threshold_career_historical_guo_yuan	Guo Yuan remains unshaken and unflappable no matter what he sees, and is the type to never lose his head.	true
+ceo_nodes_description_3k_main_ceo_threshold_career_historical_deng_sheng	This general will not take a single step back, even if it costs him his very life.	true
+ceo_nodes_description_3k_main_ceo_threshold_career_historical_xia_zhao	"Soldiers, no matter what comes through that gate, you will stand your ground!"	true
+ceo_nodes_description_3k_main_ceo_threshold_career_historical_zuozhi_zhulan	This lady of the Heishan Mountains knows that the hilltops, crevices and valleys are akin to cribs and cradles, that must be protected at all costs.	true
+ceo_nodes_description_3k_main_ceo_career_historical_tadun	Commanding a vast coalition that spreads far across the northern steppes, Tadun's name carries fear and respect to friends and foes alike.	true
+ceo_nodes_description_3k_main_ceo_career_historical_leipan	This young cub of the Wuhuan tribes seeks to prove himself in battle and warfare, so that he may one day command his people as his father once did before him.	true
+ceo_nodes_description_3k_main_ceo_career_historical_wuyan	With almost frenzied ferocity, Wuyan recklessly rushes at anyone he even slightly believes to be a worthy challenge.	true
+ceo_nodes_description_3k_main_ceo_career_historical_supuyan	Amongst his fellow Wuhuan leaders, Supuyan stands out as being one to recognise the value of forging alliances with and winning the support of the southern warlords of the Han.	true
+ceo_nodes_description_3k_main_ceo_career_historical_wangdong	Wangdong has sworn to protect the flank of the Wuhuan tribes, no matter what force comes against him.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gujin	The fertile shores of the Daling river possesses bounties and treasure that this warrior believes will bring great prosperity to the Wuhuan.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gurudun	This rider leads his horsemen from the front, and seeks nothing less than the first kill in each battle.	true
+ceo_nodes_description_3k_main_ceo_career_historical_xianyu_fu	Crossing this one's friends, family or faction can earn a grudge than can last a lifetime.	true
+ceo_nodes_description_3k_main_ceo_career_historical_huchuquan	Even after suffering indignity and humiliation, the proud Xiongnu people continue to endure.	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_bao	Claiming distant descent from the Han Imperial line through the old system of princesses being sent to the Xiongnu as tribute wives, the dynamic Liu Bao patiently awaits for his family to make a mark on history.	true
+ceo_nodes_description_3k_main_ceo_career_historical_qubei	This son of Qiangqu commands respect from fellow Xiongnu and Han officials alike.	true
+ceo_nodes_description_3k_main_threshold_ceo_career_historical_yufuluo	Exiled from his own clan and home, beaten, banished and betrayed, the enterprising Yufuluo nontherless adventures across the land, seeking fame and glory. One day, perhaps this expulsed Chanyu will amass enough resources to reclaim his rightful heritage, and restore the glory of the Xiongnu...	true
+ceo_nodes_description_3k_main_ceo_career_historical_lian_zhi	The dutiful wife of Liu Yu is a lady who prefers negotiation and diplomacy to war and bloodshed.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gu_ruilan	It is said that the lovely wife of Han Fu has time for everyone in the court, other than her husband.	true
+ceo_nodes_description_3k_main_ceo_career_historical_geng_wu	Many causes are worth dying for. Others...perhaps not so much.	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_yanyan	The favourite daughter of Zhang Yang finds herself often at odds with her siblings, as they compete for the affection and attention of their father.	true
+ceo_nodes_description_3k_main_ceo_career_historical_fan_liyan	The strongwilled and firm Lady Fan acts as a balancing force amidst her family.	true
+ceo_nodes_description_3k_main_ceo_career_historical_tian_chou	Those who know war also know that the layout of the land and the terrain is often the key to success and victory.	true
+ceo_nodes_description_3k_main_ceo_career_historical_wei_you	Taking a moral stand and refusing to sully your hands with violence is commendable in times of peace, but foolish in times of war.	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_he	Being a scion to a royal house can unfortunately mean your fate is under the control of other parties.	true
+ceo_nodes_description_3k_main_ceo_career_historical_ju_shou	It takes a truly loyal advisor to bravely tell his lord exactly what he needs to hear, even whilst the rest of the court are looking at you with jealous glares and sharpened knives.	true
+ceo_nodes_description_3k_main_ceo_career_historical_guan_chun	Even the most masterful of plans can fail if one lacks confidence or charisma to convince your lord.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yang_chou	To the traitorous, sometimes what goes around, comes around.	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_baolan	In hushed whispers, there are rumours that this lady of the Wang family is much more vicious and cruel than she seems.	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_fangyue	Lady Wang Fangyue attempts to get her father's entire court to dance to her tune.	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_lanlan	This daughter of Wang Kuang has an explosive temper and is as quick to anger as her father.	true
+ceo_nodes_description_3k_main_ceo_career_historical_xianyu_yin	No distance is too far to ride for the loyal Xianyu Yin.	true
+ceo_nodes_description_3k_main_ceo_career_historical_han_tong	Sometimes, aiding one's father can prove to be a task truly insurmountable.	true
+ceo_nodes_description_3k_main_ceo_career_historical_xin_ping	Some men have such flexible loyalties that not even they can remember what their goals are.	true
+ceo_nodes_description_3k_main_ceo_career_historical_sui_gu	A bandit Sui Gu may be, but his loyalty and sense of honour towards his lord are still commendable.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cui_jun	Those who display true filiial piety must be willing to criticise their own fathers if their morals have lead them astray.	true
+ceo_nodes_description_3k_main_ceo_career_historical_deng_yuan	This man will not hesitate to put his body on the line for his cause, and will rather his own blood spill than give up on his duty.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gao_lan	Of the myriad warriors and generals of the north, few can claim to possess either the prowess or ability of Gao Lan.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_fan	Bribery and titles are meaningless trinkets to one so loyal to his family and clan.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_gong	An unfortunate and maligned illness has robbed this one of his virility and vigour. 	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_kang	Gongsun Kang will overcome all threats, whether internal or external, political or military, in order to maintain his firey independence.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_yue	Being at the wrong place at the wrong time can have consequences that set in motion countless unfortunate events.	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_damu	The large eyes of Li Damu send chills to all who attempt to match gaze with them.	true
+ceo_nodes_description_3k_main_ceo_career_historical_liang_mao	Liang Mao is willing to dispense with invaluable advice, even when threatened with blades and bondage.	true
+ceo_nodes_description_3k_main_ceo_career_historical_nanlou	Nanlou thanklessly strives to ensure the survival of his pack, even when facing disaster.	true
+ceo_nodes_description_3k_main_ceo_career_historical_nie_tingping	Lady Nie strives to advance the fortunes of her husband and children, above all else.	true
+ceo_nodes_description_3k_main_ceo_career_historical_qu_yi	To Qu Yi, experience is everything, and reputations alone cannot carry the day.	true
+ceo_nodes_description_3k_main_ceo_career_historical_tian_kai	No leader can effectively rule without a dependable, unflappable and unwavering lieutenant at his side.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yu_du	With venomous poison running through his veins, this one can kill with a touch.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yuan_xi	The mucn maligned middle child struggles to compete with his dynamic elder brother, and popular and beloved younger sibling.	true
+ceo_nodes_description_3k_main_threshold_ceo_career_historical_qiulijiu	Five thousand clans of Wuhuan follow Qiulijiu into battle, and angering one means making an enemy of them all.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yan_gang	With the thunder of hooves, the unmatchable charge of the infamous White Horse cavalry strikes fear into even the most stalwart of foes.	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_dang	It would be wise to be cautious if one were to stray off the hillside path, lest one be struck down by a single bite.	true
+ceo_nodes_description_3k_main_ceo_career_historical_huanglong	The self proclaimed "yellow dragon" greedily rules over his dominion with his cruel fangs and claws.	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_yuan	With the manpower and resources of Liaodong and the far northeast at his back, Gongsun Yuan stakes his own claim as king.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yan_rou	Yan Rou maintains good relations with the peoples beyond the northern borders, and uses his knowledge of their ways and culture to help maintain an uneasy peace.	true
+ceo_nodes_description_3k_main_ceo_career_historical_lady_zhang_shangxiu	Beloved by her father, Zhang Shangxiu is disarmingly popular amongst the commonfolk and gentry alike, and prefers diplomacy to bloodshed.	true
+ceo_nodes_description_3k_main_ceo_career_historical_lady_zhang_xiangyang	Lady Zhang Xiangyang has been trained with swords and spears since she was a young girl, and it is a common sight to see her riding to battle alongside her father.	true
+ceo_nodes_description_3k_main_ceo_node_career_historical_sheng_xian_01	When in an era of chaos, there is a fine line between cowardice and pragmatism.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yang_biao	The Yang clan has thrived, endured and prospered in eras of turmoil, and will continue to do so. As one of the clan's most dignified members, Yang Biao is no exception to this.	true
+ceo_nodes_description_3k_main_ceo_career_historical_lady_liu	This wickedly ambitious noblewoman will do whatever it takes to ensure her beloved son's rise and succession.	true
+ceo_nodes_description_3k_main_ceo_career_historical_dong_li	No matter what she desires and wishes for, her wicked father shall provide.	true
+ceo_nodes_description_3k_main_ceo_career_historical_fan_chou	Even when surrounded by bickering former comrades, drawing blades over petty differences, this one attempts to keep the peace.	true
+ceo_nodes_description_3k_main_ceo_career_historical_hu_zhen	Beware, for the spirits of the dead can be restless to unjust murderers.	true
+ceo_nodes_description_3k_main_ceo_career_historical_huche_er	Even the most clever of strategists still require men of muscle and prowess to carry out their schemes.	true
+ceo_nodes_description_3k_main_ceo_career_historical_lady_yan	Lady Yan is not afraid to speak her mind in private, and does not mind who she may offend.	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_li	This officer is eager to learn dirty tricks, from the most brutal of mentors.	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_su	When one can persuade a friend to slay his own adopted father not once, but twice, then it can truly be proved that foul words can cause Empires to fall.	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_xian	"Lo, your majesty, wait! I shall deliver you from these rebels!"	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_ying	Li Jue and his clan are not above using threats and violent beatings to get what they desire.	true
+ceo_nodes_description_3k_main_ceo_career_historical_niu_fu	Niu Fu uses both violence and influence to place himself at the head of a cabal of likeminded individuals.	true
+ceo_nodes_description_3k_main_ceo_career_historical_qin_yilu	What use is loyally serving a man, if it causes your wife and son to be stolen by another?	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_feng	Wang Fang's loyalties are akin to a leaf on a storm.	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_rong	Xu Rong may seem like a rather ordinary man, and one of few words, but he will get the job done with unrivalled efficiency.	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_ji_dong	Zhang Ji maintains an air of dignity and honour, even among his more thuggish allies.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cheng_yi	Often, caution will be tossed to the wind, when the position of foes needs to be scouted.	true
+ceo_nodes_description_3k_main_ceo_career_historical_cheng_yin	Cheng Yin has many friends among the western tribes, and is quick to rally them to his cause.	true
+ceo_nodes_description_3k_main_ceo_career_historical_chenggong_ying	Chenggong Ying shall never forget the kindness of past masters, nor shall he forget the choices that lead him to the present, as both are key to a bright future.	true
+ceo_nodes_description_3k_main_ceo_career_historical_han_anyue	The beautiful Han Anyue is just as rebellious and opportunistic as her father.	true
+ceo_nodes_description_3k_main_ceo_career_historical_han_chong	Like a hidden viper, this one lurks until the prime moment to strike.	true
+ceo_nodes_description_3k_main_ceo_career_historical_han_xin	This son of Han Sui serves his father by performing as a liason to the myriad western tribes and clans.	true
+ceo_nodes_description_3k_main_ceo_career_historical_hou_xuan	Hou Xuan seeks the glory of the first kill, and the dignity of being the last man to flee.	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_kan	The lucrative western traderoutes are well defended by this brave warlord.	true
+ceo_nodes_description_3k_main_ceo_career_historical_liang_xing	Whenever the western lands are in peril, Liang Xing shall always be there to answer the call to arms.	true
+ceo_nodes_description_3k_main_ceo_career_historical_ma_wan	Allowing his fellow western warriors to charge, Ma Wan instead opts to hold the line.	true
+ceo_nodes_description_3k_main_ceo_career_historical_miao_wanwan	The prowling western tigeress will bring a swift end to those who dare enter her territory.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yang_qiu	The honourable countenance of Yang Qiu is inspiring to the men of Anding.	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_heng	Zhang Heng's dynamic enthusiasm causes him to stand out even amongst the rest of Han Sui's Eight.	true
+ceo_nodes_description_3k_main_ceo_career_historical_yan_xing	Let no man doubt the quality and skill of Yan Xing, whose fame as a warrior is unmatched in the west.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_bi_jieyan	The gregarious Bi Jieyan shares her generous bounty to all those in need.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_fu_gan	The scholarly son of Fu Xie skillfully acts as a go between from the Han court, to the western warlords.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_lady_yang	The charming Lady Yang is friendly to all, but in an era of turmoil, being open and trusting can oft lead to peril and disaster...	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_li_xiu	Li Xiu uses honeyed words and allegory alike to nudge his warlord one direction or another.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_ma_tie	There are few things under the Heavens that can evoke more fear, than being on the wrong end of stampeding cavalry.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_ma_xiu	Above all else, Ma Xiu is a proud advocate for the might and merits of his family.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_yan_pu	The primary calling for Yan Pu is the long term survival of the Five Pecks sect, even if it means persuasing his master to bend the knee.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_yang_ang	Yang Ang's defences will forever stand firm - against a direct assault, at least.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_yang_ren	Even a middling general can hold the narrow routes into Hanzhong from a frontal attack.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_yang_song	Yang Song cares about two things in this world. Money, and Yang Song.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_zhang_fu	The wars of the land mean little to Zhang Fu, who devotes his time to spreading his father's teachings, and raising alms for the poor.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_zhang_guang	Each devoted to the teachings of the Way must donate five pecks of rice, which are then stored and given to the hungry and needy.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_zhang_wei	Ever more a military mind than his theocratic brother, Zhang Wei strives to keep the peace and protect the followers of the Five Pecks sect.	true
+ceo_nodes_description_3k_dlc04_ceo_node_career_historical_ying_yang_delian_01	Poems of "great harmony, but lacking strength" are the specialty of this famed literary artist of the Ying clan.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_yang_bo	An envious and dissatisfied general can lead to the downfall of a state, if he is not dealt with.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_huang_quan	Although his advice may seem harsh, Huang Quan's words sing with carefully considered wisdom. 	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_lady_liu_mengan	This dignified matriarch often acts as a spokesperson for the wants and needs of the Dongzhou clique.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_lady_liu_zhang	Not one for war or politics, this lady would rather tend to the needs of her family than get herself involved in anything reckless.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_lady_wu_xian	Wu Xian is a model gentlewoman - kind, just and loyal.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_lei_tong	Lei Tong does have a knack for breaking through the formations of his opponents, but this comes with impetuous recklessness.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_liu_mao	Every parent laments and wails for a sickly and weak child.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_liu_xun	When his clan is threatened, this one will hold out, no matter the cost.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_pang_xi	Pang Xi truly knows what is best for the family of his old friend Liu Yan, even if they do not appreciate his efforts.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_peng_yang	As scholarly and learned Peng Yang may be, his arrogance and smug rudeness puts off colleague and master alike.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_wu_ban	Swiftness is a key tenant of victory, and Wu Ban knows this well.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_wu_kuang	The stern patriarch of the Wu clan has drilled important notions of loyalty and dignity into his younger relatives.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_wu_yi	Traitors and rebels beware, as Wu Yi is commanding the van!	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_zhang_ren	Against the loyal Zhang Ren, not a single foe shall pass.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_zhu_gui	By penning the histories of local worthies, one can impart wisdom to future generations.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_yan_yan	Even as countless winters pass him by, Yan Yan is no less weathered.	true
+ceo_nodes_description_3k_ironic_ceo_career_historical_liu_fan	Even when far seperated from his clan, this one will still admirably perform the duties his family expects of him.	false
+ceo_nodes_description_3k_ironic_ceo_career_historical_liu_dan	In eras of turmoil, even the humble filer of scrolls can be implicated in plots against the state.	false
+ceo_nodes_description_3k_ironic_ceo_career_historical_zhao_wei	Zhao Wei, a respected member of Yizhou's gentry, believes the province's fate should remain in the hands of the locals, and certainly should not be leveraged to violent refugees from the north.	false
+ceo_nodes_description_3k_ironic_ceo_career_historical_chen_chao	"We don't want any of those filthy easterners, coming to Yizhou, taking our jobs!"	false
+ceo_nodes_description_3k_ironic_ceo_career_historical_ren_qi	Consider this one the first to light the torches of war, and set alight the flames of rebellion.	false
+ceo_nodes_description_3k_ironic_ceo_career_historical_yu_minxiang	This respected lady comes from a local clan well versed in the politics of Jianwei, and hold strategic and political interests on both banks of the river.	false
+ceo_nodes_description_3k_ironic_ceo_career_historical_dong_fu	It is claimed that Dong Fu will praise even the smallest of a man's virtues, but likewise criticise his mildest faults.	false
+ceo_nodes_description_3k_ironic_ceo_career_historical_wang_yun	The cunning old minister Wang Yun embraces the dark and dastardly if it means preserving the ways he thinks are right.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yuan_yao	The quiet Yuan Yao keeps his head down, rather than getting involved in his father's ambitious schemes.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yue_jiu	This general has tossed aside the tenants of the Art of War in favour of a more direct approach.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_ji	This warrior has sworn a vow to hold the line, regardless of the cost.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_lan	Chen Lan steals from the rich, then keeps it for himself. He also steals from the poor.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lei_xu	Lei Xu raises the flag of resistance, and waves it until his last breath.	false
+ceo_nodes_description_3k_main_ceo_career_historical_mei_cheng	The things I could do, if I had a little money, in a rich man's world.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yang_hong	Yang Hong retains his loyalty to his lord, even when all of his wisdom is ignored.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yuan_yin	When disaster strikes a family, someone has to do the responsible thing and step up.	false
+ceo_nodes_description_3k_main_ceo_career_historical_kuai_liang	Unlike his brother, Kuai Liang prefers to keep his hands free of blood, and seeks a path of peace.	false
+ceo_nodes_description_3k_main_ceo_career_historical_kuai_yue	No ploy is too underhanded to further Kuai Yue's goals.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_cai	The fates of an entire province are wrapped around this alluring lady's fingers.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lou_gui	Lou Gui will summon fortifications from the air itself,  but he expects to be rewarded…	false
+ceo_nodes_description_3k_main_ceo_career_historical_wen_pin	Like a cliff standing against crashing waves, Wen Pin stands resolute.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_cheng	When a sagacious man speaks words of wisdom, only a fatuous fool would ignore him.	false
+ceo_nodes_description_3k_main_ceo_career_historical_beolhyu	This aggressive king will be the first in the fray in an offensive battle, knowing his men will always follow him.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chogo	The leader of Baekje highly experienced in swift and aggressive campaigns, and the storming of fortresses.	false
+ceo_nodes_description_3k_main_ceo_career_historical_gogukcheon	By seeking out men of merit and providing fair relief for the needy, this king understands the importance of laying foundations for a prosperous future.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_jiu	The waters of the great river shall flow with the blood of any who dare face Chen Jiu in naval combat.	false
+ceo_nodes_description_3k_main_ceo_career_historical_huang_anbao	Even the raging rivers can give way to moments of tranquility.	false
+ceo_nodes_description_3k_main_ceo_career_historical_huang_chengyan	Amongst the maelstrom of chaos, there are some who attempt to carve out a humble life of peace and quiet.	false
+ceo_nodes_description_3k_main_ceo_career_historical_huang_she	This aggressive son of the Huang clan strikes out against his clan's adversaries with the force, and indeed, the predictablility of the tides.	false
+ceo_nodes_description_3k_main_ceo_career_historical_huang_yueying	As the rising dragon soars, this one does all she can to assist his ascent to the heavens.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_huang_xie	The unstoppable waters of the great river shall wash away any who defy this lady's family.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lu_gong	Even the mightiest hero can fall to a well placed arrow. Or a boulder to the head, for that matter.	false
+ceo_nodes_description_3k_main_ceo_career_historical_su_fei	Su Fei's knowledge of the riverways is only rivalled by his fierce loyalty to his friends.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_hu	Mastering the waterways of China takes years of training, this officer has reached a degree of expertise.	false
+ceo_nodes_description_3k_main_ceo_career_historical_bao_xin	"Come, rebels, and taste the blade of Bao Xin!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_bao_xun	An acidic tongue rarely wins friends in an age of war.	false
+ceo_nodes_description_3k_main_ceo_career_historical_cai_he	For whatever reason, this nobleman fancies himself a spy, of sorts.	false
+ceo_nodes_description_3k_main_ceo_career_historical_cai_xun	The Cai clan pat themselves on the back for both their naval prowess, and the complexity of their tricky ploys.	false
+ceo_nodes_description_3k_main_ceo_career_historical_cai_yan_m	Sometimes, governors simply do whatever is required of them. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_cai_zan	Of all the civil officials under the heavens, Cai Zan is certainly one of them.	false
+ceo_nodes_description_3k_main_ceo_career_historical_cai_zhong	This officer enjoys playing detective. Whether or not he is effective has yet to be seen.	false
+ceo_nodes_description_3k_main_ceo_career_historical_cang_qinting	In order to survive the difficult and dangerous game of clan politics, often a lady requires a more subtle approach.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chang_xi	Chang Xi's morality and loyalty change course as often as a reed getting blown by a strong gust.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_deng	Sometimes, just sometimes, power fails to corrupt, and instead leads to altruism and charity.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_gui	This man's gifts were noted at a young age and he continues to blossom, as if perpetually held in spring's sweet bloom.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_su	You can call it inherited ability or mere nepotism, depending on the level of your cynicism.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_ying_z	Chen Ying has an expertise in the use of throwing weapons, a niche that allows him to stand somewhat tall amongst other warriors.	false
+ceo_nodes_description_3k_main_ceo_career_historical_cheng_yu	Cheng Yu knows that even the most unthinkable actions can become unavoidable in times of war.	false
+ceo_nodes_description_3k_main_ceo_career_historical_cui_lie	Cui Lie is so willing to encourage corruption that his very being reeks of copper coins.	false
+ceo_nodes_description_3k_main_ceo_career_historical_huang_wan	Huang Wan is the very model of a modern minister general.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_gan	The venerable Lady Gan has experienced much that this world has to offer, both its pleasures and its hardships.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_liu_huimin	As a noblewoman of the royal house of Liu, this lady expects both respect and luxury.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_lu_yang	A lady with social connections and a knack to manage her family's accounts is a crucial addition to any clan.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_ze_deng	This one has a single goal that is rather simple to understand - she seeks to accumulate vast amounts of wealth for herself, and her family.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_zhang_zhumeng	With a polite smile and pleasant conversation, this lady knows how to keep her guests well looked after.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_xun	It is the curse of the trusting to be magnanimous, generous, and ultimately tricked.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lu_ji	Even an act as simple as a smuggled orange can be proof of one's steadfast loyalty and love to their kin.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lu_ju	The reliable Lu Jun does not back down from opponents on either the battlefield, or the political arena.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lu_jun	If one wishes to learn the intricacies of gentlemanly behaviour, one need look no further.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lu_kang	Being born to a vast family can feed either vice or virtue. Luckily, this one is kind to a fault, but it could've gone either way.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lu_shang	This one earned merits at a young age for his bravery and defiance when faced with adversary.	false
+ceo_nodes_description_3k_main_ceo_career_historical_mi_fang	The steadfast and loyal Mi Fang is a general you can always assume will protect your back whilst you leave on an offensive. Almost always, at least.	false
+ceo_nodes_description_3k_main_ceo_career_historical_shi_yi_w	Humility and modesty are among the key tenets of being a respected Confucian gentleman.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_guan	Let none dispute the Babyfaced Bandit's commitment and loyalty to his band of brothers, and to the people of Taishan.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_shao	Sun Shao may not shine brightly amongst his peers, but his reliability, efficiency and work behind the scenes are truly invaluable. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_tao_shang	Is it too much to ask to wish for a simple, civilian life, even as the world around you falls apart?	false
+ceo_nodes_description_3k_main_ceo_career_historical_tao_ying	Many mediocre children in the land benefit greatly from nepotism. The mostly ignored Tao Ying is not one of them.	false
+ceo_nodes_description_3k_main_ceo_career_historical_tong_yurui	This one is a master of charming and shrewd conversation.	false
+ceo_nodes_description_3k_main_ceo_career_historical_wang_hong	There are unfortunately those who struggle to perform well in roles they have been promoted to.	false
+ceo_nodes_description_3k_main_ceo_career_historical_wang_yu	Every lord should seek to employ wise men willing to give good, honest advice. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_xu_jing	Amongst the storms of chaos engulfing the land, Xu Jing is one of many scholar attempting to find a place of safe refuge. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_ying_shao	Ying Shao makes it his life's work to complile the way of life of the people and rituals of the Han in encyclopedic detail.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zang_ba	Chaos is a ladder, and one Zang Ba is well equipped to climb.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zang_hong	Zang Hong may outwardly appear to be a typically handsome and polite fellow, but this gentleman harbours a passionate fire within.	false
+ceo_nodes_description_3k_main_ceo_career_historical_ze_bu	When the locals are reluctant to present their tribute, this one is sent to ensure they are more "charitable."	false
+ceo_nodes_description_3k_main_ceo_career_historical_ze_yue	Ze Yue helps further her family's cause through her skills at manipulation and trickery.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_miao	Zhang Miao has friends everywhere. It's a shame they all hate each other.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_yun	Zhang Yun commands fleets with a cool head, and knowledge of the flows of the water.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhao_fan	"Come, there is no need for violence! Let us share tea, and discuss this matter like gentlemen."	false
+ceo_nodes_description_3k_main_ceo_career_historical_zheng_yan	Being the only son of the famous Zheng Xuan carries certain expectations. Zheng Yan does not allow his family name to get to his head, and modestly acts as a good filial child should.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_ang	Even when serving in an administrative role, Zhou Ang knows full well the importance of a well mustered militia and a well stocked armoury.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_xin	Tales of Zhou Xin's bravery and capabilities have spread far beyond his homeland in the far south.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zong_cheng	A man of truly pure character will refuse to be recruited by a regime they do not believe in, even if it puts them at personal risk.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_qi	Just as greatness lies just out of reach above, a disastrous downfall lurks below. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_cong	The easy-going Liu Cong is happy enough to allow advisors and relatives more willful than he tell him exactly what to do.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_wen	When his allies call for aid, Chen Wen is the first to raise his banner and muster his armies.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_hao	Zhu Hao maintains a cool head and calm demeanour, no matter what the world throws his way.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhuge_xuan	Even young dragons require a safe home to grow and hone their abilities.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_xian	Zhang Xian's scorching flames of defiance are not so easily snuffed out.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_jin	This governor taps into occult rituals and what he believes is magic in an attempt to overawe people into following his commands.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_pan	The energetic Liu Pan overcomes the odds with raids, indirect attacks and a knack for guerilla warfare.	false
+ceo_nodes_description_3k_main_ceo_career_historical_wu_ju	This warrior's destructive temper is akin to a thunderstorm, and his aggressive charges resemble a fierce gale.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lai_gong	With a fair hand and benevolent policies, Lai Gong seeks to nurture and protect those under his care.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Luo_Tong	The young Luo Tong embodies what it means to be a filial son, and carries himself with genuine respect to the needy, kindness to the poor, and diligence in regards to his duties. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_Xiahou_Ba	The eager and brave Xiahou Ba personally forges a path for his army. He almost never gets lost. Almost. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_Mi_Heng	The flamboyant Mi Heng will abrasively tell you  all the brutal honesties you didn't want to hear, all whilst banging a drum. Naked. There is little anyone can do in the face of such audacity. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_Li_Yan	"The line between order and disorder lies in logistics."	false
+ceo_nodes_description_3k_main_ceo_career_historical_Sima_Shi	No matters from within or without escape the authoritarian gaze of Sima Shi.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Sima_Zhao	Every person on the street knows what's on Sima Zhao's mind.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Wang_Yi	Woe betide any man who dare cross Wang Yi or her family. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_Pan_Feng	Pan Feng is an utterly unstoppable warrior, peerless beneath the Heavens! If only he didn't have a cold. Or cramp. Or a stomach ache.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Kuitou	Kuitou clings onto power by his very fingertips, as external and internal pressures put a strain on his leadership of his clan.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Kebineng	With 100,000 riders at his back, Kebineng sets the north ablaze.	false
+ceo_nodes_description_3k_main_ceo_career_historical_QIianman	This chieftain is the heir to Tanshihuai's legacy, and dreams to rebuild the mighty confederation of his grandfather.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Budugen	With bow and blade, Budugen terrorizes the people of the frontier.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Fulohan	The warriors of the Xianbei are renowned for being far more ferocious and tenacious than even the best of the Xiongnu and Wuhuan.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Suli	This canny chief recognises the value of trade and diplomacy as being just as important as strength and warfare.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Chenglugui	Maintaining good relations and trade between the various northern clans and tribes is essential to establish any form of cohesion and cooperation.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Mohuba	Many of the steppe riders learned how to ride almost before they learned how to walk.	false
+ceo_nodes_description_3k_main_ceo_career_historical_tuoba_jiefan	The intrepid gaze of the adventurous Tuoba Jiefen extends ever onwards, over the horizon and into the future.	false
+ceo_nodes_description_3k_main_ceo_career_historical_tuoba_liwei	This wise chieftain has lead the Tuoba clan through trial and tribulation, migrating his people over great distances to find lands of safety and prosperity.	false
+ceo_nodes_description_3k_main_ceo_career_historical_tufa_pigu	None can stop the momentum of Tufa Pigu!	false
+ceo_nodes_description_3k_main_ceo_career_historical_Guo_Huai	A masterful commander is one who can observe all aspects of a battlefield.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Zhong_Yao	When there's something strange, in the palace halls, who're you gonna call? Zhong Yao!	false
+ceo_nodes_description_3k_main_ceo_career_historical_Zhong_Hui	"One day you'll see, you'll all see!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_Wang_Yuanji	The perceptive Wang Yuanji is a lady who will always go above and beyond her duties.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Zhang_Chunhua	Zhang Chunhua's wit and wisdom are every bit a match for the greatest of scholars.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Bao_Sanniang	Unmatched in martial arts in her home county, it is said that the bold and beautiful Ban Sanniang will only marry a man able to defeat her in single combat.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Guan_Xing	Guan Xing has heavy footsteps to follow and a lot to prove, and is eager to show his worth and ability.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Guan_Suo	The charming and gregarious Guan Suo has no issue attracting others wherever he goes.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Man_Chong	Whether it be building castles or upholding the law, Man Chong never takes half measures.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Jia_Chong	The calculating Jia Chong dirties his own hands, so his superior does not have to.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Jia_Kui	An astute and capable administrator, Jia Kui runs his office with military precision and discipline.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Li_Dian	The humble and soft spoken Li Dian is careful and thoughtful in all matters of war and administration alike.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Liu_Feng	"Fear not, for Liu Feng will surely arrive soon to rescue us!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_Guan_Ping	Let none question the pride and loyalty of Guan Ping.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Jiang_Wei	Known for being an expert general despite his inexperience, Jiang Wei has a precocious talent for war.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Liu_Shan	Some men enjoy the simpler pleasures of life, rather than trying to apply themselves or improve the world for the better.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Deng_Ai	Deng Ai will climb every mountain, ford any stream, follow any rainbow, until he finds his dream.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Xin_Xianying	The wise words of Xin Xianying always help steer those who listen onto the path of righteousness.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Chen_Dao	With a distinctive plume of white and a majestic countenance, Chen Dao strikes a dashing figure on the battlefield.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Song_Xian	Not one for fancy schemes, Song Xian prefers to take on problems the only way he knows how - head on.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Wei_Xu	This warrior surges into the fray, with bold quickness and reckless abandon.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Hou_Cheng	For the sake of his comrades, this general holds on until the bitter end.	false
+ceo_nodes_description_3k_main_ceo_career_historical_Cao_Xing	Cao Xing's skills are so sharp, they'll put an eye out.	false
+ceo_nodes_description_3k_main_ceo_career_historical_guo_nuwang	With the presence of a monarch, and the dignity and composure to match, Guo Nüwang commands respect from all of those who hear her words.	false
+ceo_nodes_description_3k_main_ceo_career_historical_guo_tu	Guo Tu's advice is always the same: attack!	false
+ceo_nodes_description_3k_main_ceo_career_historical_mike	"Everyone has a plan until a Xianbei stabs you in the face."	false
+ceo_nodes_description_3k_main_ceo_career_historical_pang_ji`	Ruthlessly competitive, Pang Ji will employ whatever dirty trick he can to come out on top.	false
+ceo_nodes_description_3k_main_ceo_career_historical_tian_yu	*The steadfast and brilliant Tian Yu displays both valor and ingenuity in equal measure.	false
+ceo_nodes_description_3k_main_ceo_career_historical_xun_chen	"I have a cunning plan, my lord..."	false
+ceo_nodes_description_3k_main_ceo_career_historical_zao_zhi	Zao Zhi knows that all kingdoms are founded upon two things: the people and the land.	false
+ceo_nodes_description_3k_main_ceo_career_historical_jueji	The jovial Jueji always has a jolly grin on his face, even when in the heat of battle.	false
+ceo_nodes_description_3k_main_ceo_career_historical_agui	Agui's stalwart resolve is as unmovable as the mighty mountains that he calls home.	false
+ceo_nodes_description_3k_main_ceo_career_historical_dou_mao	The network of mountains, rivers and valleys that the Di people call their home is a labyrinth that can halt the march of even an experienced general. To be a chieftain of a Di tribe, one must know this geographical maze better than even the back of one's own hand. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_yang_di	This princess of the Di people proves that she is every bit as capable and deadly as any man of her clan.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yang_qianwan	The very ground trembles before the tenacious prowess of Yang Qianwan!	false
+ceo_nodes_description_3k_main_ceo_career_historical_qiang_duan	The mountains and plateaus of China are home to some of the most rugged, fiercely independent and ferocious warriors imaginable.	false
+ceo_nodes_description_3k_main_ceo_career_historical_gan_ji	"You're getting cursed! And you're getting cursed, and you're getting cursed! Everyone here's getting cursed!" 	false
+ceo_nodes_description_3k_main_ceo_career_historical_zuo_ci	"Dare you enter my magical realm?!" 	false
+ceo_nodes_description_3k_main_ceo_career_historical_hua_tuo	When the sagacious yet strict Hua Tuo tells you to rest and take your medication, you had best pay heed!	false
+ceo_nodes_description_3k_main_ceo_career_historical_handan_shang	This official governs carefully amidst a maelstrom of intrigue, mindful of the creeping ambition of those around him.	false
+ceo_nodes_description_3k_main_ceo_career_historical_huang_ang	To be a noble landowner on the fractured frontier requires courage and strength of arms, as well as social savvy and wits.	false
+ceo_nodes_description_3k_main_ceo_career_historical_huang_hua	The staunch and headstrong Huang Hua stands in defiance of any adversary - regardless of the wisdom of his decision.	false
+ceo_nodes_description_3k_main_ceo_career_historical_ma_ai	Ma Ai has spent his life dutifully safeguarding the crucial Hexi Corridor and protecting the lucrative western trade routes. To him, the lords of the Central Plains are petty bickerers, and he does not consider their wars to be worth either his time or hassle, not when the roads of commerce need defending.	false
+ceo_nodes_description_3k_main_ceo_career_historical_pang_yu	A man's convictions are only as sharp as his sword.	false
+ceo_nodes_description_3k_main_ceo_career_historical_su_ze	Between allying with tribes, reopening trade, putting down rebellions and advising the court, Su Ze is an official of truly tireless efforts.	false
+ceo_nodes_description_3k_main_ceo_career_historical_wei_dan	With a flick of his pen, this one brings artistry to parchment.	false
+ceo_nodes_description_3k_main_ceo_career_historical_wei_kang	Even when the city is surrounded, even when the walls are stormed and the gates are breached, Wei Kang will hold the line, come what may.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yang_feng_nw	When law and order break down, wandering swordsmen take up arms with their own mantle of justice, be that for good or ill.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yang_fu	"Your head is as empty as a Eunuch's undergarments".	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_gong	Those of true character and loyalty stay the course through thick and thin. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_meng	Whilst the shrines and temples of his late father Zhang Huan are revered by the people of Wuwei, the less-than-worthy Zhang Meng does not enjoy such praise.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhao_ang	Ordinary men often sadly have to endure lives of malaise and misfortune, when the gales of disharmony sweep the world.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhao_e	"The strong men of the Zhao family are dead, leaving only a weak daughter. I need not worry." - The last words of the murderous fool who crossed the brave Zhao E.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_jin_nw	A little rebellion every now and then is a good thing.	false
+ceo_nodes_description_3k_main_ceo_career_historical_congqian	"This county ain't big enough for the two of us!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_guo_da	"Hooray! We did it! We saved the commandery!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_hu_mao	This official knows the value of biding time, making local contacts and forging alliances, but must be mindful of the blurred line between caution and hesitation.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liao_hua_ytr	Let none underestimate the long-lasting fealty of Liao Hua.	false
+ceo_nodes_description_3k_main_ceo_career_historical_shi_huang_sg	"If you can't run with the big dogs, stay beneath your rock."	false
+ceo_nodes_description_3k_main_ceo_career_historical_sima_ju_ytr	"Every dog has its day..."	false
+ceo_nodes_description_3k_main_ceo_career_historical_xu_he_ytr	"Alright! Everything's coming up Xu He!" 	false
+ceo_nodes_description_3k_main_ceo_career_historical_yin_li	"Nothing personal, child."	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhao_bo_ytr	"Storm the city, lads! Slaughter anything that gets in your way!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_xin_pi	Be they colleague or Emperor, the truly honest and righteous advisor cares not who he criticizes.	false
+ceo_nodes_description_3k_main_ceo_career_historical_lady_xiahou	"So this is your wife? Why don't you please take a stool right there." 	false
+ceo_nodes_description_3k_main_ceo_career_historical_cao_anmin	The brave Cao Anmin shows all the virtues of a filial man, putting his elders first despite any faults they may have.	false
+ceo_nodes_description_3k_main_ceo_career_historical_quan_rou	The head of the noble Quan clan has envible vim and vigour.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_nan	No matter the threat or danger, Zhang Nan will be there, willing to gallantly surrender his own life if it means protecting his lord.	false
+ceo_nodes_description_3k_main_ceo_career_historical_xiahou_jie	"I soiled my armour, I was so scared...!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_yu_renming	"Blue? No, no, my favourite colour is yellow. Mayhaps you are thinking of some other Zhou Yu?"	false
+ceo_nodes_description_3k_main_ceo_career_historical_bian_rang	If you cannot handle the high temperatures, then it is best that you vacate the cooking area.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_yu	By instigating uprisings on the enemy's homefront, their frontlines can become that much more stretched.	false
+ceo_nodes_description_3k_main_ceo_career_historical_xi_zhicai	Without an advisor of this caliber at your side, a chance for hegemony seems impossible. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_dong_zhao	A noble spirit embiggens the smallest man.	false
+ceo_nodes_description_3k_main_ceo_career_historical_ma_midi	 Wisdoms pours from every word of this able, if inexperienced, counsellor. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_huo_nu	I have the constant fear that something's always there.	false
+ceo_nodes_description_3k_main_ceo_career_historical_gao_rou	"You think you can bribe me? Do I look like I can be bribed?"	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_ye	*"Set! Loose! Fire the catapults!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_syiyan	Once you are in this archer's sights, you are as good as dead.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yalu	The presence of this Wuhuan princess causes her enemies to tremble and stall, as if they are facing a bitter blizzard blowing from the north. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_feng_fang	"In another life, they could've been best friends. However, that's just not how the bones fell…"	false
+ceo_nodes_description_3k_main_ceo_career_historical_li_tong	Here he comes, to save the day!	false
+ceo_nodes_description_3k_main_ceo_career_historical_huo_jun	"Today we need a state of militiamen, common folk not only prepared to take up arms, but folk who regard duty to their lord as the basic purpose of their daily life and who are willing to consciously work and sacrifice for that duty."	false
+ceo_nodes_description_3k_main_ceo_career_historical_ji_ben	Doctor, doctor, please, oh the mess I'm in...	false
+ceo_nodes_description_3k_main_ceo_career_historical_wei_huang	"Let's end this, right here and right now! I'll show you just how defiant Han loyalists can be!" 	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_jun	Beware of old men in a world where heroes die young. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_zuozi_zhangba	"Oh, you may not have the looks, you may not have the cash, but you'll win yourself some loot, if you only got a moustache." 	false
+ceo_nodes_description_3k_main_ceo_career_historical_hao_meng	He'll stab you in the back as soon as he gets the chance, but until then Hao Meng's dirty tricks can be most useful.	false
+ceo_nodes_description_3k_main_ceo_career_historical_jue_jiejie	Jue Jiejie lives a modest life and puts the plight of the poor above all else, despite her own status and comforts.	false
+ceo_nodes_description_3k_main_ceo_career_historical_xue_li	"But who watches the watchmen? And who watches those who watch the watchmen? And who watches those who-"	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_heng	There is a fine line between bravado and foolishness.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_shang	To be a paragon of governance, one must always put the needs of both the people and state before all else.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_pingming	With royal countenance and a kind smile, Liu Pingming inspires all who follow her.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_ji	The soothing words of Liu Ji can quell the ire of even an enraged tiger.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_shuo	Proudly and bravely bearing the royal name of his ancestors, Liu Shuo insists on leading from the front. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_ying	All great generals must learn that even the staunchest of positions can have exploitable weaknesses.	false
+ceo_nodes_description_3k_main_ceo_career_historical_qin_song	Take heed of the words of your advisors, for no man rules alone.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yu_mi	Yu Mi is a warrior who unfortunately often finds himself up to his neck in trouble...	false
+ceo_nodes_description_3k_main_ceo_career_historical_teng_dan	Diligence is the first step to prosperity.	false
+ceo_nodes_description_3k_main_ceo_career_historical_teng_zhou	Whether with civil or military affairs, Teng Zhou's attention to detail is second to none.	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_duan	Before one can make their mark on the present, they must prove that they have mastered the classics.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_yi	With a gallant countenance and handsome features, Sun Yi is surely a warrior with unrivalled popularity!	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_kuang	For the sake of his clan, this officer straddles the difficult path of politics.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_lang	"Burn! BURN! BURN IT TO THE GROUND!"	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_jing	"It's honest work."	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_ben	Let a man be judged on the deeds he has done, not on what he may not have done. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_fu	Sun Fu's talents at raiding borders and siezing cities make him a valued ally, and feared enemy.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_hao	In the opinion of Sun Hao, he is the only shining mind in a family of meatheaded dullards.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_yu	Attracting both wisdom and military talents, Sun Yu is a solid pillar for his state.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_jiao	With keenly honed abilities, Sun Jiao commands respect from peers and rivals alike.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_he	"I'd follow you, my brother, my captain, my king."	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_shao_sun	Waging war over the great river is difficult in the best of circumstances, it takes true ability to commander both raids and defenses through the volatile chills of winter. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_zu_mao	With a flash of red, the dependable Zu Mao courageously puts his own life at risk, in place of his lord.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_ran	The passionate Zhu Ran embodies what it means to be an intrepid and energetic general.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_zhi	With both loyalty to his liege, and highly capable talents, Zhu Zhi is the model governor.	false
+ceo_nodes_description_3k_main_ceo_career_historical_han_dang	Han Dang's modus operandi has often been compared to that of a mercenary. His loyalty and dedication to his masters is unwavering, however.	false
+ceo_nodes_description_3k_main_ceo_career_historical_fan_neng	A warrior's own body is a weapon, it must be kept as keen as any blade.	false
+ceo_nodes_description_3k_main_ceo_career_historical_mao_jie	Who watches the watchmen? In this case, Mao Jie.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_min	The lady Liu Min wishes for nothing more than for peaceful days to return, with an optimism that some would say borders on naivety.	false
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_cang	The daring bladesman Zhou Cang, can seemingly keep pace with anyone, and his energy is a nigh bottomless well even in the thick of battle. 	false
+ceo_nodes_description_3k_main_ceo_career_historical_wang_ping	Not allowing his illiteracy to hamper him, Wang Ping displays an intelligence and knack for warfare that any commander would be proud of.	false
+ceo_nodes_description_3k_main_ceo_career_historical_ruan_ji	Considered a prodigy amongst his generation, Ruan Ji's literary works are a marvel to behold.	false
+ceo_nodes_description_3k_main_ceo_career_historical_shi_huan	Shi Huan dutifully takes the thankless job of policing the military, maintaining order in the camps and ranks. Woe betide any would be spy that crosses his attentive gaze...	false
+ceo_nodes_description_3k_main_ceo_career_historical_cai_yang	Cai Yang is a swift and righteous general, leading his troops from the front with such aggression that occasionally he misses threats from within his own ranks.	false
+ceo_nodes_description_3k_main_ceo_career_historical_yang_xiu	Sometimes, it is very possible for one to be altogether TOO clever for one's own good.	false
+ceo_nodes_description_3k_main_ceo_career_historical_liu_yan_drunk	Liu Yan speaks with astonishing eloquence and charm, but under the surface he has dangerous and dark vices.	false
+ceo_nodes_description_3k_main_ceo_career_historical_xiahou_shang	The multifaceted Xiahou Shang strives to excel in all aspects, but above all else, he puts his dearest friends and loved ones.	false
+ceo_nodes_description_3k_main_ceo_career_historical_meng_da	Like a poison infecting the body, Meng Da whispers sweet, immoral words to those that consider him an ally, twisting and corrupting them.	false
+ceo_nodes_description_3k_main_ceo_career_historical_hou_yin	"Do you hear the people sing, singing the songs of angry men?" 	false
+ceo_nodes_description_3k_main_ceo_career_historical_chen_zhen	To be a truly admirable diplomat and ambassador, both honesty and loyalty are required in equal measure.	false
+ceo_nodes_description_3k_main_ceo_career_historical_sun_deng	With Sun Deng as its future, the state is in good hands.	false
+ceo_nodes_description_3k_main_ceo_career_historical_bu_lianshi	Lady Bu is as famed for her kindness and sincerity as she is for her gorgeous looks and grace.	false

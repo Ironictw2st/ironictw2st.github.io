@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/egprinces/sub.loc		
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_subterfuge_level_1	Subterfuge: Brewing a Plot	false
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_subterfuge_level_3	Subterfuge: Plans Within Plans	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_subterfuge_level_3	As one plan falls into place, so another begins to grow around it; sweet and twisted strategems!	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_subterfuge_level_2	The stage is set, the pieces set in motion, oblivious to your ambitious schemes.	false
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_subterfuge_level_2	Subterfuge: The Plot Thickens	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_subterfuge_level_4	 A word in every ear, an ear in every court; none are beyond your scheming reach.	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_subterfuge_level_1	From the seeds of wicked inspiration, grand and beautiful acts of deception will grow!	false
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_subterfuge_level_4	Subterfuge: Master of Deception	false

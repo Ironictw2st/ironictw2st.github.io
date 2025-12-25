@@ -1,0 +1,16 @@
+key	text	tooltip
+#Loc;1;text/frontend/ui/error_display.loc		
+error_display_title	Error Detected!	false
+ironic_error_tup	Total Unique Pack is enabled	false
+ironic_error_wu	Wu Kingdsassance is enabled	false
+ironic_error_ngc	New General Collection is enabled	false
+ironic_error_radious	Radious is enabled	false
+ironic_error_afp	All Faction Playable is enabled	false
+ironic_error_nanman_chief	Nanman Chieftain is enabled	false
+ironic_error_uad	UAD is enabled	false
+ironic_error_gathering_heroes	Gathering Heroes is enabled	false
+ironic_error_trom	The Rule of Might is enabled	false
+ironic_error_koihime	Koihime is enabled	false
+ironic_error_turns	Extra Turn per Year is enabled	false
+ironic_error_no_errors	No Errors	false
+ironic_error_issues	Mod Issue	false

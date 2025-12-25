@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc;1;text/mct/ui/english/190E.loc		
+MCT_localised_string_section_190E_EN	190E	false
+MCT_localised_string_ahistoric_EN	Enable if you want Historic mode, (Wu Anguo / Hua Xiong killed)	false
+MCT_localised_string_empty_land_EN	Enable if you want Looters to take over empty land.	false
+MCT_localised_string_destroy_nanman_EN	Destroy Nanman	false
+MCT_localised_string_one_faction_EN	One faction controls all	false
+MCT_localised_string_split_EN	Split into three (WIP)	false
+MCT_localised_string_lu_bu_on_field_EN	Enable if you want Lu Bu on the field	false
+MCT_localised_string_sun_ce_on_field_EN	Enable if you want Sun Ce on the field	false
+MCT_localised_string_total_war_mode_EN	Enable if you want Total War Mode on	false
+MCT_localised_string_MP_mode_EN	MULTIPLAYER MODE	false

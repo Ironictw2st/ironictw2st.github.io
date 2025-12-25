@@ -1,0 +1,37 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/chenwenresource/actioncharacters.loc		
+ui_character_actions_localised_title_ironic_chen_wen_character_experience	Focused Tutoring	false
+ui_character_actions_localised_description_ironic_chen_wen_character_experience	It is never too late for a man to learn.	false
+ui_character_actions_localised_fallback_tooltip_ironic_chen_wen_character_experience	PLACEHOLDER	false
+ui_character_actions_localised_title_ironic_chen_wen_rally_the_troops	Call to Arms	false
+ui_character_actions_localised_description_ironic_chen_wen_rally_the_troops	Rally the troops, and muster the volunteers - war is no time for idleness.	false
+ui_character_actions_localised_fallback_tooltip_ironic_chen_wen_rally_the_troops	PLACEHOLDER	false
+ui_character_actions_localised_title_ironic_chen_wen_arm_the_archers	Summon the Fletchers	false
+ui_character_actions_localised_description_ironic_chen_wen_arm_the_archers	Let no archer be without arrows, so the sky may become as rain.	false
+ui_character_actions_localised_fallback_tooltip_ironic_chen_wen_arm_the_archers	PLACEHOLDER	false
+ui_character_actions_localised_title_ironic_chen_wen_bribe_the_land	Empower the Prefects	false
+ui_character_actions_localised_description_ironic_chen_wen_bribe_the_land	By granting more resources to loyal local leaders, they can be ordered to improve their lands in your stead.	false
+ui_character_actions_localised_fallback_tooltip_ironic_chen_wen_bribe_the_land	PLACEHOLDER	false
+ui_character_actions_localised_title_ironic_chen_wen_feed_the_horses	Prepare the Steeds	false
+ui_character_actions_localised_description_ironic_chen_wen_feed_the_horses	Without proper care and feed for the mounts, the effectiveness of cavalry has its limitations.	false
+ui_character_actions_localised_fallback_tooltip_ironic_chen_wen_feed_the_horses	PLACEHOLDER	false
+ui_character_actions_localised_title_ironic_chen_wen_spear_head	Spear Inspection	false
+ui_character_actions_localised_description_ironic_chen_wen_spear_head	It is important to ensure all of your soldiers' equipment is well looked after - a splintered shaft or broken spearhead can doom a formation.	false
+ui_character_actions_localised_fallback_tooltip_ironic_chen_wen_spear_head	PLACEHOLDER	false
+ui_character_actions_localised_title_ironic_chen_wen_monitor_the_armor	Monitor the Armor	false
+ui_character_actions_localised_description_ironic_chen_wen_monitor_the_armor	Take stock in the equipment of your men, and replace damaged or ill-fitting armor pieces with those in surplus if needed - it may save both their lives, and your campaign.	false
+ui_character_actions_localised_fallback_tooltip_ironic_chen_wen_monitor_the_armor	PLACEHOLDER	false
+effect_bundles_localised_title_ironic_chen_wen_character_experience	Focused Tutoring	false
+effect_bundles_localised_description_ironic_chen_wen_character_experience	It is never too late for a man to learn.	false
+effect_bundles_localised_title_ironic_chen_wen_rally_the_troops	Call to Arms	false
+effect_bundles_localised_description_ironic_chen_wen_rally_the_troops	Rally the troops, and muster the volunteers - war is no time for idleness.	false
+effect_bundles_localised_title_ironic_chen_wen_arm_the_archers	Summon the Fletchers	false
+effect_bundles_localised_description_ironic_chen_wen_arm_the_archers	Let no archer be without arrows, so the sky may become as rain.	false
+effect_bundles_localised_title_ironic_chen_wen_bribe_the_land	Empower the Prefects	false
+effect_bundles_localised_description_ironic_chen_wen_bribe_the_land	By granting more resources to loyal local leaders, they can be ordered to improve their lands in your stead.	false
+effect_bundles_localised_title_ironic_chen_wen_feed_the_horses	Prepare the Steeds	false
+effect_bundles_localised_description_ironic_chen_wen_feed_the_horses	Without proper care and feed for the mounts, the effectiveness of cavalry has its limitations.	false
+effect_bundles_localised_title_ironic_chen_wen_spear_head	Spear Inspection	false
+effect_bundles_localised_description_ironic_chen_wen_spear_head	It is important to ensure all of your soldiers' equipment is well looked after - a splintered shaft or broken spearhead can doom a formation.	false
+effect_bundles_localised_title_ironic_chen_wen_monitor_the_armor	Monitor the Armor	false
+effect_bundles_localised_description_ironic_chen_wen_monitor_the_armor	Take stock in the equipment of your men, and replace damaged or ill-fitting armor pieces with those in surplus if needed - it may save both their lives, and your campaign.	false

@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/egprinces/influence.loc		
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_influence_level_5	Influence: Omnipresent	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_influence_level_2	There is no question with regards to your leadership, but there are aspects of government and administration outside of your awareness.	false
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_influence_level_3	Influence: Authoritative	false
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_influence_level_2	Influence: Normal	false
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_influence_level_1	Influence: Inferior	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_influence_level_1	Your awareness of government and administration within your realm is weak, and many have started to question your leadership as a consequence.	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_influence_level_5	Your influence in the realm is all-encompassing and you are at the centre of every administrative or governmental activity in your realm.	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_influence_level_3	Nobody is questioning your influence within your administration; nor would anyone want to.	false
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_influence_level_4	If a clerk within your realm releases a govenrment decree, there is a good chance you were involved.	false
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_influence_level_4	Influence: Far-reaching	false
+effect_bundles_localised_description_chibi_frontend_leader_shi_yi_specialisation	[[b]]Influence[[/b]] is this faction's unique resource.\\n\\n[[i]][[col:flavour]]Influence represents how much authority and control this faction leader has within his own government and within the administration of his faction.[[/col]][[/i]]	false
+effect_bundles_localised_title_chibi_frontend_leader_shi_yi_specialisation	Influence	false

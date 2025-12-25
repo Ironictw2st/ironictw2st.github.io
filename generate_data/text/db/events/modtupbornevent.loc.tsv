@@ -1,0 +1,110 @@
+key	text	tooltip
+#Loc;1;text/db/events/modtupbornevent.loc		
+incidents_localised_title_mtu_historical_cao_biao_born_incident	Cao Cao has a son!	false
+incidents_localised_description_mtu_historical_cao_biao_born_incident	An occasion to be celebrated! The mistress of Cao Cao has given birth to a son! 	false
+incidents_localised_title_mtu_historical_cao_jie_born_incident	Cao Cao has a daughter!	false
+incidents_localised_description_mtu_historical_cao_jie_born_incident	An occasion to be celebrated! The mistress of Cao Cao has given birth to a daughter, she seems to shine brightly. 	false
+incidents_localised_title_mtu_historical_cao_zhi_born_incident	Cao Cao has a son!	false
+incidents_localised_description_mtu_historical_cao_zhi_born_incident	An occasion to be celebrated! The mistress of Cao Cao has given birth to a son!	false
+incidents_localised_title_mtu_historical_cao_shuang_born_incident	Cao Zhen has a son!	false
+incidents_localised_description_mtu_historical_cao_shuang_born_incident	An occasion to be celebrated! The mistress of Cao Zhen has given birth to a son!	false
+incidents_localised_title_mtu_historical_cao_xi_born_incident	Cao Zhen has a son!	false
+incidents_localised_description_mtu_historical_cao_xi_born_incident	An occasion to be celebrated! The mistress of Cao Zhen has given birth to a son!	false
+incidents_localised_title_mtu_historical_cao_rui_born_incident	Cao Pi has a son.	false
+incidents_localised_description_mtu_historical_cao_rui_born_incident	An occasion to be celebrated! The mistress of Cao Pi has given birth to a son!	false
+incidents_localised_title_mtu_historical_liu_feng_born_incident	An Adopted Son.	false
+incidents_localised_description_mtu_historical_liu_feng_born_incident	An occasion to be celebrated! Liu Bei has found a suitable heir for now!	false
+incidents_localised_title_3k_mod_incident_zhang_zun	Zhang Bao has a new son!	false
+incidents_localised_description_3k_mod_incident_zhang_zun	An occasion to be celebrated! The mistress of Zhang Bao has given birth to a son!	false
+incidents_localised_title_mtu_historical_guan_suo_born_incident	Guan Yu has new Son!	false
+incidents_localised_description_mtu_historical_guan_suo_born_incident	An occasion to be celebrated! The mistress of Guan Yu has given birth to a son!	false
+incidents_localised_title_mtu_historical_lady_huaman_born_incident	Meng Huo and Lady Zhurong have a daughter!	false
+incidents_localised_description_mtu_historical_lady_huaman_born_incident	PLACEHOLDER	false
+incidents_localised_title_mtu_historical_ling_tong_born_incident	Ling Cao has a son!	false
+incidents_localised_description_mtu_historical_ling_tong_born_incident	Ling Cao has brought his son to you!	false
+incidents_localised_title_mtu_historical_sun_huan_born_incident	Sun Jing has brought another son to join you.	false
+incidents_localised_description_mtu_historical_sun_huan_born_incident	An occasion to be celebrated! Sun Jing has brought his son to join!	false
+incidents_localised_title_mtu_historical_sun_deng_born_incident	Sun Quan has a new son!	false
+incidents_localised_description_mtu_historical_sun_deng_born_incident	An occasion to be celebrated! The mistress of Sun Quan has given birth to a son!	false
+incidents_localised_title_mtu_historical_wang_yuanji_born_incident	Wang Lang's son has a daughter!	false
+incidents_localised_description_mtu_historical_wang_yuanji_born_incident	An occasion to be celebrated! Wang Su's wife has given birth to a daughter!	false
+incidents_localised_title_mtu_historical_sima_zhao_born_incident	Sima Yi has a son!	false
+incidents_localised_description_mtu_historical_sima_zhao_born_incident	An occasion to be celebrated! The mistress of Sima Yi has given birth to a son!	false
+incidents_localised_title_mtu_historical_sima_shi_born_incident	Sima Yi has a son!	false
+incidents_localised_description_mtu_historical_sima_shi_born_incident	An occasion to be celebrated! The mistress of Sima Yi has given birth to a son!	false
+incidents_localised_title_mtu_historical_zhuge_zhan_born_incident	Zhuge Liang has a son!	false
+incidents_localised_description_mtu_historical_zhuge_zhan_born_incident	An occasion to be celebrated! The mistress of Zhuge Liang has given birth to a son!	false
+incidents_localised_title_mtu_historical_cao_zhen_born_incident	Cao Cao adopts his savior's son!	false
+incidents_localised_description_mtu_historical_cao_zhen_born_incident	Cao Shao, while recruiting troops for Cao Cao, had his life taken when the adminstrator plotted against Cao Cao. To reward his service, Cao Cao adopted his son, Cao Zhen.	false
+incidents_localised_title_mtu_historical_cao_zhang_born_incident	Cao Cao has a new son!	false
+incidents_localised_description_mtu_historical_cao_zhang_born_incident	An occasion to be celebrated! The mistress of Cao Cao has given birth to a son!	false
+incidents_localised_title_mtu_historical_lady_xiahou_born_incident	Xiahou Zuo has a daughter!	false
+incidents_localised_description_mtu_historical_lady_xiahou_born_incident	An occasion to be celebrated! The mistress of Xiahou Zuo has given birth to a son!	false
+incidents_localised_title_mtu_historical_liu_shao_born_incident	Liu Yao has a son!	false
+incidents_localised_description_mtu_historical_liu_shao_born_incident	An occasion to be celebrated! The mistress of Liu Yao has given birth to a son!	false
+incidents_localised_title_mtu_historical_liu_shang_born_incident	Liu Yao has a son!	false
+incidents_localised_description_mtu_historical_liu_shang_born_incident	An occasion to be celebrated! The mistress of Liu Yao has given birth to a son!	false
+incidents_localised_title_mtu_historical_cao_pi_born_incident	Cao Cao has a new son!	false
+incidents_localised_description_mtu_historical_cao_pi_born_incident	An occasion to be celebrated! The mistress of Cao Cao has given birth to a son!	false
+incidents_localised_title_mtu_historical_liu_ji_born_incident	Liu Yao has a son!	false
+incidents_localised_description_mtu_historical_liu_ji_born_incident	An occasion to be celebrated! The mistress of Liu Yao has given birth to a son!	false
+incidents_localised_title_mtu_historical_sun_yi_born_incident	Sun Jian has a son!	false
+incidents_localised_description_mtu_historical_sun_yi_born_incident	An occasion to be celebrated! The wife of Sun Jian has given birth to a son!	false
+incidents_localised_title_mtu_historical_sun_kuang_born_incident	Sun Jian has a son!	false
+incidents_localised_description_mtu_historical_sun_kuang_born_incident	An occasion to be celebrated! The wife of Sun Jian has given birth to a son!	false
+incidents_localised_title_mtu_historical_liu_min_born_incident	Liu Biao has a daughter!	false
+incidents_localised_description_mtu_historical_liu_min_born_incident	An occasion to be celebrated! The mistress of Liu Min has given birth to a daughter!	false
+incidents_localised_title_mtu_historical_lu_xun_born_incident	Lu Jun has a son!	false
+incidents_localised_description_mtu_historical_lu_xun_born_incident	An occasion to be celebrated! The wife of Lu Jun has given birth to a son!	false
+incidents_localised_title_mtu_historical_xiahou_ba_born_incident	Xiahou Yuan has a son!	false
+incidents_localised_description_mtu_historical_xiahou_ba_born_incident	An occasion to be celebrated! The wife of Xiahou Yuan has given birth to a son!	false
+incidents_localised_title_mtu_historical_sima_liang_born_incident	Sima Yi has a son!	false
+incidents_localised_description_mtu_historical_sima_liang_born_incident	An occasion to be celebrated! The mistress of Sima Yi has given birth to a son!	false
+incidents_localised_title_mtu_historical_gongsun_yuan_born_incident	Gongsun Kang has a son!	false
+incidents_localised_description_mtu_historical_gongsun_yuan_born_incident	An occasion to be celebrated! The mistress of Gongsun Kang has given birth to a son!	false
+incidents_localised_title_mtu_historical_liu_xun_born_incident	Liu Zhang has a son!	true
+incidents_localised_description_mtu_historical_liu_xun_born_incident	An occasion to be celebrated! The mistress of Liu Zhang has given birth to a son!	true
+incidents_localised_title_mtu_historical_zhong_hui_born_incident	Zhong Yao has a son!	true
+incidents_localised_description_mtu_historical_zhong_hui_born_incident	An occasion to be celebrated! The mistress of Zhong Yao has given birth to a son!	true
+campaign_payload_ui_details_description_tup_born_dummy_cao_zhi	Character Born: Cao Zhi	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_biao	Character Born: Cao Biao	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_jie	Character Born: Cao Jie	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_shuang	Character Born: Cao Shuang	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_xi	Character Born: Cao Xi	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_rui	Character Born: Cao Rui	false
+campaign_payload_ui_details_description_tup_born_dummy_guan_suo	Character Born: Guan Suo	false
+campaign_payload_ui_details_description_tup_born_dummy_lady_huaman	Character Born: Lady Huaman	false
+campaign_payload_ui_details_description_tup_born_dummy_zhang_zun	Character Born: Zhang Zun	false
+campaign_payload_ui_details_description_tup_born_dummy_ling_tong	Character Born: Ling Tong	false
+campaign_payload_ui_details_description_tup_born_dummy_sun_huan	Character Born: Sun Huan	false
+campaign_payload_ui_details_description_tup_born_dummy_sun_deng	Character Born: Sun Deng	false
+campaign_payload_ui_details_description_tup_born_dummy_wang_yuanji	Character Born: Wang Yuanji	false
+campaign_payload_ui_details_description_tup_born_dummy_sima_zhao	Character Born: Sima Zhao	false
+campaign_payload_ui_details_description_tup_born_dummy_sima_shi	Character Born: Sima Shi	false
+campaign_payload_ui_details_description_tup_born_dummy_zhuge_zhan	Character Born: Zhuge Zhan	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_zhen	Character Adopted: Cao Zhen	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_zhang	Character Born: Cao Zhang	false
+campaign_payload_ui_details_description_tup_born_dummy_lady_xiahou	Character Born: Lady Xiahou	false
+campaign_payload_ui_details_description_tup_born_dummy_liu_shao	Character Born: Liu Shao	false
+campaign_payload_ui_details_description_tup_born_dummy_liu_shang	Character Born: Liu Shang	false
+campaign_payload_ui_details_description_tup_born_dummy_cao_pi	Character Born: Cao Pi	false
+campaign_payload_ui_details_description_tup_born_dummy_liu_ji	Character Born: Liu Ji	false
+campaign_payload_ui_details_description_tup_born_dummy_sun_yi	Character Born: Sun Yi	false
+campaign_payload_ui_details_description_tup_born_dummy_liu_min	Character Born: Liu Min	false
+campaign_payload_ui_details_description_tup_born_dummy_lu_xun	Character Born: Lu Xun	false
+campaign_payload_ui_details_description_tup_born_dummy_xiahou_ba	Character Born: Xiahou Ba	false
+campaign_payload_ui_details_description_tup_born_dummy_sima_liang	Character Born: Sima Liang	false
+campaign_payload_ui_details_description_tup_born_dummy_sun_kuang	Character Born: Sun Kuang	false
+campaign_payload_ui_details_description_tup_born_dummy_gongsun_yuan	Character Born: Gongsun Yuan	false
+campaign_payload_ui_details_description_tup_born_dummy_liu_xun	Character Born: Liu Xun	true
+campaign_payload_ui_details_description_tup_born_dummy_zhong_hui	Character Born: Zhong Hui	true
+campaign_payload_ui_details_description_tup_born_dummy_xin_xianying	Character Born: Xin Xianying	false
+campaign_payload_ui_details_description_tup_born_dummy_wang_su	Character Born: Wang Su	false
+campaign_payload_ui_details_description_tup_join_dummy_turn_1	General Joins	false
+campaign_payload_ui_details_description_tup_join_moh_dummy_turn_1	General Joins	false
+campaign_payload_ui_details_description_tup_join_wb_dummy_turn_1	General Joins	false
+incidents_localised_title_mtu_historical_xin_xianying_born_incident	Xin Pi has a daughter!	false
+incidents_localised_description_mtu_historical_xin_xianying_born_incident	An occasion to be celebrated! The wife of Xin Pi has given birth to a daughter!	false
+incidents_localised_title_mtu_historical_wang_su_born_incident	Wang Lang has a son!	false
+incidents_localised_description_mtu_historical_wang_su_born_incident	An occasion to be celebrated! The wife of Wang Lang has given birth to a son!	false
+campaign_payload_ui_details_description_character_recruit	Character recruited.	false

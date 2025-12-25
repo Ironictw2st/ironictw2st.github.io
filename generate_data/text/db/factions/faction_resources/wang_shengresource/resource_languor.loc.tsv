@@ -1,0 +1,88 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/wang_shengresource/resource_languor.loc		
+effect_bundles_localised_title_ironic_languor_resource_level_0	Languor: Irritated	true
+effect_bundles_localised_description_ironic_languor_resource_level_0	You are caught in a trap of sleepless nights, your inner voice mocking you on mistakes you made long ago. Each effort you make feels like mental torment.	true
+effect_bundles_localised_title_ironic_languor_resource_level_1	Languor: Piqued	true
+effect_bundles_localised_description_ironic_languor_resource_level_1	Lying on your back, your body relaxes, until you spy a strange cloud overhead. Your mind twists the visage of the distant cloud into a shape that angers you, forming the face of a man who wronged you countless years ago. Even your moments of relaxation bring you suffering.\\n	true
+effect_bundles_localised_title_ironic_languor_resource_level_2	Languor: Complacent	true
+effect_bundles_localised_description_ironic_languor_resource_level_2	A routine sets in, as every day blurs with the last. Why bother putting in effort, when activity can bring pain? You cannot make regrets if you never made attempts to begin with, after all.	true
+effect_bundles_localised_title_ironic_languor_resource_level_3	Languor: Tranquil	true
+effect_bundles_localised_description_ironic_languor_resource_level_3	You have found your own methods of happiness, and finally begin to enjoy uninterrupted sleep. The systems of government appear to be running well enough without your supervision, so why bother interfering?	true
+effect_bundles_localised_title_ironic_languor_resource_level_4	Languor: Contented	true
+effect_bundles_localised_description_ironic_languor_resource_level_4	The spirits that haunt your past have been put to rest, and the whispers of self doubt have been silenced. The world may be a cruel, harsh place, but your mind is a luxurious and peaceful palace you can freely escape to.	true
+effect_bundles_localised_title_ironic_frontend_leader_languor_special	Languor	true
+effects_description_ironic_languor_decay	[[b]]%+n[[/b]] Languor	true
+effects_description_ironic_languor_armies	[[b]]%+n[[/b]] Languor	true
+effects_description_ironic_languor_robin_hood	[[b]]%+n[[/b]] Languor	true
+effects_description_ironic_languor_garrisoned	[[b]]%+n[[/b]] Languor	true
+effects_description_ironic_languor_vassalized	[[b]]%+n[[/b]] Languor	true
+effects_description_ironic_languor_info_gain	[[b]]Languor[[/b]] can be increased by general increase, killing Sun members, and marrying Lady Wu.	true
+effects_description_ironic_languor_info_loss	[[b]]Languor[[/b]] can be decreased by doing almost anything, battles, war, and more.	true
+effect_bundles_localised_title_ironic_languor_effect_bundle	Languor	false
+effect_bundles_localised_description_ironic_languor_effect_bundle	So hung up are you on missed opportunities in decades past, you cannot help but dither and languish about. Being stuck in a rut of complacent idleness can be like being caught in a deadly whirlpool, almost impossible to escape from.	false
+effects_generalised_descriptions_localised_description_ironic_languor_effect_bundle_1	• Langour is increased by general increase, killing Sun members, and marrying Lady Wu.	true
+effects_generalised_descriptions_localised_description_ironic_languor_effect_bundle_2	• Langour is drained by many actions you do, from wars, buildings, and more.	true
+effects_generalised_descriptions_localised_description_ironic_languor_effect_bundle_3	• High Langour provides many bonuses.	true
+effects_generalised_descriptions_localised_description_ironic_languor_effect_bundle_4	• Low Langour reduces all of your stats.	true
+pooled_resource_factors_display_name_negative_ironic_languor_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_languor_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_languor_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_languor_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_languor_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_languor_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_languor_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_languor_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_languor_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_languor_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_languor_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_languor_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_languor_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_languor_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_languor_at_war	At War	true
+pooled_resources_description_ironic_languor	So hung up are you on missed opportunities in decades past, you cannot help but dither and languish about. Being stuck in a rut of complacent idleness can be like being caught in a deadly whirlpool, almost impossible to escape from.	true
+pooled_resources_display_name_ironic_languor	Languor	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_languor	So hung up are you on missed opportunities in decades past, you cannot help but dither and languish about. Being stuck in a rut of complacent idleness can be like being caught in a deadly whirlpool, almost impossible to escape from.	true
+pooled_resources_negative_factors_display_name_ironic_languor	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_languor	Increase	true
+ui_text_replacements_localised_text_victory_condition_languor	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_languor_improve	Languor Improve	false
+ui_character_assignments_localised_description_ironic_languor_improve	PLACEHOLDER	false
+ui_character_assignments_localised_title_ironic_languor_reduce	Languor Reduce	false
+ui_character_assignments_localised_description_ironic_languor_reduce	PLACEHOLDER	false
+pooled_resource_factors_display_name_negative_ironic_languor_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_languor_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_languor_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_languor_decay	IDLE	false
+pooled_resource_factors_display_name_positive_ironic_languor_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_languor_assignments	Assignments	false
+effects_description_ironic_languor_captives_post_battle	[[b]]%+n[[/b]] Languor	false
+effects_description_ironic_languor_characters	[[b]]%+n[[/b]] Languor	false
+effects_description_ironic_languor_executed	[[b]]%+n[[/b]] Languor	false
+effects_description_ironic_languor_assignments	[[b]]%+n[[/b]] Languor	false
+pooled_resource_factors_display_name_positive_ironic_languor_buildings	Buildings	false
+pooled_resource_factors_display_name_negative_ironic_languor_buildings	Buildings	false
+pooled_resource_factors_display_name_positive_ironic_languor_tech	Tech Research	false
+pooled_resource_factors_display_name_negative_ironic_languor_tech	Tech Research	false
+pooled_resource_factors_display_name_positive_ironic_langour_vassals	Vassals	false
+pooled_resource_factors_display_name_negative_ironic_langour_vassals	Vassals	false
+pooled_resource_factors_display_name_positive_ironic_languour_alliance	Alliance Members	false
+pooled_resource_factors_display_name_negative_ironic_languour_alliance	Alliance Members	false
+pooled_resource_factors_display_name_positive_ironic_langour_trade	Trade Agreements	false
+pooled_resource_factors_display_name_negative_ironic_langour_trade	Trade Agreements	false
+pooled_resource_factors_display_name_positive_ironic_langour_governors	Governors	false
+pooled_resource_factors_display_name_negative_ironic_langour_governors	Governors	false
+pooled_resource_factors_display_name_positive_ironic_langour_court_position	Court Positions Assigned	false
+pooled_resource_factors_display_name_negative_ironic_langour_court_position	Court Positions Assigned	false
+pooled_resource_factors_display_name_positive_ironic_langour_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_langour_assignments	Assignments	false
+pooled_resource_factors_display_name_positive_ironic_langour_character_rank	Character Ranked Up	false
+pooled_resource_factors_display_name_negative_ironic_langour_character_rank	Character Ranked Up	false
+pooled_resource_factors_display_name_positive_ironic_languor_military	Military Force Raised	false
+pooled_resource_factors_display_name_negative_ironic_languor_military	Military Force Raised	false
+pooled_resource_factors_display_name_positive_ironic_languor_recruitment	Characters Recruited	false
+pooled_resource_factors_display_name_negative_ironic_languor_recruitment	Characters Recruited	false
+pooled_resource_factors_display_name_positive_ironic_langour_spies	Spies in Enemy Factions	false
+pooled_resource_factors_display_name_negative_ironic_langour_spies	Spies in Enemy Factions	false
+effect_bundles_localised_title_ironic_languor_lady_wu_married	Lady Wu married	false
+effect_bundles_localised_description_ironic_languor_lady_wu_married	You married Lady Wu!	false
+effects_description_ironic_languor_lady_wu_married	[[b]]%+n[[/b]] Languor	false

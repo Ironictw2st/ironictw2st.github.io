@@ -1,0 +1,422 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/@@ironic_ceo_south.loc		
+ceo_nodes_title_3k_main_ceo_career_historical_kang_qinmeng_ironic	Strict Gentlewoman	true
+ceo_nodes_description_3k_main_ceo_career_historical_kang_qinmeng_ironic	The Lady Kang's seemingly gentle demeanor hides a stern and disciplined heart.	true
+ceo_nodes_title_3k_main_ancilliary_armour_kang_qinmeng_ironic_armour_unique	Kang Qinmeng's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_kang_qinmeng_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yu_fan_ironic	Abrasive Advisor	true
+ceo_nodes_description_3k_main_ceo_career_historical_yu_fan_ironic	Those with sensitive egos should beware of asking advice from Yu Fan. 	true
+ceo_nodes_title_3k_main_ancilliary_armour_yu_fan_ironic_armour_unique	Yu Fan's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_yu_fan_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_su_ironic	Influential Confucian	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_su_ironic	An outspoken critic of some of the contemporary and modern philosophies and moral debates, Wang Su seeks to compile an archive of more traditional codes.	true
+ceo_nodes_title_3k_main_ancilliary_armour_wang_su_ironic_armour_unique	Wang Su's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_wang_su_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_he_qi_ironic	Of Flashy Splendour	true
+ceo_nodes_description_3k_main_ceo_career_historical_he_qi_ironic	Like a streak of lightning burning across a dark night sky, He Qi's extravagance and grandeur in battle are unmissable and unforgettable.	true
+ceo_nodes_title_3k_main_ancilliary_armour_he_qi_ironic_armour_unique	He Qi's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_he_qi_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_si_cong_ironic	Friend of the Shanyue	true
+ceo_nodes_description_3k_main_ceo_career_historical_si_cong_ironic	This local tough uses his connections to the hill folk to recruit muscle for his criminal endeavours.	true
+ceo_nodes_title_3k_main_ceo_career_historical_han_yan_ironic	Promising Commandant 	true
+ceo_nodes_description_3k_main_ceo_career_historical_han_yan_ironic	Han Yan has all the makings of a fine leader of local garrisons and militia.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yuan_zhong_ironic	Partisan of Integrity	true
+ceo_nodes_description_3k_main_ceo_career_historical_yuan_zhong_ironic	A principled man who stands by his beliefs, Yuan Zhong is not afraid to offend others if it means winning a moral battle.	true
+ceo_nodes_title_3k_main_ceo_career_historical_dong_xi_ironic	Courageous Commadore	true
+ceo_nodes_description_3k_main_ceo_career_historical_dong_xi_ironic	"Draw blades and follow me, men! We'll fight them ship to ship!"	true
+ceo_nodes_title_3k_main_ancilliary_armour_dong_xi_ironic_armour_unique	Dong Xi's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_dong_xi_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gu_yong_ironic	Of Quiet Humility	true
+ceo_nodes_description_3k_main_ceo_career_historical_gu_yong_ironic	It is a wise leader who heeds the words of all those in his court, even advisors such as Gu Yong who may not stand out among the louder voices.	true
+ceo_nodes_title_3k_main_ancilliary_armour_gu_yong_ironic_armour_unique	Gu Yong's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_gu_yong_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lu_mei_ironic	The Noble Breeze	true
+ceo_nodes_description_3k_main_ceo_career_historical_lu_mei_ironic	A daughter of a distinguished noble family must keep her decorum, even when her clan is challenged by a discordant storm.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gu_hui_ironic	Trusted Orator	true
+ceo_nodes_description_3k_main_ceo_career_historical_gu_hui_ironic	This civil official has the loyalty and rhetoric required to serve as a trustworthy diplomat and emissary.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gu_shao_ironic	Scholarly Prefect	true
+ceo_nodes_description_3k_main_ceo_career_historical_gu_shao_ironic	Under his tenure as a local official, this one ensures that men of talent are promoted, and order is maintained.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wu_can_ironic	Strong-willed and Dignified 	true
+ceo_nodes_description_3k_main_ceo_career_historical_wu_can_ironic	Even at a young age, Wu Can was promised to rise to greatness. In order to fulfil his potential, he eagerly takes on any task his lord commands of him.	true
+ceo_nodes_title_3k_main_ceo_career_historical_bu_zhi_ironic	Expansionist Minister	true
+ceo_nodes_description_3k_main_ceo_career_historical_bu_zhi_ironic	"I prefer to call them "aggressive negotiations", actually."	true
+ceo_nodes_title_3k_main_ancilliary_armour_bu_zhi_ironic_armour_unique	Bu Zhi's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_bu_zhi_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_hui_qu_ironic	Passive Prefect	true
+ceo_nodes_description_3k_main_ceo_career_historical_hui_qu_ironic	This proud, pertinent prefect prefers peerlessly pushing policies and pursuing peace to picking prickly pallid political pears.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhou_ying_ironic	Militant Noblewoman	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_ying_ironic	The Lady Zhou runs her household and estate with military grade precision and strictness, as befitting one from a warrior clan.	true
+ceo_nodes_title_3k_main_ceo_career_historical_huang_kui_ironic	Of Reckless Plots	true
+ceo_nodes_description_3k_main_ceo_career_historical_huang_kui_ironic	"I hear there is a suspicious individual among us, and it totally is not me! Do not mind me, I am merely performing my tasks, nothing traitorous at all..."	true
+ceo_nodes_title_3k_main_ceo_career_historical_lai_shuang_ironic	Graceful Orator	true
+ceo_nodes_description_3k_main_ceo_career_historical_lai_shuang_ironic	The gracious and charming Lai Shuang can cite the classics and argue with fine rhetoric with just as much mastery as her husband and brother.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lai_min_ironic	Master Debater	true
+ceo_nodes_description_3k_main_ceo_career_historical_lai_min_ironic	With swelling passion and without caring whom he may upset, Lai Min bursts into every debate and dispute, ejaculating phrases and idioms to their utmost girth and potency.	true
+ceo_nodes_title_3k_main_ceo_career_historical_bao_tao_ironic	Of The Vigourous Stampede	true
+ceo_nodes_description_3k_main_ceo_career_historical_bao_tao_ironic	"Scatter before the strength of the Bao clan, villains and caitiffs! Let none doubt our horsemen's' strength!"	true
+ceo_nodes_title_3k_main_ceo_career_historical_bao_zhong_ironic	Eager Forerunner	true
+ceo_nodes_description_3k_main_ceo_career_historical_bao_zhong_ironic	"I, Bao Zhong, will never quiver before a foe, nor flee from a fight! Follow me to victory, men!"	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_gong_ironic	Unheeding Bureaucrat	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_gong_ironic	"The peasants are hungry? Then let them eat rice cake!"	true
+ceo_nodes_title_3k_main_ceo_career_historical_lu_yu_ironic	Captain of the Guards	true
+ceo_nodes_description_3k_main_ceo_career_historical_lu_yu_ironic	"All for one, and one for all!"	true
+ceo_nodes_title_3k_main_ceo_career_historical_lu_fei_ironic	Sweet-natured and Purehearted	true
+ceo_nodes_description_3k_main_ceo_career_historical_lu_fei_ironic	The hand of this noble maiden of Jiangdong is well sought after and competed for.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lu_mao_ironic	Respectable Consultant	true
+ceo_nodes_description_3k_main_ceo_career_historical_lu_mao_ironic	Peer and lord alike are keen to listen to the wise advice of Lu Mao.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lu_dang_ironic	The Uncompromising	true
+ceo_nodes_description_3k_main_ceo_career_historical_lu_dang_ironic	"No half measures."	true
+ceo_nodes_title_3k_main_ceo_career_historical_lu_bing_ironic	Coolheaded Courtesan	true
+ceo_nodes_description_3k_main_ceo_career_historical_lu_bing_ironic	An impeccable vestige of calm within a foul vortex of chaos, Lady Lu Bing gathers gossip and information, practically unseen and unnoticed.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_shao_ironic	Appraiser of Talent	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_shao_ironic	"Come one, come all, and come visit the famous Xu Shao! For the low price of a donation of gifts and a strike to your dignity, you too can walk away with a fancy ephitet that is sure to be remembered by history! Disclaimer -  epithets may or may not be remembered by history, all purchases final. If emotional damage from appraisal persists after three seasons, seek a Daoist monk."	true
+ceo_nodes_title_3k_main_ancilliary_armour_xu_shao_ironic_armour_unique	Xu Shao's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_xu_shao_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhao_yu_ironic	Naïve and Kindhearted	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhao_yu_ironic	Whilst humility and kindness are virtues to strive for, one must be cautious that they are not being taken advantage of by rogues and villains disguised as decent fellows.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yu_zi_ironic	Plundering Scoundrel	true
+ceo_nodes_description_3k_main_ceo_career_historical_yu_zi_ironic	Bullying the weak and reliving the poor of their remaining valuables is an entirely different sort of task than actually fighting a brave and heroic force of armed warriors.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gan_mei_ironic	Breathtaking Beauty	true
+ceo_nodes_description_3k_main_ceo_career_historical_gan_mei_ironic	Gan Mei's kind heart and noble spirit are just as lovely as her famed beauty.	true
+ceo_nodes_title_3k_main_ancilliary_armour_gan_mei_ironic_armour_unique	Gan Mei's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_gan_mei_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lü_you_ironic	Aggressive Defender	true
+ceo_nodes_description_3k_main_ceo_career_historical_lü_you_ironic	The best defense is a good offense, as they say.	true
+ceo_nodes_title_3k_main_ceo_career_historical_que_xuan_ironic	Crosser of Boundaries	true
+ceo_nodes_description_3k_main_ceo_career_historical_que_xuan_ironic	Ambition is one thing, but performing a truly audacious act is another thing entirely.	true
+ceo_nodes_title_3k_main_ancilliary_armour_que_xuan_ironic_armour_unique	Que Xuan's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_que_xuan_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_cao_bao_ironic	Protector of Bases	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_bao_ironic	The homefront is secure as long as Cao Bao is leading the rearguard!	true
+ceo_nodes_title_3k_main_ceo_career_historical_cao_hong_ironic	Insufferable Rogue	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_hong_ironic	It is a leader of dubious character indeed that would allow such an immoral fellow to prosper under his rule.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wu_fan_ironic	Predictor of Calamities	true
+ceo_nodes_description_3k_main_ceo_career_historical_wu_fan_ironic	Pay heed to the farseeing advice of Wu Fan, if disaster is what you wish to evade!	true
+ceo_nodes_title_3k_main_ceo_career_historical_wu_dun_ironic	Unleasher Of Ambuscades	true
+ceo_nodes_description_3k_main_ceo_career_historical_wu_dun_ironic	"Our first weapon is surprise..."	true
+ceo_nodes_title_3k_main_ceo_career_historical_ying_qu_ironic	Satirical Scribe	true
+ceo_nodes_description_3k_main_ceo_career_historical_ying_qu_ironic	Ying Qu's pen crafts witty tales of satire and sarcasm, but his gregarious humour is a front. He is haunted by prophecy, and is always looking over his shoulder for a white hound that will allegedly be a harbinger of his own demise...	true
+ceo_nodes_title_3k_main_ceo_career_historical_chang_xi_ironic	Boorish Brute	true
+ceo_nodes_description_3k_main_ceo_career_historical_chang_xi_ironic	Chang Xi cares about only one thing under the Heavens, and that is the betterment of the life of Chang Xi.	true
+ceo_nodes_title_3k_main_ancilliary_armour_chang_xi_ironic_armour_unique	Chang Xi's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_chang_xi_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_ying_lun_ironic	Learned Damsel	true
+ceo_nodes_description_3k_main_ceo_career_historical_ying_lun_ironic	To some, there is no greater pleasure than being alone, a pile of books and scrolls at your side.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zong_bao_ironic	Holder of the Walls	true
+ceo_nodes_description_3k_main_ceo_career_historical_zong_bao_ironic	This general throws himself into the defense of a city, personally protecting any breach, putting his life on the line if need be.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zuo_chengxu_ironic	Advocate Of Alliances	true
+ceo_nodes_description_3k_main_ceo_career_historical_zuo_chengxu_ironic	"My lord, we simply cannot fend off so many foes alone! Should we not seek aid from another faction or force?"	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_zifu_ironic	Bearer of the Girdle	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_zifu_ironic	This courtier has absolute loyalty to his liege, and is willing to muddy his own reputation and bloody his own hands to see his plots succeed.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_gan_ironic	Exiled Poet	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_gan_ironic	Even when forced on the run, living out as a hermit or refugee, this scholar is capable of crafting the most beautiful of poems, and the most critical of commentaries.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_zhen_ironic	Scholarly Sage	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_zhen_ironic	"The nature of men are all alike, it is their habits that carry them far apart."	true
+ceo_nodes_title_3k_main_ceo_career_historical_xiao_jian_ironic	Unwary Governor	true
+ceo_nodes_description_3k_main_ceo_career_historical_xiao_jian_ironic	Is it truly considered being unguarded and overly trustful if a potential ally attacks without warning?	true
+ceo_nodes_title_3k_main_ceo_career_historical_chen_jiao_ironic	Gregarious Tactician	true
+ceo_nodes_description_3k_main_ceo_career_historical_chen_jiao_ironic	Even on the field of war, Chen Jiao remains unflappable, generous and mirthful.	true
+ceo_nodes_title_3k_main_ceo_career_historical_chen_cong_ironic	Fairhanded Steward	true
+ceo_nodes_description_3k_main_ceo_career_historical_chen_cong_ironic	It is sadly increasingly a rare sight to see a governor perform his duties to his people loyally and without malice or corruption.	true
+ceo_nodes_title_3k_main_ceo_career_historical_chen_ying_ironic	Discordant Hostage	true
+ceo_nodes_description_3k_main_ceo_career_historical_chen_ying_ironic	Even when held prisoner, Chen Ying does what he can to gather information and sow mistrust.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_xuan_ironic	Sedulous Minister	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_xuan_ironic	The industrious Xu Xuan tirelessly throws himself into whatever task is asked of him, and performs them all without hesitation or complaint.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wei_zi_ironic	Valourous and Esteemed	true
+ceo_nodes_description_3k_main_ceo_career_historical_wei_zi_ironic	With blade in hand, Wei Zi leads the charge!	true
+ceo_nodes_title_3k_main_ceo_career_historical_bi_chen_ironic	Trustworthy Aide	true
+ceo_nodes_description_3k_main_ceo_career_historical_bi_chen_ironic	This one can be relied to remain at his lord's side, through thick and thin.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_si_ironic	The Lurking Spider	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_si_ironic	With a carefully laid out web, Xu Si plots, sits, and waits.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_kai_ironic	Unfaithful Hound	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_kai_ironic	Some dogs are quick to bite the hand that feeds them.	true
+ceo_nodes_title_3k_main_ceo_career_historical_fang_yue_ironic	Unshatterable Fang	true
+ceo_nodes_description_3k_main_ceo_career_historical_fang_yue_ironic	Not even the mightiest of blades can penetrate the armour of Fang Yue! Hopefully! Maybe!	true
+ceo_nodes_title_3k_main_ceo_career_historical_han_xuan_ironic	Beneficent Governor	true
+ceo_nodes_description_3k_main_ceo_career_historical_han_xuan_ironic	Despite slanderous rumours to the contrary, Han Xuan is a kind and tolerant leader of men.	true
+ceo_nodes_title_3k_main_ancilliary_armour_han_xuan_ironic_armour_unique	Han Xuan's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_han_xuan_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_mu_shun_ironic	The Unstoppable	true
+ceo_nodes_description_3k_main_ceo_career_historical_mu_shun_ironic	"Few can match Mu Shun's prowess in battle! Just you wait, he'll soon win a great victory and- what?! What do you mean, he's already defeated?!	true
+ceo_nodes_title_3k_main_ceo_career_historical_miao_shang_ironic	Jittery Supervisor	true
+ceo_nodes_description_3k_main_ceo_career_historical_miao_shang_ironic	After being subjected to multiple, bloody regime changes, anyone would be at least slightly nervous.	true
+ceo_nodes_title_3k_main_ceo_career_historical_min_chun_ironic	Forthright Attendant	true
+ceo_nodes_description_3k_main_ceo_career_historical_min_chun_ironic	"Surrender? My lord, you cannot be serious! I would rather die with honour than give up!"	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhu_han_ironic	Violent Thug	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_han_ironic	When Zhu Han seeks vengeance, killing his targets is far too easy. Whilst he is busy enjoying himself mid torture, he never even stops to consider the petty reasons for his violent revenge.	true
+ceo_nodes_title_3k_main_ceo_career_historical_qian_zhao_ironic	Envoy to the Wuhuan	true
+ceo_nodes_description_3k_main_ceo_career_historical_qian_zhao_ironic	Utilising his connections to the northern tribes, Qian Zhao acts like a bridge between cultures.	true
+ceo_nodes_title_3k_main_ancilliary_armour_qian_zhao_ironic_armour_unique	Qian Zhao's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_qian_zhao_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhu_ling_ironic	The Ferocious Bear	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_ling_ironic	Zhu Ling rips through his opposition, like a roaring, rampaging beast.	true
+ceo_nodes_title_3k_main_ancilliary_armour_zhu_ling_ironic_armour_unique	Zhu Ling's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_zhu_ling_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_men_ironic	Two-Faced Charlatan	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_men_ironic	This officer's loyalties are so suspect that even he does not know where they lie.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zou_dan_ironic	Heavyhanded Prefect	true
+ceo_nodes_description_3k_main_ceo_career_historical_zou_dan_ironic	Sometimes, the only way to stamp out dissent and dissidents is with an iron fist.	true
+ceo_nodes_title_3k_main_ceo_career_historical_fan_fang_ironic	Ferocious Frontiersman	true
+ceo_nodes_description_3k_main_ceo_career_historical_fan_fang_ironic	Spending his entire life fighting along the borders has given Shan Jing a rather stern and grim view on life.	true
+ceo_nodes_title_3k_main_ceo_career_historical_shan_jing_ironic	Shield of the Borderlands	true
+ceo_nodes_description_3k_main_ceo_career_historical_shan_jing_ironic	From years of experience, Shan Jing is well aware that only vigilance and military strength can keep the troublesome northern tribes in check.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xiahou_lan_ironic	Military Judge	true
+ceo_nodes_description_3k_main_ceo_career_historical_xiahou_lan_ironic	Without discipline and law, the order of the army soon crumbles to pieces.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gongsun_baoyue_ironic	Moonlit Bladeswoman	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_baoyue_ironic	With a well honed blade and a resilient spirit, the daughter of Gongsun Zan seeks to prove her worth.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yang_yi_ironic	Canny Confidant	true
+ceo_nodes_description_3k_main_ceo_career_historical_yang_yi_ironic	Every lord needs a trusted aide that they can confide their most secret of ambitions to.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_yi_ironic	Adventurous Pirate	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_yi_ironic	From Shandong to the peninsula across the sea, this hearty captain seeks adventure, exploration and plunder!	true
+ceo_nodes_title_3k_main_ceo_career_historical_gongsun_mo_ironic	Committed Expeditionary 	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_mo_ironic	To blaze a trail into unknown lands is a daunting prospect, but Gongsun Mo accepts his duty without question.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_lie_ironic	Seeker of Solitude	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_lie_ironic	This wise disciple wishes only for peace and quiet, and for these damned warlords to leave him alone.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhang_chang_ironic	Trailblazing Explorer	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_chang_ironic	By sea or by foot, Zhang Chang forges ahead into new lands, seeking new discoveries.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gongsun_ya_ironic	Graceful Diplomat	true
+ceo_nodes_description_3k_main_ceo_career_historical_gongsun_ya_ironic	With knowledge of other cultures, and handpicked translators and guides at her side, the Lady Gongsun seeks audiences across far frontiers.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wei_gu_ironic	Of Reliable Reconnaissance	true
+ceo_nodes_description_3k_main_ceo_career_historical_wei_gu_ironic	Even through rugged terrain, Wei Gu can find a path.	true
+ceo_nodes_title_3k_main_ancilliary_armour_wei_gu_ironic_armour_unique	Wei Gu's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_wei_gu_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_fan_xian_ironic	Holder of Fortifications	true
+ceo_nodes_description_3k_main_ceo_career_historical_fan_xian_ironic	Even with only a small garrison to defend it, a strong bastion built on favourable ground can dissuade even a mighty army.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhang_yan_ironic	Callous Criminal	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_yan_ironic	"I am Zhang Yan, the famous mountain bandit, what do you mean you don't recognise me?	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhang_cheng_ironic	Rebellious Outlaw	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_cheng_ironic	Atop his white steed, and with an independent spirit, Zhang Cheng rushes forth wherever the winds guide him.	true
+ceo_nodes_title_3k_main_ceo_career_historical_hu_cai_ironic	Tough and Hefty	true
+ceo_nodes_description_3k_main_ceo_career_historical_hu_cai_ironic	Throwing your weight around isn't the most subtle way to get what you want, but you cannot deny the results.	true
+ceo_nodes_title_3k_main_ceo_career_historical_li_le_ironic	Fleetfooted Thief	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_le_ironic	Li Le aims to be in and out, and long gone before anyone even realises they have been robbed!	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_dan_ironic	Committed Agent	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_dan_ironic	Xu Dan is certainly loyal to someone - you had best hope that it is you, if you put him in a position of power.	true
+ceo_nodes_title_3k_main_ceo_career_historical_shi_ren_ironic	Of Simmering Resent	true
+ceo_nodes_description_3k_main_ceo_career_historical_shi_ren_ironic	Whatever minor slights or faults are committed against Shi Ren, they simmer and boil under the surface, destined to one day explode spectacularly. 	true
+ceo_nodes_title_3k_main_ceo_career_historical_he_kui_ironic	Dignified Moralist	true
+ceo_nodes_description_3k_main_ceo_career_historical_he_kui_ironic	A true man of good moral standing will not allow himself to be bullied or intimidated by the villainous.	true
+ceo_nodes_title_3k_main_ceo_career_historical_guo_gong_ironic	Musterer of Armies	true
+ceo_nodes_description_3k_main_ceo_career_historical_guo_gong_ironic	When Guo Gong announces his call to arms, a force of ten thousand will rush to join him.	true
+ceo_nodes_title_3k_main_ceo_career_historical_shu_shao_ironic	Distributor of Rations	true
+ceo_nodes_description_3k_main_ceo_career_historical_shu_shao_ironic	When the people are hungry and desperate, their needs must be considered above even military matters.	true
+ceo_nodes_title_3k_main_ceo_career_historical_ying_rong_ironic	Incorruptible Tutor	true
+ceo_nodes_description_3k_main_ceo_career_historical_ying_rong_ironic	"Integrity, skill, wisdom and intelligence - such things are forged in adversary."	true
+ceo_nodes_title_3k_main_ceo_career_historical_yu_she_ironic	Daring Duelist	true
+ceo_nodes_description_3k_main_ceo_career_historical_yu_she_ironic	Yu She has declared himself the greatest duelist of the army, and for some reason no one ever really bothered to question that.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xun_zheng_ironic	Staunch Warrior	true
+ceo_nodes_description_3k_main_ceo_career_historical_xun_zheng_ironic	Like a mighty bastion, Xun Zheng stands tall, undaunted and unflappable. He may not have much in the way of political or scholarly acumen, but one could argue such things are a luxury on the battlefield.	true
+ceo_nodes_title_3k_main_ceo_career_historical_li_feng_ironic	The Bitter Gust	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_feng_ironic	Li Feng's dour attitude is akin to a biting, winter gale. His words are laced with cynicism, but are backed up by pragmatic experience.	true
+ceo_nodes_title_3k_main_ceo_career_historical_bing_zhi_ironic	Dauntless Governor	true
+ceo_nodes_description_3k_main_ceo_career_historical_bing_zhi_ironic	Despite his own shyness about his abilities that go beyond mere modesty, Bing Zhi handles bureuacracy as well as any other.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhou_shang_ironic	Artful Magistrate	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_shang_ironic	This fellow of the esteemed Zhou clan carries out administrative duties with the gusto of an unwavering and skilled musician.	true
+ceo_nodes_title_3k_main_ceo_career_historical_li_qian_ironic	Of Sensible Stewardship	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_qian_ironic	Place Li Qian in command of the home front and logistics, to all but guarantee their safekeeping.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wen_ji_ironic	Agile Captain	true
+ceo_nodes_description_3k_main_ceo_career_historical_wen_ji_ironic	This officer has a knack at pushing his men to react swifter than most.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wen_qin_ironic	Of Countless Loyalties	true
+ceo_nodes_description_3k_main_ceo_career_historical_wen_qin_ironic	Does even Wen Qin know which banner he fights under, these days?	true
+ceo_nodes_title_3k_main_ancilliary_armour_wen_qin_ironic_armour_unique	Wen Qin's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_wen_qin_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_cao_qinghe_ironic	Princess Qinghe	true
+ceo_nodes_description_3k_main_ceo_career_historical_cao_qinghe_ironic	It is said that this princess of the Cao clan is as ruthless as she is beautiful.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xiahou_mao_ironic	Boisterous and Blustering	true
+ceo_nodes_description_3k_main_ceo_career_historical_xiahou_mao_ironic	"When I'm in command, every mission is a suicide mission!"	true
+ceo_nodes_title_3k_main_ceo_career_historical_li_meng_ironic	Expert Besieger	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_meng_ironic	Whether you need a wall stormed or a gate knocked down, Li Meng is the man for the job!	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhao_cen_ironic	General Who Guards the Gates	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhao_cen_ironic	Zhao Cen is an officer who specialises in holding down fortifications, making a hundred men feel like ten thousand.	true
+ceo_nodes_title_3k_main_ceo_career_historical_duan_wei_ironic	Dignified Patrician	true
+ceo_nodes_description_3k_main_ceo_career_historical_duan_wei_ironic	The noble Duan Wei attempts to maintain an aura of dignity and honour in a difficult enviornment.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yang_ding_ironic	Inconsistent Commander	true
+ceo_nodes_description_3k_main_ceo_career_historical_yang_ding_ironic	Somehow, this one would get lost looking at the back of his own hand.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wu_xi_ironic	Knife in the Dark	true
+ceo_nodes_description_3k_main_ceo_career_historical_wu_xi_ironic	You will only realise that this retainer is actually a vengeful assassin when it is far too late. 	true
+ceo_nodes_title_3k_main_ceo_career_historical_he_luan_ironic	Heroic Warlord	true
+ceo_nodes_description_3k_main_ceo_career_historical_he_luan_ironic	He Luan has dreams of a brighter future, thus he takes up arms and fights.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wei_duan_ironic	Peacebroking Magistrate	true
+ceo_nodes_description_3k_main_ceo_career_historical_wei_duan_ironic	"A man's mentality will determine how he perceives the world."	true
+ceo_nodes_title_3k_main_ceo_career_historical_wei_qian_ironic	Frontier Aristocrat	true
+ceo_nodes_description_3k_main_ceo_career_historical_wei_qian_ironic	Even on the far borderlands, noble families vie for power and influence.	true
+ceo_nodes_title_3k_main_ceo_career_historical_huang_xun_ironic	Generous Herdsman	true
+ceo_nodes_description_3k_main_ceo_career_historical_huang_xun_ironic	This gregarious landowner eagerly shares his livestock with those in need, expecting nothing in return.	true
+ceo_nodes_title_3k_main_ceo_career_historical_huang_chun_ironic	Of Courageous Sands	true
+ceo_nodes_description_3k_main_ceo_career_historical_huang_chun_ironic	Like many women of the frontier, the ladies of the Huang clan show bravery and defiance in the face of danger.	true
+ceo_nodes_title_3k_main_ceo_career_historical_huang_min_ironic	Gentle and Studious	true
+ceo_nodes_description_3k_main_ceo_career_historical_huang_min_ironic	The Lady Huang is courteous and wise in equal measure.	true
+ceo_nodes_title_3k_main_ceo_career_historical_ge_jing_ironic	Dignified Matriarch	true
+ceo_nodes_description_3k_main_ceo_career_historical_ge_jing_ironic	Ge Jing knows that the fates of noble clans can be fickle, so does all she can to shore up the influence and power of her own family.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yin_feng_ironic	The Blazing Comet	true
+ceo_nodes_description_3k_main_ceo_career_historical_yin_feng_ironic	Like a shooting star emblazoning the midnight sky, Yin Feng stands out amongst his peers!	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_yi_ironic	Man of Misfortune	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_yi_ironic	Sometimes, a single pebble falling out of place can cause a landslide.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhou_che_ironic	Graceful Artist	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_che_ironic	The Lady Zhou has inherited her father's brilliant mind, as well as his artistic flair.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_xun_zitai	Trusting Warlord	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_xun_zitai	It is the curse of the trusting to be magnanimous, generous, and ultimately tricked.	true
+ceo_nodes_title_3k_main_ancilliary_armour_liu_xun_zitai_armour_unique	Liu Xun Zitai's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_liu_xun_zitai_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_song	Ever-faithful	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_song	To support one another, through both the fruitful times and the barren, is the essence of marriage.	true
+ceo_nodes_title_3k_main_ancilliary_armour_wang_song_armour_unique	Wang Song's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_wang_song_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_ai	Frail Maiden	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_ai	This lady has the misfortune of having been cursed with a weak constitution and a sickly body.	true
+ceo_nodes_title_3k_main_ancilliary_armour_liu_ai_armour_unique	Liu Ai's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_liu_ai_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_jin	Discreet Steward	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_jin	Sometimes, it is best just to keep one's head down and bury oneself in work, rather than being disturbed by familial or fraternal affairs.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_xie_zitai	Quickfooted Envoy	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_xie_zitai	"Wait, no, please! Do not kill me! I am just the messenger!"	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_wei	Committed to Kith and Kin	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_wei	This officer has anchored himself to his friends and family, and will share their fate, come what may.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_fu	Architect of Hefei	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_fu	The broken dreams of many a southerner lay smashed before Liu Fu's clever designs.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_jing	Logistical Maestro	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_jing	To the wise and capable Liu Jing, logistics and infrastructure come as naturally as a tune to a skilled songsmith. 	true
+ceo_nodes_title_3k_main_ceo_career_historical_li_shu	Fickle Renegade	true
+ceo_nodes_description_3k_main_ceo_career_historical_li_shu	"Our lord has proven incapable! Now it is I, Li Shu's, time to shine at last! Mwahahahaha!"	true
+ceo_nodes_title_3k_main_ancilliary_armour_li_shu_armour_unique	Li Shu's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_li_shu_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_jiang_qin	Valliant Rivermaster	true
+ceo_nodes_description_3k_main_ceo_career_historical_jiang_qin	A reformed pirate, Jiang Qin seeks mastery over sword and scroll alike, and seeks to prove his dominance over any naval engagement.	true
+ceo_nodes_title_3k_main_ancilliary_armour_jiang_qin_armour_unique	Jiang Qin's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_jiang_qin_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yan_xiang	Orderly Inspector	true
+ceo_nodes_description_3k_main_ceo_career_historical_yan_xiang	For one who has clawed his way up the bureaucratic ladder on his own merits, no job is too small for Yan Xiang.	true
+ceo_nodes_title_3k_main_ceo_career_historical_tong_zhi	Self-declared Governor	true
+ceo_nodes_description_3k_main_ceo_career_historical_tong_zhi	Tong Zhi is an independent warlord - he didn't say it, he declared it.	true
+ceo_nodes_title_3k_main_ancilliary_armour_tong_zhi_armour_unique	Tong Zhi's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_tong_zhi_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_ke_ren	Prickly Madam	true
+ceo_nodes_description_3k_main_ceo_career_historical_ke_ren	"How rude! I demand to speak with your Administrator!"	true
+ceo_nodes_title_3k_main_ancilliary_armour_ke_ren_armour_unique	Ke Ren's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_ke_ren_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_tong_yin	Proudly Passive	true
+ceo_nodes_description_3k_main_ceo_career_historical_tong_yin	There are unfortunately some in this world who foolishly squander their wealth and privileges on frivolous and base ends, rather than the betterment of the state.	true
+ceo_nodes_title_3k_main_ancilliary_armour_tong_yin_armour_unique	Tong Yin's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_tong_yin_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_tong_jie	Of Fierce Independence	true
+ceo_nodes_description_3k_main_ceo_career_historical_tong_jie	The Lady Tong is a fiery trailblazer, eschewing societal norms and generally being something of a trouble maker, unable to be tied down in one place for very long.	true
+ceo_nodes_title_3k_main_ceo_career_historical_tong_you	Strong Willed Son	true
+ceo_nodes_description_3k_main_ceo_career_historical_tong_you	It's actually not that easy to write something informative, humourous or unique for every single minor officer. Imagine I wrote something witty here.	true
+ceo_nodes_title_3k_main_ceo_career_historical_tong_yang	The Blossom of Luling	true
+ceo_nodes_description_3k_main_ceo_career_historical_tong_yang	Let's face it, you didn't read this.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_yi	Commendable Attendant	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_yi	This officer has rightfully earned praise for being a loyal and honourable subordinate.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhou_shan	Relentless Pursuer	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhou_shan	Zhou Shan is committed to ensuring his lord's enemies will never flee his grasp, and will hunt them down like a loyal hound.	true
+ceo_nodes_title_3k_main_ceo_career_historical_jia_hua	Courageous Halberdier	true
+ceo_nodes_description_3k_main_ceo_career_historical_jia_hua	No task is too great an ask for Jia Hua, he will follow any orders without question, even if it puts his own safety at risk.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_dun	Serene Stargazer	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_dun	By observing the movements of the heavens, this one can accurately predict the fates of armies, generals, and even kings and Emperors.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhongli_xu	Grinning Boatsman	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhongli_xu	This commander of the navy has merriment in his heart and a song on his lips, even when steering his ship into the fray.	true
+ceo_nodes_title_3k_main_ceo_career_historical_chunyu_dan	The Point of the Lance	true
+ceo_nodes_description_3k_main_ceo_career_historical_chunyu_dan	When all else fails, CHAAAAARGE!	true
+ceo_nodes_title_3k_main_ceo_career_historical_teng_ling	Of Charming Composure	true
+ceo_nodes_description_3k_main_ceo_career_historical_teng_ling	The level-headed Lady Teng brings a certain calm dignity, that follows her like an aura.	true
+ceo_nodes_title_3k_main_ancilliary_armour_teng_ling_armour_unique	Teng Ling's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_teng_ling_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_hua_ji	Aristocratic and Dignified	true
+ceo_nodes_description_3k_main_ceo_career_historical_hua_ji	In times of peace, the wise man works for the state. In times of war, he works for himself.	true
+ceo_nodes_title_3k_main_ceo_career_historical_guan_ning	The Dragon's Tail	true
+ceo_nodes_description_3k_main_ceo_career_historical_guan_ning	A scholarly man never trusts in outward appearances alone.	true
+ceo_nodes_title_3k_main_ceo_career_historical_bing_yuan	The Belly of the Dragon	true
+ceo_nodes_description_3k_main_ceo_career_historical_bing_yuan	The friendship of a true gentleman is as bland as water, the friendship of a petty person is that of sweet wine.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_yi	Messenger of Merit 	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_yi	A diplomat's task is often one of the most dangerous of all.	true
+ceo_nodes_title_3k_main_ceo_career_historical_jiang_gan	Of Shadowy Smiles	true
+ceo_nodes_description_3k_main_ceo_career_historical_jiang_gan	The scholarly Jiang Gan masks his true motivations behind gregarious laughter and charming sophistry.	true
+ceo_nodes_title_3k_main_ancilliary_armour_jiang_gan_armour_unique	Jiang Gan's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_jiang_gan_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zheng_tai	Unswayable Loyalist	true
+ceo_nodes_description_3k_main_ceo_career_historical_zheng_tai	A dying ember can still reignite a fire.	true
+ceo_nodes_title_3k_main_ancilliary_armour_zheng_tai_armour_unique	Zheng Tai's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_zheng_tai_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zheng_hun	Guardian of Infants	true
+ceo_nodes_description_3k_main_ceo_career_historical_zheng_hun	Children are the future of the state, and must be nurtured and protected.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zheng_mao	Talented Adjudicator	true
+ceo_nodes_description_3k_main_ceo_career_historical_zheng_mao	Zheng Mao is a meticulous minister, planning every minute detail to utmost perfection.	true
+ceo_nodes_title_3k_main_ancilliary_armour_zheng_mao_armour_unique	Zheng Mao's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_zheng_mao_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_cang_ci	Measured Prefect	true
+ceo_nodes_description_3k_main_ceo_career_historical_cang_ci	Not all men of merit need to stand out, some can perform their duties with flourish and flair whilst also keeping their heads down and remaining quiet and humble.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xianyu_dan	Unrelenting Attacker	true
+ceo_nodes_description_3k_main_ceo_career_historical_xianyu_dan	When all you have is a hammer, the whole world begins to look like a nail.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wang_sheng	Mild-mannered Governor	true
+ceo_nodes_description_3k_main_ceo_career_historical_wang_sheng	Wang Sheng is a lord who seeks peace and stability - it can be argued he lacks both the will and capability to make a name for himself in an era of chaos and upheaval. Those under his command, however, likely do not all share his dreams for a tranquil existence...	true
+ceo_nodes_title_3k_main_ancilliary_armour_wang_sheng_armour_unique	Wang Sheng's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_wang_sheng_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_shang_sheng	The Booming Thunderclap	true
+ceo_nodes_description_3k_main_ceo_career_historical_shang_sheng	The mighty Shang Sheng is as unrelenting and unavoidable as a gathering storm.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhang_ya	Southern Typhoon	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_ya	Zhang Ya's temperament is as unpredictable as the weather.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhang_luo	Of Melancholious Drizzle	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhang_luo	Watching one's family tear itself apart is more than enough to dampen the mood of any young lady.	true
+ceo_nodes_title_3k_main_ceo_career_historical_he_xiong	Bolt From the Blue	true
+ceo_nodes_description_3k_main_ceo_career_historical_he_xiong	He Xiong crashes in like an explosion from above, rarely stopping to consider any consequences.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhan_qiang	Tempestuous Overlord	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhan_qiang	When Zhan Qiang sets his sights on a goal, he will not cease until he is satisfied, even if it causes untold destruction to ally and enemy alike in the process.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lang_zhi	Ambitious Inferno	true
+ceo_nodes_description_3k_main_ceo_career_historical_lang_zhi	If one is not careful, the fires of ambition can be snuffed out as quickly as they ignited.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lu_dai	Experienced and Dignified	true
+ceo_nodes_description_3k_main_ceo_career_historical_lu_dai	With age comes wisdom, with veterancy comes experience.	true
+ceo_nodes_title_3k_main_ancilliary_armour_lu_dai_armour_unique	Lu Dai's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_lu_dai_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_dai_liang	Industrious Aide	true
+ceo_nodes_description_3k_main_ceo_career_historical_dai_liang	It can be known that the sign of a truly capable subordinate is one who you barely even notice is doing his job well.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_jue	The Calming Wind	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_jue	This nobleman recognises the limits of his own capabilities, and instead does whatever he can to be a voice of calming reason amidst a cacophony of madness.	true
+ceo_nodes_title_3k_main_ceo_career_historical_liu_zan	The Unflinchable Landslide	true
+ceo_nodes_description_3k_main_ceo_career_historical_liu_zan	Not even maiming and grievous injury will slow down the mighty Liu Zan. He walks off wounds that would end the careers of other warriors, and keeps going stronger than ever.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhu_huan_ironic	The Dire Enshroud	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_huan_ironic	"Mad? I'm not mad! You're mad! I'll kill you, madman!"	true
+ceo_nodes_title_3k_main_ancilliary_armour_zhu_huan_ironic_armour_unique	Zhu Huan's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_zhu_huan_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_ling_tong_ironic	Daring Errant	true
+ceo_nodes_description_3k_main_ceo_career_historical_ling_tong_ironic	For some men, war is a chance to prove one’s self and seek adventure.	true
+ceo_nodes_title_3k_main_ancilliary_armour_ling_tong_ironic_armour_unique	Ling Tong's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_ling_tong_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wu_jing_ironic	Fraternal Noble	true
+ceo_nodes_description_3k_main_ceo_career_historical_wu_jing_ironic	"For family."	true
+ceo_nodes_title_3k_main_ancilliary_armour_wu_jing_ironic_armour_unique	Wu Jing's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_wu_jing_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_rong_fang_ironic	Jiangdong Songstress	true
+ceo_nodes_description_3k_main_ceo_career_historical_rong_fang_ironic	Of humble birth, the Lady Rong has adjusted to noble life with gusto and aplomb.	true
+ceo_nodes_title_3k_main_ancilliary_armour_rong_fang_ironic_armour_unique	Rong Fang's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_rong_fang_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wu_fen_ironic	Wu Wunderkind	true
+ceo_nodes_description_3k_main_ceo_career_historical_wu_fen_ironic	Wu Fen, scion of the Wu clan of Wu county of Wu commandery, may be wooden and wooly in matters of wooing, but is skilled at wushu and is certainly not a wuss.	true
+ceo_nodes_title_3k_main_ceo_career_historical_wu_qi_ironic	Commonplace Officer	true
+ceo_nodes_description_3k_main_ceo_career_historical_wu_qi_ironic	Wu Qi is, without a shadow of a doubt, one of the officers of this era.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_zhen_ironic	Venerable Patron	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_zhen_ironic	"One day, lad, all of this will be yours."	true
+ceo_nodes_title_3k_main_ceo_career_historical_sun_shi_ironic	Swashbuckling Swordswoman	true
+ceo_nodes_description_3k_main_ceo_career_historical_sun_shi_ironic	This brave lady of the Sun clan is adventurous and more comfortable sailing the rivers, than staying at home playing the part of a noble.	true
+ceo_nodes_title_3k_main_ancilliary_armour_sun_shi_ironic_armour_unique	Sun Shi's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_sun_shi_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_kun_ironic	Intrepid General	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_kun_ironic	The mighty Xu Kun is the first in the fray, and the last to leave.	true
+ceo_nodes_title_3k_main_ancilliary_armour_xu_kun_ironic_armour_unique	Xu Kun's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_xu_kun_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_xu_xiu_ironic	Maiden of Fuchun	true
+ceo_nodes_description_3k_main_ceo_career_historical_xu_xiu_ironic	The Lady Xu is renowned throughout her home region for her beauty and graciousness.	true
+ceo_nodes_title_3k_main_ceo_career_historical_zhu_en_ironic	Able Aristocrat	true
+ceo_nodes_description_3k_main_ceo_career_historical_zhu_en_ironic	This seasoned member of the noble Zhu clan watches over his clan with a stern sense of dignity. 	true
+ceo_nodes_title_3k_main_ceo_career_historical_ling_cao_ironic	Swift Boatsman	true
+ceo_nodes_description_3k_main_ceo_career_historical_ling_cao_ironic	On the volatile waters of the Yangtze, few alive can navigate it with Ling Cao's skill and agility.	true
+ceo_nodes_title_3k_main_ancilliary_armour_ling_cao_ironic_armour_unique	Ling Cao's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_ling_cao_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_rui_zhi_ironic	Able-bodied Attendant	true
+ceo_nodes_description_3k_main_ceo_career_historical_rui_zhi_ironic	Throughout his longserving career, Rui Zhi has seen it all.	true
+ceo_nodes_title_3k_main_ceo_career_historical_rui_liang_ironic	Careful Clerk	true
+ceo_nodes_description_3k_main_ceo_career_historical_rui_liang_ironic	Balancing caution and paranoia are key for the psyches of any aspiring bureaucrat.	true
+ceo_nodes_title_3k_main_ceo_career_historical_rui_xuan_ironic	Effective Scribe	true
+ceo_nodes_description_3k_main_ceo_career_historical_rui_xuan_ironic	Rui Xuan maintains the truth, the hard truth, and nothing but the truth.	true
+ceo_nodes_title_3k_main_ceo_career_historical_pan_zhang_ironic	Risk-taking Ambusher	true
+ceo_nodes_description_3k_main_ceo_career_historical_pan_zhang_ironic	"I bet you twenty copper coins that I can capture that general!"	true
+ceo_nodes_title_3k_main_ancilliary_armour_pan_zhang_ironic_armour_unique	Pan Zhang's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_pan_zhang_ironic_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true

@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/xiongnuresource/xiongnuunits.loc		
+land_units_concealed_name_3k_mod_unit_water_xiongnu_assassins	Xiongnu Ranger	false
+land_units_onscreen_name_3k_mod_unit_water_xiongnu_assassins	Xiongnu Ranger	false
+unit_abilities_tooltip_text_Ironic_mod_xiongnu_ranger	Like how a man knows the back of his own hand, the Xiongnu know how to best raid the Han.	true
+unit_abilities_onscreen_name_Ironic_mod_xiongnu_ranger	Xiongnu Knowledge	true
+special_ability_phases_onscreen_name_Ironic_mod_xiongnu_ranger	Xiongnu Knowledge	true
+unit_ability_types_onscreen_name_Ironic_mod_xiongnu_ranger	Active Buff	true

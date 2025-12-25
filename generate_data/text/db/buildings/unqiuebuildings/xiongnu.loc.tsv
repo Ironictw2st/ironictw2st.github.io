@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/buildings/unqiuebuildings/xiongnu.loc		
+building_culture_variants_name_3k_resource_banditry_xiongnu_encampment	Xiongnu Staging Encampment	false
+building_chains_chain_tooltip_3k_resource_banditry_xiongnu_encampment	[[col:flavour]]Xiongnu Staging Encampment[[/col]]	false
+building_chains_encyclopedia_description_3k_resource_banditry_xiongnu_encampment	Xiongnu Staging Encampment	false
+building_chains_encyclopedia_name_3k_resource_banditry_xiongnu_encampment	Xiongnu Staging Encampment	false
+building_chains_override_description_3k_resource_banditry_xiongnu_encampment	Xiongnu Staging Encampment	false

@@ -1,0 +1,4 @@
+id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	sea_animation	navy_animation	religion	land_animation	fallback_composite_display	has_come_of_age
+#campaign_character_arts_tables;9;db/campaign_character_arts_tables/_mtu_characters_child_face																
+825557756	3k_main_art_set_historical_lady_sun_general	0	4	sunren_6yo/	none	3k_main_child_female	sunren_6yo		3k_main_campaign_ship_transport	3k_main_campaign_ship_transport	cam_transport_boat_01	cam_transport_boat_01		anim_set_cam_infantry_1h095_common	EMPTY	false
+303466314	3k_main_art_set_historical_lady_sun_general	0	14	sunren_14yo/	none	3k_main_child_female	sunren_14yo		3k_main_campaign_ship_transport	3k_main_campaign_ship_transport	cam_transport_boat_01	cam_transport_boat_01		anim_set_cam_infantry_1h095_common	EMPTY	false

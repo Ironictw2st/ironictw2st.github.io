@@ -1,0 +1,48 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/xiongnuresource/xiongnuresource.loc		
+----Frontend		true
+---Resource Tooltip		true
+effect_bundles_localised_description_ironic_frontend_leader_xiongnu_tribe_special	Tributes are your people's bloodline without them you cannot keep your own generals in check.	true
+effect_bundles_localised_description_ironic_xiongnu_raiding	Focus on plundering the local region, increasing the amount of loot gained per turn.	true
+effect_bundles_localised_description_ironic_xiongnu_sharing	Share out this army's gathered loot, providing large benefits to the local owned region.	true
+effect_bundles_localised_title_ironic_xiongnu_sharing	Stance: Sharing the Spoils	true
+effect_bundles_localised_title_ironic_frontend_leader_xiongnu_tribe_special	Tributaries	true
+effect_bundles_localised_title_ironic_xiongnu_raiding	Stance: Raiding	true
+effect_bundles_localised_title_ironic_xiongnu_resource_level_0	The Ruins of an Empire 	true
+effect_bundles_localised_title_ironic_xiongnu_resource_level_1	The Verge of Collapse	true
+effect_bundles_localised_title_ironic_xiongnu_resource_level_2	The Foreigner Bandits	true
+effect_bundles_localised_title_ironic_xiongnu_resource_level_3	A Horde of Thousands 	true
+effect_bundles_localised_title_ironic_xiongnu_resource_level_4	The Horror of China 	true
+effect_bundles_localised_title_ironic_xiongnu_resource_level_5	The Great Xiongnu Empire	true
+effect_bundles_localised_description_ironic_xiongnu_resource_level_0	Your ancestors weep at what has become of the Xiongnu. The lords of the Han openly mock your crumbling clan, and your own kith and kin have turned their backs on you. You can barely muster enough tribute to pay your own bodyguards. Calamity awaits such a fatuous chieftain as you.	true
+effect_bundles_localised_description_ironic_xiongnu_resource_level_1	You struggle tooth and nail to prevent your very world from falling apart around you. With your treasury drying up, every day you see more and more depart your clan for more profitable pastures. Even those most loyal to you are expressing their doubts. All those remaining stare at you with greed, and hunger.	true
+effect_bundles_localised_description_ironic_xiongnu_resource_level_2	To those lackies of the Han, growing fat behind their stone walls, you are little more than bandits and brigands from the northern wastes. They know nothing of your culture and people...but also underestimate your strength. They still call you a "barbarian." Show them that the glory days of the mighty Xiongnu still exist beyond the songs and campfire stories.	true
+effect_bundles_localised_description_ironic_xiongnu_resource_level_3	The very heavens have started to quake under the countless hooves you command. Even the most ignorant of southern noble is beginning to realize their folly. Like the Xiongnu heroes of old, you will make the Han remember what real fear feels like. Redeem the shame of your ancestors, and claim your revenge.	true
+effect_bundles_localised_description_ironic_xiongnu_resource_level_4	Once, your people were derided as raiders and pillagers, little more than common thugs and looters. Now, you sweep south as conquerors. Those of the Han with wisdom see the changing tides and side with you. Those foolish enough to resist will burn. The steppes alone cannot contain your ambition. All under the Heavens shall be yours.	true
+effect_bundles_localised_description_ironic_xiongnu_resource_level_5	From the endless steppes to the Central Plains to even further beyond, there are none who do not fear and respect you. Now, it is the Xiongnu who are dominant, whilst the people of the Han cower and prostate themselves before your kin. There are those stupid enough to resist, of course. To them, you shall show no mercy. Eternal glory awaits. 	true
+effects_description_ironic_xiongnu_decay	%-n Tributaries decay	true
+effects_description_ironic_xiongnu_stance	%+n Tributaries increase	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_xiongnu_1	• Increases your prestige	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_xiongnu_2	• Increases Tributaries income	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_xiongnu_3	• Increases via Tributaries & Occupation Options	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_xiongnu_4	• Increases food production	true
+frontend_faction_leader_playstyles_localised_title_ironic_faction_xiongnu	[[b]]Playstyle focus:[[/b]] Tributes and Expansion	true
+frontend_faction_leaders_localised_difficulty_ironic_xiongnu_political_party_208	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_subtitle_ironic_xiongnu_political_party_208	Grievened Xiongnu	true
+pooled_resource_factors_display_name_negative_ironic_xiongnu_tribute_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_xiongnu_tribute_default	Battle lost	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_tribute_building	Buildings	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_tribute_diplomacy	Tributes taken	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_tribute_stance	Stances	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_tribute_victory	Battles won	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_resource_loot	Loot and Occupy Settlement	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_resource_sack	Sacked Settlement	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_resource_occupy	Occupy Settlement	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_resource_gift	Gifted Settlement	true
+pooled_resource_factors_display_name_positive_ironic_xiongnu_resource_raze	Razed Settlements	true
+pooled_resources_description_ironic_xiongnu_tribute	Ever since days of yore, your clansmen have benefited greatly from tributes from those who would rather appease you than face your cavalry. It is your very lifeblood, without it, you cannot expect to maintain the cohesion of your people, never mind carve out an empire.	true
+pooled_resources_display_name_ironic_xiongnu_tribute	Tributaries	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_xiongnu_tribute	Ever since days of yore, your clansmen have benefited greatly from tributes from those who would rather appease you than face your cavalry. It is your very lifeblood, without it, you cannot expect to maintain the cohesion of your people, never mind carve out an empire.	true
+pooled_resources_negative_factors_display_name_ironic_xiongnu_tribute	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_xiongnu_tribute	Increase	true
+ui_text_replacements_localised_text_victory_condition_xiongnu_tribes	China must know our name!	true

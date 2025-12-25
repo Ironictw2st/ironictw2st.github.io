@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/egprinces/control.loc		
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_control_level_3	You tread the fine line between knowing when to trust in the abilities of others and when to take your own decisive action.	true
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_control_level_2	You have developed a reputation for accommodating the needs and ambitions of your subjects.	true
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_control_level_5	Control: Autocratic	true
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_control_level_5	Managing a Kingdom is no small feat; it is clear that none can do it as well as you, nor are you likely to give them the opportunity to try.	true
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_control_level_4	Some responsibility should be delegated, you suppose, but you'll be sure to see that your subjects are adhering to your grand designs.	true
+effect_bundles_localised_description_chibi_effect_bundle_pooled_resource_control_level_1	You allow the ambitions of others to supersede your own; were your subjects to demand that you jump, you would ask "How high?" Get a grip!	true
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_control_level_2	Control: Accommodating	true
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_control_level_4	Control: Domineering	true
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_control_level_3	Control: Balanced	true
+effect_bundles_localised_title_chibi_effect_bundle_pooled_resource_control_level_1	Control: Servile	true

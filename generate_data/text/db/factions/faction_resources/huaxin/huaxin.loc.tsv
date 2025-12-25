@@ -1,0 +1,21 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/huaxin/huaxin.loc		
+effects_description_ironic_hua_xin_effect_bundle_frontend_1	•	false
+effects_description_ironic_hua_xin_effect_bundle_frontend_2	•	false
+effects_description_ironic_hua_xin_effect_bundle_frontend_3	•	false
+effects_description_ironic_hua_xin_effect_bundle_frontend_4	•	false
+effect_bundles_localised_title_ironic_hua_xin_effect_bundle	Efficient Governance	false
+effect_bundles_localised_description_ironic_hua_xin_effect_bundle	With advanced political method, and the pursuit and drive to create a true meritocracy, Hua Xin weaves his governance with remarkable productivity and effectiveness.	false
+effects_generalised_descriptions_localised_description_ironic_hua_xin_effect_bundle_frontend_1	• Unique ministerial positions and faction effects	false
+effects_generalised_descriptions_localised_description_ironic_hua_xin_effect_bundle_frontend_2	• Court positions provide effects that scale with rank of council member	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_earth	Senior Internuncio	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_fire	Master of Writing	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_metal	Gentleman Consultant	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_water	Court Astrologer	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_wood	Intendant	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_earth_description	A role that requires a booming voice and dominating presence, the Senior Internuncio serves as your most grand messenger, spreading your word and will to vassal, ally and enemy alike.	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_fire_description	The most senior officer amongst your secretaries, The Master of Writing ensures that your orders are written concisely, and the correct commands are given to all your subordinates.	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_metal_description	A crafty and wise personal advisor, a Gentleman Consultant has your ear at all times, whispering cunning ploys and ensuring that you are updated on rumours both far and wide.	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_water_description	By mapping the Heavens and predicting their movements and intent, the Court Astrologer forges a path for your armies, using the stars themselves to guide your soldiers to victory.	false
+ministerial_positions_strings_on_screen_ironic_faction_court_minister_hua_xin_commander_wood_description	Responsible for the governance of your capital region, the Intendant manages your most vital territory, allowing you to delegate more responsibilites to local officials.	false
+effects_description_ironic_minister_addon_prime_minister	%+n Prime Minister Slot 	false

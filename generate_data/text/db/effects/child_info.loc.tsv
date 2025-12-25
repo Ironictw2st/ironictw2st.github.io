@@ -1,0 +1,58 @@
+key	text	tooltip
+#Loc;1;text/db/effects/child_info.loc		
+effects_description_ironic_child_zhong_hui	Year: 225, Born: Zhong Hui 	false
+effects_description_ironic_child_xin_xianying	Year: 191, Born: Xin Xianying	false
+effects_description_ironic_child_cao_zhi	Year: 192, Born: Cao Zhi 	false
+effects_description_ironic_child_liu_feng	Year: 192, Born: Liu Feng	false
+effects_description_ironic_child_luo_tong	Year: 193, Born: Luo Tong	false
+effects_description_ironic_child_cao_biao	Year: 195, Born: Cao Biao	false
+effects_description_ironic_child_wang_su	Year: 195, Born: Wang Su	false
+effects_description_ironic_child_cao_jie	Year: 197, Born: Cao Jie	false
+effects_description_ironic_child_cao_shuang	Year: 203, Born: Cao Shuang	false
+effects_description_ironic_child_zhuge_ke	Year: 203, Born: Zhuge Ke	false
+effects_description_ironic_child_cao_rui	Year: 205, Born: Cao Rui	false
+effects_description_ironic_child_sima_shi	Year: 208, Born: Sima Shi	false
+effects_description_ironic_child_gongsun_yuan	Year: 210, Born: Gongsun Yuan	false
+effects_description_ironic_child_sima_zhao	Year: 211, Born: Sima Zhao	false
+effects_description_ironic_child_sun_deng	Year: 209, Born: Sun Deng	false
+effects_description_ironic_child_cao_xi	Year: 210, Born: Cao Xi	false
+effects_description_ironic_child_wang_yuanji	Year: 217, Born: Wang Yuanji	false
+effects_description_ironic_child_jia_chong	Year: 217, Born: Jia Chong	false
+effects_description_ironic_child_guan_suo	Year: 207, Born: Guan Suo (Romance only)	false
+effects_description_ironic_child_liu_shan	Year: 200, Born: Liu Shan	false
+effects_description_ironic_child_guan_yinping	Year: 190, Born: Guan Yinping	false
+effects_description_ironic_child_guan_xing	Year: 193, Born: Guan Xing	false
+effects_description_ironic_child_zhang_xingcai	Year: 190, Born: Zhang Xingcai	false
+effects_description_ironic_child_zhang_bao	Year: 192, Born: Zhang Bao	false
+effect_bundles_localised_title_ironic_child_zhong_yao	Historical Children	false
+effect_bundles_localised_description_ironic_child_zhong_yao	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_cao_cao	Historical Children	false
+effect_bundles_localised_description_ironic_child_cao_cao	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_liu_bei	Historical Children	false
+effect_bundles_localised_description_ironic_child_liu_bei	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_xin_pi	Historical Children	false
+effect_bundles_localised_description_ironic_child_xin_pi	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_luo_jun	Historical Children	false
+effect_bundles_localised_description_ironic_child_luo_jun	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_wang_lang	Historical Children	false
+effect_bundles_localised_description_ironic_child_wang_lang	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_cao_zhen	Historical Children	false
+effect_bundles_localised_description_ironic_child_cao_zhen	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_cao_pi	Historical Children	false
+effect_bundles_localised_description_ironic_child_cao_pi	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_sima_yi           	Historical Children	false
+effect_bundles_localised_description_ironic_child_sima_yi           	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_sun_quan                  	Historical Children	false
+effect_bundles_localised_description_ironic_child_sun_quan                  	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_wang_su	Historical Children	false
+effect_bundles_localised_description_ironic_child_wang_su	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_jia_kui	Historical Children	false
+effect_bundles_localised_description_ironic_child_jia_kui	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_guan_yu	Historical Children	false
+effect_bundles_localised_description_ironic_child_guan_yu	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_zhuge_jin	Historical Children	false
+effect_bundles_localised_description_ironic_child_zhuge_jin	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_gongsun_kang	Historical Children	false
+effect_bundles_localised_description_ironic_child_gongsun_kang	Children born in turbulent times, their paths shaped by legacy and fate.	false
+effect_bundles_localised_title_ironic_child_zhang_fei	Historical Children	false
+effect_bundles_localised_description_ironic_child_zhang_fei	Children born in turbulent times, their paths shaped by legacy and fate.	false

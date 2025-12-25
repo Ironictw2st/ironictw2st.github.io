@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/units/xianbei/xianbei.loc		
+land_units_concealed_name_3k_mod_unit_earth_xianbei_swordguard	Xianbei Swordguard Cavalry	false
+land_units_concealed_name_3k_mod_unit_metal_xianbei_headhunters	Xianbei Headhunters	false
+land_units_onscreen_name_3k_mod_unit_metal_xianbei_headhunters	Xianbei Headhunters	false
+land_units_onscreen_name_3k_mod_unit_earth_xianbei_swordguard	Xianbei Swordguard Cavalry	false
+unit_abilities_tooltip_text_Ironic_mod_tribal_fear	Bravery only last a moment with these tribes, and only if they know if they will win. \\n\\n [[col:green]]This skill starts on a 10 minute cooldown, before triggering [[/col]]	true
+unit_abilities_onscreen_name_Ironic_mod_tribal_fear	Northern Courage	true
+special_ability_phases_onscreen_name_Ironic_mod_tribal_fear	Northern Courage	true
+unit_abilities_tooltip_text_Ironic_mod_xianbei_swordguard	Each warriors has been through their fair share of battles and will berate you on how you do in combat.	true
+unit_abilities_onscreen_name_Ironic_mod_xianbei_swordguard	Supportive "Criticism"	true
+special_ability_phases_onscreen_name_Ironic_mod_xianbei_swordguard	Supportive "Criticism"	true
+unit_ability_types_onscreen_name_Ironic_mod_xianbei_swordguard	Active Buff	true
+unit_ability_types_onscreen_name_Ironic_mod_tribal_fear	Passive Buff	true

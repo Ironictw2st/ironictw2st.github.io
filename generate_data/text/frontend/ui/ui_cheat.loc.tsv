@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/frontend/ui/ui_cheat.loc		
+uied_component_texts_localised_string_button_update_log	UPDATE LOG (VERSION 0.87)	false
+uied_component_texts_localised_string_bullet_point_1_update_log	[[b]]PROGRESSION REWORK[[/b]]	false
+uied_component_texts_localised_string_bullet_point_1_update_log_unit_1	[[b]]Bingzhou Riders[[/b]] (Zhang Yang)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_2	[[b]]Bingzhou Raider Cavalry[[/b]] (Gao Gan)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_3	[[b]]Immovable Blades[[/b]] (Gao Gan)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_4	[[b]]Guardian of Hebei[[/b]] (Han Fu)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_5	[[b]]Swiftfoot Spears[[/b]] (Wang Kuang)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_6	[[b]]Tao Penitents[[/b]] (Zhang Lu)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_7	[[b]]Zhenren Defenders[[/b]] (Zhang Lu)	false
+uied_component_texts_localised_string_bullet_point_1_update_log_1	Major factions get a total of 32 points 	false
+uied_component_texts_localised_string_bullet_point_1_update_log_2	Minor factions get a total of 24 points	false
+uied_component_texts_localised_string_bullet_point_1_update_log_3	Gongsun Zan gets a total of 30 points	false
+uied_component_texts_localised_string_bullet_point_1_update_log_4	All Han factions now start with 2 army cap (1 in case of Liu Bei)	false
+uied_component_texts_localised_string_bullet_point_2_update_log	[[b]]LIU YU REWORK[[/b]]	false
+uied_component_texts_localised_string_bullet_point_2_update_log_1	Adjusted Liu Yu's Northern Courage disable from being given at the start to now being based on his resource (restricted to the last two tiers of his mechanic)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_2	Qiang, Di, Xianbei, and Xiliang characters and regions	false
+uied_component_texts_localised_string_bullet_point_2_update_log_3	Added Yan Rou to the Backbone	false
+uied_component_texts_localised_string_bullet_point_2_update_log_4	PLACEHOLDER	false
+uied_component_texts_localised_string_bullet_point_1_building_1	[[b]]Yufuluo[[/b]] gains a unique banditry building option.	false
+uied_component_texts_localised_string_title_building_new_1	UNIQUE BUILDINGS	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_title	[[b]]ADDITONS + BUG FIXES[[/b]]	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_1	Fixed Gongsun Zan, Yuan Yi, and Yuan Shu not getting their unique skills	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_2	All Han, bandit, and Northern Tribes playable factions should have access to missions	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_3	Fixed Chen Wen not being able to recruit the new units added by the Southern update	false
+uied_component_texts_localised_string_bullet_point_1_building_2	[[b]]Zhang Yang[[/b]] gains a unique forge building option.	false
+uied_component_texts_localised_string_children_character_list_NewState_Text_330073	CHILDREN IN COURT	false
+uied_component_texts_localised_string_family_tree_NewState_Text_201111	Family Tree	false

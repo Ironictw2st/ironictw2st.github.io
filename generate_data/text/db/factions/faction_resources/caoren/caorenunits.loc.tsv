@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/caoren/caorenunits.loc		
+land_units_onscreen_name_skm_cao_ren_guards_earth	Gallant Rangers	false
+unit_description_historical_texts_text_skm_cao_ren_guards_earth	Only the very finest warriors are chosen for the honour of serving Cao Ren as offensive troops. These cavalry of exceptional talent with the deadly jian sword are also powerful archers. \\n\\n When they pass muster, they are rewarded with uniquely-crafted jian swords and composite bows to fight on the frontline. Their arrows have pots of flammable oil affixed to them; the fuses are lit, and the arrow loosed to rain down fire upon their enemies.	false
+unit_description_short_texts_text_skm_cao_ren_guards_earth	The brave sharpshooters on their noble steeds would turn the tide against all who trespass Cao Ren’s unwavering guard.	false

@@ -1,0 +1,67 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/wang_langresource/resource_experience.loc		
+effect_bundles_localised_title_ironic_frontend_leader_experience_special	Erudition 	true
+effect_bundles_localised_title_ironic_experience_resource_level_0	Erudition: Pained	true
+effect_bundles_localised_title_ironic_experience_resource_level_1	Erudition: Aching	true
+effect_bundles_localised_title_ironic_experience_resource_level_2	Erudition: Studious	true
+effect_bundles_localised_title_ironic_experience_resource_level_3	Erudition: Cultivating	true
+effect_bundles_localised_title_ironic_experience_resource_level_4	Erudition: Enlightened	true
+effect_bundles_localised_description_ironic_experience_resource_level_0	Seeing one's logic crumple to dust and realising one is surrounded by ignoramuses is enough to cause even the greatest of scholars to fall off his horse in mental anguish.	true
+effect_bundles_localised_description_ironic_experience_resource_level_1	Jade that is unpolished shall never be useful.	true
+effect_bundles_localised_description_ironic_experience_resource_level_2	Strict teachers produce fine students.	true
+effect_bundles_localised_description_ironic_experience_resource_level_3	Live until you are old, and study until you are old.	true
+effect_bundles_localised_description_ironic_experience_resource_level_4	Even when atop the peaks of brilliance, one must realise that there are no limits to what can be learned and accomplished.	true
+effects_description_ironic_experience_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_experience_armies	[[b]]%+n[[/b]] Erudition 	true
+effects_description_ironic_experience_robin_hood	[[b]]%+n[[/b]] Erudition 	true
+effects_description_ironic_experience_garrisoned	[[b]]%+n[[/b]] Erudition 	true
+effects_description_ironic_experience_vassalized	[[b]]%+n[[/b]] Erudition 	true
+effects_description_ironic_experience_wang_lang_rank	[[b]]%+n[[/b]] Erudition 	false
+effects_description_ironic_experience_info_gain	[[b]]Erudition[[/b]] can be increased by low level characters and assignments.	true
+effects_description_ironic_experience_info_loss	[[b]]Erudition[[/b]] can be decreased by high level characters and assignments.	true
+effect_bundles_localised_title_ironic_experience_effect_bundle	Erudition	false
+effect_bundles_localised_description_ironic_experience_effect_bundle	By embracing the knowledge of the ancients, and through the sharing of new ideas, the state itself can become an academy of learning - to the benefit of all.	false
+effects_generalised_descriptions_localised_description_ironic_wang_lang_frontend_1	• Boost experience gain and starting rank of new generals and units	true
+effects_generalised_descriptions_localised_description_ironic_wang_lang_frontend_2	• Increases salary of characters	true
+effects_generalised_descriptions_localised_description_ironic_wang_lang_frontend_3	• Loss by high rank characters and assignments	true
+effects_generalised_descriptions_localised_description_ironic_wang_lang_frontend_4	• Gain by low rank characters and assignments	true
+pooled_resource_factors_display_name_negative_ironic_experience_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_experience_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_experience_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_experience_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_experience_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_experience_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_experience_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_experience_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_experience_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_experience_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_experience_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_experience_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_experience_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_experience_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_experience_at_war	At War	true
+pooled_resources_description_ironic_experience	By embracing the knowledge of the ancients, and through the sharing of new ideas, the state itself can become an academy of learning - to the benefit of all.	true
+pooled_resources_display_name_ironic_experience	Erudition	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_experience	By embracing the knowledge of the ancients, and through the sharing of new ideas, the state itself can become an academy of learning - to the benefit of all.	true
+pooled_resources_negative_factors_display_name_ironic_experience	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_experience	Increase	true
+ui_text_replacements_localised_text_victory_condition_experience	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_experience_improve	Debate the Classics	false
+ui_character_assignments_localised_description_ironic_experience_improve	In order to find new perspectives on ancient wisdom, and to apply it to the modern world, your officer shall host open, friendly debates among the local scholars. That way, eyes and minds may be opened to new avenues of thinking.	false
+ui_character_assignments_localised_title_ironic_experience_reduce	Cultivate Students	false
+ui_character_assignments_localised_description_ironic_experience_reduce	Knowledge must be freely shared in order to be useful. Your adjutant shall offer their wisdom to the people of the region.	false
+pooled_resource_factors_display_name_negative_ironic_experience_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_experience_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_experience_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_experience_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_experience_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_experience_assignments	Assignments	false
+pooled_resource_factors_display_name_positive_ironic_experience_experiences	Character Rank	false
+pooled_resource_factors_display_name_negative_ironic_experience_experiences	Character Rank	false
+effects_description_ironic_experience_captives_post_battle	[[b]]%+n[[/b]] Erudition	false
+effects_description_ironic_experience_characters	[[b]]%+n[[/b]] Erudition	false
+effects_description_ironic_experience_executed	[[b]]%+n[[/b]] Erudition	false
+effects_description_ironic_experience_assignments	[[b]]%+n[[/b]] Erudition	false
+effect_bundles_localised_title_effect_Bundle_wang_lang_salary	PLACEHOLDER	false
+effect_bundles_localised_description_effect_Bundle_wang_lang_salary	PLACEHOLDER	false
+effects_description_ironic_experience_wang_lang_salary_increase	Salary increases with rank.	false

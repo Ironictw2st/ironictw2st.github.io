@@ -1,0 +1,22 @@
+key	text	tooltip
+#Loc;1;text/db/skills/ironic_skills.loc		
+special_ability_phases_onscreen_name_ironic_mod_trident_throw	Piercing Bite	false
+unit_ability_types_onscreen_name_ironic_mod_trident_throw	Missile Attack	false
+unit_ability_types_localised_description_ironic_mod_trident_throw	With pinpoint accuracy, the trident soars through the air, finding its mark with deadly impunity!	false
+unit_abilities_tooltip_text_ironic_mod_trident_throw	With pinpoint accuracy, the trident soars through the air, finding its mark with deadly impunity!	false
+unit_abilities_onscreen_name_ironic_mod_trident_throw	Piercing Bite	false
+unit_abilities_tooltip_text_ironic_mod_xianbei_hail_of_arrows	From the Heavens themselves, arrows pour on your hapless foes!	false
+unit_abilities_onscreen_name_ironic_mod_xianbei_hail_of_arrows	Ballistic Rain	false
+unit_abilities_tooltip_text_ironic_mod_xianbei_support_ranged	Show the whelps before you the true might of the bows of the Xianbei!	false
+unit_abilities_onscreen_name_ironic_mod_xianbei_support_ranged	Ceaseless Torrent	false
+unit_ability_types_onscreen_name_ironic_mod_xianbei_hail_of_arrows	Missile Attack	false
+unit_ability_types_localised_description_ironic_mod_xianbei_hail_of_arrows	From the Heavens themselves, arrows pour on your hapless foes!	false
+unit_ability_types_onscreen_name_ironic_mod_xianbei_support_ranged	Active Buff	false
+unit_ability_types_localised_description_ironic_mod_xianbei_support_ranged	Show the whelps before you the true might of the bows of the Xianbei!	false
+unit_abilities_tooltip_text_rewiro_190e_pan_feng_strike	None can survive the Heaven-splitting strike of Pan Feng! As long as he doesn't trip.	false
+unit_abilities_onscreen_name_rewiro_190e_pan_feng_strike	Dynamic Strike	false
+character_skills_localised_name_rew_iro_190e_skill_special_ability_fire_decisive_strike	Dynamic Strike	false
+character_skills_localised_description_rew_iro_190e_skill_special_ability_fire_decisive_strike	None can survive the Heaven-splitting strike of Pan Feng. Just hope his weapon doesn't explode or something.	false
+effects_description_rew_iro_ability_pan_feng_strike	Ability: Dynamic Strike	false
+effects_value_format_rew_iro_ability_pan_feng_strike		false
+effects_description_ironic_sun_quan	Ability: Unfettered Fury	false

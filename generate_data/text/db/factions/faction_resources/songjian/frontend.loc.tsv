@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/songjian/frontend.loc		
+effect_bundles_localised_title_ironic_song_jian_resource_desc	Sources	true
+effects_generalised_descriptions_localised_description_ironic_song_jian_frontend_1	• Increases Income and Movement	true
+effects_generalised_descriptions_localised_description_ironic_song_jian_frontend_2	• Reduces Miltary Supplies	true
+effects_generalised_descriptions_localised_description_ironic_song_jian_frontend_3	• Boosted by building and battles	true
+effects_generalised_descriptions_localised_description_ironic_song_jian_frontend_4	• [[b]] Qiang Sway[[/b]] is a resource shared among the Qiang factions, that allows for usage in assignments.	true
+frontend_faction_leader_unique_features_localised_description_ironic_hoarder_of_ways	[[b]]Hoarder of Ways[[/b]]\\n[[col:scope_description]]Spear Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Bonus against Cavalry\\n[[col:red]]-[[/col]] Raiders\\n	true
+frontend_faction_leader_unique_features_localised_description_ironic_hoarder_of_sources	[[b]]Hoarder of Sources[[/b]]\\n[[col:scope_description]]Ranged Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Bombardment\\n[[col:green]]+[[/col]] Oil Arrows\\n[[col:red]]-[[/col]] Weak against Cavalry\\n	true

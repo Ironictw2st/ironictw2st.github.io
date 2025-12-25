@@ -1,0 +1,71 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/zhuge_xuanresource/resource_sleeping_dragon.loc		
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_0	Heavenly Balance: Sleeping	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_0	The Sleeping Dragon bides its time, patiently hiding its claws until the perfect moment to awake.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_1	Heavenly Balance: Hidden	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_1	In patience, the urgent learns the art of grace.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_2	Heavenly Balance: Concealed	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_2	It does not matter how slowly you walk, as long as you do not stop.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_3	Heavenly Balance: Shaded	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_3	Keep your intents hidden by sealing your mouth as if it were a bottle.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_4	Heavenly Balance: Harmonious	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_4	As light and shadow entwine and dance, the true, balanced essence of harmony is revealed.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_5	Heavenly Balance: Brightened	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_5	No matter how tall the mountain, it cannot block the sun.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_6	Heavenly Balance: Rising	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_6	A tiger does not listen to the insults of sheep.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_7	Heavenly Balance: Radiant	true
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_7	When a sagacious ruler does well, his people will think they did the work themselves.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_resource_level_8	Heavenly Balance: Soaring	false
+effect_bundles_localised_description_ironic_sleeping_dragon_resource_level_8	With bursting energy, the dragon's roar cleaves the skies asunder.	false
+effect_bundles_localised_title_ironic_frontend_leader_sleeping_dragon_special	Heavenly Balance	true
+effects_description_ironic_sleeping_dragon_decay	[[b]]%+n[[/b]] Heavenly Balance	true
+effects_description_ironic_sleeping_dragon_armies	[[b]]%+n[[/b]] Heavenly Balance	true
+effects_description_ironic_sleeping_dragon_robin_hood	[[b]]%+n[[/b]] Heavenly Balance	true
+effects_description_ironic_sleeping_dragon_garrisoned	[[b]]%+n[[/b]] Heavenly Balance	true
+effects_description_ironic_sleeping_dragon_vassalized	[[b]]%+n[[/b]] Heavenly Balance	true
+effects_description_ironic_sleeping_dragon_info_gain	[[b]]Heavenly Balance[[/b]] can be increased by offensive battles, enemy casualites, and assignments.	true
+effects_description_ironic_sleeping_dragon_info_loss	[[b]]Heavenly Balance[[/b]] can be decreased by defensive battles, friendly casualities and assignments.	true
+effect_bundles_localised_title_ironic_sleeping_dragon_effect_bundle	Heavenly Balance	false
+effect_bundles_localised_description_ironic_sleeping_dragon_effect_bundle	The universe is governed by the cycles of the Yin and the Yang, dual energies that, when kept in equal measure, ensure harmony and balance in all things. One cannot exist without the other, there is no light without darkness, no up without down. 	false
+effects_generalised_descriptions_localised_description_ironic_sleeping_dragon_effect_bundle_1	• Heavenly Balance is a dual sided resource, units and characters.	true
+effects_generalised_descriptions_localised_description_ironic_sleeping_dragon_effect_bundle_2	• Units gain extra experience and reduced upkeep	true
+effects_generalised_descriptions_localised_description_ironic_sleeping_dragon_effect_bundle_3	• Characters gain extra experience and reduced salary	true
+effects_generalised_descriptions_localised_description_ironic_sleeping_dragon_effect_bundle_4	• Units is gained through offensive battles, while Characters are gained through defensive battles	true
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_at_war	At War	true
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_casualities	Enemy Casualities	false
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_casualities	Friendly Casualities	false
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_at_war	At War	true
+pooled_resources_description_ironic_sleeping_dragon	The universe is governed by the cycles of the Yin and the Yang, dual energies that, when kept in equal measure, ensure harmony and balance in all things. One cannot exist without the other, there is no light without darkness, no up without down. 	true
+pooled_resources_display_name_ironic_sleeping_dragon	Heavenly Balance 	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_sleeping_dragon	The universe is governed by the cycles of the Yin and the Yang, dual energies that, when kept in equal measure, ensure harmony and balance in all things. One cannot exist without the other, there is no light without darkness, no up without down. 	true
+pooled_resources_negative_factors_display_name_ironic_sleeping_dragon	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_sleeping_dragon	Increase	true
+ui_text_replacements_localised_text_victory_condition_sleeping_dragon	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_sleeping_dragon_improve	Bold Preparation	false
+ui_character_assignments_localised_description_ironic_sleeping_dragon_improve	The best plans are sometimes neither subtle or quiet. Have your official act decisively, and let your intentions be known to all under the Heavens.	false
+ui_character_assignments_localised_title_ironic_sleeping_dragon_reduce	Mask Intentions	false
+ui_character_assignments_localised_description_ironic_sleeping_dragon_reduce	Your attendant will work on devious ploys in utmost secrecy, with subtle schemes akin to a dagger hidden in one's sleeve.	false
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_decay	Bar	false
+pooled_resource_factors_display_name_positive_ironic_sleeping_dragon_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_sleeping_dragon_assignments	Assignments	false
+effects_description_ironic_sleeping_dragon_captives_post_battle	[[b]]%+n[[/b]] Heavenly Balance	false
+effects_description_ironic_sleeping_dragon_characters	[[b]]%+n[[/b]] Heavenly Balance	false
+effects_description_ironic_sleeping_dragon_executed	[[b]]%+n[[/b]] Heavenly Balance	false
+effects_description_ironic_sleeping_dragon_assignments	[[b]]%+n[[/b]] Heavenly Balance	false

@@ -1,0 +1,51 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/brage/resource_brage.loc		
+effect_bundles_localised_title_ironic_frontend_leader_rage_special	Barbaric Fervour	true
+effect_bundles_localised_title_ironic_rage_resource_level_0	Barbaric Fervour: Callous 	true
+effect_bundles_localised_title_ironic_rage_resource_level_1	Barbaric Fervour: Perfidious	true
+effect_bundles_localised_title_ironic_rage_resource_level_2	Barbaric Fervour: Rapacious 	true
+effect_bundles_localised_title_ironic_rage_resource_level_3	Barbaric Fervour: Tenacious	true
+effect_bundles_localised_title_ironic_rage_resource_level_4	Barbaric Fervour: Righteous	true
+effect_bundles_localised_title_ironic_rage_resource_level_5	Barbaric Fervour: Ferocious	true
+effect_bundles_localised_title_ironic_rage_resource_level_6	Barbaric Fervour: Zealous	true
+effect_bundles_localised_description_ironic_rage_resource_level_0	You curse your own men for their ineptitude. You flog them for their weakness, you execute them for their cowardice. The disorganised mob you call an army brings shame to the very name of your people.	true
+effect_bundles_localised_description_ironic_rage_resource_level_1	The untrustworthy masses under your alleged control mock you with their incompetence. Your chieftains openly plot against each other and bicker over petty disputes, and your warriors care more about securing their gains than riding into battle. Can you risk your grasp on power slipping even further?	true
+effect_bundles_localised_description_ironic_rage_resource_level_2	You need to bring a heightened sense of order and discipline to your hordes. All they seem to care about is amassing personal glory, and hoarding the spoils of battle. Their greed and avarice may bring about your downfall, lest you cull their baser instincts.	true
+effect_bundles_localised_description_ironic_rage_resource_level_3	Your armies spread out, seeking glory and victory. Although your weak hearted Han rivals may attempt to sway your mind with treaties and promises, pay them no attention. Only the hunger for battle can keep your hordes loyal and able.	true
+effect_bundles_localised_description_ironic_rage_resource_level_4	With soaring morale, and rousing chants, your men charge into the most dangerous of frays. The battle cries of your people echo out, and your martial traditions are on full display. Be sure to keep your force as tempered as a good blade, and aim them as true as well shot arrow.	true
+effect_bundles_localised_description_ironic_rage_resource_level_5	With vim and vigor, your armies are truly relentless. Is there any force in the land capable of halting your momentum? 	true
+effect_bundles_localised_description_ironic_rage_resource_level_6	Your military might decimates all that stand before you! Let rivals try and oppose you. You will crush them, like all the rest.	true
+effects_description_ironic_barbarian_decay	[[b]]%+n[[/b]] Barbaric Fervour	true
+effects_description_ironic_barbarian_armies	[[b]]%+n[[/b]] barbarian(Per Standing Army)	true
+effects_description_ironic_barbarian_rage_rage	[[b]]%+n[[/b]] barbarian(rages)	true
+effects_description_ironic_barbarian_rage_garrisoned	[[b]]%+n[[/b]] barbarian	true
+effects_description_ironic_barbarian_rage_executed	[[b]]%+n[[/b]] Fervour	true
+effects_description_ironic_barbarian_rage_tax	[[b]]%+n[[/b]] Fervour	false
+effects_description_ironic_barbarian_rage_info_gain	[[b]] Barbaric Fervour[[/b]] can be raised by being in wars, certain settlement actions.	true
+effects_description_ironic_barbarian_rage_info_loss	[[b]] Barbaric Fervour[[/b]] can be lower by not being wars and faction rank.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_rage_1		true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_rage_2		true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_rage_3		true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_rage_4		true
+pooled_resource_factors_display_name_negative_ironic_barbarian_rage_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_barbarian_rage_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_execute	Razed Territories	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_barbarian_rage_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_barbarian_rage_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_barbarian_rage_at_war	Peace	true
+pooled_resource_factors_display_name_positive_ironic_barbarian_rage_tax	Tax Level	false
+pooled_resource_factors_display_name_negative_ironic_barbarian_rage_tax	Tax Level	false
+pooled_resources_description_ironic_barbarian_rage	The people of the Han call you "uncivilised", "primitive" or "barbaric." They consider your people their lessers. Prove them wrong.	true
+pooled_resources_display_name_ironic_barbarian_rage	Barbaric Fervour	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_barbarian_rage	The people of the Han call you "uncivilised", "primitive" or "barbaric." They consider your people their lessers. Prove them wrong.	true
+pooled_resources_negative_factors_display_name_ironic_barbarian_rage	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_barbarian_rage	Increase	true

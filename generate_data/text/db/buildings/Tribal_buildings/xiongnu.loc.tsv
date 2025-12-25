@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/buildings/Tribal_buildings/xiongnu.loc		
+building_chains_chain_tooltip_ironic_xiongnu_tribe	[[col:flavour]]Xiongnu Hordes[[/col]]	true
+building_chains_encyclopedia_description_ironic_xiongnu_tribe	Xiongnu Hordes	true
+building_chains_encyclopedia_name_ironic_xiongnu_tribe	Xiongnu Hordes	true
+building_chains_override_description_ironic_xiongnu_tribe	Xiongnu Hordes	true
+building_culture_variants_name_ironic_xiongnu_tribe	Xiongnu Hordes	true
+building_levels_settlement_ui_displays_tooltip_ironic_xiongnu_name	Xiongnu Hordes	true

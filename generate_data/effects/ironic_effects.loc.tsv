@@ -1,0 +1,56 @@
+key	text	tooltip
+#Loc;1;text/db/effects/ironic_effects.loc		
+effects_description_3k_main_effect_attribute_raider	Enables: Raider	true
+effects_description_3k_main_ancillary_defense_formation	Enables formation: Pike, Shield, Spear Wall 	true
+effects_description_3k_main_effect_unit_stats_charge_bonus_modifier_infantry	[[b]]%+n%[[/b]] charge bonus for all infantry	true
+effects_description_3k_main_effect_unit_stats_attack_rate_ranged_units_defensive	[[b]]%+n%[[/b]] attack rate for ranged units when defending	true
+effects_description_3k_main_effect_character_stat_mod_melee_defence_while_defending	[[b]]%+n%[[/b]] melee evasion when defending	true
+effects_description_3k_dlc05_effect_unbreakable_when_defending	Enables: Unbreakable (when defending on campaign map)	true
+effects_description_ironic_effect_wang_kuang_diplomacy	[[b]]%+n[[/b]] diplomatic relations with Wang Kuang's factions	true
+effects_description_ironic_effect_zhang_yang_diplomacy	[[b]]%+n[[/b]] diplomatic relations with Zhang Yang's factions	true
+effects_description_3k_main_effect_captain_mercenary_wuhuan_upgrade	Unlocks Wuhuan Cavalry Captain Retinues	true
+effects_description_3k_main_effect_captain_mercenary_xiongnu_upgrade	Unlocks Xiongnu Cavalry Captain Retinues	true
+effects_description_ironic_effect_bow_shoots_flame	Enables: Fire Arrows	true
+effects_description_3k_ironic_effect_campaign_movement_in_own_regions	[[b]]%+n%[[/b]] campaign movement range when in own region	true
+effects_description_3k_ironic_effect_campaign_movement_sea_in_own_regions	[[b]]%+n%[[/b]] campaign movement range when in own sea region	true
+effects_description_ironic_gdp_mod_all_source_prevent	Prevents income from all sources	true
+effects_description_ironic_dummy_disabled_matched_combat	Disables: Matched Combat	true
+effects_description_iro_rew_effect_force_army_attrition_undersiege	[[b]]%+n%[[/b]] damage taken from sieges	true
+effects_description_iro_rew_effect_force_xp_all_infantry	[[b]]%+n%[[/b]] experience for all infantry	true
+effects_description_iro_rew_effect_recruit_cost_all_infantry	[[b]]%+n%[[/b]] recruitment cost for all infantry	true
+effects_description_iro_rew_effect_force_xp_zhang_lu_peasants_militias	[[b]]%+n%[[/b]] experience for all militia	true
+effects_description_iro_rew_effect_replenishment_zhang_lu_peasant_militias	[[b]]%+n%[[/b]] replenishment for all militia	true
+effects_description_ironic_korea_prestige_gain	[[b]]%+n[[/b]] Prestige	false
+effects_description_ironic_effect_nanman_animal_unit_cap	Unlocks Nanman Animal unit for recruitment	false
+effects_description_ironic_effect_nanman_infantry_unit_cap	Unlocks Nanman Infantry units for recruitment	false
+effects_description_ironic_attribute_unlock_unit	Unlocks corresponding attribute's units for recruitment	false
+effects_description_ironic_unit_increase_ranged_cavalry_base_damage	[[b]]%+n%[[/b]] damage for Missile Cavalry	false
+effects_description_ironic_dummy_effect_assignment_give_xp_to_all_children	Gives Experience to All Children	false
+effects_description_ironic_dummy_effect_assignment_give_xp_to_one_child	Gives Experience to a random child	false
+effects_description_ironic_dummy_effect_assignment_give_xp_to_spouse	Gives Experience to the spouse	false
+effects_description_ironic_effect_public_order_tax_barbarians	[[b]]%+n[[/b]] {{tr:public_order}}	false
+effects_description_ironic_siege_ability	Ability: Inspector of Yan	false
+effects_description_3k_main_effect_unit_stats_morale_abs_traits	[[b]]%+n[[/b]] morale	false
+effects_description_3k_main_effect_province_corruption_traits	[[b]]%+n%[[/b]] corruption	false
+effects_description_ironic_effect_flame_resistance	[[b]]%+n%[[/b]] Fire Resistance	false
+effects_description_ironic_dummy_effect_chance_to_build_towers	[[b]]%+n%[[/b]] Chance to build siege equipment instantly	false
+effects_description_ironic_dummy_effect_province_food_abs_characters	[[b]]%+n[[/b]] food production (characters)	false
+effects_description_3k_main_effect_economy_gdp_mod_commerce_and_culture	[[b]]%+n%[[/b]] income from commerce and culture	false
+effects_description_3k_main_effect_minister_scale_minister_rank	Ministers' effects scale with rank (1/3/5/7/10)	false
+effects_description_ironic_xiongnu_cavalry_replenishment	[[b]]%+n%[[/b]] replenishment for cavalry	false
+effects_description_ironic_disable_northern_courage	Disable: Northern Courage	false
+effects_description_ironic_enable_northern_courage_icon	Enable: Northern Courage	false
+effect_bundles_localised_title_ironic_liu_yu_disable_northern_courage	Northern Courage	false
+effect_bundles_localised_description_ironic_liu_yu_disable_northern_courage	PLACEHOLDER	false
+effects_description_ironic_unit_cap_xiliang_cavalry	Xiliang Cavalry (Vanguard, Rank 3) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_heavy_xiliang	Heavy Xiliang Cavalry (Vanguard, Rank 6) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_di_catapracths	Di Cataphracts (Vanguard, Rank 6) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_di_horse_archer	Di Horse Archers (Strategist, Rank 3) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_di_marauder	Di Marauders (Commander, Rank 6) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_di_raiders	Di Raiders (Vanguard, Rank 3) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_qiang_infantry	Qiang Archers, Polearms, Warriors (all classes, Rank 3) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_xianbei_headhunters	Xianbei Headhunters (Sentinel, Rank 6) available for recruitment: %+n	false
+effects_description_ironic_unit_cap_xianbei_swordguard	Xianbei Swordguard (Commander, Rank 3) available for recruitment: %+n	false
+effects_description_ironic_zhang_yang_unique_bow	This military craftsmen can produce higher quality bows, with a chance of a unique.	false
+effects_description_ironic_zhang_yang_unique_armour	This military craftsmen can produce higher quality armour, with a chance of a unique.	false
+effects_description_ironic_zhang_yang_unique_blade	This military craftsmen can produce higher quality weapons, with a chance of a unique.	false

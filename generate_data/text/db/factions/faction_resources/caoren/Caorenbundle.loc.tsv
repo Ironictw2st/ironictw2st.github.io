@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/caoren/Caorenbundle.loc		
+effect_bundles_localised_title_ironic_faction_cao_ren_frontend	Preparation	true
+effects_generalised_descriptions_localised_description_ironic_faction_cao_ren_frontend_section_1	• Rapid Response	true
+effects_generalised_descriptions_localised_description_ironic_faction_cao_ren_frontend_section_2	• Purchase buffs for the Faction	true
+effects_generalised_descriptions_localised_description_ironic_faction_cao_ren_frontend_section_3	• Improves relations with Liu Biao	true
+effects_generalised_descriptions_localised_description_ironic_faction_cao_ren_frontend_section_4		true
+effect_bundles_localised_title_ironic_lead_by_the_head	For the Clan	true
+effect_bundles_localised_description_ironic_lead_by_the_head	We are the Cai, family of the Liu and for them we shall reunite China!	true
+frontend_faction_leader_unique_features_localised_description_skm_cao_ren_guards_earth	[[b]]Gallant Rangers[[/b]]\\n[[col:scope_description]]Ranged Melee Cavalry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: All rounder\\n[[col:green]]+[[/col]] Has Ranged\\n[[col:red]]-[[/col]] Weak aganist Spears\\n	true

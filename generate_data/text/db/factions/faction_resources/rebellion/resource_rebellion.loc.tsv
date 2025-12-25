@@ -1,0 +1,61 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/rebellion/resource_rebellion.loc		
+effect_bundles_localised_title_ironic_barbarian_resource	Rebellion	true
+effect_bundles_localised_title_ironic_bandit_resource_level_0	Rebellion: Guerilla War	true
+effect_bundles_localised_title_ironic_bandit_resource_level_1	Rebellion: Insurrectionary 	true
+effect_bundles_localised_title_ironic_bandit_resource_level_2	Rebellion: Insurgency 	true
+effect_bundles_localised_title_ironic_bandit_resource_level_3	Rebellion: Saboteur 	true
+effect_bundles_localised_title_ironic_bandit_resource_level_4	Rebellion: Malcontent	true
+effect_bundles_localised_title_ironic_bandit_resource_level_5	Rebellion: Mutinious 	true
+effect_bundles_localised_title_ironic_bandit_resource_level_6	Rebellion: Uprising	true
+effect_bundles_localised_title_ironic_bandit_rebellion_level_7	Rebellion: Revolutionary 	true
+effect_bundles_localised_title_ironic_bandit_rebellion_level_8	Rebellion: Total War	true
+effect_bundles_localised_description_ironic_bandit_resource_level_0	From the shadows, you strike. Your foes can only whisper hushed, feared rumors of your army's movements. You are never where they expect you to be. Let them try and hunt you down - you will not give them the fight they want. Instead, they must battle on your terms. One step at a time, you will dismantle their very institution, from within.	true
+effect_bundles_localised_description_ironic_bandit_resource_level_1	Numbers mean little if the villains cannot even find you. Rather than face their masses, strike them were it really hurts, instead. Spoil their supplies, poison their wells, and burn their infrastructure. Raid them swiftly, then vanish into the night once more.	true
+effect_bundles_localised_description_ironic_bandit_resource_level_2	With traditional warfare barely putting a dent into the military capabilities of your adversary's government, a fresh approach is needed. Consider striking at the morale of their men, and sapping their will to fight. If you cannot best them conventionally, there are other ways to win wars.	true
+effect_bundles_localised_description_ironic_bandit_resource_level_3	Ambushes, traps and feints are your key weapons in this war. Lure hostile armies away from their defensive positions to where you can use the terrain to your advantage!	true
+effect_bundles_localised_description_ironic_bandit_resource_level_4	Whether lurking in the shadows or on the open field, your brothers in arms are ready to fight. As their leader, is is down to you whether your rebellion will be one of subterfuge, or sheer might.	true
+effect_bundles_localised_description_ironic_bandit_resource_level_5	For too long, the people have suffered under tyranny and oppression. Give them something to bolster their spirits, and they will surely join your cause in droves. Even a beggar or a starving peasant can become a fierce warrior with the right leadership.	true
+effect_bundles_localised_description_ironic_bandit_resource_level_6	The people muster under your banners, and your numbers multiply day by day. Can they truly decry you as a "rebel" when you have won the hearts of so many? No longer do you command a disparate motley crew - by now, you are a general in your own right.	true
+effect_bundles_localised_description_ironic_bandit_resource_level_7	Your forces gather in proper formation, with organised ranks and a real command structure. They are tested on the battlefield and eager for more. The fatuous tyrants and their ilk cower behind their walls. Show them that the Heavens themselves yearn for change.	true
+effect_bundles_localised_description_ironic_bandit_resource_level_8	The full mobilisation of your righteous cause is at hand! Your glorious army, united in purpose, marches on in triumph! Neither on open battlefield nor behind their walls can your enemies oppose you. Victory is at hand!	true
+effect_bundles_localised_title_ironic_bandit_garrisoned	Stance: Raiding	true
+effect_bundles_localised_description_ironic_bandit_garrisoned	Focus on plundering the local region, increasing the amount of loot gained per turn.	true
+effects_description_ironic_rebellion_decay	[[b]]%+n%[[/b]] Decay	true
+effects_description_ironic_rebellion_armies	[[b]]%+n[[/b]] Rebellion (Per Standing Army)	true
+effects_description_ironic_bandit_rebellion_bandit	[[b]]%+n[[/b]] Rebellion(bandits)	true
+effects_description_ironic_bandit_rebellion_garrisoned	[[b]]%+n[[/b]] Rebellion(raiding)	true
+effects_description_ironic_bandit_rebellion_vassalized	[[b]]%+n[[/b]] Rebellion(Vassalized)	true
+effects_description_ironic_bandit_rebellion_info_gain	[[b]] Rebellion [[/b]]can be increased by using aggresive and raiding stance. It can also be increased by winning aggresive battles.	true
+effects_description_ironic_bandit_rebellion_info_loss	[[b]] Rebellion [[/b]]can be decreased by using defensive and ambush stance. It can also be increased by winning defensive battles.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_rebellion_1	• Double-sided resource, Defensive or Attacking bonuses.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_rebellion_2	• Unique stances that allow for different set of bonuses.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_rebellion_3	• Powerful bonuses for either attacking or defending.	true
+frontend_faction_leader_playstyles_localised_title_ironic_faction_bandit	[[b]]Playstyle focus:[[/b]] Rebellion	true
+frontend_faction_leaders_localised_difficulty_ironic_bandit_political_party_208	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_subtitle_ironic_bandit_political_party_208		true
+pooled_resource_factors_display_name_negative_ironic_bandit_rebellion_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_bandit_rebellion_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_bandit	bandits	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_garrisoned	Raiding	true
+pooled_resource_factors_display_name_positive_ironic_bandit_rebellion_vassalized	Vassalized	true
+pooled_resource_factors_display_name_negative_ironic_bandit_rebellion_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_bandit_rebellion_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_bandit_rebellion_bandit	Bandit	true
+pooled_resource_factors_display_name_negative_ironic_bandit_rebellion_garrisoned	Raiding	true
+pooled_resource_factors_display_name_negative_ironic_bandit_rebellion_vassalized	Vassalized	true
+pooled_resources_description_ironic_bandit_rebellion	Your faction are separatists, secessionists or revolutionaries, outcasts of the established status quo. Whether you fight for a religious cause, to restore a lost noble house, or to better the people, you will need cleverness or might to successfully resist the "legal" government. 	true
+pooled_resources_display_name_ironic_bandit_rebellion	Rebellion	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_bandit_rebellion	Your faction are separatists, secessionists or revolutionaries, outcasts of the established status quo. Whether you fight for a religious cause, to restore a lost noble house, or to better the people, you will need cleverness or might to successfully resist the "legal" government. 	true
+pooled_resources_negative_factors_display_name_ironic_bandit_rebellion	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_bandit_rebellion	Increase	true
+ui_text_replacements_localised_text_victory_condition_bandit	CHINA MUST BE UNITED!	true

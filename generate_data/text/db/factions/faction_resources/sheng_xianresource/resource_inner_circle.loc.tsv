@@ -1,0 +1,64 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/sheng_xianresource/resource_inner_circle.loc		
+effect_bundles_localised_title_ironic_frontend_leader_inner_circle_special	Inner Circle	true
+effect_bundles_localised_title_ironic_inner_circle_resource_level_0	Inner Circle: Closed Circle	true
+effect_bundles_localised_title_ironic_inner_circle_resource_level_1	Inner Circle: Open Circle	true
+effect_bundles_localised_description_ironic_inner_circle_resource_level_0	Your officers are as close as your very kin, as much friends as they are subordinates. Keep them happy and they will keep you safe. Be aware of those worming in from without, not all carry your best intentions with them.	true
+effect_bundles_localised_description_ironic_inner_circle_resource_level_1	People of merit and talent flock to your borders, learning of your magnanimity and seeking sanctuary.  Your kindness wills you to open your doors to all comers, but be sure not to neglect those who have been at your side even during the hardest of times. 	true
+effects_description_ironic_inner_circle_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_inner_circle_armies	[[b]]%+n[[/b]] Inner Circle	true
+effects_description_ironic_inner_circle_robin_hood	[[b]]%+n[[/b]] Inner Circle	true
+effects_description_ironic_inner_circle_garrisoned	[[b]]%+n[[/b]] Inner Circle	true
+effects_description_ironic_inner_circle_vassalized	[[b]]%+n[[/b]] Inner Circle	true
+effects_description_ironic_inner_circle_info_gain	[[b]]Inner Circle[[/b]] can be increased by positive relationships and buildings	true
+effects_description_ironic_inner_circle_info_loss	[[b]]Inner Circle[[/b]] can be decreased by assignments, negative relationships, and each character in faction.	true
+effect_bundles_localised_title_ironic_inner_circle_effect_bundle	Inner Circle	true
+effect_bundles_localised_description_ironic_inner_circle_effect_bundle	No man is an island, a ruler cannot govern alone. A trusted cabal of loyal generals and officials must be nurtured, officers that you can trust explicitly. Many will use honeyed words to charm their way into your court, but be sure to hire and promote only those truly loyal. 	true
+effects_generalised_descriptions_localised_description_ironic_inner_circle_effect_bundle_1	• Inner Circle boosts the character pool size, salary, and satisfaction.	true
+effects_generalised_descriptions_localised_description_ironic_inner_circle_effect_bundle_2	• Inner Circle is drained by the amount of characters in your faction and negative relationships with the faction leader.	true
+effects_generalised_descriptions_localised_description_ironic_inner_circle_effect_bundle_3	• Inner Circle is gained by positive relationships and the unique building.	true
+effects_generalised_descriptions_localised_description_ironic_inner_circle_effect_bundle_4	• Inner Circle is used to recruit new characters.	true
+pooled_resource_factors_display_name_negative_ironic_inner_circle_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_inner_circle_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_inner_circle_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_inner_circle_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_inner_circle_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_inner_circle_at_war	At War	true
+pooled_resources_description_ironic_inner_circle	No man is an island, a ruler cannot govern alone. A trusted cabal of loyal generals and officials must be nurtured, officers that you can trust explicitly. Many will use honeyed words to charm their way into your court, but be sure to hire and promote only those truly loyal. 	true
+pooled_resources_display_name_ironic_inner_circle	Inner Circle	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_inner_circle	No man is an island, a ruler cannot govern alone. A trusted cabal of loyal generals and officials must be nurtured, officers that you can trust explicitly. Many will use honeyed words to charm their way into your court, but be sure to hire and promote only those truly loyal. 	true
+pooled_resources_negative_factors_display_name_ironic_inner_circle	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_inner_circle	Increase	true
+ui_text_replacements_localised_text_victory_condition_inner_circle	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_inner_circle_improve	Hold Banquet	false
+ui_character_assignments_localised_description_ironic_inner_circle_improve	Honour your general with a feast and celebration in their name! Share cups of wine and stories, and freely chat not as lord and officer, but as kith and true friends.	false
+pooled_resource_factors_display_name_negative_ironic_inner_circle_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_inner_circle_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_inner_circle_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_inner_circle_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_inner_circle_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_inner_circle_assignments	Assignments	false
+effects_description_ironic_inner_circle_captives_post_battle	[[b]]%+n[[/b]] Inner Circle	false
+effects_description_ironic_inner_circle_characters	[[b]]%+n[[/b]] Inner Circle	false
+effects_description_ironic_inner_circle_executed	[[b]]%+n[[/b]] Inner Circle	false
+effects_description_ironic_inner_circle_buildings	[[b]]%+n[[/b]] Inner Circle	false
+effects_description_ironic_inner_circle_assignments	[[b]]%+n[[/b]] Inner Circle	false
+pooled_resource_factors_display_name_positive_ironic_inner_circle_recruitment	Recruitment	false
+pooled_resource_factors_display_name_negative_ironic_inner_circle_recruitment	Recruitment	false
+pooled_resource_factors_display_name_positive_ironic_inner_circle_relationships	Positive Relationships	false
+pooled_resource_factors_display_name_negative_ironic_inner_circle_relationships	Negative Relationships	false
+pooled_resource_factors_display_name_positive_ironic_inner_circle_characters	Characters in Court	false
+pooled_resource_factors_display_name_negative_ironic_inner_circle_characters	Characters in Court	false
+pooled_resource_factors_display_name_negative_ironic_inner_circle_buildings	Buildings	false
+pooled_resource_factors_display_name_positive_ironic_inner_circle_buildings	Buildings	false
+incidents_localised_title_ironic_inner_circle_relationship_improvement	A Successful Banquest	false
+incidents_localised_description_ironic_inner_circle_relationship_improvement	PLACEHOLDER	false

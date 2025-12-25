@@ -1,0 +1,27 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/caoren/caorencourt.loc		
+ui_character_actions_localised_title_ironic_faction_purchase_preparation_formation_infantry	Teach Formation: Infantry	true
+ui_character_actions_localised_description_ironic_faction_purchase_preparation_formation_infantry	The finest instructors you can find shall whip your footsoldiers into shape.	true
+ui_character_actions_localised_fallback_tooltip_ironic_faction_purchase_preparation_formation_infantry	The finest instructors you can find shall whip your footsoldiers into shape.	true
+ui_character_actions_localised_title_ironic_faction_purchase_preparation_formation_horse	Teach Formation: Cavalry	true
+ui_character_actions_localised_description_ironic_faction_purchase_preparation_formation_horse	Veterans of the Tiger and Leopard riders are on hand to organise and prepare your horsemen.	true
+ui_character_actions_localised_fallback_tooltip_ironic_faction_purchase_preparation_formation_horse	Veterans of the Tiger and Leopard riders are on hand to organise and prepare your horsemen.	true
+ui_character_actions_localised_title_ironic_faction_purchase_preparation_replenishment	Forced Recruitment	true
+ui_character_actions_localised_description_ironic_faction_purchase_preparation_replenishment	The menfolk of every village, every town, every prefecture are commanded by law to fulfil their military duties to defend the Empire. 	true
+ui_character_actions_localised_fallback_tooltip_ironic_faction_purchase_preparation_replenishment	The menfolk of every village, every town, every prefecture are commanded by law to fulfil their military duties to defend the Empire. 	true
+ui_character_actions_localised_title_ironic_faction_purchase_preparation_movement	Forced Movement	true
+ui_character_actions_localised_description_ironic_faction_purchase_preparation_movement	In battle, swiftness is key to victory. Any man who cannot keep up with the march shall be punished as per military law.	true
+ui_character_actions_localised_fallback_tooltip_ironic_faction_purchase_preparation_movement	In battle, swiftness is key to victory. Any man who cannot keep up with the march shall be punished as per military law.	true
+ui_character_actions_localised_title_ironic_faction_purchase_preparation_arrow_production	Arrow Production	true
+ui_character_actions_localised_description_ironic_faction_purchase_preparation_arrow_production	Resources will be allocated to collect arrows and bolts for your armies. Let every quiver bulge, and let the skies blacken with a rain of missiles.	true
+ui_character_actions_localised_fallback_tooltip_ironic_faction_purchase_preparation_arrow_production	Resources will be allocated to collect arrows and bolts for your armies. Let every quiver bulge, and let the skies blacken with a rain of missiles.	true
+effect_bundles_localised_title_ironic_faction_purchase_preparation_formation_infantry	Teach Formation: Infantry	true
+effect_bundles_localised_description_ironic_faction_purchase_preparation_formation_infantry	The finest instructors you can find shall whip your footsoldiers into shape.	true
+effect_bundles_localised_title_ironic_faction_purchase_preparation_formation_horse	Teach Formation: Cavalry	true
+effect_bundles_localised_description_ironic_faction_purchase_preparation_formation_horse	Veterans of the Tiger and Leopard riders are on hand to organise and prepare your horsemen.	true
+effect_bundles_localised_title_ironic_faction_purchase_preparation_replenishment	Forced Recruitment	true
+effect_bundles_localised_description_ironic_faction_purchase_preparation_replenishment	The menfolk of every village, every town, every prefecture are commanded by law to fulfil their military duties to defend the Empire. 	true
+effect_bundles_localised_title_ironic_faction_purchase_preparation_movement	Forced Movement	true
+effect_bundles_localised_description_ironic_faction_purchase_preparation_movement	In battle, swiftness is key to victory. Any man who cannot keep up with the march shall be punished as per military law.	true
+effect_bundles_localised_title_ironic_faction_purchase_preparation_arrow_production	Arrow Production	true
+effect_bundles_localised_description_ironic_faction_purchase_preparation_arrow_production	Resources will be allocated to collect arrows and bolts for your armies. Let every quiver bulge, and let the skies blacken with a rain of missiles.	true

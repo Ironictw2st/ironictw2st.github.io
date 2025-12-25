@@ -1,0 +1,70 @@
+key	text	tooltip
+#Loc;1;text/frontend/ui/more_content.loc		
+more_content_component_credit_title	Credits	false
+more_content_component_credit_desc_author	Mod Author: Ironic & Rewan	false
+more_content_component_credit_desc_lore	Lore & Flavor Text: Gaz	false
+more_content_component_credit_desc_art	Art: SpartanAssassin & Supa & Lemony & Pieces & Puzzle Team	false
+more_content_component_credit_desc_model	Models: DrunkenPanda & Crucius	false
+more_content_component_credit_desc_beta	Beta Testers: Lain, Hover, Total Warlord, Intrex, Mr Nana, Axiom, Samio, Knt, RexNatura, Abel, Beans, BlackLight, Apostle, Digitmetal, F2pmaniac, Harz, Melia, Raiderack, DreamingDragon, Smisloff, TheReaperOfChess, Tory, usernamehere, ΣyN	false
+more_content_component_credit_desc_script	Script & UI Help: Alex Zhao, Sleeping Rowlet & Deezy	false
+more_content_component_credit_desc_etc	Others: MutatedTree	false
+more_content_component_credit_desc_korean	Korean Unit Card Illustrations & Lore: SilverCat	false
+more_content_component_spy_title	Character Spies	false
+more_content_component_spy_bullet_1	Characters in your recruitment pool no longer display the spy icon until they are recruited.	false
+more_content_component_spy_bullet_2		false
+more_content_component_spy_bullet_3		false
+more_content_component_AOR_title	Area of Recruitment System	false
+more_content_component_AOR_bullet_1	Area of Recruitment is a [[b]]PLAYER ONLY[[/b]] mechanic to prevent AI complications.	false
+more_content_component_AOR_bullet_2	Unique units from provincial buildings can only be recruited in their specific region and its capital.	false
+more_content_component_AOR_bullet_3	Certain factions have exemptions - for example, Kong Rong can recruit Qi units regardless of location.	false
+more_content_component_side_building_title	Building System Overhaul	false
+more_content_component_side_building_bullet_1	Side buildings have been removed and replaced with Provincial Buildings.	false
+more_content_component_mct_title	Mod Configuration Tool	false
+more_content_component_mct_bullet_1	Starting events have been removed - you now need the MCT mod to enable options.	false
+more_content_component_mct_bullet_2	These changes persist throughout each save game.	false
+more_content_component_progression_changes_title	Faction Progression Changes	false
+more_content_component_progression_changes_bullet_1	Progression now differs between Major and Minor Factions.	false
+more_content_component_progression_changes_bullet_2	Major Factions can now acquire one additional full bar (32 points total).	false
+more_content_component_progression_changes_bullet_3	Minor Factions remain at 24 points, unchanged from vanilla.	false
+more_content_component_progression_changes_bullet_4	All Han factions now start with 2 armies (except Liu Bei, who starts with 1).	false
+more_content_component_resource_buildings_title	Fortified Resource Counties [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_resource_buildings_bullet_1	Resource counties now gain defensive walls at Tiers 4 and 5.	false
+more_content_component_character_rank_title	Rank-Based Unit Unlocks [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_character_rank_bullet_1	Unit unlocks have been moved from Reforms to character rank requirements.	false
+more_content_component_character_rank_bullet_2	Higher-ranked characters can recruit more advanced unit types.	false
+more_content_component_traits_court_title	Trait-Based Court Positions	false
+more_content_component_traits_court_bullet_1	Basic Court Positions now provide bonuses or penalties based on character traits.	false
+more_content_component_traits_court_bullet_2	These effects do not carry over when becoming Emperor.	false
+more_content_component_nomadic_generics_title	Nomadic Generic Characters	false
+more_content_component_nomadic_generics_bullet_1	Nomadic factions can now generate faction-specific generic characters.	false
+more_content_component_nomadic_generics_bullet_2	Currently available only for Xianbei factions.	false
+more_content_component_title_change_title	Title & Armor Rebalance	false
+more_content_component_title_change_bullet_1	Titles are now categorized into three tiers: Generic, Unique, and Faction Leader.	false
+more_content_component_title_change_bullet_2	Generic titles provide 1 effect, Unique titles provide 2 effects, and select faction leaders receive 3 effects.	false
+more_content_component_title_change_bullet_3	All unique armor pieces grant 1 additional effect.	false
+more_content_component_spousal_effects_title	Spousal Bonuses	false
+more_content_component_spousal_effects_bullet_1	Spousal Bonuses are unique effects applied from the wife to the husband.	false
+more_content_component_spousal_effects_bullet_2	These unique bonuses range from character, army, region, and faction-wide.	false
+more_content_component_child_birth_title	Historical Children	false
+more_content_component_child_birth_bullet_1	Children born after 190 AD, are now spawned in when their birth year is, if their parent is still alive. (Such as, Cao Zhi)	false
+more_content_component_character_spawns_title	Character Spawns	false
+more_content_component_character_spawns_bullet_1	Characters who join faction during certain years, are now included, find Man Chong and more!	false
+more_content_component_attribute_change_title	Attribute Changes [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_attribute_change_bullet_point_1	All Attributes have been changed, now they provide, one minister, one admin, and one character bonus.	false
+more_content_component_attribute_change_bullet_point_2	Expertise loses it ability to reduce building cost, and now provides it faction-wide.	false
+more_content_component_building_changes_title	Building Changes [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_building_changes_bullet_point_1	Buildings have been changed to prevent the Commerce + Industry spam.	false
+more_content_component_building_changes_bullet_point_2	All income types are viable, and now provide more bonuses	false
+more_content_component_building_changes_bullet_point_3	Corruption is now more deadly as it's limited to one building.	false
+more_content_component_unit_balance_title	Unit Balance [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_unit_balance_bullet_point_1	All units are been tweaked to be useful in their specific situations.	false
+more_content_component_yellow_turban_recruitment_title	Yellow Turban Recruitment	false
+more_content_component_yellow_turban_recruitment_bullet_point_1	As Han, you are now able to recruit Yellow Turban generals.	false
+more_content_component_yellow_turban_recruitment_bullet_point_2	As Yellow Turban, you are now able to recruit Han generals.	false
+more_content_component_character_count_title	Character Roster Expansion	false
+more_content_component_character_count_bullet_point_1	Current total of unique characters increased to 533 across all factions.	false
+more_content_component_character_count_bullet_point_2	These either start in the map, or spawn in later, to specific factions or to recruitment pools.	false
+more_content_component_progression_tradeoffs_title	Progression Tradeoffs  [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_progression_tradeoffs_bullet_point_1	Progression now comes with tradeoffs, each upgrade threshold passed comes with a negative effect	false
+more_content_component_trait_changes_title	Trait Changes	false
+more_content_component_trait_changes_bullet_point_1	Traits no longer appear passively, and are influenced based on what your generals are doing.	false

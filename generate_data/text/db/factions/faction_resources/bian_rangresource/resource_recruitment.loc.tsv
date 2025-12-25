@@ -1,0 +1,63 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/bian_rangresource/resource_recruitment.loc		
+effect_bundles_localised_title_ironic_frontend_leader_recruitment_special	Rectitude	true
+effect_bundles_localised_title_ironic_recruitment_resource_level_0	Rectitude: Unrecognized	true
+effect_bundles_localised_title_ironic_recruitment_resource_level_1	Rectitude: Meek	true
+effect_bundles_localised_title_ironic_recruitment_resource_level_2	Rectitude: Confidant	true
+effect_bundles_localised_title_ironic_recruitment_resource_level_3	Rectitude: Righteous	true
+effect_bundles_localised_title_ironic_recruitment_resource_level_4	Rectitude: Magnanimous	true
+effect_bundles_localised_description_ironic_recruitment_resource_level_0	Although a wise man seeks no fame, a prudent leader must chase it.	true
+effect_bundles_localised_description_ironic_recruitment_resource_level_1	Care too much about what others think of you, and you will always be their prisoner.	true
+effect_bundles_localised_description_ironic_recruitment_resource_level_2	Opportunity opens doors, but you must be the one who walks through.	true
+effect_bundles_localised_description_ironic_recruitment_resource_level_3	A man who displays probity is a faithful one.	true
+effect_bundles_localised_description_ironic_recruitment_resource_level_4	Choose the virtuous path, and adhere to it.	true
+effects_description_ironic_recruitment_decay	[[b]]%+n[[/b]] Rectitude	true
+effects_description_ironic_recruitment_armies	[[b]]%+n[[/b]] Rectitude	true
+effects_description_ironic_recruitment_robin_hood	[[b]]%+n[[/b]] Rectitude	true
+effects_description_ironic_recruitment_garrisoned	[[b]]%+n[[/b]] Rectitude	true
+effects_description_ironic_recruitment_vassalized	[[b]]%+n[[/b]] Rectitude	true
+effects_description_ironic_recruitment_info_gain	[[b]]Rectitude[[/b]] can be increased by assignments and the resource itself	true
+effects_description_ironic_recruitment_info_loss	[[b]]Rectitude[[/b]] is used to purchase officers and run assignments	true
+effect_bundles_localised_title_ironic_recruitment_effect_bundle	Rectitude	false
+effect_bundles_localised_description_ironic_recruitment_effect_bundle	PLACEHOLDER	false
+effects_generalised_descriptions_localised_description_ironic_recruitment_frontend_1	• Used to recruit characters	true
+effects_generalised_descriptions_localised_description_ironic_recruitment_frontend_2	• Reduces desire for higher offices and salary	true
+effects_generalised_descriptions_localised_description_ironic_recruitment_frontend_3	• Gain through passive increase and assignments	true
+effects_generalised_descriptions_localised_description_ironic_recruitment_frontend_4	• Loss through assignments and purchasing characters	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_recruitment	Characters Recruited	false
+pooled_resource_factors_display_name_negative_ironic_recruitment_recruitment	Characters Recruited	false
+pooled_resource_factors_display_name_negative_ironic_recruitment_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_recruitment_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_recruitment_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_recruitment_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_recruitment_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_recruitment_at_war	At War	true
+pooled_resources_description_ironic_recruitment	A measure of your worth as a man, and fame as a scholar. Talented bureaucrats, exiled nobles, refugee scholars and mighty warriors alike will flock to the banners of a lord they consider worthy. Prove to the realm that you are that lord.	true
+pooled_resources_display_name_ironic_recruitment	Rectitude	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_recruitment	A measure of your worth as a man, and fame as a scholar. Talented bureaucrats, exiled nobles, refugee scholars and mighty warriors alike will flock to the banners of a lord they consider worthy. Prove to the realm that you are that lord.	true
+pooled_resources_negative_factors_display_name_ironic_recruitment	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_recruitment	Increase	true
+ui_text_replacements_localised_text_victory_condition_recruitment	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_recruitment_improve	Spread Word	false
+ui_character_assignments_localised_description_ironic_recruitment_improve	By giving impassioned speeches in village squares, spreading rumours and placing "gifts" in the hands of the influential, your aide can quickly spread word of your virtuous deeds.	false
+ui_character_assignments_localised_title_ironic_recruitment_reduce	Hire Bureaucrats	false
+ui_character_assignments_localised_description_ironic_recruitment_reduce	Send your officer out to find and recruit talented and worthy men to fill the lower ranks of your offices. Reform is never cheap or easy, but can pay dividends in the long term.	false
+pooled_resource_factors_display_name_negative_ironic_recruitment_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_recruitment_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_recruitment_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_recruitment_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_recruitment_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_recruitment_assignments	Assignments	false
+effects_description_ironic_recruitment_captives_post_battle	[[b]]%+n[[/b]] Rectitude	false
+effects_description_ironic_recruitment_characters	[[b]]%+n[[/b]] Rectitude	false
+effects_description_ironic_recruitment_executed	[[b]]%+n[[/b]] Rectitude	false
+effects_description_ironic_recruitment_assignments	[[b]]%+n[[/b]] Rectitude	false

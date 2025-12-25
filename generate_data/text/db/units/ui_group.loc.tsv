@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/units/ui_group.loc		
+ui_unit_groupings_tooltip_ironic_unit_polearm_special_fire	PLACEHOLDER	false
+ui_unit_groupings_onscreen_ironic_unit_polearm_special_fire	Lancer Infantry	false
+ui_unit_groupings_tooltip_ironic_unit_dual_swords_special_metal	PLACEHOLDER	false
+ui_unit_groupings_onscreen_ironic_unit_dual_swords_special_metal	Sword Cavalry	false
+ui_unit_groupings_tooltip_	PLACEHOLDER	false
+ui_unit_groupings_onscreen_	PLACEHOLDER	false

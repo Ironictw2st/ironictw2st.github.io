@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/hansui/frontend.loc		
+effect_bundles_localised_title_ironic_han_sui_resource_desc	Insurgency	true
+effects_generalised_descriptions_localised_description_ironic_han_sui_frontend_1	• [[b]] Insurgency [[/b]] boosts combat potential and spying capabilities.	true
+effects_generalised_descriptions_localised_description_ironic_han_sui_frontend_2	• The amount of Insurgency is increase by your spying activities and winning battles.	true
+effects_generalised_descriptions_localised_description_ironic_han_sui_frontend_3	• Insurgency is lost through many ways, losing battles, spies inside your faction.	true
+effects_generalised_descriptions_localised_description_ironic_han_sui_frontend_4	• [[b]] Qiang Sway[[/b]] is a resource shared among the Qiang factions, that allows for usage in assignments.	true
+frontend_faction_leader_unique_features_localised_description_ironic_wu_hu_warband	[[b]]Wu Hu Warband[[/b]]\\n[[col:scope_description]]Melee & Ranged Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\n[[col:green]]+[[/col]] Has Ranged\\n[[col:red]]-[[/col]] Weak aganist Cavalry\\n	true
+frontend_faction_leader_unique_features_localised_description_ironic_han_sui_spy_master	[[b]]Spymaster[[/b]]\\n[[col:scope_description]]Ministerial position[[/col]]\\n\\n[[col:green]]+[[/col]] Cover gain\\n[[col:green]]+[[/col]] Maximum cover gain\\n[[col:green]]+[[/col]] Spies\\nFaction-wide Buffs	true

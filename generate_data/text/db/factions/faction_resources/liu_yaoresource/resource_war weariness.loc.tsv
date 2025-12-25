@@ -1,0 +1,64 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/liu_yaoresource/resource_war weariness.loc		
+effect_bundles_localised_title_ironic_frontend_leader_war_weariness_special	War Fatigue	true
+effect_bundles_localised_title_ironic_war_weariness_resource_level_0	War Fatigue: Revivified	true
+effect_bundles_localised_title_ironic_war_weariness_resource_level_1	War Fatigue: Comfortable	true
+effect_bundles_localised_title_ironic_war_weariness_resource_level_2	War Fatigue: Weary	true
+effect_bundles_localised_title_ironic_war_weariness_resource_level_3	War Fatigue: Flagging	true
+effect_bundles_localised_title_ironic_war_weariness_resource_level_4	War Fatigue: Enervated	true
+effect_bundles_localised_description_ironic_war_weariness_resource_level_0	Just by looking out over your lands is enough evidence to prove your worth as a leader. Your harvests are bountiful, your commoners safe and satisfied, your silos are fully stocked, and your guards are well rested. In a period of conflict, your territory is now famous as an island of tranquility.	true
+effect_bundles_localised_description_ironic_war_weariness_resource_level_1	Although no songs will yet hail you as being a champion of peace, you have much to show for your excellent governance. Farmers till their crops unmolested, and previously drained stockpiles begin to recover. The streets of your cities are orderly and your nobles content, but your strategists do advise you against a policy of complacency...	true
+effect_bundles_localised_description_ironic_war_weariness_resource_level_2	Trouble is brewing in your domain. Greedy warlords akin to snarling beasts snap at your borders, whilst unsatisfied and hungry citizens flee your towns to eke out their own living. Conflict is, sadly, inevitable, despite your perhaps naive wishes for diplomatic solutions. The generals in your court now have louder voices than your civil officials, as dark clouds begin to gather overhead.	true
+effect_bundles_localised_description_ironic_war_weariness_resource_level_3	The cost of war comes at a high price for your dominion. Your overstretched army can barely replace its losses, as the numbers of injured, the exhausted and mutinous mount up. Supplies are increasingly needed for military efforts, leading to essential foodstuffs being seized from your own farmers. As people grow hungrier, they grow angrier, and out of desperation they start to take their frustrations out on your regime. Within your inner circle, some advisors beg you to consider suing for peace, whilst other commanders openly blame your poor leadership for not being able to bring a swift end to the conflict. If something is not done with haste, disaster looms.	true
+effect_bundles_localised_description_ironic_war_weariness_resource_level_4	Just by walking your streets can the cost of your decisions be clearly seen. Beggars crowd every corner, many of them former soldiers too maimed to even return to their former occupations. Once bustling markets and taverns now lie deserted as more and more flee your towns for what they hope is a better life elsewhere. Those who remain are often sick, hungry or exhausted, or have resorted to banditry just to fill their bellies. Reports of cannibalism are everywhere, as are reports of families selling their own children for a handful of grain. Your shattered army can do little to protect your people, never mind guard your borders. History is poised to remember you as a harbinger of disaster, if your ruinious deeds are even worth the ink to record them.	true
+effects_description_ironic_war_weariness_decay	[[b]]%+n[[/b]] War Fatigue	true
+effects_description_ironic_war_weariness_armies	[[b]]%+n[[/b]] War Fatigue	true
+effects_description_ironic_war_weariness_robin_hood	[[b]]%+n[[/b]] War Fatigue	true
+effects_description_ironic_war_weariness_garrisoned	[[b]]%+n[[/b]] War Fatigue	true
+effects_description_ironic_war_weariness_vassalized	[[b]]%+n[[/b]] War Fatigue	true
+effects_description_ironic_war_weariness_info_gain	[[b]]War Fatigue[[/b]] can be gained by battles, casualities, and war.	true
+effects_description_ironic_war_weariness_info_loss	[[b]]War Fatigue[[/b]] can be lost by assignments and buildings.	true
+effect_bundles_localised_title_ironic_war_weariness_effect_bundle	War Fatigue	false
+effect_bundles_localised_description_ironic_war_weariness_effect_bundle	As conflict spreads and peace is shattered, your people get increasingly weary, your soldiers grow exhausted, and the fields are neglected and left untilled. Seek peaceful and diplomatic solutions, lest your own retainers turn against you.	false
+effects_generalised_descriptions_localised_description_ironic_liu_yao_frontend_1	• Boosts population, public order, recruitment, when low	true
+effects_generalised_descriptions_localised_description_ironic_liu_yao_frontend_2	• Reduces population, public order, recruitment, when high	true
+effects_generalised_descriptions_localised_description_ironic_liu_yao_frontend_3	• Gained by being in wars, battles, and casualities 	true
+effects_generalised_descriptions_localised_description_ironic_liu_yao_frontend_4	• Loss by assignments and buildings	true
+pooled_resource_factors_display_name_negative_ironic_war_weariness_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_war_weariness_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_war_weariness_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_war_weariness_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_war_weariness_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_war_weariness_at_war	At War	true
+pooled_resources_description_ironic_war_weariness	As conflict spreads and peace is shattered, your people get increasingly weary, your soldiers grow exhausted, and the fields are neglected and left untilled. Seek peaceful and diplomatic solutions, lest your own retainers turn against you.	true
+pooled_resources_display_name_ironic_war_weariness	War Fatigue	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_war_weariness	As conflict spreads and peace is shattered, your people get increasingly weary, your soldiers grow exhausted, and the fields are neglected and left untilled. Seek peaceful and diplomatic solutions, lest your own retainers turn against you.	true
+pooled_resources_negative_factors_display_name_ironic_war_weariness	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_war_weariness	Increase	true
+ui_text_replacements_localised_text_victory_condition_war_weariness	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_war_weariness_improve	Restore Military Confidence	false
+ui_character_assignments_localised_description_ironic_war_weariness_improve	The military is the armour that protects the state, but even it can get chipped and damaged. Your aide will work to relieve the army's concerns. Aid and alms will be provided to veterans, land and food will be distributed to war widows and orphans. The concerns of the captains and generals will be taken into account, and fresh supplies and new equipment will be paid for to feed and rearm your weary troops.	false
+ui_character_assignments_localised_title_ironic_war_weariness_reduce	Organise Relief Efforts	false
+ui_character_assignments_localised_description_ironic_war_weariness_reduce	Your adjutant presents a plan to offer support and relief to the needy populace under your protection. Funds will be raised to provide shelter for the homeless and poor, roads and bridges will be repaired, quarantines will be arranged to prevent the spread of disease, and emergency food supplies shall be distributed from your silos. Your people have suffered much hardship in your name, and is time to repay their faith.	false
+pooled_resource_factors_display_name_negative_ironic_war_weariness_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_war_weariness_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_war_weariness_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_war_weariness_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_war_weariness_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_war_weariness_assignments	Assignments	false
+pooled_resource_factors_display_name_positive_ironic_war_weariness_buildings	Buildings	false
+pooled_resource_factors_display_name_negative_ironic_war_weariness_buildings	Buildings	false
+effects_description_ironic_war_weariness_captives_post_battle	[[b]]%+n[[/b]] War Fatigue	false
+effects_description_ironic_war_weariness_characters	[[b]]%+n[[/b]] War Fatigue	false
+effects_description_ironic_war_weariness_executed	[[b]]%+n[[/b]] War Fatigue	false
+effects_description_ironic_war_weariness_assignments	[[b]]%+n[[/b]] War Fatigue	false
+effects_description_ironic_war_weariness_buildings	[[b]]%+n[[/b]] War Fatigue	false

@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/skills/ironic_skill_xu_sheng.loc		
+unit_ability_types_onscreen_name_ironic_xu_sheng_earth	Passive Buff	false
+unit_ability_types_localised_description_ironic_xu_sheng_earth	Passive Buff	false
+character_skills_localised_name_ironic_xu_sheng_earth	Sacred Ground	false
+character_skills_localised_description_ironic_xu_sheng_earth	A swelling aura bolsters the courage of all around, inspiring them to defy all odds. 	false
+special_ability_phases_onscreen_name_ironic_xu_sheng_earth	Sacred Ground	false
+effects_description_ironic_xu_sheng_earth	Ability: Sacred Ground\\n	false
+effects_value_format_ironic_xu_sheng_earth	PLACEHOLDER	false
+unit_abilities_tooltip_text_ironic_xu_sheng_earth	A swelling aura bolsters the courage of all around, inspiring them to defy all odds. 	false
+unit_abilities_onscreen_name_ironic_xu_sheng_earth	Sacred Ground	false

@@ -1,0 +1,73 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/jialongresource/resource_gentry.loc		
+effect_bundles_localised_title_ironic_gentry_support_effect_bundle	Gentry Support	false
+effect_bundles_localised_description_ironic_gentry_support_effect_bundle	PLACEHOLDER	false
+effect_bundles_localised_title_ironic_frontend_leader_gentry_support_special	Gentry Support	true
+effect_bundles_localised_title_ironic_gentry_support_resource_level_0	Gentry Support: Gentleman	true
+effect_bundles_localised_title_ironic_gentry_support_resource_level_1	Gentry Support: Decorous Noble	true
+effect_bundles_localised_title_ironic_gentry_support_resource_level_2	Gentry Support: Revered Official	true
+effect_bundles_localised_title_ironic_gentry_support_resource_level_3	Gentry Support: Local Hero	true
+effect_bundles_localised_title_ironic_gentry_support_resource_level_4	Gentry Support: Man of the Hour	true
+effect_bundles_localised_description_ironic_gentry_support_resource_level_0	A Confucian Gentleman - a Junzi - is expected to be an exemplar of virtues and example to their whole community. You should always remember to uphold these values.	true
+effect_bundles_localised_description_ironic_gentry_support_resource_level_1	Your knowledge of the classics and dignified countenance has won you the respect of your fellow landed gentry, and your wise policies and fair governance has secured the loyalty of the farmers and labourers. 	true
+effect_bundles_localised_description_ironic_gentry_support_resource_level_2	With a mastery of the Four Arts, and a reputation for filial loyalty, you have become renowned throughout your home province as a scholar-official to be treated with respect.	true
+effect_bundles_localised_description_ironic_gentry_support_resource_level_3	"For he himself has said it, and it's surely to his credit, that he is a Bashu Man, he remains a Bashu Man!"	true
+effect_bundles_localised_description_ironic_gentry_support_resource_level_4	Steles have been erected in your name, immortalizing your deeds, and word of your reputation is on the lips of every scholar in the Empire. It is said merely mentioning accomplishments are enough for bandits to exchange their blades for ploughshares.	true
+effects_description_ironic_gentry_support_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_gentry_support_armies	[[b]]%+n[[/b]] Gentry Support	true
+effects_description_ironic_gentry_support_robin_hood	[[b]]%+n[[/b]] Gentry Support	true
+effects_description_ironic_gentry_support_garrisoned	[[b]]%+n[[/b]] Gentry Support	true
+effects_description_ironic_gentry_support_vassalized	[[b]]%+n[[/b]] Gentry Support	true
+effects_description_ironic_gentry_diplomacy_all_non_han_factions	[[b]]%+n[[/b]] diplomatic relations with all non-Han Empire factions	true
+effects_description_ironic_gentry_support_info_gain	[[b]]Gentry Support[[/b]] can be increased by assignments. buildings, and winning battles against non Han factions.	true
+effects_description_ironic_gentry_support_info_loss	[[b]]Gentry Support[[/b]] can be decreased by assignments, losing battles agaisnt non-Han factions. 	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_gentry_support_1	• Gentry Support boost public order but causes corruption.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_gentry_support_2	• Impacts on diplomatic attitude of other factions	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_gentry_support_3	• Gentry Support can only be affected by fighting non-Han factions	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_gentry_support_4	• Gentry Support decays over time	true
+pooled_resource_factors_display_name_negative_ironic_gentry_support_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_gentry_support_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_gentry_support_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_gentry_support_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_gentry_support_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_gentry_support_at_war	At War	true
+pooled_resources_description_ironic_gentry_support		true
+pooled_resources_display_name_ironic_gentry_support	Gentry Support	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_gentry_support		true
+pooled_resources_negative_factors_display_name_ironic_gentry_support	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_gentry_support	Increase	true
+ui_text_replacements_localised_text_victory_condition_gentry_support	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_gentry_support_improve	Promote Local Clansmen	false
+ui_character_assignments_localised_description_ironic_gentry_support_improve	Using your authority, you fill the local bureaus with candidates of good family names, rather than necessarily by their reputations.	false
+ui_character_assignments_localised_title_ironic_gentry_support_reduce	Arrest Corrupt Nobles	false
+ui_character_assignments_localised_description_ironic_gentry_support_reduce	Bribery is a cancer at the heart of government, and you wield the blade to cut it out.	false
+pooled_resource_factors_display_name_negative_ironic_gentry_support_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_gentry_support_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_gentry_support_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_gentry_support_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_gentry_support_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_gentry_support_assignments	Assignments	false
+pooled_resource_factors_display_name_positive_ironic_gentry_support_buildings	Buildings	false
+pooled_resource_factors_display_name_negative_ironic_gentry_support_buildings	Buildings	false
+effects_description_ironic_gentry_support_captives_post_battle	[[b]]%+n[[/b]] Gentry Support	false
+effects_description_ironic_gentry_support_characters	[[b]]%+n[[/b]] Gentry Support	false
+effects_description_ironic_gentry_support_executed	[[b]]%+n[[/b]] Gentry Support	false
+effects_description_ironic_gentry_support_assignments	[[b]]%+n[[/b]] Gentry Support	false
+effects_description_ironic_gentry_support_buildings	[[b]]%+n[[/b]] Gentry Support	false
+effects_description_ironic_custom_income_influence	[[b]]%+n[[/b]] income (influence)	false
+campaign_region_gdp_types_onscreen_name_influence	Influence	false
+ui_text_replacements_localised_text_PUBLIC_ORDER_3k_main_faction_jia_long	NOBLE SUPPORT	false
+ui_text_replacements_localised_text_Public_Order_3k_main_faction_jia_long	Noble Support	false
+ui_text_replacements_localised_text_Public_order_3k_main_faction_jia_long	Noble support	false
+ui_text_replacements_localised_text_public_order_3k_main_faction_jia_long	noble support	false
+frontend_faction_leader_unique_features_localised_description_ironic_jia_long_assignments	[[b]]Gentry Assignments[[/b]]\\n[[col:scope_description]]Assignments[[/col]]\\n\\nBuild up the Gentry\\n\\n[[col:green]]+[[/col]] Gentry Support\\n[[col:red]]-[[/col]] Satisfaction\\n\\nRestrict the Gentry\\n\\n[[col:green]]-[[/col]] Corruption\\n[[col:red]]-[[/col]] Gentry Support\\n	false
+frontend_faction_leader_unique_features_localised_description_ironic_jia_long_country_estate	[[b]]Country Estates[[/b]]\\n[[col:scope_description]]Government Building Chain[[/col]]\\n\\n[[col:green]]+[[/col]] Family Estates\\n[[col:green]]+[[/col]] Income\\n[[col:green]]+[[/col]] Gentry Support\\n	false

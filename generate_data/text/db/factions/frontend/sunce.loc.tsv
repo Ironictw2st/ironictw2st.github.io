@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/factions/frontend/sunce.loc		
+frontend_characters_optional_name_override_3k_dlc05_template_historical_sun_ce_hero_fire_faction_leader	Sun Jian	true
+frontend_faction_leaders_localised_subtitle_ironic_main_sun_ce_faction_leader	Tiger of Jiangdong	true
+frontend_faction_leaders_localised_difficulty_ironic_main_sun_ce_faction_leader	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+political_parties_name_localised_3k_main_political_party_sun_ce_190	Sun Jian	true
+political_parties_description_localised_3k_main_political_party_sun_ce_190	PLACEHOLDER	true

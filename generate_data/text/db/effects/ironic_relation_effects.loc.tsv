@@ -1,0 +1,702 @@
+key	text	tooltip
+#Loc;1;text/db/effects/ironic_relation_effects.loc		
+effects_description_relationship_3k_dlc04_faction_bian_zhang	[[b]]%+n[[/b]] diplomatic relations with Bian Zhang's factions	false
+effects_description_relationship_3k_dlc04_faction_bian_zhang_separatists	[[b]]%+n[[/b]] diplomatic relations with Bian Zhang Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_cao_song	[[b]]%+n[[/b]] diplomatic relations with Cao Song's factions	false
+effects_description_relationship_3k_dlc04_faction_cao_song_separatists	[[b]]%+n[[/b]] diplomatic relations with Cao Song Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_chen_gui	[[b]]%+n[[/b]] diplomatic relations with Chen Gui's factions	false
+effects_description_relationship_3k_dlc04_faction_chen_gui_separatists	[[b]]%+n[[/b]] diplomatic relations with Chen Gui Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_chu_gong	[[b]]%+n[[/b]] diplomatic relations with Chu Gong's factions	false
+effects_description_relationship_3k_dlc04_faction_chu_gong_separatists	[[b]]%+n[[/b]] diplomatic relations with Chu Gong Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_dai	[[b]]%+n[[/b]] diplomatic relations with Dai's factions	false
+effects_description_relationship_3k_dlc04_faction_dai_separatists	[[b]]%+n[[/b]] diplomatic relations with Dai Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_ding_yuan	[[b]]%+n[[/b]] diplomatic relations with Ding Yuan's factions	false
+effects_description_relationship_3k_dlc04_faction_ding_yuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Ding Yuan Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_dong	[[b]]%+n[[/b]] diplomatic relations with Dong's factions	false
+effects_description_relationship_3k_dlc04_faction_dong_he	[[b]]%+n[[/b]] diplomatic relations with Dong He's factions	false
+effects_description_relationship_3k_dlc04_faction_dong_he_separatists	[[b]]%+n[[/b]] diplomatic relations with Dong He Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_dong_separatists	[[b]]%+n[[/b]] diplomatic relations with Dong Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_empress_he	[[b]]%+n[[/b]] diplomatic relations with Empress He's factions	false
+effects_description_relationship_3k_dlc04_faction_empress_he_separatists	[[b]]%+n[[/b]] diplomatic relations with Empress He Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_han_fu_separatists	[[b]]%+n[[/b]] diplomatic relations with Han Fu Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_liang_rebels	[[b]]%+n[[/b]] diplomatic relations with Liang Rebels's factions	false
+effects_description_relationship_3k_dlc04_faction_liang_rebels_separatists	[[b]]%+n[[/b]] diplomatic relations with Liang Rebels Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_liu_hong	[[b]]%+n[[/b]] diplomatic relations with Liu Hong's factions	false
+effects_description_relationship_3k_dlc04_faction_liu_hong_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Hong Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_liu_xun	[[b]]%+n[[/b]] diplomatic relations with Liu Xun's factions	false
+effects_description_relationship_3k_dlc04_faction_liu_xun_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Xun Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_lu_kang	[[b]]%+n[[/b]] diplomatic relations with Lu Kang's factions	false
+effects_description_relationship_3k_dlc04_faction_lu_kang_separatists	[[b]]%+n[[/b]] diplomatic relations with Lu Kang Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_lu_zhi	[[b]]%+n[[/b]] diplomatic relations with Lu Zhi's factions	false
+effects_description_relationship_3k_dlc04_faction_lu_zhi_separatists	[[b]]%+n[[/b]] diplomatic relations with Lu Zhi Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_prince_liu_chong	[[b]]%+n[[/b]] diplomatic relations with Prince Liu Chong's factions	false
+effects_description_relationship_3k_dlc04_faction_prince_liu_chong_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Liu Chong Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_qiao_mao	[[b]]%+n[[/b]] diplomatic relations with Qiao Mao's factions	false
+effects_description_relationship_3k_dlc04_faction_qiao_mao_separatists	[[b]]%+n[[/b]] diplomatic relations with Qiao Mao Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_rebels	[[b]]%+n[[/b]] diplomatic relations with Rebels's factions	false
+effects_description_relationship_3k_dlc04_faction_wang_rui	[[b]]%+n[[/b]] diplomatic relations with Wang Rui's factions	false
+effects_description_relationship_3k_dlc04_faction_wang_rui_separatists	[[b]]%+n[[/b]] diplomatic relations with Wang Rui Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_wei	[[b]]%+n[[/b]] diplomatic relations with Wei's factions	false
+effects_description_relationship_3k_dlc04_faction_wei_separatists	[[b]]%+n[[/b]] diplomatic relations with Wei Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_xin_xuan	[[b]]%+n[[/b]] diplomatic relations with Xin Xuan's factions	false
+effects_description_relationship_3k_dlc04_faction_xin_xuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Xin Xuan Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_ying_shao	[[b]]%+n[[/b]] diplomatic relations with Ying Shao's factions	false
+effects_description_relationship_3k_dlc04_faction_ying_shao_separatists	[[b]]%+n[[/b]] diplomatic relations with Ying Shao Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_yizhou_island	[[b]]%+n[[/b]] diplomatic relations with Yizhou Island's factions	false
+effects_description_relationship_3k_dlc04_faction_yizhou_island_separatists	[[b]]%+n[[/b]] diplomatic relations with Yizhou Island Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_yuan_yi	[[b]]%+n[[/b]] diplomatic relations with Yuan Yi's factions	false
+effects_description_relationship_3k_dlc04_faction_yuan_yi_separatists	[[b]]%+n[[/b]] diplomatic relations with Yuan Yi Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_zhang_bao	[[b]]%+n[[/b]] diplomatic relations with Zhang Bao's factions	false
+effects_description_relationship_3k_dlc04_faction_zhang_bao_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Bao Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_zhang_jue	[[b]]%+n[[/b]] diplomatic relations with Zhang Jue's factions	false
+effects_description_relationship_3k_dlc04_faction_zhang_jue_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Jue Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_zhang_liang	[[b]]%+n[[/b]] diplomatic relations with Zhang Liang's factions	false
+effects_description_relationship_3k_dlc04_faction_zhang_liang_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Liang Separatists's factions	false
+effects_description_relationship_3k_dlc04_faction_zhou_xin	[[b]]%+n[[/b]] diplomatic relations with Zhou Xin's factions	false
+effects_description_relationship_3k_dlc04_faction_zhou_xin_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhou Xin Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_hua_xin	[[b]]%+n[[/b]] diplomatic relations with Hua Xin's factions	false
+effects_description_relationship_3k_dlc05_faction_hua_xin_separatists	[[b]]%+n[[/b]] diplomatic relations with Hua Xin Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_lu_bu_separatists	[[b]]%+n[[/b]] diplomatic relations with Lu Bu Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_sheng_xian	[[b]]%+n[[/b]] diplomatic relations with Sheng Xian's factions	false
+effects_description_relationship_3k_dlc05_faction_sheng_xian_separatists	[[b]]%+n[[/b]] diplomatic relations with Sheng Xian Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_shi_huang	[[b]]%+n[[/b]] diplomatic relations with Shi Huang's factions	false
+effects_description_relationship_3k_dlc05_faction_shi_huang_separatists	[[b]]%+n[[/b]] diplomatic relations with Shi Huang Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_shi_wu	[[b]]%+n[[/b]] diplomatic relations with Shi Wu's factions	false
+effects_description_relationship_3k_dlc05_faction_shi_wu_separatists	[[b]]%+n[[/b]] diplomatic relations with Shi Wu Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_shi_yi	[[b]]%+n[[/b]] diplomatic relations with Shi Yi's factions	false
+effects_description_relationship_3k_dlc05_faction_shi_yi_separatists	[[b]]%+n[[/b]] diplomatic relations with Shi Yi Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_sun_ce	[[b]]%+n[[/b]] diplomatic relations with Sun Ce's factions	false
+effects_description_relationship_3k_dlc05_faction_sun_ce_separatists	[[b]]%+n[[/b]] diplomatic relations with Sun Ce Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_tian_kai	[[b]]%+n[[/b]] diplomatic relations with Tian Kai's factions	false
+effects_description_relationship_3k_dlc05_faction_tian_kai_separatists	[[b]]%+n[[/b]] diplomatic relations with Tian Kai Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_white_tiger_yan	[[b]]%+n[[/b]] diplomatic relations with White Tiger Yan's factions	false
+effects_description_relationship_3k_dlc05_faction_white_tiger_yan_separatists	[[b]]%+n[[/b]] diplomatic relations with White Tiger Yan Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_wu_jing	[[b]]%+n[[/b]] diplomatic relations with Wu Jing's factions	false
+effects_description_relationship_3k_dlc05_faction_wu_jing_separatists	[[b]]%+n[[/b]] diplomatic relations with Wu Jing Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_xu_gong	[[b]]%+n[[/b]] diplomatic relations with Xu Gong's factions	false
+effects_description_relationship_3k_dlc05_faction_xu_gong_separatists	[[b]]%+n[[/b]] diplomatic relations with Xu Gong Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_xu_zhao	[[b]]%+n[[/b]] diplomatic relations with Xu Zhao's factions	false
+effects_description_relationship_3k_dlc05_faction_xu_zhao_separatists	[[b]]%+n[[/b]] diplomatic relations with Xu Zhao Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_xue_li	[[b]]%+n[[/b]] diplomatic relations with Xue Li's factions	false
+effects_description_relationship_3k_dlc05_faction_xue_li_separatists	[[b]]%+n[[/b]] diplomatic relations with Xue Li Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_yang_feng	[[b]]%+n[[/b]] diplomatic relations with Yang Feng's factions	false
+effects_description_relationship_3k_dlc05_faction_yang_feng_separatists	[[b]]%+n[[/b]] diplomatic relations with Yang Feng Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_yuan_tan	[[b]]%+n[[/b]] diplomatic relations with Yuan Tan's factions	false
+effects_description_relationship_3k_dlc05_faction_yuan_tan_separatists	[[b]]%+n[[/b]] diplomatic relations with Yuan Tan Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_zang_ba	[[b]]%+n[[/b]] diplomatic relations with Zang Ba's factions	false
+effects_description_relationship_3k_dlc05_faction_zang_ba_separatists	[[b]]%+n[[/b]] diplomatic relations with Zang Ba Separatists's factions	false
+effects_description_relationship_3k_dlc05_faction_zhu_fu	[[b]]%+n[[/b]] diplomatic relations with Zhu Fu's factions	false
+effects_description_relationship_3k_dlc05_faction_zhu_fu_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhu Fu Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_jiuzhen	[[b]]%+n[[/b]] diplomatic relations with Jiuzhen's factions	false
+effects_description_relationship_3k_dlc06_faction_jiuzhen_separatists	[[b]]%+n[[/b]] diplomatic relations with Jiuzhen Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_liaodong	[[b]]%+n[[/b]] diplomatic relations with Liaodong's factions	false
+effects_description_relationship_3k_dlc06_faction_liaodong_separatists	[[b]]%+n[[/b]] diplomatic relations with Liaodong Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_ahuinan	[[b]]%+n[[/b]] diplomatic relations with Nanman Ahuinan's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_ahuinan_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Ahuinan Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_dongtuna	[[b]]%+n[[/b]] diplomatic relations with Nanman Dongtuna's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_dongtuna_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Dongtuna Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jiangyang	[[b]]%+n[[/b]] diplomatic relations with Nanman Jiangyang's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jiangyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Jiangyang Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jianning	[[b]]%+n[[/b]] diplomatic relations with Nanman Jianning's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jianning_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Jianning Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jiaozhi	[[b]]%+n[[/b]] diplomatic relations with Nanman Jiaozhi's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jiaozhi_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Jiaozhi Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jinhuansanjie	[[b]]%+n[[/b]] diplomatic relations with Nanman Jinhuansanjie's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_jinhuansanjie_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Jinhuansanjie Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_duosi	[[b]]%+n[[/b]] diplomatic relations with Nanman King Duosi's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_duosi_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman King Duosi Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_meng_huo	[[b]]%+n[[/b]] diplomatic relations with Nanman King Meng Huo's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_meng_huo_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman King Meng Huo Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_mulu	[[b]]%+n[[/b]] diplomatic relations with Nanman King Mulu's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_mulu_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman King Mulu Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_shamoke	[[b]]%+n[[/b]] diplomatic relations with Nanman King Shamoke's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_shamoke_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman King Shamoke Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_wutugu	[[b]]%+n[[/b]] diplomatic relations with Nanman King Wutugu's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_king_wutugu_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman King Wutugu Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_lady_zhurong	[[b]]%+n[[/b]] diplomatic relations with Nanman Lady Zhurong's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_lady_zhurong_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Lady Zhurong Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_mangyachang	[[b]]%+n[[/b]] diplomatic relations with Nanman Mangyachang's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_mangyachang_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Mangyachang Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_rebels	[[b]]%+n[[/b]] diplomatic relations with Nanman Rebels's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_tu_an	[[b]]%+n[[/b]] diplomatic relations with Nanman Tu An's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_tu_an_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Tu An Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_xi_ni	[[b]]%+n[[/b]] diplomatic relations with Nanman Xi Ni's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_xi_ni_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Xi Ni Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_yang_feng	[[b]]%+n[[/b]] diplomatic relations with Nanman Yang Feng's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_yang_feng_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Yang Feng Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_yongchang	[[b]]%+n[[/b]] diplomatic relations with Nanman Yongchang's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_yongchang_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Yongchang Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_yunnan	[[b]]%+n[[/b]] diplomatic relations with Nanman Yunnan's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_yunnan_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Yunnan Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_zangke	[[b]]%+n[[/b]] diplomatic relations with Nanman Zangke's factions	false
+effects_description_relationship_3k_dlc06_faction_nanman_zangke_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanman Zangke Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_xiapi	[[b]]%+n[[/b]] diplomatic relations with Xiapi's factions	false
+effects_description_relationship_3k_dlc06_faction_xiapi_separatists	[[b]]%+n[[/b]] diplomatic relations with Xiapi Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_yongchang	[[b]]%+n[[/b]] diplomatic relations with Yongchang's factions	false
+effects_description_relationship_3k_dlc06_faction_yongchang_separatists	[[b]]%+n[[/b]] diplomatic relations with Yongchang Separatists's factions	false
+effects_description_relationship_3k_dlc06_faction_yunnan	[[b]]%+n[[/b]] diplomatic relations with Yunnan's factions	false
+effects_description_relationship_3k_dlc06_faction_yunnan_separatists	[[b]]%+n[[/b]] diplomatic relations with Yunnan Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_chen_deng	[[b]]%+n[[/b]] diplomatic relations with Chen Deng's factions	false
+effects_description_relationship_3k_dlc07_faction_chen_deng_separatists	[[b]]%+n[[/b]] diplomatic relations with Chen Deng Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_li_shu	[[b]]%+n[[/b]] diplomatic relations with Li Shu's factions	false
+effects_description_relationship_3k_dlc07_faction_li_shu_separatists	[[b]]%+n[[/b]] diplomatic relations with Li Shu Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_shanyue_rebels	[[b]]%+n[[/b]] diplomatic relations with Shanyue Rebels's factions	false
+effects_description_relationship_3k_dlc07_faction_shanyue_rebels_separatists	[[b]]%+n[[/b]] diplomatic relations with Shanyue Rebels Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_shi_hui	[[b]]%+n[[/b]] diplomatic relations with Shi Hui's factions	false
+effects_description_relationship_3k_dlc07_faction_shi_hui_separatists	[[b]]%+n[[/b]] diplomatic relations with Shi Hui Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_yuan_xi	[[b]]%+n[[/b]] diplomatic relations with Yuan Xi's factions	false
+effects_description_relationship_3k_dlc07_faction_yuan_xi_separatists	[[b]]%+n[[/b]] diplomatic relations with Yuan Xi Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_zhang_lu	[[b]]%+n[[/b]] diplomatic relations with Zhang Lu's factions	false
+effects_description_relationship_3k_dlc07_faction_zhang_lu_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Lu Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_zhang_meng	[[b]]%+n[[/b]] diplomatic relations with Zhang Meng's factions	false
+effects_description_relationship_3k_dlc07_faction_zhang_meng_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Meng Separatists's factions	false
+effects_description_relationship_3k_dlc07_faction_zhang_xiu	[[b]]%+n[[/b]] diplomatic relations with Zhang Xiu's factions	false
+effects_description_relationship_3k_dlc07_faction_zhang_xiu_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Xiu Separatists's factions	false
+effects_description_relationship_3k_main_faction_anding	[[b]]%+n[[/b]] diplomatic relations with Anding's factions	false
+effects_description_relationship_3k_main_faction_anding_separatists	[[b]]%+n[[/b]] diplomatic relations with Anding Separatists's factions	false
+effects_description_relationship_3k_main_faction_anping	[[b]]%+n[[/b]] diplomatic relations with Anping's factions	false
+effects_description_relationship_3k_main_faction_anping_separatists	[[b]]%+n[[/b]] diplomatic relations with Anping Separatists's factions	false
+effects_description_relationship_3k_main_faction_ba	[[b]]%+n[[/b]] diplomatic relations with Ba's factions	false
+effects_description_relationship_3k_main_faction_ba_separatists	[[b]]%+n[[/b]] diplomatic relations with Ba Separatists's factions	false
+effects_description_relationship_3k_main_faction_badong	[[b]]%+n[[/b]] diplomatic relations with Badong's factions	false
+effects_description_relationship_3k_main_faction_badong_separatists	[[b]]%+n[[/b]] diplomatic relations with Badong Separatists's factions	false
+effects_description_relationship_3k_main_faction_baxi	[[b]]%+n[[/b]] diplomatic relations with Baxi's factions	false
+effects_description_relationship_3k_main_faction_baxi_separatists	[[b]]%+n[[/b]] diplomatic relations with Baxi Separatists's factions	false
+effects_description_relationship_3k_main_faction_beihai	[[b]]%+n[[/b]] diplomatic relations with Beihai's factions	false
+effects_description_relationship_3k_main_faction_beihai_separatists	[[b]]%+n[[/b]] diplomatic relations with Beihai Separatists's factions	false
+effects_description_relationship_3k_main_faction_bohai	[[b]]%+n[[/b]] diplomatic relations with Bohai's factions	false
+effects_description_relationship_3k_main_faction_bohai_separatists	[[b]]%+n[[/b]] diplomatic relations with Bohai Separatists's factions	false
+effects_description_relationship_3k_main_faction_cai_mao	[[b]]%+n[[/b]] diplomatic relations with Cai Mao's factions	false
+effects_description_relationship_3k_main_faction_cai_mao_separatists	[[b]]%+n[[/b]] diplomatic relations with Cai Mao Separatists's factions	false
+effects_description_relationship_3k_main_faction_cangwu	[[b]]%+n[[/b]] diplomatic relations with Cangwu's factions	false
+effects_description_relationship_3k_main_faction_cangwu_separatists	[[b]]%+n[[/b]] diplomatic relations with Cangwu Separatists's factions	false
+effects_description_relationship_3k_main_faction_cao_cao	[[b]]%+n[[/b]] diplomatic relations with Cao Cao's factions	false
+effects_description_relationship_3k_main_faction_cao_separatists	[[b]]%+n[[/b]] diplomatic relations with Cao Separatists's factions	false
+effects_description_relationship_3k_main_faction_changan	[[b]]%+n[[/b]] diplomatic relations with Changan's factions	false
+effects_description_relationship_3k_main_faction_changan_separatists	[[b]]%+n[[/b]] diplomatic relations with Changan Separatists's factions	false
+effects_description_relationship_3k_main_faction_changsha	[[b]]%+n[[/b]] diplomatic relations with Changsha's factions	false
+effects_description_relationship_3k_main_faction_changsha_separatists	[[b]]%+n[[/b]] diplomatic relations with Changsha Separatists's factions	false
+effects_description_relationship_3k_main_faction_chen	[[b]]%+n[[/b]] diplomatic relations with Chen's factions	false
+effects_description_relationship_3k_main_faction_chen_separatists	[[b]]%+n[[/b]] diplomatic relations with Chen Separatists's factions	false
+effects_description_relationship_3k_main_faction_chengdu	[[b]]%+n[[/b]] diplomatic relations with Chengdu's factions	false
+effects_description_relationship_3k_main_faction_chengdu_separatists	[[b]]%+n[[/b]] diplomatic relations with Chengdu Separatists's factions	false
+effects_description_relationship_3k_main_faction_daijun	[[b]]%+n[[/b]] diplomatic relations with Daijun's factions	false
+effects_description_relationship_3k_main_faction_daijun_separatists	[[b]]%+n[[/b]] diplomatic relations with Daijun Separatists's factions	false
+effects_description_relationship_3k_main_faction_dong_separatists	[[b]]%+n[[/b]] diplomatic relations with Dong Separatists's factions	false
+effects_description_relationship_3k_main_faction_dong_zhuo	[[b]]%+n[[/b]] diplomatic relations with Dong Zhuo's factions	false
+effects_description_relationship_3k_main_faction_donghai	[[b]]%+n[[/b]] diplomatic relations with Donghai's factions	false
+effects_description_relationship_3k_main_faction_donghai_separatists	[[b]]%+n[[/b]] diplomatic relations with Donghai Separatists's factions	false
+effects_description_relationship_3k_main_faction_dongjun	[[b]]%+n[[/b]] diplomatic relations with Dongjun's factions	false
+effects_description_relationship_3k_main_faction_dongjun_separatists	[[b]]%+n[[/b]] diplomatic relations with Dongjun Separatists's factions	false
+effects_description_relationship_3k_main_faction_donglai	[[b]]%+n[[/b]] diplomatic relations with Donglai's factions	false
+effects_description_relationship_3k_main_faction_donglai_separatists	[[b]]%+n[[/b]] diplomatic relations with Donglai Separatists's factions	false
+effects_description_relationship_3k_main_faction_dongou	[[b]]%+n[[/b]] diplomatic relations with Dongou's factions	false
+effects_description_relationship_3k_main_faction_dongou_separatists	[[b]]%+n[[/b]] diplomatic relations with Dongou Separatists's factions	false
+effects_description_relationship_3k_main_faction_fuling	[[b]]%+n[[/b]] diplomatic relations with Fuling's factions	false
+effects_description_relationship_3k_main_faction_fuling_separatists	[[b]]%+n[[/b]] diplomatic relations with Fuling Separatists's factions	false
+effects_description_relationship_3k_main_faction_gao_gan	[[b]]%+n[[/b]] diplomatic relations with Gao Gan's factions	false
+effects_description_relationship_3k_main_faction_gao_gan_separatists	[[b]]%+n[[/b]] diplomatic relations with Gao Gan Separatists's factions	false
+effects_description_relationship_3k_main_faction_gaoliang	[[b]]%+n[[/b]] diplomatic relations with Gaoliang's factions	false
+effects_description_relationship_3k_main_faction_gaoliang_separatists	[[b]]%+n[[/b]] diplomatic relations with Gaoliang Separatists's factions	false
+effects_description_relationship_3k_main_faction_gongsun_du	[[b]]%+n[[/b]] diplomatic relations with Gongsun Du's factions	false
+effects_description_relationship_3k_main_faction_gongsun_du_separatists	[[b]]%+n[[/b]] diplomatic relations with Gongsun Du Separatists's factions	false
+effects_description_relationship_3k_main_faction_gongsun_separatists	[[b]]%+n[[/b]] diplomatic relations with Gongsun Separatists's factions	false
+effects_description_relationship_3k_main_faction_gongsun_zan	[[b]]%+n[[/b]] diplomatic relations with Gongsun Zan's factions	false
+effects_description_relationship_3k_main_faction_guangling	[[b]]%+n[[/b]] diplomatic relations with Guangling's factions	false
+effects_description_relationship_3k_main_faction_guangling_separatists	[[b]]%+n[[/b]] diplomatic relations with Guangling Separatists's factions	false
+effects_description_relationship_3k_main_faction_han_empire	[[b]]%+n[[/b]] diplomatic relations with Han Empire's factions	false
+effects_description_relationship_3k_main_faction_han_empire_separatists	[[b]]%+n[[/b]] diplomatic relations with Han Empire Separatists's factions	false
+effects_description_relationship_3k_main_faction_han_fu	[[b]]%+n[[/b]] diplomatic relations with Han Fu's factions	false
+effects_description_relationship_3k_main_faction_han_separatists	[[b]]%+n[[/b]] diplomatic relations with Han Separatists's factions	false
+effects_description_relationship_3k_main_faction_han_sui	[[b]]%+n[[/b]] diplomatic relations with Han Sui's factions	false
+effects_description_relationship_3k_main_faction_han_sui_separatists	[[b]]%+n[[/b]] diplomatic relations with Han Sui Separatists's factions	false
+effects_description_relationship_3k_main_faction_hanzhong	[[b]]%+n[[/b]] diplomatic relations with Hanzhong's factions	false
+effects_description_relationship_3k_main_faction_hanzhong_separatists	[[b]]%+n[[/b]] diplomatic relations with Hanzhong Separatists's factions	false
+effects_description_relationship_3k_main_faction_hedong	[[b]]%+n[[/b]] diplomatic relations with Hedong's factions	false
+effects_description_relationship_3k_main_faction_hedong_separatists	[[b]]%+n[[/b]] diplomatic relations with Hedong Separatists's factions	false
+effects_description_relationship_3k_main_faction_henei	[[b]]%+n[[/b]] diplomatic relations with Henei's factions	false
+effects_description_relationship_3k_main_faction_henei_separatists	[[b]]%+n[[/b]] diplomatic relations with Henei Separatists's factions	false
+effects_description_relationship_3k_main_faction_hepu	[[b]]%+n[[/b]] diplomatic relations with Hepu's factions	false
+effects_description_relationship_3k_main_faction_hepu_separatists	[[b]]%+n[[/b]] diplomatic relations with Hepu Separatists's factions	false
+effects_description_relationship_3k_main_faction_huang_zu	[[b]]%+n[[/b]] diplomatic relations with Huang Zu's factions	false
+effects_description_relationship_3k_main_faction_huang_zu_separatists	[[b]]%+n[[/b]] diplomatic relations with Huang Zu Separatists's factions	false
+effects_description_relationship_3k_main_faction_jia_long	[[b]]%+n[[/b]] diplomatic relations with Jia Long's factions	false
+effects_description_relationship_3k_main_faction_jia_long_separatists	[[b]]%+n[[/b]] diplomatic relations with Jia Long Separatists's factions	false
+effects_description_relationship_3k_main_faction_jianan	[[b]]%+n[[/b]] diplomatic relations with Jianan's factions	false
+effects_description_relationship_3k_main_faction_jianan_separatists	[[b]]%+n[[/b]] diplomatic relations with Jianan Separatists's factions	false
+effects_description_relationship_3k_main_faction_jiangxia	[[b]]%+n[[/b]] diplomatic relations with Jiangxia's factions	false
+effects_description_relationship_3k_main_faction_jiangxia_separatists	[[b]]%+n[[/b]] diplomatic relations with Jiangxia Separatists's factions	false
+effects_description_relationship_3k_main_faction_jiangyang	[[b]]%+n[[/b]] diplomatic relations with Jiangyang's factions	false
+effects_description_relationship_3k_main_faction_jiangyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Jiangyang Separatists's factions	false
+effects_description_relationship_3k_main_faction_jianning	[[b]]%+n[[/b]] diplomatic relations with Jianning's factions	false
+effects_description_relationship_3k_main_faction_jianning_separatists	[[b]]%+n[[/b]] diplomatic relations with Jianning Separatists's factions	false
+effects_description_relationship_3k_main_faction_jianye	[[b]]%+n[[/b]] diplomatic relations with Jianye's factions	false
+effects_description_relationship_3k_main_faction_jianye_separatists	[[b]]%+n[[/b]] diplomatic relations with Jianye Separatists's factions	false
+effects_description_relationship_3k_main_faction_jiaozhi	[[b]]%+n[[/b]] diplomatic relations with Jiaozhi's factions	false
+effects_description_relationship_3k_main_faction_jiaozhi_separatists	[[b]]%+n[[/b]] diplomatic relations with Jiaozhi Separatists's factions	false
+effects_description_relationship_3k_main_faction_jincheng	[[b]]%+n[[/b]] diplomatic relations with Jincheng's factions	false
+effects_description_relationship_3k_main_faction_jincheng_separatists	[[b]]%+n[[/b]] diplomatic relations with Jincheng Separatists's factions	false
+effects_description_relationship_3k_main_faction_jingzhou	[[b]]%+n[[/b]] diplomatic relations with Jingzhou's factions	false
+effects_description_relationship_3k_main_faction_jingzhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Jingzhou Separatists's factions	false
+effects_description_relationship_3k_main_faction_kong_rong	[[b]]%+n[[/b]] diplomatic relations with Kong Rong's factions	false
+effects_description_relationship_3k_main_faction_kong_rong_separatists	[[b]]%+n[[/b]] diplomatic relations with Kong Rong Separatists's factions	false
+effects_description_relationship_3k_main_faction_kong_zhou	[[b]]%+n[[/b]] diplomatic relations with Kong Zhou's factions	false
+effects_description_relationship_3k_main_faction_kong_zhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Kong Zhou Separatists's factions	false
+effects_description_relationship_3k_main_faction_kuaiji	[[b]]%+n[[/b]] diplomatic relations with Kuaiji's factions	false
+effects_description_relationship_3k_main_faction_kuaiji_separatists	[[b]]%+n[[/b]] diplomatic relations with Kuaiji Separatists's factions	false
+effects_description_relationship_3k_main_faction_langye	[[b]]%+n[[/b]] diplomatic relations with Langye's factions	false
+effects_description_relationship_3k_main_faction_langye_separatists	[[b]]%+n[[/b]] diplomatic relations with Langye Separatists's factions	false
+effects_description_relationship_3k_main_faction_lingling	[[b]]%+n[[/b]] diplomatic relations with Lingling's factions	false
+effects_description_relationship_3k_main_faction_lingling_separatists	[[b]]%+n[[/b]] diplomatic relations with Lingling Separatists's factions	false
+effects_description_relationship_3k_main_faction_liu_bei	[[b]]%+n[[/b]] diplomatic relations with Liu Bei's factions	false
+effects_description_relationship_3k_main_faction_liu_bei_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Bei Separatists's factions	false
+effects_description_relationship_3k_main_faction_liu_biao	[[b]]%+n[[/b]] diplomatic relations with Liu Biao's factions	false
+effects_description_relationship_3k_main_faction_liu_biao_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Biao Separatists's factions	false
+effects_description_relationship_3k_main_faction_liu_dai	[[b]]%+n[[/b]] diplomatic relations with Liu Dai's factions	false
+effects_description_relationship_3k_main_faction_liu_dai_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Dai Separatists's factions	false
+effects_description_relationship_3k_main_faction_liu_yan	[[b]]%+n[[/b]] diplomatic relations with Liu Yan's factions	false
+effects_description_relationship_3k_main_faction_liu_yan_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Yan Separatists's factions	false
+effects_description_relationship_3k_main_faction_liu_yao	[[b]]%+n[[/b]] diplomatic relations with Liu Yao's factions	false
+effects_description_relationship_3k_main_faction_liu_yao_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Yao Separatists's factions	false
+effects_description_relationship_3k_main_faction_liu_yu	[[b]]%+n[[/b]] diplomatic relations with Liu Yu's factions	false
+effects_description_relationship_3k_main_faction_liu_yu_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Yu Separatists's factions	false
+effects_description_relationship_3k_main_faction_lu_bu	[[b]]%+n[[/b]] diplomatic relations with Lu Bu's factions	false
+effects_description_relationship_3k_main_faction_lu_zhi	[[b]]%+n[[/b]] diplomatic relations with Lu Zhi's factions	false
+effects_description_relationship_3k_main_faction_lujiang	[[b]]%+n[[/b]] diplomatic relations with Lujiang's factions	false
+effects_description_relationship_3k_main_faction_lujiang_separatists	[[b]]%+n[[/b]] diplomatic relations with Lujiang Separatists's factions	false
+effects_description_relationship_3k_main_faction_luling	[[b]]%+n[[/b]] diplomatic relations with Luling's factions	false
+effects_description_relationship_3k_main_faction_luling_separatists	[[b]]%+n[[/b]] diplomatic relations with Luling Separatists's factions	false
+effects_description_relationship_3k_main_faction_luoyang	[[b]]%+n[[/b]] diplomatic relations with Luoyang's factions	false
+effects_description_relationship_3k_main_faction_luoyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Luoyang Separatists's factions	false
+effects_description_relationship_3k_main_faction_ma_teng	[[b]]%+n[[/b]] diplomatic relations with Ma Teng's factions	false
+effects_description_relationship_3k_main_faction_ma_teng_separatists	[[b]]%+n[[/b]] diplomatic relations with Ma Teng Separatists's factions	false
+effects_description_relationship_3k_main_faction_nanhai	[[b]]%+n[[/b]] diplomatic relations with Nanhai's factions	false
+effects_description_relationship_3k_main_faction_nanhai_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanhai Separatists's factions	false
+effects_description_relationship_3k_main_faction_nanyang	[[b]]%+n[[/b]] diplomatic relations with Nanyang's factions	false
+effects_description_relationship_3k_main_faction_nanyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanyang Separatists's factions	false
+effects_description_relationship_3k_main_faction_penchang	[[b]]%+n[[/b]] diplomatic relations with Penchang's factions	false
+effects_description_relationship_3k_main_faction_penchang_separatists	[[b]]%+n[[/b]] diplomatic relations with Penchang Separatists's factions	false
+effects_description_relationship_3k_main_faction_pingyuan	[[b]]%+n[[/b]] diplomatic relations with Pingyuan's factions	false
+effects_description_relationship_3k_main_faction_pingyuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Pingyuan Separatists's factions	false
+effects_description_relationship_3k_main_faction_poyang	[[b]]%+n[[/b]] diplomatic relations with Poyang's factions	false
+effects_description_relationship_3k_main_faction_poyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Poyang Separatists's factions	false
+effects_description_relationship_3k_main_faction_rebels	[[b]]%+n[[/b]] diplomatic relations with Rebels's factions	false
+effects_description_relationship_3k_main_faction_runan	[[b]]%+n[[/b]] diplomatic relations with Runan's factions	false
+effects_description_relationship_3k_main_faction_runan_separatists	[[b]]%+n[[/b]] diplomatic relations with Runan Separatists's factions	false
+effects_description_relationship_3k_main_faction_shangdang	[[b]]%+n[[/b]] diplomatic relations with Shangdang's factions	false
+effects_description_relationship_3k_main_faction_shangdang_separatists	[[b]]%+n[[/b]] diplomatic relations with Shangdang Separatists's factions	false
+effects_description_relationship_3k_main_faction_shangyong	[[b]]%+n[[/b]] diplomatic relations with Shangyong's factions	false
+effects_description_relationship_3k_main_faction_shangyong_separatists	[[b]]%+n[[/b]] diplomatic relations with Shangyong Separatists's factions	false
+effects_description_relationship_3k_main_faction_shi_separatists	[[b]]%+n[[/b]] diplomatic relations with Shi Separatists's factions	false
+effects_description_relationship_3k_main_faction_shi_xie	[[b]]%+n[[/b]] diplomatic relations with Shi Xie's factions	false
+effects_description_relationship_3k_main_faction_shoufang	[[b]]%+n[[/b]] diplomatic relations with Shoufang's factions	false
+effects_description_relationship_3k_main_faction_shoufang_separatists	[[b]]%+n[[/b]] diplomatic relations with Shoufang Separatists's factions	false
+effects_description_relationship_3k_main_faction_sun_jian	[[b]]%+n[[/b]] diplomatic relations with Sun Jian's factions	false
+effects_description_relationship_3k_main_faction_sun_separatists	[[b]]%+n[[/b]] diplomatic relations with Sun Separatists's factions	false
+effects_description_relationship_3k_main_faction_taishan	[[b]]%+n[[/b]] diplomatic relations with Taishan's factions	false
+effects_description_relationship_3k_main_faction_taishan_separatists	[[b]]%+n[[/b]] diplomatic relations with Taishan Separatists's factions	false
+effects_description_relationship_3k_main_faction_taiyuan	[[b]]%+n[[/b]] diplomatic relations with Taiyuan's factions	false
+effects_description_relationship_3k_main_faction_taiyuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Taiyuan Separatists's factions	false
+effects_description_relationship_3k_main_faction_tao_qian	[[b]]%+n[[/b]] diplomatic relations with Tao Qian's factions	false
+effects_description_relationship_3k_main_faction_tao_qian_separatists	[[b]]%+n[[/b]] diplomatic relations with Tao Qian Separatists's factions	false
+effects_description_relationship_3k_main_faction_tong'an	[[b]]%+n[[/b]] diplomatic relations with Tong's factions	false
+effects_description_relationship_3k_main_faction_tong'an_separatists	[[b]]%+n[[/b]] diplomatic relations with Tong's factions	false
+effects_description_relationship_3k_main_faction_wang_kuang	[[b]]%+n[[/b]] diplomatic relations with Wang Kuang's factions	false
+effects_description_relationship_3k_main_faction_wang_kuang_separatists	[[b]]%+n[[/b]] diplomatic relations with Wang Kuang Separatists's factions	false
+effects_description_relationship_3k_main_faction_wang_lang	[[b]]%+n[[/b]] diplomatic relations with Wang Lang's factions	false
+effects_description_relationship_3k_main_faction_wang_lang_separatists	[[b]]%+n[[/b]] diplomatic relations with Wang Lang Separatists's factions	false
+effects_description_relationship_3k_main_faction_weijun	[[b]]%+n[[/b]] diplomatic relations with Weijun's factions	false
+effects_description_relationship_3k_main_faction_weijun_separatists	[[b]]%+n[[/b]] diplomatic relations with Weijun Separatists's factions	false
+effects_description_relationship_3k_main_faction_wudu	[[b]]%+n[[/b]] diplomatic relations with Wudu's factions	false
+effects_description_relationship_3k_main_faction_wudu_separatists	[[b]]%+n[[/b]] diplomatic relations with Wudu Separatists's factions	false
+effects_description_relationship_3k_main_faction_wuling	[[b]]%+n[[/b]] diplomatic relations with Wuling's factions	false
+effects_description_relationship_3k_main_faction_wuling_separatists	[[b]]%+n[[/b]] diplomatic relations with Wuling Separatists's factions	false
+effects_description_relationship_3k_main_faction_wuwei	[[b]]%+n[[/b]] diplomatic relations with Wuwei's factions	false
+effects_description_relationship_3k_main_faction_wuwei_separatists	[[b]]%+n[[/b]] diplomatic relations with Wuwei Separatists's factions	false
+effects_description_relationship_3k_main_faction_xiangyang	[[b]]%+n[[/b]] diplomatic relations with Xiangyang's factions	false
+effects_description_relationship_3k_main_faction_xiangyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Xiangyang Separatists's factions	false
+effects_description_relationship_3k_main_faction_xihe	[[b]]%+n[[/b]] diplomatic relations with Xihe's factions	false
+effects_description_relationship_3k_main_faction_xihe_separatists	[[b]]%+n[[/b]] diplomatic relations with Xihe Separatists's factions	false
+effects_description_relationship_3k_main_faction_xindu	[[b]]%+n[[/b]] diplomatic relations with Xindu's factions	false
+effects_description_relationship_3k_main_faction_xindu_separatists	[[b]]%+n[[/b]] diplomatic relations with Xindu Separatists's factions	false
+effects_description_relationship_3k_main_faction_yangzhou	[[b]]%+n[[/b]] diplomatic relations with Yangzhou's factions	false
+effects_description_relationship_3k_main_faction_yangzhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Yangzhou Separatists's factions	false
+effects_description_relationship_3k_main_faction_yanmen	[[b]]%+n[[/b]] diplomatic relations with Yanmen's factions	false
+effects_description_relationship_3k_main_faction_yanmen_separatists	[[b]]%+n[[/b]] diplomatic relations with Yanmen Separatists's factions	false
+effects_description_relationship_3k_main_faction_ye	[[b]]%+n[[/b]] diplomatic relations with Ye's factions	false
+effects_description_relationship_3k_main_faction_ye_separatists	[[b]]%+n[[/b]] diplomatic relations with Ye Separatists's factions	false
+effects_description_relationship_3k_main_faction_yellow_turban_anding	[[b]]%+n[[/b]] diplomatic relations with Yellow Turban Anding's factions	false
+effects_description_relationship_3k_main_faction_yellow_turban_generic	[[b]]%+n[[/b]] diplomatic relations with Yellow Turban Generic's factions	false
+effects_description_relationship_3k_main_faction_yellow_turban_rebels	[[b]]%+n[[/b]] diplomatic relations with Yellow Turban Rebels's factions	false
+effects_description_relationship_3k_main_faction_yellow_turban_taishan	[[b]]%+n[[/b]] diplomatic relations with Yellow Turban Taishan's factions	false
+effects_description_relationship_3k_main_faction_yingchuan	[[b]]%+n[[/b]] diplomatic relations with Yingchuan's factions	false
+effects_description_relationship_3k_main_faction_yingchuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Yingchuan Separatists's factions	false
+effects_description_relationship_3k_main_faction_yizhou	[[b]]%+n[[/b]] diplomatic relations with Yizhou's factions	false
+effects_description_relationship_3k_main_faction_yizhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Yizhou Separatists's factions	false
+effects_description_relationship_3k_main_faction_youbeiping	[[b]]%+n[[/b]] diplomatic relations with Youbeiping's factions	false
+effects_description_relationship_3k_main_faction_youbeiping_separatists	[[b]]%+n[[/b]] diplomatic relations with Youbeiping Separatists's factions	false
+effects_description_relationship_3k_main_faction_youzhou	[[b]]%+n[[/b]] diplomatic relations with Youzhou's factions	false
+effects_description_relationship_3k_main_faction_youzhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Youzhou Separatists's factions	false
+effects_description_relationship_3k_main_faction_yu	[[b]]%+n[[/b]] diplomatic relations with Yu's factions	false
+effects_description_relationship_3k_main_faction_yu_separatists	[[b]]%+n[[/b]] diplomatic relations with Yu Separatists's factions	false
+effects_description_relationship_3k_main_faction_yuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Yuan Separatists's factions	false
+effects_description_relationship_3k_main_faction_yuan_shao	[[b]]%+n[[/b]] diplomatic relations with Yuan Shao's factions	false
+effects_description_relationship_3k_main_faction_yuan_shu	[[b]]%+n[[/b]] diplomatic relations with Yuan Shu's factions	false
+effects_description_relationship_3k_main_faction_yuan_shu_separatists	[[b]]%+n[[/b]] diplomatic relations with Yuan Shu Separatists's factions	false
+effects_description_relationship_3k_main_faction_yulin	[[b]]%+n[[/b]] diplomatic relations with Yulin's factions	false
+effects_description_relationship_3k_main_faction_yulin_separatists	[[b]]%+n[[/b]] diplomatic relations with Yulin Separatists's factions	false
+effects_description_relationship_3k_main_faction_yuzhang	[[b]]%+n[[/b]] diplomatic relations with Yuzhang's factions	false
+effects_description_relationship_3k_main_faction_yuzhang_separatists	[[b]]%+n[[/b]] diplomatic relations with Yuzhang Separatists's factions	false
+effects_description_relationship_3k_main_faction_zangke	[[b]]%+n[[/b]] diplomatic relations with Zangke's factions	false
+effects_description_relationship_3k_main_faction_zangke_separatists	[[b]]%+n[[/b]] diplomatic relations with Zangke Separatists's factions	false
+effects_description_relationship_3k_main_faction_zhai_rong	[[b]]%+n[[/b]] diplomatic relations with Zhai Rong's factions	false
+effects_description_relationship_3k_main_faction_zhai_rong_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhai Rong Separatists's factions	false
+effects_description_relationship_3k_main_faction_zhang_chao	[[b]]%+n[[/b]] diplomatic relations with Zhang Chao's factions	false
+effects_description_relationship_3k_main_faction_zhang_chao_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Chao Separatists's factions	false
+effects_description_relationship_3k_main_faction_zhang_lu	[[b]]%+n[[/b]] diplomatic relations with Zhang Lu's factions	false
+effects_description_relationship_3k_main_faction_zhang_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Separatists's factions	false
+effects_description_relationship_3k_main_faction_zhang_yan	[[b]]%+n[[/b]] diplomatic relations with Zhang Yan's factions	false
+effects_description_relationship_3k_main_faction_zhang_yan_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Yan Separatists's factions	false
+effects_description_relationship_3k_main_faction_zhang_yang	[[b]]%+n[[/b]] diplomatic relations with Zhang Yang's factions	false
+effects_description_relationship_3k_main_faction_zhang_yang_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Yang Separatists's factions	false
+effects_description_relationship_3k_main_faction_zheng_jiang	[[b]]%+n[[/b]] diplomatic relations with Zheng Jiang's factions	false
+effects_description_relationship_3k_main_faction_zheng_jiang_separatists	[[b]]%+n[[/b]] diplomatic relations with Zheng Jiang Separatists's factions	false
+effects_description_relationship_3k_main_faction_zhongshan	[[b]]%+n[[/b]] diplomatic relations with Zhongshan's factions	false
+effects_description_relationship_3k_main_faction_zhongshan_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhongshan Separatists's factions	false
+effects_description_relationship_ep_faction_anding	[[b]]%+n[[/b]] diplomatic relations with Anding's factions	false
+effects_description_relationship_ep_faction_anding_separatists	[[b]]%+n[[/b]] diplomatic relations with Anding Separatists's factions	false
+effects_description_relationship_ep_faction_anping	[[b]]%+n[[/b]] diplomatic relations with Anping's factions	false
+effects_description_relationship_ep_faction_anping_separatists	[[b]]%+n[[/b]] diplomatic relations with Anping Separatists's factions	false
+effects_description_relationship_ep_faction_badong	[[b]]%+n[[/b]] diplomatic relations with Badong's factions	false
+effects_description_relationship_ep_faction_badong_separatists	[[b]]%+n[[/b]] diplomatic relations with Badong Separatists's factions	false
+effects_description_relationship_ep_faction_bajun	[[b]]%+n[[/b]] diplomatic relations with Bajun's factions	false
+effects_description_relationship_ep_faction_bajun_separatists	[[b]]%+n[[/b]] diplomatic relations with Bajun Separatists's factions	false
+effects_description_relationship_ep_faction_baxi	[[b]]%+n[[/b]] diplomatic relations with Baxi's factions	false
+effects_description_relationship_ep_faction_baxi_separatists	[[b]]%+n[[/b]] diplomatic relations with Baxi Separatists's factions	false
+effects_description_relationship_ep_faction_beihai	[[b]]%+n[[/b]] diplomatic relations with Beihai's factions	false
+effects_description_relationship_ep_faction_beihai_separatists	[[b]]%+n[[/b]] diplomatic relations with Beihai Separatists's factions	false
+effects_description_relationship_ep_faction_bohai	[[b]]%+n[[/b]] diplomatic relations with Bohai's factions	false
+effects_description_relationship_ep_faction_bohai_separatists	[[b]]%+n[[/b]] diplomatic relations with Bohai Separatists's factions	false
+effects_description_relationship_ep_faction_cangwu	[[b]]%+n[[/b]] diplomatic relations with Cangwu's factions	false
+effects_description_relationship_ep_faction_cangwu_separatists	[[b]]%+n[[/b]] diplomatic relations with Cangwu Separatists's factions	false
+effects_description_relationship_ep_faction_changan	[[b]]%+n[[/b]] diplomatic relations with Changan's factions	false
+effects_description_relationship_ep_faction_changan_separatists	[[b]]%+n[[/b]] diplomatic relations with Changan Separatists's factions	false
+effects_description_relationship_ep_faction_changsha	[[b]]%+n[[/b]] diplomatic relations with Changsha's factions	false
+effects_description_relationship_ep_faction_changsha_separatists	[[b]]%+n[[/b]] diplomatic relations with Changsha Separatists's factions	false
+effects_description_relationship_ep_faction_chengdu	[[b]]%+n[[/b]] diplomatic relations with Chengdu's factions	false
+effects_description_relationship_ep_faction_chengdu_separatists	[[b]]%+n[[/b]] diplomatic relations with Chengdu Separatists's factions	false
+effects_description_relationship_ep_faction_chenjun	[[b]]%+n[[/b]] diplomatic relations with Chenjun's factions	false
+effects_description_relationship_ep_faction_chenjun_separatists	[[b]]%+n[[/b]] diplomatic relations with Chenjun Separatists's factions	false
+effects_description_relationship_ep_faction_daijun	[[b]]%+n[[/b]] diplomatic relations with Daijun's factions	false
+effects_description_relationship_ep_faction_daijun_separatists	[[b]]%+n[[/b]] diplomatic relations with Daijun Separatists's factions	false
+effects_description_relationship_ep_faction_donghai	[[b]]%+n[[/b]] diplomatic relations with Donghai's factions	false
+effects_description_relationship_ep_faction_donghai_separatists	[[b]]%+n[[/b]] diplomatic relations with Donghai Separatists's factions	false
+effects_description_relationship_ep_faction_dongjun	[[b]]%+n[[/b]] diplomatic relations with Dongjun's factions	false
+effects_description_relationship_ep_faction_dongjun_separatists	[[b]]%+n[[/b]] diplomatic relations with Dongjun Separatists's factions	false
+effects_description_relationship_ep_faction_donglai	[[b]]%+n[[/b]] diplomatic relations with Donglai's factions	false
+effects_description_relationship_ep_faction_donglai_separatists	[[b]]%+n[[/b]] diplomatic relations with Donglai Separatists's factions	false
+effects_description_relationship_ep_faction_dongou	[[b]]%+n[[/b]] diplomatic relations with Dongou's factions	false
+effects_description_relationship_ep_faction_dongou_separatists	[[b]]%+n[[/b]] diplomatic relations with Dongou Separatists's factions	false
+effects_description_relationship_ep_faction_duke_of_lanling	[[b]]%+n[[/b]] diplomatic relations with Duke Of Lanling's factions	false
+effects_description_relationship_ep_faction_duke_of_lanling_separatists	[[b]]%+n[[/b]] diplomatic relations with Duke Of Lanling Separatists's factions	false
+effects_description_relationship_ep_faction_empire_of_jin	[[b]]%+n[[/b]] diplomatic relations with Empire Of Jin's factions	false
+effects_description_relationship_ep_faction_empire_of_jin_separatists	[[b]]%+n[[/b]] diplomatic relations with Empire Of Jin Separatists's factions	false
+effects_description_relationship_ep_faction_fuling	[[b]]%+n[[/b]] diplomatic relations with Fuling's factions	false
+effects_description_relationship_ep_faction_fuling_separatists	[[b]]%+n[[/b]] diplomatic relations with Fuling Separatists's factions	false
+effects_description_relationship_ep_faction_gaoliang	[[b]]%+n[[/b]] diplomatic relations with Gaoliang's factions	false
+effects_description_relationship_ep_faction_gaoliang_separatists	[[b]]%+n[[/b]] diplomatic relations with Gaoliang Separatists's factions	false
+effects_description_relationship_ep_faction_guangling	[[b]]%+n[[/b]] diplomatic relations with Guangling's factions	false
+effects_description_relationship_ep_faction_guangling_separatists	[[b]]%+n[[/b]] diplomatic relations with Guangling Separatists's factions	false
+effects_description_relationship_ep_faction_hanzhong	[[b]]%+n[[/b]] diplomatic relations with Hanzhong's factions	false
+effects_description_relationship_ep_faction_hanzhong_separatists	[[b]]%+n[[/b]] diplomatic relations with Hanzhong Separatists's factions	false
+effects_description_relationship_ep_faction_hedong	[[b]]%+n[[/b]] diplomatic relations with Hedong's factions	false
+effects_description_relationship_ep_faction_hedong_separatists	[[b]]%+n[[/b]] diplomatic relations with Hedong Separatists's factions	false
+effects_description_relationship_ep_faction_henei	[[b]]%+n[[/b]] diplomatic relations with Henei's factions	false
+effects_description_relationship_ep_faction_henei_separatists	[[b]]%+n[[/b]] diplomatic relations with Henei Separatists's factions	false
+effects_description_relationship_ep_faction_hepu	[[b]]%+n[[/b]] diplomatic relations with Hepu's factions	false
+effects_description_relationship_ep_faction_hepu_separatists	[[b]]%+n[[/b]] diplomatic relations with Hepu Separatists's factions	false
+effects_description_relationship_ep_faction_jianan	[[b]]%+n[[/b]] diplomatic relations with Jianan's factions	false
+effects_description_relationship_ep_faction_jianan_separatists	[[b]]%+n[[/b]] diplomatic relations with Jianan Separatists's factions	false
+effects_description_relationship_ep_faction_jiangxia	[[b]]%+n[[/b]] diplomatic relations with Jiangxia's factions	false
+effects_description_relationship_ep_faction_jiangxia_separatists	[[b]]%+n[[/b]] diplomatic relations with Jiangxia Separatists's factions	false
+effects_description_relationship_ep_faction_jiangyang	[[b]]%+n[[/b]] diplomatic relations with Jiangyang's factions	false
+effects_description_relationship_ep_faction_jiangyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Jiangyang Separatists's factions	false
+effects_description_relationship_ep_faction_jianning	[[b]]%+n[[/b]] diplomatic relations with Jianning's factions	false
+effects_description_relationship_ep_faction_jianning_separatists	[[b]]%+n[[/b]] diplomatic relations with Jianning Separatists's factions	false
+effects_description_relationship_ep_faction_jianye	[[b]]%+n[[/b]] diplomatic relations with Jianye's factions	false
+effects_description_relationship_ep_faction_jianye_separatists	[[b]]%+n[[/b]] diplomatic relations with Jianye Separatists's factions	false
+effects_description_relationship_ep_faction_jiaozhi	[[b]]%+n[[/b]] diplomatic relations with Jiaozhi's factions	false
+effects_description_relationship_ep_faction_jiaozhi_separatists	[[b]]%+n[[/b]] diplomatic relations with Jiaozhi Separatists's factions	false
+effects_description_relationship_ep_faction_jincheng	[[b]]%+n[[/b]] diplomatic relations with Jincheng's factions	false
+effects_description_relationship_ep_faction_jincheng_separatists	[[b]]%+n[[/b]] diplomatic relations with Jincheng Separatists's factions	false
+effects_description_relationship_ep_faction_jingzhou	[[b]]%+n[[/b]] diplomatic relations with Jingzhou's factions	false
+effects_description_relationship_ep_faction_jingzhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Jingzhou Separatists's factions	false
+effects_description_relationship_ep_faction_kuaiji	[[b]]%+n[[/b]] diplomatic relations with Kuaiji's factions	false
+effects_description_relationship_ep_faction_kuaiji_separatists	[[b]]%+n[[/b]] diplomatic relations with Kuaiji Separatists's factions	false
+effects_description_relationship_ep_faction_langye	[[b]]%+n[[/b]] diplomatic relations with Langye's factions	false
+effects_description_relationship_ep_faction_langye_separatists	[[b]]%+n[[/b]] diplomatic relations with Langye Separatists's factions	false
+effects_description_relationship_ep_faction_lingling	[[b]]%+n[[/b]] diplomatic relations with Lingling's factions	false
+effects_description_relationship_ep_faction_lingling_separatists	[[b]]%+n[[/b]] diplomatic relations with Lingling Separatists's factions	false
+effects_description_relationship_ep_faction_lujiang	[[b]]%+n[[/b]] diplomatic relations with Lujiang's factions	false
+effects_description_relationship_ep_faction_lujiang_separatists	[[b]]%+n[[/b]] diplomatic relations with Lujiang Separatists's factions	false
+effects_description_relationship_ep_faction_luling	[[b]]%+n[[/b]] diplomatic relations with Luling's factions	false
+effects_description_relationship_ep_faction_luling_separatists	[[b]]%+n[[/b]] diplomatic relations with Luling Separatists's factions	false
+effects_description_relationship_ep_faction_luoyang	[[b]]%+n[[/b]] diplomatic relations with Luoyang's factions	false
+effects_description_relationship_ep_faction_luoyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Luoyang Separatists's factions	false
+effects_description_relationship_ep_faction_nanhai	[[b]]%+n[[/b]] diplomatic relations with Nanhai's factions	false
+effects_description_relationship_ep_faction_nanhai_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanhai Separatists's factions	false
+effects_description_relationship_ep_faction_nanyang	[[b]]%+n[[/b]] diplomatic relations with Nanyang's factions	false
+effects_description_relationship_ep_faction_nanyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Nanyang Separatists's factions	false
+effects_description_relationship_ep_faction_penchang	[[b]]%+n[[/b]] diplomatic relations with Penchang's factions	false
+effects_description_relationship_ep_faction_penchang_separatists	[[b]]%+n[[/b]] diplomatic relations with Penchang Separatists's factions	false
+effects_description_relationship_ep_faction_pingyuan	[[b]]%+n[[/b]] diplomatic relations with Pingyuan's factions	false
+effects_description_relationship_ep_faction_pingyuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Pingyuan Separatists's factions	false
+effects_description_relationship_ep_faction_poyang	[[b]]%+n[[/b]] diplomatic relations with Poyang's factions	false
+effects_description_relationship_ep_faction_poyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Poyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_ba	[[b]]%+n[[/b]] diplomatic relations with Prince Of Ba's factions	false
+effects_description_relationship_ep_faction_prince_of_ba_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Ba Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_badong	[[b]]%+n[[/b]] diplomatic relations with Prince Of Badong's factions	false
+effects_description_relationship_ep_faction_prince_of_badong_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Badong Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_beihai	[[b]]%+n[[/b]] diplomatic relations with Prince Of Beihai's factions	false
+effects_description_relationship_ep_faction_prince_of_beihai_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Beihai Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_cangwu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Cangwu's factions	false
+effects_description_relationship_ep_faction_prince_of_cangwu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Cangwu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_changan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Changan's factions	false
+effects_description_relationship_ep_faction_prince_of_changan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Changan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_changle	[[b]]%+n[[/b]] diplomatic relations with Prince Of Changle's factions	false
+effects_description_relationship_ep_faction_prince_of_changle_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Changle Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_changsha	[[b]]%+n[[/b]] diplomatic relations with Prince Of Changsha's factions	false
+effects_description_relationship_ep_faction_prince_of_changsha_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Changsha Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_chengdu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Chengdu's factions	false
+effects_description_relationship_ep_faction_prince_of_chengdu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Chengdu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_chenliu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Chenliu's factions	false
+effects_description_relationship_ep_faction_prince_of_chenliu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Chenliu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_chu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Chu's factions	false
+effects_description_relationship_ep_faction_prince_of_chu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Chu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_dai	[[b]]%+n[[/b]] diplomatic relations with Prince Of Dai's factions	false
+effects_description_relationship_ep_faction_prince_of_dai_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Dai Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_dongan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Dongan's factions	false
+effects_description_relationship_ep_faction_prince_of_dongan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Dongan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_donghai	[[b]]%+n[[/b]] diplomatic relations with Prince Of Donghai's factions	false
+effects_description_relationship_ep_faction_prince_of_donghai_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Donghai Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_donglai	[[b]]%+n[[/b]] diplomatic relations with Prince Of Donglai's factions	false
+effects_description_relationship_ep_faction_prince_of_donglai_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Donglai Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_dongping	[[b]]%+n[[/b]] diplomatic relations with Prince Of Dongping's factions	false
+effects_description_relationship_ep_faction_prince_of_dongping_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Dongping Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_engcheng	[[b]]%+n[[/b]] diplomatic relations with Prince Of Engcheng's factions	false
+effects_description_relationship_ep_faction_prince_of_engcheng_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Engcheng Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_fanyang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Fanyang's factions	false
+effects_description_relationship_ep_faction_prince_of_fanyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Fanyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_fuling	[[b]]%+n[[/b]] diplomatic relations with Prince Of Fuling's factions	false
+effects_description_relationship_ep_faction_prince_of_fuling_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Fuling Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_gaoliang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Gaoliang's factions	false
+effects_description_relationship_ep_faction_prince_of_gaoliang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Gaoliang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_gaoyang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Gaoyang's factions	false
+effects_description_relationship_ep_faction_prince_of_gaoyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Gaoyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_han	[[b]]%+n[[/b]] diplomatic relations with Prince Of Han's factions	false
+effects_description_relationship_ep_faction_prince_of_han_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Han Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_hejian	[[b]]%+n[[/b]] diplomatic relations with Prince Of Hejian's factions	false
+effects_description_relationship_ep_faction_prince_of_hejian_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Hejian Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_henei	[[b]]%+n[[/b]] diplomatic relations with Prince Of Henei's factions	false
+effects_description_relationship_ep_faction_prince_of_henei_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Henei Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_hepu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Hepu's factions	false
+effects_description_relationship_ep_faction_prince_of_hepu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Hepu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_huainan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Huainan's factions	false
+effects_description_relationship_ep_faction_prince_of_huainan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Huainan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_jianan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jianan's factions	false
+effects_description_relationship_ep_faction_prince_of_jianan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jianan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_jiangling	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiangling's factions	false
+effects_description_relationship_ep_faction_prince_of_jiangling_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiangling Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_jiangxia	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiangxia's factions	false
+effects_description_relationship_ep_faction_prince_of_jiangxia_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiangxia Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_jiangyang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiangyang's factions	false
+effects_description_relationship_ep_faction_prince_of_jiangyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiangyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_jiaozhi	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiaozhi's factions	false
+effects_description_relationship_ep_faction_prince_of_jiaozhi_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jiaozhi Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_jincheng	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jincheng's factions	false
+effects_description_relationship_ep_faction_prince_of_jincheng_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Jincheng Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_kuaiji	[[b]]%+n[[/b]] diplomatic relations with Prince Of Kuaiji's factions	false
+effects_description_relationship_ep_faction_prince_of_kuaiji_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Kuaiji Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_langye	[[b]]%+n[[/b]] diplomatic relations with Prince Of Langye's factions	false
+effects_description_relationship_ep_faction_prince_of_langye_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Langye Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_lean	[[b]]%+n[[/b]] diplomatic relations with Prince Of Lean's factions	false
+effects_description_relationship_ep_faction_prince_of_lean_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Lean Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_liang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Liang's factions	false
+effects_description_relationship_ep_faction_prince_of_liang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Liang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_liaoxi	[[b]]%+n[[/b]] diplomatic relations with Prince Of Liaoxi's factions	false
+effects_description_relationship_ep_faction_prince_of_liaoxi_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Liaoxi Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_lingling	[[b]]%+n[[/b]] diplomatic relations with Prince Of Lingling's factions	false
+effects_description_relationship_ep_faction_prince_of_lingling_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Lingling Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_longxi	[[b]]%+n[[/b]] diplomatic relations with Prince Of Longxi's factions	false
+effects_description_relationship_ep_faction_prince_of_longxi_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Longxi Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_lujiang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Lujiang's factions	false
+effects_description_relationship_ep_faction_prince_of_lujiang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Lujiang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_luling	[[b]]%+n[[/b]] diplomatic relations with Prince Of Luling's factions	false
+effects_description_relationship_ep_faction_prince_of_luling_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Luling Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_nanhai	[[b]]%+n[[/b]] diplomatic relations with Prince Of Nanhai's factions	false
+effects_description_relationship_ep_faction_prince_of_nanhai_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Nanhai Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_nanyang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Nanyang's factions	false
+effects_description_relationship_ep_faction_prince_of_nanyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Nanyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_pencheng	[[b]]%+n[[/b]] diplomatic relations with Prince Of Pencheng's factions	false
+effects_description_relationship_ep_faction_prince_of_pencheng_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Pencheng Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_piling	[[b]]%+n[[/b]] diplomatic relations with Prince Of Piling's factions	false
+effects_description_relationship_ep_faction_prince_of_piling_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Piling Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_pingyuan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Pingyuan's factions	false
+effects_description_relationship_ep_faction_prince_of_pingyuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Pingyuan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_poyang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Poyang's factions	false
+effects_description_relationship_ep_faction_prince_of_poyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Poyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_qi	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qi's factions	false
+effects_description_relationship_ep_faction_prince_of_qi_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qi Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_qiao	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qiao's factions	false
+effects_description_relationship_ep_faction_prince_of_qiao_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qiao Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_qin	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qin's factions	false
+effects_description_relationship_ep_faction_prince_of_qin_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qin Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_qinghe	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qinghe's factions	false
+effects_description_relationship_ep_faction_prince_of_qinghe_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Qinghe Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_rencheng	[[b]]%+n[[/b]] diplomatic relations with Prince Of Rencheng's factions	false
+effects_description_relationship_ep_faction_prince_of_rencheng_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Rencheng Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_runan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Runan's factions	false
+effects_description_relationship_ep_faction_prince_of_runan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Runan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_shunyang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Shunyang's factions	false
+effects_description_relationship_ep_faction_prince_of_shunyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Shunyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_taiyuan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Taiyuan's factions	false
+effects_description_relationship_ep_faction_prince_of_taiyuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Taiyuan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_tongan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Tongan's factions	false
+effects_description_relationship_ep_faction_prince_of_tongan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Tongan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_wu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Wu's factions	false
+effects_description_relationship_ep_faction_prince_of_wu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Wu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_wudu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Wudu's factions	false
+effects_description_relationship_ep_faction_prince_of_wudu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Wudu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_wuling	[[b]]%+n[[/b]] diplomatic relations with Prince Of Wuling's factions	false
+effects_description_relationship_ep_faction_prince_of_wuling_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Wuling Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_xiapi	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xiapi's factions	false
+effects_description_relationship_ep_faction_prince_of_xiapi_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xiapi Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_xihe	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xihe's factions	false
+effects_description_relationship_ep_faction_prince_of_xihe_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xihe Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_xindu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xindu's factions	false
+effects_description_relationship_ep_faction_prince_of_xindu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xindu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_xinye	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xinye's factions	false
+effects_description_relationship_ep_faction_prince_of_xinye_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Xinye Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_yan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yan's factions	false
+effects_description_relationship_ep_faction_prince_of_yan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yan Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_yangzhou	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yangzhou's factions	false
+effects_description_relationship_ep_faction_prince_of_yangzhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yangzhou Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_yanmen	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yanmen's factions	false
+effects_description_relationship_ep_faction_prince_of_yanmen_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yanmen Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_ye	[[b]]%+n[[/b]] diplomatic relations with Prince Of Ye's factions	false
+effects_description_relationship_ep_faction_prince_of_ye_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Ye Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_yiyang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yiyang's factions	false
+effects_description_relationship_ep_faction_prince_of_yiyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yiyang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_yizhou	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yizhou's factions	false
+effects_description_relationship_ep_faction_prince_of_yizhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yizhou Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_yuzhang	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yuzhang's factions	false
+effects_description_relationship_ep_faction_prince_of_yuzhang_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Yuzhang Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_zangke	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zangke's factions	false
+effects_description_relationship_ep_faction_prince_of_zangke_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zangke Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_zhangwu	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zhangwu's factions	false
+effects_description_relationship_ep_faction_prince_of_zhangwu_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zhangwu Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_zhao	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zhao's factions	false
+effects_description_relationship_ep_faction_prince_of_zhao_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zhao Separatists's factions	false
+effects_description_relationship_ep_faction_prince_of_zhongshan	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zhongshan's factions	false
+effects_description_relationship_ep_faction_prince_of_zhongshan_separatists	[[b]]%+n[[/b]] diplomatic relations with Prince Of Zhongshan Separatists's factions	false
+effects_description_relationship_ep_faction_rebels	[[b]]%+n[[/b]] diplomatic relations with Rebels's factions	false
+effects_description_relationship_ep_faction_runan	[[b]]%+n[[/b]] diplomatic relations with Runan's factions	false
+effects_description_relationship_ep_faction_runan_separatists	[[b]]%+n[[/b]] diplomatic relations with Runan Separatists's factions	false
+effects_description_relationship_ep_faction_shangdang	[[b]]%+n[[/b]] diplomatic relations with Shangdang's factions	false
+effects_description_relationship_ep_faction_shangdang_separatists	[[b]]%+n[[/b]] diplomatic relations with Shangdang Separatists's factions	false
+effects_description_relationship_ep_faction_shangyong	[[b]]%+n[[/b]] diplomatic relations with Shangyong's factions	false
+effects_description_relationship_ep_faction_shangyong_separatists	[[b]]%+n[[/b]] diplomatic relations with Shangyong Separatists's factions	false
+effects_description_relationship_ep_faction_shoufang	[[b]]%+n[[/b]] diplomatic relations with Shoufang's factions	false
+effects_description_relationship_ep_faction_shoufang_separatists	[[b]]%+n[[/b]] diplomatic relations with Shoufang Separatists's factions	false
+effects_description_relationship_ep_faction_taishan	[[b]]%+n[[/b]] diplomatic relations with Taishan's factions	false
+effects_description_relationship_ep_faction_taishan_separatists	[[b]]%+n[[/b]] diplomatic relations with Taishan Separatists's factions	false
+effects_description_relationship_ep_faction_taiyuan	[[b]]%+n[[/b]] diplomatic relations with Taiyuan's factions	false
+effects_description_relationship_ep_faction_taiyuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Taiyuan Separatists's factions	false
+effects_description_relationship_ep_faction_tongan	[[b]]%+n[[/b]] diplomatic relations with Tongan's factions	false
+effects_description_relationship_ep_faction_tongan_separatists	[[b]]%+n[[/b]] diplomatic relations with Tongan Separatists's factions	false
+effects_description_relationship_ep_faction_weijun	[[b]]%+n[[/b]] diplomatic relations with Weijun's factions	false
+effects_description_relationship_ep_faction_weijun_separatists	[[b]]%+n[[/b]] diplomatic relations with Weijun Separatists's factions	false
+effects_description_relationship_ep_faction_wudu	[[b]]%+n[[/b]] diplomatic relations with Wudu's factions	false
+effects_description_relationship_ep_faction_wudu_separatists	[[b]]%+n[[/b]] diplomatic relations with Wudu Separatists's factions	false
+effects_description_relationship_ep_faction_wuling	[[b]]%+n[[/b]] diplomatic relations with Wuling's factions	false
+effects_description_relationship_ep_faction_wuling_separatists	[[b]]%+n[[/b]] diplomatic relations with Wuling Separatists's factions	false
+effects_description_relationship_ep_faction_wuwei	[[b]]%+n[[/b]] diplomatic relations with Wuwei's factions	false
+effects_description_relationship_ep_faction_wuwei_separatists	[[b]]%+n[[/b]] diplomatic relations with Wuwei Separatists's factions	false
+effects_description_relationship_ep_faction_xiangyang	[[b]]%+n[[/b]] diplomatic relations with Xiangyang's factions	false
+effects_description_relationship_ep_faction_xiangyang_separatists	[[b]]%+n[[/b]] diplomatic relations with Xiangyang Separatists's factions	false
+effects_description_relationship_ep_faction_xihe	[[b]]%+n[[/b]] diplomatic relations with Xihe's factions	false
+effects_description_relationship_ep_faction_xihe_separatists	[[b]]%+n[[/b]] diplomatic relations with Xihe Separatists's factions	false
+effects_description_relationship_ep_faction_xindu	[[b]]%+n[[/b]] diplomatic relations with Xindu's factions	false
+effects_description_relationship_ep_faction_xindu_separatists	[[b]]%+n[[/b]] diplomatic relations with Xindu Separatists's factions	false
+effects_description_relationship_ep_faction_yangzhou	[[b]]%+n[[/b]] diplomatic relations with Yangzhou's factions	false
+effects_description_relationship_ep_faction_yangzhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Yangzhou Separatists's factions	false
+effects_description_relationship_ep_faction_yanmen	[[b]]%+n[[/b]] diplomatic relations with Yanmen's factions	false
+effects_description_relationship_ep_faction_yanmen_separatists	[[b]]%+n[[/b]] diplomatic relations with Yanmen Separatists's factions	false
+effects_description_relationship_ep_faction_ye	[[b]]%+n[[/b]] diplomatic relations with Ye's factions	false
+effects_description_relationship_ep_faction_ye_separatists	[[b]]%+n[[/b]] diplomatic relations with Ye Separatists's factions	false
+effects_description_relationship_ep_faction_yingchuan	[[b]]%+n[[/b]] diplomatic relations with Yingchuan's factions	false
+effects_description_relationship_ep_faction_yingchuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Yingchuan Separatists's factions	false
+effects_description_relationship_ep_faction_yizhou	[[b]]%+n[[/b]] diplomatic relations with Yizhou's factions	false
+effects_description_relationship_ep_faction_yizhou_island	[[b]]%+n[[/b]] diplomatic relations with Yizhou Island's factions	false
+effects_description_relationship_ep_faction_yizhou_island_separatists	[[b]]%+n[[/b]] diplomatic relations with Yizhou Island Separatists's factions	false
+effects_description_relationship_ep_faction_yizhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Yizhou Separatists's factions	false
+effects_description_relationship_ep_faction_youbeiping	[[b]]%+n[[/b]] diplomatic relations with Youbeiping's factions	false
+effects_description_relationship_ep_faction_youbeiping_separatists	[[b]]%+n[[/b]] diplomatic relations with Youbeiping Separatists's factions	false
+effects_description_relationship_ep_faction_youzhou	[[b]]%+n[[/b]] diplomatic relations with Youzhou's factions	false
+effects_description_relationship_ep_faction_youzhou_separatists	[[b]]%+n[[/b]] diplomatic relations with Youzhou Separatists's factions	false
+effects_description_relationship_ep_faction_yu	[[b]]%+n[[/b]] diplomatic relations with Yu's factions	false
+effects_description_relationship_ep_faction_yu_separatists	[[b]]%+n[[/b]] diplomatic relations with Yu Separatists's factions	false
+effects_description_relationship_ep_faction_yulin	[[b]]%+n[[/b]] diplomatic relations with Yulin's factions	false
+effects_description_relationship_ep_faction_yulin_separatists	[[b]]%+n[[/b]] diplomatic relations with Yulin Separatists's factions	false
+effects_description_relationship_ep_faction_yuzhang	[[b]]%+n[[/b]] diplomatic relations with Yuzhang's factions	false
+effects_description_relationship_ep_faction_yuzhang_separatists	[[b]]%+n[[/b]] diplomatic relations with Yuzhang Separatists's factions	false
+effects_description_relationship_ep_faction_zangke	[[b]]%+n[[/b]] diplomatic relations with Zangke's factions	false
+effects_description_relationship_ep_faction_zangke_separatists	[[b]]%+n[[/b]] diplomatic relations with Zangke Separatists's factions	false
+effects_description_relationship_ep_faction_zhongshan	[[b]]%+n[[/b]] diplomatic relations with Zhongshan's factions	false
+effects_description_relationship_ep_faction_zhongshan_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhongshan Separatists's factions	false
+effects_description_relationship_ironic_faction_bakaja	[[b]]%+n[[/b]] diplomatic relations with Bakaja's factions	false
+effects_description_relationship_ironic_faction_bakaja_separatists	[[b]]%+n[[/b]] diplomatic relations with Bakaja Separatists's factions	false
+effects_description_relationship_ironic_faction_bian_rang	[[b]]%+n[[/b]] diplomatic relations with Bian Rang's factions	false
+effects_description_relationship_ironic_faction_bian_rang_separatists	[[b]]%+n[[/b]] diplomatic relations with Bian Rang Separatists's factions	false
+effects_description_relationship_ironic_faction_buyeo	[[b]]%+n[[/b]] diplomatic relations with Buyeo's factions	false
+effects_description_relationship_ironic_faction_buyeo_separatists	[[b]]%+n[[/b]] diplomatic relations with Buyeo Separatists's factions	false
+effects_description_relationship_ironic_faction_chen_wen	[[b]]%+n[[/b]] diplomatic relations with Chen Wen's factions	false
+effects_description_relationship_ironic_faction_chen_wen_separatists	[[b]]%+n[[/b]] diplomatic relations with Chen Wen Separatists's factions	false
+effects_description_relationship_ironic_faction_gan_ning	[[b]]%+n[[/b]] diplomatic relations with Gan Ning's factions	false
+effects_description_relationship_ironic_faction_gan_ning_separatists	[[b]]%+n[[/b]] diplomatic relations with Gan Ning Separatists's factions	false
+effects_description_relationship_ironic_faction_gaya	[[b]]%+n[[/b]] diplomatic relations with Gaya's factions	false
+effects_description_relationship_ironic_faction_gaya_separatists	[[b]]%+n[[/b]] diplomatic relations with Gaya Separatists's factions	false
+effects_description_relationship_ironic_faction_goguryeo	[[b]]%+n[[/b]] diplomatic relations with Goguryeo's factions	false
+effects_description_relationship_ironic_faction_goguryeo_separatists	[[b]]%+n[[/b]] diplomatic relations with Goguryeo Separatists's factions	false
+effects_description_relationship_ironic_faction_hu_mao	[[b]]%+n[[/b]] diplomatic relations with Hu Mao's factions	false
+effects_description_relationship_ironic_faction_hu_mao_separatists	[[b]]%+n[[/b]] diplomatic relations with Hu Mao Separatists's factions	false
+effects_description_relationship_ironic_faction_huang_clan	[[b]]%+n[[/b]] diplomatic relations with Huang Clan's factions	false
+effects_description_relationship_ironic_faction_huang_clan_separatists	[[b]]%+n[[/b]] diplomatic relations with Huang Clan Separatists's factions	false
+effects_description_relationship_ironic_faction_korea_ye	[[b]]%+n[[/b]] diplomatic relations with Korea Ye's factions	false
+effects_description_relationship_ironic_faction_korea_ye_separatists	[[b]]%+n[[/b]] diplomatic relations with Korea Ye Separatists's factions	false
+effects_description_relationship_ironic_faction_liu_pan	[[b]]%+n[[/b]] diplomatic relations with Liu Pan's factions	false
+effects_description_relationship_ironic_faction_liu_pan_separatists	[[b]]%+n[[/b]] diplomatic relations with Liu Pan Separatists's factions	false
+effects_description_relationship_ironic_faction_ma_ai	[[b]]%+n[[/b]] diplomatic relations with Ma Ai's factions	false
+effects_description_relationship_ironic_faction_ma_ai_separatists	[[b]]%+n[[/b]] diplomatic relations with Ma Ai Separatists's factions	false
+effects_description_relationship_ironic_faction_shitla	[[b]]%+n[[/b]] diplomatic relations with Shitla's factions	false
+effects_description_relationship_ironic_faction_shitla_separatists	[[b]]%+n[[/b]] diplomatic relations with Shitla Separatists's factions	false
+effects_description_relationship_ironic_faction_tamno	[[b]]%+n[[/b]] diplomatic relations with Tamno's factions	false
+effects_description_relationship_ironic_faction_tamno_separatists	[[b]]%+n[[/b]] diplomatic relations with Tamno Separatists's factions	false
+effects_description_relationship_ironic_faction_tong_zhi	[[b]]%+n[[/b]] diplomatic relations with Tong Zhi's factions	false
+effects_description_relationship_ironic_faction_tong_zhi_separatists	[[b]]%+n[[/b]] diplomatic relations with Tong Zhi Separatists's factions	false
+effects_description_relationship_ironic_faction_wang_sheng	[[b]]%+n[[/b]] diplomatic relations with Wang Sheng's factions	false
+effects_description_relationship_ironic_faction_wang_sheng_separatists	[[b]]%+n[[/b]] diplomatic relations with Wang Sheng Separatists's factions	false
+effects_description_relationship_ironic_faction_wuhuan_tribes	[[b]]%+n[[/b]] diplomatic relations with Wuhuan Tribes's factions	false
+effects_description_relationship_ironic_faction_wuhuan_tribes_separatists	[[b]]%+n[[/b]] diplomatic relations with Wuhuan Tribes Separatists's factions	false
+effects_description_relationship_ironic_faction_xiongnu_tribes	[[b]]%+n[[/b]] diplomatic relations with Xiongnu Tribes's factions	false
+effects_description_relationship_ironic_faction_xiongnu_tribes_separatists	[[b]]%+n[[/b]] diplomatic relations with Xiongnu Tribes Separatists's factions	false
+effects_description_relationship_ironic_faction_zhang_jin	[[b]]%+n[[/b]] diplomatic relations with Zhang Jin's factions	false
+effects_description_relationship_ironic_faction_zhang_jin_border	[[b]]%+n[[/b]] diplomatic relations with Zhang Jin Border's factions	false
+effects_description_relationship_ironic_faction_zhang_jin_border_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Jin Border Separatists's factions	false
+effects_description_relationship_ironic_faction_zhang_jin_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Jin Separatists's factions	false
+effects_description_relationship_ironic_faction_zhang_xian	[[b]]%+n[[/b]] diplomatic relations with Zhang Xian's factions	false
+effects_description_relationship_ironic_faction_zhang_xian_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhang Xian Separatists's factions	false
+effects_description_relationship_ironic_faction_zhu_hao	[[b]]%+n[[/b]] diplomatic relations with Zhu Hao's factions	false
+effects_description_relationship_ironic_faction_zhu_hao_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhu Hao Separatists's factions	false
+effects_description_relationship_ironic_faction_zhuge_xuan	[[b]]%+n[[/b]] diplomatic relations with Zhuge Xuan's factions	false
+effects_description_relationship_ironic_faction_zhuge_xuan_separatists	[[b]]%+n[[/b]] diplomatic relations with Zhuge Xuan Separatists's factions	false

@@ -1,0 +1,42 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/@@ironic_ceo_weapons.loc		
+ceo_nodes_title_3k_main_ancillary_weapon_crossbow_common	Common Crossbow	true
+ceo_nodes_description_3k_main_ancillary_weapon_crossbow_common	A reliable and widely available crossbow, suitable for a variety of strategic scenarios. Widely favored by commanders for its simplicity and effectiveness on the battlefield.	true
+ceo_nodes_title_3k_main_threshold_ancillary_weapon_crossbow_exceptional	Exceptional Crossbow	true
+ceo_nodes_description_3k_main_threshold_ancillary_weapon_crossbow_exceptional	An exceptional crossbow that surpasses standard models in craftsmanship and performance.	true
+ceo_nodes_title_3k_main_threshold_ancillary_weapon_crossbow_refined	Refined Crossbow	true
+ceo_nodes_description_3k_main_threshold_ancillary_weapon_crossbow_refined	This crossbow, though mass produced, proves its worth in battles, offering a balanced mix of accuracy and power.	true
+ceo_nodes_title_3k_main_ancillary_weapon_sword_and_shield_common	Sword and Wood	true
+ceo_nodes_description_3k_main_ancillary_weapon_sword_and_shield_common	A decent sword paired with a random piece of wood, could anything go wrong?	true
+ceo_nodes_title_3k_main_threshold_ancillary_weapon_sword_and_shield_refined	Sword and Shield	true
+ceo_nodes_description_3k_main_threshold_ancillary_weapon_sword_and_shield_refined	Raise your shield and live to fight another day!	true
+ceo_nodes_title_3k_main_threshold_ancillary_weapon_sword_and_shield_exceptional	Reinforced Sword and Shield	true
+ceo_nodes_description_3k_main_threshold_ancillary_weapon_sword_and_shield_exceptional	"Your granduncle took an arrow in the knee. Wouldn't have happened if he had this shield."	true
+ceo_nodes_title_3k_main_ancillary_weapon_sword_and_shield_unique	Sword and Board	true
+ceo_nodes_description_3k_main_ancillary_weapon_sword_and_shield_unique	A combination of offense and defense, merged to best suit the wielder's needs.	true
+ceo_nodes_title_3k_main_ancillary_weapon_zhanmadao_unique	Zhanmadao	true
+ceo_nodes_description_3k_main_ancillary_weapon_zhanmadao_unique	A perfect weapon to use against cavalry.	true
+ceo_nodes_title_3k_main_ancillary_weapon_yue_jin_bow_unique	Azure Archer's Resolve	true
+ceo_nodes_description_3k_main_ancillary_weapon_yue_jin_bow_unique	Yue Jin's unwavering commitment on the battlefield, each arrow a testament to his precision and steadfast loyalty to the cause.	true
+ceo_nodes_title_3k_ironic_ancillary_weapon_hua_xiong_glaive_unique	Warlord's Bane	true
+ceo_nodes_description_3k_ironic_ancillary_weapon_hua_xiong_glaive_unique	This weapon has killed many generals making many Warlord weaker.	true
+ceo_nodes_title_3k_ironic_ancillary_weapon_ma_dai_spear_unique	Iron Will	false
+ceo_nodes_description_3k_ironic_ancillary_weapon_ma_dai_spear_unique	A spear said to give it's wielder unshakeable resolve how else can you not want to murder your traitorous brother? 	false
+ceo_nodes_title_3k_ironic_ancillary_weapon_pang_de_spear_unique	Dragon's Defiance	false
+ceo_nodes_description_3k_ironic_ancillary_weapon_pang_de_spear_unique	Not even the grave can slow the wielder of this exquisite weapon.	false
+ceo_nodes_title_3k_ironic_ancillary_weapon_two_handed_axe_unique	Tiger Cleaver	false
+ceo_nodes_description_3k_ironic_ancillary_weapon_two_handed_axe_unique	A formidable two-handed axe, the Tiger Cleaver prowls through the chaos of battle with savage prowess.	false
+ceo_nodes_title_3k_ironic_ancillary_weapon_two_handed_trident_unique	War Trident	false
+ceo_nodes_description_3k_ironic_ancillary_weapon_two_handed_trident_unique	This masterfully crafted weapon has been designed purely for combat, adopting a humble design and transforming it into a truly deadly tool of war. As it has three prongs, it very clearly has triple the effectiveness and lethality compared to other polearms - that's just basic academics.	false
+ceo_nodes_title_3k_main_ancillary_weapon_tribal_recurve_bow_exceptional	Tribal Recurve Bow	false
+ceo_nodes_description_3k_main_ancillary_weapon_tribal_recurve_bow_exceptional	The fate of the steppes is decided with the flight of a single arrow.	false
+ceo_nodes_title_ironic_ancillary_weapon_pan_zhang_axe_unique	Bloodfest	false
+ceo_nodes_description_ironic_ancillary_weapon_pan_zhang_axe_unique	This axe has been stained with the lifeblood of an uncountable number of victims.	false
+ceo_nodes_title_ironic_ancillary_weapon_zhou_tai_ji_unique	Solemn Trust	false
+ceo_nodes_description_ironic_ancillary_weapon_zhou_tai_ji_unique	An unshatterable weapon, for a warrior with impreachable faith.	false
+ceo_nodes_title_ironic_ancillary_weapon_ling_tong_twin_jis_unique	Avengers	false
+ceo_nodes_description_ironic_ancillary_weapon_ling_tong_twin_jis_unique	"Assemble!"	false
+ceo_nodes_title_ironic_ancillary_weapon_xu_sheng_dual_jian_unique	Zhanlu and Yuchang	false
+ceo_nodes_description_ironic_ancillary_weapon_xu_sheng_dual_jian_unique	A pair of ancient jian said to be forged by by legendary swordsmith, Ou Yezi. Zhanlu is apparently imbued with the essence of fire, whilst Yuchang is said to be able to slice through iron.	false
+ceo_nodes_title_ironic_ancillary_accessory_gan_ning_bow_unique	Storm's Breath	false
+ceo_nodes_description_ironic_ancillary_accessory_gan_ning_bow_unique	The potency of weather's wrath powers each arrow shot.	false

@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/xiahouyuan/xiahouunits.loc		
+land_units_onscreen_name_ironic_chibi_xiahou_heavy_riders	Destroyer of Rebels	true
+land_units_concealed_name_ironic_chibi_xiahou_heavy_riders	Destroyer of Rebels	true
+unit_abilities_tooltip_text_ironic_chibi_shed_the_armor	Throw off your armor, we ride into the backs of the enemy!	true
+unit_abilities_onscreen_name_ironic_chibi_shed_the_armor	Shed Your Armor	true
+special_ability_phases_onscreen_name_ironic_chibi_shed_the_armor	Shed Your Armor	true
+unit_ability_types_onscreen_name_ironic_chibi_shed_the_armor	Active Buff	true
+land_units_onscreen_name_ironic_chibi_xiahou_metal_rebel_slayer	Custodians of the West	true
+land_units_concealed_name_ironic_chibi_xiahou_metal_rebel_slayer	Custodians of the West	true
+unit_abilities_tooltip_text_ironic_chibi_rebel_crushers	We are the holders of the West, we push back any sort of scum that attacks our land!	true
+unit_abilities_onscreen_name_ironic_chibi_rebel_crushers	Custodians of the West	true
+special_ability_phases_onscreen_name_ironic_chibi_rebel_crushers	Custodians of the West	true
+unit_ability_types_onscreen_name_ironic_chibi_rebel_crushers	Active Buff	true

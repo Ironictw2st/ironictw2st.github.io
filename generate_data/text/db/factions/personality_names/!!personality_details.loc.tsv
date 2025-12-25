@@ -1,0 +1,20 @@
+key	text	tooltip
+#Loc;1;text/db/factions/personality_names/!!personality_details.loc		
+diplomacy_strings_string_3k_cai_personality_quirk_trade_warmonger_song_jian_long	• Eager to sign Trade Agreements even with disliked or untrusted factions	false
+diplomacy_strings_string_3k_cai_personality_quirk_trade_warmonger_song_jian_quote	[[i]]"Song Jian may be at war with his enemies, but it doesn't mean he will stop trading with them."[[/i]]	false
+diplomacy_strings_string_3k_cai_personality_quirk_trade_warmonger_song_jian_short	Hoarder	false
+diplomacy_strings_string_3k_cai_personality_quirk_mercenary_raider_yufuluo_short	Mercenary Raider	false
+diplomacy_strings_string_3k_cai_personality_quirk_loyal_guard_gao_gan_short	Loyal Guard	false
+diplomacy_strings_string_3k_cai_personality_quirk_benevolent_master_liu_yu_short	Benevolent Master	false
+diplomacy_strings_string_3k_cai_personality_quirk_rampant_tyrant_qiulijiu_short	Rampant Tyrant	false
+diplomacy_strings_string_3k_cai_personality_quirk_great_expander_gongsun_du_short	Great Conqueror	false
+diplomacy_strings_string_3k_cai_personality_quirk_mercenary_raider_yufuluo_long	• Chooses the most destructive option, while being aggresive.	false
+diplomacy_strings_string_3k_cai_personality_quirk_loyal_guard_gao_gan_long	• Protects their master's land with great tenacity.	false
+diplomacy_strings_string_3k_cai_personality_quirk_benevolent_master_liu_yu_long	• Protects their people, and wishes to build alliances with other factions.	false
+diplomacy_strings_string_3k_cai_personality_quirk_rampant_tyrant_qiulijiu_long	• Chooses the most destructive option, while being aggresive.	false
+diplomacy_strings_string_3k_cai_personality_quirk_great_expander_gongsun_du_long	• Wishes to take over land far away from their land.	false
+diplomacy_strings_string_3k_cai_personality_quirk_mercenary_raider_yufuluo_quote	[[i]]"The Xiongnu were a fear tribe by China, let's not make them forget that."[[/i]]	false
+diplomacy_strings_string_3k_cai_personality_quirk_loyal_guard_gao_gan_quote	[[i]]"I fight for my Aunt... and Uncle of course."[[/i]]	false
+diplomacy_strings_string_3k_cai_personality_quirk_benevolent_master_liu_yu_quote	[[i]]"For the People!"[[/i]]	false
+diplomacy_strings_string_3k_cai_personality_quirk_rampant_tyrant_qiulijiu_quote	[[i]]"PLACEHOLDER"[[/i]]	false
+diplomacy_strings_string_3k_cai_personality_quirk_great_expander_gongsun_du_quote	[[i]]"PLACEHOLDER"[[/i]]	false

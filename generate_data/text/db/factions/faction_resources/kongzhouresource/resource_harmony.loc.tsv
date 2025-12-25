@@ -1,0 +1,78 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/kongzhouresource/resource_harmony.loc		
+effect_bundles_localised_title_ironic_frontend_leader_harmony_special	Harmony	true
+effect_bundles_localised_title_ironic_harmony_resource_level_0	Harmony: Disharmonious Discord	true
+effect_bundles_localised_title_ironic_harmony_resource_level_1	Harmony: Faithful Morality	true
+effect_bundles_localised_title_ironic_harmony_resource_level_2	Harmony: Sincere Mindfulness	true
+effect_bundles_localised_title_ironic_harmony_resource_level_3	Harmony: Virtuous Mind	true
+effect_bundles_localised_title_ironic_harmony_resource_level_4	Harmony: Heart of Benevolence	true
+effect_bundles_localised_description_ironic_harmony_resource_level_0	Your court is in disarray, your retainers bicker and your armies lull around. Collapse is imminent, unless careful decisions are made.	true
+effect_bundles_localised_description_ironic_harmony_resource_level_1	"Hold faithfulness and sincerity as your first principles."	true
+effect_bundles_localised_description_ironic_harmony_resource_level_2	"Humility is the strong bedrock of all virtues."	true
+effect_bundles_localised_description_ironic_harmony_resource_level_3	"A virtuous man need not stand alone - he who cultivates it will have companions.	true
+effect_bundles_localised_description_ironic_harmony_resource_level_4	"A man who sets his mind on benevolence need not fear evil.	true
+effects_description_ironic_harmony_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_harmony_armies	[[b]]%+n[[/b]] Harmony	true
+effects_description_ironic_harmony_robin_hood	[[b]]%+n[[/b]] Harmony	true
+effects_description_ironic_harmony_garrisoned	[[b]]%+n[[/b]] Harmony	true
+effects_description_ironic_harmony_armies_on_field	[[b]]%+n[[/b]] Harmony (per armies deployed)	true
+effects_description_ironic_harmony_info_gain	[[b]]Harmony[[/b]] can be increased by assignments, high satisfaction, and unique buildings.	true
+effects_description_ironic_harmony_info_loss	[[b]]Harmony[[/b]] can be decreased by assignments, low satisfaction, and amount of armies on field.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_harmony_1	• Increases experience with characters and units	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_harmony_2	• Harmony increases with satisfaction	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_harmony_3	• Assignments can increase Harmony but also provide buffs to character and units	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_harmony_4	• Allows the recruitment of new characters	true
+pooled_resource_factors_display_name_negative_ironic_harmony_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_harmony_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_harmony_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_harmony_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_harmony_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_harmony_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_harmony_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_harmony_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_harmony_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_harmony_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_harmony_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_harmony_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_harmony_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_harmony_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_harmony_at_war	At War	true
+pooled_resources_description_ironic_harmony	Moral cultivation, the virtues of the universe, yin and yang - at the center of them all is the foundation of harmony. Without balance, a friendship, a family, a government, even a world cannot function properly.	true
+pooled_resources_display_name_ironic_harmony	Harmony	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_harmony	Moral cultivation, the virtues of the universe, yin and yang - at the center of them all is the foundation of harmony. Without balance, a friendship, a family, a government, even a world cannot function properly.	true
+pooled_resources_negative_factors_display_name_ironic_harmony	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_harmony	Increase	true
+ui_text_replacements_localised_text_victory_condition_harmony	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_harmony_improve	Tranquil Realignment	false
+ui_character_assignments_localised_description_ironic_harmony_improve	By spending time reviewing the Analects and quietly contemplating about yourself, internal harmony can be restored.	false
+ui_character_assignments_localised_title_ironic_harmony_reduce	Poetry Session	false
+ui_character_assignments_localised_description_ironic_harmony_reduce	By reciting rhapsodies of old and composing new works, an inspirational wave can flow over your court. 	false
+pooled_resource_factors_display_name_negative_ironic_harmony_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_harmony_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_harmony_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_harmony_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_harmony_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_harmony_assignments	Assignments	false
+effects_description_ironic_harmony_captives_post_battle	[[b]]%+n[[/b]] 	false
+effects_description_ironic_harmony_characters	[[b]]%+n[[/b]] Harmony	false
+effects_description_ironic_harmony_executed	[[b]]%+n[[/b]] Harmony	false
+effects_description_ironic_harmony_assignments	[[b]]%+n[[/b]] Harmony	false
+effect_bundles_localised_title_ironic_harmony_captives_execute	PLACEHOLDER	false
+effect_bundles_localised_description_ironic_harmony_captives_execute	PLACEHOLDER	false
+effect_bundles_localised_title_ironic_harmony_captives_recruit	PLACEHOLDER	false
+effect_bundles_localised_description_ironic_harmony_captives_recruit	PLACEHOLDER	false
+effect_bundles_localised_title_ironic_harmony_captives_release	PLACEHOLDER	false
+effect_bundles_localised_description_ironic_harmony_captives_release	PLACEHOLDER	false
+effect_bundles_localised_title_ironic_harmony_garrisoned	PLACEHOLDER	false
+effect_bundles_localised_description_ironic_harmony_garrisoned	PLACEHOLDER	false
+effect_bundles_localised_title_ironic_harmony_vassalized	PLACEHOLDER	false
+effect_bundles_localised_description_ironic_harmony_vassalized	PLACEHOLDER	false
+effect_bundles_localised_title_ironic_harmony_effect_bundle	Harmony	false
+effect_bundles_localised_description_ironic_harmony_effect_bundle	Moral cultivation, the virtues of the universe, yin and yang - at the center of them all is the foundation of harmony. Without balance, a friendship, a family, a government, even a world cannot function properly.	false
+pooled_resource_factors_display_name_positive_ironic_harmony_casualities	Armies Deployed	false
+pooled_resource_factors_display_name_negative_ironic_harmony_casualities	Armies Deployed	false
+pooled_resource_factors_display_name_positive_ironic_harmony_characters	Characters	false
+pooled_resource_factors_display_name_negative_ironic_harmony_characters	Characters	false
+effects_description_ironic_harmony_building	[[b]]%+n[[/b]] Harmony	false
+pooled_resource_factors_display_name_positive_ironic_harmony_building	Buildings	false
+pooled_resource_factors_display_name_negative_ironic_harmony_building	Buildings	false

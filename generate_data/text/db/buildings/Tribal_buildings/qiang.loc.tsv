@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/buildings/Tribal_buildings/qiang.loc		
+building_chains_chain_tooltip_ironic_qiang_building	[[col:flavour]]Qiang Conscription[[/col]]	true
+building_chains_encyclopedia_description_ironic_qiang_building	Qiang Conscription	true
+building_chains_encyclopedia_name_ironic_qiang_building	Qiang Conscription	true
+building_chains_override_description_ironic_qiang_building	Qiang Conscription	true
+building_culture_variants_name_ironic_qiang_building	Qiang Conscription	true
+building_levels_settlement_ui_displays_tooltip_ironic_qiang_name	Qiang Conscription	true

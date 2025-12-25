@@ -1,0 +1,13 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/caoren/caorenassignment.loc		
+ui_character_assignments_localised_title_ironic_cao_ren_gain_resource	Recuperation	true
+ui_character_assignments_localised_description_ironic_cao_ren_gain_resource	By your command, time will be granted to restructure both your forces, and your administration. Through diligent preparation, we shall plan our tactics for the next campaign. 	true
+ui_character_assignments_localised_title_ironic_cao_ren_general_training	Commanding Training	true
+ui_character_assignments_localised_description_ironic_cao_ren_general_training	A unit can function only as well as the capabilities of its commander. Your general will be given texts of tactics and scrolls of strategies, to read and review.	true
+ui_character_assignments_localised_title_ironic_cao_ren_unit_training	Army Training	true
+ui_character_assignments_localised_description_ironic_cao_ren_unit_training	Much as a sheathed sword grows dull, a lax army grows complacent. Your officer shall ensure that even in times of peace, your armies remain drilled.	true
+ui_character_assignments_localised_title_ironic_cao_ren_recruitment	Drafting	true
+ui_character_assignments_localised_description_ironic_cao_ren_recruitment	Your subordinate will conscript able bodied men from the local region, to bolster the manpower of your armies.	true
+ui_character_assignments_localised_title_ironic_cao_ren_improve_relations	Send Envoys	true
+ui_character_assignments_localised_description_ironic_cao_ren_improve_relations	Your envoy shall reassure our lord that we continue to obey his will, and our purposes are shared.	true
+frontend_faction_leader_unique_features_localised_description_ironic_cao_ren_assignment	[[b]]Military Assignments[[/b]]\\n[[col:scope_description]]Assignment[[/col]]\\n[[col:green]]+[[/col]] Improve General Experience\\n[[col:green]]+[[/col]] Improve Unit Experience\\n[[col:green]]+[[/col]] Recruitment reduced and Replenishment Increased\\n[[col:green]]+[[/col]] Improve Relations with Liu Biao\\n[[col:flavour]][[i]]Use these assignments to improve your faction stance and surround.[[/col]][[/i]]	true

@@ -1,0 +1,22 @@
+key	text	tooltip
+#Loc;1;text/frontend/ui/more_options.loc		
+MCT_localised_string_section_ironic_more_options_EN	More Options	false
+MCT_localised_string_take_25_gold_EN	Take 25% Gold from\\n destroyed factions	false
+MCT_localised_string_take_50_gold_EN	Take 50% Gold from\\n destroyed factions	false
+MCT_localised_string_take_75_gold_EN	Take 75% Gold from\\n destroyed factions	false
+MCT_localised_string_take_100_gold_EN	Take 100% Gold from\\n destroyed factions	false
+MCT_localised_string_enable_equipped_EN	Take items that equipped	false
+MCT_localised_string_disable_equipped_EN	Do not take items that are equipped	false
+MCT_localised_string_common_EN	Common Items	false
+MCT_localised_string_common_uncommon_EN	Common, Uncommon Items	false
+MCT_localised_string_common_uncommon_exceptional_EN	Common, Uncommon, Exceptional Items	false
+MCT_localised_string_common_uncommon_exceptional_legendary_EN	Common, Uncommon, Exceptional, Legendary Items	false
+MCT_localised_string_enable_absorb_EN	Absorb all characters (but generics)	false
+MCT_localised_string_disable_absorb_EN	Do not absorb any characters	false
+MCT_localised_string_spawn_all_characters_EN	Spawn All Characters, Turn 1	false
+MCT_localised_string_donot_spawn_EN	Do not spawn all characters	false
+MCT_localised_string_randomize_start_EN	Randomize Start	false
+MCT_localised_string_no_randomize_start_EN	Regular Start	false
+MCT_localised_string_no_randomize_characters_EN	Do not randomize characters	false
+MCT_localised_string_randomize_characters_EN	Randomize Characters	false
+MCT_localised_string_randomize_characters_faction_leader_EN	Randomize Characters & Faction Leaders	false

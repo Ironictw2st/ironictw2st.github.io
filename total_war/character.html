@@ -54,6 +54,33 @@
       --theme-glow: rgba(127, 143, 74, 0.22);
     }
 
+     .trait-tooltip .t-effects {
+       margin-top: 8px;
+       padding-top: 8px;
+       border-top: 1px solid rgba(255,255,255,0.10);
+       display: flex;
+       flex-direction: column;
+       gap: 4px;
+     }
+
+     .trait-tooltip .t-effects-header {
+       font-family: 'Cinzel', serif;
+       font-size: 0.65rem;
+       letter-spacing: 0.08em;
+       text-transform: uppercase;
+       color: rgba(255,255,255,0.70);
+     }
+
+     .trait-tooltip .t-effect {
+       font-size: 0.8rem;
+       color: rgba(255,255,255,0.80);
+       line-height: 1.25;
+       background: rgba(255,255,255,0.04);
+       border-left: 2px solid rgba(255,255,255,0.18);
+       padding: 2px 6px;
+     }
+
+
     /* =========================
        Character Page Layout
        ========================= */
@@ -98,6 +125,7 @@
       border-left: 1px solid #252530;
       position: relative;
       min-height: 500px;
+      overflow: visible;
     }
 
     /* Contain mode - shows full image */
@@ -150,6 +178,168 @@
     }
 
     /* =========================
+       TRAITS (icons next to portrait)
+       ========================= */
+
+    .trait-strip {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 50;
+
+      display: flex;
+      flex-direction: column;  /* <-- vertical */
+      flex-wrap: nowrap;        /* <-- no wrapping */
+      gap: 8px;
+
+      max-width: none;
+      pointer-events: auto;
+    }
+
+    /* Make trait list vertical */
+    #trait-strip.trait-strip {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 8px;
+
+      z-index: 9998;          /* higher than basically everything */
+      pointer-events: auto;
+    }
+
+    /* Ensure each icon can be hovered */
+    #trait-strip .trait-icon {
+      width: 42px;
+      height: 42px;
+
+      position: relative;
+      z-index: 9999;          /* keep tooltip above portrait overlays */
+      cursor: default;
+
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(0,0,0,0.55);
+      box-shadow: 0 10px 18px rgba(0,0,0,0.45);
+
+      display: grid;
+      place-items: center;
+      overflow: visible;      /* critical: tooltip is a child */
+    }
+
+    /* Tooltip default: fully hidden */
+    #trait-strip .trait-tooltip {
+      position: absolute;
+      left: calc(100% + 10px);  /* show to the right (best for vertical list) */
+      top: 0;
+
+      min-width: 260px;
+      max-width: 360px;
+
+      background: rgba(10,10,14,0.96);
+      border: 1px solid #2a2a35;
+      border-radius: 8px;
+      padding: 10px 12px;
+      box-shadow: 0 18px 30px rgba(0,0,0,0.55);
+
+      display: none;           /* <-- avoids opacity/z-index conflicts */
+      visibility: hidden;
+      opacity: 0;
+
+      transform: translateX(-4px);
+      transition: opacity 120ms ease, transform 120ms ease;
+
+      z-index: 10000;
+      pointer-events: none;    /* keeps hover stable */
+    }
+
+    /* Tooltip on hover: force show (wins over tw3k.css) */
+    #trait-strip .trait-icon:hover > .trait-tooltip {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      transform: translateX(0) !important;
+    }
+
+
+    .trait-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(0,0,0,0.55);
+      box-shadow: 0 10px 18px rgba(0,0,0,0.45);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      position: relative;
+      cursor: default;
+    }
+
+    .trait-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .trait-badge {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: rgba(255,255,255,0.85);
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    }
+
+    .trait-tooltip {
+      position: absolute;
+      left: 0;
+      top: calc(100% + 10px);
+      min-width: 260px;
+      max-width: 360px;
+      background: rgba(10,10,14,0.96);
+      border: 1px solid #2a2a35;
+      border-radius: 8px;
+      padding: 10px 12px;
+      box-shadow: 0 18px 30px rgba(0,0,0,0.55);
+      opacity: 0;
+      transform: translateY(-4px);
+      pointer-events: none;
+      transition: opacity 120ms ease, transform 120ms ease;
+      z-index: 20;
+    }
+
+    .trait-icon:hover .trait-tooltip {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .trait-tooltip .t-title {
+      font-family: 'Cinzel', serif;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.92);
+      margin: 0 0 6px 0;
+      line-height: 1.2;
+    }
+
+    .trait-tooltip .t-desc {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.75);
+      margin: 0;
+      line-height: 1.35;
+      white-space: normal;
+    }
+
+    /* =========================
        Shared panel styling
        ========================= */
 
@@ -188,35 +378,12 @@
     }
 
     /* Muted element mappings — char-title ONLY */
-    .char-title[data-element="water"] {
-      --color: #4f6f8f;
-      --theme-glow: rgba(79, 111, 143, 0.22);
-    }
-
-    .char-title[data-element="wood"] {
-      --color: #4f7a55;
-      --theme-glow: rgba(79, 122, 85, 0.22);
-    }
-
-    .char-title[data-element="fire"] {
-      --color: #8c3a3a;
-      --theme-glow: rgba(140, 58, 58, 0.22);
-    }
-
-    .char-title[data-element="earth"] {
-      --color: #9a8648;
-      --theme-glow: rgba(154, 134, 72, 0.22);
-    }
-
-    .char-title[data-element="metal"] {
-      --color: #7a6a99;
-      --theme-glow: rgba(122, 106, 153, 0.22);
-    }
-
-    .char-title[data-element="nanman"] {
-      --color: #7f8f4a;
-      --theme-glow: rgba(127, 143, 74, 0.22);
-    }
+    .char-title[data-element="water"] { --color: #4f6f8f; --theme-glow: rgba(79, 111, 143, 0.22); }
+    .char-title[data-element="wood"] { --color: #4f7a55; --theme-glow: rgba(79, 122, 85, 0.22); }
+    .char-title[data-element="fire"] { --color: #8c3a3a; --theme-glow: rgba(140, 58, 58, 0.22); }
+    .char-title[data-element="earth"] { --color: #9a8648; --theme-glow: rgba(154, 134, 72, 0.22); }
+    .char-title[data-element="metal"] { --color: #7a6a99; --theme-glow: rgba(122, 106, 153, 0.22); }
+    .char-title[data-element="nanman"] { --color: #7f8f4a; --theme-glow: rgba(127, 143, 74, 0.22); }
 
     .char-description {
       color: var(--text-secondary);
@@ -354,13 +521,8 @@
       background: rgba(0,0,0,0.15);
     }
 
-    .effect-category {
-      margin-bottom: 1rem;
-    }
-
-    .effect-category:last-child {
-      margin-bottom: 0;
-    }
+    .effect-category { margin-bottom: 1rem; }
+    .effect-category:last-child { margin-bottom: 0; }
 
     .effect-category-header {
       font-family: 'Cinzel', serif;
@@ -422,10 +584,7 @@
       font-size: 0.75rem;
     }
 
-    .tech-details dt {
-      color: var(--text-muted);
-    }
-
+    .tech-details dt { color: var(--text-muted); }
     .tech-details dd {
       margin: 0;
       color: var(--text-secondary);
@@ -467,13 +626,8 @@
         justify-content: center;
     }
 
-    .family-group {
-        margin-bottom: 2rem;
-    }
-
-    .family-group:last-child {
-        margin-bottom: 0;
-    }
+    .family-group { margin-bottom: 2rem; }
+    .family-group:last-child { margin-bottom: 0; }
 
     .family-group-title {
         font-family: 'Cinzel', serif;
@@ -495,9 +649,7 @@
         position: relative;
     }
 
-    .family-member:hover {
-        transform: translateY(-4px);
-    }
+    .family-member:hover { transform: translateY(-4px); }
 
     .family-member-missing {
         display: flex;
@@ -525,9 +677,7 @@
         color: var(--text-muted);
     }
 
-    .family-member-missing:hover {
-        transform: none;
-    }
+    .family-member-missing:hover { transform: none; }
 
     .family-member-missing .family-portrait:hover {
         border-color: #404045;
@@ -575,9 +725,7 @@
         line-height: 1.2;
     }
 
-    .family-member:hover .family-member-name {
-        color: var(--title-cream);
-    }
+    .family-member:hover .family-member-name { color: var(--title-cream); }
 
     .relationship-label {
         position: absolute;
@@ -632,33 +780,22 @@
        ========================= */
 
     @media (max-width: 1000px) {
-      .character-page {
-        grid-template-columns: 1fr;
-      }
+      .character-page { grid-template-columns: 1fr; }
 
       .portrait-column {
         min-height: 300px;
         order: -1;
       }
 
-      .row-top,
-      .row-bottom {
-        grid-template-columns: 1fr;
-      }
+      .row-top, .row-bottom { grid-template-columns: 1fr; }
 
       .panel-divider-right {
         border-right: none;
         border-bottom: 1px solid #252530;
       }
 
-      .family-members {
-        gap: 1rem;
-      }
-
-      .family-portrait {
-        width: 60px;
-        height: 60px;
-      }
+      .family-members { gap: 1rem; }
+      .family-portrait { width: 60px; height: 60px; }
     }
   </style>
 </head>
@@ -700,6 +837,7 @@
   <script src="data/character_details.js"></script>
   <script src="data/character_bios.js"></script>
   <script src="data/family_tree.js"></script>
+  <script src="data/traits.js"></script>
 
   <script>
     function escapeHtml(s) {
@@ -709,6 +847,155 @@
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#039;');
+    }
+
+    /* =========================
+       Traits helpers
+       ========================= */
+
+    // Your site-relative path to trait icon folder:
+    // (Windows path: total_war\data\UI\Campaign UI\traits)
+    // becomes (web path): data/UI/Campaign UI/traits
+    // NOTE: spaces must be URL-encoded when used in href/src.
+    const TRAIT_ICON_BASE = 'data/UI/Campaign%20UI/traits/';
+
+    function getTraitObject(traitKey) {
+      if (!traitKey) return null;
+      if (typeof TRAIT_LOOKUP !== 'undefined' && TRAIT_LOOKUP && TRAIT_LOOKUP[traitKey]) return TRAIT_LOOKUP[traitKey];
+      if (typeof TRAIT_DATA !== 'undefined' && Array.isArray(TRAIT_DATA)) {
+        return TRAIT_DATA.find(t => t && t.key === traitKey) || null;
+      }
+      return null;
+    }
+
+    function normalizeIconCandidates(iconPath) {
+      const out = [];
+      const pRaw = String(iconPath || '')
+        .replace(/^[\\/]+/, '')
+        .replace(/\\/g, '/')
+        .replace(/^\/+/, '');
+
+      if (!pRaw) return out;
+
+      // If icon_path already contains the full traits folder path, use as-is (after encoding spaces).
+      // If it's just a filename, we join it with TRAIT_ICON_BASE.
+      const p = encodeURI(pRaw); // encodes spaces etc but keeps slashes
+
+      // 1) Direct path (relative to site root)
+      out.push(p.endsWith('.png') || p.endsWith('.webp') ? p : (p + '.png'));
+      out.push(p.endsWith('.png') || p.endsWith('.webp') ? p : (p + '.webp'));
+
+      // 2) Base folder + leaf filename
+      const leaf = encodeURIComponent(pRaw.split('/').pop() || '');
+      if (leaf) {
+        out.push(TRAIT_ICON_BASE + leaf);        // if leaf already includes extension
+        out.push(TRAIT_ICON_BASE + leaf + '.png');
+        out.push(TRAIT_ICON_BASE + leaf + '.webp');
+      }
+
+      // 3) If it starts with ui/, try mapping to your data/UI/... tree
+      // Example: ui/campaign ui/traits/foo -> data/UI/Campaign UI/traits/foo
+      const lower = pRaw.toLowerCase();
+      if (lower.startsWith('ui/')) {
+        const afterUi = pRaw.slice(3); // remove "ui/"
+        // attempt: data/UI/<afterUi>
+        const mapped = 'data/UI/' + encodeURI(afterUi);
+        out.push(mapped.endsWith('.png') || mapped.endsWith('.webp') ? mapped : (mapped + '.png'));
+        out.push(mapped.endsWith('.png') || mapped.endsWith('.webp') ? mapped : (mapped + '.webp'));
+      }
+
+      return out;
+    }
+
+    function fallbackIconCandidatesByKey(traitKey) {
+      const k = String(traitKey || '').toLowerCase();
+      const leaf = encodeURIComponent(k);
+      return [
+        TRAIT_ICON_BASE + leaf + '.png',
+        TRAIT_ICON_BASE + leaf + '.webp',
+        `images/traits/${k}.png`,
+        `images/traits/${k}.webp`
+      ];
+    }
+
+    function setImgWithFallback(imgEl, candidates, onFailAll) {
+      let i = 0;
+      function tryNext() {
+        if (i >= candidates.length) {
+          if (typeof onFailAll === 'function') onFailAll();
+          return;
+        }
+        imgEl.src = candidates[i++];
+      }
+      imgEl.onerror = tryNext;
+      tryNext();
+    }
+
+    function buildTraitIcon(traitKey) {
+      const trait = getTraitObject(traitKey) || { key: traitKey };
+
+      const title = String(trait.title || traitKey || '').trim();
+      const desc = String(trait.desc || trait.description || '').trim();
+
+      const wrap = document.createElement('div');
+      wrap.className = 'trait-icon';
+      wrap.setAttribute('data-trait', traitKey);
+
+      const tooltip = document.createElement('div');
+      tooltip.className = 'trait-tooltip';
+      tooltip.innerHTML = (() => {
+        const eff = Array.isArray(trait.effects) ? trait.effects : [];
+        const effHtml = eff.length
+          ? `<div class="t-effects">
+              <div class="t-effects-header">Effects</div>
+              ${eff.map(e => `<div class="t-effect">${escapeHtml(String((e && e.name) || ''))}</div>`).join('')}
+            </div>`
+          : '';
+        return `
+          <p class="t-title">${escapeHtml(title || traitKey || 'Trait')}</p>
+          <p class="t-desc">${escapeHtml(desc || '')}</p>
+          ${effHtml}
+        `;
+      })();
+
+      const img = document.createElement('img');
+      img.alt = title || traitKey || 'Trait';
+
+      const candidates = [];
+      if (trait.icon_path) candidates.push(...normalizeIconCandidates(trait.icon_path));
+      candidates.push(...fallbackIconCandidatesByKey(traitKey));
+
+      setImgWithFallback(img, candidates, () => {
+        img.remove();
+        const badge = document.createElement('div');
+        badge.className = 'trait-badge';
+        const abbr = (title || traitKey || '??').replace(/[^a-z0-9]/ig, '').slice(0, 2).toUpperCase() || '??';
+        badge.textContent = abbr;
+        wrap.appendChild(badge);
+      });
+
+      wrap.appendChild(img);
+      wrap.appendChild(tooltip);
+      return wrap;
+    }
+
+    function renderTraitsIntoPortrait(traitKeys) {
+      const portraitCol = document.getElementById('portrait-column');
+      if (!portraitCol) return;
+
+      let strip = document.getElementById('trait-strip');
+      if (!strip) {
+        strip = document.createElement('div');
+        strip.id = 'trait-strip';
+        strip.className = 'trait-strip';
+        portraitCol.appendChild(strip);
+      }
+
+      strip.innerHTML = '';
+      const keys = (Array.isArray(traitKeys) ? traitKeys : []).filter(Boolean);
+
+      if (!keys.length) return;
+      keys.forEach(k => strip.appendChild(buildTraitIcon(k)));
     }
 
     function extractNameForMissingCharacter(templateKey, currentFamilyName, relationship) {
@@ -943,6 +1230,9 @@
       const portraitUrl = details?.portrait?.url || '';
       const effects = Array.isArray(details?.effects) ? details.effects : [];
 
+      // Traits: prefer details.traits, fallback to char.traits
+      const traits = Array.isArray(details?.traits) ? details.traits : (Array.isArray(char?.traits) ? char.traits : []);
+
       // Format birth/death years
       let dateStr = '';
       if (char.birth_year) {
@@ -1053,11 +1343,15 @@
         <div class="portrait-column" id="portrait-column" ${portraitUrl ? `style="background-image: url('${escapeHtml(portraitUrl)}')"` : ''}>
           ${portraitUrl ? '<button class="portrait-toggle" id="portrait-toggle" title="Toggle fit mode">Fit</button>' : ''}
           ${!portraitUrl ? '<div class="no-portrait-placeholder">No Portrait Available</div>' : ''}
+          <div class="trait-strip" id="trait-strip"></div>
         </div>
       `;
 
       // Render categorized effects
       renderEffects(effects);
+
+      // Render traits (icons next to portrait)
+      renderTraitsIntoPortrait(traits);
 
       // Render family tree
       const familyTreeRoot = document.getElementById('family-tree-root');

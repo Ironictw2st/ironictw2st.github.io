@@ -1,0 +1,63 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/liuyu/resource_lpeace.loc		
+effect_bundles_localised_title_3k_main_political_party_liu_yu_190_resource	Pacifism	true
+effect_bundles_localised_title_ironic_liu_yu_peace_resource_level_0	Pacifism: Foolhardy	true
+effect_bundles_localised_title_ironic_liu_yu_peace_resource_level_1	Pacifism: Naive	true
+effect_bundles_localised_title_ironic_liu_yu_peace_resource_level_2	Pacifism: Peaceful	true
+effect_bundles_localised_title_ironic_liu_yu_peace_resource_level_3	Pacifism: Tranquil	true
+effect_bundles_localised_title_ironic_liu_yu_peace_resource_level_4	Pacifism: Harmonic	true
+effect_bundles_localised_description_ironic_liu_yu_peace_resource_level_0	If you never venture, you will never win.	true
+effect_bundles_localised_description_ironic_liu_yu_peace_resource_level_1	All things are difficult before they are easy.	true
+effect_bundles_localised_description_ironic_liu_yu_peace_resource_level_2	Education breeds confidence, confidence breeds hope, hope breeds peace.	true
+effect_bundles_localised_description_ironic_liu_yu_peace_resource_level_3	Peace and tranquility are worth a thousand gold pieces.	true
+effect_bundles_localised_description_ironic_liu_yu_peace_resource_level_4	"If there is harmony in one's house, there will be order in the nation. If there is order in the nation, there will be peace in the world.	true
+effects_description_ironic_han_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_han_armies	[[b]]%+n[[/b]] Pacifism(Per Standing Army)	true
+effects_description_ironic_han_liu_yu_peace_liu_yu_peace	[[b]]%+n[[/b]] Pacifism(liu_yu_peaces)	true
+effects_description_ironic_han_liu_yu_peace_garrisoned	[[b]]%+n[[/b]] Pacifism	true
+effects_description_ironic_han_liu_yu_peace_vassalized	[[b]]%+n[[/b]] Pacifism(Vassalized)	true
+effects_description_ironic_han_liu_yu_peace_public_order	[[b]]%+n[[/b]] Pacifism	true
+effects_description_ironic_han_liu_yu_peace_imperial_favour	[[b]]%+n[[/b]] Imperial Favour	true
+effects_description_ironic_han_liu_yu_peace_gain_alliance	[[b]]%+n[[/b]] Pacifism	false
+effects_description_ironic_han_liu_yu_peace_loss_war	[[b]]%+n[[/b]] Pacifism	false
+effects_description_ironic_increased_barbarian_cap_infantry	Nomadic Infantry available for recruitment: %+n	false
+effects_description_ironic_increased_barbarian_cap_cavalry	Nomadic Cavalry available for recruitment: %+n	false
+effects_description_ironic_increased_barbarian_cap_archer_cavalry	Nomadic Archer Cavalry available for recruitment: %+n	false
+effects_description_ironic_han_liu_yu_peace_info_gain	[[b]]Pacifism[[/b]] can be increased by high public order, alliances.	true
+effects_description_ironic_han_liu_yu_peace_info_loss	[[b]]Pacifism[[/b]] can be decreased by low public order, wars, and certain settlement actions.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_liu_yu_peace_1	• Increases imperial favour	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_liu_yu_peace_2	• Increases amount of tribal unitcap	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_liu_yu_peace_3	• Pacifism is gained from high public order and alliances	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_liu_yu_peace_4	• Occupation options reduce Pacifism	true
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_at_war	At War	true
+pooled_resource_factors_display_name_positive_3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace	Gained from Pacifism	true
+pooled_resource_factors_display_name_negative_3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace	Gained from Pacifism	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_post_battle	Occupation Options	false
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_post_battle	Occupation Options	false
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_public_order	Public Order	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_public_order	Public Order	true
+pooled_resource_factors_display_name_negative_ironic_han_liu_yu_peace_alliance	Alliance	true
+pooled_resource_factors_display_name_positive_ironic_han_liu_yu_peace_alliance	Alliance	true
+pooled_resources_description_ironic_han_liu_yu_peace	Peace and tranquility are worth a thousand gold pieces.	true
+pooled_resources_display_name_ironic_han_liu_yu_peace	Pacifism	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_han_liu_yu_peace	Pacifism	true
+pooled_resources_negative_factors_display_name_ironic_han_liu_yu_peace	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_han_liu_yu_peace	Increase	true
+ui_text_replacements_localised_text_victory_condition_liu_yu_peace	CHINA MUST BE UNITED!	true
+frontend_faction_leader_unique_features_localised_description_ironic_liu_yu_tribal_management	[[b]]Tribal Management[[/b]]\\n[[col:scope_description]]Faction feature[[/col]]\\n\\n[[i]]Liu Yu's Tribal Management allows for the recruitment of foreign units into his army.[[/i]]\\n\\n[[i]][[col:flavour]]Liu Yu's standing amongst the tribes is strong enough to bring them under his wild.[[/col]][[/i]]	true
+frontend_faction_leader_unique_features_localised_description_ironic_liu_yu_artisan_labour	[[b]]Artisan Labour[[/b]]\\n[[col:scope_description]]Unique Labour Building[[/col]]\\n\\n[[col:green]]+[[/col]] Population Capacity\\n[[col:green]]+[[/col]] Peasantry Modify	true
+ui_text_replacements_localised_text_faction_ancillaries_button_liu_yu	Tribal Managment	false

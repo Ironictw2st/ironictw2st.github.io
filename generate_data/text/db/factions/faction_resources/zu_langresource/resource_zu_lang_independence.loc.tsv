@@ -1,0 +1,61 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/zu_langresource/resource_zu_lang_independence.loc		
+effect_bundles_localised_title_ironic_frontend_leader_zu_lang_independence_special	Independence	true
+effect_bundles_localised_title_ironic_zu_lang_independence_resource_level_0	Independence: Shackled	true
+effect_bundles_localised_title_ironic_zu_lang_independence_resource_level_1	Independence: Constrained	true
+effect_bundles_localised_title_ironic_zu_lang_independence_resource_level_2	Independence: Emancipated	true
+effect_bundles_localised_title_ironic_zu_lang_independence_resource_level_3	Independence: Liberated	true
+effect_bundles_localised_title_ironic_zu_lang_independence_resource_level_4	Independence: Unfettered	true
+effect_bundles_localised_description_ironic_zu_lang_independence_resource_level_0	The boot of the Han is at your throat. You have two choices - submit, or die.	true
+effect_bundles_localised_description_ironic_zu_lang_independence_resource_level_1	Han influence and their laws suffocate your growth, and choke your ambitions. Resist with all your being, or be trampled like so many before you.	true
+effect_bundles_localised_description_ironic_zu_lang_independence_resource_level_2	You have tossed aside your proverbial shackles and rose, with defiance. Plant your feet, grit your teeth, and prepare yourself for the fight of your life. Be wary, though, the influence of the Han runs deep, and centuries of jurisdiction will not so easily be tossed aside.	true
+effect_bundles_localised_description_ironic_zu_lang_independence_resource_level_3	Standing proudly and tall, you lead your people in a chorus of the songs of old, openly defying the rituals and traditions of those who previously oppressed you. Although the taste of freedom is sweet, there is still much work to be done, as there are others who yearn for amnesty as well. These patriots seek you for guidance, do not let them down.	true
+effect_bundles_localised_description_ironic_zu_lang_independence_resource_level_4	Rejoice, as deliverance has been earned at last! You have tore aside the laws of the Han, and proclaimed your independence to all who can hear.  You have defied death and won liberty, and it is now your duty to use this hard earned furore to win a place in history!	true
+effects_description_ironic_zu_lang_independence_decay	[[b]]%+n[[/b]] Independence	true
+effects_description_ironic_zu_lang_independence_armies	[[b]]%+n[[/b]] Independence	true
+effects_description_ironic_zu_lang_independence_robin_hood	[[b]]%+n[[/b]] Independence	true
+effects_description_ironic_zu_lang_independence_garrisoned	[[b]]%+n[[/b]] Independence	true
+effects_description_ironic_zu_lang_independence_vassalized	[[b]]%+n[[/b]] Independence	true
+effects_description_ironic_zu_lang_independence_info_gain	[[b]]Independence[[/b]] can be increased by winning defensive battles and assignments.	true
+effects_description_ironic_zu_lang_independence_info_loss	[[b]]Independence[[/b]] can be decreased by losing defensive battles, assignments, and general decay.	true
+effect_bundles_localised_title_ironic_zu_lang_independence_effect_bundle	Independence	true
+effect_bundles_localised_description_ironic_zu_lang_independence_effect_bundle	For centuries, your people have been stifled under the supervision of the Han. "Ruled" by overlords and Emperors in their far away palaces, and forced to pay taxation and tribute to their regional inspectors and prefects, the Yue clans are slowly being assimilated, their culture and traditions slipping away. Stand for this no more, and break your chains of oppression, and allow the Shanyue to rise once more!	true
+effects_generalised_descriptions_localised_description_ironic_zu_lang_independence_frontend_1	• Independence increases combat capabilities and regional income.	true
+effects_generalised_descriptions_localised_description_ironic_zu_lang_independence_frontend_2	• Independence reduces post battle loot and bandit income.	true
+effects_generalised_descriptions_localised_description_ironic_zu_lang_independence_frontend_3	• Independence can be increased by winning defensive battles and assignments.	true
+effects_generalised_descriptions_localised_description_ironic_zu_lang_independence_frontend_4	• Independence can be decreased by losing defensive battles, assignments, and general decay.	true
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_at_war	At War	true
+pooled_resources_description_ironic_zu_lang_independence	For centuries, your people have been stifled under the supervision of the Han. "Ruled" by overlords and Emperors in their far away palaces, and forced to pay taxation and tribute to their regional inspectors and prefects, the Yue clans are slowly being assimilated, their culture and traditions slipping away. Stand for this no more, and break your chains of oppression, and allow the Shanyue to rise once more!	true
+pooled_resources_display_name_ironic_zu_lang_independence	Independence	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_zu_lang_independence	For centuries, your people have been stifled under the supervision of the Han. "Ruled" by overlords and Emperors in their far away palaces, and forced to pay taxation and tribute to their regional inspectors and prefects, the Yue clans are slowly being assimilated, their culture and traditions slipping away. Stand for this no more, and break your chains of oppression, and allow the Shanyue to rise once more!	true
+pooled_resources_negative_factors_display_name_ironic_zu_lang_independence	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_zu_lang_independence	Increase	true
+ui_text_replacements_localised_text_victory_condition_zu_lang_independence	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_zu_lang_independence_improve	 Incite Patriotic Fervour	false
+ui_character_assignments_localised_description_ironic_zu_lang_independence_improve	You send your attendant to decry the vile taxation imposed on your rightful lands, and speak out against the crimes of the regional governors. Toss the proverbial tea into the harbour, if need be.	false
+ui_character_assignments_localised_title_ironic_zu_lang_independence_reduce	Conceal Rebellious Activity	false
+ui_character_assignments_localised_description_ironic_zu_lang_independence_reduce	Before the local officers get too nosy, it may be best to have your aide hide away your most vocal supports and smuggle them away safely for now. Calm your heads, rebuild your coffers, and await a better chance.	false
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_zu_lang_independence_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_zu_lang_independence_assignments	Assignments	false
+effects_description_ironic_zu_lang_independence_captives_post_battle	[[b]]%+n[[/b]] Independence	false
+effects_description_ironic_zu_lang_independence_characters	[[b]]%+n[[/b]] Independence	false
+effects_description_ironic_zu_lang_independence_executed	[[b]]%+n[[/b]] Independence	false
+effects_description_ironic_zu_lang_independence_assignments	[[b]]%+n[[/b]] Independence	false

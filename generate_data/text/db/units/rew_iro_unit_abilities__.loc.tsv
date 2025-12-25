@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/units/rew_iro_unit_abilities__.loc		
+unit_abilities_tooltip_text_rew_iro_inner_circle	The Kingsguard presence is as if the King was here himself. Needless to say, a great motivator for generals to perform appropriately in combat. Or else.	false
+unit_abilities_onscreen_name_rew_iro_inner_circle	Inner Circle	false

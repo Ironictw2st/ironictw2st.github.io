@@ -1,0 +1,13 @@
+key	text	tooltip
+#Loc;1;text/db/effects/unitcap/qiang.loc		
+effects_description_ironic_qiang_infantry	Qiang Warriors, Archers, and Polearms available for recruitment: %+n	true
+effects_description_ironic_qiang_cavalry	Qiang Raiders, Marauders, and Hunters available for recruitment: %+n	true
+effects_description_ironic_xiongnu_cavalry	Xiongnu Cavalry, Cataphracts, and Noble Cavalry available for recruitment: %+n	true
+effects_description_ironic_xiongnu_infantry	Xiongnu Warriors, Archers, and Spearmen available for recruitment: %+n	true
+effects_description_ironic_xiongnu_heavy_infantry	Xiongnu Heavy Spearmen and Brutes available for recruitment: %+n	true
+effects_description_ironic_xiliang_cav	Xiliang Cavalry and Heavy Cavalry available for recruitment: %+n	true
+effects_description_ironic_xianbei_cav	Xianbei Headhunters, Swordguard, Riders, and Horse Archers available for recruitment: %+n	true
+effects_description_ironic_wuhuan_unit	Wuhuan Lancers, Defenders, Raiders, and Horse Archers available for recruitment: %+n	true
+effects_description_ironic_yue_unit	Yue Remnant Warriors and Tribesmen available for recruitment: %+n	true
+effects_description_ironic_chu_unit	Chu Spearmen and Infantry available for recruitment: %+n	true
+effects_description_ironic_qi_unit	Qi Crossbowmen and Spearmen available for recruitment: %+n	true

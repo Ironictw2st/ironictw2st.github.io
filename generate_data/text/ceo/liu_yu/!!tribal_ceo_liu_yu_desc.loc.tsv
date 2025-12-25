@@ -1,0 +1,155 @@
+key	text	tooltip
+#Loc;1;text/ceo/liu_yu/!!tribal_ceo_liu_yu_desc.loc		
+ceo_nodes_description_3k_main_ceo_liu_yu_han_capital_changan	Capture or have at the start of your turn Changan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_capital_changan	Capture or have at the start of your turn Changan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_capital_luoyang	Capture or have at the start of your turn Luoyang	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_capital_luoyang	Capture or have at the start of your turn Luoyang	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_capital_penchang	Capture or have at the start of your turn Pengcheng	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_capital_penchang	Capture or have at the start of your turn Pengcheng	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_capital_weijun	Capture or have at the start of your turn Wei	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_capital_weijun	Capture or have at the start of your turn Wei	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_capital_yingchuan	Capture or have at the start of your turn Yingchuan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_capital_yingchuan	Capture or have at the start of your turn Yingchuan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_liu_he	At the start of your turn, have Liu He be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_character_liu_he	At the start of your turn, have Liu He be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_character_liu_xie	At the start of your turn, have Liu Xie be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_liu_xie	At the start of your turn, have Liu Xie be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_liu_yu	At the start of your turn, have Liu Yu be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_character_liu_yu_00	At the start of your turn, have Liu Yu be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_character_tian_chou	At the start of your turn, have Tian Chou be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_tian_chou	At the start of your turn, have Tian Chou be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_wei_you	At the start of your turn, have Wei You be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_character_wei_you	At the start of your turn, have Wei You be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_xianyu_fu	At the start of your turn, have Xianyu Fu be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_character_xianyu_fu	At the start of your turn, have Xianyu Fu be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_han_character_xianyu_yin	At the start of your turn, have Xianyu Yin be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_xianyu_yin	At the start of your turn, have Xianyu Yin be rank 6 or higher	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_huchuquan	At the start of your turn have beaten or have them in your faction, Huchuquan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_huchuquan	At the start of your turn have beaten or have them in your faction, Huchuquan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_liu_bao	At the start of your turn have beaten or have them in your faction, Liu Bao	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_liu_bao	At the start of your turn have beaten or have them in your faction, Liu Bao	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_qubei	At the start of your turn have beaten or have them in your faction, Qubei	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_qubei	At the start of your turn have beaten or have them in your faction, Qubei	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_recruit_nanlou	At the start of your turn have beaten or have them in your faction, Nanlou	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_recruit_nanlou	At the start of your turn have beaten or have them in your faction, Nanlou	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_recruit_qiulijiu	At the start of your turn have beaten or have them in your faction, Qiulijiu	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_recruit_qiulijiu	At the start of your turn have beaten or have them in your faction, Qiulijiu	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_recruit_supuyuan	At the start of your turn have beaten or have them in your faction, Supuyuan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_recruit_supuyuan	At the start of your turn have beaten or have them in your faction, Supuyuan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_recruit_tadun	At the start of your turn have beaten or have them in your faction, Tadun	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_recruit_tadun	At the start of your turn have beaten or have them in your faction, Tadun	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_recruit_wuyan	At the start of your turn have beaten or have them in your faction, Wuyan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_recruit_wuyan	At the start of your turn have beaten or have them in your faction, Wuyan	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_yufuluo	At the start of your turn have beaten or have them in your faction, Yufuluo	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_character_yufuluo	At the start of your turn have beaten or have them in your faction, Yufuluo	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_guangyuan_iron	Capture or have at the start of your turn Junmi	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_guangyuan_iron	Capture or have at the start of your turn Junmi	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_liaoxi_capital	Capture or have at the start of your turn Yangle	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_liaoxi_capital	Capture or have at the start of your turn Yangle	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_liaoxi_tool	Capture or have at the start of your turn Liucheng	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_liaoxi_tool	Capture or have at the start of your turn Liucheng	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_shuofang_captial	Capture or have at the start of your turn Heyin	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_shuofang_captial	Capture or have at the start of your turn Heyin	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_shuofang_horse_tamer	Capture or have at the start of your turn Dacheng	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_shuofang_horse_tamer	Capture or have at the start of your turn Dacheng	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_shuofang_horses	Capture or have at the start of your turn Pingding	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_shuofang_horses	Capture or have at the start of your turn Pingding	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_xihe_capital	Capture or have at the start of your turn Lishi	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_xihe_capital	Capture or have at the start of your turn Lishi	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_xihe_fishing_port	Capture or have at the start of your turn Mengmen	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_xihe_fishing_port	Capture or have at the start of your turn Mengmen	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_youbeiping_capital	Capture or have at the start of your turn Tuyin	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_youbeiping_capital	Capture or have at the start of your turn Tuyin	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_youbeiping_trade_port	Capture or have at the start of your turn Linyu	true
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_youbeiping_trade_port	Capture or have at the start of your turn Linyu	true
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_ancient_capital	Old capitals, these shall boost our legacy!	true
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_backbone	These men under your orders have brought peace to your lands!	true
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_han_emperors	We of the Liu Line, shall not falter!	true
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_wuhuan_characters	These 'Barbarians' are civilized, for we shall make them!	true
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_wuhuan_regions	Their lands will fall under the control of Emperor!	true
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_xiongnu_characters	These 'Barbarians' are civilized, for we shall make them!	true
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_xiongnu_regions	Their lands will fall under the control of Emperor!	true
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_daijun_horse	Capture or have at the start of your turn Zhuo Lu	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_wuyuan_capital	Capture or have at the start of your turn Wuyuan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_wuyuan_farm	Capture or have at the start of your turn Xuanwei	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_hyunto_resource	Capture or have at the start of your turn Changli	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_liaodong_xuantu	Capture or have at the start of your turn Xuantu	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_yinping	Capture or have at the start of your turn Yinping	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_xiabian	Capture or have at the start of your turn Xiabian	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_nanzheng	Capture or have at the start of your turn Nanzheng	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_hanchang	Capture or have at the start of your turn Hanchang	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_zitong	Capture or have at the start of your turn Zitong	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_shanggui	Capture or have at the start of your turn Shanggui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_tianshui	Capture or have at the start of your turn Tianshui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_jincheng	Capture or have at the start of your turn Jincheng	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_zhanyin	Capture or have at the start of your turn Zhanyin	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_guzang	Capture or have at the start of your turn Guzang	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_sheyan	Capture or have at the start of your turn Sheyan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_canluan	Capture or have at the start of your turn Canluan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_sanshui	Capture or have at the start of your turn Sanshui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_lingzhou	Capture or have at the start of your turn Lingzhou	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_region_xiutu	Capture or have at the start of your turn Xiutu	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_xianbei_regions	Their lands will fall under the control of Emperor!	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_di_regions	Their lands will fall under the control of Emperor!	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_qiang_regions	Their lands will fall under the control of Emperor!	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_xiliang_regions	Their lands will fall under the control of Emperor!	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_daijun_horse	Capture or have at the start of your turn Zhuo Lu	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_wuyuan_capital	Capture or have at the start of your turn Wuyuan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_wuyuan_farm	Capture or have at the start of your turn Xuanwei	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_hyunto_resource	Capture or have at the start of your turn Changli	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_liaodong_xuantu	Capture or have at the start of your turn Xuantu	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_yinping	Capture or have at the start of your turn Yinping	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_xiabian	Capture or have at the start of your turn Xiabian	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_nanzheng	Capture or have at the start of your turn Nanzheng	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_hanchang	Capture or have at the start of your turn Hanchang	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_zitong	Capture or have at the start of your turn Zitong	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_shanggui	Capture or have at the start of your turn Shanggui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_tianshui	Capture or have at the start of your turn Tianshui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_jincheng	Capture or have at the start of your turn Jincheng	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_zhanyin	Capture or have at the start of your turn Zhanyin	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_guzang	Capture or have at the start of your turn Guzang	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_sheyan	Capture or have at the start of your turn Sheyan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_canluan	Capture or have at the start of your turn Canluan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_sanshui	Capture or have at the start of your turn Sanshui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_lingzhou	Capture or have at the start of your turn Lingzhou	false
+ceo_nodes_description_3k_main_ceo_liu_yu_00_tribal_region_xiutu	Capture or have at the start of your turn Xiutu	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_kuitou	At the start of your turn have beaten or have them in your faction, Kuitou	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_qianman	At the start of your turn have beaten or have them in your faction, Qianman	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_tuoba_jiefan	At the start of your turn have beaten or have them in your faction, Tuoba Jiefan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_tuoba_liwei	At the start of your turn have beaten or have them in your faction, Tuoba Liwei	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_tufa_pigu	At the start of your turn have beaten or have them in your faction, Tufa Pigu	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_dou_mao	At the start of your turn have beaten or have them in your faction, Dou Mao	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_agui	At the start of your turn have beaten or have them in your faction, Agui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_qiang_duan	At the start of your turn have beaten or have them in your faction, Qiang Duan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_yang_qianwan	At the start of your turn have beaten or have them in your faction, Yang Qianwan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_ma_teng	At the start of your turn have beaten or have them in your faction, Ma Teng	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_han_sui	At the start of your turn have beaten or have them in your faction, Han Sui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_song_jian	At the start of your turn have beaten or have them in your faction, Song Jian	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_ma_chao	At the start of your turn have beaten or have them in your faction, Ma Chao	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_li_jue	At the start of your turn have beaten or have them in your faction, Li Jue	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_guo_si	At the start of your turn have beaten or have them in your faction, Guo Si	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_fan_chou	At the start of your turn have beaten or have them in your faction, Fan Chou	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_character_zhang_ji	At the start of your turn have beaten or have them in your faction, Zhang Ji	false
+ceo_nodes_description_3k_main_ceo_liu_yu_han_character_yan_rou	At the start of your turn, have Yan Rou be rank 6 or higher	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_di_characters	Men of Di!	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_qiang_characters	Men of Qiang!	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_xianbei_characters	Men of Xianbei!	false
+ceo_equipped_set_bonuses_description_3k_main_ceo_set_liu_yu_xiliang_characters	Men of Xiliang!	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_kuitou	At the start of your turn have beaten or have them in your faction, Kuitou	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_qianman	At the start of your turn have beaten or have them in your faction, Qianman	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_tuoba_jiefan	At the start of your turn have beaten or have them in your faction, Tuoba Jiefan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_tuoba_liwei	At the start of your turn have beaten or have them in your faction, Tuoba Liwei	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_tufa_pigu	At the start of your turn have beaten or have them in your faction, Tufa Pigu	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_dou_mao	At the start of your turn have beaten or have them in your faction, Dou Mao	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_agui	At the start of your turn have beaten or have them in your faction, Agui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_qiang_duan	At the start of your turn have beaten or have them in your faction, Qiang Duan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_yang_qianwan	At the start of your turn have beaten or have them in your faction, Yang Qianwan	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_ma_teng	At the start of your turn have beaten or have them in your faction, Ma Teng	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_han_sui	At the start of your turn have beaten or have them in your faction, Han Sui	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_song_jian	At the start of your turn have beaten or have them in your faction, Song Jian	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_ma_chao	At the start of your turn have beaten or have them in your faction, Ma Chao	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_li_jue	At the start of your turn have beaten or have them in your faction, Li Jue	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_guo_si	At the start of your turn have beaten or have them in your faction, Guo Si	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_fan_chou	At the start of your turn have beaten or have them in your faction, Fan Chou	false
+ceo_nodes_description_3k_main_ceo_liu_yu_tribal_00_character_zhang_ji	At the start of your turn have beaten or have them in your faction, Zhang Ji	false
+ceo_nodes_description_3k_main_ceo_liu_yu_han_00_character_yan_rou	At the start of your turn, have Yan Rou be rank 6 or higher	false

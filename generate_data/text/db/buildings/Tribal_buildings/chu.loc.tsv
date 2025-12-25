@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/buildings/Tribal_buildings/chu.loc		
+building_chains_chain_tooltip_ironic_chu_build	[[col:flavour]]Chu Recruitment[[/col]]	true
+building_chains_encyclopedia_description_ironic_chu_build	Chu Recruitment	true
+building_chains_encyclopedia_name_ironic_chu_build	Chu Recruitment	true
+building_chains_override_description_ironic_chu_build	Chu Recruitment	true
+building_culture_variants_name_ironic_chu_build	Chu Recruitment	true
+building_levels_settlement_ui_displays_tooltip_ironic_chu_build	Chu Recruitment	true

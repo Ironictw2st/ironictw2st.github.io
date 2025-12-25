@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/huangzu/huangzu_incident.loc		
+campaign_payload_ui_details_description_LIUQIJOINS	Liu Qi Joins Liu Biao	true
+incidents_localised_title_ironic_liu_qi_joins_his_father_liu_biao	Liu Qi's Decision	true
+incidents_localised_description_ironic_liu_qi_joins_his_father_liu_biao	After feeling hated within Huang Zu's faction, the war between Huang Zu and Liu Biao was the tipping point, Liu Qi decides to return to his father.	true
+campaign_payload_ui_details_description_LIUQILEAVES	Liu Qi Leaves Huang Zu	true
+incidents_localised_title_ironic_liu_qi_joins_his_father_huang_zu	Liu Qi's Decision	true
+incidents_localised_description_ironic_liu_qi_joins_his_father_huang_zu	After feeling despised within Huang Zu's faction, the war between Huang Zu and Liu Biao was the tipping point, Liu Qi decides to return to his father.	true

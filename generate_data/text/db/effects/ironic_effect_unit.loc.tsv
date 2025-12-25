@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/effects/ironic_effect_unit.loc		
+effects_description_ironic_effect_unit_cap_3k_mod_unit_fire_wuhuan_dragons	Wuhuan Lancer (Vanguard, Rank 6) available for recruitment: %+n	true
+effects_description_ironic_effect_unit_cap_3k_mod_unit_metal_wuhuan_infantry	Wuhuan Defenders (Sentinel, Rank 6) available for recruitment: %+n	true
+effects_description_ironic_effect_unit_cap_3k_mod_unit_water_wuhuan_archers	Wuhuan Horse Archers (Strategist, Rank 3) available for recruitment: %+n	true
+effects_description_ironic_effect_unit_cap_3k_mod_unit_water_xiongnu_assassins	Xiongnu Rangers (Strategist, Rank 6) available for recruitment: %+n	true
+effects_description_ironic_effect_unit_cap_3k_dlc07_unit_earth_xiongnu_noble_cavalry	Xiongnu Noble Cavalry (Commander, Rank 3) available for recruitment: %+n	true
+effects_description_ironic_effect_unit_cap_3k_mod_unit_earth_wuhuan_cavalry	Wuhuan Raiders (Commander, Rank 3) available for recruitment: %+n	true
+effects_description_ironic_effect_xiliang_commander_unit_cap	Xiliang Commander (Rank 3) available for recruitment: %+n	true
+effects_description_ironic_xiliang_units_limited	Xiliang Cavalry (Rank 3), Xiliang Heavy Cavalry (Rank 6) available for recruitment: %+n	true

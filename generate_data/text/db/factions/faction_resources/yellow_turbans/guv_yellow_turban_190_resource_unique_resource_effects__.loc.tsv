@@ -1,0 +1,22 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/yellow_turbans/guv_yellow_turban_190_resource_unique_resource_effects__.loc		
+effects_description_3k_embers_pooled_resource_decay	[[b]]%+n[[/b]] embers decay	true
+effects_description_3k_embers_pooled_resource_decay_dummy	[[b]]%+n[[/b]] embers decay	false
+effects_description_3k_guv_embers_from_technologies	[[b]]%+n[[/b]] embers	false
+effects_description_3k_guv_embers_from_effects	[[b]]%+n[[/b]] embers from presence of Yellow turban factions	false
+effects_description_3k_guv_embers_he_yi_population_none	[[col:scope_description]]No bonuses to embers[[/col]]	false
+effects_description_3k_guv_embers_he_yi_population	Embers\\n[[b]][[b]]%+n[[/b]][[/b]]/[[col:scope_description]]+6[[/col]]	false
+effects_description_3k_guv_embers_he_yi_occupy_aiding	[[b]]%+n[[/b]] embers	false
+effects_description_3k_guv_embers_gong_du_raiding	[[b]]%+n[[/b]] embers from liberating forces	false
+effects_description_3k_guv_embers_gong_du_casualties	[[b]]%+n[[/b]] embers	false
+effects_description_3k_dummy_embers_info_dummy_bundle	All [[b]]Yellow Turban factions[[/b]] apply their own share of embers.	false
+effects_description_3k_dummy_embers_info	Embers is shared between yellow turban factions and is gained in each their respective ways. It will diminish over time.	true
+effects_description_3k_dummy_embers_info_bads	Embers decays over time and is lost further from military blunders. These failures are shared between all Yellow turban factions.	true
+effects_description_3k_dummy_he_yi_info	[[b]]HE YI[[/b]] - Earns embers from population size and by using occupy & aid wounded.\\n\\n[[b]]YELLOW TURBAN REBELLION FACTION[[/b]] - Earns embers from being alive. Protect them!	true
+effects_description_3k_dummy_gong_du_info	[[b]]GONG DU[[/b]] - Earns embers from on enemies slain and from constructing buildings from the "guerilla warfare" chain.\\n\\n[[b]]YELLOW TURBAN REBELLION FACTION[[/b]] - Earns embers from being alive. Protect them!	true
+effects_description_3k_dummy_huang_shao_info	[[b]]HUANG SHAO[[/b]] - Earns embers from reforms.\\n\\n[[b]]YELLOW TURBAN REBELLION FACTION[[/b]] - Earns embers from being alive. Protect them!	true
+effects_description_3k_ytr_faction_bonus_damage_resistance	[[b]]%+n%[[/b]] damage resistance for all units	true
+effects_description_3k_ytr_faction_debuff_enemy_damage	[[b]]%+n%[[/b]] all damage for enemy units	true
+effects_description_3k_ytr_faction_bonus_damage_he_yi	[[b]]%+n%[[/b]] weapon damage for all units	true
+effects_description_3k_ytr_faction_charge_bonus_gong_du	[[b]]%+n%[[/b]] charge bonus for all units	true
+effects_description_3k_ytr_faction_bonus_missile_huang_shao	[[b]]%+n%[[/b]] missile damage for all units	true

@@ -1,0 +1,9 @@
+key	birth_year	max_age_for_birth_year	max_random_age	min_age_for_birth_year	min_random_age	has_valid_birth_year	min_spawn_year	min_spawn_year_round	max_spawn_year	max_spawn_year_round
+#character_generation_spawn_age_ranges_tables;1;db/character_generation_spawn_age_ranges_tables/_mtu_characters_vanilla										
+3k_main_age_fixed_historical_ma_dai_hero_fire	181	80	50	0	16	true	198	0	999	999
+3k_main_age_fixed_historical_lady_da_qiao_hero_earth	174	80	50	0	16	true	205	0	257	999
+3k_main_age_fixed_historical_lady_xiao_qiao_hero_metal	175	80	50	0	16	true	206	0	258	999
+3k_main_age_fixed_historical_lady_cai_yan_hero_water	177	80	50	0	16	true	220	0	257	999
+3k_main_age_fixed_historical_guan_ping_hero_fire	182	80	50	0	16	true	208	0	247	999
+3k_main_age_fixed_historical_guan_xing_hero_wood	193	80	50	0	16	true	500	0	999	999
+3k_main_age_fixed_historical_liu_shan_hero_earth	200	80	50	0	16	true	500	0	999	999

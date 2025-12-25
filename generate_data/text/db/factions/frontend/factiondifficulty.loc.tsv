@@ -1,0 +1,100 @@
+key	text	tooltip
+#Loc;1;text/db/factions/frontend/factiondifficulty.loc		
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_liu_yu_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_ironic_main_song_jian_faction_leader	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_ironic_main_han_sui_faction_leader	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_ironic_main_wuhuan_faction_leader	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_ironic_main_xiongnu_faction_leader	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_wang_kuang_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhang_yang_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_yang_feng_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_gongsun_du_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_liu_dai_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_ying_shao_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_chen_gui_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_ze_rong_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhang_chao_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_chen_wen_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_bian_rang_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_lu_kang_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhang_lu_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_jia_long_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_liu_yao_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_sheng_xian_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_wang_lang_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhu_hao_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_hua_xin_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhuge_xuan_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_liu_pan_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhang_xian_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhang_jin_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_shi_huang_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_gan_ning_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_han_empire_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_huang_zu_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_cai_mao_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_kong_zhou_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_yt_generic_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhu_fu_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_wu_ju_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_lai_gong_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_han_fu_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_goguryeo_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_bakaja_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_shitla_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_xianbei_tuoba_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_ma_ai_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_huang_clan_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_handan_shang_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_di_tribes_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_lu_bu_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_xianbei_kuitou_190	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_jiuzhen_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_jiangyang_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_jianning_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_yunnan_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_ahuinan_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_mangyachang_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_zangke_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_jinhuansanjie_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_dongtuna_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_tu_an_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_xi_ni_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_king_wutugu_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_jiaozhi_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_yang_feng_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_king_duosi_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_faction_nanman_yongchang_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	true
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_wu_jing_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_wang_sheng_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_tong_zhi_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_liu_xun_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_cao_ren_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_ma_chao_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_sun_quan_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_xiahou_yuan_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_zhang_liao_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_chen_lan_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_yellow_turban_xu_he_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_zhou_yu_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_zhong_yao_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_du_ji_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_zhuge_liang_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_han_xuan_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_liu_du_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_zhao_fan_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_sun_ben_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_lei_xu_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_liu_shan_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_guan_yu_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_zu_lang_gathering	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_zhu_jun_gathering	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_ironic_faction_yellow_turban_wu_huan_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_fei_zhan_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_su_dai_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_you_tu_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_pan_lin_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zu_lang_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_zhao_wei_190	Starting situation: [[col:fe_difficulty_hard]]Hard[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_ni_xiaode_190	Starting situation: [[col:fe_difficulty_very_hard]]Very Hard[[/col]]	false
+frontend_faction_leaders_localised_difficulty_3k_main_political_party_hu_mao_190	Starting situation: [[col:fe_difficulty_very_hard]]Not Tested[[/col]]	false

@@ -1,0 +1,67 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/doumaoresource/resource_trailblazing.loc		
+effect_bundles_localised_title_ironic_frontend_leader_trailblazing_special	Trailblazing	true
+effect_bundles_localised_title_ironic_trailblazing_resource_level_0	Trailblazing: Bleak	true
+effect_bundles_localised_title_ironic_trailblazing_resource_level_1	Trailblazing: Frigid	true
+effect_bundles_localised_title_ironic_trailblazing_resource_level_2	Trailblazing: Rugged	true
+effect_bundles_localised_title_ironic_trailblazing_resource_level_3	Trailblazing: Idyllic	true
+effect_bundles_localised_title_ironic_trailblazing_resource_level_4	Trailblazing: Momentous	true
+effect_bundles_localised_description_ironic_trailblazing_resource_level_0	The harshness of the mountains are a death knell for many a lost wanderer.	true
+effect_bundles_localised_description_ironic_trailblazing_resource_level_1	Many a foolhardy explorer meet a grisly fate if unprepared.	true
+effect_bundles_localised_description_ironic_trailblazing_resource_level_2	Even when off the well walked road, the well adapted can survive and thrive.	true
+effect_bundles_localised_description_ironic_trailblazing_resource_level_3	A bounty of resources await the inquisitive pathfinder.	true
+effect_bundles_localised_description_ironic_trailblazing_resource_level_4	The mighty mountains, deep valleys and vast plateaus of the world strike awe in outsiders, and pride in all who call them home.	true
+effects_description_ironic_trailblazing_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_trailblazing_armies	[[b]]%+n[[/b]] Trailblazing	true
+effects_description_ironic_trailblazing_robin_hood	[[b]]%+n[[/b]] Trailblazing	true
+effects_description_ironic_trailblazing_garrisoned	[[b]]%+n[[/b]] Trailblazing	true
+effects_description_ironic_trailblazing_vassalized	[[b]]%+n[[/b]] Trailblazing	true
+effects_description_ironic_trailblazing_population	[[b]]%+n[[/b]]/10 Trailblazing	false
+effects_description_ironic_trailblazing_forced_to_fight	This force is forced to fight if enemy force is in the path.	false
+effects_description_ironic_trailblazing_info_gain	[[b]]Trailblazing[[/b]] can be increased by battles won, enemy casualities, and population.	true
+effects_description_ironic_trailblazing_info_loss	[[b]]Trailblazing[[/b]] can be decreased by battles lost, friendly casualities, and decay.	true
+effect_bundles_localised_title_ironic_trailblazing_tunneling	Stance: Pathfinder	false
+effect_bundles_localised_description_ironic_trailblazing_tunneling	Allows the army to ignore difficult terrain features after making preparations.	false
+effect_bundles_localised_title_ironic_trailblazing_effect_bundle	Trailblazing	false
+effect_bundles_localised_description_ironic_trailblazing_effect_bundle	Through ranging long forgotten paths, new possibilities emerge and a nation can expand - all kept running by an idyllic, pastoral home front.	false
+effects_generalised_descriptions_localised_description_ironic_trailblazing_effect_bundle_frontend_1	• Increases public order, movement in own regions, and boosts starting rank of units.	true
+effects_generalised_descriptions_localised_description_ironic_trailblazing_effect_bundle_frontend_2	• Increases upkeep of buildings and armies	true
+effects_generalised_descriptions_localised_description_ironic_trailblazing_effect_bundle_frontend_3	• Increases by battles won, more enemy casualities, and population	true
+effects_generalised_descriptions_localised_description_ironic_trailblazing_effect_bundle_frontend_4	• Decreased by losing battles, friendly casualities, and general decay	true
+pooled_resource_factors_display_name_negative_ironic_trailblazing_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_trailblazing_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_trailblazing_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_trailblazing_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_trailblazing_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_trailblazing_at_war	At War	true
+pooled_resources_description_ironic_trailblazing	Through ranging long forgotten paths, new possibilities emerge and a nation can expand - all kept running by an idyllic, pastoral home front.	true
+pooled_resources_display_name_ironic_trailblazing	Trailblazing	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_trailblazing	Through ranging long forgotten paths, new possibilities emerge and a nation can expand - all kept running by an idyllic, pastoral home front.	true
+pooled_resources_negative_factors_display_name_ironic_trailblazing	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_trailblazing	Increase	true
+ui_text_replacements_localised_text_victory_condition_trailblazing	CHINA MUST BE UNITED!	true
+pooled_resource_factors_display_name_negative_ironic_trailblazing_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_trailblazing_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_trailblazing_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_trailblazing_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_trailblazing_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_trailblazing_assignments	Assignments	false
+pooled_resource_factors_display_name_positive_ironic_trailblazing_casualites	Casualities	false
+pooled_resource_factors_display_name_negative_ironic_trailblazing_casualites	Casualities	false
+pooled_resource_factors_display_name_positive_ironic_trailblazing_population	Population	false
+pooled_resource_factors_display_name_negative_ironic_trailblazing_population	Population	false
+effects_description_ironic_trailblazing_captives_post_battle	[[b]]%+n[[/b]] Trailblazing	false
+effects_description_ironic_trailblazing_characters	[[b]]%+n[[/b]] Trailblazing	false
+effects_description_ironic_trailblazing_executed	[[b]]%+n[[/b]] Trailblazing	false
+effects_description_ironic_trailblazing_assignments	[[b]]%+n[[/b]] Trailblazing	false
+effects_generalised_descriptions_localised_description_ironic_trailblazing_effect_bundle_frontend_	PLACEHOLDER	false
+frontend_faction_leader_unique_features_localised_description_ironic_di_tribes_tunneling	[[b]]Tunneling[[/b]]\\n[[col:scope_description]]Unique Stance[[/col]]\\n\\n[[col:green]]+[[/col]] Movement\\n[[col:red]]-[[/col]] Forced to fight enemy armies in path	false

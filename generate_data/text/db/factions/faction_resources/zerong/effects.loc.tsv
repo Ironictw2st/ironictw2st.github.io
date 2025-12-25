@@ -1,0 +1,13 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/zerong/effects.loc		
+effects_description_ironic_ze_rong_raid_income	This force can raid for income!	false
+effects_value_format_ironic_ze_rong_raid_income		false
+effect_bundles_localised_title_ironic_ze_rong_raid_income	Stance: Raiding	false
+effect_bundles_localised_description_ironic_ze_rong_raid_income	Focus on plundering the local region, increasing the amount of loot gained per turn.	false
+effects_description_ironic_gdp_abs_raid_income	[[b]]%+n[[/b]] income (Raiding)	false
+campaign_region_gdp_types_onscreen_name_raid	Raiding	false
+effect_bundles_localised_title_ironic_ze_rong_frontend_effect	Depredation	false
+effects_generalised_descriptions_localised_description_ironic_frontend_description_raiding_1	• Raiding stance provides income	false
+effects_generalised_descriptions_localised_description_ironic_frontend_description_raiding_2	• Income is based on the buildings in the enemy region	false
+effects_generalised_descriptions_localised_description_ironic_frontend_description_raiding_3	• Military buildings harm income	false
+effects_generalised_descriptions_localised_description_ironic_frontend_description_raiding_4	• Commerce and Industry increase income	false

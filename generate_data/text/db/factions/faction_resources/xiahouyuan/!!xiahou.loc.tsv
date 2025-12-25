@@ -1,0 +1,41 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/xiahouyuan/!!xiahou.loc		
+effect_bundles_localised_title_ironic_xiahou_yuan_resource_level_0	Capability: Incompetent Fools	true
+effect_bundles_localised_title_ironic_xiahou_yuan_resource_level_1	Capability: Craven Dogs	true
+effect_bundles_localised_title_ironic_xiahou_yuan_resource_level_2	Capability: Ready Beasts	true
+effect_bundles_localised_title_ironic_xiahou_yuan_resource_level_3	Capability: Soaring Hawks	true
+effect_bundles_localised_title_ironic_xiahou_yuan_resource_level_4	Capability: Strong-Willed Tigers	true
+effect_bundles_localised_description_ironic_xiahou_yuan_resource_level_0	It is almost impressive just how inept your forces are. Drunken brawls break daily in each of your camps. Your scouts get lost, your raiding parties plunder your own supplies. Your captains and lieutenants bicker over petty grievances. Worst of all, you have done very little to stop this downward spiral. How can you hope to even survive like this?	true
+effect_bundles_localised_description_ironic_xiahou_yuan_resource_level_1	You have thoroughly neglected in your military's logistics. Like hungry hounds, your men claw at whatever scraps they can. Your warriors grow lean and hungry, which leads only to desperation and mutiny.	true
+effect_bundles_localised_description_ironic_xiahou_yuan_resource_level_2	Your army is ready to march wherever you need to them to go, and are prepared to combat any adversary. Be careful, however, to secure a solid supply line, and ensure your troops remain well fed and well equipped.	true
+effect_bundles_localised_description_ironic_xiahou_yuan_resource_level_3	Thanks to your capable command, your army surges forth with high spirits and full bellies. Your camps are organised, and your officers are promoted on merit. With the trust you place in your subordinates, you can win battles before swords are even drawn.	true
+effect_bundles_localised_description_ironic_xiahou_yuan_resource_level_4	The harshest of terrains, the most unforgiving of climates and the fiercest of foes are not enough to slow the unconquerable march of your army. Your every order passes through your intricate command structure without question. Supplies reach your frontlines unimpeded regardless of weather or distance. Your warriors enjoy the sharpest of blades, the toughest of armours and the fittest of steeds. Under the heavens, none can compete with your command.	true
+effects_description_ironic_xiahou_yuan_decay	%-n decay	true
+frontend_faction_leader_playstyles_localised_title_ironic_faction_xiahou_yuan	[[b]]Playstyle focus:[[/b]] Military Improvement	true
+frontend_faction_leaders_localised_difficulty_ironic_xiahou_yuan_208_faction	Starting situation: [[col:fe_difficulty_normal]]Normal[[/col]]	true
+pooled_resource_factors_display_name_negative_ironic_xiahou_yuan_resource_decay	Decay	true
+pooled_resource_factors_display_name_positive_ironic_xiahou_yuan_resource_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_xiahou_yuan_resource_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_xiahou_yuan_resource_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_xiahou_yuan_resource_victor	Battles Won	true
+pooled_resource_factors_display_name_negative_ironic_xiahou_yuan_resource_victor	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_xiahou_yuan_resource_war	War Declared	true
+pooled_resource_factors_display_name_negative_ironic_xiahou_yuan_resource_war	War Declared	true
+pooled_resource_factors_display_name_positive_ironic_xiahou_yuan_resource_army	Army Raised/Recruited	true
+pooled_resource_factors_display_name_negative_ironic_xiahou_yuan_resource_army	Army Raised/Recruited	true
+pooled_resource_factors_display_name_positive_ironic_xiahou_yuan_resource_factor	Basic	true
+pooled_resource_factors_display_name_negative_ironic_xiahou_yuan_resource_factor	Basic	true
+pooled_resource_factors_display_name_positive_ironic_xiahou_yuan_resource_casuality	Enemy Casualities	true
+pooled_resource_factors_display_name_negative_ironic_xiahou_yuan_resource_casuality	Enemy Casualities	true
+pooled_resources_description_ironic_xiahou_yuan_resource	Wars are not won with spectacular tactical manouvers, nor peerless might. The true commander places his stock in logistics, coordination, and a chain of command. 	true
+pooled_resources_display_name_ironic_xiahou_yuan_resource	Capability	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_xiahou_yuan_resource	Wars are not won with spectacular tactical manouvers, nor peerless might. The true commander places his stock in logistics, coordination, and a chain of command. 	true
+pooled_resources_negative_factors_display_name_ironic_xiahou_yuan_resource	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_xiahou_yuan_resource	Increase	true
+ui_text_replacements_localised_text_victory_condition_xiahou_yuan	CHINA MUST BE UNITED!	true
+effect_bundles_localised_title_ironic_xiahou_yuan_frontend	Capability	true
+effects_generalised_descriptions_localised_description_ironic_xiahou_yuan_frontend_1	• Boosts army abilities	true
+effects_generalised_descriptions_localised_description_ironic_xiahou_yuan_frontend_2	• Aggressive wars have a short term bonus	true
+effects_generalised_descriptions_localised_description_ironic_xiahou_yuan_frontend_3	• Newly recruited armies get a bonus	true
+frontend_faction_leader_unique_features_localised_description_ironic_chibi_xiahou_heavy_riders	[[b]]Destroyer of Rebels[[/b]]\\n[[col:scope_description]]Shock Cavalry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Flanking\\n[[col:green]]+[[/col]] Good Charge for Cavalry\\n[[col:red]]-[[/col]] Weak against Spears\\n	true
+frontend_faction_leader_unique_features_localised_description_ironic_chibi_xiahou_metal_rebel_slayer	[[b]]Custodians of the West[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Missile Defence\\n[[col:red]]-[[/col]] Weak against Cavalry\\n	true

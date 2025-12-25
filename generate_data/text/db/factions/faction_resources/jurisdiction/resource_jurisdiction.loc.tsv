@@ -1,0 +1,55 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/jurisdiction/resource_jurisdiction.loc		
+effect_bundles_localised_title_ironic_jursidiction_resource	Jurisdiction	true
+effect_bundles_localised_title_ironic_governor_resource_level_0	Jurisdiction: Closed Fist	true
+effect_bundles_localised_title_ironic_governor_resource_level_1	Jurisdiction: Sharpened Blade	true
+effect_bundles_localised_title_ironic_governor_resource_level_2	Jurisdiction: Heightened Wariness 	true
+effect_bundles_localised_title_ironic_governor_resource_level_3	Jurisdiction: Balanced Governance 	true
+effect_bundles_localised_title_ironic_governor_resource_level_4	Jurisdiction: Calmed Mind	true
+effect_bundles_localised_title_ironic_governor_resource_level_5	Jurisdiction: Peaceful Strides	true
+effect_bundles_localised_title_ironic_governor_resource_level_6	Jurisdiction: Open Hand	true
+effect_bundles_localised_description_ironic_governor_resource_level_0	The time for peaceful compromise has long past. In order to fulfil your duties as a governor, you must eradicate those which threaten your domain, with force.	true
+effect_bundles_localised_description_ironic_governor_resource_level_1	A tiger cannot cower in his den whilst his territory is threatened by another. Your lands were appointed for you to legally govern, and you cannot allow greedy warlords to take them from you. If diplomacy fails, more drastic measures will be needed.	true
+effect_bundles_localised_description_ironic_governor_resource_level_2	You worry your neighbours think you a fool. Promises are being broken, and sworn deals are being discarded. Lest negotiations begin to break down, you must focus your administration towards defence. Recruit more soldiers, and consider replacing farming tools with spears and blades.	true
+effect_bundles_localised_description_ironic_governor_resource_level_3	Your administration is a flexible one, with bias being shown to neither the dove of peace nor the tiger of war. You are poised to adapt to any issue that may arise, be it internal or external. 	true
+effect_bundles_localised_description_ironic_governor_resource_level_4	Although brigands and caitiffs continue to nip at your holdings, it is now time to de-escalate your military build up. Allow your soldiers to return to their fields for now, and concentrate your efforts on crop management and the flow of goods.	true
+effect_bundles_localised_description_ironic_governor_resource_level_5	Even heinous and wicked foes can see reason with clever logic and reasoned debate. By making steps towards peace, you are bettering the realm for everyone, not only those under your direct governance. Allow the men in your domain to be fathers and farmers, not warriors.	true
+effect_bundles_localised_description_ironic_governor_resource_level_6	Your dominion is prosperous and stable - and you will see it remain that way, not with your blade but with your words. Resources and food shall flow through your realm, and diplomacy shall keep your neighbours content.	true
+effects_description_ironic_jurisdiction_decay	[[b]]%+n%[[/b]] Decay	true
+effects_description_ironic_jurisdiction_armies	[[b]]%+n[[/b]] Jurisdiction(Per Standing Army)	true
+effects_description_ironic_governor_jurisdiction_governor	[[b]]%+n[[/b]] Jurisdiction(Governors)	true
+effects_description_ironic_governor_jurisdiction_garrisoned	[[b]]%+n[[/b]] Jurisdiction	true
+effects_description_ironic_governor_jurisdiction_vassalized	[[b]]%+n[[/b]] Jurisdiction(Vassalized)	true
+effects_description_ironic_governor_jurisdiction_info_gain	[[b]] Jurisdiction [[/b]] can be increased by being vassalized and by having governors.	true
+effects_description_ironic_governor_jurisdiction_info_loss	[[b]] Jurisdiction [[/b]] can be decreased by having armies that aren't garrisoned.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_jursdiction_1	• Double-sided resource, military or commandery-based.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_jursdiction_2	• Gained(Commandery) by being vassalized and governors.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_jursdiction_3	• Standing armies cause it to lower(military).	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_jursdiction_4	• Powerful bonuses on either side.	true
+frontend_faction_leader_playstyles_localised_title_ironic_faction_governor	[[b]]Playstyle focus:[[/b]] Jurisdiction	true
+pooled_resource_factors_display_name_negative_ironic_governor_jurisdiction_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_governor_jurisdiction_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_release 	Release Captive	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_governor	Governors	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_garrisoned	Garrisoned Armies	true
+pooled_resource_factors_display_name_positive_ironic_governor_jurisdiction_vassalized	Vassalized	true
+pooled_resource_factors_display_name_negative_ironic_governor_jurisdiction_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_governor_jurisdiction_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_governor_jurisdiction_governor	Governors	true
+pooled_resource_factors_display_name_negative_ironic_governor_jurisdiction_garrisoned	Garrisoned Armies	true
+pooled_resource_factors_display_name_negative_ironic_governor_jurisdiction_vassalized	Vassalized	true
+pooled_resources_description_ironic_governor_jurisdiction	In uncertain ages of disunity, an able administrator must be prepared to ready his people for war, as well as be a guiding hand in moments of peaceful respite.	true
+pooled_resources_display_name_ironic_governor_jurisdiction	Jurisdiction	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_governor_jurisdiction	In uncertain ages of disunity, an able administrator must be prepared to ready his people for war, as well as be a guiding hand in moments of peaceful respite.	true
+pooled_resources_negative_factors_display_name_ironic_governor_jurisdiction	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_governor_jurisdiction	Increase	true
+ui_text_replacements_localised_text_victory_condition_governor	CHINA MUST BE UNITED!	true
+effects_description_ironic_jin_xuan_nanman_knowledge	Disable Ability: Dense Jungle	true

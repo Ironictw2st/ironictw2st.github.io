@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/factions/frontend/ironic_faction_groups.loc		
+faction_groups_name_localised_heir_factions	194 Factions	true
+faction_groups_name_localised_all_factions	All Factions	true
+faction_groups_name_localised_barbarian_factions	Northern Tribes	true
+faction_groups_name_localised_korea_factions	Korean Tribes	true

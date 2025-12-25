@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/huangzu/huangzubundle.loc		
+effect_bundles_localised_title_ironic_huang_zu_frontend_bundle	Subservience	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_huang_zu_1	• Benefits being vassalized and debuffs when not	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_huang_zu_2	• Increases by recruiting or executing captives 	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_huang_zu_3	• Ambush cost is reduced and gives stalk	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_huang_zu_4	• Gives the ability to ambush on attack.	true
+frontend_faction_leader_unique_features_localised_description_ironic_huang_zu_positions	[[b]]Positions[[/b]]\\n[[col:scope_description]]Ministerial position[[/col]]\\n\\n[[col:green]]+[[/col]] Ambush Chance\\n[[col:green]]+[[/col]] Pooled Resource\\n\\n[[col:flavour]][[i]]These positions help improve your ambush chances and increase your resources.[[/col]][[/i]]	true
+frontend_faction_leader_playstyles_localised_title_ironic_faction_huang_zu	Playstyle focus: Subservience and Ambush	true

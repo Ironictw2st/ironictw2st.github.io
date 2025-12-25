@@ -1,0 +1,52 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/@@ironic_ceo_follower.loc		
+ceo_nodes_title_3k_ironic_ancillary_follower_xiliang_commander	Xiliang Commander	false
+ceo_nodes_description_3k_ironic_ancillary_follower_xiliang_commander	The best of the best from Liang, bringing his men to help you fight! 	false
+ceo_nodes_title_3k_main_ancillary_follower_weapon_craftsman	Wandering Craftsmen	false
+ceo_nodes_description_3k_main_ancillary_follower_weapon_craftsman	One of the best, who is willing to work for you all for free! 	false
+ceo_nodes_title_3k_gsz_ancillary_follower_han_fire	Submitted Warlord	false
+ceo_nodes_description_3k_gsz_ancillary_follower_han_fire	Having failed at his own vie for hegemony, this former warlord now provides his services and his cavalry to one of your commanders. For one to twenty seasons, at least.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_han_water	Former Garrison Commander	false
+ceo_nodes_description_3k_gsz_ancillary_follower_han_water	For unknown reasons, you swear that this fellow's name seems to randomly change every time you are introduced to him. Probably not worth thinking too hard about. 	false
+ceo_nodes_title_3k_gsz_ancillary_follower_han_earth	Noble Bodyguard Captain	false
+ceo_nodes_description_3k_gsz_ancillary_follower_han_earth	"My lord! Get down!"	false
+ceo_nodes_title_3k_gsz_ancillary_follower_han_metal	Submitted Infantry Veteran	false
+ceo_nodes_description_3k_gsz_ancillary_follower_han_metal	The knowledge and expertise of this grizzled soldier will be worth quite a bit to your general. At least 16 worth, in fact.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_han_wood	Spear Officer	false
+ceo_nodes_description_3k_gsz_ancillary_follower_han_wood	PLACEHOLDER	false
+ceo_nodes_title_3k_gsz_ancillary_follower_korea_fire	Wuhu Chieftain	false
+ceo_nodes_description_3k_gsz_ancillary_follower_korea_fire	Life is like a hurricane, here on, the frontier...	false
+ceo_nodes_title_3k_gsz_ancillary_follower_korea_water	Silla Bow Commander	false
+ceo_nodes_description_3k_gsz_ancillary_follower_korea_water	Skilled at leading foreign archers, not bowing. But he presumably knows how to do that, too.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_korea_earth	Submitted Baekja Noble	false
+ceo_nodes_description_3k_gsz_ancillary_follower_korea_earth	Once proud and independent, this noble's penance for submission is four years of service under one of your officers.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_korea_metal	Gogureyo Blade Master	false
+ceo_nodes_description_3k_gsz_ancillary_follower_korea_metal	"Stab! Parry! Thrust! Parry! Aha!"	false
+ceo_nodes_title_3k_gsz_ancillary_follower_korea_wood	Peninsula Spear Captain	false
+ceo_nodes_description_3k_gsz_ancillary_follower_korea_wood	"No, you fools! I said the POINTY end!"	false
+ceo_nodes_title_3k_gsz_ancillary_follower_barbarian_fire	Wuhuan Headsman	false
+ceo_nodes_description_3k_gsz_ancillary_follower_barbarian_fire	The mighty cavalry of the Wuhuan are yours to recruit! For the next four or so years, at least.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_barbarian_water	Qiang Auxiliary Commander	false
+ceo_nodes_description_3k_gsz_ancillary_follower_barbarian_water	He promises this time not to rebel against you or the Han, cross his heart and hope to die. No backsies.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_barbarian_earth	Defected Chanyu	false
+ceo_nodes_description_3k_gsz_ancillary_follower_barbarian_earth	You didn't take this Xiongnu's life, but you did take his freedom.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_barbarian_metal	Xianbei Clan Head	false
+ceo_nodes_description_3k_gsz_ancillary_follower_barbarian_metal	Best not to ask why this fierce clan leader has a bare chest. People die asking stupid questions.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_barbarian_wood	Di Pathfinder	false
+ceo_nodes_description_3k_gsz_ancillary_follower_barbarian_wood	He is a Di and he's finding a path. A findy findy path, he's finding a path.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_bandit_fire	PLACEHOLDER	false
+ceo_nodes_description_3k_gsz_ancillary_follower_bandit_fire	PLACEHOLDER	false
+ceo_nodes_title_3k_gsz_ancillary_follower_bandit_water	Shanyue Assassin	false
+ceo_nodes_description_3k_gsz_ancillary_follower_bandit_water	For some reason, whenever this sneaky individual plummets from a great height, a convenient bundle of straw awaits below to break his fall.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_bandit_earth	PLACEHOLDER	false
+ceo_nodes_description_3k_gsz_ancillary_follower_bandit_earth	PLACEHOLDER	false
+ceo_nodes_title_3k_gsz_ancillary_follower_bandit_metal	Pirate Captain	false
+ceo_nodes_description_3k_gsz_ancillary_follower_bandit_metal	The greatest pirate you've never heard of.	false
+ceo_nodes_title_3k_gsz_ancillary_follower_bandit_wood	Heishan Outlaw Boss	false
+ceo_nodes_description_3k_gsz_ancillary_follower_bandit_wood	"Stand and deliver!"	false
+ceo_nodes_title_3k_gsz_ancillary_follower_nanman_animal	Beastmaster	false
+ceo_nodes_description_3k_gsz_ancillary_follower_nanman_animal	"I have my eyes... I have my cunning... and I have my strength."	false
+ceo_nodes_title_3k_gsz_ancillary_follower_nanman_infantry	Nanzhong Tribal Leader	false
+ceo_nodes_description_3k_gsz_ancillary_follower_nanman_infantry	"In the jungle, the mighty jungle..."	false
+ceo_nodes_title_	PLACEHOLDER	false
+ceo_nodes_description_	PLACEHOLDER	false
