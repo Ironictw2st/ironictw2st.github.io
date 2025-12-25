@@ -523,7 +523,7 @@
 
             // Search
             document.getElementById('search').addEventListener('input', (e) => {
-                currentSearch = e.target.value.toLowerCase();
+                currentSearch = e.target.value; // Keep original for display if needed
                 renderCharacters();
             });
 
@@ -594,6 +594,16 @@
         }
 
 
+                // Add this helper function to normalize text for searching
+        function normalizeText(text) {
+            // Convert to lowercase and normalize unicode characters
+            return text.toLowerCase()
+                .normalize('NFD') // Decompose combined characters
+                .replace(/[\u0300-\u036f]/g, '') // Remove diacritical marks
+                .replace(/['']/g, "'") // Normalize apostrophes
+                .replace(/[""]/g, '"'); // Normalize quotes
+        }
+
         function filterCharacters() {
             let filtered = [...CHARACTER_DATA];
 
@@ -602,13 +612,25 @@
                 filtered = filtered.filter(c => c.element === currentElement);
             }
 
-            // Search filter
+            // Search filter - now accent-insensitive
             if (currentSearch) {
-                filtered = filtered.filter(c => 
-                    c.display_name.toLowerCase().includes(currentSearch) ||
-                    c.title.toLowerCase().includes(currentSearch) ||
-                    c.name_key.toLowerCase().includes(currentSearch)
-                );
+                const normalizedSearch = normalizeText(currentSearch);
+                
+                filtered = filtered.filter(c => {
+                    // Normalize all searchable fields
+                    const normalizedName = normalizeText(c.display_name);
+                    const normalizedTitle = normalizeText(c.title || '');
+                    const normalizedKey = normalizeText(c.name_key);
+                    const normalizedForename = normalizeText(c.forename || '');
+                    const normalizedFamilyName = normalizeText(c.family_name || '');
+                    
+                    // Check if any normalized field contains the normalized search term
+                    return normalizedName.includes(normalizedSearch) ||
+                        normalizedTitle.includes(normalizedSearch) ||
+                        normalizedKey.includes(normalizedSearch) ||
+                        normalizedForename.includes(normalizedSearch) ||
+                        normalizedFamilyName.includes(normalizedSearch);
+                });
             }
 
             // Gender filter
@@ -641,6 +663,8 @@
 
             return filtered;
         }
+
+
 
         
 

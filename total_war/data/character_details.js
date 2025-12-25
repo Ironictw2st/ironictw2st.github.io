@@ -1,5 +1,5 @@
 // Auto-generated character details (portraits + effects)
-// Total entries: 1566
+// Total entries: 1588
 
 const CHARACTER_DETAILS = {
   "3k_cp01_template_historical_huang_gai_hero_fire": {
@@ -9,6 +9,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+10 authority (this character)",
         "desc": ""
@@ -43,6 +47,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -72,7 +80,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% upkeep for Qiang units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% upkeep for Qiang units (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -93,7 +101,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -124,6 +132,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+1 resilience (this character)",
         "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
       }
     ]
   },
@@ -143,7 +155,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 mustering turns (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 mustering turns (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -205,11 +217,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 cover cost for enemy spies ",
+        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10 undercover network cost for enemy spies ",
+        "name": "+10 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -243,7 +255,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -255,7 +267,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 cover cost for enemy spies ",
+        "name": "+5 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -276,7 +288,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -284,7 +300,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 provided: %n ",
+        "name": "+1 provided: %n (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -354,11 +370,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+100% income from commerce (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% income from commerce (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -410,6 +426,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -425,7 +445,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -458,7 +478,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -470,7 +490,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -516,7 +536,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+100% income from looting settlements (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% income from looting settlements (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -545,7 +565,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+200% income from family estates ",
+        "name": "+200% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -553,7 +573,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -569,6 +589,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+6 public order (only if this character is faction leader)",
+        "desc": ""
+      },
       {
         "name": "+1 resilience (this character)",
         "desc": ""
@@ -599,7 +623,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -644,7 +672,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available positions ",
+        "name": "+1 available positions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -658,6 +686,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -694,7 +726,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -727,7 +759,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% replenishment (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -740,7 +772,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -768,6 +800,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+2 morale (own army)",
         "desc": ""
@@ -806,7 +842,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -827,7 +863,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -836,6 +872,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -852,7 +892,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+25 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -889,7 +929,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 from characters (local )",
+        "name": "-10 from characters (local county)",
         "desc": ""
       },
       {
@@ -940,6 +980,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1055,7 +1099,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1084,11 +1128,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1121,7 +1165,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-8% upkeep for Qiang units (only if this character is prime minister, heir or faction leader)",
+        "name": "-8% upkeep for Qiang units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1142,7 +1186,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1162,6 +1206,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+6 public order own character",
+        "desc": ""
+      },
       {
         "name": "+15 resolve (this character)",
         "desc": ""
@@ -1192,7 +1240,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -1234,7 +1282,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% chance of ambushing (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% chance of ambushing (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1267,7 +1315,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 undercover network cost for enemy spies ",
+        "name": "-10 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1275,7 +1323,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 cover cost for enemy spies ",
+        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1325,7 +1373,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from peasantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1515,15 +1563,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+6 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+6 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+2 starting rank for all recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 starting rank for all recruits (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1539,12 +1587,12 @@ const CHARACTER_DETAILS = {
   "3k_dlc04_template_historical_luo_jun_xiaoyuan_wood": {
     "portrait": {
       "url": "data/images/db/wood/male.png",
-      "alt": "Luo Jun portrait",
+      "alt": "Lu Jun portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "+10% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from all sources (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1553,6 +1601,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+20 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (local county)",
         "desc": ""
       },
       {
@@ -1614,7 +1666,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 charge bonus for shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 charge bonus for shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1664,7 +1716,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-100% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-100% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1738,7 +1790,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1754,6 +1806,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+2 morale (own army)",
         "desc": ""
@@ -1784,6 +1840,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+2 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+5 authority (this character)",
         "desc": ""
       },
@@ -1801,7 +1861,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-8% upkeep for Qiang units (only if this character is prime minister, heir or faction leader)",
+        "name": "-8% upkeep for Qiang units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1844,6 +1904,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -1855,7 +1919,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1863,7 +1927,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1880,7 +1944,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1913,7 +1977,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from family estates ",
+        "name": "+10% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1938,11 +2002,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-5% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -1967,7 +2031,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 charge bonus for shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 charge bonus for shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2012,7 +2076,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% corruption (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -2024,6 +2088,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+5 public order own character",
+        "desc": ""
+      },
       {
         "name": "+1 Unlocks assignment: Public Appeasement (this character)",
         "desc": ""
@@ -2046,7 +2114,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25% damage for Missile Cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% damage for Missile Cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2054,7 +2122,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% charge bonus for cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% charge bonus for cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2108,7 +2176,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% melee damage for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% melee damage for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2137,7 +2205,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from commerce (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from commerce (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2170,7 +2238,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2228,7 +2296,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from industry (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -2283,6 +2351,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2373,7 +2445,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% upkeep for shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% upkeep for shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2409,29 +2481,29 @@ const CHARACTER_DETAILS = {
   },
   "3k_dlc05_template_generated_lady_zhang_jinglan_hero_metal": {
     "portrait": {
-      "url": "data/images/db/metal/female.png",
-      "alt": "Zhang Jinglan portrait",
+      "url": "data/images/db/3k_main_hero_special_metal_lady_zhang_jinglan.png",
+      "alt": "Zheng Lan portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+10 maximum cover when spying (this spouse's faction) (if minister)",
         "desc": ""
       },
       {
-        "name": "+1 Unlocks assignment: Black Market Investigation (this character)",
+        "name": "+4 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+20 expertise (this character)",
+        "name": "+25 expertise (this character)",
         "desc": ""
       },
       {
-        "name": "+5 cover cost for enemy spies ",
+        "name": "+5 instinct (this character)",
         "desc": ""
       },
       {
-        "name": "+10 cunning (this character)",
+        "name": "+1 resilience (this character)",
         "desc": ""
       }
     ]
@@ -2444,11 +2516,15 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "-8 military supplies (enemy armies in local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+30 cunning (this character)",
         "desc": ""
       },
       {
-        "name": "-10% ammunition for ranged units (enemy armies in this )",
+        "name": "-10% ammunition for ranged units (enemy armies in this county)",
         "desc": ""
       },
       {
@@ -2514,11 +2590,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% income from industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% income from industry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15 diplomatic relations with Han Empire factions ",
+        "name": "+15 diplomatic relations with Han Empire factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2539,6 +2615,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+20 expertise (this character)",
         "desc": ""
       },
@@ -2547,7 +2627,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+8 morale in own territory (only if this character is prime minister, heir or faction leader)",
+        "name": "+8 morale in own territory (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2576,6 +2656,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 public order (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
         "name": "+40 cunning (this character)",
         "desc": ""
       },
@@ -2601,7 +2685,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% upkeep for melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% upkeep for melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2614,6 +2698,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+10 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Conduct Schooling (this character)",
         "desc": ""
       }
     ]
@@ -2704,44 +2792,40 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 cover gain per turn when spying ",
+        "name": "+5 cover gain per turn when spying (only if this character is faction leader)",
         "desc": ""
       },
       {
         "name": "+10 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-10 military supplies (own army)",
         "desc": ""
       }
     ]
   },
   "3k_dlc05_template_historical_lu_lingqi_hero_metal": {
     "portrait": {
-      "url": "",
-      "alt": "Lü Ji portrait",
+      "url": "data/images/db/metal/female.png",
+      "alt": "Bu Ji portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "-2 morale for defending enemy forces (this character)",
+        "name": "-5% armour-piercing damage (enemy armies in local county)",
         "desc": ""
       },
       {
-        "name": "+20 expertise (this character)",
+        "name": "+15 expertise (this character)",
         "desc": ""
       },
       {
-        "name": "+15% replenishment (own army)",
+        "name": "-5% armour (enemy armies in local county)",
         "desc": ""
       },
       {
-        "name": "+1 resilience (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+10 cunning (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+20 instinct (this character)",
+        "name": "+15 cunning (this character)",
         "desc": ""
       }
     ]
@@ -2762,7 +2846,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+9 morale in own territory (only if this character is prime minister, heir or faction leader)",
+        "name": "+9 morale in own territory (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2770,7 +2854,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 morale in enemy territory (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 morale in enemy territory (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2787,11 +2871,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+1 Enables: Ignore Forest Penalties (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Ignore Forest Penalties (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% post-battle loot income ",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2815,7 +2899,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 starting rank for all Black Mountain units (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for all Black Mountain units (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -2873,6 +2957,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+3 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+1 Ability: Blow for Blow (this character) (Romance)",
         "desc": ""
       }
@@ -2923,6 +3011,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+15 expertise (this character)",
         "desc": ""
       },
@@ -2931,7 +3023,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2953,6 +3045,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2981,7 +3077,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3018,7 +3114,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3030,7 +3126,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (own army)",
+        "name": "+5 military supplies (own territory) (own army)",
         "desc": ""
       }
     ]
@@ -3059,7 +3155,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% speed for blowpipe units (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% speed for blowpipe units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3080,7 +3176,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 melee evasion for Nanman units (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 melee evasion for Nanman units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3133,7 +3229,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% charge bonus for elephant units (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% charge bonus for elephant units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3166,15 +3262,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% speed for axe infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% speed for axe infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5% melee damage for axe infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% melee damage for axe infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-10 satisfaction for Nanman (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 satisfaction for Nanman (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3207,15 +3303,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% speed for axe infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% speed for axe infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5% melee damage for axe infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% melee damage for axe infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-10 satisfaction for Nanman (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 satisfaction for Nanman (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3264,7 +3360,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% armour for shield infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% armour for shield infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3305,7 +3401,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% melee damage for tiger units (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% melee damage for tiger units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3330,11 +3426,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
         "name": "+1 Ability: Subdue (this character) (Romance)",
+        "desc": ""
+      },
+      {
+        "name": "+12 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3354,6 +3454,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
       {
         "name": "+30 cunning (this character)",
         "desc": ""
@@ -3401,6 +3505,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 Ability: Blood Price (this character) (Romance)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3491,7 +3599,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% income from family estates ",
+        "name": "+25% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3499,7 +3607,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -3524,7 +3632,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3586,7 +3694,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% ammunition (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% ammunition (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3594,7 +3702,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% ranged damage for javelin units (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% ranged damage for javelin units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3689,7 +3797,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3697,7 +3805,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% redeployment cost ",
+        "name": "-10% redeployment cost (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -3756,6 +3864,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+8 public order (current spouse's region)",
+        "desc": ""
+      },
+      {
         "name": "+25 cunning (this character)",
         "desc": ""
       },
@@ -3764,7 +3876,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -3876,7 +3988,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+20% income from commerce and industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% income from commerce and industry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3884,7 +3996,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 provided: %n ",
+        "name": "+1 provided: %n (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3900,7 +4012,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -3946,11 +4058,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+2 food production ",
+        "name": "+2 food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3983,7 +4095,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% melee damage for all shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% melee damage for all shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -3991,7 +4103,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Enables: Guerrilla Deployment (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Guerrilla Deployment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4011,6 +4123,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+2 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+30 authority (this character)",
         "desc": ""
@@ -4042,6 +4158,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+25% trade influence (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
+        "name": "-5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -4082,7 +4202,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4102,7 +4222,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_generated_lady_gongsun_jinting_hero_water": {
     "portrait": {
       "url": "data/images/db/water_strategist/female.png",
-      "alt": "Song Jinting portrait",
+      "alt": "Gongsun Jinting portrait",
       "caption": ""
     },
     "effects": [
@@ -4140,7 +4260,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4148,7 +4268,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 bonus experience for units per season (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 bonus experience for units per season (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4174,6 +4294,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+30 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order own character",
         "desc": ""
       },
       {
@@ -4239,7 +4363,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4261,6 +4385,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 military supplies (when commanding)",
         "desc": ""
       },
       {
@@ -4392,7 +4520,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4422,6 +4550,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4500,6 +4632,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+15 cunning (this character)",
         "desc": ""
       },
@@ -4520,6 +4656,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+10 authority (this character)",
         "desc": ""
@@ -4579,7 +4719,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4607,7 +4747,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_generated_lady_ma_lanli_hero_metal": {
     "portrait": {
       "url": "data/images/db/metal/female.png",
-      "alt": "Hua Lanli portrait",
+      "alt": "Hui Lanli portrait",
       "caption": ""
     },
     "effects": [
@@ -4651,6 +4791,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+1 resilience (this character)",
         "desc": ""
+      },
+      {
+        "name": "+15% income from trade agreements (this spouse's faction) (if minister)",
+        "desc": ""
       }
     ]
   },
@@ -4676,6 +4820,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+1 resilience (this character)",
         "desc": ""
+      },
+      {
+        "name": "+15% income from trade agreements (this spouse's faction) (if minister)",
+        "desc": ""
       }
     ]
   },
@@ -4691,7 +4839,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4785,7 +4933,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_generated_lady_wang_liting_hero_metal": {
     "portrait": {
       "url": "data/images/db/metal/female.png",
-      "alt": "Yijian Liting portrait",
+      "alt": "Qi Liting portrait",
       "caption": ""
     },
     "effects": [
@@ -4823,7 +4971,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4889,11 +5037,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 cover cost for enemy spies ",
+        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 cover gain per turn when spying ",
+        "name": "+5 cover gain per turn when spying (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4923,6 +5071,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 satisfaction own character",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Military Labor (this character)",
         "desc": ""
       },
       {
@@ -4963,7 +5115,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4992,7 +5144,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction ",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5021,6 +5173,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (current spouse's region)",
+        "desc": ""
+      },
+      {
         "name": "+20 cunning (this character)",
         "desc": ""
       },
@@ -5045,6 +5201,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+5 public order (current spouse's region)",
+        "desc": ""
+      },
       {
         "name": "+30 authority (this character)",
         "desc": ""
@@ -5108,7 +5268,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5116,7 +5276,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5137,7 +5297,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5149,7 +5309,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5211,11 +5371,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 starting rank for all ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for all ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5244,11 +5404,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+35% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+35% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5302,7 +5462,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from commerce and culture (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from commerce and culture (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+8 military supplies (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -5323,7 +5487,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 cover cost for enemy spies who are family members ",
+        "name": "-10 cover cost for enemy spies who are family members (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5360,11 +5524,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 reserves (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 reserves (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5447,7 +5611,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5509,7 +5673,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% speed (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% speed (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (local commandery)",
         "desc": ""
       },
       {
@@ -5538,7 +5706,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5552,6 +5720,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+15 expertise (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 public order (only if this character is faction leader)",
+        "desc": ""
       }
     ]
   },
@@ -5563,7 +5735,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+2 available positions ",
+        "name": "+2 available positions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5579,7 +5751,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost for cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5600,7 +5772,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5608,7 +5780,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5637,7 +5809,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% armour for cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% armour for cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5695,7 +5867,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Enables: Fatigue Resistance (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Fatigue Resistance (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5753,7 +5925,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5761,7 +5933,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5769,7 +5941,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available positions ",
+        "name": "+1 available positions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5819,7 +5991,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+2 provided: %n ",
+        "name": "+2 provided: %n (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5831,7 +6003,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 Assignment slots provided: %n ",
+        "name": "+2 Assignment slots provided: %n (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5860,7 +6032,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% armour for melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% armour for melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5885,7 +6057,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+30% income from commerce (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% income from commerce (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5922,7 +6094,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 melee evasion for spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 melee evasion for spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -5984,7 +6156,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-25% recruitment cost for cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% recruitment cost for cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6038,7 +6210,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+3 starting rank for polearm and spear infantry recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for polearm and spear infantry recruits (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6075,7 +6247,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% ranged damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% ranged damage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6112,11 +6284,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+100% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6145,7 +6317,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -6158,7 +6330,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6166,7 +6338,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6224,7 +6396,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -6262,7 +6434,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6270,7 +6442,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6286,6 +6458,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local county)",
+        "desc": ""
+      },
       {
         "name": "+20 expertise (this character)",
         "desc": ""
@@ -6353,11 +6529,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+10 instinct (this character)",
         "desc": ""
       },
       {
-        "name": "+10 diplomatic relations with Han Empire factions ",
+        "name": "+10 diplomatic relations with Han Empire factions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -6473,6 +6653,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (when commanding)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -6560,7 +6744,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6572,7 +6756,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -6723,6 +6907,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -6797,6 +6985,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+10 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6935,7 +7127,7 @@ const CHARACTER_DETAILS = {
   },
   "3k_main_template_historical_chunyu_qiong_hero_fire": {
     "portrait": {
-      "url": "data/images/db/fire/male.png",
+      "url": "data/images/db/3k_main_hero_special_fire_chunyu_qiong.png",
       "alt": "Chunyu Qiong portrait",
       "caption": ""
     },
@@ -7235,6 +7427,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+10 cunning (this character)",
         "desc": ""
       },
@@ -7413,7 +7609,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7421,7 +7617,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7442,11 +7638,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7461,21 +7657,37 @@ const CHARACTER_DETAILS = {
   },
   "3k_main_template_historical_dong_bai_hero_metal": {
     "portrait": {
-      "url": "data/images/db/metal/female.png",
+      "url": "data/images/db/3k_main_hero_special_water_lady_dong_bai.png",
       "alt": "Dong Bai portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "+10 cunning (this character)",
+        "name": "+50% income from family estates (faction-wide)",
         "desc": ""
       },
       {
-        "name": "+20 expertise (this character)",
+        "name": "+20 authority (this character)",
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2% income from all sources (faction-wide)",
+        "desc": ""
+      },
+      {
+        "name": "+30% income from commerce (current spouse's region)",
+        "desc": ""
+      },
+      {
+        "name": "+20 instinct (this character)",
         "desc": ""
       }
     ]
@@ -7492,11 +7704,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7567,11 +7779,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-5% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7641,7 +7853,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_dong_min_hero_earth": {
     "portrait": {
       "url": "data/images/db/earth/male.png",
-      "alt": "Dong Min portrait",
+      "alt": "Zheng Min portrait",
       "caption": ""
     },
     "effects": [
@@ -7746,6 +7958,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       },
@@ -7779,7 +7995,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7787,7 +8003,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost for shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7808,11 +8024,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7851,6 +8067,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+1 resilience (this character)",
         "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
+        "desc": ""
       }
     ]
   },
@@ -7875,6 +8095,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+25% character experience (when present)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       }
     ]
@@ -7920,7 +8144,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 diplomatic relations with all factions ",
+        "name": "+5 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -7953,7 +8177,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% trade influence ",
+        "name": "+30% trade influence (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -7966,7 +8190,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% armour for all shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% armour for all shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8063,6 +8287,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -8107,6 +8335,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+10 cunning (this character)",
         "desc": ""
       },
@@ -8131,6 +8363,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+10 military supplies (when commanding)",
+        "desc": ""
+      },
       {
         "name": "+30 cunning (this character)",
         "desc": ""
@@ -8165,7 +8401,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8177,7 +8413,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -8265,7 +8501,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8273,7 +8509,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8361,7 +8597,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25% ammunition for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% ammunition for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8385,7 +8621,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% campaign movement range (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -8406,7 +8642,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50 bonus experience for units per season (only if this character is prime minister, heir or faction leader)",
+        "name": "+50 bonus experience for units per season (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8418,7 +8654,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -8464,11 +8700,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 melee evasion for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 melee evasion for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8555,7 +8791,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8702,6 +8938,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -8771,7 +9011,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% melee damage for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% melee damage for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8785,6 +9025,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+10 expertise (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies (only if this character is faction leader)",
+        "desc": ""
       }
     ]
   },
@@ -8796,7 +9040,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+6 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+6 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8829,11 +9077,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8895,11 +9143,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale in enemy territory (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale in enemy territory (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% charge bonus for all infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% charge bonus for all infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8924,7 +9172,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8932,7 +9180,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8969,6 +9217,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+10 expertise (this character)",
         "desc": ""
       }
@@ -8986,7 +9238,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 starting rank for all cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for all cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -8994,7 +9246,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9006,7 +9258,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25% recruitment cost for ranged cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% recruitment cost for ranged cavalry units (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -9031,11 +9283,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% income from commerce and culture (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% income from commerce and culture (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9064,7 +9316,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+45% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+45% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9084,6 +9336,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+10 military supplies (own army)",
+        "desc": ""
+      },
       {
         "name": "+10 expertise (this character)",
         "desc": ""
@@ -9325,7 +9581,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9362,7 +9618,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9403,11 +9659,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-12% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-12% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10 (own territory) (own army)",
+        "name": "+10 military supplies (own territory) (own army)",
         "desc": ""
       }
     ]
@@ -9436,11 +9692,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-15% chance of avoiding ambush (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% chance of avoiding ambush (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -9453,7 +9709,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9465,7 +9721,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 cover cost for enemy spies ",
+        "name": "+5 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9556,7 +9812,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9568,7 +9824,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% income from peasantry (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -9586,6 +9842,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+10% replenishment (own army)",
+        "desc": ""
+      },
+      {
+        "name": "+15 military supplies (own army)",
         "desc": ""
       },
       {
@@ -9622,7 +9882,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from industry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9630,7 +9890,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% construction cost (resource settlements) (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (resource settlements) (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9722,11 +9982,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10 maximum cover when spying ",
+        "name": "+10 maximum cover when spying (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9742,7 +10002,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale when defending (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -9784,7 +10044,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9796,7 +10056,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -9880,6 +10140,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -10016,6 +10280,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -10058,7 +10326,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10070,7 +10338,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -10137,7 +10405,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10149,7 +10417,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -10195,7 +10463,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10203,20 +10471,20 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 resilience (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 resilience (only if this character is faction leader)",
         "desc": ""
       }
     ]
   },
   "3k_main_template_historical_hua_xin_hero_water": {
     "portrait": {
-      "url": "data/images/db/water_strategist/male.png",
+      "url": "data/images/db/3k_main_hero_special_water_hua_xin.png",
       "alt": "Hua Xin portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10228,7 +10496,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10315,7 +10583,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10323,7 +10591,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10365,7 +10633,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% speed for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% speed for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10373,7 +10641,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10456,19 +10724,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50 charge bonus for spear infantry (own retinue)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+30 instinct (this character)",
+        "name": "+10 resolve (this character)",
         "desc": ""
       },
       {
-        "name": "+20 resolve (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+1 resilience (this character)",
+        "name": "+10 expertise (this character)",
         "desc": ""
       }
     ]
@@ -10522,11 +10786,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% construction cost (resource settlements) (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% construction cost (resource settlements) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% chance of avoiding ambush (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% chance of avoiding ambush (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10547,7 +10811,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% ammunition for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% ammunition for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10556,6 +10820,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+25 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10603,13 +10871,13 @@ const CHARACTER_DETAILS = {
   },
   "3k_main_template_historical_huang_zu_hero_wood": {
     "portrait": {
-      "url": "data/images/db/wood/male.png",
+      "url": "data/images/db/3k_mtu_hero_special_wood_huang_zu.png",
       "alt": "Huang Zu portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "+30% chance of ambushing (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% chance of ambushing (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10617,7 +10885,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Chance of ambushing any enemy army this force attacks (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Chance of ambushing any enemy army this force attacks (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10675,11 +10943,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10804,6 +11072,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 Unlocks assignment: Military Requisition (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -10952,7 +11224,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 undercover network gain per turn ",
+        "name": "+5 undercover network gain per turn (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10964,7 +11236,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available positions ",
+        "name": "+1 available positions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11027,6 +11299,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+8 military supplies own character",
+        "desc": ""
+      },
+      {
         "name": "+20 authority (this character)",
         "desc": ""
       },
@@ -11060,7 +11336,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% chance of ambushing (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% chance of ambushing (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11069,6 +11345,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+25 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11089,7 +11369,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 undercover network cost for enemy spies ",
+        "name": "+10 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11109,7 +11389,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (local )",
+        "name": "-5 satisfaction (local county)",
         "desc": ""
       }
     ]
@@ -11117,7 +11397,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_jian_yong_hero_metal": {
     "portrait": {
       "url": "data/images/db/metal/male.png",
-      "alt": "Jian Yong portrait",
+      "alt": "Jian Xiong portrait",
       "caption": ""
     },
     "effects": [
@@ -11230,7 +11510,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11250,7 +11530,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -11275,11 +11555,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11368,6 +11648,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -11428,6 +11712,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+8 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -11445,7 +11733,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost for crossbow units (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for crossbow units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11461,11 +11749,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% trade influence ",
+        "name": "+50% trade influence (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -11494,11 +11782,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% income from peasantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -11515,11 +11803,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% chance of ambushing (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% chance of ambushing (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-10% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11548,7 +11836,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11560,7 +11848,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11614,7 +11902,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+6 public order (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11626,12 +11918,12 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_lady_cai_yan_hero_water": {
     "portrait": {
       "url": "data/images/db/water_strategist/female.png",
-      "alt": "Cai Yan portrait",
+      "alt": "Hua Yan portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "+5% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11644,6 +11936,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11664,7 +11960,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 construction time (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 construction time (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11680,7 +11976,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -11693,7 +11989,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+8 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+8 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11713,7 +12009,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -11727,6 +12023,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+10 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (this spouse's faction) (if minister)",
         "desc": ""
       },
       {
@@ -11779,7 +12079,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_lady_dong_peishan_hero_earth": {
     "portrait": {
       "url": "data/images/db/earth/female.png",
-      "alt": "Dong Peishan portrait",
+      "alt": "Fan Peishan portrait",
       "caption": ""
     },
     "effects": [
@@ -11788,7 +12088,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11797,6 +12097,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -11863,11 +12167,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+20% armour-piercing ranged damage for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% armour-piercing ranged damage for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11908,7 +12212,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -11916,20 +12220,20 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_lady_lu_zheng_hero_water": {
     "portrait": {
       "url": "data/images/db/water_strategist/female.png",
-      "alt": "Lu Zheng portrait",
+      "alt": "Gui Zheng portrait",
       "caption": ""
     },
     "effects": [
       {
-        "name": "+25% chance of ambushing (own army)",
+        "name": "+15 cunning (this character)",
         "desc": ""
       },
       {
-        "name": "+25 cunning (this character)",
+        "name": "+20% speed (this character)",
         "desc": ""
       },
       {
-        "name": "+5 authority (this character)",
+        "name": "+15 expertise (this character)",
         "desc": ""
       }
     ]
@@ -11942,7 +12246,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+3 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -11982,7 +12286,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_lady_wu_minyu_hero_earth": {
     "portrait": {
       "url": "data/images/db/earth/female.png",
-      "alt": "Lady Wu portrait",
+      "alt": "Bai Xia portrait",
       "caption": ""
     },
     "effects": [
@@ -12070,11 +12374,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 faction support (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 faction support (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% diplomatic income from tributaries ",
+        "name": "+50% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12082,7 +12386,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% all damage for all forces when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% all damage for all forces when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12314,7 +12618,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12334,11 +12638,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-10 satisfaction for all characters (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 satisfaction for all characters (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -12413,11 +12717,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12475,6 +12779,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "-4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -12488,11 +12796,15 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "-5 military supplies (enemy armies in local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+25 cunning (this character)",
         "desc": ""
       },
       {
-        "name": "+10 undercover network cost for enemy spies ",
+        "name": "+10 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12550,7 +12862,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12562,7 +12874,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12659,6 +12971,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -12728,7 +13044,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% campaign movement range when in own region (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% campaign movement range when in own region (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -12741,6 +13057,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -12791,6 +13111,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -12850,6 +13174,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -12895,6 +13223,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 Unlocks assignment: Military Requisition (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -13018,7 +13350,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13026,7 +13358,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -13043,7 +13375,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-35% upkeep for militia infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-35% upkeep for militia infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13063,11 +13395,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 starting rank for militia recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for militia recruits (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+20 faction support (only if this character is prime minister, heir or faction leader)",
+        "name": "+20 faction support (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -13088,11 +13420,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% diplomatic income from tributaries ",
+        "name": "+50% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-20% character salary ",
+        "name": "-20% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13100,7 +13432,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-20% recruitment cost for polearm infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% recruitment cost for polearm infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13138,7 +13470,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-20% recruitment cost for Chen units (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% recruitment cost for Chen units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13154,11 +13486,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 starting rank for all ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for all ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% ranged damage for crossbows (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% ranged damage for crossbows (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13179,7 +13511,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost for polearm infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost for polearm infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13191,7 +13523,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% diplomatic income from tributaries ",
+        "name": "+25% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13212,7 +13544,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13220,7 +13552,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-2 construction time (only if this character is prime minister, heir or faction leader)",
+        "name": "-2 construction time (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13275,6 +13607,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 Unlocks assignment: Military Requisition (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -13361,11 +13697,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+2 food production ",
+        "name": "+2 food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13406,7 +13742,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available assignments ",
+        "name": "+1 available assignments (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13414,7 +13750,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -13456,7 +13792,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13498,11 +13834,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10% recruitment cost for polearm infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost for polearm infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-15% character salary ",
+        "name": "-15% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13535,11 +13871,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+25% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13569,6 +13905,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+30 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -13630,7 +13970,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13655,7 +13999,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+1 available positions ",
+        "name": "+1 available positions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13675,7 +14019,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+6 Dongzhoubing Marksmen and Defenders available for recruitment: ",
+        "name": "+6 Dongzhoubing Marksmen and Defenders available for recruitment: (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13696,7 +14040,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13708,7 +14052,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 available assignments (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 available assignments (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13812,7 +14156,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+30% trade influence ",
+        "name": "+30% trade influence (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -13836,11 +14180,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available trade agreements ",
+        "name": "+1 available trade agreements (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+30 diplomatic relations with all factions ",
+        "name": "+30 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -13882,15 +14226,15 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+30% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% income from peasantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+4 Dongzhoubing Marksmen and Defenders available for recruitment: ",
+        "name": "+4 Dongzhoubing Marksmen and Defenders available for recruitment: (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14006,7 +14350,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15% recruitment cost for shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14014,7 +14358,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale in enemy territory (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale in enemy territory (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14026,7 +14370,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% melee damage for all shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% melee damage for all shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14101,7 +14445,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+100% income from silk (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% income from silk (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14113,7 +14457,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+100% income from spice (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% income from spice (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14210,6 +14554,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -14221,7 +14569,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14229,7 +14577,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14262,7 +14610,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -14287,7 +14639,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from peasantry and commerce (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from peasantry and commerce (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -14299,6 +14651,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
       {
         "name": "+15 instinct (this character)",
         "desc": ""
@@ -14337,6 +14693,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+10 cunning (this character)",
         "desc": ""
       },
@@ -14362,7 +14722,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15 diplomatic relations with Han Empire factions ",
+        "name": "+15 diplomatic relations with Han Empire factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14378,7 +14738,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 construction time (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 construction time (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14412,6 +14772,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -14544,7 +14908,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -14582,7 +14946,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 population growth (local )",
+        "name": "+2 population growth (local county)",
         "desc": ""
       },
       {
@@ -14619,11 +14983,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% upkeep for Qiang units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% upkeep for Qiang units (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% armour for all shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% armour for all shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14631,7 +14995,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% melee damage for all shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% melee damage for all shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14743,7 +15107,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14763,7 +15127,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -14776,7 +15140,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14784,7 +15148,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14805,7 +15169,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% ammunition for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% ammunition for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14821,7 +15185,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% campaign movement range (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -14842,15 +15206,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+100% income from silk and spice (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% income from silk and spice (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15 melee damage for cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 melee damage for cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-20% recruitment and upkeep cost for Qiang units (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% recruitment and upkeep cost for Qiang units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14974,7 +15338,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -14982,7 +15346,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15004,6 +15368,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -15069,6 +15437,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "-4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -15087,6 +15459,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+30 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 military supplies (when commanding)",
         "desc": ""
       },
       {
@@ -15124,6 +15500,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-4 public order (local commandery)",
         "desc": ""
       },
       {
@@ -15239,7 +15619,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+8 in enemy territory (only if this character is prime minister, heir or faction leader)",
+        "name": "+8 military supplies in enemy territory (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15276,7 +15656,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% diplomatic income from tributaries ",
+        "name": "+15% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15313,11 +15693,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% corruption (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -15334,7 +15714,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15346,7 +15726,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -15387,28 +15767,28 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_pang_de_hero_wood": {
     "portrait": {
       "url": "data/images/db/wood/male.png",
-      "alt": "Pang De portrait",
+      "alt": "Jian De portrait",
       "caption": ""
     },
     "effects": [
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
+        "name": "+2 morale (own army)",
+        "desc": ""
+      },
+      {
+        "name": "+25 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5% income from all sources (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+5 authority (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+1 resilience (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+10 resolve (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+12% melee damage for all shock cavalry (only if this character is prime minister, heir or faction leader)",
-        "desc": ""
-      },
-      {
-        "name": "+15 instinct (this character)",
         "desc": ""
       }
     ]
@@ -15470,7 +15850,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% ranged damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% ranged damage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15487,7 +15867,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15495,7 +15875,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15513,6 +15893,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -15545,7 +15929,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+35% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+35% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15553,7 +15937,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -15603,7 +15987,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15684,6 +16068,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -15704,6 +16092,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       }
     ]
@@ -15740,7 +16132,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_qu_gong_hero_wood": {
     "portrait": {
       "url": "data/images/db/wood/male.png",
-      "alt": "Qu Gong portrait",
+      "alt": "Hui Gong portrait",
       "caption": ""
     },
     "effects": [
@@ -15778,7 +16170,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -15805,6 +16197,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -15820,7 +16216,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15832,7 +16228,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -15899,6 +16295,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "-4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+30 cunning (this character)",
         "desc": ""
       },
@@ -15907,7 +16307,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 diplomatic relations with all factions ",
+        "name": "-10 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -15932,7 +16332,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16004,6 +16404,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+20 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-4 public order (local county)",
         "desc": ""
       },
       {
@@ -16157,11 +16561,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16176,7 +16580,7 @@ const CHARACTER_DETAILS = {
   },
   "3k_main_template_historical_shen_pei_hero_water": {
     "portrait": {
-      "url": "data/images/db/wood/male.png",
+      "url": "data/images/db/3k_main_hero_special_wood_shen_pei.png",
       "alt": "Shen Pei portrait",
       "caption": ""
     },
@@ -16244,11 +16648,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 additional buildings can be constructed each turn (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 additional buildings can be constructed each turn (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15 diplomatic relations with Han Empire factions ",
+        "name": "+15 diplomatic relations with Han Empire factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16256,7 +16660,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% melee evasion (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% melee evasion (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16277,6 +16681,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+30 instinct (this character)",
         "desc": ""
       },
@@ -16285,7 +16693,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 cover cost for enemy spies ",
+        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16306,7 +16714,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16335,7 +16747,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-25% chance of avoiding ambush (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% chance of avoiding ambush (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16355,7 +16767,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 cover cost for enemy spies ",
+        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -16405,7 +16817,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 mustering turns (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 mustering turns (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16417,7 +16829,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16438,11 +16850,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% income from family estates ",
+        "name": "+50% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16450,7 +16862,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available trade agreements ",
+        "name": "+1 available trade agreements (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16471,11 +16883,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16580,6 +16992,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -16641,7 +17057,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16653,7 +17069,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -16666,7 +17082,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16674,7 +17090,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16695,7 +17111,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20 cover cost for enemy spies ",
+        "name": "+20 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16707,7 +17123,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20 undercover network cost for enemy spies ",
+        "name": "+20 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -16741,7 +17157,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+25 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16761,7 +17177,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -16786,11 +17202,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 provided: %n ",
+        "name": "+1 provided: %n (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% income from family estates ",
+        "name": "+50% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16807,7 +17223,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+20% trade influence ",
+        "name": "+20% trade influence (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16815,7 +17231,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% charge bonus for cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% charge bonus for cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -16828,6 +17244,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 military supplies (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -16908,6 +17328,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -16985,6 +17409,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "-4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+20 resolve (this character)",
         "desc": ""
       }
@@ -17023,7 +17451,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% melee damage for all shock cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% melee damage for all shock cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17035,11 +17463,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-20% Military buildings construction cost reduction: (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% Military buildings construction cost reduction: (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% charge bonus for all infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% charge bonus for all infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17064,7 +17492,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17072,7 +17500,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% diplomatic income from tributaries ",
+        "name": "+50% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17155,7 +17583,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17167,7 +17595,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25% recruitment and upkeep cost for mercenary retinues ",
+        "name": "-25% recruitment and upkeep cost for mercenary retinues (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -17235,6 +17663,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 Unlocks assignment: Military Requisition (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -17350,7 +17782,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17362,7 +17794,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% diplomatic income from tributaries ",
+        "name": "+25% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17513,6 +17945,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -17557,7 +17993,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5% replenishment for garrisons (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment for garrisons (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17569,7 +18005,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 available assignments ",
+        "name": "+2 available assignments (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17606,6 +18042,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+30 expertise (this character)",
         "desc": ""
       },
@@ -17627,7 +18067,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Assignment slots provided: %n ",
+        "name": "+1 Assignment slots provided: %n (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17660,7 +18100,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17672,7 +18112,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -17821,7 +18261,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% reinforcement range ",
+        "name": "+25% reinforcement range (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -17871,7 +18311,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -17887,7 +18327,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -17913,6 +18353,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -17958,7 +18402,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+12% melee evasion (only if this character is prime minister, heir or faction leader)",
+        "name": "+12% melee evasion (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18059,6 +18503,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+20 expertise (this character)",
         "desc": ""
+      },
+      {
+        "name": "-2 public order (local commandery)",
+        "desc": ""
       }
     ]
   },
@@ -18074,11 +18522,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18138,6 +18586,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -18170,7 +18622,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% melee damage for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% melee damage for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18190,7 +18642,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% armour (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% armour (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -18232,7 +18684,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+75% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+75% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18244,7 +18696,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18261,7 +18713,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18269,7 +18721,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18293,6 +18745,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
       {
         "name": "+15 cunning (this character)",
         "desc": ""
@@ -18395,6 +18851,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -18443,11 +18903,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18493,7 +18953,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18501,7 +18961,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18559,7 +19019,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18571,7 +19031,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18757,7 +19217,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18792,6 +19252,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -18807,7 +19271,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -18819,7 +19283,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -19002,11 +19466,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19168,6 +19632,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+10 military supplies (own retinue)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -19197,7 +19665,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19205,7 +19673,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19259,7 +19727,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19271,7 +19739,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -19309,7 +19777,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% income from industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from industry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19338,11 +19806,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19379,11 +19847,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-35% fatigue rate (only if this character is prime minister, heir or faction leader)",
+        "name": "-35% fatigue rate (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -19408,7 +19876,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19416,7 +19884,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% upkeep for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% upkeep for all units (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -19483,6 +19951,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+10 military supplies own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -19537,11 +20009,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19575,6 +20047,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -19798,7 +20274,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19806,7 +20282,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -19932,6 +20408,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -19944,6 +20424,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+25% character experience (when present)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       },
       {
@@ -20042,7 +20526,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 diplomatic relations with all factions ",
+        "name": "+15 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20067,7 +20551,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20100,7 +20584,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20108,7 +20592,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20199,11 +20683,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% chance of discovery when performing spy actions (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% chance of discovery when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -20286,7 +20770,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% campaign movement range when in own region (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% campaign movement range when in own region (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20348,7 +20832,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+6 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+10 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       },
       {
@@ -20356,7 +20848,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20377,7 +20869,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 starting rank for melee infantry recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 starting rank for melee infantry recruits (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20464,11 +20956,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20518,6 +21010,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "-10 military supplies (enemy armies in local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -20551,7 +21047,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20559,7 +21055,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% all damage for all forces when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% all damage for all forces when defending (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -20573,6 +21069,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 Unlocks assignment: Military Requisition (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -20601,11 +21101,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-5% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20644,6 +21144,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -20654,6 +21158,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+1 resilience (this character)",
         "desc": ""
@@ -20709,7 +21217,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% ammunition for artillery units (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% ammunition for artillery units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20721,7 +21229,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -20759,11 +21267,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+75% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+75% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20792,11 +21300,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+75% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+75% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20837,11 +21345,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% all damage for all forces when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% all damage for all forces when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20883,15 +21391,15 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+1 Enables: Ignore Forest Penalties (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Ignore Forest Penalties (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-15% construction cost (resource settlements) (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (resource settlements) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+3 starting rank for all White Tiger units (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for all White Tiger units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20994,6 +21502,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+12 military supplies own character",
+        "desc": ""
+      },
+      {
         "name": "+20 authority (this character)",
         "desc": ""
       },
@@ -21061,6 +21573,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -21156,11 +21672,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+8% melee evasion (only if this character is prime minister, heir or faction leader)",
+        "name": "+8% melee evasion (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21271,6 +21787,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+20 authority (this character)",
         "desc": ""
       }
@@ -21309,7 +21829,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21329,7 +21849,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -21475,6 +21995,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "-4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+20 cunning (this character)",
         "desc": ""
       },
@@ -21537,7 +22061,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21545,7 +22069,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21595,7 +22119,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -21658,7 +22182,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-5 satisfaction (local )",
+        "name": "-5 satisfaction (local county)",
         "desc": ""
       },
       {
@@ -21749,7 +22273,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21761,7 +22285,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -21786,7 +22310,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% ranged damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% ranged damage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21828,7 +22352,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+35% income from family estates ",
+        "name": "+35% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21840,7 +22364,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21869,7 +22393,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21877,7 +22401,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 diplomatic relations with all factions ",
+        "name": "+10 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21893,6 +22417,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+10 military supplies (own army)",
+        "desc": ""
+      },
       {
         "name": "+10 cunning (this character)",
         "desc": ""
@@ -21923,11 +22451,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10% building upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% building upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% chance of avoiding ambush (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% chance of avoiding ambush (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22028,6 +22556,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -22072,7 +22604,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+100 income (peasantry) (local )",
+        "name": "+100 income (peasantry) (local county)",
         "desc": ""
       },
       {
@@ -22117,7 +22649,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% upkeep for melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% upkeep for melee cavalry (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -22130,7 +22662,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+3 starting rank for polearm infantry recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for polearm infantry recruits (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22142,7 +22674,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% reinforcement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% reinforcement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22175,7 +22707,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25% construction cost (resource settlements) (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% construction cost (resource settlements) (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22183,7 +22715,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22208,11 +22740,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% income from family estates ",
+        "name": "+30% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22233,7 +22769,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% income from industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from industry (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -22266,11 +22806,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% income from commerce (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% income from commerce (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-1 construction time (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 construction time (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22299,7 +22839,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22311,7 +22851,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% income from family estates ",
+        "name": "+25% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22332,7 +22872,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22344,7 +22884,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -22460,6 +23000,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+10 military supplies (when commanding)",
+        "desc": ""
+      },
+      {
         "name": "+10 authority (this character)",
         "desc": ""
       }
@@ -22551,7 +23095,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+100% income from looting settlements (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+100% income from looting settlements (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22626,11 +23174,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+6 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+6 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22663,7 +23211,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22671,7 +23219,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+12% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+12% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22700,7 +23248,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 maximum cover when spying ",
+        "name": "+5 maximum cover when spying (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22787,7 +23335,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22795,7 +23343,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22828,7 +23376,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% food production (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22882,11 +23430,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 diplomatic relations with all factions ",
+        "name": "+5 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-15% construction cost (settlement administration) (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (settlement administration) (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22994,7 +23542,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 maximum cover when spying (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 maximum cover when spying (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23014,7 +23562,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Enables: Snipe (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Snipe (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -23060,7 +23608,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23076,7 +23624,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 construction time (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 construction time (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23084,7 +23632,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% food production (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% food production (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -23101,7 +23649,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23114,6 +23662,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-4 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -23140,6 +23692,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -23155,7 +23711,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23163,7 +23719,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 diplomatic relations with all factions ",
+        "name": "+5 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23188,7 +23744,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23196,7 +23752,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23230,6 +23786,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -23275,7 +23835,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23287,7 +23847,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -23333,7 +23893,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25% ammunition (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% ammunition (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23341,7 +23901,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23374,7 +23934,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% upkeep for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% upkeep for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23413,6 +23973,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+25 instinct (this character)",
         "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
+        "desc": ""
       }
     ]
   },
@@ -23436,6 +24000,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "-4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -23449,11 +24017,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+1 Enables: Ignore Forest Penalties (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Ignore Forest Penalties (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% post-battle loot income ",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23477,7 +24045,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 starting rank for all Black Mountain units (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for all Black Mountain units (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -23494,11 +24062,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20 charge speed for shock and melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+20 charge speed for shock and melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+3 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23610,6 +24178,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+10 cunning (this character)",
         "desc": ""
       },
@@ -23643,7 +24215,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23651,7 +24223,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -23728,6 +24300,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -23793,11 +24369,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -23934,11 +24510,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3% replenishment ",
+        "name": "+3% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
         "name": "+20 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -24113,6 +24693,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+5 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+10 cunning (this character)",
         "desc": ""
       },
@@ -24142,7 +24726,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24154,7 +24738,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24221,7 +24805,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 cover cost for enemy spies ",
+        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24233,7 +24817,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 cover gain per turn when spying ",
+        "name": "+3 cover gain per turn when spying (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24333,7 +24917,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24345,7 +24929,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available assignments ",
+        "name": "+1 available assignments (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24445,7 +25029,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24457,7 +25041,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -24571,6 +25155,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -24586,7 +25174,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24594,7 +25182,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24644,6 +25232,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       },
@@ -24669,7 +25261,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24677,7 +25269,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24698,11 +25290,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24764,11 +25356,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Enables: Charge Negate (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Charge Negate (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24826,11 +25418,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -24993,6 +25585,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -25016,6 +25612,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -25033,7 +25633,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-25% upkeep for crossbow units (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% upkeep for crossbow units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25049,7 +25649,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25066,11 +25666,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25120,7 +25720,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15 in enemy territory (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 military supplies in enemy territory (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25132,7 +25732,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25166,6 +25766,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -25203,7 +25807,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25215,7 +25819,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30 bonus experience for units per season (only if this character is prime minister, heir or faction leader)",
+        "name": "+30 bonus experience for units per season (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25390,11 +25994,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% armour for all spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% armour for all spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25402,7 +26006,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost for polearm infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for polearm infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25441,6 +26045,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+20 expertise (this character)",
         "desc": ""
+      },
+      {
+        "name": "-5 military supplies (enemy armies in local county)",
+        "desc": ""
       }
     ]
   },
@@ -25465,6 +26073,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+30% post-battle loot income (when present)",
+        "desc": ""
+      },
+      {
+        "name": "-4 public order (local county)",
         "desc": ""
       },
       {
@@ -25518,7 +26130,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25555,7 +26167,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25563,7 +26175,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 melee evasion for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 melee evasion for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25571,7 +26183,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 faction support (only if this character is prime minister, heir or faction leader)",
+        "name": "+25 faction support (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25596,15 +26208,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% range (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost for ranged units (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost for ranged units (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25662,6 +26274,14 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+8 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+15 military supplies (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+20 cunning (this character)",
         "desc": ""
       },
@@ -25703,7 +26323,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% campaign movement range (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -25736,6 +26356,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+6 public order own character",
+        "desc": ""
+      },
       {
         "name": "+15 resolve (this character)",
         "desc": ""
@@ -25807,7 +26431,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -25894,11 +26518,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26040,6 +26664,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+5 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 Unlocks assignment: Public Appeasement (this character)",
         "desc": ""
       },
@@ -26156,7 +26784,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 melee evasion for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 melee evasion for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26164,11 +26792,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26226,7 +26854,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 charge speed (only if this character is prime minister, heir or faction leader)",
+        "name": "+25 charge speed (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26238,7 +26866,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26288,7 +26916,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-20% recruitment cost for spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% recruitment cost for spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26300,11 +26928,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-20% recruitment cost for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% recruitment cost for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% armour for all spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% armour for all spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26512,7 +27140,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26524,7 +27152,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 cover cost for enemy spies ",
+        "name": "+5 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26599,7 +27227,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26608,6 +27236,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -26640,7 +27272,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-20% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26648,11 +27280,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-4 undercover network cost when performing spy actions ",
+        "name": "-4 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -26744,7 +27376,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from all sources (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26756,7 +27388,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% research rate ",
+        "name": "+10% research rate (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26768,7 +27400,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-3 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "-3 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26786,6 +27418,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 Unlocks assignment: Military Requisition (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -26826,7 +27462,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26926,7 +27562,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26935,6 +27571,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -26955,11 +27595,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from peasantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26988,7 +27628,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27016,7 +27656,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% melee damage for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% melee damage for melee infantry (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -27029,7 +27669,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27037,7 +27677,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27053,6 +27693,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+2 morale (own army)",
         "desc": ""
@@ -27079,7 +27723,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27087,7 +27731,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27129,11 +27773,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27182,11 +27826,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+2 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 morale (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -27228,7 +27872,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -27241,7 +27885,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25% ammunition for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% ammunition for all units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27249,7 +27893,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+4 morale when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 morale when defending (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27274,7 +27918,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27282,7 +27926,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27382,15 +28026,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 diplomatic attitude with most factions (strategic threat) ",
+        "name": "-15 diplomatic attitude with most factions (strategic threat) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% melee attack rate (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% melee attack rate (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% diplomatic income from tributaries ",
+        "name": "+50% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27490,7 +28134,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27499,6 +28143,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -27548,7 +28196,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -27657,7 +28305,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27665,7 +28313,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27686,7 +28334,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27695,6 +28343,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -27707,7 +28359,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27715,7 +28367,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27732,7 +28384,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+4 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+4 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27777,7 +28429,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from peasantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27785,7 +28437,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27835,7 +28487,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 mustering turns (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 mustering turns (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27851,7 +28503,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -27884,7 +28536,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10 diplomatic attitude with most factions (strategic threat) ",
+        "name": "-10 diplomatic attitude with most factions (strategic threat) (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27938,11 +28590,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 (own territory) (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 military supplies (own territory) (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28038,6 +28690,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -28146,7 +28802,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28158,7 +28814,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -28170,6 +28826,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+5 public order own character",
+        "desc": ""
+      },
       {
         "name": "+1 Unlocks assignment: Public Appeasement (this character)",
         "desc": ""
@@ -28196,7 +28856,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28205,6 +28865,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -28256,6 +28920,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -28275,7 +28943,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -28292,7 +28960,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28304,7 +28972,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28312,7 +28980,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% melee damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% melee damage (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -28384,6 +29052,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
         "desc": ""
       }
     ]
@@ -28492,7 +29164,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28500,7 +29172,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28517,11 +29189,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-5% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28574,6 +29246,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+2 morale (own army)",
         "desc": ""
@@ -28637,7 +29313,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -28650,7 +29326,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+50% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% income from peasantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28658,7 +29334,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28687,11 +29367,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% campaign movement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% campaign movement range (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% reinforcement range (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% reinforcement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28761,7 +29441,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 melee evasion for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 melee evasion for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -28777,7 +29457,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 diplomatic attitude with most factions (strategic threat) ",
+        "name": "+10 diplomatic attitude with most factions (strategic threat) (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -28868,6 +29548,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+2 morale (own army)",
         "desc": ""
@@ -28977,19 +29661,19 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10% recruitment cost for cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost for cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 Armour: (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 Armour: (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+2 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5% armour for cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% armour for cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29023,6 +29707,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 Unlocks assignment: Military Requisition (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies (own army)",
         "desc": ""
       },
       {
@@ -29130,7 +29818,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% retinue upkeep (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% retinue upkeep (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29138,7 +29826,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-20 satisfaction for all characters (only if this character is prime minister, heir or faction leader)",
+        "name": "-20 satisfaction for all characters (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29150,7 +29838,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 starting rank for all recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 starting rank for all recruits (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29179,7 +29867,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% income from commerce (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% income from commerce (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29195,6 +29883,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+5 public order own character",
+        "desc": ""
+      },
       {
         "name": "+1 Unlocks assignment: Public Appeasement (this character)",
         "desc": ""
@@ -29217,7 +29909,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29229,7 +29921,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 cover cost for enemy spies ",
+        "name": "+5 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29321,7 +30013,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost for cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost for cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29337,11 +30029,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 charge speed for shock and melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 charge speed for shock and melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+3 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29426,6 +30118,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+5 resolve (this character)",
         "desc": ""
+      },
+      {
+        "name": "+5 military supplies own character",
+        "desc": ""
       }
     ]
   },
@@ -29458,10 +30154,72 @@ const CHARACTER_DETAILS = {
       }
     ]
   },
-  "3k_main_template_historical_zhang_ji_dong_zhou_hero_earth": {
+  "3k_mtu_template_historical_chen_jiu_hero_wood": {
     "portrait": {
-      "url": "data/images/db/3k_main_hero_special_earth_zhang_ji.png",
-      "alt": "Zhang Ji portrait",
+      "url": "data/images/db/3k_mtu_hero_special_wood_chen_jiu.png",
+      "alt": "Pang De portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+25 charge bonus for shock cavalry (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+8% melee damage (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+25 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+25 instinct (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_dong_min_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_earth_dong_min.png",
+      "alt": "Dong Min portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+50% income from family estates (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+30 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+30 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+8 military supplies in enemy territory (only if this character is faction leader)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_jian_yong_hero_metal": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_metal_jian_yong.png",
+      "alt": "Jian Yong portrait",
       "caption": ""
     },
     "effects": [
@@ -29470,15 +30228,233 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% ranged block chance for melee cavalry (own retinue)",
+        "name": "+10 diplomatic relations with Han Empire factions (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+30 authority (this character)",
+        "name": "+10 authority (this character)",
         "desc": ""
       },
       {
-        "name": "+25 charge bonus for shock and melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+30 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 resolve (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_dong_peishan_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_earth_lady_dong_peishan.png",
+      "alt": "Dong Peishan portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Hold a Census (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-5 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+10% armour (this spouse's army)",
+        "desc": ""
+      },
+      {
+        "name": "+10% income from all sources (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+25 authority (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_du_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_earth_lady_bian_huilan.png",
+      "alt": "Du portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+1 Unlocks assignment: Focused Nurturing (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+3 population growth (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+25 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 morale (this spouse's retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+15 expertise (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_feng_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_earth_lady_da_qiao.png",
+      "alt": "Lady Feng portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+10 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-2 satisfaction for all characters (faction-wide)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 satisfaction for commanders (faction-wide)",
+        "desc": ""
+      },
+      {
+        "name": "+25 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+5 satisfaction (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
+        "name": "+25 authority (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_gongsun_jinting_hero_water": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_water_lady_gongsun_jinting.png",
+      "alt": "Hou Jinting portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+25 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+3 cover cost for enemy spies (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Counter-espionage (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10% speed (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
+        "name": "+15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_guan_yinping_hero_wood": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_wood_guan_yinping.png",
+      "alt": "Guan Yinping portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+3 morale when attacking (own army)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+25 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15% all damage for all forces when attacking (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+20 resolve (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_lu_ji_hero_wood": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_wood_lu_ji.png",
+      "alt": "Lü Ji portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "-2 morale for defending enemy forces (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 expertise (this character)",
         "desc": ""
       },
       {
@@ -29486,7 +30462,600 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+35 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15% replenishment (own army)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20% melee damage (to spouse)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_lu_zheng_hero_water": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_water_lady_lu_zheng.png",
+      "alt": "Lu Zheng portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-10% upkeep for ranged units (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+5 military supplies in enemy territory (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+30 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
         "name": "+10 expertise (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_ma_lanli_hero_metal": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_fire_lady_ma_lanli_old.png",
+      "alt": "Hua Lanli portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+30% ammunition for archers (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+15% ranged damage (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
+        "name": "+15 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+25 expertise (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_ma_yunlu_hero_metal": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_metal_lady_ma_yunlu.png",
+      "alt": "Ma Yunlu portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+1 Enables: Fatigue Resistance (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Enables: Fatigue Immunity (to spouse)",
+        "desc": ""
+      },
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+7% retinue upkeep (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+20 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-25% melee armour-piercing damage (to spouse)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_trieu_hero_wood": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_wood_lady_trieu.png",
+      "alt": "Trieu portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+30 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+3 satisfaction for all characters (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+10% ranged damage (when commanding)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 authority (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_wang_liting_hero_metal": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_metal_lady_wang_liting.png",
+      "alt": "Yijian Liting portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+25% chance of ambushing (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
+        "name": "+15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+25 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+50% campaign line-of-sight (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_wu_minyu_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_earth_lady_wu_minyu.png",
+      "alt": "Lady Wu portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+20 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-5% corruption (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+20 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-15% recruitment and upkeep cost for mercenary retinues (this spouse's faction) (if minister)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_yuan_anyang_hero_water": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_metal_lady_xiao_qiao.png",
+      "alt": "Yuan Anyang portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+25 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20% income from family estates (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Clan Stewardship (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15% armour-piercing ranged damage for ranged units (own retinue)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_zhang_xingcai_hero_fire": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_fire__zhang_xingcai.png",
+      "alt": "Zhang portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+10% armour for all shock cavalry (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+25 charge bonus (this spouse's faction)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-50 %n% desire for higher office (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+25 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 instinct (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_zhu_beng_hero_wood": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_earth_lady_zhu_beng.png",
+      "alt": "Zhu portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+5 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Surplus Distribution (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-1 construction time own character",
+        "desc": ""
+      },
+      {
+        "name": "-5% construction cost own character",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_lady_zou_yuan_hero_water": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_water_lady_zou_yuan.png",
+      "alt": "Zou portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+20 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Spousal Support (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Enables: Immune to Fear & Terror (to spouse)",
+        "desc": ""
+      },
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+0.7 population growth (all commanderies)",
+        "desc": ""
+      },
+      {
+        "name": "+20 instinct (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_qu_gong_hero_wood": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_wood_qu_gong.png",
+      "alt": "Qu Gong portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+25 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Enables: Ignore Forest Penalties (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+20 authority (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_trieu_quocdat_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/earth/male.png",
+      "alt": "Zhao portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+5 public order own character",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Public Appeasement (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 resolve (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_yan_xiang_hero_water": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_water_yan_xiang.png",
+      "alt": "Yan Xiang portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Counter-espionage (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+2 satisfaction for all characters (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+25 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 cunning (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_zhang_xun_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_fire_gao_shun.png",
+      "alt": "Zhang Xun portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+20 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+8 morale when attacking (when commanding)",
+        "desc": ""
+      },
+      {
+        "name": "+30 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-15% retinue upkeep (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+20 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-5% income from family estates (only if this character is faction leader)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_zhang_bao_hero_fire": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_fire__zhang_bao.png",
+      "alt": "Zhang Bao portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+20 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-50 %n% desire for higher office (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-15% fatigue rate for shock cavalry (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+25 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_mtu_template_historical_wu_anguo_hero_wood": {
+    "portrait": {
+      "url": "data/images/db/3k_mtu_hero_special_wood_wu_anguo.png",
+      "alt": "Wu portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+20 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+30 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+10 melee evasion for spear infantry (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+8% armour for all spear infantry (own retinue)",
+        "desc": ""
+      }
+    ]
+  },
+  "3k_main_template_historical_zhang_ji_dong_zhou_hero_earth": {
+    "portrait": {
+      "url": "data/images/db/3k_main_hero_special_earth_zhang_ji.png",
+      "alt": "Zhang Ji portrait",
+      "caption": ""
+    },
+    "effects": [
+      {
+        "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-5 satisfaction (this army)",
+        "desc": ""
+      },
+      {
+        "name": "-15% upkeep for all units (own retinue)",
+        "desc": ""
+      },
+      {
+        "name": "+15 cunning (this character)",
         "desc": ""
       }
     ]
@@ -29524,7 +31093,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15 charge speed for shock and melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 charge speed for shock and melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29532,7 +31101,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% charge bonus for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% charge bonus for all units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29556,6 +31125,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+5 public order own character",
+        "desc": ""
+      },
       {
         "name": "+1 Unlocks assignment: Public Appeasement (this character)",
         "desc": ""
@@ -29607,11 +31180,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Chance of ambushing any enemy army this force attacks (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Chance of ambushing any enemy army this force attacks (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+150 commandery campaign line-of-sight (only if this character is prime minister, heir or faction leader)",
+        "name": "+150 commandery campaign line-of-sight (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29677,7 +31250,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 starting rank for bandit recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 starting rank for bandit recruits (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -29710,11 +31283,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+125% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+125% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-50% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "-50% income from peasantry (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -29860,6 +31433,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       }
@@ -29874,6 +31451,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 instinct (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -29969,6 +31550,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+2 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       },
@@ -29990,7 +31575,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30214,7 +31799,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+1 Enables: Disciplined (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Disciplined (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30223,6 +31808,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-10 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30293,7 +31882,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 melee evasion for melee infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 melee evasion for melee infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30309,7 +31898,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% all damage for all forces when defending (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% all damage for all forces when defending (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -30417,7 +32006,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from peasantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from peasantry (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -30434,7 +32023,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30542,7 +32131,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30550,7 +32139,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30687,6 +32276,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+2 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -30708,11 +32301,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+25% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30741,7 +32334,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30749,7 +32342,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30766,11 +32359,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15 cover cost for enemy spies (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30828,11 +32421,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "+25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -30973,6 +32566,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+8 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       },
@@ -31014,6 +32611,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+15 cunning (this character)",
         "desc": ""
@@ -31127,7 +32728,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% income from family estates ",
+        "name": "+25% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31252,7 +32853,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31270,6 +32871,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -31335,11 +32940,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% ranged block chance (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% ranged block chance (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31398,6 +33003,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       }
     ]
@@ -31564,7 +33173,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31572,7 +33181,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% ranged damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% ranged damage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31643,7 +33252,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+1 Enables: Encourage (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Encourage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31701,6 +33310,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+12 military supplies (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+15 resolve (this character)",
         "desc": ""
       },
@@ -31713,7 +33326,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -31751,7 +33364,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-30% construction cost (agriculture) (only if this character is prime minister, heir or faction leader)",
+        "name": "-30% construction cost (agriculture) (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31884,7 +33497,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+30% chance of ambushing (only if this character is prime minister, heir or faction leader)",
+        "name": "+30% chance of ambushing (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31988,7 +33601,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% melee damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% melee damage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -31996,7 +33609,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Enables: Unruly (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Unruly (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -32014,6 +33627,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -32138,7 +33755,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32150,11 +33767,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% diplomatic income from tributaries ",
+        "name": "+50% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+25% speed (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% speed (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32171,11 +33788,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+50% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+5 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale when attacking (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32183,7 +33800,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% charge bonus for cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% charge bonus for cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32208,7 +33825,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% speed (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% speed (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32228,7 +33845,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% charge bonus for all infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% charge bonus for all infantry (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -32245,7 +33862,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32254,6 +33871,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+10 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32278,7 +33899,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 charge speed for shock and melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 charge speed for shock and melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32290,7 +33911,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -32307,11 +33928,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% chance of ambushing (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% chance of ambushing (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+1 Enables: Guerrilla Deployment (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Guerrilla Deployment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32340,7 +33961,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32348,7 +33969,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32369,7 +33990,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32389,7 +34010,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -32402,7 +34023,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+2 starting rank for all cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 starting rank for all cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32480,7 +34101,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% upkeep for cavalry units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% upkeep for cavalry units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32608,7 +34229,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% ranged block chance for melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% ranged block chance for melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32616,7 +34237,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% charge bonus for cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% charge bonus for cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32674,7 +34295,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% ranged damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% ranged damage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -32979,6 +34600,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+10 military supplies (when commanding)",
+        "desc": ""
+      },
+      {
         "name": "+30 expertise (this character)",
         "desc": ""
       },
@@ -33111,7 +34736,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33119,7 +34744,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -33132,7 +34757,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% ranged damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% ranged damage (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33247,6 +34872,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -33322,7 +34951,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33334,7 +34963,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% upkeep for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% upkeep for all units (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -33421,11 +35050,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+20 instinct (this character)",
         "desc": ""
       },
       {
-        "name": "-15% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33442,7 +35075,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33454,7 +35087,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from commerce and industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from commerce and industry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33475,7 +35108,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33495,7 +35128,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 population growth (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -33553,7 +35186,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33615,7 +35248,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33648,6 +35281,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+20 authority (this character)",
         "desc": ""
       },
@@ -33673,7 +35310,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33689,7 +35326,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 starting rank for all recruits (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 starting rank for all recruits (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -33801,7 +35438,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33875,6 +35512,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+2 public order (this spouse's faction) (if minister)",
+        "desc": ""
+      },
+      {
         "name": "-5% corruption (this spouse's faction) (if minister)",
         "desc": ""
       },
@@ -33942,6 +35583,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+25 bonus experience for units per season (own retinue)",
         "desc": ""
       },
@@ -33975,7 +35620,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -33991,7 +35636,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34016,7 +35661,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34024,7 +35669,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% income from all sources (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34045,11 +35690,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% melee evasion (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% melee evasion (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-25% charge bonus for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% charge bonus for all units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34161,11 +35806,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% income from silk (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% income from silk (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+12 melee evasion for spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+12 melee evasion for spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34194,11 +35839,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+25% income from trade agreements (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+30 instinct (this character)",
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -34215,7 +35864,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 maximum cover when spying (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 maximum cover when spying (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34223,7 +35872,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 available positions ",
+        "name": "+1 available positions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34549,7 +36198,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% recruitment and upkeep cost for captain retinues ",
+        "name": "-15% recruitment and upkeep cost for captain retinues (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34561,11 +36210,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% ammunition (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% ammunition (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -34611,7 +36260,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34627,7 +36276,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34657,6 +36306,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order own character",
         "desc": ""
       },
       {
@@ -34706,7 +36359,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% ammunition (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% ammunition (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34718,7 +36371,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+100% campaign line-of-sight (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% county campaign line-of-sight (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34726,7 +36379,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% reinforcement range ",
+        "name": "+25% reinforcement range (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34813,7 +36466,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% campaign movement range when in own region (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% campaign movement range when in own region (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34825,11 +36478,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% armour for all spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% armour for all spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34982,7 +36635,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-5% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34991,6 +36644,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+5 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -35011,7 +36668,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% trade influence ",
+        "name": "+15% trade influence (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35048,7 +36705,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -35078,6 +36735,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+20 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       },
       {
@@ -35251,7 +36912,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 faction support ",
+        "name": "+10 faction support (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35310,6 +36971,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (local commandery)",
         "desc": ""
       }
     ]
@@ -35372,6 +37037,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+15% income from all sources own character",
         "desc": ""
       },
@@ -35430,11 +37099,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "-4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+15 instinct (this character)",
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35463,11 +37136,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+35% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+35% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35571,7 +37244,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25% fatigue rate (only if this character is prime minister, heir or faction leader)",
+        "name": "-25% fatigue rate (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35650,7 +37323,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35662,7 +37335,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 cover cost for enemy spies ",
+        "name": "+5 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35679,7 +37352,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 undercover network cost for enemy spies ",
+        "name": "+5 undercover network cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35691,7 +37364,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 cover cost for enemy spies ",
+        "name": "+5 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35799,6 +37472,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+15 cunning (this character)",
         "desc": ""
       },
@@ -35877,6 +37554,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+15 cunning (this character)",
         "desc": ""
@@ -36035,6 +37716,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+2 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -36115,6 +37800,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-25 military supplies (enemy armies in local county)",
         "desc": ""
       },
       {
@@ -36368,6 +38057,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+1 resilience (this character)",
         "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
       }
     ]
   },
@@ -36391,7 +38084,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36399,30 +38096,6 @@ const CHARACTER_DETAILS = {
         "desc": ""
       }
     ]
-  },
-  "3k_mtu_template_historical_lady_feng_hero_earth": {
-    "portrait": {
-      "url": "data/images/db/3k_main_hero_special_earth_lady_da_qiao.png",
-      "alt": "Lady Feng portrait",
-      "caption": ""
-    },
-    "effects": []
-  },
-  "3k_mtu_template_historical_lady_yuan_anyang_hero_water": {
-    "portrait": {
-      "url": "data/images/db/3k_main_hero_special_metal_lady_xiao_qiao.png",
-      "alt": "Yuan Anyang portrait",
-      "caption": ""
-    },
-    "effects": []
-  },
-  "3k_mtu_template_historical_yan_xiang_hero_water": {
-    "portrait": {
-      "url": "data/images/db/3k_mtu_hero_special_water_yan_xiang.png",
-      "alt": "Yan Xiang portrait",
-      "caption": ""
-    },
-    "effects": []
   },
   "ironic_template_historical_chen_ying_hero_water": {
     "portrait": {
@@ -36461,7 +38134,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36473,7 +38146,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -36490,7 +38163,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36502,7 +38175,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -36519,7 +38192,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 cover cost when performing spy actions ",
+        "name": "-5 cover cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36531,7 +38204,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 undercover network cost when performing spy actions ",
+        "name": "-5 undercover network cost when performing spy actions (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -36694,6 +38367,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+6 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+15 resolve (this character)",
         "desc": ""
       },
@@ -36719,7 +38396,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+5% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36773,6 +38450,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 military supplies (own army)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -36790,7 +38471,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36841,6 +38522,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+8 military supplies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36932,7 +38617,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36961,7 +38646,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -36969,7 +38654,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37011,6 +38696,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+2 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+15 cunning (this character)",
         "desc": ""
       },
@@ -37032,7 +38721,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 diplomatic relations with all factions ",
+        "name": "+5 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37092,6 +38781,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+15 instinct (this character)",
         "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
+        "desc": ""
       }
     ]
   },
@@ -37107,7 +38800,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from industry (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from industry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37307,6 +39000,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       },
@@ -37324,11 +39021,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 diplomatic relations with all factions ",
+        "name": "+10 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15% trade influence ",
+        "name": "+15% trade influence (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37440,6 +39137,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -37502,6 +39203,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
       {
         "name": "+15 cunning (this character)",
         "desc": ""
@@ -37763,6 +39468,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+1 resilience (this character)",
         "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
+        "desc": ""
       }
     ]
   },
@@ -37787,6 +39496,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+10% character experience (when present)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       }
     ]
@@ -37853,7 +39566,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 diplomatic relations with all factions ",
+        "name": "+10 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37875,6 +39588,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+2 public order own character",
         "desc": ""
       },
       {
@@ -37978,11 +39695,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+25% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38107,6 +39824,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+15 expertise (this character)",
         "desc": ""
       },
@@ -38137,6 +39858,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+30 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38261,7 +39986,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 morale (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38281,7 +40006,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% melee damage (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% melee damage (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -38293,6 +40018,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order (local county)",
+        "desc": ""
+      },
       {
         "name": "+15 expertise (this character)",
         "desc": ""
@@ -38320,6 +40049,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+25% character experience (when present)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       },
       {
@@ -38448,7 +40181,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38506,7 +40239,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "-5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38531,7 +40264,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+15 faction support ",
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
+        "name": "+15 faction support (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38602,6 +40339,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 cunning (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -38714,6 +40455,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+6 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+15 cunning (this character)",
         "desc": ""
       },
@@ -38797,6 +40542,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -38814,7 +40563,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+12 melee evasion for spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+12 melee evasion for spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38826,7 +40575,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% armour for all spear infantry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% armour for all spear infantry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -38846,6 +40595,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+15 authority (this character)",
         "desc": ""
@@ -39088,7 +40841,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% charge bonus for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% charge bonus for all units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39217,7 +40970,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 charge bonus for shock and melee cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 charge bonus for shock and melee cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39313,7 +41066,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 diplomatic relations with all factions ",
+        "name": "+5 diplomatic relations with all factions (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39338,7 +41091,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39346,7 +41099,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+20% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+20% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39396,6 +41149,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+2 public order (all commanderies)",
+        "desc": ""
+      },
+      {
         "name": "+10 satisfaction (this spouse's faction) (if minister)",
         "desc": ""
       },
@@ -39439,6 +41196,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+10 cunning (this character)",
         "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
       }
     ]
   },
@@ -39451,6 +41212,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -39483,7 +41248,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+3 morale when attacking (only if this character is prime minister, heir or faction leader)",
+        "name": "+3 morale when attacking (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -39621,7 +41386,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+50% income from family estates ",
+        "name": "+50% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39675,7 +41440,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39721,7 +41486,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39745,6 +41510,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+2 public order (local commandery)",
+        "desc": ""
+      },
       {
         "name": "+15 cunning (this character)",
         "desc": ""
@@ -39792,11 +41561,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39858,7 +41627,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-3 morale (only if this character is prime minister, heir or faction leader)",
+        "name": "-3 morale (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -39870,6 +41639,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "-4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+15 cunning (this character)",
         "desc": ""
@@ -39900,7 +41673,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -39991,7 +41764,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40016,7 +41789,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40034,6 +41807,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 expertise (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -40220,6 +41997,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -40236,6 +42017,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+1 public order (all commanderies)",
+        "desc": ""
+      },
       {
         "name": "+15 expertise (this character)",
         "desc": ""
@@ -40274,7 +42059,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40324,7 +42109,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40332,7 +42117,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-1 construction time (only if this character is prime minister, heir or faction leader)",
+        "name": "-1 construction time (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40390,6 +42175,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+4 public order (only if this character is faction leader)",
+        "desc": ""
+      },
+      {
         "name": "+20 expertise (this character)",
         "desc": ""
       },
@@ -40398,7 +42187,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+8 morale in own territory (only if this character is prime minister, heir or faction leader)",
+        "name": "+8 morale in own territory (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40444,7 +42233,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40569,6 +42358,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "-4 public order (adjacent enemy commanderies)",
+        "desc": ""
+      },
+      {
         "name": "+15 resolve (this character)",
         "desc": ""
       },
@@ -40595,6 +42388,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -40631,7 +42428,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -40644,11 +42441,11 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40756,6 +42553,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+15 expertise (this character)",
         "desc": ""
       },
@@ -40832,6 +42633,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 resolve (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
         "desc": ""
       },
       {
@@ -40914,7 +42719,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40939,7 +42744,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -40985,11 +42790,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+100% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+100% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is prime minister, heir or faction leader)",
+        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -41018,11 +42823,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+200 commandery campaign line-of-sight (only if this character is prime minister, heir or faction leader)",
+        "name": "+200 commandery campaign line-of-sight (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+50% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -41080,11 +42885,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-10% recruitment cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% recruitment cost (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+15 cover cost for enemy spies (only if this character is prime minister, heir or faction leader)",
+        "name": "+15 cover cost for enemy spies (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -41146,6 +42951,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+15 military supplies (this spouse's faction)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       },
@@ -41188,7 +42997,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+1 Enables: Disciplined (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Disciplined (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -41287,6 +43096,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "-10 public order (local county)",
+        "desc": ""
+      },
       {
         "name": "+1 resilience (this character)",
         "desc": ""
@@ -41408,6 +43221,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "-4 public order (all commanderies)",
+        "desc": ""
+      },
+      {
         "name": "+15% income from family estates (faction-wide)",
         "desc": ""
       },
@@ -41458,7 +43275,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10% corruption (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% corruption (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -41466,7 +43283,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% income from all sources (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -41582,6 +43399,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+10% melee attack rate (this spouse's faction) (if minister)",
         "desc": ""
       }
@@ -41678,6 +43499,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "+4 public order (current spouse's region)",
+        "desc": ""
+      },
+      {
         "name": "+1 Enables: Night Battles (when commanding)",
         "desc": ""
       },
@@ -41719,7 +43544,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -41732,7 +43557,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-10% upkeep for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "-10% upkeep for all units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -41923,6 +43748,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+30 expertise (this character)",
         "desc": ""
       },
@@ -41985,11 +43814,15 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% melee damage for all animal troops (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% melee damage for all animal troops (only if this character is faction leader)",
         "desc": ""
       },
       {
         "name": "+30 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -42010,7 +43843,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-20% charge bonus for cavalry (only if this character is prime minister, heir or faction leader)",
+        "name": "-20% charge bonus for cavalry (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -42089,7 +43922,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% income from all sources (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% income from all sources (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -42151,11 +43984,11 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 population growth (only if this character is prime minister, heir or faction leader)",
+        "name": "+2 population growth (only if this character is faction leader)",
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -42193,7 +44026,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+10% replenishment (only if this character is prime minister, heir or faction leader)",
+        "name": "+10% replenishment (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -42248,6 +44081,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order own character",
         "desc": ""
       },
       {
@@ -42326,6 +44163,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -42343,7 +44184,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% character experience (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -42580,6 +44421,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+15 cunning (this character)",
         "desc": ""
       },
@@ -42659,7 +44504,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Enables: Disciplined (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Disciplined (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -42780,6 +44625,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
+      {
         "name": "+15 cunning (this character)",
         "desc": ""
       },
@@ -42805,7 +44654,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+10 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+10 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -43017,7 +44866,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+35% character experience (only if this character is prime minister, heir or faction leader)",
+        "name": "+35% character experience (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -43092,7 +44941,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15% chance of ambushing (only if this character is prime minister, heir or faction leader)",
+        "name": "+15% chance of ambushing (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -43233,7 +45082,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% income from family estates ",
+        "name": "+25% income from family estates (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -43258,6 +45107,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+8 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+1 resilience (this character)",
         "desc": ""
       }
@@ -43276,6 +45129,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-2 public order (local commandery)",
         "desc": ""
       },
       {
@@ -43300,6 +45157,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+25% character experience (when present)",
         "desc": ""
       },
@@ -43317,7 +45178,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+5 satisfaction (only if this character is prime minister, heir or faction leader)",
+        "name": "+5 satisfaction (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -43392,6 +45253,10 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
+        "name": "-4 public order (local commandery)",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       },
@@ -43430,6 +45295,10 @@ const CHARACTER_DETAILS = {
       },
       {
         "name": "+1 resilience (this character)",
+        "desc": ""
+      },
+      {
+        "name": "-4 public order (local commandery)",
         "desc": ""
       }
     ]
@@ -43496,7 +45365,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% character salary (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% character salary (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -43516,6 +45385,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+1 resilience (this character)",
         "desc": ""
@@ -43543,6 +45416,10 @@ const CHARACTER_DETAILS = {
     "effects": [
       {
         "name": "+15 authority (this character)",
+        "desc": ""
+      },
+      {
+        "name": "+4 public order (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -43646,6 +45523,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+15 authority (this character)",
         "desc": ""
       },
@@ -43727,6 +45608,10 @@ const CHARACTER_DETAILS = {
       {
         "name": "+1 resilience (this character)",
         "desc": ""
+      },
+      {
+        "name": "+10 military supplies (own army)",
+        "desc": ""
       }
     ]
   },
@@ -43750,7 +45635,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 charge bonus for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "+25 charge bonus for all units (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -43850,6 +45735,10 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
+      {
         "name": "+15% character experience (when present)",
         "desc": ""
       },
@@ -43870,6 +45759,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+1 Unlocks assignment: Teaching Assignment (this character)",
+        "desc": ""
+      },
       {
         "name": "+15 resolve (this character)",
         "desc": ""
@@ -44004,7 +45897,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25% charge bonus for all units (only if this character is prime minister, heir or faction leader)",
+        "name": "+25% charge bonus for all units (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -44082,6 +45975,10 @@ const CHARACTER_DETAILS = {
       "caption": ""
     },
     "effects": [
+      {
+        "name": "+4 public order own character",
+        "desc": ""
+      },
       {
         "name": "+15 authority (this character)",
         "desc": ""
@@ -44208,7 +46105,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15% construction cost (only if this character is prime minister, heir or faction leader)",
+        "name": "-15% construction cost (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -44233,7 +46130,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Enables: Raider (only if this character is prime minister, heir or faction leader)",
+        "name": "+1 Enables: Raider (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -44241,7 +46138,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50% post-battle loot income (only if this character is prime minister, heir or faction leader)",
+        "name": "+50% post-battle loot income (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -44295,7 +46192,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-2 construction time (agriculture) (only if this character is prime minister, heir or faction leader)",
+        "name": "-2 construction time (agriculture) (only if this character is faction leader)",
         "desc": ""
       }
     ]
@@ -44308,7 +46205,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25% diplomatic income from tributaries ",
+        "name": "+25% diplomatic income from tributaries (only if this character is faction leader)",
         "desc": ""
       },
       {
