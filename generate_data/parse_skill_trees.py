@@ -699,23 +699,25 @@ def convert_skill_image_to_url(image_key):
     # Clean up the path
     image_key = image_key.strip().rstrip('/')
     
-    # If it already looks like a full path, use it
+    # Build the path
     if image_key.startswith('data/'):
-        if not (image_key.endswith('.png') or image_key.endswith('.webp')):
-            return f"{image_key}.png"
-        return image_key
-    
-    # Handle ui/ paths (common in TW3K)
-    # e.g., "ui/campaign ui/skills/skill_name" -> "data/UI/Campaign UI/skills/skill_name.png"
-    if image_key.lower().startswith('ui/'):
-        # Keep original casing but prefix with data/
+        path = image_key
+    elif image_key.lower().startswith('ui/'):
+        # Handle ui/ paths (common in TW3K)
+        # e.g., "ui/campaign ui/skills/skill_name" -> "data/ui/campaign ui/skills/skill_name.png"
         path = f"data/{image_key}"
-        if not (path.endswith('.png') or path.endswith('.webp')):
-            path = f"{path}.png"
-        return path
+    else:
+        # Default: assume it's just a skill name, put in skills folder
+        path = f"data/ui/campaign ui/skills/{image_key}"
     
-    # Default: assume it's just a skill name, put in skills folder
-    return f"data/ui/campaign ui/skills/{image_key}.png"
+    # Add extension if missing
+    if not (path.endswith('.png') or path.endswith('.webp')):
+        path = f"{path}.png"
+    
+    # URL-encode spaces for GitHub Pages compatibility
+    path = path.replace(' ', '%20')
+    
+    return path
 
 
 def resolve_skill_loc(skill_key, loc_key_pattern, all_loc_kv, skills_loc_kv):
