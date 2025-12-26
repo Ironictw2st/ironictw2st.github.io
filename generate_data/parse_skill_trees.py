@@ -699,23 +699,35 @@ def convert_skill_image_to_url(image_key):
     # Clean up the path
     image_key = image_key.strip().rstrip('/')
     
-    # Build the path
+    # Normalize backslashes to forward slashes
+    image_key = image_key.replace('\\', '/')
+    
+    # Build the path - match the actual GitHub folder structure:
+    # data/UI/Campaign_UI/skills/
     if image_key.startswith('data/'):
         path = image_key
     elif image_key.lower().startswith('ui/'):
-        # Handle ui/ paths (common in TW3K)
-        # e.g., "ui/campaign ui/skills/skill_name" -> "data/ui/campaign ui/skills/skill_name.png"
-        path = f"data/{image_key}"
+        # Handle ui/ paths from game data
+        # e.g., "ui/campaign ui/skills/skill_name" -> "data/UI/Campaign_UI/skills/skill_name.png"
+        # Remove the ui/ prefix and rebuild with correct casing
+        rest = image_key[3:]  # Remove "ui/"
+        # Replace "campaign ui" variations with "Campaign_UI"
+        rest = rest.replace('campaign ui/', 'Campaign_UI/')
+        rest = rest.replace('campaign_ui/', 'Campaign_UI/')
+        rest = rest.replace('Campaign UI/', 'Campaign_UI/')
+        path = f"data/UI/{rest}"
     else:
         # Default: assume it's just a skill name, put in skills folder
-        path = f"data/ui/campaign ui/skills/{image_key}"
+        # Match folder structure: data/UI/Campaign_UI/skills/
+        path = f"data/UI/Campaign_UI/skills/{image_key}"
     
     # Add extension if missing
     if not (path.endswith('.png') or path.endswith('.webp')):
         path = f"{path}.png"
     
-    # URL-encode spaces for GitHub Pages compatibility
-    path = path.replace(' ', '%20')
+    # Replace any remaining spaces with underscores to match folder naming
+    # (GitHub folders typically use underscores instead of spaces)
+    path = path.replace(' ', '_')
     
     return path
 
