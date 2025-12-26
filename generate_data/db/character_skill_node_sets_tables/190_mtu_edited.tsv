@@ -1,0 +1,5 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/190_mtu_edited								
+3k_main_skillset_historical_hua_xin	general			3k_main_chinese	false	false	3k_general_water	
+3k_main_skillset_historical_lady_lu_zheng	general			3k_main_chinese	false	false	3k_general_water	
+3k_main_skillset_historical_luo_jun	general			3k_main_chinese	false	false	3k_general_water	

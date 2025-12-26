@@ -1,0 +1,90 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting
+#character_skills_tables;4;db/character_skills_tables/_mtu_characters_skills								
+3k_main_skill_special_ability_earth_advance	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_cheers_of_encouragement	3k_main_skill_aspect_wood_perseverance	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_commanding_presence	3k_main_skill_aspect_earth_authority	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_coward	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_dignity_of_the_empress	3k_main_skill_aspect_earth_authority	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_empress_dong	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_empress_wulie	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_empress_wuxuan	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_encouragement	3k_main_skill_aspect_earth_authority	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_forced_march	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_greedy_tyrant	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_heavenly_color	3k_main_skill_aspect_earth_authority	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_shout	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_breakthrough_in_concentration	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_camp_crushing	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_experienced_rider	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_ferocious_rush	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_reckless_warrior	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_thunderous_blow	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_xianchenying	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_blooming_beauty_xiao	3k_main_skill_aspect_water_cunning	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_cosy_haven	3k_main_skill_aspect_wood_perseverance	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_double_sword_dance	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_experienced_rider	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_heavenly_color	3k_main_skill_aspect_metal_expertise	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_shower_of_arrows	3k_main_skill_aspect_metal_expertise	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_suppressive_fire	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_vigor_of_a_warrior	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_water_cautious_approach	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+3k_main_skill_special_ability_water_quick_preparation	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_last_resist	3k_main_skill_aspect_wood_perseverance	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_eloquent_speaker	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+3k_main_skill_special_ability_water_broad_Knowledge	3k_main_skill_aspect_water_cunning	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_provocation	3k_main_skill_aspect_metal_expertise	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_story_telling	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_call_of_courage	3k_main_skill_aspect_metal_expertise	.	.	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_battle_stance	3k_main_skill_aspect_earth_authority	"If you know the enemy and know yourself, you won't lose hundreds battles."	battle_stance	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_order_of_tyrant	3k_main_skill_aspect_earth_authority	The roar of the tyrant makes even the weakest soldier as hard as a stone.	order_of_tyrant	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_chunyu_qiong_frenzy	3k_main_skill_aspect_fire_instinct	The first thing to do is to confront the enemy. Think later.	chunyu_qiong_frenzy	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_blossoming_beauty	3k_main_skill_aspect_water_cunning	Diao Chan knows how to encourage frightened warriors and lead them to battle.	blossoming_beauty	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_marksman_of_taiyuan	3k_main_skill_aspect_fire_instinct	Lu Zheng never misses the prey.	marksman_of_taiyuan	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_unbreakable_faith	3k_main_skill_aspect_water_cunning	Xun Yu's firm, unbroken will is an example to all soldiers.	unbreakable_faith	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_indiscriminate_charge	3k_main_skill_aspect_wood_perseverance	Wen Chou drives his men without mercy, but he knows it's effective.	indiscriminate_charge	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_lady_dong_cruel_command	3k_main_skill_aspect_earth_authority	"Protect me, even if you have to sacrifice your life."	cruel_command	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_persistent_attack	3k_main_skill_aspect_metal_expertise	Yijin Liting is a relentless and persistent opponent	Persistent Attack	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_pursuit	3k_main_skill_aspect_metal_expertise	Once targeted, the enemy cannot escape from Yijin Liting	Pursuit	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_critical strike	3k_main_skill_aspect_metal_expertise	Even the strongest of warriors are rendered temporarily immobile when struck at a pressure point	Crippling Strike	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_poison	3k_main_skill_aspect_water_cunning	Poison is a vile but effective method of assasination	Poison	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_foul_wits	3k_main_skill_aspect_water_cunning	Evil acts also require a high level of intellect to maximize efficiency	Foul Wits	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_tragic_foresight	3k_main_skill_aspect_water_cunning	Li Ru is able to accurately predict the outcome of events. How unfortunate that his master does not listen	Unfortunate Foresight	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_distrust_power	3k_main_skill_aspect_wood_perseverance	Zhou Tu/Beng are witnesses to how power has steadily corrupted her former friend, Zheng Jiang	Distrust of Power	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_sister_bandits	3k_main_skill_aspect_wood_perseverance	These sisters have pledged to live, fight, and die together	Sister Outlaws	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_martial_prodigy	3k_main_skill_aspect_wood_perseverance	A genius fighter since birth, nobody could surpass Lu Ji's martial prowess	Martial Prodigy	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_rage_of_lu_ji	3k_main_skill_aspect_wood_perseverance	Like father, like daughter; Lu Ji has an incontrollable temper	Rage of Lu Ji	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_flower_on_the_battlefield	3k_main_skill_aspect_wood_perseverance	Lu Ji's bravery and beauty inspires the troops	Flower on the Battlefield	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_unwed_warrior	3k_main_skill_aspect_wood_perseverance	Lady Trieu fights for freedom	Unwed Warrior	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_hope_of_nam_viet	3k_main_skill_aspect_wood_perseverance	With the hope of her people bearing on her shoulder, Lady Trieu must fight thrice as hard	Hope of Nam Viet	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_goddess_of_battle	3k_main_skill_aspect_wood_perseverance	Lady Trieu is worshipped as a goddess	Goddess of Battle	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_guardian	3k_main_skill_aspect_wood_perseverance	A true guardian always protects his people	Guardian	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_strike_of_justice	3k_main_skill_aspect_wood_perseverance	Luo Jun cannot stand breathing the same air as those treachorous rebels	Strike of Justice	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_prevent_assassination	3k_main_skill_aspect_wood_perseverance	Luo Jun has survived several assassination attempts	Prevent Assassination	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_father_daughter	3k_main_skill_aspect_fire_instinct	Who dares to challenge the two dragons of battle?	Father Daughter Dragons	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_loyal_advice	3k_main_skill_aspect_water_cunning	Yan Xiang's advice may not be enticing, but is always proven to be correct	Loyal Advice	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_calculated_judgment	3k_main_skill_aspect_water_cunning	Yan Xiang calculates the perfect timing for attack	Calculated Judgment	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_console	3k_main_skill_aspect_water_cunning	The lady's earnest consolation adds strength to the troops	Console	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_elegant_and_cultured	3k_main_skill_aspect_water_cunning	Hu Jinting's elegance and culture is unparalleled	Elegant and Cultured	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_unexpected_strike	3k_main_skill_aspect_wood_perseverance	Who can defend against that which he cannot see?	Unexpected Strike	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_brawn_of_yangan	3k_main_skill_aspect_wood_perseverance	There are rumors of a man with incredible strength from Yangan...	Brawn of Yangan	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_mercy_of_the_forest	3k_main_skill_aspect_wood_perseverance	Such boundless gifts from the forest does not come often	Mercy of the Forest	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_tiger_suppression	3k_main_skill_aspect_wood_perseverance	Huang Zu is famed for defeating the tiger of Jiangdong	Tiger Suppression	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_persistent_combat	3k_main_skill_aspect_wood_perseverance	Against all adversity, Huang Zu fights on	Persistent Combat	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_victory_or_death	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_champion_of_xiliang	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_coffin_march	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_demigod_of_war	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_avenge	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_youthful_vigor	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_lucky_pearl	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_tiger_son	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_thunderous_bellow	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_blood_flower	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_concentrated_strikes	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+3k_main_skill_special_ability_water_tantrum	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_tyrants_gaze	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_shadow_of_the_black_mountain	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_water_fatal_attraction	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+3k_main_skill_special_ability_water_lament	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+3k_mtu_skill_special_ability_water_one_armed_rage	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000

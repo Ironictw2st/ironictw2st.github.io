@@ -1,0 +1,82 @@
+key	text	tooltip
+#Loc;1;text/db/skills/ironiccharacterskills.loc		
+character_skills_localised_description_ironic_skill_special_ability_wood_hail_of_arrows	A flurry of shafts slows the enemy advance.	false
+character_skills_localised_name_ironic_skill_special_ability_wood_hail_of_arrows	Hail of Arrows	false
+character_skills_localised_description_ironic_skill_governor_protector_of_home	A good offense is a good defense.	false
+character_skills_localised_name_ironic_skill_governor_protector_of_home	Homeland Defence	false
+character_skills_localised_description_ironic_skill_roar_of_the_beast	The name of the Suns scares the enemy to their hearts.	false
+character_skills_localised_name_ironic_skill_roar_of_the_beast	Roar of The Suns	false
+character_skills_localised_description_ironic_skill_unity_of_family	Under the rule of Sun Jian and Ce, the Sun clan prospered each members worked together as one. 	false
+character_skills_localised_name_ironic_skill_unity_of_family	Unity of The Suns	false
+character_skills_localised_name_ironic_skill_the_eight_warlords	The Eight Riders of Sui	false
+character_skills_localised_description_ironic_skill_the_eight_warlords	These men have risen under Han Sui's gaze and have been given a fit name.	false
+character_skills_localised_name_ironic_special_ability_gao_lan	Insurmountable Pillar	false
+character_skills_localised_description_ironic_special_ability_gao_lan	Gao Lan will prove that he is unmatched in all of Hebei!	false
+character_skills_localised_name_ironic_special_ability_zhang_lu	Zealous Fervour	false
+character_skills_localised_description_ironic_special_ability_zhang_lu	With Taoist rituals and chanting, Zhang Lu inspires his men to do the impossible.	false
+character_skills_localised_name_ironic_special_ability_liu_yu	People's Hero	false
+character_skills_localised_description_ironic_special_ability_liu_yu	With his reputation of sheer compassion and kindness, Liu Yu bolsters his men to continue the fight.	false
+character_skills_localised_name_ironic_special_ability_bao_xin	Heavenly Mastery	false
+character_skills_localised_description_ironic_special_ability_bao_xin	With his years of combat experience, Bao Xin truly leads by heavenly example.	false
+character_skills_localised_name_ironic_special_ability_chen_ying	Hurl of Destiny	false
+character_skills_localised_description_ironic_special_ability_chen_ying	"Flee, villain, before the indomitable chucking of Chen Ying!" 	false
+character_skills_localised_name_ironic_special_ability_yuan_royalty	Proud Regality	false
+character_skills_localised_description_ironic_special_ability_yuan_royalty	The lineage and heritage of the Yuan cannot be questioned!	false
+character_skills_localised_name_ironic_special_ability_gao_gan	The Breaker of Waves	false
+character_skills_localised_description_ironic_special_ability_gao_gan	Let the enemy charge falter against the unbroken formation of Gao Gan.	false
+character_skills_localised_name_ironic_special_ability_gongsun_kang	Man From the Margins	false
+character_skills_localised_description_ironic_special_ability_gongsun_kang	Gongsun Kang walks a tight balance, all in the name of his own ambitions.	false
+character_skills_localised_name_ironic_special_ability_qu_yi	Swelling Pride	false
+character_skills_localised_description_ironic_special_ability_qu_yi	The ambition and pride of Qu Yi is set to be reaped by friend and foe alike.	false
+character_skills_localised_name_ironic_special_ability_gongsun_du	Quake From the Dirt	false
+character_skills_localised_description_ironic_special_ability_gongsun_du	Fear the blade of a mistreated warlord, lest you be the one who rots in the very mud he crawled his way out of. 	false
+character_skills_localised_name_ironic_mod_xianbei_hail_of_arrows	Ballistic Rain	false
+character_skills_localised_description_ironic_mod_xianbei_hail_of_arrows	From the Heavens themselves, arrows pour on your hapless foes!	false
+character_skills_localised_name_3k_main_skill_special_ability_metal_natures_ally	Nature's Ally	false
+character_skills_localised_description_3k_main_skill_special_ability_metal_natures_ally	The forest provides a path, and surer footing, for the respectful. 	false
+character_skills_localised_name_ironic_mod_xianbei_support_ranged	Ceaseless Torrent	false
+character_skills_localised_description_ironic_mod_xianbei_support_ranged	Show the whelps before you the true might of the bows of the Xianbei!	false
+character_skills_localised_name_ironic_mod_xianbei_general_skill_1	Capability	false
+character_skills_localised_description_ironic_mod_xianbei_general_skill_1	The strongest of wolves leads the hunt.	false
+character_skills_localised_name_ironic_mod_xianbei_general_skill_2	Deftness	false
+character_skills_localised_description_ironic_mod_xianbei_general_skill_2	If retreat is not an option, than make the enemy think you are fleeing.	false
+character_skills_localised_name_ironic_mod_xianbei_general_skill_3	Staunch	false
+character_skills_localised_description_ironic_mod_xianbei_general_skill_3	Commit to your own path, and never back down.	false
+character_skills_localised_name_ironic_mod_xianbei_general_skill_4	Sustainability	false
+character_skills_localised_description_ironic_mod_xianbei_general_skill_4	Use wisdom to survive the harshest of enviornments.	false
+character_skills_localised_name_3k_main_skill_special_ability_metal_into_the_breach	Into the Breach	false
+character_skills_localised_description_3k_main_skill_special_ability_metal_into_the_breach	A charge, fuelled by stern hearts and even sterner blades, will rip enemy lines apart.	false
+character_skills_localised_name_ironic_siege_ability	Steel Bastion	false
+character_skills_localised_description_ironic_siege_ability	Against our lines our opponents will break, like water scattering off the tortoise's shell.	false
+character_skills_localised_name_ironic_mod_gan_ji_fire_breath	Scorching Belch	false
+character_skills_localised_description_ironic_mod_gan_ji_fire_breath	Few can fathom exactly how Gan Ji can breathe out billowing flames from his very being, given they are usually burning to death seconds later.	false
+character_skills_localised_name_ironic_mod_wang_yi_call_of_defiance	Call of Defiance	false
+character_skills_localised_description_ironic_mod_wang_yi_call_of_defiance	With a single yell, Wang Yi disillusions all who draw blades against her.	false
+character_skills_localised_name_ironic_mod_gan_ji_drunken_talk	Leiting Incantation	false
+character_skills_localised_description_ironic_mod_gan_ji_drunken_talk	With incomprehensible chanting and the waving of talismans and coins, Gan Ji invokes the God of Thunder to curse those he deems possessed by evil.	false
+character_skills_localised_name_ironic_mod_mi_heng_trolling	Insulting Rhapsody	false
+character_skills_localised_description_ironic_mod_mi_heng_trolling	"Now go away, or I shall taunt you a second time!"	false
+character_skills_localised_name_ironic_mod_hua_tuo_healing	Anesthetic Surgery	false
+character_skills_localised_description_ironic_mod_hua_tuo_healing	The masterful hands of Hua Tuo can cleanse the wounds and numb the pain of even those in the thick of battle.	false
+character_skills_localised_name_ironic_mod_zuo_ci_wisdom	Binding Rime	false
+character_skills_localised_description_ironic_mod_zuo_ci_wisdom	Zuo Ci's chilling incantation gives his targets a frosty reception.	false
+character_skills_localised_name_ironic_mod_zuo_ci_hidden	Smothering Mists	false
+character_skills_localised_description_ironic_mod_zuo_ci_hidden	"Now you see me..."	false
+character_skills_localised_name_ironic_mod_hua_tuo_ability_cooldown	Herbal Nourishing	false
+character_skills_localised_description_ironic_mod_hua_tuo_ability_cooldown	Those who breathe in this concoction can see things no one else can see, do things no one else can do.	false
+character_skills_localised_name_ironic_mod_wuhuan_splash_damage	Biting Gale	false
+character_skills_localised_description_ironic_mod_wuhuan_splash_damage	The very northern winds guide the warrior's blade.	false
+character_skills_localised_name_ironic_mod_wuhuan_roar_beast	Terrifying Bellow	false
+character_skills_localised_description_ironic_mod_wuhuan_roar_beast	A discombobulating shout shakes the foe to their very bones.	false
+character_skills_localised_name_ironic_mod_xiongnu_crippling_gaze	Mark of Scorn	false
+character_skills_localised_description_ironic_mod_xiongnu_crippling_gaze	From across the battlefield, a ferocious challenge is issued.	false
+character_skills_localised_name_ironic_mod_di_healing	Tranquility of the Valleys	false
+character_skills_localised_description_ironic_mod_di_healing	The rules of nature dictate the flow of war.	false
+character_skills_localised_name_ironic_mod_di_splash_attack	Peak Breaker	false
+character_skills_localised_description_ironic_mod_di_splash_attack	With force enough to split a boulder, the enemy lines are cleaved in twain!	false
+character_skills_localised_name_ironic_special_ability_gan_ning_bow	Downpour	false
+character_skills_localised_description_ironic_special_ability_gan_ning_bow	"Let it rain!"	false
+character_skills_localised_name_ironic_special_ability_zhou_tai_guard	Guard	false
+character_skills_localised_description_ironic_special_ability_zhou_tai_guard	Everyone is safe when this one is present. It's the one thing you can rely upon when all else is bogged down in murky politics.	false
+character_skills_localised_name_ironic_sun_quan	Unfettered Fury	false
+character_skills_localised_description_ironic_sun_quan	Akin to a hungry hound breaking its leash,  Sun Quan eschews calmness in favour of rage!	false

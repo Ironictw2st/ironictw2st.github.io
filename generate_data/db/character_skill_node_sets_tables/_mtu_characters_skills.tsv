@@ -1,0 +1,36 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/_mtu_characters_skills								
+3k_main_skillset_historical_dong_min	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_jian_yong	general			3k_main_chinese	false	false	3k_general_metal	
+3k_main_skillset_historical_lady_cai_yan	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_dong_peishan	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_du	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_feng	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_gongsun_jinting	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_lu_ji	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_lu_zheng	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_ma_lanli	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_ma_yunlu	general			3k_main_chinese	false	false	3k_general_metal	
+3k_main_skillset_historical_lady_trieu	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_wang_liting	general			3k_main_chinese	false	false	3k_general_metal	
+3k_main_skillset_historical_lady_wu_minyu	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_yuan_anyang	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_zhu_beng	general			3k_main_chinese	false	false	3k_general_wood	
+3k_main_skillset_historical_luo_jun	general			3k_main_chinese	false	false	3k_general_water	
+3k_main_skillset_historical_hua_xin	general			3k_main_chinese	false	false	3k_general_water	
+3k_main_skillset_historical_pang_de	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_shen_pei	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_xun_yu	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_chunyu_qiong	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_yan_xiang	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_zhang_xun	general			3k_main_chinese	false	false	3k_general_earth	
+3k_main_skillset_historical_huang_zu	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_qu_gong	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_guan_xing	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_guan_yinping	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_zhang_xingcai	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_zhang_bao	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_zhang_jinglan	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_dong_bai	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_zou	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_wu_anguo	general			3k_main_chinese	false	false		

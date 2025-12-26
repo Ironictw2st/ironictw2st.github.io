@@ -1,0 +1,38 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui	game_mode	can_meet_parent_requirment_with_children
+#character_skill_nodes_tables;7;db/character_skill_nodes_tables/sunclan												
+ironic_skillset_historical_sun_jing_0A		3k_main_skill_mastery_wood_2_abundance_mlvl_3	ironic_skillset_romance_sun_jing		0.1000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_0B		3k_main_skill_mastery_water_strategist_4_wisdom_mlvl_3	ironic_skillset_romance_sun_jing		0.8000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_0C		3k_main_skill_mastery_wood_4_trust_mlvl_3	ironic_skillset_romance_sun_jing		1.5000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_0D		3k_main_skill_mastery_water_archer_5_reach_mlvl_3	ironic_skillset_romance_sun_jing		2.2000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_1A		3k_main_skill_mastery_wood_3_patience_mlvl_3	ironic_skillset_romance_sun_jing		0.1000	0.0000		1	1	true		true
+ironic_skillset_historical_sun_jing_1B		3k_main_skill_mastery_water_archer_3_guile_mlvl_3	ironic_skillset_romance_sun_jing		0.8000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_1C		3k_main_skill_mastery_wood_5_consideration_mlvl_3	ironic_skillset_romance_sun_jing		1.5000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_1D		3k_main_skill_mastery_fire_3_vengeance_mlvl_3	ironic_skillset_romance_sun_jing		2.2000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_2A_historical		3k_main_skill_bodyguard_wood_wood_alt_1	ironic_skillset_romance_sun_jing		0.1000	1.0000		1	1	true	historical	true
+ironic_skillset_historical_sun_jing_2A_romance		ironic_skill_unity_of_family	ironic_skillset_romance_sun_jing		0.1000	1.0000		1	1	true	romance	true
+ironic_skillset_historical_sun_jing_2B		3k_main_skill_mastery_metal_2_intuition_mlvl_3	ironic_skillset_romance_sun_jing		0.8000	1.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_2C_historical		3k_main_skill_bodyguard_wood_wood	ironic_skillset_romance_sun_jing		1.5000	1.0000		0	1	true	historical	true
+ironic_skillset_historical_sun_jing_2C_romance		3k_main_skill_special_ability_wood_earthen_rampart	ironic_skillset_romance_sun_jing		1.5000	1.0000		0	1	true	romance	true
+ironic_skillset_historical_sun_jing_2D		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_romance_sun_jing		2.2000	1.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_0E		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_romance_sun_jing		2.9000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_1E		3k_main_skill_mastery_wood_1_endurance_mlvl_3	ironic_skillset_romance_sun_jing		2.9000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_jing_2E_historical		3k_main_skill_bodyguard_wood_wood_alt_2	ironic_skillset_romance_sun_jing		2.9000	1.0000		0	1	true	historical	true
+ironic_skillset_historical_sun_jing_2E_romance		ironic_skill_governor_protector_of_home	ironic_skillset_romance_sun_jing		2.9000	1.0000		0	1	true	romance	true
+ironic_skillset_historical_sun_ben_0A		3k_main_skill_mastery_water_archer_5_reach_mlvl_3	ironic_skillset_romance_sun_ben		0.1000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_0B		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_romance_sun_ben		0.8000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_0C		3k_main_skill_mastery_fire_4_passion_mlvl_3	ironic_skillset_romance_sun_ben		1.5000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_0D		3k_main_skill_mastery_earth_3_clarity_mlvl_3	ironic_skillset_romance_sun_ben		2.2000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_1A		3k_main_skill_mastery_fire_3_vengeance_mlvl_3	ironic_skillset_romance_sun_ben		0.1000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_1B		3k_main_skill_mastery_wood_1_endurance_mlvl_3	ironic_skillset_romance_sun_ben		0.8000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_1C		3k_main_skill_mastery_fire_2_fury_mlvl_3	ironic_skillset_romance_sun_ben		1.5000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_1D		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_romance_sun_ben		2.2000	0.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_2A_historical		3k_main_skill_bodyguard_fire_alt_1	ironic_skillset_romance_sun_ben		0.1000	1.0000		0	1	true	historical	true
+ironic_skillset_historical_sun_ben_2A_romance		3k_main_skill_special_ability_fire_flames_of_the_phoenix	ironic_skillset_romance_sun_ben		0.1000	1.0000		0	1	true	romance	true
+ironic_skillset_historical_sun_ben_2B		3k_main_skill_mastery_water_archer_3_guile_mlvl_3	ironic_skillset_romance_sun_ben		0.8000	1.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_2C_historical		3k_main_skill_bodyguard_fire	ironic_skillset_romance_sun_ben		1.5000	1.0000		0	1	true	historical	true
+ironic_skillset_historical_sun_ben_2C_romance		3k_dlc05_skill_special_ability_wood_mending	ironic_skillset_romance_sun_ben		1.5000	1.0000		0	1	true	romance	true
+ironic_skillset_historical_sun_ben_2D		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_romance_sun_ben		2.2000	1.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_0E		3k_main_skill_mastery_fire_5_dignity_mlvl_3	ironic_skillset_romance_sun_ben		2.9000	2.0000		0	1	true		true
+ironic_skillset_historical_sun_ben_1E		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_romance_sun_ben		2.9000	0.0000		1	1	true		true
+ironic_skillset_historical_sun_ben_2E_historical		3k_main_skill_bodyguard_fire_alt_2	ironic_skillset_romance_sun_ben		2.9000	1.0000		1	1	true	historical	true
+ironic_skillset_historical_sun_ben_2E_romance		ironic_skill_unity_of_family	ironic_skillset_romance_sun_ben		2.9000	1.0000		1	1	true	romance	true

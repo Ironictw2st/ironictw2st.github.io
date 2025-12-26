@@ -1,0 +1,392 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting
+#character_skills_tables;4;db/character_skills_tables/data__								
+3k_dlc04_custom_battle_loadout_caltrops_smokescreen	mh_caltrops.png	Custom Battle skill for Caltrops and Smoke Screen	Caltrops and Smoke Screen	0	false	false	false	0.0000
+3k_dlc04_skill_healer_tranquillity	3k_ytr_skill_healer_tranquillity	Peace is the natural state, all else is transitory.	Tranquillity	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_catch_the_blade	3k_main_skill_aspect_wood_perseverance	Direct damage attack with addition of self inflicted damage.	Sacrificial Strike	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_fire_fire_bomb	3k_main_skill_aspect_fire_instinct	Hurl a bundle of explosive fire bombs to knockdown the enemy.	Fire Bomb	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_lord_of_heaven	3k_ytr_skill_healer_compassion	If killed in battle increases morale of own units.	Lord of Heaven	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_lord_of_the_land	3k_ytr_skill_veteran_frugality	Melee splash attack with knock down effect.	Lord of the Land	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_lord_of_the_people	3k_ytr_skill_veteran_frugality	Upon being reduced to 20% HP provides a morale buff to own nearby units.	Lord of the People	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_metal	3k_ytr_skill_scholar_humility	These words will bring shame and humiliation.	Condemn	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_metal_alt_1	3k_ytr_skill_scholar_humility	A lifetime spent learning the ways of heaven will turn thoughts into belief.	Inner Fire	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_turning_the_tides	3k_main_skill_aspect_metal_expertise	Upon nearby enemy unit routing nearby own units recieve a morale buff.	Turning the Tide	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_water_foresight	3k_main_skill_aspect_water_cunning	Guo Jia can see all that was, and all that will be.	Foresight	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_water_from_the_ashes	3k_main_skill_aspect_water_cunning	Pang Tong sacrifices himself, to aid his fellow brothers.	From the Ashes	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_water_heavenly_grace	3k_main_skill_aspect_water_cunning	Using her graceful beauty, Diaochan stuns all those around her.	Heavenly Grace	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_water_hidden_strike	3k_main_skill_aspect_water_cunning	A hidden strike hits with more power than those that are seen.	Hidden Strike	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_way_of_great_peace	3k_ytr_skill_healer_compassion	Starts chanting, reduces morale of hostile units and increases morale of own units.	Way of Great Peace	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_way_of_war	3k_ytr_skill_veteran_frugality	Stacking defence buff and increase to armour-piercing damage.	Way of War	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_way_of_wind	3k_ytr_skill_veteran_frugality	Increases battle movement speed of allied units.	Way of the Thunder	0	false	false	false	0.0000
+3k_dlc04_skill_special_ability_why_the_cold_feet	3k_main_skill_aspect_water_cunning	Ranged area target debuff reducing morale of hostile units.	Show of Force	0	false	false	false	0.0000
+3k_dlc04_skill_unit_base_mod_imperial	PH	 	 	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_earth_1_humanity_mlvl_3	3k_skill_nobility_humanity	An innate sense of compassion and understanding for everyone defines their very essence.	Humanity	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_earth_3_obfuscation_mlvl_3	3k_skill_clarity_obfuscation	To say what one means is not always the most useful of approaches. To NOT say what one means, however...	Obfuscation	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_earth_4_mutability_mlvl_3	3k_skill_stability_mutability	Decisions and beliefs blow upon the breeze like leaves; nobody can say where these ones will land.	Mutability	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_earth_5_restlessness_mlvl_3	3k_skill_meditation_restlessness	They cannot sit idly by, or wait, or even contemplate – this one finds it far, far better to DO.	Restlessness	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_fire_4_rapacity_mlvl_3	3k_skill_passion_rapacity	Whatever they can reach for, grasp or seize, you can be assured they will not miss an opportunity.	Rapacity	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_fire_5_shamelessness_mlvl_3	3k_skill_dignity_shamelessness	If you think that a simple matter of embarassment will stop this one from doing something, you are mistaken.	Shamelessness	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_metal_2_unpredictability_mlvl_3	3k_skill_intuition_unpredictability	If you believe that you know what they will do, or when they will do it, then you are twice mistaken.	Unpredictability	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_metal_4_evasiveness_mlvl_3	3k_skill_understanding_evasiveness	To be like the wind – to be everywhere and nowhere – is the essence of swiftness and elusivity.	Evasiveness	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_metal_5_stealth_mlvl_3	3k_skill_diligence_stealth	If you spot them, then it is quite probably already too late. Far, far too late…	Stealth	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_water_strategist_3_ruthlessness_mlvl_3	3k_skill_composure_ruthlessness	They would sacrifice their own relatives if it served the greater good. In fact, perhaps they already have?	Ruthlessness	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_water_strategist_4_villainy_mlvl_3	3k_skill_wisdom_villainy	The most devious schemes, the most perfidious plots, the most underhanded motives.	Villainy	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_water_strategist_5_craft_mlvl_3	3k_skill_scholarship_craft	The most minute, accurate flick of the wrist; the sharpest eye – craftsmen ensure that no two works are ever the same.	Craft	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_wood_2_gluttony_mlvl_3	3k_skill_abundance_gluttony	It may not seem that way, but stuffing your face well past the point dictated by common sense, is something of an art.	Gluttony	0	false	false	false	0.0000
+3k_dlc05_skill_mastery_wood_4_treachery_mlvl_3	3k_skill_trust_treachery	As one can learn the craftsman's art, or that of the assassin, so one can also learn betrayal, in all its myriad, shameful forms.	Treachery	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_earth_into_the_breach	3k_main_skill_aspect_earth_authority	A charge, fuelled by stern hearts and even sterner blades, will rip enemy lines apart.	Into the Breach	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_earth_qiao_sisters	3k_main_skill_aspect_earth_authority	The strength of the two sisters together in battle makes all alies better prepared for the fight.	Qiao Sisters	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_fire_scattering_blows	3k_main_skill_aspect_earth_authority	The attacks fall with such consistency that they are as a rain of strikes falling upon the foe.	Scattering Blows	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_fire_targeted_strike	3k_main_skill_aspect_fire_instinct	One shot, timed and aimed to perfection, is often more important than a thousand wasted volleys.	Targeted Strikes	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_fire_undying_vow	3k_main_skill_aspect_fire_instinct	To the very bitter end and beyond, if possible, to the very last breath, they will be constant and unswerving.	Undying Vow	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_metal_exemplar	3k_main_skill_aspect_metal_expertise	A shining, typical, and above all appropriate model of how one should be.	Exemplar	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_metal_poison_volley	3k_main_skill_aspect_metal_expertise	The thing to fear is not the bolt itself, but the dark and toxic unguent coated across its ever-increasing tip.	Poison Volley	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_metal_tactical_withdrawal	3k_main_skill_aspect_metal_expertise	There is a time, dishonourable though it may appear in the moment, when living to fight again another day is by far the most sensible option.	Tactical Withdrawal	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_water_analyse_weakness	3k_main_skill_aspect_water_cunning	Only through sober and considered analysis can fragility be turned to unerring strength.	Analyse Weakness	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_water_stalker	3k_main_skill_aspect_water_cunning	Stealth itself, and great patience, are essential skills if you wish to ensnare your target.	Stalker	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_water_two_zhangs	3k_main_skill_aspect_water_cunning	It is an established fact to friends, but never to foes, that two Zhangs are better than one.	The Two Zhangs	0	false	false	false	0.0000
+3k_dlc05_skill_special_ability_wood_mending	3k_main_skill_aspect_wood_perseverance	Oft-times, ephemeral things can fixed until they are as good as new; not so people, however.	Mending	0	false	false	false	0.0000
+3k_dlc06_skill_nanman_authority	3k_dlc06_nanman_character_skills_attribute_background_earth	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_dlc06_skill_nanman_cunning	3k_dlc06_nanman_character_skills_attribute_background_water	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_dlc06_skill_nanman_expertise	3k_dlc06_nanman_character_skills_attribute_background_metal	Martial expertise from hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_dlc06_skill_nanman_instinct	3k_dlc06_nanman_character_skills_attribute_background_fire	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_dlc06_skill_nanman_resolve	3k_dlc06_nanman_character_skills_attribute_background_wood	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_ancient_wisdom	3k_main_skill_aspect_wood_perseverance	The ways of the land are known to those who have trodden these paths their entire lives.	Ancient Wisdom	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_blood_price	3k_main_skill_aspect_fire_instinct	There is a price for every action. Especially war.	Blood Price	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_blow_for_blow	3k_main_skill_aspect_metal_expertise	That which is a dealt to the enemy, must also be felt in return. This is the exchange.	Blow for Blow	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_bold_command	3k_main_skill_aspect_earth_authority	A tenacious style of leadership inspires all warriors to keep fighting!	Bold Command	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_crippling_blow	3k_main_skill_aspect_fire_instinct	Everyone has a weak spot. Finding it, then exploiting it, is the cornerstone of victory.	Crippling Blow	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_defiant_cry	3k_main_skill_aspect_wood_perseverance	The Nanman are proud warriors, and display their battle readiness appropriately.	Defiant Cry	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_desperate_rage	3k_main_skill_aspect_fire_instinct	When all else fails, great strength is found in the last-ditch desperation of man.	Desperate Rage	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_endless_volley	3k_main_skill_aspect_water_cunning	"…and the arrows shall fall from above like a deluge from heaven."	Endless Volley	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_expose	3k_main_skill_aspect_metal_expertise	One should always be careful not to lower their defences in battle.	Expose	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_flying_daggers	3k_main_skill_aspect_water_cunning	These daggers are said never to miss. Not once. Ever.	Flying Daggers	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_fury	3k_main_skill_aspect_fire_instinct	The rage of battle overtakes any warrior, leading them never to relent.	Fury	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_hold_firm	3k_main_skill_aspect_water_cunning	Resolve unwavering, endurance seemingly increasing, despite the onslaught continuing.	Hold Firm	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_natures_protection	3k_main_skill_aspect_wood_perseverance	The land gives protection to those who would offer themselves in its defence.	Nature's Protection	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_off_guard	3k_main_skill_aspect_earth_authority	A warrior should really watch his footwork more closely.	Off-Guard	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_power_of_love	3k_main_skill_aspect_wood_perseverance	These that heaven has put together shall now put their foes asunder.	Power of Love	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_reckless_strike	3k_main_skill_aspect_wood_perseverance	Should this blow strike true, the battle is done. Should it not, then… it may still also be done.	Reckless Strike	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_rending_strike	3k_main_skill_aspect_fire_instinct	A well-placed, and overbearingly powerful, strike will fell any enemy's defences.	Rending Strike	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_southern_wrath	3k_main_skill_aspect_fire_instinct	The tribes of the south do not take kindly, and fight with great power, any aggressive interlopers.	Southern Wrath	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_subdue	3k_main_skill_aspect_earth_authority	Against their sheer force and imposing presence, enemies find it harder to keep their focus and martial acuity.	Subdue	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_swift_steps	3k_main_skill_aspect_wood_perseverance	One foot in front of the other in rapid succession – this is the key to swiftness.	Swift Steps	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_water_natures_ally	3k_main_skill_aspect_water_cunning	The forest provides a path, and surer footing, for the respectful. 	Nature's Ally	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_water_turning_the_tides	3k_main_skill_aspect_water_cunning	Upon nearby enemy unit routing nearby own units recieve a morale buff.	Turning the Tide	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_water_unyielding_earth	3k_main_skill_aspect_water_cunning	Nature itself provides a shield for its warriors.	Unyielding Earth	0	false	false	false	0.0000
+3k_dlc06_skill_special_ability_wood_into_the_breach	3k_main_skill_aspect_wood_perseverance	A charge, fuelled by stern hearts and even sterner blades, will rip enemy lines apart.	Into the Breach	0	false	false	false	0.0000
+3k_dlc07_skill_emperor_earth_calculating	3k_dlc07_skill_emperor_earth_calculating	Careful calculation and consideration will get you more than the most aggressive strike.	Calculating	0	false	false	false	0.0000
+3k_dlc07_skill_emperor_earth_calm	3k_dlc07_skill_emperor_earth_calm	All who gaze upon you must have no indication of your biases.	Calm	0	false	false	false	0.0000
+3k_dlc07_skill_emperor_earth_discretion	3k_dlc07_skill_emperor_earth_discretion	To hold power over court you must be able to choose your words carefully.	Discretion	0	false	false	false	0.0000
+3k_dlc07_skill_emperor_earth_imperious	3k_dlc07_skill_emperor_earth_imperious	You are emperor. Act like it.	Imperious	0	false	false	false	0.0000
+3k_dlc07_skill_emperor_earth_imposing	3k_dlc07_skill_emperor_earth_imposing	Those who fear you, respect you.	Imposing	0	false	false	false	0.0000
+3k_dlc07_skill_emperor_earth_modesty	3k_dlc07_skill_emperor_earth_modesty	Burn brightly, but do not extinguish the flames of those around you.	Modesty	0	false	false	false	0.0000
+3k_dlc07_skill_mastery_fire_5_dignity_mlvl_3	3k_main_skill_mastery_fire_5_dignity	Nothing baffles evil like calm composure and propriety.	Dignity	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_earth_ceasefire	3k_main_skill_aspect_earth_authority	Liu Zhang calls a ceasefire for all nearby units, delaying the enemy while his allies work on a counter-attack.	Ceasefire	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_earth_familial_conflict	3k_main_skill_aspect_earth_authority	When another member of the Yuan clan is on the field, familial rivalry will push the other to greater feats.	Familial Conflict	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_earth_heavenly_presence	3k_main_skill_aspect_earth_authority	Cao Ren's presence on the battlefield can give hope to his men, even in the most dire of situations.	Heavenly Presence	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_fire_mighty_thrust	3k_main_skill_aspect_fire_instinct	With a shout, Yan Liang spurs on his horse. He can plough into enemies with such force that scores of men go flying.	Mighty Thrust	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_metal_geographic_mastery	3k_main_skill_aspect_metal_expertise	Zhang He has a great understanding of geography, and can bend it to his own use.	Geographic Mastery	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_metal_impenetrable_redoubt	3k_main_skill_aspect_metal_expertise	Yu Jin is as an immovable wall, inspiring his men to stand firm against much greater odds.	Impenetrable Redoubt	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_water_mock	3k_main_skill_aspect_water_cunning	Fa Zheng accosts the enemy hero, shaking them to the core.	Mock	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_water_rally_the_troops	3k_main_skill_aspect_water_cunning	Liu Yan rallies his troops to greater feats, inspiring them to make one final effort.	Rally the Troops	0	false	false	false	0.0000
+3k_dlc07_skill_special_ability_wood_xiezhi_roar	3k_main_skill_aspect_wood_perseverance	Wen Chou flies into a rage, embodying the mighty Xiezhi, a mythical creature of great power.  	Xiezhi Roar	0	false	false	false	0.0000
+3k_main_archive_skill_imperious_presence	imperious_presence	imperious_presence	Imperious Presence	1	false	false	false	0.0000
+3k_main_archive_skill_inspiring_surge	inspiring_surge	inspiring_surge	Inspiring Surge	1	false	false	false	0.0000
+3k_main_archive_skill_unyielding_earth	unyielding_earth	unyielding_earth	Unyielding Earth	1	false	false	false	0.0000
+3k_main_custom_battle_loadout_ammunitions_attribute	3k_ytr_skill_ability_water	Custom battle skill for attribute ammunition	Ammunitions Attribute	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_attribute_authority	3k_ytr_skill_ability_water	Custom battle skill for Authority attribute effects	Authority Effect Loadout	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_attribute_cunning	3k_ytr_skill_ability_water	Custom battle skill for Cunning attribute effects	Cunning Effect Loadout	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_attribute_expertise	3k_ytr_skill_ability_water	Custom battle skill for Expertise attribute effects	Expertise Effect Loadout	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_attribute_instinct	3k_ytr_skill_ability_water	Custom battle skill for Instinct attribute effects	Instinct Effect Loadout	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_attribute_resolve	3k_ytr_skill_ability_water	Custom battle skill for Resolve attribute effects	Resolve Effect Loadout	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_encourages	3k_ytr_skill_ability_water	Custom battle skill for commander encourage	Encourages	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_formations	3k_ytr_skill_ability_water	Custom battle skill for formations	Formation Loadouts	0	false	false	false	0.0000
+3k_main_custom_battle_loadout_formations_commander	3k_ytr_skill_ability_water	Custom battle skill for commander formations	Commander Formation	0	false	false	false	0.0000
+3k_main_skill_bodyguard_cao_cao	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_cao_cao_alt_1	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_cao_cao_alt_2	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_dian_wei	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_dian_wei_alt_1	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_dian_wei_alt_2	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_dong_zhuo	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_dong_zhuo_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_dong_zhuo_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_earth	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_earth_alt_1	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_earth_alt_2	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_fire	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_fire_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_fire_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_gan_ning	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_gan_ning_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_gan_ning_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_guan_yu	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_guan_yu_alt_1	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_guan_yu_alt_2	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_huang_zhong	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_huang_zhong_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_huang_zhong_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_lady_sun	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_lady_sun_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_lady_sun_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_liu_bei	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_liu_bei_alt_1	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_liu_bei_alt_2	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_lu_bu	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_lu_bu_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_lu_bu_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_ma_chao	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_ma_chao_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_ma_chao_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_metal	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_metal_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_metal_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sima_yi	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sima_yi_alt_1	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sima_yi_alt_2	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sun_ce	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sun_ce_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sun_ce_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sun_jian	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sun_jian_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_sun_jian_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_taishi_ci	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_taishi_ci_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_taishi_ci_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_water_strategist	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_water_strategist_alt_1	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_water_strategist_alt_2	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_wood_wood	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_wood_wood_alt_1	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_wood_wood_alt_2	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xiahou_dun	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xiahou_dun_alt_1	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xiahou_dun_alt_2	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xiahou_yuan	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xiahou_yuan_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xiahou_yuan_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xu_chu	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xu_chu_alt_1	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xu_chu_alt_2	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xu_huang	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xu_huang_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_xu_huang_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_yuan_shao	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_yuan_shao_alt_1	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_yuan_shao_alt_2	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_bodyguard_yue_jin	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_yue_jin_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_yue_jin_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhang_fei	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhang_fei_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhang_fei_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhang_liao	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhang_liao_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhang_liao_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhao_yun	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhao_yun_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhao_yun_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zheng_jiang	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zheng_jiang_alt_1	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zheng_jiang_alt_2	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhou_yu	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhou_yu_alt_1	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhou_yu_alt_2	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhuge_liang	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhuge_liang_alt_1	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_bodyguard_zhuge_liang_alt_2	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_mastery_earth_1_nobility_mlvl_3	3k_main_skill_mastery_earth_1_nobility	Virtue cannot be acquired, only nurtured.	Nobility	0	false	false	false	0.0000
+3k_main_skill_mastery_earth_2_mobility_mlvl_3	3k_main_skill_mastery_earth_2_mobility	Raise your sail one foot and you get ten feet of wind.	Mobility	0	false	false	false	0.0000
+3k_main_skill_mastery_earth_3_clarity_mlvl_3	3k_main_skill_mastery_earth_3_clarity	Coherence in thought and speech brings clear advantage.	Clarity	0	false	false	false	0.0000
+3k_main_skill_mastery_earth_4_stability_mlvl_3	3k_main_skill_mastery_earth_4_stability	The pillar is strongest at its base.	Stability	0	false	false	false	0.0000
+3k_main_skill_mastery_earth_5_meditation_mlvl_3	3k_main_skill_mastery_earth_5_meditation	Everyone eats and drinks, yet only few appreciate the taste of food.	Meditation	0	false	false	false	0.0000
+3k_main_skill_mastery_fire_1_intensity_mlvl_3	3k_main_skill_mastery_fire_1_intensity	Burn long, and brightly.	Intensity	0	false	false	false	0.0000
+3k_main_skill_mastery_fire_2_fury_mlvl_3	3k_main_skill_mastery_fire_2_fury	Strike with violence. Always.	Fury	0	false	false	false	0.0000
+3k_main_skill_mastery_fire_3_vengeance_mlvl_3	3k_main_skill_mastery_fire_3_vengeance	Never forget, never forgive.	Vengeance	0	false	false	false	0.0000
+3k_main_skill_mastery_fire_4_passion_mlvl_3	3k_main_skill_mastery_fire_4_passion	Do not hold back what clamours for release.	Passion	0	false	false	false	0.0000
+3k_main_skill_mastery_fire_5_dignity_mlvl_3	3k_main_skill_mastery_fire_5_dignity	Nothing baffles evil like calm composure and propriety.	Dignity	0	false	false	false	0.0000
+3k_main_skill_mastery_metal_1_bravery_mlvl_3	3k_main_skill_mastery_metal_1_bravery	Those who fear nothing do not stumble along life's rubble-strewn path.	Bravery	0	false	false	false	0.0000
+3k_main_skill_mastery_metal_2_intuition_mlvl_3	3k_main_skill_mastery_metal_2_intuiton	Understanding cannot be taught, only felt instinctively.	Intuition	0	false	false	false	0.0000
+3k_main_skill_mastery_metal_3_zeal_mlvl_3	3k_main_skill_mastery_metal_3_zeal	Never lose sight of the prize, no matter the obstacles along the way.	Zeal	0	false	false	false	0.0000
+3k_main_skill_mastery_metal_4_understanding_mlvl_3	3k_main_skill_mastery_metal_4_understanding	What you do not wish upon yourself, extend not to others.	Understanding	0	false	false	false	0.0000
+3k_main_skill_mastery_metal_5_dilligence_mlvl_3	3k_main_skill_mastery_metal_5_diligence	The industrious need no orders to galvanise them into action.	Diligence	0	false	false	false	0.0000
+3k_main_skill_mastery_water_archer_1_precision_mlvl_3	3k_main_skill_mastery_water_archer_1_precision	Accuracy safeguards energy, so it is never wasted.	Precision	0	false	false	false	0.0000
+3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	3k_main_skill_mastery_water_archer_2_flexibility	Like the weather, one's fortune may change by the evening.	Flexibility	0	false	false	false	0.0000
+3k_main_skill_mastery_water_archer_3_guile_mlvl_3	3k_main_skill_mastery_water_archer_3_guile	The crafty fox evades the farmer's blade.	Guile	0	false	false	false	0.0000
+3k_main_skill_mastery_water_archer_4_perception_mlvl_3	3k_main_skill_mastery_water_archer_4_perception	Abandon fixed ideas, they will only hold you back.	Perception	0	false	false	false	0.0000
+3k_main_skill_mastery_water_archer_5_reach_mlvl_3	3k_main_skill_mastery_water_archer_5_reach	With no knowledge of what cannot be done, you will accomplish great things.	Reach	0	false	false	false	0.0000
+3k_main_skill_mastery_water_strategist_1_resourcefulness_mlvl_3	3k_main_skill_mastery_water_strategist_1_resourcefulness	Whomsoever depends on themselves will attain the greatest happiness.	Resourcefulness	0	false	false	false	0.0000
+3k_main_skill_mastery_water_strategist_2_judgement_mlvl_3	3k_main_skill_mastery_water_strategist_2_judgement	Do not let emotion cloud your acuity.	Judgement	0	false	false	false	0.0000
+3k_main_skill_mastery_water_strategist_3_composure_mlvl_3	3k_main_skill_mastery_water_strategist_3_composure	If you are patient in one moment of anger, you will escape a hundred days of sorrow.	Composure	0	false	false	false	0.0000
+3k_main_skill_mastery_water_strategist_4_wisdom_mlvl_3	3k_main_skill_mastery_water_strategist_4_wisdom	The wise make their own decisions, the ignorant follow public opinion. 	Wisdom	0	false	false	false	0.0000
+3k_main_skill_mastery_water_strategist_5_scholarship_mlvl_3	3k_main_skill_mastery_water_strategist_5_scholarship	A nation's treasure is in its scholars.	Scholarship	0	false	false	false	0.0000
+3k_main_skill_mastery_wood_1_endurance_mlvl_3	3k_main_skill_mastery_wood_1_endurance	A crisis is an opportunity riding the dangerous wind.	Endurance	0	false	false	false	0.0000
+3k_main_skill_mastery_wood_2_abundance_mlvl_3	3k_main_skill_mastery_wood_2_abundance	Give a man a fish and you feed him for a day. Teach him to fish and you feed him for a lifetime.	Abundance	0	false	false	false	0.0000
+3k_main_skill_mastery_wood_3_patience_mlvl_3	3k_main_skill_mastery_wood_3_patience	A gem is not polished without rubbing, nor a man perfected without trials.	Patience	0	false	false	false	0.0000
+3k_main_skill_mastery_wood_4_trust_mlvl_3	3k_main_skill_mastery_wood_4_trust	To know the road ahead, ask those coming back.	Trust	0	false	false	false	0.0000
+3k_main_skill_mastery_wood_5_consideration_mlvl_3	3k_main_skill_mastery_wood_5_consideration	When you drink the water, remember the spring.	Consideration	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth	3k_main_skill_aspect_earth_authority	With great authority comes great responsibility.	Commander	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_alt_1	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_alt_2	3k_main_skill_aspect_earth_authority	The responsibility that comes with authority should not be taken lightly.	Commander	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_distant_courage	3k_main_skill_aspect_earth_authority	Yuan Shao directs and empowers his forces from a… safer distance.	Distant Courage	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_imperious_presence	3k_main_skill_aspect_earth_authority	Cao Cao's ordered mind encourages his forces to more efficient action!	Imperious Presence	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_inspiring_words	3k_main_skill_aspect_earth_authority	Liu Bei's words drive his men to greatness!	Inspiring Words	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_natures_ally	3k_main_skill_aspect_earth_authority	The forest provides a path, and surer footing, for the respectful. 	Nature's Ally	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_stone_bulwark	3k_main_skill_aspect_earth_authority	With skin of earth, arrows rebound, harmless.	Stone Bulwark	0	false	false	false	0.0000
+3k_main_skill_special_ability_earth_unyielding_earth	3k_main_skill_aspect_earth_authority	Nature itself provides a shield for its warriors.	Unyielding Earth	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_alt_1	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_alt_2	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_blade_breaker	3k_main_skill_aspect_fire_instinct	The tyrant laughs as blades glance harmlessly off his armour.	Blade Breaker	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_blazing_roar	3k_main_skill_aspect_fire_instinct	Zhang Fei's burly howl can rout an entire regiment!	Blazing Roar	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_blazing_saddles	3k_main_skill_aspect_fire_instinct	A charge of great power, draining Xiahou Yuan's focus.	Blazing Saddles	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_blood_fury	3k_main_skill_aspect_fire_instinct	As Sun Ce's strength rises, his grip on rationality weakens…	Bloody Fury	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_devastating_roar	3k_main_skill_aspect_fire_instinct	The roar of fury crushes enemy morale!	Devastating Roar	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_final_rush	3k_main_skill_aspect_fire_instinct	With a final burst of speed, battle's end is hastened.	Final Rush	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_flames_of_the_phoenix	3k_main_skill_aspect_fire_instinct	A devastating swing with the power of the risen inferno!	Flames of the Phoenix	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_hail_of_arrows	3k_main_skill_aspect_fire_instinct	A flurry of shafts slows the enemy advance.	Hail of Arrows	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_heart_seeker	3k_main_skill_aspect_fire_instinct	With a single shot, Sun Ren brings death.	Heart Seeker	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_internal_blaze	3k_main_skill_aspect_fire_instinct	Ma Chao's internal strife manifests in bursts of rage; uncontrollable charges at the enemy!	Internal Blaze	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_natures_ally	3k_main_skill_aspect_fire_instinct	The forest provides a path, and surer footing, for the respectful. 	Natures' Ally	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_rage_of_lu_bu	3k_main_skill_aspect_fire_instinct	With a mighty sweep, Lü Bu strikes all around him.	Rage of Lü Bu	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_reign_of_terror	3k_main_skill_aspect_fire_instinct	The tyrant rages; his men hold through fear.	Reign of Terror	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_roar_of_the_beast	3k_main_skill_aspect_fire_instinct	The fury of the victorious warrior is fearful to behold!	Roar of the Beast	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_smouldering_fury	3k_main_skill_aspect_fire_instinct	The more he is opposed, the stronger Lü Bu becomes!	Smouldering Fury	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_sundering_strike	3k_main_skill_aspect_fire_instinct	With a mighty cleave, Zhang Fei rends his foes' defences.	Sundering Strike	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_the_dragons_gaze	3k_main_skill_aspect_fire_instinct	Lü Bu's furious gaze causes all to cower!	The Dragon's Gaze	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_unyielding_earth	3k_main_skill_aspect_fire_instinct	Nature itself provides a shield for its warriors.	Unyielding Earth	0	false	false	false	0.0000
+3k_main_skill_special_ability_fire_wildfire_raider	3k_main_skill_aspect_fire_instinct	Gan Ning moves ever faster, as fire spreads through the forest.	Wildfire Raider	0	false	false	false	0.0000
+3k_main_skill_special_ability_gan_ning	3k_main_skill_aspect_fire_instinct	Concentrate on the moment: fight, don't think. Use your instincts.	Vanguard	0	false	false	false	0.0000
+3k_main_skill_special_ability_huang_zhong	3k_main_skill_aspect_metal_expertise	Martial expertise from hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal	3k_main_skill_aspect_metal_expertise	Martial expertise from hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_adamant_resolve	3k_main_skill_aspect_metal_expertise	Determination and grit allow all attacks to be dodged.	Adamant Resolve	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_alt_1	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_alt_2	3k_main_skill_aspect_metal_expertise	Martial expertise through hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_elemental_vigour	3k_main_skill_aspect_metal_expertise	The longer Zhao Yun fights, the greater and more inspiring he becomes!	Elemental Vigour	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_flames_of_the_phoenix	3k_main_skill_aspect_metal_expertise	A devastating swing with the power of the risen inferno!	Flames of the Phoenix	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_fleet_footed	3k_main_skill_aspect_metal_expertise	Xu Huang believes you can only kill that which you can catch.	Fleet-footed	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_hail_of_arrows	3k_main_skill_aspect_metal_expertise	A flurry of shafts slows the enemy advance.	Hail of Arrows	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_impetuous_charge	3k_main_skill_aspect_metal_expertise	A reckless charge, inspiring but exhausting!	Impetuous Charge	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_inward_focus	3k_main_skill_aspect_metal_expertise	A focus on form allows one to evade and manoeuvre.	Inward Focus	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_quickfire	3k_main_skill_aspect_metal_expertise	Taishi Ci fires and fires, faster and faster, never relenting.	Quickfire	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_resolve_of_the_righteous	3k_main_skill_aspect_metal_expertise	An outnumbered army will fight even harder. Skill trumps numbers.	Resolve of the Righteous	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_roar_of_the_beast	3k_main_skill_aspect_metal_expertise	The fury of the victorious warrior is fearful to behold!	Roar of the Beast	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_swift_fingers	3k_main_skill_aspect_metal_expertise	Recalling their training, these generals reload with startling quickness.	Swift Fingers	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_tempered_deflection	3k_main_skill_aspect_metal_expertise	With calm, steely resolve, attacks are better deflected.	Tempered Deflection	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_tenacity_of_steel	3k_main_skill_aspect_metal_expertise	The longer this warrior fights, the stronger they become!	Tenacity of Steel	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_venomous_shot	3k_main_skill_aspect_metal_expertise	Fired from afar, poison arrows strike that much deeper.	Venomous Shot	0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_warning_shot	3k_main_skill_aspect_metal_expertise	The enemy knows the next shot will not miss.	Warning Shot	0	false	false	false	0.0000
+3k_main_skill_special_ability_taishi_ci	3k_main_skill_aspect_metal_expertise	Martial expertise from hard work. Practice. Preparation. Endless repetition.	Sentinel	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_inspiring_surge	3k_main_skill_aspect_water_cunning	Inspirational deeds spur forces to swifter action!	Inspiring Surge	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_ripples_of_perspective	3k_main_skill_aspect_water_cunning	In tune with nature, Zhou Yu sees all.	Ripples of Perspective	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_sight_of_the_dragon	3k_main_skill_aspect_water_cunning	The enemy is located; the earth reveals them.	Sight of the Dragon	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_stifling_deluge	3k_main_skill_aspect_water_cunning	A suppressing aura that confounds the foe.	Stifling Deluge	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_strategist	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_strategist_alt_1	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_strategist_alt_2	3k_main_skill_aspect_water_cunning	Be cunning and full of tricks and your people shall never be destroyed.	Strategist	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_way_of_the_wind	3k_main_skill_aspect_water_cunning	Zhuge Liang predicts the wind through study of the world.	Way of the Wind	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_whitewater	3k_main_skill_aspect_water_cunning	This legendary presence gives enemies pause.	Whitewater	0	false	false	false	0.0000
+3k_main_skill_special_ability_water_wisdom_of_the_river	3k_main_skill_aspect_water_cunning	Knowledge of the enemy weakens their defences.	Wisdom of the River	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem bravest, but to be.	Champion	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_alt_1	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_alt_2	3k_main_skill_aspect_wood_perseverance	A hero's resolve is not to seem the bravest, but to be it.	Champion	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_binding_fury	3k_main_skill_aspect_wood_perseverance	The strength of the forest brought to bear against a single foe.	Binding Fury	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_condemned_howl	3k_main_skill_aspect_wood_perseverance	Xu Chu fights with a fatal rage - an erratic fury!	Condemned Howl	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_cry_of_the_forest	3k_main_skill_aspect_wood_perseverance	When weakest, Dian Wei unleashes his true power!	Cry of the Forest	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_earth_shattering_strike	3k_main_skill_aspect_wood_perseverance	A furious strike that sends anyone nearby reeling.	Earth-shattering Strike	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_earthen_rampart	3k_main_skill_aspect_wood_perseverance	The strength of the earth holds against the charge.	Earthen Rampart	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_flames_of_the_phoenix	3k_main_skill_aspect_wood_perseverance	A devastating swing with the power of the risen inferno!	Flames of the Phoenix	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_god_of_war	3k_main_skill_aspect_wood_perseverance	With a single blow, Guan Yu rends his enemy asunder!	God of War	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_hamstring	3k_main_skill_aspect_wood_perseverance	A carefully-placed strike hobbles the unlucky enemy.	Hamstring	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_poisoned_blade	3k_main_skill_aspect_wood_perseverance	Poison slows a warrior down, slowly draining their life.	Poisoned Blade	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_stalwart_defender	3k_main_skill_aspect_wood_perseverance	Born to hold the line, Xu Chu shrugs off attacks as if they were nothing!	Stalwart Defender	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_stone_bulwark	3k_main_skill_aspect_wood_perseverance	With skin of earth, arrows rebound, harmless.	Stone Bulwark	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_tenacity_of_steel	3k_main_skill_aspect_wood_perseverance	The longer this warrior fights, the stronger they become!	Tenacity of Steel	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_unstoppable	3k_main_skill_aspect_wood_perseverance	His relentless attack makes foes cower before him!	Unstoppable	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_unyielding_earth	3k_main_skill_aspect_wood_perseverance	Nature itself provides a shield for its warriors.	Unyielding Earth	0	false	false	false	0.0000
+3k_main_skill_special_ability_wood_vengeance	3k_main_skill_aspect_wood_perseverance	Xiahou Dun fights best in the thick of it, but may lose his composure.	Vengeance	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_gong_du	3k_ytr_skill_veteran_frugality	Ambition is only realised by ignoring the excesses born from pursuing it.	Enduring Frugality	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_gong_du_alt_1	3k_ytr_skill_veteran_frugality	Ambition is only realised by ignoring the excesses born from pursuing it.	Sustainable Frugality	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_gong_du_alt_2	3k_ytr_skill_veteran_frugality	Ambition is only realised by ignoring the excesses born from pursuing it.	Brisk Frugality	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_he_yi	3k_ytr_skill_healer_compassion	Compassion serves true justice by rejecting vengeance and prideful displays of power.	Enduring Compassion	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_he_yi_alt_1	3k_ytr_skill_healer_compassion	Compassion serves true justice by rejecting vengeance and prideful displays of power.	Impromptu Compassion	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_he_yi_alt_2	3k_ytr_skill_healer_compassion	Compassion serves true justice by rejecting vengeance and prideful displays of power.	Brisk Compassion	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_huang_shao	3k_ytr_skill_scholar_humility	One can never know too much or exhaust the mysteries of this world.	Enduring Humility	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_huang_shao_alt_1	3k_ytr_skill_scholar_humility	One can never know too much or exhaust the mysteries of this world.	Sustainable Humility	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_huang_shao_alt_2	3k_ytr_skill_scholar_humility	One can never know too much or exhaust the mysteries of this world.	Impromptu Humility	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_metal	3k_ytr_skill_scholar_humility	To achieve greatness, put others first.	Lasting Humility	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_metal_alt_1	3k_ytr_skill_scholar_humility	Put others first to achieve greatness.	Sustainable Humility	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_metal_alt_2	3k_ytr_skill_scholar_humility	Put others first to achieve greatness.	Thoughtful Humility	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_water	3k_ytr_skill_healer_compassion	Selfless acts are their own reward.	Brisk Compassion	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_water_alt_1	3k_ytr_skill_healer_compassion	Selfless acts reward those who perform them as well as those who benefit.	Sustainable Compassion	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_water_alt_2	3k_ytr_skill_healer_compassion	Selfless acts reward those who perform them as well as those who benefit.	Impromptu Compassion	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_wood	3k_ytr_skill_veteran_frugality	An over-filled bowl will only result in broth being spilled.	Lasting Frugality	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_wood_alt_1	3k_ytr_skill_veteran_frugality	An overfilled bowl will only result in spilled broth.	Intense Frugality	0	false	false	false	0.0000
+3k_ytr_skill_bodyguard_wood_alt_2	3k_ytr_skill_veteran_frugality	An overfilled bowl will only result in spilled broth.	Impromptu Frugality	0	false	false	false	0.0000
+3k_ytr_skill_gong_du_ambition	3k_ytr_skill_veteran_frugality	Ambition is only realised by ignoring the excesses born from pursuing it.	Ambition	0	false	false	false	0.0000
+3k_ytr_skill_gong_du_ambition_historical	3k_ytr_skill_veteran_frugality	Ambition is only realised by ignoring the excesses born from pursuing it.	Ambition	0	false	false	false	0.0000
+3k_ytr_skill_he_yi_mercy	3k_ytr_skill_healer_compassion	Compassion serves true justice by rejecting vengeance and prideful displays of power.	Mercy	0	false	false	false	0.0000
+3k_ytr_skill_he_yi_mercy_historical	3k_ytr_skill_healer_compassion	Compassion serves true justice by rejecting vengeance and prideful displays of power.	Mercy	0	false	false	false	0.0000
+3k_ytr_skill_healer_charisma	3k_ytr_skill_healer_charisma	Radiate vitality, and you will inspire others to do the same.	Charisma	0	false	false	false	0.0000
+3k_ytr_skill_healer_compassion	3k_ytr_skill_healer_compassion	Selfless acts reward those who perform them as well as those who benefit.	Compassion	0	false	false	false	0.0000
+3k_ytr_skill_healer_compassion_historical	3k_ytr_skill_healer_compassion	Selfless acts reward those who perform them as well as those who benefit.	Compassion	0	false	false	false	0.0000
+3k_ytr_skill_healer_defiance	3k_ytr_skill_healer_defiance	Run from evil and you become prey to be chased; stand firmly to face it as an equal.	Defiance	0	false	false	false	0.0000
+3k_ytr_skill_healer_expedience	3k_ytr_skill_healer_expedience	Once the bowstring is pulled back, the arrow must be released.	Effortless Flow	0	false	false	false	0.0000
+3k_ytr_skill_healer_tranquillity	3k_ytr_skill_healer_tranquillity	Peace is the natural state, all else is transitory.	Tranquillity	0	false	false	false	0.0000
+3k_ytr_skill_huang_shao_erudition	3k_ytr_skill_scholar_humility	One can never know too much or exhaust the mysteries of this world.	Erudition	0	false	false	false	0.0000
+3k_ytr_skill_huang_shao_erudition_historical	3k_ytr_skill_scholar_humility	One can never know too much or exhaust the mysteries of this world.	Erudition	0	false	false	false	0.0000
+3k_ytr_skill_scholar_humility	3k_ytr_skill_scholar_humility	Put others first to achieve greatness.	Humility	0	false	false	false	0.0000
+3k_ytr_skill_scholar_humility_historical	3k_ytr_skill_scholar_humility	Put others first to achieve greatness.	Humility	0	false	false	false	0.0000
+3k_ytr_skill_scholar_insight	3k_ytr_skill_scholar_insight	There is more in the sea than can be glimpsed on the surface.	Insight	0	false	false	false	0.0000
+3k_ytr_skill_scholar_inspiration	3k_ytr_skill_scholar_inspiration	Chase a bird and it will fly away; be still and it will perch nearby.	Inspiration	0	false	false	false	0.0000
+3k_ytr_skill_scholar_integrity	3k_ytr_skill_scholar_integrity	Be content with what you have to guard against temptation.	Integrity	0	false	false	false	0.0000
+3k_ytr_skill_scholar_perserverance	3k_ytr_skill_scholar_perserverance	Practice stillness to be ready and withstand any strike.	Resolution	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_gong_du	3k_ytr_skill_veteran_frugality	Where others see rocks and trees, you see advantages.	Killing Ground	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_gong_du_alt_1	3k_ytr_skill_veteran_frugality	It is not always the command that motivates, but the way it is given.	Desperate Cry	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_gong_du_alt_2	3k_ytr_skill_veteran_frugality	Generations working the land will breed a kinship with it.	One with the Land	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_he_yi	3k_ytr_skill_healer_compassion	A soldier always fights better when they know their sides and rear are protected.	All Fronts	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_he_yi_alt_1	3k_ytr_skill_healer_compassion	A warrior will only fight at their best when they are sure-footed.	Judgement	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_he_yi_alt_2	3k_ytr_skill_healer_compassion	Knowing your brothers will never abandon you brings tremendous comfort.	One with the People	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_huang_shao	3k_ytr_skill_scholar_humility	Knowing when best to shoot is most effective when you are the one being shot at.	Favourable Skies	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_huang_shao_alt_1	3k_ytr_skill_scholar_humility	Look up and you will see the sky; look inward and you will see heaven.	One with Heaven	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_huang_shao_alt_2	3k_ytr_skill_scholar_humility	When the opportunity is right let discipline be second to the unconventional.	Surprise Attack	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_metal	3k_ytr_skill_scholar_humility	These words will bring shame and humiliation.	Condemn	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_metal_alt_1	3k_ytr_skill_scholar_humility	A lifetime spent learning the ways of heaven will turn thoughts into belief.	Inner Fire	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_metal_alt_2	3k_ytr_skill_scholar_humility	These words will fortify the spirit.	Preach	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_water	3k_ytr_skill_healer_compassion	Sometimes it's not what you hit or how hard, but where.	Knowledge of the Body	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_water_alt_1	3k_ytr_skill_healer_compassion	If you can conquer the mind of the enemy then half the battle is won.	Knowledge of the Mind	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_water_alt_2	3k_ytr_skill_healer_compassion	True strength lies not in the mind or body, but within the spirit.	Knowledge of the Spirit	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_wood	3k_ytr_skill_veteran_frugality	A war cry from one warrior to another.	Commanding Shout	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_wood_alt_1	3k_ytr_skill_veteran_frugality	A master of the battlefield can undermine even the surest of soldiers.	Disorientate	0	false	false	false	0.0000
+3k_ytr_skill_special_ability_wood_alt_2	3k_ytr_skill_veteran_frugality	The land is not just the earth, but the forests and mountains, and all the hidden, ancient places.	Stength of the Land	0	false	false	false	0.0000
+3k_ytr_skill_veteran_fanaticism	3k_ytr_skill_veteran_fanaticism	For the devout, the path is already set.	Fanaticism	0	false	false	false	0.0000
+3k_ytr_skill_veteran_focus	3k_ytr_skill_veteran_focus	Breathe out and into your target, allowing distractions to fall away.	Focus	0	false	false	false	0.0000
+3k_ytr_skill_veteran_frugality	3k_ytr_skill_veteran_frugality	An overfilled bowl will only result in spilled broth.	Frugality	0	false	false	false	0.0000
+3k_ytr_skill_veteran_frugality_historical	3k_ytr_skill_veteran_frugality	An overfilled bowl will only result in spilled broth.	Frugality	0	false	false	false	0.0000
+3k_ytr_skill_veteran_opportunism	3k_ytr_skill_veteran_opportunism	A tiger cares not where its meal comes from, only that it feeds.	Opportunism	0	false	false	false	0.0000
+3k_ytr_skill_veteran_subtley	3k_ytr_skill_veteran_subtley	There is no defence against hidden intentions.	Subtlety	0	false	false	false	0.0000
+ep_dyn_special_ability_arrow_storm	3k_main_skill_aspect_earth_authority	A volley of arrows rains down on the enemy.	Arrow Storm	0	false	false	false	0.0000
+ep_dyn_special_ability_assassinate	3k_main_skill_aspect_metal_expertise	A deadly shot that's perfect for eliminating enemy heroes.	Assassinate	0	false	false	false	0.0000
+ep_dyn_special_ability_blood_rush	3k_main_skill_aspect_metal_expertise	A vicious, short range attack.	Blood Rush	0	false	false	false	0.0000
+ep_dyn_special_ability_cleansing_aura	3k_main_skill_aspect_wood_perseverance	Gradually heal nearby allies over time. 	Cleansing Aura	0	false	false	false	0.0000
+ep_dyn_special_ability_clear_a_path	3k_main_skill_aspect_wood_perseverance	A shockwave that clears your path of enemies.	Clear a Path	0	false	false	false	0.0000
+ep_dyn_special_ability_fire_bomb	3k_main_skill_aspect_fire_instinct	Hurl an explosive fire bomb to decimate a target area.	Fire Bomb	0	false	false	false	0.0000
+ep_dyn_special_ability_flaming_fury	3k_main_skill_aspect_fire_instinct	Your fiery wrath engulfs those unfortunate enough to be within range.	Flaming Fury	0	false	false	false	0.0000
+ep_dyn_special_ability_immunity_to_fatigue	3k_main_skill_aspect_water_cunning	Bestows immunity to fatigue.	Immunity to Fatigue	0	false	false	false	0.0000
+ep_dyn_special_ability_multishot	3k_main_skill_aspect_water_cunning	Fires a flurry of arrows that can hit multiple targets.	Multi-shot	0	false	false	false	0.0000
+ep_dyn_special_ability_palm_strike	3k_main_skill_aspect_earth_authority	A concussive blast that knocks back your foes.	Palm Strike	0	false	false	false	0.0000
+ep_dyn_special_ability_precision_shot	3k_main_skill_aspect_water_cunning	An arrow fired with unnerving accuracy.	Precision Shot	0	false	false	false	0.0000
+ep_dyn_special_ability_seismic_slam	3k_main_skill_aspect_wood_perseverance	Tremors violently shake the ground beneath your feet.	Seismic Slam	0	false	false	false	0.0000
+ep_dyn_special_ability_sweeping_arc	3k_main_skill_aspect_fire_instinct	A sweeping attack that knocks back nearby opponents.	Sweeping Arc	0	false	false	false	0.0000
+ep_dyn_special_ability_time_of_need	3k_main_skill_aspect_water_cunning	Instantly heal an ally's wounds.	Time of Need	0	false	false	false	0.0000
+ep_dyn_special_ability_tripleshot	3k_main_skill_aspect_metal_expertise	Fires three arrows within a short range.	Triple-shot	0	false	false	false	0.0000
+ep_dyn_special_ability_unstoppable_charge	3k_main_skill_aspect_earth_authority	Charge forward while trampling any enemies in your way.	Unstoppable Charge	0	false	false	false	0.0000
+ep_skill_mastery_earth_clarity	3k_main_skill_mastery_earth_3_clarity	Coherence in thought and speech brings clear advantage.	Clarity	0	false	false	false	0.0000
+ep_skill_mastery_earth_opportunism	3k_ytr_skill_veteran_opportunism	A tiger cares not where its meal comes from, only that it feeds.	Opportunism	0	false	false	false	0.0000
+ep_skill_mastery_earth_stability	3k_main_skill_mastery_earth_4_stability	The pillar is strongest at its base.	Stability	0	false	false	false	0.0000
+ep_skill_mastery_earth_surprise_attack	3k_ytr_skill_scholar_humility	When the opportunity is right let discipline be second to the unconventional.	Surprise Attack	0	false	false	false	0.0000
+ep_skill_mastery_metal_insight	3k_ytr_skill_scholar_insight	There is more in the sea than can be glimpsed on the surface.	Insight	0	false	false	false	0.0000
+ep_skill_mastery_water_scholarship	3k_main_skill_mastery_water_strategist_5_scholarship	A nation's treasure is in its scholars.	Scholarship	0	false	false	false	0.0000
+ep_skill_mastery_water_wisdom	3k_main_skill_mastery_water_strategist_4_wisdom	The wise make their own decisions, the ignorant follow public opinion. 	Wisdom	0	false	false	false	0.0000
+ep_skill_mastery_wood_abundance	3k_main_skill_mastery_wood_2_abundance	Give a man a fish and you feed him for a day. Teach him to fish and you feed him for a lifetime.	Abundance	0	false	false	false	0.0000
+ep_skill_mastery_wood_focus	3k_ytr_skill_veteran_focus	Breathe out and into your target, allowing distractions to fall away.	Focus	0	false	false	false	0.0000

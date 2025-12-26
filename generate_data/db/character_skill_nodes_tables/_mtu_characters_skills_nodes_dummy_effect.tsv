@@ -1,0 +1,4 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui	game_mode	can_meet_parent_requirment_with_children
+#character_skill_nodes_tables;7;db/character_skill_nodes_tables/_mtu_characters_skills_nodes_dummy_effect												
+3k_main_skillset_historical_lu_bu_2C_dummy		3k_main_skill_special_ability_fire_father_daughter	3k_main_skillset_historical_lu_bu		-1.0000	1.0000		1	0	false	romance	false
+3k_main_skillset_historical_lady_lu_ji_2C_dummy		3k_main_skill_special_ability_fire_father_daughter	3k_main_skillset_historical_lady_lu_ji		-1.0000	1.0000		1	0	false	romance	false

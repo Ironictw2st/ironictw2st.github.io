@@ -1,0 +1,3 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/sun_quan								
+3k_main_skillset_sun_quan_minister_earth	general				false	false	3k_general_earth	

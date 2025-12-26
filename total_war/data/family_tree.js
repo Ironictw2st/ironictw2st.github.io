@@ -11442,7 +11442,7 @@ const FAMILY_RELATIONSHIPS = [
     "character_name": "dong_min",
     "related_to": "3k_main_template_generated_lady_dong_li_hero_metal",
     "related_name": "dong_li",
-    "relationship": "nephew"
+    "relationship": "niece"
   },
   {
     "character": "3k_main_template_generated_lady_liu_huimin_hero_earth",

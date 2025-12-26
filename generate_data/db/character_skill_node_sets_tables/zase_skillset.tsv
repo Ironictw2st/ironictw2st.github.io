@@ -1,0 +1,22 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/zase_skillset								
+3k_main_skillset_historical_wang_lang	general			3k_main_chinese	false	false	3k_general_earth	
+3k_main_skillset_historical_lady_bian_huilan	general			3k_main_chinese	false	false	3k_general_metal	
+3k_main_skillset_historical_liu_yao	general			3k_main_chinese	false	false	3k_general_earth	
+3k_main_skillset_historical_lady_mi	general			3k_main_chinese	false	false	3k_general_earth	
+3k_main_skillset_historical_xu_shu	general			3k_main_chinese	false	false	3k_general_fire	
+3k_main_skillset_historical_li_jue	general			3k_main_chinese	false	false	3k_general_metal	
+3k_main_skillset_historical_yan_yu	general			3k_main_chinese	false	false	3k_general_wood	
+3k_main_skillset_historical_tao_qian	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_gongsun_zan	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_han_sui	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_ji_ling	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_kong_rong	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_liu_biao	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_liu_zhang	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_sun_quan	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_yuan_shu	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_lady_zhen	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_cao_pi	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_yuan_shang	general			3k_main_chinese	false	false		
+3k_main_skillset_historical_yuan_tan	general			3k_main_chinese	false	false		

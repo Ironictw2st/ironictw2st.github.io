@@ -1,0 +1,75 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting
+#character_skills_tables;4;db/character_skills_tables/ironic_skills								
+ironic_cao_chun	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_cao_hong	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_cheng_yu	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_lu_meng	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_pang_degong	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_sima_hui	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_wang_lang_buff	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_wang_lang_death	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_zhu_zhi	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_chen_wu	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_ding_feng	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_dong_xi	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_han_dang	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_jiang_qin	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_ling_tong	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_pan_zhang	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_xu_sheng	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_skill_special_ability_wood_hail_of_arrows	3k_main_skill_aspect_wood_perseverance	A flurry of shafts slows the enemy advance.	Hail of Arrows	0	false	false	false	0.0000
+ironic_skill_governor_protector_of_home	3k_main_skill_aspect_wood_perseverance	A good offense is a good defense.	Homeland Defence	0	false	false	false	0.0000
+ironic_skill_roar_of_the_beast	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_skill_unity_of_family	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_skill_the_eight_warlords	3k_main_skill_aspect_fire_instinct		The Eight Warlords	0	false	false	false	0.0000
+ironic_special_ability_gao_lan	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_special_ability_zhang_lu	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_special_ability_liu_yu	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_special_ability_bao_xin	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_special_ability_chen_ying	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_special_ability_yuan_royalty	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_special_ability_gao_gan	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_special_ability_gongsun_kang	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_special_ability_qu_yi	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_special_ability_gongsun_du	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_mod_xianbei_hail_of_arrows	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_natures_ally	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_mod_xianbei_support_ranged	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_mod_xianbei_general_skill_1	3k_main_skill_mastery_fire_Capability			0	false	false	false	0.0000
+ironic_mod_xianbei_general_skill_2	3k_main_skill_mastery_earth_deftness			0	false	false	false	0.0000
+ironic_mod_xianbei_general_skill_3	3k_main_skill_mastery_metal_staunch			0	false	false	false	0.0000
+ironic_mod_xianbei_general_skill_4	3k_main_skill_mastery_wood_sustainibility			0	false	false	false	0.0000
+3k_main_skill_special_ability_metal_into_the_breach	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_mod_wuhuan_general_skill_1	3k_main_skill_mastery_wood_5_consideration			0	false	false	false	0.0000
+ironic_mod_wuhuan_general_skill_2	3k_main_skill_mastery_metal_5_diligence			0	false	false	false	0.0000
+ironic_mod_wuhuan_general_skill_3	3k_main_skill_mastery_earth_2_mobility			0	false	false	false	0.0000
+ironic_mod_wuhuan_general_skill_4	3k_main_skill_mastery_water_archer_5_reach			0	false	false	false	0.0000
+ironic_mod_xiongnu_general_skill_1	3k_main_skill_mastery_wood_5_consideration			0	false	false	false	0.0000
+ironic_mod_xiongnu_general_skill_2	3k_main_skill_mastery_metal_5_diligence			0	false	false	false	0.0000
+ironic_mod_xiongnu_general_skill_3	3k_main_skill_mastery_earth_2_mobility			0	false	false	false	0.0000
+ironic_mod_xiongnu_general_skill_4	3k_main_skill_mastery_water_archer_5_reach			0	false	false	false	0.0000
+ironic_mod_di_general_skill_1	3k_main_skill_mastery_wood_5_consideration			0	false	false	false	0.0000
+ironic_mod_di_general_skill_2	3k_main_skill_mastery_metal_5_diligence			0	false	false	false	0.0000
+ironic_mod_di_general_skill_3	3k_main_skill_mastery_earth_2_mobility			0	false	false	false	0.0000
+ironic_mod_di_general_skill_4	3k_main_skill_mastery_water_archer_5_reach			0	false	false	false	0.0000
+ironic_mod_wuhuan_splash_damage	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_mod_wuhuan_roar_beast	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_mod_xiongnu_crippling_gaze	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_mod_di_healing	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_mod_di_splash_attack	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_siege_ability	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_mod_gan_ji_fire_breath	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_mod_wang_yi_call_of_defiance	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_mod_gan_ji_drunken_talk	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_mod_mi_heng_trolling	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_mod_hua_tuo_healing	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_mod_zuo_ci_wisdom	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_mod_zuo_ci_hidden	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_mod_hua_tuo_ability_cooldown	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_special_ability_gan_ning_bow	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_special_ability_zhou_tai_guard	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_ling_tong_avengers	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+rew_iro_190e_skill_special_ability_fire_decisive_strike	3k_main_skill_aspect_fire_instinct	Hurl a bundle of explosive fire bombs to knockdown the enemy.	Fire Bomb	0	false	false	false	0.0000
+ironic_pan_zhang_axe	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_sun_quan	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_xu_sheng_earth	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000

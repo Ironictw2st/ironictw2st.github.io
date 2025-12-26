@@ -1,0 +1,15 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/!!ironic_added_barbarians								
+ironic_mod_skillset_barbarian_generic	general				false	false	3k_general_fire	
+3k_main_skillset_xianbei_minister_metal	general				false	false	3k_general_metal	
+3k_main_skillset_xianbei_general_metal	general				false	false	3k_general_metal	
+3k_main_skillset_xianbei_governor_metal	general				false	false	3k_general_metal	
+3k_main_skillset_wuhuan_minister_fire	general				false	false	3k_general_fire	
+3k_main_skillset_wuhuan_general_fire	general				false	false	3k_general_fire	
+3k_main_skillset_wuhuan_governor_fire	general				false	false	3k_general_fire	
+3k_main_skillset_xiongnu_minister_earth	general				false	false	3k_general_earth	
+3k_main_skillset_xiongnu_general_earth	general				false	false	3k_general_earth	
+3k_main_skillset_xiongnu_governor_earth	general				false	false	3k_general_earth	
+3k_main_skillset_di_minister_wood	general				false	false	3k_general_wood	
+3k_main_skillset_di_general_wood	general				false	false	3k_general_wood	
+3k_main_skillset_di_governor_wood	general				false	false	3k_general_wood	

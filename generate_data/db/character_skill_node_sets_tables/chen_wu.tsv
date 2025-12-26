@@ -1,0 +1,10 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/chen_wu								
+3k_main_skillset_chen_wu_general_metal	general				false	false	3k_general_metal	
+3k_main_skillset_ding_feng_general_wood	general				false	false	3k_general_wood	
+3k_main_skillset_dong_xi_general_fire	general				false	false	3k_general_fire	
+3k_main_skillset_han_dang_general_fire	general				false	false	3k_general_fire	
+3k_main_skillset_pan_zhang_general_fire	general				false	false	3k_general_fire	
+3k_dlc05_skillset_jiang_qin_bandit_general_fire	general				false	false	3k_general_fire	
+3k_main_skillset_ling_tong_general_wood	general				false	false	3k_general_wood	
+3k_main_skillset_xu_sheng_general_earth	general				false	false	3k_general_earth	

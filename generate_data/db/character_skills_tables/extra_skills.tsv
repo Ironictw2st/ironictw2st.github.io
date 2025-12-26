@@ -1,0 +1,11 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting
+#character_skills_tables;4;db/character_skills_tables/extra_skills								
+ironic_cao_chun	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_cao_hong	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_cheng_yu	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_lu_meng	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_pang_degong	3k_main_skill_aspect_water_cunning			0	false	false	false	0.0000
+ironic_sima_hui	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_wang_lang_buff	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_wang_lang_death	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000
+ironic_zhu_zhi	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000

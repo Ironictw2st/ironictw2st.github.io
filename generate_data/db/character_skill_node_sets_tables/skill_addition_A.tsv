@@ -1,0 +1,10 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/skill_addition_A								
+3k_main_skillset_cao_hong_general_wood	general				false	false	3k_general_wood	
+3k_main_skillset_cao_chun_general_fire	general				false	false	3k_general_fire	
+3k_main_skillset_cheng_yu_minister_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_lu_meng_minister_metal	general				false	false	3k_general_metal	
+3k_main_skillset_pang_degong_minister_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_sima_hui_minister_earth	general				false	false	3k_general_earth	
+3k_main_skillset_wang_lang_minister_earth	general				false	false	3k_general_earth	
+3k_main_skillset_zhu_zhi_governor_metal	general				false	false	3k_general_metal	

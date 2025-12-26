@@ -841,30 +841,40 @@ def main():
     print("[6/10] Loading game mode details...")
     gmd_folder = os.path.join(DB_PATH, "character_generation_template_game_mode_details_tables")
     template_to_initial_ceos = {}
+    template_to_skill_set = {}
 
     base_path = os.path.join(gmd_folder, "data__.tsv")
     if os.path.exists(base_path):
         for gmd in parse_tsv(base_path):
             template_key = _s(gmd.get("character_generation_template", ""))
             initial_ceos = _s(gmd.get("initial_ceos", ""))
+            # "skill set override" has spaces, not underscores
+            skill_set = _s(gmd.get("skill set override", "")) or _s(gmd.get("skill_set_override", ""))
             if template_key and initial_ceos:
                 template_to_initial_ceos[template_key] = initial_ceos
-        print(f"  Loaded base: {len(template_to_initial_ceos)} mappings")
+            if template_key and skill_set:
+                template_to_skill_set[template_key] = skill_set
+        print(f"  Loaded base: {len(template_to_initial_ceos)} ceo mappings, {len(template_to_skill_set)} skill set mappings")
 
     if os.path.exists(gmd_folder):
         for filename in sorted(os.listdir(gmd_folder)):
             if filename.endswith(".tsv") and filename != "data__.tsv":
                 filepath = os.path.join(gmd_folder, filename)
-                count = 0
+                ceo_count = 0
+                skill_count = 0
                 for gmd in parse_tsv(filepath):
                     template_key = _s(gmd.get("character_generation_template", ""))
                     initial_ceos = _s(gmd.get("initial_ceos", ""))
+                    skill_set = _s(gmd.get("skill set override", "")) or _s(gmd.get("skill_set_override", ""))
                     if template_key and initial_ceos:
                         template_to_initial_ceos[template_key] = initial_ceos
-                        count += 1
-                print(f"  Loaded override {filename}: {count} mappings")
+                        ceo_count += 1
+                    if template_key and skill_set:
+                        template_to_skill_set[template_key] = skill_set
+                        skill_count += 1
+                print(f"  Loaded override {filename}: {ceo_count} ceo, {skill_count} skill set mappings")
 
-    print(f"  Total: {len(template_to_initial_ceos)} mappings")
+    print(f"  Total: {len(template_to_initial_ceos)} ceo mappings, {len(template_to_skill_set)} skill set mappings")
     print()
 
     # [7/10] ceo_initial_data_to_stages
@@ -1240,6 +1250,9 @@ def main():
 
         computed_is_unique = ("generic" not in stage3_key.lower())
 
+        # Get skill set for this character template
+        skill_set = template_to_skill_set.get(key, "")
+
         characters.append({
             "key": key,
             "name_key": char_name_key,
@@ -1260,6 +1273,7 @@ def main():
             "birth_year": birth_year,
             "death_year": "???",
             "traits": trait_ceos,
+            "skill_set": skill_set,
         })
 
         # =========================
@@ -1308,12 +1322,14 @@ def main():
     with_titles = sum(1 for c in characters if c["title"])
     with_desc = sum(1 for c in characters if c["description"])
     with_portraits = sum(1 for _, v in character_details.items() if v.get("portrait", {}).get("url"))
+    with_skill_sets = sum(1 for c in characters if c.get("skill_set"))
 
     print(f"  Processed {len(characters)} characters")
     print(f"  With titles: {with_titles}")
     print(f"  With descriptions: {with_desc}")
     print(f"  With portraits: {with_portraits}")
     print(f"  With effects entries: {len(character_details)}")
+    print(f"  With skill sets: {with_skill_sets}")
     print()
 
     # ============================================================================
@@ -1406,7 +1422,7 @@ TRAIT_DATA.forEach(t => {{ TRAIT_LOOKUP[t.key] = t; }});
     print("=" * 60)
     print("SUMMARY")
     print("=" * 60)
-    print(f"  Total: {len(characters)}, Titles: {with_titles}, Descriptions: {with_desc}, Details: {len(character_details)}")
+    print(f"  Total: {len(characters)}, Titles: {with_titles}, Descriptions: {with_desc}, Details: {len(character_details)}, Skill Sets: {with_skill_sets}")
     print()
 
 

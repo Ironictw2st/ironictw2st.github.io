@@ -1,0 +1,14 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/!!!ironic_yellow_turbanfix								
+3k_ytr_skillset_romance_generic_artisan_healer	general				false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_artisan_scholar	general				false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_artisan_veteran	general				false	false	3k_general_wood	
+3k_ytr_skillset_romance_generic_official_healer	general				false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_official_scholar	general				false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_official_veteran	general				false	false	3k_general_wood	
+3k_ytr_skillset_romance_generic_peasant_healer	general				false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_peasant_scholar	general				false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_peasant_veteran	general				false	false	3k_general_wood	
+3k_ytr_skillset_romance_generic_soldier_healer	general				false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_soldier_scholar	general				false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_soldier_veteran	general				false	false	3k_general_wood	

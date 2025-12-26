@@ -1,0 +1,164 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui	game_mode	can_meet_parent_requirment_with_children
+#character_skill_nodes_tables;7;db/character_skill_nodes_tables/northpatch												
+3k_main_skillset_gao_lan_general_wood_0A		3k_main_skill_mastery_wood_2_abundance_mlvl_3	ironic_skillset_gao_lan		0.1000	2.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_0B		3k_main_skill_mastery_water_strategist_4_wisdom_mlvl_3	ironic_skillset_gao_lan		0.8000	2.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_0C		3k_main_skill_mastery_wood_4_trust_mlvl_3	ironic_skillset_gao_lan		1.5000	2.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_0D		3k_main_skill_mastery_water_archer_5_reach_mlvl_3	ironic_skillset_gao_lan		2.2000	2.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_0E		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_gao_lan		2.9000	2.0000		1	1	true		true
+3k_main_skillset_gao_lan_general_wood_1A		3k_main_skill_mastery_wood_3_patience_mlvl_3	ironic_skillset_gao_lan		0.1000	0.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_1B		3k_main_skill_mastery_water_archer_3_guile_mlvl_3	ironic_skillset_gao_lan		0.8000	0.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_1C		3k_main_skill_mastery_wood_5_consideration_mlvl_3	ironic_skillset_gao_lan		1.5000	0.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_1D		3k_main_skill_mastery_fire_3_vengeance_mlvl_3	ironic_skillset_gao_lan		2.2000	0.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_1E		3k_main_skill_mastery_wood_1_endurance_mlvl_3	ironic_skillset_gao_lan		2.9000	0.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_2A_historical		3k_main_skill_bodyguard_wood_wood_alt_1	ironic_skillset_gao_lan		0.1000	1.0000		0	1	true	historical	true
+3k_main_skillset_gao_lan_general_wood_2A_romance		3k_main_skill_special_ability_wood_binding_fury	ironic_skillset_gao_lan		0.1000	1.0000		0	1	true	romance	true
+3k_main_skillset_gao_lan_general_wood_2B		3k_main_skill_mastery_metal_2_intuition_mlvl_3	ironic_skillset_gao_lan		0.8000	1.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_2C_historical		3k_main_skill_bodyguard_wood_wood	ironic_skillset_gao_lan		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_gao_lan_general_wood_2C_romance		ironic_special_ability_gao_lan	ironic_skillset_gao_lan		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_gao_lan_general_wood_2D		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_gao_lan		2.2000	1.0000		0	1	true		true
+3k_main_skillset_gao_lan_general_wood_2E_historical		3k_main_skill_bodyguard_wood_wood_alt_2	ironic_skillset_gao_lan		2.9000	1.0000		1	1	true	historical	true
+3k_main_skillset_gao_lan_general_wood_2E_romance		3k_main_skill_special_ability_wood_hamstring	ironic_skillset_gao_lan		2.9000	1.0000		1	1	true	romance	true
+3k_main_skillset_zhang_lu_minister_wood_0A		3k_main_skill_mastery_wood_2_abundance_mlvl_3	ironic_skillset_zhang_lu		0.1000	2.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_0B		3k_main_skill_mastery_water_strategist_4_wisdom_mlvl_3	ironic_skillset_zhang_lu		0.8000	2.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_0C		3k_main_skill_mastery_wood_4_trust_mlvl_3	ironic_skillset_zhang_lu		1.5000	2.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_0D		3k_main_skill_mastery_water_archer_5_reach_mlvl_3	ironic_skillset_zhang_lu		2.2000	2.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_0E		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_zhang_lu		2.9000	2.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_1A		3k_main_skill_mastery_wood_3_patience_mlvl_3	ironic_skillset_zhang_lu		0.1000	0.0000		1	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_1B		3k_main_skill_mastery_water_archer_3_guile_mlvl_3	ironic_skillset_zhang_lu		0.8000	0.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_1C		3k_main_skill_mastery_wood_5_consideration_mlvl_3	ironic_skillset_zhang_lu		1.5000	0.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_1D		3k_main_skill_mastery_fire_3_vengeance_mlvl_3	ironic_skillset_zhang_lu		2.2000	0.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_1E		3k_main_skill_mastery_wood_1_endurance_mlvl_3	ironic_skillset_zhang_lu		2.9000	0.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_2A_historical		3k_main_skill_bodyguard_wood_wood_alt_1	ironic_skillset_zhang_lu		0.1000	1.0000		1	1	true	historical	true
+3k_main_skillset_zhang_lu_minister_wood_2A_romance		3k_main_skill_special_ability_wood_binding_fury	ironic_skillset_zhang_lu		0.1000	1.0000		1	1	true	romance	true
+3k_main_skillset_zhang_lu_minister_wood_2B		3k_main_skill_mastery_metal_2_intuition_mlvl_3	ironic_skillset_zhang_lu		0.8000	1.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_2C_historical		3k_main_skill_bodyguard_wood_wood	ironic_skillset_zhang_lu		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_zhang_lu_minister_wood_2C_romance		3k_main_skill_special_ability_wood_earthen_rampart	ironic_skillset_zhang_lu		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_zhang_lu_minister_wood_2D		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_zhang_lu		2.2000	1.0000		0	1	true		true
+3k_main_skillset_zhang_lu_minister_wood_2E_historical		3k_main_skill_bodyguard_wood_wood_alt_2	ironic_skillset_zhang_lu		2.9000	1.0000		0	1	true	historical	true
+3k_main_skillset_zhang_lu_minister_wood_2E_romance		ironic_special_ability_zhang_lu	ironic_skillset_zhang_lu		2.9000	1.0000		0	1	true	romance	true
+3k_main_skillset_liu_yu_minister_earth_0A		3k_main_skill_mastery_earth_3_clarity_mlvl_3	ironic_skillset_liu_yu		0.1000	2.0000		1	1	true		true
+3k_main_skillset_liu_yu_minister_earth_0B		3k_main_skill_mastery_fire_5_dignity_mlvl_3	ironic_skillset_liu_yu		0.8000	2.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_0C		3k_main_skill_mastery_earth_1_nobility_mlvl_3	ironic_skillset_liu_yu		1.5000	2.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_0D		3k_main_skill_mastery_metal_4_understanding_mlvl_3	ironic_skillset_liu_yu		2.2000	2.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_0E		3k_main_skill_mastery_earth_4_stability_mlvl_3	ironic_skillset_liu_yu		2.9000	2.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_1A		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_liu_yu		0.1000	0.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_1B		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_liu_yu		0.8000	0.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_1C		3k_main_skill_mastery_earth_5_meditation_mlvl_3	ironic_skillset_liu_yu		1.5000	0.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_1D		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_liu_yu		2.2000	0.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_1E		3k_main_skill_mastery_water_archer_4_perception_mlvl_3	ironic_skillset_liu_yu		2.9000	0.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_2A_historical		3k_main_skill_bodyguard_earth_alt_1	ironic_skillset_liu_yu		0.1000	1.0000		1	1	true	historical	true
+3k_main_skillset_liu_yu_minister_earth_2A_romance		3k_main_skill_special_ability_earth_stone_bulwark	ironic_skillset_liu_yu		0.1000	1.0000		1	1	true	romance	true
+3k_main_skillset_liu_yu_minister_earth_2B		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_liu_yu		0.8000	1.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_2C_historical		3k_main_skill_bodyguard_earth	ironic_skillset_liu_yu		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_liu_yu_minister_earth_2C_romance		3k_main_skill_special_ability_earth_natures_ally	ironic_skillset_liu_yu		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_liu_yu_minister_earth_2D		3k_main_skill_mastery_water_strategist_3_composure_mlvl_3	ironic_skillset_liu_yu		2.2000	1.0000		0	1	true		true
+3k_main_skillset_liu_yu_minister_earth_2E_historical		3k_main_skill_bodyguard_earth_alt_2	ironic_skillset_liu_yu		2.9000	1.0000		0	1	true	historical	true
+3k_main_skillset_liu_yu_minister_earth_2E_romance		ironic_special_ability_liu_yu	ironic_skillset_liu_yu		2.9000	1.0000		0	1	true	romance	true
+3k_main_skillset_bao_xin_villager_metal_0A		3k_main_skill_mastery_metal_4_understanding_mlvl_3	ironic_skillset_bao_xin		0.1000	2.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_0B		3k_main_skill_mastery_earth_4_stability_mlvl_3	ironic_skillset_bao_xin		0.8000	2.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_0C		3k_main_skill_mastery_metal_5_dilligence_mlvl_3	ironic_skillset_bao_xin		1.5000	2.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_0D		3k_main_skill_mastery_water_strategist_5_scholarship_mlvl_3	ironic_skillset_bao_xin		2.2000	2.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_0E		3k_main_skill_mastery_metal_2_intuition_mlvl_3	ironic_skillset_bao_xin		2.9000	2.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_1A		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_bao_xin		0.1000	0.0000		1	1	true		true
+3k_main_skillset_bao_xin_villager_metal_1B		3k_main_skill_mastery_water_archer_4_perception_mlvl_3	ironic_skillset_bao_xin		0.8000	0.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_1C		3k_main_skill_mastery_metal_1_bravery_mlvl_3	ironic_skillset_bao_xin		1.5000	0.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_1D		3k_main_skill_mastery_water_strategist_3_composure_mlvl_3	ironic_skillset_bao_xin		2.2000	0.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_1E		3k_main_skill_mastery_water_archer_1_precision_mlvl_3	ironic_skillset_bao_xin		2.9000	0.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_2A_historical		3k_main_skill_bodyguard_metal_alt_1	ironic_skillset_bao_xin		0.1000	1.0000		1	1	true	historical	true
+3k_main_skillset_bao_xin_villager_metal_2A_romance		3k_main_skill_special_ability_metal_adamant_resolve	ironic_skillset_bao_xin		0.1000	1.0000		1	1	true	romance	true
+3k_main_skillset_bao_xin_villager_metal_2B		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_bao_xin		0.8000	1.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_2C_historical		3k_main_skill_bodyguard_metal	ironic_skillset_bao_xin		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_bao_xin_villager_metal_2C_romance		ironic_special_ability_bao_xin	ironic_skillset_bao_xin		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_bao_xin_villager_metal_2D		3k_main_skill_mastery_wood_3_patience_mlvl_3	ironic_skillset_bao_xin		2.2000	1.0000		0	1	true		true
+3k_main_skillset_bao_xin_villager_metal_2E_historical		3k_main_skill_bodyguard_metal_alt_2	ironic_skillset_bao_xin		2.9000	1.0000		0	1	true	historical	true
+3k_main_skillset_bao_xin_villager_metal_2E_romance		3k_main_skill_special_ability_metal_tempered_deflection	ironic_skillset_bao_xin		2.9000	1.0000		0	1	true	romance	true
+3k_main_skillset_chen_ying_z_general_fire_0A		3k_main_skill_mastery_water_archer_5_reach_mlvl_3	ironic_skillset_chen_ying		0.1000	2.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_0B		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_chen_ying		0.8000	2.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_0C		3k_main_skill_mastery_fire_4_passion_mlvl_3	ironic_skillset_chen_ying		1.5000	2.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_0D		3k_main_skill_mastery_earth_3_clarity_mlvl_3	ironic_skillset_chen_ying		2.2000	2.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_0E		3k_main_skill_mastery_fire_5_dignity_mlvl_3	ironic_skillset_chen_ying		2.9000	2.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_1A		3k_main_skill_mastery_fire_3_vengeance_mlvl_3	ironic_skillset_chen_ying		0.1000	0.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_1B		3k_main_skill_mastery_wood_1_endurance_mlvl_3	ironic_skillset_chen_ying		0.8000	0.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_1C		3k_main_skill_mastery_fire_2_fury_mlvl_3	ironic_skillset_chen_ying		1.5000	0.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_1D		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_chen_ying		2.2000	0.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_1E		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_chen_ying		2.9000	0.0000		1	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_2A_historical		3k_main_skill_bodyguard_fire_alt_1	ironic_skillset_chen_ying		0.1000	1.0000		0	1	true	historical	true
+3k_main_skillset_chen_ying_z_general_fire_2A_romance		3k_main_skill_special_ability_fire_flames_of_the_phoenix	ironic_skillset_chen_ying		0.1000	1.0000		0	1	true	romance	true
+3k_main_skillset_chen_ying_z_general_fire_2B		3k_main_skill_mastery_water_archer_3_guile_mlvl_3	ironic_skillset_chen_ying		0.8000	1.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_2C_historical		3k_main_skill_bodyguard_fire	ironic_skillset_chen_ying		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_chen_ying_z_general_fire_2C_romance		ironic_special_ability_chen_ying	ironic_skillset_chen_ying		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_chen_ying_z_general_fire_2D		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_chen_ying		2.2000	1.0000		0	1	true		true
+3k_main_skillset_chen_ying_z_general_fire_2E_historical		3k_main_skill_bodyguard_fire_alt_2	ironic_skillset_chen_ying		2.9000	1.0000		1	1	true	historical	true
+3k_main_skillset_chen_ying_z_general_fire_2E_romance		3k_main_skill_special_ability_fire_roar_of_the_beast	ironic_skillset_chen_ying		2.9000	1.0000		1	1	true	romance	true
+3k_main_skillset_gao_gan_agent_metal_0A		3k_main_skill_mastery_metal_4_understanding_mlvl_3	ironic_skillset_gao_gan		0.1000	2.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_0B		3k_main_skill_mastery_earth_4_stability_mlvl_3	ironic_skillset_gao_gan		0.8000	2.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_0C		3k_main_skill_mastery_metal_5_dilligence_mlvl_3	ironic_skillset_gao_gan		1.5000	2.0000		1	1	true		true
+3k_main_skillset_gao_gan_agent_metal_0D		3k_main_skill_mastery_water_strategist_5_scholarship_mlvl_3	ironic_skillset_gao_gan		2.2000	2.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_0E		3k_main_skill_mastery_metal_2_intuition_mlvl_3	ironic_skillset_gao_gan		2.9000	2.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_1A		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_gao_gan		0.1000	0.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_1B		3k_main_skill_mastery_water_archer_4_perception_mlvl_3	ironic_skillset_gao_gan		0.8000	0.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_1C		3k_main_skill_mastery_metal_1_bravery_mlvl_3	ironic_skillset_gao_gan		1.5000	0.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_1D		3k_main_skill_mastery_water_strategist_3_composure_mlvl_3	ironic_skillset_gao_gan		2.2000	0.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_1E		3k_main_skill_mastery_water_archer_1_precision_mlvl_3	ironic_skillset_gao_gan		2.9000	0.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_2A_historical		3k_main_skill_bodyguard_metal_alt_1	ironic_skillset_gao_gan		0.1000	1.0000		0	1	true	historical	true
+3k_main_skillset_gao_gan_agent_metal_2A_romance		3k_main_skill_special_ability_metal_adamant_resolve	ironic_skillset_gao_gan		0.1000	1.0000		0	1	true	romance	true
+3k_main_skillset_gao_gan_agent_metal_2B		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_gao_gan		0.8000	1.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_2C_historical		3k_main_skill_bodyguard_metal	ironic_skillset_gao_gan		1.5000	1.0000		1	1	true	historical	true
+3k_main_skillset_gao_gan_agent_metal_2C_romance		3k_main_skill_special_ability_metal_tenacity_of_steel	ironic_skillset_gao_gan		1.5000	1.0000		1	1	true	romance	true
+3k_main_skillset_gao_gan_agent_metal_2D		3k_main_skill_mastery_wood_3_patience_mlvl_3	ironic_skillset_gao_gan		2.2000	1.0000		0	1	true		true
+3k_main_skillset_gao_gan_agent_metal_2E_historical		3k_main_skill_bodyguard_metal_alt_2	ironic_skillset_gao_gan		2.9000	1.0000		0	1	true	historical	true
+3k_main_skillset_gao_gan_agent_metal_2E_romance		ironic_special_ability_gao_gan	ironic_skillset_gao_gan		2.9000	1.0000		0	1	true	romance	true
+3k_main_skillset_gongsun_kang_minister_earth_0A		3k_main_skill_mastery_earth_3_clarity_mlvl_3	ironic_skillset_gongsun_kang		0.1000	2.0000		1	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_0B		3k_main_skill_mastery_fire_5_dignity_mlvl_3	ironic_skillset_gongsun_kang		0.8000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_0C		3k_main_skill_mastery_earth_1_nobility_mlvl_3	ironic_skillset_gongsun_kang		1.5000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_0D		3k_main_skill_mastery_metal_4_understanding_mlvl_3	ironic_skillset_gongsun_kang		2.2000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_0E		3k_main_skill_mastery_earth_4_stability_mlvl_3	ironic_skillset_gongsun_kang		2.9000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_1A		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_gongsun_kang		0.1000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_1B		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_gongsun_kang		0.8000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_1C		3k_main_skill_mastery_earth_5_meditation_mlvl_3	ironic_skillset_gongsun_kang		1.5000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_1D		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_gongsun_kang		2.2000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_1E		3k_main_skill_mastery_water_archer_4_perception_mlvl_3	ironic_skillset_gongsun_kang		2.9000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_2A_historical		3k_main_skill_bodyguard_earth_alt_1	ironic_skillset_gongsun_kang		0.1000	1.0000		1	1	true	historical	true
+3k_main_skillset_gongsun_kang_minister_earth_2A_romance		3k_main_skill_special_ability_earth_stone_bulwark	ironic_skillset_gongsun_kang		0.1000	1.0000		1	1	true	romance	true
+3k_main_skillset_gongsun_kang_minister_earth_2B		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_gongsun_kang		0.8000	1.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_2C_historical		3k_main_skill_bodyguard_earth	ironic_skillset_gongsun_kang		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_gongsun_kang_minister_earth_2C_romance		3k_main_skill_special_ability_earth_natures_ally	ironic_skillset_gongsun_kang		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_gongsun_kang_minister_earth_2D		3k_main_skill_mastery_water_strategist_3_composure_mlvl_3	ironic_skillset_gongsun_kang		2.2000	1.0000		0	1	true		true
+3k_main_skillset_gongsun_kang_minister_earth_2E_historical		3k_main_skill_bodyguard_earth_alt_2	ironic_skillset_gongsun_kang		2.9000	1.0000		0	1	true	historical	true
+3k_main_skillset_gongsun_kang_minister_earth_2E_romance		ironic_special_ability_gongsun_kang	ironic_skillset_gongsun_kang		2.9000	1.0000		0	1	true	romance	true
+3k_main_skillset_gongsun_du_envoy_metal_0A		3k_main_skill_mastery_metal_4_understanding_mlvl_3	ironic_skillset_gongsun_du		0.1000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_0B		3k_main_skill_mastery_earth_4_stability_mlvl_3	ironic_skillset_gongsun_du		0.8000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_0C		3k_main_skill_mastery_metal_5_dilligence_mlvl_3	ironic_skillset_gongsun_du		1.5000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_0D		3k_main_skill_mastery_water_strategist_5_scholarship_mlvl_3	ironic_skillset_gongsun_du		2.2000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_0E		3k_main_skill_mastery_metal_2_intuition_mlvl_3	ironic_skillset_gongsun_du		2.9000	2.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_1A		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_gongsun_du		0.1000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_1B		3k_main_skill_mastery_water_archer_4_perception_mlvl_3	ironic_skillset_gongsun_du		0.8000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_1C		3k_main_skill_mastery_metal_1_bravery_mlvl_3	ironic_skillset_gongsun_du		1.5000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_1D		3k_main_skill_mastery_water_strategist_3_composure_mlvl_3	ironic_skillset_gongsun_du		2.2000	0.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_1E		3k_main_skill_mastery_water_archer_1_precision_mlvl_3	ironic_skillset_gongsun_du		2.9000	0.0000		1	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_2A_historical		3k_main_skill_bodyguard_metal_alt_1	ironic_skillset_gongsun_du		0.1000	1.0000		0	1	true	historical	true
+3k_main_skillset_gongsun_du_envoy_metal_2A_romance		3k_main_skill_special_ability_metal_adamant_resolve	ironic_skillset_gongsun_du		0.1000	1.0000		0	1	true	romance	true
+3k_main_skillset_gongsun_du_envoy_metal_2B		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_gongsun_du		0.8000	1.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_2C_historical		3k_main_skill_bodyguard_metal	ironic_skillset_gongsun_du		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_gongsun_du_envoy_metal_2C_romance		ironic_special_ability_gongsun_du	ironic_skillset_gongsun_du		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_gongsun_du_envoy_metal_2D		3k_main_skill_mastery_wood_3_patience_mlvl_3	ironic_skillset_gongsun_du		2.2000	1.0000		0	1	true		true
+3k_main_skillset_gongsun_du_envoy_metal_2E_historical		3k_main_skill_bodyguard_metal_alt_2	ironic_skillset_gongsun_du		2.9000	1.0000		1	1	true	historical	true
+3k_main_skillset_gongsun_du_envoy_metal_2E_romance		3k_main_skill_special_ability_metal_tempered_deflection	ironic_skillset_gongsun_du		2.9000	1.0000		1	1	true	romance	true
+3k_main_skillset_qu_yi_general_earth_0A		3k_main_skill_mastery_earth_3_clarity_mlvl_3	ironic_skillset_qu_yi		0.1000	2.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_0B		3k_main_skill_mastery_fire_5_dignity_mlvl_3	ironic_skillset_qu_yi		0.8000	2.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_0C		3k_main_skill_mastery_earth_1_nobility_mlvl_3	ironic_skillset_qu_yi		1.5000	2.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_0D		3k_main_skill_mastery_metal_4_understanding_mlvl_3	ironic_skillset_qu_yi		2.2000	2.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_0E		3k_main_skill_mastery_earth_4_stability_mlvl_3	ironic_skillset_qu_yi		2.9000	2.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_1A		3k_main_skill_mastery_earth_2_mobility_mlvl_3	ironic_skillset_qu_yi		0.1000	0.0000		1	1	true		true
+3k_main_skillset_qu_yi_general_earth_1B		3k_main_skill_mastery_fire_1_intensity_mlvl_3	ironic_skillset_qu_yi		0.8000	0.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_1C		3k_main_skill_mastery_earth_5_meditation_mlvl_3	ironic_skillset_qu_yi		1.5000	0.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_1D		3k_main_skill_mastery_metal_3_zeal_mlvl_3	ironic_skillset_qu_yi		2.2000	0.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_1E		3k_main_skill_mastery_water_archer_4_perception_mlvl_3	ironic_skillset_qu_yi		2.9000	0.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_2A_historical		3k_main_skill_bodyguard_earth_alt_1	ironic_skillset_qu_yi		0.1000	1.0000		1	1	true	historical	true
+3k_main_skillset_qu_yi_general_earth_2A_romance		3k_main_skill_special_ability_earth_stone_bulwark	ironic_skillset_qu_yi		0.1000	1.0000		1	1	true	romance	true
+3k_main_skillset_qu_yi_general_earth_2B		3k_main_skill_mastery_water_archer_2_flexibility_mlvl_3	ironic_skillset_qu_yi		0.8000	1.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_2C_historical		3k_main_skill_bodyguard_earth	ironic_skillset_qu_yi		1.5000	1.0000		0	1	true	historical	true
+3k_main_skillset_qu_yi_general_earth_2C_romance		ironic_special_ability_qu_yi	ironic_skillset_qu_yi		1.5000	1.0000		0	1	true	romance	true
+3k_main_skillset_qu_yi_general_earth_2D		3k_main_skill_mastery_water_strategist_3_composure_mlvl_3	ironic_skillset_qu_yi		2.2000	1.0000		0	1	true		true
+3k_main_skillset_qu_yi_general_earth_2E_historical		3k_main_skill_bodyguard_earth_alt_2	ironic_skillset_qu_yi		2.9000	1.0000		0	1	true	historical	true
+3k_main_skillset_qu_yi_general_earth_2E_romance		3k_main_skill_special_ability_earth_unyielding_earth	ironic_skillset_qu_yi		2.9000	1.0000		0	1	true	romance	true

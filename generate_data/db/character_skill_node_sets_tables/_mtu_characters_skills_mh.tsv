@@ -1,0 +1,4 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/_mtu_characters_skills_mh								
+3k_mtu_skillset_historical_emperor_ling	general			3k_main_chinese	false	false	3k_general_earth	
+3k_mtu_skillset_historical_empress_he	general			3k_main_chinese	false	false	3k_general_fire	

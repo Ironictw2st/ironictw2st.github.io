@@ -1,0 +1,74 @@
+key	text	tooltip
+#Loc;1;text/db/skills/extra_skills.pack.loc		
+effects_description_ironic_cao_chun	Ability: Tamer of Tigers and Leopards	false
+effects_description_ironic_cao_hong	Ability: Heroic Sacrifice	false
+effects_description_ironic_cheng_yu	Ability: The Strong Survive	false
+effects_description_ironic_lu_meng	Ability: Ignited Potential	false
+effects_description_ironic_pang_degong	Ability: Whispers of Eld	false
+effects_description_ironic_sima_hui	Ability: Ancient Sight	false
+effects_description_ironic_wang_lang_buff	Ability: Anguished Payback	false
+effects_description_ironic_wang_lang_death	Ability: Anguished Payback	false
+effects_description_ironic_zhu_zhi	Ability: Counter Stance	false
+unit_abilities_tooltip_text_ironic_cao_chun	"Follow me, men! Let us dismantle the enemy formation!"	false
+unit_abilities_onscreen_name_ironic_cao_chun	Tamer of Tigers and Leopards	false
+unit_abilities_tooltip_text_ironic_cao_hong	"The world can live without Cao Hong, but not without you!"	false
+unit_abilities_onscreen_name_ironic_cao_hong	Heroic Sacrifice	false
+unit_abilities_tooltip_text_ironic_cheng_yu	Chew up the chaff and spit them out, and let the survivors display why they are the best of the best.	false
+unit_abilities_onscreen_name_ironic_cheng_yu	The Strong Survive	false
+unit_abilities_tooltip_text_ironic_lu_meng	It is time for years of hard training to finally pay off!	false
+unit_abilities_onscreen_name_ironic_lu_meng	Ignited Potential	false
+unit_abilities_tooltip_text_ironic_pang_degong	By utilising long forgotten secrets, a path to victory is revealed.	false
+unit_abilities_onscreen_name_ironic_pang_degong	Whispers of Eld	false
+unit_abilities_tooltip_text_ironic_sima_hui	PLACEHOLDER	false
+unit_abilities_onscreen_name_ironic_sima_hui	Ancient Sight	false
+unit_abilities_tooltip_text_ironic_wang_lang_buff	Even as Wang Lang lets out a pained cry and falls off his steed, his men are invigorated to continue the struggle anew.	false
+unit_abilities_onscreen_name_ironic_wang_lang_buff	Anguished Payback	false
+unit_abilities_tooltip_text_ironic_wang_lang_death	Even as Wang Lang lets out a pained cry and falls off his steed, his men are invigorated to continue the struggle anew.	false
+unit_abilities_onscreen_name_ironic_wang_lang_death	Anguished Payback	false
+unit_abilities_tooltip_text_ironic_zhu_zhi	Disrupt the tactics of the enemy generals, and turn their strategems back against them!	false
+unit_abilities_onscreen_name_ironic_zhu_zhi	Counter Stance	false
+special_ability_phases_onscreen_name_ironic_cao_chun	Tamer of Tigers and Leopards	false
+special_ability_phases_onscreen_name_ironic_cao_hong	Heroic Sacrifice	false
+special_ability_phases_onscreen_name_ironic_cheng_yu	The Strong Survive	false
+special_ability_phases_onscreen_name_ironic_lu_meng	Ignited Potential	false
+special_ability_phases_onscreen_name_ironic_pang_degong	Whispers of Eld	false
+special_ability_phases_onscreen_name_ironic_sima_hui	Ancient Sight	false
+special_ability_phases_onscreen_name_ironic_wang_lang_buff	Anguished Payback	false
+special_ability_phases_onscreen_name_ironic_wang_lang_death	Anguished Payback	false
+special_ability_phases_onscreen_name_ironic_zhu_zhi	Counter Stance	false
+character_skills_localised_name_ironic_cao_chun	Tamer of Tigers and Leopards	false
+character_skills_localised_description_ironic_cao_chun	"Follow me, men! Let us dismantle the enemy formation!"	false
+character_skills_localised_name_ironic_cao_hong	Heroic Sacrifice	false
+character_skills_localised_description_ironic_cao_hong	"The world can live without Cao Hong, but not without you!"	false
+character_skills_localised_name_ironic_cheng_yu	The Strong Survive	false
+character_skills_localised_description_ironic_cheng_yu	Chew up the chaff and spit them out, and let the survivors display why they are the best of the best.	false
+character_skills_localised_name_ironic_lu_meng	Ignited Potential	false
+character_skills_localised_description_ironic_lu_meng	It is time for years of hard training to finally pay off!	false
+character_skills_localised_name_ironic_pang_degong	Whispers of Eld	false
+character_skills_localised_description_ironic_pang_degong	By utilising long forgotten secrets, a path to victory is revealed.	false
+character_skills_localised_name_ironic_sima_hui	Ancient Sight	false
+character_skills_localised_description_ironic_sima_hui	PLACEHOLDER	false
+character_skills_localised_name_ironic_wang_lang_buff	Anguished Payback	false
+character_skills_localised_description_ironic_wang_lang_buff	Even as Wang Lang lets out a pained cry and falls off his steed, his men are invigorated to continue the struggle anew.	false
+character_skills_localised_name_ironic_wang_lang_death	Anguished Payback	false
+character_skills_localised_description_ironic_wang_lang_death	Even as Wang Lang lets out a pained cry and falls off his steed, his men are invigorated to continue the struggle anew.	false
+character_skills_localised_name_ironic_zhu_zhi	Counter Stance	false
+character_skills_localised_description_ironic_zhu_zhi	Disrupt the tactics of the enemy generals, and turn their strategems back against them!	false
+unit_ability_types_onscreen_name_ironic_cao_chun	Active Buff	false
+unit_ability_types_localised_description_ironic_cao_chun	Tamer of Tigers and Leopards	false
+unit_ability_types_onscreen_name_ironic_cao_hong	Passive Buff	false
+unit_ability_types_localised_description_ironic_cao_hong	Heroic Sacrifice	false
+unit_ability_types_onscreen_name_ironic_cheng_yu	Targetted Buff	false
+unit_ability_types_localised_description_ironic_cheng_yu	The Strong Survive	false
+unit_ability_types_onscreen_name_ironic_lu_meng	Active Buff	false
+unit_ability_types_localised_description_ironic_lu_meng	Ignited Potential	false
+unit_ability_types_onscreen_name_ironic_pang_degong	Active Buff	false
+unit_ability_types_localised_description_ironic_pang_degong	Whispers of Eld	false
+unit_ability_types_onscreen_name_ironic_sima_hui	Active Buff	false
+unit_ability_types_localised_description_ironic_sima_hui	Ancient Sight	false
+unit_ability_types_onscreen_name_ironic_wang_lang_buff	Passive Buff	false
+unit_ability_types_localised_description_ironic_wang_lang_buff	Anguished Payback	false
+unit_ability_types_onscreen_name_ironic_wang_lang_death	Passive Debuff	false
+unit_ability_types_localised_description_ironic_wang_lang_death	Anguished Payback	false
+unit_ability_types_onscreen_name_ironic_zhu_zhi	Active Debuff	false
+unit_ability_types_localised_description_ironic_zhu_zhi	Counter Stance	false

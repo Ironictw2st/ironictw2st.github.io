@@ -1,0 +1,29 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/ironicskills								
+ironic_skillset_romance_sun_jing	general				false	false	3k_general_wood	
+ironic_skillset_romance_sun_ben	general				false	false	3k_general_fire	
+ironic_skillset_romance_sun_fu	general				false	false	3k_general_earth	
+ironic_skillset_hou_xuan	general				false	false	3k_general_fire	
+ironic_skillset_cheng_yi	general				false	false	3k_general_metal	
+ironic_skillset_cheng_yin	general				false	false	3k_general_wood	
+ironic_skillset_li_kan	general				false	false	3k_general_fire	
+ironic_skillset_liang_xing	general				false	false	3k_general_metal	
+ironic_skillset_ma_wan	general				false	false	3k_general_fire	
+ironic_skillset_yang_qiu	general				false	false	3k_general_wood	
+ironic_skillset_zhang_heng	general				false	false	3k_general_earth	
+ironic_skillset_gao_lan	general				false	false	3k_general_wood	
+ironic_skillset_zhang_lu	general				false	false	3k_general_wood	
+ironic_skillset_liu_yu	general				false	false	3k_general_earth	
+ironic_skillset_bao_xin	general				false	false	3k_general_metal	
+ironic_skillset_chen_ying	general				false	false	3k_general_fire	
+ironic_skillset_yuan_royalty_minister	general				false	false	3k_general_earth	
+ironic_skillset_gao_gan	general				false	false	3k_general_metal	
+ironic_skillset_gongsun_kang	general				false	false	3k_general_earth	
+ironic_skillset_gongsun_du	general				false	false	3k_general_metal	
+ironic_skillset_qu_yi	general				false	false	3k_general_earth	
+3k_main_skillset_gan_ji_metal	general				false	false	3k_general_metal	
+3k_main_skillset_wang_yi_earth	general				false	false	3k_general_earth	
+3k_main_skillset_hua_tuo_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_zuo_ci_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_mi_heng_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_pan_feng_fire_general	general				false	false	3k_general_fire	

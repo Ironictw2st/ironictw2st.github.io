@@ -499,17 +499,15 @@
     }
 
     .bio-text {
+      font-size: 0.95rem;
       color: var(--text-secondary);
-      font-size: 0.9rem;
-      line-height: 1.8;
+      line-height: 1.7;
       margin: 0;
-      white-space: pre-wrap;
     }
 
     .no-content {
       color: var(--text-muted);
       font-style: italic;
-      font-size: 0.85rem;
     }
 
     /* =========================
@@ -518,43 +516,38 @@
 
     .effects-panel {
       min-height: 250px;
-      background: rgba(0,0,0,0.15);
     }
 
-    .effect-category { margin-bottom: 1rem; }
+    .effect-category {
+      margin-bottom: 1rem;
+    }
+
     .effect-category:last-child { margin-bottom: 0; }
 
     .effect-category-header {
-      font-family: 'Cinzel', serif;
       font-size: 0.7rem;
-      font-weight: 600;
       color: var(--theme);
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      margin: 0 0 0.4rem 0;
-      padding-bottom: 0.15rem;
-      border-bottom: 1px solid rgba(255,255,255,0.10);
+      margin: 0 0 0.5rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px dashed rgba(255,255,255,0.10);
+      font-family: 'Cinzel', serif;
     }
 
     .effect-category-items {
       display: flex;
       flex-direction: column;
-      gap: 0.15rem;
+      gap: 0.35rem;
     }
 
     .effect-item {
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--text-secondary);
-      padding: 0.15rem 0.25rem;
-      background: rgba(255,255,255,0.03);
-      border-left: 2px solid rgba(255,255,255,0.18);
+      padding: 0.2rem 0.5rem;
+      background: rgba(255,255,255,0.02);
+      border-left: 2px solid rgba(255,255,255,0.10);
     }
-
-    .effect-category:nth-child(1) .effect-item { border-left-color: var(--theme); }
-    .effect-category:nth-child(2) .effect-item { border-left-color: rgba(196,30,58,0.55); }
-    .effect-category:nth-child(3) .effect-item { border-left-color: rgba(34,139,34,0.55); }
-    .effect-category:nth-child(4) .effect-item { border-left-color: rgba(65,105,225,0.55); }
-    .effect-category:nth-child(5) .effect-item { border-left-color: rgba(255,255,255,0.18); }
 
     /* =========================
        Technical Details
@@ -562,139 +555,168 @@
 
     .tech-details {
       margin-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
       padding-top: 1rem;
-      border-top: 1px solid #252530;
     }
 
     .tech-details summary {
-      font-family: 'Cinzel', serif;
-      font-size: 0.7rem;
+      cursor: pointer;
+      font-size: 0.75rem;
       color: var(--text-muted);
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      cursor: pointer;
-      padding: 0.5rem 0;
+      letter-spacing: 0.05em;
+      outline: none;
     }
+
+    .tech-details summary:hover { color: var(--text-secondary); }
 
     .tech-details dl {
-      margin: 1rem 0 0 0;
       display: grid;
-      grid-template-columns: 100px 1fr;
-      gap: 0.3rem 0.75rem;
-      font-size: 0.75rem;
+      grid-template-columns: auto 1fr;
+      gap: 0.5rem 1rem;
+      margin: 1rem 0 0 0;
+      font-size: 0.8rem;
     }
 
-    .tech-details dt { color: var(--text-muted); }
+    .tech-details dt {
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-size: 0.65rem;
+      letter-spacing: 0.05em;
+    }
+
     .tech-details dd {
       margin: 0;
       color: var(--text-secondary);
-      word-break: break-all;
     }
 
     .tech-details code {
-      font-size: 0.7rem;
-      color: var(--gold-primary);
+      font-family: monospace;
+      font-size: 0.75rem;
+      background: rgba(255,255,255,0.04);
+      padding: 0.1rem 0.3rem;
+      border-radius: 2px;
     }
 
     /* =========================
-       Family Tree Section
+       Tabs Section
        ========================= */
-    
-    .family-tree-section {
-        margin-top: 2rem;
-        padding: 1.5rem;
-        background: var(--bg-card);
-        border: 1px solid #252530;
+
+    .tabs-section {
+      margin-top: 2rem;
+      background: var(--bg-card);
+      border: 1px solid #252530;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 0 18px var(--theme-glow);
     }
+
+    .tabs-header {
+      display: flex;
+      border-bottom: 1px solid #252530;
+      background: rgba(0,0,0,0.2);
+    }
+
+    .tab-btn {
+      padding: 1rem 1.5rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid transparent;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-secondary);
+      background: rgba(255,255,255,0.02);
+    }
+
+    .tab-btn.active {
+      color: var(--theme);
+      border-bottom-color: var(--theme);
+      background: rgba(255,255,255,0.03);
+    }
+
+    .tab-content {
+      display: none;
+      padding: 1.5rem;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* =========================
+       Family Tree Section (inside tab)
+       ========================= */
 
     .family-tree-header {
-        font-family: 'Cinzel', serif;
-        font-size: 1rem;
-        font-weight: 600;
-        color: var(--theme);
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        margin: 0 0 1.5rem 0;
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid rgba(255,255,255,0.10);
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--theme);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 0 0 1.5rem 0;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
     }
 
-    .family-members {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        justify-content: center;
+    .family-group {
+      margin-bottom: 2rem;
     }
 
-    .family-group { margin-bottom: 2rem; }
     .family-group:last-child { margin-bottom: 0; }
 
     .family-group-title {
-        font-family: 'Cinzel', serif;
-        font-size: 0.8rem;
-        color: var(--text-secondary);
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        text-align: center;
-        margin-bottom: 1rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--theme);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+      opacity: 0.85;
+    }
+
+    .family-members {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
     }
 
     .family-member {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        text-decoration: none;
-        position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.2s ease;
     }
 
-    .family-member:hover { transform: translateY(-4px); }
+    .family-member:hover { transform: translateY(-2px); }
 
     .family-member-missing {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        cursor: not-allowed;
-        opacity: 0.7;
-        position: relative;
-    }
-
-    .family-member-missing .family-portrait {
-        border-style: dashed;
-        border-color: #404045;
-    }
-
-    .family-member-missing .family-portrait.no-portrait::after {
-        content: '—';
-        font-size: 1.5rem;
-        color: var(--text-muted);
-        opacity: 0.5;
-    }
-
-    .family-member-missing .family-member-name {
-        font-style: italic;
-        color: var(--text-muted);
+      opacity: 0.5;
+      cursor: default;
     }
 
     .family-member-missing:hover { transform: none; }
 
-    .family-member-missing .family-portrait:hover {
-        border-color: #404045;
-        box-shadow: none;
-    }
-
     .family-portrait {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        background: #0a0a0c;
-        background-size: cover;
-        background-position: center top;
-        border: 2px solid #252530;
-        position: relative;
-        overflow: hidden;
-        transition: all 0.3s ease;
+      width: 80px;
+      height: 80px;
+      border-radius: 4px;
+      border: 2px solid #353535;
+      background-color: #0a0a0c;
+      background-size: cover;
+      background-position: center top;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      transition: all 0.2s ease;
     }
 
     .family-member:hover .family-portrait {
@@ -776,6 +798,316 @@
     }
 
     /* =========================
+       Skill Tree Section
+       ========================= */
+
+    .skill-tree-container {
+      position: relative;
+    }
+
+    .skill-tree-header {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--theme);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 0 0 1.5rem 0;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+
+    .skill-tree-empty {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Grid-based skill tree layout */
+    .skill-tree-grid {
+      position: relative;
+      background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 100%);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 20px;
+      min-height: 300px;
+      overflow-x: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .skill-tree-canvas {
+      position: relative;
+      min-width: 600px;
+    }
+
+    /* Game Mode Toggle */
+    .skill-tree-mode-toggle {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .skill-tree-mode-btn {
+      padding: 0.5rem 1rem;
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: rgba(0,0,0,0.3);
+      border: 1px solid #353535;
+      border-radius: 4px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s ease;
+    }
+
+    .skill-tree-mode-btn:hover {
+      color: var(--text-secondary);
+      border-color: #4a4a4a;
+      background: rgba(255,255,255,0.05);
+    }
+
+    .skill-tree-mode-btn.active {
+      color: var(--theme);
+      border-color: var(--theme);
+      background: var(--theme-soft);
+    }
+
+    /* Hide nodes based on game mode filter */
+    .skill-tree-canvas[data-mode="romance"] .skill-node[data-game-mode="historical"] {
+      display: none;
+    }
+
+    .skill-tree-canvas[data-mode="historical"] .skill-node[data-game-mode="romance"] {
+      display: none;
+    }
+
+    /* SVG layer for connection lines */
+    .skill-tree-links {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .skill-tree-links line {
+      stroke: #4a4a4a;
+      stroke-width: 2;
+      stroke-dasharray: 4 4;
+    }
+
+    .skill-tree-links line.unlocked {
+      stroke: var(--theme);
+      stroke-dasharray: none;
+    }
+
+    /* Nodes layer */
+    .skill-tree-nodes {
+      position: relative;
+      z-index: 2;
+    }
+
+    .skill-node {
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 3px solid #353535;
+      background: radial-gradient(circle at 30% 30%, #1a1a1d, #0a0a0c);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.05);
+      /* Center the node on its position */
+      transform: translate(-50%, -50%);
+    }
+
+    .skill-node:hover {
+      border-color: var(--theme);
+      box-shadow: 0 0 20px var(--theme-glow), 0 4px 12px rgba(0,0,0,0.5);
+      transform: translate(-50%, -50%) scale(1.08);
+      z-index: 100;
+    }
+
+    .skill-node.unlocked {
+      border-color: var(--theme);
+      box-shadow: 0 0 12px var(--theme-glow), 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    .skill-node.locked {
+      opacity: 0.7;
+      filter: grayscale(40%);
+    }
+
+    /* Lock icon in bottom-right corner */
+    .skill-node.locked::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      right: -4px;
+      width: 22px;
+      height: 22px;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23aa9955"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>') no-repeat center;
+      background-color: rgba(10, 10, 12, 0.9);
+      background-size: 14px 14px;
+      border-radius: 50%;
+      border: 1px solid #4a4a4a;
+      z-index: 5;
+    }
+
+    .skill-node-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .skill-node-icon.placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cinzel', serif;
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+
+    /* Skill Tooltip */
+    .skill-tooltip {
+      position: absolute;
+      left: calc(100% + 15px);
+      top: 50%;
+      transform: translateY(-50%);
+      min-width: 280px;
+      max-width: 380px;
+      background: rgba(10,10,14,0.98);
+      border: 1px solid #3a3a45;
+      border-radius: 8px;
+      padding: 14px 16px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 150ms ease, transform 150ms ease;
+      z-index: 1000;
+    }
+
+    .skill-node:hover .skill-tooltip {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Tooltip positioning for right-side nodes */
+    .skill-node.tooltip-left .skill-tooltip {
+      left: auto;
+      right: calc(100% + 15px);
+    }
+
+    /* Tooltip positioning for top-row nodes - show below instead */
+    .skill-node.tooltip-below .skill-tooltip {
+      left: 50%;
+      top: calc(100% + 15px);
+      transform: translateX(-50%);
+    }
+
+    /* Combined: top-row + right-side */
+    .skill-node.tooltip-below.tooltip-left .skill-tooltip {
+      left: auto;
+      right: 0;
+      transform: none;
+    }
+
+    .skill-tooltip-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.05rem;
+      color: var(--theme);
+      margin: 0 0 8px 0;
+      line-height: 1.2;
+    }
+
+    .skill-tooltip-desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin: 0 0 12px 0;
+      line-height: 1.5;
+    }
+
+    .skill-tooltip-effects {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,0.10);
+    }
+
+    .skill-tooltip-effects-header {
+      font-family: 'Cinzel', serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 8px;
+    }
+
+    .skill-tooltip-effect {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.35;
+      background: rgba(255,255,255,0.04);
+      border-left: 2px solid var(--theme);
+      padding: 4px 10px;
+      margin-bottom: 5px;
+    }
+
+    .skill-tooltip-effect:last-child {
+      margin-bottom: 0;
+    }
+
+    .skill-tooltip-meta {
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .skill-tooltip-meta span {
+      display: inline-block;
+      margin-right: 14px;
+    }
+
+    /* Row labels */
+    .skill-tree-row-labels {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 30px;
+      height: 100%;
+      z-index: 3;
+    }
+
+    .skill-tree-row-label {
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+      font-family: 'Cinzel', serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--theme);
+      opacity: 0.7;
+    }
+
+    /* =========================
        Responsive
        ========================= */
 
@@ -796,6 +1128,12 @@
 
       .family-members { gap: 1rem; }
       .family-portrait { width: 60px; height: 60px; }
+
+      .skill-tooltip {
+        left: 50%;
+        top: calc(100% + 10px);
+        transform: translateX(-50%);
+      }
     }
   </style>
 </head>
@@ -826,7 +1164,16 @@
   <main>
     <a class="back-link" href="characters.html" style="margin-bottom: 1rem; display: inline-block;">← Back to Characters</a>
     <section id="character-root" class="character-page"></section>
-    <section id="family-tree-root"></section>
+    
+    <!-- Tabbed Section for Family Tree and Skills -->
+    <section id="tabs-section" class="tabs-section" style="display: none;">
+      <div class="tabs-header">
+        <button class="tab-btn active" data-tab="family-tree">Family Tree</button>
+        <button class="tab-btn" data-tab="skills">Skills</button>
+      </div>
+      <div id="tab-family-tree" class="tab-content active"></div>
+      <div id="tab-skills" class="tab-content"></div>
+    </section>
   </main>
 
   <footer>
@@ -838,6 +1185,7 @@
   <script src="data/character_bios.js"></script>
   <script src="data/family_tree.js"></script>
   <script src="data/traits.js"></script>
+  <script src="data/skill_trees.js"></script>
 
   <script>
     function escapeHtml(s) {
@@ -847,6 +1195,29 @@
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#039;');
+    }
+
+    /* =========================
+       Tabs functionality
+       ========================= */
+
+    function initTabs() {
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const tabContents = document.querySelectorAll('.tab-content');
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const targetTab = btn.getAttribute('data-tab');
+
+          // Remove active class from all
+          tabBtns.forEach(b => b.classList.remove('active'));
+          tabContents.forEach(c => c.classList.remove('active'));
+
+          // Add active class to clicked
+          btn.classList.add('active');
+          document.getElementById(`tab-${targetTab}`).classList.add('active');
+        });
+      });
     }
 
     /* =========================
@@ -948,55 +1319,55 @@
         const effHtml = eff.length
           ? `<div class="t-effects">
               <div class="t-effects-header">Effects</div>
-              ${eff.map(e => `<div class="t-effect">${escapeHtml(String((e && e.name) || ''))}</div>`).join('')}
+              ${eff.map(e => `<div class="t-effect">${escapeHtml(e.name || e.formatted || e)}</div>`).join('')}
             </div>`
           : '';
-        return `
-          <p class="t-title">${escapeHtml(title || traitKey || 'Trait')}</p>
-          <p class="t-desc">${escapeHtml(desc || '')}</p>
-          ${effHtml}
-        `;
+        return `<div class="t-title">${escapeHtml(title)}</div>
+                ${desc ? `<p class="t-desc">${escapeHtml(desc)}</p>` : ''}
+                ${effHtml}`;
       })();
 
-      const img = document.createElement('img');
-      img.alt = title || traitKey || 'Trait';
-
-      const candidates = [];
-      if (trait.icon_path) candidates.push(...normalizeIconCandidates(trait.icon_path));
-      candidates.push(...fallbackIconCandidatesByKey(traitKey));
-
-      setImgWithFallback(img, candidates, () => {
-        img.remove();
+      const iconPath = trait.icon || trait.icon_path || '';
+      if (iconPath) {
+        const candidates = [
+          ...normalizeIconCandidates(iconPath),
+          ...fallbackIconCandidatesByKey(traitKey)
+        ];
+        const img = document.createElement('img');
+        img.alt = title;
+        setImgWithFallback(img, candidates, () => {
+          img.remove();
+          const badge = document.createElement('div');
+          badge.className = 'trait-badge';
+          badge.textContent = (title || '?')[0].toUpperCase();
+          wrap.insertBefore(badge, tooltip);
+        });
+        wrap.appendChild(img);
+      } else {
         const badge = document.createElement('div');
         badge.className = 'trait-badge';
-        const abbr = (title || traitKey || '??').replace(/[^a-z0-9]/ig, '').slice(0, 2).toUpperCase() || '??';
-        badge.textContent = abbr;
+        badge.textContent = (title || '?')[0].toUpperCase();
         wrap.appendChild(badge);
-      });
+      }
 
-      wrap.appendChild(img);
       wrap.appendChild(tooltip);
       return wrap;
     }
 
-    function renderTraitsIntoPortrait(traitKeys) {
-      const portraitCol = document.getElementById('portrait-column');
-      if (!portraitCol) return;
-
-      let strip = document.getElementById('trait-strip');
-      if (!strip) {
-        strip = document.createElement('div');
-        strip.id = 'trait-strip';
-        strip.className = 'trait-strip';
-        portraitCol.appendChild(strip);
-      }
+    function renderTraitsIntoPortrait(traits) {
+      const strip = document.getElementById('trait-strip');
+      if (!strip || !Array.isArray(traits) || traits.length === 0) return;
 
       strip.innerHTML = '';
-      const keys = (Array.isArray(traitKeys) ? traitKeys : []).filter(Boolean);
-
-      if (!keys.length) return;
-      keys.forEach(k => strip.appendChild(buildTraitIcon(k)));
+      traits.forEach(traitKey => {
+        const icon = buildTraitIcon(traitKey);
+        strip.appendChild(icon);
+      });
     }
+
+    /* =========================
+       Family Tree helpers
+       ========================= */
 
     function extractNameForMissingCharacter(templateKey, currentFamilyName, relationship) {
         if (!templateKey) return 'Unknown';
@@ -1080,22 +1451,15 @@
         `;
     }
 
-    function renderFamilyTree(char) {
+    function renderFamilyTreeContent(char) {
         if (typeof FAMILY_BY_CHARACTER === 'undefined' || typeof getFamilyMembers === 'undefined') {
-            return '';
+            return '<div class="family-tree-empty">Family tree data not available.</div>';
         }
 
         const familyMembers = getFamilyMembers(char.key);
         
         if (!familyMembers || familyMembers.length === 0) {
-            return `
-                <div class="family-tree-section">
-                    <h3 class="family-tree-header">Family Tree</h3>
-                    <div class="family-tree-empty">
-                        No known family relationships for this character.
-                    </div>
-                </div>
-            `;
+            return '<div class="family-tree-empty">No known family relationships for this character.</div>';
         }
 
         const grouped = {
@@ -1192,11 +1556,10 @@
         });
 
         let finalHTML = `
-            <div class="family-tree-section">
-                <h3 class="family-tree-header">Family Tree</h3>
-                <div class="family-connections">
-                    ${immediateHTML}
-                </div>
+            <h3 class="family-tree-header">Family Tree</h3>
+            <div class="family-connections">
+                ${immediateHTML}
+            </div>
         `;
 
         if (hasExtendedFamily) {
@@ -1210,10 +1573,290 @@
             `;
         }
 
-        finalHTML += '</div>';
-
         return finalHTML;
     }
+
+    /* =========================
+       Skill Tree helpers
+       ========================= */
+
+    const SKILL_ICON_BASE = 'data/images/skills/';
+
+    function getSkillTree(skillSetKey) {
+      if (!skillSetKey) return null;
+      if (typeof SKILL_TREE_DATA !== 'undefined' && SKILL_TREE_DATA[skillSetKey]) {
+        return SKILL_TREE_DATA[skillSetKey];
+      }
+      return null;
+    }
+
+    function renderSkillNode(node, x, y, isRightSide, isTopRow) {
+      const title = node.title || node.skill_key || 'Unknown Skill';
+      const desc = node.description || '';
+      const imageUrl = node.image || '';
+      const effects = node.effects || [];
+      const isUnlocked = node.points_on_creation > 0;
+
+      // Build effects HTML
+      let effectsHtml = '';
+      if (effects.length > 0) {
+        const formattedEffects = effects
+          .filter(e => e.formatted)
+          .map(e => `<div class="skill-tooltip-effect">${escapeHtml(e.formatted)}</div>`)
+          .join('');
+        
+        if (formattedEffects) {
+          effectsHtml = `
+            <div class="skill-tooltip-effects">
+              <div class="skill-tooltip-effects-header">Effects</div>
+              ${formattedEffects}
+            </div>
+          `;
+        }
+      }
+
+      // Meta info
+      const metaHtml = `
+        <div class="skill-tooltip-meta">
+          <span>Tier: ${node.tier}</span>
+          <span>Indent: ${node.indent}</span>
+          ${node.game_mode ? `<span>Mode: ${escapeHtml(node.game_mode)}</span>` : ''}
+        </div>
+      `;
+
+      // Build CSS classes
+      const classes = ['skill-node'];
+      if (isUnlocked) classes.push('unlocked');
+      if (!isUnlocked) classes.push('locked');
+      if (isRightSide) classes.push('tooltip-left');
+      if (isTopRow) classes.push('tooltip-below');
+
+      return `
+        <div class="${classes.join(' ')}" 
+             style="left: ${x}px; top: ${y}px;"
+             data-skill-key="${escapeHtml(node.skill_key)}"
+             data-node-key="${escapeHtml(node.key)}"
+             data-tier="${node.tier}"
+             data-indent="${node.indent}"
+             data-game-mode="${escapeHtml(node.game_mode || '')}">
+          ${imageUrl 
+            ? `<img class="skill-node-icon" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(title)}" onerror="this.outerHTML='<div class=\\'skill-node-icon placeholder\\'>${escapeHtml((title[0] || '?').toUpperCase())}</div>';">`
+            : `<div class="skill-node-icon placeholder">${escapeHtml((title[0] || '?').toUpperCase())}</div>`
+          }
+          <div class="skill-tooltip">
+            <div class="skill-tooltip-title">${escapeHtml(title)}</div>
+            ${desc ? `<div class="skill-tooltip-desc">${escapeHtml(desc)}</div>` : ''}
+            ${effectsHtml}
+            ${metaHtml}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderSkillTreeContent(char) {
+      const skillSetKey = char.skill_set;
+      
+      if (!skillSetKey) {
+        return '<div class="skill-tree-empty">No skill set assigned to this character.</div>';
+      }
+
+      const skillTree = getSkillTree(skillSetKey);
+      
+      if (!skillTree || !skillTree.nodes || skillTree.nodes.length === 0) {
+        return `<div class="skill-tree-empty">Skill tree data not available for: ${escapeHtml(skillSetKey)}</div>`;
+      }
+
+      // Filter visible nodes
+      const visibleNodes = skillTree.nodes.filter(node => node.visible_in_ui !== false);
+      
+      if (visibleNodes.length === 0) {
+        return `<div class="skill-tree-empty">No visible skills in this skill tree.</div>`;
+      }
+
+      // Check if there are different game modes
+      const gameModes = [...new Set(visibleNodes.map(n => n.game_mode).filter(m => m))];
+      const hasMultipleModes = gameModes.length > 1 || 
+        gameModes.some(m => m.toLowerCase().includes('romance') || m.toLowerCase().includes('historical'));
+
+      // Calculate grid dimensions
+      const tiers = [...new Set(visibleNodes.map(n => n.tier))].sort((a, b) => a - b);
+      const indents = [...new Set(visibleNodes.map(n => n.indent))].sort((a, b) => a - b);
+      
+      const minTier = Math.min(...tiers);
+      const maxTier = Math.max(...tiers);
+      const minIndent = Math.min(...indents);
+      const maxIndent = Math.max(...indents);
+
+      // Layout settings
+      const nodeSize = 64;
+      const paddingLeft = 60;  // Space for row labels
+      const paddingTop = 50;
+      const paddingRight = 60;
+      const paddingBottom = 50;
+      
+      // Calculate spacing based on indent range
+      const indentRange = maxIndent - minIndent || 1;
+      const tierRange = maxTier - minTier || 1;
+      
+      // Horizontal spacing: map indent values to x positions
+      const gridWidth = Math.max(550, indents.length * 110);
+      const xScale = (gridWidth - nodeSize) / indentRange;
+      
+      // Vertical spacing: map tier values to y positions
+      const rowHeight = 110;
+      const gridHeight = (tierRange + 1) * rowHeight;
+
+      // Calculate node positions
+      const nodePositions = {};
+      visibleNodes.forEach(node => {
+        const x = paddingLeft + ((node.indent - minIndent) * xScale) + (nodeSize / 2);
+        const y = paddingTop + ((node.tier - minTier) * rowHeight) + (nodeSize / 2);
+        nodePositions[node.key] = { x, y, node };
+      });
+
+      // Build SVG lines for connections
+      let linesHtml = '';
+      visibleNodes.forEach(node => {
+        const pos = nodePositions[node.key];
+        if (!pos) return;
+
+        // Draw lines to children (parent -> child direction)
+        const children = node.links?.children || [];
+        children.forEach(child => {
+          const childPos = nodePositions[child.key];
+          if (childPos) {
+            const isUnlocked = node.points_on_creation > 0 && childPos.node.points_on_creation > 0;
+            // Add game mode data to lines for filtering
+            const lineGameMode = node.game_mode || childPos.node.game_mode || '';
+            const gameModeAttr = lineGameMode ? `data-game-mode="${escapeHtml(lineGameMode)}"` : '';
+            linesHtml += `<line x1="${pos.x}" y1="${pos.y}" x2="${childPos.x}" y2="${childPos.y}" class="${isUnlocked ? 'unlocked' : ''}" ${gameModeAttr}/>`;
+          }
+        });
+
+        // Also draw lines to parents (for bidirectional visibility)
+        const parents = node.links?.parents || [];
+        parents.forEach(parent => {
+          const parentPos = nodePositions[parent.key];
+          if (parentPos) {
+            // Check if this line was already drawn from parent's perspective
+            const alreadyDrawn = parentPos.node.links?.children?.some(c => c.key === node.key);
+            if (!alreadyDrawn) {
+              const isUnlocked = node.points_on_creation > 0 && parentPos.node.points_on_creation > 0;
+              const lineGameMode = node.game_mode || parentPos.node.game_mode || '';
+              const gameModeAttr = lineGameMode ? `data-game-mode="${escapeHtml(lineGameMode)}"` : '';
+              linesHtml += `<line x1="${parentPos.x}" y1="${parentPos.y}" x2="${pos.x}" y2="${pos.y}" class="${isUnlocked ? 'unlocked' : ''}" ${gameModeAttr}/>`;
+            }
+          }
+        });
+      });
+
+      // Build nodes HTML
+      const canvasWidth = gridWidth + paddingLeft + paddingRight;
+      const canvasHeight = gridHeight + paddingTop + paddingBottom;
+      const midPoint = canvasWidth / 2;
+
+      let nodesHtml = '';
+      visibleNodes.forEach(node => {
+        const pos = nodePositions[node.key];
+        if (!pos) return;
+        const isRightSide = pos.x > midPoint;
+        const isTopRow = node.tier === minTier;
+        nodesHtml += renderSkillNode(node, pos.x, pos.y, isRightSide, isTopRow);
+      });
+
+      // Build tier row labels
+      let rowLabelsHtml = '';
+      tiers.forEach(tier => {
+        const y = paddingTop + ((tier - minTier) * rowHeight) + (nodeSize / 2);
+        rowLabelsHtml += `<div class="skill-tree-row-label" style="top: ${y}px;">${tier}</div>`;
+      });
+
+      // Build game mode toggle if needed
+      let modeToggleHtml = '';
+      if (hasMultipleModes) {
+        modeToggleHtml = `
+          <div class="skill-tree-mode-toggle">
+            <button class="skill-tree-mode-btn active" data-mode="all">All</button>
+            <button class="skill-tree-mode-btn" data-mode="romance">Romance</button>
+            <button class="skill-tree-mode-btn" data-mode="historical">Historical</button>
+          </div>
+        `;
+      }
+
+      return `
+        <h3 class="skill-tree-header">Skill Tree</h3>
+        <p style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 1rem;">
+          Skill Set: <code style="background: rgba(255,255,255,0.04); padding: 0.1rem 0.3rem; border-radius: 2px;">${escapeHtml(skillSetKey)}</code>
+        </p>
+        ${modeToggleHtml}
+        <div class="skill-tree-grid">
+          <div class="skill-tree-canvas" id="skill-tree-canvas" data-mode="all" style="width: ${canvasWidth}px; height: ${canvasHeight}px;">
+            <svg class="skill-tree-links" width="${canvasWidth}" height="${canvasHeight}">
+              ${linesHtml}
+            </svg>
+            <div class="skill-tree-row-labels">
+              ${rowLabelsHtml}
+            </div>
+            <div class="skill-tree-nodes">
+              ${nodesHtml}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function initSkillTreeModeToggle() {
+      const toggleBtns = document.querySelectorAll('.skill-tree-mode-btn');
+      const canvas = document.getElementById('skill-tree-canvas');
+      
+      if (!toggleBtns.length || !canvas) return;
+
+      toggleBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Update active button
+          toggleBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          
+          // Update canvas filter
+          const mode = btn.getAttribute('data-mode');
+          canvas.setAttribute('data-mode', mode);
+          
+          // Show/hide nodes based on mode
+          const nodes = canvas.querySelectorAll('.skill-node');
+          const lines = canvas.querySelectorAll('.skill-tree-links line');
+          
+          nodes.forEach(node => {
+            const nodeMode = (node.getAttribute('data-game-mode') || '').toLowerCase();
+            if (mode === 'all') {
+              node.style.display = '';
+            } else if (mode === 'romance') {
+              // Show if no mode specified, or if mode contains 'romance'
+              const show = !nodeMode || nodeMode.includes('romance') || (!nodeMode.includes('historical'));
+              node.style.display = nodeMode.includes('historical') && !nodeMode.includes('romance') ? 'none' : '';
+            } else if (mode === 'historical') {
+              // Show if no mode specified, or if mode contains 'historical'
+              node.style.display = nodeMode.includes('romance') && !nodeMode.includes('historical') ? 'none' : '';
+            }
+          });
+          
+          // Also hide lines connected to hidden nodes
+          lines.forEach(line => {
+            const lineMode = (line.getAttribute('data-game-mode') || '').toLowerCase();
+            if (mode === 'all') {
+              line.style.display = '';
+            } else if (mode === 'romance') {
+              line.style.display = lineMode.includes('historical') && !lineMode.includes('romance') ? 'none' : '';
+            } else if (mode === 'historical') {
+              line.style.display = lineMode.includes('romance') && !lineMode.includes('historical') ? 'none' : '';
+            }
+          });
+        });
+      });
+    }
+
+    /* =========================
+       Main render functions
+       ========================= */
 
     function renderCharacter(char) {
       const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
@@ -1327,6 +1970,10 @@
                     <dt>Courtesy</dt>
                     <dd>${escapeHtml(char.courtesy_name)} ${char.courtesy_name_alt ? `(${escapeHtml(char.courtesy_name_alt)})` : ''}</dd>
                   ` : ''}
+                  ${char.skill_set ? `
+                    <dt>Skill Set</dt>
+                    <dd><code>${escapeHtml(char.skill_set)}</code></dd>
+                  ` : ''}
                 </dl>
               </details>
             </div>
@@ -1353,11 +2000,24 @@
       // Render traits (icons next to portrait)
       renderTraitsIntoPortrait(traits);
 
-      // Render family tree
-      const familyTreeRoot = document.getElementById('family-tree-root');
-      if (familyTreeRoot) {
-        familyTreeRoot.innerHTML = renderFamilyTree(char);
-      }
+      // Render tabs section
+      const tabsSection = document.getElementById('tabs-section');
+      tabsSection.style.display = 'block';
+      tabsSection.setAttribute('data-element', element);
+
+      // Render Family Tree tab content
+      const familyTreeTab = document.getElementById('tab-family-tree');
+      familyTreeTab.innerHTML = renderFamilyTreeContent(char);
+
+      // Render Skills tab content
+      const skillsTab = document.getElementById('tab-skills');
+      skillsTab.innerHTML = renderSkillTreeContent(char);
+
+      // Initialize tabs
+      initTabs();
+
+      // Initialize skill tree mode toggle
+      initSkillTreeModeToggle();
 
       // Portrait toggle functionality
       if (portraitUrl) {

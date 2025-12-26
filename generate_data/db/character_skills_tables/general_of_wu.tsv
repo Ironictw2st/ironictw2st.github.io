@@ -1,0 +1,10 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting
+#character_skills_tables;4;db/character_skills_tables/general_of_wu								
+ironic_chen_wu	3k_main_skill_aspect_metal_expertise			0	false	false	false	0.0000
+ironic_ding_feng	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_dong_xi	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_han_dang	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_jiang_qin	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_ling_tong	3k_main_skill_aspect_wood_perseverance			0	false	false	false	0.0000
+ironic_pan_zhang	3k_main_skill_aspect_fire_instinct			0	false	false	false	0.0000
+ironic_xu_sheng	3k_main_skill_aspect_earth_authority			0	false	false	false	0.0000

@@ -1492,9 +1492,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_dlc07_ceo_trait_personality_frivolous"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_personality_cowardly"
     ]
   },
   "3k_dlc04_template_historical_liu_hong_water": {
@@ -1670,9 +1670,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ]
   },
   "3k_dlc04_template_historical_lu_jun_jicai_earth": {
@@ -2240,9 +2240,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_physical_lovestruck"
     ]
   },
   "3k_dlc04_template_historical_wu_ba_water": {
@@ -2912,9 +2912,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_quiet"
     ]
   },
   "3k_dlc05_template_generated_lady_zhang_jinglan_hero_metal": {
@@ -3318,9 +3318,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_dlc07_ceo_trait_personality_frivolous"
     ]
   },
   "3k_dlc05_template_historical_pan_lin_hero_water": {
@@ -4464,9 +4464,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_stalwart"
     ]
   },
   "3k_dlc07_template_generated_xi_jian_hero_earth": {
@@ -4490,9 +4490,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_ytr_ceo_trait_personality_simple"
     ]
   },
   "3k_dlc07_template_historical_lady_zhen_water": {
@@ -4942,9 +4942,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_dutiful"
     ]
   },
   "3k_main_template_generated_lady_gongsun_tingping_hero_metal": {
@@ -5552,9 +5552,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_physical_drunk"
     ]
   },
   "3k_main_template_generated_lady_shi_jiejin_hero_water": {
@@ -5772,9 +5772,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_physical_agile"
     ]
   },
   "3k_main_template_generated_lady_wang_qinmeng_hero_earth": {
@@ -6148,9 +6148,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "3k_main_template_generated_ze_bu_hero_wood": {
@@ -6326,9 +6326,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_superstitious"
     ]
   },
   "3k_main_template_historical_bu_zhi_hero_fire": {
@@ -6512,9 +6512,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_clever"
     ]
   },
   "3k_main_template_historical_cai_yong_hero_water": {
@@ -6732,9 +6732,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_simple"
     ]
   },
   "3k_main_template_historical_cao_chun_hero_fire": {
@@ -6804,9 +6804,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "3k_main_template_historical_cao_hong_hero_wood": {
@@ -6876,9 +6876,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ]
   },
   "3k_main_template_historical_cao_pi_hero_earth": {
@@ -7210,9 +7210,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_loyal"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_personality_kind"
     ]
   },
   "3k_main_template_historical_cao_zhang_hero_wood": {
@@ -7350,9 +7350,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_personality_resourceful"
     ]
   },
   "3k_main_template_historical_chang_lin_hero_water": {
@@ -7380,9 +7380,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ]
   },
   "3k_main_template_historical_chang_xi_hero_wood": {
@@ -7444,9 +7444,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_brilliant"
     ]
   },
   "3k_main_template_historical_che_zhou_hero_water": {
@@ -7474,9 +7474,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_ytr_ceo_trait_personality_trustworthy"
     ]
   },
   "3k_main_template_historical_chen_biao_hero_water": {
@@ -7504,9 +7504,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_physical_graceful"
     ]
   },
   "3k_main_template_historical_chen_chao_hero_fire": {
@@ -7572,8 +7572,8 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_temperamental",
       "3k_main_ceo_trait_personality_ambitious"
     ]
   },
@@ -7796,9 +7796,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_humble"
     ]
   },
   "3k_main_template_historical_chen_qian_hero_metal": {
@@ -7830,9 +7830,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ]
   },
   "3k_main_template_historical_chen_qun_hero_water": {
@@ -7864,9 +7864,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_loyal"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "3k_main_template_historical_chen_rong_hero_earth": {
@@ -7898,9 +7898,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_direct"
     ]
   },
   "3k_main_template_historical_chen_wu_hero_metal": {
@@ -7970,9 +7970,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "3k_main_template_historical_chen_zhen_hero_water": {
@@ -8042,9 +8042,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_land_aspiring"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_vengeful"
     ]
   },
   "3k_main_template_historical_chen_zhi_hero_fire": {
@@ -8068,9 +8068,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_physical_sui_knight"
     ]
   },
   "3k_main_template_historical_cheng_ji_hero_fire": {
@@ -8102,9 +8102,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_energetic"
     ]
   },
   "3k_main_template_historical_cheng_pu_hero_metal": {
@@ -8174,9 +8174,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_cunning"
     ]
   },
   "3k_main_template_historical_cheng_yi_hero_wood": {
@@ -8471,9 +8471,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_superstitious",
       "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_main_ceo_trait_physical_graceful"
     ]
   },
   "3k_main_template_historical_cui_yan_hero_water": {
@@ -8501,9 +8501,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_aescetic"
     ]
   },
   "3k_main_template_historical_deng_ai_hero_metal": {
@@ -8565,9 +8565,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_competative"
     ]
   },
   "3k_main_template_historical_deng_ju_hero_fire": {
@@ -8591,9 +8591,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_solitary"
     ]
   },
   "3k_main_template_historical_deng_sheng_hero_fire": {
@@ -8667,9 +8667,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ]
   },
   "3k_main_template_historical_deng_yuan_hero_earth": {
@@ -8769,9 +8769,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_physical_infertile"
     ]
   },
   "3k_main_template_historical_dian_wei_hero_wood": {
@@ -8875,9 +8875,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_competative"
     ]
   },
   "3k_main_template_historical_dong_bai_hero_fire": {
@@ -8909,9 +8909,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_charitable"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ]
   },
   "3k_main_template_historical_dong_bai_hero_metal": {
@@ -8985,9 +8985,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "3k_main_template_historical_dong_chao_hero_fire": {
@@ -9011,9 +9011,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ]
   },
   "3k_main_template_historical_dong_cheng_hero_fire": {
@@ -9045,9 +9045,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_kind"
     ]
   },
   "3k_main_template_historical_dong_feng_hero_wood": {
@@ -9079,9 +9079,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "3k_main_template_historical_dong_heng_hero_fire": {
@@ -9105,9 +9105,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_ytr_ceo_trait_personality_land_aspiring"
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_physical_sickly"
     ]
   },
   "3k_main_template_historical_dong_huang_hero_fire": {
@@ -9139,9 +9139,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ]
   },
   "3k_main_template_historical_dong_min_hero_earth": {
@@ -9165,9 +9165,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_disloyal"
     ]
   },
   "3k_main_template_historical_dong_xi_hero_fire": {
@@ -9229,9 +9229,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_brilliant"
     ]
   },
   "3k_main_template_historical_dong_yun_hero_water": {
@@ -9259,9 +9259,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ]
   },
   "3k_main_template_historical_dong_zhao_hero_water": {
@@ -9365,9 +9365,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ]
   },
   "3k_main_template_historical_du_ji_hero_fire": {
@@ -9463,9 +9463,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_disloyal"
     ]
   },
   "3k_main_template_historical_duan_wei_hero_fire": {
@@ -9599,9 +9599,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_quiet"
     ]
   },
   "3k_main_template_historical_fan_qin_hero_water": {
@@ -9629,9 +9629,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_arrogant"
     ]
   },
   "3k_main_template_historical_feng_li_hero_fire": {
@@ -9663,9 +9663,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_fraternal"
     ]
   },
   "3k_main_template_historical_feng_shuo_hero_water": {
@@ -9697,9 +9697,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ]
   },
   "3k_main_template_historical_feng_xi_hero_fire": {
@@ -9735,9 +9735,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_clever"
     ]
   },
   "3k_main_template_historical_fu_gan_hero_water": {
@@ -9807,9 +9807,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "3k_main_template_historical_fu_qian_hero_fire": {
@@ -9833,9 +9833,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_careless",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_physical_graceful"
     ]
   },
   "3k_main_template_historical_fu_rong_hero_fire": {
@@ -9897,9 +9897,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ]
   },
   "3k_main_template_historical_fu_wan_hero_water": {
@@ -9927,9 +9927,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_tough"
     ]
   },
   "3k_main_template_historical_fu_xuan_hero_fire": {
@@ -9953,9 +9953,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_patient"
     ]
   },
   "3k_main_template_historical_gan_ji_hero_earth": {
@@ -9983,9 +9983,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ]
   },
   "3k_main_template_historical_gan_li_hero_metal": {
@@ -10119,9 +10119,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ]
   },
   "3k_main_template_historical_gao_gan_hero_metal": {
@@ -10191,9 +10191,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ]
   },
   "3k_main_template_historical_gao_pei_hero_fire": {
@@ -10361,9 +10361,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_fiery",
       "3k_main_ceo_trait_personality_intimidating",
-      "3k_ytr_ceo_trait_personality_strong_willed"
+      "3k_main_ceo_trait_personality_cruel"
     ]
   },
   "3k_main_template_historical_ge_xuan_hero_earth": {
@@ -10395,9 +10395,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_unobservant"
     ]
   },
   "3k_main_template_historical_geng_ji_hero_fire": {
@@ -10429,9 +10429,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_suspicious"
     ]
   },
   "3k_main_template_historical_geng_wu_hero_earth": {
@@ -10493,9 +10493,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ]
   },
   "3k_main_template_historical_gongsun_du_hero_metal": {
@@ -10641,9 +10641,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_disciplined"
     ]
   },
   "3k_main_template_historical_gongsun_xu_hero_metal": {
@@ -10941,9 +10941,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ]
   },
   "3k_main_template_historical_guan_ning_hero_water": {
@@ -11119,9 +11119,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_resourceful",
       "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_personality_honourable"
     ]
   },
   "3k_main_template_historical_guo_huai_hero_earth": {
@@ -11339,9 +11339,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_physical_strong"
     ]
   },
   "3k_main_template_historical_guo_yuan_hero_fire": {
@@ -11559,9 +11559,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_arrogant"
     ]
   },
   "3k_main_template_historical_han_ran_hero_water": {
@@ -11590,8 +11590,8 @@ const CHARACTER_DETAILS = {
     ],
     "traits": [
       "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_modest"
     ]
   },
   "3k_main_template_historical_han_rong_hero_water": {
@@ -11619,9 +11619,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_dlc07_ceo_trait_personality_frivolous"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_stubborn"
     ]
   },
   "3k_main_template_historical_han_sui_hero_metal": {
@@ -11691,9 +11691,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_clumsy"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_land_aspiring"
     ]
   },
   "3k_main_template_historical_handan_chun_hero_water": {
@@ -11725,9 +11725,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_handan_shang_hero_water": {
@@ -11755,9 +11755,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_modest"
     ]
   },
   "3k_main_template_historical_hao_meng_hero_fire": {
@@ -11827,9 +11827,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_scholarly"
     ]
   },
   "3k_main_template_historical_he_qi_hero_fire": {
@@ -11895,9 +11895,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ]
   },
   "3k_main_template_historical_he_zeng_hero_water": {
@@ -11929,9 +11929,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_careless"
     ]
   },
   "3k_main_template_historical_hong_ming_hero_wood": {
@@ -12023,9 +12023,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ]
   },
   "3k_main_template_historical_hu_zhao_hero_water": {
@@ -12057,8 +12057,8 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_ytr_ceo_trait_personality_land_courageous",
       "3k_main_ceo_trait_personality_honourable"
     ]
   },
@@ -12087,9 +12087,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil"
     ]
   },
   "3k_main_template_historical_hu_zong_hero_water": {
@@ -12117,9 +12117,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_artful"
     ]
   },
   "3k_main_template_historical_hua_biao_hero_water": {
@@ -12151,9 +12151,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_vain"
     ]
   },
   "3k_main_template_historical_hua_rong_hero_fire": {
@@ -12177,9 +12177,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ]
   },
   "3k_main_template_historical_hua_tuo_hero_water": {
@@ -12329,9 +12329,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_simple"
     ]
   },
   "3k_main_template_historical_huan_fan_hero_water": {
@@ -12359,9 +12359,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "3k_main_template_historical_huan_jia_hero_water": {
@@ -12389,9 +12389,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_huan_lin_hero_wood": {
@@ -12491,9 +12491,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ]
   },
   "3k_main_template_historical_huang_gai_hero_wood": {
@@ -12521,9 +12521,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "3k_main_template_historical_huang_quan_hero_fire": {
@@ -12745,9 +12745,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_personality_cruel"
     ]
   },
   "3k_main_template_historical_huangfu_song_hero_metal": {
@@ -12935,9 +12935,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_land_courageous"
     ]
   },
   "3k_main_template_historical_ji_ben_hero_wood": {
@@ -13042,9 +13042,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_artful"
     ]
   },
   "3k_main_template_historical_ji_mu_hero_water": {
@@ -13072,9 +13072,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ]
   },
   "3k_main_template_historical_jia_chong_hero_water": {
@@ -13140,9 +13140,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_loyal"
     ]
   },
   "3k_main_template_historical_jia_fan_hero_fire": {
@@ -13166,9 +13166,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
+      "3k_ytr_ceo_trait_personality_land_alert",
       "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_physical_beautiful"
     ]
   },
   "3k_main_template_historical_jia_kui_hero_fire": {
@@ -13314,9 +13314,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_loyal"
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_physical_sickly"
     ]
   },
   "3k_main_template_historical_jiang_gong_hero_wood": {
@@ -13344,9 +13344,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_physical_drunk"
     ]
   },
   "3k_main_template_historical_jiang_ji_hero_water": {
@@ -13374,9 +13374,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_cowardly"
     ]
   },
   "3k_main_template_historical_jiang_qin_hero_fire": {
@@ -13556,9 +13556,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_land_aspiring"
     ]
   },
   "3k_main_template_historical_ju_jun_hero_fire": {
@@ -13590,9 +13590,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_ju_shou_hero_water": {
@@ -14110,9 +14110,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_physical_mad"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_physical_handsome"
     ]
   },
   "3k_main_template_historical_lady_feng_hero_water": {
@@ -14144,9 +14144,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "3k_main_template_historical_lady_guan_yinping_hero_wood": {
@@ -14170,9 +14170,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_land_aspiring"
     ]
   },
   "3k_main_template_historical_lady_huang_yueying_hero_wood": {
@@ -14268,9 +14268,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_dlc07_ceo_trait_personality_frivolous"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_people_stern"
     ]
   },
   "3k_main_template_historical_lady_sun_shangxiang_hero_fire": {
@@ -14348,9 +14348,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_humble"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ]
   },
   "3k_main_template_historical_lady_xiao_qiao_hero_metal": {
@@ -14412,9 +14412,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_aescetic"
     ]
   },
   "3k_main_template_historical_lady_zheng_jiang_hero_wood": {
@@ -14632,9 +14632,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_physical_fertile"
     ]
   },
   "3k_main_template_historical_li_huan_hero_wood": {
@@ -14811,9 +14811,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "3k_main_template_historical_li_le_hero_fire": {
@@ -14845,9 +14845,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_li_meng_hero_fire": {
@@ -15129,9 +15129,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "3k_main_template_historical_li_xiu_hero_water": {
@@ -15193,9 +15193,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_aescetic"
     ]
   },
   "3k_main_template_historical_li_yan_hero_fire": {
@@ -15295,9 +15295,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_liang_mao_hero_water": {
@@ -15367,9 +15367,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_dlc07_ceo_trait_personality_frivolous"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_incompetent"
     ]
   },
   "3k_main_template_historical_liang_xing_hero_metal": {
@@ -15445,8 +15445,8 @@ const CHARACTER_DETAILS = {
     ],
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_fraternal"
     ]
   },
   "3k_main_template_historical_ling_cao_hero_fire": {
@@ -15546,9 +15546,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_cowardly"
     ]
   },
   "3k_main_template_historical_liu_ba_hero_water": {
@@ -15694,9 +15694,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ]
   },
   "3k_main_template_historical_liu_chong_hero_earth": {
@@ -15850,9 +15850,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "3k_main_template_historical_liu_fang_hero_fire": {
@@ -15888,9 +15888,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ]
   },
   "3k_main_template_historical_liu_feng_hero_fire": {
@@ -16062,9 +16062,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "3k_main_template_historical_liu_jing_hero_fire": {
@@ -16118,9 +16118,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_personality_brilliant"
     ]
   },
   "3k_main_template_historical_liu_qi_hero_earth": {
@@ -16490,9 +16490,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ]
   },
   "3k_main_template_historical_liu_yu_hero_earth": {
@@ -16714,9 +16714,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ]
   },
   "3k_main_template_historical_lu_bu_hero_fire": {
@@ -16782,9 +16782,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_lu_dai_hero_fire": {
@@ -16968,9 +16968,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "3k_main_template_historical_lu_kai_hero_water": {
@@ -16998,9 +16998,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_physical_infertile"
     ]
   },
   "3k_main_template_historical_lu_kang_hero_water": {
@@ -17146,9 +17146,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "3k_main_template_historical_lu_su_hero_water": {
@@ -17222,9 +17222,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_cunning"
     ]
   },
   "3k_main_template_historical_lu_xing_hero_water": {
@@ -17252,9 +17252,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil"
     ]
   },
   "3k_main_template_historical_lu_xun_hero_water": {
@@ -17380,9 +17380,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_reckless"
     ]
   },
   "3k_main_template_historical_lun_zhi_hero_fire": {
@@ -17406,9 +17406,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ]
   },
   "3k_main_template_historical_luo_tong_hero_fire": {
@@ -17596,9 +17596,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_ytr_ceo_trait_physical_feared"
     ]
   },
   "3k_main_template_historical_ma_midi_hero_water": {
@@ -17664,9 +17664,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_ma_su_hero_water": {
@@ -17893,9 +17893,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_personality_fiery"
     ]
   },
   "3k_main_template_historical_man_chong_hero_fire": {
@@ -17965,9 +17965,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_mao_jie_hero_water": {
@@ -18189,9 +18189,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_min_chun_hero_water": {
@@ -18329,9 +18329,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_strong_willed"
     ]
   },
   "3k_main_template_historical_pan_zhang_hero_fire": {
@@ -18402,9 +18402,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_vengeful"
     ]
   },
   "3k_main_template_historical_pang_ji_hero_water": {
@@ -18508,9 +18508,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_physical_infertile"
     ]
   },
   "3k_main_template_historical_pei_qian_hero_water": {
@@ -18610,9 +18610,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_charitable"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_mad"
     ]
   },
   "3k_main_template_historical_qiao_mao_hero_earth": {
@@ -18670,9 +18670,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_direct"
     ]
   },
   "3k_main_template_historical_qiao_zhou_hero_water": {
@@ -18700,9 +18700,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "3k_main_template_historical_qin_huang_hero_fire": {
@@ -18734,9 +18734,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ]
   },
   "3k_main_template_historical_qin_mi_hero_water": {
@@ -18828,9 +18828,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant"
     ]
   },
   "3k_main_template_historical_qu_ying_hero_metal": {
@@ -18854,9 +18854,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ]
   },
   "3k_main_template_historical_quan_cong_hero_fire": {
@@ -18888,9 +18888,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ]
   },
   "3k_main_template_historical_quan_ji_hero_water": {
@@ -18922,9 +18922,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_physical_strong"
     ]
   },
   "3k_main_template_historical_quan_rou_hero_wood": {
@@ -18986,9 +18986,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_deceitful"
     ]
   },
   "3k_main_template_historical_que_xuan_hero_water": {
@@ -19084,9 +19084,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_enigmatic"
     ]
   },
   "3k_main_template_historical_ren_kui_hero_fire": {
@@ -19110,9 +19110,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_physical_fertile"
     ]
   },
   "3k_main_template_historical_ren_qi_hero_fire": {
@@ -19208,9 +19208,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "3k_main_template_historical_rui_xuan_hero_fire": {
@@ -19268,9 +19268,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_resourceful"
     ]
   },
   "3k_main_template_historical_shan_tao_hero_water": {
@@ -19298,9 +19298,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ]
   },
   "3k_main_template_historical_shen_de_hero_fire": {
@@ -19332,9 +19332,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "3k_main_template_historical_shen_pei_hero_water": {
@@ -19396,9 +19396,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_indecisive"
     ]
   },
   "3k_main_template_historical_sheng_xian_hero_water": {
@@ -19818,9 +19818,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_physical_mad"
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ]
   },
   "3k_main_template_historical_shisun_rui_hero_fire": {
@@ -19844,9 +19844,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_direct"
     ]
   },
   "3k_main_template_historical_sima_fang_hero_water": {
@@ -19874,9 +19874,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_cautious"
     ]
   },
   "3k_main_template_historical_sima_fu_hero_water": {
@@ -19908,9 +19908,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_perceptive"
     ]
   },
   "3k_main_template_historical_sima_lang_hero_water": {
@@ -19938,9 +19938,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_sima_shi_hero_earth": {
@@ -19999,9 +19999,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ]
   },
   "3k_main_template_historical_sima_yi_hero_water": {
@@ -20143,9 +20143,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_personality_sincere"
     ]
   },
   "3k_main_template_historical_su_fei_hero_fire": {
@@ -20215,9 +20215,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
       "3k_main_ceo_trait_personality_charitable",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_su_shuo_hero_water": {
@@ -20245,9 +20245,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_suspicious"
     ]
   },
   "3k_main_template_historical_su_ze_hero_water": {
@@ -20275,9 +20275,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "3k_main_template_historical_sui_gu_hero_metal": {
@@ -20339,9 +20339,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_aescetic"
     ]
   },
   "3k_main_template_historical_sun_ce_hero_fire": {
@@ -20483,9 +20483,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ]
   },
   "3k_main_template_historical_sun_jian_hero_metal": {
@@ -20589,9 +20589,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_physical_mad"
     ]
   },
   "3k_main_template_historical_sun_li_hero_fire": {
@@ -20627,9 +20627,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_greedy"
     ]
   },
   "3k_main_template_historical_sun_lu_hero_earth": {
@@ -20653,9 +20653,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_physical_clumsy"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "3k_main_template_historical_sun_luyu_hero_earth": {
@@ -20683,9 +20683,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_artful"
     ]
   },
   "3k_main_template_historical_sun_qian_hero_water": {
@@ -20831,9 +20831,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_clever"
     ]
   },
   "3k_main_template_historical_sun_yi_hero_fire": {
@@ -20937,9 +20937,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_physical_sickly"
     ]
   },
   "3k_main_template_historical_taishi_ci_hero_metal": {
@@ -21127,9 +21127,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ]
   },
   "3k_main_template_historical_tian_chou_hero_water": {
@@ -21195,9 +21195,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_physical_clumsy"
     ]
   },
   "3k_main_template_historical_tian_feng_hero_water": {
@@ -21263,9 +21263,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_physical_fertile"
     ]
   },
   "3k_main_template_historical_tian_kai_hero_earth": {
@@ -21411,9 +21411,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_quiet"
     ]
   },
   "3k_main_template_historical_wang_biao_hero_water": {
@@ -21441,9 +21441,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_cunning"
     ]
   },
   "3k_main_template_historical_wang_can_hero_water": {
@@ -21619,9 +21619,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_strong_willed"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ]
   },
   "3k_main_template_historical_wang_jian_hero_water": {
@@ -21649,9 +21649,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_clumsy"
     ]
   },
   "3k_main_template_historical_wang_jing_hero_fire": {
@@ -21683,9 +21683,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_greedy"
     ]
   },
   "3k_main_template_historical_wang_jun_hero_fire": {
@@ -21709,9 +21709,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_cautious"
     ]
   },
   "3k_main_template_historical_wang_kuang_hero_metal": {
@@ -21777,9 +21777,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_modest"
     ]
   },
   "3k_main_template_historical_wang_lang_hero_earth": {
@@ -21921,9 +21921,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_dlc07_ceo_trait_personality_frivolous"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ]
   },
   "3k_main_template_historical_wang_ping_hero_fire": {
@@ -21993,9 +21993,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_stalwart"
     ]
   },
   "3k_main_template_historical_wang_shi_hero_fire": {
@@ -22065,9 +22065,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_fraternal"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_intimidating"
     ]
   },
   "3k_main_template_historical_wang_su_hero_metal": {
@@ -22095,9 +22095,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ]
   },
   "3k_main_template_historical_wang_su_hero_water": {
@@ -22171,9 +22171,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_physical_healthy"
     ]
   },
   "3k_main_template_historical_wang_xiang_hero_water": {
@@ -22311,9 +22311,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_physical_handsome"
     ]
   },
   "3k_main_template_historical_wang_yu_hero_metal": {
@@ -22459,9 +22459,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_unobservant"
     ]
   },
   "3k_main_template_historical_wei_dan_hero_water": {
@@ -22493,9 +22493,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_aescetic"
     ]
   },
   "3k_main_template_historical_wei_feng_hero_water": {
@@ -22523,9 +22523,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_energetic"
     ]
   },
   "3k_main_template_historical_wei_gu_hero_fire": {
@@ -22587,9 +22587,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_kind"
     ]
   },
   "3k_main_template_historical_wei_huang_hero_water": {
@@ -22659,9 +22659,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_physical_mad"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "3k_main_template_historical_wei_jie_hero_wood": {
@@ -22689,9 +22689,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_wei_kai_hero_fire": {
@@ -22723,9 +22723,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_ytr_ceo_trait_personality_simple"
     ]
   },
   "3k_main_template_historical_wei_kang_hero_fire": {
@@ -22749,9 +22749,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_physical_beautiful"
     ]
   },
   "3k_main_template_historical_wei_shu_hero_water": {
@@ -22779,9 +22779,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_personality_indecisive"
     ]
   },
   "3k_main_template_historical_wei_wen_hero_fire": {
@@ -22813,9 +22813,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ]
   },
   "3k_main_template_historical_wei_yan_hero_fire": {
@@ -22957,9 +22957,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ]
   },
   "3k_main_template_historical_wen_chou_hero_wood": {
@@ -23029,9 +23029,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_artful"
     ]
   },
   "3k_main_template_historical_wu_can_hero_fire": {
@@ -23123,9 +23123,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_ytr_ceo_trait_personality_benevolent"
     ]
   },
   "3k_main_template_historical_wu_huan_hero_metal": {
@@ -23259,9 +23259,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_intimidating"
     ]
   },
   "3k_main_template_historical_wu_yi_hero_fire": {
@@ -23327,9 +23327,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
       "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_incompetent"
     ]
   },
   "3k_main_template_historical_xi_zhen_hero_fire": {
@@ -23361,9 +23361,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_greedy"
     ]
   },
   "3k_main_template_historical_xia_she_hero_fire": {
@@ -23395,9 +23395,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_physical_sui_knight"
     ]
   },
   "3k_main_template_historical_xia_zhao_hero_metal": {
@@ -23535,9 +23535,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_personality_modest"
     ]
   },
   "3k_main_template_historical_xiahou_jie_hero_fire": {
@@ -23603,9 +23603,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_patient"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "3k_main_template_historical_xiahou_shang_hero_fire": {
@@ -23671,9 +23671,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_xiahou_yuan_hero_fire": {
@@ -23743,9 +23743,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_dlc07_ceo_trait_personality_frivolous"
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_reckless"
     ]
   },
   "3k_main_template_historical_xiang_chong_hero_fire": {
@@ -23815,9 +23815,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "3k_main_template_historical_xiang_lang_hero_water": {
@@ -24031,9 +24031,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_energetic"
     ]
   },
   "3k_main_template_historical_xu_chu_hero_wood": {
@@ -24399,9 +24399,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_indecisive"
     ]
   },
   "3k_main_template_historical_xu_xuan_hero_water": {
@@ -24463,9 +24463,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_physical_lovestruck"
     ]
   },
   "3k_main_template_historical_xu_yi_hero_fire": {
@@ -24489,9 +24489,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_determined"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_brilliant"
     ]
   },
   "3k_main_template_historical_xu_you_hero_water": {
@@ -24603,9 +24603,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_careless"
     ]
   },
   "3k_main_template_historical_xuan_fan_hero_water": {
@@ -24637,9 +24637,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_loyal"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ]
   },
   "3k_main_template_historical_xue_lan_hero_fire": {
@@ -24671,9 +24671,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_physical_handsome"
     ]
   },
   "3k_main_template_historical_xue_li_hero_metal": {
@@ -24735,9 +24735,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_intimidating"
     ]
   },
   "3k_main_template_historical_xue_zong_hero_water": {
@@ -24799,9 +24799,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_vain"
     ]
   },
   "3k_main_template_historical_xun_you_hero_earth": {
@@ -24943,9 +24943,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_quiet"
     ]
   },
   "3k_main_template_historical_yan_baihu_hero_metal": {
@@ -25171,9 +25171,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_yan_xiang_hero_water": {
@@ -25201,9 +25201,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
       "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_resourceful"
     ]
   },
   "3k_main_template_historical_yan_xing_hero_metal": {
@@ -25269,9 +25269,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_modest"
     ]
   },
   "3k_main_template_historical_yan_yu_hero_wood": {
@@ -25451,9 +25451,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_patient"
     ]
   },
   "3k_main_template_historical_yang_feng_hero_wood": {
@@ -25583,9 +25583,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_physical_strong"
     ]
   },
   "3k_main_template_historical_yang_qun_hero_fire": {
@@ -25609,9 +25609,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ]
   },
   "3k_main_template_historical_yang_ren_hero_fire": {
@@ -25715,9 +25715,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_arrogant"
     ]
   },
   "3k_main_template_historical_yang_xiu_hero_water": {
@@ -25809,9 +25809,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_energetic"
     ]
   },
   "3k_main_template_historical_yao_tai_hero_water": {
@@ -25839,9 +25839,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_deceitful"
     ]
   },
   "3k_main_template_historical_yao_zhou_hero_water": {
@@ -25933,9 +25933,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_physical_strong"
     ]
   },
   "3k_main_template_historical_ying_qu_hero_water": {
@@ -26069,9 +26069,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_cautious"
     ]
   },
   "3k_main_template_historical_yong_kai_hero_fire": {
@@ -26289,9 +26289,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_vain"
     ]
   },
   "3k_main_template_historical_yu_zhujian_hero_fire": {
@@ -26323,9 +26323,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_determined"
     ]
   },
   "3k_main_template_historical_yuan_huan_hero_earth": {
@@ -26699,9 +26699,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_physical_impeccable"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_superstitious"
     ]
   },
   "3k_main_template_historical_yue_jin_hero_metal": {
@@ -26801,9 +26801,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_suspicious"
     ]
   },
   "3k_main_template_historical_zang_ba_hero_wood": {
@@ -26991,9 +26991,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_stalwart"
     ]
   },
   "3k_main_template_historical_zhang_bu_hero_fire": {
@@ -27017,9 +27017,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_main_ceo_trait_physical_tough",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_sui_knight"
     ]
   },
   "3k_main_template_historical_zhang_chao_hero_water": {
@@ -27161,9 +27161,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_direct"
     ]
   },
   "3k_main_template_historical_zhang_fei_hero_fire": {
@@ -27423,9 +27423,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_scholarly"
     ]
   },
   "3k_main_template_historical_zhang_jian_hero_fire": {
@@ -27449,9 +27449,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_resourceful"
     ]
   },
   "3k_main_template_historical_zhang_jin_hero_fire": {
@@ -27639,9 +27639,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_sincere"
     ]
   },
   "3k_main_template_historical_zhang_miao_hero_water": {
@@ -27749,9 +27749,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_physical_eunuch"
     ]
   },
   "3k_main_template_historical_zhang_nan_hero_fire": {
@@ -27817,9 +27817,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_superstitious"
     ]
   },
   "3k_main_template_historical_zhang_ren_hero_fire": {
@@ -28113,9 +28113,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_physical_handsome"
     ]
   },
   "3k_main_template_historical_zhang_yun_hero_water": {
@@ -28181,9 +28181,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_zhang_ze_hero_fire": {
@@ -28219,8 +28219,8 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_defiant",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_physical_agile",
       "3k_main_ceo_trait_personality_cowardly"
     ]
   },
@@ -28283,9 +28283,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ]
   },
   "3k_main_template_historical_zhang_zhi_hero_water": {
@@ -28313,9 +28313,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ]
   },
   "3k_main_template_historical_zhang_zun_hero_fire": {
@@ -28347,9 +28347,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_fraternal"
     ]
   },
   "3k_main_template_historical_zhao_ang_hero_water": {
@@ -28377,9 +28377,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_unobservant"
     ]
   },
   "3k_main_template_historical_zhao_du_hero_wood": {
@@ -28407,9 +28407,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_disloyal"
     ]
   },
   "3k_main_template_historical_zhao_guang_hero_fire": {
@@ -28441,9 +28441,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_people_stern"
     ]
   },
   "3k_main_template_historical_zhao_lei_hero_fire": {
@@ -28505,9 +28505,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "3k_main_template_historical_zhao_qian_hero_fire": {
@@ -28539,9 +28539,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ]
   },
   "3k_main_template_historical_zhao_rui_hero_fire": {
@@ -28565,9 +28565,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_defiant"
     ]
   },
   "3k_main_template_historical_zhao_wei_hero_water": {
@@ -28637,9 +28637,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_humble"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_physical_fertile"
     ]
   },
   "3k_main_template_historical_zhao_yan_hero_water": {
@@ -28667,9 +28667,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_physical_beautiful"
     ]
   },
   "3k_main_template_historical_zhao_yi_hero_water": {
@@ -28697,9 +28697,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_physical_beautiful"
     ]
   },
   "3k_main_template_historical_zhao_yun_hero_metal": {
@@ -28761,9 +28761,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_patient"
     ]
   },
   "3k_main_template_historical_zheng_bao_hero_metal": {
@@ -28791,9 +28791,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_personality_fiery"
     ]
   },
   "3k_main_template_historical_zheng_gan_hero_fire": {
@@ -28829,9 +28829,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_kind"
     ]
   },
   "3k_main_template_historical_zheng_mao_hero_water": {
@@ -28897,9 +28897,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ]
   },
   "3k_main_template_historical_zheng_sui_hero_water": {
@@ -28927,9 +28927,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_perceptive"
     ]
   },
   "3k_main_template_historical_zheng_tai_hero_water": {
@@ -28995,9 +28995,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_careless"
     ]
   },
   "3k_main_template_historical_zheng_yan_hero_wood": {
@@ -29059,9 +29059,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "3k_main_template_historical_zhong_yao_hero_water": {
@@ -29123,9 +29123,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_personality_quiet"
     ]
   },
   "3k_main_template_historical_zhongchang_tong_hero_water": {
@@ -29153,9 +29153,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_physical_tough"
     ]
   },
   "3k_main_template_historical_zhou_he_hero_fire": {
@@ -29187,9 +29187,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_vain"
     ]
   },
   "3k_main_template_historical_zhou_huan_hero_water": {
@@ -29221,9 +29221,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_solitary"
     ]
   },
   "3k_main_template_historical_zhou_shao_hero_fire": {
@@ -29247,9 +29247,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "3k_main_template_historical_zhou_tai_hero_fire": {
@@ -29357,9 +29357,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ]
   },
   "3k_main_template_historical_zhou_yu_hero_water": {
@@ -29426,8 +29426,8 @@ const CHARACTER_DETAILS = {
     ],
     "traits": [
       "3k_main_ceo_trait_physical_infertile",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ]
   },
   "3k_main_template_historical_zhu_en_hero_water": {
@@ -29675,9 +29675,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_ytr_ceo_trait_personality_strong_willed"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_physical_strong"
     ]
   },
   "3k_main_template_historical_zhu_jun_hero_fire": {
@@ -29823,9 +29823,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_personality_solitary"
     ]
   },
   "3k_main_template_historical_zhu_zhen_hero_fire": {
@@ -29857,9 +29857,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ]
   },
   "3k_main_template_historical_zhu_zhi_hero_metal": {
@@ -29997,9 +29997,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_sincere"
     ]
   },
   "3k_main_template_historical_zhuge_liang_hero_water": {
@@ -30069,9 +30069,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_personality_honourable"
     ]
   },
   "3k_main_template_historical_zhuge_rong_hero_fire": {
@@ -30095,9 +30095,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "3k_main_template_historical_zhuge_xuan_hero_fire": {
@@ -30159,9 +30159,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_direct"
     ]
   },
   "3k_main_template_historical_zong_yu_hero_fire": {
@@ -30185,9 +30185,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ]
   },
   "3k_main_template_historical_zou_dan_hero_fire": {
@@ -30317,9 +30317,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ]
   },
   "3k_ytr_template_historical_gong_du_hero_wood": {
@@ -30739,9 +30739,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "3k_ytr_template_historical_wang_rao_hero_metal": {
@@ -30769,9 +30769,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_physical_sickly"
     ]
   },
   "3k_ytr_template_historical_xu_he_hero_metal": {
@@ -30921,9 +30921,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_physical_clumsy"
     ]
   },
   "ep_template_historical_bai_jin_hero_fire_jiangxia": {
@@ -30955,9 +30955,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_stalwart"
     ]
   },
   "ep_template_historical_bao_luan_hero_fire": {
@@ -30989,9 +30989,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_physical_drunk"
     ]
   },
   "ep_template_historical_bao_xiangru_hero_fire": {
@@ -31015,9 +31015,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ]
   },
   "ep_template_historical_bian_bing_hero_wood": {
@@ -31041,9 +31041,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_main_ceo_trait_personality_clever",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "ep_template_historical_bu_ci_hero_metal": {
@@ -31075,9 +31075,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_ytr_ceo_trait_personality_land_aspiring"
     ]
   },
   "ep_template_historical_bu_jun_hero_fire": {
@@ -31101,9 +31101,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "ep_template_historical_cao_huan_hero_earth": {
@@ -31165,9 +31165,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_tough"
     ]
   },
   "ep_template_historical_du_cha_hero_water": {
@@ -31199,9 +31199,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_sincere"
     ]
   },
   "ep_template_historical_fan_zhou_hero_water": {
@@ -31229,9 +31229,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "ep_template_historical_gongsun_hong_hero_water": {
@@ -31313,9 +31313,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_personality_superstitious",
       "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_personality_greedy"
     ]
   },
   "ep_template_historical_he_lun_hero_earth": {
@@ -31393,9 +31393,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_sincere"
     ]
   },
   "ep_template_historical_huangfu_shang_hero_metal": {
@@ -31465,9 +31465,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_personality_direct"
     ]
   },
   "ep_template_historical_jia_mo_hero_metal": {
@@ -31495,9 +31495,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_humble",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ]
   },
   "ep_template_historical_jin_hong_hero_earth": {
@@ -31529,9 +31529,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_scholarly"
     ]
   },
   "ep_template_historical_jin_yu_hero_fire": {
@@ -31563,9 +31563,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
+      "3k_main_ceo_trait_personality_quiet",
       "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_personality_disloyal"
     ]
   },
   "ep_template_historical_ju_ruo_hero_water_dai": {
@@ -31593,9 +31593,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_personality_brilliant"
     ]
   },
   "ep_template_historical_kang_ji_hero_wood_yanmen": {
@@ -31631,9 +31631,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_patient"
     ]
   },
   "ep_template_historical_ku_song_hero_fire": {
@@ -31657,9 +31657,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_elusive"
     ]
   },
   "ep_template_historical_lady_gu_yanyan_hero_metal": {
@@ -31691,9 +31691,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_enigmatic"
     ]
   },
   "ep_template_historical_lady_hua_jinting_hero_water": {
@@ -31721,9 +31721,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_energetic"
     ]
   },
   "ep_template_historical_lady_lu_lianshi_hero_earth": {
@@ -31755,9 +31755,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "ep_template_historical_li_chang_hero_earth_lingling": {
@@ -31789,9 +31789,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_physical_infertile"
     ]
   },
   "ep_template_historical_li_han_hero_earth": {
@@ -31865,9 +31865,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_physical_graceful"
     ]
   },
   "ep_template_historical_liu_qi_hero_metal": {
@@ -32017,9 +32017,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "ep_template_historical_lu_zhi_hero_water": {
@@ -32085,9 +32085,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ]
   },
   "ep_template_historical_mao_ren_hero_metal_wuling": {
@@ -32115,9 +32115,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_distinguished"
     ]
   },
   "ep_template_historical_mi_dian_hero_water_dongping": {
@@ -32145,9 +32145,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_trusting"
     ]
   },
   "ep_template_historical_pei_wei_hero_earth": {
@@ -32179,9 +32179,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_physical_strong"
     ]
   },
   "ep_template_historical_princess_pei_hero_metal": {
@@ -32301,9 +32301,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ]
   },
   "ep_template_historical_que_chang_hero_wood": {
@@ -32335,9 +32335,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_suspicious"
     ]
   },
   "ep_template_historical_ruan_shen_hero_water_poyang": {
@@ -32365,9 +32365,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_ytr_ceo_trait_personality_benevolent"
     ]
   },
   "ep_template_historical_shan_yu_hero_earth_badong": {
@@ -32391,9 +32391,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ]
   },
   "ep_template_historical_shen_chuan_hero_fire": {
@@ -32425,9 +32425,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_ambitious"
     ]
   },
   "ep_template_historical_shi_chao_hero_metal": {
@@ -32501,9 +32501,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_incompetent"
     ]
   },
   "ep_template_historical_shu_yu_hero_metal": {
@@ -32527,9 +32527,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_personality_fiery"
     ]
   },
   "ep_template_historical_sima_ai_hero_wood_prince": {
@@ -32595,9 +32595,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_personality_energetic"
     ]
   },
   "ep_template_historical_sima_chang_hero_wood": {
@@ -32621,8 +32621,8 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
       "3k_ytr_ceo_trait_physical_feared"
     ]
   },
@@ -32647,9 +32647,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ]
   },
   "ep_template_historical_sima_chi_hero_water": {
@@ -32677,9 +32677,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_personality_kind",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_elusive"
     ]
   },
   "ep_template_historical_sima_cui_hero_metal": {
@@ -32749,9 +32749,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "ep_template_historical_sima_di_hero_water": {
@@ -32783,9 +32783,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_weak"
     ]
   },
   "ep_template_historical_sima_fan_hero_wood": {
@@ -32817,9 +32817,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_intimidating"
     ]
   },
   "ep_template_historical_sima_fu_hero_earth_zhao": {
@@ -32911,9 +32911,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ]
   },
   "ep_template_historical_sima_hong_hero_metal": {
@@ -32941,9 +32941,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "ep_template_historical_sima_huang_hero_wood": {
@@ -32971,9 +32971,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_personality_pacifist"
     ]
   },
   "ep_template_historical_sima_hun_hero_earth": {
@@ -33001,9 +33001,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_distinguished"
     ]
   },
   "ep_template_historical_sima_ji_hero_fire_yan": {
@@ -33027,9 +33027,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_disloyal"
     ]
   },
   "ep_template_historical_sima_ji_hero_water_rencheng": {
@@ -33057,9 +33057,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_indecisive"
     ]
   },
   "ep_template_historical_sima_jian_hero_earth_lean": {
@@ -33091,9 +33091,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ]
   },
   "ep_template_historical_sima_jian_hero_water_qin": {
@@ -33121,9 +33121,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_cautious"
     ]
   },
   "ep_template_historical_sima_jiong_hero_earth_prince": {
@@ -33231,9 +33231,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ]
   },
   "ep_template_historical_sima_liang_hero_wood_prince": {
@@ -33354,9 +33354,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ]
   },
   "ep_template_historical_sima_mo_hero_fire": {
@@ -33388,9 +33388,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_trustworthy"
     ]
   },
   "ep_template_historical_sima_mu_hero_fire": {
@@ -33422,9 +33422,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ]
   },
   "ep_template_historical_sima_pi_hero_wood": {
@@ -33460,9 +33460,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant"
     ]
   },
   "ep_template_historical_sima_pu_hero_fire": {
@@ -33494,9 +33494,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_cautious"
     ]
   },
   "ep_template_historical_sima_qian_hero_water": {
@@ -33554,9 +33554,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_personality_vengeful"
     ]
   },
   "ep_template_historical_sima_rui_hero_earth_langye": {
@@ -33580,9 +33580,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_personality_simple"
     ]
   },
   "ep_template_historical_sima_rui_hero_fire": {
@@ -33606,9 +33606,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_healthy"
     ]
   },
   "ep_template_historical_sima_shi_hero_water": {
@@ -33640,9 +33640,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ]
   },
   "ep_template_historical_sima_shuo_hero_earth": {
@@ -33670,9 +33670,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_fraternal"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ]
   },
   "ep_template_historical_sima_song_hero_earth": {
@@ -33704,9 +33704,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ]
   },
   "ep_template_historical_sima_sui_hero_water": {
@@ -33734,9 +33734,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_superstitious"
     ]
   },
   "ep_template_historical_sima_tai_hero_fire_donghai": {
@@ -33768,9 +33768,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_ytr_ceo_trait_personality_strong_willed"
     ]
   },
   "ep_template_historical_sima_tai_hero_metal_longxi": {
@@ -33794,9 +33794,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_physical_sickly"
     ]
   },
   "ep_template_historical_sima_wei_hero_fire_prince": {
@@ -33862,9 +33862,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_relentless"
     ]
   },
   "ep_template_historical_sima_xi_hero_metal": {
@@ -33893,8 +33893,8 @@ const CHARACTER_DETAILS = {
     ],
     "traits": [
       "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ]
   },
   "ep_template_historical_sima_xia_hero_fire": {
@@ -33926,9 +33926,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_cautious"
     ]
   },
   "ep_template_historical_sima_xiao_hero_metal": {
@@ -33956,9 +33956,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_solitary"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_cruel"
     ]
   },
   "ep_template_historical_sima_xin_hero_fire": {
@@ -33982,9 +33982,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_energetic"
     ]
   },
   "ep_template_historical_sima_xu_hero_metal": {
@@ -34012,9 +34012,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_clever"
     ]
   },
   "ep_template_historical_sima_yan_hero_metal": {
@@ -34042,9 +34042,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_fiery"
     ]
   },
   "ep_template_historical_sima_yang_hero_water_runan": {
@@ -34106,9 +34106,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "ep_template_historical_sima_yi_hero_earth_chu": {
@@ -34140,9 +34140,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_vengeful"
     ]
   },
   "ep_template_historical_sima_yi_hero_wood_piling": {
@@ -34174,9 +34174,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_honourable"
     ]
   },
   "ep_template_historical_sima_yin_hero_earth": {
@@ -34208,9 +34208,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ]
   },
   "ep_template_historical_sima_ying_hero_metal_qi": {
@@ -34234,9 +34234,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_clever"
     ]
   },
   "ep_template_historical_sima_ying_hero_water_prince": {
@@ -34357,9 +34357,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_humble"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ]
   },
   "ep_template_historical_sima_yue_hero_metal_prince": {
@@ -34429,9 +34429,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_physical_agile"
     ]
   },
   "ep_template_historical_sima_zan_hero_water": {
@@ -34459,9 +34459,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_coordinated"
     ]
   },
   "ep_template_historical_sima_zhi_hero_earth": {
@@ -34493,9 +34493,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_reckless"
     ]
   },
   "ep_template_historical_sima_zong_hero_wood_runan": {
@@ -34527,9 +34527,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_competative"
     ]
   },
   "ep_template_historical_song_wei_hero_earth": {
@@ -34561,9 +34561,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_personality_sincere"
     ]
   },
   "ep_template_historical_song_zhou_hero_earth": {
@@ -34625,9 +34625,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_determined"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_physical_graceful"
     ]
   },
   "ep_template_historical_sun_xiu_hero_water": {
@@ -34713,9 +34713,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_quiet"
     ]
   },
   "ep_template_historical_tang_wen_hero_wood": {
@@ -34739,9 +34739,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_physical_lovestruck"
     ]
   },
   "ep_template_historical_tian_ben_hero_wood": {
@@ -34777,9 +34777,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ]
   },
   "ep_template_historical_wan_buyi_hero_fire": {
@@ -34803,9 +34803,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_competative"
     ]
   },
   "ep_template_historical_wang_bao_hero_wood": {
@@ -34913,9 +34913,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ]
   },
   "ep_template_historical_xiang_shi_hero_metal": {
@@ -34947,9 +34947,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_vengeful"
     ]
   },
   "ep_template_historical_xu_yan_hero_water": {
@@ -34977,9 +34977,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_fertile"
     ]
   },
   "ep_template_historical_yang_zhuo_hero_earth": {
@@ -35003,9 +35003,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_tough"
     ]
   },
   "ep_template_historical_ying_xiang_hero_earth": {
@@ -35029,9 +35029,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_land_courageous"
     ]
   },
   "ep_template_historical_zhang_fang_hero_fire": {
@@ -35144,9 +35144,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_clever"
     ]
   },
   "ep_template_historical_zong_yi_hero_fire": {
@@ -35178,9 +35178,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_physical_feared"
     ]
   },
   "ep_template_historical_zuo_cen_hero_wood": {
@@ -35212,9 +35212,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_direct"
     ]
   },
   "3k_mtu_template_historical_chen_jiu_hero_wood": {
@@ -35944,9 +35944,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_patient"
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_personality_vengeful"
     ]
   },
   "3k_mtu_template_historical_lady_zou_yuan_hero_water": {
@@ -36055,9 +36055,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_vengeful"
     ]
   },
   "3k_mtu_template_historical_yan_xiang_hero_water": {
@@ -36249,9 +36249,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ]
   },
   "ironic_template_historical_munseong_hero_water": {
@@ -36279,9 +36279,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ]
   },
   "ironic_template_historical_ganwigeo_hero_fire": {
@@ -36347,9 +36347,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_indecisive"
     ]
   },
   "ironic_template_historical_yeonbul_hero_metal": {
@@ -36377,9 +36377,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_ytr_ceo_trait_physical_impeccable"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ]
   },
   "ironic_template_historical_fei_zhan_hero_fire": {
@@ -37082,9 +37082,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ]
   },
   "ironic_template_historical_huan_lin_hero_metal": {
@@ -37095,9 +37095,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_physical_healthy"
     ]
   },
   "ironic_template_historical_zhou_jing_hero_water": {
@@ -38468,9 +38468,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ]
   },
   "ironic_template_historical_wu_chen_hero_wood": {
@@ -39421,9 +39421,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_resourceful"
     ]
   },
   "3k_main_template_generated_wu_hua_hero_fire": {
@@ -39447,9 +39447,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_personality_brave"
     ]
   },
   "3k_main_template_historical_yufuluo_hero_earth": {
@@ -39810,9 +39810,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_physical_feared"
     ]
   },
   "ironic_template_historical_supuyan_hero_fire": {
@@ -41568,9 +41568,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_enigmatic"
     ]
   },
   "ironic_template_historical_xi_zhicai_hero_water": {
@@ -41788,9 +41788,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_physical_scarred"
     ]
   },
   "ironic_template_historical_gong_father_son_fire": {
@@ -41814,9 +41814,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_cowardly"
     ]
   },
   "ironic_template_historical_huang_ang_hero_water": {
@@ -42810,9 +42810,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_fraternal"
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_personality_modest"
     ]
   },
   "ironic_template_historical_wei_duan_hero_wood": {
@@ -43622,9 +43622,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ]
   },
   "ironic_template_historical_tanshihuai_hero_metal": {
@@ -43656,9 +43656,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_cowardly"
     ]
   },
   "ironic_template_historical_murong_hero_metal": {
@@ -43686,9 +43686,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ]
   },
   "ironic_template_historical_chen_duan_hero_earth": {
@@ -44360,9 +44360,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_incompetent"
     ]
   },
   "ironic_template_historical_zhou_cang_hero_wood": {
@@ -44564,9 +44564,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_physical_beautiful"
     ]
   },
   "ironic_template_historical_chen_qiu_hero_water": {
@@ -44598,9 +44598,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_physical_lumbering"
     ]
   },
   "ironic_template_historical_chen_qiao_hero_water": {
@@ -44632,9 +44632,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ]
   },
   "ironic_template_historical_si_cong_hero_wood": {
@@ -45176,9 +45176,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_modest"
     ]
   },
   "ironic_template_historical_cao_hong_hero_earth": {
@@ -48026,9 +48026,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_cautious"
     ]
   },
   "ironic_template_historical_zuo_chengxu_hero_fire": {
@@ -48086,9 +48086,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_physical_sickly"
     ]
   },
   "ironic_template_historical_wu_dun_hero_wood": {
@@ -49887,9 +49887,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_physical_graceful"
     ]
   },
   "ironic_template_historical_zhuge_bin_hero_wood": {
