@@ -703,31 +703,31 @@ def convert_skill_image_to_url(image_key):
     image_key = image_key.replace('\\', '/')
     
     # Build the path - match the actual GitHub folder structure:
-    # data/UI/Campaign_UI/skills/
+    # data/UI/Campaign UI/skills/  (with space, URL encoded as %20)
     if image_key.startswith('data/'):
         path = image_key
     elif image_key.lower().startswith('ui/'):
         # Handle ui/ paths from game data
-        # e.g., "ui/campaign ui/skills/skill_name" -> "data/UI/Campaign_UI/skills/skill_name.png"
-        # Remove the ui/ prefix and rebuild with correct casing
+        # e.g., "ui/campaign ui/skills/skill_name" -> "data/UI/Campaign UI/skills/skill_name.png"
         rest = image_key[3:]  # Remove "ui/"
-        # Replace "campaign ui" variations with "Campaign_UI"
-        rest = rest.replace('campaign ui/', 'Campaign_UI/')
-        rest = rest.replace('campaign_ui/', 'Campaign_UI/')
-        rest = rest.replace('Campaign UI/', 'Campaign_UI/')
+        # Normalize campaign ui folder name variations
+        rest_lower = rest.lower()
+        if rest_lower.startswith('campaign ui/'):
+            rest = 'Campaign UI/' + rest[12:]
+        elif rest_lower.startswith('campaign_ui/'):
+            rest = 'Campaign UI/' + rest[12:]
         path = f"data/UI/{rest}"
     else:
         # Default: assume it's just a skill name, put in skills folder
-        # Match folder structure: data/UI/Campaign_UI/skills/
-        path = f"data/UI/Campaign_UI/skills/{image_key}"
+        # Match folder structure: data/UI/Campaign UI/skills/
+        path = f"data/UI/Campaign UI/skills/{image_key}"
     
     # Add extension if missing
     if not (path.endswith('.png') or path.endswith('.webp')):
         path = f"{path}.png"
     
-    # Replace any remaining spaces with underscores to match folder naming
-    # (GitHub folders typically use underscores instead of spaces)
-    path = path.replace(' ', '_')
+    # URL-encode spaces as %20 for GitHub Pages
+    path = path.replace(' ', '%20')
     
     return path
 
