@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles/tw3k.css" />
 
   <style>
+    /* [Previous styles remain the same until the Family Tree helpers section] */
     /* =========================
    Element Theme (Muted / TW-style)
    ========================= */
@@ -1366,11 +1367,47 @@
     }
 
     /* =========================
-       Family Tree helpers
+       Family Tree helpers - UPDATED
        ========================= */
 
-    function extractNameForMissingCharacter(templateKey, currentFamilyName, relationship) {
-        if (!templateKey) return 'Unknown';
+    // Helper function to get character key from various formats
+    function getCharacterKey(idOrTemplate) {
+      if (!idOrTemplate) return null;
+      
+      // If it contains ':', it's a full ID
+      if (idOrTemplate.includes(':')) {
+        const parts = idOrTemplate.split(':');
+        if (parts.length >= 6) {
+          const template = parts[0].trim();
+          const templateId = parts[5].trim();
+          return template + '#' + templateId;
+        }
+        return parts[0].trim();
+      }
+      
+      // Otherwise, it's already a key/template
+      return idOrTemplate;
+    }
+
+    // Extract template from character key (for finding character data)
+    function getTemplateFromKey(characterKey) {
+      if (!characterKey) return null;
+      
+      // If it has a template_id, extract just the template
+      if (characterKey.includes('#')) {
+        return characterKey.split('#')[0];
+      }
+      
+      return characterKey;
+    }
+
+    function extractNameForMissingCharacter(characterKey, currentFamilyName, relationship) {
+        if (!characterKey) return 'Unknown';
+        
+        // Remove template_id if present
+        const templateKey = characterKey.includes('#') 
+            ? characterKey.split('#')[0] 
+            : characterKey;
         
         const isGeneric = templateKey.toLowerCase().includes('generic') || 
                          templateKey.toLowerCase().includes('villager') || 
@@ -1411,10 +1448,51 @@
         return templateKey.replace(/^.*template_/, '').replace(/_/g, ' ');
     }
 
+    // Gender-aware relationship label helper
+    function getRelationshipLabel(relationship, targetCharacter, isTargetMissing = false) {
+        // If we don't have character data, use default labels
+        if (isTargetMissing || !targetCharacter) {
+            const defaultLabels = {
+                'parent': 'Parent',
+                'child': 'Child',
+                'spouse': 'Spouse',
+                'sibling': 'Sibling',
+                'grandparent': 'Grandparent',
+                'grandchild': 'Grandchild',
+                'uncle': 'Uncle/Aunt',
+                'aunt': 'Uncle/Aunt',
+                'nephew': 'Nephew/Niece',
+                'niece': 'Nephew/Niece',
+                'cousin': 'Cousin'
+            };
+            return defaultLabels[relationship] || relationship.charAt(0).toUpperCase() + relationship.slice(1);
+        }
+        
+        // Check character's gender
+        const isMale = targetCharacter.is_male !== false; // Default to male if not specified
+        
+        // Gender-specific labels
+        const genderLabels = {
+            'parent': isMale ? 'Father' : 'Mother',
+            'child': isMale ? 'Son' : 'Daughter',
+            'spouse': isMale ? 'Husband' : 'Wife',
+            'sibling': isMale ? 'Brother' : 'Sister',
+            'grandparent': isMale ? 'Grandfather' : 'Grandmother',
+            'grandchild': isMale ? 'Grandson' : 'Granddaughter',
+            'uncle': 'Uncle',
+            'aunt': 'Aunt',
+            'nephew': 'Nephew',
+            'niece': 'Niece',
+            'cousin': 'Cousin' // Cousin is gender-neutral
+        };
+        
+        return genderLabels[relationship] || relationship.charAt(0).toUpperCase() + relationship.slice(1);
+    }
+
     function renderFamilyMember(character, relationshipType, isMissing = false) {
+        const relationLabel = getRelationshipLabel(relationshipType, character, isMissing);
+        
         if (isMissing) {
-            const relationLabel = relationshipType.charAt(0).toUpperCase() + relationshipType.slice(1);
-            
             return `
                 <div class="family-member family-member-missing"
                      title="${character.display_name} (No character data available)">
@@ -1433,7 +1511,6 @@
             : null;
         
         const portraitUrl = details?.portrait?.url || '';
-        const relationLabel = relationshipType.charAt(0).toUpperCase() + relationshipType.slice(1);
 
         return `
             <a href="character.html?key=${encodeURIComponent(character.key)}" 
@@ -1452,17 +1529,65 @@
     }
 
     function renderFamilyTreeContent(char) {
-        if (typeof FAMILY_BY_CHARACTER === 'undefined' || typeof getFamilyMembers === 'undefined') {
+        const hasUidData = (typeof FAMILY_BY_UID !== 'undefined') && (typeof TEMPLATE_TO_UIDS !== 'undefined');
+        const hasTemplateData = (typeof FAMILY_BY_TEMPLATE !== 'undefined');
+        const hasLegacyData = (typeof FAMILY_BY_CHARACTER !== 'undefined');
+
+        if (!hasUidData && !hasTemplateData && !hasLegacyData) {
             return '<div class="family-tree-empty">Family tree data not available.</div>';
         }
 
-        const familyMembers = getFamilyMembers(char.key);
-        
+        let familyMembers = null;
+
+        // Preferred path (new JS export): resolve to a UID for correctness, but keep templates for navigation.
+        if (hasUidData) {
+            const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
+                ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)
+                : null;
+
+            // Try to use template_id from details if your CHARACTER_DETAILS exports it
+            let uid = details && (details.template_id || details.templateId || details.templateID) ? String(details.template_id || details.templateId || details.templateID) : null;
+
+            // Fallback: if we only have template key, pick the (only) UID for that template.
+            if (!uid) {
+                const uids = (TEMPLATE_TO_UIDS && TEMPLATE_TO_UIDS[char.key]) ? TEMPLATE_TO_UIDS[char.key] : [];
+                if (uids.length > 0) uid = uids[0]; // if multiple, first is the best available guess
+            }
+
+            if (uid && FAMILY_BY_UID[uid]) {
+                familyMembers = FAMILY_BY_UID[uid];
+            }
+
+            // Safety fallback: template-level relationships (may merge instances, but better than empty)
+            if ((!familyMembers || familyMembers.length === 0) && hasTemplateData) {
+                familyMembers = FAMILY_BY_TEMPLATE[char.key] || null;
+            }
+        }
+        // New export, but without UID index available for some reason
+        else if (hasTemplateData) {
+            familyMembers = FAMILY_BY_TEMPLATE[char.key] || null;
+        }
+        // Legacy export (template#id keys)
+        else if (hasLegacyData) {
+            // Best-effort legacy resolution: direct, then match "template#id" prefix
+            if (FAMILY_BY_CHARACTER[char.key]) {
+                familyMembers = FAMILY_BY_CHARACTER[char.key];
+            } else {
+                for (const key in FAMILY_BY_CHARACTER) {
+                    const templatePart = key.includes('#') ? key.split('#')[0] : key;
+                    if (templatePart === char.key) {
+                        familyMembers = FAMILY_BY_CHARACTER[key];
+                        break;
+                    }
+                }
+            }
+        }
+
         if (!familyMembers || familyMembers.length === 0) {
             return '<div class="family-tree-empty">No known family relationships for this character.</div>';
         }
 
-        const grouped = {
+const grouped = {
             parent: [],
             spouse: [],
             sibling: [],
@@ -1477,7 +1602,11 @@
         };
 
         familyMembers.forEach(rel => {
-            const relatedChar = CHARACTER_DATA.find(c => c.key === rel.related_to);
+            // Resolve related template (new export uses related_template; legacy uses related_to)
+            const relatedTemplate = rel.related_template || (rel.related_to ? (rel.related_to.includes('#') ? rel.related_to.split('#')[0] : rel.related_to) : '');
+            
+            // Try to find the character in CHARACTER_DATA using just the template
+            const relatedChar = CHARACTER_DATA.find(c => c.key === relatedTemplate);
             
             if (relatedChar) {
                 grouped[rel.relationship] = grouped[rel.relationship] || [];
@@ -1487,10 +1616,12 @@
                     isMissing: false
                 });
             } else {
+                // Create placeholder for missing character
                 const placeholderChar = {
-                    key: rel.related_to,
-                    display_name: extractNameForMissingCharacter(rel.related_to, char.family_name, rel.relationship),
-                    name_key: rel.related_name || ''
+                    key: relatedTemplate || rel.related_to,
+                    display_name: extractNameForMissingCharacter(relatedTemplate || rel.related_to, char.family_name, rel.relationship),
+                    name_key: rel.related_name || '',
+                    is_male: null // Unknown gender for missing characters
                 };
                 
                 grouped[rel.relationship] = grouped[rel.relationship] || [];
@@ -1502,6 +1633,7 @@
             }
         });
 
+        // Build the HTML for immediate family
         let immediateHTML = '';
         const immediateOrder = [
             { key: 'parent', label: 'Parents' },
@@ -1526,6 +1658,7 @@
             }
         });
 
+        // Build the HTML for extended family
         let extendedHTML = '';
         const extendedTypes = [
             { key: 'grandparent', label: 'Grandparents' },
@@ -1558,14 +1691,14 @@
         let finalHTML = `
             <h3 class="family-tree-header">Family Tree</h3>
             <div class="family-connections">
-                ${immediateHTML}
+                ${immediateHTML || '<p class="no-content">No immediate family members found.</p>'}
             </div>
         `;
 
         if (hasExtendedFamily) {
             finalHTML += `
                 <div class="extended-family-section">
-                    <h3 class="extended-family-header">Related To</h3>
+                    <h3 class="extended-family-header">Extended Family</h3>
                     <div class="family-connections">
                         ${extendedHTML}
                     </div>
@@ -1857,7 +1990,9 @@
     /* =========================
        Main render functions
        ========================= */
-
+    
+    // [Rest of the code remains the same - renderCharacter, categorizeEffects, renderEffects, renderNotFound, and initialization]
+    
     function renderCharacter(char) {
       const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
         ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)

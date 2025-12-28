@@ -352,7 +352,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 provided: %n (only if this character is faction leader)",
+        "name": "+1 provided: (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -2352,7 +2352,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -4659,7 +4659,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 provided: %n (only if this character is faction leader)",
+        "name": "+1 provided: (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6901,7 +6901,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6969,7 +6969,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+2 provided: %n (only if this character is faction leader)",
+        "name": "+2 provided: (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -6981,7 +6981,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+2 Assignment slots provided: %n (only if this character is faction leader)",
+        "name": "+2 Assignment slots provided: (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -7137,7 +7137,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -7307,7 +7307,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -9058,7 +9058,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -10302,7 +10302,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -11080,7 +11080,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -13339,7 +13339,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (this army)",
+        "name": "-25% desire for higher office (this army)",
         "desc": ""
       }
     ],
@@ -18286,7 +18286,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -20062,7 +20062,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 provided: %n (only if this character is faction leader)",
+        "name": "+1 provided: (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21072,7 +21072,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+1 Assignment slots provided: %n (only if this character is faction leader)",
+        "name": "+1 Assignment slots provided: (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -21806,7 +21806,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22116,7 +22116,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22196,7 +22196,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -22374,7 +22374,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (this spouse's faction) (if minister)",
+        "name": "-25% desire for higher office (this spouse's faction) (if minister)",
         "desc": ""
       },
       {
@@ -23760,7 +23760,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -24616,7 +24616,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -26094,7 +26094,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "+15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -27178,7 +27178,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -28248,7 +28248,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       }
     ],
@@ -29950,7 +29950,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -34085,7 +34085,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -35889,7 +35889,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -36160,7 +36160,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -37004,7 +37004,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+35 %n% desire for higher office own character",
+        "name": "+35% desire for higher office own character",
         "desc": ""
       }
     ],
@@ -37112,7 +37112,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office own character",
+        "name": "-15% desire for higher office own character",
         "desc": ""
       },
       {
@@ -37530,7 +37530,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37768,7 +37768,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "+15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37836,7 +37836,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -37874,7 +37874,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "+25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -37900,7 +37900,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "+25 %n% desire for higher office (this character)",
+        "name": "+25% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -38689,7 +38689,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+50 %n% desire for higher office (this character)",
+        "name": "+50% desire for higher office (this character)",
         "desc": ""
       }
     ],
@@ -41669,7 +41669,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "+15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -42941,7 +42941,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (faction-wide)",
+        "name": "+25% desire for higher office (faction-wide)",
         "desc": ""
       },
       {
@@ -46989,7 +46989,7 @@ const CHARACTER_DETAILS = {
     },
     "effects": [
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -47423,7 +47423,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (this spouse's faction)",
+        "name": "-15% desire for higher office (this spouse's faction)",
         "desc": ""
       }
     ],
@@ -47713,7 +47713,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50% desire for higher office (this character)",
         "desc": ""
       }
     ],
@@ -47807,7 +47807,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (this character)",
+        "name": "+25% desire for higher office (this character)",
         "desc": ""
       }
     ],
@@ -49217,7 +49217,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -49673,7 +49673,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-25% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -50032,7 +50032,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -50092,7 +50092,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-15 %n% desire for higher office (only if this character is faction leader)",
+        "name": "-15% desire for higher office (only if this character is faction leader)",
         "desc": ""
       },
       {
@@ -52416,7 +52416,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (this character)",
+        "name": "-25% desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -52804,7 +52804,7 @@ const CHARACTER_DETAILS = {
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (this character)",
+        "name": "+25% desire for higher office (this character)",
         "desc": ""
       }
     ],
