@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: Ironictw2st/ironictw2st.github.io
+  name: git-gateway
   branch: main
 
 media_folder: "assets/images"
