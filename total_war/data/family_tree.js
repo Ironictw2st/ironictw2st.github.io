@@ -604,8 +604,8 @@ const FAMILY_RELATIONSHIPS = [
   {
     "character": "3k_main_template_historical_bao_xin_hero_metal",
     "character_name": "bao_xin",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "parent"
   },
   {
@@ -2228,15 +2228,15 @@ const FAMILY_RELATIONSHIPS = [
   {
     "character": "ironic_template_historical_bao_tao_hero_fire",
     "character_name": "bao_tao",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "parent"
   },
   {
     "character": "ironic_template_historical_bao_zhong_hero_water",
     "character_name": "bao_zhong",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "parent"
   },
   {
@@ -6911,13 +6911,13 @@ const FAMILY_RELATIONSHIPS = [
   {
     "character": "3k_main_template_historical_bao_xun_hero_water",
     "character_name": "bao_xun",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "grandparent"
   },
   {
-    "character": "ironic_template_ancestral_bao_xin_father",
-    "character_name": "bao_xin_father",
+    "character": "3k_dlc04_template_historical_bao_dan_water",
+    "character_name": "bao_dan",
     "related_to": "3k_main_template_historical_bao_xun_hero_water",
     "related_name": "bao_xun",
     "relationship": "grandchild"
@@ -17638,13 +17638,13 @@ const FAMILY_RELATIONSHIPS_BIDIRECTIONAL = [
   {
     "character": "3k_main_template_historical_bao_xin_hero_metal",
     "character_name": "bao_xin",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "parent"
   },
   {
-    "character": "ironic_template_ancestral_bao_xin_father",
-    "character_name": "bao_xin_father",
+    "character": "3k_dlc04_template_historical_bao_dan_water",
+    "character_name": "bao_dan",
     "related_to": "3k_main_template_historical_bao_xin_hero_metal",
     "related_name": "bao_xin",
     "relationship": "child"
@@ -20886,13 +20886,13 @@ const FAMILY_RELATIONSHIPS_BIDIRECTIONAL = [
   {
     "character": "ironic_template_historical_bao_tao_hero_fire",
     "character_name": "bao_tao",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "parent"
   },
   {
-    "character": "ironic_template_ancestral_bao_xin_father",
-    "character_name": "bao_xin_father",
+    "character": "3k_dlc04_template_historical_bao_dan_water",
+    "character_name": "bao_dan",
     "related_to": "ironic_template_historical_bao_tao_hero_fire",
     "related_name": "bao_tao",
     "relationship": "child"
@@ -20900,13 +20900,13 @@ const FAMILY_RELATIONSHIPS_BIDIRECTIONAL = [
   {
     "character": "ironic_template_historical_bao_zhong_hero_water",
     "character_name": "bao_zhong",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "parent"
   },
   {
-    "character": "ironic_template_ancestral_bao_xin_father",
-    "character_name": "bao_xin_father",
+    "character": "3k_dlc04_template_historical_bao_dan_water",
+    "character_name": "bao_dan",
     "related_to": "ironic_template_historical_bao_zhong_hero_water",
     "related_name": "bao_zhong",
     "relationship": "child"
@@ -29986,13 +29986,13 @@ const FAMILY_RELATIONSHIPS_BIDIRECTIONAL = [
   {
     "character": "3k_main_template_historical_bao_xun_hero_water",
     "character_name": "bao_xun",
-    "related_to": "ironic_template_ancestral_bao_xin_father",
-    "related_name": "bao_xin_father",
+    "related_to": "3k_dlc04_template_historical_bao_dan_water",
+    "related_name": "bao_dan",
     "relationship": "grandparent"
   },
   {
-    "character": "ironic_template_ancestral_bao_xin_father",
-    "character_name": "bao_xin_father",
+    "character": "3k_dlc04_template_historical_bao_dan_water",
+    "character_name": "bao_dan",
     "related_to": "3k_main_template_historical_bao_xun_hero_water",
     "related_name": "bao_xun",
     "relationship": "grandchild"
@@ -42946,8 +42946,8 @@ const FAMILY_BY_CHARACTER = {
   ],
   "3k_main_template_historical_bao_xin_hero_metal": [
     {
-      "related_to": "ironic_template_ancestral_bao_xin_father",
-      "related_name": "bao_xin_father",
+      "related_to": "3k_dlc04_template_historical_bao_dan_water",
+      "related_name": "bao_dan",
       "relationship": "parent"
     },
     {
@@ -42966,7 +42966,7 @@ const FAMILY_BY_CHARACTER = {
       "relationship": "sibling"
     }
   ],
-  "ironic_template_ancestral_bao_xin_father": [
+  "3k_dlc04_template_historical_bao_dan_water": [
     {
       "related_to": "3k_main_template_historical_bao_xin_hero_metal",
       "related_name": "bao_xin",
@@ -42995,8 +42995,8 @@ const FAMILY_BY_CHARACTER = {
       "relationship": "parent"
     },
     {
-      "related_to": "ironic_template_ancestral_bao_xin_father",
-      "related_name": "bao_xin_father",
+      "related_to": "3k_dlc04_template_historical_bao_dan_water",
+      "related_name": "bao_dan",
       "relationship": "grandparent"
     },
     {
@@ -50240,8 +50240,8 @@ const FAMILY_BY_CHARACTER = {
   ],
   "ironic_template_historical_bao_tao_hero_fire": [
     {
-      "related_to": "ironic_template_ancestral_bao_xin_father",
-      "related_name": "bao_xin_father",
+      "related_to": "3k_dlc04_template_historical_bao_dan_water",
+      "related_name": "bao_dan",
       "relationship": "parent"
     },
     {
@@ -50262,8 +50262,8 @@ const FAMILY_BY_CHARACTER = {
   ],
   "ironic_template_historical_bao_zhong_hero_water": [
     {
-      "related_to": "ironic_template_ancestral_bao_xin_father",
-      "related_name": "bao_xin_father",
+      "related_to": "3k_dlc04_template_historical_bao_dan_water",
+      "related_name": "bao_dan",
       "relationship": "parent"
     },
     {
