@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: https://ironictw2st.github.io  # Add this line!
+display_url: https://ironictw2st.github.io  # And this line!
+
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
