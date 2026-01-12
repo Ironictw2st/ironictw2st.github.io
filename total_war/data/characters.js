@@ -4299,9 +4299,9 @@ const CHARACTER_DATA = [
   {
     "key": "ironic_template_historical_deng_yi_hero_wood",
     "name_key": "deng_yi",
-    "display_name": "Deng Xi",
+    "display_name": "Deng Yi",
     "display_name_alt": "鄧羲",
-    "forename": "Xi",
+    "forename": "Yi",
     "family_name": "Deng",
     "forename_alt": "羲",
     "family_name_alt": "鄧",
@@ -40096,32 +40096,7 @@ const CHARACTER_DATA = [
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
-  {
-    "key": "ironic_template_historical_zhuge_dan_hero_fire",
-    "name_key": "zhuge_dan",
-    "display_name": "Zhuge Dan",
-    "display_name_alt": "諸葛誕",
-    "forename": "Dan",
-    "family_name": "Zhuge",
-    "forename_alt": "葛誕",
-    "family_name_alt": "諸",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "The Hound of Shouchun",
-    "description": "Every dog has its day...",
-    "element": "fire",
-    "subtype": "3k_general_fire",
-    "is_male": true,
-    "is_unique": true,
-    "birth_year": "190",
-    "death_year": "???",
-    "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_physical_graceful"
-    ],
-    "skill_set": ""
-  },
+
   {
     "key": "ironic_template_historical_zhuge_fu_hero_metal",
     "name_key": "zhuge_fu",
@@ -40237,32 +40212,6 @@ const CHARACTER_DATA = [
     "family_name_alt": "諸葛",
     "courtesy_name": "Ziyu",
     "courtesy_name_alt": "子瑜",
-    "title": "Bookish Scholar",
-    "description": "Having studied history and poetry in years past, Zhuge Jin is a man who appreciates scholarship.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": true,
-    "is_unique": true,
-    "birth_year": "174",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_superstitious"
-    ],
-    "skill_set": "3k_main_skillset_generic_minister_water_strategist"
-  },
-  {
-    "key": "ironic_template_historical_zhuge_jin_hero_water",
-    "name_key": "zhuge_jin",
-    "display_name": "Zhuge Jin",
-    "display_name_alt": "諸葛瑾",
-    "forename": "Jin",
-    "family_name": "Zhuge",
-    "forename_alt": "葛瑾",
-    "family_name_alt": "諸",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
     "title": "Bookish Scholar",
     "description": "Having studied history and poetry in years past, Zhuge Jin is a man who appreciates scholarship.",
     "element": "water",

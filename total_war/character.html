@@ -5,9 +5,11 @@
   <title>Character | 190 Expanded Wiki</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/tw3k.css" />
+  <link rel="stylesheet" href="styles/family_tree_dagre.css" />
+  <link rel="stylesheet" href="styles/family_tree_graph.css" />
+  <link rel="stylesheet" href="styles/family_tree_zoom.css" />
 
   <style>
-    /* [Previous styles remain the same until the Family Tree helpers section] */
     /* =========================
    Element Theme (Muted / TW-style)
    ========================= */
@@ -80,7 +82,6 @@
        border-left: 2px solid rgba(255,255,255,0.18);
        padding: 2px 6px;
      }
-
 
     /* =========================
        Character Page Layout
@@ -265,7 +266,6 @@
       transform: translateX(0) !important;
     }
 
-
     .trait-icon {
       width: 42px;
       height: 42px;
@@ -338,6 +338,166 @@
       margin: 0;
       line-height: 1.35;
       white-space: normal;
+    }
+
+    /* =========================
+       EQUIPMENT STRIP (bottom of portrait)
+       ========================= */
+
+    .equipment-strip {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      right: 12px;
+      z-index: 50;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-start;
+
+      pointer-events: auto;
+    }
+
+    .equipment-icon {
+      width: 48px;
+      height: 48px;
+
+      position: relative;
+      z-index: 9999;
+      cursor: default;
+
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(0,0,0,0.55);
+      box-shadow: 0 10px 18px rgba(0,0,0,0.45);
+
+      display: grid;
+      place-items: center;
+      overflow: visible;
+    }
+
+    .equipment-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .equipment-badge {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: rgba(255,255,255,0.85);
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    }
+
+    .equipment-category-label {
+      position: absolute;
+      bottom: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.55rem;
+      color: rgba(255,255,255,0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+    }
+
+    .equipment-tooltip {
+      position: absolute;
+      left: 50%;
+      bottom: calc(100% + 10px);
+      transform: translateX(-50%);
+      min-width: 260px;
+      max-width: 360px;
+      background: rgba(10,10,14,0.96);
+      border: 1px solid #2a2a35;
+      border-radius: 8px;
+      padding: 10px 12px;
+      box-shadow: 0 18px 30px rgba(0,0,0,0.55);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 120ms ease, transform 120ms ease;
+      z-index: 20;
+    }
+
+    .equipment-icon:hover .equipment-tooltip {
+      opacity: 1;
+    }
+
+    .equipment-tooltip .eq-category {
+      font-size: 0.6rem;
+      color: var(--theme);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 4px;
+    }
+
+    .equipment-tooltip .eq-title {
+      font-family: 'Cinzel', serif;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.92);
+      margin: 0 0 6px 0;
+      line-height: 1.2;
+    }
+
+    .equipment-tooltip .eq-desc {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.75);
+      margin: 0 0 8px 0;
+      line-height: 1.35;
+      white-space: normal;
+    }
+
+    .equipment-tooltip .eq-effects {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255,255,255,0.10);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .equipment-tooltip .eq-effects-header {
+      font-family: 'Cinzel', serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.70);
+    }
+
+    .equipment-tooltip .eq-effect {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.80);
+      line-height: 1.25;
+      background: rgba(255,255,255,0.04);
+      border-left: 2px solid rgba(255,255,255,0.18);
+      padding: 2px 6px;
+    }
+
+    /* Color coding for equipment categories */
+    .equipment-icon[data-category="weapon"] {
+      border-color: rgba(200, 80, 80, 0.4);
+    }
+    .equipment-icon[data-category="armour"] {
+      border-color: rgba(120, 140, 180, 0.4);
+    }
+    .equipment-icon[data-category="mount"] {
+      border-color: rgba(160, 130, 90, 0.4);
+    }
+    .equipment-icon[data-category="accessory"] {
+      border-color: rgba(180, 160, 80, 0.4);
+    }
+    .equipment-icon[data-category="follower"] {
+      border-color: rgba(100, 160, 100, 0.4);
     }
 
     /* =========================
@@ -799,6 +959,74 @@
     }
 
     /* =========================
+       Family Tree — Dagre Graph
+       ========================= */
+
+    .ft-graph {
+      position: relative;
+      overflow: auto;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.25),
+        rgba(0,0,0,0.08)
+      );
+      padding: 18px;
+      min-height: 420px;
+    }
+
+    .ft-canvas {
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .ft-links {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .ft-links path {
+      fill: none;
+      stroke: rgba(255,255,255,0.30);
+      stroke-width: 2;
+      stroke-linecap: round;
+    }
+
+    .ft-links path[data-edge="spouse"] {
+      stroke: rgba(255,255,255,0.18);
+      stroke-dasharray: 6 4;
+    }
+
+    .ft-nodes {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+    .ft-node {
+      position: absolute;
+      width: 140px;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .ft-node .family-portrait {
+      width: 86px;
+      height: 86px;
+    }
+
+    .ft-node .family-member-name {
+      max-width: 140px;
+      text-align: center;
+    }
+
+    /* =========================
        Skill Tree Section
        ========================= */
 
@@ -1188,6 +1416,10 @@
   <script src="data/traits.js"></script>
   <script src="data/skill_trees.js"></script>
 
+  <!-- Dagre + Family Tree renderer -->
+  <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
+  <script src="scripts/family_tree_dagre.js"></script>
+
   <script>
     function escapeHtml(s) {
       return String(s ?? '')
@@ -1225,11 +1457,15 @@
        Traits helpers
        ========================= */
 
-    // Your site-relative path to trait icon folder:
-    // (Windows path: total_war\data\UI\Campaign UI\traits)
-    // becomes (web path): data/UI/Campaign UI/traits
-    // NOTE: spaces must be URL-encoded when used in href/src.
     const TRAIT_ICON_BASE = 'data/UI/Campaign%20UI/traits/';
+    const ANCILLARY_ICON_BASE = 'data/UI/Campaign%20UI/ancillaries/';
+    const ANCILLARY_ICON_FOLDERS = {
+      weapon: 'data/UI/Campaign%20UI/ancillaries/',
+      armour: 'data/UI/Campaign%20UI/ancillaries/',
+      mount: 'data/UI/Campaign%20UI/ancillaries/',
+      accessory: 'data/UI/Campaign%20UI/ancillaries/',
+      follower: 'data/UI/Campaign%20UI/ancillaries/'
+    };
 
     function getTraitObject(traitKey) {
       if (!traitKey) return null;
@@ -1249,28 +1485,21 @@
 
       if (!pRaw) return out;
 
-      // If icon_path already contains the full traits folder path, use as-is (after encoding spaces).
-      // If it's just a filename, we join it with TRAIT_ICON_BASE.
-      const p = encodeURI(pRaw); // encodes spaces etc but keeps slashes
+      const p = encodeURI(pRaw);
 
-      // 1) Direct path (relative to site root)
       out.push(p.endsWith('.png') || p.endsWith('.webp') ? p : (p + '.png'));
       out.push(p.endsWith('.png') || p.endsWith('.webp') ? p : (p + '.webp'));
 
-      // 2) Base folder + leaf filename
       const leaf = encodeURIComponent(pRaw.split('/').pop() || '');
       if (leaf) {
-        out.push(TRAIT_ICON_BASE + leaf);        // if leaf already includes extension
+        out.push(TRAIT_ICON_BASE + leaf);
         out.push(TRAIT_ICON_BASE + leaf + '.png');
         out.push(TRAIT_ICON_BASE + leaf + '.webp');
       }
 
-      // 3) If it starts with ui/, try mapping to your data/UI/... tree
-      // Example: ui/campaign ui/traits/foo -> data/UI/Campaign UI/traits/foo
       const lower = pRaw.toLowerCase();
       if (lower.startsWith('ui/')) {
-        const afterUi = pRaw.slice(3); // remove "ui/"
-        // attempt: data/UI/<afterUi>
+        const afterUi = pRaw.slice(3);
         const mapped = 'data/UI/' + encodeURI(afterUi);
         out.push(mapped.endsWith('.png') || mapped.endsWith('.webp') ? mapped : (mapped + '.png'));
         out.push(mapped.endsWith('.png') || mapped.endsWith('.webp') ? mapped : (mapped + '.webp'));
@@ -1289,6 +1518,101 @@
         `images/traits/${k}.webp`
       ];
     }
+
+    function normalizeEquipKey(k) {
+    return String(k || '')
+      .toLowerCase()
+      .replace('ancilliary', 'ancillary')   // common misspelling
+  }
+
+
+    function fallbackEquipmentIconCandidates(equipKey, category, element) {
+  const k = String(equipKey || '').toLowerCase();
+  const leaf = encodeURIComponent(k);
+  const base = ANCILLARY_ICON_FOLDERS[category] || ANCILLARY_ICON_BASE;
+
+  const out = [];
+
+  // ✅ ARMOUR-ONLY: try the standardized element-based unique armour naming
+  // 3k_main_ancillary_[element]_armour_unique.png
+  if (category === 'armour' && element) {
+    const el = String(element).toLowerCase();
+    const armourKey = `3k_main_ancillary_${el}_armour_unique`;
+    const armourLeaf = encodeURIComponent(armourKey);
+
+    out.push(
+      `data/UI/ancillaries/${armourLeaf}.png`,
+      `data/UI/ancillaries/${armourLeaf}.webp`,
+      `data/UI/Campaign%20UI/ancillaries/${armourLeaf}.png`,
+      `data/UI/Campaign%20UI/ancillaries/${armourLeaf}.webp`,
+      `${ANCILLARY_ICON_BASE}${armourLeaf}.png`,
+      `${ANCILLARY_ICON_BASE}${armourLeaf}.webp`,
+      `${base}${armourLeaf}.png`,
+      `${base}${armourLeaf}.webp`
+    );
+  }
+
+  // ---- existing logic below (your current stuff) ----
+
+  // Try to create a version without the category in the name
+  const categoryPatterns = [
+    '_mount_', '_weapon_', '_armour_', '_armor_', '_accessory_', '_follower_',
+    '_ancillary_mount_', '_ancillary_weapon_', '_ancillary_armour_', '_ancillary_armor_',
+    '_ancillary_accessory_', '_ancillary_follower_'
+  ];
+
+  let shortKey = k;
+  for (const pattern of categoryPatterns) {
+    if (k.includes(pattern)) {
+      shortKey = k.replace(pattern, '_ancillary_').replace('_ancillary_ancillary_', '_ancillary_');
+      break;
+    }
+  }
+  const shortLeaf = encodeURIComponent(shortKey);
+
+  let altKey = k.replace('_ancillary_', '_').replace('_ancilliary_', '_');
+  const altLeaf = encodeURIComponent(altKey);
+
+  out.push(
+    base + leaf + '.png',
+    base + leaf + '.webp',
+    ANCILLARY_ICON_BASE + leaf + '.png',
+    ANCILLARY_ICON_BASE + leaf + '.webp',
+
+    base + shortLeaf + '.png',
+    base + shortLeaf + '.webp',
+    ANCILLARY_ICON_BASE + shortLeaf + '.png',
+    ANCILLARY_ICON_BASE + shortLeaf + '.webp',
+
+    base + altLeaf + '.png',
+    base + altLeaf + '.webp',
+    ANCILLARY_ICON_BASE + altLeaf + '.png',
+    ANCILLARY_ICON_BASE + altLeaf + '.webp',
+
+    `data/UI/Campaign%20UI/ancillaries/${leaf}.png`,
+    `data/UI/Campaign%20UI/ancillaries/${leaf}.webp`,
+    `data/UI/Campaign%20UI/ancillaries/${shortLeaf}.png`,
+    `data/UI/Campaign%20UI/ancillaries/${shortLeaf}.webp`,
+    `data/UI/ancillaries/${leaf}.png`,
+    `data/UI/ancillaries/${leaf}.webp`,
+    `data/UI/ancillaries/${shortLeaf}.png`,
+    `data/UI/ancillaries/${shortLeaf}.webp`,
+
+    `images/ancillaries/${k}.png`,
+    `images/ancillaries/${k}.webp`,
+    `images/ancillaries/${shortKey}.png`,
+    `images/ancillaries/${shortKey}.webp`,
+    `images/equipment/${k}.png`,
+    `images/equipment/${k}.webp`,
+
+    TRAIT_ICON_BASE + leaf + '.png',
+    TRAIT_ICON_BASE + leaf + '.webp'
+  );
+
+  return out;
+}
+
+
 
     function setImgWithFallback(imgEl, candidates, onFailAll) {
       let i = 0;
@@ -1367,346 +1691,155 @@
     }
 
     /* =========================
-       Family Tree helpers - UPDATED
+       EQUIPMENT rendering (bottom of portrait)
        ========================= */
 
-    // Helper function to get character key from various formats
-    function getCharacterKey(idOrTemplate) {
-      if (!idOrTemplate) return null;
-      
-      // If it contains ':', it's a full ID
-      if (idOrTemplate.includes(':')) {
-        const parts = idOrTemplate.split(':');
-        if (parts.length >= 6) {
-          const template = parts[0].trim();
-          const templateId = parts[5].trim();
-          return template + '#' + templateId;
-        }
-        return parts[0].trim();
-      }
-      
-      // Otherwise, it's already a key/template
-      return idOrTemplate;
-    }
+    const EQUIPMENT_CATEGORY_LABELS = {
+      weapon: 'Weapon',
+      armour: 'Armour',
+      mount: 'Mount',
+      accessory: 'Accessory',
+      follower: 'Follower'
+    };
 
-    // Extract template from character key (for finding character data)
-    function getTemplateFromKey(characterKey) {
-      if (!characterKey) return null;
-      
-      // If it has a template_id, extract just the template
-      if (characterKey.includes('#')) {
-        return characterKey.split('#')[0];
-      }
-      
-      return characterKey;
-    }
+    const EQUIPMENT_CATEGORY_ORDER = ['weapon', 'armour', 'mount', 'accessory', 'follower'];
 
-    function extractNameForMissingCharacter(characterKey, currentFamilyName, relationship) {
-        if (!characterKey) return 'Unknown';
-        
-        // Remove template_id if present
-        const templateKey = characterKey.includes('#') 
-            ? characterKey.split('#')[0] 
-            : characterKey;
-        
-        const isGeneric = templateKey.toLowerCase().includes('generic') || 
-                         templateKey.toLowerCase().includes('villager') || 
-                         templateKey.toLowerCase().includes('normal');
-        
-        if (isGeneric) {
-            if (currentFamilyName) {
-                if (relationship === 'parent' || relationship === 'sibling') {
-                    return `${currentFamilyName} ???`;
-                }
-                else if (relationship === 'spouse') {
-                    return 'Unknown Spouse';
-                }
-                else if (relationship === 'child') {
-                    return `${currentFamilyName} ???`;
-                }
-            }
-            return 'Unknown Relative';
-        }
-        
-        const patterns = [
-            /template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)_(?:hero_)?(?:fire|earth|water|wood|metal|nanman)$/,
-            /template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)$/,
-            /ironic_template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)_(?:hero_)?(?:fire|earth|water|wood|metal|nanman)$/,
-            /ironic_template_(?:historical|generated|ancestral|fictional)_(?:lady_)?(.+?)$/,
+    function buildEquipmentIcon(category, equipData, element) {
+      if (!equipData || !equipData.title) return null;
+
+      const title = String(equipData.title || '').trim();
+      const desc = String(equipData.description || '').trim();
+      const categoryLabel = EQUIPMENT_CATEGORY_LABELS[category] || category;
+
+      const wrap = document.createElement('div');
+      wrap.className = 'equipment-icon';
+      wrap.setAttribute('data-category', category);
+      wrap.setAttribute('data-key', equipData.key || '');
+
+      // Build tooltip
+      const tooltip = document.createElement('div');
+      tooltip.className = 'equipment-tooltip';
+      tooltip.innerHTML = (() => {
+        const eff = Array.isArray(equipData.effects) ? equipData.effects : [];
+        const effHtml = eff.length
+          ? `<div class="eq-effects">
+              <div class="eq-effects-header">Effects</div>
+              ${eff.map(e => `<div class="eq-effect">${escapeHtml(e.name || e.formatted || e)}</div>`).join('')}
+            </div>`
+          : '';
+        return `<div class="eq-category">${escapeHtml(categoryLabel)}</div>
+                <div class="eq-title">${escapeHtml(title)}</div>
+                ${desc ? `<p class="eq-desc">${escapeHtml(desc)}</p>` : ''}
+                ${effHtml}`;
+      })();
+
+      // Try to load icon
+      const iconPath = equipData.icon_path || '';
+      if (iconPath) {
+        const candidates = [
+          ...normalizeIconCandidates(iconPath),
+          ...fallbackEquipmentIconCandidates(equipData.key || '', category, element)
         ];
-        
-        for (const pattern of patterns) {
-            const match = templateKey.match(pattern);
-            if (match) {
-                const name = match[1].replace(/_/g, ' ');
-                return name.split(' ').map(word => 
-                    word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-                ).join(' ');
-            }
-        }
-        
-        return templateKey.replace(/^.*template_/, '').replace(/_/g, ' ');
+        const img = document.createElement('img');
+        img.alt = title;
+        setImgWithFallback(img, candidates, () => {
+          img.remove();
+          const badge = document.createElement('div');
+          badge.className = 'equipment-badge';
+          badge.textContent = (categoryLabel || '?')[0].toUpperCase();
+          wrap.insertBefore(badge, tooltip);
+        });
+        wrap.appendChild(img);
+      } else {
+        // No icon path provided, try fallback candidates anyway
+        const candidates = fallbackEquipmentIconCandidates(equipData.key || '', category);
+        const img = document.createElement('img');
+        img.alt = title;
+        setImgWithFallback(img, candidates, () => {
+          img.remove();
+          const badge = document.createElement('div');
+          badge.className = 'equipment-badge';
+          badge.textContent = (categoryLabel || '?')[0].toUpperCase();
+          wrap.insertBefore(badge, tooltip);
+        });
+        wrap.appendChild(img);
+      }
+
+      wrap.appendChild(tooltip);
+      return wrap;
     }
 
-    // Gender-aware relationship label helper
+    function renderEquipmentIntoPortrait(equipment, element) {
+      const strip = document.getElementById('equipment-strip');
+      if (!strip) return;
+
+      // Clear existing
+      strip.innerHTML = '';
+
+      if (!equipment || typeof equipment !== 'object') return;
+
+      // Render in order: weapon, armour, mount, accessory, follower
+      EQUIPMENT_CATEGORY_ORDER.forEach(category => {
+        const equipData = equipment[category];
+        if (equipData && equipData.title) {
+          const icon = buildEquipmentIcon(category, equipData, element);
+          if (icon) {
+            strip.appendChild(icon);
+          }
+        }
+      });
+    }
+
+    /* =========================
+       Family Tree helpers (labels used by Dagre script)
+       ========================= */
+
     function getRelationshipLabel(relationship, targetCharacter, isTargetMissing = false) {
-        // If we don't have character data, use default labels
-        if (isTargetMissing || !targetCharacter) {
-            const defaultLabels = {
-                'parent': 'Parent',
-                'child': 'Child',
-                'spouse': 'Spouse',
-                'sibling': 'Sibling',
-                'grandparent': 'Grandparent',
-                'grandchild': 'Grandchild',
-                'uncle': 'Uncle/Aunt',
-                'aunt': 'Uncle/Aunt',
-                'nephew': 'Nephew/Niece',
-                'niece': 'Nephew/Niece',
-                'cousin': 'Cousin'
-            };
-            return defaultLabels[relationship] || relationship.charAt(0).toUpperCase() + relationship.slice(1);
-        }
-        
-        // Check character's gender
-        const isMale = targetCharacter.is_male !== false; // Default to male if not specified
-        
-        // Gender-specific labels
-        const genderLabels = {
-            'parent': isMale ? 'Father' : 'Mother',
-            'child': isMale ? 'Son' : 'Daughter',
-            'spouse': isMale ? 'Husband' : 'Wife',
-            'sibling': isMale ? 'Brother' : 'Sister',
-            'grandparent': isMale ? 'Grandfather' : 'Grandmother',
-            'grandchild': isMale ? 'Grandson' : 'Granddaughter',
-            'uncle': 'Uncle',
-            'aunt': 'Aunt',
-            'nephew': 'Nephew',
-            'niece': 'Niece',
-            'cousin': 'Cousin' // Cousin is gender-neutral
+      if (isTargetMissing || !targetCharacter) {
+        const defaultLabels = {
+          'parent': 'Parent',
+          'child': 'Child',
+          'spouse': 'Spouse',
+          'sibling': 'Sibling',
+          'grandparent': 'Grandparent',
+          'grandchild': 'Grandchild',
+          'uncle': 'Uncle/Aunt',
+          'aunt': 'Uncle/Aunt',
+          'nephew': 'Nephew/Niece',
+          'niece': 'Nephew/Niece',
+          'cousin': 'Cousin'
         };
-        
-        return genderLabels[relationship] || relationship.charAt(0).toUpperCase() + relationship.slice(1);
+        return defaultLabels[relationship] || relationship.charAt(0).toUpperCase() + relationship.slice(1);
+      }
+
+      const isMale = targetCharacter.is_male !== false;
+
+      const genderLabels = {
+        'parent': isMale ? 'Father' : 'Mother',
+        'child': isMale ? 'Son' : 'Daughter',
+        'spouse': isMale ? 'Husband' : 'Wife',
+        'sibling': isMale ? 'Brother' : 'Sister',
+        'grandparent': isMale ? 'Grandfather' : 'Grandmother',
+        'grandchild': isMale ? 'Grandson' : 'Granddaughter',
+        'uncle': 'Uncle',
+        'aunt': 'Aunt',
+        'nephew': 'Nephew',
+        'niece': 'Niece',
+        'cousin': 'Cousin'
+      };
+
+      return genderLabels[relationship] || relationship.charAt(0).toUpperCase() + relationship.slice(1);
     }
 
-    function renderFamilyMember(character, relationshipType, isMissing = false) {
-        const relationLabel = getRelationshipLabel(relationshipType, character, isMissing);
-        
-        if (isMissing) {
-            return `
-                <div class="family-member family-member-missing"
-                     title="${character.display_name} (No character data available)">
-                    <span class="relationship-label">${relationLabel}</span>
-                    <div class="family-portrait no-portrait">
-                    </div>
-                    <div class="family-member-name">
-                        ${escapeHtml(character.display_name)}
-                    </div>
-                </div>
-            `;
-        }
-        
-        const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
-            ? (CHARACTER_DETAILS_LOOKUP[character.key] || null)
-            : null;
-        
-        const portraitUrl = details?.portrait?.url || '';
-
-        return `
-            <a href="character.html?key=${encodeURIComponent(character.key)}" 
-               class="family-member"
-               title="View ${character.display_name}'s page">
-                <span class="relationship-label">${relationLabel}</span>
-                <div class="family-portrait ${!portraitUrl ? 'no-portrait' : ''}"
-                     ${portraitUrl ? `style="background-image: url('${escapeHtml(portraitUrl)}')"` : ''}>
-                </div>
-                <div class="family-member-name">
-                    ${escapeHtml(character.display_name)}
-                    ${character.display_name_alt ? `<br><span style="font-size: 0.65rem; opacity: 0.8;">${escapeHtml(character.display_name_alt)}</span>` : ''}
-                </div>
-            </a>
-        `;
-    }
+    /* =========================
+       Family Tree tab content (Dagre host)
+       ========================= */
 
     function renderFamilyTreeContent(char) {
-        const hasUidData = (typeof FAMILY_BY_UID !== 'undefined') && (typeof TEMPLATE_TO_UIDS !== 'undefined');
-        const hasTemplateData = (typeof FAMILY_BY_TEMPLATE !== 'undefined');
-        const hasLegacyData = (typeof FAMILY_BY_CHARACTER !== 'undefined');
-
-        if (!hasUidData && !hasTemplateData && !hasLegacyData) {
-            return '<div class="family-tree-empty">Family tree data not available.</div>';
-        }
-
-        let familyMembers = null;
-
-        // Preferred path (new JS export): resolve to a UID for correctness, but keep templates for navigation.
-        if (hasUidData) {
-            const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
-                ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)
-                : null;
-
-            // Try to use template_id from details if your CHARACTER_DETAILS exports it
-            let uid = details && (details.template_id || details.templateId || details.templateID) ? String(details.template_id || details.templateId || details.templateID) : null;
-
-            // Fallback: if we only have template key, pick the (only) UID for that template.
-            if (!uid) {
-                const uids = (TEMPLATE_TO_UIDS && TEMPLATE_TO_UIDS[char.key]) ? TEMPLATE_TO_UIDS[char.key] : [];
-                if (uids.length > 0) uid = uids[0]; // if multiple, first is the best available guess
-            }
-
-            if (uid && FAMILY_BY_UID[uid]) {
-                familyMembers = FAMILY_BY_UID[uid];
-            }
-
-            // Safety fallback: template-level relationships (may merge instances, but better than empty)
-            if ((!familyMembers || familyMembers.length === 0) && hasTemplateData) {
-                familyMembers = FAMILY_BY_TEMPLATE[char.key] || null;
-            }
-        }
-        // New export, but without UID index available for some reason
-        else if (hasTemplateData) {
-            familyMembers = FAMILY_BY_TEMPLATE[char.key] || null;
-        }
-        // Legacy export (template#id keys)
-        else if (hasLegacyData) {
-            // Best-effort legacy resolution: direct, then match "template#id" prefix
-            if (FAMILY_BY_CHARACTER[char.key]) {
-                familyMembers = FAMILY_BY_CHARACTER[char.key];
-            } else {
-                for (const key in FAMILY_BY_CHARACTER) {
-                    const templatePart = key.includes('#') ? key.split('#')[0] : key;
-                    if (templatePart === char.key) {
-                        familyMembers = FAMILY_BY_CHARACTER[key];
-                        break;
-                    }
-                }
-            }
-        }
-
-        if (!familyMembers || familyMembers.length === 0) {
-            return '<div class="family-tree-empty">No known family relationships for this character.</div>';
-        }
-
-const grouped = {
-            parent: [],
-            spouse: [],
-            sibling: [],
-            child: [],
-            grandparent: [],
-            grandchild: [],
-            uncle: [],
-            aunt: [],
-            nephew: [],
-            niece: [],
-            cousin: []
-        };
-
-        familyMembers.forEach(rel => {
-            // Resolve related template (new export uses related_template; legacy uses related_to)
-            const relatedTemplate = rel.related_template || (rel.related_to ? (rel.related_to.includes('#') ? rel.related_to.split('#')[0] : rel.related_to) : '');
-            
-            // Try to find the character in CHARACTER_DATA using just the template
-            const relatedChar = CHARACTER_DATA.find(c => c.key === relatedTemplate);
-            
-            if (relatedChar) {
-                grouped[rel.relationship] = grouped[rel.relationship] || [];
-                grouped[rel.relationship].push({
-                    character: relatedChar,
-                    relationship: rel.relationship,
-                    isMissing: false
-                });
-            } else {
-                // Create placeholder for missing character
-                const placeholderChar = {
-                    key: relatedTemplate || rel.related_to,
-                    display_name: extractNameForMissingCharacter(relatedTemplate || rel.related_to, char.family_name, rel.relationship),
-                    name_key: rel.related_name || '',
-                    is_male: null // Unknown gender for missing characters
-                };
-                
-                grouped[rel.relationship] = grouped[rel.relationship] || [];
-                grouped[rel.relationship].push({
-                    character: placeholderChar,
-                    relationship: rel.relationship,
-                    isMissing: true
-                });
-            }
-        });
-
-        // Build the HTML for immediate family
-        let immediateHTML = '';
-        const immediateOrder = [
-            { key: 'parent', label: 'Parents' },
-            { key: 'spouse', label: 'Spouses' },
-            { key: 'sibling', label: 'Siblings' },
-            { key: 'child', label: 'Children' }
-        ];
-
-        immediateOrder.forEach(relType => {
-            const members = grouped[relType.key];
-            if (members && members.length > 0) {
-                immediateHTML += `
-                    <div class="family-group">
-                        <div class="family-group-title">${relType.label}</div>
-                        <div class="family-members">
-                            ${members.map(m => 
-                                renderFamilyMember(m.character, relType.key, m.isMissing)
-                            ).join('')}
-                        </div>
-                    </div>
-                `;
-            }
-        });
-
-        // Build the HTML for extended family
-        let extendedHTML = '';
-        const extendedTypes = [
-            { key: 'grandparent', label: 'Grandparents' },
-            { key: 'grandchild', label: 'Grandchildren' },
-            { key: 'uncle', label: 'Uncles' },
-            { key: 'aunt', label: 'Aunts' },
-            { key: 'nephew', label: 'Nephews' },
-            { key: 'niece', label: 'Nieces' },
-            { key: 'cousin', label: 'Cousins' }
-        ];
-
-        let hasExtendedFamily = false;
-        extendedTypes.forEach(relType => {
-            const members = grouped[relType.key];
-            if (members && members.length > 0) {
-                hasExtendedFamily = true;
-                extendedHTML += `
-                    <div class="family-group">
-                        <div class="family-group-title">${relType.label}</div>
-                        <div class="family-members">
-                            ${members.map(m => 
-                                renderFamilyMember(m.character, relType.key, m.isMissing)
-                            ).join('')}
-                        </div>
-                    </div>
-                `;
-            }
-        });
-
-        let finalHTML = `
-            <h3 class="family-tree-header">Family Tree</h3>
-            <div class="family-connections">
-                ${immediateHTML || '<p class="no-content">No immediate family members found.</p>'}
-            </div>
-        `;
-
-        if (hasExtendedFamily) {
-            finalHTML += `
-                <div class="extended-family-section">
-                    <h3 class="extended-family-header">Extended Family</h3>
-                    <div class="family-connections">
-                        ${extendedHTML}
-                    </div>
-                </div>
-            `;
-        }
-
-        return finalHTML;
+      return `
+        <h3 class="family-tree-header">Family Tree</h3>
+        <div id="family-tree-graph" class="ft-graph"></div>
+      `;
     }
 
     /* =========================
@@ -1730,7 +1863,6 @@ const grouped = {
       const effects = node.effects || [];
       const isUnlocked = node.points_on_creation > 0;
 
-      // Build effects HTML
       let effectsHtml = '';
       if (effects.length > 0) {
         const formattedEffects = effects
@@ -1748,7 +1880,6 @@ const grouped = {
         }
       }
 
-      // Meta info
       const metaHtml = `
         <div class="skill-tooltip-meta">
           <span>Tier: ${node.tier}</span>
@@ -1757,7 +1888,6 @@ const grouped = {
         </div>
       `;
 
-      // Build CSS classes
       const classes = ['skill-node'];
       if (isUnlocked) classes.push('unlocked');
       if (!isUnlocked) classes.push('locked');
@@ -1799,19 +1929,16 @@ const grouped = {
         return `<div class="skill-tree-empty">Skill tree data not available for: ${escapeHtml(skillSetKey)}</div>`;
       }
 
-      // Filter visible nodes
       const visibleNodes = skillTree.nodes.filter(node => node.visible_in_ui !== false);
       
       if (visibleNodes.length === 0) {
         return `<div class="skill-tree-empty">No visible skills in this skill tree.</div>`;
       }
 
-      // Check if there are different game modes
       const gameModes = [...new Set(visibleNodes.map(n => n.game_mode).filter(m => m))];
       const hasMultipleModes = gameModes.length > 1 || 
         gameModes.some(m => m.toLowerCase().includes('romance') || m.toLowerCase().includes('historical'));
 
-      // Calculate grid dimensions
       const tiers = [...new Set(visibleNodes.map(n => n.tier))].sort((a, b) => a - b);
       const indents = [...new Set(visibleNodes.map(n => n.indent))].sort((a, b) => a - b);
       
@@ -1820,26 +1947,21 @@ const grouped = {
       const minIndent = Math.min(...indents);
       const maxIndent = Math.max(...indents);
 
-      // Layout settings
       const nodeSize = 64;
-      const paddingLeft = 60;  // Space for row labels
+      const paddingLeft = 60;
       const paddingTop = 50;
       const paddingRight = 60;
       const paddingBottom = 50;
       
-      // Calculate spacing based on indent range
       const indentRange = maxIndent - minIndent || 1;
       const tierRange = maxTier - minTier || 1;
       
-      // Horizontal spacing: map indent values to x positions
       const gridWidth = Math.max(550, indents.length * 110);
       const xScale = (gridWidth - nodeSize) / indentRange;
       
-      // Vertical spacing: map tier values to y positions
       const rowHeight = 110;
       const gridHeight = (tierRange + 1) * rowHeight;
 
-      // Calculate node positions
       const nodePositions = {};
       visibleNodes.forEach(node => {
         const x = paddingLeft + ((node.indent - minIndent) * xScale) + (nodeSize / 2);
@@ -1847,31 +1969,26 @@ const grouped = {
         nodePositions[node.key] = { x, y, node };
       });
 
-      // Build SVG lines for connections
       let linesHtml = '';
       visibleNodes.forEach(node => {
         const pos = nodePositions[node.key];
         if (!pos) return;
 
-        // Draw lines to children (parent -> child direction)
         const children = node.links?.children || [];
         children.forEach(child => {
           const childPos = nodePositions[child.key];
           if (childPos) {
             const isUnlocked = node.points_on_creation > 0 && childPos.node.points_on_creation > 0;
-            // Add game mode data to lines for filtering
             const lineGameMode = node.game_mode || childPos.node.game_mode || '';
             const gameModeAttr = lineGameMode ? `data-game-mode="${escapeHtml(lineGameMode)}"` : '';
             linesHtml += `<line x1="${pos.x}" y1="${pos.y}" x2="${childPos.x}" y2="${childPos.y}" class="${isUnlocked ? 'unlocked' : ''}" ${gameModeAttr}/>`;
           }
         });
 
-        // Also draw lines to parents (for bidirectional visibility)
         const parents = node.links?.parents || [];
         parents.forEach(parent => {
           const parentPos = nodePositions[parent.key];
           if (parentPos) {
-            // Check if this line was already drawn from parent's perspective
             const alreadyDrawn = parentPos.node.links?.children?.some(c => c.key === node.key);
             if (!alreadyDrawn) {
               const isUnlocked = node.points_on_creation > 0 && parentPos.node.points_on_creation > 0;
@@ -1883,7 +2000,6 @@ const grouped = {
         });
       });
 
-      // Build nodes HTML
       const canvasWidth = gridWidth + paddingLeft + paddingRight;
       const canvasHeight = gridHeight + paddingTop + paddingBottom;
       const midPoint = canvasWidth / 2;
@@ -1897,14 +2013,12 @@ const grouped = {
         nodesHtml += renderSkillNode(node, pos.x, pos.y, isRightSide, isTopRow);
       });
 
-      // Build tier row labels
       let rowLabelsHtml = '';
       tiers.forEach(tier => {
         const y = paddingTop + ((tier - minTier) * rowHeight) + (nodeSize / 2);
         rowLabelsHtml += `<div class="skill-tree-row-label" style="top: ${y}px;">${tier}</div>`;
       });
 
-      // Build game mode toggle if needed
       let modeToggleHtml = '';
       if (hasMultipleModes) {
         modeToggleHtml = `
@@ -1946,15 +2060,12 @@ const grouped = {
 
       toggleBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-          // Update active button
           toggleBtns.forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
           
-          // Update canvas filter
           const mode = btn.getAttribute('data-mode');
           canvas.setAttribute('data-mode', mode);
           
-          // Show/hide nodes based on mode
           const nodes = canvas.querySelectorAll('.skill-node');
           const lines = canvas.querySelectorAll('.skill-tree-links line');
           
@@ -1963,16 +2074,12 @@ const grouped = {
             if (mode === 'all') {
               node.style.display = '';
             } else if (mode === 'romance') {
-              // Show if no mode specified, or if mode contains 'romance'
-              const show = !nodeMode || nodeMode.includes('romance') || (!nodeMode.includes('historical'));
               node.style.display = nodeMode.includes('historical') && !nodeMode.includes('romance') ? 'none' : '';
             } else if (mode === 'historical') {
-              // Show if no mode specified, or if mode contains 'historical'
               node.style.display = nodeMode.includes('romance') && !nodeMode.includes('historical') ? 'none' : '';
             }
           });
           
-          // Also hide lines connected to hidden nodes
           lines.forEach(line => {
             const lineMode = (line.getAttribute('data-game-mode') || '').toLowerCase();
             if (mode === 'all') {
@@ -1991,8 +2098,6 @@ const grouped = {
        Main render functions
        ========================= */
     
-    // [Rest of the code remains the same - renderCharacter, categorizeEffects, renderEffects, renderNotFound, and initialization]
-    
     function renderCharacter(char) {
       const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
         ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)
@@ -2008,10 +2113,11 @@ const grouped = {
       const portraitUrl = details?.portrait?.url || '';
       const effects = Array.isArray(details?.effects) ? details.effects : [];
 
-      // Traits: prefer details.traits, fallback to char.traits
       const traits = Array.isArray(details?.traits) ? details.traits : (Array.isArray(char?.traits) ? char.traits : []);
 
-      // Format birth/death years
+      // Equipment (ancillaries): armour, weapon, mount, accessory, follower
+      const equipment = details?.equipment || {};
+
       let dateStr = '';
       if (char.birth_year) {
         dateStr = `${char.birth_year} AD`;
@@ -2026,11 +2132,8 @@ const grouped = {
       root.setAttribute('data-element', element);
 
       root.innerHTML = `
-        <!-- Left Content Area -->
         <div class="content-area">
-          <!-- Row 1: Title/Desc + Name/Info -->
           <div class="row-top">
-            <!-- Title & Description -->
             <div class="panel panel-divider-right panel-divider-bottom title-panel">
               ${char.title
                 ? `<h2 class="char-title" data-element="${escapeHtml(element)}">
@@ -2049,7 +2152,6 @@ const grouped = {
               }
             </div>
 
-            <!-- Name & Info -->
             <div class="panel panel-divider-bottom info-panel">
               <h1>
                 ${escapeHtml(char.display_name)}
@@ -2077,9 +2179,7 @@ const grouped = {
             </div>
           </div>
 
-          <!-- Row 2: Bio + Effects -->
           <div class="row-bottom">
-            <!-- Biography -->
             <div class="panel panel-divider-right bio-panel">
               <h3 class="panel-header">Biography</h3>
               ${biography.trim()
@@ -2087,7 +2187,6 @@ const grouped = {
                 : `<p class="no-content">No biography available for this character.</p>`
               }
 
-              <!-- Technical Details -->
               <details class="tech-details">
                 <summary>Technical Details</summary>
                 <dl>
@@ -2113,7 +2212,6 @@ const grouped = {
               </details>
             </div>
 
-            <!-- Effects -->
             <div class="panel effects-panel">
               <h3 class="panel-header">Effects</h3>
               <div id="effects-container"></div>
@@ -2121,40 +2219,38 @@ const grouped = {
           </div>
         </div>
 
-        <!-- Right Portrait Column -->
         <div class="portrait-column" id="portrait-column" ${portraitUrl ? `style="background-image: url('${escapeHtml(portraitUrl)}')"` : ''}>
           ${portraitUrl ? '<button class="portrait-toggle" id="portrait-toggle" title="Toggle fit mode">Fit</button>' : ''}
           ${!portraitUrl ? '<div class="no-portrait-placeholder">No Portrait Available</div>' : ''}
           <div class="trait-strip" id="trait-strip"></div>
+          <div class="equipment-strip" id="equipment-strip"></div>
         </div>
       `;
 
-      // Render categorized effects
       renderEffects(effects);
-
-      // Render traits (icons next to portrait)
       renderTraitsIntoPortrait(traits);
+      renderEquipmentIntoPortrait(equipment, element);
 
-      // Render tabs section
+
       const tabsSection = document.getElementById('tabs-section');
       tabsSection.style.display = 'block';
       tabsSection.setAttribute('data-element', element);
 
-      // Render Family Tree tab content
       const familyTreeTab = document.getElementById('tab-family-tree');
       familyTreeTab.innerHTML = renderFamilyTreeContent(char);
 
-      // Render Skills tab content
+      // NEW: run Dagre renderer after family tab content exists
+      const graphHost = document.getElementById('family-tree-graph');
+      if (graphHost && window.renderFamilyTreeDagre) {
+        window.renderFamilyTreeDagre(graphHost, char);
+      }
+
       const skillsTab = document.getElementById('tab-skills');
       skillsTab.innerHTML = renderSkillTreeContent(char);
 
-      // Initialize tabs
       initTabs();
-
-      // Initialize skill tree mode toggle
       initSkillTreeModeToggle();
 
-      // Portrait toggle functionality
       if (portraitUrl) {
         const portraitCol = document.getElementById('portrait-column');
         const toggleBtn = document.getElementById('portrait-toggle');
@@ -2254,7 +2350,6 @@ const grouped = {
       `;
     }
 
-    // Initialize
     const params = new URLSearchParams(window.location.search);
     const key = params.get('key');
 

@@ -1,0 +1,173 @@
+/* family_tree_graph_v3.css
+   Visual style closer to the TW3K family-tree UI:
+   - Smaller portraits
+   - Thin bracket lines + tick marks via SVG
+   - Siblings row + spouse attachment
+   - Self children laid out horizontally
+*/
+
+.ftg3-wrap {
+  width: 100%;
+  overflow-x: auto;
+  padding: 8px 6px 4px;
+}
+
+.ftg3-canvas {
+  position: relative;
+  min-width: 1100px;
+  padding: 14px 10px 18px;
+}
+
+.ftg3-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.ftg3-line {
+  stroke: rgba(255,255,255,0.42);
+  stroke-width: 2;
+  shape-rendering: geometricPrecision;
+}
+
+.ftg3-soft { stroke: rgba(255,255,255,0.22); }
+
+/* Rows */
+.ftg3-parents-row {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin: 6px 0 10px;
+}
+
+.ftg3-mid {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 26px;
+  margin: 8px 0 8px;
+}
+
+/* Siblings row */
+.ftg3-siblings-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 34px;
+}
+
+/* Spouses sit to the right of self, like the UI */
+.ftg3-spouses {
+  display: flex;
+  gap: 18px;
+  margin-left: 14px;
+  padding-left: 14px;
+  border-left: 1px solid rgba(255,255,255,0.10);
+}
+
+/* Children row: each sibling bucket keeps its own footprint so it can sit under that sibling */
+.ftg3-children-row {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 34px;
+  margin-top: 22px;
+}
+
+/* A bucket matches the width of a node by default */
+.ftg3-child-bucket {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ROOT bucket becomes a horizontal lineup like the reference */
+.ftg3-child-bucket-root {
+  width: auto;
+  min-width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+/* Node */
+.ftg3-node {
+  width: 140px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  position: relative;
+  filter: drop-shadow(0 8px 10px rgba(0,0,0,0.45));
+}
+
+.ftg3-node:hover { transform: translateY(-2px); }
+
+.ftg3-rel {
+  font-family: 'Cinzel', serif;
+  font-size: 0.58rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--theme);
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.ftg3-portrait {
+  width: 82px;
+  height: 82px;
+  border-radius: 4px;
+  border: 2px solid rgba(255,255,255,0.14);
+  background-color: #0a0a0c;
+  background-size: cover;
+  background-position: center top;
+}
+
+.ftg3-node:hover .ftg3-portrait {
+  border-color: var(--theme);
+  box-shadow: 0 0 12px var(--theme-glow);
+}
+
+.ftg3-portrait-missing {
+  display: grid;
+  place-items: center;
+  color: rgba(255,255,255,0.55);
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+}
+
+.ftg3-name {
+  text-align: center;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.78);
+  line-height: 1.15;
+  max-width: 150px;
+}
+
+.ftg3-name-alt {
+  font-size: 0.62rem;
+  opacity: 0.75;
+  margin-top: 2px;
+}
+
+.ftg3-missing { opacity: 0.55; cursor: default; }
+.ftg3-missing:hover { transform: none; }
+
+/* Slight emphasis for self */
+.ftg3-self .ftg3-portrait {
+  border-color: rgba(255,255,255,0.22);
+}

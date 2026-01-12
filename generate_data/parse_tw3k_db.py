@@ -70,6 +70,16 @@ EFFECTS_LOC_FOLDER = os.path.join(SCRIPT_DIR, "effects")
 # Scopes loc folder
 SCOPES_LOC_FOLDER = os.path.join(SCRIPT_DIR, "scopes")
 
+# UI text replacements loc file (for {{tr:...}} tokens)
+# Check multiple possible file naming conventions
+UI_TEXT_REPLACEMENTS_LOC_PATHS = [
+    os.path.join(SCRIPT_DIR, "text", "ui_text_replacements__.loc.tsv"),
+    os.path.join(SCRIPT_DIR, "text", "ui_text_replacements___loc.tsv"),
+    os.path.join(SCRIPT_DIR, "text", "ui_text_replacements.loc.tsv"),
+    os.path.join(SCRIPT_DIR, "ui_text_replacements__.loc.tsv"),
+    os.path.join(SCRIPT_DIR, "ui_text_replacements___loc.tsv"),
+]
+
 OUTPUT_PATH = os.path.join(SCRIPT_DIR, "total_war", "data", "characters.js")
 TITLES_OUTPUT_PATH = os.path.join(SCRIPT_DIR, "total_war", "data", "titles.js")
 CHAR_DETAILS_OUTPUT_PATH = os.path.join(SCRIPT_DIR, "total_war", "data", "character_details.js")
@@ -510,20 +520,77 @@ TR_REPLACEMENTS = {
     "military_supplies": "military supplies",
 }
 
+# Global holder for ui_text_replacements - will be populated at runtime
+_ui_text_replacements_kv = {}
 
-def replace_tr_tokens(text: str) -> str:
+
+def load_ui_text_replacements(filepath):
+    """
+    Load ui_text_replacements loc file into key->value dict.
+    Keys in file are like: ui_text_replacements_localised_text_<token>
+    We store them with just the <token> part as the key for easy lookup.
+    """
+    result = {}
+    if not filepath or not os.path.exists(filepath):
+        return result
+    
+    for key, value in iter_loc_tsv(filepath):
+        # Extract the token from the full key
+        # ui_text_replacements_localised_text_<token> -> <token>
+        prefix = "ui_text_replacements_localised_text_"
+        if key.startswith(prefix):
+            token = key[len(prefix):]
+            if token and value:
+                result[token] = value
+                # Also store lowercase version for case-insensitive lookup
+                result[token.lower()] = value
+        # Also store with full key for direct lookup
+        if key and value:
+            result[key] = value
+    
+    return result
+
+
+def replace_tr_tokens(text: str, ui_replacements: dict = None) -> str:
     """
     Replace {{tr:...}} tokens with correct TW3K English,
     preserving capitalization.
+    
+    First checks the dynamic ui_text_replacements dict, 
+    then falls back to static TR_REPLACEMENTS.
     """
+    if ui_replacements is None:
+        ui_replacements = _ui_text_replacements_kv
+    
     def repl(match):
-        key = match.group(1)
-        replacement = TR_REPLACEMENTS.get(key)
+        key = match.group(1).strip()
+        
+        # First try dynamic ui_text_replacements lookup
+        replacement = ui_replacements.get(key)
         if not replacement:
+            # Try case-insensitive lookup
+            replacement = ui_replacements.get(key.lower())
+        if not replacement:
+            # Try with the full loc key format
+            full_key = f"ui_text_replacements_localised_text_{key}"
+            replacement = ui_replacements.get(full_key)
+        
+        # Fall back to static TR_REPLACEMENTS
+        if not replacement:
+            replacement = TR_REPLACEMENTS.get(key)
+        if not replacement:
+            replacement = TR_REPLACEMENTS.get(key.lower())
+        
+        if not replacement:
+            # If still not found, return empty string (remove the token)
             return ""
+        
+        # Preserve capitalization based on the original token
         token = match.group(0)
-        if len(token) > 5 and token[5].isupper():
-            return replacement.capitalize()
+        # Check if the first letter after {{tr: is uppercase
+        # Format is {{tr:KEY}} so check the character at position 5
+        if len(key) > 0 and key[0].isupper():
+            return replacement[0].upper() + replacement[1:] if len(replacement) > 1 else replacement.upper()
         return replacement
 
     return re.sub(r"\{\{\s*tr:([^}]+)\s*\}\}", repl, text, flags=re.IGNORECASE)
@@ -795,6 +862,17 @@ def main():
     scope_loc_kv = load_all_loc_kv_from_folder(SCOPES_LOC_FOLDER)
     print(f"  Total effect loc keys loaded: {len(effects_loc_kv)}")
     print(f"  Total scope loc keys loaded: {len(scope_loc_kv)}")
+    
+    # Load ui_text_replacements for {{tr:...}} token resolution
+    global _ui_text_replacements_kv
+    ui_text_path = None
+    for path in UI_TEXT_REPLACEMENTS_LOC_PATHS:
+        if os.path.exists(path):
+            ui_text_path = path
+            break
+    print(f"    UI text replacements: {ui_text_path or 'NOT FOUND'}")
+    _ui_text_replacements_kv = load_ui_text_replacements(ui_text_path) if ui_text_path else {}
+    print(f"  Total ui_text_replacements keys loaded: {len(_ui_text_replacements_kv)}")
     print()
 
     # [4/10] templates
@@ -1027,6 +1105,69 @@ def main():
     print(f"  Lists: {len(effect_list_map)}")
     print()
 
+    # [11/11] ceo_initial_data_equipments (ancillaries: armour, weapon, mount, accessory, follower)
+    print("[11/11] Loading CEO initial data equipments (ancillaries)...")
+    equipments_folder = os.path.join(DB_PATH, "ceo_initial_data_equipments_tables")
+    equip_path, equip_type = get_best_file(equipments_folder)
+    
+    # Also check alternative folder locations
+    if not equip_path:
+        alt_folders = [
+            os.path.join(DB_PATH, "ceo_initial_data_equipments"),
+        ]
+        for alt in alt_folders:
+            if os.path.exists(alt):
+                for f in os.listdir(alt):
+                    if f.endswith(".xml"):
+                        equip_path = os.path.join(alt, f)
+                        equip_type = "xml"
+                        break
+                    elif f.endswith(".tsv"):
+                        equip_path = os.path.join(alt, f)
+                        equip_type = "tsv"
+                        break
+            if equip_path:
+                break
+
+    equipment_data = []
+    if equip_path:
+        equipment_data = parse_tsv(equip_path) if equip_type == "tsv" else parse_xml_to_list(equip_path)
+    
+    print(f"  Using: {os.path.basename(equip_path) if equip_path else 'NONE'} ({equip_type})")
+    print(f"  Rows: {len(equipment_data)}")
+
+    # Map: stage3_key -> list of {category, equipped_ceo}
+    # Categories we care about:
+    ANCILLARY_CATEGORIES = {
+        "3k_main_ceo_category_ancillary_armour": "armour",
+        "3k_main_ceo_category_ancillary_mount": "mount",
+        "3k_main_ceo_category_ancillary_weapon": "weapon",
+        "3k_main_ceo_category_ancillary_accessory": "accessory",
+        "3k_main_ceo_category_ancillary_follower": "follower",
+    }
+    
+    stage3_to_equipment = defaultdict(list)
+    for eq_row in equipment_data:
+        initial_data_stage = _s(eq_row.get("initial_data_stage", ""))
+        category = _s(eq_row.get("category", ""))
+        equipped_ceo = _s(eq_row.get("equipped_ceo", ""))
+        
+        if not (initial_data_stage and category and equipped_ceo):
+            continue
+        
+        # Only grab the categories we care about
+        if category in ANCILLARY_CATEGORIES:
+            stage3_to_equipment[initial_data_stage].append({
+                "category": category,
+                "category_name": ANCILLARY_CATEGORIES[category],
+                "equipped_ceo": equipped_ceo,
+            })
+    
+    print(f"  Found {len(stage3_to_equipment)} stage3 keys with equipment")
+    total_equip = sum(len(v) for v in stage3_to_equipment.values())
+    print(f"  Total equipment entries: {total_equip}")
+    print()
+
     # ages
     print("[extra] Loading age ranges...")
     ages_folder = os.path.join(DB_PATH, "character_generation_spawn_age_ranges_tables")
@@ -1110,6 +1251,114 @@ def main():
         }
         trait_defs[tkey] = trait_def
         return trait_def
+
+    # Cache for ancillary definitions
+    ancillary_defs = {}
+
+    def build_ancillary_def(ancillary_ceo_key: str, category_name: str):
+        """
+        Resolve an ancillary CEO -> best node -> (title, description, icon_path, effects).
+        Similar to build_trait_def but for equipment (armour, weapon, mount, accessory, follower).
+        """
+        akey = _s(ancillary_ceo_key)
+        if not akey:
+            return None
+        
+        cache_key = f"{akey}_{category_name}"
+        if cache_key in ancillary_defs:
+            return ancillary_defs[cache_key]
+
+        a_threshold = _s(ceo_to_threshold.get(akey, ""))
+        a_node_key = ""
+        a_title = ""
+        a_desc = ""
+        a_icon_path = ""
+        a_effects_out = []
+
+        def _populate_from_node(node_key: str):
+            nonlocal a_node_key, a_title, a_desc, a_icon_path, a_effects_out
+            a_node_key = _s(node_key)
+            node_data = ceo_nodes.get(a_node_key, {})
+            a_title = _s(node_data.get("title", ""))
+            a_desc = _s(node_data.get("description", ""))
+            a_icon_path = _s(node_data.get("icon_path", ""))
+
+            # loc overrides
+            if a_node_key in loc_titles:
+                a_title = loc_titles[a_node_key]
+            if a_node_key in loc_descs:
+                a_desc = loc_descs[a_node_key]
+
+            # Get effects from the node's effect list
+            effect_list_key = extract_effect_list_from_ceo_node(node_data)
+            if effect_list_key:
+                for er in effect_list_map.get(effect_list_key, []):
+                    eff_key = _s(er.get("effect_key", ""))
+                    val = _s(er.get("value", ""))
+                    scp = _s(er.get("scope", ""))
+                    opt = _s(er.get("optional_only_in_game_mode", ""))
+                    line = format_effect_line(eff_key, val, scp, opt, effects_loc_kv, scope_loc_kv)
+                    if not line:
+                        continue
+                    a_effects_out.append({"name": line, "desc": ""})
+
+        # PRIMARY: CEO -> threshold -> node
+        if a_threshold:
+            best_node = pick_best_ceo_node(a_threshold, threshold_to_nodes, ceo_nodes, loc_titles, loc_descs)
+            if best_node:
+                _populate_from_node(best_node)
+        else:
+            # FALLBACK 1: some tables store the node key directly in equipped_ceo
+            if akey in ceo_nodes:
+                _populate_from_node(akey)
+            # FALLBACK 2: sometimes equipped_ceo is already a threshold key
+            elif akey in threshold_to_nodes:
+                best_node = pick_best_ceo_node(akey, threshold_to_nodes, ceo_nodes, loc_titles, loc_descs)
+                if best_node:
+                    _populate_from_node(best_node)
+        ancillary_def = {
+            "key": akey,
+            "category": category_name,
+            "node": a_node_key,
+            "title": a_title,
+            "description": a_desc,
+            "icon_path": a_icon_path,
+            "effects": a_effects_out,
+        }
+        
+        print("EQUIP RESOLVE", category_name, "ceo=", akey, "threshold=", a_threshold, "node=", a_node_key, "icon=", a_icon_path)
+        ancillary_defs[cache_key] = ancillary_def
+        return ancillary_def
+
+    def get_equipment_for_stage3(stage3_key: str):
+        """
+        Get all equipment (ancillaries) for a given stage3 key.
+        Returns a dict with keys: armour, weapon, mount, accessory, follower
+        Each value is either None or a resolved ancillary definition.
+        """
+        equipment = {
+            "armour": None,
+            "weapon": None,
+            "mount": None,
+            "accessory": None,
+            "follower": None,
+        }
+        
+        stage3 = _s(stage3_key)
+        if not stage3:
+            return equipment
+        
+        equip_list = stage3_to_equipment.get(stage3, [])
+        for eq in equip_list:
+            cat_name = eq.get("category_name", "")
+            equipped_ceo = eq.get("equipped_ceo", "")
+            
+            if cat_name and equipped_ceo and cat_name in equipment:
+                ancillary_def = build_ancillary_def(equipped_ceo, cat_name)
+                if ancillary_def and (ancillary_def.get("title") or ancillary_def.get("icon_path") or ancillary_def.get("description")):
+                    equipment[cat_name] = ancillary_def
+        
+        return equipment
 
     def pick_traits_for_stage(stage11_key: str, min_traits: int = 3):
         """
@@ -1277,7 +1526,7 @@ def main():
         })
 
         # =========================
-        # Character Details (effects + portrait)
+        # Character Details (effects + portrait + equipment)
         # =========================
         effects_out = []
 
@@ -1306,7 +1555,24 @@ def main():
             elif DEBUG_MISSING:
                 print(f"[NO PORTRAIT] {display_name}: art_set_override='{art_set_override}' not in art_to_portrait")
 
-        if effects_out or portrait_url:
+        # Equipment (ancillaries): armour, weapon, mount, accessory, follower
+        equipment_out = get_equipment_for_stage3(stage3_key)
+        
+        # Convert equipment to output format (only include non-None entries)
+        equipment_data = {}
+        for cat_name, anc_def in equipment_out.items():
+            if anc_def and anc_def.get("title"):
+                equipment_data[cat_name] = {
+                    "key": anc_def.get("key", ""),
+                    "title": anc_def.get("title", ""),
+                    "description": anc_def.get("description", ""),
+                    "icon_path": anc_def.get("icon_path", ""),
+                    "effects": anc_def.get("effects", []),
+                }
+
+        has_equipment = bool(equipment_data)
+
+        if effects_out or portrait_url or has_equipment:
             character_details[key] = {
                 "portrait": {
                     "url": portrait_url,
@@ -1314,7 +1580,8 @@ def main():
                     "caption": ""
                 },
                 "effects": effects_out,
-                "traits": trait_ceos
+                "traits": trait_ceos,
+                "equipment": equipment_data,
             }
 
     characters.sort(key=lambda x: x["display_name"])
@@ -1323,6 +1590,15 @@ def main():
     with_desc = sum(1 for c in characters if c["description"])
     with_portraits = sum(1 for _, v in character_details.items() if v.get("portrait", {}).get("url"))
     with_skill_sets = sum(1 for c in characters if c.get("skill_set"))
+    with_equipment = sum(1 for _, v in character_details.items() if v.get("equipment"))
+    
+    # Count by equipment type
+    equip_counts = {"armour": 0, "weapon": 0, "mount": 0, "accessory": 0, "follower": 0}
+    for _, v in character_details.items():
+        eq = v.get("equipment", {})
+        for cat in equip_counts:
+            if eq.get(cat):
+                equip_counts[cat] += 1
 
     print(f"  Processed {len(characters)} characters")
     print(f"  With titles: {with_titles}")
@@ -1330,6 +1606,12 @@ def main():
     print(f"  With portraits: {with_portraits}")
     print(f"  With effects entries: {len(character_details)}")
     print(f"  With skill sets: {with_skill_sets}")
+    print(f"  With equipment: {with_equipment}")
+    print(f"    - Armour: {equip_counts['armour']}")
+    print(f"    - Weapon: {equip_counts['weapon']}")
+    print(f"    - Mount: {equip_counts['mount']}")
+    print(f"    - Accessory: {equip_counts['accessory']}")
+    print(f"    - Follower: {equip_counts['follower']}")
     print()
 
     # ============================================================================
@@ -1391,8 +1673,9 @@ const CHARACTER_STATS = {{
 
     # character_details.js
     os.makedirs(os.path.dirname(CHAR_DETAILS_OUTPUT_PATH), exist_ok=True)
-    details_js = "// Auto-generated character details (portraits + effects)\n"
-    details_js += f"// Total entries: {len(character_details)}\n\n"
+    details_js = "// Auto-generated character details (portraits + effects + equipment)\n"
+    details_js += f"// Total entries: {len(character_details)}\n"
+    details_js += f"// With equipment: {with_equipment}\n\n"
     details_js += "const CHARACTER_DETAILS = "
     details_js += json.dumps(character_details, indent=2, ensure_ascii=False)
     details_js += ";\n\n"
@@ -1422,7 +1705,7 @@ TRAIT_DATA.forEach(t => {{ TRAIT_LOOKUP[t.key] = t; }});
     print("=" * 60)
     print("SUMMARY")
     print("=" * 60)
-    print(f"  Total: {len(characters)}, Titles: {with_titles}, Descriptions: {with_desc}, Details: {len(character_details)}, Skill Sets: {with_skill_sets}")
+    print(f"  Total: {len(characters)}, Titles: {with_titles}, Descriptions: {with_desc}, Details: {len(character_details)}, Skill Sets: {with_skill_sets}, Equipment: {with_equipment}")
     print()
 
 

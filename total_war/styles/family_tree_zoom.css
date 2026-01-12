@@ -1,0 +1,158 @@
+/* Family Tree Zoom Controls */
+.ft-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.ft-zoom-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.ft-zoom-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.ft-zoom-btn:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.ft-zoom-level {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.65);
+  min-width: 45px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.ft-wrapper {
+  overflow: auto;
+  max-height: 70vh;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.10) 100%);
+}
+
+.ft-canvas {
+  transform-origin: top left;
+  transition: transform 0.1s ease-out;
+}
+
+/* ==========================================
+   Family Tree Node Styles - Fixed Overlay
+   ========================================== */
+
+.ft-node.family-member {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.ft-label-wrap {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 6px;
+  min-height: 20px;
+}
+
+.relationship-label {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b48eff;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(180, 142, 255, 0.3);
+  padding: 3px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.ft-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  padding: 8px;
+  transition: all 0.15s ease;
+}
+
+.ft-node.family-member:hover .ft-card-content {
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 0 15px rgba(180, 142, 255, 0.15);
+}
+
+.family-portrait {
+  width: 90px;
+  height: 90px;
+  border-radius: 4px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background-color: #0a0a0c;
+  background-size: cover;
+  background-position: center top;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.family-portrait.no-portrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%);
+}
+
+.family-portrait.no-portrait::after {
+  content: "?";
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.family-member-name {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 130px;
+  word-wrap: break-word;
+}
+
+.family-member-missing {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.family-member-missing:hover .ft-card-content {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: none;
+}

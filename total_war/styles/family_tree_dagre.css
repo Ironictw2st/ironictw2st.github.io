@@ -1,0 +1,146 @@
+/* Dagre Family Tree - TW Style */
+
+.ft-header {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--theme);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.ft-hint {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.ft-wrap {
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0.12) 100%);
+  overflow: auto;
+  padding: 18px;
+  min-height: 420px;
+}
+
+/* IMPORTANT: do NOT stretch the svg with inset:0 (that causes viewBox scaling problems) */
+.ft-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: visible;
+}
+
+.ft-nodes {
+  position: relative;
+  z-index: 2;
+}
+
+/* Cards */
+.ft-node {
+  position: absolute;
+  width: 150px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.ft-node:hover {
+  transform: translate(-50%, -50%) scale(1.03);
+  filter: brightness(1.06);
+}
+
+.ft-portrait {
+  width: 92px;
+  height: 92px;
+  border-radius: 4px;
+  border: 2px solid rgba(255,255,255,0.14);
+  background-color: #0a0a0c;
+  background-size: cover;
+  background-position: center top;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.50);
+}
+
+.ft-node:hover .ft-portrait {
+  border-color: var(--theme);
+  box-shadow: 0 0 14px var(--theme-glow), 0 10px 18px rgba(0,0,0,0.50);
+}
+
+.ft-portrait.no-portrait {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #1a1a1d 0%, #0a0a0c 100%);
+}
+
+.ft-portrait.no-portrait::after {
+  content: '?';
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  color: rgba(255,255,255,0.35);
+}
+
+.ft-name {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.15;
+  color: var(--text-secondary);
+  max-width: 150px;
+}
+
+.ft-node:hover .ft-name {
+  color: var(--title-cream);
+}
+
+.ft-badge {
+  margin-top: 6px;
+  font-size: 0.62rem;
+  padding: 2px 6px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.35);
+  color: var(--theme);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+/* SVG edges */
+.ft-links path[data-edge="parent"] {
+  stroke: rgba(255,255,255,0.22);
+  stroke-width: 2;
+  fill: none;
+}
+
+.ft-links path[data-edge="parent"].highlight {
+  stroke: var(--theme);
+}
+
+.ft-links path[data-edge="spouse"] {
+  stroke: rgba(255,255,255,0.22);
+  stroke-width: 2;
+  fill: none;
+  stroke-dasharray: 6 5;
+  opacity: 0.85;
+}
+
+.ft-links path[data-edge="spouse"].highlight {
+  stroke: var(--theme);
+  opacity: 1;
+}
+
+.ft-node[data-role="spouse"] .ft-badge {
+  color: rgba(255,255,255,0.75);
+  border-color: rgba(255,255,255,0.10);
+}
