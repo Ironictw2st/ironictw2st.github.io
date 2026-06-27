@@ -663,7 +663,10 @@
       font-size: 0.95rem;
       color: var(--text-secondary);
       line-height: 1.7;
-      margin: 0;
+      margin: 0 0 0.85rem 0;
+    }
+    .bio-text:last-of-type {
+      margin-bottom: 0;
     }
 
     .no-content {
@@ -2183,7 +2186,7 @@
             <div class="panel panel-divider-right bio-panel">
               <h3 class="panel-header">Biography</h3>
               ${biography.trim()
-                ? `<p class="bio-text">${escapeHtml(biography)}</p>`
+                ? biography.trim().split(/\n\s*\n/).map(p => `<p class="bio-text">${escapeHtml(p.trim())}</p>`).join('')
                 : `<p class="no-content">No biography available for this character.</p>`
               }
 
