@@ -45,8 +45,11 @@ import sys
 import csv
 import json
 import glob
+import zlib
 import struct
 from collections import defaultdict, Counter
+
+import asset_version
 
 import numpy as np
 from PIL import Image
@@ -417,8 +420,15 @@ def flag_colour(faction_key):
 
 
 def fallback_colour(key):
-    """Deterministic, readable colour for anything with neither a banner nor a flag."""
-    h = abs(hash(key)) % 360
+    """
+    Deterministic, readable colour for anything with neither a banner nor a flag.
+
+    crc32, not hash(): Python salts str hashing per process, so hash() gave this faction a
+    different colour on every run. Harmless while nothing depended on the output being
+    stable, but the Map page's cache-busting stamp is a hash of this file's bytes, so an
+    unstable colour meant every run invalidated the whole file for no reason.
+    """
+    h = zlib.crc32(key.encode("utf-8")) % 360
     import colorsys
     r, g, b = colorsys.hsv_to_rgb(h / 360.0, 0.45, 0.65)
     return f"{int(r*255):02X}{int(g*255):02X}{int(b*255):02X}"
@@ -660,6 +670,8 @@ def main():
         f.write("const MAP_FACTION_BY_KEY = {};\nMAP_FACTIONS.forEach(f => { MAP_FACTION_BY_KEY[f.key] = f; });\n")
     size_mb = os.path.getsize(OUTPUT_PATH) / 1048576
     print(f"  Written: {OUTPUT_PATH} ({size_mb:.2f} MB)")
+    for name, digest in asset_version.stamp_map_page(SCRIPT_DIR):
+        print(f"  stamped map.html: {name}?v={digest}")
 
     stats = {
         "regions": len(regions),

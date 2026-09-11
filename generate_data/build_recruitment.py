@@ -47,6 +47,7 @@ import glob
 from collections import defaultdict, Counter
 
 import lua_table
+import asset_version
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SITE_DATA = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "total_war", "data"))
@@ -404,6 +405,8 @@ def main():
         f.write("\n".join(lines))
     size = os.path.getsize(OUTPUT_PATH) / 1024
     print(f"  Written: {OUTPUT_PATH} ({size:.0f} KB)")
+    for name, digest in asset_version.stamp_map_page(SCRIPT_DIR):
+        print(f"  stamped map.html: {name}?v={digest}")
 
     summary = {
         "campaign": CAMPAIGN,

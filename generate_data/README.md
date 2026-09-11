@@ -120,6 +120,32 @@ them, because the lua treats an unrecognised name as a literal region key and so
 
 `family_tree/family_extractor.py` is separate and hand-fed (`starter.xlsx` + lua); it is not part of the sync.
 
+## Cache busting (do not remove the `?v=` stamps)
+
+GitHub Pages serves pages with `Cache-Control: max-age=600` and data files with
+`max-age=14400`, and neither is configurable. A visitor's HTML therefore refreshes four hours
+before the JS it loads does, so any release that changes the **shape** of a data file leaves
+them running new HTML against a stale file. That is not hypothetical: renaming
+`RECRUIT_SCOPES` to `RECRUIT_ZONES` blanked the live map, because the inline script threw on
+the first missing global and no polygons were ever added.
+
+`asset_version.py` fixes it by rewriting `total_war/map.html`'s script tags to
+`src="data/<name>?v=<sha1 of the file>"`. A new release is a new URL, so there is nothing
+cached to go stale. `build_map.py` and `build_recruitment.py` both call it after writing, and
+both stamp the whole list, so either one leaves the page consistent.
+
+Two consequences worth knowing:
+
+- **Generators must be byte-stable.** An unstable output changes the hash on every run and
+  invalidates the file for nothing. `fallback_colour()` used `hash()`, which Python salts per
+  process, and so gave one faction a new colour every run; it uses `crc32` now.
+- **`map.html` is edited by the generators.** Only the `?v=` values, only for the files in
+  `MAP_PAGE_ASSETS`. Expect that line to change in a diff after a data run.
+
+The page also refuses to trust half a dataset: it checks the recruitment globals for presence
+**and** shape, and falls back to the ownership paint with a visible notice if either fails, so
+a mismatch can never blank the map again.
+
 ## Layout
 
 - `db/<table>/data__.tsv` — vanilla rows (refreshed by sync when the header matches), then every mod TSV
