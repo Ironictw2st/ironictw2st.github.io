@@ -260,6 +260,12 @@ def slug(name):
     return re.sub(r"[^a-z0-9]+", "", _s(name).lower().replace("ü", "u"))
 
 
+def _same_faction(a, b):
+    """Treat a faction and its separatist mirror as the same faction."""
+    strip = lambda x: re.sub(r"_separatists$", "", _s(x))
+    return strip(a) == strip(b)
+
+
 # ----------------------------------------------------------------------------
 # main
 # ----------------------------------------------------------------------------
@@ -292,7 +298,11 @@ def main():
     pooled = T("pooled_resources_tables")
     factor_j = rows_by(R("pooled_resource_factor_junctions_tables"), "resource")
     ui_primary = rows_by(R("ui_primary_faction_pooled_resources_tables"), "faction")
-    cg_members = {_s(r.get("id")): _s(r.get("group")) for r in R("campaign_group_members_tables")}
+    cg_member_rows = R("campaign_group_members_tables")
+    cg_members = {_s(r.get("id")): _s(r.get("group")) for r in cg_member_rows}
+    members_by_group = defaultdict(list)
+    for r in cg_member_rows:
+        members_by_group[_s(r.get("group"))].append(_s(r.get("id")))
     cg_crit_f = rows_by(R("campaign_group_member_criteria_factions_tables"), "member")
     cg_crit_f_by_faction = rows_by(R("campaign_group_member_criteria_factions_tables"), "faction")
     cg_pooled = rows_by(R("campaign_group_pooled_resources_tables"), "campaign_group")
@@ -361,7 +371,7 @@ def main():
 
     def build_resource(res_key, faction_key, is_primary):
         p = pooled.get(res_key, {})
-        name = loc(LOC, f"pooled_resources_display_name_{res_key}")
+        name = strip_tw_markup(loc(LOC, f"pooled_resources_display_name_{res_key}"))
         if not name:
             # no loc: prettify the key (ironic_han_liu_yu_peace -> Liu Yu Peace)
             name = re.sub(r"^(ironic_|3k_\w+?_pooled_resource_|3k_\w+?_)", "", res_key)
@@ -371,9 +381,12 @@ def main():
             "key": res_key,
             "name": name,
             "description": strip_tw_markup(loc(LOC, f"pooled_resources_description_{res_key}")),
-            "tooltip": strip_tw_markup(loc(LOC, f"pooled_resources_foreign_diplomacy_view_tooltip_{res_key}")),
-            "positive_label": loc(LOC, f"pooled_resources_positive_factors_display_name_{res_key}"),
-            "negative_label": loc(LOC, f"pooled_resources_negative_factors_display_name_{res_key}"),
+            # the diplomacy tooltip is sometimes just the resource name again; drop it then
+            "tooltip": "" if strip_tw_markup(loc(LOC, f"pooled_resources_foreign_diplomacy_view_tooltip_{res_key}")).strip().lower()
+                             in ("", name.strip().lower())
+                       else strip_tw_markup(loc(LOC, f"pooled_resources_foreign_diplomacy_view_tooltip_{res_key}")),
+            "positive_label": strip_tw_markup(loc(LOC, f"pooled_resources_positive_factors_display_name_{res_key}")),
+            "negative_label": strip_tw_markup(loc(LOC, f"pooled_resources_negative_factors_display_name_{res_key}")),
             "icon": icon_url(p.get("icon_path", ""), "resources"),
             "minimum": _s(p.get("minimum")), "maximum": _s(p.get("maximum")),
             "is_primary": is_primary,
@@ -391,30 +404,93 @@ def main():
                 "key": fk, "name": strip_tw_markup(fname),
                 "recurring": _s(r.get("is_recurring_factor")).lower() == "true",
             })
-        # levels
-        seen = set()
-        for member in level_members_by_resource.get(res_key, []):
-            if "_ai_" in member.lower() or member.lower().endswith("_ai"):
-                continue
-            if cg_diff.get(member):
-                continue
-            crit = cg_crit_f.get(member, [])
-            if crit and not any(_s(c.get("faction")) == faction_key for c in crit):
-                continue
-            rng = cg_ranges.get(member, [])
-            mn = _s(rng[0].get("min_range")) if rng else ""
-            mx = _s(rng[0].get("max_range")) if rng else ""
-            group = cg_members.get(member, "")
+        # Levels are built from the campaign-group side, because the two halves of the link are
+        # stored inconsistently: the GROUP carries the effect bundles, while a MEMBER carries the
+        # % band and the faction criterion, and the member->group row is sometimes missing
+        # altogether. Groups are found by name ("<resource>_level_N") or through a member that
+        # declares the resource; the band is then taken from any member with the same level number.
+        groups = {g: rows for g, rows in cg_pr_effects.items()
+                  if g == res_key or g.startswith(res_key + "_level")}
+        for m in level_members_by_resource.get(res_key, []):
+            g = cg_members.get(m, "")
+            if g and g in cg_pr_effects:
+                groups.setdefault(g, cg_pr_effects[g])
+
+        band_members = set(level_members_by_resource.get(res_key, []))
+        for g in groups:
+            band_members.update(members_by_group.get(g, []))
+
+        def _level_no(key):
+            m = re.search(r"_level_?(\d+)$", _s(key))
+            return m.group(1) if m else None
+
+        members_by_level = defaultdict(list)
+        for m in band_members:
+            n = _level_no(m)
+            if n is not None:
+                members_by_level[n].append(m)
+
+        def _band_for(group):
+            """min/max and the member it came from, for the group's level number."""
+            for member in sorted(members_by_level.get(_level_no(group) or "", [])):
+                # AI-only variants are identified by their difficulty criterion, not by name:
+                # a name test on "_ai_" would also match factions such as Ma Ai.
+                if cg_diff.get(member):
+                    continue
+                crit = cg_crit_f.get(member, [])
+                # Some factions scope their bands to the separatist mirror faction
+                # (ironic_faction_xiongnu_tribes_separatists) instead of the playable one.
+                if crit and not any(_same_faction(_s(c.get("faction")), faction_key) for c in crit):
+                    continue
+                rng = cg_ranges.get(member, [])
+                if rng:
+                    return _s(rng[0].get("min_range")), _s(rng[0].get("max_range")), member
+            return "", "", ""
+
+        def _bundles_for(group):
             bl = []
             for r in cg_pr_effects.get(group, []):
                 fb = format_bundle(r.get("effect_bundle"))
                 if fb:
                     bl.append(fb)
+            return bl
+
+        seen = set()
+
+        # Pass 1 (member-driven): the normal shape, where a member declares the resource and
+        # its own row points at the group that holds the effects.
+        for member in _dedupe_preserve([m for m in level_members_by_resource.get(res_key, []) if m]):
+            if cg_diff.get(member):   # AI-only variant (see _band_for)
+                continue
+            crit = cg_crit_f.get(member, [])
+            if crit and not any(_same_faction(_s(c.get("faction")), faction_key) for c in crit):
+                continue
+            rng = cg_ranges.get(member, [])
+            mn = _s(rng[0].get("min_range")) if rng else ""
+            mx = _s(rng[0].get("max_range")) if rng else ""
+            group = cg_members.get(member, "")
+            bl = _bundles_for(group)
             sig = (mn, mx, tuple(b["key"] for b in bl))
             if sig in seen or not bl:
                 continue
             seen.add(sig)
-            out["levels"].append({"member": member, "min": mn, "max": mx, "bundles": bl})
+            out["levels"].append({"member": member, "group": group, "min": mn, "max": mx, "bundles": bl})
+
+        # Pass 2 (group-driven), only when pass 1 found nothing: the member->group row is missing,
+        # so pair each "<resource>_level_N" group with whichever member carries the same level number.
+        if not out["levels"]:
+            for group in sorted(groups, key=lambda g: int(_level_no(g) or 0)):
+                bl = _bundles_for(group)
+                if not bl:
+                    continue
+                mn, mx, member = _band_for(group)
+                if not member:
+                    continue
+                sig = (mn, mx, tuple(b["key"] for b in bl))
+                if sig in seen:
+                    continue
+                seen.add(sig)
+                out["levels"].append({"member": member, "group": group, "min": mn, "max": mx, "bundles": bl})
 
         def _num(v):
             try:

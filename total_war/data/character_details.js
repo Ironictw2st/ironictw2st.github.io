@@ -72,7 +72,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -240,7 +240,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -517,7 +517,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -1318,7 +1318,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -1418,7 +1418,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -2119,7 +2119,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -2311,7 +2311,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -2584,7 +2584,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -2962,7 +2962,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_one_handed_axe_common",
         "title": "Axe",
-        "description": "Trees, heads... what's the difference?",
+        "description": "\"Trees, heads... what's the difference?\"",
         "icon_path": "weapons/3k_main_ancillary_one_handed_axe_common.png",
         "effects": [
           {
@@ -3667,7 +3667,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -3823,7 +3823,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -4151,7 +4151,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -4251,7 +4251,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -4339,7 +4339,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -4607,7 +4607,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -4699,7 +4699,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -4975,7 +4975,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -5861,7 +5861,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -6226,7 +6226,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -6326,7 +6326,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -6426,7 +6426,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -6606,7 +6606,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -6791,7 +6791,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -7581,7 +7581,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -7929,7 +7929,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -8109,7 +8109,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -8373,7 +8373,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -9509,7 +9509,7 @@ const CHARACTER_DETAILS = {
       "accessory": {
         "key": "3k_main_ancillary_weapon_composite_bow_common",
         "title": "Bow",
-        "description": "Twang!",
+        "description": "\"Twang!\"",
         "icon_path": "weapons/3k_main_ancillary_composite_bow_common.png",
         "effects": [
           {
@@ -9849,7 +9849,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_dlc06_ancillary_weapon_2h_ball_mace_king_shamoke_unique",
         "title": "Mountain Sunder",
-        "description": "Rock, armour, bone. All split, shatter and break.",
+        "description": "\"Rock, armour, bone. All split, shatter and break.\"",
         "icon_path": "weapons/3k_ytr_ancillary_weapon_2h_ball_mace_unique.png",
         "effects": [
           {
@@ -10108,7 +10108,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -10436,7 +10436,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -10620,7 +10620,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -11092,7 +11092,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -11184,7 +11184,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -11448,7 +11448,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -11804,7 +11804,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -12459,7 +12459,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_one_handed_axe_common",
         "title": "Axe",
-        "description": "Trees, heads... what's the difference?",
+        "description": "\"Trees, heads... what's the difference?\"",
         "icon_path": "weapons/3k_main_ancillary_one_handed_axe_common.png",
         "effects": [
           {
@@ -12723,7 +12723,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_one_handed_axe_common",
         "title": "Axe",
-        "description": "Trees, heads... what's the difference?",
+        "description": "\"Trees, heads... what's the difference?\"",
         "icon_path": "weapons/3k_main_ancillary_one_handed_axe_common.png",
         "effects": [
           {
@@ -15251,7 +15251,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -15607,7 +15607,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -15699,7 +15699,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -15879,7 +15879,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -16223,7 +16223,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -16319,7 +16319,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -16719,7 +16719,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -16899,7 +16899,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -17387,7 +17387,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -17571,7 +17571,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -17663,7 +17663,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -17759,7 +17759,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -17851,7 +17851,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -17947,7 +17947,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -18379,7 +18379,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -18699,7 +18699,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -19139,7 +19139,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -19171,7 +19171,7 @@ const CHARACTER_DETAILS = {
       "accessory": {
         "key": "3k_main_ancillary_weapon_composite_bow_common",
         "title": "Bow",
-        "description": "Twang!",
+        "description": "\"Twang!\"",
         "icon_path": "weapons/3k_main_ancillary_composite_bow_common.png",
         "effects": [
           {
@@ -19255,7 +19255,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -19943,7 +19943,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -20035,7 +20035,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -20123,7 +20123,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -20560,7 +20560,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -20936,7 +20936,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -21268,7 +21268,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -21360,7 +21360,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -21452,7 +21452,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -21544,7 +21544,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -21728,7 +21728,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -21820,7 +21820,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22016,7 +22016,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22180,7 +22180,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22364,7 +22364,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22456,7 +22456,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22544,7 +22544,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22632,7 +22632,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22724,7 +22724,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22812,7 +22812,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -22988,7 +22988,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -23080,7 +23080,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -23348,7 +23348,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_blade_of_xiang_yu_faction",
         "title": "Blade of Xiang Yu",
-        "description": "Slices through jade, like so much logging.",
+        "description": "\"Slices through jade, like so much logging.\"",
         "icon_path": "weapons/3k_main_ancillary_blade_of_xiang_yu.png",
         "effects": [
           {
@@ -23436,7 +23436,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -23532,7 +23532,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -23708,7 +23708,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -23792,7 +23792,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -23972,7 +23972,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -24252,7 +24252,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -24424,7 +24424,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -24680,7 +24680,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -24776,7 +24776,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -25028,7 +25028,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -25192,7 +25192,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -25500,7 +25500,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -25596,7 +25596,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_sword_and_shield_exceptional",
         "title": "Reinforced Sword and Shield",
-        "description": "Your granduncle took an arrow in the knee. Wouldn't have happened if he had this shield.",
+        "description": "\"Your granduncle took an arrow in the knee. Wouldn't have happened if he had this shield.\"",
         "icon_path": "weapons/3k_main_ancillary_sword_and_shield_common.png",
         "effects": [
           {
@@ -25684,7 +25684,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -26300,7 +26300,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -26480,7 +26480,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -27036,7 +27036,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -27136,7 +27136,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -27756,7 +27756,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -27848,7 +27848,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -28388,7 +28388,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -28680,7 +28680,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_refined",
         "title": "Family Spear",
-        "description": "Your grandfather used this against the bandits.",
+        "description": "\"Your grandfather used this against the bandits.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_refined.png",
         "effects": [
           {
@@ -28780,7 +28780,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -28968,7 +28968,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -29148,7 +29148,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -29720,7 +29720,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -29820,7 +29820,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -29912,7 +29912,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -30152,7 +30152,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -30332,7 +30332,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -30736,7 +30736,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -30856,7 +30856,7 @@ const CHARACTER_DETAILS = {
       "accessory": {
         "key": "3k_main_ancillary_accessory_hua_tuos_manual",
         "title": "Hua Tuo's Manual",
-        "description": "Your kung-fu is weak, old man…",
+        "description": "\"Your kung-fu is weak, old man…\"",
         "icon_path": "accessories/3k_main_ancillary_hua_tuos_manual.png",
         "effects": [
           {
@@ -31440,7 +31440,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -31532,7 +31532,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -31612,7 +31612,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -31704,7 +31704,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -32104,7 +32104,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -32300,7 +32300,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_one_handed_axe_common",
         "title": "Axe",
-        "description": "Trees, heads... what's the difference?",
+        "description": "\"Trees, heads... what's the difference?\"",
         "icon_path": "weapons/3k_main_ancillary_one_handed_axe_common.png",
         "effects": [
           {
@@ -32412,7 +32412,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -32504,7 +32504,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -32596,7 +32596,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -32688,7 +32688,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -32780,7 +32780,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -33289,7 +33289,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -33381,7 +33381,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -33757,7 +33757,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -33925,7 +33925,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -34105,7 +34105,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -34369,7 +34369,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -35477,7 +35477,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_dual_swords_common",
         "title": "Dual Jian",
-        "description": "Let me introduce you to two of my closest friends…",
+        "description": "\"Let me introduce you to two of my closest friends…\"",
         "icon_path": "weapons/3k_main_ancillary_dual_swords_common.png",
         "effects": [
           {
@@ -36569,7 +36569,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_axes_of_the_bandit_queen_faction",
         "title": "The Red Sisters",
-        "description": "These axes will be an extension of my strength and will.",
+        "description": "\"These axes will be an extension of my strength and will.\"",
         "icon_path": "weapons/3k_main_ancillary_axes_of_the_bandit_queen.png",
         "effects": [
           {
@@ -36669,7 +36669,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -36845,7 +36845,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -37185,7 +37185,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -37285,7 +37285,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -37562,7 +37562,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -37730,7 +37730,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38078,7 +38078,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38174,7 +38174,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38274,7 +38274,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38454,7 +38454,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38546,7 +38546,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38630,7 +38630,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38730,7 +38730,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -38922,7 +38922,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -39107,7 +39107,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -39203,7 +39203,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -39295,7 +39295,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "ironic_ancillary_weapon_ling_tong_twin_jis_unique",
         "title": "Avengers",
-        "description": "Assemble!",
+        "description": "\"Assemble!\"",
         "icon_path": "ui/ancillaries/weapons/3k_puzzle_ancillary_swiftness.png",
         "effects": [
           {
@@ -39387,7 +39387,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -39791,7 +39791,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -40179,7 +40179,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -40271,7 +40271,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -40363,7 +40363,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -40631,7 +40631,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -40791,7 +40791,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -40883,7 +40883,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -40979,7 +40979,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -41247,7 +41247,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -41703,7 +41703,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -41791,7 +41791,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -41983,7 +41983,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -42255,7 +42255,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -42551,7 +42551,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -42643,7 +42643,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -42823,7 +42823,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -43027,7 +43027,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -43195,7 +43195,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -43279,7 +43279,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -43463,7 +43463,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -43659,7 +43659,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -44143,7 +44143,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -44239,7 +44239,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -44955,7 +44955,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_refined",
         "title": "Family Spear",
-        "description": "Your grandfather used this against the bandits.",
+        "description": "\"Your grandfather used this against the bandits.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_refined.png",
         "effects": [
           {
@@ -45043,7 +45043,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -45132,7 +45132,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_refined",
         "title": "Family Spear",
-        "description": "Your grandfather used this against the bandits.",
+        "description": "\"Your grandfather used this against the bandits.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_refined.png",
         "effects": [
           {
@@ -45220,7 +45220,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -45388,7 +45388,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -45476,7 +45476,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -45744,7 +45744,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -46080,7 +46080,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -46168,7 +46168,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -46260,7 +46260,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -46521,7 +46521,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -47209,7 +47209,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -47385,7 +47385,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -47549,7 +47549,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -47645,7 +47645,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -47821,7 +47821,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -47993,7 +47993,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -48085,7 +48085,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -48421,7 +48421,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -48513,7 +48513,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -48597,7 +48597,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -48993,7 +48993,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -49081,7 +49081,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -49292,7 +49292,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -49644,7 +49644,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -50132,7 +50132,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -50224,7 +50224,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -50633,7 +50633,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -50997,7 +50997,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -51089,7 +51089,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -51213,7 +51213,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -51457,7 +51457,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_one_handed_axe_common",
         "title": "Axe",
-        "description": "Trees, heads... what's the difference?",
+        "description": "\"Trees, heads... what's the difference?\"",
         "icon_path": "weapons/3k_main_ancillary_one_handed_axe_common.png",
         "effects": [
           {
@@ -51549,7 +51549,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -51649,7 +51649,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -51841,7 +51841,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -51933,7 +51933,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -52325,7 +52325,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -52937,7 +52937,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -53129,7 +53129,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -53253,7 +53253,7 @@ const CHARACTER_DETAILS = {
       "accessory": {
         "key": "3k_main_ancillary_weapon_bow_taishi_ci_faction",
         "title": "Breath & Wind",
-        "description": "His breath became the wind, his voice the thunder.",
+        "description": "\"His breath became the wind, his voice the thunder.\"",
         "icon_path": "weapons/3k_main_ancillary_bow_taishi_ci.png",
         "effects": [
           {
@@ -53525,7 +53525,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -54137,7 +54137,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -54369,7 +54369,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -54877,7 +54877,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -55053,7 +55053,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -55145,7 +55145,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -55669,7 +55669,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -55761,7 +55761,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -55861,7 +55861,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -55953,7 +55953,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -56041,7 +56041,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -56309,7 +56309,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -56673,7 +56673,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57041,7 +57041,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57289,7 +57289,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57381,7 +57381,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57473,7 +57473,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57561,7 +57561,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57657,7 +57657,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57745,7 +57745,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -57837,7 +57837,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -58001,7 +58001,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -58097,7 +58097,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -58193,7 +58193,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -58457,7 +58457,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -58641,7 +58641,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -58809,7 +58809,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -58989,7 +58989,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -59073,7 +59073,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -59245,7 +59245,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -59409,7 +59409,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -59509,7 +59509,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -59689,7 +59689,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -59785,7 +59785,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_exceptional",
         "title": "Heirloom Spear",
-        "description": "This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.",
+        "description": "\"This weapon has seen regimes rise and fall. Not sure it's still fit for purpose, if I'm honest.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_exceptional.png",
         "effects": [
           {
@@ -59961,7 +59961,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -60133,7 +60133,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -60309,7 +60309,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_refined",
         "title": "Family Spear",
-        "description": "Your grandfather used this against the bandits.",
+        "description": "\"Your grandfather used this against the bandits.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_refined.png",
         "effects": [
           {
@@ -60481,7 +60481,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -60581,7 +60581,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -60761,7 +60761,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -61373,7 +61373,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -62081,7 +62081,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -62169,7 +62169,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -62261,7 +62261,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -62529,7 +62529,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -62617,7 +62617,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -62717,7 +62717,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -62901,7 +62901,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -63673,7 +63673,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -63953,7 +63953,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -64053,7 +64053,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -64340,7 +64340,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -64436,7 +64436,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -64788,7 +64788,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -65132,7 +65132,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -65224,7 +65224,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -65560,7 +65560,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -65796,7 +65796,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -65976,7 +65976,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -66148,7 +66148,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -66396,7 +66396,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -66492,7 +66492,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -66588,7 +66588,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -66868,7 +66868,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -66968,7 +66968,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -68092,7 +68092,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -68184,7 +68184,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -68276,7 +68276,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -68464,7 +68464,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -68560,7 +68560,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -68656,7 +68656,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -68748,7 +68748,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -69112,7 +69112,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -69704,7 +69704,7 @@ const CHARACTER_DETAILS = {
       "accessory": {
         "key": "3k_main_ancillary_weapon_composite_bow_common",
         "title": "Bow",
-        "description": "Twang!",
+        "description": "\"Twang!\"",
         "icon_path": "weapons/3k_main_ancillary_composite_bow_common.png",
         "effects": [
           {
@@ -69868,7 +69868,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -69960,7 +69960,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -70176,7 +70176,7 @@ const CHARACTER_DETAILS = {
       "accessory": {
         "key": "3k_ironic_ancillary_accessory_scripture_of_rice_pecks",
         "title": "Xiang'er",
-        "description": "I nourish myself by means of rustic simplicity, and dare to take joy in vacuous non-being.",
+        "description": "\"I nourish myself by means of rustic simplicity, and dare to take joy in vacuous non-being.\"",
         "icon_path": "accessories/3k_ironic_ancillary_accessory_scripture_of_rice_pecks.png",
         "effects": [
           {
@@ -70252,7 +70252,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -70352,7 +70352,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -70632,7 +70632,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -70720,7 +70720,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -70892,7 +70892,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -71152,7 +71152,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -71340,7 +71340,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_dual_axes_exceptional",
         "title": "Dual War Axes",
-        "description": "If you see him coming, run as fast as you can!",
+        "description": "\"If you see him coming, run as fast as you can!\"",
         "icon_path": "weapons/3k_main_ancillary_dual_axes_exceptional.png",
         "effects": [
           {
@@ -71440,7 +71440,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -71532,7 +71532,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -71788,7 +71788,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -72128,7 +72128,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -72300,7 +72300,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -72388,7 +72388,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -72472,7 +72472,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -72640,7 +72640,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -72732,7 +72732,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -73240,7 +73240,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -73420,7 +73420,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -73920,7 +73920,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -74012,7 +74012,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -74192,7 +74192,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -74356,7 +74356,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -74528,7 +74528,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -74712,7 +74712,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -74812,7 +74812,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -75420,7 +75420,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -75596,7 +75596,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -75692,7 +75692,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -75784,7 +75784,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -75876,7 +75876,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -75964,7 +75964,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -76064,7 +76064,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -76244,7 +76244,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -76616,7 +76616,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -76708,7 +76708,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -76800,7 +76800,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -76892,7 +76892,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -76984,7 +76984,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -77068,7 +77068,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -77248,7 +77248,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -77512,7 +77512,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -77880,7 +77880,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_refined",
         "title": "Family Spear",
-        "description": "Your grandfather used this against the bandits.",
+        "description": "\"Your grandfather used this against the bandits.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_refined.png",
         "effects": [
           {
@@ -78076,7 +78076,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -78684,7 +78684,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -78852,7 +78852,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -78940,7 +78940,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -79016,7 +79016,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -79108,7 +79108,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -79268,7 +79268,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -79688,7 +79688,7 @@ const CHARACTER_DETAILS = {
       "armour": {
         "key": "ep_ancillary_armour_strategist_light_armour_water_extraordinary",
         "title": "Intellectual Vestures",
-        "description": "There is a difference between knowing the path and walking the path.",
+        "description": "\"There is a difference between knowing the path and walking the path.\"",
         "icon_path": "armours/ep_ancillary_armour_strategist_light_armour_water_extraordinary.png",
         "effects": [
           {
@@ -79792,7 +79792,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -80168,7 +80168,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -80436,7 +80436,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -80604,7 +80604,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -80696,7 +80696,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -81396,7 +81396,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -81480,7 +81480,7 @@ const CHARACTER_DETAILS = {
       "armour": {
         "key": "ep_ancillary_armour_strategist_light_armour_water_extraordinary",
         "title": "Intellectual Vestures",
-        "description": "There is a difference between knowing the path and walking the path.",
+        "description": "\"There is a difference between knowing the path and walking the path.\"",
         "icon_path": "armours/ep_ancillary_armour_strategist_light_armour_water_extraordinary.png",
         "effects": [
           {
@@ -81584,7 +81584,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -81656,7 +81656,7 @@ const CHARACTER_DETAILS = {
       "armour": {
         "key": "ep_ancillary_armour_strategist_light_armour_water_unique",
         "title": "Robes of the Mantis",
-        "description": "There is mystery in the way it moves, and beauty too.",
+        "description": "\"There is mystery in the way it moves, and beauty too.\"",
         "icon_path": "armours/ep_ancillary_armour_strategist_light_armour_water_unique.png",
         "effects": [
           {
@@ -82388,7 +82388,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -82636,7 +82636,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -82724,7 +82724,7 @@ const CHARACTER_DETAILS = {
       "armour": {
         "key": "ep_ancillary_armour_light_armour_metal_unique",
         "title": "Spirit of the Dog",
-        "description": "Dignity and understanding, friend. That is how we win.",
+        "description": "\"Dignity and understanding, friend. That is how we win.\"",
         "icon_path": "armours/3k_main_ancillary_armour_light_armour_metal_unique.png",
         "effects": [
           {
@@ -82828,7 +82828,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -83004,7 +83004,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_refined",
         "title": "Family Spear",
-        "description": "Your grandfather used this against the bandits.",
+        "description": "\"Your grandfather used this against the bandits.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_refined.png",
         "effects": [
           {
@@ -83160,7 +83160,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -83252,7 +83252,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -83700,7 +83700,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -84128,7 +84128,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -84300,7 +84300,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -84636,7 +84636,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_dual_axes_exceptional",
         "title": "Dual War Axes",
-        "description": "If you see him coming, run as fast as you can!",
+        "description": "\"If you see him coming, run as fast as you can!\"",
         "icon_path": "weapons/3k_main_ancillary_dual_axes_exceptional.png",
         "effects": [
           {
@@ -84912,7 +84912,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_refined",
         "title": "Family Spear",
-        "description": "Your grandfather used this against the bandits.",
+        "description": "\"Your grandfather used this against the bandits.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_refined.png",
         "effects": [
           {
@@ -85169,7 +85169,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -85257,7 +85257,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -85349,7 +85349,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -85449,7 +85449,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -85789,7 +85789,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -86217,7 +86217,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -86397,7 +86397,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_axe_exceptional",
         "title": "Battle Axe",
-        "description": "Believe me, you don't want to be on the receiving end.",
+        "description": "\"Believe me, you don't want to be on the receiving end.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_axe_exceptional.png",
         "effects": [
           {
@@ -86477,7 +86477,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -86665,7 +86665,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -86845,7 +86845,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -87185,7 +87185,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -87357,7 +87357,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -87818,7 +87818,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -88258,7 +88258,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -88602,7 +88602,7 @@ const CHARACTER_DETAILS = {
       "armour": {
         "key": "ep_ancillary_armour_strategist_light_armour_water_extraordinary",
         "title": "Intellectual Vestures",
-        "description": "There is a difference between knowing the path and walking the path.",
+        "description": "\"There is a difference between knowing the path and walking the path.\"",
         "icon_path": "armours/ep_ancillary_armour_strategist_light_armour_water_extraordinary.png",
         "effects": [
           {
@@ -88706,7 +88706,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -88798,7 +88798,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -88890,7 +88890,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -88978,7 +88978,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -89090,7 +89090,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -89158,7 +89158,7 @@ const CHARACTER_DETAILS = {
       "armour": {
         "key": "ep_ancillary_armour_strategist_light_armour_water_extraordinary",
         "title": "Intellectual Vestures",
-        "description": "There is a difference between knowing the path and walking the path.",
+        "description": "\"There is a difference between knowing the path and walking the path.\"",
         "icon_path": "armours/ep_ancillary_armour_strategist_light_armour_water_extraordinary.png",
         "effects": [
           {
@@ -89759,7 +89759,7 @@ const CHARACTER_DETAILS = {
       "armour": {
         "key": "ep_ancillary_armour_strategist_light_armour_water_extraordinary",
         "title": "Intellectual Vestures",
-        "description": "There is a difference between knowing the path and walking the path.",
+        "description": "\"There is a difference between knowing the path and walking the path.\"",
         "icon_path": "armours/ep_ancillary_armour_strategist_light_armour_water_extraordinary.png",
         "effects": [
           {
@@ -89867,7 +89867,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -89967,7 +89967,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -90067,7 +90067,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -91487,7 +91487,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -91995,7 +91995,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -92172,7 +92172,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -92556,7 +92556,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -92744,7 +92744,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -93072,7 +93072,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -93320,7 +93320,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -93404,7 +93404,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -93720,7 +93720,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -93976,7 +93976,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -94336,7 +94336,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -95104,7 +95104,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -95196,7 +95196,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -95376,7 +95376,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -95468,7 +95468,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -95552,7 +95552,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -95720,7 +95720,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -96400,7 +96400,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -96972,7 +96972,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -97056,7 +97056,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -97556,7 +97556,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -97640,7 +97640,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -97808,7 +97808,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -97892,7 +97892,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -97976,7 +97976,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -98144,7 +98144,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -98384,7 +98384,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -98544,7 +98544,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -98636,7 +98636,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -98896,7 +98896,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -99144,7 +99144,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -99228,7 +99228,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -99472,7 +99472,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -99640,7 +99640,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -99724,7 +99724,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -100712,7 +100712,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -100900,7 +100900,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -101300,7 +101300,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -101392,7 +101392,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -102236,7 +102236,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -102328,7 +102328,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -102504,7 +102504,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -102680,7 +102680,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -102764,7 +102764,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -103156,7 +103156,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -103248,7 +103248,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -103644,7 +103644,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -103812,7 +103812,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -104006,7 +104006,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -104414,7 +104414,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -105058,7 +105058,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -105386,7 +105386,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -105630,7 +105630,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -106190,7 +106190,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -106274,7 +106274,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -106456,7 +106456,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -106684,7 +106684,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -106908,7 +106908,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -107280,7 +107280,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -107416,7 +107416,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -107566,7 +107566,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -107702,7 +107702,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -107838,7 +107838,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -107978,7 +107978,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -108114,7 +108114,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -108634,7 +108634,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -108926,7 +108926,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -109058,7 +109058,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_one_handed_axe_common",
         "title": "Axe",
-        "description": "Trees, heads... what's the difference?",
+        "description": "\"Trees, heads... what's the difference?\"",
         "icon_path": "weapons/3k_main_ancillary_one_handed_axe_common.png",
         "effects": [
           {
@@ -109598,7 +109598,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -109694,7 +109694,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_one_handed_axe_common",
         "title": "Axe",
-        "description": "Trees, heads... what's the difference?",
+        "description": "\"Trees, heads... what's the difference?\"",
         "icon_path": "weapons/3k_main_ancillary_one_handed_axe_common.png",
         "effects": [
           {
@@ -109958,7 +109958,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -110214,7 +110214,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -110470,7 +110470,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -110834,7 +110834,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -111198,7 +111198,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -111290,7 +111290,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -111726,7 +111726,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -112002,7 +112002,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -112362,7 +112362,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -112454,7 +112454,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -112546,7 +112546,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -112638,7 +112638,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -113182,7 +113182,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -114830,7 +114830,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -114922,7 +114922,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -115014,7 +115014,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -115110,7 +115110,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -115390,7 +115390,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -115838,7 +115838,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -116414,7 +116414,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -116586,7 +116586,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -116674,7 +116674,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -117178,7 +117178,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -117262,7 +117262,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -118102,7 +118102,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -118242,7 +118242,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -118334,7 +118334,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -118510,7 +118510,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -118606,7 +118606,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -118886,7 +118886,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -118982,7 +118982,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -119166,7 +119166,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -119258,7 +119258,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -119350,7 +119350,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -119438,7 +119438,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -120010,7 +120010,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -120334,7 +120334,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -120494,7 +120494,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -120966,7 +120966,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -121206,7 +121206,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -121606,7 +121606,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -121770,7 +121770,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -122014,7 +122014,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -122334,7 +122334,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -122418,7 +122418,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -122502,7 +122502,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -122594,7 +122594,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -122758,7 +122758,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -123082,7 +123082,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -123482,7 +123482,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -123566,7 +123566,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -123730,7 +123730,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -123814,7 +123814,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -123898,7 +123898,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -124226,7 +124226,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -124310,7 +124310,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -124630,7 +124630,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -124886,7 +124886,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -125298,7 +125298,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -125646,7 +125646,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -125814,7 +125814,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -126070,7 +126070,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -126486,7 +126486,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -126578,7 +126578,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -126822,7 +126822,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -126906,7 +126906,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -126990,7 +126990,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -127230,7 +127230,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -127414,7 +127414,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -127578,7 +127578,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -127750,7 +127750,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -127914,7 +127914,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -127998,7 +127998,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -128162,7 +128162,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -128334,7 +128334,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -128658,7 +128658,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -128742,7 +128742,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -128826,7 +128826,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -128926,7 +128926,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -129010,7 +129010,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -129170,7 +129170,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -129438,7 +129438,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -129682,7 +129682,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -129766,7 +129766,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -130006,7 +130006,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -130170,7 +130170,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -130570,7 +130570,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -130734,7 +130734,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -131062,7 +131062,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -131242,7 +131242,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -131406,7 +131406,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -131494,7 +131494,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -131578,7 +131578,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -132166,7 +132166,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -132434,7 +132434,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -132598,7 +132598,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -132914,7 +132914,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -132998,7 +132998,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -133082,7 +133082,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -133746,7 +133746,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -133848,7 +133848,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -133932,7 +133932,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -134600,7 +134600,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -135016,7 +135016,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -135104,7 +135104,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -135268,7 +135268,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -135688,7 +135688,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -135936,7 +135936,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -136364,7 +136364,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -136544,7 +136544,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -136628,7 +136628,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -136872,7 +136872,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -136956,7 +136956,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -137128,7 +137128,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -137588,7 +137588,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -137836,7 +137836,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -137932,7 +137932,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -138096,7 +138096,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -138984,7 +138984,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -139068,7 +139068,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -139552,7 +139552,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -139876,7 +139876,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -140368,7 +140368,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -140452,7 +140452,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -140536,7 +140536,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -140852,7 +140852,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -141024,7 +141024,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -141192,7 +141192,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -141272,7 +141272,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -141764,7 +141764,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -141932,7 +141932,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -142020,7 +142020,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -142260,7 +142260,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -142828,7 +142828,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -142912,7 +142912,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -143320,7 +143320,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -143492,7 +143492,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -143656,7 +143656,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -143988,7 +143988,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -144072,7 +144072,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -144308,7 +144308,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -144636,7 +144636,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -145044,7 +145044,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -145208,7 +145208,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {
@@ -145372,7 +145372,7 @@ const CHARACTER_DETAILS = {
       "weapon": {
         "key": "3k_main_ancillary_weapon_two_handed_spear_common",
         "title": "Spear",
-        "description": "No! Pointy end in the air.",
+        "description": "\"No! Pointy end in the air.\"",
         "icon_path": "weapons/3k_main_ancillary_two_handed_spear_common.png",
         "effects": [
           {

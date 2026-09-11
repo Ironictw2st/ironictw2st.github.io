@@ -226972,7 +226972,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Encouragement",
-        "description": "Your spirit will be remembered forever.",
+        "description": "\"Your spirit will be remembered forever.\"",
         "links": {
           "parents": [
             {
@@ -228707,7 +228707,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Greedy Tyrant",
-        "description": "Collect more taxes!",
+        "description": "\"Collect more taxes!\"",
         "links": {
           "parents": [
             {
@@ -228815,7 +228815,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Greedy Tyrant",
-        "description": "Collect more taxes!",
+        "description": "\"Collect more taxes!\"",
         "links": {
           "parents": [
             {
@@ -230550,7 +230550,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Angry Scolding",
-        "description": "Stop! How dare you!",
+        "description": "\"Stop! How dare you!\"",
         "links": {
           "parents": [
             {
@@ -230967,7 +230967,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Angry Scolding",
-        "description": "Stop! How dare you!",
+        "description": "\"Stop! How dare you!\"",
         "links": {
           "parents": [
             {
@@ -232780,7 +232780,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Forced March",
-        "description": "Lazy bastard! Move it!",
+        "description": "\"Lazy bastard! Move it!\"",
         "links": {
           "parents": [
             {
@@ -232997,7 +232997,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Empress Dong",
-        "description": "Is that all you have for me?",
+        "description": "\"Is that all you have for me?\"",
         "links": {
           "parents": [
             {
@@ -233105,7 +233105,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Empress Dong",
-        "description": "Is that all you have for me?",
+        "description": "\"Is that all you have for me?\"",
         "links": {
           "parents": [
             {
@@ -234637,7 +234637,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_wood_perseverance.png",
         "image_key": "3k_main_skill_aspect_wood_perseverance",
         "title": "Personal Bodyguard",
-        "description": "Protect me!",
+        "description": "\"Protect me!\"",
         "links": {
           "parents": [],
           "children": []
@@ -234717,7 +234717,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_wood_perseverance.png",
         "image_key": "3k_main_skill_aspect_wood_perseverance",
         "title": "Personal Bodyguard",
-        "description": "Protect me!",
+        "description": "\"Protect me!\"",
         "links": {
           "parents": [],
           "children": []
@@ -235209,7 +235209,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Commanding Presence",
-        "description": "Be courteous!",
+        "description": "\"Be courteous!\"",
         "links": {
           "parents": [],
           "children": []
@@ -249452,7 +249452,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_metal_expertise.png",
         "image_key": "3k_main_skill_aspect_metal_expertise",
         "title": "Call of Courage",
-        "description": "If you survive the battle, I'll treat you to dinner!",
+        "description": "\"If you survive the battle, I'll treat you to dinner!\"",
         "links": {
           "parents": [],
           "children": []
@@ -268555,7 +268555,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_water_cunning.png",
         "image_key": "3k_main_skill_aspect_water_cunning",
         "title": "Lament",
-        "description": "How did the state of affairs end up so dire...",
+        "description": "\"How did the state of affairs end up so dire...\"",
         "links": {
           "parents": [
             {
@@ -298988,7 +298988,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_wood_perseverance.png",
         "image_key": "3k_main_skill_aspect_wood_perseverance",
         "title": "Heroic Sacrifice",
-        "description": "The world can live without Cao Hong, but not without you!",
+        "description": "\"The world can live without Cao Hong, but not without you!\"",
         "links": {
           "parents": [
             {
@@ -300041,7 +300041,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_fire_instinct.png",
         "image_key": "3k_main_skill_aspect_fire_instinct",
         "title": "Tamer of Tigers and Leopards",
-        "description": "Follow me, men! Let us dismantle the enemy formation!",
+        "description": "\"Follow me, men! Let us dismantle the enemy formation!\"",
         "links": {
           "parents": [
             {
@@ -310408,7 +310408,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_fire_instinct.png",
         "image_key": "3k_main_skill_aspect_fire_instinct",
         "title": "Hurl of Destiny",
-        "description": "Flee, villain, before the indomitable chucking of Chen Ying!",
+        "description": "\"Flee, villain, before the indomitable chucking of Chen Ying!\"",
         "links": {
           "parents": [],
           "children": []
@@ -316020,7 +316020,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_metal_expertise.png",
         "image_key": "3k_main_skill_aspect_metal_expertise",
         "title": "Insulting Rhapsody",
-        "description": "Now go away, or I shall taunt you a second time!",
+        "description": "\"Now go away, or I shall taunt you a second time!\"",
         "links": {
           "parents": [],
           "children": []
@@ -317437,7 +317437,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_water_cunning.png",
         "image_key": "3k_main_skill_aspect_water_cunning",
         "title": "Smothering Mists",
-        "description": "Now you see me...",
+        "description": "\"Now you see me...\"",
         "links": {
           "parents": [],
           "children": []
@@ -350729,7 +350729,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_water_cunning.png",
         "image_key": "3k_main_skill_aspect_water_cunning",
         "title": "Lament",
-        "description": "How did the state of affairs end up so dire...",
+        "description": "\"How did the state of affairs end up so dire...\"",
         "links": {
           "parents": [
             {
@@ -355585,7 +355585,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_metal_expertise.png",
         "image_key": "3k_main_skill_aspect_metal_expertise",
         "title": "Call of Courage",
-        "description": "If you survive the battle, I'll treat you to dinner!",
+        "description": "\"If you survive the battle, I'll treat you to dinner!\"",
         "links": {
           "parents": [
             {
@@ -361168,7 +361168,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Encouragement",
-        "description": "Your spirit will be remembered forever.",
+        "description": "\"Your spirit will be remembered forever.\"",
         "links": {
           "parents": [
             {
@@ -364223,7 +364223,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Forced March",
-        "description": "Lazy bastard! Move it!",
+        "description": "\"Lazy bastard! Move it!\"",
         "links": {
           "parents": [
             {
@@ -365439,7 +365439,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_earth_authority.png",
         "image_key": "3k_main_skill_aspect_earth_authority",
         "title": "Commanding Presence",
-        "description": "Be courteous!",
+        "description": "\"Be courteous!\"",
         "links": {
           "parents": [
             {
@@ -382001,7 +382001,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_water_cunning.png",
         "image_key": "3k_main_skill_aspect_water_cunning",
         "title": "Umbral Smite",
-        "description": "You have selected...regicide.",
+        "description": "\"You have selected...regicide.\"",
         "links": {
           "parents": [
             {
@@ -404116,7 +404116,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_water_cunning.png",
         "image_key": "3k_main_skill_aspect_water_cunning",
         "title": "Grave's Grasp",
-        "description": "And the enemy would have gotten away with it too, if not for the meddling Zhong Yao...",
+        "description": "\"And the enemy would have gotten away with it too, if not for the meddling Zhong Yao...\"",
         "links": {
           "parents": [
             {
@@ -410603,7 +410603,7 @@ const SKILL_TREE_DATA = {
         "image": "data/UI/Campaign%20UI/skills/3k_main_skill_aspect_wood_perseverance.png",
         "image_key": "3k_main_skill_aspect_wood_perseverance",
         "title": "Ceaseless Footwork",
-        "description": "Just try and keep up with Song Jian!",
+        "description": "\"Just try and keep up with Song Jian!\"",
         "links": {
           "parents": [
             {

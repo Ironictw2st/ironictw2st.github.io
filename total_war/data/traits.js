@@ -681,7 +681,7 @@ const TRAIT_DATA = [
     "key": "3k_main_ceo_trait_personality_disciplined",
     "node": "3k_main_ceo_node_trait_personality_disciplined_01",
     "title": "Disciplinarian",
-    "description": "You will not laugh! You will not cry! You will learn by the numbers and I shall teach you!",
+    "description": "\"You will not laugh! You will not cry! You will learn by the numbers and I shall teach you!\"",
     "icon_path": "UI/Campaign UI/traits/icon_stern_metal.png",
     "effects": [
       {
@@ -1586,7 +1586,7 @@ const TRAIT_DATA = [
     "key": "3k_main_ceo_trait_personality_suspicious",
     "node": "3k_main_ceo_node_trait_personality_suspicious_01",
     "title": "Suspicious",
-    "description": "The absence of evidence is not evidence of absence!",
+    "description": "\"The absence of evidence is not evidence of absence!\"",
     "icon_path": "UI/Campaign UI/traits/icon_anti-social_water.png",
     "effects": [
       {
@@ -1811,7 +1811,7 @@ const TRAIT_DATA = [
     "key": "3k_main_ceo_trait_physical_drunk",
     "node": "3k_main_ceo_node_trait_physical_drunk_01",
     "title": "Drunk",
-    "description": "He who drinks, dies. He who doesn't drink, dies as well.",
+    "description": "\"He who drinks, dies. He who doesn't drink, dies as well.\"",
     "icon_path": "UI/Campaign UI/traits/icon_drunk_bad.png",
     "effects": [
       {
@@ -2509,7 +2509,7 @@ const TRAIT_DATA = [
     "key": "3k_ytr_ceo_trait_personality_land_powerful",
     "node": "3k_ytr_ceo_node_trait_personality_land_powerful",
     "title": "Formidable",
-    "description": "Show me a warrior that can match my strength and I shall exchange my sword and steed for a spade and plough!",
+    "description": "\"Show me a warrior that can match my strength and I shall exchange my sword and steed for a spade and plough!\"",
     "icon_path": "UI/Campaign UI/traits/icon_brave_fire.png",
     "effects": [
       {

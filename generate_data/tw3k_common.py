@@ -37,7 +37,10 @@ def iter_loc_tsv(filepath):
     """
     try:
         with open(filepath, "r", encoding="utf-8-sig", newline="") as f:
-            reader = csv.reader(f, delimiter="\t")
+            # QUOTE_NONE: CA loc/db TSVs are raw tab-separated text. A literal double quote in a
+            # value (a quoted proverb, a nickname) would otherwise open a "quoted field" and
+            # swallow every following line until the next quote, silently truncating the file.
+            reader = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
             for row in reader:
                 if not row or len(row) < 2:
                     continue
@@ -70,8 +73,8 @@ def iter_loc_tsv(filepath):
 def parse_tsv(filepath):
     rows = []
     try:
-        with open(filepath, "r", encoding="utf-8-sig") as f:
-            reader = csv.DictReader(f, delimiter="\t")
+        with open(filepath, "r", encoding="utf-8-sig", newline="") as f:
+            reader = csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)  # see iter_loc_tsv
             for row in reader:
                 if not row:
                     continue
@@ -539,6 +542,9 @@ def strip_tw_markup(text: str) -> str:
     s = re.sub(r"(?<![%\w])%\s*[nd]\b", "", s, flags=re.IGNORECASE)   # bare %n / %d
     s = re.sub(r"\[\[\s*img:[^\]]*\]\]\s*\[\[\s*/\s*img\s*\]\]", "", s, flags=re.IGNORECASE)
     s = re.sub(r"\[\[\s*/?\s*img[^\]]*\]\]", "", s, flags=re.IGNORECASE)
+    # The mod's loc contains malformed closers ("[[/i]", "[[/co]]"). Sweep any remaining
+    # [[tag]] / [[tag] / [[tag:value]] token rather than listing every variant.
+    s = re.sub(r"\[\[\s*/?\s*[a-z_]+\s*(?::[^\]]*)?\s*\]{1,2}", "", s, flags=re.IGNORECASE)
     s = re.sub(r":\s*(?=\(|$)", "", s)   # dangling "Spies provided:" after a removed token
 
     s = s.replace("\\\\n", " ").replace("\\n", " ")

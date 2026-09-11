@@ -209,7 +209,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -291,6 +291,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_member_pooled_resource_credibility_level_1",
+            "group": "3k_main_campaign_group_pooled_resource_credibility_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -312,6 +313,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_credibility_level_1.5",
+            "group": "3k_main_campaign_group_pooled_resource_credibility_level_1.5",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -333,6 +335,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_credibility_level_2",
+            "group": "3k_main_campaign_group_pooled_resource_credibility_level_2",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -354,6 +357,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_credibility_level_3",
+            "group": "3k_main_campaign_group_pooled_resource_credibility_level_3",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -456,11 +460,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -484,6 +494,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -507,6 +518,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -530,6 +542,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -552,6 +565,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -574,6 +588,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -596,6 +611,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -618,6 +634,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -641,6 +658,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -664,6 +682,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -943,6 +962,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_member_pooled_resource_unity_level_1",
+            "group": "3k_main_campaign_group_pooled_resource_unity_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -962,6 +982,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_unity_level_2",
+            "group": "3k_main_campaign_group_pooled_resource_unity_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -985,6 +1006,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_unity_level_3",
+            "group": "3k_main_campaign_group_pooled_resource_unity_level_3",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -1008,6 +1030,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_unity_level_4",
+            "group": "3k_main_campaign_group_pooled_resource_unity_level_4",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -1112,11 +1135,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -1140,6 +1169,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -1163,6 +1193,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -1186,6 +1217,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -1208,6 +1240,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -1230,6 +1263,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -1252,6 +1286,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -1274,6 +1309,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -1297,6 +1333,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -1320,6 +1357,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -1590,6 +1628,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_member_pooled_resource_heroism_level_1",
+            "group": "3k_main_campaign_group_pooled_resource_heroism_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -1611,6 +1650,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_heroism_level_2",
+            "group": "3k_main_campaign_group_pooled_resource_heroism_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -1632,6 +1672,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_heroism_level_3",
+            "group": "3k_main_campaign_group_pooled_resource_heroism_level_3",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -1655,6 +1696,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_heroism_level_4",
+            "group": "3k_main_campaign_group_pooled_resource_heroism_level_4",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -1759,11 +1801,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -1787,6 +1835,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -1810,6 +1859,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -1833,6 +1883,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -1855,6 +1906,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -1877,6 +1929,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -1899,6 +1952,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -1921,6 +1975,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -1944,6 +1999,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -1967,6 +2023,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -2205,7 +2262,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -2345,6 +2402,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_member_pooled_resource_lineage_level_0",
+            "group": "3k_main_campaign_group_pooled_resource_lineage_level_0",
             "min": "0",
             "max": "29",
             "bundles": [
@@ -2360,6 +2418,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_lineage_level_1",
+            "group": "3k_main_campaign_group_pooled_resource_lineage_level_1",
             "min": "30",
             "max": "59",
             "bundles": [
@@ -2375,6 +2434,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_lineage_level_2",
+            "group": "3k_main_campaign_group_pooled_resource_lineage_level_2",
             "min": "60",
             "max": "99",
             "bundles": [
@@ -2390,6 +2450,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_lineage_level_3",
+            "group": "3k_main_campaign_group_pooled_resource_lineage_level_3",
             "min": "100",
             "max": "149",
             "bundles": [
@@ -2405,6 +2466,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_lineage_level_4",
+            "group": "3k_main_campaign_group_pooled_resource_lineage_level_4",
             "min": "150",
             "max": "299",
             "bundles": [
@@ -2420,6 +2482,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_lineage_level_5",
+            "group": "3k_main_campaign_group_pooled_resource_lineage_level_5",
             "min": "300",
             "max": "1000",
             "bundles": [
@@ -2516,11 +2579,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -2544,6 +2613,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -2567,6 +2637,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -2590,6 +2661,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -2612,6 +2684,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -2634,6 +2707,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -2656,6 +2730,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -2678,6 +2753,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -2701,6 +2777,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -2724,6 +2801,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -2901,7 +2979,7 @@ const FACTION_DATA = [
         "lines": [
           {
             "sign": "",
-            "text": "This faction's five inspectors can each enact an edict over the commandery they govern and its neighbouring regions, drawn from their traits and growing in power with their rank.[[/i]"
+            "text": "This faction's five inspectors can each enact an edict over the commandery they govern and its neighbouring regions, drawn from their traits and growing in power with their rank."
           }
         ]
       },
@@ -2919,7 +2997,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -3039,11 +3117,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -3067,6 +3151,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -3090,6 +3175,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -3113,6 +3199,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -3135,6 +3222,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -3157,6 +3245,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -3179,6 +3268,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -3201,6 +3291,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -3224,6 +3315,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -3247,6 +3339,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -3428,7 +3521,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Lü Bu only has need for the best! Anything else may burn by the wayside.[[/co]]"
+            "text": "Lü Bu only has need for the best! Anything else may burn by the wayside."
           }
         ]
       },
@@ -3554,6 +3647,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_idle_dragon",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_idle_dragon",
             "min": "0",
             "max": "30",
             "bundles": [
@@ -3572,6 +3666,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_level_4",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -3593,6 +3688,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_level_5",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -3614,6 +3710,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_level_6",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -3635,6 +3732,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_level_7",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -3656,6 +3754,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_level_8",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -3680,6 +3779,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_level_9",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -3704,6 +3804,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_momentum_level_10",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_momentum_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -3769,6 +3870,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_mercenary_activity_level_1",
+            "group": "3k_dlc05_campaign_group_pooled_resource_mercenary_activity_level_1",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -3787,6 +3889,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_mercenary_activity_level_2",
+            "group": "3k_dlc05_campaign_group_pooled_resource_mercenary_activity_level_2",
             "min": "1",
             "max": "20",
             "bundles": [
@@ -3805,6 +3908,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_mercenary_activity_level_3",
+            "group": "3k_dlc05_campaign_group_pooled_resource_mercenary_activity_level_3",
             "min": "21",
             "max": "50",
             "bundles": [
@@ -3824,6 +3928,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_mercenary_activity_level_4",
+            "group": "3k_dlc05_campaign_group_pooled_resource_mercenary_activity_level_4",
             "min": "51",
             "max": "79",
             "bundles": [
@@ -3845,6 +3950,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_mercenary_activity_level_5",
+            "group": "3k_dlc05_campaign_group_pooled_resource_mercenary_activity_level_5",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -3947,11 +4053,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -3975,6 +4087,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -3998,6 +4111,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -4021,6 +4135,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -4043,6 +4158,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -4065,6 +4181,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -4087,6 +4204,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -4109,6 +4227,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -4132,6 +4251,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -4155,6 +4275,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -4199,6 +4320,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_1",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_1",
             "min": "0",
             "max": "1",
             "bundles": [
@@ -4219,6 +4341,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_2",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_2",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -4239,6 +4362,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_3",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_3",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -4259,6 +4383,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_4",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_4",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -4279,6 +4404,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_5",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_5",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -4299,6 +4425,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_6",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_6",
             "min": "6",
             "max": "6",
             "bundles": [
@@ -4319,6 +4446,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_7",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_7",
             "min": "7",
             "max": "7",
             "bundles": [
@@ -4339,6 +4467,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_8",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_8",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -4359,6 +4488,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_9",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_9",
             "min": "9",
             "max": "9",
             "bundles": [
@@ -4379,6 +4509,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_10",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_10",
             "min": "10",
             "max": "10",
             "bundles": [
@@ -4399,6 +4530,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_11",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_11",
             "min": "11",
             "max": "11",
             "bundles": [
@@ -4419,6 +4551,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_12",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_12",
             "min": "12",
             "max": "12",
             "bundles": [
@@ -4439,6 +4572,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_13",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_13",
             "min": "13",
             "max": "13",
             "bundles": [
@@ -4459,6 +4593,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_14",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_14",
             "min": "14",
             "max": "14",
             "bundles": [
@@ -4479,6 +4614,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_15",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_15",
             "min": "15",
             "max": "15",
             "bundles": [
@@ -4499,6 +4635,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_16",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_16",
             "min": "16",
             "max": "16",
             "bundles": [
@@ -4519,6 +4656,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_17",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_17",
             "min": "17",
             "max": "17",
             "bundles": [
@@ -4539,6 +4677,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_18",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_18",
             "min": "18",
             "max": "18",
             "bundles": [
@@ -4559,6 +4698,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_19",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_19",
             "min": "19",
             "max": "19",
             "bundles": [
@@ -4579,6 +4719,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_20",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_20",
             "min": "20",
             "max": "20",
             "bundles": [
@@ -4599,6 +4740,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_21",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_21",
             "min": "21",
             "max": "21",
             "bundles": [
@@ -4619,6 +4761,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_22",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_22",
             "min": "22",
             "max": "22",
             "bundles": [
@@ -4639,6 +4782,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_23",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_23",
             "min": "23",
             "max": "23",
             "bundles": [
@@ -4659,6 +4803,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_24",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_24",
             "min": "24",
             "max": "24",
             "bundles": [
@@ -4679,6 +4824,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_25",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_25",
             "min": "25",
             "max": "25",
             "bundles": [
@@ -4699,6 +4845,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_26",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_26",
             "min": "26",
             "max": "26",
             "bundles": [
@@ -4719,6 +4866,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_27",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_27",
             "min": "27",
             "max": "27",
             "bundles": [
@@ -4739,6 +4887,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_28",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_28",
             "min": "28",
             "max": "28",
             "bundles": [
@@ -4759,6 +4908,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_29",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_29",
             "min": "29",
             "max": "29",
             "bundles": [
@@ -4779,6 +4929,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_30",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_30",
             "min": "30",
             "max": "30",
             "bundles": [
@@ -4799,6 +4950,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_31",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_31",
             "min": "31",
             "max": "31",
             "bundles": [
@@ -4819,6 +4971,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_32",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_32",
             "min": "32",
             "max": "32",
             "bundles": [
@@ -4839,6 +4992,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_33",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_33",
             "min": "33",
             "max": "33",
             "bundles": [
@@ -4859,6 +5013,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_34",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_34",
             "min": "34",
             "max": "34",
             "bundles": [
@@ -4879,6 +5034,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_35",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_35",
             "min": "35",
             "max": "35",
             "bundles": [
@@ -4899,6 +5055,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_36",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_36",
             "min": "36",
             "max": "36",
             "bundles": [
@@ -4919,6 +5076,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_37",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_37",
             "min": "37",
             "max": "37",
             "bundles": [
@@ -4939,6 +5097,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_38",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_38",
             "min": "38",
             "max": "38",
             "bundles": [
@@ -4959,6 +5118,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_39",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_39",
             "min": "39",
             "max": "39",
             "bundles": [
@@ -4979,6 +5139,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_40",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_40",
             "min": "40",
             "max": "40",
             "bundles": [
@@ -4999,6 +5160,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_41",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_41",
             "min": "41",
             "max": "41",
             "bundles": [
@@ -5019,6 +5181,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_42",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_42",
             "min": "42",
             "max": "42",
             "bundles": [
@@ -5039,6 +5202,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_43",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_43",
             "min": "43",
             "max": "43",
             "bundles": [
@@ -5059,6 +5223,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_44",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_44",
             "min": "44",
             "max": "44",
             "bundles": [
@@ -5079,6 +5244,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_45",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_45",
             "min": "45",
             "max": "45",
             "bundles": [
@@ -5099,6 +5265,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_46",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_46",
             "min": "46",
             "max": "46",
             "bundles": [
@@ -5119,6 +5286,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_47",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_47",
             "min": "47",
             "max": "47",
             "bundles": [
@@ -5139,6 +5307,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_48",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_48",
             "min": "48",
             "max": "48",
             "bundles": [
@@ -5159,6 +5328,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_49",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_49",
             "min": "49",
             "max": "49",
             "bundles": [
@@ -5179,6 +5349,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_50",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_50",
             "min": "50",
             "max": "50",
             "bundles": [
@@ -5199,6 +5370,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_51",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_51",
             "min": "51",
             "max": "51",
             "bundles": [
@@ -5219,6 +5391,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_52",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_52",
             "min": "52",
             "max": "52",
             "bundles": [
@@ -5239,6 +5412,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_53",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_53",
             "min": "53",
             "max": "53",
             "bundles": [
@@ -5259,6 +5433,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_54",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_54",
             "min": "54",
             "max": "54",
             "bundles": [
@@ -5279,6 +5454,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_55",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_55",
             "min": "55",
             "max": "55",
             "bundles": [
@@ -5299,6 +5475,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_56",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_56",
             "min": "56",
             "max": "56",
             "bundles": [
@@ -5319,6 +5496,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_57",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_57",
             "min": "57",
             "max": "57",
             "bundles": [
@@ -5339,6 +5517,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_58",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_58",
             "min": "58",
             "max": "58",
             "bundles": [
@@ -5359,6 +5538,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_59",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_59",
             "min": "59",
             "max": "59",
             "bundles": [
@@ -5379,6 +5559,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_60",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_60",
             "min": "60",
             "max": "60",
             "bundles": [
@@ -5399,6 +5580,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_61",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_61",
             "min": "61",
             "max": "61",
             "bundles": [
@@ -5419,6 +5601,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_62",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_62",
             "min": "62",
             "max": "62",
             "bundles": [
@@ -5439,6 +5622,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_63",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_63",
             "min": "63",
             "max": "63",
             "bundles": [
@@ -5459,6 +5643,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_64",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_64",
             "min": "64",
             "max": "64",
             "bundles": [
@@ -5479,6 +5664,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_65",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_65",
             "min": "65",
             "max": "65",
             "bundles": [
@@ -5499,6 +5685,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_66",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_66",
             "min": "66",
             "max": "66",
             "bundles": [
@@ -5519,6 +5706,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_67",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_67",
             "min": "67",
             "max": "67",
             "bundles": [
@@ -5539,6 +5727,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_68",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_68",
             "min": "68",
             "max": "68",
             "bundles": [
@@ -5559,6 +5748,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_69",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_69",
             "min": "69",
             "max": "69",
             "bundles": [
@@ -5579,6 +5769,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_70",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_70",
             "min": "70",
             "max": "70",
             "bundles": [
@@ -5599,6 +5790,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_71",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_71",
             "min": "71",
             "max": "71",
             "bundles": [
@@ -5619,6 +5811,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_72",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_72",
             "min": "72",
             "max": "72",
             "bundles": [
@@ -5639,6 +5832,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_73",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_73",
             "min": "73",
             "max": "73",
             "bundles": [
@@ -5659,6 +5853,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_74",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_74",
             "min": "74",
             "max": "74",
             "bundles": [
@@ -5679,6 +5874,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_75",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_75",
             "min": "75",
             "max": "75",
             "bundles": [
@@ -5699,6 +5895,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_76",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_76",
             "min": "76",
             "max": "76",
             "bundles": [
@@ -5719,6 +5916,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_77",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_77",
             "min": "77",
             "max": "77",
             "bundles": [
@@ -5739,6 +5937,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_78",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_78",
             "min": "78",
             "max": "78",
             "bundles": [
@@ -5759,6 +5958,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_79",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_79",
             "min": "79",
             "max": "79",
             "bundles": [
@@ -5779,6 +5979,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_80",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_80",
             "min": "80",
             "max": "80",
             "bundles": [
@@ -5799,6 +6000,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_81",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_81",
             "min": "81",
             "max": "81",
             "bundles": [
@@ -5819,6 +6021,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_82",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_82",
             "min": "82",
             "max": "82",
             "bundles": [
@@ -5839,6 +6042,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_83",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_83",
             "min": "83",
             "max": "83",
             "bundles": [
@@ -5859,6 +6063,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_84",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_84",
             "min": "84",
             "max": "84",
             "bundles": [
@@ -5879,6 +6084,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_85",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_85",
             "min": "85",
             "max": "85",
             "bundles": [
@@ -5899,6 +6105,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_86",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_86",
             "min": "86",
             "max": "86",
             "bundles": [
@@ -5919,6 +6126,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_87",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_87",
             "min": "87",
             "max": "87",
             "bundles": [
@@ -5939,6 +6147,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_88",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_88",
             "min": "88",
             "max": "88",
             "bundles": [
@@ -5959,6 +6168,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_89",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_89",
             "min": "89",
             "max": "89",
             "bundles": [
@@ -5979,6 +6189,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_90",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_90",
             "min": "90",
             "max": "90",
             "bundles": [
@@ -5999,6 +6210,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_91",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_91",
             "min": "91",
             "max": "91",
             "bundles": [
@@ -6019,6 +6231,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_92",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_92",
             "min": "92",
             "max": "92",
             "bundles": [
@@ -6039,6 +6252,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_93",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_93",
             "min": "93",
             "max": "93",
             "bundles": [
@@ -6059,6 +6273,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_94",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_94",
             "min": "94",
             "max": "94",
             "bundles": [
@@ -6079,6 +6294,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_95",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_95",
             "min": "95",
             "max": "95",
             "bundles": [
@@ -6099,6 +6315,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_96",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_96",
             "min": "96",
             "max": "96",
             "bundles": [
@@ -6119,6 +6336,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_97",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_97",
             "min": "97",
             "max": "97",
             "bundles": [
@@ -6139,6 +6357,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_98",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_98",
             "min": "98",
             "max": "98",
             "bundles": [
@@ -6159,6 +6378,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_99",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_99",
             "min": "99",
             "max": "99",
             "bundles": [
@@ -6179,6 +6399,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_lu_bu_personal_victories_level_100",
+            "group": "3k_dlc05_campaign_group_pooled_resource_lu_bu_personal_victories_level_100",
             "min": "100",
             "max": "10000",
             "bundles": [
@@ -6394,7 +6615,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Half of Liang rides horses raised in Ma Teng's stalls; the other half wishes it did.[[/i]"
+            "text": "Half of Liang rides horses raised in Ma Teng's stalls; the other half wishes it did."
           }
         ]
       },
@@ -6536,11 +6757,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -6564,6 +6791,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -6587,6 +6815,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -6610,6 +6839,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -6632,6 +6862,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -6654,6 +6885,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -6676,6 +6908,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -6698,6 +6931,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -6721,6 +6955,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -6744,6 +6979,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -6942,7 +7178,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -7030,6 +7266,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_member_pooled_resource_conceit_level_1",
+            "group": "3k_main_campaign_group_pooled_resource_legitimacy_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -7052,6 +7289,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_conceit_level_2",
+            "group": "3k_main_campaign_group_pooled_resource_legitimacy_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -7076,6 +7314,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_conceit_level_3",
+            "group": "3k_main_campaign_group_pooled_resource_legitimacy_level_3",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -7101,6 +7340,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_conceit_level_4",
+            "group": "3k_main_campaign_group_pooled_resource_legitimacy_level_4",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -7207,11 +7447,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -7235,6 +7481,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -7258,6 +7505,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -7281,6 +7529,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -7303,6 +7552,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -7325,6 +7575,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -7347,6 +7598,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -7369,6 +7621,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -7392,6 +7645,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -7415,6 +7669,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -7570,7 +7825,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "The price is treason is known: no mercy![[/co]]"
+            "text": "The price is treason is known: no mercy!"
           }
         ]
       },
@@ -7736,6 +7991,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_member_pooled_resource_intimidation_level_1",
+            "group": "3k_main_campaign_group_pooled_resource_intimidation_level_1",
             "min": "0",
             "max": "30",
             "bundles": [
@@ -7760,6 +8016,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_intimidation_level_2",
+            "group": "3k_main_campaign_group_pooled_resource_intimidation_level_2",
             "min": "31",
             "max": "70",
             "bundles": [
@@ -7784,6 +8041,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_intimidation_level_3",
+            "group": "3k_main_campaign_group_pooled_resource_intimidation_level_3",
             "min": "71",
             "max": "100",
             "bundles": [
@@ -7890,11 +8148,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -7918,6 +8182,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -7941,6 +8206,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -7964,6 +8230,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -7986,6 +8253,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -8008,6 +8276,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -8030,6 +8299,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -8052,6 +8322,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -8075,6 +8346,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -8098,6 +8370,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -8359,6 +8632,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_1",
+            "group": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_1",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -8379,6 +8653,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_2",
+            "group": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -8400,6 +8675,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_3",
+            "group": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_3",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -8421,6 +8697,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_4",
+            "group": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_4",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -8442,6 +8719,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_5",
+            "group": "3k_main_campaign_group_pooled_resource_kong_rong_monopoly_5",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -8544,11 +8822,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -8572,6 +8856,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -8595,6 +8880,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -8618,6 +8904,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -8640,6 +8927,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -8662,6 +8950,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -8684,6 +8973,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -8706,6 +8996,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -8729,6 +9020,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -8752,6 +9044,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -9069,6 +9362,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_governance_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_governance_1",
             "min": "0",
             "max": "4",
             "bundles": [
@@ -9092,6 +9386,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_governance_level_2",
+            "group": "3k_dlc04_campaign_group_pooled_resource_governance_2",
             "min": "5",
             "max": "14",
             "bundles": [
@@ -9114,6 +9409,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_governance_level_3",
+            "group": "3k_dlc04_campaign_group_pooled_resource_governance_3",
             "min": "15",
             "max": "29",
             "bundles": [
@@ -9137,6 +9433,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_governance_level_4",
+            "group": "3k_dlc04_campaign_group_pooled_resource_governance_4",
             "min": "30",
             "max": "49",
             "bundles": [
@@ -9160,6 +9457,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_governance_level_5",
+            "group": "3k_dlc04_campaign_group_pooled_resource_governance_5",
             "min": "50",
             "max": "74",
             "bundles": [
@@ -9183,6 +9481,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_governance_level_6",
+            "group": "3k_dlc04_campaign_group_pooled_resource_governance_6",
             "min": "75",
             "max": "99",
             "bundles": [
@@ -9206,6 +9505,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_governance_level_7",
+            "group": "3k_dlc04_campaign_group_pooled_resource_governance_7",
             "min": "100",
             "max": "100",
             "bundles": [
@@ -9260,6 +9560,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_domain_level_6",
+            "group": "3k_dlc04_campaign_group_pooled_resource_domain_level_6",
             "min": "-9999",
             "max": "-4",
             "bundles": [
@@ -9285,6 +9586,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_domain_level_5",
+            "group": "3k_dlc04_campaign_group_pooled_resource_domain_level_5",
             "min": "-3",
             "max": "-3",
             "bundles": [
@@ -9310,6 +9612,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_domain_level_4",
+            "group": "3k_dlc04_campaign_group_pooled_resource_domain_level_4",
             "min": "-2",
             "max": "-2",
             "bundles": [
@@ -9335,6 +9638,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_domain_level_3",
+            "group": "3k_dlc04_campaign_group_pooled_resource_domain_level_3",
             "min": "-1",
             "max": "-1",
             "bundles": [
@@ -9359,6 +9663,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_domain_level_2",
+            "group": "3k_dlc04_campaign_group_pooled_resource_domain_level_2",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -9384,6 +9689,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_domain_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_domain_level_1",
             "min": "1",
             "max": "9999",
             "bundles": [
@@ -9489,11 +9795,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -9517,6 +9829,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -9540,6 +9853,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -9563,6 +9877,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -9585,6 +9900,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -9607,6 +9923,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -9629,6 +9946,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -9651,6 +9969,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -9674,6 +9993,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -9697,6 +10017,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -9951,6 +10272,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_ambition_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_ambition_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -9969,6 +10291,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_ambition_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_ambition_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -9987,6 +10310,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_ambition_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_ambition_level_3",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -10005,6 +10329,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_ambition_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_ambition_level_4",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -10044,6 +10369,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_0",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_0",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -10059,6 +10385,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_1",
             "min": "1",
             "max": "1",
             "bundles": [
@@ -10076,6 +10403,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_2",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -10093,6 +10421,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_3",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -10110,6 +10439,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_4",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -10127,6 +10457,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_5",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -10144,6 +10475,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_6",
             "min": "6",
             "max": "6",
             "bundles": [
@@ -10161,6 +10493,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_7",
             "min": "7",
             "max": "7",
             "bundles": [
@@ -10178,6 +10511,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_tradeoffs_tracker_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_tradeoffs_tracker_level_8",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -10276,11 +10610,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -10304,6 +10644,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -10327,6 +10668,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -10350,6 +10692,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -10372,6 +10715,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -10394,6 +10738,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -10416,6 +10761,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -10438,6 +10784,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -10461,6 +10808,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -10484,6 +10832,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -10818,12 +11167,13 @@ const FACTION_DATA = [
         ],
         "levels": [
           {
-            "member": "ironic_campaign_group_member_pooled_resource_reckless_luck_level_8_easy",
+            "member": "ironic_campaign_group_member_pooled_resource_reckless_luck_level_8_ai_very_hard",
+            "group": "3k_dlc05_campaign_group_pooled_resource_reckless_luck_level_8_normal",
             "min": "",
             "max": "",
             "bundles": [
               {
-                "key": "3k_dlc05_effect_bundle_pooled_resource_reckless_luck_level_8_easy",
+                "key": "3k_dlc05_effect_bundle_pooled_resource_reckless_luck_level_8_normal",
                 "title": "Reckless Luck: Divine Favour",
                 "description": "Destiny intervenes on your endeavours – walk the path put before you!",
                 "icon": "data/images/resources/3k_main_pooled_resource_heroism.png",
@@ -10841,12 +11191,13 @@ const FACTION_DATA = [
             ]
           },
           {
-            "member": "ironic_campaign_group_member_pooled_resource_reckless_luck_level_8_hard",
+            "member": "ironic_campaign_group_member_pooled_resource_reckless_luck_level_8_easy",
+            "group": "3k_dlc05_campaign_group_pooled_resource_reckless_luck_level_8_easy",
             "min": "",
             "max": "",
             "bundles": [
               {
-                "key": "3k_dlc05_effect_bundle_pooled_resource_reckless_luck_level_8_normal",
+                "key": "3k_dlc05_effect_bundle_pooled_resource_reckless_luck_level_8_easy",
                 "title": "Reckless Luck: Divine Favour",
                 "description": "Destiny intervenes on your endeavours – walk the path put before you!",
                 "icon": "data/images/resources/3k_main_pooled_resource_heroism.png",
@@ -10946,11 +11297,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -10974,6 +11331,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -10997,6 +11355,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -11020,6 +11379,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -11042,6 +11402,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -11064,6 +11425,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -11086,6 +11448,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -11108,6 +11471,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -11131,6 +11495,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -11154,6 +11519,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -11203,6 +11569,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc05_campaign_member_pooled_resource_shared_expertise_level",
+            "group": "3k_dlc05_campaign_group_pooled_resource_shared_expertise",
             "min": "0",
             "max": "100",
             "bundles": [
@@ -11449,6 +11816,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_displaced_population_level_0",
+            "group": "3k_dlc04_campaign_group_pooled_resource_displaced_population_level_0",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -11471,6 +11839,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_displaced_population_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_displaced_population_level_1",
             "min": "1",
             "max": "10",
             "bundles": [
@@ -11493,6 +11862,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_displaced_population_level_2",
+            "group": "3k_dlc04_campaign_group_pooled_resource_displaced_population_level_2",
             "min": "11",
             "max": "30",
             "bundles": [
@@ -11517,6 +11887,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_displaced_population_level_3",
+            "group": "3k_dlc04_campaign_group_pooled_resource_displaced_population_level_3",
             "min": "31",
             "max": "70",
             "bundles": [
@@ -11540,6 +11911,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_displaced_population_level_4",
+            "group": "3k_dlc04_campaign_group_pooled_resource_displaced_population_level_4",
             "min": "71",
             "max": "90",
             "bundles": [
@@ -11563,6 +11935,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_displaced_population_level_5",
+            "group": "3k_dlc04_campaign_group_pooled_resource_displaced_population_level_5",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -11667,11 +12040,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -11695,6 +12074,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -11718,6 +12098,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -11741,6 +12122,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -11763,6 +12145,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -11785,6 +12168,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -11807,6 +12191,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -11829,6 +12214,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -11852,6 +12238,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -11875,6 +12262,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -12137,6 +12525,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_splendour_level_1",
+            "group": "3k_dlc06_campaign_group_pooled_resource_splendour_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -12156,6 +12545,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_splendour_level_2",
+            "group": "3k_dlc06_campaign_group_pooled_resource_splendour_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -12176,6 +12566,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_splendour_level_3",
+            "group": "3k_dlc06_campaign_group_pooled_resource_splendour_level_3",
             "min": "51",
             "max": "100",
             "bundles": [
@@ -12219,6 +12610,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shi_xie_family_member_faction_leaders_0",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shi_xie_family_member_faction_leaders_0",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -12236,6 +12628,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shi_xie_family_member_faction_leaders_1",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shi_xie_family_member_faction_leaders_1",
             "min": "1",
             "max": "1",
             "bundles": [
@@ -12253,6 +12646,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shi_xie_family_member_faction_leaders_2",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shi_xie_family_member_faction_leaders_2",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -12270,6 +12664,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shi_xie_family_member_faction_leaders_3",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shi_xie_family_member_faction_leaders_3",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -12287,6 +12682,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shi_xie_family_member_faction_leaders_4",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shi_xie_family_member_faction_leaders_4",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -12304,6 +12700,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shi_xie_family_member_faction_leaders_5",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shi_xie_family_member_faction_leaders_5",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -12321,6 +12718,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shi_xie_family_member_faction_leaders_6",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shi_xie_family_member_faction_leaders_6",
             "min": "6",
             "max": "9999",
             "bundles": [
@@ -12419,11 +12817,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -12447,6 +12851,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -12470,6 +12875,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -12493,6 +12899,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -12515,6 +12922,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -12537,6 +12945,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -12559,6 +12968,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -12581,6 +12991,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -12604,6 +13015,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -12627,6 +13039,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -12796,7 +13209,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -12832,7 +13245,7 @@ const FACTION_DATA = [
         "key": "ironic_defensive_struggle",
         "name": "Impenetrable",
         "description": "Impenetrable",
-        "tooltip": "Impenetrable",
+        "tooltip": "",
         "positive_label": "Increase",
         "negative_label": "Decrease",
         "icon": "data/images/resources/provides_garrison.png",
@@ -12874,6 +13287,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_gao_gan_defensive_level_0",
+            "group": "ironic_defensive_struggle_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -12893,6 +13307,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gao_gan_defensive_level_1",
+            "group": "ironic_defensive_struggle_level_1",
             "min": "10",
             "max": "19",
             "bundles": [
@@ -12918,6 +13333,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gao_gan_defensive_level_2",
+            "group": "ironic_defensive_struggle_level_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -12943,6 +13359,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gao_gan_defensive_level_3",
+            "group": "ironic_defensive_struggle_level_3",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -12969,6 +13386,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gao_gan_defensive_level_4",
+            "group": "ironic_defensive_struggle_level_4",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -12995,6 +13413,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gao_gan_defensive_level_5",
+            "group": "ironic_defensive_struggle_level_5",
             "min": "80",
             "max": "89",
             "bundles": [
@@ -13021,6 +13440,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gao_gan_defensive_level_6",
+            "group": "ironic_defensive_struggle_level_6",
             "min": "90",
             "max": "100",
             "bundles": [
@@ -13128,11 +13548,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -13156,6 +13582,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -13179,6 +13606,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -13202,6 +13630,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -13224,6 +13653,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -13246,6 +13676,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -13268,6 +13699,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -13290,6 +13722,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -13313,6 +13746,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -13336,6 +13770,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -13696,6 +14131,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_han_sui_resource_level_0",
+            "group": "ironic_han_sui_resource_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -13720,6 +14156,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_han_sui_resource_level_1",
+            "group": "ironic_han_sui_resource_level_1",
             "min": "11",
             "max": "39",
             "bundles": [
@@ -13744,6 +14181,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_han_sui_resource_level_2",
+            "group": "ironic_han_sui_resource_level_2",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -13768,6 +14206,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_han_sui_resource_level_3",
+            "group": "ironic_han_sui_resource_level_3",
             "min": "60",
             "max": "86",
             "bundles": [
@@ -13792,6 +14231,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_han_sui_resource_level_4",
+            "group": "ironic_han_sui_resource_level_4",
             "min": "87",
             "max": "100",
             "bundles": [
@@ -13898,11 +14338,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -13926,6 +14372,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -13949,6 +14396,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -13972,6 +14420,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -13994,6 +14443,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -14016,6 +14466,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -14038,6 +14489,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -14060,6 +14512,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -14083,6 +14536,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -14106,6 +14560,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -14192,18 +14647,36 @@ const FACTION_DATA = [
         "type": "ceo",
         "sort_order": 0,
         "icon": "data/images/features/3k_ironic_190_revamp_liu_yu.png",
-        "title": "ironic_liu_yu_tribal_management",
-        "subtitle": "",
-        "lines": []
+        "title": "Tribal Management",
+        "subtitle": "Faction feature",
+        "lines": [
+          {
+            "sign": "",
+            "text": "Liu Yu's Tribal Management allows for the recruitment of foreign units into his army."
+          },
+          {
+            "sign": "",
+            "text": "Liu Yu's standing amongst the tribes is strong enough to bring them under his wild."
+          }
+        ]
       },
       {
         "key": "ironic_liu_yu_artisan_labour",
         "type": "building",
         "sort_order": 1,
         "icon": "data/images/features/3k_district_artisan_minting_5_info.png",
-        "title": "ironic_liu_yu_artisan_labour",
-        "subtitle": "",
-        "lines": []
+        "title": "Artisan Labour",
+        "subtitle": "Unique Labour Building",
+        "lines": [
+          {
+            "sign": "+",
+            "text": "Population Capacity"
+          },
+          {
+            "sign": "+",
+            "text": "Peasantry Modify"
+          }
+        ]
       },
       {
         "key": "ironic_liu_yu_unique_unit_wuhuan_nobles",
@@ -14289,7 +14762,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -14299,7 +14772,12 @@ const FACTION_DATA = [
       "title": "Pacifism",
       "description": "",
       "icon": "data/images/resources/3k_ironic_190_revamp_liu_yu.png",
-      "bullets": [],
+      "bullets": [
+        "Pacifism increases Imperial Favour and tribal unit replenishment while lowering their recruitment cost.",
+        "Pacifism is increased by high public order and alliances.",
+        "Pacifism is decreased by low public order and wars.",
+        "Pacifism is reduced by certain occupation options."
+      ],
       "effects": []
     },
     "leader_bundle": {
@@ -14319,17 +14797,192 @@ const FACTION_DATA = [
     "resources": [
       {
         "key": "ironic_han_liu_yu_peace",
-        "name": "Liu Yu Peace",
-        "description": "",
+        "name": "Pacifism",
+        "description": "Peace and tranquility are worth a thousand gold pieces.",
         "tooltip": "",
-        "positive_label": "",
-        "negative_label": "",
+        "positive_label": "Increase",
+        "negative_label": "Decrease",
         "icon": "data/images/resources/3k_ironic_190_revamp_liu_yu.png",
         "minimum": "0",
         "maximum": "500",
         "is_primary": true,
-        "factors": [],
-        "levels": []
+        "factors": [
+          {
+            "key": "ironic_han_liu_yu_peace_factor",
+            "name": "Base",
+            "recurring": true
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_victory",
+            "name": "Battles Won",
+            "recurring": false
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_defeat",
+            "name": "Battles Lost",
+            "recurring": false
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_decay",
+            "name": "Decay",
+            "recurring": true
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_at_war",
+            "name": "At War",
+            "recurring": false
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_post_battle_options",
+            "name": "Post Battle Options",
+            "recurring": false
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_public_order",
+            "name": "Public Order",
+            "recurring": true
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_alliance",
+            "name": "Alliance",
+            "recurring": false
+          },
+          {
+            "key": "ironic_han_liu_yu_peace_post_battle",
+            "name": "Occupation Options",
+            "recurring": false
+          }
+        ],
+        "levels": [
+          {
+            "member": "ironic_liu_yu_peace_level_0",
+            "group": "ironic_han_liu_yu_peace_level_0",
+            "min": "0",
+            "max": "5",
+            "bundles": [
+              {
+                "key": "ironic_liu_yu_peace_resource_level_0",
+                "title": "Pacifism: Foolhardy",
+                "description": "If you never venture, you will never win.",
+                "icon": "data/images/resources/3k_ironic_190_revamp_liu_yu.png",
+                "bullets": [],
+                "effects": [
+                  "-5 Decay (faction-wide)",
+                  "Pacifism can be increased by high public order, alliances. (faction-wide)",
+                  "Pacifism can be decreased by low public order, wars, and certain settlement actions. (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_liu_yu_peace_level_1",
+            "group": "ironic_han_liu_yu_peace_level_1",
+            "min": "6",
+            "max": "39",
+            "bundles": [
+              {
+                "key": "ironic_liu_yu_peace_resource_level_1",
+                "title": "Pacifism: Naive",
+                "description": "All things are difficult before they are easy.",
+                "icon": "data/images/resources/3k_ironic_190_revamp_liu_yu.png",
+                "bullets": [
+                  "Satisfaction is how content a character is with their current faction and situation. If it falls too low, they may choose to leave."
+                ],
+                "effects": [
+                  "-10 Decay (faction-wide)",
+                  "Pacifism can be increased by high public order, alliances. (faction-wide)",
+                  "Pacifism can be decreased by low public order, wars, and certain settlement actions. (faction-wide)",
+                  "+1 Imperial Favour (faction-wide)",
+                  "-5% upkeep for all units (own forces in owned territory)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_liu_yu_peace_level_2",
+            "group": "ironic_han_liu_yu_peace_level_2",
+            "min": "40",
+            "max": "59",
+            "bundles": [
+              {
+                "key": "ironic_liu_yu_peace_resource_level_2",
+                "title": "Pacifism: Peaceful",
+                "description": "Education breeds confidence, confidence breeds hope, hope breeds peace.",
+                "icon": "data/images/resources/3k_ironic_190_revamp_liu_yu.png",
+                "bullets": [
+                  "Satisfaction is how content a character is with their current faction and situation. If it falls too low, they may choose to leave.",
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition.",
+                  "Each unit costs a set amount to muster. Reducing this amount allows you to more cheaply and effectively deploy your armies."
+                ],
+                "effects": [
+                  "-20 Decay (faction-wide)",
+                  "Pacifism can be increased by high public order, alliances. (faction-wide)",
+                  "Pacifism can be decreased by low public order, wars, and certain settlement actions. (faction-wide)",
+                  "+2 Imperial Favour (faction-wide)",
+                  "-15% upkeep for all units (own forces in owned territory)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_liu_yu_peace_level_3",
+            "group": "ironic_han_liu_yu_peace_level_3",
+            "min": "60",
+            "max": "89",
+            "bundles": [
+              {
+                "key": "ironic_liu_yu_peace_resource_level_3",
+                "title": "Pacifism: Tranquil",
+                "description": "Peace and tranquility are worth a thousand gold pieces.",
+                "icon": "data/images/resources/3k_ironic_190_revamp_liu_yu.png",
+                "bullets": [
+                  "Satisfaction is how content a character is with their current faction and situation. If it falls too low, they may choose to leave.",
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition.",
+                  "Each unit costs a set amount to muster. Reducing this amount allows you to more cheaply and effectively deploy your armies."
+                ],
+                "effects": [
+                  "-35 Decay (faction-wide)",
+                  "Pacifism can be increased by high public order, alliances. (faction-wide)",
+                  "Pacifism can be decreased by low public order, wars, and certain settlement actions. (faction-wide)",
+                  "+3 Imperial Favour (faction-wide)",
+                  "-25% upkeep for all units (own forces in owned territory)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_liu_yu_peace_level_4",
+            "group": "ironic_han_liu_yu_peace_level_4",
+            "min": "90",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_liu_yu_peace_resource_level_4",
+                "title": "Pacifism: Harmonic",
+                "description": "\"If there is harmony in one's house, there will be order in the nation. If there is order in the nation, there will be peace in the world.",
+                "icon": "data/images/resources/3k_ironic_190_revamp_liu_yu.png",
+                "bullets": [
+                  "Satisfaction is how content a character is with their current faction and situation. If it falls too low, they may choose to leave.",
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition.",
+                  "Each unit costs a set amount to muster. Reducing this amount allows you to more cheaply and effectively deploy your armies."
+                ],
+                "effects": [
+                  "-50 Decay (faction-wide)",
+                  "Pacifism can be increased by high public order, alliances. (faction-wide)",
+                  "Pacifism can be decreased by low public order, wars, and certain settlement actions. (faction-wide)",
+                  "+5 Imperial Favour (faction-wide)",
+                  "+15 diplomatic relations with all factions (faction-wide)",
+                  "-35% upkeep for all units (own forces in owned territory)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "key": "3k_dlc07_pooled_resource_imperial_favour",
@@ -14412,11 +15065,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -14440,6 +15099,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -14463,6 +15123,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -14486,6 +15147,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -14508,6 +15170,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -14530,6 +15193,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -14552,6 +15216,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -14574,6 +15239,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -14597,6 +15263,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -14620,6 +15287,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -14825,7 +15493,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -14903,6 +15571,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ep_campaign_group_member_pooled_resource_sima_wei_level_1",
+            "group": "ep_campaign_group_pooled_resource_sima_wei_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -14941,6 +15610,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_sima_wei_level_2",
+            "group": "ep_campaign_group_pooled_resource_sima_wei_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -14981,6 +15651,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_sima_wei_level_3",
+            "group": "ep_campaign_group_pooled_resource_sima_wei_level_3",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -15021,6 +15692,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_sima_wei_level_4",
+            "group": "ep_campaign_group_pooled_resource_sima_wei_level_4",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -15144,11 +15816,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -15172,6 +15850,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -15195,6 +15874,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -15218,6 +15898,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -15240,6 +15921,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -15262,6 +15944,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -15284,6 +15967,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -15306,6 +15990,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -15329,6 +16014,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -15352,6 +16038,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -15520,7 +16207,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -15602,6 +16289,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_xiahou_yuan_resource_level_0",
+            "group": "ironic_xiahou_yuan_resource_level_0",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -15627,6 +16315,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiahou_yuan_resource_level_1",
+            "group": "ironic_xiahou_yuan_resource_level_1",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -15651,6 +16340,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiahou_yuan_resource_level_2",
+            "group": "ironic_xiahou_yuan_resource_level_2",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -15678,6 +16368,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiahou_yuan_resource_level_3",
+            "group": "ironic_xiahou_yuan_resource_level_3",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -15705,6 +16396,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiahou_yuan_resource_level_4",
+            "group": "ironic_xiahou_yuan_resource_level_4",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -15813,11 +16505,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -15841,6 +16539,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -15864,6 +16563,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -15887,6 +16587,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -15909,6 +16610,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -15931,6 +16633,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -15953,6 +16656,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -15975,6 +16679,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -15998,6 +16703,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -16021,6 +16727,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -16177,7 +16884,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -16305,6 +17012,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_gongsun_du_liaodong_han_relations_level_0",
+            "group": "ironic_liaodong_han_relations_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -16324,6 +17032,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_han_relations_level_1",
+            "group": "ironic_liaodong_han_relations_level_1",
             "min": "11",
             "max": "32",
             "bundles": [
@@ -16345,6 +17054,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_han_relations_level_2",
+            "group": "ironic_liaodong_han_relations_level_2",
             "min": "33",
             "max": "55",
             "bundles": [
@@ -16368,6 +17078,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_han_relations_level_3",
+            "group": "ironic_liaodong_han_relations_level_3",
             "min": "65",
             "max": "91",
             "bundles": [
@@ -16391,6 +17102,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_han_relations_level_4",
+            "group": "ironic_liaodong_han_relations_level_4",
             "min": "92",
             "max": "100",
             "bundles": [
@@ -16510,6 +17222,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_gongsun_du_liaodong_korea_relations_level_0",
+            "group": "ironic_liaodong_korea_relations_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -16529,6 +17242,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_korea_relations_level_1",
+            "group": "ironic_liaodong_korea_relations_level_1",
             "min": "11",
             "max": "32",
             "bundles": [
@@ -16550,6 +17264,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_korea_relations_level_2",
+            "group": "ironic_liaodong_korea_relations_level_2",
             "min": "33",
             "max": "55",
             "bundles": [
@@ -16573,6 +17288,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_korea_relations_level_3",
+            "group": "ironic_liaodong_korea_relations_level_3",
             "min": "65",
             "max": "91",
             "bundles": [
@@ -16596,6 +17312,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gongsun_du_liaodong_korea_relations_level_4",
+            "group": "ironic_liaodong_korea_relations_level_4",
             "min": "92",
             "max": "100",
             "bundles": [
@@ -16700,11 +17417,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -16728,6 +17451,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -16751,6 +17475,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -16774,6 +17499,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -16796,6 +17522,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -16818,6 +17545,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -16840,6 +17568,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -16862,6 +17591,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -16885,6 +17615,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -16908,6 +17639,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -17083,7 +17815,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -17169,6 +17901,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_liu_dai_siege_warfare_level_0",
+            "group": "ironic_siege_warfare_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -17191,6 +17924,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_dai_siege_warfare_level_1",
+            "group": "ironic_siege_warfare_level_1",
             "min": "11",
             "max": "32",
             "bundles": [
@@ -17215,6 +17949,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_dai_siege_warfare_level_2",
+            "group": "ironic_siege_warfare_level_2",
             "min": "33",
             "max": "55",
             "bundles": [
@@ -17240,6 +17975,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_dai_siege_warfare_level_3",
+            "group": "ironic_siege_warfare_level_3",
             "min": "65",
             "max": "91",
             "bundles": [
@@ -17266,6 +18002,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_dai_siege_warfare_level_4",
+            "group": "ironic_siege_warfare_level_4",
             "min": "92",
             "max": "100",
             "bundles": [
@@ -17374,11 +18111,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -17402,6 +18145,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -17425,6 +18169,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -17448,6 +18193,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -17470,6 +18216,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -17492,6 +18239,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -17514,6 +18262,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -17536,6 +18285,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -17559,6 +18309,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -17582,6 +18333,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -17823,6 +18575,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_zhang_chao_Calligraphy_level_0",
+            "group": "ironic_Calligraphy_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -17843,6 +18596,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_chao_Calligraphy_level_1",
+            "group": "ironic_Calligraphy_level_1",
             "min": "11",
             "max": "32",
             "bundles": [
@@ -17867,6 +18621,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_chao_Calligraphy_level_2",
+            "group": "ironic_Calligraphy_level_2",
             "min": "33",
             "max": "55",
             "bundles": [
@@ -17892,6 +18647,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_chao_Calligraphy_level_3",
+            "group": "ironic_Calligraphy_level_3",
             "min": "65",
             "max": "91",
             "bundles": [
@@ -17917,6 +18673,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_chao_Calligraphy_level_4",
+            "group": "ironic_Calligraphy_level_4",
             "min": "92",
             "max": "100",
             "bundles": [
@@ -18024,11 +18781,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -18052,6 +18815,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -18075,6 +18839,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -18098,6 +18863,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -18120,6 +18886,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -18142,6 +18909,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -18164,6 +18932,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -18186,6 +18955,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -18209,6 +18979,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -18232,6 +19003,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -18486,13 +19258,14 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_zhang_lu_celestial_level_0",
+            "group": "ironic_zhang_lu_celestial_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
               {
                 "key": "ironic_zhang_lu_resource_level_0",
                 "title": "Celestial Masters: Non-Believer",
-                "description": "Vulgar people do not attain good merit; they die and belong to the officers of the Earth. This is to perish.",
+                "description": "\"Vulgar people do not attain good merit; they die and belong to the officers of the Earth. This is to perish.\"",
                 "icon": "data/images/resources/army.png",
                 "bullets": [
                   "The faster your settlements are constructed, the faster your faction will develop.",
@@ -18510,13 +19283,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_lu_celestial_level_1",
+            "group": "ironic_zhang_lu_celestial_level_1",
             "min": "10",
             "max": "19",
             "bundles": [
               {
                 "key": "ironic_zhang_lu_resource_level_1",
                 "title": "Celestial Masters: Follower",
-                "description": "Dying but never perishing, this is long-life.",
+                "description": "\"Dying but never perishing, this is long-life.\"",
                 "icon": "data/images/resources/army.png",
                 "bullets": [
                   "The faster your settlements are constructed, the faster your faction will develop.",
@@ -18534,6 +19308,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_lu_celestial_level_2",
+            "group": "ironic_zhang_lu_celestial_level_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -18558,13 +19333,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_lu_celestial_level_3",
+            "group": "ironic_zhang_lu_celestial_level_3",
             "min": "40",
             "max": "69",
             "bundles": [
               {
                 "key": "ironic_zhang_lu_resource_level_3",
                 "title": "Celestial Masters: Wudou Scholar",
-                "description": "If one is a king, one will be heavenly; if one is heavenly, one will be with the Way; if one is with the Way, one will be long-lived; until the end of one's days one will not meet with danger.",
+                "description": "\"If one is a king, one will be heavenly; if one is heavenly, one will be with the Way; if one is with the Way, one will be long-lived; until the end of one's days one will not meet with danger.\"",
                 "icon": "data/images/resources/army.png",
                 "bullets": [
                   "The faster your settlements are constructed, the faster your faction will develop.",
@@ -18582,13 +19358,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_lu_celestial_level_4",
+            "group": "ironic_zhang_lu_celestial_level_4",
             "min": "70",
             "max": "89",
             "bundles": [
               {
                 "key": "ironic_zhang_lu_resource_level_4",
                 "title": "Celestial Masters: Wudou Sage",
-                "description": "Heaven endures, and the Earth lives long.",
+                "description": "\"Heaven endures, and the Earth lives long.\"",
                 "icon": "data/images/resources/army.png",
                 "bullets": [
                   "The faster your settlements are constructed, the faster your faction will develop.",
@@ -18606,13 +19383,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_lu_celestial_level_5",
+            "group": "ironic_zhang_lu_celestial_level_5",
             "min": "90",
             "max": "100",
             "bundles": [
               {
                 "key": "ironic_zhang_lu_resource_level_5",
                 "title": "Celestial Masters: Master of the Way",
-                "description": "One who conquers others is strong. One who conquers oneself is all powerful.",
+                "description": "\"One who conquers others is strong. One who conquers oneself is all powerful.\"",
                 "icon": "data/images/resources/army.png",
                 "bullets": [
                   "The faster your settlements are constructed, the faster your faction will develop.",
@@ -18746,11 +19524,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -18774,6 +19558,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -18797,6 +19582,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -18820,6 +19606,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -18842,6 +19629,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -18864,6 +19652,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -18886,6 +19675,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -18908,6 +19698,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -18931,6 +19722,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -18954,6 +19746,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -19205,6 +19998,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_liu_yao_war_weariness_level_0",
+            "group": "ironic_war_weariness_level_0",
             "min": "0",
             "max": "12",
             "bundles": [
@@ -19230,6 +20024,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_yao_war_weariness_level_1",
+            "group": "ironic_war_weariness_level_1",
             "min": "13",
             "max": "32",
             "bundles": [
@@ -19255,6 +20050,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_yao_war_weariness_level_2",
+            "group": "ironic_war_weariness_level_2",
             "min": "33",
             "max": "56",
             "bundles": [
@@ -19280,6 +20076,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_yao_war_weariness_level_3",
+            "group": "ironic_war_weariness_level_3",
             "min": "57",
             "max": "80",
             "bundles": [
@@ -19305,6 +20102,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_yao_war_weariness_level_4",
+            "group": "ironic_war_weariness_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -19411,11 +20209,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -19439,6 +20243,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -19462,6 +20267,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -19485,6 +20291,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -19507,6 +20314,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -19529,6 +20337,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -19551,6 +20360,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -19573,6 +20383,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -19596,6 +20407,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -19619,6 +20431,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -19887,6 +20700,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_wang_lang_experience_level_0",
+            "group": "ironic_experience_level_0",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -19908,6 +20722,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_lang_experience_level_1",
+            "group": "ironic_experience_level_1",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -19931,6 +20746,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_lang_experience_level_2",
+            "group": "ironic_experience_level_2",
             "min": "40",
             "max": "69",
             "bundles": [
@@ -19954,6 +20770,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_lang_experience_level_3",
+            "group": "ironic_experience_level_3",
             "min": "70",
             "max": "89",
             "bundles": [
@@ -19978,6 +20795,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_lang_experience_level_4",
+            "group": "ironic_experience_level_4",
             "min": "90",
             "max": "100",
             "bundles": [
@@ -20083,11 +20901,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -20111,6 +20935,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -20134,6 +20959,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -20157,6 +20983,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -20179,6 +21006,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -20201,6 +21029,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -20223,6 +21052,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -20245,6 +21075,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -20268,6 +21099,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -20291,6 +21123,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -20551,11 +21384,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -20579,6 +21418,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -20602,6 +21442,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -20625,6 +21466,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -20647,6 +21489,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -20669,6 +21512,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -20691,6 +21535,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -20713,6 +21558,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -20736,6 +21582,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -20759,6 +21606,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -21053,6 +21901,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_huang_zu_prime_ambush_level_0",
+            "group": "ironic_huang_zu_prime_ambush_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -21073,6 +21922,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_zu_prime_ambush_level_1",
+            "group": "ironic_huang_zu_prime_ambush_level_1",
             "min": "10",
             "max": "20",
             "bundles": [
@@ -21093,6 +21943,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_zu_prime_ambush_level_2",
+            "group": "ironic_huang_zu_prime_ambush_level_2",
             "min": "21",
             "max": "40",
             "bundles": [
@@ -21114,6 +21965,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_zu_prime_ambush_level_3",
+            "group": "ironic_huang_zu_prime_ambush_level_3",
             "min": "41",
             "max": "60",
             "bundles": [
@@ -21137,6 +21989,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_zu_prime_ambush_level_4",
+            "group": "ironic_huang_zu_prime_ambush_level_4",
             "min": "61",
             "max": "84",
             "bundles": [
@@ -21162,6 +22015,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_zu_prime_ambush_level_5",
+            "group": "ironic_huang_zu_prime_ambush_level_5",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -21268,11 +22122,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -21296,6 +22156,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -21319,6 +22180,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -21342,6 +22204,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -21364,6 +22227,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -21386,6 +22250,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -21408,6 +22273,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -21430,6 +22296,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -21453,6 +22320,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -21476,6 +22344,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -21726,7 +22595,7 @@ const FACTION_DATA = [
         "key": "ironic_cao_ren_preparation",
         "name": "Preparation",
         "description": "Without proper planning, many things can go wrong.",
-        "tooltip": "Preparation",
+        "tooltip": "",
         "positive_label": "Increase",
         "negative_label": "Decrease",
         "icon": "data/images/resources/3k_skill_intuition_unpredictability.png",
@@ -21788,6 +22657,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_cao_ren_preparation_level_0",
+            "group": "ironic_cao_ren_preparation_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -21809,6 +22679,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_cao_ren_preparation_level_1",
+            "group": "ironic_cao_ren_preparation_level_1",
             "min": "10",
             "max": "20",
             "bundles": [
@@ -21832,6 +22703,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_cao_ren_preparation_level_2",
+            "group": "ironic_cao_ren_preparation_level_2",
             "min": "21",
             "max": "40",
             "bundles": [
@@ -21855,6 +22727,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_cao_ren_preparation_level_3",
+            "group": "ironic_cao_ren_preparation_level_3",
             "min": "41",
             "max": "60",
             "bundles": [
@@ -21872,6 +22745,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_cao_ren_preparation_level_4",
+            "group": "ironic_cao_ren_preparation_level_4",
             "min": "61",
             "max": "79",
             "bundles": [
@@ -21895,6 +22769,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_cao_ren_preparation_level_5",
+            "group": "ironic_cao_ren_preparation_level_5",
             "min": "80",
             "max": "89",
             "bundles": [
@@ -21918,6 +22793,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_cao_ren_preparation_level_6",
+            "group": "ironic_cao_ren_preparation_level_6",
             "min": "90",
             "max": "100",
             "bundles": [
@@ -22022,11 +22898,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -22050,6 +22932,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -22073,6 +22956,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -22096,6 +22980,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -22118,6 +23003,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -22140,6 +23026,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -22162,6 +23049,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -22184,6 +23072,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -22207,6 +23096,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -22230,6 +23120,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -22474,6 +23365,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_kong_zhou_harmony_level_0",
+            "group": "ironic_harmony_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -22497,13 +23389,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_kong_zhou_harmony_level_1",
+            "group": "ironic_harmony_level_1",
             "min": "11",
             "max": "32",
             "bundles": [
               {
                 "key": "ironic_harmony_resource_level_1",
                 "title": "Harmony: Faithful Morality",
-                "description": "Hold faithfulness and sincerity as your first principles.",
+                "description": "\"Hold faithfulness and sincerity as your first principles.\"",
                 "icon": "data/images/resources/dlc04_yt_people.png",
                 "bullets": [
                   "As characters gain experience, they will rank up, gaining access to new skills and abilities."
@@ -22519,13 +23412,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_kong_zhou_harmony_level_2",
+            "group": "ironic_harmony_level_2",
             "min": "33",
             "max": "55",
             "bundles": [
               {
                 "key": "ironic_harmony_resource_level_2",
                 "title": "Harmony: Sincere Mindfulness",
-                "description": "Humility is the strong bedrock of all virtues.",
+                "description": "\"Humility is the strong bedrock of all virtues.\"",
                 "icon": "data/images/resources/dlc04_yt_people.png",
                 "bullets": [
                   "As characters gain experience, they will rank up, gaining access to new skills and abilities.",
@@ -22543,13 +23437,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_kong_zhou_harmony_level_3",
+            "group": "ironic_harmony_level_3",
             "min": "65",
             "max": "91",
             "bundles": [
               {
                 "key": "ironic_harmony_resource_level_3",
                 "title": "Harmony: Virtuous Mind",
-                "description": "A virtuous man need not stand alone - he who cultivates it will have companions. true effect_bundles_localised_description_ironic_harmony_resource_level_4 A man who sets his mind on benevolence need not fear evil.",
+                "description": "\"A virtuous man need not stand alone - he who cultivates it will have companions.",
                 "icon": "data/images/resources/dlc04_yt_people.png",
                 "bullets": [
                   "As characters gain experience, they will rank up, gaining access to new skills and abilities.",
@@ -22568,13 +23463,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_kong_zhou_harmony_level_4",
+            "group": "ironic_harmony_level_4",
             "min": "92",
             "max": "100",
             "bundles": [
               {
                 "key": "ironic_harmony_resource_level_4",
                 "title": "Harmony: Heart of Benevolence",
-                "description": "",
+                "description": "\"A man who sets his mind on benevolence need not fear evil.",
                 "icon": "data/images/resources/dlc04_yt_people.png",
                 "bullets": [
                   "As characters gain experience, they will rank up, gaining access to new skills and abilities.",
@@ -22675,11 +23571,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -22703,6 +23605,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -22726,6 +23629,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -22749,6 +23653,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -22771,6 +23676,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -22793,6 +23699,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -22815,6 +23722,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -22837,6 +23745,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -22860,6 +23769,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -22883,6 +23793,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -23096,7 +24007,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war.[[/i]"
+            "text": "Bound by oath and steel, the Northern Captains rally beneath your banner, accepting your command as the rightful voice of war."
           }
         ]
       }
@@ -23178,6 +24089,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ep_campaign_group_member_pooled_resource_influence_level_1",
+            "group": "ep_campaign_group_pooled_resource_influence_level_1",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -23216,6 +24128,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_influence_level_2",
+            "group": "ep_campaign_group_pooled_resource_influence_level_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -23256,6 +24169,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_influence_level_3",
+            "group": "ep_campaign_group_pooled_resource_influence_level_3",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -23297,6 +24211,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_influence_level_4",
+            "group": "ep_campaign_group_pooled_resource_influence_level_4",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -23338,6 +24253,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_influence_level_5",
+            "group": "ep_campaign_group_pooled_resource_influence_level_5",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -23461,11 +24377,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -23489,6 +24411,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -23512,6 +24435,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -23535,6 +24459,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -23557,6 +24482,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -23579,6 +24505,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -23601,6 +24528,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -23623,6 +24551,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -23646,6 +24575,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -23669,6 +24599,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -23969,11 +24900,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -23997,6 +24934,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -24020,6 +24958,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -24043,6 +24982,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -24065,6 +25005,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -24087,6 +25028,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -24109,6 +25051,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -24131,6 +25074,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -24154,6 +25098,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -24177,6 +25122,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -24427,6 +25373,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_white_tiger_confederation_level_0",
+            "group": "3k_dlc05_campaign_group_pooled_resource_white_tiger_confederation_level_0",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -24444,6 +25391,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_white_tiger_confederation_level_1",
+            "group": "3k_dlc05_campaign_group_pooled_resource_white_tiger_confederation_level_1",
             "min": "1",
             "max": "2",
             "bundles": [
@@ -24463,6 +25411,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_white_tiger_confederation_level_2",
+            "group": "3k_dlc05_campaign_group_pooled_resource_white_tiger_confederation_level_2",
             "min": "3",
             "max": "4",
             "bundles": [
@@ -24482,6 +25431,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_white_tiger_confederation_level_3",
+            "group": "3k_dlc05_campaign_group_pooled_resource_white_tiger_confederation_level_3",
             "min": "5",
             "max": "7",
             "bundles": [
@@ -24501,6 +25451,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc05_campaign_group_member_pooled_resource_white_tiger_confederation_level_4",
+            "group": "3k_dlc05_campaign_group_pooled_resource_white_tiger_confederation_level_4",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -24720,6 +25671,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_chen_lan_rebellion_level_0",
+            "group": "ironic_bandit_rebellion_level_0",
             "min": "0",
             "max": "5",
             "bundles": [
@@ -24745,6 +25697,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_1",
+            "group": "ironic_bandit_rebellion_level_1",
             "min": "6",
             "max": "15",
             "bundles": [
@@ -24770,6 +25723,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_2",
+            "group": "ironic_bandit_rebellion_level_2",
             "min": "16",
             "max": "28",
             "bundles": [
@@ -24794,6 +25748,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_3",
+            "group": "ironic_bandit_rebellion_level_3",
             "min": "29",
             "max": "39",
             "bundles": [
@@ -24817,6 +25772,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_4",
+            "group": "ironic_bandit_rebellion_level_4",
             "min": "40",
             "max": "60",
             "bundles": [
@@ -24842,6 +25798,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_5",
+            "group": "ironic_bandit_rebellion_level_5",
             "min": "61",
             "max": "71",
             "bundles": [
@@ -24865,6 +25822,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_6",
+            "group": "ironic_bandit_rebellion_level_6",
             "min": "72",
             "max": "84",
             "bundles": [
@@ -24889,6 +25847,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_7",
+            "group": "ironic_bandit_rebellion_level_7",
             "min": "85",
             "max": "94",
             "bundles": [
@@ -24914,6 +25873,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_chen_lan_rebellion_level_8",
+            "group": "ironic_bandit_rebellion_level_8",
             "min": "95",
             "max": "100",
             "bundles": [
@@ -25146,6 +26106,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_sheng_xian_inner_circle_level_0",
+            "group": "ironic_inner_circle_level_0",
             "min": "0",
             "max": "40",
             "bundles": [
@@ -25167,6 +26128,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_sheng_xian_inner_circle_level_1",
+            "group": "ironic_inner_circle_level_1",
             "min": "41",
             "max": "100",
             "bundles": [
@@ -25271,11 +26233,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -25299,6 +26267,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -25322,6 +26291,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -25345,6 +26315,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -25367,6 +26338,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -25389,6 +26361,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -25411,6 +26384,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -25433,6 +26407,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -25456,6 +26431,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -25479,6 +26455,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -25743,11 +26720,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -25771,6 +26754,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -25794,6 +26778,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -25817,6 +26802,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -25839,6 +26825,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -25861,6 +26848,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -25883,6 +26871,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -25905,6 +26894,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -25928,6 +26918,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -25951,6 +26942,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -26179,11 +27171,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -26207,6 +27205,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -26230,6 +27229,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -26253,6 +27253,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -26275,6 +27276,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -26297,6 +27299,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -26319,6 +27322,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -26341,6 +27345,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -26364,6 +27369,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -26387,6 +27393,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -26616,11 +27623,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -26644,6 +27657,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -26667,6 +27681,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -26690,6 +27705,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -26712,6 +27728,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -26734,6 +27751,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -26756,6 +27774,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -26778,6 +27797,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -26801,6 +27821,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -26824,6 +27845,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -26976,7 +27998,7 @@ const FACTION_DATA = [
     "specialisation": {
       "key": "ironic_family_persistence_effect_bundle",
       "title": "Fraternity",
-      "description": "I don't have friends. I have family.",
+      "description": "\"I don't have friends. I have family.\"",
       "icon": "data/images/resources/icon_attitude_trusted_friend.png",
       "bullets": [],
       "effects": []
@@ -27008,8 +28030,8 @@ const FACTION_DATA = [
       {
         "key": "ironic_family_persistence",
         "name": "Fraternity",
-        "description": "I don't have friends. I have family.",
-        "tooltip": "I don't have friends. I have family.",
+        "description": "\"I don't have friends. I have family.\"",
+        "tooltip": "\"I don't have friends. I have family.\"",
         "positive_label": "Increase",
         "negative_label": "Decrease",
         "icon": "data/images/resources/icon_attitude_trusted_friend.png",
@@ -27061,13 +28083,14 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_wu_jing_family_persistence_level_0",
+            "group": "ironic_family_persistence_level_0",
             "min": "0",
             "max": "19",
             "bundles": [
               {
                 "key": "ironic_family_persistence_resource_level_0",
                 "title": "Fraternity: Betrayed",
-                "description": "Without honour, you've got no family.",
+                "description": "\"Without honour, you've got no family.\"",
                 "icon": "data/images/resources/icon_attitude_trusted_friend.png",
                 "bullets": [],
                 "effects": []
@@ -27076,13 +28099,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wu_jing_family_persistence_level_1",
+            "group": "ironic_family_persistence_level_1",
             "min": "20",
             "max": "39",
             "bundles": [
               {
                 "key": "ironic_family_persistence_resource_level_1",
                 "title": "Fraternity: Disunified",
-                "description": "You don't turn your back on family, even when they do.",
+                "description": "\"You don't turn your back on family, even when they do.\"",
                 "icon": "data/images/resources/icon_attitude_trusted_friend.png",
                 "bullets": [],
                 "effects": []
@@ -27091,13 +28115,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wu_jing_family_persistence_level_2",
+            "group": "ironic_family_persistence_level_2",
             "min": "40",
             "max": "59",
             "bundles": [
               {
                 "key": "ironic_family_persistence_resource_level_2",
                 "title": "Fraternity: Joined",
-                "description": "Without family, you've got nothing.",
+                "description": "\"Without family, you've got nothing.\"",
                 "icon": "data/images/resources/icon_attitude_trusted_friend.png",
                 "bullets": [],
                 "effects": []
@@ -27106,13 +28131,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wu_jing_family_persistence_level_3",
+            "group": "ironic_family_persistence_level_3",
             "min": "60",
             "max": "79",
             "bundles": [
               {
                 "key": "ironic_family_persistence_resource_level_3",
                 "title": "Fraternity: Congenial",
-                "description": "You will always be with me, and you will always be my brother.",
+                "description": "\"You will always be with me, and you will always be my brother.\"",
                 "icon": "data/images/resources/icon_attitude_trusted_friend.png",
                 "bullets": [],
                 "effects": []
@@ -27121,13 +28147,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wu_jing_family_persistence_level_4",
+            "group": "ironic_family_persistence_level_4",
             "min": "80",
             "max": "100",
             "bundles": [
               {
                 "key": "ironic_family_persistence_resource_level_4",
                 "title": "Fraternity: Embraced",
-                "description": "The most important thing to me will always be the people in this room - my family.",
+                "description": "\"The most important thing to me will always be the people in this room - my family.\"",
                 "icon": "data/images/resources/icon_attitude_trusted_friend.png",
                 "bullets": [],
                 "effects": []
@@ -27217,11 +28244,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -27245,6 +28278,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -27268,6 +28302,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -27291,6 +28326,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -27313,6 +28349,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -27335,6 +28372,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -27357,6 +28395,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -27379,6 +28418,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -27402,6 +28442,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -27425,6 +28466,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -27691,6 +28733,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fortitude_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fortitude_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -27711,6 +28754,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fortitude_level_2",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fortitude_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -27731,6 +28775,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fortitude_level_3",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fortitude_level_3",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -27751,6 +28796,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fortitude_level_4",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fortitude_level_4",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -27853,11 +28899,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -27881,6 +28933,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -27904,6 +28957,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -27927,6 +28981,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -27949,6 +29004,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -27971,6 +29027,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -27993,6 +29050,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -28015,6 +29073,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -28038,6 +29097,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -28061,6 +29121,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -28271,6 +29332,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_song_jian_resource_level_0",
+            "group": "ironic_song_jian_resource_level_0",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -28294,6 +29356,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_song_jian_resource_level_1",
+            "group": "ironic_song_jian_resource_level_1",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -28317,6 +29380,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_song_jian_resource_level_2",
+            "group": "ironic_song_jian_resource_level_2",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -28341,6 +29405,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_song_jian_resource_level_3",
+            "group": "ironic_song_jian_resource_level_3",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -28365,6 +29430,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_song_jian_resource_level_4",
+            "group": "ironic_song_jian_resource_level_4",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -28470,11 +29536,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -28498,6 +29570,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -28521,6 +29594,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -28544,6 +29618,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -28566,6 +29641,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -28588,6 +29664,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -28610,6 +29687,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -28632,6 +29710,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -28655,6 +29734,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -28678,6 +29758,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -28927,11 +30008,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -28955,6 +30042,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -28978,6 +30066,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -29001,6 +30090,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -29023,6 +30113,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -29045,6 +30136,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -29067,6 +30159,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -29089,6 +30182,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -29112,6 +30206,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -29135,6 +30230,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -29364,6 +30460,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ep_campaign_group_member_pooled_resource_subterfuge_level_1",
+            "group": "ep_campaign_group_pooled_resource_subterfuge_level_1",
             "min": "0",
             "max": "15",
             "bundles": [
@@ -29401,6 +30498,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_subterfuge_level_2",
+            "group": "ep_campaign_group_pooled_resource_subterfuge_level_2",
             "min": "16",
             "max": "50",
             "bundles": [
@@ -29438,6 +30536,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_subterfuge_level_3",
+            "group": "ep_campaign_group_pooled_resource_subterfuge_level_3",
             "min": "51",
             "max": "85",
             "bundles": [
@@ -29475,6 +30574,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_subterfuge_level_4",
+            "group": "ep_campaign_group_pooled_resource_subterfuge_level_4",
             "min": "86",
             "max": "100",
             "bundles": [
@@ -29595,11 +30695,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -29623,6 +30729,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -29646,6 +30753,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -29669,6 +30777,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -29691,6 +30800,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -29713,6 +30823,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -29735,6 +30846,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -29757,6 +30869,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -29780,6 +30893,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -29803,6 +30917,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -30015,6 +31130,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_jin_xuan_jurisdiction_level_0",
+            "group": "ironic_governor_jurisdiction_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -30040,6 +31156,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jin_xuan_jurisdiction_level_1",
+            "group": "ironic_governor_jurisdiction_level_1",
             "min": "10",
             "max": "19",
             "bundles": [
@@ -30065,6 +31182,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jin_xuan_jurisdiction_level_2",
+            "group": "ironic_governor_jurisdiction_level_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -30090,6 +31208,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jin_xuan_jurisdiction_level_3",
+            "group": "ironic_governor_jurisdiction_level_3",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -30119,6 +31238,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jin_xuan_jurisdiction_level_4",
+            "group": "ironic_governor_jurisdiction_level_4",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -30144,6 +31264,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jin_xuan_jurisdiction_level_5",
+            "group": "ironic_governor_jurisdiction_level_5",
             "min": "80",
             "max": "90",
             "bundles": [
@@ -30169,6 +31290,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jin_xuan_jurisdiction_level_6",
+            "group": "ironic_governor_jurisdiction_level_6",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -30275,11 +31397,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -30303,6 +31431,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -30326,6 +31455,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -30349,6 +31479,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -30371,6 +31502,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -30393,6 +31525,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -30415,6 +31548,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -30437,6 +31571,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -30460,6 +31595,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -30483,6 +31619,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -30711,11 +31848,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -30739,6 +31882,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -30762,6 +31906,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -30785,6 +31930,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -30807,6 +31953,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -30829,6 +31976,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -30851,6 +31999,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -30873,6 +32022,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -30896,6 +32046,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -30919,6 +32070,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -31094,7 +32246,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "Before growth can happen, sickness must be cured.[[/co]]"
+            "text": "Before growth can happen, sickness must be cured."
           }
         ]
       },
@@ -31116,7 +32268,7 @@ const FACTION_DATA = [
           },
           {
             "sign": "",
-            "text": "The people must be cared for – otherwise this war is for nothing![[/co]]"
+            "text": "The people must be cared for – otherwise this war is for nothing!"
           }
         ]
       }
@@ -31151,7 +32303,7 @@ const FACTION_DATA = [
     "party_bundle": {
       "key": "3k_faction_trait_he_yi",
       "title": "United In One Goal",
-      "description": "United we are strong - few and we dwindle and fade away.",
+      "description": "\"United we are strong - few and we dwindle and fade away.\"",
       "icon": "data/images/resources/dlc04_yt_people.png",
       "bullets": [],
       "effects": [
@@ -31251,6 +32403,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_1_he_yi",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_1_he_yi",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -31275,6 +32428,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_2_he_yi",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_2_he_yi",
             "min": "11",
             "max": "30",
             "bundles": [
@@ -31299,6 +32453,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_3_he_yi",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_3_he_yi",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -31324,6 +32479,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_4_he_yi",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_4_he_yi",
             "min": "51",
             "max": "70",
             "bundles": [
@@ -31349,6 +32505,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_5_he_yi",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_5_he_yi",
             "min": "71",
             "max": "100",
             "bundles": [
@@ -31579,7 +32736,7 @@ const FACTION_DATA = [
     "party_bundle": {
       "key": "3k_faction_trait_gong_du",
       "title": "United In One Goal",
-      "description": "United we are strong - few and we dwindle and fade away.",
+      "description": "\"United we are strong - few and we dwindle and fade away.\"",
       "icon": "data/images/resources/dlc04_yt_people.png",
       "bullets": [],
       "effects": [
@@ -31678,6 +32835,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_1_gong_du",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_1_gong_du",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -31702,6 +32860,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_2_gong_du",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_2_gong_du",
             "min": "11",
             "max": "30",
             "bundles": [
@@ -31726,6 +32885,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_3_gong_du",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_3_gong_du",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -31751,6 +32911,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_4_gong_du",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_4_gong_du",
             "min": "51",
             "max": "70",
             "bundles": [
@@ -31776,6 +32937,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_5_gong_du",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_5_gong_du",
             "min": "71",
             "max": "100",
             "bundles": [
@@ -32001,7 +33163,7 @@ const FACTION_DATA = [
     "party_bundle": {
       "key": "3k_faction_trait_huang_shao",
       "title": "United In One Goal",
-      "description": "United we are strong - few and we dwindle and fade away.",
+      "description": "\"United we are strong - few and we dwindle and fade away.\"",
       "icon": "data/images/resources/dlc04_yt_people.png",
       "bullets": [],
       "effects": [
@@ -32100,6 +33262,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_1_huang_shao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_1_huang_shao",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -32124,6 +33287,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_2_huang_shao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_2_huang_shao",
             "min": "11",
             "max": "30",
             "bundles": [
@@ -32148,6 +33312,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_3_huang_shao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_3_huang_shao",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -32173,6 +33338,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_4_huang_shao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_4_huang_shao",
             "min": "51",
             "max": "70",
             "bundles": [
@@ -32198,6 +33364,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_5_huang_shao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_5_huang_shao",
             "min": "71",
             "max": "100",
             "bundles": [
@@ -32382,6 +33549,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_1_generic",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_1_generic",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -32405,6 +33573,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_2_generic",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_2_generic",
             "min": "11",
             "max": "30",
             "bundles": [
@@ -32429,6 +33598,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_3_generic",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_3_generic",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -32454,6 +33624,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_4_generic",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_4_generic",
             "min": "51",
             "max": "70",
             "bundles": [
@@ -32479,6 +33650,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_5_generic",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_5_generic",
             "min": "71",
             "max": "100",
             "bundles": [
@@ -32776,6 +33948,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_campaign_group_member_pooled_resource_fervour_level_1_wu_huan",
+            "group": "ironic_campaign_group_pooled_resource_fervour_level_1_wu_huan",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -32800,6 +33973,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_campaign_group_member_pooled_resource_fervour_level_2_wu_huan",
+            "group": "ironic_campaign_group_pooled_resource_fervour_level_2_wu_huan",
             "min": "11",
             "max": "30",
             "bundles": [
@@ -32825,6 +33999,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_campaign_group_member_pooled_resource_fervour_level_3_wu_huan",
+            "group": "ironic_campaign_group_pooled_resource_fervour_level_3_wu_huan",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -32851,6 +34026,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_campaign_group_member_pooled_resource_fervour_level_4_wu_huan",
+            "group": "ironic_campaign_group_pooled_resource_fervour_level_4_wu_huan",
             "min": "51",
             "max": "70",
             "bundles": [
@@ -32877,6 +34053,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_campaign_group_member_pooled_resource_fervour_level_5_wu_huan",
+            "group": "ironic_campaign_group_pooled_resource_fervour_level_5_wu_huan",
             "min": "71",
             "max": "100",
             "bundles": [
@@ -33133,6 +34310,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_main_campaign_group_member_pooled_resource_infamy_level_1",
+            "group": "3k_main_campaign_group_pooled_resource_infamy_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -33154,6 +34332,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_infamy_level_2",
+            "group": "3k_main_campaign_group_pooled_resource_infamy_level_2",
             "min": "11",
             "max": "25",
             "bundles": [
@@ -33177,6 +34356,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_infamy_level_3",
+            "group": "3k_main_campaign_group_pooled_resource_infamy_level_3",
             "min": "26",
             "max": "45",
             "bundles": [
@@ -33202,6 +34382,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_infamy_level_4",
+            "group": "3k_main_campaign_group_pooled_resource_infamy_level_4",
             "min": "46",
             "max": "70",
             "bundles": [
@@ -33227,6 +34408,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_main_campaign_group_member_pooled_resource_infamy_level_5",
+            "group": "3k_main_campaign_group_pooled_resource_infamy_level_5",
             "min": "71",
             "max": "100",
             "bundles": [
@@ -33738,11 +34920,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -33766,6 +34954,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -33789,6 +34978,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -33812,6 +35002,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -33834,6 +35025,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -33856,6 +35048,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -33878,6 +35071,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -33900,6 +35094,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -33923,6 +35118,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -33946,6 +35142,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -34107,7 +35304,7 @@ const FACTION_DATA = [
     "specialisation": {
       "key": "ironic_robin_hood_effect_bundle",
       "title": "Youxia",
-      "description": "Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!",
+      "description": "\"Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!\"",
       "icon": "",
       "bullets": [
         "Youxia increases combat power and water movement range.",
@@ -34135,8 +35332,8 @@ const FACTION_DATA = [
       {
         "key": "ironic_robin_hood",
         "name": "Youxia",
-        "description": "Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!",
-        "tooltip": "Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!",
+        "description": "\"Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!\"",
+        "tooltip": "\"Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!\"",
         "positive_label": "Increase",
         "negative_label": "Decrease",
         "icon": "data/images/resources/custom_pin_naval.png",
@@ -34208,13 +35405,14 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_gan_ning_robin_hood_level_0",
+            "group": "ironic_robin_hood_level_0",
             "min": "0",
             "max": "24",
             "bundles": [
               {
                 "key": "ironic_robin_hood_resource_level_0",
                 "title": "Keelhauled",
-                "description": "With authority looming, we'd best keep our heads low, men!",
+                "description": "\"With authority looming, we'd best keep our heads low, men!\"",
                 "icon": "",
                 "bullets": [],
                 "effects": [
@@ -34230,13 +35428,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gan_ning_robin_hood_level_1",
+            "group": "ironic_robin_hood_level_1",
             "min": "25",
             "max": "40",
             "bundles": [
               {
                 "key": "ironic_robin_hood_resource_level_1",
                 "title": "Plundering Corsairs",
-                "description": "Take what you can get, give nothing back!",
+                "description": "\"Take what you can get, give nothing back!\"",
                 "icon": "",
                 "bullets": [],
                 "effects": [
@@ -34253,13 +35452,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gan_ning_robin_hood_level_2",
+            "group": "ironic_robin_hood_level_2",
             "min": "41",
             "max": "64",
             "bundles": [
               {
                 "key": "ironic_robin_hood_resource_level_2",
                 "title": "Call of the Waves",
-                "description": "With the winds at our backs, and blades in our hands, freedom is ours to enjoy!",
+                "description": "\"With the winds at our backs, and blades in our hands, freedom is ours to enjoy!\"",
                 "icon": "",
                 "bullets": [],
                 "effects": [
@@ -34276,13 +35476,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gan_ning_robin_hood_level_3",
+            "group": "ironic_robin_hood_level_3",
             "min": "65",
             "max": "84",
             "bundles": [
               {
                 "key": "ironic_robin_hood_resource_level_3",
                 "title": "Scourge of the Rivers",
-                "description": "From the east to the west, all fame and treasure flows to our hands, to do with as we wish, lads!",
+                "description": "\"From the east to the west, all fame and treasure flows to our hands, to do with as we wish, lads!\"",
                 "icon": "",
                 "bullets": [],
                 "effects": [
@@ -34299,13 +35500,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_gan_ning_robin_hood_level_4",
+            "group": "ironic_robin_hood_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
               {
                 "key": "ironic_robin_hood_resource_level_4",
                 "title": "Heroes of the Waters",
-                "description": "Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!",
+                "description": "\"Freedom and liberty for all! Throw off the oppression of the Han, and set sail with us!\"",
                 "icon": "",
                 "bullets": [],
                 "effects": [
@@ -34555,6 +35757,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_zu_lang_zu_lang_independence_level_0",
+            "group": "ironic_zu_lang_independence_level_0",
             "min": "0",
             "max": "15",
             "bundles": [
@@ -34578,6 +35781,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zu_lang_zu_lang_independence_level_1",
+            "group": "ironic_zu_lang_independence_level_1",
             "min": "16",
             "max": "30",
             "bundles": [
@@ -34602,6 +35806,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zu_lang_zu_lang_independence_level_2",
+            "group": "ironic_zu_lang_independence_level_2",
             "min": "31",
             "max": "55",
             "bundles": [
@@ -34627,6 +35832,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zu_lang_zu_lang_independence_level_3",
+            "group": "ironic_zu_lang_independence_level_3",
             "min": "56",
             "max": "84",
             "bundles": [
@@ -34653,6 +35859,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zu_lang_zu_lang_independence_level_4",
+            "group": "ironic_zu_lang_independence_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -35153,6 +36360,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_goddess_of_fire_level_1",
+            "group": "3k_dlc06_campaign_group_pooled_resource_goddess_of_fire_level_1",
             "min": "0",
             "max": "16",
             "bundles": [
@@ -35172,6 +36380,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_goddess_of_fire_level_2",
+            "group": "3k_dlc06_campaign_group_pooled_resource_goddess_of_fire_level_2",
             "min": "17",
             "max": "40",
             "bundles": [
@@ -35191,6 +36400,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_goddess_of_fire_level_3",
+            "group": "3k_dlc06_campaign_group_pooled_resource_goddess_of_fire_level_3",
             "min": "41",
             "max": "66",
             "bundles": [
@@ -35210,6 +36420,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_goddess_of_fire_level_4",
+            "group": "3k_dlc06_campaign_group_pooled_resource_goddess_of_fire_level_4",
             "min": "67",
             "max": "100",
             "bundles": [
@@ -35250,6 +36461,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_0",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_0",
             "min": "0",
             "max": "1",
             "bundles": [
@@ -35265,6 +36477,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_1",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_1",
             "min": "1",
             "max": "1",
             "bundles": [
@@ -35284,6 +36497,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_2",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_2",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -35303,6 +36517,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_3",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_3",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -35322,6 +36537,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_4",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_4",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -35341,6 +36557,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_5",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_5",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -35360,6 +36577,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_6",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_6",
             "min": "6",
             "max": "6",
             "bundles": [
@@ -35379,6 +36597,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_7",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_7",
             "min": "7",
             "max": "7",
             "bundles": [
@@ -35398,6 +36617,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_8",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_8",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -35417,6 +36637,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_9",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_9",
             "min": "9",
             "max": "9",
             "bundles": [
@@ -35436,6 +36657,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_10",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_10",
             "min": "10",
             "max": "10",
             "bundles": [
@@ -35455,6 +36677,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_11",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_11",
             "min": "11",
             "max": "11",
             "bundles": [
@@ -35474,6 +36697,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_12",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_12",
             "min": "12",
             "max": "12",
             "bundles": [
@@ -35493,6 +36717,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_13",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_13",
             "min": "13",
             "max": "13",
             "bundles": [
@@ -35512,6 +36737,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_14",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_14",
             "min": "14",
             "max": "14",
             "bundles": [
@@ -35531,6 +36757,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_15",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_15",
             "min": "15",
             "max": "15",
             "bundles": [
@@ -35550,6 +36777,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_16",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_16",
             "min": "16",
             "max": "16",
             "bundles": [
@@ -35569,6 +36797,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_17",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_17",
             "min": "17",
             "max": "17",
             "bundles": [
@@ -35588,6 +36817,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_18",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_18",
             "min": "18",
             "max": "18",
             "bundles": [
@@ -35607,6 +36837,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_19",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_19",
             "min": "19",
             "max": "19",
             "bundles": [
@@ -35626,6 +36857,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_20",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_20",
             "min": "20",
             "max": "20",
             "bundles": [
@@ -35645,6 +36877,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_21",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_21",
             "min": "21",
             "max": "21",
             "bundles": [
@@ -35664,6 +36897,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_22",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_22",
             "min": "22",
             "max": "22",
             "bundles": [
@@ -35683,6 +36917,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_23",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_23",
             "min": "23",
             "max": "23",
             "bundles": [
@@ -35702,6 +36937,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_24",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_24",
             "min": "24",
             "max": "24",
             "bundles": [
@@ -35721,6 +36957,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_25",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_25",
             "min": "25",
             "max": "25",
             "bundles": [
@@ -35740,6 +36977,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_26",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_26",
             "min": "26",
             "max": "26",
             "bundles": [
@@ -35759,6 +36997,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_27",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_27",
             "min": "27",
             "max": "27",
             "bundles": [
@@ -35778,6 +37017,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_28",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_28",
             "min": "28",
             "max": "28",
             "bundles": [
@@ -35797,6 +37037,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_29",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_29",
             "min": "29",
             "max": "29",
             "bundles": [
@@ -35816,6 +37057,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_30",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_30",
             "min": "30",
             "max": "30",
             "bundles": [
@@ -35835,6 +37077,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_31",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_31",
             "min": "31",
             "max": "31",
             "bundles": [
@@ -35854,6 +37097,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_32",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_32",
             "min": "32",
             "max": "32",
             "bundles": [
@@ -35873,6 +37117,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_33",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_33",
             "min": "33",
             "max": "33",
             "bundles": [
@@ -35892,6 +37137,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_34",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_34",
             "min": "34",
             "max": "34",
             "bundles": [
@@ -35911,6 +37157,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_35",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_35",
             "min": "35",
             "max": "35",
             "bundles": [
@@ -35930,6 +37177,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_36",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_36",
             "min": "36",
             "max": "36",
             "bundles": [
@@ -35949,6 +37197,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_37",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_37",
             "min": "37",
             "max": "37",
             "bundles": [
@@ -35968,6 +37217,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_38",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_38",
             "min": "38",
             "max": "38",
             "bundles": [
@@ -35987,6 +37237,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_39",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_39",
             "min": "39",
             "max": "39",
             "bundles": [
@@ -36006,6 +37257,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_40",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_40",
             "min": "40",
             "max": "40",
             "bundles": [
@@ -36025,6 +37277,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_41",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_41",
             "min": "41",
             "max": "41",
             "bundles": [
@@ -36044,6 +37297,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_42",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_42",
             "min": "42",
             "max": "42",
             "bundles": [
@@ -36063,6 +37317,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_43",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_43",
             "min": "43",
             "max": "43",
             "bundles": [
@@ -36082,6 +37337,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_44",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_44",
             "min": "44",
             "max": "44",
             "bundles": [
@@ -36101,6 +37357,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_45",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_45",
             "min": "45",
             "max": "45",
             "bundles": [
@@ -36120,6 +37377,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_46",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_46",
             "min": "46",
             "max": "46",
             "bundles": [
@@ -36139,6 +37397,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_47",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_47",
             "min": "47",
             "max": "47",
             "bundles": [
@@ -36158,6 +37417,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_48",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_48",
             "min": "48",
             "max": "48",
             "bundles": [
@@ -36177,6 +37437,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_49",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_49",
             "min": "49",
             "max": "49",
             "bundles": [
@@ -36196,6 +37457,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_50",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_50",
             "min": "50",
             "max": "50",
             "bundles": [
@@ -36215,6 +37477,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_51",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_51",
             "min": "51",
             "max": "51",
             "bundles": [
@@ -36234,6 +37497,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_52",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_52",
             "min": "52",
             "max": "52",
             "bundles": [
@@ -36253,6 +37517,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_53",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_53",
             "min": "53",
             "max": "53",
             "bundles": [
@@ -36272,6 +37537,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_54",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_54",
             "min": "54",
             "max": "54",
             "bundles": [
@@ -36291,6 +37557,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_55",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_55",
             "min": "55",
             "max": "55",
             "bundles": [
@@ -36310,6 +37577,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_flaming_confinement_level_56",
+            "group": "3k_dlc06_campaign_group_pooled_resource_flaming_confinement_level_56",
             "min": "56",
             "max": "60",
             "bundles": [
@@ -36350,6 +37618,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_0",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_0",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -36365,6 +37634,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_1",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_1",
             "min": "1",
             "max": "1",
             "bundles": [
@@ -36384,6 +37654,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_2",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_2",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -36403,6 +37674,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_3",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_3",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -36422,6 +37694,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_4",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_4",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -36441,6 +37714,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_5",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_5",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -36460,6 +37734,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_6",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_6",
             "min": "6",
             "max": "6",
             "bundles": [
@@ -36479,6 +37754,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_7",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_7",
             "min": "7",
             "max": "7",
             "bundles": [
@@ -36498,6 +37774,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_8",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_8",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -36517,6 +37794,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_smouldering_fire_level_9",
+            "group": "3k_dlc06_campaign_group_pooled_resource_smouldering_fire_level_9",
             "min": "9",
             "max": "10",
             "bundles": [
@@ -36772,6 +38050,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_00",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_00",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -36790,6 +38069,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_01",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_01",
             "min": "1",
             "max": "1",
             "bundles": [
@@ -36808,6 +38088,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_02",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_02",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -36826,6 +38107,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_03",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_03",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -36844,6 +38126,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_04",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_04",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -36862,6 +38145,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_05",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_05",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -36880,6 +38164,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_06",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_06",
             "min": "6",
             "max": "6",
             "bundles": [
@@ -36898,6 +38183,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_07",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_07",
             "min": "7",
             "max": "7",
             "bundles": [
@@ -36916,6 +38202,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_08",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_08",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -36934,6 +38221,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_09",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_09",
             "min": "9",
             "max": "9",
             "bundles": [
@@ -36952,6 +38240,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_vassalise_10",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_vassalise_10",
             "min": "10",
             "max": "10",
             "bundles": [
@@ -36991,6 +38280,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_00",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_00",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -37009,6 +38299,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_01",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_01",
             "min": "1",
             "max": "1",
             "bundles": [
@@ -37027,6 +38318,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_02",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_02",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -37045,6 +38337,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_03",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_03",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -37063,6 +38356,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_04",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_04",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -37081,6 +38375,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_05",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_05",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -37099,6 +38394,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_06",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_06",
             "min": "6",
             "max": "6",
             "bundles": [
@@ -37117,6 +38413,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_07",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_07",
             "min": "7",
             "max": "7",
             "bundles": [
@@ -37135,6 +38432,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_08",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_08",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -37153,6 +38451,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_09",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_09",
             "min": "9",
             "max": "9",
             "bundles": [
@@ -37171,6 +38470,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_shamoke_confederate_10",
+            "group": "3k_dlc06_campaign_group_pooled_resource_shamoke_confederate_10",
             "min": "10",
             "max": "10",
             "bundles": [
@@ -37432,6 +38732,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_pride_level_1",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_pride_level_1",
             "min": "0",
             "max": "25",
             "bundles": [
@@ -37453,6 +38754,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_pride_level_2",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_pride_level_2",
             "min": "26",
             "max": "50",
             "bundles": [
@@ -37478,6 +38780,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_pride_level_3",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_pride_level_3",
             "min": "51",
             "max": "75",
             "bundles": [
@@ -37503,6 +38806,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_pride_level_4",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_pride_level_4",
             "min": "76",
             "max": "100",
             "bundles": [
@@ -37549,6 +38853,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_0",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_0",
             "min": "0",
             "max": "0",
             "bundles": [
@@ -37566,6 +38871,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_1",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_1",
             "min": "1",
             "max": "1",
             "bundles": [
@@ -37583,6 +38889,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_2",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_2",
             "min": "2",
             "max": "2",
             "bundles": [
@@ -37600,6 +38907,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_3",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_3",
             "min": "3",
             "max": "3",
             "bundles": [
@@ -37617,6 +38925,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_4",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_4",
             "min": "4",
             "max": "4",
             "bundles": [
@@ -37634,6 +38943,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_5",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_5",
             "min": "5",
             "max": "5",
             "bundles": [
@@ -37651,6 +38961,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_6",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_6",
             "min": "6",
             "max": "6",
             "bundles": [
@@ -37668,6 +38979,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_7",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_7",
             "min": "7",
             "max": "7",
             "bundles": [
@@ -37685,6 +38997,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc06_campaign_group_member_pooled_resource_mulu_rituals_level_8",
+            "group": "3k_dlc06_campaign_group_pooled_resource_mulu_rituals_level_8",
             "min": "8",
             "max": "8",
             "bundles": [
@@ -37904,6 +39217,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_qu_pan_madness_level_0",
+            "group": "ironic_madness_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -37923,6 +39237,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_qu_pan_madness_level_1",
+            "group": "ironic_madness_level_1",
             "min": "11",
             "max": "40",
             "bundles": [
@@ -37942,6 +39257,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_qu_pan_madness_level_2",
+            "group": "ironic_madness_level_2",
             "min": "41",
             "max": "60",
             "bundles": [
@@ -37961,6 +39277,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_qu_pan_madness_level_3",
+            "group": "ironic_madness_level_3",
             "min": "61",
             "max": "80",
             "bundles": [
@@ -37980,6 +39297,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_qu_pan_madness_level_4",
+            "group": "ironic_madness_level_4",
             "min": "81",
             "max": "100",
             "bundles": [
@@ -38080,11 +39398,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -38108,6 +39432,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -38131,6 +39456,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -38154,6 +39480,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -38176,6 +39503,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -38198,6 +39526,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -38220,6 +39549,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -38242,6 +39572,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -38265,6 +39596,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -38288,6 +39620,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -40156,6 +41489,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_jia_long_gentry_support_level_0",
+            "group": "ironic_gentry_support_level_0",
             "min": "0",
             "max": "12",
             "bundles": [
@@ -40177,6 +41511,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jia_long_gentry_support_level_1",
+            "group": "ironic_gentry_support_level_1",
             "min": "13",
             "max": "35",
             "bundles": [
@@ -40201,6 +41536,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jia_long_gentry_support_level_2",
+            "group": "ironic_gentry_support_level_2",
             "min": "36",
             "max": "64",
             "bundles": [
@@ -40225,13 +41561,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jia_long_gentry_support_level_3",
+            "group": "ironic_gentry_support_level_3",
             "min": "65",
             "max": "84",
             "bundles": [
               {
                 "key": "ironic_gentry_support_resource_level_3",
                 "title": "Gentry Support: Local Hero",
-                "description": "For he himself has said it, and it's surely to his credit, that he is a Bashu Man, he remains a Bashu Man!",
+                "description": "\"For he himself has said it, and it's surely to his credit, that he is a Bashu Man, he remains a Bashu Man!\"",
                 "icon": "data/images/resources/diplomacy_attitude_effect.png",
                 "bullets": [
                   "Increasing public order is crucial for maintaining civil order in growing settlements. If it gets too low, the populace will rebel.",
@@ -40251,6 +41588,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_jia_long_gentry_support_level_4",
+            "group": "ironic_gentry_support_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -40358,11 +41696,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -40386,6 +41730,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -40409,6 +41754,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -40432,6 +41778,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -40454,6 +41801,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -40476,6 +41824,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -40498,6 +41847,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -40520,6 +41870,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -40543,6 +41894,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -40566,6 +41918,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -40859,6 +42212,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ep_campaign_group_member_pooled_resource_control_level_1",
+            "group": "ep_campaign_group_pooled_resource_control_level_1",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -40897,6 +42251,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_control_level_2",
+            "group": "ep_campaign_group_pooled_resource_control_level_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -40935,6 +42290,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_control_level_3",
+            "group": "ep_campaign_group_pooled_resource_control_level_3",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -40972,6 +42328,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_control_level_4",
+            "group": "ep_campaign_group_pooled_resource_control_level_4",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -41012,6 +42369,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_control_level_5",
+            "group": "ep_campaign_group_pooled_resource_control_level_5",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -41133,11 +42491,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -41161,6 +42525,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -41184,6 +42549,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -41207,6 +42573,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -41229,6 +42596,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -41251,6 +42619,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -41273,6 +42642,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -41295,6 +42665,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -41318,6 +42689,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -41341,6 +42713,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -41567,11 +42940,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -41595,6 +42974,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -41618,6 +42998,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -41641,6 +43022,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -41663,6 +43045,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -41685,6 +43068,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -41707,6 +43091,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -41729,6 +43114,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -41752,6 +43138,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -41775,6 +43162,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -42245,6 +43633,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_xiongnu_pooled_resource_level_0",
+            "group": "ironic_xiongnu_pooled_resource_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -42267,6 +43656,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiongnu_pooled_resource_level_1",
+            "group": "ironic_xiongnu_pooled_resource_level_1",
             "min": "10",
             "max": "19",
             "bundles": [
@@ -42288,6 +43678,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiongnu_pooled_resource_level_2",
+            "group": "ironic_xiongnu_pooled_resource_level_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -42309,6 +43700,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiongnu_pooled_resource_level_3",
+            "group": "ironic_xiongnu_pooled_resource_level_3",
             "min": "40",
             "max": "69",
             "bundles": [
@@ -42332,6 +43724,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiongnu_pooled_resource_level_4",
+            "group": "ironic_xiongnu_pooled_resource_level_4",
             "min": "70",
             "max": "89",
             "bundles": [
@@ -42355,6 +43748,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_xiongnu_pooled_resource_level_5",
+            "group": "ironic_xiongnu_pooled_resource_level_5",
             "min": "90",
             "max": "100",
             "bundles": [
@@ -42426,7 +43820,174 @@ const FACTION_DATA = [
             "recurring": true
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_xiongnu_rage_level_0",
+            "group": "ironic_barbarian_rage_level_0",
+            "min": "0",
+            "max": "9",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_0",
+                "title": "Barbaric Fervour: Callous",
+                "description": "You curse your own men for their ineptitude. You flog them for their weakness, you execute them for their cowardice. The disorganised mob you call an army brings shame to the very name of your people.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+50 desire for higher office (faction-wide)",
+                  "+50% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xiongnu_rage_level_1",
+            "group": "ironic_barbarian_rage_level_1",
+            "min": "10",
+            "max": "19",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_1",
+                "title": "Barbaric Fervour: Perfidious",
+                "description": "The untrustworthy masses under your alleged control mock you with their incompetence. Your chieftains openly plot against each other and bicker over petty disputes, and your warriors care more about securing their gains than riding into battle. Can you risk your grasp on power slipping even further?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+35 desire for higher office (faction-wide)",
+                  "+35% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xiongnu_rage_level_2",
+            "group": "ironic_barbarian_rage_level_2",
+            "min": "20",
+            "max": "29",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_2",
+                "title": "Barbaric Fervour: Rapacious",
+                "description": "You need to bring a heightened sense of order and discipline to your hordes. All they seem to care about is amassing personal glory, and hoarding the spoils of battle. Their greed and avarice may bring about your downfall, lest you cull their baser instincts.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+5% all damage for all forces when attacking (faction-wide)",
+                  "+20 desire for higher office (faction-wide)",
+                  "+20% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xiongnu_rage_level_3",
+            "group": "ironic_barbarian_rage_level_3",
+            "min": "30",
+            "max": "49",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_3",
+                "title": "Barbaric Fervour: Tenacious",
+                "description": "Your armies spread out, seeking glory and victory. Although your weak hearted Han rivals may attempt to sway your mind with treaties and promises, pay them no attention. Only the hunger for battle can keep your hordes loyal and able.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+10% all damage for all forces when attacking (faction-wide)",
+                  "-5 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xiongnu_rage_level_4",
+            "group": "ironic_barbarian_rage_level_4",
+            "min": "50",
+            "max": "69",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_4",
+                "title": "Barbaric Fervour: Righteous",
+                "description": "With soaring morale, and rousing chants, your men charge into the most dangerous of frays. The battle cries of your people echo out, and your martial traditions are on full display. Be sure to keep your force as tempered as a good blade, and aim them as true as well shot arrow.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+15% all damage for all forces when attacking (faction-wide)",
+                  "-20 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xiongnu_rage_level_5",
+            "group": "ironic_barbarian_rage_level_5",
+            "min": "70",
+            "max": "89",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_5",
+                "title": "Barbaric Fervour: Ferocious",
+                "description": "With vim and vigor, your armies are truly relentless. Is there any force in the land capable of halting your momentum?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+20% all damage for all forces when attacking (faction-wide)",
+                  "-35 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xiongnu_rage_level_6",
+            "group": "ironic_barbarian_rage_level_6",
+            "min": "90",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_6",
+                "title": "Barbaric Fervour: Zealous",
+                "description": "Your military might decimates all that stand before you! Let rivals try and oppose you. You will crush them, like all the rest.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "Enables: Scare (when attacking on campaign map) (faction-wide)",
+                  "+25% all damage for all forces when attacking (faction-wide)",
+                  "-50 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "notable_characters": [
@@ -42698,6 +44259,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_wuhuan_resource_level_0",
+            "group": "ironic_wuhuan_resource_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -42718,6 +44280,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wuhuan_resource_level_1",
+            "group": "ironic_wuhuan_resource_level_1",
             "min": "10",
             "max": "20",
             "bundles": [
@@ -42740,6 +44303,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wuhuan_resource_level_2",
+            "group": "ironic_wuhuan_resource_level_2",
             "min": "21",
             "max": "40",
             "bundles": [
@@ -42762,6 +44326,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wuhuan_resource_level_3",
+            "group": "ironic_wuhuan_resource_level_3",
             "min": "41",
             "max": "60",
             "bundles": [
@@ -42784,6 +44349,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wuhuan_resource_level_4",
+            "group": "ironic_wuhuan_resource_level_4",
             "min": "61",
             "max": "84",
             "bundles": [
@@ -42807,6 +44373,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wuhuan_resource_level_5",
+            "group": "ironic_wuhuan_resource_level_5",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -42879,7 +44446,174 @@ const FACTION_DATA = [
             "recurring": true
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_wuhuan_rage_level_0",
+            "group": "ironic_barbarian_rage_level_0",
+            "min": "0",
+            "max": "9",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_0",
+                "title": "Barbaric Fervour: Callous",
+                "description": "You curse your own men for their ineptitude. You flog them for their weakness, you execute them for their cowardice. The disorganised mob you call an army brings shame to the very name of your people.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+50 desire for higher office (faction-wide)",
+                  "+50% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_wuhuan_rage_level_1",
+            "group": "ironic_barbarian_rage_level_1",
+            "min": "10",
+            "max": "19",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_1",
+                "title": "Barbaric Fervour: Perfidious",
+                "description": "The untrustworthy masses under your alleged control mock you with their incompetence. Your chieftains openly plot against each other and bicker over petty disputes, and your warriors care more about securing their gains than riding into battle. Can you risk your grasp on power slipping even further?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+35 desire for higher office (faction-wide)",
+                  "+35% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_wuhuan_rage_level_2",
+            "group": "ironic_barbarian_rage_level_2",
+            "min": "20",
+            "max": "29",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_2",
+                "title": "Barbaric Fervour: Rapacious",
+                "description": "You need to bring a heightened sense of order and discipline to your hordes. All they seem to care about is amassing personal glory, and hoarding the spoils of battle. Their greed and avarice may bring about your downfall, lest you cull their baser instincts.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+5% all damage for all forces when attacking (faction-wide)",
+                  "+20 desire for higher office (faction-wide)",
+                  "+20% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_wuhuan_rage_level_3",
+            "group": "ironic_barbarian_rage_level_3",
+            "min": "30",
+            "max": "49",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_3",
+                "title": "Barbaric Fervour: Tenacious",
+                "description": "Your armies spread out, seeking glory and victory. Although your weak hearted Han rivals may attempt to sway your mind with treaties and promises, pay them no attention. Only the hunger for battle can keep your hordes loyal and able.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+10% all damage for all forces when attacking (faction-wide)",
+                  "-5 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_wuhuan_rage_level_4",
+            "group": "ironic_barbarian_rage_level_4",
+            "min": "50",
+            "max": "69",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_4",
+                "title": "Barbaric Fervour: Righteous",
+                "description": "With soaring morale, and rousing chants, your men charge into the most dangerous of frays. The battle cries of your people echo out, and your martial traditions are on full display. Be sure to keep your force as tempered as a good blade, and aim them as true as well shot arrow.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+15% all damage for all forces when attacking (faction-wide)",
+                  "-20 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_wuhuan_rage_level_5",
+            "group": "ironic_barbarian_rage_level_5",
+            "min": "70",
+            "max": "89",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_5",
+                "title": "Barbaric Fervour: Ferocious",
+                "description": "With vim and vigor, your armies are truly relentless. Is there any force in the land capable of halting your momentum?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+20% all damage for all forces when attacking (faction-wide)",
+                  "-35 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_wuhuan_rage_level_6",
+            "group": "ironic_barbarian_rage_level_6",
+            "min": "90",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_6",
+                "title": "Barbaric Fervour: Zealous",
+                "description": "Your military might decimates all that stand before you! Let rivals try and oppose you. You will crush them, like all the rest.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "Enables: Scare (when attacking on campaign map) (faction-wide)",
+                  "+25% all damage for all forces when attacking (faction-wide)",
+                  "-50 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "notable_characters": [
@@ -43178,7 +44912,133 @@ const FACTION_DATA = [
             "recurring": false
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_kuitou_path_ts_level_0",
+            "group": "ironic_path_ts_level_0",
+            "min": "0",
+            "max": "12",
+            "bundles": [
+              {
+                "key": "ironic_path_ts_resource_level_0",
+                "title": "Path to Succession: Broken Road",
+                "description": "The chieftains and warriors still mourn Tanshihuai and the confederation he built. Until the specters of the past are lifted, there is no hopeful future.",
+                "icon": "data/images/resources/causes_encourage.png",
+                "bullets": [
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition."
+                ],
+                "effects": [
+                  "-2 Path to Succession (faction-wide)",
+                  "Path to Succession can be increased by winning battles, and having casualities on both sides. (faction-wide)",
+                  "Path to Succession can be decreased by losing battles and decay (faction-wide)",
+                  "-10 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_kuitou_path_ts_level_1",
+            "group": "ironic_path_ts_level_1",
+            "min": "13",
+            "max": "35",
+            "bundles": [
+              {
+                "key": "ironic_path_ts_resource_level_1",
+                "title": "Path to Succession: Mustering Tribes",
+                "description": "The disparate peoples of the Xianbei must be reunited and brought back into one fold, however without a great leader to unite them, any alliance would be only temporary...",
+                "icon": "data/images/resources/causes_encourage.png",
+                "bullets": [
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition.",
+                  "A unit's morale determines how long they can hold against the enemy in battle."
+                ],
+                "effects": [
+                  "-5 Path to Succession (faction-wide)",
+                  "Path to Succession can be increased by winning battles, and having casualities on both sides. (faction-wide)",
+                  "Path to Succession can be decreased by losing battles and decay (faction-wide)",
+                  "+5 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_kuitou_path_ts_level_2",
+            "group": "ironic_path_ts_level_2",
+            "min": "36",
+            "max": "64",
+            "bundles": [
+              {
+                "key": "ironic_path_ts_resource_level_2",
+                "title": "Path to Succession: Call to Arms",
+                "description": "The great and famous chieftains and headsmen must step forth, and forge their people a path out of the darkness.",
+                "icon": "data/images/resources/causes_encourage.png",
+                "bullets": [
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition.",
+                  "A unit's morale determines how long they can hold against the enemy in battle."
+                ],
+                "effects": [
+                  "-10 Path to Succession (faction-wide)",
+                  "Path to Succession can be increased by winning battles, and having casualities on both sides. (faction-wide)",
+                  "Path to Succession can be decreased by losing battles and decay (faction-wide)",
+                  "-10% fatigue rate (faction-wide)",
+                  "+10 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_kuitou_path_ts_level_3",
+            "group": "ironic_path_ts_level_3",
+            "min": "65",
+            "max": "84",
+            "bundles": [
+              {
+                "key": "ironic_path_ts_resource_level_3",
+                "title": "Path to Succession: Gathering Candidates",
+                "description": "The shackles of the past must be lifted once and for all. The young, the keen, the brave and the wise stake their claims, and let their ambitions be known.",
+                "icon": "data/images/resources/causes_encourage.png",
+                "bullets": [
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition.",
+                  "A unit's morale determines how long they can hold against the enemy in battle."
+                ],
+                "effects": [
+                  "-15 Path to Succession (faction-wide)",
+                  "Path to Succession can be increased by winning battles, and having casualities on both sides. (faction-wide)",
+                  "Path to Succession can be decreased by losing battles and decay (faction-wide)",
+                  "-25% fatigue rate (faction-wide)",
+                  "Enables: Raider (faction-wide)",
+                  "+25 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_kuitou_path_ts_level_4",
+            "group": "ironic_path_ts_level_4",
+            "min": "85",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_path_ts_resource_level_4",
+                "title": "Path to Succession: Maker of Kings",
+                "description": "A new nation of the Xianbei has been forged by blood, and a nascent legacy of a chief among chiefs is waiting to ascend previously unheard of heights.",
+                "icon": "data/images/resources/causes_encourage.png",
+                "bullets": [
+                  "Replenishment is the rate at which a unit recovers its numbers lost to battle or attrition.",
+                  "A unit's morale determines how long they can hold against the enemy in battle."
+                ],
+                "effects": [
+                  "-25 Path to Succession (faction-wide)",
+                  "Path to Succession can be increased by winning battles, and having casualities on both sides. (faction-wide)",
+                  "Path to Succession can be decreased by losing battles and decay (faction-wide)",
+                  "-50% fatigue rate (faction-wide)",
+                  "Enables: Raider (faction-wide)",
+                  "Enables: Immune to Fear & Terror (faction-wide)",
+                  "+50 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "key": "ironic_ancestral_legacy",
@@ -43268,7 +45128,48 @@ const FACTION_DATA = [
             "recurring": true
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_kuitou_ancestral_legacy_level_0",
+            "group": "ironic_ancestral_legacy_level_0",
+            "min": "0",
+            "max": "79",
+            "bundles": [
+              {
+                "key": "ironic_ancestral_legacy_resource_level_0",
+                "title": "Ancestral Legacy",
+                "description": "The old paths of succession must be maintained, lest the clans crumble and disperse.",
+                "icon": "data/images/resources/unlocks_legendary_characters.png",
+                "bullets": [],
+                "effects": [
+                  "Ancestral Legacy can be increased by faction leader, heir positions, and certain characters (faction-wide)",
+                  "Ancestral Legacy is used to recruit, banish, and release characters from court positions or from faction. (faction-wide)",
+                  "+5 /10 satisfaction (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_kuitou_ancestral_legacy_level_1",
+            "group": "ironic_ancestral_legacy_level_1",
+            "min": "80",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_ancestral_legacy_resource_level_1",
+                "title": "Ancestral Legacy",
+                "description": "The old paths of succession must be maintained, lest the clans crumble and disperse.",
+                "icon": "data/images/resources/unlocks_legendary_characters.png",
+                "bullets": [],
+                "effects": [
+                  "Ancestral Legacy can be increased by faction leader, heir positions, and certain characters (faction-wide)",
+                  "Ancestral Legacy is used to recruit, banish, and release characters from court positions or from faction. (faction-wide)",
+                  "+10 /10 satisfaction (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "key": "ironic_barbarian_rage",
@@ -43318,7 +45219,174 @@ const FACTION_DATA = [
             "recurring": true
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_xianbei_kuitou_rage_level_0",
+            "group": "ironic_barbarian_rage_level_0",
+            "min": "0",
+            "max": "9",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_0",
+                "title": "Barbaric Fervour: Callous",
+                "description": "You curse your own men for their ineptitude. You flog them for their weakness, you execute them for their cowardice. The disorganised mob you call an army brings shame to the very name of your people.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+50 desire for higher office (faction-wide)",
+                  "+50% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_kuitou_rage_level_1",
+            "group": "ironic_barbarian_rage_level_1",
+            "min": "10",
+            "max": "19",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_1",
+                "title": "Barbaric Fervour: Perfidious",
+                "description": "The untrustworthy masses under your alleged control mock you with their incompetence. Your chieftains openly plot against each other and bicker over petty disputes, and your warriors care more about securing their gains than riding into battle. Can you risk your grasp on power slipping even further?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+35 desire for higher office (faction-wide)",
+                  "+35% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_kuitou_rage_level_2",
+            "group": "ironic_barbarian_rage_level_2",
+            "min": "20",
+            "max": "29",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_2",
+                "title": "Barbaric Fervour: Rapacious",
+                "description": "You need to bring a heightened sense of order and discipline to your hordes. All they seem to care about is amassing personal glory, and hoarding the spoils of battle. Their greed and avarice may bring about your downfall, lest you cull their baser instincts.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+5% all damage for all forces when attacking (faction-wide)",
+                  "+20 desire for higher office (faction-wide)",
+                  "+20% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_kuitou_rage_level_3",
+            "group": "ironic_barbarian_rage_level_3",
+            "min": "30",
+            "max": "49",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_3",
+                "title": "Barbaric Fervour: Tenacious",
+                "description": "Your armies spread out, seeking glory and victory. Although your weak hearted Han rivals may attempt to sway your mind with treaties and promises, pay them no attention. Only the hunger for battle can keep your hordes loyal and able.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+10% all damage for all forces when attacking (faction-wide)",
+                  "-5 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_kuitou_rage_level_4",
+            "group": "ironic_barbarian_rage_level_4",
+            "min": "50",
+            "max": "69",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_4",
+                "title": "Barbaric Fervour: Righteous",
+                "description": "With soaring morale, and rousing chants, your men charge into the most dangerous of frays. The battle cries of your people echo out, and your martial traditions are on full display. Be sure to keep your force as tempered as a good blade, and aim them as true as well shot arrow.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+15% all damage for all forces when attacking (faction-wide)",
+                  "-20 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_kuitou_rage_level_5",
+            "group": "ironic_barbarian_rage_level_5",
+            "min": "70",
+            "max": "89",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_5",
+                "title": "Barbaric Fervour: Ferocious",
+                "description": "With vim and vigor, your armies are truly relentless. Is there any force in the land capable of halting your momentum?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+20% all damage for all forces when attacking (faction-wide)",
+                  "-35 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_kuitou_rage_level_6",
+            "group": "ironic_barbarian_rage_level_6",
+            "min": "90",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_6",
+                "title": "Barbaric Fervour: Zealous",
+                "description": "Your military might decimates all that stand before you! Let rivals try and oppose you. You will crush them, like all the rest.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "Enables: Scare (when attacking on campaign map) (faction-wide)",
+                  "+25% all damage for all forces when attacking (faction-wide)",
+                  "-50 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "notable_characters": [
@@ -43613,6 +45681,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_tuoba_jiefan_great_ambition_level_0",
+            "group": "ironic_great_ambition_level_0",
             "min": "0",
             "max": "12",
             "bundles": [
@@ -43637,6 +45706,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_tuoba_jiefan_great_ambition_level_1",
+            "group": "ironic_great_ambition_level_1",
             "min": "13",
             "max": "35",
             "bundles": [
@@ -43661,6 +45731,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_tuoba_jiefan_great_ambition_level_2",
+            "group": "ironic_great_ambition_level_2",
             "min": "36",
             "max": "64",
             "bundles": [
@@ -43685,6 +45756,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_tuoba_jiefan_great_ambition_level_3",
+            "group": "ironic_great_ambition_level_3",
             "min": "65",
             "max": "84",
             "bundles": [
@@ -43709,6 +45781,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_tuoba_jiefan_great_ambition_level_4",
+            "group": "ironic_great_ambition_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -43781,7 +45854,174 @@ const FACTION_DATA = [
             "recurring": true
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_xianbei_tuoba_rage_level_0",
+            "group": "ironic_barbarian_rage_level_0",
+            "min": "0",
+            "max": "9",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_0",
+                "title": "Barbaric Fervour: Callous",
+                "description": "You curse your own men for their ineptitude. You flog them for their weakness, you execute them for their cowardice. The disorganised mob you call an army brings shame to the very name of your people.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+50 desire for higher office (faction-wide)",
+                  "+50% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_tuoba_rage_level_1",
+            "group": "ironic_barbarian_rage_level_1",
+            "min": "10",
+            "max": "19",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_1",
+                "title": "Barbaric Fervour: Perfidious",
+                "description": "The untrustworthy masses under your alleged control mock you with their incompetence. Your chieftains openly plot against each other and bicker over petty disputes, and your warriors care more about securing their gains than riding into battle. Can you risk your grasp on power slipping even further?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+35 desire for higher office (faction-wide)",
+                  "+35% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_tuoba_rage_level_2",
+            "group": "ironic_barbarian_rage_level_2",
+            "min": "20",
+            "max": "29",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_2",
+                "title": "Barbaric Fervour: Rapacious",
+                "description": "You need to bring a heightened sense of order and discipline to your hordes. All they seem to care about is amassing personal glory, and hoarding the spoils of battle. Their greed and avarice may bring about your downfall, lest you cull their baser instincts.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+5% all damage for all forces when attacking (faction-wide)",
+                  "+20 desire for higher office (faction-wide)",
+                  "+20% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_tuoba_rage_level_3",
+            "group": "ironic_barbarian_rage_level_3",
+            "min": "30",
+            "max": "49",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_3",
+                "title": "Barbaric Fervour: Tenacious",
+                "description": "Your armies spread out, seeking glory and victory. Although your weak hearted Han rivals may attempt to sway your mind with treaties and promises, pay them no attention. Only the hunger for battle can keep your hordes loyal and able.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+10% all damage for all forces when attacking (faction-wide)",
+                  "-5 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_tuoba_rage_level_4",
+            "group": "ironic_barbarian_rage_level_4",
+            "min": "50",
+            "max": "69",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_4",
+                "title": "Barbaric Fervour: Righteous",
+                "description": "With soaring morale, and rousing chants, your men charge into the most dangerous of frays. The battle cries of your people echo out, and your martial traditions are on full display. Be sure to keep your force as tempered as a good blade, and aim them as true as well shot arrow.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+15% all damage for all forces when attacking (faction-wide)",
+                  "-20 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_tuoba_rage_level_5",
+            "group": "ironic_barbarian_rage_level_5",
+            "min": "70",
+            "max": "89",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_5",
+                "title": "Barbaric Fervour: Ferocious",
+                "description": "With vim and vigor, your armies are truly relentless. Is there any force in the land capable of halting your momentum?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+20% all damage for all forces when attacking (faction-wide)",
+                  "-35 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_xianbei_tuoba_rage_level_6",
+            "group": "ironic_barbarian_rage_level_6",
+            "min": "90",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_6",
+                "title": "Barbaric Fervour: Zealous",
+                "description": "Your military might decimates all that stand before you! Let rivals try and oppose you. You will crush them, like all the rest.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "Enables: Scare (when attacking on campaign map) (faction-wide)",
+                  "+25% all damage for all forces when attacking (faction-wide)",
+                  "-50 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "notable_characters": [
@@ -44102,6 +46342,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_dou_mao_trailblazing_level_0",
+            "group": "ironic_trailblazing_level_0",
             "min": "0",
             "max": "12",
             "bundles": [
@@ -44125,6 +46366,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_dou_mao_trailblazing_level_1",
+            "group": "ironic_trailblazing_level_1",
             "min": "13",
             "max": "35",
             "bundles": [
@@ -44149,6 +46391,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_dou_mao_trailblazing_level_2",
+            "group": "ironic_trailblazing_level_2",
             "min": "36",
             "max": "64",
             "bundles": [
@@ -44174,6 +46417,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_dou_mao_trailblazing_level_3",
+            "group": "ironic_trailblazing_level_3",
             "min": "65",
             "max": "84",
             "bundles": [
@@ -44199,6 +46443,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_dou_mao_trailblazing_level_4",
+            "group": "ironic_trailblazing_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -44272,7 +46517,174 @@ const FACTION_DATA = [
             "recurring": true
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_di_rage_level_0",
+            "group": "ironic_barbarian_rage_level_0",
+            "min": "0",
+            "max": "9",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_0",
+                "title": "Barbaric Fervour: Callous",
+                "description": "You curse your own men for their ineptitude. You flog them for their weakness, you execute them for their cowardice. The disorganised mob you call an army brings shame to the very name of your people.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+50 desire for higher office (faction-wide)",
+                  "+50% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_di_rage_level_1",
+            "group": "ironic_barbarian_rage_level_1",
+            "min": "10",
+            "max": "19",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_1",
+                "title": "Barbaric Fervour: Perfidious",
+                "description": "The untrustworthy masses under your alleged control mock you with their incompetence. Your chieftains openly plot against each other and bicker over petty disputes, and your warriors care more about securing their gains than riding into battle. Can you risk your grasp on power slipping even further?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+35 desire for higher office (faction-wide)",
+                  "+35% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_di_rage_level_2",
+            "group": "ironic_barbarian_rage_level_2",
+            "min": "20",
+            "max": "29",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_2",
+                "title": "Barbaric Fervour: Rapacious",
+                "description": "You need to bring a heightened sense of order and discipline to your hordes. All they seem to care about is amassing personal glory, and hoarding the spoils of battle. Their greed and avarice may bring about your downfall, lest you cull their baser instincts.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+5% all damage for all forces when attacking (faction-wide)",
+                  "+20 desire for higher office (faction-wide)",
+                  "+20% character salary (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_di_rage_level_3",
+            "group": "ironic_barbarian_rage_level_3",
+            "min": "30",
+            "max": "49",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_3",
+                "title": "Barbaric Fervour: Tenacious",
+                "description": "Your armies spread out, seeking glory and victory. Although your weak hearted Han rivals may attempt to sway your mind with treaties and promises, pay them no attention. Only the hunger for battle can keep your hordes loyal and able.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+10% all damage for all forces when attacking (faction-wide)",
+                  "-5 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_di_rage_level_4",
+            "group": "ironic_barbarian_rage_level_4",
+            "min": "50",
+            "max": "69",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_4",
+                "title": "Barbaric Fervour: Righteous",
+                "description": "With soaring morale, and rousing chants, your men charge into the most dangerous of frays. The battle cries of your people echo out, and your martial traditions are on full display. Be sure to keep your force as tempered as a good blade, and aim them as true as well shot arrow.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+15% all damage for all forces when attacking (faction-wide)",
+                  "-20 diplomatic relations with all factions (faction-wide)",
+                  "Enable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_di_rage_level_5",
+            "group": "ironic_barbarian_rage_level_5",
+            "min": "70",
+            "max": "89",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_5",
+                "title": "Barbaric Fervour: Ferocious",
+                "description": "With vim and vigor, your armies are truly relentless. Is there any force in the land capable of halting your momentum?",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "+20% all damage for all forces when attacking (faction-wide)",
+                  "-35 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_di_rage_level_6",
+            "group": "ironic_barbarian_rage_level_6",
+            "min": "90",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_rage_resource_level_6",
+                "title": "Barbaric Fervour: Zealous",
+                "description": "Your military might decimates all that stand before you! Let rivals try and oppose you. You will crush them, like all the rest.",
+                "icon": "data/images/resources/army.png",
+                "bullets": [
+                  "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
+                ],
+                "effects": [
+                  "Barbaric Fervour can be raised by being in wars, certain settlement actions. (faction-wide)",
+                  "Barbaric Fervour can be lower by not being wars and faction rank. (faction-wide)",
+                  "Enables: Scare (when attacking on campaign map) (faction-wide)",
+                  "+25% all damage for all forces when attacking (faction-wide)",
+                  "-50 diplomatic relations with all factions (faction-wide)",
+                  "Disable: Northern Courage (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "notable_characters": [
@@ -44478,6 +46890,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_handan_clan_firmness_level_0",
+            "group": "ironic_firmness_level_0",
             "min": "0",
             "max": "12",
             "bundles": [
@@ -44498,6 +46911,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_handan_clan_firmness_level_1",
+            "group": "ironic_firmness_level_1",
             "min": "13",
             "max": "35",
             "bundles": [
@@ -44519,6 +46933,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_handan_clan_firmness_level_2",
+            "group": "ironic_firmness_level_2",
             "min": "36",
             "max": "64",
             "bundles": [
@@ -44543,6 +46958,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_handan_clan_firmness_level_3",
+            "group": "ironic_firmness_level_3",
             "min": "65",
             "max": "84",
             "bundles": [
@@ -44568,6 +46984,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_handan_clan_firmness_level_4",
+            "group": "ironic_firmness_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -44675,11 +47092,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -44703,6 +47126,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -44726,6 +47150,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -44749,6 +47174,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -44771,6 +47197,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -44793,6 +47220,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -44815,6 +47243,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -44837,6 +47266,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -44860,6 +47290,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -44883,6 +47314,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -45047,7 +47479,7 @@ const FACTION_DATA = [
         "lines": [
           {
             "sign": "",
-            "text": "This faction can purchase different cases from the local black market for the chance of different equipment.[[/i]"
+            "text": "This faction can purchase different cases from the local black market for the chance of different equipment."
           }
         ]
       },
@@ -45081,7 +47513,7 @@ const FACTION_DATA = [
     "specialisation": {
       "key": "ironic_enforcement_effect_bundle",
       "title": "Enforcement",
-      "description": "As far back as I remember, I always wanted to be a bandit.",
+      "description": "\"As far back as I remember, I always wanted to be a bandit.\"",
       "icon": "data/images/resources/bodyguard_unit_size.png",
       "bullets": [
         "Enforcement increases spying and post battle income.",
@@ -45108,8 +47540,8 @@ const FACTION_DATA = [
       {
         "key": "ironic_enforcement",
         "name": "Enforcement",
-        "description": "As far back as I remember, I always wanted to be a bandit.",
-        "tooltip": "As far back as I remember, I always wanted to be a bandit.",
+        "description": "\"As far back as I remember, I always wanted to be a bandit.\"",
+        "tooltip": "\"As far back as I remember, I always wanted to be a bandit.\"",
         "positive_label": "Increase",
         "negative_label": "Decrease",
         "icon": "data/images/resources/bodyguard_unit_size.png",
@@ -45171,13 +47603,14 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_you_tu_enforcement_level_0",
+            "group": "ironic_enforcement_level_0",
             "min": "0",
             "max": "20",
             "bundles": [
               {
                 "key": "ironic_enforcement_resource_level_0",
                 "title": "Enforcement: Scattered",
-                "description": "I used to be a bandit like you, until I took an arrow to the knee.",
+                "description": "\"I used to be a bandit like you, until I took an arrow to the knee.\"",
                 "icon": "data/images/resources/bodyguard_unit_size.png",
                 "bullets": [
                   "A force's military supplies determine how long they can march in enemy territory."
@@ -45191,13 +47624,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_you_tu_enforcement_level_1",
+            "group": "ironic_enforcement_level_1",
             "min": "21",
             "max": "40",
             "bundles": [
               {
                 "key": "ironic_enforcement_resource_level_1",
                 "title": "Enforcement: Regrouping",
-                "description": "You can get much further with a kind word and a sword than with a kind word alone.",
+                "description": "\"You can get much further with a kind word and a sword than with a kind word alone.\"",
                 "icon": "data/images/resources/bodyguard_unit_size.png",
                 "bullets": [
                   "After each battle, loot is rewarded as income based on the size of the battle and the scale of the victory."
@@ -45212,13 +47646,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_you_tu_enforcement_level_2",
+            "group": "ironic_enforcement_level_2",
             "min": "41",
             "max": "60",
             "bundles": [
               {
                 "key": "ironic_enforcement_resource_level_2",
                 "title": "Enforcement: Organising",
-                "description": "It's not personal. It's strictly business.",
+                "description": "\"It's not personal. It's strictly business.\"",
                 "icon": "data/images/resources/bodyguard_unit_size.png",
                 "bullets": [
                   "A force's military supplies determine how long they can march in enemy territory.",
@@ -45235,13 +47670,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_you_tu_enforcement_level_3",
+            "group": "ironic_enforcement_level_3",
             "min": "61",
             "max": "80",
             "bundles": [
               {
                 "key": "ironic_enforcement_resource_level_3",
                 "title": "Enforcement: Coordinated",
-                "description": "In Shanyue country, you have to get the money first. Once you get the money, then you get the power. Then when you get the power, then you get the Mandate.",
+                "description": "\"In Shanyue country, you have to get the money first. Once you get the money, then you get the power. Then when you get the power, then you get the Mandate.\"",
                 "icon": "data/images/resources/bodyguard_unit_size.png",
                 "bullets": [
                   "A force's military supplies determine how long they can march in enemy territory.",
@@ -45258,13 +47694,14 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_you_tu_enforcement_level_4",
+            "group": "ironic_enforcement_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
               {
                 "key": "ironic_enforcement_resource_level_4",
                 "title": "Enforcement: Ironclad",
-                "description": "You are what you are in this world. Either you're Somebody, or you're Nobody.",
+                "description": "\"You are what you are in this world. Either you're Somebody, or you're Nobody.\"",
                 "icon": "data/images/resources/bodyguard_unit_size.png",
                 "bullets": [
                   "A force's military supplies determine how long they can march in enemy territory.",
@@ -45520,6 +47957,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_goguryeo_military_conquest_level_0",
+            "group": "ironic_military_conquest_level_0",
             "min": "0",
             "max": "12",
             "bundles": [
@@ -45539,6 +47977,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_goguryeo_military_conquest_level_1",
+            "group": "ironic_military_conquest_level_1",
             "min": "13",
             "max": "35",
             "bundles": [
@@ -45558,6 +47997,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_goguryeo_military_conquest_level_2",
+            "group": "ironic_military_conquest_level_2",
             "min": "36",
             "max": "64",
             "bundles": [
@@ -45577,6 +48017,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_goguryeo_military_conquest_level_3",
+            "group": "ironic_military_conquest_level_3",
             "min": "65",
             "max": "84",
             "bundles": [
@@ -45596,6 +48037,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_goguryeo_military_conquest_level_4",
+            "group": "ironic_military_conquest_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -46577,6 +49019,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_chen_wen_coalition_of_the_plains_level_0",
+            "group": "ironic_coalition_of_the_plains_level_0",
             "min": "0",
             "max": "100",
             "bundles": [
@@ -46682,11 +49125,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -46710,6 +49159,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -46733,6 +49183,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -46756,6 +49207,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -46778,6 +49230,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -46800,6 +49253,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -46822,6 +49276,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -46844,6 +49299,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -46867,6 +49323,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -46890,6 +49347,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -47145,7 +49603,118 @@ const FACTION_DATA = [
             "recurring": false
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_bian_rang_recruitment_level_0",
+            "group": "ironic_recruitment_level_0",
+            "min": "0",
+            "max": "20",
+            "bundles": [
+              {
+                "key": "ironic_recruitment_resource_level_0",
+                "title": "Rectitude: Unrecognized",
+                "description": "Although a wise man seeks no fame, a prudent leader must chase it.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [],
+                "effects": [
+                  "+10 Rectitude (faction-wide)",
+                  "Rectitude can be increased by assignments and the resource itself (faction-wide)",
+                  "Rectitude is used to purchase officers and run assignments (faction-wide)",
+                  "+10% character salary (faction-wide)",
+                  "+15 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_bian_rang_recruitment_level_1",
+            "group": "ironic_recruitment_level_1",
+            "min": "21",
+            "max": "50",
+            "bundles": [
+              {
+                "key": "ironic_recruitment_resource_level_1",
+                "title": "Rectitude: Meek",
+                "description": "Care too much about what others think of you, and you will always be their prisoner.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [],
+                "effects": [
+                  "+8 Rectitude (faction-wide)",
+                  "Rectitude can be increased by assignments and the resource itself (faction-wide)",
+                  "Rectitude is used to purchase officers and run assignments (faction-wide)",
+                  "-5% character salary (faction-wide)",
+                  "+10 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_bian_rang_recruitment_level_2",
+            "group": "ironic_recruitment_level_2",
+            "min": "51",
+            "max": "70",
+            "bundles": [
+              {
+                "key": "ironic_recruitment_resource_level_2",
+                "title": "Rectitude: Confidant",
+                "description": "Opportunity opens doors, but you must be the one who walks through.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [],
+                "effects": [
+                  "+6 Rectitude (faction-wide)",
+                  "Rectitude can be increased by assignments and the resource itself (faction-wide)",
+                  "Rectitude is used to purchase officers and run assignments (faction-wide)",
+                  "-15% character salary (faction-wide)",
+                  "-5 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_bian_rang_recruitment_level_3",
+            "group": "ironic_recruitment_level_3",
+            "min": "71",
+            "max": "84",
+            "bundles": [
+              {
+                "key": "ironic_recruitment_resource_level_3",
+                "title": "Rectitude: Righteous",
+                "description": "A man who displays probity is a faithful one.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [],
+                "effects": [
+                  "+4 Rectitude (faction-wide)",
+                  "Rectitude can be increased by assignments and the resource itself (faction-wide)",
+                  "Rectitude is used to purchase officers and run assignments (faction-wide)",
+                  "-30% character salary (faction-wide)",
+                  "-20 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_bian_rang_recruitment_level_4",
+            "group": "ironic_recruitment_level_4",
+            "min": "85",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_recruitment_resource_level_4",
+                "title": "Rectitude: Magnanimous",
+                "description": "Choose the virtuous path, and adhere to it.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [],
+                "effects": [
+                  "+2 Rectitude (faction-wide)",
+                  "Rectitude can be increased by assignments and the resource itself (faction-wide)",
+                  "Rectitude is used to purchase officers and run assignments (faction-wide)",
+                  "-50% character salary (faction-wide)",
+                  "-40 desire for higher office (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "key": "3k_dlc07_pooled_resource_imperial_favour",
@@ -47228,11 +49797,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -47256,6 +49831,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -47279,6 +49855,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -47302,6 +49879,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -47324,6 +49902,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -47346,6 +49925,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -47368,6 +49948,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -47390,6 +49971,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -47413,6 +49995,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -47436,6 +50019,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -47672,6 +50256,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_zhu_hao_unit_upgrades_level_0",
+            "group": "ironic_unit_upgrades_level_0",
             "min": "0",
             "max": "20",
             "bundles": [
@@ -47690,6 +50275,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhu_hao_unit_upgrades_level_1",
+            "group": "ironic_unit_upgrades_level_1",
             "min": "21",
             "max": "40",
             "bundles": [
@@ -47708,6 +50294,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhu_hao_unit_upgrades_level_2",
+            "group": "ironic_unit_upgrades_level_2",
             "min": "41",
             "max": "60",
             "bundles": [
@@ -47726,6 +50313,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhu_hao_unit_upgrades_level_3",
+            "group": "ironic_unit_upgrades_level_3",
             "min": "61",
             "max": "80",
             "bundles": [
@@ -47744,6 +50332,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhu_hao_unit_upgrades_level_4",
+            "group": "ironic_unit_upgrades_level_4",
             "min": "81",
             "max": "100",
             "bundles": [
@@ -47843,11 +50432,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -47871,6 +50466,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -47894,6 +50490,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -47917,6 +50514,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -47939,6 +50537,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -47961,6 +50560,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -47983,6 +50583,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -48005,6 +50606,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -48028,6 +50630,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -48051,6 +50654,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -48318,6 +50922,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_0",
+            "group": "ironic_sleeping_dragon_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -48342,6 +50947,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_1",
+            "group": "ironic_sleeping_dragon_level_1",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -48366,6 +50972,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_2",
+            "group": "ironic_sleeping_dragon_level_2",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -48390,6 +50997,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_3",
+            "group": "ironic_sleeping_dragon_level_3",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -48414,6 +51022,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_4",
+            "group": "ironic_sleeping_dragon_level_4",
             "min": "41",
             "max": "60",
             "bundles": [
@@ -48437,6 +51046,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_5",
+            "group": "ironic_sleeping_dragon_level_5",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -48461,6 +51071,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_6",
+            "group": "ironic_sleeping_dragon_level_6",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -48485,6 +51096,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_7",
+            "group": "ironic_sleeping_dragon_level_7",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -48509,6 +51121,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhuge_xuan_sleeping_dragon_level_8",
+            "group": "ironic_sleeping_dragon_level_8",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -48614,11 +51227,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -48642,6 +51261,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -48665,6 +51285,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -48688,6 +51309,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -48710,6 +51332,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -48732,6 +51355,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -48754,6 +51378,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -48776,6 +51401,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -48799,6 +51425,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -48822,6 +51449,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -49116,6 +51744,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_liu_pan_ferocity_level_0",
+            "group": "ironic_liu_pan_ferocity_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -49133,6 +51762,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_ferocity_level_1",
+            "group": "ironic_liu_pan_ferocity_level_1",
             "min": "10",
             "max": "24",
             "bundles": [
@@ -49154,6 +51784,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_ferocity_level_2",
+            "group": "ironic_liu_pan_ferocity_level_2",
             "min": "25",
             "max": "44",
             "bundles": [
@@ -49178,6 +51809,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_ferocity_level_3",
+            "group": "ironic_liu_pan_ferocity_level_3",
             "min": "45",
             "max": "64",
             "bundles": [
@@ -49205,6 +51837,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_ferocity_level_4",
+            "group": "ironic_liu_pan_ferocity_level_4",
             "min": "65",
             "max": "84",
             "bundles": [
@@ -49232,6 +51865,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_ferocity_level_5",
+            "group": "ironic_liu_pan_ferocity_level_5",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -49341,11 +51975,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -49369,6 +52009,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -49392,6 +52033,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -49415,6 +52057,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -49437,6 +52080,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -49459,6 +52103,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -49481,6 +52126,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -49503,6 +52149,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -49526,6 +52173,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -49549,6 +52197,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -49618,6 +52267,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_liu_pan_uncle_favour_level_0",
+            "group": "ironic_liu_pan_uncle_favour_level_0",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -49638,6 +52288,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_uncle_favour_level_1",
+            "group": "ironic_liu_pan_uncle_favour_level_1",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -49655,6 +52306,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_uncle_favour_level_2",
+            "group": "ironic_liu_pan_uncle_favour_level_2",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -49675,6 +52327,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_uncle_favour_level_3",
+            "group": "ironic_liu_pan_uncle_favour_level_3",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -49696,6 +52349,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_liu_pan_uncle_favour_level_4",
+            "group": "ironic_liu_pan_uncle_favour_level_4",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -49926,11 +52580,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -49954,6 +52614,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -49977,6 +52638,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -50000,6 +52662,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -50022,6 +52685,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -50044,6 +52708,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -50066,6 +52731,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -50088,6 +52754,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -50111,6 +52778,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -50134,6 +52802,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -50395,6 +53064,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_zhang_jin_qi_level_0",
+            "group": "ironic_qi_level_0",
             "min": "0",
             "max": "20",
             "bundles": [
@@ -50414,6 +53084,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_jin_qi_level_1",
+            "group": "ironic_qi_level_1",
             "min": "21",
             "max": "40",
             "bundles": [
@@ -50433,6 +53104,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_jin_qi_level_2",
+            "group": "ironic_qi_level_2",
             "min": "41",
             "max": "60",
             "bundles": [
@@ -50452,6 +53124,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_jin_qi_level_3",
+            "group": "ironic_qi_level_3",
             "min": "61",
             "max": "80",
             "bundles": [
@@ -50471,6 +53144,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_zhang_jin_qi_level_4",
+            "group": "ironic_qi_level_4",
             "min": "81",
             "max": "100",
             "bundles": [
@@ -50571,11 +53245,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -50599,6 +53279,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -50622,6 +53303,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -50645,6 +53327,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -50667,6 +53350,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -50689,6 +53373,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -50711,6 +53396,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -50733,6 +53419,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -50756,6 +53443,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -50779,6 +53467,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -51035,7 +53724,123 @@ const FACTION_DATA = [
             "recurring": true
           }
         ],
-        "levels": []
+        "levels": [
+          {
+            "member": "ironic_ma_ai_mercantilism_level_0",
+            "group": "ironic_ma_ai_mercantilism_level_0",
+            "min": "0",
+            "max": "12",
+            "bundles": [
+              {
+                "key": "ironic_ma_ai_mercantilism_resource_level_0",
+                "title": "Mercantilism: Feeble",
+                "description": "Your military reach is too puny to protect the trade routes, closing your markets from the rest of the world.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [
+                  "Affects income from all sources. Final revenue will be affected by corruption and taxation levels."
+                ],
+                "effects": [
+                  "Mercantilism can be increased by assignments and trade agreements. (faction-wide)",
+                  "Mercantilism can be decreased by assignments, armies, and governors. (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_ma_ai_mercantilism_level_1",
+            "group": "ironic_ma_ai_mercantilism_level_1",
+            "min": "13",
+            "max": "35",
+            "bundles": [
+              {
+                "key": "ironic_ma_ai_mercantilism_resource_level_1",
+                "title": "Mercantilism: Stagnant",
+                "description": "The markets cannot flourish without expansion.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [
+                  "Trade influence determines income from a trade agreement. The faction with the higher trade influence will receive a higher portion of the agreed deal.",
+                  "Affects income from all sources. Final revenue will be affected by corruption and taxation levels."
+                ],
+                "effects": [
+                  "Mercantilism can be increased by assignments and trade agreements. (faction-wide)",
+                  "Mercantilism can be decreased by assignments, armies, and governors. (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_ma_ai_mercantilism_level_2",
+            "group": "ironic_ma_ai_mercantilism_level_2",
+            "min": "36",
+            "max": "64",
+            "bundles": [
+              {
+                "key": "ironic_ma_ai_mercantilism_resource_level_2",
+                "title": "Mercantilism: Frugal",
+                "description": "Stake a thousand taels of gold on one throw.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [
+                  "Trade influence determines income from a trade agreement. The faction with the higher trade influence will receive a higher portion of the agreed deal.",
+                  "Affects income from all sources. Final revenue will be affected by corruption and taxation levels.",
+                  "Income from trade greatly depends on the total volume of trade between two factions. The volume is the sum of both factions' total income, plus any additional production."
+                ],
+                "effects": [
+                  "Mercantilism can be increased by assignments and trade agreements. (faction-wide)",
+                  "Mercantilism can be decreased by assignments, armies, and governors. (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_ma_ai_mercantilism_level_3",
+            "group": "ironic_ma_ai_mercantilism_level_3",
+            "min": "65",
+            "max": "84",
+            "bundles": [
+              {
+                "key": "ironic_ma_ai_mercantilism_resource_level_3",
+                "title": "Mercantilism: Prosperous",
+                "description": "Count every coin, and make every coin count.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [
+                  "Trade influence determines income from a trade agreement. The faction with the higher trade influence will receive a higher portion of the agreed deal.",
+                  "Affects income from all sources. Final revenue will be affected by corruption and taxation levels.",
+                  "Income from trade greatly depends on the total volume of trade between two factions. The volume is the sum of both factions' total income, plus any additional production."
+                ],
+                "effects": [
+                  "Mercantilism can be increased by assignments and trade agreements. (faction-wide)",
+                  "Mercantilism can be decreased by assignments, armies, and governors. (faction-wide)",
+                  "+1 available assignments (faction-wide)"
+                ]
+              }
+            ]
+          },
+          {
+            "member": "ironic_ma_ai_mercantilism_level_4",
+            "group": "ironic_ma_ai_mercantilism_level_4",
+            "min": "85",
+            "max": "100",
+            "bundles": [
+              {
+                "key": "ironic_ma_ai_mercantilism_resource_level_4",
+                "title": "Mercantilism: Flourishing",
+                "description": "Money is not everything, but without it you can do nothing.",
+                "icon": "data/images/resources/diplomacy_attitude_effect.png",
+                "bullets": [
+                  "Trade influence determines income from a trade agreement. The faction with the higher trade influence will receive a higher portion of the agreed deal.",
+                  "Affects income from all sources. Final revenue will be affected by corruption and taxation levels.",
+                  "Income from trade greatly depends on the total volume of trade between two factions. The volume is the sum of both factions' total income, plus any additional production."
+                ],
+                "effects": [
+                  "Mercantilism can be increased by assignments and trade agreements. (faction-wide)",
+                  "Mercantilism can be decreased by assignments, armies, and governors. (faction-wide)",
+                  "+2 available assignments (faction-wide)",
+                  "+1 available trade agreements (faction-wide)"
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "key": "3k_dlc07_pooled_resource_imperial_favour",
@@ -51118,11 +53923,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -51146,6 +53957,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -51169,6 +53981,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -51192,6 +54005,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -51214,6 +54028,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -51236,6 +54051,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -51258,6 +54074,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -51280,6 +54097,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -51303,6 +54121,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -51326,6 +54145,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -51552,6 +54372,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_huang_clan_supervision_level_0",
+            "group": "ironic_supervision_level_0",
             "min": "0",
             "max": "12",
             "bundles": [
@@ -51573,6 +54394,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_clan_supervision_level_1",
+            "group": "ironic_supervision_level_1",
             "min": "13",
             "max": "35",
             "bundles": [
@@ -51597,6 +54419,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_clan_supervision_level_2",
+            "group": "ironic_supervision_level_2",
             "min": "36",
             "max": "64",
             "bundles": [
@@ -51622,6 +54445,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_clan_supervision_level_3",
+            "group": "ironic_supervision_level_3",
             "min": "65",
             "max": "84",
             "bundles": [
@@ -51647,6 +54471,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_huang_clan_supervision_level_4",
+            "group": "ironic_supervision_level_4",
             "min": "85",
             "max": "100",
             "bundles": [
@@ -51753,11 +54578,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -51781,6 +54612,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -51804,6 +54636,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -51827,6 +54660,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -51849,6 +54683,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -51871,6 +54706,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -51893,6 +54729,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -51915,6 +54752,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -51938,6 +54776,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -51961,6 +54800,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -52266,6 +55106,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ironic_wang_sheng_languor_level_0",
+            "group": "ironic_languor_level_0",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -52291,6 +55132,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_sheng_languor_level_1",
+            "group": "ironic_languor_level_1",
             "min": "11",
             "max": "25",
             "bundles": [
@@ -52316,6 +55158,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_sheng_languor_level_2",
+            "group": "ironic_languor_level_2",
             "min": "26",
             "max": "69",
             "bundles": [
@@ -52341,6 +55184,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_sheng_languor_level_3",
+            "group": "ironic_languor_level_3",
             "min": "70",
             "max": "94",
             "bundles": [
@@ -52366,6 +55210,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ironic_wang_sheng_languor_level_4",
+            "group": "ironic_languor_level_4",
             "min": "95",
             "max": "100",
             "bundles": [
@@ -52472,11 +55317,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -52500,6 +55351,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -52523,6 +55375,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -52546,6 +55399,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -52568,6 +55422,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -52590,6 +55445,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -52612,6 +55468,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -52634,6 +55491,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -52657,6 +55515,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -52680,6 +55539,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -52905,11 +55765,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -52933,6 +55799,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -52956,6 +55823,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -52979,6 +55847,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -53001,6 +55870,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -53023,6 +55893,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -53045,6 +55916,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -53067,6 +55939,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -53090,6 +55963,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -53113,6 +55987,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -53374,6 +56249,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "ep_campaign_group_member_pooled_resource_reformation_level_1",
+            "group": "ep_campaign_group_pooled_resource_reformation_level_1",
             "min": "0",
             "max": "19",
             "bundles": [
@@ -53411,6 +56287,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_reformation_level_2",
+            "group": "ep_campaign_group_pooled_resource_reformation_level_2",
             "min": "20",
             "max": "39",
             "bundles": [
@@ -53444,6 +56321,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_reformation_level_3",
+            "group": "ep_campaign_group_pooled_resource_reformation_level_3",
             "min": "40",
             "max": "59",
             "bundles": [
@@ -53479,6 +56357,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_reformation_level_4",
+            "group": "ep_campaign_group_pooled_resource_reformation_level_4",
             "min": "60",
             "max": "79",
             "bundles": [
@@ -53514,6 +56393,7 @@ const FACTION_DATA = [
           },
           {
             "member": "ep_campaign_group_member_pooled_resource_reformation_level_5",
+            "group": "ep_campaign_group_pooled_resource_reformation_level_5",
             "min": "80",
             "max": "100",
             "bundles": [
@@ -53633,11 +56513,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -53661,6 +56547,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -53684,6 +56571,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -53707,6 +56595,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -53729,6 +56618,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -53751,6 +56641,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -53773,6 +56664,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -53795,6 +56687,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -53818,6 +56711,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -53841,6 +56735,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -54270,11 +57165,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -54298,6 +57199,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -54321,6 +57223,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -54344,6 +57247,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -54366,6 +57270,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -54388,6 +57293,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -54410,6 +57316,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -54432,6 +57339,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -54455,6 +57363,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -54478,6 +57387,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -54703,11 +57613,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -54731,6 +57647,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -54754,6 +57671,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -54777,6 +57695,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -54799,6 +57718,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -54821,6 +57741,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -54843,6 +57764,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -54865,6 +57787,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -54888,6 +57811,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -54911,6 +57835,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -55170,6 +58095,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_political_influence_level_0",
+            "group": "3k_dlc04_campaign_group_pooled_resource_political_influence_level_0",
             "min": "",
             "max": "",
             "bundles": [
@@ -55190,6 +58116,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_political_influence_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_political_influence_level_1",
             "min": "0",
             "max": "800",
             "bundles": [
@@ -55246,6 +58173,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_bureaucracy_power_level_0",
+            "group": "3k_dlc04_campaign_group_pooled_resource_bureaucracy_power_level_0",
             "min": "0",
             "max": "14",
             "bundles": [
@@ -55265,6 +58193,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_bureaucracy_power_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_bureaucracy_power_level_1",
             "min": "15",
             "max": "29",
             "bundles": [
@@ -55290,6 +58219,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_bureaucracy_power_level_2",
+            "group": "3k_dlc04_campaign_group_pooled_resource_bureaucracy_power_level_2",
             "min": "30",
             "max": "44",
             "bundles": [
@@ -55315,6 +58245,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_bureaucracy_power_level_3",
+            "group": "3k_dlc04_campaign_group_pooled_resource_bureaucracy_power_level_3",
             "min": "45",
             "max": "59",
             "bundles": [
@@ -55339,6 +58270,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_bureaucracy_power_level_4",
+            "group": "3k_dlc04_campaign_group_pooled_resource_bureaucracy_power_level_4",
             "min": "60",
             "max": "74",
             "bundles": [
@@ -55363,6 +58295,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_bureaucracy_power_level_5",
+            "group": "3k_dlc04_campaign_group_pooled_resource_bureaucracy_power_level_5",
             "min": "75",
             "max": "90",
             "bundles": [
@@ -55423,6 +58356,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_dynasty_power_level_0",
+            "group": "3k_dlc04_campaign_group_pooled_resource_dynasty_power_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -55442,6 +58376,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_dynasty_power_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_dynasty_power_level_1",
             "min": "10",
             "max": "19",
             "bundles": [
@@ -55465,6 +58400,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_dynasty_power_level_2",
+            "group": "3k_dlc04_campaign_group_pooled_resource_dynasty_power_level_2",
             "min": "20",
             "max": "29",
             "bundles": [
@@ -55488,6 +58424,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_dynasty_power_level_3",
+            "group": "3k_dlc04_campaign_group_pooled_resource_dynasty_power_level_3",
             "min": "30",
             "max": "39",
             "bundles": [
@@ -55513,6 +58450,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_dynasty_power_level_4",
+            "group": "3k_dlc04_campaign_group_pooled_resource_dynasty_power_level_4",
             "min": "40",
             "max": "49",
             "bundles": [
@@ -55538,6 +58476,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_dynasty_power_level_5",
+            "group": "3k_dlc04_campaign_group_pooled_resource_dynasty_power_level_5",
             "min": "50",
             "max": "60",
             "bundles": [
@@ -55644,11 +58583,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -55672,6 +58617,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -55695,6 +58641,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -55718,6 +58665,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -55740,6 +58688,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -55762,6 +58711,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -55784,6 +58734,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -55806,6 +58757,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -55829,6 +58781,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -55852,6 +58805,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -55911,6 +58865,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_warlords_power_level_0",
+            "group": "3k_dlc04_campaign_group_pooled_resource_warlords_power_level_0",
             "min": "0",
             "max": "9",
             "bundles": [
@@ -55930,6 +58885,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_warlords_power_level_1",
+            "group": "3k_dlc04_campaign_group_pooled_resource_warlords_power_level_1",
             "min": "10",
             "max": "19",
             "bundles": [
@@ -55951,6 +58907,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_warlords_power_level_2",
+            "group": "3k_dlc04_campaign_group_pooled_resource_warlords_power_level_2",
             "min": "20",
             "max": "29",
             "bundles": [
@@ -55973,6 +58930,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_warlords_power_level_3",
+            "group": "3k_dlc04_campaign_group_pooled_resource_warlords_power_level_3",
             "min": "30",
             "max": "39",
             "bundles": [
@@ -55997,6 +58955,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_warlords_power_level_4",
+            "group": "3k_dlc04_campaign_group_pooled_resource_warlords_power_level_4",
             "min": "40",
             "max": "49",
             "bundles": [
@@ -56021,6 +58980,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_warlords_power_level_5",
+            "group": "3k_dlc04_campaign_group_pooled_resource_warlords_power_level_5",
             "min": "50",
             "max": "60",
             "bundles": [
@@ -56309,11 +59269,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -56337,6 +59303,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -56360,6 +59327,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -56383,6 +59351,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -56405,6 +59374,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -56427,6 +59397,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -56449,6 +59420,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -56471,6 +59443,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -56494,6 +59467,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -56517,6 +59491,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -56748,7 +59723,7 @@ const FACTION_DATA = [
     "resources": [
       {
         "key": "3k_dlc04_pooled_resource_fervour",
-        "name": "{{tr:dlc04_term_Fervour}}",
+        "name": "Zeal",
         "description": "Zeal is the amount of impassioned support you have amongst your followers. Keep this flame burning strong, honing it into a spear to pierce your enemies.",
         "tooltip": "",
         "positive_label": "Increase",
@@ -56802,6 +59777,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_1_zhang_jue",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_1_zhang_jue",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -56828,6 +59804,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_2_zhang_jue",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_2_zhang_jue",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -56854,6 +59831,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_3_zhang_jue",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_3_zhang_jue",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -56880,6 +59858,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_4_zhang_jue",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_4_zhang_jue",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -56906,6 +59885,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_5_zhang_jue",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_5_zhang_jue",
             "min": "51",
             "max": "100",
             "bundles": [
@@ -57111,7 +60091,7 @@ const FACTION_DATA = [
     "resources": [
       {
         "key": "3k_dlc04_pooled_resource_fervour",
-        "name": "{{tr:dlc04_term_Fervour}}",
+        "name": "Zeal",
         "description": "Zeal is the amount of impassioned support you have amongst your followers. Keep this flame burning strong, honing it into a spear to pierce your enemies.",
         "tooltip": "",
         "positive_label": "Increase",
@@ -57165,6 +60145,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_1_zhang_liang",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_1_zhang_liang",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -57191,6 +60172,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_2_zhang_liang",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_2_zhang_liang",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -57217,6 +60199,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_3_zhang_liang",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_3_zhang_liang",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -57243,6 +60226,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_4_zhang_liang",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_4_zhang_liang",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -57269,6 +60253,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_5_zhang_liang",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_5_zhang_liang",
             "min": "51",
             "max": "100",
             "bundles": [
@@ -57486,7 +60471,7 @@ const FACTION_DATA = [
     "resources": [
       {
         "key": "3k_dlc04_pooled_resource_fervour",
-        "name": "{{tr:dlc04_term_Fervour}}",
+        "name": "Zeal",
         "description": "Zeal is the amount of impassioned support you have amongst your followers. Keep this flame burning strong, honing it into a spear to pierce your enemies.",
         "tooltip": "",
         "positive_label": "Increase",
@@ -57540,6 +60525,7 @@ const FACTION_DATA = [
         "levels": [
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_1_zhang_bao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_1_zhang_bao",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -57567,6 +60553,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_2_zhang_bao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_2_zhang_bao",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -57594,6 +60581,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_3_zhang_bao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_3_zhang_bao",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -57621,6 +60609,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_4_zhang_bao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_4_zhang_bao",
             "min": "31",
             "max": "50",
             "bundles": [
@@ -57648,6 +60637,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc04_campaign_group_member_pooled_resource_fervour_level_5_zhang_bao",
+            "group": "3k_dlc04_campaign_group_pooled_resource_fervour_level_5_zhang_bao",
             "min": "51",
             "max": "100",
             "bundles": [
@@ -57816,11 +60806,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -57844,6 +60840,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -57867,6 +60864,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -57890,6 +60888,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -57912,6 +60911,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -57934,6 +60934,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -57956,6 +60957,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -57978,6 +60980,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -58001,6 +61004,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -58024,6 +61028,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -58191,11 +61196,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -58219,6 +61230,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -58242,6 +61254,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -58265,6 +61278,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -58287,6 +61301,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -58309,6 +61324,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -58331,6 +61347,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -58353,6 +61370,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -58376,6 +61394,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -58399,6 +61418,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -58566,11 +61586,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -58594,6 +61620,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -58617,6 +61644,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -58640,6 +61668,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -58662,6 +61691,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -58684,6 +61714,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -58706,6 +61737,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -58728,6 +61760,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -58751,6 +61784,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -58774,6 +61808,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -58941,11 +61976,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -58969,6 +62010,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -58992,6 +62034,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -59015,6 +62058,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -59037,6 +62081,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -59059,6 +62104,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -59081,6 +62127,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -59103,6 +62150,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -59126,6 +62174,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -59149,6 +62198,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -59316,11 +62366,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -59344,6 +62400,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -59367,6 +62424,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -59390,6 +62448,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -59412,6 +62471,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -59434,6 +62494,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -59456,6 +62517,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -59478,6 +62540,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -59501,6 +62564,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -59524,6 +62588,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -59815,11 +62880,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -59843,6 +62914,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -59866,6 +62938,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -59889,6 +62962,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -59911,6 +62985,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -59933,6 +63008,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -59955,6 +63031,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -59977,6 +63054,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -60000,6 +63078,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -60023,6 +63102,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -60190,11 +63270,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -60218,6 +63304,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -60241,6 +63328,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -60264,6 +63352,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -60286,6 +63375,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -60308,6 +63398,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -60330,6 +63421,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -60352,6 +63444,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -60375,6 +63468,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -60398,6 +63492,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -60565,11 +63660,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -60593,6 +63694,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -60616,6 +63718,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -60639,6 +63742,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -60661,6 +63765,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -60683,6 +63788,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -60705,6 +63811,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -60727,6 +63834,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -60750,6 +63858,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -60773,6 +63882,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -60940,11 +64050,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -60968,6 +64084,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -60991,6 +64108,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -61014,6 +64132,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -61036,6 +64155,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -61058,6 +64178,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -61080,6 +64201,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -61102,6 +64224,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -61125,6 +64248,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -61148,6 +64272,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -61315,11 +64440,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -61343,6 +64474,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -61366,6 +64498,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -61389,6 +64522,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -61411,6 +64545,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -61433,6 +64568,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -61455,6 +64591,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -61477,6 +64614,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -61500,6 +64638,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -61523,6 +64662,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -61690,11 +64830,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -61718,6 +64864,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -61741,6 +64888,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -61764,6 +64912,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -61786,6 +64935,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -61808,6 +64958,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -61830,6 +64981,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -61852,6 +65004,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -61875,6 +65028,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -61898,6 +65052,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -62065,11 +65220,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -62093,6 +65254,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -62116,6 +65278,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -62139,6 +65302,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -62161,6 +65325,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -62183,6 +65348,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -62205,6 +65371,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -62227,6 +65394,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -62250,6 +65418,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -62273,6 +65442,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -62440,11 +65610,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -62468,6 +65644,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -62491,6 +65668,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -62514,6 +65692,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -62536,6 +65715,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -62558,6 +65738,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -62580,6 +65761,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -62602,6 +65784,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -62625,6 +65808,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -62648,6 +65832,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -62815,11 +66000,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -62843,6 +66034,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -62866,6 +66058,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -62889,6 +66082,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -62911,6 +66105,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -62933,6 +66128,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -62955,6 +66151,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -62977,6 +66174,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -63000,6 +66198,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -63023,6 +66222,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -63190,11 +66390,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -63218,6 +66424,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -63241,6 +66448,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -63264,6 +66472,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -63286,6 +66495,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -63308,6 +66518,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -63330,6 +66541,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -63352,6 +66564,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -63375,6 +66588,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -63398,6 +66612,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -63565,11 +66780,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -63593,6 +66814,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -63616,6 +66838,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -63639,6 +66862,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -63661,6 +66885,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -63683,6 +66908,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -63705,6 +66931,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -63727,6 +66954,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -63750,6 +66978,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -63773,6 +67002,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [
@@ -63940,11 +67170,17 @@ const FACTION_DATA = [
             "key": "3k_dlc07_pooled_factor_resource_imperial_favour_affairs",
             "name": "Domestic Affairs",
             "recurring": true
+          },
+          {
+            "key": "3k_dlc07_pooled_factor_imperial_favour_liu_yu_peace",
+            "name": "Gained from Pacifism",
+            "recurring": true
           }
         ],
         "levels": [
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_1",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_1",
             "min": "0",
             "max": "10",
             "bundles": [
@@ -63968,6 +67204,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_2",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_2",
             "min": "11",
             "max": "20",
             "bundles": [
@@ -63991,6 +67228,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_3",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_3",
             "min": "21",
             "max": "30",
             "bundles": [
@@ -64014,6 +67252,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_4",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_4",
             "min": "31",
             "max": "40",
             "bundles": [
@@ -64036,6 +67275,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_5",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_5",
             "min": "41",
             "max": "50",
             "bundles": [
@@ -64058,6 +67298,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_6",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_6",
             "min": "51",
             "max": "60",
             "bundles": [
@@ -64080,6 +67321,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_7",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_7",
             "min": "61",
             "max": "70",
             "bundles": [
@@ -64102,6 +67344,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_8",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_8",
             "min": "71",
             "max": "80",
             "bundles": [
@@ -64125,6 +67368,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_9",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_9",
             "min": "81",
             "max": "90",
             "bundles": [
@@ -64148,6 +67392,7 @@ const FACTION_DATA = [
           },
           {
             "member": "3k_dlc07_campaign_group_member_pooled_resource_imperial_favour_level_10",
+            "group": "3k_dlc07_campaign_group_pooled_resource_imperial_favour_level_10",
             "min": "91",
             "max": "100",
             "bundles": [

@@ -115,5 +115,3 @@
 [icon] missing icon custom_pin_naval.png
 [icon] missing icon custom_pin_naval.png
 [icon] missing icon custom_pin_naval.png
-[resource] ironic_han_liu_yu_peace: no display name loc, using 'Liu Yu Peace'
-[resource] ironic_han_liu_yu_peace: no display name loc, using 'Liu Yu Peace'

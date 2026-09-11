@@ -105,7 +105,7 @@ def iter_loc_tsv(filepath):
     """
     try:
         with open(filepath, "r", encoding="utf-8-sig", newline="") as f:
-            reader = csv.reader(f, delimiter="\t")
+            reader = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
             for row in reader:
                 if not row or len(row) < 2:
                     continue
@@ -136,7 +136,7 @@ def parse_tsv(filepath):
     rows = []
     try:
         with open(filepath, "r", encoding="utf-8-sig") as f:
-            reader = csv.DictReader(f, delimiter="\t")
+            reader = csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
             for row in reader:
                 if not row:
                     continue
