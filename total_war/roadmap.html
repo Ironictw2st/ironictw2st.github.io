@@ -16,18 +16,55 @@
         .rm-intro a { color: var(--gold-light); text-decoration: none; }
         .rm-intro a:hover { text-decoration: underline; }
 
-        /* timeline */
-        .timeline { position: relative; padding-left: 2.25rem; }
-        .timeline::before {
-            content: ''; position: absolute; left: 9px; top: 0.5rem; bottom: 0.5rem;
-            width: 2px; background: linear-gradient(180deg, var(--gold-dark), #252530 60%, transparent);
-        }
+        /* ------------------------------------------------------------------
+           Horizontal timeline: the stages sit side by side as fixed-width cards
+           hanging from one line, and the track scrolls sideways.
+           The line is drawn as a segment per stage rather than one bar across the
+           container, because an absolutely positioned bar on a scroll container
+           does not scroll with its content - and per-stage segments colour the
+           line by status for free.
+           ------------------------------------------------------------------ */
+        .timeline-wrap { position: relative; }
 
-        .stage { position: relative; margin-bottom: 2rem; }
+        .timeline {
+            display: flex;
+            align-items: flex-start;      /* cards keep their own height and hang from the line */
+            gap: var(--track-gap, 1.5rem);
+            overflow-x: auto;
+            overflow-y: hidden;
+            /* overflow-x clips the vertical axis too, so the node dots live in this padding */
+            padding: 2.6rem 0.25rem 1.25rem;
+            scroll-snap-type: x proximity;
+            scroll-padding-left: 0.25rem;
+            scrollbar-width: thin;
+            scrollbar-color: #303035 transparent;
+        }
+        .timeline:focus-visible { outline: 1px solid var(--gold-dark); outline-offset: 4px; }
+        .timeline::-webkit-scrollbar { height: 8px; }
+        .timeline::-webkit-scrollbar-track { background: #121216; }
+        .timeline::-webkit-scrollbar-thumb { background: #303035; }
+        .timeline::-webkit-scrollbar-thumb:hover { background: #45454f; }
+
+        .stage {
+            position: relative;
+            flex: 0 0 340px;
+            scroll-snap-align: start;
+        }
+        /* the node sitting on the line, above its card */
         .stage::before {
-            content: ''; position: absolute; left: -2.25rem; top: 1.15rem;
+            content: ''; position: absolute; left: 0; top: -1.55rem;
             width: 14px; height: 14px; border-radius: 50%;
             background: var(--bg-primary); border: 2px solid #3a3a44; z-index: 1;
+        }
+        /* this stage's segment of the line, running right across the gap to the next node */
+        .stage::after {
+            content: ''; position: absolute;
+            left: 7px; right: calc(-1 * var(--track-gap, 1.5rem)); top: calc(-1.55rem + 6px);
+            height: 2px; background: var(--stage-colour, #303035); opacity: 0.55;
+        }
+        .stage:last-child::after {
+            right: -1.5rem;
+            background: linear-gradient(90deg, var(--stage-colour, #303035), transparent);
         }
         .stage[data-status="done"]::before   { border-color: #3f7a4a; background: #3f7a4a; }
         .stage[data-status="next"]::before   { border-color: var(--gold-primary); background: var(--gold-dark); }
@@ -35,16 +72,18 @@
         .stage[data-status="future"]::before { border-color: #6a5a8a; background: #2c2440; }
         .stage[data-status="tba"]::before    { border-color: #3a3a44; }
 
+        /* set on .stage so both the line segment and the card can read it */
+        .stage[data-status="done"]    { --stage-colour: #3f7a4a; }
+        .stage[data-status="next"]    { --stage-colour: var(--gold-primary); }
+        .stage[data-status="planned"] { --stage-colour: #4a6fa5; }
+        .stage[data-status="future"]  { --stage-colour: #6a5a8a; }
+        .stage[data-status="tba"]     { --stage-colour: #303035; }
+
         .stage-card {
             background: var(--bg-card); border: 1px solid #202025;
-            border-left: 3px solid var(--stage-colour, #303035);
+            border-top: 3px solid var(--stage-colour, #303035);
             padding: 1.35rem 1.6rem;
         }
-        .stage[data-status="done"]    .stage-card { --stage-colour: #3f7a4a; }
-        .stage[data-status="next"]    .stage-card { --stage-colour: var(--gold-primary); }
-        .stage[data-status="planned"] .stage-card { --stage-colour: #4a6fa5; }
-        .stage[data-status="future"]  .stage-card { --stage-colour: #6a5a8a; }
-        .stage[data-status="tba"]     .stage-card { --stage-colour: #303035; }
 
         .stage-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; margin-bottom: 0.35rem; }
         .stage-title {
@@ -94,9 +133,54 @@
         .stage.empty .stage-card { opacity: 0.75; }
         .stage-empty-note { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
 
-        @media (max-width: 768px) {
-            .timeline { padding-left: 1.6rem; }
-            .stage::before { left: -1.6rem; }
+        /* edge fades hinting the track continues */
+        .timeline-wrap::before,
+        .timeline-wrap::after {
+            content: ''; position: absolute; top: 0; bottom: 0; width: 3rem;
+            pointer-events: none; z-index: 2; opacity: 0; transition: opacity 0.2s ease;
+        }
+        .timeline-wrap::before { left: 0; background: linear-gradient(90deg, var(--bg-primary), transparent); }
+        .timeline-wrap::after { right: 0; background: linear-gradient(270deg, var(--bg-primary), transparent); }
+        .timeline-wrap[data-at-start="false"]::before { opacity: 1; }
+        .timeline-wrap[data-at-end="false"]::after { opacity: 1; }
+
+        /* toolbar above the track, so the buttons never sit on top of a card */
+        .track-toolbar {
+            display: flex; align-items: center; justify-content: flex-end;
+            gap: 0.5rem; margin-bottom: 0.4rem; min-height: 2rem;
+        }
+        .track-hint {
+            margin-right: auto; font-size: 0.78rem; color: var(--text-muted); font-style: italic;
+        }
+        .track-hint[hidden], .track-nav[hidden] { display: none; }
+        .track-nav {
+            width: 2rem; height: 2rem; line-height: 1;
+            background: var(--bg-card); border: 1px solid #303035; color: var(--text-secondary);
+            font-size: 1.1rem; cursor: pointer; transition: all 0.2s ease;
+        }
+        .track-nav:hover:not(:disabled) { border-color: var(--gold-dark); color: var(--gold-light); }
+        .track-nav:disabled { opacity: 0.25; cursor: default; }
+
+        /* Narrow screens fall back to the original vertical stack - sideways
+           scrolling on a phone is worse than the list it replaces. */
+        @media (max-width: 900px) {
+            .timeline {
+                display: block; overflow: visible;
+                padding: 0.5rem 0 0 2.25rem; scroll-snap-type: none;
+            }
+            .stage { flex: none; margin-bottom: 2rem; }
+            .stage::before { left: -2.25rem; top: 1.15rem; }
+            .stage::after {
+                left: -1.6rem; right: auto; top: 1.15rem;
+                width: 2px; height: calc(100% + 2rem);
+                background: var(--stage-colour, #303035);
+            }
+            .stage:last-child::after {
+                right: auto; height: 100%;
+                background: linear-gradient(180deg, var(--stage-colour, #303035), transparent);
+            }
+            .stage-card { border-top: 1px solid #202025; border-left: 3px solid var(--stage-colour, #303035); }
+            .track-nav, .timeline-wrap::before, .timeline-wrap::after { display: none; }
         }
     </style>
 </head>
@@ -135,7 +219,14 @@
         </p>
     </section>
 
-    <div class="timeline" id="roadmap-root"></div>
+    <div class="track-toolbar">
+        <span class="track-hint" id="track-hint" hidden>Scroll sideways for the later stages</span>
+        <button class="track-nav prev" type="button" aria-label="Scroll to earlier stages" hidden>‹</button>
+        <button class="track-nav next" type="button" aria-label="Scroll to later stages" hidden>›</button>
+    </div>
+    <div class="timeline-wrap" id="timeline-wrap" data-at-start="true" data-at-end="true">
+        <div class="timeline" id="roadmap-root" role="region" aria-label="Roadmap stages" tabindex="0"></div>
+    </div>
 </main>
 
 <footer>
@@ -221,8 +312,45 @@
             </section>`;
     }
 
+    // Sideways scrolling for the track: buttons move one card at a time, and the
+    // edge fades follow how far along the track you are.
+    function wireTrack(track) {
+        const wrap = document.getElementById('timeline-wrap');
+        const hint = document.getElementById('track-hint');
+        const prev = document.querySelector('.track-nav.prev');
+        const next = document.querySelector('.track-nav.next');
+        const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        function step() {
+            const card = track.querySelector('.stage');
+            const gap = parseFloat(getComputedStyle(track).columnGap) || 24;
+            return (card ? card.getBoundingClientRect().width : 340) + gap;
+        }
+
+        function update() {
+            const overflows = track.scrollWidth - track.clientWidth > 4;
+            prev.hidden = next.hidden = hint.hidden = !overflows;
+            const atStart = track.scrollLeft <= 2;
+            const atEnd = track.scrollLeft >= track.scrollWidth - track.clientWidth - 2;
+            prev.disabled = atStart;
+            next.disabled = atEnd;
+            wrap.dataset.atStart = String(!overflows || atStart);
+            wrap.dataset.atEnd = String(!overflows || atEnd);
+        }
+
+        prev.addEventListener('click', () =>
+            track.scrollBy({ left: -step(), behavior: smooth ? 'smooth' : 'auto' }));
+        next.addEventListener('click', () =>
+            track.scrollBy({ left: step(), behavior: smooth ? 'smooth' : 'auto' }));
+        track.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('roadmap-root').innerHTML = ROADMAP_DATA.map(stageHtml).join('');
+        const track = document.getElementById('roadmap-root');
+        track.innerHTML = ROADMAP_DATA.map(stageHtml).join('');
+        wireTrack(track);
     });
 </script>
 
