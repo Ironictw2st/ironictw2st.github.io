@@ -2,9 +2,9 @@
 
 ## Counts
 
-- characters: 1651
-- details: 1651
-- bios: 1469
+- characters: 1650
+- details: 1650
+- bios: 1468
 - traits: 107
 - skill_sets: 366
 - factions_190: 108
@@ -13,7 +13,7 @@
 
 ## Effect index (Characters page filter)
 
-- 367 effect groups, 8058 links, 1645 characters with attribute totals
+- 367 effect groups, 8052 links, 1644 characters with attribute totals
 - index is consistent
 
 ## Duplicate template keys
@@ -113,6 +113,6 @@
 
 ## Biographies
 
-- 182 without hand-written bio, 182 drafted, 0 still missing
+- 183 without hand-written bio, 182 drafted, 1 still missing
 
-**72 findings**
+**73 findings**

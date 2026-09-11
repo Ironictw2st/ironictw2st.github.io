@@ -1,0 +1,32 @@
+{
+  "_readme": [
+    "Hand-maintained corrections applied on top of the merged db tables, for cases where the",
+    "data the wiki reads is not what the wiki should show. Keep this small: a correction here",
+    "hides a real discrepancy, so each entry says why it exists and where the value comes from.",
+    "Applied by parse_tw3k_db.py; it fails loudly if a key here no longer exists.",
+    "",
+    "rename: overrides forename / family_name (the resolved display strings, not name ids).",
+    "hide:   drops the template from the wiki entirely.",
+    "",
+    "Every entry below traces to the MTU companion mod. Its _mtu_characters*.tsv files sort",
+    "after data__.tsv but before the mod's own ironic*.tsv, so for any character 190E does not",
+    "itself override, MTU's row wins. Reported in #website-feedback.",
+    "",
+    "Before hiding a template, check family_tree.js and character_details.js for references to it - hiding the referenced one leaves dangling links that the audit will flag."
+  ],
+  "rename": {
+    "3k_main_template_historical_lady_cai_yan_hero_water": {
+      "family_name": "Cai",
+      "why": "MTU renames the family to Hua, so Cai Wenji shows as 'Hua Yan'. Reported 2026-07-26."
+    },
+    "3k_dlc04_template_historical_luo_jun_xiaoyuan_wood": {
+      "family_name": "Luo",
+      "why": "MTU renames the family to Lu, colliding with the two real Lu Juns. Reported 2026-03-11."
+    }
+  },
+  "hide": {
+    "3k_main_template_historical_lady_guan_yinping_hero_wood": {
+      "why": "MTU adds a second Guan Yinping and it is the one the mod actually uses: family_tree.js references the 3k_mtu_ template 17 times and this one zero times, and her unique armour ancillary is 3k_mtu_. So the vanilla template is the redundant one. Reported 2026-05-28."
+    }
+  }
+}

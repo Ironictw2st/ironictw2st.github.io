@@ -1,6 +1,6 @@
 // Auto-generated character details (portraits + effects + equipment)
-// Total entries: 1651
-// With equipment: 1641
+// Total entries: 1650
+// With equipment: 1640
 
 const CHARACTER_DETAILS = {
   "3k_cp01_template_historical_huang_gai_hero_fire": {
@@ -4909,7 +4909,7 @@ const CHARACTER_DETAILS = {
   "3k_dlc04_template_historical_luo_jun_xiaoyuan_wood": {
     "portrait": {
       "url": "data/images/db/wood/male.png",
-      "alt": "Lu Jun portrait",
+      "alt": "Luo Jun portrait",
       "caption": ""
     },
     "effects": [
@@ -35119,7 +35119,7 @@ const CHARACTER_DETAILS = {
   "3k_main_template_historical_lady_cai_yan_hero_water": {
     "portrait": {
       "url": "data/images/db/water_strategist/female.png",
-      "alt": "Hua Yan portrait",
+      "alt": "Cai Yan portrait",
       "caption": ""
     },
     "effects": [
@@ -35764,90 +35764,6 @@ const CHARACTER_DETAILS = {
       }
     }
   },
-  "3k_main_template_historical_lady_guan_yinping_hero_wood": {
-    "portrait": {
-      "url": "data/images/db/earth/female.png",
-      "alt": "Guan Yinping portrait",
-      "caption": ""
-    },
-    "effects": [
-      {
-        "name": "+20 authority (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+10 instinct (this character)",
-        "desc": ""
-      },
-      {
-        "name": "+10% battle running speed (own army)",
-        "desc": ""
-      }
-    ],
-    "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_physical_mad"
-    ],
-    "equipment": {
-      "armour": {
-        "key": "3k_main_ancillary_armour_medium_armour_earth_and_metal_common",
-        "title": "Instructor's Leather",
-        "description": "Follow the leader, not the finery he wears.",
-        "icon_path": "armours/3k_main_ancillary_armour_medium_armour_earth_and_metal_common.png",
-        "effects": [
-          {
-            "name": "-3% melee attack rate (this character)",
-            "desc": ""
-          },
-          {
-            "name": "-3% speed (this character)",
-            "desc": ""
-          },
-          {
-            "name": "+3 authority (this character)",
-            "desc": ""
-          },
-          {
-            "name": "Armour: Sentinel & Commander (this character)",
-            "desc": ""
-          },
-          {
-            "name": "+6 charge bonus (this character)",
-            "desc": ""
-          }
-        ]
-      },
-      "weapon": {
-        "key": "3k_main_ancillary_weapon_double_edged_sword_common",
-        "title": "Jian",
-        "description": "The 'Gentleman of Weapons' requires skill and training to wield effectively.",
-        "icon_path": "weapons/3k_main_ancillary_double_edged_sword_common.png",
-        "effects": [
-          {
-            "name": "Weapon: Swords (this character)",
-            "desc": ""
-          },
-          {
-            "name": "+9 expertise (this character)",
-            "desc": ""
-          }
-        ]
-      },
-      "mount": {
-        "key": "3k_main_ancillary_mount_white_horse",
-        "title": "White Horse",
-        "description": "More than adequate for average journeys.",
-        "icon_path": "mounts/3k_main_ancillary_white_horse.png",
-        "effects": [
-          {
-            "name": "+2 authority (this character)",
-            "desc": ""
-          }
-        ]
-      }
-    }
-  },
   "3k_main_template_historical_lady_huang_yueying_hero_wood": {
     "portrait": {
       "url": "data/images/db/3k_main_hero_special_huang_yueying_metal.png",
@@ -36049,9 +35965,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_physical_mad"
     ],
     "equipment": {
       "armour": {
@@ -36265,9 +36181,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "equipment": {
       "armour": {
@@ -36433,9 +36349,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ],
     "equipment": {
       "armour": {
@@ -36993,9 +36909,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ],
     "equipment": {
       "armour": {
@@ -37454,9 +37370,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_personality_solitary"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "equipment": {
       "armour": {
@@ -37534,9 +37450,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_main_ceo_trait_personality_solitary"
     ],
     "equipment": {
       "armour": {
@@ -38234,9 +38150,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ],
     "equipment": {
       "armour": {
@@ -38414,9 +38330,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "equipment": {
       "armour": {
@@ -38690,9 +38606,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ],
     "equipment": {
       "armour": {
@@ -38882,9 +38798,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
       "armour": {
@@ -39079,9 +38995,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "equipment": {
       "armour": {
@@ -39347,9 +39263,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "equipment": {
       "armour": {
@@ -39751,9 +39667,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "equipment": {
       "armour": {
@@ -40151,9 +40067,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_reckless"
     ],
     "equipment": {
       "armour": {
@@ -40243,9 +40159,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "equipment": {
       "armour": {
@@ -40687,9 +40603,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_unobservant"
     ],
     "equipment": {
       "armour": {
@@ -40843,9 +40759,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "equipment": {
       "armour": {
@@ -41763,9 +41679,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ],
     "equipment": {
       "armour": {
@@ -42315,9 +42231,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "equipment": {
       "armour": {
@@ -42511,9 +42427,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "equipment": {
       "armour": {
@@ -42987,9 +42903,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "equipment": {
       "armour": {
@@ -43083,9 +42999,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "equipment": {
       "armour": {
@@ -43435,9 +43351,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "equipment": {
       "armour": {
@@ -43619,9 +43535,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "equipment": {
       "armour": {
@@ -43715,9 +43631,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "equipment": {
       "armour": {
@@ -44027,9 +43943,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_trusting"
     ],
     "equipment": {
       "armour": {
@@ -44103,9 +44019,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_vengeful"
     ],
     "equipment": {
       "armour": {
@@ -44579,9 +44495,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
     "equipment": {
       "armour": {
@@ -44747,9 +44663,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_disciplined"
     ],
     "equipment": {
       "armour": {
@@ -45276,9 +45192,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ],
     "equipment": {
       "armour": {
@@ -45448,9 +45364,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "equipment": {
       "armour": {
@@ -45976,9 +45892,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "equipment": {
       "armour": {
@@ -46320,9 +46236,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "equipment": {
       "armour": {
@@ -46493,9 +46409,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_determined"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_personality_unobservant"
     ],
     "equipment": {
       "armour": {
@@ -46757,9 +46673,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "equipment": {
       "armour": {
@@ -47005,9 +46921,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_physical_beautiful"
     ],
     "equipment": {
       "armour": {
@@ -47169,9 +47085,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "equipment": {
       "armour": {
@@ -47265,9 +47181,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_personality_disloyal"
     ],
     "equipment": {
       "armour": {
@@ -47345,9 +47261,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_loyal"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ],
     "equipment": {
       "armour": {
@@ -47605,9 +47521,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_loyal"
     ],
     "equipment": {
       "armour": {
@@ -47697,9 +47613,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_people_stern"
     ],
     "equipment": {
       "armour": {
@@ -47781,9 +47697,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "equipment": {
       "armour": {
@@ -47881,9 +47797,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
+      "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "equipment": {
       "armour": {
@@ -48045,9 +47961,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "equipment": {
       "armour": {
@@ -48309,9 +48225,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "equipment": {
       "armour": {
@@ -48381,9 +48297,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
       "armour": {
@@ -48653,9 +48569,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ],
     "equipment": {
       "armour": {
@@ -48809,9 +48725,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "equipment": {
       "armour": {
@@ -48885,9 +48801,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ],
     "equipment": {
       "armour": {
@@ -48965,9 +48881,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "equipment": {
       "armour": {
@@ -49137,9 +49053,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "equipment": {
       "armour": {
@@ -49532,9 +49448,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -50092,9 +50008,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_competative"
     ],
     "equipment": {
       "armour": {
@@ -50184,9 +50100,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "equipment": {
       "armour": {
@@ -50280,9 +50196,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil"
     ],
     "equipment": {
       "armour": {
@@ -50360,9 +50276,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "equipment": {
       "armour": {
@@ -50436,9 +50352,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "equipment": {
       "armour": {
@@ -50593,9 +50509,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "equipment": {
       "armour": {
@@ -50957,9 +50873,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_physical_impeccable"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "equipment": {
       "armour": {
@@ -51173,9 +51089,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ],
     "equipment": {
       "armour": {
@@ -51269,9 +51185,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "equipment": {
       "armour": {
@@ -51345,9 +51261,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_defiant"
     ],
     "equipment": {
       "armour": {
@@ -51509,9 +51425,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "equipment": {
       "armour": {
@@ -51893,9 +51809,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_aescetic"
     ],
     "equipment": {
       "armour": {
@@ -52201,9 +52117,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "equipment": {
       "armour": {
@@ -52297,9 +52213,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_physical_tough"
     ],
     "equipment": {
       "armour": {
@@ -52377,9 +52293,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "equipment": {
       "armour": {
@@ -52465,9 +52381,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_benevolent"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
       "armour": {
@@ -52817,9 +52733,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_benevolent"
     ],
     "equipment": {
       "armour": {
@@ -53089,9 +53005,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "equipment": {
       "armour": {
@@ -53585,9 +53501,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "equipment": {
       "armour": {
@@ -53753,9 +53669,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_indecisive"
     ],
     "equipment": {
       "armour": {
@@ -53933,9 +53849,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_ytr_ceo_trait_physical_impeccable"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_modest"
     ],
     "equipment": {
       "armour": {
@@ -54329,9 +54245,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ],
     "equipment": {
       "armour": {
@@ -54425,9 +54341,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_careless"
     ],
     "equipment": {
       "armour": {
@@ -54849,9 +54765,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "equipment": {
       "armour": {
@@ -54933,9 +54849,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "equipment": {
       "armour": {
@@ -55013,9 +54929,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_cowardly"
     ],
     "equipment": {
       "armour": {
@@ -55105,9 +55021,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_competative"
     ],
     "equipment": {
       "armour": {
@@ -55289,9 +55205,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_distinguished"
     ],
     "equipment": {
       "armour": {
@@ -55641,9 +55557,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "equipment": {
       "armour": {
@@ -55821,9 +55737,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "equipment": {
       "armour": {
@@ -56013,9 +55929,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
       "armour": {
@@ -56097,9 +56013,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_intimidating"
     ],
     "equipment": {
       "armour": {
@@ -56281,9 +56197,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "equipment": {
       "armour": {
@@ -56633,9 +56549,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_cowardly"
     ],
     "equipment": {
       "armour": {
@@ -57001,9 +56917,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "equipment": {
       "armour": {
@@ -57101,9 +57017,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "equipment": {
       "armour": {
@@ -57177,9 +57093,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_physical_sui_knight"
     ],
     "equipment": {
       "armour": {
@@ -57341,9 +57257,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_reckless"
     ],
     "equipment": {
       "armour": {
@@ -57533,9 +57449,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "equipment": {
       "armour": {
@@ -57617,9 +57533,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_physical_tough",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "equipment": {
       "armour": {
@@ -57717,9 +57633,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_ytr_ceo_trait_personality_trustworthy"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "equipment": {
       "armour": {
@@ -57797,9 +57713,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_charitable"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_trustworthy"
     ],
     "equipment": {
       "armour": {
@@ -57893,9 +57809,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_charitable"
     ],
     "equipment": {
       "armour": {
@@ -57973,9 +57889,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "equipment": {
       "armour": {
@@ -58341,9 +58257,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_brilliant"
     ],
     "equipment": {
       "armour": {
@@ -58537,9 +58453,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "equipment": {
       "armour": {
@@ -58781,9 +58697,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_determined"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "equipment": {
       "armour": {
@@ -59129,9 +59045,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "equipment": {
       "armour": {
@@ -59301,9 +59217,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "equipment": {
       "armour": {
@@ -59381,9 +59297,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "equipment": {
       "armour": {
@@ -59469,9 +59385,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "equipment": {
       "armour": {
@@ -59837,9 +59753,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "equipment": {
       "armour": {
@@ -60017,9 +59933,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "equipment": {
       "armour": {
@@ -60189,9 +60105,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_patient"
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "equipment": {
       "armour": {
@@ -60365,9 +60281,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_patient"
     ],
     "equipment": {
       "armour": {
@@ -60541,9 +60457,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_pacifist"
     ],
     "equipment": {
       "armour": {
@@ -61093,9 +61009,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_disloyal"
     ],
     "equipment": {
       "armour": {
@@ -61977,9 +61893,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "equipment": {
       "armour": {
@@ -62141,9 +62057,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_mad"
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_greedy"
     ],
     "equipment": {
       "armour": {
@@ -62221,9 +62137,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_mad"
     ],
     "equipment": {
       "armour": {
@@ -62501,9 +62417,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_physical_drunk"
     ],
     "equipment": {
       "armour": {
@@ -62589,9 +62505,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "equipment": {
       "armour": {
@@ -62677,9 +62593,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "equipment": {
       "armour": {
@@ -62861,9 +62777,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_reckless"
     ],
     "equipment": {
       "armour": {
@@ -63041,9 +62957,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "equipment": {
       "armour": {
@@ -63417,9 +63333,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "equipment": {
       "armour": {
@@ -64013,9 +63929,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "equipment": {
       "armour": {
@@ -64109,9 +64025,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_disciplined"
     ],
     "equipment": {
       "armour": {
@@ -64224,9 +64140,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_stalwart"
     ],
     "equipment": {
       "armour": {
@@ -64672,9 +64588,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_greedy"
     ],
     "equipment": {
       "armour": {
@@ -65008,9 +64924,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "equipment": {
       "armour": {
@@ -65092,9 +65008,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_unobservant"
     ],
     "equipment": {
       "armour": {
@@ -65368,9 +65284,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "equipment": {
       "armour": {
@@ -65612,9 +65528,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_careless"
     ],
     "equipment": {
       "armour": {
@@ -65692,9 +65608,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_humble"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
       "armour": {
@@ -65936,9 +65852,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_clumsy"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_humble"
     ],
     "equipment": {
       "armour": {
@@ -66284,9 +66200,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_clumsy"
     ],
     "equipment": {
       "armour": {
@@ -66828,9 +66744,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -66928,9 +66844,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "equipment": {
       "armour": {
@@ -67852,9 +67768,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_physical_infertile"
     ],
     "equipment": {
       "armour": {
@@ -68144,9 +68060,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
+      "3k_ytr_ceo_trait_personality_land_courageous",
       "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_personality_vengeful"
     ],
     "equipment": {
       "armour": {
@@ -68628,9 +68544,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_defiant"
     ],
     "equipment": {
       "armour": {
@@ -68708,9 +68624,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_ytr_ceo_trait_personality_stalwart"
     ],
     "equipment": {
       "armour": {
@@ -69072,9 +68988,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "equipment": {
       "armour": {
@@ -69756,9 +69672,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "equipment": {
       "armour": {
@@ -69828,9 +69744,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "equipment": {
       "armour": {
@@ -70312,9 +70228,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_sincere"
     ],
     "equipment": {
       "armour": {
@@ -70592,9 +70508,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "equipment": {
       "armour": {
@@ -70780,9 +70696,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "equipment": {
       "armour": {
@@ -71492,9 +71408,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "equipment": {
       "armour": {
@@ -71676,9 +71592,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_ytr_ceo_trait_personality_strong_willed"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "equipment": {
       "armour": {
@@ -71760,9 +71676,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_personality_strong_willed"
     ],
     "equipment": {
       "armour": {
@@ -71932,9 +71848,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant"
     ],
     "equipment": {
       "armour": {
@@ -72008,9 +71924,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_ytr_ceo_trait_personality_trustworthy"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -72088,9 +72004,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_trustworthy"
     ],
     "equipment": {
       "armour": {
@@ -72184,9 +72100,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ],
     "equipment": {
       "armour": {
@@ -72260,9 +72176,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "equipment": {
       "armour": {
@@ -72360,9 +72276,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "equipment": {
       "armour": {
@@ -72532,9 +72448,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "equipment": {
       "armour": {
@@ -72612,9 +72528,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "equipment": {
       "armour": {
@@ -72692,9 +72608,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ],
     "equipment": {
       "armour": {
@@ -72880,9 +72796,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "equipment": {
       "armour": {
@@ -72960,9 +72876,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "equipment": {
       "armour": {
@@ -73036,9 +72952,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -73200,9 +73116,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "equipment": {
       "armour": {
@@ -73296,9 +73212,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_physical_healthy"
     ],
     "equipment": {
       "armour": {
@@ -73392,9 +73308,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "equipment": {
       "armour": {
@@ -73568,9 +73484,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ],
     "equipment": {
       "armour": {
@@ -73644,9 +73560,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_ytr_ceo_trait_personality_relentless"
     ],
     "equipment": {
       "armour": {
@@ -73808,9 +73724,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
     "equipment": {
       "armour": {
@@ -73972,9 +73888,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_clever"
     ],
     "equipment": {
       "armour": {
@@ -74152,9 +74068,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_aescetic"
     ],
     "equipment": {
       "armour": {
@@ -74248,9 +74164,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ],
     "equipment": {
       "armour": {
@@ -74328,9 +74244,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "equipment": {
       "armour": {
@@ -74416,9 +74332,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "equipment": {
       "armour": {
@@ -74488,9 +74404,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_determined",
       "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_ytr_ceo_trait_personality_simple"
     ],
     "equipment": {
       "armour": {
@@ -74772,9 +74688,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "equipment": {
       "armour": {
@@ -74964,9 +74880,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_charitable"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "equipment": {
       "armour": {
@@ -75568,9 +75484,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_charitable"
     ],
     "equipment": {
       "armour": {
@@ -75936,9 +75852,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_physical_agile"
     ],
     "equipment": {
       "armour": {
@@ -76024,9 +75940,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
       "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "equipment": {
       "armour": {
@@ -76576,9 +76492,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -76668,9 +76584,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "equipment": {
       "armour": {
@@ -76852,9 +76768,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "equipment": {
       "armour": {
@@ -76944,9 +76860,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "equipment": {
       "armour": {
@@ -77300,9 +77216,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_solitary"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "equipment": {
       "armour": {
@@ -78308,9 +78224,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_solitary"
     ],
     "equipment": {
       "armour": {
@@ -78384,9 +78300,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_determined"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "equipment": {
       "armour": {
@@ -78744,9 +78660,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "equipment": {
       "armour": {
@@ -78824,9 +78740,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "equipment": {
       "armour": {
@@ -78912,9 +78828,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_clever"
     ],
     "equipment": {
       "armour": {
@@ -78992,9 +78908,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "equipment": {
       "armour": {
@@ -79068,9 +78984,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_physical_beautiful"
     ],
     "equipment": {
       "armour": {
@@ -79168,9 +79084,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "equipment": {
       "armour": {
@@ -79244,9 +79160,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "equipment": {
       "armour": {
@@ -79416,9 +79332,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "equipment": {
       "armour": {
@@ -79508,9 +79424,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_artful"
     ],
     "equipment": {
       "armour": {
@@ -79584,9 +79500,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "equipment": {
       "armour": {
@@ -79764,9 +79680,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_competative"
     ],
     "equipment": {
       "armour": {
@@ -79956,8 +79872,8 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_physical_healthy",
       "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
@@ -80144,9 +80060,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
       "armour": {
@@ -80224,9 +80140,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_physical_feared"
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_aescetic"
     ],
     "equipment": {
       "armour": {
@@ -80316,9 +80232,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_physical_feared"
     ],
     "equipment": {
       "armour": {
@@ -80400,9 +80316,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "equipment": {
       "armour": {
@@ -80492,9 +80408,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_physical_agile"
     ],
     "equipment": {
       "armour": {
@@ -80576,8 +80492,8 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_unobservant",
       "3k_main_ceo_trait_physical_eunuch"
     ],
     "equipment": {
@@ -80656,9 +80572,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "equipment": {
       "armour": {
@@ -80756,9 +80672,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -80836,9 +80752,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "equipment": {
       "armour": {
@@ -80916,9 +80832,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_brilliant"
     ],
     "equipment": {
       "armour": {
@@ -81000,9 +80916,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "equipment": {
       "armour": {
@@ -81188,9 +81104,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil"
     ],
     "equipment": {
       "armour": {
@@ -81556,9 +81472,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "equipment": {
       "armour": {
@@ -81732,9 +81648,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "equipment": {
       "armour": {
@@ -81820,9 +81736,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "equipment": {
       "armour": {
@@ -81908,9 +81824,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ],
     "equipment": {
       "armour": {
@@ -81988,9 +81904,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_relentless"
     ],
     "equipment": {
       "armour": {
@@ -82280,9 +82196,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "equipment": {
       "armour": {
@@ -82360,9 +82276,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_healthy"
     ],
     "equipment": {
       "armour": {
@@ -82444,9 +82360,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ],
     "equipment": {
       "armour": {
@@ -82516,9 +82432,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "equipment": {
       "armour": {
@@ -82608,9 +82524,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_intimidating"
     ],
     "equipment": {
       "armour": {
@@ -82792,9 +82708,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_simple",
       "3k_main_ceo_trait_personality_scholarly",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "equipment": {
       "armour": {
@@ -82880,9 +82796,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "equipment": {
       "armour": {
@@ -83048,9 +82964,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_distinguished"
     ],
     "equipment": {
       "armour": {
@@ -83120,9 +83036,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_physical_strong"
     ],
     "equipment": {
       "armour": {
@@ -83212,9 +83128,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "equipment": {
       "armour": {
@@ -83308,9 +83224,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_physical_lovestruck"
     ],
     "equipment": {
       "armour": {
@@ -83488,9 +83404,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "equipment": {
       "armour": {
@@ -83580,9 +83496,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_physical_sui_knight"
     ],
     "equipment": {
       "armour": {
@@ -83660,9 +83576,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "equipment": {
       "armour": {
@@ -83920,9 +83836,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_artful"
     ],
     "equipment": {
       "armour": {
@@ -84000,9 +83916,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -84088,9 +84004,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "equipment": {
       "armour": {
@@ -84184,9 +84100,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "equipment": {
       "armour": {
@@ -84260,9 +84176,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_cowardly"
     ],
     "equipment": {
       "armour": {
@@ -84356,9 +84272,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_brilliant"
     ],
     "equipment": {
       "armour": {
@@ -84436,9 +84352,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
       "3k_main_ceo_trait_personality_determined",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_personality_brave"
     ],
     "equipment": {
       "armour": {
@@ -84516,9 +84432,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_humble"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "equipment": {
       "armour": {
@@ -84776,9 +84692,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_humble"
     ],
     "equipment": {
       "armour": {
@@ -85057,9 +84973,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "equipment": {
       "armour": {
@@ -85141,9 +85057,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_vengeful"
     ],
     "equipment": {
       "armour": {
@@ -85229,9 +85145,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "equipment": {
       "armour": {
@@ -85321,9 +85237,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_cruel"
     ],
     "equipment": {
       "armour": {
@@ -85409,9 +85325,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "equipment": {
       "armour": {
@@ -85581,9 +85497,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "equipment": {
       "armour": {
@@ -85665,9 +85581,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ],
     "equipment": {
       "armour": {
@@ -85750,8 +85666,8 @@ const CHARACTER_DETAILS = {
     ],
     "traits": [
       "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_physical_agile"
     ],
     "equipment": {
       "armour": {
@@ -85849,9 +85765,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "equipment": {
       "armour": {
@@ -85925,9 +85841,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "equipment": {
       "armour": {
@@ -86017,9 +85933,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ],
     "equipment": {
       "armour": {
@@ -86097,9 +86013,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_physical_beautiful"
     ],
     "equipment": {
       "armour": {
@@ -86177,9 +86093,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_intimidating"
     ],
     "equipment": {
       "armour": {
@@ -86269,9 +86185,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_humble",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
     "equipment": {
       "armour": {
@@ -86437,9 +86353,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_incompetent"
     ],
     "equipment": {
       "armour": {
@@ -86533,9 +86449,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ],
     "equipment": {
       "armour": {
@@ -86625,9 +86541,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "equipment": {
       "armour": {
@@ -86721,9 +86637,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_enigmatic"
     ],
     "equipment": {
       "armour": {
@@ -86805,9 +86721,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_cruel"
     ],
     "equipment": {
       "armour": {
@@ -86901,9 +86817,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_disloyal"
     ],
     "equipment": {
       "armour": {
@@ -86989,9 +86905,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_artful"
     ],
     "equipment": {
       "armour": {
@@ -87157,9 +87073,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_physical_feared"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ],
     "equipment": {
       "armour": {
@@ -87245,9 +87161,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_physical_feared"
     ],
     "equipment": {
       "armour": {
@@ -87329,9 +87245,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_strong_willed"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "equipment": {
       "armour": {
@@ -87417,9 +87333,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_strong_willed"
     ],
     "equipment": {
       "armour": {
@@ -87501,9 +87417,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "equipment": {
       "armour": {
@@ -87778,9 +87694,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "equipment": {
       "armour": {
@@ -87970,9 +87886,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "equipment": {
       "armour": {
@@ -88058,9 +87974,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "equipment": {
       "armour": {
@@ -88138,9 +88054,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_physical_tough",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "equipment": {
       "armour": {
@@ -88230,9 +88146,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "equipment": {
       "armour": {
@@ -88318,9 +88234,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "equipment": {
       "armour": {
@@ -88482,9 +88398,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_deceitful"
     ],
     "equipment": {
       "armour": {
@@ -88678,9 +88594,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_enigmatic"
     ],
     "equipment": {
       "armour": {
@@ -88758,9 +88674,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_ytr_ceo_trait_personality_land_proud"
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_ytr_ceo_trait_personality_land_courageous"
     ],
     "equipment": {
       "armour": {
@@ -88862,9 +88778,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "equipment": {
       "armour": {
@@ -88942,9 +88858,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "equipment": {
       "armour": {
@@ -89226,9 +89142,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_drunk"
     ],
     "equipment": {
       "armour": {
@@ -89318,9 +89234,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "equipment": {
       "armour": {
@@ -89398,9 +89314,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "equipment": {
       "armour": {
@@ -89470,9 +89386,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_cruel"
     ],
     "equipment": {
       "armour": {
@@ -89554,9 +89470,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "equipment": {
       "armour": {
@@ -89827,9 +89743,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "equipment": {
       "armour": {
@@ -89927,9 +89843,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_physical_infertile"
     ],
     "equipment": {
       "armour": {
@@ -90027,9 +89943,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_physical_lovestruck"
     ],
     "equipment": {
       "armour": {
@@ -90123,9 +90039,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "equipment": {
       "armour": {
@@ -91967,9 +91883,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_simple"
     ],
     "equipment": {
       "armour": {
@@ -92228,9 +92144,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_personality_fiery"
     ],
     "equipment": {
       "armour": {
@@ -100403,9 +100319,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_fraternal"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_clever"
     ],
     "equipment": {}
   },
@@ -100417,9 +100333,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_fraternal"
     ],
     "equipment": {}
   },
@@ -103931,9 +103847,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant"
     ],
     "equipment": {}
   },
@@ -106389,9 +106305,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_enigmatic"
     ],
     "equipment": {}
   },
@@ -106416,9 +106332,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_land_courageous"
     ],
     "equipment": {
       "armour": {
@@ -107495,9 +107411,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "equipment": {}
   },
@@ -111782,9 +111698,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_charismatic"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_indecisive"
     ],
     "equipment": {
       "armour": {
@@ -112322,9 +112238,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "equipment": {
       "armour": {
@@ -112414,9 +112330,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_arrogant"
     ],
     "equipment": {
       "armour": {
@@ -115282,9 +115198,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "equipment": {
       "armour": {
@@ -117322,9 +117238,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_personality_people_stern"
     ],
     "equipment": {
       "armour": {
@@ -117406,9 +117322,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_defiant"
     ],
     "equipment": {
       "armour": {
@@ -117482,9 +117398,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "equipment": {
       "armour": {
@@ -119218,9 +119134,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "equipment": {
       "armour": {
@@ -119746,9 +119662,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_trusting"
     ],
     "equipment": {
       "armour": {
@@ -119826,9 +119742,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ],
     "equipment": {
       "armour": {
@@ -119906,9 +119822,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_physical_clumsy"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -121346,9 +121262,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_clumsy"
     ],
     "equipment": {
       "armour": {
@@ -128886,9 +128802,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ],
     "equipment": {
       "armour": {
@@ -129066,9 +128982,9 @@ const CHARACTER_DETAILS = {
       }
     ],
     "traits": [
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_loyal"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "equipment": {
       "armour": {
@@ -133785,9 +133701,9 @@ const CHARACTER_DETAILS = {
     },
     "effects": [],
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_loyal"
     ],
     "equipment": {}
   },
