@@ -88,6 +88,30 @@ def main():
         item(f"{k}: {v}{delta}", bad=False)
     json.dump(counts, open(LAST, "w", encoding="utf-8"), indent=2)
 
+    # ------------------------------------------------------- effect index
+    section("Effect index (Characters page filter)")
+    effect_types = js_const(os.path.join(DATA, "characters.js"), "EFFECT_TYPES", "[") or []
+    if not effect_types:
+        item("EFFECT_TYPES is missing from characters.js; the effect filter will be empty")
+    else:
+        ids = {e["id"] for e in effect_types}
+        bad_ids = sorted({i for c in chars for i in (c.get("effects") or []) if i not in ids})
+        for i in bad_ids[:10]:
+            item(f"character effect id {i} has no EFFECT_TYPES entry")
+        dup_labels = [lab for lab, n in Counter(e["label"].lower() for e in effect_types).items() if n > 1]
+        for lab in dup_labels[:10]:
+            item(f"two effect groups share the label {lab!r}; the filter can only reach one")
+        # the stated count must match what the page will actually show
+        actual = Counter(i for c in chars for i in (c.get("effects") or []))
+        wrong = [e for e in effect_types if e.get("count") != actual.get(e["id"], 0)]
+        for e in wrong[:10]:
+            item(f"effect {e['label']!r} claims {e.get('count')} characters, index has {actual.get(e['id'], 0)}")
+        attr_totals = sum(1 for c in chars if c.get("attributes"))
+        item(f"{len(effect_types)} effect groups, {sum(len(c.get('effects') or []) for c in chars)} links, "
+             f"{attr_totals} characters with attribute totals", bad=False)
+        if not (bad_ids or dup_labels or wrong):
+            item("index is consistent", bad=False)
+
     # ------------------------------------------------------------ duplicates
     section("Duplicate template keys")
     dup = [k for k, n in Counter(c["key"] for c in chars).items() if n > 1]

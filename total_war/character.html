@@ -627,6 +627,15 @@
       letter-spacing: 0.05em;
     }
 
+    .attr-pills { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.75rem; }
+    .attr-pill {
+      font-size: 0.72rem; padding: 0.15rem 0.5rem;
+      border: 1px solid #2b2b33; color: var(--text-secondary);
+      background: rgba(255,255,255,0.03); white-space: nowrap;
+    }
+    .attr-pill b { color: var(--title-cream); font-weight: 600; }
+    .attr-pill.negative b { color: #e0a0a0; }
+
     .tag.unique { border-color: var(--gold-dark); color: var(--gold-light); }
     .tag.generic { border-color: #353530; }
     .tag.male { border-color: #6b8cae; color: #8ab4d9; }
@@ -2109,6 +2118,22 @@
        Main render functions
        ========================= */
     
+    // Attribute totals come from characters.js (career title + starting equipment), the same
+    // numbers the Characters page sorts on.
+    const ATTRIBUTE_ORDER = ['authority', 'cunning', 'expertise', 'instinct', 'resolve', 'resilience'];
+    const ATTRIBUTE_LABEL = {
+      authority: 'Authority', cunning: 'Cunning', expertise: 'Expertise',
+      instinct: 'Instinct', resolve: 'Resolve', resilience: 'Resilience'
+    };
+
+    function attrStripHtml(char) {
+      const attrs = char.attributes || {};
+      const parts = ATTRIBUTE_ORDER.filter(a => attrs[a] !== undefined).map(a =>
+        `<span class="attr-pill${attrs[a] < 0 ? ' negative' : ''}">${ATTRIBUTE_LABEL[a]} <b>${attrs[a] > 0 ? '+' : ''}${attrs[a]}</b></span>`);
+      if (!parts.length) return '';
+      return `<div class="attr-pills" title="From this character's title and starting equipment">${parts.join('')}</div>`;
+    }
+
     function leadsHtml(char) {
       const leaders = Array.isArray(char.faction_leader_of) ? char.faction_leader_of : [];
       if (!leaders.length || typeof FACTION_BY_LEADER === 'undefined' || typeof FACTION_LOOKUP === 'undefined') return '';
@@ -2204,6 +2229,7 @@
                   ${escapeHtml(element)}
                 </span>
               </div>
+              ${attrStripHtml(char)}
             </div>
           </div>
 
