@@ -84,7 +84,7 @@
 
 ## HTML references
 
-- checked index.html, total_war/index.html, total_war/factions.html, total_war/faction.html, total_war/characters.html, total_war/character.html, total_war/guides.html, total_war/changelog.html
+- checked index.html, total_war/index.html, total_war/factions.html, total_war/faction.html, total_war/characters.html, total_war/character.html, total_war/guides.html, total_war/roadmap.html, total_war/changelog.html
 
 ## Family tree
 

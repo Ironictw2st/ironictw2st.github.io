@@ -4,12 +4,136 @@
     <meta charset="UTF-8">
     <title>Changelog | 190 Expanded Wiki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Every 190 Expanded update since October 2022, collected from the Steam Workshop change notes for all three packs.">
     <link rel="stylesheet" href="styles/tw3k.css">
+    <style>
+        .filters {
+            display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end;
+            margin-bottom: 2rem; padding: 1.5rem;
+            background: var(--bg-card); border: 1px solid #252530; border-radius: 4px;
+        }
+        .filter-group { display: flex; flex-direction: column; gap: 0.5rem; }
+        .filter-group label {
+            font-family: 'Cinzel', serif; font-size: 0.75rem; color: var(--text-secondary);
+            text-transform: uppercase; letter-spacing: 0.1em;
+        }
+        .filter-group input, .filter-group select {
+            padding: 0.5rem 1rem; background: var(--bg-secondary);
+            border: 1px solid #303035; color: var(--text-primary); font-size: 0.9rem; min-width: 160px;
+        }
+        .filter-group input:focus, .filter-group select:focus { outline: none; border-color: var(--gold-dark); }
+        .search-box { flex: 1; min-width: 240px; }
+        .search-box input { width: 100%; }
+
+        .cl-summary {
+            display: flex; flex-wrap: wrap; gap: 2.5rem; justify-content: center;
+            padding: 1.5rem; margin-bottom: 2rem;
+            background: var(--bg-card); border: 1px solid #252530;
+        }
+        .cl-summary .stat-number { font-size: 1.9rem; }
+        .cl-source {
+            text-align: center; font-size: 0.85rem; color: var(--text-muted);
+            margin: -1rem 0 2rem;
+        }
+        .cl-source a { color: var(--gold-light); text-decoration: none; }
+        .cl-source a:hover { text-decoration: underline; }
+
+        .results-info {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #252530;
+            font-size: 0.9rem; color: var(--text-secondary);
+        }
+
+        /* entries */
+        .entry { border-left: 3px solid #252530; padding: 0 0 0 1.25rem; margin-bottom: 1rem; position: relative; }
+        .entry::before {
+            content: ''; position: absolute; left: -7px; top: 0.55rem;
+            width: 11px; height: 11px; border-radius: 50%;
+            background: var(--bg-primary); border: 2px solid #3a3a44;
+        }
+        .entry.release { border-left-color: var(--gold-dark); }
+        .entry.release::before { border-color: var(--gold-primary); background: var(--gold-dark); }
+
+        .entry-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; }
+        .entry-date {
+            font-family: 'Cinzel', serif; font-size: 0.78rem; color: var(--text-muted);
+            letter-spacing: 0.08em; white-space: nowrap; min-width: 6.6rem;
+        }
+        .entry-title {
+            font-family: 'Cinzel', serif; color: var(--title-cream);
+            font-size: 1rem; margin: 0; line-height: 1.3;
+        }
+        .entry.release .entry-title { font-size: 1.25rem; color: var(--gold-light); }
+        /* an untitled patch shows the opening line of its notes, which is prose, not a heading */
+        .entry-lead {
+            font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+            font-size: 0.88rem; color: var(--text-secondary); font-weight: 400;
+            letter-spacing: 0; line-height: 1.45;
+        }
+
+        .pack-chip {
+            font-size: 0.62rem; padding: 0.1rem 0.4rem; letter-spacing: 0.04em;
+            border: 1px solid #303035; color: var(--text-muted); white-space: nowrap;
+        }
+        .pack-chip[data-pack="Factions & Characters"] { border-color: var(--gold-dark); color: var(--gold-light); }
+        .pack-chip[data-pack="Overhaul"] { border-color: #5050a0; color: #a0a0e8; }
+        .pack-chip[data-pack="Extra Regions"] { border-color: #3f7a4a; color: #8fd19b; }
+
+        .entry-body {
+            background: rgba(255,255,255,0.02); border: 1px solid #1f1f26;
+            padding: 1rem 1.25rem; margin-top: 0.6rem;
+            font-size: 0.88rem; line-height: 1.65; color: var(--text-primary);
+            overflow-wrap: break-word;
+        }
+        .entry-body h3 {
+            font-family: 'Cinzel', serif; font-size: 1.15rem; color: var(--gold-light);
+            margin: 0 0 0.6rem; letter-spacing: 0.04em;
+        }
+        .entry-body h4 {
+            font-family: 'Cinzel', serif; font-size: 0.85rem; color: var(--title-cream);
+            text-transform: uppercase; letter-spacing: 0.12em;
+            margin: 1.1rem 0 0.5rem; padding-bottom: 0.3rem; border-bottom: 1px solid #252530;
+        }
+        .entry-body ul { margin: 0.4rem 0 0.4rem 1.1rem; padding: 0; }
+        .entry-body li { margin-bottom: 0.25rem; }
+        .entry-body b { color: var(--title-cream); }
+        .entry-body i { color: var(--text-secondary); }
+        .entry-body hr { border: none; border-top: 1px solid #252530; margin: 1rem 0; }
+        .entry-body a { color: var(--gold-light); }
+        .entry-body .no-notes { color: var(--text-muted); font-style: italic; }
+
+        details.entry > summary {
+            cursor: pointer; list-style: none; padding: 0.45rem 1.6rem 0.45rem 0;
+            position: relative;
+        }
+        details.entry > summary::-webkit-details-marker { display: none; }
+        details.entry > summary::after {
+            content: '▾'; color: var(--text-muted); font-size: 0.7rem;
+            position: absolute; right: 0.35rem; top: 0.75rem;
+            transition: transform 0.2s ease;
+        }
+        details.entry[open] > summary::after { transform: rotate(180deg); }
+        details.entry > summary:hover .entry-title, details.entry > summary:hover .entry-lead { color: var(--gold-light); }
+        details.entry > summary:hover { background: rgba(255,255,255,0.02); }
+        .entry-body-wrap { padding-bottom: 0.6rem; }
+
+        .entry-link { font-size: 0.72rem; color: var(--text-muted); text-decoration: none; }
+        .entry-link:hover { color: var(--gold-light); text-decoration: underline; }
+
+        .no-results { text-align: center; padding: 4rem 2rem; color: var(--text-secondary); }
+        .no-results h3 { font-family: 'Cinzel', serif; color: var(--title-cream); margin-bottom: 1rem; }
+
+        @media (max-width: 768px) {
+            .filters { flex-direction: column; align-items: stretch; }
+            .cl-summary { gap: 1.25rem; }
+            .entry-date { min-width: 0; }
+        }
+    </style>
 </head>
 <body>
 
 <div class="page-bg"></div>
-    
+
 <header>
     <nav class="top-nav">
         <a href="../index.html" class="back-link">← Home</a>
@@ -26,32 +150,57 @@
         <li><a href="factions.html">Factions</a></li>
         <li><a href="characters.html">Characters</a></li>
         <li><a href="guides.html">Guides</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
         <li><a href="changelog.html" class="active">Changelog</a></li>
     </ul>
 </nav>
 
 <main>
-    <section class="under-construction">
-        <div class="uc-icon">書</div>
-        <h2>Chronicles Incomplete</h2>
+    <div class="cl-summary">
+        <div class="stat">
+            <span class="stat-number" id="stat-total">-</span>
+            <span class="stat-label">Updates</span>
+        </div>
+        <div class="stat">
+            <span class="stat-number" id="stat-releases">-</span>
+            <span class="stat-label">Major Releases</span>
+        </div>
+        <div class="stat">
+            <span class="stat-number" id="stat-years">-</span>
+            <span class="stat-label">Years</span>
+        </div>
+    </div>
 
-        <p>
-            The official chronicle of updates,
-            balance changes, and historical corrections
-            has yet to be fully transcribed.
-        </p>
+    <p class="cl-source" id="cl-source"></p>
 
-        <div class="uc-divider"></div>
+    <div class="filters">
+        <div class="filter-group search-box">
+            <label for="search">Search notes</label>
+            <input type="text" id="search" placeholder="Search for a faction, mechanic or fix...">
+        </div>
+        <div class="filter-group">
+            <label for="pack-filter">Pack</label>
+            <select id="pack-filter"><option value="all">All packs</option></select>
+        </div>
+        <div class="filter-group">
+            <label for="kind-filter">Show</label>
+            <select id="kind-filter">
+                <option value="all">Everything</option>
+                <option value="release">Major releases only</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="year-filter">Year</label>
+            <select id="year-filter"><option value="all">All years</option></select>
+        </div>
+    </div>
 
-        <p>
-            When completed, this archive will preserve
-            every major reform and campaign revision
-            across the lifespan of <b>190 Expanded</b>.
-        </p>
+    <div class="results-info">
+        <span id="results-count">Loading...</span>
+        <span id="results-note"></span>
+    </div>
 
-        <div class="uc-status">Archive Pending</div>
-        <p style="margin-top:1.5rem">Until then, ask on the <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener" style="color:var(--gold-light)">190 Expanded Discord</a>.</p>
-    </section>
+    <div id="changelog-sections"></div>
 </main>
 
 <footer>
@@ -67,6 +216,161 @@
         <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
     </p>
 </footer>
+
+<script src="data/changelog.js"></script>
+<script>
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str == null ? '' : String(str);
+        return div.innerHTML;
+    }
+    function normalize(text) {
+        return (text || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    }
+    // entry.html is built by fetch_changelog.py from a strict allow-list (b/i/br/ul/li/hr/h3/h4/a).
+    function plainText(entryHtml) {
+        return (entryHtml || '').replace(/<[^>]+>/g, ' ');
+    }
+
+    const state = { search: '', pack: 'all', kind: 'all', year: 'all' };
+
+    function packChips(packs) {
+        return packs.map(p => `<span class="pack-chip" data-pack="${escapeHtml(p)}">${escapeHtml(p)}</span>`).join('');
+    }
+
+    function steamLink(entry) {
+        const url = CHANGELOG_STATS.packLinks[entry.packs[0]];
+        return url ? `<a class="entry-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">on Steam ↗</a>` : '';
+    }
+
+    function bodyHtml(entry) {
+        if (!entry.html) return '<p class="no-notes">No notes were published for this update.</p>';
+        return entry.html;
+    }
+
+    function leadText(entry) {
+        const t = plainText(entry.html).replace(/\s+/g, ' ').trim();
+        return t.length > 90 ? t.slice(0, 90) + '…' : t;
+    }
+
+    function entryHtml(entry) {
+        if (entry.kind === 'release') {
+            return `
+                <article class="entry release">
+                    <div class="entry-head">
+                        <span class="entry-date">${escapeHtml(entry.display_date)}</span>
+                        <h3 class="entry-title">${escapeHtml(entry.title || 'Update')}</h3>
+                        ${packChips(entry.packs)}
+                        ${steamLink(entry)}
+                    </div>
+                    <div class="entry-body">${bodyHtml(entry)}</div>
+                </article>`;
+        }
+        const label = entry.title
+            ? `<span class="entry-title">${escapeHtml(entry.title)}</span>`
+            : `<span class="entry-lead">${entry.kind === 'silent' ? 'Update with no notes' : escapeHtml(leadText(entry))}</span>`;
+        return `
+            <details class="entry">
+                <summary>
+                    <div class="entry-head">
+                        <span class="entry-date">${escapeHtml(entry.display_date)}</span>
+                        ${label}
+                        ${packChips(entry.packs)}
+                    </div>
+                </summary>
+                <div class="entry-body-wrap">
+                    <div class="entry-body">${bodyHtml(entry)}</div>
+                    <div style="margin-top:0.4rem">${steamLink(entry)}</div>
+                </div>
+            </details>`;
+    }
+
+    function matches(entry) {
+        if (state.pack !== 'all' && !entry.packs.includes(state.pack)) return false;
+        if (state.kind !== 'all' && entry.kind !== state.kind) return false;
+        if (state.year !== 'all' && String(entry.year) !== state.year) return false;
+        if (state.search) {
+            const hay = normalize([entry.title, entry.display_date, plainText(entry.html), entry.packs.join(' ')].join(' '));
+            if (!hay.includes(normalize(state.search))) return false;
+        }
+        return true;
+    }
+
+    function render() {
+        const root = document.getElementById('changelog-sections');
+        const visible = CHANGELOG_DATA.filter(matches);
+        document.getElementById('results-count').textContent =
+            `Showing ${visible.length} of ${CHANGELOG_DATA.length} updates`;
+        document.getElementById('results-note').textContent =
+            state.search ? 'Matches are searched across the full notes.' : '';
+
+        if (!visible.length) {
+            root.innerHTML = '<div class="no-results"><h3>Nothing found</h3><p>Try a different search or clear the filters.</p></div>';
+            return;
+        }
+
+        const years = [...new Set(visible.map(e => e.year))].sort((a, b) => b - a);
+        root.innerHTML = years.map(year => {
+            const items = visible.filter(e => e.year === year);
+            return `
+                <section class="faction-category" data-category="${year}">
+                    <div class="category-header">
+                        <h2 class="category-title">
+                            <span class="toggle-icon">▼</span>
+                            ${year}
+                            <span class="category-count">(${items.length})</span>
+                        </h2>
+                    </div>
+                    <div class="year-entries">${items.map(entryHtml).join('')}</div>
+                </section>`;
+        }).join('');
+
+        root.querySelectorAll('.category-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const section = header.closest('.faction-category');
+                section.classList.toggle('collapsed');
+                const body = section.querySelector('.year-entries');
+                body.style.display = section.classList.contains('collapsed') ? 'none' : '';
+            });
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('stat-total').textContent = CHANGELOG_STATS.total;
+        document.getElementById('stat-releases').textContent = CHANGELOG_STATS.releases;
+        document.getElementById('stat-years').textContent = Object.keys(CHANGELOG_STATS.byYear).length;
+
+        const first = CHANGELOG_DATA[CHANGELOG_DATA.length - 1];
+        const last = CHANGELOG_DATA[0];
+        const links = Object.entries(CHANGELOG_STATS.packLinks)
+            .map(([name, url]) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>`)
+            .join(' · ');
+        document.getElementById('cl-source').innerHTML =
+            `${escapeHtml(first.display_date)} to ${escapeHtml(last.display_date)}, collected from the Steam change notes for ${links}.`;
+
+        const packSelect = document.getElementById('pack-filter');
+        Object.keys(CHANGELOG_STATS.byPack).forEach(p => {
+            const o = document.createElement('option');
+            o.value = p;
+            o.textContent = `${p} (${CHANGELOG_STATS.byPack[p]})`;
+            packSelect.appendChild(o);
+        });
+        const yearSelect = document.getElementById('year-filter');
+        Object.keys(CHANGELOG_STATS.byYear).forEach(y => {
+            const o = document.createElement('option');
+            o.value = y;
+            o.textContent = `${y} (${CHANGELOG_STATS.byYear[y]})`;
+            yearSelect.appendChild(o);
+        });
+
+        document.getElementById('search').addEventListener('input', e => { state.search = e.target.value; render(); });
+        packSelect.addEventListener('change', e => { state.pack = e.target.value; render(); });
+        document.getElementById('kind-filter').addEventListener('change', e => { state.kind = e.target.value; render(); });
+        yearSelect.addEventListener('change', e => { state.year = e.target.value; render(); });
+
+        render();
+    });
+</script>
 
 </body>
 </html>

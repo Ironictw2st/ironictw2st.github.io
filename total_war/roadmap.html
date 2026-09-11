@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roadmap | 190 Expanded Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What is already in 190 Expanded, what lands in the next update, and what comes after.">
+    <link rel="stylesheet" href="styles/tw3k.css">
+    <style>
+        .rm-intro {
+            max-width: 780px; margin: 0 auto 3rem; text-align: center;
+            padding-bottom: 2rem; border-bottom: 1px solid #252530;
+        }
+        .rm-intro p { color: var(--text-secondary); font-size: 1rem; line-height: 1.7; }
+        .rm-intro .caveat { font-size: 0.85rem; color: var(--text-muted); font-style: italic; margin-top: 1rem; }
+        .rm-intro a { color: var(--gold-light); text-decoration: none; }
+        .rm-intro a:hover { text-decoration: underline; }
+
+        /* ------------------------------------------------------------------
+           Horizontal timeline: the stages sit side by side as fixed-width cards
+           hanging from one line, and the track scrolls sideways.
+           The line is drawn as a segment per stage rather than one bar across the
+           container, because an absolutely positioned bar on a scroll container
+           does not scroll with its content - and per-stage segments colour the
+           line by status for free.
+           ------------------------------------------------------------------ */
+        .timeline-wrap { position: relative; }
+
+        .timeline {
+            display: flex;
+            align-items: flex-start;      /* cards keep their own height and hang from the line */
+            gap: var(--track-gap, 1.5rem);
+            overflow-x: auto;
+            overflow-y: hidden;
+            /* overflow-x clips the vertical axis too, so the node dots live in this padding */
+            padding: 2.6rem 0.25rem 1.25rem;
+            scroll-snap-type: x proximity;
+            scroll-padding-left: 0.25rem;
+            scrollbar-width: thin;
+            scrollbar-color: #303035 transparent;
+        }
+        .timeline:focus-visible { outline: 1px solid var(--gold-dark); outline-offset: 4px; }
+        .timeline::-webkit-scrollbar { height: 8px; }
+        .timeline::-webkit-scrollbar-track { background: #121216; }
+        .timeline::-webkit-scrollbar-thumb { background: #303035; }
+        .timeline::-webkit-scrollbar-thumb:hover { background: #45454f; }
+
+        .stage {
+            position: relative;
+            flex: 0 0 340px;
+            scroll-snap-align: start;
+        }
+        /* the node sitting on the line, above its card */
+        .stage::before {
+            content: ''; position: absolute; left: 0; top: -1.55rem;
+            width: 14px; height: 14px; border-radius: 50%;
+            background: var(--bg-primary); border: 2px solid #3a3a44; z-index: 1;
+        }
+        /* this stage's segment of the line, running right across the gap to the next node */
+        .stage::after {
+            content: ''; position: absolute;
+            left: 7px; right: calc(-1 * var(--track-gap, 1.5rem)); top: calc(-1.55rem + 6px);
+            height: 2px; background: var(--stage-colour, #303035); opacity: 0.55;
+        }
+        .stage:last-child::after {
+            right: -1.5rem;
+            background: linear-gradient(90deg, var(--stage-colour, #303035), transparent);
+        }
+        .stage[data-status="done"]::before   { border-color: #3f7a4a; background: #3f7a4a; }
+        .stage[data-status="next"]::before   { border-color: var(--gold-primary); background: var(--gold-dark); }
+        .stage[data-status="planned"]::before{ border-color: #4a6fa5; background: #24344f; }
+        .stage[data-status="future"]::before { border-color: #6a5a8a; background: #2c2440; }
+        .stage[data-status="tba"]::before    { border-color: #3a3a44; }
+
+        /* set on .stage so both the line segment and the card can read it */
+        .stage[data-status="done"]    { --stage-colour: #3f7a4a; }
+        .stage[data-status="next"]    { --stage-colour: var(--gold-primary); }
+        .stage[data-status="planned"] { --stage-colour: #4a6fa5; }
+        .stage[data-status="future"]  { --stage-colour: #6a5a8a; }
+        .stage[data-status="tba"]     { --stage-colour: #303035; }
+
+        .stage-card {
+            background: var(--bg-card); border: 1px solid #202025;
+            border-top: 3px solid var(--stage-colour, #303035);
+            padding: 1.35rem 1.6rem;
+        }
+
+        .stage-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; margin-bottom: 0.35rem; }
+        .stage-title {
+            font-family: 'Cinzel', serif; font-size: 1.25rem; color: var(--title-cream);
+            letter-spacing: 0.05em; margin: 0;
+        }
+        .stage-blurb { color: var(--text-secondary); font-size: 0.9rem; margin: 0 0 1rem; font-style: italic; }
+
+        .status-chip {
+            font-size: 0.66rem; padding: 0.16rem 0.55rem; letter-spacing: 0.09em;
+            text-transform: uppercase; border: 1px solid #303035; color: var(--text-secondary);
+            white-space: nowrap;
+        }
+        .status-chip[data-status="done"]    { border-color: #3f7a4a; color: #8fd19b; background: rgba(63,122,74,0.12); }
+        .status-chip[data-status="next"]    { border-color: var(--gold-dark); color: var(--gold-light); background: rgba(201,162,39,0.12); }
+        .status-chip[data-status="planned"] { border-color: #4a6fa5; color: #9bc2e8; background: rgba(74,111,165,0.12); }
+        .status-chip[data-status="future"]  { border-color: #6a5a8a; color: #c0aee0; background: rgba(106,90,138,0.12); }
+        .status-chip[data-status="tba"]     { border-color: #3a3a44; color: var(--text-muted); }
+
+        .stage-group + .stage-group { margin-top: 1.25rem; }
+        .group-title {
+            font-family: 'Cinzel', serif; font-size: 0.76rem; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.14em;
+            margin-bottom: 0.5rem; padding-bottom: 0.3rem; border-bottom: 1px solid #252530;
+        }
+        .stage-items { list-style: none; margin: 0; padding: 0; }
+        .stage-items li {
+            position: relative; padding-left: 1.3rem; margin-bottom: 0.45rem;
+            font-size: 0.92rem; color: var(--text-primary); line-height: 1.5;
+        }
+        .stage-items li::before {
+            content: '◆'; position: absolute; left: 0; top: 0;
+            color: var(--stage-colour, var(--text-muted)); font-size: 0.62rem; line-height: 1.9;
+        }
+        .stage[data-status="done"] .stage-items li::before { content: '✓'; color: #6fbf73; font-size: 0.78rem; line-height: 1.5; }
+        .item-note { display: block; font-size: 0.82rem; color: var(--text-muted); margin-top: 0.15rem; }
+
+        .computed-list { margin-top: 0.5rem; padding: 0.7rem 0.9rem; background: rgba(255,255,255,0.02); border: 1px solid #1f1f26; }
+        .computed-label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.45rem; }
+        .computed-names { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+        .computed-names a {
+            font-size: 0.8rem; padding: 0.12rem 0.5rem; text-decoration: none;
+            border: 1px solid #303035; color: var(--text-secondary);
+        }
+        .computed-names a:hover { border-color: var(--gold-dark); color: var(--gold-light); }
+
+        .stage.empty .stage-card { opacity: 0.75; }
+        .stage-empty-note { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+
+        /* edge fades hinting the track continues */
+        .timeline-wrap::before,
+        .timeline-wrap::after {
+            content: ''; position: absolute; top: 0; bottom: 0; width: 3rem;
+            pointer-events: none; z-index: 2; opacity: 0; transition: opacity 0.2s ease;
+        }
+        .timeline-wrap::before { left: 0; background: linear-gradient(90deg, var(--bg-primary), transparent); }
+        .timeline-wrap::after { right: 0; background: linear-gradient(270deg, var(--bg-primary), transparent); }
+        .timeline-wrap[data-at-start="false"]::before { opacity: 1; }
+        .timeline-wrap[data-at-end="false"]::after { opacity: 1; }
+
+        /* toolbar above the track, so the buttons never sit on top of a card */
+        .track-toolbar {
+            display: flex; align-items: center; justify-content: flex-end;
+            gap: 0.5rem; margin-bottom: 0.4rem; min-height: 2rem;
+        }
+        .track-hint {
+            margin-right: auto; font-size: 0.78rem; color: var(--text-muted); font-style: italic;
+        }
+        .track-hint[hidden], .track-nav[hidden] { display: none; }
+        .track-nav {
+            width: 2rem; height: 2rem; line-height: 1;
+            background: var(--bg-card); border: 1px solid #303035; color: var(--text-secondary);
+            font-size: 1.1rem; cursor: pointer; transition: all 0.2s ease;
+        }
+        .track-nav:hover:not(:disabled) { border-color: var(--gold-dark); color: var(--gold-light); }
+        .track-nav:disabled { opacity: 0.25; cursor: default; }
+
+        /* Narrow screens fall back to the original vertical stack - sideways
+           scrolling on a phone is worse than the list it replaces. */
+        @media (max-width: 900px) {
+            .timeline {
+                display: block; overflow: visible;
+                padding: 0.5rem 0 0 2.25rem; scroll-snap-type: none;
+            }
+            .stage { flex: none; margin-bottom: 2rem; }
+            .stage::before { left: -2.25rem; top: 1.15rem; }
+            .stage::after {
+                left: -1.6rem; right: auto; top: 1.15rem;
+                width: 2px; height: calc(100% + 2rem);
+                background: var(--stage-colour, #303035);
+            }
+            .stage:last-child::after {
+                right: auto; height: 100%;
+                background: linear-gradient(180deg, var(--stage-colour, #303035), transparent);
+            }
+            .stage-card { border-top: 1px solid #202025; border-left: 3px solid var(--stage-colour, #303035); }
+            .track-nav, .timeline-wrap::before, .timeline-wrap::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="../index.html" class="back-link">← Home</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">190 Expanded Wiki</p>
+        <h1>Roadmap</h1>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="factions.html">Factions</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="roadmap.html" class="active">Roadmap</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="rm-intro">
+        <p>Where 190 Expanded is going: what is already in the game, what lands in the next update, and what comes after that.</p>
+        <p class="caveat">
+            This is a statement of intent, not a release schedule. Plans move around, and anything
+            beyond the next update can change. Ask on the
+            <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a> if you want detail on a particular item.
+        </p>
+    </section>
+
+    <div class="track-toolbar">
+        <span class="track-hint" id="track-hint" hidden>Scroll sideways for the later stages</span>
+        <button class="track-nav prev" type="button" aria-label="Scroll to earlier stages" hidden>‹</button>
+        <button class="track-nav next" type="button" aria-label="Scroll to later stages" hidden>›</button>
+    </div>
+    <div class="timeline-wrap" id="timeline-wrap" data-at-start="true" data-at-end="true">
+        <div class="timeline" id="roadmap-root" role="region" aria-label="Roadmap stages" tabindex="0"></div>
+    </div>
+</main>
+
+<footer>
+    <p>
+        Created by Ironic ·
+        <a href="https://steamcommunity.com/id/ironictw2st/myworkshopfiles/?appid=779340">
+            Steam Workshop
+        </a>
+    </p>
+    <p class="ext-links">
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+        <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+        <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+</footer>
+
+<script src="data/factions.js"></script>
+<script src="data/roadmap.js"></script>
+<script>
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str == null ? '' : String(str);
+        return div.innerHTML;
+    }
+
+    // Factions whose mechanic is not in the public build yet: no primary pooled resource
+    // and no specialisation in the generated faction data. Restricted to the Han side of the
+    // map, because the Nanman and Korean factions are a separate stage of the roadmap.
+    // Names already listed by hand in the roadmap are left out so nothing is shown twice.
+    const HAN_CATEGORIES = ['warlords', 'empire', 'minor', 'dlc-awb', 'dlc-fd', 'shanyue', 'bandits', 'yellow-turbans'];
+
+    function factionsWithoutMechanic(alreadyListed) {
+        if (typeof FACTION_DATA === 'undefined') return [];
+        const named = new Set((alreadyListed || []).map(n => n.toLowerCase()));
+        return FACTION_DATA
+            .filter(f => f.campaign === '190' && HAN_CATEGORIES.includes(f.category))
+            .filter(f => !(f.resources || []).some(r => r.is_primary) && !f.specialisation)
+            .filter(f => !named.has(f.name.toLowerCase()))
+            .sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    function itemHtml(item, listedNames) {
+        if (typeof item === 'string') return `<li>${escapeHtml(item)}</li>`;
+        let extra = '';
+        if (item.note) extra += `<span class="item-note">${escapeHtml(item.note)}</span>`;
+        if (item.computed === 'factions-without-mechanic') {
+            const missing = factionsWithoutMechanic(listedNames);
+            if (missing.length) {
+                extra += `
+                    <div class="computed-list">
+                        <div class="computed-label">Other Han factions still without one (${missing.length}), from the faction data</div>
+                        <div class="computed-names">
+                            ${missing.map(f => `<a href="faction.html?key=${encodeURIComponent(f.id)}">${escapeHtml(f.name)}</a>`).join('')}
+                        </div>
+                    </div>`;
+            }
+        }
+        return `<li>${escapeHtml(item.text)}${extra}</li>`;
+    }
+
+    function stageHtml(stage) {
+        const listedNames = (stage.groups || [])
+            .flatMap(g => g.items || [])
+            .filter(i => typeof i === 'string');
+
+        const groups = (stage.groups || []).map(group => `
+            <div class="stage-group">
+                ${group.title ? `<div class="group-title">${escapeHtml(group.title)}</div>` : ''}
+                <ul class="stage-items">${(group.items || []).map(i => itemHtml(i, listedNames)).join('')}</ul>
+            </div>`).join('');
+
+        const empty = !(stage.groups || []).some(g => (g.items || []).length);
+        return `
+            <section class="stage${empty ? ' empty' : ''}" data-status="${escapeHtml(stage.status)}" id="${escapeHtml(stage.id)}">
+                <div class="stage-card">
+                    <div class="stage-head">
+                        <h2 class="stage-title">${escapeHtml(stage.label)}</h2>
+                        <span class="status-chip" data-status="${escapeHtml(stage.status)}">${escapeHtml(ROADMAP_STATUS_LABEL[stage.status] || stage.status)}</span>
+                    </div>
+                    ${stage.blurb ? `<p class="stage-blurb">${escapeHtml(stage.blurb)}</p>` : ''}
+                    ${empty ? '<p class="stage-empty-note">Nothing announced yet.</p>' : groups}
+                </div>
+            </section>`;
+    }
+
+    // Sideways scrolling for the track: buttons move one card at a time, and the
+    // edge fades follow how far along the track you are.
+    function wireTrack(track) {
+        const wrap = document.getElementById('timeline-wrap');
+        const hint = document.getElementById('track-hint');
+        const prev = document.querySelector('.track-nav.prev');
+        const next = document.querySelector('.track-nav.next');
+        const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        function step() {
+            const card = track.querySelector('.stage');
+            const gap = parseFloat(getComputedStyle(track).columnGap) || 24;
+            return (card ? card.getBoundingClientRect().width : 340) + gap;
+        }
+
+        function update() {
+            const overflows = track.scrollWidth - track.clientWidth > 4;
+            prev.hidden = next.hidden = hint.hidden = !overflows;
+            const atStart = track.scrollLeft <= 2;
+            const atEnd = track.scrollLeft >= track.scrollWidth - track.clientWidth - 2;
+            prev.disabled = atStart;
+            next.disabled = atEnd;
+            wrap.dataset.atStart = String(!overflows || atStart);
+            wrap.dataset.atEnd = String(!overflows || atEnd);
+        }
+
+        prev.addEventListener('click', () =>
+            track.scrollBy({ left: -step(), behavior: smooth ? 'smooth' : 'auto' }));
+        next.addEventListener('click', () =>
+            track.scrollBy({ left: step(), behavior: smooth ? 'smooth' : 'auto' }));
+        track.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const track = document.getElementById('roadmap-root');
+        track.innerHTML = ROADMAP_DATA.map(stageHtml).join('');
+        wireTrack(track);
+    });
+</script>
+
+</body>
+</html>
