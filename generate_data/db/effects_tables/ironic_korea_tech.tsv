@@ -1,0 +1,7 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ironic_korea_tech								
+ironic_korea_tech_unlock_3k_korea_court_offices_minister_of_justice	governor_limit.png	100	campaign	earth		0.0000	positive_value_is_good	default
+ironic_korea_tech_unlock_3k_korea_court_offices_minister_of_the_guards	governor_limit.png	100	campaign	earth		0.0000	positive_value_is_good	default
+ironic_korea_tech_unlock_3k_korea_court_offices_minister_of_the_imperial_clan	governor_limit.png	100	campaign	earth		0.0000	positive_value_is_good	default
+ironic_korea_tech_unlock_3k_korea_court_offices_minister_of_the_imperial_household	governor_limit.png	100	campaign	earth		0.0000	positive_value_is_good	default
+ironic_korea_tech_unlock_3k_korea_court_offices_minister_steward	governor_limit.png	100	campaign	earth		0.0000	positive_value_is_good	default

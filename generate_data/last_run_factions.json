@@ -1,0 +1,22 @@
+{
+  "total": 108,
+  "totalGathering": 24,
+  "byCategory": {
+    "warlords": 13,
+    "empire": 19,
+    "dlc-awb": 7,
+    "dlc-fd": 6,
+    "yellow-turbans": 5,
+    "bandits": 5,
+    "nanman": 20,
+    "shanyue": 4,
+    "nomads": 7,
+    "korean": 7,
+    "minor": 15,
+    "gathering": 24
+  },
+  "withDescription": 79,
+  "withFeatures": 112,
+  "withResources": 105,
+  "withFlag": 131
+}

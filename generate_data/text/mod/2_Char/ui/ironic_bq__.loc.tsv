@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_bq__.loc		
+campaign_localised_strings_string_ironic_bq_mute_tt	Mute notifications for this commandery. While muted, the end-turn notification badge and the upgrades-available marker are hidden for this commandery in the commanderies list, and its pending actions are left out of the end-turn counter. Toggle again to unmute.	false
+campaign_localised_strings_string_ironic_bq_mute_tt_locked	Notifications for this commandery can only be muted by whoever holds its capital. Take the capital settlement to control them.	false

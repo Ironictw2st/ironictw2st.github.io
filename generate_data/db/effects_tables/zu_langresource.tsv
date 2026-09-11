@@ -1,0 +1,16 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/zu_langresource								
+ironic_zu_lang_independence_decay	regional_faction_support.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_armies	regional_faction_support.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_captives_post_battle	regional_faction_support.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_characters	regional_faction_support.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_garrisoned	regional_faction_support.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_vassalized	regional_faction_support.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_zu_lang_independence_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_zu_lang_independence_executed	regional_faction_support.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_assignments	regional_faction_support.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_frontend_1	regional_faction_support.png	100	campaign		ironic_zu_lang_independence_frontend_1	0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_frontend_2	regional_faction_support.png	100	campaign		ironic_zu_lang_independence_frontend_2	0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_frontend_3	regional_faction_support.png	100	campaign		ironic_zu_lang_independence_frontend_3	0.0000	positive_value_is_good	default
+ironic_zu_lang_independence_frontend_4	regional_faction_support.png	100	campaign		ironic_zu_lang_independence_frontend_4	0.0000	positive_value_is_good	default

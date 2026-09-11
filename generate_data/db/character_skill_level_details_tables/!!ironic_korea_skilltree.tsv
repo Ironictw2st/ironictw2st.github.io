@@ -1,0 +1,31 @@
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/!!ironic_korea_skilltree						
+		1	ironic_korea_skill_sanseong		x	0
+		1	ironic_korea_skill_byeonhan_iron		x	0
+		1	ironic_korea_skill_yemaek_hunt		x	0
+		1	ironic_korea_skill_lelang_tribute		x	0
+		1	ironic_korea_skill_sodo_rite		x	0
+		1	ironic_korea_skill_twelvefold_law		x	0
+		1	ironic_korea_skill_five_bu		x	0
+		1	ironic_korea_skill_ability_jindaebeop		x	0
+		1	ironic_korea_skill_ability_from_the_furrow		x	0
+		1	ironic_korea_skill_ability_queens_night		x	0
+		1	ironic_korea_skill_ability_elder_brothers_claim		x	0
+		1	ironic_korea_skill_ability_walls_of_hwando		x	0
+		1	ironic_korea_skill_ability_long_feud		x	0
+		1	ironic_korea_skill_ability_crown_princes_command		x	0
+		1	ironic_korea_skill_ability_wind_and_cloud		x	0
+		1	ironic_korea_skill_ability_relief_to_allies		x	0
+		1	ironic_korea_skill_ability_iron_sea		x	0
+		1	ironic_korea_skill_ability_bride_from_the_sea		x	0
+		1	ironic_korea_skill_ability_second_king		x	0
+		1	ironic_korea_skill_ability_clear_the_fields		x	0
+		1	ironic_korea_skill_ability_dongmaeng_oath		x	0
+		1	ironic_korea_skill_ability_buyeo_horse_lords		x	0
+		1	ironic_korea_skill_ability_horses_of_the_maga		x	0
+		1	ironic_korea_skill_ability_hwandudaedo_cut		x	0
+		1	ironic_korea_skill_ability_iron_cuirass		x	0
+		1	ironic_korea_skill_ability_maek_bow		x	0
+		1	ironic_korea_skill_ability_dangung_reach		x	0
+		1	ironic_korea_skill_ability_cheonguns_ground		x	0
+		1	ironic_korea_skill_ability_bells_and_drums		x	0

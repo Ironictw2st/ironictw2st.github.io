@@ -1,0 +1,34 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zhang_jin_qi						
+ironic_qi_acupuncture_00			stat_ranged_damage_base.png	faction	positive	false
+ironic_qi_acupuncture_01			stat_melee_damage_armour_piercing.png	faction	positive	false
+ironic_qi_acupuncture_02			character_experience.png	faction	positive	false
+ironic_qi_acupuncture_03			speed.png	faction	positive	false
+ironic_qi_acupuncture_04			speed.png	faction	positive	false
+ironic_qi_acupuncture_05			ammo.png	faction	positive	false
+ironic_qi_acupuncture_06			food.png	faction	negative	false
+ironic_qi_acupuncture_07			stat_melee_damage_armour_piercing.png	faction	positive	false
+ironic_qi_acupuncture_08			upkeep_cost.png	faction	negative	false
+ironic_qi_acupuncture_09			satisfaction.png	faction	negative	false
+ironic_qi_acupuncture_10			character_experience.png	faction	negative	false
+ironic_qi_acupuncture_11			food.png	faction	positive	false
+ironic_qi_acupuncture_12			replenishment.png	faction	negative	false
+ironic_qi_acupuncture_13			replenishment.png	faction	positive	false
+ironic_qi_acupuncture_14			morale.png	faction	negative	false
+ironic_qi_acupuncture_15			money.png	faction	negative	false
+ironic_qi_acupuncture_16			speed.png	faction	negative	false
+ironic_qi_acupuncture_17			corruption.png	faction	positive	false
+ironic_qi_acupuncture_18			public_order.png	faction	positive	false
+ironic_qi_acupuncture_19			money.png	faction	positive	false
+ironic_qi_acupuncture_20			upkeep_cost.png	faction	positive	false
+ironic_qi_acupuncture_21			recruitment_cost.png	faction	positive	false
+ironic_qi_acupuncture_22			mustering_speed.png	faction	positive	false
+ironic_qi_acupuncture_23			corruption.png	faction	negative	false
+ironic_qi_acupuncture_24			stat_armour_base.png	faction	positive	false
+ironic_qi_acupuncture_25			public_order.png	faction	negative	false
+ironic_qi_acupuncture_26			speed.png	faction	negative	false
+ironic_qi_acupuncture_27			population_growth.png	faction	positive	false
+ironic_qi_acupuncture_28			stat_melee_damage_base.png	faction	positive	false
+ironic_qi_acupuncture_29			stat_armour_base.png	faction	negative	false
+ironic_qi_acupuncture_30			morale.png	faction	positive	false
+ironic_qi_acupuncture_31			satisfaction.png	faction	positive	false

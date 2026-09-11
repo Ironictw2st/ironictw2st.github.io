@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/wang_shengresource			
+ironic_wang_sheng_languor_level_0	10	0	value
+ironic_wang_sheng_languor_level_1	25	11	value
+ironic_wang_sheng_languor_level_2	69	26	value
+ironic_wang_sheng_languor_level_3	94	70	value
+ironic_wang_sheng_languor_level_4	100	95	value

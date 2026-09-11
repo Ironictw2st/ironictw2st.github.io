@@ -1,0 +1,7 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/wuhuanresource								
+ironic_wuhuan_decay	raider.png	1	campaign	fire		0.0000	positive_value_is_good	default
+ironic_wuhuan_frontend_1	raider.png	1	campaign	fire	ironic_wuhuan_frontend_1	0.0000	positive_value_is_good	default
+ironic_wuhuan_frontend_2	raider.png	2	campaign	fire	ironic_wuhuan_frontend_2	0.0000	positive_value_is_good	
+ironic_wuhuan_frontend_3	raider.png	3	campaign	fire	ironic_wuhuan_frontend_3	0.0000	positive_value_is_good	
+ironic_wuhuan_frontend_4	raider.png	4	campaign	fire	ironic_wuhuan_frontend_4	0.0000	positive_value_is_good	

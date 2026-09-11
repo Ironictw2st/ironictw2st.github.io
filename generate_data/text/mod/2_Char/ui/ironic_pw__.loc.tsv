@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_pw__.loc		
+campaign_localised_strings_string_ironic_pw_pop_low	Population is falling	false
+campaign_localised_strings_string_ironic_pw_pop_critical	Population is collapsing	false
+campaign_localised_strings_string_ironic_pw_support_low	Faction support is low	false
+campaign_localised_strings_string_ironic_pw_support_critical	Faction support is critical	false
+campaign_localised_strings_string_ironic_pw_tt_pop_low	[[col:yellow]]Population is falling[[/col]]\\nAt least one settlement in this commandery is losing population this turn. Settlements that run dry cannot recruit or grow, and the population effect bundle they carry will drop a tier.	false
+campaign_localised_strings_string_ironic_pw_tt_pop_critical	[[col:red]]Population is collapsing[[/col]]\\nAt least one settlement in this commandery has run out of population, or is on the lowest population tier and still falling. Recruitment and growth stop entirely at zero.	false
+campaign_localised_strings_string_ironic_pw_tt_support_low	[[col:yellow]]Faction support is low[[/col]]\\nAt least one settlement in this commandery is below full faction support. Until it reaches 80%, its support tier applies penalties to income, public order and military supplies.	false
+campaign_localised_strings_string_ironic_pw_tt_support_critical	[[col:red]]Faction support is critical[[/col]]\\nAt least one settlement in this commandery is below 40% faction support. At this tier the penalties are severe - a quarter or more of the regions gross income, and a heavy public order drag.	false
+campaign_localised_strings_string_ironic_pw_tt_sep	\\n	false

@@ -1,0 +1,9 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/xiongnuresource								
+ironic_frontend_description_xiongnu_1		1	campaign		ironic_frontend_description_xiongnu_1	0.0000	neutral	default
+ironic_frontend_description_xiongnu_2		2	campaign		ironic_frontend_description_xiongnu_2	0.0000	neutral	default
+ironic_frontend_description_xiongnu_3		4	campaign		ironic_frontend_description_xiongnu_3	0.0000	neutral	default
+ironic_frontend_description_xiongnu_4		3	campaign		ironic_frontend_description_xiongnu_4	0.0000	neutral	default
+ironic_xiongnu_decay	ironic_pooled_resource_xiongnu.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_xiongnu_stance	ironic_pooled_resource_xiongnu.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_xiongnu_cavalry_replenishment	replenishment.png	1	campaign			0.0000	positive_value_is_good	default

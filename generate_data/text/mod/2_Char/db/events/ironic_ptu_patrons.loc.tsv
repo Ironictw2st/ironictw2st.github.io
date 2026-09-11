@@ -1,0 +1,92 @@
+key	text	tooltip
+#Loc;1;text/db/events/ironic_ptu_patrons.loc		
+dilemmas_localised_title_ironic_ptu_join_gongsun_zan_s3	The Man of Changshan	false
+dilemmas_localised_description_ironic_ptu_join_gongsun_zan_s3	[[i]]A young officer of Changshan asks leave to follow you instead. Gongsun Zan does not stop him.[[/i]]\\n\\nYour standing with Gongsun Zan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Zhao Yun[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_gongsun_zan_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_gongsun_zan_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_gongsun_zan_s3SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_gongsun_zan_s3SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_gongsun_zan_s4	Old Friends of Zhuo	false
+dilemmas_localised_description_ironic_ptu_join_gongsun_zan_s4	[[i]]Word of your conduct reaches men who knew you before any of this began.[[/i]]\\n\\nYour standing with Gongsun Zan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Tian Yu[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_gongsun_zan_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_gongsun_zan_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_gongsun_zan_s4SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_gongsun_zan_s4SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_tao_qian_s3	The Merchants of Donghai	false
+dilemmas_localised_description_ironic_ptu_join_tao_qian_s3	[[i]]The great houses of Xu decide, quietly, that you are the safer bet.[[/i]]\\n\\nYour standing with Tao Qian has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Mi Zhu, Sun Qian, Chen Deng[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_tao_qian_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_tao_qian_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_tao_qian_s3SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_tao_qian_s3SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_tao_qian_s4	A House of Your Own	false
+dilemmas_localised_description_ironic_ptu_join_tao_qian_s4	[[i]]Mi Zhu gives you his sister, his brother and his fortune. A man does not do that by halves.[[/i]]\\n\\nYour standing with Tao Qian has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Lady Mi, Lady Gan, Mi Fang[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_tao_qian_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_tao_qian_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_tao_qian_s4SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_tao_qian_s4SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_biao_s3	Swords of Jing	false
+dilemmas_localised_description_ironic_ptu_join_liu_biao_s3	[[i]]Officers passed over by the Cai clan find their way to your camp.[[/i]]\\n\\nYour standing with Liu Biao has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Huang Zhong, Huo Jun, Wei Yan[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_biao_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_biao_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_biao_s3SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_biao_s3SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_biao_s4	The Thatched Hut	false
+dilemmas_localised_description_ironic_ptu_join_liu_biao_s4	[[i]]Three times you climb the hill at Longzhong. The third time, he is awake.[[/i]]\\n\\nYour standing with Liu Biao has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Yi Ji, Zhuge Liang, Pang Tong, Xu Shu, Ma Liang, Ma Su[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_biao_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_biao_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_biao_s4SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_biao_s4SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_biao_s5	The Inheritance of Jing	false
+dilemmas_localised_description_ironic_ptu_join_liu_biao_s5	[[i]]He asked you, on his deathbed, to take it. This time you do not refuse.[[/i]]\\n\\nYour standing with Liu Biao has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Liao Hua[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_biao_s5FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_biao_s5FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_biao_s5SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_biao_s5SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_yan_s1	Invited Through the Passes	false
+dilemmas_localised_description_ironic_ptu_join_liu_yan_s1	[[i]]They want a soldier to deal with Zhang Lu. You are happy to be that soldier.[[/i]]\\n\\nYour standing with Liu Yan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Huang Quan, Wu Yi, Wu Ban[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s1FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s1FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s1SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s1SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_yan_s2	The Faction That Wanted You	false
+dilemmas_localised_description_ironic_ptu_join_liu_yan_s2	[[i]]Some in Chengdu decided years ago that Liu Yan's line was finished.[[/i]]\\n\\nYour standing with Liu Yan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Zhang Song, Li Yan, Liu Ba[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s2FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s2FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s2SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s2SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_yan_s3	The Turn at Fu	false
+dilemmas_localised_description_ironic_ptu_join_liu_yan_s3	[[i]]The pretence ends. The men who arranged it march with you.[[/i]]\\n\\nYour standing with Liu Yan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Fa Zheng, Meng Da, Dong He[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s3SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s3SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_yan_s4	The Court at Chengdu	false
+dilemmas_localised_description_ironic_ptu_join_liu_yan_s4	[[i]]Wu Yi offers you his sister, and with her the gentry of Yi. Administrators, not soldiers -- and it is administrators who hold a province.[[/i]]\\n\\nYour standing with Liu Yan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Lady Wu Xian, Li Hui, Jiang Wan[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s4SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s4SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_liu_yan_s5	The Gates of Chengdu	false
+dilemmas_localised_description_ironic_ptu_join_liu_yan_s5	[[i]]The city opens rather than burn. Yi passes to you, and with it the young men who will still be serving your house long after you are gone.[[/i]]\\n\\nYour standing with Liu Yan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Wang Ping, Zhang Yi, Dong Yun, Ma Zhong[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s5FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s5FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_liu_yan_s5SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_liu_yan_s5SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_ma_teng_s3	Kinsmen of the Ma	false
+dilemmas_localised_description_ironic_ptu_join_ma_teng_s3	[[i]]The cousins come first. They always do.[[/i]]\\n\\nYour standing with Ma Teng has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Ma Dai, Pang De[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_ma_teng_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_ma_teng_s3FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_ma_teng_s3SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_ma_teng_s3SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_ma_teng_s4	The Splendid Brocade	false
+dilemmas_localised_description_ironic_ptu_join_ma_teng_s4	[[i]]His family is dead in Ye and he has nowhere left. He kneels at Chengdu.[[/i]]\\n\\nYour standing with Ma Teng has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Ma Chao, Ma Yunlu[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_ma_teng_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_ma_teng_s4FIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_ma_teng_s4SECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_ma_teng_s4SECOND	Welcome them.	false
+dilemmas_localised_title_ironic_ptu_join_sun_set	The Sun Clan	false
+dilemmas_localised_description_ironic_ptu_join_sun_set	[[i]]Every debt between your houses is settled, and one thing remains unsaid.[[/i]]\\n\\nYour standing with The Sun Clan has reached the point where men in their service will follow you instead, and they will not stand in the way of it. [[b]]Lady Sun[[/b]] await your word.\\n\\nTaking them into your household will cost you in silver and in the goodwill of those you leave behind. Refusing costs you nothing but the men.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_sun_setFIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_sun_setFIRST	Decline, with thanks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_ptu_join_sun_setSECOND	Welcome them.	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_ptu_join_sun_setSECOND	Welcome them.	false

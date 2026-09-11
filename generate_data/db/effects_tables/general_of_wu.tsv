@@ -1,0 +1,10 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/general_of_wu								
+ironic_chen_wu	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ding_feng	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_dong_xi	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_han_dang	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_jiang_qin	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ling_tong	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_pan_zhang	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_xu_sheng	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default

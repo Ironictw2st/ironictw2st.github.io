@@ -1,0 +1,95 @@
+key	text	tooltip
+#Loc;1;text/ui/zhu_hao_shop_items.loc		
+ironic_unit_upgrades_item_title_earth_range_block	Earth Doctrine: Shield Discipline	false
+ironic_unit_upgrades_item_desc_earth_range_block	+20% missile block chance for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% missile block chance. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_earth_all_damage	Earth Doctrine: Crushing Blows	false
+ironic_unit_upgrades_item_desc_earth_all_damage	+25% melee damage for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% melee damage. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_earth_speed	Earth Doctrine: Forced March	false
+ironic_unit_upgrades_item_desc_earth_speed	+20% speed for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% speed. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_earth_armor	Earth Doctrine: Hardened Ranks	false
+ironic_unit_upgrades_item_desc_earth_armor	+20% armour for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% armour. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_fire_charge_bonus	Fire Doctrine: Furious Charge	false
+ironic_unit_upgrades_item_desc_fire_charge_bonus	+25% charge bonus for all Fire units. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain 5% charge bonus. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_fire_speed	Fire Doctrine: Swift Advance	false
+ironic_unit_upgrades_item_desc_fire_speed	+20% speed for all Fire units. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain 5% speed. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_fire_armor	Fire Doctrine: Tempered Plate	false
+ironic_unit_upgrades_item_desc_fire_armor	+20% armour for all Fire units. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain 5% armour. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_fire_fatigue_rate	Fire Doctrine: Tireless Fervour	false
+ironic_unit_upgrades_item_desc_fire_fatigue_rate	All Fire units get 10 more morale. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain +5 morale. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_water_range_view	Water Doctrine: Far Sight	false
+ironic_unit_upgrades_item_desc_water_range_view	+20% missile range for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% missile range. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_water_ammo	Water Doctrine: Deep Quivers	false
+ironic_unit_upgrades_item_desc_water_ammo	+25% ammunition for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% ammunition. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_water_range_block	Water Doctrine: Arrow Wards	false
+ironic_unit_upgrades_item_desc_water_range_block	+20% missile block chance for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% missile block chance. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_water_all_damage	Water Doctrine: Piercing Volleys	false
+ironic_unit_upgrades_item_desc_water_all_damage	+25% missile damage for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% missile damage. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_wood_armor	Wood Doctrine: Stalwart Mail	false
+ironic_unit_upgrades_item_desc_wood_armor	+20% armour for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% armour. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_wood_melee_evasion	Wood Doctrine: Weaving Spears	false
+ironic_unit_upgrades_item_desc_wood_melee_evasion	+20% melee evasion for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% melee evasion. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_wood_ap_damage	Wood Doctrine: Splitting Points	false
+ironic_unit_upgrades_item_desc_wood_ap_damage	+25% armour-piercing damage for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% armour-piercing damage. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_wood_range_block	Wood Doctrine: Raised Shields	false
+ironic_unit_upgrades_item_desc_wood_range_block	+20% missile block chance for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% missile block chance. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_metal_speed	Metal Doctrine: Loping Stride	false
+ironic_unit_upgrades_item_desc_metal_speed	+20% speed for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 5% speed. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_metal_melee_evasion	Metal Doctrine: Sidestep	false
+ironic_unit_upgrades_item_desc_metal_melee_evasion	+20% melee evasion for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 5% melee evasion. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_metal_attack_rate	Metal Doctrine: Frenzied Blows	false
+ironic_unit_upgrades_item_desc_metal_attack_rate	+25% melee attack rate for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 5% melee attack rate. Costs 1 Legacy Point. Permanent.	false
+ironic_unit_upgrades_item_title_metal_charge_bonus	Metal Doctrine: Thunderous Charge	false
+ironic_unit_upgrades_item_desc_metal_charge_bonus	+50% charge bonus for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 10% charge bonus. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_earth_range_block	Earth Doctrine: Shield Discipline	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_earth_range_block	+20% missile block chance for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% missile block chance. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_earth_all_damage	Earth Doctrine: Crushing Blows	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_earth_all_damage	+25% melee damage for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% melee damage. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_earth_speed	Earth Doctrine: Forced March	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_earth_speed	+20% speed for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% speed. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_earth_armor	Earth Doctrine: Hardened Ranks	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_earth_armor	+20% armour for all Earth units. Your generals, bound to the old general's unbending methods, lose 20% missile block chance. All other units gain 5% armour. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_fire_charge_bonus	Fire Doctrine: Furious Charge	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_fire_charge_bonus	+25% charge bonus for all Fire units. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain 5% charge bonus. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_fire_speed	Fire Doctrine: Swift Advance	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_fire_speed	+20% speed for all Fire units. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain 5% speed. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_fire_armor	Fire Doctrine: Tempered Plate	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_fire_armor	+20% armour for all Fire units. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain 5% armour. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_fire_fatigue_rate	Fire Doctrine: Tireless Fervour	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_fire_fatigue_rate	All Fire units gain fatigue 50% more slowly. Your generals, bound to the old general's unbending methods, lose 20% charge bonus. All other units gain -15% fatigue resistance. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_water_range_view	Water Doctrine: Far Sight	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_water_range_view	+20% missile range for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% missile range. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_water_ammo	Water Doctrine: Deep Quivers	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_water_ammo	+25% ammunition for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% ammunition. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_water_range_block	Water Doctrine: Arrow Wards	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_water_range_block	+20% missile block chance for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% missile block chance. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_water_all_damage	Water Doctrine: Piercing Volleys	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_water_all_damage	+25% missile damage for all Water units. Your generals, bound to the old general's unbending methods, lose 20% melee evasion. All other units gain 5% missile damage. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_wood_armor	Wood Doctrine: Stalwart Mail	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_wood_armor	+20% armour for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% armour. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_wood_melee_evasion	Wood Doctrine: Weaving Spears	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_wood_melee_evasion	+20% melee evasion for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% melee evasion. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_wood_ap_damage	Wood Doctrine: Splitting Points	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_wood_ap_damage	+25% armour-piercing damage for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% armour-piercing damage. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_wood_range_block	Wood Doctrine: Raised Shields	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_wood_range_block	+20% missile block chance for all Wood units. Your generals, bound to the old general's unbending methods, lose 25% melee damage. All other units gain 5% missile block chance. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_metal_speed	Metal Doctrine: Loping Stride	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_metal_speed	+20% speed for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 5% speed. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_metal_melee_evasion	Metal Doctrine: Sidestep	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_metal_melee_evasion	+20% melee evasion for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 5% melee evasion. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_metal_attack_rate	Metal Doctrine: Frenzied Blows	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_metal_attack_rate	+25% melee attack rate for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 5% melee attack rate. Costs 1 Legacy Point. Permanent.	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_title_metal_charge_bonus	Metal Doctrine: Thunderous Charge	false
+campaign_localised_strings_string_ironic_unit_upgrades_item_desc_metal_charge_bonus	+50% charge bonus for all Metal units. Your generals, bound to the old general's unbending methods, lose 20% armour. All other units gain 10% charge bonus. Costs 1 Legacy Point. Permanent.	false
+zhu_hao_set_bonus_prefix	Set Bonus	false
+campaign_localised_strings_string_zhu_hao_set_bonus_prefix	Set Bonus	false
+zhu_hao_set_name_earth	Guerrilla Deployment (army-wide)	false
+campaign_localised_strings_string_zhu_hao_set_name_earth	Guerrilla Deployment (army-wide)	false
+zhu_hao_set_name_fire	Mighty Knockback (army-wide)	false
+campaign_localised_strings_string_zhu_hao_set_name_fire	Mighty Knockback (army-wide)	false
+zhu_hao_set_name_water	Fire While Moving and Parthian Shot (army-wide)	false
+campaign_localised_strings_string_zhu_hao_set_name_water	Fire While Moving and Parthian Shot (army-wide)	false
+zhu_hao_set_name_wood	Fatigue Immune (army-wide)	false
+campaign_localised_strings_string_zhu_hao_set_name_wood	Fatigue Immune (army-wide)	false
+zhu_hao_set_name_metal	Stalk (army-wide)	false
+campaign_localised_strings_string_zhu_hao_set_name_metal	Stalk (army-wide)	false
+uied_component_texts_localised_string_father_legacy_button_Tooltip_1c3214	[[b]]Father's Legacy[[/b]]|| Complete tasks left to you by your father, enforce his discipline and strive for greatness!	false

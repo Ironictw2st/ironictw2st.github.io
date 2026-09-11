@@ -1,0 +1,23 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/chenwenresource								
+ironic_coalition_of_the_plains_decay	flag.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_armies	flag.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_captives_post_battle	flag.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_characters	flag.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_garrisoned	flag.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_buildings	flag.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_coalition_of_the_plains_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_coalition_of_the_plains_executed	flag.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_assignments	flag.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_unique_effects	info.png	100	campaign			0.0000	positive_value_is_good	info
+ironic_coalition_of_the_plains_unit_fire	replenishment.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_unit_wood	replenishment.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_unit_earth	replenishment.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_unit_metal	replenishment.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_unit_water	replenishment.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_coalition_of_the_plains_unique_unit	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_coalition_of_the_plains_1	flag.png	100	campaign		ironic_frontend_description_coalition_of_the_plains_1	0.0000	positive_value_is_good	default
+ironic_frontend_description_coalition_of_the_plains_2	flag.png	100	campaign		ironic_frontend_description_coalition_of_the_plains_2	0.0000	positive_value_is_good	default
+ironic_frontend_description_coalition_of_the_plains_3	flag.png	100	campaign		ironic_frontend_description_coalition_of_the_plains_3	0.0000	positive_value_is_good	default
+ironic_frontend_description_coalition_of_the_plains_4	flag.png	100	campaign		ironic_frontend_description_coalition_of_the_plains_4	0.0000	positive_value_is_good	default

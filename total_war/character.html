@@ -1375,7 +1375,7 @@
 
   <header>
     <nav class="top-nav">
-      <a href="../index.html" class="back-link">← Back to Hub</a>
+      <a href="../index.html" class="back-link">← Home</a>
     </nav>
     <div class="header-content">
       <p class="subtitle">190 Expanded Wiki</p>
@@ -1385,7 +1385,7 @@
 
   <nav class="main-nav">
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="../index.html">Home</a></li>
       <li><a href="factions.html">Factions</a></li>
       <li><a href="characters.html" class="active">Characters</a></li>
       <li><a href="guides.html">Guides</a></li>
@@ -1410,14 +1410,21 @@
 
   <footer>
     <p>190 Expanded Wiki · Created by Ironic</p>
+    <p class="ext-links">
+      <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+      <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+      <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
   </footer>
 
   <script src="data/characters.js"></script>
   <script src="data/character_details.js"></script>
   <script src="data/character_bios.js"></script>
+  <script src="data/character_bios_new.js"></script>
   <script src="data/family_tree.js"></script>
   <script src="data/traits.js"></script>
   <script src="data/skill_trees.js"></script>
+  <script src="data/factions.js"></script>
 
   <!-- Dagre + Family Tree renderer -->
   <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
@@ -2101,14 +2108,30 @@
        Main render functions
        ========================= */
     
+    function leadsHtml(char) {
+      const leaders = Array.isArray(char.faction_leader_of) ? char.faction_leader_of : [];
+      if (!leaders.length || typeof FACTION_BY_LEADER === 'undefined' || typeof FACTION_LOOKUP === 'undefined') return '';
+      const links = [];
+      leaders.forEach(lk => {
+        const id = FACTION_BY_LEADER[lk];
+        const f = id ? FACTION_LOOKUP[id] : null;
+        if (!f || links.some(x => x.id === f.id)) return;
+        links.push(f);
+      });
+      if (!links.length) return '';
+      return `<p class="char-leads" style="font-size:0.85rem;color:var(--text-secondary);margin:0.4rem 0 0.6rem">Leads
+        ${links.map(f => `<a href="faction.html?key=${encodeURIComponent(f.id)}" style="color:var(--gold-light);text-decoration:none">${escapeHtml(f.state_name && f.state_name !== f.name ? f.state_name : f.name)}</a>`).join(', ')}
+        <span style="color:var(--text-muted)">(faction page)</span></p>`;
+    }
+
     function renderCharacter(char) {
       const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
         ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)
         : null;
 
-      const biography = (typeof CHARACTER_BIOS_LOOKUP !== 'undefined')
-        ? (CHARACTER_BIOS_LOOKUP[char.key] || '')
-        : '';
+      const biography = (typeof CHARACTER_BIOS_LOOKUP !== 'undefined' && CHARACTER_BIOS_LOOKUP[char.key])
+        ? CHARACTER_BIOS_LOOKUP[char.key]
+        : ((typeof CHARACTER_BIOS_NEW !== 'undefined' && CHARACTER_BIOS_NEW[char.key]) || '');
 
       document.title = `${char.display_name} | 190 Expanded Wiki`;
 
@@ -2168,6 +2191,7 @@
                 </p>
               ` : ''}
               ${dateStr ? `<p class="char-dates">${escapeHtml(dateStr)}</p>` : ''}
+              ${leadsHtml(char)}
               <div class="char-tags">
                 <span class="tag ${char.is_unique ? 'unique' : 'generic'}">
                   ${char.is_unique ? 'Unique' : 'Generic'}

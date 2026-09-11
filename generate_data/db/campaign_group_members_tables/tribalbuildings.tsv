@@ -1,0 +1,26 @@
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/tribalbuildings		
+ironic_qiang_building_han	ironic_qiang_building	0.0000
+ironic_qiang_building_bandit	ironic_qiang_building	0.0000
+ironic_qiang_building_nanman	ironic_qiang_building	0.0000
+ironic_xiongnu_building_han	ironic_xiongnu_building	0.0000
+ironic_xiongnu_building_bandit	ironic_xiongnu_building	0.0000
+ironic_xiongnu_building_nanman	ironic_xiongnu_building	0.0000
+ironic_xiliang_build	ironic_xiliang_build	0.0000
+ironic_xiliang_build_nanman	ironic_xiliang_build	0.0000
+ironic_xiliang_build_bandit	ironic_xiliang_build	0.0000
+ironic_yue_build	ironic_yue_build	0.0000
+ironic_yue_build_bandit	ironic_yue_build	0.0000
+ironic_yue_build_nan	ironic_yue_build	0.0000
+ironic_xianbei_build	ironic_xianbei_build	0.0000
+ironic_xianbei_build_band	ironic_xianbei_build	0.0000
+ironic_xianbei_build_nan	ironic_xianbei_build	0.0000
+ironic_wuhuan_build	ironic_wuhuan_build	0.0000
+ironic_wuhuan_build_band	ironic_wuhuan_build	0.0000
+ironic_wuhuan_build_nan	ironic_wuhuan_build	0.0000
+ironic_chu_build	ironic_chu_build	0.0000
+ironic_chu_build_band	ironic_chu_build	0.0000
+ironic_chu_build_nan	ironic_chu_build	0.0000
+ironic_qi_build	ironic_qi_build	0.0000
+ironic_qi_build_nan	ironic_qi_build	0.0000
+ironic_qi_build_bandit	ironic_qi_build	0.0000

@@ -1,0 +1,64 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/zhu_haoresource/resource_unit_upgrades.loc		
+effect_bundles_localised_title_ironic_unit_upgrades_effect_bundle	Father's Legacy	true
+effect_bundles_localised_title_ironic_unit_upgrades_resource_level_0	Father's Legacy: Unproven	true
+effect_bundles_localised_title_ironic_unit_upgrades_resource_level_1	Father's Legacy: Acknowledged	true
+effect_bundles_localised_title_ironic_unit_upgrades_resource_level_2	Father's Legacy: Respected	true
+effect_bundles_localised_title_ironic_unit_upgrades_resource_level_3	Father's Legacy: Honoured	true
+effect_bundles_localised_title_ironic_unit_upgrades_resource_level_4	Father's Legacy: His Equal	true
+effect_bundles_localised_description_ironic_unit_upgrades_resource_level_0	The realm remembers the father, not yet the son.	true
+effect_bundles_localised_description_ironic_unit_upgrades_resource_level_1	The first trials are passed; the old veterans have begun to watch.	true
+effect_bundles_localised_description_ironic_unit_upgrades_resource_level_2	The name Zhu carries weight again in council and camp.	true
+effect_bundles_localised_description_ironic_unit_upgrades_resource_level_3	Officers who served the father now speak of the son in the same breath.	true
+effect_bundles_localised_description_ironic_unit_upgrades_resource_level_4	The realm no longer says 'Zhu Jun's son'. It says Zhu Hao.	true
+effects_description_ironic_unit_upgrades_decay	[[b]]%+n[[/b]] Father's Legacy	true
+effects_description_ironic_unit_upgrades_armies	[[b]]%+n[[/b]] Father's Legacy	true
+effects_description_ironic_unit_upgrades_robin_hood	[[b]]%+n[[/b]] Father's Legacy	true
+effects_description_ironic_unit_upgrades_garrisoned	[[b]]%+n[[/b]] Father's Legacy	true
+effects_description_ironic_unit_upgrades_vassalized	[[b]]%+n[[/b]] Father's Legacy	true
+effects_description_ironic_unit_upgrades_info_gain	[[b]]Father's Legacy[[/b]] grows only as you prove worthy of the name: one point for each trial passed, sixteen in all, though some trials do not announce themselves.	true
+effects_description_ironic_unit_upgrades_info_loss	[[b]]Father's Legacy[[/b]] is spent in the Legacy panel. Each doctrine costs one point and is permanent.	true
+effects_generalised_descriptions_localised_description_ironic_unit_upgrades_effect_bundle_1	• Legacy is gained by completing certain missions.	true
+effects_generalised_descriptions_localised_description_ironic_unit_upgrades_effect_bundle_2	• Legacy can be spent on different bonuses.	true
+effects_generalised_descriptions_localised_description_ironic_unit_upgrades_effect_bundle_3	• These different bonuses increase stats of units.	true
+effects_generalised_descriptions_localised_description_ironic_unit_upgrades_effect_bundle_4	• These bonuses come at the cost of the stats of your generals.	true
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_stance	Stance	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_execute	Executed Captives	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_assignment	Assignments	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_faction_leader	Faction Leader	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_army	Armies	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_army	Armies	true
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_at_war	At War	true
+pooled_resources_description_ironic_unit_upgrades	The weight and worth of a great father's name. Earned by proving yourself his equal, spent teaching his doctrines to your armies.	true
+pooled_resources_display_name_ironic_unit_upgrades	Father's Legacy	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_unit_upgrades	The weight and worth of a great father's name. Earned by proving yourself his equal, spent teaching his doctrines to your armies.	true
+pooled_resources_negative_factors_display_name_ironic_unit_upgrades	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_unit_upgrades	Increase	true
+ui_text_replacements_localised_text_victory_condition_unit_upgrades	CHINA MUST BE UNITED!	true
+ui_character_assignments_localised_title_ironic_unit_upgrades_improve	Unit Upgrades Improve	false
+ui_character_assignments_localised_description_ironic_unit_upgrades_improve	Has no effect on Zhu Jun's Legacy.	false
+ui_character_assignments_localised_title_ironic_unit_upgrades_reduce	Unit Upgrades Reduce	false
+ui_character_assignments_localised_description_ironic_unit_upgrades_reduce	Has no effect on Zhu Jun's Legacy.	false
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_assignments	Assignments	false
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_purchases	Doctrines Taught	false
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_purchases	Doctrines Taught	false
+effects_description_ironic_unit_upgrades_captives_post_battle	[[b]]%+n[[/b]] Father's Legacy	false
+effects_description_ironic_unit_upgrades_characters	[[b]]%+n[[/b]] Father's Legacy	false
+effects_description_ironic_unit_upgrades_executed	[[b]]%+n[[/b]] Father's Legacy	false
+effects_description_ironic_unit_upgrades_assignments	[[b]]%+n[[/b]] Father's Legacy	false
+pooled_resource_factors_display_name_positive_ironic_unit_upgrades_missions	Trials Passed	false
+pooled_resource_factors_display_name_negative_ironic_unit_upgrades_missions	Trials	false
+effect_bundles_localised_title_ironic_unit_upgrades_experience	A Legacy Imprinted	false
+effect_bundles_localised_description_ironic_unit_upgrades_experience	Your father's legacy has had great impact on your men.	false

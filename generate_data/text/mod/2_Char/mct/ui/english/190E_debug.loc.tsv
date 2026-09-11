@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/mct/ui/english/190E_debug.loc		
+MCT_localised_string_section_190E_Debug_EN	Debug	false
+MCT_localised_string_debug_log_info_EN	Writes a separate log to ironic_log_<faction>_<date>.txt next to Three_Kingdoms.exe. Unlike lua_mod_log.txt it is never overwritten by a later session. You have to manually delete these. 	false
+MCT_localised_string_debug_log_on_EN	Enable debug log - keeps a per-faction, per-session copy of the mod log	false
+MCT_localised_string_debug_log_verbose_EN	Verbose - also capture engine output and script errors (large file)	false
+MCT_localised_string_header_debug_log_test_EN	Mark the log	false
+MCT_localised_string_debug_log_test_EN	WRITE LOG MARKER	false

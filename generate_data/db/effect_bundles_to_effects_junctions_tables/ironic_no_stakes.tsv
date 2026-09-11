@@ -1,0 +1,3 @@
+effect_bundle_key	effect_key	effect_scope	value	advancement_stage
+#effect_bundles_to_effects_junctions_tables;2;db/effect_bundles_to_effects_junctions_tables/ironic_no_stakes				
+ironic_bundle_no_stakes	3k_dlc04_deployables_wooden_stakes_enable	faction_to_force_own_unseen	-1000.0000	start_turn_completed

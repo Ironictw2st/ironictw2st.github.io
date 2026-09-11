@@ -1,0 +1,45 @@
+key	ceo_effect_list	point_change_per_turn_if_active	title	description	icon_path	opinion_topic_modifier
+#ceo_nodes_tables;0;ceo_db/ceo_nodes_tables/mounts						
+3k_dlc04_ancillary_mount_liu_chong	3k_dlc04_ancillary_mount_liu_chong	0	Ebon Prince	A fine horse, fit for a king.	mounts/3k_dlc04_ancillary_mount_liu_chong.png	
+3k_dlc06_ancillary_mount_elephant_common	3k_dlc06_ancillary_mount_elephant_common	0	Elephant	A proud pachyderm; brutal and imposing to all before it.	mounts/3k_dlc06_ancillary_mount_elephant_common.png	
+3k_dlc06_ancillary_mount_elephant_exceptional	3k_dlc06_ancillary_mount_elephant_exceptional	0	Monarchial Elephant	A majestic beast, fit for a true leader.	mounts/3k_dlc06_ancillary_mount_elephant_extraordinary.png	
+3k_dlc06_ancillary_mount_elephant_refined	3k_dlc06_ancillary_mount_elephant_refined	0	War Elephant	Bred for one purpose and one alone: to destroy its master's foes.	mounts/3k_dlc06_ancillary_mount_elephant_refined.png	
+3k_dlc06_ancillary_mount_elephant_unique	3k_dlc06_ancillary_mount_elephant_unique	0	Southern Elephant	With a defiant trumpet and thundering feet, the elephant crushes all beneath vast feet..	mounts/3k_dlc06_ancillary_mount_elephant_unique.png	
+3k_main_ancillary_black_elite	3k_main_ancillary_mount_black_elite	0	Black Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_black_elite.png	
+3k_main_ancillary_black_horse	3k_main_ancillary_mount_black_horse	0	Black Horse	More than adequate for average journeys.	mounts/3k_main_ancillary_black_horse.png	
+3k_main_ancillary_black_stallion	3k_main_ancillary_mount_black_stallion	0	Black Stallion	A superior specimen indeed.	mounts/3k_main_ancillary_black_stallion.png	
+3k_main_ancillary_black_thoroughbred	3k_main_ancillary_mount_black_thoroughbred	0	Black Thoroughbred	This horse has shown great promise at an exceptionally young age.	mounts/3k_main_ancillary_black_thoroughbred.png	
+3k_main_ancillary_brown_elite	3k_main_ancillary_mount_brown_elite	0	Brown Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_brown_elite.png	
+3k_main_ancillary_brown_horse	3k_main_ancillary_mount_brown_horse	0	Brown Horse	More than adequate for average journeys.	mounts/3k_main_ancillary_brown_horse.png	
+3k_main_ancillary_brown_stallion	3k_main_ancillary_mount_brown_stallion	0	Brown Stallion	A superior specimen indeed.	mounts/3k_main_ancillary_brown_stallion.png	
+3k_main_ancillary_brown_thoroughbred	3k_main_ancillary_mount_brown_thoroughbred	0	Brown Thoroughbred	This horse has shown great promise at an exceptionally young age.	mounts/3k_main_ancillary_brown_thoroughbred.png	
+3k_main_ancillary_dilu	3k_main_ancillary_mount_dilu	0	Dilu	The last horse you will ever want!	mounts/3k_main_ancillary_dilu.png	
+3k_main_ancillary_grey_elite	3k_main_ancillary_mount_grey_elite	0	Grey Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_grey_elite.png	
+3k_main_ancillary_grey_horse	3k_main_ancillary_mount_grey_horse	0	Grey Horse	More than adequate for average journeys.	mounts/3k_main_ancillary_grey_horse.png	
+3k_main_ancillary_grey_stallion	3k_main_ancillary_mount_grey_stallion	0	Grey Stallion	A superior specimen indeed.	mounts/3k_main_ancillary_grey_stallion.png	
+3k_main_ancillary_grey_thoroughbred	3k_main_ancillary_mount_grey_thoroughbred	0	Grey Thoroughbred	This horse has shown great promise at an exceptionally young age.	mounts/3k_main_ancillary_grey_thoroughbred.png	
+3k_main_ancillary_mount_heavenly_fire	3k_main_ancillary_mount_heavenly_fire	0	Heavenly Fire	Faster and more destructive than thunder and lightning combined.	mounts/3k_main_ancillary_heavenly_fire.png	
+3k_main_ancillary_mount_wuhuan_horse	3k_main_ancillary_mount_wuhuan_horse	0	placeholder	placeholder	ui/ancillaries/mounts/3k_puzzle_ancillary_wuhuan_warhorse.png	
+3k_main_ancillary_mount_xianbei_horse	3k_main_ancillary_mount_xianbei_horse	0	placeholder	placeholder	ui/ancillaries/mounts/3k_puzzle_ancillary_mongol_wild_horse.png	
+3k_main_ancillary_mount_xiongnu_horse	3k_main_ancillary_mount_xiongnu_horse	0	placeholder	placeholder	ui/ancillaries/mounts/3k_puzzle_ancillary_xiongnu_purebreed.png	
+3k_main_ancillary_red_elite	3k_main_ancillary_mount_red_elite	0	Red Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_red_elite.png	
+3k_main_ancillary_red_hare	3k_main_ancillary_mount_red_hare	0	Red Hare	Ash red, this horse stands out, and can traverse the kingdom as if it were flat.	mounts/3k_main_ancillary_red_hare.png	
+3k_main_ancillary_red_horse	3k_main_ancillary_mount_red_horse	0	Red Horse	More than adequate for average journeys.	mounts/3k_main_ancillary_red_horse.png	
+3k_main_ancillary_red_stallion	3k_main_ancillary_mount_red_stallion	0	Red Stallion	A superior specimen indeed.	mounts/3k_main_ancillary_red_stallion.png	
+3k_main_ancillary_red_thoroughbred	3k_main_ancillary_mount_red_thoroughbred	0	Red Thoroughbred	This horse has shown great promise at an exceptionally young age.	mounts/3k_main_ancillary_red_thoroughbred.png	
+3k_main_ancillary_shadow_runner	3k_main_ancillary_mount_shadow_runner	0	Shadow Runner	A horse fast enough to outrun its own shadow!	mounts/3k_main_ancillary_shadow_runner.png	
+3k_main_ancillary_white_elite	3k_main_ancillary_mount_white_elite	0	White Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_white_elite.png	
+3k_main_ancillary_white_horse	3k_main_ancillary_mount_white_horse	0	White Horse	More than adequate for average journeys.	mounts/3k_main_ancillary_white_horse.png	
+3k_main_ancillary_white_stallion	3k_main_ancillary_mount_white_stallion	0	White Stallion	A superior specimen indeed.	mounts/3k_main_ancillary_white_stallion.png	
+3k_main_ancillary_white_thoroughbred	3k_main_ancillary_mount_white_thoroughbred	0	White Thoroughbred	This horse has shown great promise at an exceptionally young age.	mounts/3k_main_ancillary_white_thoroughbred.png	
+3k_main_ancillary_yellow_hoofed_thunder	3k_main_ancillary_mount_yellow_hoofed_thunder	0	Yellow-hoofed Thunder	Cao Cao's favourite steed, if the stories are to be believed.	mounts/3k_main_ancillary_yellow_hoofed_thunder.png	
+3k_mtu_ancillary_mount_lady_trieus_elephant_unique	3k_mtu_ancillary_mount_lady_trieus_elephant_unique	0	Queen's White Elephant	Lady Trieu's white elephant.	mounts/3k_mtu_ancillary_mount_lady_trieus_elephant_unique.png	
+3k_mtu_ancillary_mount_white_horse_unique	3k_mtu_ancillary_mount_white_horse_unique	0	placeholder	placeholder	mounts/3k_main_ancillary_white_elite.png	
+ep_dyn_ancillary_mount_black_elite	ep_dyn_ancillary_mount_black_elite	0	Black Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_black_elite.png	
+ep_dyn_ancillary_mount_brown_elite	ep_dyn_ancillary_mount_brown_elite	0	Brown Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_brown_elite.png	
+ep_dyn_ancillary_mount_grey_elite	ep_dyn_ancillary_mount_grey_elite	0	Grey Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_grey_elite.png	
+ep_dyn_ancillary_mount_red_elite	ep_dyn_ancillary_mount_red_elite	0	Red Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_red_elite.png	
+ep_dyn_ancillary_mount_red_hare	ep_dyn_ancillary_mount_red_hare	0	Red Hare	Ash red, this horse stands out, and can traverse the kingdom as if it were flat.	mounts/3k_main_ancillary_red_hare.png	
+ep_dyn_ancillary_mount_shadow_runner	ep_dyn_ancillary_mount_shadow_runner	0	Shadow Runner	A horse fast enough to outrun its own shadow!	mounts/3k_main_ancillary_shadow_runner.png	
+ep_dyn_ancillary_mount_white_elite	ep_dyn_ancillary_mount_white_elite	0	White Elite	Truly the lord of all horses.	mounts/3k_main_ancillary_white_elite.png	
+ironic_ancillary_mount_tiger	ironic_ancillary_mount_tiger	0	War Tiger	A tiger broken to the saddle; it fights for its rider.	mounts/ironic_tiger_mount_unique.png	

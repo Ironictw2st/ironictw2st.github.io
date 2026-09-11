@@ -1,0 +1,18 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ironic_effects								
+3k_main_effect_attribute_raider	raider.png	100	campaign			0.0000	positive_value_is_good	default
+3k_main_effect_unit_stats_charge_bonus_modifier_infantry	charge_bonus.png	100	campaign			0.0000	positive_value_is_good	default
+3k_main_ancillary_defense_formation	spear_wall_formation.png	100	campaign			0.0000	positive_value_is_good	default
+3k_main_effect_character_stat_mod_melee_defence_while_defending	stat_melee_block_chance_base.png	150	battle			0.0000	positive_value_is_good	default
+3k_dlc05_effect_unbreakable_when_defending	unit_attributes.png	100	battle			0.0000	positive_value_is_good	default
+ironic_effect_wang_kuang_diplomacy	diplomacy_attitude_effect.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_effect_zhang_yang_diplomacy	diplomacy_attitude_effect.png	200	campaign			0.0000	positive_value_is_good	default
+3k_main_effect_captain_mercenary_wuhuan_upgrade	unlocks_legendary_characters.png	150	campaign			0.0000	positive_value_is_good	default
+3k_main_effect_captain_mercenary_xiongnu_upgrade	unlocks_legendary_characters.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_bow_shoots_flame	unit_attributes.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_xiliang_units_limited	unlocks_legendary_characters.png	200	campaign			0.0000	positive_value_is_good	default
+3k_ironic_effect_campaign_movement_sea_in_own_regions	army_action_points.png	200	campaign			0.0000	positive_value_is_good	default
+3k_ironic_effect_campaign_movement_in_own_regions	army_action_points.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_effect_unlock_weapon_skill_trident_throw	unit_attributes.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_gdp_mod_all_source_prevent	money.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_korea_prestige_gain	prestige.png	200	campaign			0.0000	positive_value_is_good	default

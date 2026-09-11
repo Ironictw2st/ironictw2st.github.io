@@ -1,0 +1,74 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ironic_190e_boosts						
+ironic_boost_xp_25	+25% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_xp_50	+50% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_xp_75	+75% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_xp_100	+100% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_xp_125	+125% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_xp_150	+150% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_xp_175	+175% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_xp_200	+200% character experience (190E Boosts MCT option)	Boost: Character Experience	character_experience.png	faction	positive	false
+ironic_boost_research_25	+25% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_research_50	+50% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_research_75	+75% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_research_100	+100% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_research_125	+125% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_research_150	+150% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_research_175	+175% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_research_200	+200% research rate (190E Boosts MCT option)	Boost: Research Rate	research_rate_increase.png	faction	positive	false
+ironic_boost_replenishment_5	+5% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_10	+10% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_15	+15% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_20	+20% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_25	+25% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_30	+30% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_35	+35% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_40	+40% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_45	+45% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_replenishment_50	+50% replenishment (190E Boosts MCT option)	Boost: Replenishment	replenishment.png	faction	positive	false
+ironic_boost_income_25	+25% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_income_50	+50% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_income_75	+75% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_income_100	+100% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_income_125	+125% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_income_150	+150% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_income_175	+175% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_income_200	+200% income (gdp) (190E Boosts MCT option)	Boost: Income (GDP)	money.png	faction	positive	false
+ironic_boost_public_order_2	+2 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_4	+4 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_6	+6 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_8	+8 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_10	+10 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_12	+12 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_14	+14 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_16	+16 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_18	+18 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_public_order_20	+20 public order (190E Boosts MCT option)	Boost: Public Order	public_order.png	faction	positive	false
+ironic_boost_movement_25	+25% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_movement_50	+50% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_movement_75	+75% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_movement_100	+100% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_movement_125	+125% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_movement_150	+150% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_movement_175	+175% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_movement_200	+200% movement range (190E Boosts MCT option)	Boost: Movement Range	army_action_points.png	faction	positive	false
+ironic_boost_char_cost_5	-5% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_10	-10% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_15	-15% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_20	-20% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_25	-25% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_30	-30% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_35	-35% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_40	-40% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_45	-45% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_50	-50% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_55	-55% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_60	-60% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_65	-65% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_70	-70% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_75	-75% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_80	-80% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_85	-85% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_90	-90% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_95	-95% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false
+ironic_boost_char_cost_100	-100% character costs (190E Boosts MCT option)	Boost: Character Costs	trade_influence.png	faction	positive	false

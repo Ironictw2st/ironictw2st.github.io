@@ -1,0 +1,32 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/qu_panresource								
+ironic_madness_decay	icon_mad_bad.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_madness_captives_post_battle	icon_mad_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_madness_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_madness_executed	icon_mad_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_assignments	icon_mad_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_event_gain	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_event_loss	icon_mad_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_character_spawn	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_character_wounded	icon_mad_bad.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_madness_character_killed	icon_mad_bad.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_madness_army_travel	icon_mad_bad.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_madness_total_war	icon_mad_bad.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_madness_trade_off	icon_mad_bad.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_madness_destroyer_of_worlds	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_confedrate_faction	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_vassal_faction	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_good_to_bad	icon_mad_bad.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_madness_bad_to_good	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_ihnmaims	icon_mad_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_event_tier_0	icon_mad_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_event_tier_1	icon_mad_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_event_tier_2	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_event_tier_3	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_madness_event_tier_4	icon_mad_good.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_qu_pan_1	icon_mad_good.png	100	campaign		ironic_frontend_description_qu_pan_1	0.0000	positive_value_is_good	default
+ironic_frontend_description_qu_pan_2	icon_mad_good.png	100	campaign		ironic_frontend_description_qu_pan_2	0.0000	positive_value_is_good	default
+ironic_frontend_description_qu_pan_3	icon_mad_good.png	100	campaign		ironic_frontend_description_qu_pan_3	0.0000	positive_value_is_good	default
+ironic_frontend_description_qu_pan_4	icon_mad_good.png	100	campaign		ironic_frontend_description_qu_pan_4	0.0000	positive_value_is_good	default
+ironic_frontend_description_qu_pan_5	icon_mad_good.png	100	campaign		ironic_frontend_description_qu_pan_5	0.0000	positive_value_is_good	default

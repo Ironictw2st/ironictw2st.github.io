@@ -1,0 +1,10 @@
+key
+#pooled_resource_factors_tables;0;db/pooled_resource_factors_tables/bian_rangresource
+ironic_recruitment_factor
+ironic_recruitment_victory
+ironic_recruitment_defeat
+ironic_recruitment_decay
+ironic_recruitment_at_war
+ironic_recruitment_post_battle_options
+ironic_recruitment_assignments
+ironic_recruitment_recruitment

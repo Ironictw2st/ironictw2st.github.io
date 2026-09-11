@@ -1,0 +1,13 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/gongsundukorearelation						
+ironic_liaodong_korea_relations_resource_level_0			3k_dlc07_enemy_of_the_han.png	faction	negative	false
+ironic_liaodong_korea_relations_resource_level_1			3k_dlc07_enemy_of_the_han.png	faction	negative	false
+ironic_liaodong_korea_relations_resource_level_2			3k_dlc07_enemy_of_the_han.png	faction	neutral	false
+ironic_liaodong_korea_relations_resource_level_3			3k_dlc07_enemy_of_the_han.png	faction	positive	false
+ironic_liaodong_korea_relations_resource_level_4			3k_dlc07_enemy_of_the_han.png	faction	positive	false
+ironic_liaodong_korea_relations_captives_execute			no_effect.png	force	neutral	false
+ironic_liaodong_korea_relations_captives_recruit			no_effect.png	force	neutral	false
+ironic_liaodong_korea_relations_captives_release			no_effect.png	force	neutral	false
+ironic_liaodong_korea_relations_garrisoned			3k_dlc07_enemy_of_the_han.png	force	neutral	false
+ironic_liaodong_korea_relations_vassalized			3k_dlc07_enemy_of_the_han.png	force	neutral	false
+ironic_liaodong_korea_relations_effect_bundle			3k_dlc07_enemy_of_the_han.png	faction	neutral	false

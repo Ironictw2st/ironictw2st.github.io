@@ -1,0 +1,12 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/extra_skills								
+ironic_cao_chun	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_cao_hong	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_cheng_yu	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_lu_meng	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_pang_degong	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_sima_hui	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_wang_lang_buff	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_wang_lang_death	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zhu_zhi	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_cai_mao	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default

@@ -1,0 +1,10 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/xiahouyuanresource						
+ironic_xiahou_yuan_resource_level_0			army.png	faction	neutral	false
+ironic_xiahou_yuan_resource_level_1			army.png	faction	neutral	false
+ironic_xiahou_yuan_resource_level_2			army.png	faction	neutral	false
+ironic_xiahou_yuan_resource_level_3			army.png	faction	neutral	false
+ironic_xiahou_yuan_resource_level_4			army.png	faction	neutral	false
+ironic_xiahou_yuan_war_declared			army.png	faction	positive	true
+ironic_xiahou_yuan_recruitment			army.png	faction	positive	true
+ironic_xiahou_yuan_frontend			army.png	faction	positive	true

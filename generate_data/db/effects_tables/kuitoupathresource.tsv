@@ -1,0 +1,18 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/kuitoupathresource								
+ironic_path_ts_decay	causes_encourage.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_armies	causes_encourage.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_captives_post_battle	causes_encourage.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_characters	causes_encourage.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_garrisoned	causes_encourage.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_vassalized	causes_encourage.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_path_ts_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_path_ts_executed	causes_encourage.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_assignments	causes_encourage.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_path_ts_effect_bundle_frontend_1	causes_encourage.png	1	campaign		ironic_path_ts_effect_bundle_frontend_1	0.0000	positive_value_is_good	default
+ironic_path_ts_effect_bundle_frontend_2	causes_encourage.png	2	campaign		ironic_path_ts_effect_bundle_frontend_2	0.0000	positive_value_is_good	default
+ironic_path_ts_effect_bundle_frontend_3	causes_encourage.png	3	campaign		ironic_path_ts_effect_bundle_frontend_3	0.0000	positive_value_is_good	default
+ironic_path_ts_effect_bundle_frontend_4	causes_encourage.png	4	campaign		ironic_path_ts_effect_bundle_frontend_4	0.0000	positive_value_is_good	default
+ironic_path_ts_effect_bundle_frontend_5	causes_encourage.png	5	campaign		ironic_path_ts_effect_bundle_frontend_5	0.0000	positive_value_is_good	default
+ironic_path_ts_effect_bundle_frontend_6	causes_encourage.png	6	campaign		ironic_path_ts_effect_bundle_frontend_6	0.0000	positive_value_is_good	default

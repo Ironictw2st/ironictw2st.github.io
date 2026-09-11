@@ -1,0 +1,18 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/zhangchaoresource								
+ironic_Calligraphy_decay	research_rate_increase.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_Calligraphy_armies	research_rate_increase.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_Calligraphy_captives_post_battle	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_Calligraphy_characters	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_Calligraphy_garrisoned	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_Calligraphy_technology	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	info
+ironic_Calligraphy_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_Calligraphy_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_Calligraphy_executed	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_Calligraphy_assignments	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_Calligraphy_experience	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_Calligraphy_1	info.png	1	campaign		ironic_frontend_description_Calligraphy_1	0.0000	positive_value_is_good	default
+ironic_frontend_description_Calligraphy_2	info.png	2	campaign		ironic_frontend_description_Calligraphy_2	0.0000	positive_value_is_good	default
+ironic_frontend_description_Calligraphy_3	info.png	3	campaign		ironic_frontend_description_Calligraphy_3	0.0000	positive_value_is_good	default
+ironic_frontend_description_Calligraphy_4	info.png	4	campaign		ironic_frontend_description_Calligraphy_4	0.0000	positive_value_is_good	default
+ironic_Calligraphy_buildings	research_rate_increase.png	100	campaign			0.0000	positive_value_is_good	default

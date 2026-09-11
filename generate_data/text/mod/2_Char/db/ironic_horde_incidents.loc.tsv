@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_horde_incidents.loc		
+incidents_localised_title_ironic_horde_construction	Horde Construction Complete	false
+incidents_localised_description_ironic_horde_construction	Your tribes have finished raising new structures within the horde. Open the Horde panel to review your armies' buildings and effects.	false
+incidents_localised_title_ironic_horde_city_l4	A City on the March	false
+incidents_localised_description_ironic_horde_city_l4	One of your wandering cities has grown to level 4. New building slots open, but so great a host grows costly to keep.	false
+incidents_localised_title_ironic_horde_city_l7	Capital of the Steppe	false
+incidents_localised_description_ironic_horde_city_l7	A wandering city has reached its greatest size. Every building slot it can grant now stands open.	false
+incidents_localised_title_ironic_horde_pop_starving	The Host Starves	false
+incidents_localised_description_ironic_horde_pop_starving	An army's population has fallen into starvation. Morale, replenishment and pace suffer until the people are fed - take population from a settlement or camp in friendly lands.	false
+incidents_localised_title_ironic_horde_pop_thriving	The Host Thrives	false
+incidents_localised_description_ironic_horde_pop_thriving	An army's population is thriving. The war-band fights harder, recovers faster - and may raise several constructions at once.	false

@@ -1,0 +1,13 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/bian_rangresource						
+ironic_recruitment_resource_level_0			diplomacy_attitude_effect.png	faction	negative	false
+ironic_recruitment_resource_level_1			diplomacy_attitude_effect.png	faction	negative	false
+ironic_recruitment_resource_level_2			diplomacy_attitude_effect.png	faction	neutral	false
+ironic_recruitment_resource_level_3			diplomacy_attitude_effect.png	faction	positive	false
+ironic_recruitment_resource_level_4			diplomacy_attitude_effect.png	faction	positive	false
+ironic_recruitment_captives_execute			no_effect.png	force	neutral	false
+ironic_recruitment_captives_recruit			no_effect.png	force	neutral	false
+ironic_recruitment_captives_release			no_effect.png	force	neutral	false
+ironic_recruitment_garrisoned			diplomacy_attitude_effect.png	force	neutral	false
+ironic_recruitment_vassalized			diplomacy_attitude_effect.png	force	neutral	false
+ironic_recruitment_effect_bundle			diplomacy_attitude_effect.png	faction	neutral	false

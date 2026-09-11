@@ -1,0 +1,5 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zhu_hao_captains						
+ironic_effect_bundle_zhu_hao_captains_rank_3			mh_imperial_army.png	faction	neutral	false
+ironic_effect_bundle_zhu_hao_captains_rank_4			mh_imperial_army.png	faction	neutral	false
+ironic_effect_bundle_zhu_hao_captains_rank_5			mh_imperial_army.png	faction	neutral	false

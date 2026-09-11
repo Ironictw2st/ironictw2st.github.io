@@ -1,0 +1,97 @@
+key	ceo_effect_list	point_change_per_turn_if_active	title	description	icon_path	opinion_topic_modifier
+#ceo_nodes_tables;0;ceo_db/ceo_nodes_tables/data__						
+3k_dlc04_political_support_party01_01	3k_dlc04_political_support_party01_01	0	This character somewhat supports the bureaucratic faction in the court.	placeholder	UI/Campaign UI/traits/icon_tiger_tally_good.png	
+3k_dlc04_political_support_party01_02	3k_dlc04_political_support_party01_02	0	This character supports the bureaucratic faction in the court.	placeholder	UI/Campaign UI/traits/icon_strong_good.png	
+3k_dlc04_political_support_party01_03	3k_dlc04_political_support_party01_03	0	This character strongly supports the bureaucratic faction in the court.	placeholder	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_dlc04_political_support_party02_01	3k_dlc04_political_support_party02_01	0	This character somewhat supports the warlords in the empire.	placeholder	UI/Campaign UI/traits/icon_tiger_tally_good.png	
+3k_dlc04_political_support_party02_02	3k_dlc04_political_support_party02_02	0	This character supports the warlords in the empire.	placeholder	UI/Campaign UI/traits/icon_strong_good.png	
+3k_dlc04_political_support_party02_03	3k_dlc04_political_support_party02_03	0	This character strongly supports the warlords in the empire.	placeholder	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_dlc04_political_support_party03_01	3k_dlc04_political_support_party03_01	0	This character somewhat supports the ruling dynasty.	placeholder	UI/Campaign UI/traits/icon_tiger_tally_good.png	
+3k_dlc04_political_support_party03_02	3k_dlc04_political_support_party03_02	0	This character supports the ruling dynasty.	placeholder	UI/Campaign UI/traits/icon_strong_good.png	
+3k_dlc04_political_support_party03_03	3k_dlc04_political_support_party03_03	0	This character strongly supports the ruling dynasty.	placeholder	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_dlc05_ceo_node_hidden_shared_expertise	empty_effects	0	Hidden	Hidden	UI/Campaign UI/traits/icon_spiritual_wood.png	
+3k_dlc06_ceo_class_nanman	3k_dlc06_ceo_class_nanman	0	Southern Bulwark	Proud warriors of the south, natives and determined people, resisting encroaching invaders.	$ui_treatment$	
+3k_dlc06_ceo_equipment_permissions_armour_nanman	3k_dlc06_ceo_equipment_permissions_armour_nanman	0	HIDDEN	HIDDEN		
+3k_dlc06_ceo_family_member_tag_01	3k_dlc06_effect_shi_xie_family_satisfaction	0	HIDDEN	HIDDEN	$hidden$	
+3k_dlc06_ceo_shi_xie_non_family_unsatisfied	3k_dlc06_ceo_shi_xie_non_family_unsatisfied	0	HIDDEN	HIDDEN	$hidden$	
+3k_ironic_wu_jing_ceo_family_member_tag	3k_ironic_wu_jing_ceo_family_member_tag	0	HIDDEN	HIDDEN	$hidden$	
+3k_ironic_wu_jing_ceo_non_family_member_tag	3k_ironic_wu_jing_ceo_non_family_member_tag	0	HIDDEN	HIDDEN	$hidden$	
+3k_main_ceo_career_historical_liu_dai	3k_main_ceo_career_historical_liu_dai	0	placeholder	placeholder	armours/3k_main_ancillary_water_armour_unique.png	3k_main_opinion_topic_set_determination_defiant
+3k_main_ceo_career_historical_mi_zhu	3k_main_ceo_career_historical_mi_zhu	0	placeholder	placeholder	armours/3k_main_ancillary_wood_armour_unique.png	3k_main_opinion_topic_set_intelligence_brilliant
+3k_main_ceo_career_historical_sun_qian	3k_main_ceo_career_historical_sun_qian	0	placeholder	placeholder	armours/3k_main_ancillary_water_armour_unique.png	3k_main_opinion_topic_set_intelligence_cunning
+3k_main_ceo_career_historical_wang_xiu	3k_main_ceo_career_historical_wang_xiu	0	placeholder	placeholder	armours/3k_main_ancillary_earth_armour_unique.png	3k_main_opinion_topic_set_honour_honourable
+3k_main_ceo_equipment_permissions_armour_earth	3k_main_ceo_equipment_permissions_armour_earth	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_armour_fire	3k_main_ceo_equipment_permissions_armour_fire	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_armour_metal	3k_main_ceo_equipment_permissions_armour_metal	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_armour_unique	3k_main_ceo_equipment_permissions_armour_unique	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_armour_water	3k_main_ceo_equipment_permissions_armour_water	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_armour_wood	3k_main_ceo_equipment_permissions_armour_wood	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_weapons_all	3k_main_ceo_equipment_permissions_weapons_all	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_weapons_earth	3k_main_ceo_equipment_permissions_weapons_earth	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_weapons_fire	3k_main_ceo_equipment_permissions_weapons_fire	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_weapons_metal	3k_main_ceo_equipment_permissions_weapons_metal	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_weapons_water	3k_main_ceo_equipment_permissions_weapons_water	0	HIDDEN	HIDDEN		
+3k_main_ceo_equipment_permissions_weapons_wood	3k_main_ceo_equipment_permissions_weapons_wood	0	HIDDEN	HIDDEN		
+3k_main_ceo_node_career_childhood_earth_01	empty_effects	0	Good Manager	Their peers might consider them bossy, but this youngster demonstrates authority and decisiveness in their actions.	UI/Campaign UI/traits/icon_career_nobility.png	
+3k_main_ceo_node_career_childhood_fire_01	empty_effects	0	Enjoys Hunting	This one is never sedentary, and always indulges in the joys of the hunt.	UI/Campaign UI/traits/icon_career_soldiery.png	
+3k_main_ceo_node_career_childhood_metal_01	empty_effects	0	Introvert	For some youngsters, preferring one's own company is a sign of unique strengths.	UI/Campaign UI/traits/icon_career_artisan.png	
+3k_main_ceo_node_career_childhood_water_01	empty_effects	0	Courtier	Do not mistake a keen interest in stately affairs as merely the nosiness of youth.	UI/Campaign UI/traits/icon_career_scholar.png	
+3k_main_ceo_node_career_childhood_wood_01	empty_effects	0	Arbiter	The level-headedness to negotiate and reconcile fairly is a rare quality in one so young.	UI/Campaign UI/traits/icon_career_peasantry.png	
+3k_main_ceo_node_class_earth_01	3k_main_ceo_node_class_earth_01	0	Noble	Born into the gentry, this one has long since acclimatised to the myriad affairs of regional government.	$ui_treatment$	
+3k_main_ceo_node_class_fire_01	3k_main_ceo_node_class_fire_01	0	Soldier	Having trained in martial matters from a young age, combat and warfare has become a way of life.	$ui_treatment$	
+3k_main_ceo_node_class_metal_01	3k_main_ceo_node_class_metal_01	0	Artisan	A skilled professional who knows their trade inside out.	$ui_treatment$	
+3k_main_ceo_node_class_transitive_01	empty_effects	0	Transitive	Hidden trait for Colonels and Captains. If you see this please let design know.	$ui_treatment$	
+3k_main_ceo_node_class_water_01	3k_main_ceo_node_class_water_01	0	Official	An expert in both overt and covert politicking, this one always seems to be on some form of decreed business.	$ui_treatment$	
+3k_main_ceo_node_class_wood_01	3k_main_ceo_node_class_wood_01	0	Peasant	Born and bred in the villages of the countryside, peasants know the plants, the soil and the forests.	$ui_treatment$	
+3k_main_ceo_node_gender_female_01	3k_main_ceo_node_gender_female_01	0	Female	Women can lift half the sky.	UI/Campaign UI/traits/icon_gender_female.png	
+3k_main_ceo_node_gender_male_01	3k_main_ceo_node_gender_male_01	0	Male	All men are brothers, simply divided by fears and interests.	UI/Campaign UI/traits/icon_gender_male.png	
+3k_main_ceo_node_potential_legendary_early_01	3k_main_ceo_node_potential_legendary_early_01	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_early_02	3k_main_ceo_node_potential_legendary_early_02	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_early_03	3k_main_ceo_node_potential_legendary_early_03	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_late_01	3k_main_ceo_node_potential_legendary_late_01	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_late_02	3k_main_ceo_node_potential_legendary_late_02	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_late_03	3k_main_ceo_node_potential_legendary_late_03	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_mid_01	3k_main_ceo_node_potential_legendary_mid_01	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_mid_02	3k_main_ceo_node_potential_legendary_mid_02	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_potential_legendary_mid_03	3k_main_ceo_node_potential_legendary_mid_03	0	Legendary	Blessed or cursed, such is the will of heaven.	$ui_treatment$	
+3k_main_ceo_node_protagonist_01	3k_main_ceo_node_protagonist_01	0	Protagonist	HIDDEN	$hidden$	
+3k_main_ceo_node_protagonist_02	3k_main_ceo_node_protagonist_02	0	Proponent	HIDDEN	$hidden$	
+3k_main_ceo_node_protagonist_03	3k_main_ceo_node_protagonist_03	0	Prime Mover	HIDDEN	$hidden$	
+3k_main_ceo_node_trait_personality_undiscovered		0	Undiscovered Trait	This individual's destiny remains a mystery.		
+3k_main_ceo_node_wealth_01	3k_korea_ceo_node_wealth_01	0	Clerk	Poverty keeps one honest.	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_02	3k_korea_ceo_node_wealth_02	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_03	3k_korea_ceo_node_wealth_03	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_04	3k_korea_ceo_node_wealth_04	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_05	3k_korea_ceo_node_wealth_05	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_06	3k_korea_ceo_node_wealth_06	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_07	3k_korea_ceo_node_wealth_07	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_08	3k_korea_ceo_node_wealth_08	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_09	3k_korea_ceo_node_wealth_09	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_main_ceo_node_wealth_10	3k_korea_ceo_node_wealth_10	0	placeholder	placeholder	UI/Campaign UI/traits/icon_wealth_low.png	
+3k_ytr_ceo_equipment_permissions_armour_metal	3k_ytr_ceo_equipment_permissions_armour_metal	0	HIDDEN	HIDDEN		
+3k_ytr_ceo_equipment_permissions_armour_water	3k_ytr_ceo_equipment_permissions_armour_water	0	HIDDEN	HIDDEN		
+3k_ytr_ceo_equipment_permissions_armour_wood	3k_ytr_ceo_equipment_permissions_armour_wood	0	HIDDEN	HIDDEN		
+3k_ytr_ceo_equipment_permissions_weapons_metal	3k_ytr_ceo_equipment_permissions_weapons_metal	0	HIDDEN	HIDDEN		
+3k_ytr_ceo_equipment_permissions_weapons_water	3k_ytr_ceo_equipment_permissions_weapons_water	0	HIDDEN	HIDDEN		
+3k_ytr_ceo_equipment_permissions_weapons_wood	3k_ytr_ceo_equipment_permissions_weapons_wood	0	HIDDEN	HIDDEN		
+3k_ytr_ceo_node_class_heaven	3k_ytr_ceo_node_class_heaven	0	Heaven	Heaven - this should not be shown		
+3k_ytr_ceo_node_class_land	3k_ytr_ceo_node_class_land	0	Land	Land - this should not be shown		
+3k_ytr_ceo_node_class_people	3k_ytr_ceo_node_class_people	0	People	People - this should not be shown		
+3k_ytr_ceo_node_learning_student_01	3k_ytr_ceo_node_learning_student_01	0	Follower	This one sympathises with the Yellow Turban cause and does their best to adhere to its ideals.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_student_02	3k_ytr_ceo_node_learning_student_02	0	Pupil	This person has begun studying the Tao to educate themselves properly in the Way.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_student_03	3k_ytr_ceo_node_learning_student_03	0	Student	This one has sought out a teacher to instruct them in the Tao and to help them reach enlightenment.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_student_04	3k_ytr_ceo_node_learning_student_04	0	Academic	This person has completed the preliminaries of the Tao and has moved onto more difficult interpretations.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_student_05	3k_ytr_ceo_node_learning_student_05	0	Attendant	This one has become an attendant to aid a Taoist teacher and to improve their own understanding of the Way.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_student_06	3k_ytr_ceo_node_learning_student_06	0	Devoted Student	Realising that the Tao is all, this one has forsaken all else to give their life to following and preaching the Way.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_student_07	3k_ytr_ceo_node_learning_student_07	0	Enlightened Student	Inspired by a great teacher, this person has decided to follow their path and become one themselves.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_student_08	3k_ytr_ceo_node_learning_student_08	0	Xian	Ultimate wisdom is accepting that, as your knowledge grows, deeper mysteries will open up before you.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_01	3k_ytr_ceo_node_learning_teacher_01	0	Speaker	A bold and charismatic voice can make even the smallest proclamation sound profound and inspiring.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_02	3k_ytr_ceo_node_learning_teacher_02	0	Teacher	This person introduces others to the Tao and helps them take their first steps with it.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_03	3k_ytr_ceo_node_learning_teacher_03	0	Great Teacher	One can educate without being a great teacher, but this one recognises that each pupil has different needs and addresses them.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_04	3k_ytr_ceo_node_learning_teacher_04	0	Master Teacher	Enlightenment is a never-ending journey, but this one is close enough to instruct other teachers.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_05	3k_ytr_ceo_node_learning_teacher_05	0	Wise Teacher	This one’s wisdom is such that many old pupils return to them for advice.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_06	3k_ytr_ceo_node_learning_teacher_06	0	All-knowing Teacher	"I have just what you need in a beautiful little volume… Now, where did I put it again?"	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_07	3k_ytr_ceo_node_learning_teacher_07	0	Taoist Priest	This one knows every ritual, song and practice written in the Tao and has the expertise to perform them.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_08	3k_ytr_ceo_node_learning_teacher_08	0	Xian	Ultimate wisdom is accepting that, as your knowledge grows, deeper mysteries will open up before you.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_ytr_ceo_node_learning_teacher_ascended_emperor	3k_ytr_ceo_node_learning_teacher_ascended_emperor	0	Yellow Sky Emperor	Our leader declared themselves emperor. They have enacted many military reforms and made us significantly more powerful.	UI/Campaign UI/traits/icon_leader_of_people_good.png	
+3k_main_ancillary_weapon_hook_sword_unique	3k_main_ancillary_weapon_hook_sword_unique	0	placeholder	placeholder	weapons/3k_main_ancillary_shuang_gu_jian.png	

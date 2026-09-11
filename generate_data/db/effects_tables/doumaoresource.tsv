@@ -1,0 +1,18 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/doumaoresource								
+ironic_trailblazing_decay	roads.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_armies	roads.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_captives_post_battle	roads.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_characters	roads.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_garrisoned	roads.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_vassalized	roads.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_trailblazing_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_trailblazing_executed	roads.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_assignments	roads.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_forced_to_fight	roads.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_trailblazing_effect_bundle_frontend_1	roads.png	100	campaign		ironic_trailblazing_effect_bundle_frontend_1	0.0000	positive_value_is_good	default
+ironic_trailblazing_effect_bundle_frontend_2	roads.png	100	campaign		ironic_trailblazing_effect_bundle_frontend_2	0.0000	positive_value_is_good	default
+ironic_trailblazing_effect_bundle_frontend_3	roads.png	100	campaign		ironic_trailblazing_effect_bundle_frontend_3	0.0000	positive_value_is_good	default
+ironic_trailblazing_effect_bundle_frontend_4	roads.png	100	campaign		ironic_trailblazing_effect_bundle_frontend_4	0.0000	positive_value_is_good	default
+ironic_trailblazing_population	roads.png	100	campaign			0.0000	positive_value_is_good	default

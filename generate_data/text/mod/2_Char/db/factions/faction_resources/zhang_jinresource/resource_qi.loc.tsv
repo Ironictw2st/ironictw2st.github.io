@@ -1,0 +1,440 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/zhang_jinresource/resource_qi.loc		
+effect_bundles_localised_title_ironic_qi_resource_level_0	Qi:	true
+effect_bundles_localised_title_ironic_qi_resource_level_1	Qi:	true
+effect_bundles_localised_title_ironic_qi_resource_level_2	Qi:	true
+effect_bundles_localised_title_ironic_qi_resource_level_3	Qi:	true
+effect_bundles_localised_title_ironic_qi_resource_level_4	Qi:	true
+effect_bundles_localised_description_ironic_qi_resource_level_0	The channels run shallow and almost still. Little escapes: 2 Qi seeps away each turn.	true
+effect_bundles_localised_description_ironic_qi_resource_level_1	A thin current stirs the meridians. 5 Qi seeps away each turn.	true
+effect_bundles_localised_description_ironic_qi_resource_level_2	The meridians flow briskly, and what is not spent begins to leak. 10 Qi seeps away each turn.	true
+effect_bundles_localised_description_ironic_qi_resource_level_3	Qi presses hard against its channels. 15 Qi drains away each turn.	true
+effect_bundles_localised_description_ironic_qi_resource_level_4	The vessel brims beyond what flesh can hold. 25 Qi floods away each turn.	true
+effects_description_ironic_qi_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_qi_info_gain	[[b]]Qi[[/b]] flows from winning battles against non-Han factions and from piercing forbidden points on the Needle Path.	true
+effects_description_ironic_qi_info_loss	[[b]]Qi[[/b]] is spent on blessing points, seeps away through decay, and is lost when battles are lost.	true
+pooled_resource_factors_display_name_negative_ironic_qi_decay	Decay	true
+pooled_resource_factors_display_name_negative_ironic_qi_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_qi_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_qi_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_qi_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_qi_post_battle_options	Post Battle Options	true
+pooled_resources_description_ironic_qi	Qi is the breath that moves through body and realm alike. Zhang Jin gathers it from victories over the warring houses and from needles driven into forbidden points, and spends it to open the blessed meridians of the Needle Path.	true
+pooled_resources_display_name_ironic_qi	Qi	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_qi	Zhang Jin husbands the hidden flow of Qi. Its currents are read only within the needle master's own court.	true
+pooled_resources_negative_factors_display_name_ironic_qi	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_qi	Increase	true
+ui_character_assignments_localised_title_ironic_qi_improve	Perform Taoist Rites	false
+ui_character_assignments_localised_description_ironic_qi_improve	Your attendant will raise incense altars throughout the commandery, don the red turban of the governor's order, and lead the people in ritual music until the very air hums with gathered Qi.	false
+ui_character_assignments_localised_title_ironic_qi_reduce	Channel the Healing Breath	false
+ui_character_assignments_localised_description_ironic_qi_reduce	Your attendant will pour out the stored breath of heaven upon the garrisons: chanting, burning incense, and laying hands upon the wounded. Qi is spent, but soldiers rise from their sickbeds.	false
+pooled_resource_factors_display_name_negative_ironic_qi_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_qi_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_qi_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_qi_decay	Decay	false
+pooled_resource_factors_display_name_positive_ironic_qi_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_qi_assignments	Assignments	false
+effects_description_ironic_qi_captives_post_battle	[[b]]%+n[[/b]] Qi	false
+effects_description_ironic_qi_executed	[[b]]%+n[[/b]] Qi	false
+effects_description_ironic_qi_assignments	[[b]]%+n[[/b]] Qi	false
+effects_description_ironic_qi_affliction_flow	[[b]]%+n[[/b]] Qi per turn from forbidden points	true
+pooled_resource_factors_display_name_positive_ironic_qi_afflictions	Forbidden Points	true
+pooled_resource_factors_display_name_negative_ironic_qi_afflictions	Forbidden Points	true
+pooled_resource_factors_display_name_positive_ironic_qi_needles	Acupuncture	true
+pooled_resource_factors_display_name_negative_ironic_qi_needles	Acupuncture	true
+effect_bundles_localised_title_ironic_qi_acupuncture_00	Hegu - Union Valley	true
+effect_bundles_localised_description_ironic_qi_acupuncture_00	The archer's point between thumb and finger. Arrows fly true when the hand is open. Needling this point costs [[b]]60 Qi[[/b]]. Removing it refunds [[b]]45 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_01	Laogong - Palace of Toil	true
+effect_bundles_localised_description_ironic_qi_acupuncture_01	The palm's centre, where labour gathers force. Strikes fall with crushing weight. Needling this point costs [[b]]60 Qi[[/b]]. Removing it refunds [[b]]45 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_02	Baihui - Hundred Convergences	true
+effect_bundles_localised_description_ironic_qi_acupuncture_02	The crown point where all meridians meet heaven. Officers grow wise beyond their years. Needling this point costs [[b]]100 Qi[[/b]]. Removing it refunds [[b]]75 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_03	Yongquan - Gushing Spring	true
+effect_bundles_localised_description_ironic_qi_acupuncture_03	The sole's wellspring. Armies march as though rivers carry them. Needling this point costs [[b]]100 Qi[[/b]]. Removing it refunds [[b]]75 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_04	Sanyinjiao - Three Yin Crossing	true
+effect_bundles_localised_description_ironic_qi_acupuncture_04	Three meridians cross at the ankle. Soldiers step lightly in battle. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_05	Taiyang - Supreme Yang	true
+effect_bundles_localised_description_ironic_qi_acupuncture_05	The temple point sharpens the eye. Quivers seem never to empty. Needling this point costs [[b]]60 Qi[[/b]]. Removing it refunds [[b]]45 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_06	Jiache - Jawbone	true
+effect_bundles_localised_description_ironic_qi_acupuncture_06	A forbidden point. The jaw clenches; food turns to ash in the mouth. Piercing it is free and yields [[b]]+1 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]30 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_07	Quchi - Pool at the Bend	true
+effect_bundles_localised_description_ironic_qi_acupuncture_07	The elbow's pool feeds the striking arm. Blades punch through iron. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_08	Xiaohai - Small Sea	true
+effect_bundles_localised_description_ironic_qi_acupuncture_08	A forbidden point. The arm's sea drains; every soldier's wage weighs double. Piercing it is free and yields [[b]]+3 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]90 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_09	Yifeng - Wind Screen	true
+effect_bundles_localised_description_ironic_qi_acupuncture_09	A forbidden point. Whispers slip behind the ear; the court grows restless. Piercing it is free and yields [[b]]+1 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]30 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_10	Renzhong - Centre of Man	true
+effect_bundles_localised_description_ironic_qi_acupuncture_10	A forbidden point. The scholar's breath falters; officers learn slowly. Piercing it is free and yields [[b]]+1 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]30 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_11	Zhangmen - Chapter Gate	true
+effect_bundles_localised_description_ironic_qi_acupuncture_11	The gate at the ribs governs the granaries. Harvests swell. Needling this point costs [[b]]100 Qi[[/b]]. Removing it refunds [[b]]75 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_12	Jiuwei - Turtledove Tail	true
+effect_bundles_localised_description_ironic_qi_acupuncture_12	A forbidden point. The breastbone's seal breaks; wounds knit slowly. Piercing it is free and yields [[b]]+2 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]50 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_13	Danzhong - Sea of Tranquillity	true
+effect_bundles_localised_description_ironic_qi_acupuncture_13	The chest's centre steadies the breath of thousands. Ranks refill swiftly. Needling this point costs [[b]]100 Qi[[/b]]. Removing it refunds [[b]]75 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_14	Quepen - Empty Basin	true
+effect_bundles_localised_description_ironic_qi_acupuncture_14	A forbidden point. The basin above the collarbone empties; courage drains with it. Piercing it is free and yields [[b]]+2 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]50 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_15	Qimen - Cycle Gate	true
+effect_bundles_localised_description_ironic_qi_acupuncture_15	A forbidden point. The cycle of wealth is broken; coin slips through the fingers. Piercing it is free and yields [[b]]+2 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]50 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_16	Huantiao - Jumping Circle	true
+effect_bundles_localised_description_ironic_qi_acupuncture_16	A forbidden point. The hip stiffens; armies trudge where they once strode. Piercing it is free and yields [[b]]+2 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]50 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_17	Shenshu - Kidney Gate	true
+effect_bundles_localised_description_ironic_qi_acupuncture_17	The kidney point purifies what passes through. Corruption is flushed away. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_18	Mingmen - Gate of Life	true
+effect_bundles_localised_description_ironic_qi_acupuncture_18	The gate of life anchors the spine. The people stand firm behind it. Needling this point costs [[b]]60 Qi[[/b]]. Removing it refunds [[b]]45 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_19	Qihai - Sea of Qi	true
+effect_bundles_localised_description_ironic_qi_acupuncture_19	The sea below the navel, source of all abundance. Wealth flows outward. Needling this point costs [[b]]100 Qi[[/b]]. Removing it refunds [[b]]75 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_20	Guanyuan - Origin Pass	true
+effect_bundles_localised_description_ironic_qi_acupuncture_20	The origin pass husbands the body's stores. Armies eat less of the treasury. Needling this point costs [[b]]60 Qi[[/b]]. Removing it refunds [[b]]45 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_21	Tiantu - Heaven's Chimney	true
+effect_bundles_localised_description_ironic_qi_acupuncture_21	The throat calls men to service. Recruits answer for less silver. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_22	Xuehai - Sea of Blood	true
+effect_bundles_localised_description_ironic_qi_acupuncture_22	The sea of blood above the knee quickens the mustering of men. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_23	Futu - Crouching Rabbit	true
+effect_bundles_localised_description_ironic_qi_acupuncture_23	A forbidden point. Rot crouches in the thigh and spreads through every office. Piercing it is free and yields [[b]]+3 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]90 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_24	Shenmen - Spirit Gate	true
+effect_bundles_localised_description_ironic_qi_acupuncture_24	The wrist's spirit gate hardens the guard. Armour turns the blade. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_25	Yangxi - Yang Stream	true
+effect_bundles_localised_description_ironic_qi_acupuncture_25	A forbidden point. The yang stream floods; unrest spills into the streets. Piercing it is free and yields [[b]]+3 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]90 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_26	Weizhong - Middle of the Crook	true
+effect_bundles_localised_description_ironic_qi_acupuncture_26	A forbidden point. The knee's crook seizes; soldiers drag their feet in battle. Piercing it is free and yields [[b]]+1 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]30 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_27	Zusanli - Leg Three Miles	true
+effect_bundles_localised_description_ironic_qi_acupuncture_27	Three more miles in every leg. Settlers flock to well-walked roads. Needling this point costs [[b]]60 Qi[[/b]]. Removing it refunds [[b]]45 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_28	Jianjing - Shoulder Well	true
+effect_bundles_localised_description_ironic_qi_acupuncture_28	The shoulder well feeds the sword arm. Every blow falls heavier. Needling this point costs [[b]]60 Qi[[/b]]. Removing it refunds [[b]]45 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_29	Jianyu - Shoulder Bone	true
+effect_bundles_localised_description_ironic_qi_acupuncture_29	A forbidden point. The shoulder unknits; harness sits loose on weary frames. Piercing it is free and yields [[b]]+1 Qi[[/b]] per turn, but the harm is permanent. Removing it costs [[b]]30 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_30	Fengchi - Wind Pool	true
+effect_bundles_localised_description_ironic_qi_acupuncture_30	The wind pool at the nape clears fear from the mind. Hearts hold steady. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+effect_bundles_localised_title_ironic_qi_acupuncture_31	Yintang - Hall of Impression	true
+effect_bundles_localised_description_ironic_qi_acupuncture_31	The brow's hall calms quarrelsome spirits. Officers serve content. Needling this point costs [[b]]30 Qi[[/b]]. Removing it refunds [[b]]22 Qi[[/b]].	true
+campaign_post_battle_captive_options_onscreen_name_killironic_zhang_jin_captive_execute	Blood Sacrifice	false
+campaign_post_battle_captive_options_description_killironic_zhang_jin_captive_execute	The captives are given to the altar. Drums sound, incense thickens, and the governor's red turban bows as spilled blood is transmuted into a great draught of Qi.	false
+campaign_post_battle_captive_options_onscreen_name_enslaveironic_zhang_jin_captive_recruit	Induct the Captives	false
+campaign_post_battle_captive_options_description_enslaveironic_zhang_jin_captive_recruit	The defeated are washed in incense smoke and pressed into the ranks. Each new voice added to the ritual chorus carries a little more Qi to heaven.	false
+campaign_post_battle_captive_options_onscreen_name_releaseironic_zhang_jin_captive_release	Merciful Blessing	false
+campaign_post_battle_captive_options_description_releaseironic_zhang_jin_captive_release	The captives are anointed, blessed with ritual music, and sent home to speak of the governor's mercy. Heaven repays compassion with a gentle current of Qi.	false
+effect_bundles_localised_title_ironic_qi_captives_execute	Blood Sacrifice	true
+effect_bundles_localised_description_ironic_qi_captives_execute	Captives were offered to the altar after battle.	true
+effect_bundles_localised_title_ironic_qi_captives_recruit	Induction Rites	true
+effect_bundles_localised_description_ironic_qi_captives_recruit	Captives were inducted into the ranks with incense and chant.	true
+effect_bundles_localised_title_ironic_qi_captives_release	Merciful Blessing	true
+effect_bundles_localised_description_ironic_qi_captives_release	Captives were blessed and released after battle.	true
+campaign_localised_strings_string_ironic_acupuncture_btn_purchase	Purchase	false
+effect_bundles_localised_title_ironic_frontend_leader_qi_special	Qi	true
+effect_bundles_localised_description_ironic_frontend_leader_qi_special	Qi is this faction's unique resource: the breath of heaven that Zhang Jin, red-turbaned governor of the south, gathers through war and ritual to drive needles along the body's meridians.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qi_1	• Qi is gained from battles won and lost to non-Han foes.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qi_2	• Spend Qi on the Needle Path to unlock permanent blessings.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qi_3	• Forbidden points grant Qi at the price of lasting afflictions.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qi_4	• Taoist rites assignments and captive rituals channel more Qi.	true
+effects_description_ironic_frontend_description_qi_1	Winning battles against non-Han factions grants [[b]]+3 Qi[[/b]]; defeats drain [[b]]2 Qi[[/b]].	false
+effects_description_ironic_frontend_description_qi_2	The Needle Path chart offers 20 blessing points granting permanent faction-wide boons.	false
+effects_description_ironic_frontend_description_qi_3	Twelve forbidden points grant an infusion of Qi plus a per-turn stream, but inflict permanent debuffs.	false
+effects_description_ironic_frontend_description_qi_4	Province assignments and post-battle captive choices provide steady Qi income.	false
+effects_generalised_descriptions_localised_description_ironic_frontend_description_zhang_jin_leader_1	The red turban inspires: victories against the warring houses yield Qi.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_zhang_jin_leader_2	Taoist ritual music steadies the provinces and mends the wounded.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_zhang_jin_leader_3	The Needle Path: 32 acupoints of blessing and forbidden power.	true
+effects_description_ironic_frontend_description_zhang_jin_leader_1	Battle Qi rewards fighting the rival houses rather than the Han court.	false
+effects_description_ironic_frontend_description_zhang_jin_leader_2	Taoist Rites assignments generate Qi; the Healing Breath spends it to replenish garrisons.	false
+effects_description_ironic_frontend_description_zhang_jin_leader_3	Open the acupuncture chart from the faction header to spend and gather Qi.	false
+frontend_faction_leader_unique_features_localised_description_ironic_zhang_jin_needle_path	[[b]]The Needle Path[[/b]]\\n[[col:scope_description]]Unique Mechanic[[/col]]\\n\\nA chart of 32 acupoints. Spend Qi to open blessed meridians for permanent boons, or pierce forbidden points for Qi at the cost of lasting afflictions.	true
+frontend_faction_leader_unique_features_localised_description_ironic_zhang_jin_taoist_rites	[[b]]Taoist Rites[[/b]]\\n[[col:scope_description]]Assignments[[/col]]\\n\\nSend generals to perform rites or channel the healing breath: steady Qi income, or spend Qi to mend your garrisons.	true
+frontend_faction_leader_unique_features_localised_description_ironic_zhang_jin_captive_rituals	[[b]]Captive Rituals[[/b]]\\n[[col:scope_description]]Post-battle Options[[/col]]\\n\\nAfter victory, sacrifice, induct or bless captives - every choice draws Qi toward the governor altars.	true
+campaign_localised_strings_string_ironic_acupuncture_title	THE NEEDLE PATH	false
+campaign_localised_strings_string_ironic_np_leader	ZHANG JIN	false
+campaign_localised_strings_string_ironic_np_qi	QI	false
+campaign_localised_strings_string_ironic_np_income	INCOME	false
+campaign_localised_strings_string_ironic_np_decay	DECAY	false
+campaign_localised_strings_string_ironic_np_next	NEXT TURN	false
+campaign_localised_strings_string_ironic_np_cost	COST	false
+campaign_localised_strings_string_ironic_np_close	CLOSE	false
+campaign_localised_strings_string_ironic_np_tab_all	ALL POINTS	false
+campaign_localised_strings_string_ironic_np_tab_bless	BLESSINGS	false
+campaign_localised_strings_string_ironic_np_tab_forbid	FORBIDDEN	false
+campaign_localised_strings_string_ironic_np_tab_afford	AFFORDABLE	false
+campaign_localised_strings_string_ironic_np_lg_available	Available	false
+campaign_localised_strings_string_ironic_np_lg_available_d	Point can be unlocked	false
+campaign_localised_strings_string_ironic_np_lg_affordable	Affordable	false
+campaign_localised_strings_string_ironic_np_lg_affordable_d	You have enough Qi to unlock	false
+campaign_localised_strings_string_ironic_np_lg_acquired	Acquired	false
+campaign_localised_strings_string_ironic_np_lg_acquired_d	Blessing is active	false
+campaign_localised_strings_string_ironic_np_lg_forbidden	Forbidden	false
+campaign_localised_strings_string_ironic_np_lg_forbidden_d	Piercing this point costs you dearly	false
+campaign_localised_strings_string_ironic_np_tier_grand	Grand Blessing	false
+campaign_localised_strings_string_ironic_np_tier_major	Major Blessing	false
+campaign_localised_strings_string_ironic_np_tier_minor	Minor Blessing	false
+campaign_localised_strings_string_ironic_np_tier_lesser	Lesser Forbidden Point	false
+campaign_localised_strings_string_ironic_np_tier_greater	Greater Forbidden Point	false
+campaign_localised_strings_string_ironic_np_tier_severe	Severe Forbidden Point	false
+campaign_localised_strings_string_ironic_np_name_00	Hegu	false
+campaign_localised_strings_string_ironic_np_sub_00	Union Valley	false
+campaign_localised_strings_string_ironic_np_name_01	Laogong	false
+campaign_localised_strings_string_ironic_np_sub_01	Palace of Toil	false
+campaign_localised_strings_string_ironic_np_name_02	Baihui	false
+campaign_localised_strings_string_ironic_np_sub_02	Hundred Convergences	false
+campaign_localised_strings_string_ironic_np_name_03	Yongquan	false
+campaign_localised_strings_string_ironic_np_sub_03	Gushing Spring	false
+campaign_localised_strings_string_ironic_np_name_04	Sanyinjiao	false
+campaign_localised_strings_string_ironic_np_sub_04	Three Yin Crossing	false
+campaign_localised_strings_string_ironic_np_name_05	Taiyang	false
+campaign_localised_strings_string_ironic_np_sub_05	Supreme Yang	false
+campaign_localised_strings_string_ironic_np_name_06	Jiache	false
+campaign_localised_strings_string_ironic_np_sub_06	Jawbone	false
+campaign_localised_strings_string_ironic_np_name_07	Quchi	false
+campaign_localised_strings_string_ironic_np_sub_07	Pool at the Bend	false
+campaign_localised_strings_string_ironic_np_name_08	Xiaohai	false
+campaign_localised_strings_string_ironic_np_sub_08	Small Sea	false
+campaign_localised_strings_string_ironic_np_name_09	Yifeng	false
+campaign_localised_strings_string_ironic_np_sub_09	Wind Screen	false
+campaign_localised_strings_string_ironic_np_name_10	Renzhong	false
+campaign_localised_strings_string_ironic_np_sub_10	Centre of Man	false
+campaign_localised_strings_string_ironic_np_name_11	Zhangmen	false
+campaign_localised_strings_string_ironic_np_sub_11	Chapter Gate	false
+campaign_localised_strings_string_ironic_np_name_12	Jiuwei	false
+campaign_localised_strings_string_ironic_np_sub_12	Turtledove Tail	false
+campaign_localised_strings_string_ironic_np_name_13	Danzhong	false
+campaign_localised_strings_string_ironic_np_sub_13	Sea of Tranquillity	false
+campaign_localised_strings_string_ironic_np_name_14	Quepen	false
+campaign_localised_strings_string_ironic_np_sub_14	Empty Basin	false
+campaign_localised_strings_string_ironic_np_name_15	Qimen	false
+campaign_localised_strings_string_ironic_np_sub_15	Cycle Gate	false
+campaign_localised_strings_string_ironic_np_name_16	Huantiao	false
+campaign_localised_strings_string_ironic_np_sub_16	Jumping Circle	false
+campaign_localised_strings_string_ironic_np_name_17	Shenshu	false
+campaign_localised_strings_string_ironic_np_sub_17	Kidney Gate	false
+campaign_localised_strings_string_ironic_np_name_18	Mingmen	false
+campaign_localised_strings_string_ironic_np_sub_18	Gate of Life	false
+campaign_localised_strings_string_ironic_np_name_19	Qihai	false
+campaign_localised_strings_string_ironic_np_sub_19	Sea of Qi	false
+campaign_localised_strings_string_ironic_np_name_20	Guanyuan	false
+campaign_localised_strings_string_ironic_np_sub_20	Origin Pass	false
+campaign_localised_strings_string_ironic_np_name_21	Tiantu	false
+campaign_localised_strings_string_ironic_np_sub_21	Heaven's Chimney	false
+campaign_localised_strings_string_ironic_np_name_22	Xuehai	false
+campaign_localised_strings_string_ironic_np_sub_22	Sea of Blood	false
+campaign_localised_strings_string_ironic_np_name_23	Futu	false
+campaign_localised_strings_string_ironic_np_sub_23	Crouching Rabbit	false
+campaign_localised_strings_string_ironic_np_name_24	Shenmen	false
+campaign_localised_strings_string_ironic_np_sub_24	Spirit Gate	false
+campaign_localised_strings_string_ironic_np_name_25	Yangxi	false
+campaign_localised_strings_string_ironic_np_sub_25	Yang Stream	false
+campaign_localised_strings_string_ironic_np_name_26	Weizhong	false
+campaign_localised_strings_string_ironic_np_sub_26	Middle of the Crook	false
+campaign_localised_strings_string_ironic_np_name_27	Zusanli	false
+campaign_localised_strings_string_ironic_np_sub_27	Leg Three Miles	false
+campaign_localised_strings_string_ironic_np_name_28	Jianjing	false
+campaign_localised_strings_string_ironic_np_sub_28	Shoulder Well	false
+campaign_localised_strings_string_ironic_np_name_29	Jianyu	false
+campaign_localised_strings_string_ironic_np_sub_29	Shoulder Bone	false
+campaign_localised_strings_string_ironic_np_name_30	Fengchi	false
+campaign_localised_strings_string_ironic_np_sub_30	Wind Pool	false
+campaign_localised_strings_string_ironic_np_name_31	Yintang	false
+campaign_localised_strings_string_ironic_np_sub_31	Hall of Impression	false
+incidents_localised_title_ironic_np_bless_05	Whispers of the Needle Master	false
+incidents_localised_description_ironic_np_bless_05	Five meridians opened, and the commandery has noticed. Farmers who once queued for the physician now queue for the governor. They bring their sick, their grain, and their sons.	false
+campaign_payload_ui_details_description_ironic_np_bless_05	Whispers of the Needle Master	false
+dilemmas_localised_title_ironic_np_bless_10	The Rite of Ten Gates	false
+dilemmas_localised_description_ironic_np_bless_10	Ten gates of the body stand open. The elders of the commandery ask that you perform the rite publicly, at the spring altar, where all may see the breath move.\\n\\nYour officers think it undignified. The people think it is a miracle.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_bless_10FIRST	PERFORM THE RITE	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_bless_10FIRST	The altar is thronged. Qi flows freely, and so does goodwill.	false
+campaign_payload_ui_details_description_ironic_np_bless_10_first	The altar is thronged. Qi flows freely, and so does goodwill.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_bless_10SECOND	KEEP THE PRACTICE PRIVATE	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_bless_10SECOND	The needles stay behind closed doors. The treasury keeps what the festival would have cost.	false
+campaign_payload_ui_details_description_ironic_np_bless_10_second	The needles stay behind closed doors. The treasury keeps what the festival would have cost.	false
+dilemmas_localised_title_ironic_np_bless_15	The Han Court Sends a Physician	false
+dilemmas_localised_description_ironic_np_bless_15	A court physician arrives from Luoyang, ostensibly to study your method. He takes careful notes and asks careful questions.\\n\\nHe is either a student or a spy, and possibly both.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_bless_15FIRST	TEACH HIM EVERYTHING	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_bless_15FIRST	The method spreads. The court is flattered; something is lost.	false
+campaign_payload_ui_details_description_ironic_np_bless_15_first	The method spreads. The court is flattered; something is lost.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_bless_15SECOND	TEACH HIM NOTHING	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_bless_15SECOND	He leaves with an empty scroll and a full report.	false
+campaign_payload_ui_details_description_ironic_np_bless_15_second	He leaves with an empty scroll and a full report.	false
+incidents_localised_title_ironic_np_bless_20	All Gates Open	false
+incidents_localised_description_ironic_np_bless_20	Every blessed meridian in the body stands open. The red turban is no longer a governor's affectation but a physician's sigil, and men travel from three commanderies to be touched by the needle.	false
+campaign_payload_ui_details_description_ironic_np_bless_20	All Gates Open	false
+incidents_localised_title_ironic_np_forbid_first	The First Forbidden Point	false
+incidents_localised_description_ironic_np_forbid_first	The needle goes where the classics forbid. Breath floods in like water through a broken dyke — and something in you does not close again afterwards.	false
+campaign_payload_ui_details_description_ironic_np_forbid_first	The First Forbidden Point	false
+dilemmas_localised_title_ironic_np_forbid_03	The Officers Ask a Question	false
+dilemmas_localised_description_ironic_np_forbid_03	Three forbidden points, and your commanders have begun to talk. They have seen the tremor in your hand and the colour of your lips.\\n\\nOne of them, bravely, asks whether the governor is well.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_forbid_03FIRST	TELL THEM THE TRUTH	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_forbid_03FIRST	Honesty steadies them, though the truth is not comforting.	false
+campaign_payload_ui_details_description_ironic_np_forbid_03_first	Honesty steadies them, though the truth is not comforting.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_forbid_03SECOND	SILENCE THE QUESTION	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_forbid_03SECOND	No one asks again. No one volunteers much else, either.	false
+campaign_payload_ui_details_description_ironic_np_forbid_03_second	No one asks again. No one volunteers much else, either.	false
+incidents_localised_title_ironic_np_forbid_06	The Body Complains	false
+incidents_localised_description_ironic_np_forbid_06	Six forbidden gates stand open and will not close. You sleep badly, eat little, and hear the needles humming when there are no needles in the room.	false
+campaign_payload_ui_details_description_ironic_np_forbid_06	The Body Complains	false
+dilemmas_localised_title_ironic_np_forbid_09	The Physician Refuses	false
+dilemmas_localised_description_ironic_np_forbid_09	Your own physician sets down the case of needles and will not pick it up again. He says that what you are doing is not medicine, and that he will not be the hand that finishes you.\\n\\nHe offers to purge the forbidden points instead. It would cost you dearly in gathered breath.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_forbid_09FIRST	LET HIM PURGE THE POINTS	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_forbid_09FIRST	The tremor eases. So does the flood of Qi you had grown used to.	false
+campaign_payload_ui_details_description_ironic_np_forbid_09_first	The tremor eases. So does the flood of Qi you had grown used to.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_forbid_09SECOND	TAKE THE NEEDLES YOURSELF	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_forbid_09SECOND	You do not need him. You have not needed anyone for some time.	false
+campaign_payload_ui_details_description_ironic_np_forbid_09_second	You do not need him. You have not needed anyone for some time.	false
+incidents_localised_title_ironic_np_forbid_12	Every Forbidden Gate	false
+incidents_localised_description_ironic_np_forbid_12	There is no point left on the chart that the classics permit you to have opened. Breath moves through you the way wind moves through a ruined house — freely, and without resistance, because there is very little left to resist it.	false
+campaign_payload_ui_details_description_ironic_np_forbid_12	Every Forbidden Gate	false
+incidents_localised_title_ironic_np_total_12	The Chart Fills	false
+incidents_localised_description_ironic_np_total_12	A dozen points marked in cinnabar on the body chart. Your clerks have begun keeping a second ledger, tracking not grain or men but breath.	false
+campaign_payload_ui_details_description_ironic_np_total_12	The Chart Fills	false
+dilemmas_localised_title_ironic_np_total_24	Disciples at the Gate	false
+dilemmas_localised_description_ironic_np_total_24	Two dozen points opened, and men have come to study under you. They sleep in the yard and copy your chart by lamplight.\\n\\nThey could be trained as physicians for the army, or sent away before they learn what the forbidden points cost.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_total_24FIRST	TRAIN THEM	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_total_24FIRST	The army gains physicians. The secret is no longer only yours.	false
+campaign_payload_ui_details_description_ironic_np_total_24_first	The army gains physicians. The secret is no longer only yours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_np_total_24SECOND	SEND THEM AWAY	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_np_total_24SECOND	They go home. What you know, you keep.	false
+campaign_payload_ui_details_description_ironic_np_total_24_second	They go home. What you know, you keep.	false
+incidents_localised_title_ironic_np_total_32	The Needle Path Complete	false
+incidents_localised_description_ironic_np_total_32	Every point on the chart is marked. Blessing and affliction sit in the same body, and Zhang Jin walks the province wearing both — a governor the Han appointed, wearing a turban the Han would burn.	false
+campaign_payload_ui_details_description_ironic_np_total_32	The Needle Path Complete	false
+effect_bundles_localised_title_ironic_np_bundle_renown	Renown	true
+effect_bundles_localised_title_ironic_np_bundle_ascendant	Ascendant	true
+effect_bundles_localised_title_ironic_np_bundle_unease	Unease	true
+effect_bundles_localised_title_ironic_np_bundle_affliction	Affliction	true
+effect_bundles_localised_title_ironic_np_bundle_purged	Purged	true
+effect_bundles_localised_title_ironic_np_bundle_hollow	Hollow	true
+effect_bundles_localised_title_ironic_np_bundle_disciples	Disciples	true
+effect_bundles_localised_title_np_set_crown	The Upper Palace	true
+effect_bundles_localised_description_np_set_crown	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_crown	The Upper Palace	false
+effect_bundles_localised_title_np_set_hand	The Grasping Hand	true
+effect_bundles_localised_description_np_set_hand	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_hand	The Grasping Hand	false
+effect_bundles_localised_title_np_set_guard	The Iron Guard	true
+effect_bundles_localised_description_np_set_guard	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_guard	The Iron Guard	false
+effect_bundles_localised_title_np_set_root	The Standing Root	true
+effect_bundles_localised_description_np_set_root	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_root	The Standing Root	false
+effect_bundles_localised_title_np_set_stride	The Long Stride	true
+effect_bundles_localised_description_np_set_stride	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_stride	The Long Stride	false
+effect_bundles_localised_title_np_set_breath	The Even Breath	true
+effect_bundles_localised_description_np_set_breath	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_breath	The Even Breath	false
+effect_bundles_localised_title_np_set_belly	The Belly Gates	true
+effect_bundles_localised_description_np_set_belly	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_belly	The Belly Gates	false
+effect_bundles_localised_title_np_set_spine	The Upright Spine	true
+effect_bundles_localised_description_np_set_spine	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_spine	The Upright Spine	false
+effect_bundles_localised_title_np_set_whisper	The Whispering Gates	true
+effect_bundles_localised_description_np_set_whisper	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_whisper	The Whispering Gates	false
+effect_bundles_localised_title_np_set_broken	The Broken Limbs	true
+effect_bundles_localised_description_np_set_broken	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_broken	The Broken Limbs	false
+effect_bundles_localised_title_np_set_hollow	The Hollow Torso	true
+effect_bundles_localised_description_np_set_hollow	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_hollow	The Hollow Torso	false
+effect_bundles_localised_title_np_set_sunken	The Sunken Gates	true
+effect_bundles_localised_description_np_set_sunken	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_sunken	The Sunken Gates	false
+effect_bundles_localised_title_np_set_upper	Clarity of the Crown	true
+effect_bundles_localised_description_np_set_upper	A true confluence of meridians.	true
+campaign_localised_strings_string_np_set_upper	Clarity of the Crown	false
+effect_bundles_localised_title_np_set_warrior	The Warrior Meridians	true
+effect_bundles_localised_description_np_set_warrior	A true confluence of meridians.	true
+campaign_localised_strings_string_np_set_warrior	The Warrior Meridians	false
+effect_bundles_localised_title_np_set_steward	The Steward Meridians	true
+effect_bundles_localised_description_np_set_steward	A true confluence of meridians.	true
+campaign_localised_strings_string_np_set_steward	The Steward Meridians	false
+effect_bundles_localised_title_np_set_court	The Inner Court	true
+effect_bundles_localised_description_np_set_court	A true confluence of meridians.	true
+campaign_localised_strings_string_np_set_court	The Inner Court	false
+effect_bundles_localised_title_np_set_tainted	The Tainted Breath	true
+effect_bundles_localised_description_np_set_tainted	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_tainted	The Tainted Breath	false
+effect_bundles_localised_title_np_set_crippled	The Crippled March	true
+effect_bundles_localised_description_np_set_crippled	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_crippled	The Crippled March	false
+effect_bundles_localised_title_np_set_marrow	Marrow and Sinew	true
+effect_bundles_localised_description_np_set_marrow	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_marrow	Marrow and Sinew	false
+effect_bundles_localised_title_np_set_pierce	The Piercing Needle	true
+effect_bundles_localised_description_np_set_pierce	A minor confluence of meridians.	true
+campaign_localised_strings_string_np_set_pierce	The Piercing Needle	false
+effect_bundles_localised_title_np_set_master	The Needle Master	true
+effect_bundles_localised_description_np_set_master	A great confluence of meridians.	true
+campaign_localised_strings_string_np_set_master	The Needle Master	false
+effect_bundles_localised_title_np_set_jade	The Jade Body	true
+effect_bundles_localised_description_np_set_jade	The whole chart bends toward one purpose.	true
+campaign_localised_strings_string_np_set_jade	The Jade Body	false
+effect_bundles_localised_title_np_set_vermillion	The Vermillion Path	true
+effect_bundles_localised_description_np_set_vermillion	The whole chart bends toward one purpose.	true
+campaign_localised_strings_string_np_set_vermillion	The Vermillion Path	false
+effect_bundles_localised_title_np_set_balanced	The Balanced Vessel	true
+effect_bundles_localised_description_np_set_balanced	The whole chart bends toward one purpose.	true
+campaign_localised_strings_string_np_set_balanced	The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_sets_header	MERIDIAN SETS	false
+campaign_localised_strings_string_ironic_np_btn_remove	REMOVE NEEDLE	false
+campaign_localised_strings_string_ironic_np_locked	Blocked by an opposed point	false
+campaign_localised_strings_string_ironic_np_setlist_00	The Grasping Hand  The Iron Guard  The Warrior Meridians  The Piercing Needle  The Jade Body  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_01	The Grasping Hand  The Warrior Meridians  The Piercing Needle  The Jade Body  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_02	The Upper Palace  Clarity of the Crown  The Needle Master  The Jade Body	false
+campaign_localised_strings_string_ironic_np_setlist_03	The Standing Root  The Needle Master  The Jade Body	false
+campaign_localised_strings_string_ironic_np_setlist_04	The Standing Root  The Long Stride  The Warrior Meridians	false
+campaign_localised_strings_string_ironic_np_setlist_05	The Upper Palace  Clarity of the Crown  The Piercing Needle  The Needle Master  The Jade Body  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_06	The Whispering Gates  The Tainted Breath  The Vermillion Path  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_07	The Grasping Hand  The Piercing Needle	false
+campaign_localised_strings_string_ironic_np_setlist_08	The Broken Limbs  The Needle Master  The Vermillion Path  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_09	The Whispering Gates  The Tainted Breath  The Vermillion Path  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_10	The Whispering Gates  The Vermillion Path	false
+campaign_localised_strings_string_ironic_np_setlist_11	The Belly Gates  The Upright Spine  The Steward Meridians  The Inner Court  The Jade Body  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_12	The Hollow Torso  The Tainted Breath  The Vermillion Path	false
+campaign_localised_strings_string_ironic_np_setlist_13	The Even Breath  The Inner Court  The Needle Master  The Jade Body	false
+campaign_localised_strings_string_ironic_np_setlist_14	The Hollow Torso  The Tainted Breath  The Vermillion Path	false
+campaign_localised_strings_string_ironic_np_setlist_15	The Hollow Torso  The Vermillion Path	false
+campaign_localised_strings_string_ironic_np_setlist_16	The Sunken Gates  The Crippled March  The Vermillion Path	false
+campaign_localised_strings_string_ironic_np_setlist_17	The Upright Spine  The Steward Meridians  The Inner Court	false
+campaign_localised_strings_string_ironic_np_setlist_18	The Upright Spine  The Inner Court  The Jade Body  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_19	The Belly Gates  The Steward Meridians  The Inner Court  The Needle Master  The Jade Body	false
+campaign_localised_strings_string_ironic_np_setlist_20	The Belly Gates  The Steward Meridians  The Inner Court  The Jade Body  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_21	The Even Breath  Clarity of the Crown  The Steward Meridians	false
+campaign_localised_strings_string_ironic_np_setlist_22	The Standing Root  The Long Stride  Marrow and Sinew	false
+campaign_localised_strings_string_ironic_np_setlist_23	The Sunken Gates  The Crippled March  The Needle Master  The Vermillion Path  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_24	The Iron Guard  The Warrior Meridians  Marrow and Sinew	false
+campaign_localised_strings_string_ironic_np_setlist_25	The Sunken Gates  The Needle Master  The Vermillion Path  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_26	The Broken Limbs  The Crippled March  The Vermillion Path  The Balanced Vessel	false
+campaign_localised_strings_string_ironic_np_setlist_27	The Long Stride  Marrow and Sinew  The Jade Body	false
+campaign_localised_strings_string_ironic_np_setlist_28	The Iron Guard  The Warrior Meridians  Marrow and Sinew  The Jade Body	false
+campaign_localised_strings_string_ironic_np_setlist_29	The Broken Limbs  The Crippled March  The Vermillion Path	false
+campaign_localised_strings_string_ironic_np_setlist_30	The Even Breath  Clarity of the Crown	false
+campaign_localised_strings_string_ironic_np_setlist_31	The Upper Palace  Clarity of the Crown	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_crown	+25% character experience	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_hand	+15% armour-piercing damage	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_guard	+10 armour	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_root	+15% battle speed	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_stride	+8% replenishment	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_breath	+8% replenishment	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_belly	+4 public order	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_spine	+4 public order	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_whisper	+2 Qi per turn	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_broken	+2 Qi per turn	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_hollow	+3 Qi per turn	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_sunken	+3 Qi per turn	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_upper	+25% character experience, +15% ammunition	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_warrior	+15% melee damage, +15% armour-piercing damage	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_steward	+4 public order	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_court	+10% replenishment, +4 public order	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_tainted	+4 Qi per turn	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_crippled	+4 Qi per turn	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_marrow	+10 armour	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_pierce	+15% missile damage	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_master	+20% character experience, +5 Qi per turn	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_jade	+12% replenishment, +12% melee damage, +5 public order	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_vermillion	+10 Qi per turn, +12% melee damage	false
+campaign_localised_strings_string_ironic_np_setbonus_np_set_balanced	+10 armour, +5 Qi per turn	false
+campaign_localised_strings_string_ironic_np_grants	Grants:	false
+campaign_localised_strings_string_ironic_np_blocked	blocked	false
+uied_component_texts_localised_string_acunpunture_menu_button_Tooltip_1c3214	[[b]]The Needle Path[[/b]]|| A chart of 32 acupoints. Spend Qi to open blessed meridians for permanent boons, or pierce forbidden points for Qi at the cost of lasting afflictions.	true
+effect_bundles_localised_description_ironic_np_bundle_renown	Word of the needle master travels ahead of his banners.	true
+effect_bundles_localised_description_ironic_np_bundle_ascendant	The meridians run clear, and those who serve him learn faster for it.	true
+effect_bundles_localised_description_ironic_np_bundle_unease	The commonfolk have seen what he does with the needles, and they do not sleep easily.	true
+effect_bundles_localised_description_ironic_np_bundle_affliction	A forbidden point festers. The Qi gathers where it should not.	true
+effect_bundles_localised_description_ironic_np_bundle_purged	The stagnant Qi has been drawn off, and the armies recover as they march.	true
+effect_bundles_localised_description_ironic_np_bundle_hollow	Too many gates forced open. What flows through is no longer entirely his.	true
+effect_bundles_localised_description_ironic_np_bundle_disciples	Students of the Needle Path tend the wounded in every camp.	true
+campaign_localised_strings_string_ironic_np_free	FREE	false

@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/@ironic_tiger.loc		
+land_units_onscreen_name_ironic_tiger_riders	Tiger Riders	false
+ceo_nodes_title_ironic_ancillary_mount_tiger	General Hu	false
+ceo_nodes_description_ironic_ancillary_mount_tiger	Earn your stripes with this fearsome feline at your side, or your enemies may catch you by the tail! Just remember, he prefers fresh meat to crackers.	false
+custom_battle_loadouts_name_ironic_custom_battle_loadout_tiger_01	Tiger Lord	false
+custom_battle_loadouts_description_ironic_custom_battle_loadout_tiger_01	Cao Cao: sword and shield, war tiger (ironic_tiger test).	false
+custom_battle_loadouts_name_ironic_custom_battle_loadout_tiger_02	Tiger Lord (Spear)	false
+custom_battle_loadouts_description_ironic_custom_battle_loadout_tiger_02	Zhang Fei: halberd, war tiger (ironic_tiger test).	false
+custom_battle_loadouts_name_ironic_custom_battle_loadout_tiger_03	Tiger Lord (Dual)	false
+custom_battle_loadouts_description_ironic_custom_battle_loadout_tiger_03	Liu Bei: dual swords, war tiger (ironic_tiger test).	false

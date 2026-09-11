@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/factions/frontend/ironic_wang_sheng_repose_features.loc		
+frontend_faction_leader_unique_features_localised_description_ironic_unique_features_wang_sheng_repose	[[b]]Hall of Repose[[/b]]\\n[[col:scope_description]]Unique building chain[[/col]]\\n\\n[[col:green]]+[[/col]] Languor each turn\\n[[col:green]]+[[/col]] {{tr:public_order}}\\n[[col:red]]-[[/col]] Increases corruption\\n[[col:red]]-[[/col]] Reduces income from all sources\\n\\n[[col:flavour]][[i]]Confucius taught tireless service to the state; the Governor has quietly stopped recommending it, and his people seem no less content for the change. Nothing is done here, and it is done very well.[[/col]][[/i]]	true

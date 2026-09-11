@@ -1,0 +1,11 @@
+key
+#pooled_resource_factors_tables;0;db/pooled_resource_factors_tables/kuitoupathresource
+ironic_path_ts_factor
+ironic_path_ts_victory
+ironic_path_ts_defeat
+ironic_path_ts_decay
+ironic_path_ts_at_war
+ironic_path_ts_post_battle_options
+ironic_path_ts_assignments
+ironic_path_ts_casualities
+ironic_path_ts_remove_heir

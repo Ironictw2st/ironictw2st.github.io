@@ -1,0 +1,19 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/caoren						
+ironic_cao_ren_effect_bundle_level_0			army.png	faction	negative	false
+ironic_cao_ren_effect_bundle_level_1			army.png	faction	negative	false
+ironic_cao_ren_effect_bundle_level_2			army.png	faction	negative	false
+ironic_cao_ren_effect_bundle_level_3			army.png	faction	neutral	false
+ironic_cao_ren_effect_bundle_level_4			army.png	faction	positive	false
+ironic_cao_ren_effect_bundle_level_5			army.png	faction	positive	false
+ironic_cao_ren_effect_bundle_level_6			army.png	faction	positive	false
+ironic_faction_purchase_preparation_formation_infantry			army.png	faction	positive	true
+ironic_faction_purchase_preparation_formation_horse			army.png	faction	positive	true
+ironic_faction_purchase_preparation_replenishment			army.png	faction	positive	true
+ironic_faction_purchase_preparation_movement			army.png	faction	positive	true
+ironic_faction_purchase_preparation_arrow_production			army.png	faction	positive	true
+ironic_faction_cao_ren_frontend			3k_skill_intuition_unpredictability.png	faction	positive	true
+ironic_stance_cao_ren_garrisoned			army.png	faction	positive	true
+ironic_the_four_caos			3k_skill_intuition_unpredictability.png	faction	positive	true
+ironic_lead_by_the_head			3k_skill_intuition_unpredictability.png	faction	positive	true
+ironic_cao_ren_help			army.png	faction	positive	true

@@ -1,0 +1,47 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/zhu_haoresource								
+ironic_unit_upgrades_decay	mh_imperial_army.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_armies	mh_imperial_army.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_captives_post_battle	mh_imperial_army.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_characters	mh_imperial_army.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_garrisoned	mh_imperial_army.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_vassalized	mh_imperial_army.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_unit_upgrades_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_unit_upgrades_executed	mh_imperial_army.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_assignments	mh_imperial_army.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_wood_armor	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_wood_melee_evasion	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_wood_ap_damage	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_wood_range_block	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_earth_all_damage	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_earth_speed	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_fire_charge_bonus	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_fire_speed	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_water_range_view	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_water_ammo	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_water_range_block	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_water_all_damage	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_metal_attack_rate	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_metal_charge_bonus	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_metal_general_armor	info.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_water_general_melee_evasion	info.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_fire_general_charge_bonus	info.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_earth_general_range_block	info.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_wood_general_all_damage	info.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_effect_bundle_1	zhu_jun_black_white_icon_32x32.png	1	campaign		ironic_unit_upgrades_effect_bundle_1	0.0000	positive_value_is_good	default
+ironic_unit_upgrades_effect_bundle_2	zhu_jun_black_white_icon_32x32.png	2	campaign		ironic_unit_upgrades_effect_bundle_2	0.0000	positive_value_is_good	default
+ironic_unit_upgrades_effect_bundle_3	zhu_jun_black_white_icon_32x32.png	3	campaign		ironic_unit_upgrades_effect_bundle_3	0.0000	positive_value_is_good	default
+ironic_unit_upgrades_effect_bundle_4	zhu_jun_black_white_icon_32x32.png	4	campaign		ironic_unit_upgrades_effect_bundle_4	0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_armour	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_melee_defence	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_melee_ap_damage	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_melee_all_damage	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_missile_block	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_speed	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_charge	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_range	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_ammo	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_missile_all_damage	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_attack_rate	info.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_upgrades_all_fatigue	info.png	100	campaign			0.0000	negative_value_is_good	default

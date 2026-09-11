@@ -1,0 +1,18 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zhu_haomissionmarkers						
+ironic_zhu_hao_mission_01_first_stronghold_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_02_gather_officers_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_03_first_blood_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_04_muster_host_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_05_roots_in_the_land_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_06_break_oppressors_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_07_province_of_our_own_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_08_great_muster_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_09_realm_grows_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_10_scourge_of_armies_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_11_master_of_provinces_marker			info.png	faction	neutral	false
+ironic_zhu_hao_mission_12_topple_a_great_house_marker			info.png	faction	neutral	false
+ironic_zhu_hao_hidden_01_father_marker			info.png	faction	neutral	false
+ironic_zhu_hao_hidden_02_brother_marker			info.png	faction	neutral	false
+ironic_zhu_hao_hidden_03_fate_defied_marker			info.png	faction	neutral	false
+ironic_zhu_hao_hidden_04_yuzhang_marker			info.png	faction	neutral	false

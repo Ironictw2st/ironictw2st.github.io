@@ -1,0 +1,14 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ironic_liu_pan_raider								
+ironic_liu_pan_ferocity_decay	ironic_poolde_resource_raider.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_liu_pan_ferocity_raiding	ironic_poolde_resource_raider.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_liu_pan_favour_drain	icon_attitude_trusted_friend.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_liu_pan_favour_vassal	icon_attitude_trusted_friend.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_liu_pan_favour_alone	icon_attitude_trusted_friend.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_liu_pan_dummy_ferocity	info.png	5	campaign			0.0000	positive_value_is_good	default
+ironic_liu_pan_dummy_favour	info.png	5	campaign			0.0000	positive_value_is_good	default
+ironic_liu_pan_raider_upkeep	upkeep_cost.png	130	campaign			0.0000	positive_value_is_good	default
+ironic_unique_resource_liu_pan_1		1	campaign		ironic_frontend_desc_liu_pan_1	0.0000	neutral	default
+ironic_unique_resource_liu_pan_2		2	campaign		ironic_frontend_desc_liu_pan_2	0.0000	neutral	default
+ironic_unique_resource_liu_pan_3		3	campaign		ironic_frontend_desc_liu_pan_3	0.0000	neutral	default
+ironic_unique_resource_liu_pan_4		4	campaign		ironic_frontend_desc_liu_pan_4	0.0000	neutral	default

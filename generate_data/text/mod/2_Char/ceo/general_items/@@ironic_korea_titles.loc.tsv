@@ -1,0 +1,22 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/@@ironic_korea_titles.loc		
+ceo_nodes_title_3k_main_ceo_node_wealth_01	Noble	false
+ceo_nodes_title_3k_main_ceo_node_wealth_02	Attendant Aide	false
+ceo_nodes_title_3k_main_ceo_node_wealth_03	Personnel Manager	false
+ceo_nodes_title_3k_main_ceo_node_wealth_04	Palace Attendant	false
+ceo_nodes_title_3k_main_ceo_node_wealth_05	Middle Administrator	false
+ceo_nodes_title_3k_main_ceo_node_wealth_06	Recorder	false
+ceo_nodes_title_3k_main_ceo_node_wealth_07	Senior Advisor	false
+ceo_nodes_title_3k_main_ceo_node_wealth_08	High-ranking Educator	false
+ceo_nodes_title_3k_main_ceo_node_wealth_09	Deputy Chief Minister	false
+ceo_nodes_title_3k_main_ceo_node_wealth_10	Chief Minister	false
+ceo_nodes_description_3k_main_ceo_node_wealth_01	A person of rare and distinguished birth, found in any land. 	false
+ceo_nodes_description_3k_main_ceo_node_wealth_02	In the execution of state affairs, there must always be someone assisting nearby.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_03	When promoting someone, an official is needed to make a basic assessment of the individual.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_04	Even within the palace, carrying out duties is considered a relatively high position.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_05	Those in the middle are always the ones who manage royal etiquette and the salaries of the officials.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_06	No one knows what impact a single line of writing will have on future generations.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_07	There are always high-ranking advisors who assist the king or the prime minister by their side.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_08	Order is maintained in the nation because there are those in the capital who supervise and teach.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_09	If the prime minister assists the king, then the deputy prime minister assists the prime minister.	false
+ceo_nodes_description_3k_main_ceo_node_wealth_10	When the king seeks your opinion first in all matters, it signifies the utmost importance of your position.	false

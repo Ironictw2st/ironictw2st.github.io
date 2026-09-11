@@ -1,0 +1,10 @@
+key
+#pooled_resource_factors_tables;0;db/pooled_resource_factors_tables/wang_langresource
+ironic_experience_factor
+ironic_experience_victory
+ironic_experience_defeat
+ironic_experience_decay
+ironic_experience_at_war
+ironic_experience_post_battle_options
+ironic_experience_assignments
+ironic_experience_experiences

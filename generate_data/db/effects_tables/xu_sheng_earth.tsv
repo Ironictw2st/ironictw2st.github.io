@@ -1,0 +1,3 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/xu_sheng_earth								
+ironic_xu_sheng_earth	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default

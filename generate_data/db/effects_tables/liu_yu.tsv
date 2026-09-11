@@ -1,0 +1,14 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/liu_yu								
+ironic_disable_northern_courage	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enable_northern_courage	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_xiliang_cavalry	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_heavy_xiliang	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_di_catapracths	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_di_horse_archer	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_di_marauder	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_di_raiders	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_qiang_infantry	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_xianbei_headhunters	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_cap_xianbei_swordguard	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enable_northern_courage_icon	unit_attributes.png	100	campaign			0.0000	negative_value_is_good	default

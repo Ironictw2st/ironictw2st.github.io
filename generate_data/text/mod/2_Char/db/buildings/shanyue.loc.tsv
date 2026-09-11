@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/buildings/shanyue.loc		
+building_culture_variants_name_ironic_resource_banditry_shanyue_0	Shanyue Camp	false
+building_culture_variants_name_ironic_resource_banditry_shanyue_1	Shanyue Fortress	false
+building_chains_chain_tooltip_ironic_resource_bandit_shanyue	Shanyue Camp	false
+building_chains_encyclopedia_name_ironic_resource_bandit_shanyue	Tradition is more powerful than any army, if wielded in the right manner.	false
+building_chains_encyclopedia_description_ironic_resource_bandit_shanyue	Placeholder description	false
+building_chains_override_description_ironic_resource_bandit_shanyue	[[col:flavour]]Shanyue Enclave[[/col]]	false

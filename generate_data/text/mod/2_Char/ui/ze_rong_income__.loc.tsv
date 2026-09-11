@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/ui/ze_rong_income__.loc		
+campaign_localised_strings_string_ze_rong_income_title	ZE RONG - RAID INCOME	false
+campaign_localised_strings_string_ze_rong_income_region_header	REGION BEING RAIDED	false
+campaign_localised_strings_string_ze_rong_income_per_turn	PER TURN	false
+campaign_localised_strings_string_ze_rong_income_commander	COMMANDER	false
+campaign_localised_strings_string_ze_rong_income_empty	No armies are currently raiding enemy territory.	false
+campaign_localised_strings_string_ze_rong_income_total	TOTAL PER TURN:	false
+campaign_localised_strings_string_ze_rong_raid_income_display_tt	Gold gained from raiding enemy regions this turn	false
+campaign_localised_strings_string_ze_rong_raid_income_button_Tooltip_ze0001	[[b]]Raid Income[[/b]] ||How much money each of Ze Rong's raiding armies is earning from enemy regions this turn. Click to see the per-region breakdown.	false
+campaign_localised_strings_string_ze_rong_income_breakdown_row	Raiding	false

@@ -1,0 +1,14 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/xiahouyuanresource								
+ironic_xiahou_yuan_decay	army.png	1	campaign	fire		0.0000	positive_value_is_good	default
+ironic_xiahou_yuan_frontend_1	army.png	1	campaign	fire	ironic_xiahou_yuan_frontend_1	0.0000	positive_value_is_good	default
+ironic_xiahou_yuan_frontend_2	army.png	2	campaign	fire	ironic_xiahou_yuan_frontend_2	0.0000	positive_value_is_good	default
+ironic_xiahou_yuan_frontend_3	army.png	3	campaign	fire	ironic_xiahou_yuan_frontend_3	0.0000	positive_value_is_good	default
+ironic_xiahou_yuan_frontend_4	army.png	4	campaign	fire	ironic_xiahou_yuan_frontend_4	0.0000	positive_value_is_good	default
+ironic_zhang_yang_unique_bow	ranged_weapon_upgrade.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zhang_yang_unique_armour	armour_upgrade.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zhang_yang_unique_blade	3k_ceo_subcategory_weapon_all.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_zhang_yang_gain	army.png	1	campaign	fire		0.0000	positive_value_is_good	info
+ironic_zhang_yang_loss	army.png	2	campaign	fire		0.0000	positive_value_is_good	info
+ironic_zhang_yang_special_war	army.png	3	campaign	fire		0.0000	positive_value_is_good	info
+ironic_zhang_yang_special_recruitment	army.png	4	campaign	fire		0.0000	positive_value_is_good	info

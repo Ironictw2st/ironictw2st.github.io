@@ -1,0 +1,8 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/resource_songjian			
+ironic_song_jian_resource_level_0	19	0	value
+ironic_song_jian_resource_level_1	39	20	value
+ironic_song_jian_resource_level_2	59	40	value
+ironic_song_jian_resource_level_3	79	60	value
+ironic_song_jian_resource_level_4	100	80	value
+3k_main_campaign_group_governor_independence_trigger_default_song_jian	9999	25	value

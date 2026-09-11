@@ -1,0 +1,65 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/190expandedextra								
+ironic_faction_council_assign_titles	character.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_disabled_matched_combat	unit_attributes.png	200	campaign			0.0000	positive_value_is_good	default
+3k_main_ancillary_reinforcement_range_mod	reinforcement_range.png	30	campaign			0.0000	positive_value_is_good	default
+ironic_ze_rong_raid_income	raider.png	30	campaign			0.0000	positive_value_is_good	info
+ironic_gdp_abs_raid_income	raider.png	30	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_raiding_1	info.png	1	campaign		ironic_frontend_description_raiding_1	0.0000	positive_value_is_good	default
+ironic_frontend_description_raiding_2	info.png	2	campaign		ironic_frontend_description_raiding_2	0.0000	positive_value_is_good	default
+ironic_frontend_description_raiding_3	info.png	3	campaign		ironic_frontend_description_raiding_3	0.0000	positive_value_is_good	default
+ironic_frontend_description_raiding_4	info.png	4	campaign		ironic_frontend_description_raiding_4	0.0000	positive_value_is_good	default
+ironic_attribute_unlock_unit	replenishment.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_unit_increase_ranged_cavalry_base_damage	ranged_weapon_upgrade.png	100	campaign			0.0000	positive_value_is_good	default
+3k_dummy_effect_assignment_unlock_lady_yan	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+3k_dummy_effect_assignment_unlock_lady_dong_peishan	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+3k_dummy_effect_assignment_unlock_standard_child_xp	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+3k_dummy_effect_assignment_unlock_lady_zou	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+3k_dummy_effect_assignment_unlock_family_estate_boost	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+3k_dummy_effect_assignment_unlock_building_upkeep_boost	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+3k_dummy_effect_assignment_unlock_teaching_global	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+ironic_dummy_effect_assignment_give_xp_to_all_children	child_chance.png	15	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_assignment_give_xp_to_one_child	child_chance.png	15	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_assignment_give_xp_to_spouse	marriage.png	15	campaign			0.0000	positive_value_is_good	default
+ironic_effect_assignment_boost_faction_support	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+ironic_effect_assignment_boost_population_growth	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+ironic_effect_assignment_reduce_population_growth	assignment_limit.png	15	campaign		3k_main_effect_description_unlocks_assignment	0.0000	positive_value_is_good	default
+ironic_effect_public_order_tax_barbarians	public_order.png	80	campaign	earth	3k_main_effect_description_buildings_provinces_public_order	0.0000	positive_value_is_good	default
+ironic_effect_flame_resistance	3k_dlc06_icon_hud_wild_fire.png	201	battle			0.0000	positive_value_is_good	default
+ironic_dummy_effect_chance_to_build_towers	military.png	201	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_province_food_abs_characters	food.png	99	campaign	wood		0.0000	positive_value_is_good	default
+3k_main_effect_economy_gdp_mod_commerce_and_culture	money.png	209	campaign			0.0000	positive_value_is_good	default
+3k_main_effect_minister_scale_minister_rank	info.png	209	campaign			0.0000	positive_value_is_good	default
+ironic_child_zhong_hui	child_chance.png	225	campaign			0.0000	positive_value_is_good	default
+ironic_child_xin_xianying	child_chance.png	191	campaign			0.0000	positive_value_is_good	default
+ironic_child_cao_zhi	child_chance.png	192	campaign			0.0000	positive_value_is_good	default
+ironic_child_liu_feng	child_chance.png	192	campaign			0.0000	positive_value_is_good	default
+ironic_child_luo_tong	child_chance.png	193	campaign			0.0000	positive_value_is_good	default
+ironic_child_cao_biao	child_chance.png	195	campaign			0.0000	positive_value_is_good	default
+ironic_child_wang_su	child_chance.png	195	campaign			0.0000	positive_value_is_good	default
+ironic_child_cao_jie	child_chance.png	197	campaign			0.0000	positive_value_is_good	default
+ironic_child_cao_shuang	child_chance.png	203	campaign			0.0000	positive_value_is_good	default
+ironic_child_zhuge_ke	child_chance.png	203	campaign			0.0000	positive_value_is_good	default
+ironic_child_cao_rui	child_chance.png	205	campaign			0.0000	positive_value_is_good	default
+ironic_child_sima_shi	child_chance.png	208	campaign			0.0000	positive_value_is_good	default
+ironic_child_gongsun_yuan	child_chance.png	210	campaign			0.0000	positive_value_is_good	default
+ironic_child_sima_zhao	child_chance.png	211	campaign			0.0000	positive_value_is_good	default
+ironic_child_sun_deng	child_chance.png	209	campaign			0.0000	positive_value_is_good	default
+ironic_child_cao_xi	child_chance.png	210	campaign			0.0000	positive_value_is_good	default
+ironic_child_wang_yuanji	child_chance.png	217	campaign			0.0000	positive_value_is_good	default
+ironic_child_jia_chong	child_chance.png	217	campaign			0.0000	positive_value_is_good	default
+ironic_child_guan_suo	child_chance.png	207	campaign			0.0000	positive_value_is_good	default
+ironic_child_liu_shan	child_chance.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_child_guan_yinping	child_chance.png	190	campaign			0.0000	positive_value_is_good	default
+ironic_child_guan_xing	child_chance.png	193	campaign			0.0000	positive_value_is_good	default
+ironic_child_zhang_xingcai	child_chance.png	190	campaign			0.0000	positive_value_is_good	default
+ironic_child_zhang_bao	child_chance.png	192	campaign			0.0000	positive_value_is_good	default
+ironic_hua_xin_effect_bundle_frontend_1	treasury.png	192	campaign		ironic_hua_xin_effect_bundle_frontend_1	0.0000	positive_value_is_good	default
+ironic_hua_xin_effect_bundle_frontend_2	treasury.png	192	campaign		ironic_hua_xin_effect_bundle_frontend_2	0.0000	positive_value_is_good	default
+ironic_hua_xin_effect_bundle_frontend_3	treasury.png	192	campaign		ironic_hua_xin_effect_bundle_frontend_3	0.0000	positive_value_is_good	default
+ironic_hua_xin_effect_bundle_frontend_4	treasury.png	192	campaign		ironic_hua_xin_effect_bundle_frontend_4	0.0000	positive_value_is_good	default
+ironic_minister_addon_prime_minister	unit_attributes.png	192	campaign			0.0000	positive_value_is_good	default
+3k_dlc07_effect_unit_cap_northern_army_veterans_hidden	.	0	battle			0.0000	negative_value_is_good	default
+3k_dlc07_dummy_effect_unit_cap_northern_army	replenishment.png	1	campaign			0.0000	negative_value_is_good	default
+3k_main_skill_ability_recharge	item_ability.png	150	campaign			0.0000	negative_value_is_good	default
+3k_main_resource_gain_fortitude_building	pooled_resource_heroism.png	100	campaign			0.0000	positive_value_is_good	default

@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/wang_langresource			
+ironic_wang_lang_experience_level_0	19	0	value
+ironic_wang_lang_experience_level_1	39	20	value
+ironic_wang_lang_experience_level_2	69	40	value
+ironic_wang_lang_experience_level_3	89	70	value
+ironic_wang_lang_experience_level_4	100	90	value

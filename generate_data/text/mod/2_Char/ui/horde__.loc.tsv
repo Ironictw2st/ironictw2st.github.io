@@ -1,0 +1,93 @@
+key	text	tooltip
+#Loc;1;text/ui/horde__.loc		
+campaign_localised_strings_string_horde_panel_title	HORDE - ARMY DEVELOPMENT	false
+campaign_localised_strings_string_horde_panel_desc	Each army develops through its building slots. Build, demolish, or recall an army to pass its slots to an heir.	false
+campaign_localised_strings_string_horde_armies_header	ARMIES	false
+campaign_localised_strings_string_horde_slots_label	SLOTS	false
+campaign_localised_strings_string_horde_armies_empty	No armies in the field.	false
+campaign_localised_strings_string_horde_slots_header	BUILDING SLOTS	false
+campaign_localised_strings_string_horde_build_header	CHOOSE A BUILDING	false
+campaign_localised_strings_string_horde_recall_button	RECALL ARMY	false
+campaign_localised_strings_string_horde_demolish_button	DEMOLISH	false
+campaign_localised_strings_string_horde_upgrade_button	UPGRADE	false
+campaign_localised_strings_string_horde_downgrade_button	DOWNGRADE	false
+campaign_localised_strings_string_horde_rush_button	RUSH	false
+campaign_localised_strings_string_horde_cancel_button	CANCEL	false
+campaign_localised_strings_string_horde_heir_title	CHOOSE AN HEIR FOR THE RECALLED ARMY	false
+campaign_localised_strings_string_horde_heir_auto	AUTO-ASSIGN	false
+campaign_localised_strings_string_horde_bld_city	Nomadic Host	false
+campaign_localised_strings_string_horde_bld_city_wuhuan	Nomadic Host of the Wuhuan	false
+campaign_localised_strings_string_horde_bld_city_wuhuan_desc	The rolling heart of the Wuhuan. Its growth opens building slots and quickens the march, but a great host is costly to keep.	false
+campaign_localised_strings_string_horde_bld_kuitou_muster	Confederation Muster	false
+campaign_localised_strings_string_horde_bld_kuitou_muster_desc	Friendship among the nomads, and recovery far from home.	false
+campaign_localised_strings_string_horde_bld_tuoba_forges	Ordo Forges	false
+campaign_localised_strings_string_horde_bld_tuoba_forges_desc	Keener edges through any armour - and now and then, a masterwork.	false
+campaign_localised_strings_string_horde_bld_city_desc	The rolling heart of the horde. Its growth opens new building slots, but a great host is costly to keep.	false
+campaign_localised_strings_string_horde_bld_mforge	Mobile Forge	false
+campaign_localised_strings_string_horde_bld_mforge_desc	Armour and blades for this army, at a cost in upkeep.	false
+campaign_localised_strings_string_horde_bld_fletchers	Fletchers	false
+campaign_localised_strings_string_horde_bld_fletchers_desc	More ammunition and deadlier arrows for this army, at a cost in upkeep.	false
+campaign_localised_strings_string_horde_bld_saddlemaker	Saddlemaker	false
+campaign_localised_strings_string_horde_bld_saddlemaker_desc	Harder charges and longer bowshots for this army, at a cost in upkeep.	false
+campaign_localised_strings_string_horde_bld_yurt	Shaman's Yurt	false
+campaign_localised_strings_string_horde_bld_yurt_desc	This army stands firmer and tires slower.	false
+campaign_localised_strings_string_horde_bld_herders	Herders	false
+campaign_localised_strings_string_horde_bld_herders_desc	The people grow, a little coin flows, and riders come cheap.	false
+campaign_localised_strings_string_horde_bld_travartisans	Traveling Artisans	false
+campaign_localised_strings_string_horde_bld_travartisans_desc	Rich income, siegecraft on arrival, and cheaper recruits.	false
+campaign_localised_strings_string_horde_bld_traders	Traders and Salvagers	false
+campaign_localised_strings_string_horde_bld_traders_desc	The richest income of all, and richer post-battle loot.	false
+campaign_localised_strings_string_horde_bld_gatherers	Gatherers and Foragers	false
+campaign_localised_strings_string_horde_bld_gatherers_desc	The people grow, the granaries fill, and the scouts see far.	false
+campaign_localised_strings_string_horde_bld_equine	Grand Equine Entourage	false
+campaign_localised_strings_string_horde_bld_equine_desc	Heavier horses - and now and then, a great one joins the herd.	false
+campaign_localised_strings_string_horde_bld_chanyu_tents	The Chanyu's Tents	false
+campaign_localised_strings_string_horde_bld_chanyu_tents_desc	Prestige and learning flow from the court's fires.	false
+campaign_localised_strings_string_horde_bld_pathfinders	Di Pathfinders	false
+campaign_localised_strings_string_horde_bld_pathfinders_desc	This army marches far and recovers well.	false
+campaign_localised_strings_string_horde_pop_header	POPULATION	false
+campaign_localised_strings_string_horde_stat_upkeep	Upkeep:	false
+campaign_localised_strings_string_horde_stat_units	Units:	false
+campaign_localised_strings_string_horde_stat_supplies	Supplies:	false
+campaign_localised_strings_string_horde_stat_move	Move:	false
+campaign_localised_strings_string_horde_stat_income	Slot income:	false
+campaign_localised_strings_string_horde_pop_starving	Starving	false
+campaign_localised_strings_string_horde_pop_meagre	Meagre	false
+campaign_localised_strings_string_horde_pop_steady	Steady	false
+campaign_localised_strings_string_horde_pop_thriving	Thriving	false
+campaign_localised_strings_string_horde_pop_overcrowded	Overcrowded	false
+campaign_localised_strings_string_horde_pop_take_button	TAKE	false
+campaign_localised_strings_string_horde_pop_put_button	PUT	false
+campaign_localised_strings_string_horde_pop_take_tt	Take population from this settlement into the army. Weakens the settlement's growth and order for a time.	false
+campaign_localised_strings_string_horde_pop_move_label	\\nPopulation moved:	false
+campaign_localised_strings_string_horde_tt_level	Level	false
+campaign_localised_strings_string_horde_lock_tt	Only one construction can run at a time. A Thriving or Overcrowded population lets the horde build in parallel.	false
+campaign_localised_strings_string_horde_lock_title	Construction Underway	false
+campaign_localised_strings_string_horde_recall_blocked_tt	No army can inherit this one. Recall needs another army with enough free building slots.	false
+campaign_localised_strings_string_horde_recall_need_label	\\nSlots needed:	false
+campaign_localised_strings_string_horde_recall_free_label	\\nMost free slots in another army:	false
+campaign_localised_strings_string_horde_tt_upgrade	Upgrade to Tier	false
+campaign_localised_strings_string_horde_tt_downgrade	Downgrade to Tier	false
+campaign_localised_strings_string_horde_tt_refunds	refunds	false
+campaign_localised_strings_string_horde_tt_rush	Rush now:	false
+campaign_localised_strings_string_horde_tt_cancel	Cancel: refunds	false
+campaign_localised_strings_string_horde_tt_cancel_teardown	Cancel this order.	false
+campaign_localised_strings_string_horde_tt_demolish	Demolish: refunds	false
+campaign_localised_strings_string_horde_tt_on_completion	on completion	false
+campaign_localised_strings_string_horde_tt_turns	turns	false
+campaign_localised_strings_string_horde_info_empty	Empty slot - choose a building to construct.	false
+campaign_localised_strings_string_horde_info_building	Under construction:	false
+campaign_localised_strings_string_horde_info_turns_left	turn(s) left.	false
+campaign_localised_strings_string_horde_info_cancel_full	Cancel for a full refund.	false
+campaign_localised_strings_string_horde_info_downgrading	Downgrading in	false
+campaign_localised_strings_string_horde_info_demolishing	Demolishing in	false
+campaign_localised_strings_string_horde_info_turns_suffix	turn(s).	false
+campaign_localised_strings_string_horde_info_tier	Tier	false
+campaign_localised_strings_string_horde_info_max_tier	Maximum tier.	false
+campaign_localised_strings_string_horde_info_dn_refund	Downgrade refunds	false
+campaign_localised_strings_string_horde_tt_needs_city	Requires city level	false
+uied_component_texts_localised_string_hordes_button_Tooltip_1c3214	[[b]]Hordes[[/b]] ||View and upgrades your hordes.	false
+campaign_localised_strings_string_horde_income_display_tt	[[b]]Horde Income[[/b]] ||Gold your hordes' buildings add to the treasury each turn.	false
+campaign_localised_strings_string_horde_income_stat_tt	[[b]]Horde Income[[/b]] ||Gold this army's buildings add to the treasury each turn.	false
+campaign_localised_strings_string_horde_pop_put_tt	Deposit population from the army into this settlement, boosting its growth and prosperity.	false
+campaign_localised_strings_string_horde_income_breakdown_row	Horde Buildings	false

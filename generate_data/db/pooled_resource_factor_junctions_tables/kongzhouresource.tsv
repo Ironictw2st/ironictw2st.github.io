@@ -1,0 +1,12 @@
+key	factor	maximum	minimum	resource	ai_can_propose	is_recurring_factor
+#pooled_resource_factor_junctions_tables;3;db/pooled_resource_factor_junctions_tables/kongzhouresource						
+ironic_harmony_factor	ironic_harmony_factor	2147483647	-2147483647	ironic_harmony	true	true
+ironic_harmony_victory	ironic_harmony_victory	2147483647	-2147483647	ironic_harmony	true	false
+ironic_harmony_defeat	ironic_harmony_defeat	2147483647	-2147483647	ironic_harmony	true	false
+ironic_harmony_decay	ironic_harmony_decay	2147483647	-2147483647	ironic_harmony	true	true
+ironic_harmony_at_war	ironic_harmony_at_war	2147483647	-2147483647	ironic_harmony	true	false
+ironic_harmony_post_battle_options	ironic_harmony_post_battle_options	2147483647	-2147483647	ironic_harmony	true	false
+ironic_harmony_assignments	ironic_harmony_assignments	2147483647	-2147483647	ironic_harmony	true	false
+ironic_harmony_casualities	ironic_harmony_casualities	2147483647	-2147483647	ironic_harmony	true	false
+ironic_harmony_characters	ironic_harmony_characters	2147483647	-2147483647	ironic_harmony	true	true
+ironic_harmony_building	ironic_harmony_building	2147483647	-2147483647	ironic_harmony	true	true

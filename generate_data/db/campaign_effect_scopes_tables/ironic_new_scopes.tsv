@@ -1,0 +1,9 @@
+key	location	ownership	target	territory	send_to_location_only_if_adult	only_display_in_tooltip
+#campaign_effect_scopes_tables;4;db/campaign_effect_scopes_tables/ironic_new_scopes						
+character_to_spouse_character_own	factionwide	yours	faction	any	true	false
+character_to_spouse_region_own	factionwide	yours	faction	any	true	false
+character_to_spouse_faction_own	factionwide	yours	faction	any	true	false
+character_to_spouse_army_own	factionwide	yours	faction	any	true	false
+character_to_spouse_retinue_own	factionwide	yours	faction	any	true	false
+character_to_spouse_faction_minister_own	factionwide	yours	faction	any	true	false
+character_to_council_minister_own	factionwide	yours	faction	any	true	false

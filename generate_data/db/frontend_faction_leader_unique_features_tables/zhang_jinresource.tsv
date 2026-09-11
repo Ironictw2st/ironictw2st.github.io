@@ -1,0 +1,5 @@
+key	icon_path	feature_type	sort_order
+#frontend_faction_leader_unique_features_tables;3;db/frontend_faction_leader_unique_features_tables/zhang_jinresource			
+ironic_zhang_jin_needle_path	ui/campaign ui/effect_bundles/3k_dlc04_assignment_tao_qian_promote_peace.png	ceo	0
+ironic_zhang_jin_taoist_rites	ui/ancillaries/accessories/3k_dlc04_ancillary_accessory_religious_bell_unique.png	ceo	1
+ironic_zhang_jin_captive_rituals	ui/ancillaries/accessories/3k_main_ancillary_ceremonial_stone_axe.png	ceo	2

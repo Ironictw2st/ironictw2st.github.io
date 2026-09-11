@@ -1,0 +1,9 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/wuhuanresource						
+ironic_wuhuan_resource_level_0			raider.png	faction	neutral	false
+ironic_wuhuan_resource_level_1			raider.png	faction	neutral	false
+ironic_wuhuan_resource_level_2			raider.png	faction	neutral	false
+ironic_wuhuan_resource_level_3			raider.png	faction	neutral	false
+ironic_wuhuan_resource_level_4			raider.png	faction	neutral	false
+ironic_wuhuan_resource_level_5			raider.png	faction	neutral	false
+ironic_wuhuan_frontend			raider.png	faction	neutral	true

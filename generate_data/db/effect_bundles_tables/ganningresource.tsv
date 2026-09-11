@@ -1,0 +1,15 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ganningresource						
+ironic_robin_hood_resource_level_0			custom_pin_naval.png	faction	negative	false
+ironic_robin_hood_resource_level_1			custom_pin_naval.png	faction	negative	false
+ironic_robin_hood_resource_level_2			custom_pin_naval.png	faction	neutral	false
+ironic_robin_hood_resource_level_3			custom_pin_naval.png	faction	positive	false
+ironic_robin_hood_resource_level_4			custom_pin_naval.png	faction	positive	false
+ironic_robin_hood_captives_execute			no_effect.png	force	neutral	false
+ironic_robin_hood_captives_recruit			no_effect.png	force	neutral	false
+ironic_robin_hood_captives_release			no_effect.png	force	neutral	false
+ironic_robin_hood_garrisoned			custom_pin_naval.png	force	neutral	false
+ironic_robin_hood_vassalized			custom_pin_naval.png	force	neutral	false
+ironic_robin_hood_effect_bundle			custom_pin_naval.png	faction	neutral	false
+ironic_robin_hood_spoils			army.png	force	neutral	false
+ironic_robin_hood_raiding			army.png	force	neutral	false

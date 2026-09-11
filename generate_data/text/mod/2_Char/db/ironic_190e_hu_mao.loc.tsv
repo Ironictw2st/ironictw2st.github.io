@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_190e_hu_mao.loc		
+land_units_onscreen_name_rew_iro_hu_mao_metal_prefects_watch	Prefect's Watch	false
+land_units_concealed_name_rew_iro_hu_mao_metal_prefects_watch	Prefect's Watch	false
+land_units_onscreen_name_rew_iro_hu_mao_water_vigil_repeaters	Vigil Repeaters	false
+land_units_concealed_name_rew_iro_hu_mao_water_vigil_repeaters	Vigil Repeaters	false
+frontend_faction_leader_unique_features_localised_description_rew_iro_hu_mao_metal_prefects_watch	[[b]]Prefect's Watch[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Missile Defence\\n[[col:red]]-[[/col]] Weak vs Cavalry\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_hu_mao_water_vigil_repeaters	[[b]]Vigil Repeaters[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Suppression\\n[[col:green]]+[[/col]] Armour-Piercing Missiles\\n[[col:green]]+[[/col]] Has Ranged\\n	true

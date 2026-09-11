@@ -1,0 +1,34 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_morale_sets.loc		
+effects_description_ironic_effect_unit_stats_morale_abs_advanced_all	[[b]]%+n[[/b]] morale for advanced units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_advanced_all		false
+effects_description_ironic_effect_unit_stats_morale_abs_advanced_earth	[[b]]%+n[[/b]] morale for advanced melee cavalry	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_advanced_earth		false
+effects_description_ironic_effect_unit_stats_morale_abs_advanced_fire	[[b]]%+n[[/b]] morale for advanced shock cavalry	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_advanced_fire		false
+effects_description_ironic_effect_unit_stats_morale_abs_advanced_metal	[[b]]%+n[[/b]] morale for advanced sword and axe infantry	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_advanced_metal		false
+effects_description_ironic_effect_unit_stats_morale_abs_advanced_water	[[b]]%+n[[/b]] morale for advanced ranged units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_advanced_water		false
+effects_description_ironic_effect_unit_stats_morale_abs_advanced_wood	[[b]]%+n[[/b]] morale for advanced spear infantry	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_advanced_wood		false
+effects_description_ironic_effect_unit_stats_morale_abs_chen_wen_units	[[b]]%+n[[/b]] morale for Chen Wen's unique units and militia	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_chen_wen_units		false
+effects_description_ironic_effect_unit_stats_morale_abs_di	[[b]]%+n[[/b]] morale for Di tribal units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_di		false
+effects_description_ironic_effect_unit_stats_morale_abs_elite_all	[[b]]%+n[[/b]] morale for elite units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_elite_all		false
+effects_description_ironic_effect_unit_stats_morale_abs_militia_all	[[b]]%+n[[/b]] morale for militia units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_militia_all		false
+effects_description_ironic_effect_unit_stats_morale_abs_militia_earth	[[b]]%+n[[/b]] morale for militia melee cavalry	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_militia_earth		false
+effects_description_ironic_effect_unit_stats_morale_abs_militia_fire	[[b]]%+n[[/b]] morale for militia shock cavalry	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_militia_fire		false
+effects_description_ironic_effect_unit_stats_morale_abs_militia_metal	[[b]]%+n[[/b]] morale for militia sword and axe infantry	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_militia_metal		false
+effects_description_ironic_effect_unit_stats_morale_abs_militia_water	[[b]]%+n[[/b]] morale for militia ranged units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_militia_water		false
+effects_description_ironic_effect_unit_stats_morale_abs_yellow_turban	[[b]]%+n[[/b]] morale for Yellow Turban units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_yellow_turban		false
+effects_description_ironic_effect_unit_stats_morale_abs_units_northern_army	[[b]]%+n[[/b]] morale for Northern Army units	false
+effects_value_format_ironic_effect_unit_stats_morale_abs_units_northern_army		false

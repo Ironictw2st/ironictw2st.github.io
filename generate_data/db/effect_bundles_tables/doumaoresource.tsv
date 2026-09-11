@@ -1,0 +1,35 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/doumaoresource						
+ironic_trailblazing_resource_level_0			roads.png	faction	negative	false
+ironic_trailblazing_resource_level_1			roads.png	faction	negative	false
+ironic_trailblazing_resource_level_2			roads.png	faction	neutral	false
+ironic_trailblazing_resource_level_3			roads.png	faction	positive	false
+ironic_trailblazing_resource_level_4			roads.png	faction	positive	false
+ironic_trailblazing_captives_execute			no_effect.png	force	neutral	false
+ironic_trailblazing_captives_recruit			no_effect.png	force	neutral	false
+ironic_trailblazing_captives_release			no_effect.png	force	neutral	false
+ironic_trailblazing_garrisoned			roads.png	force	neutral	false
+ironic_trailblazing_vassalized			roads.png	force	neutral	false
+ironic_trailblazing_effect_bundle			roads.png	faction	neutral	false
+ironic_trailblazing_tunneling			roads.png	force	neutral	false
+3k_main_effect_bundle_population_di_tribes_city_high	This city is a populous hive of activity, a centre of commerce and culture in which the lowest of commoners coexists with the mightiest of nobles.	Populous (15)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_city_low	This city is bustling with activity, its diverse population living their lives and plying their trades day-to-day.	Bustling (13)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_city_medium	This city is bustling with activity, its diverse population living their lives and plying their trades day-to-day.	Bustling (14)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_city_super_high	This city is a populous hive of activity, a centre of commerce and culture in which the lowest of commoners coexists with the mightiest of nobles.	Populous (17)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_city_very_high	This city is a populous hive of activity, a centre of commerce and culture in which the lowest of commoners coexists with the mightiest of nobles.	Populous (16)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_city_very_low	This city is bustling with activity, its diverse population living their lives and plying their trades day-to-day.	Bustling (12)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_metropolis_high	This metropolis is marvellous to behold, a dense and vibrant collection of interesting people and wondrous places.	Vibrant (Maximum)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_metropolis_low	This metropolis is marvellous to behold, a dense and vibrant collection of interesting people and wondrous places.	Vibrant (18)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_metropolis_medium	This metropolis is marvellous to behold, a dense and vibrant collection of interesting people and wondrous places.	Vibrant (19)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_town_high	This town is busy with the comings and goings of merchants, artisans and nobles alike.	Busy (9)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_town_low	This town hums with an energy befitting a small yet well-established settlement.	Established (7)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_town_medium	This town hums with an energy befitting a small yet well-established settlement.	Established (8)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_town_super_high	This town is busy with the comings and goings of merchants, artisans and nobles alike.	Busy (11)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_town_very_high	This town is busy with the comings and goings of merchants, artisans and nobles alike.	Busy (10)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_town_very_low	This town hums with an energy befitting a small yet well-established settlement.	Established (6)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_village_high	This village is a meagre yet promising community of commoners and artisans.	Meagre (3)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_village_low	This village is but a scattered collection of country homes and hovels.	Scattered (1)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_village_medium	This village is but a scattered collection of country homes and hovels.	Scattered (2)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_village_super_high	This village is a meagre yet promising community of commoners and artisans.	Meagre (5)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_village_very_high	This village is a meagre yet promising community of commoners and artisans.	Meagre (4)	population_capacity.png	province	neutral	false
+3k_main_effect_bundle_population_di_tribes_village_very_low	This village is but a scattered collection of country homes and hovels.	Scattered (0)	population_capacity.png	province	neutral	false

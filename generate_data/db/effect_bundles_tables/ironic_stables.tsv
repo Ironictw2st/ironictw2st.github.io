@@ -1,0 +1,22 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ironic_stables						
+ironic_stables_ded_red_common			charge_bonus.png	faction	positive	true
+ironic_stables_ded_red_refined			charge_bonus.png	faction	positive	true
+ironic_stables_ded_red_exceptional			charge_bonus.png	faction	positive	true
+ironic_stables_ded_red_elite			charge_bonus.png	faction	positive	true
+ironic_stables_ded_grey_common			army.png	faction	positive	true
+ironic_stables_ded_grey_refined			army.png	faction	positive	true
+ironic_stables_ded_grey_exceptional			army.png	faction	positive	true
+ironic_stables_ded_grey_elite			army.png	faction	positive	true
+ironic_stables_ded_brown_common			upkeep_cost.png	faction	positive	true
+ironic_stables_ded_brown_refined			upkeep_cost.png	faction	positive	true
+ironic_stables_ded_brown_exceptional			upkeep_cost.png	faction	positive	true
+ironic_stables_ded_brown_elite			upkeep_cost.png	faction	positive	true
+ironic_stables_ded_black_common			army.png	faction	positive	true
+ironic_stables_ded_black_refined			army.png	faction	positive	true
+ironic_stables_ded_black_exceptional			army.png	faction	positive	true
+ironic_stables_ded_black_elite			army.png	faction	positive	true
+ironic_stables_ded_white_common			army.png	faction	positive	true
+ironic_stables_ded_white_refined			army.png	faction	positive	true
+ironic_stables_ded_white_exceptional			army.png	faction	positive	true
+ironic_stables_ded_white_elite			army.png	faction	positive	true

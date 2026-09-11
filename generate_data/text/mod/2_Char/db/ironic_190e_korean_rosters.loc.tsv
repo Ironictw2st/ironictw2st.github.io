@@ -1,0 +1,40 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_190e_korean_rosters.loc		
+land_units_onscreen_name_rew_iro_gaya_unit_metal_ingot_breakers	Ingot Breakers	false
+land_units_concealed_name_rew_iro_gaya_unit_metal_ingot_breakers	Ingot Breakers	false
+land_units_onscreen_name_rew_iro_gaya_unit_metal_iron_plate_guard	Iron-Plate Guard	false
+land_units_concealed_name_rew_iro_gaya_unit_metal_iron_plate_guard	Iron-Plate Guard	false
+land_units_onscreen_name_rew_iro_bakaja_unit_earth_border_raiders	Border Raiders	false
+land_units_concealed_name_rew_iro_bakaja_unit_earth_border_raiders	Border Raiders	false
+land_units_onscreen_name_rew_iro_bakaja_unit_metal_yoche_stormers	Yocha Stormers	false
+land_units_concealed_name_rew_iro_bakaja_unit_metal_yoche_stormers	Yocha Stormers	false
+land_units_onscreen_name_rew_iro_shitla_unit_water_cloud_readers	Cloud-Readers	false
+land_units_concealed_name_rew_iro_shitla_unit_water_cloud_readers	Cloud-Readers	false
+land_units_onscreen_name_rew_iro_shitla_unit_wood_fortress_wardens	Fortress Wardens	false
+land_units_concealed_name_rew_iro_shitla_unit_wood_fortress_wardens	Fortress Wardens	false
+land_units_onscreen_name_rew_iro_korea_ye_unit_water_dan_gung_archers	Dan-gung Archers	false
+land_units_concealed_name_rew_iro_korea_ye_unit_water_dan_gung_archers	Dan-gung Archers	false
+land_units_onscreen_name_rew_iro_korea_ye_unit_wood_three_zhang_spears	Three-Zhang Spears	false
+land_units_concealed_name_rew_iro_korea_ye_unit_wood_three_zhang_spears	Three-Zhang Spears	false
+land_units_onscreen_name_rew_iro_tamno_unit_earth_samseong_ponies	Samseong Ponies	false
+land_units_concealed_name_rew_iro_tamno_unit_earth_samseong_ponies	Samseong Ponies	false
+land_units_onscreen_name_rew_iro_tamno_unit_wood_strait_raiders	Strait Raiders	false
+land_units_concealed_name_rew_iro_tamno_unit_wood_strait_raiders	Strait Raiders	false
+land_units_onscreen_name_rew_iro_buyeo_unit_wood_household_levy	Household Levy	false
+land_units_concealed_name_rew_iro_buyeo_unit_wood_household_levy	Household Levy	false
+land_units_onscreen_name_rew_iro_buyeo_unit_fire_ma_ga_lancers	Ma-ga Lancers	false
+land_units_concealed_name_rew_iro_buyeo_unit_fire_ma_ga_lancers	Ma-ga Lancers	false
+land_units_onscreen_name_rew_iro_korean_unit_water_arrow_storm	Arrow Storm	false
+land_units_concealed_name_rew_iro_korean_unit_water_arrow_storm	Arrow Storm	false
+frontend_faction_leader_unique_features_localised_description_rew_iro_gaya_unit_metal_ingot_breakers	[[b]]Ingot Breakers[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Assault\\n[[col:green]]+[[/col]] Charge\\n[[col:red]]-[[/col]] Missile Defence\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_gaya_unit_metal_iron_plate_guard	[[b]]Iron-Plate Guard[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Armour\\n[[col:red]]-[[/col]] Slow\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_bakaja_unit_earth_border_raiders	[[b]]Border Raiders[[/b]]\\n[[col:scope_description]]Melee Cavalry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Flanking\\n[[col:green]]+[[/col]] Guerrilla Deployment\\n[[col:red]]-[[/col]] Light Armour\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_bakaja_unit_metal_yoche_stormers	[[b]]Yocha Stormers[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Assault\\n[[col:green]]+[[/col]] Damages Buildings\\n[[col:green]]+[[/col]] Armour-Piercing\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_shitla_unit_water_cloud_readers	[[b]]Cloud-Readers[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Keen Eyes\\n[[col:green]]+[[/col]] Fast Reload\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_shitla_unit_wood_fortress_wardens	[[b]]Fortress Wardens[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Melee Defence\\n[[col:green]]+[[/col]] Missile Defence\\n[[col:red]]-[[/col]] Slow\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_korea_ye_unit_water_dan_gung_archers	[[b]]Dan-gung Archers[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Armour-Piercing Missiles\\n[[col:red]]-[[/col]] Short Range\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_korea_ye_unit_wood_three_zhang_spears	[[b]]Three-Zhang Spears[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Bonus vs Mounted\\n[[col:green]]+[[/col]] Armour-Piercing\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_tamno_unit_earth_samseong_ponies	[[b]]Samseong Ponies[[/b]]\\n[[col:scope_description]]Melee Cavalry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Flanking\\n[[col:green]]+[[/col]] Fast\\n[[col:red]]-[[/col]] Light Armour\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_tamno_unit_wood_strait_raiders	[[b]]Strait Raiders[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Harassers\\n[[col:green]]+[[/col]] Throws Javelins\\n[[col:green]]+[[/col]] Guerrilla Deployment\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_buyeo_unit_wood_household_levy	[[b]]Household Levy[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Armour\\n[[col:red]]-[[/col]] Poor Morale\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_buyeo_unit_fire_ma_ga_lancers	[[b]]Ma-ga Lancers[[/b]]\\n[[col:scope_description]]Shock Cavalry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Assault\\n[[col:green]]+[[/col]] Charge\\n[[col:green]]+[[/col]] Armour-Piercing\\n	true

@@ -1,0 +1,5 @@
+key	playable	effect_bundle	initial_power
+#political_parties_tables;6;db/political_parties_tables/guv_yellow_turban_190_resource			
+3k_main_political_party_yellow_anding_ruler	true	3k_faction_trait_gong_du	40
+3k_main_political_party_yellow_taishan_ruler	true	3k_faction_trait_huang_shao	40
+3k_main_political_party_yellow_turban_ruler	true	3k_faction_trait_he_yi	40

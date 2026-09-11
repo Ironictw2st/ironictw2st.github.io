@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/buildings/unqiuebuildings/wang_sheng.loc		
+building_culture_variants_name_3k_district_government_religion_1_wang_sheng	Napping Porch	false
+building_culture_variants_name_3k_district_government_religion_2_wang_sheng	Hall of Repose	false
+building_culture_variants_name_3k_district_government_religion_3_wang_sheng	Palace of Blissful Idleness	false
+building_chains_chain_tooltip_3k_district_government_religion_wang_sheng	[[col:flavour]]Hall of Repose[[/col]]	false
+building_chains_encyclopedia_name_3k_district_government_religion_wang_sheng	Hall of Repose	false
+building_chains_encyclopedia_description_3k_district_government_religion_wang_sheng	Where a Confucian temple exhorts the people to tireless service, the Governor's halls exhort them to sit down. The people are markedly happier for it. The tax collectors, regrettably, have also sat down.	false
+building_chains_override_description_3k_district_government_religion_wang_sheng	Nothing is done here, and it is done very well.	false

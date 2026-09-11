@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/effects/ironic_nomad_effects.loc		
+effects_description_ironic_nomad_occupied_han_city_diplo	[[b]]%+n[[/b]] Diplomatic Relations with Han factions (per occupied Han city)	false
+effects_value_format_ironic_nomad_occupied_han_city_diplo		false
+effects_description_ironic_nomad_raiding_diplo	[[b]]%+n[[/b]] Diplomatic Relations with all factions	false
+effects_value_format_ironic_nomad_raiding_diplo		false

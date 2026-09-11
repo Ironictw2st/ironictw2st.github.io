@@ -1,0 +1,16 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ironic_bandit_council						
+ironic_bc_incense_a			satisfaction.png	faction	neutral	true
+ironic_bc_incense_b			satisfaction.png	faction	neutral	true
+ironic_bc_arms_a			morale.png	faction	neutral	true
+ironic_bc_arms_b			morale.png	faction	neutral	true
+ironic_bc_smuggler_a			money.png	faction	neutral	true
+ironic_bc_smuggler_b			money.png	faction	neutral	true
+ironic_bc_negotiator_a			diplomacy_attitude_effect.png	faction	neutral	true
+ironic_bc_negotiator_b			diplomacy_attitude_effect.png	faction	neutral	true
+ironic_bc_enforcer_a			prestige.png	faction	neutral	true
+ironic_bc_enforcer_b			prestige.png	faction	neutral	true
+ironic_bc_right_hand_a			ambush.png	faction	neutral	true
+ironic_bc_right_hand_b			ambush.png	faction	neutral	true
+ironic_bc_heir_a			military_supplies.png	faction	neutral	true
+ironic_bc_heir_b			military_supplies.png	faction	neutral	true

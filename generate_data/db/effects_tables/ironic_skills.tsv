@@ -1,0 +1,34 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ironic_skills								
+Ironic_shu_general	unit_attributes.png	0	campaign			0.0000	positive_value_is_good	default
+ironic_special_skill_roar_of_the_suns	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_unity_of_family	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_the_eight_warlords	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_gao_lan	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_zhang_lu	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_liu_yu	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_bao_xin	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_chen_ying	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_yuan_royalty	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_gao_gan	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_gongsun_kang	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_qu_yi	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_gongsun_du	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_xianbei_hail_of_arrows	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_xianbei_support_ranged	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_wuhuan_splash_damage	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_wuhuan_roar_beast	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_xiongnu_crippling_gaze	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_di_healing	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_di_splash_attack	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_gan_ji_fire_breath	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_wang_yi_call_of_defiance	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_gan_ji_drunken_talk	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_mi_heng_trolling	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_hua_tuo_healing	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_zuo_ci_wisdom	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_zuo_ci_hidden	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_mod_hua_tuo_ability_cooldown	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+3k_main_skill_last_resist	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_gan_ning_bow	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_special_ability_zhou_tai_guard	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default

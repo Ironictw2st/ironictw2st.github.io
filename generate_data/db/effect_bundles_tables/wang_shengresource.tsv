@@ -1,0 +1,15 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/wang_shengresource						
+ironic_languor_resource_level_0			icon_love_bad.png	faction	negative	false
+ironic_languor_resource_level_1			icon_love_bad.png	faction	negative	false
+ironic_languor_resource_level_2			icon_love_bad.png	faction	neutral	false
+ironic_languor_resource_level_3			icon_love_bad.png	faction	positive	false
+ironic_languor_resource_level_4			icon_love_bad.png	faction	positive	false
+ironic_languor_captives_execute			no_effect.png	force	neutral	false
+ironic_languor_captives_recruit			no_effect.png	force	neutral	false
+ironic_languor_captives_release			no_effect.png	force	neutral	false
+ironic_languor_garrisoned			icon_love_bad.png	force	neutral	false
+ironic_languor_vassalized			icon_love_bad.png	force	neutral	false
+ironic_languor_effect_bundle			icon_love_bad.png	faction	neutral	false
+ironic_languor_lady_wu_married			icon_love_bad.png	faction	neutral	true
+ironic_languor_wu_family_killed			icon_love_bad.png	faction	neutral	true

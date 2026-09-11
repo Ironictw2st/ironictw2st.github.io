@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/resource_hansui			
+ironic_han_sui_resource_level_0	10	0	value
+ironic_han_sui_resource_level_1	39	11	value
+ironic_han_sui_resource_level_2	59	40	value
+ironic_han_sui_resource_level_3	86	60	value
+ironic_han_sui_resource_level_4	100	87	value

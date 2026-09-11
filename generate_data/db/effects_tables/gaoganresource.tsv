@@ -1,0 +1,16 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/gaoganresource								
+ironic_defensive_gao_gan_decay	provides_garrison.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_defensive_gao_gan_armies	provides_garrison.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_defensive_captives_post_battle	provides_garrison.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_defensive_struggle_defensive	provides_garrison.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_defensive_struggle_garrisoned	provides_garrison.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_defensive_struggle_vassalized	provides_garrison.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_defensive_struggle_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_defensive_struggle_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_defensive_struggle_executed	provides_garrison.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_defensive_frontend_1	provides_garrison.png	100	campaign		ironic_defensive_frontend_1	0.0000	positive_value_is_good	info
+ironic_defensive_frontend_2	provides_garrison.png	100	campaign		ironic_defensive_frontend_2	0.0000	positive_value_is_good	info
+ironic_defensive_frontend_3	provides_garrison.png	100	campaign		ironic_defensive_frontend_3	0.0000	positive_value_is_good	info
+ironic_defensive_frontend_4	provides_garrison.png	100	campaign		ironic_defensive_frontend_4	0.0000	positive_value_is_good	info
+3k_main_effect_unit_stats_attack_rate_ranged_units_defensive	unit_attributes.png	150	campaign	water		0.0000	positive_value_is_good	default

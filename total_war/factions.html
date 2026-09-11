@@ -5,13 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factions | 190 Expanded Wiki</title>
     <link rel="stylesheet" href="styles/tw3k.css">
+    <style>
+        /* Factions page specific styles (data-driven cards) */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid #252530;
+            border-radius: 4px;
+            align-items: flex-end;
+        }
+        .filter-group { display: flex; flex-direction: column; gap: 0.5rem; }
+        .filter-group label {
+            font-family: 'Cinzel', serif;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        .filter-group input, .filter-group select {
+            padding: 0.5rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid #303035;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            min-width: 150px;
+        }
+        .filter-group input:focus, .filter-group select:focus { outline: none; border-color: var(--gold-dark); }
+        .search-box { flex: 1; min-width: 250px; }
+        .search-box input { width: 100%; }
+        .filter-check { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; color: var(--text-secondary); padding-bottom: 0.5rem; }
+
+        .results-info {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #252530;
+            font-size: 0.9rem; color: var(--text-secondary);
+        }
+
+        .faction-card { display: block; text-decoration: none; color: inherit; cursor: pointer; }
+        .faction-card-head { display: flex; gap: 0.85rem; align-items: center; margin-bottom: 0.5rem; }
+        .faction-flag {
+            width: 48px; height: 48px; flex: 0 0 48px;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6));
+        }
+        .faction-flag.missing { background: rgba(255,255,255,0.04); border: 1px dashed #303035; }
+        .faction-name { margin-bottom: 0; }
+        .faction-state { font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.05em; text-transform: uppercase; }
+        .faction-leader { margin-bottom: 0.5rem; font-style: italic; }
+        .faction-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.6rem; }
+        .chip {
+            font-size: 0.68rem; padding: 0.12rem 0.45rem;
+            border: 1px solid #303035; color: var(--text-secondary);
+            background: rgba(255,255,255,0.03); letter-spacing: 0.03em;
+        }
+        .chip.diff-easy { border-color: #3f7a4a; color: #8fd19b; }
+        .chip.diff-normal { border-color: #6f6a3f; color: #d9cf8a; }
+        .chip.diff-hard { border-color: #8a4b2c; color: #e8a679; }
+        .chip.diff-very_hard, .chip.diff-legendary { border-color: #8b1a1a; color: #e88a8a; }
+        .chip.playstyle { border-color: #3f5a7a; color: #9bc2e8; }
+        .faction-extras { font-size: 0.75rem; color: var(--text-muted); }
+        .faction-extras b { color: var(--text-secondary); font-weight: 500; }
+
+        .faction-category.hidden { display: none; }
+        .no-results { text-align: center; padding: 4rem 2rem; color: var(--text-secondary); }
+        .no-results h3 { font-family: 'Cinzel', serif; color: var(--title-cream); margin-bottom: 1rem; }
+        .category-note { font-size: 0.85rem; color: var(--text-muted); font-style: italic; margin: -0.75rem 0 1.25rem; text-align: center; }
+
+        @media (max-width: 768px) {
+            .filters { flex-direction: column; align-items: stretch; }
+        }
+    </style>
 </head>
 <body>
     <div class="page-bg"></div>
-    
+
     <header>
         <nav class="top-nav">
-            <a href="../index.html" class="back-link">← Back to Hub</a>
+            <a href="../index.html" class="back-link">← Home</a>
         </nav>
         <div class="header-content">
             <p class="subtitle">190 Expanded Wiki</p>
@@ -21,7 +95,7 @@
 
     <nav class="main-nav">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li><a href="factions.html" class="active">Factions</a></li>
             <li><a href="characters.html">Characters</a></li>
             <li><a href="guides.html">Guides</a></li>
@@ -34,833 +108,178 @@
             <p>"The empire, long divided, must unite; long united, must divide. Thus it has ever been."</p>
         </section>
 
-        <!-- Major Han Warlords -->
-        <section class="faction-category" data-category="warlords">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Major Warlords
-                    <span class="category-count">(12)</span>
-                </h2>
+        <div class="filters">
+            <div class="filter-group search-box">
+                <label for="search">Search</label>
+                <input type="text" id="search" placeholder="Search by leader, state, title or playstyle...">
             </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Cao Cao</h3>
-                    <p class="faction-leader">The Hero of Chaos</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Bei</h3>
-                    <p class="faction-leader">The Humble Ruler</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Sun Jian</h3>
-                    <p class="faction-leader">The Tiger of Jiangdong</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Dong Zhuo</h3>
-                    <p class="faction-leader">The Tyrant</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Yuan Shao</h3>
-                    <p class="faction-leader">The Dragon of the North</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Yuan Shu</h3>
-                    <p class="faction-leader">The Pretender</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Lü Bu</h3>
-                    <p class="faction-leader">The Warrior Without Equal</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Gongsun Zan</h3>
-                    <p class="faction-leader">The White Horse General</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Ma Teng</h3>
-                    <p class="faction-leader">Protector of the West</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Biao</h3>
-                    <p class="faction-leader">Gentleman of Jing</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name" data-loc-key="ceo_nodes_title_3k_main_ceo_node_career_historical_liu_yan_01">Liu Yan</h3>
-                    <p class="faction-leader">Governor of Yi</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Kong Rong</h3>
-                    <p class="faction-leader">The Scholarly Lord</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
+            <div class="filter-group">
+                <label for="origin-filter">Origin</label>
+                <select id="origin-filter">
+                    <option value="all">All</option>
+                    <option value="190e">190 Expanded</option>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="dlc">DLC</option>
+                </select>
             </div>
-        </section>
+            <div class="filter-group">
+                <label for="difficulty-filter">Starting situation</label>
+                <select id="difficulty-filter">
+                    <option value="all">All</option>
+                    <option value="easy">Easy</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                    <option value="very_hard">Very Hard</option>
+                    <option value="legendary">Legendary</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="feature-filter">Has</label>
+                <select id="feature-filter">
+                    <option value="all">Anything</option>
+                    <option value="resource">Unique resource</option>
+                    <option value="features">Unique features</option>
+                    <option value="description">Description</option>
+                </select>
+            </div>
+            <label class="filter-check"><input type="checkbox" id="show-gathering"> Show Gathering of Heroes factions</label>
+        </div>
 
-        <!-- Han Empire & Governors -->
-        <section class="faction-category" data-category="empire">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Han Empire & Governors
-                    <span class="category-count">(18)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Han Empire</h3>
-                    <p class="faction-leader">Emperor Xian</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Tao Qian</h3>
-                    <p class="faction-leader">Governor of Xu</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han" data-loc-key="zhang_lu">
-                    <h3 class="faction-name" data-loc-key="zhang_lu">Zhang Lu</h3>
-                    <p class="faction-leader">The Celestial Master</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Shi Xie</h3>
-                    <p class="faction-leader">King of Jiaozhi</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Yu</h3>
-                    <p class="faction-leader">Inspector of You</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Yao</h3>
-                    <p class="faction-leader">Governor of Yang</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Dai</h3>
-                    <p class="faction-leader">Governor of Yan</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Han Fu</h3>
-                    <p class="faction-leader">Governor of Ji</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Han Sui</h3>
-                    <p class="faction-leader">Warlord of Liang</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Wang Kuang</h3>
-                    <p class="faction-leader">Administrator of Henei</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Wang Lang</h3>
-                    <p class="faction-leader">Governor of Kuaiji</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhang Chao</h3>
-                    <p class="faction-leader">Administrator of Guangling</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhang Yang</h3>
-                    <p class="faction-leader">Administrator of Shangdang</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Cai Mao</h3>
-                    <p class="faction-leader">General of Jingzhou</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Gao Gan</h3>
-                    <p class="faction-leader">Governor of Bing</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Gongsun Du</h3>
-                    <p class="faction-leader">Lord of Liaodong</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Huang Zu</h3>
-                    <p class="faction-leader">Admiral of Jiangxia</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Kong Zhou</h3>
-                    <p class="faction-leader">Governor of Yu</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-            </div>
-        </section>
+        <div class="results-info">
+            <span id="results-count">Loading...</span>
+            <span id="results-note"></span>
+        </div>
 
-        <!-- A World Betrayed -->
-        <section class="faction-category" data-category="dlc-awb">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    A World Betrayed
-                    <span class="category-count">(8)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Sun Ce</h3>
-                    <p class="faction-leader">The Little Conqueror</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="bandit">
-                    <h3 class="faction-name">Yan Baihu</h3>
-                    <p class="faction-leader">The White Tiger</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Hua Xin</h3>
-                    <p class="faction-leader">Administrator of Yuzhang</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Yang Feng</h3>
-                    <p class="faction-leader">Former Yellow Turban</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhu Fu</h3>
-                    <p class="faction-leader">Inspector of Jiao Province</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Wu Jing</h3>
-                    <p class="faction-leader">Prefect of Danyang</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Sheng Xian</h3>
-                    <p class="faction-leader">Defender of Xu Province</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Shi Huang</h3>
-                    <p class="faction-leader">Defender of the People</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Fates Divided -->
-        <section class="faction-category" data-category="dlc-fd">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Fates Divided
-                    <span class="category-count">(6)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Chong</h3>
-                    <p class="faction-leader">Prince of Chenliu</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Xun</h3>
-                    <p class="faction-leader">Governor of Lujiang</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Lu Kang</h3>
-                    <p class="faction-leader">General of Lü Bu</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Chen Gui</h3>
-                    <p class="faction-leader">Advisor of Xu Province</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Ying Shao</h3>
-                    <p class="faction-leader">Scholar Official</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Song Jian</h3>
-                    <p class="faction-leader">Western Insurgents</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Yellow Turbans -->
-        <section class="faction-category" data-category="yellow-turbans">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Yellow Turbans
-                    <span class="category-count">(5)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="yellow-turban">
-                    <h3 class="faction-name">He Yi</h3>
-                    <p class="faction-leader">The Way of Peace</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="yellow-turban">
-                    <h3 class="faction-name">Huang Shao</h3>
-                    <p class="faction-leader">Mountain Zealots</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="yellow-turban">
-                    <h3 class="faction-name">Gong Du</h3>
-                    <p class="faction-leader">Western Believers</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="yellow-turban">
-                    <h3 class="faction-name">Liu Pi</h3>
-                    <p class="faction-leader">Scattered Faithful</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="yellow-turban">
-                    <h3 class="faction-name">Wu Huan</h3>
-                    <p class="faction-leader">Nomadic Converts</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Bandits & Outlaws -->
-        <section class="faction-category" data-category="bandits">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Bandits & Outlaws
-                    <span class="category-count">(5)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="bandit">
-                    <h3 class="faction-name">Zheng Jiang</h3>
-                    <p class="faction-leader">The Bandit Queen</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="bandit">
-                    <h3 class="faction-name">Zhang Yan</h3>
-                    <p class="faction-leader">King of Black Mountain</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="bandit">
-                    <h3 class="faction-name">Ze Rong</h3>
-                    <p class="faction-leader">Buddhist Warlord</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="bandit">
-                    <h3 class="faction-name">Gan Ning</h3>
-                    <p class="faction-leader">The Pirate King</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="bandit">
-                    <h3 class="faction-name">Zu Lang</h3>
-                    <p class="faction-leader">Raider Chief</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Nanman Tribes -->
-        <section class="faction-category" data-category="nanman">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Nanman Tribes
-                    <span class="category-count">(14)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Meng Huo</h3>
-                    <p class="faction-leader">King of the Nanman</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Lady Zhurong</h3>
-                    <p class="faction-leader">Daughter of the Fire God</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">King Shamoke</h3>
-                    <p class="faction-leader">Wuling Barbarian King</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">King Mulu</h3>
-                    <p class="faction-leader">Beastmaster King</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">King Duosi</h3>
-                    <p class="faction-leader">Lord of Silver Mines</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">King Wutugu</h3>
-                    <p class="faction-leader">Lord of Wugo</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Jinhuansanjie</h3>
-                    <p class="faction-leader">The Golden Ring</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Dongtuna</h3>
-                    <p class="faction-leader">Cave Dweller Chief</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Ahuinan</h3>
-                    <p class="faction-leader">Third Cave Chief</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Tu An</h3>
-                    <p class="faction-leader">Tribal Warrior</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Xi Ni</h3>
-                    <p class="faction-leader">Jungle Lord</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Yang Feng (Nanman)</h3>
-                    <p class="faction-leader">Nanman Chieftain</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Mangyachang</h3>
-                    <p class="faction-leader">Bamboo Tribe Chief</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Qu Pan</h3>
-                    <p class="faction-leader">Southern Commander</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Shanyue & Southern Peoples -->
-        <section class="faction-category" data-category="shanyue">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Shanyue & Southern Peoples
-                    <span class="category-count">(5)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Pan Lin</h3>
-                    <p class="faction-leader">Mountain Yue Tribes</p>
-                    <div class="faction-tags"><span class="faction-tag dlc">DLC</span></div>
-                </article>
-                <article class="faction-card" data-type="nanman">
-                    <h3 class="faction-name">Jia Long</h3>
-                    <p class="faction-leader">Shanyue Chieftain</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Ni Xiaoode</h3>
-                    <p class="faction-leader">Southern Commandery</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Wu Ju</h3>
-                    <p class="faction-leader">Frontier Garrison</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Lai Gong</h3>
-                    <p class="faction-leader">Southern Settlement</p>
-                    <div class="faction-tags"><span class="faction-tag">Vanilla</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Northern Nomads -->
-        <section class="faction-category" data-category="nomads">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Northern Nomads
-                    <span class="category-count">(9)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Kuitou</h3>
-                    <p class="faction-leader">Xianbei Chanyu</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Tuoba Jiefan</h3>
-                    <p class="faction-leader">Tuoba Clan</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Qiulijiu</h3>
-                    <p class="faction-leader">Eastern Nomads</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Yufuluo</h3>
-                    <p class="faction-leader">The Great Horde</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Dou Mao</h3>
-                    <p class="faction-leader">Northwestern Peoples</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Shitla</h3>
-                    <p class="faction-leader">Steppe Warriors</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Bakaja</h3>
-                    <p class="faction-leader">Northern Raiders</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">You Tu</h3>
-                    <p class="faction-leader">Nomad Chieftain</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="nomad">
-                    <h3 class="faction-name">Handan Shang</h3>
-                    <p class="faction-leader">Frontier Commander</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Korean Kingdoms -->
-        <section class="faction-category" data-category="korean">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Korean Kingdoms
-                    <span class="category-count">(5)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="korean">
-                    <h3 class="faction-name">Goguryeo</h3>
-                    <p class="faction-leader">Kingdom of the North</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="korean">
-                    <h3 class="faction-name">Buyeo</h3>
-                    <p class="faction-leader">Ancient Kingdom</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="korean">
-                    <h3 class="faction-name">Korea - Ye</h3>
-                    <p class="faction-leader">Eastern Tribe</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="korean">
-                    <h3 class="faction-name">Gaya</h3>
-                    <p class="faction-leader">Confederacy</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="korean">
-                    <h3 class="faction-name">Tamno</h3>
-                    <p class="faction-leader">Island Kingdom</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Minor Factions -->
-        <section class="faction-category" data-category="minor">
-            <div class="category-header">
-                <h2 class="category-title">
-                    <span class="toggle-icon">▼</span>
-                    Minor Factions
-                    <span class="category-count">(15)</span>
-                </h2>
-            </div>
-            <div class="faction-grid">
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhuge Xuan</h3>
-                    <p class="faction-leader">Uncle of Zhuge Liang</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Fei Zhan</h3>
-                    <p class="faction-leader">Local Administrator</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhao Wei</h3>
-                    <p class="faction-leader">Provincial Official</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhang Jin</h3>
-                    <p class="faction-leader">Regional Commander</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Ma Ai</h3>
-                    <p class="faction-leader">Western Lord</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhang Xian</h3>
-                    <p class="faction-leader">Military Governor</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Chen Wen</h3>
-                    <p class="faction-leader">Local Magnate</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Zhu Hao</h3>
-                    <p class="faction-leader">Southern Administrator</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Bian Rang</h3>
-                    <p class="faction-leader">Scholar Lord</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Tong Zhi</h3>
-                    <p class="faction-leader">Regional Leader</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Liu Pan</h3>
-                    <p class="faction-leader">Frontier Governor</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Su Dai</h3>
-                    <p class="faction-leader">Minor Official</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Wang Sheng</h3>
-                    <p class="faction-leader">Landowner</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Huang Ang</h3>
-                    <p class="faction-leader">Noble Family</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-                <article class="faction-card" data-type="han">
-                    <h3 class="faction-name">Hu Mao</h3>
-                    <p class="faction-leader">Local Strongman</p>
-                    <div class="faction-tags"><span class="faction-tag modded">190 Expanded</span></div>
-                </article>
-            </div>
-        </section>
-
+        <div id="faction-sections"></div>
     </main>
 
     <footer>
         <p>190 Expanded Wiki · Created by Ironic</p>
+        <p class="ext-links">
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+            <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+            <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+        </p>
     </footer>
 
+    <script src="data/characters.js"></script>
+    <script src="data/factions.js"></script>
     <script>
-        // Toggle category collapse
-        document.querySelectorAll('.category-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const category = header.closest('.faction-category');
-                category.classList.toggle('collapsed');
-            });
-        });
-
-        // ============================
-        // Titles from TSV (GitHub Pages)
-        // ============================
-        //
-        // Default behavior:
-        //   faction-name "Yuan Shao" -> locKey "yuan_shao"
-        //   Finds TSV row where key contains: "career" AND "title" AND locKey (as a whole token)
-        //
-        // Overrides:
-        //   Put data-loc-key on the card OR the name:
-        //     <article class="faction-card" data-loc-key="zhang_lu">
-        //     <h3 class="faction-name" data-loc-key="zhang_lu">
-        //
-        // Notes:
-        // - Do NOT use github.com/blob URL for fetch (it's HTML).
-        // - Prefer relative path on GitHub Pages (/data/...), with raw as fallback.
-
-        function slugifyToLocKey(name) {
-            return (name || "")
-                .trim()
-                .toLowerCase()
-                .normalize("NFKD")
-                .replace(/[\u0300-\u036f]/g, "") // remove diacritics (e.g., Lü -> Lu)
-                .replace(/[’']/g, "")              // remove apostrophes
-                .replace(/[^a-z0-9]+/g, "_")        // non-alnum -> underscore
-                .replace(/^_+|_+$/g, "")            // trim underscores
-                .replace(/_+/g, "_");               // collapse underscores
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str == null ? '' : String(str);
+            return div.innerHTML;
+        }
+        function normalizeText(text) {
+            return (text || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
         }
 
-        function escapeRegex(s) {
-            return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const state = { search: '', origin: 'all', difficulty: 'all', feature: 'all', gathering: false };
+
+        function leaderFor(f) {
+            if (typeof CHARACTER_BY_KEY !== 'undefined' && CHARACTER_BY_KEY[f.leader_template]) return CHARACTER_BY_KEY[f.leader_template];
+            if (typeof CHARACTER_DATA !== 'undefined') return CHARACTER_DATA.find(c => c.key === f.leader_template) || null;
+            return null;
         }
 
-        function parseLocTsv(tsvText) {
-            // Expected: key \t text \t tooltip (tooltip optional)
-            const rows = [];
-            const lines = tsvText.split(/\r?\n/);
+        function originTag(f) {
+            if (f.origin === '190e') return '<span class="faction-tag modded">190 Expanded</span>';
+            if (f.origin === 'dlc') return `<span class="faction-tag dlc" title="${escapeHtml(f.dlc)}">DLC</span>`;
+            return '<span class="faction-tag">Vanilla</span>';
+        }
 
-            for (const line of lines) {
-                if (!line) continue;
-                if (line.startsWith("#")) continue; // skips #Loc;... and comments
-
-                const cols = line.split("\t");
-                if (cols.length < 2) continue;
-
-                const key = (cols[0] || "").trim();
-                const text = (cols[1] || "").trim();
-
-                if (!key || key === "key") continue; // skip header row
-                rows.push({ key, text });
+        function matches(f) {
+            if (!state.gathering && f.campaign === 'gathering') return false;
+            if (state.origin !== 'all' && f.origin !== state.origin) return false;
+            if (state.difficulty !== 'all' && (f.difficulty?.level || '') !== state.difficulty) return false;
+            if (state.feature === 'resource' && !(f.resources || []).some(r => r.is_primary || f.origin === '190e')) return false;
+            if (state.feature === 'features' && !(f.unique_features || []).length) return false;
+            if (state.feature === 'description' && !f.description) return false;
+            if (state.search) {
+                const q = normalizeText(state.search);
+                const leader = leaderFor(f);
+                const hay = normalizeText([
+                    f.name, f.state_name, f.subtitle, f.playstyle?.title, f.faction_key, f.leader_key,
+                    leader?.display_name_alt, leader?.courtesy_name,
+                    ...(f.unique_features || []).map(u => u.title),
+                    ...(f.resources || []).map(r => r.name)
+                ].filter(Boolean).join(' | '));
+                if (!hay.includes(q)) return false;
             }
-            return rows;
+            return true;
         }
 
-        function findBestCareerTitle(rows, locKey) {
-            const want = (locKey || "").toLowerCase().trim();
-            if (!want) return null;
+        function cardHtml(f) {
+            const leader = leaderFor(f);
+            const flag = f.flag_small || f.flag;
+            const primary = (f.resources || []).find(r => r.is_primary) || (f.resources || [])[0];
+            const nFeatures = (f.unique_features || []).length;
+            const diff = f.difficulty?.level ? `<span class="chip diff-${escapeHtml(f.difficulty.level)}">${escapeHtml(f.difficulty.text)}</span>` : '';
+            const play = f.playstyle?.title ? `<span class="chip playstyle">${escapeHtml(f.playstyle.title)}</span>` : '';
+            const extras = [];
+            if (nFeatures) extras.push(`<b>${nFeatures}</b> unique feature${nFeatures === 1 ? '' : 's'}`);
+            if (primary) extras.push(`<b>${escapeHtml(primary.name)}</b>`);
+            return `
+                <a class="faction-card" data-type="${escapeHtml(f.type)}" href="faction.html?key=${encodeURIComponent(f.id)}" aria-label="Open ${escapeHtml(f.name)}">
+                    <div class="faction-card-head">
+                        ${flag ? `<img class="faction-flag" src="${escapeHtml(flag)}" alt="" loading="lazy">` : '<span class="faction-flag missing"></span>'}
+                        <div>
+                            <h3 class="faction-name">${escapeHtml(f.name)}</h3>
+                            ${f.state_name && f.state_name !== f.name ? `<div class="faction-state">${escapeHtml(f.state_name)}</div>` : ''}
+                        </div>
+                    </div>
+                    ${f.subtitle ? `<p class="faction-leader">${escapeHtml(f.subtitle)}</p>` : ''}
+                    <div class="faction-meta">${diff}${play}</div>
+                    ${extras.length ? `<div class="faction-extras">${extras.join(' · ')}</div>` : ''}
+                    <div class="faction-tags" style="margin-top:0.6rem">${originTag(f)}${f.is_recommended ? '<span class="faction-tag">Recommended</span>' : ''}</div>
+                </a>`;
+        }
 
-            // Boundary-safe match so "zhang_lu" does NOT match "zhang_luo"
-            // Treat any non-alphanumeric as a boundary (underscore counts as non-alnum here).
-            const wantRe = new RegExp(`(^|[^a-z0-9])${escapeRegex(want)}([^a-z0-9]|$)`, "i");
+        function render() {
+            const root = document.getElementById('faction-sections');
+            const visible = FACTION_DATA.filter(matches);
+            const total = FACTION_DATA.filter(f => state.gathering || f.campaign !== 'gathering').length;
+            document.getElementById('results-count').textContent = `Showing ${visible.length} of ${total} factions`;
+            document.getElementById('results-note').textContent = state.gathering
+                ? 'Gathering of Heroes is an optional start where famous heroes lead their own factions.'
+                : '';
 
-            let best = null;
-            let bestScore = -Infinity;
-
-            for (const row of rows) {
-                const k = row.key;
-                const lk = k.toLowerCase();
-
-                // Must include both tokens
-                if (!lk.includes("career")) continue;
-                if (!lk.includes("title")) continue;
-
-                // Must include locKey as a whole token
-                if (!wantRe.test(lk)) continue;
-
-                // Scoring: prefer closer / more specific keys
-                let score = 0;
-
-                // Strong preference: career_title_<locKey>
-                if (lk.includes(`career_title_${want}`)) score += 2000;
-
-                // Preference: exact token placement
-                if (lk.includes(`_${want}_`)) score += 400;
-                if (lk.endsWith(`_${want}`)) score += 250;
-                if (lk.startsWith(`${want}_`)) score += 200;
-
-                // Prefer shorter keys (less nested / less generic)
-                score += Math.max(0, 300 - lk.length);
-
-                if (score > bestScore) {
-                    bestScore = score;
-                    best = row;
-                }
+            if (!visible.length) {
+                root.innerHTML = '<div class="no-results"><h3>No factions found</h3><p>Try adjusting your filters or search term.</p></div>';
+                return;
             }
+            root.innerHTML = FACTION_CATEGORIES.map(cat => {
+                const items = visible.filter(f => f.category === cat.key);
+                if (!items.length) return '';
+                const note = cat.key === 'gathering'
+                    ? '<p class="category-note">Only playable when the Gathering of Heroes option is enabled. These factions exist alongside every faction listed above.</p>'
+                    : '';
+                return `
+                    <section class="faction-category" data-category="${escapeHtml(cat.key)}">
+                        <div class="category-header">
+                            <h2 class="category-title">
+                                <span class="toggle-icon">▼</span>
+                                ${escapeHtml(cat.label)}
+                                <span class="category-count">(${items.length})</span>
+                            </h2>
+                        </div>
+                        ${note}
+                        <div class="faction-grid">${items.map(cardHtml).join('')}</div>
+                    </section>`;
+            }).join('');
 
-            return best ? best.text : null;
-        }
-
-        async function fetchFirstOk(urls) {
-            let lastErr = null;
-            for (const url of urls) {
-                try {
-                    const res = await fetch(url, { cache: "no-store" });
-                    if (!res.ok) {
-                        lastErr = new Error(`HTTP ${res.status} ${res.statusText} for ${url}`);
-                        continue;
-                    }
-                    return await res.text();
-                } catch (e) {
-                    lastErr = e;
-                }
-            }
-            throw lastErr || new Error("Failed to fetch TSV");
-        }
-
-        async function applyTitlesFromTsv() {
-            const tsvUrls = [
-                // If factions.html is in /total_war/ (your nav suggests that), ../data is correct:
-                "../data/all_titles_full.loc.tsv",
-                // If factions.html is served from repo root:
-                "./data/all_titles_full.loc.tsv",
-                // Extra fallback if you nest deeper:
-                "../../data/all_titles_full.loc.tsv",
-                // Raw GitHub fallback:
-                "https://raw.githubusercontent.com/Ironictw2st/ironictw2st.github.io/main/data/all_titles_full.loc.tsv"
-            ];
-
-            const tsvText = await fetchFirstOk(tsvUrls);
-            const rows = parseLocTsv(tsvText);
-
-            document.querySelectorAll(".faction-card").forEach(card => {
-                const nameEl = card.querySelector(".faction-name");
-                const leaderEl = card.querySelector(".faction-leader");
-                if (!nameEl || !leaderEl) return;
-
-                const factionName = (nameEl.textContent || "").trim();
-                if (!factionName) return;
-
-                // Override locKey via data-loc-key on card or name element
-                const override =
-                    (card.dataset.locKey && card.dataset.locKey.trim()) ||
-                    (nameEl.dataset.locKey && nameEl.dataset.locKey.trim()) ||
-                    "";
-
-                const locKey = override ? slugifyToLocKey(override) : slugifyToLocKey(factionName);
-
-                const title = findBestCareerTitle(rows, locKey);
-                if (title) {
-                    leaderEl.textContent = title;
-                    card.dataset.resolvedLocKey = locKey; // handy for debugging in DevTools
-                }
+            root.querySelectorAll('.category-header').forEach(header => {
+                header.addEventListener('click', () => header.closest('.faction-category').classList.toggle('collapsed'));
             });
         }
 
-        document.addEventListener("DOMContentLoaded", () => {
-            applyTitlesFromTsv().catch(err => {
-                console.warn("[Titles TSV] Failed to apply titles:", err);
-            });
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('search').addEventListener('input', e => { state.search = e.target.value; render(); });
+            document.getElementById('origin-filter').addEventListener('change', e => { state.origin = e.target.value; render(); });
+            document.getElementById('difficulty-filter').addEventListener('change', e => { state.difficulty = e.target.value; render(); });
+            document.getElementById('feature-filter').addEventListener('change', e => { state.feature = e.target.value; render(); });
+            document.getElementById('show-gathering').addEventListener('change', e => { state.gathering = e.target.checked; render(); });
+            render();
         });
     </script>
 </body>

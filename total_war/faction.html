@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faction | 190 Expanded Wiki</title>
+  <link rel="stylesheet" href="styles/tw3k.css">
+  <style>
+    .faction-page {
+      --theme: var(--gold-dark);
+      --theme-soft: rgba(201, 162, 39, 0.12);
+      display: grid;
+      grid-template-columns: 1.7fr 0.8fr;
+      border: 1px solid #252530;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 0 18px rgba(0,0,0,0.5);
+    }
+    .faction-page[data-type="han"] { --theme: var(--faction-han); }
+    .faction-page[data-type="yellow-turban"] { --theme: var(--faction-yellow-turban); }
+    .faction-page[data-type="nanman"] { --theme: var(--faction-nanman); }
+    .faction-page[data-type="nomad"] { --theme: var(--faction-nomad); }
+    .faction-page[data-type="korean"] { --theme: var(--faction-korean); }
+    .faction-page[data-type="bandit"] { --theme: var(--faction-bandit); }
+
+    .content-area { display: flex; flex-direction: column; min-width: 0; }
+    .panel { padding: 1.5rem 1.75rem; border-bottom: 1px solid #252530; }
+    .panel:last-child { border-bottom: none; }
+    .panel-header {
+      font-family: 'Cinzel', serif; font-size: 0.8rem; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--text-secondary); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem;
+    }
+    .panel-header::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, #252530, transparent); }
+
+    .title-panel h1 {
+      font-family: 'Cinzel', serif; font-size: 2rem; color: var(--title-cream); letter-spacing: 0.05em;
+      margin-bottom: 0.25rem; line-height: 1.15;
+    }
+    .title-panel .state { font-family: 'Cinzel', serif; font-size: 0.9rem; color: var(--theme); letter-spacing: 0.15em; text-transform: uppercase; }
+    .title-panel .subtitle-line { font-size: 1.05rem; color: var(--gold-light); font-style: italic; margin: 0.6rem 0 0.9rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .chip {
+      font-size: 0.7rem; padding: 0.15rem 0.55rem; border: 1px solid #303035; color: var(--text-secondary);
+      background: rgba(255,255,255,0.03); letter-spacing: 0.04em; text-transform: uppercase;
+    }
+    .chip.diff-easy { border-color: #3f7a4a; color: #8fd19b; }
+    .chip.diff-normal { border-color: #6f6a3f; color: #d9cf8a; }
+    .chip.diff-hard { border-color: #8a4b2c; color: #e8a679; }
+    .chip.diff-very_hard, .chip.diff-legendary { border-color: #8b1a1a; color: #e88a8a; }
+    .chip.playstyle { border-color: #3f5a7a; color: #9bc2e8; text-transform: none; }
+    .chip.modded { border-color: var(--red-primary); color: #e8a0a0; background: rgba(139, 26, 26, 0.2); }
+    .chip.dlc { border-color: #5050a0; color: #a0a0e8; background: rgba(100, 100, 200, 0.15); }
+    .chip.gold { border-color: var(--gold-dark); color: var(--gold-light); background: rgba(201, 162, 39, 0.1); }
+
+    .description { font-size: 0.95rem; line-height: 1.7; color: var(--text-primary); }
+    .description p { margin-bottom: 0.9rem; }
+    .no-content { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+
+    /* right column */
+    .side-column { border-left: 1px solid #252530; background: #0a0a0c; display: flex; flex-direction: column; }
+    .flag-box {
+      padding: 1.5rem; display: grid; place-items: center; background: radial-gradient(ellipse at center, var(--theme-soft), transparent 70%);
+      border-bottom: 1px solid #252530;
+    }
+    .flag-box img { width: 160px; height: 160px; object-fit: contain; filter: drop-shadow(0 6px 12px rgba(0,0,0,0.7)); }
+    .leader-box { padding: 1.25rem 1.5rem; border-bottom: 1px solid #252530; }
+    .leader-box .label { font-family: 'Cinzel', serif; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.6rem; }
+    .leader-card { display: flex; gap: 0.9rem; align-items: center; text-decoration: none; color: inherit; }
+    .leader-card img { width: 64px; height: 64px; object-fit: cover; object-position: top; border: 1px solid #303035; border-radius: 4px; background: #111; }
+    .leader-card .name { font-family: 'Cinzel', serif; color: var(--title-cream); font-size: 1rem; }
+    .leader-card .alt { font-size: 0.8rem; color: var(--text-secondary); }
+    .leader-card .title { font-size: 0.8rem; color: var(--gold-light); font-style: italic; }
+    .leader-card:hover .name { color: var(--gold-light); }
+    .facts { padding: 1.25rem 1.5rem; font-size: 0.85rem; }
+    .facts dt { color: var(--text-muted); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.7rem; }
+    .facts dd { color: var(--text-primary); margin: 0.1rem 0 0; }
+
+    /* unique features */
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+    .feature-card { background: var(--bg-card); border: 1px solid #202025; border-left: 3px solid var(--theme); padding: 1rem 1.1rem; }
+    .feature-head { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0.6rem; }
+    .feature-head img { width: 40px; height: 40px; object-fit: contain; flex: 0 0 40px; }
+    .feature-head .ftitle { font-family: 'Cinzel', serif; color: var(--title-cream); font-size: 0.95rem; line-height: 1.2; }
+    .feature-head .fsub { font-size: 0.75rem; color: var(--text-secondary); }
+    .feature-type { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .lines { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.25rem; }
+    .lines li { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.35; padding-left: 1.1rem; position: relative; }
+    .lines li::before { content: '·'; position: absolute; left: 0.25rem; color: var(--text-muted); }
+    .lines li.plus { color: #b9dcb9; } .lines li.plus::before { content: '+'; color: #6fbf73; }
+    .lines li.minus { color: #e0b0b0; } .lines li.minus::before { content: '−'; color: #c9605f; }
+
+    /* bundles / effects */
+    .bundle { background: rgba(255,255,255,0.02); border: 1px solid #202025; padding: 0.9rem 1rem; margin-bottom: 0.9rem; }
+    .bundle-head { display: flex; gap: 0.7rem; align-items: center; margin-bottom: 0.4rem; }
+    .bundle-head img { width: 28px; height: 28px; object-fit: contain; }
+    .bundle-head .btitle { font-family: 'Cinzel', serif; color: var(--title-cream); font-size: 0.95rem; }
+    .bundle .bdesc { font-size: 0.85rem; color: var(--text-secondary); font-style: italic; margin-bottom: 0.5rem; line-height: 1.5; }
+    .effects { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 3px; }
+    .effects li { font-size: 0.82rem; color: rgba(255,255,255,0.82); background: rgba(255,255,255,0.04); border-left: 2px solid rgba(255,255,255,0.18); padding: 3px 8px; line-height: 1.3; }
+    .effects li.pos { border-left-color: #6fbf73; } .effects li.neg { border-left-color: #c9605f; }
+
+    /* resources */
+    .resource { margin-bottom: 1.5rem; }
+    .resource-head { display: flex; gap: 0.8rem; align-items: center; margin-bottom: 0.5rem; }
+    .resource-head img { width: 36px; height: 36px; object-fit: contain; }
+    .resource-head .rtitle { font-family: 'Cinzel', serif; color: var(--title-cream); font-size: 1.05rem; }
+    .resource-head .rrange { font-size: 0.75rem; color: var(--text-muted); }
+    .resource .rdesc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.55; margin-bottom: 0.7rem; }
+    .factors { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.9rem; }
+    .factor { font-size: 0.72rem; padding: 0.15rem 0.5rem; border: 1px solid #303035; color: var(--text-secondary); }
+    .factor.recurring { border-color: #3f5a7a; }
+    .factor-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin: 0.4rem 0 0.3rem; }
+    table.levels { width: 100%; border-collapse: collapse; font-size: 0.83rem; }
+    table.levels th { text-align: left; font-family: 'Cinzel', serif; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); padding: 0.4rem 0.5rem; border-bottom: 1px solid #252530; }
+    table.levels td { padding: 0.5rem; border-bottom: 1px solid #1c1c22; vertical-align: top; }
+    table.levels td.range { white-space: nowrap; color: var(--gold-light); font-family: 'Cinzel', serif; font-size: 0.8rem; width: 90px; }
+    table.levels td.ltitle { width: 180px; color: var(--title-cream); }
+    table.levels .ldesc { display: block; color: var(--text-muted); font-size: 0.75rem; font-style: italic; margin-top: 0.2rem; }
+
+    /* notable characters */
+    .people { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+    .person { display: flex; gap: 0.6rem; align-items: center; text-decoration: none; color: inherit; background: var(--bg-card); border: 1px solid #202025; padding: 0.5rem 0.75rem 0.5rem 0.5rem; min-width: 200px; }
+    .person img { width: 40px; height: 40px; object-fit: cover; object-position: top; border-radius: 3px; background: #111; }
+    .person .pname { font-size: 0.9rem; color: var(--title-cream); }
+    .person .ptitle { font-size: 0.75rem; color: var(--text-secondary); font-style: italic; }
+    .person:hover { border-color: #303035; background: var(--bg-card-hover); }
+
+    .tech-details { margin-top: 1rem; }
+    .tech-details summary { cursor: pointer; font-size: 0.8rem; color: var(--text-muted); }
+    .tech-details dl { margin-top: 0.6rem; font-size: 0.8rem; }
+    .tech-details dt { color: var(--text-muted); margin-top: 0.4rem; }
+    .tech-details code { color: var(--text-secondary); font-size: 0.78rem; }
+
+    .not-found { text-align: center; padding: 4rem 2rem; color: var(--text-secondary); }
+    .not-found h2 { font-family: 'Cinzel', serif; color: var(--title-cream); margin-bottom: 1rem; }
+
+    @media (max-width: 900px) {
+      .faction-page { grid-template-columns: 1fr; }
+      .side-column { border-left: none; border-top: 1px solid #252530; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header>
+    <nav class="top-nav">
+      <a href="factions.html" class="back-link">← All Factions</a>
+    </nav>
+    <div class="header-content">
+      <p class="subtitle">190 Expanded Wiki</p>
+      <h1 id="page-title">Faction</h1>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="factions.html" class="active">Factions</a></li>
+      <li><a href="characters.html">Characters</a></li>
+      <li><a href="guides.html">Guides</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div id="faction-root" class="faction-page"></div>
+  </main>
+
+  <footer>
+    <p>190 Expanded Wiki · Created by Ironic</p>
+    <p class="ext-links">
+      <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+      <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+      <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+  </footer>
+
+  <script src="data/characters.js"></script>
+  <script src="data/character_details.js"></script>
+  <script src="data/factions.js"></script>
+  <script>
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str == null ? '' : String(str);
+      return div.innerHTML;
+    }
+    function charByKey(key) {
+      if (!key) return null;
+      if (typeof CHARACTER_BY_KEY !== 'undefined' && CHARACTER_BY_KEY[key]) return CHARACTER_BY_KEY[key];
+      if (typeof CHARACTER_DATA !== 'undefined') return CHARACTER_DATA.find(c => c.key === key) || null;
+      return null;
+    }
+    function portraitFor(key) {
+      const d = (typeof CHARACTER_DETAILS !== 'undefined') ? CHARACTER_DETAILS[key] : null;
+      return d?.portrait?.url || '';
+    }
+    function effectClass(line) {
+      const m = /^([+-])\d/.exec(line || '');
+      if (!m) return '';
+      // "lower is better" phrasing is not detectable here; colour by sign only
+      return m[1] === '+' ? 'pos' : 'neg';
+    }
+    function effectsList(lines) {
+      if (!lines || !lines.length) return '';
+      return `<ul class="effects">${lines.map(l => `<li class="${effectClass(l)}">${escapeHtml(l)}</li>`).join('')}</ul>`;
+    }
+    function bundleHtml(b, opts = {}) {
+      if (!b) return '';
+      const hasBody = (b.bullets && b.bullets.length) || (b.effects && b.effects.length) || b.description;
+      if (!hasBody && !b.title) return '';
+      return `
+        <div class="bundle">
+          <div class="bundle-head">
+            ${b.icon ? `<img src="${escapeHtml(b.icon)}" alt="">` : ''}
+            <span class="btitle">${escapeHtml(b.title || opts.fallbackTitle || '')}</span>
+          </div>
+          ${b.description ? `<p class="bdesc">${escapeHtml(b.description)}</p>` : ''}
+          ${b.bullets && b.bullets.length ? `<ul class="lines">${b.bullets.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>` : ''}
+          ${b.bullets && b.bullets.length && b.effects && b.effects.length ? '<div style="height:0.5rem"></div>' : ''}
+          ${effectsList(b.effects)}
+        </div>`;
+    }
+    function featureHtml(u) {
+      return `
+        <div class="feature-card">
+          <div class="feature-head">
+            ${u.icon ? `<img src="${escapeHtml(u.icon)}" alt="">` : ''}
+            <div>
+              <div class="ftitle">${escapeHtml(u.title)}</div>
+              ${u.subtitle ? `<div class="fsub">${escapeHtml(u.subtitle)}</div>` : ''}
+            </div>
+          </div>
+          ${u.type ? `<div class="feature-type">${escapeHtml(u.type === 'ceo' ? 'faction feature' : u.type)}</div>` : ''}
+          ${u.lines && u.lines.length ? `<ul class="lines">${u.lines.map(l => `<li class="${l.sign === '+' ? 'plus' : l.sign === '-' ? 'minus' : ''}">${escapeHtml(l.text)}</li>`).join('')}</ul>` : ''}
+        </div>`;
+    }
+    function resourceHtml(r) {
+      const range = (r.minimum !== '' && r.maximum !== '') ? `${escapeHtml(r.minimum)} – ${escapeHtml(r.maximum)}` : '';
+      const factors = (r.factors || []);
+      const levels = (r.levels || []);
+      return `
+        <div class="resource">
+          <div class="resource-head">
+            ${r.icon ? `<img src="${escapeHtml(r.icon)}" alt="">` : ''}
+            <div>
+              <div class="rtitle">${escapeHtml(r.name)}${r.is_primary ? ' <span class="chip gold" style="margin-left:0.4rem">Unique resource</span>' : ''}</div>
+              ${range ? `<div class="rrange">Range ${range}</div>` : ''}
+            </div>
+          </div>
+          ${r.description ? `<p class="rdesc">${escapeHtml(r.description)}</p>` : ''}
+          ${r.tooltip && r.tooltip !== r.description ? `<p class="rdesc">${escapeHtml(r.tooltip)}</p>` : ''}
+          ${factors.length ? `<div class="factor-label">Changed by</div><div class="factors">${factors.map(f => `<span class="factor ${f.recurring ? 'recurring' : ''}" title="${f.recurring ? 'Recurring each turn' : 'One-off'}">${escapeHtml(f.name)}</span>`).join('')}</div>` : ''}
+          ${levels.length ? `
+            <table class="levels">
+              <thead><tr><th>Level</th><th>State</th><th>Effects</th></tr></thead>
+              <tbody>
+                ${levels.map(l => `
+                  <tr>
+                    <td class="range">${escapeHtml(l.min)}${l.max ? ' – ' + escapeHtml(l.max) : ''}</td>
+                    <td class="ltitle">${l.bundles.map(b => `<div>${escapeHtml(b.title)}${b.description ? `<span class="ldesc">${escapeHtml(b.description)}</span>` : ''}</div>`).join('')}</td>
+                    <td>${l.bundles.map(b => effectsList(b.effects) || (b.bullets && b.bullets.length ? `<ul class="lines">${b.bullets.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '')).join('')}</td>
+                  </tr>`).join('')}
+              </tbody>
+            </table>` : ''}
+        </div>`;
+    }
+
+    function renderFaction(f) {
+      document.title = `${f.name} | 190 Expanded Wiki`;
+      document.getElementById('page-title').textContent = f.name;
+      const root = document.getElementById('faction-root');
+      root.setAttribute('data-type', f.type || 'han');
+
+      const leader = charByKey(f.leader_template);
+      const leaderPortrait = portraitFor(f.leader_template);
+      const originChip = f.origin === '190e' ? '<span class="chip modded">190 Expanded</span>'
+        : f.origin === 'dlc' ? `<span class="chip dlc">${escapeHtml(f.dlc || 'DLC')}</span>`
+        : '<span class="chip">Vanilla</span>';
+      const diffChip = f.difficulty?.level ? `<span class="chip diff-${escapeHtml(f.difficulty.level)}">Start: ${escapeHtml(f.difficulty.text)}</span>` : '';
+      const playChip = f.playstyle?.title ? `<span class="chip playstyle" title="${escapeHtml(f.playstyle.tooltip || '')}">Playstyle: ${escapeHtml(f.playstyle.title)}</span>` : '';
+      const campChip = f.campaign === 'gathering' ? '<span class="chip gold">Gathering of Heroes</span>' : '';
+      const recChip = f.is_recommended ? '<span class="chip gold">Recommended</span>' : '';
+
+      const features = f.unique_features || [];
+      const resources = f.resources || [];
+      const notable = (f.notable_characters || []).map(charByKey).filter(Boolean);
+      const starting = [f.leader_bundle, f.party_bundle].filter(b => b && ((b.effects && b.effects.length) || (b.bullets && b.bullets.length)));
+
+      root.innerHTML = `
+        <div class="content-area">
+          <div class="panel title-panel">
+            ${f.state_name && f.state_name !== f.name ? `<div class="state">${escapeHtml(f.state_name)}</div>` : ''}
+            <h1>${escapeHtml(f.name)}</h1>
+            ${f.subtitle ? `<p class="subtitle-line">${escapeHtml(f.subtitle)}</p>` : ''}
+            <div class="chips">${originChip}${campChip}${diffChip}${playChip}${recChip}</div>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel-header">Overview</h3>
+            ${f.description
+              ? `<div class="description">${f.description.split(/\n\s*\n/).map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
+              : '<p class="no-content">No faction description has been written for this start yet.</p>'}
+          </div>
+
+          <div class="panel">
+            <h3 class="panel-header">Unique Features</h3>
+            ${features.length ? `<div class="feature-grid">${features.map(featureHtml).join('')}</div>` : '<p class="no-content">No unique features are listed for this faction.</p>'}
+          </div>
+
+          ${f.specialisation && ((f.specialisation.bullets && f.specialisation.bullets.length) || f.specialisation.description) ? `
+          <div class="panel">
+            <h3 class="panel-header">Specialisation</h3>
+            ${bundleHtml({ ...f.specialisation, effects: [] })}
+          </div>` : ''}
+
+          <div class="panel">
+            <h3 class="panel-header">Faction Resources</h3>
+            ${resources.length ? resources.map(resourceHtml).join('') : '<p class="no-content">This faction uses no pooled resource.</p>'}
+          </div>
+
+          ${starting.length ? `
+          <div class="panel">
+            <h3 class="panel-header">Starting Bonuses</h3>
+            ${starting.map(b => bundleHtml(b, { fallbackTitle: 'Faction leader bonus' })).join('')}
+          </div>` : ''}
+
+          ${notable.length ? `
+          <div class="panel">
+            <h3 class="panel-header">Notable Characters</h3>
+            <div class="people">
+              ${notable.map(c => `
+                <a class="person" href="character.html?key=${encodeURIComponent(c.key)}">
+                  ${portraitFor(c.key) ? `<img src="${escapeHtml(portraitFor(c.key))}" alt="">` : ''}
+                  <div>
+                    <div class="pname">${escapeHtml(c.display_name)}</div>
+                    ${c.title ? `<div class="ptitle">${escapeHtml(c.title)}</div>` : ''}
+                  </div>
+                </a>`).join('')}
+            </div>
+          </div>` : ''}
+
+          <div class="panel">
+            <details class="tech-details">
+              <summary>Technical Details</summary>
+              <dl>
+                <dt>Faction key</dt><dd><code>${escapeHtml(f.faction_key)}</code></dd>
+                <dt>Frontend leader key</dt><dd><code>${escapeHtml(f.leader_key)}</code></dd>
+                <dt>Leader template</dt><dd><code>${escapeHtml(f.leader_template || '')}</code></dd>
+                <dt>Campaign</dt><dd><code>${escapeHtml(f.campaign_key)}</code> (${escapeHtml(f.campaign_label)})</dd>
+                <dt>Subculture</dt><dd><code>${escapeHtml(f.subculture)}</code></dd>
+                <dt>Political party</dt><dd><code>${escapeHtml(f.technical?.political_party || '')}</code></dd>
+                <dt>Faction groups</dt><dd><code>${escapeHtml((f.faction_groups || []).join(', '))}</code></dd>
+              </dl>
+            </details>
+          </div>
+        </div>
+
+        <aside class="side-column">
+          <div class="flag-box">
+            ${f.flag ? `<img src="${escapeHtml(f.flag)}" alt="${escapeHtml(f.name)} flag">` : '<p class="no-content">No flag</p>'}
+          </div>
+          <div class="leader-box">
+            <div class="label">Faction Leader</div>
+            ${leader ? `
+              <a class="leader-card" href="character.html?key=${encodeURIComponent(leader.key)}">
+                ${leaderPortrait ? `<img src="${escapeHtml(leaderPortrait)}" alt="">` : ''}
+                <div>
+                  <div class="name">${escapeHtml(leader.display_name)}</div>
+                  ${leader.display_name_alt ? `<div class="alt">${escapeHtml(leader.display_name_alt)}</div>` : ''}
+                  ${leader.title ? `<div class="title">${escapeHtml(leader.title)}</div>` : ''}
+                </div>
+              </a>` : `<p class="no-content">${escapeHtml(f.name)}</p>`}
+          </div>
+          <dl class="facts">
+            ${f.active_years && f.active_years[0] ? `<dt>Active</dt><dd>${escapeHtml(f.active_years[0])}${f.active_years[1] && f.active_years[1] !== f.active_years[0] ? ' – ' + escapeHtml(f.active_years[1]) : ''} AD</dd>` : ''}
+            ${/^\d+$/.test(f.starting_progression_level || '') ? `<dt>Starting rank</dt><dd>${escapeHtml(f.starting_progression_level)}</dd>` : ''}
+            <dt>Unique features</dt><dd>${features.length}</dd>
+            <dt>Resources</dt><dd>${resources.length ? resources.map(r => escapeHtml(r.name)).join(', ') : 'none'}</dd>
+            ${f.playstyle?.tooltip ? `<dt>Playstyle</dt><dd>${escapeHtml(f.playstyle.tooltip)}</dd>` : ''}
+          </dl>
+        </aside>`;
+    }
+
+    function renderNotFound(key) {
+      document.getElementById('faction-root').innerHTML = `
+        <div class="not-found" style="grid-column: 1 / -1">
+          <h2>Faction not found</h2>
+          <p>No faction matches <code>${escapeHtml(key)}</code>.</p>
+          <p><a href="factions.html" class="back-link">← Back to all factions</a></p>
+        </div>`;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    let key = params.get('key');
+    let faction = key && typeof FACTION_LOOKUP !== 'undefined' ? FACTION_LOOKUP[key] : null;
+    if (!faction && key && typeof FACTION_BY_LEADER !== 'undefined' && FACTION_BY_LEADER[key]) faction = FACTION_LOOKUP[FACTION_BY_LEADER[key]];
+    if (!faction && key && typeof FACTION_DATA !== 'undefined') faction = FACTION_DATA.find(f => f.faction_key === key) || null;
+    if (faction) renderFaction(faction); else renderNotFound(key || '(no key provided)');
+  </script>
+</body>
+</html>

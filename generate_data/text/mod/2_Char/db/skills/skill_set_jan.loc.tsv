@@ -1,0 +1,385 @@
+key	text	tooltip
+#Loc;1;text/db/skills/skill_set_jan.loc		
+special_ability_phases_onscreen_name_ironic_xiahou_ba	Path Blazer	false
+special_ability_phases_onscreen_name_ironic_cao_pi_2	Breaker of Limits	false
+unit_ability_types_onscreen_name_ironic_ma_su	Passive Debuff	false
+unit_ability_types_localised_description_ironic_ma_su	From the high ground, Ma Su expounds at length on the theory of victory, and his foes lose the will to argue.	false
+unit_ability_types_onscreen_name_ironic_zhou_cang	Passive Buff	false
+unit_ability_types_localised_description_ironic_zhou_cang	"Just try and keep up with Song Jian!"	false
+character_skills_localised_name_ironic_ma_zhong	Yoke of the South	false
+character_skills_localised_description_ironic_ma_zhong	The tribes of Nanzhong learned to move at Ma Zhong's pace, and so shall this one.	false
+special_ability_phases_onscreen_name_ironic_sima_shi_2	The Eye Unmade	false
+effects_description_ironic_ma_su	Skill: Hilltop Sermon	false
+effects_description_ironic_man_chong	Skill: Demonic Glance	false
+special_ability_phases_onscreen_name_ironic_ma_su	Hilltop Sermon	false
+character_skills_localised_name_ironic_sima_shi	Godly Gaze	false
+character_skills_localised_description_ironic_sima_shi	The ineffectual scrambling of the rabble merely act as fuel for the all-seeing ambitions of Sima Shi.	false
+special_ability_phases_onscreen_name_ironic_zhang_yi	Tempered Steel	false
+unit_ability_types_onscreen_name_ironic_liu_shan_active	Active Buff	false
+unit_ability_types_localised_description_ironic_liu_shan_active	Liu Shan is perfectly comfortable, and would like everyone else to be comfortable too.	false
+character_skills_localised_name_ironic_sima_zhao	Point Break	false
+character_skills_localised_description_ironic_sima_zhao	The gnarly tides finds themselves tamed by the tubular desires of Sima Zhao.	false
+effects_description_ironic_sima_shi	Skill: Godly Gaze	false
+special_ability_phases_onscreen_name_ironic_zhang_chunhua	Unblinking Watch	false
+special_ability_phases_onscreen_name_ironic_ma_liang	White Brow	false
+special_ability_phases_onscreen_name_ironic_zhu_ran	Sudden as Fire	false
+special_ability_phases_onscreen_name_ironic_jia_chong	Umbral Smite	false
+effects_description_ironic_xin_xianying_2	Skill: Counsel Unheeded	false
+unit_ability_types_onscreen_name_ironic_lu_ji	Passive Buff	false
+unit_ability_types_localised_description_ironic_lu_ji	A boy who would hide fruit in his sleeve for his mother will shield anything he loves.	false
+unit_ability_types_onscreen_name_ironic_cao_zhi_2	Passive Buff	false
+unit_ability_types_localised_description_ironic_cao_zhi_2	A kettle had beans inside,\\nAnd stalks of the beans made a fire;\\nWhen the beans to the brother-stalks cried,\\n“We sprang from one root, why such fire?” 	false
+unit_ability_types_onscreen_name_ironic_cao_rui	Passive Buff	false
+unit_ability_types_localised_description_ironic_cao_rui	A path to the future is forged with the Imperium Blade. 	false
+unit_ability_types_onscreen_name_ironic_ma_liang	Passive Buff	false
+unit_ability_types_localised_description_ironic_ma_liang	Of five brothers the white-browed was finest, and the ranks Ma Liang orders do not break.	false
+unit_ability_types_onscreen_name_ironic_wu_jing	Active Buff	false
+unit_ability_types_localised_description_ironic_wu_jing	Wu Jing rode at Sun Jian's side, and the nephews are watching how it is done.	false
+unit_ability_types_onscreen_name_ironic_man_chong	Active Debuff	false
+unit_ability_types_localised_description_ironic_man_chong	With the eyes of a demon, Man Chong renders the foe's formation asunder!	false
+unit_ability_types_onscreen_name_ironic_gongsun_yuan	Splash Attack	false
+unit_ability_types_localised_description_ironic_gongsun_yuan	Gongsun Yuan wore a king's crown for a single year, and defends it like a man with nothing left to lose.	false
+unit_ability_types_onscreen_name_ironic_zhang_yi	Passive Buff	false
+unit_ability_types_localised_description_ironic_zhang_yi	Every exchange hammers Zhang Yi thinner, harder and keener.	false
+character_skills_localised_name_ironic_lu_xun	Scholar's Volley	false
+character_skills_localised_description_ironic_lu_xun	They called Lu Xun a bookish boy, right up until the arrows fell.	false
+unit_abilities_tooltip_text_ironic_guan_suo	Guan Suo fights with all the fury of a man who must prove that he exists.	false
+unit_abilities_onscreen_name_ironic_guan_suo	Borrowed Glory	false
+character_skills_localised_name_ironic_zhuge_dan	Walls of Shouchun	false
+character_skills_localised_description_ironic_zhuge_dan	Zhuge Dan chooses his ground and dares the empire to come and take it.	false
+special_ability_phases_onscreen_name_ironic_cao_biao	Whispers in Chu	false
+special_ability_phases_onscreen_name_ironic_guo_huai	Cadence of the Plains	false
+unit_abilities_tooltip_text_ironic_xu_shao	Xu Shao has appraised the enemy commander, and the appraisal was not kind.	false
+unit_abilities_onscreen_name_ironic_xu_shao	Monthly Appraisal	false
+character_skills_localised_name_ironic_zhang_ni	Debt Unpaid	false
+character_skills_localised_description_ironic_zhang_ni	Zhang Ni owes the Han a debt for his life, and only when the end is near does he pay it in full.	false
+unit_abilities_tooltip_text_ironic_sima_zhao	The gnarly tides finds themselves tamed by the tubular desires of Sima Zhao.	false
+unit_abilities_onscreen_name_ironic_sima_zhao	Point Break	false
+character_skills_localised_name_ironic_lu_ji	Sleeve of Tangerines	false
+character_skills_localised_description_ironic_lu_ji	A boy who would hide fruit in his sleeve for his mother will shield anything he loves.	false
+effects_description_ironic_cao_rui	Skill: Gratification's Edge	false
+effects_description_ironic_zhu_huan	Skill: Known by Name	false
+unit_abilities_tooltip_text_ironic_zhu_ran	Zhu Ran's assault arrives as fire arrives, all at once and from nowhere.	false
+unit_abilities_onscreen_name_ironic_zhu_ran	Sudden as Fire	false
+special_ability_phases_onscreen_name_ironic_zhu_huan	Known by Name	false
+unit_abilities_tooltip_text_ironic_zhong_hui	Responsing to Zhong Hui's pleas, the Heavens above descend upon his hapless foes! 	false
+unit_abilities_onscreen_name_ironic_zhong_hui	Wrath of the Skies	false
+effects_description_ironic_sima_shi_2	Skill: The Eye Unmade	false
+special_ability_phases_onscreen_name_ironic_wang_ping	Ten Characters	false
+unit_abilities_tooltip_text_ironic_zhuge_jin	Sun Quan once labelled a donkey with Zhuge Jin's name, and the enemy find the resemblance dispiriting.	false
+unit_abilities_onscreen_name_ironic_zhuge_jin	Long Face	false
+unit_abilities_tooltip_text_ironic_ma_su	From the high ground, Ma Su expounds at length on the theory of victory, and his foes lose the will to argue.	false
+unit_abilities_onscreen_name_ironic_ma_su	Hilltop Sermon	false
+unit_abilities_tooltip_text_ironic_xu_shu	Xu Shu's bladework is as predictable as an autumanal gale.	false
+unit_abilities_onscreen_name_ironic_xu_shu	Breeze of the Blades	false
+special_ability_phases_onscreen_name_ironic_zhang_ni	Debt Unpaid	false
+special_ability_phases_onscreen_name_ironic_zhong_yao	Grave's Grasp	false
+unit_abilities_tooltip_text_ironic_sima_shi	The ineffectual scrambling of the rabble merely act as fuel for the all-seeing ambitions of Sima Shi.	false
+unit_abilities_onscreen_name_ironic_sima_shi	Godly Gaze	false
+special_ability_phases_onscreen_name_ironic_wu_jing	Uncle's Example	false
+character_skills_localised_name_ironic_cao_pi	Draconic Ascension	false
+character_skills_localised_description_ironic_cao_pi	Like a dragon rising beyond the clouds, Cao Pi ascends beyond the boundaries of history.	false
+unit_abilities_tooltip_text_ironic_xiahou_ba	Even when surrounded by mists, Xiahou Ba refuses to submit!	false
+unit_abilities_onscreen_name_ironic_xiahou_ba	Path Blazer	false
+unit_ability_types_onscreen_name_ironic_cao_zhi	Passive Buff	false
+unit_ability_types_localised_description_ironic_cao_zhi	A kettle had beans inside,\\nAnd stalks of the beans made a fire;\\nWhen the beans to the brother-stalks cried,\\n“We sprang from one root, why such fire?” 	false
+unit_ability_types_onscreen_name_ironic_xu_shao	Passive Debuff	false
+unit_ability_types_localised_description_ironic_xu_shao	Xu Shao has appraised the enemy commander, and the appraisal was not kind.	false
+effects_description_ironic_guan_suo	Skill: Borrowed Glory	false
+effects_description_ironic_cao_zhi_2	Skill: Seven Steps	false
+special_ability_phases_onscreen_name_ironic_gongsun_yuan	Crown of Yan	false
+unit_abilities_tooltip_text_ironic_zhuge_dan	Zhuge Dan chooses his ground and dares the empire to come and take it.	false
+unit_abilities_onscreen_name_ironic_zhuge_dan	Walls of Shouchun	false
+unit_ability_types_onscreen_name_ironic_sima_shi	Passive Debuff	false
+unit_ability_types_localised_description_ironic_sima_shi	The ineffectual scrambling of the rabble merely act as fuel for the all-seeing ambitions of Sima Shi.	false
+unit_abilities_tooltip_text_ironic_zhou_cang	"Just try and keep up with Song Jian!"	false
+unit_abilities_onscreen_name_ironic_zhou_cang	Ceaseless Footwork	false
+character_skills_localised_name_ironic_zhang_yi	Tempered Steel	false
+character_skills_localised_description_ironic_zhang_yi	Every exchange hammers Zhang Yi thinner, harder and keener.	false
+character_skills_localised_name_ironic_man_chong	Demonic Glance	false
+character_skills_localised_description_ironic_man_chong	With the eyes of a demon, Man Chong renders the foe's formation asunder!	false
+special_ability_phases_onscreen_name_ironic_qian_zhao	Northern Frost	false
+effects_description_ironic_lu_ji	Skill: Sleeve of Tangerines	false
+effects_description_ironic_zhong_hui	Skill: Wrath of the Skies	false
+effects_description_ironic_ma_dai	Skill: Blade from Behind	false
+effects_description_ironic_ma_liang	Skill: White Brow	false
+effects_description_ironic_cao_pi_2	Skill: Breaker of Limits	false
+character_skills_localised_name_ironic_cao_zhi_2	Seven Steps	false
+character_skills_localised_description_ironic_cao_zhi_2	A kettle had beans inside,\\nAnd stalks of the beans made a fire;\\nWhen the beans to the brother-stalks cried,\\n“We sprang from one root, why such fire?” 	false
+character_skills_localised_name_ironic_xiahou_ba	Path Blazer	false
+character_skills_localised_description_ironic_xiahou_ba	Even when surrounded by mists, Xiahou Ba refuses to submit!	false
+unit_abilities_tooltip_text_ironic_cao_zhi	A kettle had beans inside,\\nAnd stalks of the beans made a fire;\\nWhen the beans to the brother-stalks cried,\\n“We sprang from one root, why such fire?” 	false
+unit_abilities_onscreen_name_ironic_cao_zhi	Seven Steps	false
+unit_abilities_tooltip_text_ironic_liu_shan_passive	The line of monarchs must never be broken.	false
+unit_abilities_onscreen_name_ironic_liu_shan_passive	Divine Right	false
+special_ability_phases_onscreen_name_ironic_xu_shu	Breeze of the Blades	false
+unit_abilities_tooltip_text_ironic_zhuge_ke	Zhuge Ke was the cleverest boy in the room, and has never once stopped being told so.	false
+unit_abilities_onscreen_name_ironic_zhuge_ke	Prodigy's Prerogative	false
+unit_ability_types_onscreen_name_ironic_zhu_ran	Active Buff	false
+unit_ability_types_localised_description_ironic_zhu_ran	Zhu Ran's assault arrives as fire arrives, all at once and from nowhere.	false
+effects_description_ironic_huang_yueying	Skill: Thousand Gears	false
+unit_ability_types_onscreen_name_ironic_xin_xianying_2	Passive Debuff	false
+unit_ability_types_localised_description_ironic_xin_xianying_2	Xin Xianying warned them plainly, and it unfolds exactly as she said it would.	false
+unit_ability_types_onscreen_name_ironic_ma_dai	Splash Attack	false
+unit_ability_types_localised_description_ironic_ma_dai	Ma Dai strikes from where nobody is watching. Wei Yan never saw it coming either.	false
+special_ability_phases_onscreen_name_ironic_man_chong	Demonic Glance	false
+character_skills_localised_name_ironic_qian_zhao	Northern Frost	false
+character_skills_localised_description_ironic_qian_zhao	Qian Zhao learned patience on the steppe, where the cold outlasts every enemy.	false
+special_ability_phases_onscreen_name_ironic_bu_lianshi	Empress Unnamed	false
+unit_ability_types_onscreen_name_ironic_sima_zhao	Passive Buff	false
+unit_ability_types_localised_description_ironic_sima_zhao	The gnarly tides finds themselves tamed by the tubular desires of Sima Zhao.	false
+unit_abilities_tooltip_text_ironic_zhang_chunhua	The maid who saw too much did not live to speak of it, and Zhang Chunhua misses nothing since.	false
+unit_abilities_onscreen_name_ironic_zhang_chunhua	Unblinking Watch	false
+special_ability_phases_onscreen_name_ironic_cao_zhi_2	Seven Steps	false
+effects_description_ironic_guo_huai	Skill: Cadence of the Plains	false
+unit_abilities_tooltip_text_ironic_xin_xianying_2	Xin Xianying warned them plainly, and it unfolds exactly as she said it would.	false
+unit_abilities_onscreen_name_ironic_xin_xianying_2	Counsel Unheeded	false
+unit_abilities_tooltip_text_ironic_lu_ji	A boy who would hide fruit in his sleeve for his mother will shield anything he loves.	false
+unit_abilities_onscreen_name_ironic_lu_ji	Sleeve of Tangerines	false
+special_ability_phases_onscreen_name_ironic_ma_zhong	Yoke of the South	false
+effects_description_ironic_zhou_cang	Skill: Ceaseless Footwork	false
+character_skills_localised_name_ironic_liu_shan_active	Happy Here	false
+character_skills_localised_description_ironic_liu_shan_active	Liu Shan is perfectly comfortable, and would like everyone else to be comfortable too.	false
+character_skills_localised_name_ironic_guan_suo	Borrowed Glory	false
+character_skills_localised_description_ironic_guan_suo	Guan Suo fights with all the fury of a man who must prove that he exists.	false
+character_skills_localised_name_ironic_zhang_chunhua	Unblinking Watch	false
+character_skills_localised_description_ironic_zhang_chunhua	The maid who saw too much did not live to speak of it, and Zhang Chunhua misses nothing since.	false
+character_skills_localised_name_ironic_wang_yuanji	Measure of a Man	false
+character_skills_localised_description_ironic_wang_yuanji	Wang Yuanji took one look at Zhong Hui and knew, as she always does.	false
+unit_ability_types_onscreen_name_ironic_ma_zhong	Active Debuff	false
+unit_ability_types_localised_description_ironic_ma_zhong	The tribes of Nanzhong learned to move at Ma Zhong's pace, and so shall this one.	false
+character_skills_localised_name_ironic_xin_xianying_2	Counsel Unheeded	false
+character_skills_localised_description_ironic_xin_xianying_2	Xin Xianying warned them plainly, and it unfolds exactly as she said it would.	false
+effects_description_ironic_ma_zhong	Skill: Yoke of the South	false
+unit_abilities_tooltip_text_ironic_ma_dai	Ma Dai strikes from where nobody is watching. Wei Yan never saw it coming either.	false
+unit_abilities_onscreen_name_ironic_ma_dai	Blade from Behind	false
+effects_description_ironic_gongsun_yuan	Skill: Crown of Yan	false
+unit_ability_types_onscreen_name_ironic_xu_shu	Passive Buff	false
+unit_ability_types_localised_description_ironic_xu_shu	Xu Shu's bladework is as predictable as an autumanal gale.	false
+effects_description_ironic_liu_shan_passive	Skill: Divine Right	false
+effects_description_ironic_cao_pi	Skill: Draconic Ascension	false
+unit_abilities_tooltip_text_ironic_lu_xun	They called Lu Xun a bookish boy, right up until the arrows fell.	false
+unit_abilities_onscreen_name_ironic_lu_xun	Scholar's Volley	false
+unit_abilities_tooltip_text_ironic_wu_jing	Wu Jing rode at Sun Jian's side, and the nephews are watching how it is done.	false
+unit_abilities_onscreen_name_ironic_wu_jing	Uncle's Example	false
+unit_abilities_tooltip_text_ironic_wang_ping	Wang Ping could write barely ten characters, and never needed more to hold a line.	false
+unit_abilities_onscreen_name_ironic_wang_ping	Ten Characters	false
+unit_ability_types_onscreen_name_ironic_xin_xianying	Passive Debuff	false
+unit_ability_types_localised_description_ironic_xin_xianying	Xin Xianying warned them plainly, and it unfolds exactly as she said it would.	false
+special_ability_phases_onscreen_name_ironic_zhou_cang	Ceaseless Footwork	false
+unit_abilities_tooltip_text_ironic_xin_xianying	Xin Xianying warned them plainly, and it unfolds exactly as she said it would.	false
+unit_abilities_onscreen_name_ironic_xin_xianying	Counsel Unheeded	false
+unit_ability_types_onscreen_name_ironic_zhang_ni	Passive Buff	false
+unit_ability_types_localised_description_ironic_zhang_ni	Zhang Ni owes the Han a debt for his life, and only when the end is near does he pay it in full.	false
+special_ability_phases_onscreen_name_ironic_lu_xun	Scholar's Volley	false
+unit_ability_types_onscreen_name_ironic_jia_chong	Active Debuff	false
+unit_ability_types_localised_description_ironic_jia_chong	"You have selected...regicide."	false
+character_skills_localised_name_ironic_jia_chong	Umbral Smite	false
+character_skills_localised_description_ironic_jia_chong	"You have selected...regicide."	false
+unit_ability_types_onscreen_name_ironic_guo_huai	Passive Buff	false
+unit_ability_types_localised_description_ironic_guo_huai	Utilising incomparable veterancy, Guo Huai rallies his troops! 	false
+special_ability_phases_onscreen_name_ironic_zhuge_dan	Walls of Shouchun	false
+unit_abilities_tooltip_text_ironic_wang_yuanji	Wang Yuanji took one look at Zhong Hui and knew, as she always does.	false
+unit_abilities_onscreen_name_ironic_wang_yuanji	Measure of a Man	false
+effects_description_ironic_xin_xianying	Skill: Counsel Unheeded	false
+effects_description_ironic_wang_yuanji	Skill: Measure of a Man	false
+effects_description_ironic_xu_shao	Skill: Monthly Appraisal	false
+effects_description_ironic_zhong_yao	Skill: Grave's Grasp	false
+special_ability_phases_onscreen_name_ironic_xin_xianying	Counsel Unheeded	false
+unit_ability_types_onscreen_name_ironic_zhong_yao	Targetted Strike	false
+unit_ability_types_localised_description_ironic_zhong_yao	"And the enemy would have gotten away with it too, if not for the meddling Zhong Yao..." 	false
+character_skills_localised_name_ironic_bu_lianshi	Empress Unnamed	false
+character_skills_localised_description_ironic_bu_lianshi	Sun Quan could not make Bu Lianshi an empress in life, so the court simply behaved as though she were.	false
+effects_description_ironic_zhang_chunhua	Skill: Unblinking Watch	false
+effects_description_ironic_zhu_ran	Skill: Sudden as Fire	false
+effects_description_ironic_zhuge_jin	Skill: Long Face	false
+special_ability_phases_onscreen_name_ironic_cao_zhi	Seven Steps	false
+special_ability_phases_onscreen_name_ironic_zhuge_ke	Prodigy's Prerogative	false
+unit_abilities_tooltip_text_ironic_cao_pi	Like a dragon rising beyond the clouds, Cao Pi ascends beyond the boundaries of history.	false
+unit_abilities_onscreen_name_ironic_cao_pi	Draconic Ascension	false
+character_skills_localised_name_ironic_wang_ping	Ten Characters	false
+character_skills_localised_description_ironic_wang_ping	Wang Ping could write barely ten characters, and never needed more to hold a line.	false
+effects_description_ironic_qian_zhao	Skill: Northern Frost	false
+effects_description_ironic_xu_shu	Skill: Breeze of the Blades	false
+special_ability_phases_onscreen_name_ironic_sima_zhao	Point Break	false
+special_ability_phases_onscreen_name_ironic_wang_yuanji	Measure of a Man	false
+unit_abilities_tooltip_text_ironic_qian_zhao	Qian Zhao learned patience on the steppe, where the cold outlasts every enemy.	false
+unit_abilities_onscreen_name_ironic_qian_zhao	Northern Frost	false
+special_ability_phases_onscreen_name_ironic_guan_suo	Borrowed Glory	false
+unit_ability_types_onscreen_name_ironic_cao_xiu	Active Buff	false
+unit_ability_types_localised_description_ironic_cao_xiu	Cao Xiu never met a trap he would not ride straight into.	false
+character_skills_localised_name_ironic_zhuge_jin	Long Face	false
+character_skills_localised_description_ironic_zhuge_jin	Sun Quan once labelled a donkey with Zhuge Jin's name, and the enemy find the resemblance dispiriting.	false
+character_skills_localised_name_ironic_cao_zhi	Seven Steps	false
+character_skills_localised_description_ironic_cao_zhi	A kettle had beans inside,\\nAnd stalks of the beans made a fire;\\nWhen the beans to the brother-stalks cried,\\n“We sprang from one root, why such fire?” 	false
+special_ability_phases_onscreen_name_ironic_xin_xianying_2	Counsel Unheeded	false
+character_skills_localised_name_ironic_zhu_ran	Sudden as Fire	false
+character_skills_localised_description_ironic_zhu_ran	Zhu Ran's assault arrives as fire arrives, all at once and from nowhere.	false
+unit_abilities_tooltip_text_ironic_ma_zhong	The tribes of Nanzhong learned to move at Ma Zhong's pace, and so shall this one.	false
+unit_abilities_onscreen_name_ironic_ma_zhong	Yoke of the South	false
+special_ability_phases_onscreen_name_ironic_xu_shao	Monthly Appraisal	false
+unit_abilities_tooltip_text_ironic_ma_liang	Of five brothers the white-browed was finest, and the ranks Ma Liang orders do not break.	false
+unit_abilities_onscreen_name_ironic_ma_liang	White Brow	false
+character_skills_localised_name_ironic_cao_biao	Whispers in Chu	false
+character_skills_localised_description_ironic_cao_biao	A prince need only be spoken of, and the court begins to rot around him.	false
+unit_ability_types_onscreen_name_ironic_zhu_huan	Passive Buff	false
+unit_ability_types_localised_description_ironic_zhu_huan	Zhu Huan knows every soldier under him by name, and the fewer of them there are, the better they fight.	false
+unit_ability_types_onscreen_name_ironic_liu_shan_passive	Passive Buff	false
+unit_ability_types_localised_description_ironic_liu_shan_passive	The line of monarchs must never be broken.	false
+effects_description_ironic_cao_zhi	Skill: Seven Steps	false
+effects_description_ironic_zhang_yi	Skill: Tempered Steel	false
+unit_ability_types_onscreen_name_ironic_guan_suo	Passive Buff	false
+unit_ability_types_localised_description_ironic_guan_suo	Guan Suo fights with all the fury of a man who must prove that he exists.	false
+unit_abilities_tooltip_text_ironic_cao_xiu	Cao Xiu never met a trap he would not ride straight into.	false
+unit_abilities_onscreen_name_ironic_cao_xiu	Headlong Rush	false
+unit_ability_types_onscreen_name_ironic_wang_ping	Passive Buff	false
+unit_ability_types_localised_description_ironic_wang_ping	Wang Ping could write barely ten characters, and never needed more to hold a line.	false
+character_skills_localised_name_ironic_liu_shan_passive	Divine Right	false
+character_skills_localised_description_ironic_liu_shan_passive	The line of monarchs must never be broken.	false
+special_ability_phases_onscreen_name_ironic_sima_shi	Godly Gaze	false
+effects_description_ironic_zhang_ni	Skill: Debt Unpaid	false
+effects_description_ironic_lu_xun	Skill: Scholar's Volley	false
+unit_abilities_tooltip_text_ironic_zhong_yao	"And the enemy would have gotten away with it too, if not for the meddling Zhong Yao..." 	false
+unit_abilities_onscreen_name_ironic_zhong_yao	Grave's Grasp	false
+character_skills_localised_name_ironic_cao_rui	Gratification's Edge	false
+character_skills_localised_description_ironic_cao_rui	A path to the future is forged with the Imperium Blade. 	false
+effects_description_ironic_wu_jing	Skill: Uncle's Example	false
+special_ability_phases_onscreen_name_ironic_lu_ji	Sleeve of Tangerines	false
+special_ability_phases_onscreen_name_ironic_cao_xiu	Headlong Rush	false
+unit_ability_types_onscreen_name_ironic_deng_ai	Active Buff	false
+unit_ability_types_localised_description_ironic_deng_ai	Watching the movements of the Heavens themselves, Deng Ai improvises an unmatchable formation.	false
+character_skills_localised_name_ironic_cao_xiu	Headlong Rush	false
+character_skills_localised_description_ironic_cao_xiu	Cao Xiu never met a trap he would not ride straight into.	false
+unit_ability_types_onscreen_name_ironic_zhuge_ke	Passive Buff	false
+unit_ability_types_localised_description_ironic_zhuge_ke	Zhuge Ke was the cleverest boy in the room, and has never once stopped being told so.	false
+unit_abilities_tooltip_text_ironic_cao_zhi_2	A kettle had beans inside,\\nAnd stalks of the beans made a fire;\\nWhen the beans to the brother-stalks cried,\\n“We sprang from one root, why such fire?” 	false
+unit_abilities_onscreen_name_ironic_cao_zhi_2	Seven Steps	false
+character_skills_localised_name_ironic_wu_jing	Uncle's Example	false
+character_skills_localised_description_ironic_wu_jing	Wu Jing rode at Sun Jian's side, and the nephews are watching how it is done.	false
+unit_abilities_tooltip_text_ironic_deng_ai	Watching the movements of the Heavens themselves, Deng Ai improvises an unmatchable formation.	false
+unit_abilities_onscreen_name_ironic_deng_ai	Celestial Visage	false
+character_skills_localised_name_ironic_deng_ai	Celestial Visage	false
+character_skills_localised_description_ironic_deng_ai	Watching the movements of the Heavens themselves, Deng Ai improvises an unmatchable formation.	false
+unit_abilities_tooltip_text_ironic_zhang_ni	Zhang Ni owes the Han a debt for his life, and only when the end is near does he pay it in full.	false
+unit_abilities_onscreen_name_ironic_zhang_ni	Debt Unpaid	false
+effects_description_ironic_zhuge_dan	Skill: Walls of Shouchun	false
+effects_description_ironic_cao_xiu	Skill: Headlong Rush	false
+effects_description_ironic_xiahou_ba	Skill: Path Blazer	false
+character_skills_localised_name_ironic_xu_shu	Breeze of the Blades	false
+character_skills_localised_description_ironic_xu_shu	Xu Shu's bladework is as predictable as an autumanal gale.	false
+character_skills_localised_name_ironic_zhu_huan	Known by Name	false
+character_skills_localised_description_ironic_zhu_huan	Zhu Huan knows every soldier under him by name, and the fewer of them there are, the better they fight.	false
+unit_abilities_tooltip_text_ironic_liu_shan_active	Liu Shan is perfectly comfortable, and would like everyone else to be comfortable too.	false
+unit_abilities_onscreen_name_ironic_liu_shan_active	Happy Here	false
+character_skills_localised_name_ironic_zhong_hui	Wrath of the Skies	false
+character_skills_localised_description_ironic_zhong_hui	Responsing to Zhong Hui's pleas, the Heavens above descend upon his hapless foes! 	false
+unit_ability_types_onscreen_name_ironic_huang_yueying	Passive Buff	false
+unit_ability_types_localised_description_ironic_huang_yueying	Huang Yueying's contrivances reach further than any arm could throw.	false
+character_skills_localised_name_ironic_ma_dai	Blade from Behind	false
+character_skills_localised_description_ironic_ma_dai	Ma Dai strikes from where nobody is watching. Wei Yan never saw it coming either.	false
+effects_description_ironic_jia_chong	Skill: Umbral Smite	false
+unit_ability_types_onscreen_name_ironic_zhuge_jin	Passive Debuff	false
+unit_ability_types_localised_description_ironic_zhuge_jin	Sun Quan once labelled a donkey with Zhuge Jin's name, and the enemy find the resemblance dispiriting.	false
+special_ability_phases_onscreen_name_ironic_cao_rui	Gratification's Edge	false
+effects_description_ironic_wang_ping	Skill: Ten Characters	false
+effects_description_ironic_zhuge_ke	Skill: Prodigy's Prerogative	false
+unit_abilities_tooltip_text_ironic_cao_pi_2	The turpid trudges of mortality can be shattered when in the hands of the truly spectacular.	false
+unit_abilities_onscreen_name_ironic_cao_pi_2	Breaker of Limits	false
+unit_abilities_tooltip_text_ironic_cao_rui	A path to the future is forged with the Imperium Blade. 	false
+unit_abilities_onscreen_name_ironic_cao_rui	Gratification's Edge	false
+unit_abilities_tooltip_text_ironic_jia_chong	"You have selected...regicide."	false
+unit_abilities_onscreen_name_ironic_jia_chong	Umbral Smite	false
+unit_ability_types_onscreen_name_ironic_bu_lianshi	Passive Buff	false
+unit_ability_types_localised_description_ironic_bu_lianshi	Sun Quan could not make Bu Lianshi an empress in life, so the court simply behaved as though she were.	false
+unit_ability_types_onscreen_name_ironic_cao_pi	Active Buff	false
+unit_ability_types_localised_description_ironic_cao_pi	Like a dragon rising beyond the clouds, Cao Pi ascends beyond the boundaries of history.	false
+character_skills_localised_name_ironic_zhou_cang	Ceaseless Footwork	false
+character_skills_localised_description_ironic_zhou_cang	"Just try and keep up with Song Jian!"	false
+unit_abilities_tooltip_text_ironic_man_chong	With the eyes of a demon, Man Chong renders the foe's formation asunder!	false
+unit_abilities_onscreen_name_ironic_man_chong	Demonic Glance	false
+unit_abilities_tooltip_text_ironic_zhang_yi	Every exchange hammers Zhang Yi thinner, harder and keener.	false
+unit_abilities_onscreen_name_ironic_zhang_yi	Tempered Steel	false
+effects_description_ironic_bu_lianshi	Skill: Empress Unnamed	false
+unit_ability_types_onscreen_name_ironic_cao_pi_2	Passive Buff	false
+unit_ability_types_localised_description_ironic_cao_pi_2	The turpid trudges of mortality can be shattered when in the hands of the truly spectacular.	false
+character_skills_localised_name_ironic_xin_xianying	Counsel Unheeded	false
+character_skills_localised_description_ironic_xin_xianying	Xin Xianying warned them plainly, and it unfolds exactly as she said it would.	false
+unit_ability_types_onscreen_name_ironic_xiahou_ba	Passive Buff	false
+unit_ability_types_localised_description_ironic_xiahou_ba	Even when surrounded by mists, Xiahou Ba refuses to submit!	false
+unit_abilities_tooltip_text_ironic_bu_lianshi	Sun Quan could not make Bu Lianshi an empress in life, so the court simply behaved as though she were.	false
+unit_abilities_onscreen_name_ironic_bu_lianshi	Empress Unnamed	false
+unit_abilities_tooltip_text_ironic_guo_huai	Utilising incomparable veterancy, Guo Huai rallies his troops! 	false
+unit_abilities_onscreen_name_ironic_guo_huai	Cadence of the Plains	false
+unit_abilities_tooltip_text_ironic_zhu_huan	Zhu Huan knows every soldier under him by name, and the fewer of them there are, the better they fight.	false
+unit_abilities_onscreen_name_ironic_zhu_huan	Known by Name	false
+effects_description_ironic_deng_ai	Skill: Celestial Visage	false
+character_skills_localised_name_ironic_sima_shi_2	The Eye Unmade	false
+character_skills_localised_description_ironic_sima_shi_2	Sima Shi's ruined eye weeps, and somewhere in the enemy ranks a man simply stops.	false
+special_ability_phases_onscreen_name_ironic_cao_pi	Breaker of Limits	false
+character_skills_localised_name_ironic_xu_shao	Monthly Appraisal	false
+character_skills_localised_description_ironic_xu_shao	Xu Shao has appraised the enemy commander, and the appraisal was not kind.	false
+unit_abilities_tooltip_text_ironic_huang_yueying	Huang Yueying's contrivances reach further than any arm could throw.	false
+unit_abilities_onscreen_name_ironic_huang_yueying	Thousand Gears	false
+unit_ability_types_onscreen_name_ironic_lu_xun	Passive Buff	false
+unit_ability_types_localised_description_ironic_lu_xun	They called Lu Xun a bookish boy, right up until the arrows fell.	false
+unit_ability_types_onscreen_name_ironic_zhuge_dan	Active Buff	false
+unit_ability_types_localised_description_ironic_zhuge_dan	Zhuge Dan chooses his ground and dares the empire to come and take it.	false
+unit_ability_types_onscreen_name_ironic_zhang_chunhua	Passive Buff	false
+unit_ability_types_localised_description_ironic_zhang_chunhua	The maid who saw too much did not live to speak of it, and Zhang Chunhua misses nothing since.	false
+special_ability_phases_onscreen_name_ironic_huang_yueying	Thousand Gears	false
+character_skills_localised_name_ironic_ma_liang	White Brow	false
+character_skills_localised_description_ironic_ma_liang	Of five brothers the white-browed was finest, and the ranks Ma Liang orders do not break.	false
+effects_description_ironic_cao_biao	Skill: Whispers in Chu	false
+effects_description_ironic_liu_shan_active	Skill: Happy Here	false
+unit_ability_types_onscreen_name_ironic_sima_shi_2	Passive Debuff	false
+unit_ability_types_localised_description_ironic_sima_shi_2	Sima Shi's ruined eye weeps, and somewhere in the enemy ranks a man simply stops.	false
+special_ability_phases_onscreen_name_ironic_zhong_hui	Wrath of the Skies	false
+unit_abilities_tooltip_text_ironic_gongsun_yuan	Gongsun Yuan wore a king's crown for a single year, and defends it like a man with nothing left to lose.	false
+unit_abilities_onscreen_name_ironic_gongsun_yuan	Crown of Yan	false
+effects_description_ironic_sima_zhao	Skill: Point Break	false
+unit_ability_types_onscreen_name_ironic_zhong_hui	Missile Attack	false
+unit_ability_types_localised_description_ironic_zhong_hui	Responsing to Zhong Hui's pleas, the Heavens above descend upon his hapless foes! 	false
+special_ability_phases_onscreen_name_ironic_ma_dai	Blade from Behind	false
+character_skills_localised_name_ironic_cao_pi_2	Breaker of Limits	false
+character_skills_localised_description_ironic_cao_pi_2	The turpid trudges of mortality can be shattered when in the hands of the truly spectacular.	false
+character_skills_localised_name_ironic_zhong_yao	Grave's Grasp	false
+character_skills_localised_description_ironic_zhong_yao	"And the enemy would have gotten away with it too, if not for the meddling Zhong Yao..." 	false
+character_skills_localised_name_ironic_huang_yueying	Thousand Gears	false
+character_skills_localised_description_ironic_huang_yueying	Huang Yueying's contrivances reach further than any arm could throw.	false
+unit_abilities_tooltip_text_ironic_cao_biao	A prince need only be spoken of, and the court begins to rot around him.	false
+unit_abilities_onscreen_name_ironic_cao_biao	Whispers in Chu	false
+character_skills_localised_name_ironic_ma_su	Hilltop Sermon	false
+character_skills_localised_description_ironic_ma_su	From the high ground, Ma Su expounds at length on the theory of victory, and his foes lose the will to argue.	false
+character_skills_localised_name_ironic_gongsun_yuan	Crown of Yan	false
+character_skills_localised_description_ironic_gongsun_yuan	Gongsun Yuan wore a king's crown for a single year, and defends it like a man with nothing left to lose.	false
+unit_abilities_tooltip_text_ironic_sima_shi_2	Sima Shi's ruined eye weeps, and somewhere in the enemy ranks a man simply stops.	false
+unit_abilities_onscreen_name_ironic_sima_shi_2	The Eye Unmade	false
+special_ability_phases_onscreen_name_ironic_liu_shan_passive	Divine Right	false
+unit_ability_types_onscreen_name_ironic_wang_yuanji	Passive Buff	false
+unit_ability_types_localised_description_ironic_wang_yuanji	Wang Yuanji took one look at Zhong Hui and knew, as she always does.	false
+special_ability_phases_onscreen_name_ironic_deng_ai	Celestial Visage	false
+character_skills_localised_name_ironic_zhuge_ke	Prodigy's Prerogative	false
+character_skills_localised_description_ironic_zhuge_ke	Zhuge Ke was the cleverest boy in the room, and has never once stopped being told so.	false
+character_skills_localised_name_ironic_guo_huai	Cadence of the Plains	false
+character_skills_localised_description_ironic_guo_huai	Utilising incomparable veterancy, Guo Huai rallies his troops! 	false
+special_ability_phases_onscreen_name_ironic_zhuge_jin	Long Face	false
+special_ability_phases_onscreen_name_ironic_liu_shan_active	Happy Here	false
+unit_ability_types_onscreen_name_ironic_cao_biao	Passive Debuff	false
+unit_ability_types_localised_description_ironic_cao_biao	A prince need only be spoken of, and the court begins to rot around him.	false
+unit_ability_types_onscreen_name_ironic_qian_zhao	Passive Buff	false
+unit_ability_types_localised_description_ironic_qian_zhao	Qian Zhao learned patience on the steppe, where the cold outlasts every enemy.	false
+special_ability_phases_onscreen_name_ironic_xu_shu_1	Breeze of the Blades	false
+special_ability_phases_onscreen_name_ironic_xu_shu_2	Breeze of the Blades	false
+special_ability_phases_onscreen_name_ironic_xu_shu_3	Breeze of the Blades	false
+special_ability_phases_onscreen_name_ironic_xu_shu_4	Breeze of the Blades	false
+special_ability_phases_onscreen_name_ironic_xu_shu_5	Breeze of the Blades	false
+special_ability_phases_onscreen_name_ironic_zhang_yi_1	Tempered Steel	false
+special_ability_phases_onscreen_name_ironic_zhang_yi_2	Tempered Steel	false
+special_ability_phases_onscreen_name_ironic_zhang_yi_3	Tempered Steel	false
+special_ability_phases_onscreen_name_ironic_zhang_yi_4	Tempered Steel	false
+special_ability_phases_onscreen_name_ironic_zhang_yi_5	Tempered Steel	false
+special_ability_phases_onscreen_name_ironic_zhou_cang_1	Ceaseless Footwork	false
+special_ability_phases_onscreen_name_ironic_zhou_cang_2	Ceaseless Footwork	false
+special_ability_phases_onscreen_name_ironic_zhou_cang_3	Ceaseless Footwork	false
+special_ability_phases_onscreen_name_ironic_zhou_cang_4	Ceaseless Footwork	false
+special_ability_phases_onscreen_name_ironic_zhou_cang_5	Ceaseless Footwork	false

@@ -1,0 +1,9 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zhang_jin_events						
+ironic_np_bundle_renown			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	true
+ironic_np_bundle_ascendant			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	true
+ironic_np_bundle_unease			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	true
+ironic_np_bundle_affliction			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	true
+ironic_np_bundle_purged			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	true
+ironic_np_bundle_hollow			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	true
+ironic_np_bundle_disciples			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	true

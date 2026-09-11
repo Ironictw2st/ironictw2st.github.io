@@ -1,0 +1,21 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_info_menu__.loc		
+campaign_localised_strings_string_ironic_info_title	CHARACTER COMPENDIUM	false
+campaign_localised_strings_string_ironic_info_lbl_name	Name	false
+campaign_localised_strings_string_ironic_info_lbl_altname	Chinese Name	false
+campaign_localised_strings_string_ironic_info_lbl_faction	Faction	false
+campaign_localised_strings_string_ironic_info_lbl_age	Age	false
+campaign_localised_strings_string_ironic_info_lbl_year	Birth Year (CE)	false
+campaign_localised_strings_string_ironic_info_lbl_turns	Turns Served	false
+campaign_localised_strings_string_ironic_info_birth_hint	Select a character on the campaign map to view their details.	false
+campaign_localised_strings_string_ironic_info_guide_using_title	USING THIS MENU	false
+campaign_localised_strings_string_ironic_info_guide_using_body	Select a character on the campaign map, then use the tabs above to view their birth year, spouse and active effects. The Birth and Spouse tabs read the currently selected character - reopen the panel to refresh after selecting a different one.	false
+campaign_localised_strings_string_ironic_info_guide_births_title	NOTABLE HISTORICAL BIRTH YEARS	false
+campaign_localised_strings_string_ironic_info_spouse_hint	Select a character on the campaign map to view spouse and effects.	false
+campaign_localised_strings_string_ironic_info_lbl_spouse	Spouse	false
+campaign_localised_strings_string_ironic_info_spouse_none	This character is unmarried.	false
+campaign_localised_strings_string_ironic_info_effects_header	ACTIVE EFFECTS	false
+ironic_info_tab_birth	BIRTH	false
+ironic_info_tab_guides	GUIDES	false
+ironic_info_tab_spouse	SPOUSE	false
+ironic_info_menu_button_Tooltip_ir0001	[[b]]Character Compendium[[/b]] ||Birth years, spouse effects and guides for the selected character.	false

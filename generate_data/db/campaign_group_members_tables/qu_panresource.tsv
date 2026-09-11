@@ -1,0 +1,9 @@
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/qu_panresource		
+ironic_qu_pan_madness_level_0	ironic_madness_level_0	0.0000
+ironic_qu_pan_madness_level_1	ironic_madness_level_1	1.0000
+ironic_qu_pan_madness_level_2	ironic_madness_level_2	2.0000
+ironic_qu_pan_madness_level_3	ironic_madness_level_3	3.0000
+ironic_qu_pan_madness_level_4	ironic_madness_level_4	4.0000
+ironic_qu_pan_madness_resource_207	ironic_madness_resource_207	0.0000
+ironic_qu_pan_assignment_group	ironic_qu_pan_assignment_group	1.0000

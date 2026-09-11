@@ -1,0 +1,13 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/wang_langresource						
+ironic_experience_resource_level_0			character_experience.png	faction	negative	false
+ironic_experience_resource_level_1			character_experience.png	faction	negative	false
+ironic_experience_resource_level_2			character_experience.png	faction	neutral	false
+ironic_experience_resource_level_3			character_experience.png	faction	positive	false
+ironic_experience_resource_level_4			character_experience.png	faction	positive	false
+ironic_experience_captives_execute			no_effect.png	force	neutral	false
+ironic_experience_captives_recruit			no_effect.png	force	neutral	false
+ironic_experience_captives_release			no_effect.png	force	neutral	false
+ironic_experience_garrisoned			character_experience.png	force	neutral	false
+ironic_experience_vassalized			character_experience.png	force	neutral	false
+ironic_experience_effect_bundle			character_experience.png	faction	neutral	false

@@ -1,0 +1,9 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/resource_hansui						
+ironic_han_sui_resource_level_0			spy_limit.png	faction	neutral	false
+ironic_han_sui_resource_level_1			spy_limit.png	faction	neutral	false
+ironic_han_sui_resource_level_2			spy_limit.png	faction	neutral	false
+ironic_han_sui_resource_level_3			spy_limit.png	faction	neutral	false
+ironic_han_sui_resource_level_4			spy_limit.png	faction	neutral	false
+ironic_han_sui_resource_desc			spy_limit.png	faction	neutral	true
+ironic_han_sui_ai_help			spy_limit.png	faction	neutral	true

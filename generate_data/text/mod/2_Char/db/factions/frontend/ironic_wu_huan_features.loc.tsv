@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/factions/frontend/ironic_wu_huan_features.loc		
+frontend_faction_leader_unique_features_localised_description_ironic_ytr_unique_features_wu_huan_building	[[b]]Ember Shrine[[/b]]\\n[[col:scope_description]]Unique building chain[[/col]]\\n\\n[[col:green]]+[[/col]] Embers\\n[[col:green]]+[[/col]] Ambush chance when attacking\\n[[col:green]]+[[/col]] {{tr:Public_order}}\\n\\n[[col:flavour]][[i]]A spark, carefully tended, becomes a fire that cannot be put out.[[/col]][[/i]]	true
+frontend_faction_leader_unique_features_localised_description_ironic_ytr_unique_features_wu_huan_ambush	[[b]]Hill Stalkers[[/b]]\\n[[col:scope_description]]Faction ability[[/col]]\\n\\n[[col:green]]+[[/col]] Armies may ambush the enemy while attacking\\n[[col:green]]+[[/col]] Chance is based on the ground type\\n\\n[[col:flavour]][[i]]The hills of the south hide those who know them.[[/col]][[/i]]	true

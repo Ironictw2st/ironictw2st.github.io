@@ -1,0 +1,158 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/data__								
+3k_dlc04_skillset_historical_diao_chan	general			3k_main_chinese	false	false	3k_general_water	
+3k_dlc04_skillset_historical_empress_he	general				false	false	3k_general_fire	
+3k_dlc04_skillset_historical_guo_jia	general			3k_main_chinese	false	false	3k_general_water	
+3k_dlc04_skillset_historical_he_jin	general				false	false	3k_general_water	
+3k_dlc04_skillset_historical_huang_gai	general			3k_main_chinese	false	false	3k_general_fire	
+3k_dlc04_skillset_historical_huangfu_song	general				false	false	3k_general_metal	
+3k_dlc04_skillset_historical_jia_xu	general			3k_main_chinese	false	false	3k_general_water	
+3k_dlc04_skillset_historical_lu_zhi	general			3k_main_chinese	false	false		
+3k_dlc04_skillset_historical_pang_tong	general			3k_main_chinese	false	false	3k_general_water	
+3k_dlc04_skillset_historical_prince_liu_chong	general				false	false	3k_general_earth	
+3k_dlc04_skillset_historical_tao_qian	general				false	false	3k_general_water	
+3k_dlc04_skillset_historical_zhang_bao	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+3k_dlc04_skillset_historical_zhang_jue	general			3k_main_subculture_yellow_turban	false	false	3k_general_metal	
+3k_dlc04_skillset_historical_zhang_liang	general			3k_main_subculture_yellow_turban	false	false	3k_general_fire	
+3k_dlc05_skillset_generic_bandit_agent_earth	general				false	false	3k_general_earth	
+3k_dlc05_skillset_generic_bandit_agent_fire	general				false	false	3k_general_fire	
+3k_dlc05_skillset_generic_bandit_agent_metal	general				false	false	3k_general_metal	
+3k_dlc05_skillset_generic_bandit_agent_water_strategist	general				false	false	3k_general_water	
+3k_dlc05_skillset_generic_bandit_agent_wood	general				false	false	3k_general_wood	
+3k_dlc05_skillset_generic_bandit_envoy_earth	general				false	false	3k_general_earth	
+3k_dlc05_skillset_generic_bandit_envoy_fire	general				false	false	3k_general_fire	
+3k_dlc05_skillset_generic_bandit_envoy_metal	general				false	false	3k_general_metal	
+3k_dlc05_skillset_generic_bandit_envoy_water_strategist	general				false	false	3k_general_water	
+3k_dlc05_skillset_generic_bandit_envoy_wood	general				false	false	3k_general_wood	
+3k_dlc05_skillset_generic_bandit_general_earth	general				false	false	3k_general_earth	
+3k_dlc05_skillset_generic_bandit_general_fire	general				false	false	3k_general_fire	
+3k_dlc05_skillset_generic_bandit_general_metal	general				false	false	3k_general_metal	
+3k_dlc05_skillset_generic_bandit_general_water_strategist	general				false	false	3k_general_water	
+3k_dlc05_skillset_generic_bandit_general_wood	general				false	false	3k_general_wood	
+3k_dlc05_skillset_generic_bandit_governor_earth	general				false	false	3k_general_earth	
+3k_dlc05_skillset_generic_bandit_governor_fire	general				false	false	3k_general_fire	
+3k_dlc05_skillset_generic_bandit_governor_metal	general				false	false	3k_general_metal	
+3k_dlc05_skillset_generic_bandit_governor_water_strategist	general				false	false	3k_general_water	
+3k_dlc05_skillset_generic_bandit_governor_wood	general				false	false	3k_general_wood	
+3k_dlc05_skillset_generic_bandit_minister_earth	general				false	false	3k_general_earth	
+3k_dlc05_skillset_generic_bandit_minister_fire	general				false	false	3k_general_fire	
+3k_dlc05_skillset_generic_bandit_minister_metal	general				false	false	3k_general_metal	
+3k_dlc05_skillset_generic_bandit_minister_water_strategist	general				false	false	3k_general_water	
+3k_dlc05_skillset_generic_bandit_minister_wood	general				false	false	3k_general_wood	
+3k_dlc05_skillset_generic_bandit_villager_earth	general				false	false	3k_general_earth	
+3k_dlc05_skillset_generic_bandit_villager_fire	general				false	false	3k_general_fire	
+3k_dlc05_skillset_generic_bandit_villager_metal	general				false	false	3k_general_metal	
+3k_dlc05_skillset_generic_bandit_villager_water_strategist	general				false	false	3k_general_water	
+3k_dlc05_skillset_generic_bandit_villager_wood	general				false	false	3k_general_wood	
+3k_dlc05_skillset_historical_chen_gong	general				false	false		
+3k_dlc05_skillset_historical_cheng_pu	general				false	false		
+3k_dlc05_skillset_historical_da_qiao	general				false	false		
+3k_dlc05_skillset_historical_gao_shun	general				false	false		
+3k_dlc05_skillset_historical_xiao_qiao	general				false	false		
+3k_dlc05_skillset_historical_yan_baihu	general				false	false		
+3k_dlc05_skillset_historical_zhang_hong	general				false	false		
+3k_dlc05_skillset_historical_zhang_zhao	general				false	false		
+3k_dlc05_skillset_historical_zhou_tai	general				false	false		
+3k_dlc06_skillset_historical_li_ru	general			3k_main_chinese	false	false	3k_general_water	
+3k_dlc06_skillset_historical_wei_yan	general			3k_main_chinese	false	false	3k_general_wood	
+3k_dlc06_skillset_historical_xun_you	general			3k_main_chinese	false	false	3k_general_earth	
+3k_dlc06_skillset_romance_historical_nanman_generic	general			3k_dlc06_subculture_nanman	false	false		
+3k_dlc07_skillset_historical_cao_ren	general			3k_main_chinese	false	false	3k_general_earth	
+3k_dlc07_skillset_historical_emperor_xian	general			3k_main_chinese	false	false	3k_general_earth	
+3k_dlc07_skillset_historical_fa_zheng	general			3k_main_chinese	false	false	3k_general_water	
+3k_dlc07_skillset_historical_liu_yan	general			3k_main_chinese	false	false	3k_general_earth	
+3k_dlc07_skillset_historical_liu_zhang	general				false	false		
+3k_dlc07_skillset_historical_wen_chou	general			3k_main_chinese	false	false	3k_general_wood	
+3k_dlc07_skillset_historical_yan_liang	general			3k_main_chinese	false	false	3k_general_fire	
+3k_dlc07_skillset_historical_yu_jin	general			3k_main_chinese	false	false	3k_general_metal	
+3k_dlc07_skillset_historical_zhang_he	general			3k_main_chinese	false	false	3k_general_metal	
+3k_main_skillset_generic_agent_earth	general				false	false	3k_general_earth	
+3k_main_skillset_generic_agent_fire	general				false	false	3k_general_fire	
+3k_main_skillset_generic_agent_metal	general				false	false	3k_general_metal	
+3k_main_skillset_generic_agent_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_generic_agent_wood	general				false	false	3k_general_wood	
+3k_main_skillset_generic_envoy_earth	general				false	false	3k_general_earth	
+3k_main_skillset_generic_envoy_fire	general				false	false	3k_general_fire	
+3k_main_skillset_generic_envoy_metal	general				false	false	3k_general_metal	
+3k_main_skillset_generic_envoy_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_generic_envoy_wood	general				false	false	3k_general_wood	
+3k_main_skillset_generic_general_earth	general				false	false	3k_general_earth	
+3k_main_skillset_generic_general_fire	general				false	false	3k_general_fire	
+3k_main_skillset_generic_general_metal	general				false	false	3k_general_metal	
+3k_main_skillset_generic_general_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_generic_general_wood	general				false	false	3k_general_wood	
+3k_main_skillset_generic_governor_earth	general				false	false	3k_general_earth	
+3k_main_skillset_generic_governor_fire	general				false	false	3k_general_fire	
+3k_main_skillset_generic_governor_metal	general				false	false	3k_general_metal	
+3k_main_skillset_generic_governor_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_generic_governor_wood	general				false	false	3k_general_wood	
+3k_main_skillset_generic_minister_earth	general				false	false	3k_general_earth	
+3k_main_skillset_generic_minister_fire	general				false	false	3k_general_fire	
+3k_main_skillset_generic_minister_metal	general				false	false	3k_general_metal	
+3k_main_skillset_generic_minister_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_generic_minister_wood	general				false	false	3k_general_wood	
+3k_main_skillset_generic_villager_earth	general				false	false	3k_general_earth	
+3k_main_skillset_generic_villager_fire	general				false	false	3k_general_fire	
+3k_main_skillset_generic_villager_metal	general				false	false	3k_general_metal	
+3k_main_skillset_generic_villager_water_strategist	general				false	false	3k_general_water	
+3k_main_skillset_generic_villager_wood	general				false	false	3k_general_wood	
+3k_main_skillset_historical_cao_cao	general				false	false		
+3k_main_skillset_historical_dian_wei	general				false	false		
+3k_main_skillset_historical_dong_zhuo	general				false	false		
+3k_main_skillset_historical_gan_ning	general				false	false		
+3k_main_skillset_historical_gongsun_zan	general				false	false		
+3k_main_skillset_historical_guan_yu	general				false	false		
+3k_main_skillset_historical_huang_zhong	general				false	false		
+3k_main_skillset_historical_kong_rong	general				false	false		
+3k_main_skillset_historical_lady_sun	general				false	false		
+3k_main_skillset_historical_liu_bei	general				false	false		
+3k_main_skillset_historical_liu_biao	general				false	false		
+3k_main_skillset_historical_lu_bu	general				false	false		
+3k_main_skillset_historical_ma_chao	general				false	false		
+3k_main_skillset_historical_ma_teng	general				false	false		
+3k_main_skillset_historical_shi_xie	general				false	false		
+3k_main_skillset_historical_sima_yi	general				false	false		
+3k_main_skillset_historical_sun_ce	general				false	false		
+3k_main_skillset_historical_sun_jian	general				false	false		
+3k_main_skillset_historical_taishi_ci	general				false	false		
+3k_main_skillset_historical_xiahou_dun	general				false	false		
+3k_main_skillset_historical_xiahou_yuan	general				false	false		
+3k_main_skillset_historical_xu_chu	general				false	false		
+3k_main_skillset_historical_xu_huang	general				false	false		
+3k_main_skillset_historical_yuan_generic_earth	general			3k_main_chinese	false	false	3k_general_earth	
+3k_main_skillset_historical_yuan_shao	general				false	false		
+3k_main_skillset_historical_yuan_shu	general				false	false		
+3k_main_skillset_historical_yue_jin	general				false	false		
+3k_main_skillset_historical_zhang_fei	general				false	false		
+3k_main_skillset_historical_zhang_liao	general				false	false		
+3k_main_skillset_historical_zhang_yan	general				false	false		
+3k_main_skillset_historical_zhao_yun	general				false	false		
+3k_main_skillset_historical_zheng_jiang	general				false	false		
+3k_main_skillset_historical_zhou_yu	general				false	false		
+3k_main_skillset_historical_zhuge_liang	general				false	false		
+3k_ytr_skillset_romance_generic_artisan_healer	general			3k_main_subculture_yellow_turban	false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_artisan_scholar	general			3k_main_subculture_yellow_turban	false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_artisan_veteran	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+3k_ytr_skillset_romance_generic_official_healer	general			3k_main_subculture_yellow_turban	false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_official_scholar	general			3k_main_subculture_yellow_turban	false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_official_veteran	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+3k_ytr_skillset_romance_generic_peasant_healer	general			3k_main_subculture_yellow_turban	false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_peasant_scholar	general			3k_main_subculture_yellow_turban	false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_peasant_veteran	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+3k_ytr_skillset_romance_generic_soldier_healer	general			3k_main_subculture_yellow_turban	false	false	3k_general_water	
+3k_ytr_skillset_romance_generic_soldier_scholar	general			3k_main_subculture_yellow_turban	false	false	3k_general_metal	
+3k_ytr_skillset_romance_generic_soldier_veteran	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+3k_ytr_skillset_romance_historical_gong_du	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+3k_ytr_skillset_romance_historical_he_man	general			3k_main_subculture_yellow_turban	false	false	3k_general_metal	
+3k_ytr_skillset_romance_historical_he_yi	general			3k_main_subculture_yellow_turban	false	false	3k_general_water	
+3k_ytr_skillset_romance_historical_huang_shao	general			3k_main_subculture_yellow_turban	false	false	3k_general_metal	
+3k_ytr_skillset_romance_historical_pei_yuanshao	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+3k_ytr_skillset_romance_historical_zhang_kai	general			3k_main_subculture_yellow_turban	false	false	3k_general_wood	
+ep_skillset_historical_sima_ai	general			3k_main_chinese	false	false		
+ep_skillset_historical_sima_jiong	general			3k_main_chinese	false	false		
+ep_skillset_historical_sima_liang	general			3k_main_chinese	false	false		
+ep_skillset_historical_sima_lun	general			3k_main_chinese	false	false		
+ep_skillset_historical_sima_wei	general			3k_main_chinese	false	false		
+ep_skillset_historical_sima_ying	general			3k_main_chinese	false	false		
+ep_skillset_historical_sima_yong	general			3k_main_chinese	false	false		
+ep_skillset_historical_sima_yue	general			3k_main_chinese	false	false		

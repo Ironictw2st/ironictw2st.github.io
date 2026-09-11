@@ -1,0 +1,12 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/resource_hansui								
+ironic_han_sui_decay	spy_limit.png	1	campaign	metal		0.0000	positive_value_is_good	default
+ironic_han_sui_info_1	info.png	5	campaign	metal		0.0000	positive_value_is_good	info
+ironic_han_sui_info_2	info.png	6	campaign	metal		0.0000	positive_value_is_good	info
+ironic_han_sui_building	spy_limit.png	1	campaign	metal		0.0000	positive_value_is_good	default
+ironic_han_sui_frontend_1	spy_limit.png	1	campaign	metal	ironic_han_sui_frontend_1	0.0000	positive_value_is_good	default
+ironic_han_sui_frontend_2	spy_limit.png	2	campaign	metal	ironic_han_sui_frontend_2	0.0000	positive_value_is_good	default
+ironic_han_sui_frontend_3	spy_limit.png	3	campaign	metal	ironic_han_sui_frontend_3	0.0000	positive_value_is_good	default
+ironic_han_sui_frontend_4	spy_limit.png	4	campaign	metal	ironic_han_sui_frontend_4	0.0000	positive_value_is_good	default
+ironic_han_sui_spy_tier_1	spy_limit.png	0	campaign	metal		0.0000	positive_value_is_good	default
+ironic_han_sui_spy_tier_2	spy_limit.png	1	campaign	metal		0.0000	positive_value_is_good	default

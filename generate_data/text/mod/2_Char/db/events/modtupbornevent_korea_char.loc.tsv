@@ -1,0 +1,68 @@
+key	text	tooltip
+#Loc;1;text/db/events/modtupbornevent_korea_char.loc		
+incidents_localised_title_mtu_historical_go_uwigeo_born_incident	Go Yeonu has a son!	false
+incidents_localised_description_mtu_historical_go_uwigeo_born_incident	An occasion to be celebrated! The mistress of Go Yeonu has given birth to a son! 	false
+incidents_localised_title_mtu_historical_go_yeonbul_born_incident	Go Uwigeo has a son!	false
+incidents_localised_description_mtu_historical_go_yeonbul_born_incident	An occasion to be celebrated! The wife of Go Uwigeo has given birth to a son!	false
+incidents_localised_title_mtu_historical_buyeo_saban_born_incident	Buyeo Gusu has a son!	false
+incidents_localised_description_mtu_historical_buyeo_saban_born_incident	An occasion to be celebrated! The wife of Buyeo Gusu has given birth to a son!	false
+incidents_localised_title_mtu_historical_jin_chung_born_incident	Jin Gwa has a son!	false
+incidents_localised_description_mtu_historical_jin_chung_born_incident	An occasion to be celebrated! The wife of Jin Gwa has given birth to a son!	false
+incidents_localised_title_mtu_historical_jin_mul_born_incident	Jin Gwa has a son!	false
+incidents_localised_description_mtu_historical_jin_mul_born_incident	An occasion to be celebrated! The wife of Jin Gwa has given birth to a son!	false
+incidents_localised_title_mtu_historical_jin_ga_born_incident	Jin Gwa has a son!	false
+incidents_localised_description_mtu_historical_jin_ga_born_incident	An occasion to be celebrated! The wife of Jin Gwa has given birth to a son!	false
+incidents_localised_title_mtu_historical_seok_naeeum_born_incident	Seok Naehae has a son!	false
+incidents_localised_description_mtu_historical_seok_naeeum_born_incident	An occasion to be celebrated! The wife of Seok Naehae has given birth to a son!	false
+incidents_localised_title_mtu_historical_seok_uro_born_incident	Seok Naehae has a son!	false
+incidents_localised_description_mtu_historical_seok_uro_born_incident	An occasion to be celebrated! The wife of Seok Naehae has given birth to a son!	false
+incidents_localised_title_mtu_historical_seok_aihye_born_incident	Seok Naehae has a daughter!	false
+incidents_localised_description_mtu_historical_seok_aihye_born_incident	An occasion to be celebrated! The wife of Seok Naehae has given birth to a daughter!	false
+incidents_localised_title_mtu_historical_kim_michu_born_incident	Kim Gudo has a son!	false
+incidents_localised_description_mtu_historical_kim_michu_born_incident	An occasion to be celebrated! The wife of Kim Gudo has given birth to a son!	false
+incidents_localised_title_mtu_historical_kim_malgu_born_incident	Kim Gudo has a son!	false
+incidents_localised_description_mtu_historical_kim_malgu_born_incident	An occasion to be celebrated! The wife of Kim Gudo has given birth to a son!	false
+campaign_payload_ui_details_description_tup_born_dummy_go_uwigeo	Character Born: Go Uwigeo	false
+campaign_payload_ui_details_description_tup_born_dummy_go_yeonbul	Character Born: Go Yeonbul	false
+campaign_payload_ui_details_description_tup_born_dummy_buyeo_saban	Character Born: Buyeo Saban	false
+campaign_payload_ui_details_description_tup_born_dummy_jin_chung	Character Born: Jin Chung	false
+campaign_payload_ui_details_description_tup_born_dummy_jin_mul	Character Born: Jin Mul	false
+campaign_payload_ui_details_description_tup_born_dummy_jin_ga	Character Born: Jin Ga	false
+campaign_payload_ui_details_description_tup_born_dummy_seok_naeeum	Character Born: Seok Naeeum	false
+campaign_payload_ui_details_description_tup_born_dummy_seok_uro	Character Born: Seok Uro	false
+campaign_payload_ui_details_description_tup_born_dummy_seok_aihye	Character Born: Seok Aihye	false
+campaign_payload_ui_details_description_tup_born_dummy_kim_michu	Character Born: Kim Michu	false
+campaign_payload_ui_details_description_tup_born_dummy_kim_malgu	Character Born: Kim Malgu	false
+incidents_localised_title_ironic_character_birth_myeongrim_eosu	Character Born: Myeongrim Eosu	false
+incidents_localised_description_ironic_character_birth_myeongrim_eosu	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_mil_u	Character Born: Mil U	false
+incidents_localised_description_ironic_character_birth_mil_u	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_deuk_rae	Character Born: Deuk Rae	false
+incidents_localised_description_ironic_character_birth_deuk_rae	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_yu_okgu	Character Born: Yu Okgu	false
+incidents_localised_description_ironic_character_birth_yu_okgu	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_yu_yu	Character Born: Yu Yu	false
+incidents_localised_description_ironic_character_birth_yu_yu	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_woo_du	Character Born: Woo Du	false
+incidents_localised_description_ironic_character_birth_woo_du	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_go_su	Character Born: Go Su	false
+incidents_localised_description_ironic_character_birth_go_su	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_yu_gi	Character Born: Yu Gi	false
+incidents_localised_description_ironic_character_birth_yu_gi	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_gon_no	Character Born: Gon No	false
+incidents_localised_description_ironic_character_birth_gon_no	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+incidents_localised_title_ironic_character_birth_gang_hwon	Character Born: Gang Hwon	false
+incidents_localised_description_ironic_character_birth_gang_hwon	A sturdy boy has been born. What mark he shall leave upon history, none can yet know.	false
+campaign_payload_ui_details_description_tup_born_dummy_myeongrim_eosu	Character Born: Myeongrim Eosu	false
+campaign_payload_ui_details_description_tup_born_dummy_mil_u	Character Born: Mil U	false
+campaign_payload_ui_details_description_tup_born_dummy_deuk_rae	Character Born: Deuk Rae	false
+campaign_payload_ui_details_description_tup_born_dummy_yu_okgu	Character Born: Yu Okgu	false
+campaign_payload_ui_details_description_tup_born_dummy_yu_yu	Character Born: Yu Yu	false
+campaign_payload_ui_details_description_tup_born_dummy_woo_du	Character Born: Woo Du	false
+campaign_payload_ui_details_description_tup_born_dummy_go_su	Character Born: Go Su	false
+campaign_payload_ui_details_description_tup_born_dummy_yu_gi	Character Born: Yu Gi	false
+campaign_payload_ui_details_description_tup_born_dummy_gon_no	Character Born: Gon No	false
+campaign_payload_ui_details_description_tup_born_dummy_gang_hwon	Character Born: Gang Hwon	false
+incidents_localised_title_ironic_character_join_hu_nyeo	Character Joins: Hunyeo	false
+incidents_localised_description_ironic_character_join_hu_nyeo	After being without a son for many years, Go Yeonu dreams that he will soon have one. One day, he hears of a woman who caught a sacrificial pig that had escaped. Go Yeonu seeks her out, and the two spend the night together after he promises that he will not abandon her should she become pregnant. Later, upon learning that she is with child, Go Yeonu keeps his promise and brings her into his household. That same year, she bears him a son.	false
+campaign_payload_ui_details_description_dummy_mod_spawn_hu_nyeo	Character Joins: Hunyeo	false

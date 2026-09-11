@@ -1,0 +1,16 @@
+key	persistent_factors	default_factor	ai_ignored	minimum	maximum	overflow_behaviour	reset_policy	icon_path	ui_value_scale_factor	income_policy	shared
+#pooled_resources_tables;10;db/pooled_resources_tables/ironic_pooled_resources											
+ironic_barbarian_rage	false	ironic_barbarian_rage_factor	false	0	100	DISCARD	NONE	ui/campaign ui/effect_bundles/mh_political_parties_icon_warlords.png	1.0000	END_OF_ROUND	false
+ironic_cao_ren_preparation	false	ironic_cao_ren_preparation_factor	false	0	1000	DISCARD	NONE	ui/campaign ui/skills/3k_skill_intuition_unpredictability.png	1.0000	END_OF_ROUND	false
+ironic_robin_hood	false	ironic_robin_hood_factor	false	0	1000	DISCARD	NONE	ui/skins/default/large/custom_pin_naval.png	1.0000	END_OF_ROUND	false
+ironic_defensive_struggle	false	ironic_defensive_struggle_factor	false	0	1000	DISCARD	NONE	ui/campaign ui/effect_bundles/provides_garrison.png	1.0000	END_OF_ROUND	false
+ironic_huang_zu_prime_ambush	false	ironic_huang_zu_prime_ambush_factor	false	0	1000	DISCARD	NONE	ui/Campaign UI/effect_bundles/icon_ambush.png	1.0000	END_OF_ROUND	false
+ironic_xiongnu_tribute	false	ironic_xiongnu_tribute_base	false	0	1000	DISCARD	NONE	ui/skins/default/ironic_pooled_resource_xiongnu.png	1.0000	END_OF_ROUND	false
+ironic_governor_jurisdiction	false	ironic_governor_jurisdiction_factor	false	0	500	DISCARD	NONE	ui/campaign ui/effect_bundles/3k_dlc07_military_sanction.png	1.0000	END_OF_ROUND	false
+ironic_han_liu_yu_peace	false	ironic_han_liu_yu_peace_factor	false	0	500	DISCARD	NONE	ui/campaign ui/default/3k_ironic_190_revamp_liu_yu.png	1.0000	END_OF_ROUND	false
+ironic_bandit_rebellion	false	ironic_bandit_rebellion_factor	false	0	500	DISCARD	NONE	ui/campaign ui/effect_bundles/sword_infantry.png	1.0000	END_OF_ROUND	false
+ironic_han_sui_resource	false	ironic_han_sui_resource_factor	false	0	500	DISCARD	NONE	ui/campaign ui/effect_bundles/spy_limit.png	1.0000	END_OF_ROUND	false
+ironic_song_jian_resource	false	ironic_song_jian_resource_factor	false	0	1000	DISCARD	NONE	ui/campaign ui/effect_bundles/trade_influence.png	1.0000	END_OF_ROUND	false
+ironic_wuhuan_resource	false	ironic_wuhuan_resource_factor	false	0	5000	DISCARD	NONE	ui/Campaign UI/effect_bundles/ironic_poolde_resource_raider.png	1.0000	END_OF_ROUND	false
+ironic_xiahou_yuan_resource	false	ironic_xiahou_yuan_resource_factor	false	0	1000	DISCARD	NONE	ui/campaign ui/effect_bundles/army.png	1.0000	END_OF_ROUND	false
+ironic_zhang_lu_celestial	false	ironic_zhang_lu_celestial_factor	false	0	1000	DISCARD	NONE	ui/campaign ui/technologies/3k_dlc04_tech_yellow_turban_characters_1_1.png	1.0000	END_OF_ROUND	false

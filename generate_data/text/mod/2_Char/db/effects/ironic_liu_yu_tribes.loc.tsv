@@ -1,0 +1,128 @@
+key	text	tooltip
+#Loc;1;text/db/effects/ironic_liu_yu_tribes.loc		
+effects_description_ironic_liu_yu_unlock_xiliang_cavalry	Xiliang Cavalry (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xianbei_horse_archers	Xianbei Horse Archers (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_wuhuan_raiders	Wuhuan Raiders (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_di_cataphracts	Di Cataphracts (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_qiang_hunters	Qiang Hunters (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xianbei_riders	Xianbei Riders (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_wuhuan_defenders	Wuhuan Defenders (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_wuhuan_horse_archers	Wuhuan Horse Archers (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_di_raiders	Di Raiders (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xiliang_commander	Xiliang Commander (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_qiang_raiders	Qiang Raiders (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_heavy_xiliang_cavalry	Heavy Xiliang Cavalry (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xiongnu_cataphracts	Xiongnu Cataphracts (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xiongnu_cavalry	Xiongnu Cavalry (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_qiang_marauders	Qiang Marauders (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xianbei_headhunters	Xianbei Headhunters (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xianbei_swordguard	Xianbei Swordguard Cavalry (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_di_marauders	Di Marauders (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xiongnu_rangers	Xiongnu Ranger (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_xiongnu_noble_cavalry	Xiongnu Noble Cavalry (Rank 3) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_di_horse_archers	Di Horse Archers (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_unlock_wuhuan_lancers	Wuhuan Lancers (Rank 6) unlocked for recruitment	false
+effects_description_ironic_liu_yu_di_armour	[[b]]%+n%[[/b]] armour for Di units	false
+effects_description_ironic_liu_yu_di_charge	[[b]]%+n%[[/b]] charge bonus for Di units	false
+effects_description_ironic_liu_yu_di_missile	[[b]]%+n%[[/b]] ranged damage for Di units	false
+effects_description_ironic_liu_yu_di_morale	[[b]]%+n[[/b]] morale for Di units	false
+effects_description_ironic_liu_yu_di_replenish	[[b]]%+n%[[/b]] replenishment for Di units	false
+effects_description_ironic_liu_yu_qiang_charge	[[b]]%+n%[[/b]] charge bonus for Qiang units	false
+effects_description_ironic_liu_yu_qiang_melee	[[b]]%+n%[[/b]] melee damage for Qiang units	false
+effects_description_ironic_liu_yu_qiang_missile	[[b]]%+n%[[/b]] ranged damage for Qiang units	false
+effects_description_ironic_liu_yu_qiang_morale	[[b]]%+n[[/b]] morale for Qiang units	false
+effects_description_ironic_liu_yu_qiang_replenish	[[b]]%+n%[[/b]] replenishment for Qiang units	false
+effects_description_ironic_liu_yu_qiang_speed	[[b]]%+n%[[/b]] speed for Qiang units	false
+effects_description_ironic_liu_yu_qiang_upkeep	[[b]]%+n%[[/b]] upkeep for Qiang units	false
+effects_description_ironic_liu_yu_tribes_cost	[[b]]%+n%[[/b]] recruitment cost for all tribal units	false
+effects_description_ironic_liu_yu_tribes_replenish	[[b]]%+n%[[/b]] replenishment for all tribal units	false
+effects_description_ironic_liu_yu_wuhuan_armour	[[b]]%+n%[[/b]] armour for Wuhuan units	false
+effects_description_ironic_liu_yu_wuhuan_charge	[[b]]%+n%[[/b]] charge bonus for Wuhuan units	false
+effects_description_ironic_liu_yu_wuhuan_melee	[[b]]%+n%[[/b]] melee damage for Wuhuan units	false
+effects_description_ironic_liu_yu_wuhuan_missile	[[b]]%+n%[[/b]] ranged damage for Wuhuan units	false
+effects_description_ironic_liu_yu_wuhuan_morale	[[b]]%+n[[/b]] morale for Wuhuan units	false
+effects_description_ironic_liu_yu_wuhuan_speed	[[b]]%+n%[[/b]] speed for Wuhuan units	false
+effects_description_ironic_liu_yu_wuhuan_upkeep	[[b]]%+n%[[/b]] upkeep for Wuhuan units	false
+effects_description_ironic_liu_yu_xianbei_armour	[[b]]%+n%[[/b]] armour for Xianbei units	false
+effects_description_ironic_liu_yu_xianbei_charge	[[b]]%+n%[[/b]] charge bonus for Xianbei units	false
+effects_description_ironic_liu_yu_xianbei_evasion	[[b]]%+n%[[/b]] melee evasion for Xianbei units	false
+effects_description_ironic_liu_yu_xianbei_melee	[[b]]%+n%[[/b]] melee damage for Xianbei units	false
+effects_description_ironic_liu_yu_xianbei_morale	[[b]]%+n[[/b]] morale for Xianbei units	false
+effects_description_ironic_liu_yu_xianbei_replenish	[[b]]%+n%[[/b]] replenishment for Xianbei units	false
+effects_description_ironic_liu_yu_xianbei_speed	[[b]]%+n%[[/b]] speed for Xianbei units	false
+effects_description_ironic_liu_yu_xiliang_armour	[[b]]%+n%[[/b]] armour for Xiliang units	false
+effects_description_ironic_liu_yu_xiliang_charge	[[b]]%+n%[[/b]] charge bonus for Xiliang units	false
+effects_description_ironic_liu_yu_xiliang_cost	[[b]]%+n%[[/b]] recruitment cost for Xiliang units	false
+effects_description_ironic_liu_yu_xiliang_evasion	[[b]]%+n%[[/b]] melee evasion for Xiliang units	false
+effects_description_ironic_liu_yu_xiliang_melee	[[b]]%+n%[[/b]] melee damage for Xiliang units	false
+effects_description_ironic_liu_yu_xiliang_morale	[[b]]%+n[[/b]] morale for Xiliang units	false
+effects_description_ironic_liu_yu_xiliang_upkeep	[[b]]%+n%[[/b]] upkeep for Xiliang units	false
+effects_description_ironic_liu_yu_xiongnu_armour	[[b]]%+n%[[/b]] armour for Xiongnu units	false
+effects_description_ironic_liu_yu_xiongnu_charge	[[b]]%+n%[[/b]] charge bonus for Xiongnu units	false
+effects_description_ironic_liu_yu_xiongnu_cost	[[b]]%+n%[[/b]] recruitment cost for Xiongnu units	false
+effects_description_ironic_liu_yu_xiongnu_melee	[[b]]%+n%[[/b]] melee damage for Xiongnu units	false
+effects_description_ironic_liu_yu_xiongnu_morale	[[b]]%+n[[/b]] morale for Xiongnu units	false
+effects_description_ironic_liu_yu_xiongnu_speed	[[b]]%+n%[[/b]] speed for Xiongnu units	false
+effects_value_format_ironic_liu_yu_unlock_xiliang_cavalry		false
+effects_value_format_ironic_liu_yu_unlock_xianbei_horse_archers		false
+effects_value_format_ironic_liu_yu_unlock_wuhuan_raiders		false
+effects_value_format_ironic_liu_yu_unlock_di_cataphracts		false
+effects_value_format_ironic_liu_yu_unlock_qiang_hunters		false
+effects_value_format_ironic_liu_yu_unlock_xianbei_riders		false
+effects_value_format_ironic_liu_yu_unlock_wuhuan_defenders		false
+effects_value_format_ironic_liu_yu_unlock_wuhuan_horse_archers		false
+effects_value_format_ironic_liu_yu_unlock_di_raiders		false
+effects_value_format_ironic_liu_yu_unlock_xiliang_commander		false
+effects_value_format_ironic_liu_yu_unlock_qiang_raiders		false
+effects_value_format_ironic_liu_yu_unlock_heavy_xiliang_cavalry		false
+effects_value_format_ironic_liu_yu_unlock_xiongnu_cataphracts		false
+effects_value_format_ironic_liu_yu_unlock_xiongnu_cavalry		false
+effects_value_format_ironic_liu_yu_unlock_qiang_marauders		false
+effects_value_format_ironic_liu_yu_unlock_xianbei_headhunters		false
+effects_value_format_ironic_liu_yu_unlock_xianbei_swordguard		false
+effects_value_format_ironic_liu_yu_unlock_di_marauders		false
+effects_value_format_ironic_liu_yu_unlock_xiongnu_rangers		false
+effects_value_format_ironic_liu_yu_unlock_xiongnu_noble_cavalry		false
+effects_value_format_ironic_liu_yu_unlock_di_horse_archers		false
+effects_value_format_ironic_liu_yu_unlock_wuhuan_lancers		false
+effects_value_format_ironic_liu_yu_di_armour		false
+effects_value_format_ironic_liu_yu_di_charge		false
+effects_value_format_ironic_liu_yu_di_missile		false
+effects_value_format_ironic_liu_yu_di_morale		false
+effects_value_format_ironic_liu_yu_di_replenish		false
+effects_value_format_ironic_liu_yu_qiang_charge		false
+effects_value_format_ironic_liu_yu_qiang_melee		false
+effects_value_format_ironic_liu_yu_qiang_missile		false
+effects_value_format_ironic_liu_yu_qiang_morale		false
+effects_value_format_ironic_liu_yu_qiang_replenish		false
+effects_value_format_ironic_liu_yu_qiang_speed		false
+effects_value_format_ironic_liu_yu_qiang_upkeep		false
+effects_value_format_ironic_liu_yu_tribes_cost		false
+effects_value_format_ironic_liu_yu_tribes_replenish		false
+effects_value_format_ironic_liu_yu_wuhuan_armour		false
+effects_value_format_ironic_liu_yu_wuhuan_charge		false
+effects_value_format_ironic_liu_yu_wuhuan_melee		false
+effects_value_format_ironic_liu_yu_wuhuan_missile		false
+effects_value_format_ironic_liu_yu_wuhuan_morale		false
+effects_value_format_ironic_liu_yu_wuhuan_speed		false
+effects_value_format_ironic_liu_yu_wuhuan_upkeep		false
+effects_value_format_ironic_liu_yu_xianbei_armour		false
+effects_value_format_ironic_liu_yu_xianbei_charge		false
+effects_value_format_ironic_liu_yu_xianbei_evasion		false
+effects_value_format_ironic_liu_yu_xianbei_melee		false
+effects_value_format_ironic_liu_yu_xianbei_morale		false
+effects_value_format_ironic_liu_yu_xianbei_replenish		false
+effects_value_format_ironic_liu_yu_xianbei_speed		false
+effects_value_format_ironic_liu_yu_xiliang_armour		false
+effects_value_format_ironic_liu_yu_xiliang_charge		false
+effects_value_format_ironic_liu_yu_xiliang_cost		false
+effects_value_format_ironic_liu_yu_xiliang_evasion		false
+effects_value_format_ironic_liu_yu_xiliang_melee		false
+effects_value_format_ironic_liu_yu_xiliang_morale		false
+effects_value_format_ironic_liu_yu_xiliang_upkeep		false
+effects_value_format_ironic_liu_yu_xiongnu_armour		false
+effects_value_format_ironic_liu_yu_xiongnu_charge		false
+effects_value_format_ironic_liu_yu_xiongnu_cost		false
+effects_value_format_ironic_liu_yu_xiongnu_melee		false
+effects_value_format_ironic_liu_yu_xiongnu_morale		false
+effects_value_format_ironic_liu_yu_xiongnu_speed		false

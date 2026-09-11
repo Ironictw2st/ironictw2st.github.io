@@ -1,0 +1,13 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/kuitoupathresource						
+ironic_path_ts_resource_level_0			causes_encourage.png	faction	negative	false
+ironic_path_ts_resource_level_1			causes_encourage.png	faction	negative	false
+ironic_path_ts_resource_level_2			causes_encourage.png	faction	neutral	false
+ironic_path_ts_resource_level_3			causes_encourage.png	faction	positive	false
+ironic_path_ts_resource_level_4			causes_encourage.png	faction	positive	false
+ironic_path_ts_captives_execute			no_effect.png	force	neutral	false
+ironic_path_ts_captives_recruit			no_effect.png	force	neutral	false
+ironic_path_ts_captives_release			no_effect.png	force	neutral	false
+ironic_path_ts_garrisoned			causes_encourage.png	force	neutral	false
+ironic_path_ts_vassalized			causes_encourage.png	force	neutral	false
+ironic_path_ts_effect_bundle			causes_encourage.png	faction	neutral	false

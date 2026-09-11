@@ -1,0 +1,16 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/rebellionresource						
+ironic_bandit_resource_level_0			army.png	faction	negative	false
+ironic_bandit_resource_level_1			army.png	faction	negative	false
+ironic_bandit_resource_level_2			army.png	faction	neutral	false
+ironic_bandit_resource_level_3			army.png	faction	positive	false
+ironic_bandit_resource_level_4			army.png	faction	positive	false
+ironic_bandit_resource_level_5			army.png	faction	positive	false
+ironic_bandit_resource_level_6			army.png	faction	positive	false
+ironic_bandit_rebellion_level_7			army.png	faction	positive	false
+ironic_bandit_rebellion_level_8			army.png	faction	positive	false
+ironic_bandit_captives_execute	This force has taken supplies from a defeated enemy.	Seize Supplies	no_effect.png	force	neutral	false
+ironic_bandit_captives_recruit	This force has recruited troops from their enemy, further souring relations between them.	Recruit	no_effect.png	force	neutral	false
+ironic_bandit_captives_release	This force has gained a ransom.	Ransom	no_effect.png	force	neutral	false
+ironic_bandit_garrisoned	This army is safeguarding the local settlement.	Situation: Garrisoned	army.png	force	neutral	false
+ironic_bandit_vassalized			army.png	force	neutral	false

@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/effects/ironic_wu_huan_effects.loc		
+effects_description_ironic_guv_embers_wu_huan_shrine	[[b]]%+n[[/b]] Embers	false
+effects_description_3k_dummy_wu_huan_info	Wu Huan gathers Embers from the hidden shrines of the south. Build and upgrade them to fan the spark.	true
+effects_value_format_ironic_guv_embers_wu_huan_shrine		false
+pooled_resource_factors_display_name_positive_ironic_guv_embers_wu_huan_shrine	Ember Shrines	false
+pooled_resource_factors_display_name_negative_ironic_guv_embers_wu_huan_shrine	Ember Shrines	false

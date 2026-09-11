@@ -1,0 +1,65 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ironic_liu_yu_tribes								
+ironic_liu_yu_unlock_di_cataphracts	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_di_horse_archers	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_di_marauders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_di_raiders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_heavy_xiliang_cavalry	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_qiang_hunters	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_qiang_marauders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_qiang_raiders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_wuhuan_defenders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_wuhuan_horse_archers	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_wuhuan_lancers	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_wuhuan_raiders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xianbei_headhunters	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xianbei_horse_archers	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xianbei_riders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xianbei_swordguard	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xiliang_cavalry	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xiliang_commander	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xiongnu_cataphracts	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xiongnu_cavalry	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xiongnu_noble_cavalry	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_unlock_xiongnu_rangers	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_di_armour	armour_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_di_charge	charge_bonus.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_di_missile	ranged_weapon_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_di_morale	stat_morale.png	151	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_di_replenish	replenishment.png	400	campaign	wood	3k_main_effect_description_buildings_forces_replenishment	0.0000	positive_value_is_good	default
+ironic_liu_yu_qiang_charge	charge_bonus.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_qiang_melee	stat_melee_damage_base.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_qiang_missile	ranged_weapon_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_qiang_morale	stat_morale.png	151	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_qiang_replenish	replenishment.png	400	campaign	wood	3k_main_effect_description_buildings_forces_replenishment	0.0000	positive_value_is_good	default
+ironic_liu_yu_qiang_speed	speed.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_qiang_upkeep	upkeep_cost.png	130	campaign			0.0000	negative_value_is_good	default
+ironic_liu_yu_tribes_cost	recruitment_cost.png	121	campaign		3k_main_effect_description_recruitment_cost	0.0000	negative_value_is_good	default
+ironic_liu_yu_tribes_replenish	replenishment.png	400	campaign	wood	3k_main_effect_description_buildings_forces_replenishment	0.0000	positive_value_is_good	default
+ironic_liu_yu_wuhuan_armour	armour_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_wuhuan_charge	charge_bonus.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_wuhuan_melee	stat_melee_damage_base.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_wuhuan_missile	ranged_weapon_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_wuhuan_morale	stat_morale.png	151	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_wuhuan_speed	speed.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_wuhuan_upkeep	upkeep_cost.png	130	campaign			0.0000	negative_value_is_good	default
+ironic_liu_yu_xianbei_armour	armour_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xianbei_charge	charge_bonus.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xianbei_evasion	stat_melee_block_chance_base.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xianbei_melee	stat_melee_damage_base.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_xianbei_morale	stat_morale.png	151	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_xianbei_replenish	replenishment.png	400	campaign	wood	3k_main_effect_description_buildings_forces_replenishment	0.0000	positive_value_is_good	default
+ironic_liu_yu_xianbei_speed	speed.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiliang_armour	armour_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiliang_charge	charge_bonus.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiliang_cost	recruitment_cost.png	121	campaign		3k_main_effect_description_recruitment_cost	0.0000	negative_value_is_good	default
+ironic_liu_yu_xiliang_evasion	stat_melee_block_chance_base.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiliang_melee	stat_melee_damage_base.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiliang_morale	stat_morale.png	151	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiliang_upkeep	upkeep_cost.png	130	campaign			0.0000	negative_value_is_good	default
+ironic_liu_yu_xiongnu_armour	armour_upgrade.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiongnu_charge	charge_bonus.png	150	battle			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiongnu_cost	recruitment_cost.png	121	campaign		3k_main_effect_description_recruitment_cost	0.0000	negative_value_is_good	default
+ironic_liu_yu_xiongnu_melee	stat_melee_damage_base.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiongnu_morale	stat_morale.png	151	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_xiongnu_speed	speed.png	150	battle			0.0000	positive_value_is_good	default

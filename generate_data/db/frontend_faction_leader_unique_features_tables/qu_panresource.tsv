@@ -1,0 +1,5 @@
+key	icon_path	feature_type	sort_order
+#frontend_faction_leader_unique_features_tables;3;db/frontend_faction_leader_unique_features_tables/qu_panresource			
+ironic_qu_pan_unique_sanity	ui/campaign ui/traits/large/icon_mad_bad.png	ceo	0
+ironic_qu_pan_unique_commander_lu	UI\skins\default\scroll.png	ceo	1
+ironic_qu_pan_unique_game_altering	ui/campaign ui/traits/large/icon_mad_bad.png	ceo	2

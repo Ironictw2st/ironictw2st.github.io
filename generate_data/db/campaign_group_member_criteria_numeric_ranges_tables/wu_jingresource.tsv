@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/wu_jingresource			
+ironic_wu_jing_family_persistence_level_0	19	0	value
+ironic_wu_jing_family_persistence_level_1	39	20	value
+ironic_wu_jing_family_persistence_level_2	59	40	value
+ironic_wu_jing_family_persistence_level_3	79	60	value
+ironic_wu_jing_family_persistence_level_4	100	80	value

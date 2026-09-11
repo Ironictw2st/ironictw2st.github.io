@@ -1,0 +1,7 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/!!ironic_wu_huan_spec								
+ironic_wu_huan_frontend_1	3k_embers_pooled_resource.png	1	campaign	metal	ironic_wu_huan_frontend_1	0.0000	positive_value_is_good	default
+ironic_wu_huan_frontend_2	3k_embers_pooled_resource.png	2	campaign	metal	ironic_wu_huan_frontend_2	0.0000	positive_value_is_good	default
+ironic_wu_huan_frontend_3	3k_embers_pooled_resource.png	3	campaign	metal	ironic_wu_huan_frontend_3	0.0000	positive_value_is_good	default
+ironic_wu_huan_frontend_4	3k_embers_pooled_resource.png	4	campaign	metal	ironic_wu_huan_frontend_4	0.0000	positive_value_is_good	default
+ironic_wu_huan_frontend_5	3k_embers_pooled_resource.png	5	campaign	metal	ironic_wu_huan_frontend_5	0.0000	positive_value_is_good	default

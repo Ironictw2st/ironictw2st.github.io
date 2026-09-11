@@ -1,0 +1,19 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ironic_council								
+ironic_dummy_effect_council_treasury_instant	treasury.png	220	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_experience_instant	character_experience.png	35	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_new_character	increased_rank_for_new_recruits.png	1001	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_promote_character	starting_character_rank.png	80	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_heal_injury	satisfaction.png	40	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_tournament_pending	prestige.png	1000	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_ancillary_draw	craftsmen_ancillaries.png	70	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_captain_level	recruitment_cost.png	70	campaign			0.0000	positive_value_is_good	default
+ironic_dummy_effect_council_extra_reform	research_rate_increase.png	75	campaign			0.0000	positive_value_is_good	default
+ironic_effect_construction_time_industry	construction_time.png	35	campaign			0.0000	negative_value_is_good	default
+ironic_effect_construction_cost_industry	construction_cost.png	30	campaign			0.0000	negative_value_is_good	default
+ironic_effect_construction_time_commerce	construction_time.png	35	campaign			0.0000	negative_value_is_good	default
+ironic_effect_construction_cost_commerce	construction_cost.png	30	campaign			0.0000	negative_value_is_good	default
+ironic_effect_construction_time_peasantry	construction_time.png	35	campaign			0.0000	negative_value_is_good	default
+ironic_effect_construction_cost_peasantry	construction_cost.png	30	campaign			0.0000	negative_value_is_good	default
+ironic_effect_construction_time_culture	construction_time.png	35	campaign			0.0000	negative_value_is_good	default
+ironic_effect_construction_cost_culture	construction_cost.png	30	campaign			0.0000	negative_value_is_good	default

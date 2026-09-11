@@ -1,0 +1,17 @@
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;0;db/character_skill_level_details_tables/ironicskills						
+		1	ironic_skill_special_ability_wood_hail_of_arrows		x	0
+		1	ironic_skill_governor_protector_of_home		x	0
+		1	ironic_skill_roar_of_the_beast		x	0
+		1	ironic_skill_unity_of_family		x	0
+		1	ironic_skill_the_eight_warlords		x	0
+		1	ironic_special_ability_gao_lan		x	0
+		1	ironic_special_ability_zhang_lu		x	0
+		1	ironic_special_ability_liu_yu		x	0
+		1	ironic_special_ability_bao_xin		x	0
+		1	ironic_special_ability_chen_ying		x	0
+		1	ironic_special_ability_yuan_royalty		x	0
+		1	ironic_special_ability_gao_gan		x	0
+		1	ironic_special_ability_gongsun_kang		x	0
+		1	ironic_special_ability_qu_yi		x	0
+		1	ironic_special_ability_gongsun_du		x	0

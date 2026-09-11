@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/you_turesource			
+ironic_you_tu_enforcement_level_0	20	0	value
+ironic_you_tu_enforcement_level_1	40	21	value
+ironic_you_tu_enforcement_level_2	60	41	value
+ironic_you_tu_enforcement_level_3	80	61	value
+ironic_you_tu_enforcement_level_4	100	85	value

@@ -1,0 +1,17 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_zhu_hao_ranks__.loc		
+effect_bundles_localised_title_ironic_bundle_faction_rank_zhu_hao_1	Noble	false
+effect_bundles_localised_description_ironic_bundle_faction_rank_zhu_hao_1	A governor's seal and a handpicked militia of veterans. Jiangdong has not yet learned to say your name without adding 'Zhu Jun's son'.	false
+effect_bundles_localised_title_ironic_bundle_faction_rank_zhu_hao_2	Second Marquis	false
+effect_bundles_localised_description_ironic_bundle_faction_rank_zhu_hao_2	The commanderies along the river have begun to answer your summons. Your captains still march under militia banners.	false
+effect_bundles_localised_title_ironic_bundle_faction_rank_zhu_hao_3	Marquis	false
+effect_bundles_localised_description_ironic_bundle_faction_rank_zhu_hao_3	Word of your campaigns has travelled up the Yangtze. Your captains may now raise Advanced retinues of seasoned infantry, riders and bowmen.	false
+effect_bundles_localised_title_ironic_bundle_faction_rank_zhu_hao_4	Duchy	false
+effect_bundles_localised_description_ironic_bundle_faction_rank_zhu_hao_4	Magnates who once abused the people now petition at your gate. Your captains may now raise Elite retinues of hardened veterans.	false
+effect_bundles_localised_title_ironic_bundle_faction_rank_zhu_hao_5	Kingdom	false
+effect_bundles_localised_description_ironic_bundle_faction_rank_zhu_hao_5	The realm no longer says 'Zhu Jun's son'. It says Zhu Hao. Your captains may now raise Imperial retinues, the finest guard companies in the land.	false
+event_feed_strings_text_ironic_flavour_progression_level_increase_zhu_hao_2	The river commanderies have taken note of your campaigns, and the court has confirmed you as second marquis. Your father's name opened the first door; your own deeds have opened this one. Keep your companies drilled - greater tests are coming.	false
+event_feed_strings_text_ironic_flavour_progression_level_increase_zhu_hao_3	You are styled marquis now, and the men who once served Zhu Jun serve you gladly. Your captains have earned the right to raise Advanced retinues of seasoned infantry, cavalry and bowmen. Put them to work against the magnates who bleed the people.	false
+event_feed_strings_text_ironic_flavour_progression_level_increase_zhu_hao_4	The south speaks of the Duke of your house, and the corrupt gentry who once laughed at a young governor now fear his seal. Your captains may now raise Elite retinues of hardened veterans - every campaign you have fought was drilled into them.	false
+event_feed_strings_text_ironic_flavour_progression_level_increase_zhu_hao_5	A kingdom, my lord. The realm no longer says 'Zhu Jun's son' - it says Zhu Hao. Your captains may now raise Imperial retinues, the finest guard companies in the land. Whether you reach for the throne itself is for you alone to decide.	false
+effects_description_ironic_effect_captain_mercenary_upgrade_imperial	Unlocks Imperial Captain Retinues	false

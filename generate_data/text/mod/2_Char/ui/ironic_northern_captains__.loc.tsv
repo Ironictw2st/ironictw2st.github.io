@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_northern_captains__.loc		
+campaign_localised_strings_string_ironic_northern_title	CONTEST OF THE NORTHERN CAPTAINS	false
+campaign_localised_strings_string_ironic_northern_destroyed	Destroyed	false
+campaign_localised_strings_string_ironic_northern_level_prefix	Level	false
+campaign_localised_strings_string_ironic_northern_complete_suffix	(Complete)	false
+campaign_localised_strings_string_ironic_northern_wheel_center	Seven northern warlords race around the wheel. The first to complete all seven missions claims the contest.	false
+campaign_localised_strings_string_ironic_northern_contenders	Contenders:	false

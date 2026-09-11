@@ -1,0 +1,17 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/190e_PtU2_New_effects								
+rew_iro_190e_melee_damage_flat_all_militia	stat_melee_damage_base.png	152	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_melee_damage_AP_flat_all_militia	stat_melee_damage_armour_piercing.png	153	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_melee_damage_both_mod_all_militia	weapon_upgrade.png	154	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_melee_attack_rate_all_militia	stat_melee_attack_rate.png	155	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_melee_hit_rate_all_militia	melee.png	156	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_ranged_damage_both_mod_all_militia	ranged_weapon_upgrade.png	157	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_range_mod_all_militia	stat_range.png	158	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_ammo_mod_all_militia	ammo.png	159	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_reload_mod_all_militia	stat_ranged_attack_rate.png	160	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_charge_bonus_flat_all_militia	charge_bonus.png	161	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_charge_bonus_mod_all_militia	shock_cavalry.png	162	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_melee_evasion_flat_all_militia	stat_melee_block_chance_base.png	163	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_armour_flat_all_militia	armour_upgrade.png	164	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_missile_block_chance_all_militia	stat_ranged_block_chance.png	165	battle	earth		0.0000	positive_value_is_good	default
+rew_iro_190e_speed_all_militia	stat_speed.png	166	battle	earth		0.0000	positive_value_is_good	default

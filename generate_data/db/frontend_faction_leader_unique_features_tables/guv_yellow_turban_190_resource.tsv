@@ -1,0 +1,5 @@
+key	icon_path	feature_type	sort_order
+#frontend_faction_leader_unique_features_tables;3;db/frontend_faction_leader_unique_features_tables/guv_yellow_turban_190_resource			
+3k_ytr_unique_features_gong_du_technology	UI\campaign ui\technologies\3k_ytr_tech_yellow_turban_people_3_3.png	ceo	0
+3k_ytr_unique_features_he_yi_technology	UI\campaign ui\technologies\3k_ytr_tech_yellow_turban_people_3_1.png	ceo	0
+3k_ytr_unique_features_huang_shao_technology	UI\campaign ui\technologies\3k_ytr_tech_yellow_turban_heaven_3_1.png	ceo	0

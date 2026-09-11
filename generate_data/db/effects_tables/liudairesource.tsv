@@ -1,0 +1,16 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/liudairesource								
+ironic_siege_warfare_decay	siege_engines.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_siege_warfare_armies	siege_engines.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_siege_warfare_captives_post_battle	siege_engines.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_siege_warfare_characters	siege_engines.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_siege_warfare_garrisoned	siege_engines.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_siege_warfare_vassalized	siege_engines.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_siege_warfare_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_siege_warfare_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_siege_warfare_executed	siege_engines.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_siege_warfare_assignments	siege_engines.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_siege_warfare_1	siege_engines.png	1	campaign		ironic_frontend_description_siege_warfare_1	0.0000	positive_value_is_good	default
+ironic_frontend_description_siege_warfare_2	siege_engines.png	2	campaign		ironic_frontend_description_siege_warfare_2	0.0000	positive_value_is_good	default
+ironic_frontend_description_siege_warfare_3	siege_engines.png	3	campaign		ironic_frontend_description_siege_warfare_3	0.0000	positive_value_is_good	default
+ironic_siege_ability	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default

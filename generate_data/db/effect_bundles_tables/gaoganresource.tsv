@@ -1,0 +1,15 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/gaoganresource						
+ironic_defensive_resource_level_0			provides_garrison.png	faction	negative	false
+ironic_defensive_resource_level_1			provides_garrison.png	faction	negative	false
+ironic_defensive_resource_level_2			provides_garrison.png	faction	neutral	false
+ironic_defensive_resource_level_3			provides_garrison.png	faction	positive	false
+ironic_defensive_resource_level_4			provides_garrison.png	faction	positive	false
+ironic_defensive_resource_level_5			provides_garrison.png	faction	positive	false
+ironic_defensive_resource_level_6			provides_garrison.png	faction	positive	false
+ironic_defensive_captives_execute			no_effect.png	force	neutral	false
+ironic_defensive_captives_recruit			no_effect.png	force	neutral	false
+ironic_defensive_captives_release			no_effect.png	force	neutral	false
+ironic_defensive_garrisoned			provides_garrison.png	force	neutral	false
+ironic_defensive_vassalized			provides_garrison.png	force	neutral	false
+ironic_defensive_effect_bundle			provides_garrison.png	faction	neutral	false

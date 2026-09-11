@@ -1,0 +1,3 @@
+key	persistent_factors	default_factor	ai_ignored	minimum	maximum	overflow_behaviour	reset_policy	icon_path	ui_value_scale_factor	income_policy	shared
+#pooled_resources_tables;10;db/pooled_resources_tables/guv_yellow_turban_190_resource											
+3k_embers_pooled_resource	false	3k_pooled_factor_embers	false	0	600	DISCARD	NONE	UI/Campaign UI/Effect_Bundles/3k_embers_pooled_resource.png	1.0000	END_OF_ROUND	true

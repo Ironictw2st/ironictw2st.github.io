@@ -41,3 +41,5 @@ key	birth_year	max_age_for_birth_year	max_random_age	min_age_for_birth_year	min_
 3k_main_age_fixed_ancestral_chen_qian	80	80	50	0	18	true	1	0	1	999
 3k_main_age_fixed_ancestral_zhuge_suo	115	80	50	0	18	true	1	0	1	999
 3k_main_age_fixed_ancestral_zhuge_chao	85	80	50	0	18	true	1	0	1	999
+3k_mod_age_fixed_generated_go_baekgo_hero_wood	89	80	50	0	18	true	105	0	261	999
+3k_mod_age_fixed_generated_woo_so_hero_water	89	80	50	0	18	true	105	0	261	999

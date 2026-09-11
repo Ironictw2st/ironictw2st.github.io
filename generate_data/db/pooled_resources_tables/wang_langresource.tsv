@@ -1,0 +1,3 @@
+key	persistent_factors	default_factor	ai_ignored	minimum	maximum	overflow_behaviour	reset_policy	icon_path	ui_value_scale_factor	income_policy	shared
+#pooled_resources_tables;10;db/pooled_resources_tables/wang_langresource											
+ironic_experience	false	ironic_experience_factor	false	0	500	DISCARD	NONE	ui/campaign ui/effect_bundles/character_experience.png	1.0000	END_OF_ROUND	false

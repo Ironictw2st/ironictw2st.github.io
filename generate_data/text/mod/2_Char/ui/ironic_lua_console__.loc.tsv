@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_lua_console__.loc		
+campaign_localised_strings_string_ironic_lua_console_title	LUA CONSOLE	false
+campaign_localised_strings_string_ironic_lua_console_menu_btn	LUA	false
+campaign_localised_strings_string_ironic_lua_console_btn_run	RUN	false
+campaign_localised_strings_string_ironic_lua_console_btn_load	LOAD	false
+campaign_localised_strings_string_ironic_lua_console_btn_clear	CLEAR	false
+ironic_lua_console_menu_btn	LUA	false
+ironic_lua_console_btn_run	RUN	false
+ironic_lua_console_btn_load	LOAD	false
+ironic_lua_console_btn_clear	CLEAR	false

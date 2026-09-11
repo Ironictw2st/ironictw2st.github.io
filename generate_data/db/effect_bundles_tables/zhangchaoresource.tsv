@@ -1,0 +1,17 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zhangchaoresource						
+ironic_Calligraphy_resource_level_0			research_rate_increase.png	faction	negative	false
+ironic_Calligraphy_resource_level_1			research_rate_increase.png	faction	negative	false
+ironic_Calligraphy_resource_level_2			research_rate_increase.png	faction	neutral	false
+ironic_Calligraphy_resource_level_3			research_rate_increase.png	faction	positive	false
+ironic_Calligraphy_resource_level_4			research_rate_increase.png	faction	positive	false
+ironic_Calligraphy_captives_execute			no_effect.png	force	neutral	false
+ironic_Calligraphy_captives_recruit			no_effect.png	force	neutral	false
+ironic_Calligraphy_captives_release			no_effect.png	force	neutral	false
+ironic_Calligraphy_garrisoned			research_rate_increase.png	force	neutral	false
+ironic_Calligraphy_vassalized			research_rate_increase.png	force	neutral	false
+ironic_Calligraphy_effect_bundle			research_rate_increase.png	faction	neutral	false
+3k_main_pooled_resource_Calligraphy_bundle_character_1			research_rate_increase.png	character	neutral	true
+3k_main_pooled_resource_Calligraphy_bundle_character_2			research_rate_increase.png	character	neutral	true
+3k_main_pooled_resource_Calligraphy_bundle_character_3			research_rate_increase.png	character	neutral	true
+3k_main_pooled_resource_Calligraphy_bundle_character_4			research_rate_increase.png	character	neutral	true

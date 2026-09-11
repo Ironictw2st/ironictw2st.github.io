@@ -1,0 +1,11 @@
+key	factor	maximum	minimum	resource	ai_can_propose	is_recurring_factor
+#pooled_resource_factor_junctions_tables;3;db/pooled_resource_factor_junctions_tables/kuitoupathresource						
+ironic_path_ts_factor	ironic_path_ts_factor	2147483647	-2147483647	ironic_path_ts	true	true
+ironic_path_ts_victory	ironic_path_ts_victory	2147483647	-2147483647	ironic_path_ts	true	false
+ironic_path_ts_defeat	ironic_path_ts_defeat	2147483647	-2147483647	ironic_path_ts	true	false
+ironic_path_ts_decay	ironic_path_ts_decay	2147483647	-2147483647	ironic_path_ts	true	true
+ironic_path_ts_at_war	ironic_path_ts_at_war	2147483647	-2147483647	ironic_path_ts	true	false
+ironic_path_ts_post_battle_options	ironic_path_ts_post_battle_options	2147483647	-2147483647	ironic_path_ts	true	false
+ironic_path_ts_assignments	ironic_path_ts_assignments	2147483647	-2147483647	ironic_path_ts	true	false
+ironic_path_ts_casualities	ironic_path_ts_casualities	2147483647	-2147483647	ironic_path_ts	true	false
+ironic_path_ts_remove_heir	ironic_path_ts_remove_heir	2147483647	-2147483647	ironic_path_ts	true	false

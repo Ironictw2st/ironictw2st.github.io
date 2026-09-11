@@ -1,0 +1,43 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/liuyuresource						
+ironic_liu_yu_peace_resource_level_0			3k_ironic_190_revamp_liu_yu.png	faction	negative	false
+ironic_liu_yu_peace_resource_level_1			3k_ironic_190_revamp_liu_yu.png	faction	negative	false
+ironic_liu_yu_peace_resource_level_2			3k_ironic_190_revamp_liu_yu.png	faction	neutral	false
+ironic_liu_yu_peace_resource_level_3			3k_ironic_190_revamp_liu_yu.png	faction	positive	false
+ironic_liu_yu_peace_resource_level_4			3k_ironic_190_revamp_liu_yu.png	faction	positive	false
+ironic_liu_yu_peace_captives_execute	This force has taken supplies from a defeated enemy.	Seize Supplies	no_effect.png	force	neutral	false
+ironic_liu_yu_peace_captives_recruit	This force has recruited troops from their enemy, further souring relations between them.	Recruit	no_effect.png	force	neutral	false
+ironic_liu_yu_peace_captives_release	This force has gained a ransom.	Ransom	no_effect.png	force	neutral	false
+ironic_liu_yu_peace_garrisoned	This army is safeguarding the local settlement.	Situation: Garrisoned	army.png	force	neutral	false
+ironic_liu_yu_peace_vassalized			army.png	force	neutral	false
+3k_main_effect_bundle_public_order_content_main_liu_yu			public_order.png	province	neutral	false
+3k_main_effect_bundle_public_order_happy_main_liu_yu			public_order.png	province	neutral	false
+3k_main_effect_bundle_public_order_indifferent_main_liu_yu			public_order.png	province	neutral	false
+3k_main_effect_bundle_public_order_jubilant_main_liu_yu			public_order.png	province	neutral	false
+3k_main_effect_bundle_public_order_outraged_main_liu_yu			public_order.png	province	neutral	false
+3k_main_effect_bundle_public_order_troubled_main_liu_yu			public_order.png	province	neutral	false
+3k_main_effect_bundle_public_order_unhappy_main_liu_yu			public_order.png	province	neutral	false
+3k_main_political_party_liu_yu_190_resource		Pacifism	3k_ironic_190_revamp_liu_yu.png	faction	positive	false
+ironic_liu_yu_resource_loss_war_1			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_2			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_3			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_4			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_5			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_6			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_7			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_8			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_9			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_loss_war_10			3k_ironic_190_revamp_liu_yu.png	faction	negative	true
+ironic_liu_yu_resource_gain_alliance_1			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_2			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_3			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_4			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_5			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_6			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_7			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_8			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_9			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_liu_yu_resource_gain_alliance_10			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+ironic_occupation_option_replenishment			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+3k_main_effect_bundle_post_siege_acting_force_loot_and_occupy_military_supplies_liu_yu			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
+3k_main_effect_bundle_post_siege_acting_force_sack_military_supplies_liu_yu			3k_ironic_190_revamp_liu_yu.png	faction	positive	true
