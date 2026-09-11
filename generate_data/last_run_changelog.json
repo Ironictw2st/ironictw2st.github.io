@@ -1,0 +1,25 @@
+{
+  "total": 74,
+  "releases": 19,
+  "patches": 51,
+  "silent": 4,
+  "first": "2022-10-15",
+  "last": "2026-09-02",
+  "byYear": {
+    "2026": 10,
+    "2025": 44,
+    "2024": 8,
+    "2023": 6,
+    "2022": 6
+  },
+  "byPack": {
+    "Factions & Characters": 54,
+    "Overhaul": 20,
+    "Extra Regions": 22
+  },
+  "packLinks": {
+    "Factions & Characters": "https://steamcommunity.com/sharedfiles/filedetails/changelog/2875547086",
+    "Overhaul": "https://steamcommunity.com/sharedfiles/filedetails/changelog/3010906135",
+    "Extra Regions": "https://steamcommunity.com/sharedfiles/filedetails/changelog/3240150507"
+  }
+}

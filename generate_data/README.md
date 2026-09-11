@@ -25,6 +25,21 @@ python bios_report.py          # -> bios_missing.md (characters with no biograph
 python audit_site.py           # -> audit_report.md (broken refs, counts, orphans)
 ```
 
+`fetch_changelog.py` is separate: it scrapes the Steam Workshop change notes rather than the mod
+tree, so run it only when Steam has been updated.
+
+```
+python fetch_changelog.py             # -> total_war/data/changelog.js (74 entries, 3 packs)
+python fetch_changelog.py --dry-run   # scrape and report without writing
+python fetch_changelog.py --cache-dir DIR   # reuse/save page copies while iterating
+```
+
+It reads all three Workshop packs, uses the `<p id>` timestamp for the date (the visible headline
+omits the year), merges notes the author cross-posted to several packs, folds same-day silent
+pushes into the entry that has notes, and rebuilds each body from an HTML allow-list because
+`changelog.html` injects it with `innerHTML`. If Steam changes its layout the script fails loudly
+rather than writing an empty file.
+
 `family_tree/family_extractor.py` is separate and hand-fed (`starter.xlsx` + lua); it is not part of the sync.
 
 ## Layout
@@ -43,6 +58,9 @@ python audit_site.py           # -> audit_report.md (broken refs, counts, orphan
   move a faction. New factions are appended automatically.
 - `factions_report.txt` — data-quality notes from the last faction run (placeholder descriptions, missing
   flags/icons, factions without unique features).
+- `../total_war/data/roadmap.js` — the Roadmap page's content. **Hand-maintained, not generated**;
+  edit it directly. One item is flagged `computed` so the page appends the live list of Han factions
+  that still have no mechanic, read from `factions.js`.
 - `last_run_*.json`, `last_audit.json` — counts from the last run, used by the audit to show deltas.
 
 ## Campaigns

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roadmap | 190 Expanded Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What is already in 190 Expanded, what lands in the next update, and what comes after.">
+    <link rel="stylesheet" href="styles/tw3k.css">
+    <style>
+        .rm-intro {
+            max-width: 780px; margin: 0 auto 3rem; text-align: center;
+            padding-bottom: 2rem; border-bottom: 1px solid #252530;
+        }
+        .rm-intro p { color: var(--text-secondary); font-size: 1rem; line-height: 1.7; }
+        .rm-intro .caveat { font-size: 0.85rem; color: var(--text-muted); font-style: italic; margin-top: 1rem; }
+        .rm-intro a { color: var(--gold-light); text-decoration: none; }
+        .rm-intro a:hover { text-decoration: underline; }
+
+        /* timeline */
+        .timeline { position: relative; padding-left: 2.25rem; }
+        .timeline::before {
+            content: ''; position: absolute; left: 9px; top: 0.5rem; bottom: 0.5rem;
+            width: 2px; background: linear-gradient(180deg, var(--gold-dark), #252530 60%, transparent);
+        }
+
+        .stage { position: relative; margin-bottom: 2rem; }
+        .stage::before {
+            content: ''; position: absolute; left: -2.25rem; top: 1.15rem;
+            width: 14px; height: 14px; border-radius: 50%;
+            background: var(--bg-primary); border: 2px solid #3a3a44; z-index: 1;
+        }
+        .stage[data-status="done"]::before   { border-color: #3f7a4a; background: #3f7a4a; }
+        .stage[data-status="next"]::before   { border-color: var(--gold-primary); background: var(--gold-dark); }
+        .stage[data-status="planned"]::before{ border-color: #4a6fa5; background: #24344f; }
+        .stage[data-status="future"]::before { border-color: #6a5a8a; background: #2c2440; }
+        .stage[data-status="tba"]::before    { border-color: #3a3a44; }
+
+        .stage-card {
+            background: var(--bg-card); border: 1px solid #202025;
+            border-left: 3px solid var(--stage-colour, #303035);
+            padding: 1.35rem 1.6rem;
+        }
+        .stage[data-status="done"]    .stage-card { --stage-colour: #3f7a4a; }
+        .stage[data-status="next"]    .stage-card { --stage-colour: var(--gold-primary); }
+        .stage[data-status="planned"] .stage-card { --stage-colour: #4a6fa5; }
+        .stage[data-status="future"]  .stage-card { --stage-colour: #6a5a8a; }
+        .stage[data-status="tba"]     .stage-card { --stage-colour: #303035; }
+
+        .stage-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; margin-bottom: 0.35rem; }
+        .stage-title {
+            font-family: 'Cinzel', serif; font-size: 1.25rem; color: var(--title-cream);
+            letter-spacing: 0.05em; margin: 0;
+        }
+        .stage-blurb { color: var(--text-secondary); font-size: 0.9rem; margin: 0 0 1rem; font-style: italic; }
+
+        .status-chip {
+            font-size: 0.66rem; padding: 0.16rem 0.55rem; letter-spacing: 0.09em;
+            text-transform: uppercase; border: 1px solid #303035; color: var(--text-secondary);
+            white-space: nowrap;
+        }
+        .status-chip[data-status="done"]    { border-color: #3f7a4a; color: #8fd19b; background: rgba(63,122,74,0.12); }
+        .status-chip[data-status="next"]    { border-color: var(--gold-dark); color: var(--gold-light); background: rgba(201,162,39,0.12); }
+        .status-chip[data-status="planned"] { border-color: #4a6fa5; color: #9bc2e8; background: rgba(74,111,165,0.12); }
+        .status-chip[data-status="future"]  { border-color: #6a5a8a; color: #c0aee0; background: rgba(106,90,138,0.12); }
+        .status-chip[data-status="tba"]     { border-color: #3a3a44; color: var(--text-muted); }
+
+        .stage-group + .stage-group { margin-top: 1.25rem; }
+        .group-title {
+            font-family: 'Cinzel', serif; font-size: 0.76rem; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.14em;
+            margin-bottom: 0.5rem; padding-bottom: 0.3rem; border-bottom: 1px solid #252530;
+        }
+        .stage-items { list-style: none; margin: 0; padding: 0; }
+        .stage-items li {
+            position: relative; padding-left: 1.3rem; margin-bottom: 0.45rem;
+            font-size: 0.92rem; color: var(--text-primary); line-height: 1.5;
+        }
+        .stage-items li::before {
+            content: '◆'; position: absolute; left: 0; top: 0;
+            color: var(--stage-colour, var(--text-muted)); font-size: 0.62rem; line-height: 1.9;
+        }
+        .stage[data-status="done"] .stage-items li::before { content: '✓'; color: #6fbf73; font-size: 0.78rem; line-height: 1.5; }
+        .item-note { display: block; font-size: 0.82rem; color: var(--text-muted); margin-top: 0.15rem; }
+
+        .computed-list { margin-top: 0.5rem; padding: 0.7rem 0.9rem; background: rgba(255,255,255,0.02); border: 1px solid #1f1f26; }
+        .computed-label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.45rem; }
+        .computed-names { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+        .computed-names a {
+            font-size: 0.8rem; padding: 0.12rem 0.5rem; text-decoration: none;
+            border: 1px solid #303035; color: var(--text-secondary);
+        }
+        .computed-names a:hover { border-color: var(--gold-dark); color: var(--gold-light); }
+
+        .stage.empty .stage-card { opacity: 0.75; }
+        .stage-empty-note { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+
+        @media (max-width: 768px) {
+            .timeline { padding-left: 1.6rem; }
+            .stage::before { left: -1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="../index.html" class="back-link">← Home</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">190 Expanded Wiki</p>
+        <h1>Roadmap</h1>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="factions.html">Factions</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="roadmap.html" class="active">Roadmap</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="rm-intro">
+        <p>Where 190 Expanded is going: what is already in the game, what lands in the next update, and what comes after that.</p>
+        <p class="caveat">
+            This is a statement of intent, not a release schedule. Plans move around, and anything
+            beyond the next update can change. Ask on the
+            <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a> if you want detail on a particular item.
+        </p>
+    </section>
+
+    <div class="timeline" id="roadmap-root"></div>
+</main>
+
+<footer>
+    <p>
+        Created by Ironic ·
+        <a href="https://steamcommunity.com/id/ironictw2st/myworkshopfiles/?appid=779340">
+            Steam Workshop
+        </a>
+    </p>
+    <p class="ext-links">
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+        <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+        <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+</footer>
+
+<script src="data/factions.js"></script>
+<script src="data/roadmap.js"></script>
+<script>
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str == null ? '' : String(str);
+        return div.innerHTML;
+    }
+
+    // Factions whose mechanic is not in the public build yet: no primary pooled resource
+    // and no specialisation in the generated faction data. Restricted to the Han side of the
+    // map, because the Nanman and Korean factions are a separate stage of the roadmap.
+    // Names already listed by hand in the roadmap are left out so nothing is shown twice.
+    const HAN_CATEGORIES = ['warlords', 'empire', 'minor', 'dlc-awb', 'dlc-fd', 'shanyue', 'bandits', 'yellow-turbans'];
+
+    function factionsWithoutMechanic(alreadyListed) {
+        if (typeof FACTION_DATA === 'undefined') return [];
+        const named = new Set((alreadyListed || []).map(n => n.toLowerCase()));
+        return FACTION_DATA
+            .filter(f => f.campaign === '190' && HAN_CATEGORIES.includes(f.category))
+            .filter(f => !(f.resources || []).some(r => r.is_primary) && !f.specialisation)
+            .filter(f => !named.has(f.name.toLowerCase()))
+            .sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    function itemHtml(item, listedNames) {
+        if (typeof item === 'string') return `<li>${escapeHtml(item)}</li>`;
+        let extra = '';
+        if (item.note) extra += `<span class="item-note">${escapeHtml(item.note)}</span>`;
+        if (item.computed === 'factions-without-mechanic') {
+            const missing = factionsWithoutMechanic(listedNames);
+            if (missing.length) {
+                extra += `
+                    <div class="computed-list">
+                        <div class="computed-label">Other Han factions still without one (${missing.length}), from the faction data</div>
+                        <div class="computed-names">
+                            ${missing.map(f => `<a href="faction.html?key=${encodeURIComponent(f.id)}">${escapeHtml(f.name)}</a>`).join('')}
+                        </div>
+                    </div>`;
+            }
+        }
+        return `<li>${escapeHtml(item.text)}${extra}</li>`;
+    }
+
+    function stageHtml(stage) {
+        const listedNames = (stage.groups || [])
+            .flatMap(g => g.items || [])
+            .filter(i => typeof i === 'string');
+
+        const groups = (stage.groups || []).map(group => `
+            <div class="stage-group">
+                ${group.title ? `<div class="group-title">${escapeHtml(group.title)}</div>` : ''}
+                <ul class="stage-items">${(group.items || []).map(i => itemHtml(i, listedNames)).join('')}</ul>
+            </div>`).join('');
+
+        const empty = !(stage.groups || []).some(g => (g.items || []).length);
+        return `
+            <section class="stage${empty ? ' empty' : ''}" data-status="${escapeHtml(stage.status)}" id="${escapeHtml(stage.id)}">
+                <div class="stage-card">
+                    <div class="stage-head">
+                        <h2 class="stage-title">${escapeHtml(stage.label)}</h2>
+                        <span class="status-chip" data-status="${escapeHtml(stage.status)}">${escapeHtml(ROADMAP_STATUS_LABEL[stage.status] || stage.status)}</span>
+                    </div>
+                    ${stage.blurb ? `<p class="stage-blurb">${escapeHtml(stage.blurb)}</p>` : ''}
+                    ${empty ? '<p class="stage-empty-note">Nothing announced yet.</p>' : groups}
+                </div>
+            </section>`;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('roadmap-root').innerHTML = ROADMAP_DATA.map(stageHtml).join('');
+    });
+</script>
+
+</body>
+</html>
