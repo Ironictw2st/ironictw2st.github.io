@@ -47,6 +47,7 @@
         }
         .leaflet-tooltip.region-tip::before { display: none; }
         .region-tip .rt-name { font-family: 'Cinzel', serif; color: var(--title-cream); }
+        .region-tip .rt-prov { font-size: 0.75rem; color: var(--text-muted); }
         .region-tip .rt-owner { font-size: 0.8rem; color: var(--text-secondary); }
         .region-tip .rt-cap { font-size: 0.7rem; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.08em; }
 
@@ -90,6 +91,7 @@
         .toggles label { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; color: var(--text-secondary); cursor: pointer; }
 
         #selected .sel-name { font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--title-cream); }
+        #selected .sel-prov { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.1rem; }
         #selected .sel-owner { font-size: 0.9rem; color: var(--gold-light); margin-top: 0.15rem; }
         #selected .sel-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.4rem; }
         #selected a.sel-link {
@@ -176,7 +178,7 @@
 
             <div class="side-section">
                 <div class="side-title">Factions</div>
-                <input type="search" class="side-search" id="faction-search" placeholder="Find a faction or region..." autocomplete="off">
+                <input type="search" class="side-search" id="faction-search" placeholder="Find a faction, region or province..." autocomplete="off">
                 <div class="faction-list" id="faction-list" style="margin-top:0.6rem"></div>
             </div>
 
@@ -301,6 +303,7 @@
     function tooltipHtml(r) {
         const f = MAP_FACTION_BY_KEY[r.owner];
         return `<div class="rt-name">${escapeHtml(r.name)}</div>`
+            + (r.province ? `<div class="rt-prov">${escapeHtml(r.province)} province</div>` : '')
             + `<div class="rt-owner">${escapeHtml(f ? f.name : 'Unowned')}</div>`
             + (r.isCapital ? '<div class="rt-cap">Faction capital</div>' : '');
     }
@@ -357,6 +360,7 @@
         const pageId = factionPageId[r.owner];
         panel.innerHTML = `
             <div class="sel-name">${escapeHtml(r.name)}</div>
+            ${r.province ? `<div class="sel-prov">${escapeHtml(r.province)} province</div>` : ''}
             <div class="sel-owner">${escapeHtml(f ? f.name : 'Unowned')}</div>
             <div class="sel-meta">
                 ${r.isCapital ? 'Faction capital · ' : ''}${f ? escapeHtml(f.regions) + ' regions at start' : 'no starting owner'}
@@ -418,7 +422,8 @@
         renderFactionList(search.value);
         const q = normalize(search.value);
         if (q.length >= 3) {
-            const hit = MAP_REGIONS.find(r => normalize(r.name).includes(q));
+            const hit = MAP_REGIONS.find(r => normalize(r.name).includes(q))
+                     || MAP_REGIONS.find(r => normalize(r.province).includes(q));
             if (hit) { select(hit.key); map.panTo(toLatLng(hit.centroid[0], hit.centroid[1])); }
         }
     });

@@ -61,9 +61,23 @@ Owners resolve through `start_pos_factions_tables` (`owning_faction` is a numeri
 colours come from `faction_banners_tables.primary_hex` where there is a row, otherwise from the
 dominant colour of the faction's own flag image, otherwise a generated fallback.
 
-The run self-checks: it compares every traced polygon's area against its mask pixel count, confirms
-each centroid falls inside its own region, and lists in `last_run_map.json` any start-position region
-that produced no shape at all (seven do, in the far south, because the lookup has no pixels for them).
+Two header fields in the TGA are wrong and are deliberately ignored, because getting either one
+wrong produces a map that still looks plausible:
+
+- **Row order.** The descriptor byte clears bit 5, which per spec means bottom-up. The rows are
+  actually top-down; honouring the byte puts Korea in the South China Sea.
+- **First entry index.** The header says 18, but a pixel's value indexes the stored colour map
+  directly. Adding the offset hands every region the *wrong name* while the shapes stay pixel-perfect
+  on the artwork, so nothing looks amiss until you read the labels.
+
+Both are pinned by self-checks that fail the run rather than writing bad data. `check_orientation`
+asserts two anchor regions at opposite corners of the map (Liaodong north, Yongchang south) came out
+in the right halves. `check_province_adjacency` is the stronger one: a province is a contiguous block
+of regions, so every region in a multi-region province must border one of its own province-mates.
+The correct mapping scores 99%; the offset-by-18 mapping scores 22%. The run also compares each
+traced polygon's area against its mask pixel count, confirms every centroid falls inside its own
+region, and lists in `last_run_map.json` any start-position region that produced no shape at all
+(none currently do).
 
 `family_tree/family_extractor.py` is separate and hand-fed (`starter.xlsx` + lua); it is not part of the sync.
 

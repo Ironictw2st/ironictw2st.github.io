@@ -16,10 +16,14 @@ The mod ships two images of identical size (3840x3024) that line up pixel for pi
   three_kingdoms_china_map.png   the artwork players see
   3k_main_lookup.tga             which region each pixel belongs to
 
-The lookup is an uncompressed COLOUR-MAPPED TGA: a 336-entry 32-bit BGRA palette whose first
-index is 18, and one 16-bit palette index per pixel. Palette colour -> region key comes from
-regions_tables ("unnamed colour group_1", a 24-bit hex). 318 of the 336 entries resolve to a
-region; the rest are sea, passes and impassable terrain.
+The lookup is an uncompressed COLOUR-MAPPED TGA: a 336-entry 32-bit BGRA palette and one
+16-bit palette index per pixel. Palette colour -> region key comes from regions_tables
+("unnamed colour group_1", a 24-bit hex). 318 of the 336 entries resolve to a region; the
+rest are sea, passes and impassable terrain.
+
+Two header fields are wrong and are ignored on purpose - see load_lookup() for the evidence.
+Both failure modes leave a map that looks fine at a glance, so check_orientation() and
+check_province_adjacency() assert against them on every run.
 
 Region outlines are then traced off the index array: connected components via run-length
 union-find, a crack-following walk around each component (vertices land on pixel corners,
@@ -126,16 +130,95 @@ def load_lookup(path):
         cmap = f.read(cmap_len * 4)
         data = f.read(w * h * 2)
 
+    # A pixel's value indexes the stored colour map DIRECTLY. Strictly, TGA's "first entry
+    # index" (18 here) means entry i stands for palette index cmap_first + i, but CA's
+    # exporter writes the field while still storing the array from 0. Adding the offset
+    # renames every region: it scores 22% on the province-adjacency check below, against
+    # 99% for no offset. Trust the pixels, not the header.
     palette = {}
     for i in range(cmap_len):
         b, g, r, _a = cmap[i * 4:i * 4 + 4]
-        palette[cmap_first + i] = f"{r:02X}{g:02X}{b:02X}"
+        palette[i] = f"{r:02X}{g:02X}{b:02X}"
 
     idx = np.frombuffer(data, dtype="<u2").reshape(h, w)
-    # TGA bit 5 of the descriptor set means the first row is the TOP row.
-    if not (desc & 0x20):
-        idx = idx[::-1]
+    # Rows are stored TOP first, so no flip. The TGA spec says descriptor bit 5 clear means
+    # the origin is bottom-left, and this file clears it (desc = 0x10) - but the pixels say
+    # otherwise: overlaid on three_kingdoms_china_map.png, the unflipped mask sits exactly on
+    # the coastline, and flipping it puts Korea in the South China Sea. CA's exporter simply
+    # does not fill the byte in. check_orientation() below asserts this on every run so the
+    # decision cannot rot silently.
     return np.ascontiguousarray(idx), palette
+
+
+# North/south anchors used to prove the decode came out the right way up. Both are corners
+# of the map no edit is going to move, and a vertical flip swaps them immediately.
+ORIENTATION_ANCHORS = [
+    ("3k_dlc06_liaodong_capital", "north"),   # Xiangping, top right, beyond the Bohai
+    ("3k_dlc06_yongchang_capital", "south"),  # Buwei, bottom left, deep in Nanman country
+]
+
+
+def check_province_adjacency(idx, pi_key, province_of):
+    """
+    The real test that the palette decoded into the right region keys.
+
+    A province is a contiguous block of neighbouring regions, so every region in a
+    multi-region province must share a border with at least one of its own province-mates.
+    That is true of the correct mapping and spectacularly false of a wrong one - it caught
+    a palette offset that left the artwork looking perfectly fine, because a shifted
+    palette still covers the same pixels, it just hands each shape the wrong name.
+    """
+    pairs = set()
+    for a, b in ((idx[:, :-1], idx[:, 1:]), (idx[:-1, :], idx[1:, :])):
+        d = a != b
+        pairs |= set(zip(a[d].tolist(), b[d].tolist()))
+    touch = set()
+    for u, v in pairs:
+        ku, kv = pi_key.get(u), pi_key.get(v)
+        if ku and kv and ku != kv:
+            touch.add((ku, kv))
+            touch.add((kv, ku))
+
+    mates = defaultdict(list)
+    for key in pi_key.values():
+        if key in province_of:
+            mates[province_of[key]].append(key)
+    checked, isolated = 0, []
+    for _p, keys in mates.items():
+        if len(keys) < 2:
+            continue
+        for k in keys:
+            checked += 1
+            if not any((k, o) in touch for o in keys if o != k):
+                isolated.append(k)
+    if not checked:
+        print("  NOTE: no province data, skipped the adjacency check")
+        return
+    frac = 1 - len(isolated) / checked
+    if frac < 0.90:
+        raise SystemExit(
+            f"ERROR: only {frac:.0%} of regions border a region of their own province "
+            f"({len(isolated)} of {checked} are isolated). The palette almost certainly "
+            f"decoded into the wrong region keys - check load_lookup() before trusting "
+            f"anything this script writes.")
+    print(f"  province adjacency OK: {frac:.0%} of {checked} regions border a province-mate"
+          + (f" ({len(isolated)} do not: {', '.join(sorted(isolated)[:4])})" if isolated else ""))
+
+
+def check_orientation(masks, height):
+    """Fail loudly if the lookup decoded upside down."""
+    for key, expected in ORIENTATION_ANCHORS:
+        ys = masks.get(key)
+        if ys is None:
+            print(f"  NOTE: orientation anchor {key} is not on this map, skipped")
+            continue
+        got = "north" if ys < height / 2 else "south"
+        if got != expected:
+            raise SystemExit(
+                f"ERROR: the region lookup decoded upside down - {key} came out in the {got} "
+                f"half of the map but belongs in the {expected}. Check the row order in "
+                f"load_lookup() before trusting anything this script writes.")
+    print(f"  orientation anchors OK ({', '.join(k for k, _ in ORIENTATION_ANCHORS)})")
 
 
 # ---------------------------------------------------------------------------
@@ -396,6 +479,24 @@ def main():
                    if k.startswith("regions_onscreen_")}
     print(f"  region names: {len(region_name)}")
 
+    # Which province a region sits in. Used for the tooltip, and for the adjacency check
+    # that proves the palette decoded into the right region keys.
+    province_of = {}
+    for f in glob.glob(os.path.join(MOD_ROOT, "**", "db",
+                                    "region_to_province_junctions_tables", "*.tsv"), recursive=True):
+        if os.sep + "Output" + os.sep in f:
+            continue
+        hp, rp = read_tsv(f)
+        c_prov, c_reg = col(hp, "province"), col(hp, "region")
+        for r in rp:
+            if len(r) > max(c_prov, c_reg):
+                province_of[r[c_reg].strip()] = r[c_prov].strip()
+    ploc = read_loc(os.path.join(MOD_ROOT, "1_Faction", "text", "db", "provinces.loc.tsv"))
+    province_name = {k[len("provinces_onscreen_"):]: v for k, v in ploc.items()
+                     if k.startswith("provinces_onscreen_")}
+    print(f"  provinces: {len(set(province_of.values()))} over "
+          f"{len(province_of)} regions, {len(province_name)} named")
+
     faction_name = {}
     fpath = os.path.join(SITE_DATA, "factions.js")
     if os.path.exists(fpath):
@@ -438,6 +539,7 @@ def main():
               + ", ".join(no_shape[:8]) + ("..." if len(no_shape) > 8 else ""))
 
     regions, skipped_parts, area_warnings = [], 0, []
+    anchor_y = {}                # region key -> mean row, for check_orientation()
     for n, (pi, key) in enumerate(sorted(playable.items(), key=lambda kv: kv[1]), 1):
         mask_full = idx == pi
         ys, xs = np.nonzero(mask_full)
@@ -478,6 +580,7 @@ def main():
         regions.append({
             "key": key,
             "name": region_name.get(key, key.replace("_", " ").title()),
+            "province": province_name.get(province_of.get(key, ""), ""),
             "owner": owner,
             "ownerName": faction_name.get(owner, ""),
             "isCapital": key in capital_of,
@@ -487,9 +590,12 @@ def main():
             "pixels": total_px,
             "parts": parts,
         })
+        anchor_y[key] = float(ys.mean())
         if n % 60 == 0:
             print(f"    {n}/{len(playable)}...")
     print(f"  {len(regions)} regions traced, {skipped_parts} small parts dropped")
+    check_orientation(anchor_y, h)
+    check_province_adjacency(idx, playable, province_of)
     if area_warnings:
         print(f"  WARNING: {len(area_warnings)} outlines differ from their pixel count by >25%")
         for k, px, ta in area_warnings[:5]:
