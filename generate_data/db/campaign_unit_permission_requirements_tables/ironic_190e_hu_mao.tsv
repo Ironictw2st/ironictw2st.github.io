@@ -1,0 +1,4 @@
+permission	requirement	unit	is_restriction
+#campaign_unit_permission_requirements_tables;0;db/campaign_unit_permission_requirements_tables/ironic_190e_hu_mao			
+ironic_hu_mao_faction	level_3	rew_iro_hu_mao_metal_prefects_watch	false
+ironic_hu_mao_faction	level_6	rew_iro_hu_mao_water_vigil_repeaters	false

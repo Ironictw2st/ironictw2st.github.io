@@ -1,0 +1,3 @@
+permission	requirement	unit	is_restriction
+#campaign_unit_permission_requirements_tables;0;db/campaign_unit_permission_requirements_tables/huangzu			
+3k_main_unit_permission_faction_liu_biao	level_3	ep_unit_water_archers_of_jing	false

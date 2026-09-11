@@ -79,6 +79,39 @@ traced polygon's area against its mask pixel count, confirms every centroid fall
 region, and lists in `last_run_map.json` any start-position region that produced no shape at all
 (none currently do).
 
+`build_recruitment.py` answers "what can I recruit here" for the Map page. It runs off the
+synced tables, so run it after `sync_from_mod.py`.
+
+```
+python build_recruitment.py             # -> total_war/data/map_recruitment.js
+python build_recruitment.py --dry-run   # report the joins without writing
+```
+
+Nothing in the game data says "region -> unit". It is assembled from six joins:
+
+```
+start_pos_region_slot_templates   region     -> slot template   (per campaign)
+slot_template_to_building_superchain_junctions -> superchain
+building_chains                   superchain -> chain
+building_levels                   chain      -> building level
+campaign_unit_requirements        building1  -> requirement
+campaign_unit_permission_requirements        -> unit
+```
+
+**The join alone is far too generous, and the failure is silent.** Most regions carry the
+generic `3k_districts` slot template, which reaches every district chain in the game -
+including faction-unique ones like Ma Teng's `3k_district_military_security_ma_teng`. Taken at
+face value that puts Qiang units in Korea. So every grant also carries who is allowed to build
+the thing behind it, from `building_chain_availability_sets` -> `building_chain_availabilities`
+(faction / sub_culture). A grant open to a whole subculture is ordinary regional recruitment; one
+pinned to a single faction is that faction's roster and is labelled `<Faction> only`. Scopes are
+resolved against the 108 factions that actually hold ground at turn one, not all 348 faction
+records, so "most factions" means something.
+
+`is_restriction` rows in `campaign_unit_permission_requirements` are exclusions, not grants, and
+are skipped. Tech, character-rank and agent gates ride along as notes on each grant rather than
+being filtered on.
+
 `family_tree/family_extractor.py` is separate and hand-fed (`starter.xlsx` + lua); it is not part of the sync.
 
 ## Layout
@@ -112,6 +145,9 @@ region, and lists in `last_run_map.json` any start-position region that produced
   outlines are flat `[x0,y0,x1,y1,...]` rings in source-image pixels, grouped `parts -> rings` so the
   first ring of a part is its outline and the rest are its enclaves, which is the shape `L.polygon`
   wants. The Map page is the only consumer.
+- `../total_war/data/map_recruitment.js` — the Map page's recruitment filter, written by
+  `build_recruitment.py`. `RECRUIT_BY_REGION[key] = [[unitIndex, scopeIndex, gate?], ...]`;
+  `RECRUIT_SCOPES[i].factions === null` means anyone holding the region can raise it.
 - `last_run_*.json`, `last_audit.json` — counts from the last run, used by the audit to show deltas.
 
 ## Campaigns

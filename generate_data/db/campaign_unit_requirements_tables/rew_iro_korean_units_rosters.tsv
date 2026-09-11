@@ -1,0 +1,27 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/rew_iro_korean_units_rosters													
+rew_iro_goguryeo_fire_gaema_lancers_requirement										false	2		
+rew_iro_goguryeo_fire_gaema_noble_cataphracts_requirement										false	6		
+rew_iro_goguryeo_fire_gaema_noble_lancers_requirement										false	4		
+rew_iro_goguryeo_metal_kings_guard_requirement										false	6		
+rew_iro_goguryeo_wood_gaema_tribesmen_requirement										false	0		
+rew_iro_korean_earth_hwandudaedo_guards_requirement								ironic_korea_earth_3_2		false	0		
+rew_iro_korean_earth_scout_cavalry_requirement								ironic_korea_earth_0_4		false	0		
+rew_iro_korean_fire_noble_pillager_cavalry_requirement								ironic_korea_earth_3_3		false	0		
+rew_iro_korean_fire_pillager_cavalry_requirement								ironic_korea_earth_1_4		false	0		
+rew_iro_korean_metal_axe_militia_requirement								ironic_korea_earth_0_2		false	0		
+rew_iro_korean_metal_axe_warriors_requirement								ironic_korea_earth_1_0		false	0		
+rew_iro_korean_metal_elite_axe_warriors_requirement								ironic_korea_earth_1_4		false	0		
+rew_iro_korean_metal_peasant_warriors_requirement										false	0		
+rew_iro_korean_water_hunters_requirement										false	0		
+rew_iro_korean_water_imported_crossbows_requirement								ironic_korea_earth_1_3		false	0		
+rew_iro_korean_water_mounted_bowmen_requirement								ironic_korea_earth_1_1		false	0		
+rew_iro_korean_water_noble_archers_requirement								ironic_korea_earth_3_1		false	0		
+rew_iro_korean_water_trained_bowmen_requirement								ironic_korea_earth_0_3		false	0		
+rew_iro_korean_water_veteran_bowmen_requirement								ironic_korea_earth_1_0		false	0		
+rew_iro_korean_wood_elite_longspear_warriors_requirement								ironic_korea_earth_1_3		false	0		
+rew_iro_korean_wood_longspear_militia_requirement								ironic_korea_earth_0_2		false	0		
+rew_iro_korean_wood_longspear_warriors_requirement								ironic_korea_earth_1_0		false	0		
+rew_iro_korean_wood_peasant_spearmen_requirement										false	0		
+rew_iro_korean_wood_spear_guards_requirement								ironic_korea_earth_1_3		false	0		
+rew_iro_korean_wood_veteran_spear_guards_requirement								ironic_korea_earth_3_0		false	0		

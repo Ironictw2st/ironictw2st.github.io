@@ -1,0 +1,5 @@
+building_chain	id
+#building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/hansidebuildings	
+ironic_supply_chain	ironic_han_faction
+ironic_recruitment_hub	ironic_han_faction
+ironic_trading_hubs	ironic_han_faction

@@ -1,0 +1,24 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order
+#building_chains_tables;6;db/building_chains_tables/ironic_nomad_buildings							
+ironic_nomad_camp			money	false	ironic_nomad_camp		0
+ironic_nomad_yurt_maker			money	false	3k_district_artisan_labourers		0
+ironic_nomad_cart_wheeler			money	false	3k_district_artisan_private_workshops		1
+ironic_nomad_spinner			money	false	3k_district_artisan_state_workshops		2
+ironic_nomad_goat_herders			money	false	3k_district_residential_granaries		0
+ironic_nomad_shepherds			money	false	3k_district_residential_housing		1
+ironic_nomad_campfires			money	false	3k_district_residential_markets		2
+ironic_nomad_wine_trader			money	false	3k_district_market_inn		0
+ironic_nomad_bartering			money	false	3k_district_market_land_city		1
+ironic_nomad_storyteller			money	false	3k_district_market_schools		2
+ironic_nomad_warriors			military	false	3k_district_military_conscription		0
+ironic_nomad_blacksmith			military	false	3k_district_military_equipment		1
+ironic_nomad_carpenter			military	false	3k_district_military_security		2
+ironic_nomad_noblemen			money	false	3k_district_government_law		0
+ironic_nomad_treasurer			money	false	3k_district_government_tribute_hall		1
+ironic_nomad_shrine			money	false	3k_district_government_temples		2
+ironic_nomad_cavalry_grounds			military	false	ironic_nomad_side		0
+ironic_nomad_herding_pastures			money	false	ironic_nomad_side		1
+ironic_nomad_raiding_hub			military	false	ironic_nomad_side		2
+ironic_korea_hunters_den			money	false	ironic_korea_side_buildings		0
+ironic_korea_roads			money	false	ironic_korea_side_buildings		1
+ironic_korea_watch_tower			military	false	ironic_korea_side_buildings		2

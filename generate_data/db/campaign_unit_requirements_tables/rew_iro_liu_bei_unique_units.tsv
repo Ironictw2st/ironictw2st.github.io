@@ -1,0 +1,4 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/rew_iro_liu_bei_unique_units													
+rew_iro_liu_bei_white_feathered_riders_requirement										false	5		
+rew_iro_liu_bei_crossbow_militia_requirement										false	0		

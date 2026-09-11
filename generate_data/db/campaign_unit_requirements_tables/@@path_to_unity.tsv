@@ -1,0 +1,12 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/@@path_to_unity													
+ironic_ptu_unitreq_gongsun_zan_s2_3k_main_unit_water_white_horse_raiders										false	3		ironic_ceo_ptu_gongsun_zan_s2
+ironic_ptu_unitreq_gongsun_zan_s5_3k_dlc04_unit_fire_destroyer_of_traitors										false	6		ironic_ceo_ptu_gongsun_zan_s5
+ironic_ptu_unitreq_kong_rong_s4_rew_iro_regional_qing_earth_bookish_cavaliers										false	6		ironic_ceo_ptu_kong_rong_s4
+ironic_ptu_unitreq_tao_qian_s1_3k_dlc04_unit_water_territorial_archer										false	1		ironic_ceo_ptu_tao_qian_s1
+ironic_ptu_unitreq_tao_qian_s1_3k_dlc04_unit_wood_territorial_spearmen										false	1		ironic_ceo_ptu_tao_qian_s1
+ironic_ptu_unitreq_tao_qian_s3_ep_unit_metal_xu_raiders										false	3		ironic_ceo_ptu_tao_qian_s3
+ironic_ptu_unitreq_liu_biao_s5_3k_main_unit_wood_imperial_defenders										false	6		ironic_ceo_ptu_liu_biao_s5
+ironic_ptu_unitreq_ma_teng_s2_3k_main_unit_fire_qiang_marauders										false	3		ironic_ceo_ptu_ma_teng_s2
+ironic_ptu_unitreq_ma_teng_s5_3k_main_unit_water_qiang_hunters										false	6		ironic_ceo_ptu_ma_teng_s5
+ironic_ptu_unitreq_sun_s3_3k_dlc05_unit_earth_handmaid_guard										false	3		ironic_ceo_ptu_sun_s3

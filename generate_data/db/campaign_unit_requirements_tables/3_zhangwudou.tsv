@@ -1,0 +1,16 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/3_zhangwudou													
+ironic_wudou_ji_infantry_wood_requirement										false	3	3k_general_wood	
+ironic_wudou_spear_guards_wood_requirement										false	3	3k_general_wood	
+ironic_wudou_sabre_infantry_metal_requirement										false	3	3k_general_metal	
+ironic_wudou_sabre_cavalry_earth_requirement										false	3	3k_general_earth	
+ironic_wudou_vanguards_fire_requirement										false	3	3k_general_fire	
+ironic_wudou_horse_archers_water_requirement										false	3	3k_general_water	
+ironic_wudou_archers_water_requirement										false	3	3k_general_water	
+ironic_wudou_ji_infantry_wood_requirement_all								3k_main_tech_wood_tier2_disaster_relief_systems		false	6		
+ironic_wudou_spear_guards_wood_requirement_all								3k_main_tech_wood_tier1_winnowing_machines		false	6		
+ironic_wudou_sabre_infantry_metal_requirement_all								3k_main_tech_metal_tier2_office_of_arts_and_crafts		false	6		
+ironic_wudou_sabre_cavalry_earth_requirement_all								3k_main_tech_earth_tier2_iron_and_salt_agencies		false	6		
+ironic_wudou_vanguards_fire_requirement_all								3k_main_tech_fire_tier2_retainer_armies		false	6		
+ironic_wudou_horse_archers_water_requirement_all								3k_main_tech_water_tier2_inns		false	6		
+ironic_wudou_archers_water_requirement_all								3k_main_tech_water_tier0_private_tutors		false	6		

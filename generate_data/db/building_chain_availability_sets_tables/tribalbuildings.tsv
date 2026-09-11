@@ -1,0 +1,10 @@
+building_chain	id
+#building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/tribalbuildings	
+ironic_qiang_building	tribal_buildings
+ironic_xiongnu_tribe	tribal_buildings
+ironic_xiliang_build	tribal_buildings
+ironic_yue_build	tribal_buildings
+ironic_xianbei_build	tribal_buildings
+ironic_wuhuan_build	tribal_buildings
+ironic_chu_build	tribal_buildings
+ironic_qi_build	tribal_buildings

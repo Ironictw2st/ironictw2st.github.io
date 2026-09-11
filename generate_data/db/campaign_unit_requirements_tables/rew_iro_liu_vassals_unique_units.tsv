@@ -1,0 +1,6 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/rew_iro_liu_vassals_unique_units													
+rew_iro_huang_zu_wood_jingzhou_ambushers										false	3		
+rew_iro_huang_zu_metal_skyrim_stealth_archers										false	6		
+rew_iro_cai_mao_metal_jingzhou_marines										false	3		
+rew_iro_cai_mao_metal_assault_marines										false	6		

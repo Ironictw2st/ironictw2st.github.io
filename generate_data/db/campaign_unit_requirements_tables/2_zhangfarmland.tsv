@@ -1,0 +1,6 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/2_zhangfarmland													
+ironic_farmland_band_metal_requirement										false	0		
+ironic_farmland_protectors_wood_requirement										false	0		
+ironic_farmland_hunters_water_requirement										false	0		
+ironic_farmland_warriors_metal_requirement										false	0		

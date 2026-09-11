@@ -116,6 +116,25 @@ TABLES = {
     "campaign_group_faction_effect_bundles_tables": FAC,
     "effect_bundles_tables": FAC,
     "effect_bundles_to_effects_junctions_tables": FAC,
+    # regional recruitment: region slot -> building -> unit requirement -> unit
+    "start_pos_region_slot_templates_tables": FAC,
+    "start_pos_factions_tables": FAC,
+    "start_pos_regions_tables": FAC,
+    "slot_templates_tables": FAC,
+    "slot_template_to_building_superchain_junctions_tables": FAC,
+    "building_superchains_tables": FAC,
+    "building_chains_tables": FAC,
+    "building_levels_tables": FAC,
+    "campaign_unit_requirements_tables": FAC,
+    "campaign_unit_permission_requirements_tables": FAC,
+    "campaign_unit_permissions_tables": FAC,
+    "campaign_unit_permission_groups_tables": FAC,
+    "campaign_unit_permission_group_to_permission_junctions_tables": FAC,
+    "main_units_tables": FAC,
+    "land_units_tables": FAC,
+    "building_chain_availability_sets_tables": FAC,
+    "building_chain_availabilities_tables": FAC,
+    "factions_tables": FAC,
 }
 
 # old snapshot folders superseded by the *_tables names above
@@ -133,6 +152,7 @@ VANILLA_LOC = [
     "frontend_characters__", "factions__", "faction_groups__", "cultures_subcultures__",
     "pooled_resources__", "pooled_resource_factors__", "effect_bundles__",
     "political_parties__", "campaign_groups__",
+    "land_units__", "unit_description_short_texts__",
 ]
 
 DRY = "--dry-run" in sys.argv

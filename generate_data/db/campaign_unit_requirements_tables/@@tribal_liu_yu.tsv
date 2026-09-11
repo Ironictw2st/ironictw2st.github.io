@@ -1,0 +1,24 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/@@tribal_liu_yu													
+3k_main_ceo_liu_yu_tribal_region_guangyuan_iron										false	3	3k_general_earth	3k_main_ceo_liu_yu_tribal_region_guangyuan_iron
+3k_main_ceo_liu_yu_tribal_region_liaoxi_capital										false	6	3k_general_metal	3k_main_ceo_liu_yu_tribal_region_liaoxi_capital
+3k_main_ceo_liu_yu_tribal_region_liaoxi_tool										false	3	3k_general_water	3k_main_ceo_liu_yu_tribal_region_liaoxi_tool
+3k_main_ceo_liu_yu_tribal_region_shuofang_captial										false	6	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_shuofang_captial
+3k_main_ceo_liu_yu_tribal_region_shuofang_horse_tamer										false	3		3k_main_ceo_liu_yu_tribal_region_shuofang_horse_tamer
+3k_main_ceo_liu_yu_tribal_region_xihe_capital										false	6	3k_general_water	3k_main_ceo_liu_yu_tribal_region_xihe_capital
+3k_main_ceo_liu_yu_tribal_region_xihe_fishing_port										false	3	3k_general_earth	3k_main_ceo_liu_yu_tribal_region_xihe_fishing_port
+3k_main_ceo_liu_yu_tribal_region_youbeiping_capital										false	6	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_youbeiping_capital
+3k_main_ceo_liu_yu_tribal_region_canluan										false	3	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_canluan
+3k_main_ceo_liu_yu_tribal_region_daijun_horse										false	3	3k_general_water	3k_main_ceo_liu_yu_tribal_region_daijun_horse
+3k_main_ceo_liu_yu_tribal_region_hanchang										false	6	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_hanchang
+3k_main_ceo_liu_yu_tribal_region_jincheng										false	3	3k_general_water	3k_main_ceo_liu_yu_tribal_region_jincheng
+3k_main_ceo_liu_yu_tribal_region_liaodong_xuantu										false	3	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_liaodong_xuantu
+3k_main_ceo_liu_yu_tribal_region_nanzheng										false	3	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_nanzheng
+3k_main_ceo_liu_yu_tribal_region_sanshui										false	6	3k_general_metal	3k_main_ceo_liu_yu_tribal_region_sanshui
+3k_main_ceo_liu_yu_tribal_region_shanggui										false	6	3k_general_earth	3k_main_ceo_liu_yu_tribal_region_shanggui
+3k_main_ceo_liu_yu_tribal_region_sheyan										false	6	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_sheyan
+3k_main_ceo_liu_yu_tribal_region_tianshui										false	3	3k_general_fire	3k_main_ceo_liu_yu_tribal_region_tianshui
+3k_main_ceo_liu_yu_tribal_region_wuyuan_capital										false	6	3k_general_metal	3k_main_ceo_liu_yu_tribal_region_wuyuan_capital
+3k_main_ceo_liu_yu_tribal_region_wuyuan_farm										false	3	3k_general_earth	3k_main_ceo_liu_yu_tribal_region_wuyuan_farm
+3k_main_ceo_liu_yu_tribal_region_xiabian										false	6	3k_general_earth	3k_main_ceo_liu_yu_tribal_region_xiabian
+3k_main_ceo_liu_yu_tribal_region_yinping										false	6	3k_general_water	3k_main_ceo_liu_yu_tribal_region_yinping

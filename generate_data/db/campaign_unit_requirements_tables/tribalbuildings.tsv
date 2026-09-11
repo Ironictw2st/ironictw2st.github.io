@@ -1,0 +1,16 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/tribalbuildings													
+ironic_xiongnu	ironic_xiongnu_tribe									false	0		
+ironic_qiang	ironic_qiang_building									false	0		
+ironic_qi	ironic_qi_build									false	0		
+ironic_chu	ironic_chu_build									false	0		
+ironic_xiliang	ironic_xiliang_build									false	0		
+ironic_xianbei	ironic_xianbei_build									false	0		
+ironic_yue	ironic_yue_build									false	0		
+ironic_wuhuan	ironic_wuhuan_build									false	0		
+ironic_qiang_building_sui_level_0	ironic_qiang_building_sui_level_0									false	0		
+ironic_qiang_building_sui_level_1	ironic_qiang_building_sui_level_1									false	0		
+ironic_qiang_building_sui_level_2	ironic_qiang_building_sui_level_2									false	0		
+ironic_qiang_building_jian_level_0	ironic_qiang_building_jian_level_0									false	0		
+ironic_qiang_building_jian_level_1	ironic_qiang_building_jian_level_1									false	0		
+ironic_qiang_building_jian_level_2	ironic_qiang_building_jian_level_2									false	0		

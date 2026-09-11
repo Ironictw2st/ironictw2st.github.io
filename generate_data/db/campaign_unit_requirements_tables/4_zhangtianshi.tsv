@@ -1,0 +1,11 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/4_zhangtianshi													
+ironic_tianshi_horse_archers_water_requirement								3k_main_tech_water_tier3_trading		false	6	3k_general_water	
+ironic_tianshi_ji_infantry_wood_requirement								3k_main_tech_wood_tier3_agricultural_garrisons		false	6	3k_general_metal	
+ironic_tianshi_swordguards_metal_requirement								3k_main_tech_metal_tier3_state_monopolies		false	6	3k_general_metal	
+ironic_tianshi_reclaimers_wood_requirement								3k_main_tech_wood_tier2_irrigation_systems		false	6	3k_general_wood	
+ironic_tianshi_vanguards_fire_requirement								3k_main_tech_fire_tier3_strategic_fortresses		false	6	3k_general_fire	
+ironic_tianshi_melee_cavalry_earth_requirement								3k_main_tech_earth_tier3_six_bureaus_of_bureaucracy		false	6	3k_general_earth	
+ironic_tianshi_archers_water_requirement								3k_main_tech_water_tier3_treatise_on_human_beings		false	6	3k_general_water	
+ironic_trebuchet_water_requirement										false	3	3k_general_water	
+ironic_trebuchet_bastion_water_requirement										false	3	3k_general_water	

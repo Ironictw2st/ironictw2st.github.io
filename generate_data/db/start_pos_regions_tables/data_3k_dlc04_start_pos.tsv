@@ -1,0 +1,242 @@
+region	campaign	id	owning_faction	faction_capital	base_population	base_max_population	population	base_gdp	town_wealth	rebel_faction	cultural_originator	settler_rebellions_enabled	capture_prestige	alternative_rebel_faction	development_points	base_fertility	slot_cap	initial_faction_support_value
+#start_pos_regions_tables;10;db/start_pos_regions_tables/data_3k_dlc04_start_pos																		
+3k_dlc06_gu_pass	3k_dlc04_start_pos	326724602	1878474362	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_hangu_pass	3k_dlc04_start_pos	2030163189	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_hedong_resource_2	3k_dlc04_start_pos	679060998		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_hulao_pass	3k_dlc04_start_pos	94238277	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_jiameng_pass	3k_dlc04_start_pos	856473342		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_jianning_resource_3	3k_dlc04_start_pos	1677810304		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_jiaozhi_resource_3	3k_dlc04_start_pos	2043406961		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_jiuzhen_capital	3k_dlc04_start_pos	156886765		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_dlc06_jiuzhen_resource_1	3k_dlc04_start_pos	1484524359		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_kui_pass	3k_dlc04_start_pos	1590764556	1015943841	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_liaodong_capital	3k_dlc04_start_pos	649518828		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_dlc06_liaodong_resource_1	3k_dlc04_start_pos	876568592		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_qi_pass	3k_dlc04_start_pos	1460376861	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_san_pass	3k_dlc04_start_pos	1461365070	1474247473	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_shangdang_resource_2	3k_dlc04_start_pos	1968622456	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_tong_pass	3k_dlc04_start_pos	1109160626		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_wu_pass	3k_dlc04_start_pos	1863113594		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	1	100
+3k_dlc06_xiapi_capital	3k_dlc04_start_pos	94295435	1639628547	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_dlc06_xiapi_resource_1	3k_dlc04_start_pos	92944869	1639628547	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_yongchang_capital	3k_dlc04_start_pos	742150111		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_dlc06_yongchang_resource_1	3k_dlc04_start_pos	944046811		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_yunnan_capital	3k_dlc04_start_pos	2051723768		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_dlc06_yunnan_resource_1	3k_dlc04_start_pos	1949527150		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_dlc06_yunnan_resource_2	3k_dlc04_start_pos	1876545159		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_anding_capital	3k_dlc04_start_pos	1751845617	1474247473	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_anding_resource_1	3k_dlc04_start_pos	1945600067	1145628661	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_anding_resource_2	3k_dlc04_start_pos	799211434	1474247473	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_anding_resource_3	3k_dlc04_start_pos	1259193751	1422620432	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_anping_capital	3k_dlc04_start_pos	277192798	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_anping_resource_1	3k_dlc04_start_pos	623233854	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_badong_capital	3k_dlc04_start_pos	744115760	1015943841	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_badong_resource_1	3k_dlc04_start_pos	131776055	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_badong_resource_2	3k_dlc04_start_pos	1148068992	1015943841	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_bajun_capital	3k_dlc04_start_pos	2121885976	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_bajun_resource_1	3k_dlc04_start_pos	478322202	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_baxi_capital	3k_dlc04_start_pos	49815898	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_baxi_resource_1	3k_dlc04_start_pos	570852720	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_baxi_resource_2	3k_dlc04_start_pos	1904439283	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_beihai_capital	3k_dlc04_start_pos	2037337802	143912493	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_beihai_resource_1	3k_dlc04_start_pos	14986873	143912493	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_bohai_capital	3k_dlc04_start_pos	394275747	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_bohai_resource_1	3k_dlc04_start_pos	697656142	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_cangwu_capital	3k_dlc04_start_pos	1939935681		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_cangwu_resource_1	3k_dlc04_start_pos	1639897514		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_cangwu_resource_2	3k_dlc04_start_pos	1862121838		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_cangwu_resource_3	3k_dlc04_start_pos	41349428		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_changan_capital	3k_dlc04_start_pos	334441981		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_changan_resource_1	3k_dlc04_start_pos	507146896		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_changsha_capital	3k_dlc04_start_pos	1218908118		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_changsha_resource_1	3k_dlc04_start_pos	890328116		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_changsha_resource_2	3k_dlc04_start_pos	1013382608		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_changsha_resource_3	3k_dlc04_start_pos	530618797		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_chengdu_capital	3k_dlc04_start_pos	214729713	309538171	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_chengdu_resource_1	3k_dlc04_start_pos	283216602	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_chengdu_resource_2	3k_dlc04_start_pos	1382671794	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_chengdu_resource_3	3k_dlc04_start_pos	719566858	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_chenjun_capital	3k_dlc04_start_pos	466752025	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_chenjun_resource_1	3k_dlc04_start_pos	1177185970	1195782409	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_chenjun_resource_2	3k_dlc04_start_pos	537866286	1195782409	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_chenjun_resource_3	3k_dlc04_start_pos	364866108	1195782409	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_daijun_capital	3k_dlc04_start_pos	2055138193	70780163	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_daijun_resource_1	3k_dlc04_start_pos	1175947299	70780163	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_donghai_capital	3k_dlc04_start_pos	1170235393	1639628547	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_donghai_resource_1	3k_dlc04_start_pos	727601925	795181066	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_dongjun_capital	3k_dlc04_start_pos	1229239459	1639628547	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_dongjun_resource_1	3k_dlc04_start_pos	980321663	1639628547	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_donglai_capital	3k_dlc04_start_pos	1351800332	143912493	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_donglai_resource_1	3k_dlc04_start_pos	1298078975	143912493	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_dongou_capital	3k_dlc04_start_pos	948193858	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_dongou_resource_1	3k_dlc04_start_pos	711624245	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_fuling_capital	3k_dlc04_start_pos	1554846221		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_fuling_resource_1	3k_dlc04_start_pos	1832262435		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_gaoliang_capital	3k_dlc04_start_pos	1042218363		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_gaoliang_resource_1	3k_dlc04_start_pos	1728040933		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_guangling_capital	3k_dlc04_start_pos	66832553	795181066	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_guangling_resource_1	3k_dlc04_start_pos	1788328391	795181066	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_guangling_resource_2	3k_dlc04_start_pos	2084499828	795181066	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_hanzhong_capital	3k_dlc04_start_pos	782107262	1798177023	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_hanzhong_resource_1	3k_dlc04_start_pos	1720026431		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_hedong_capital	3k_dlc04_start_pos	174702095		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_hedong_resource_1	3k_dlc04_start_pos	1425045610		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_henei_capital	3k_dlc04_start_pos	1392703104	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_henei_resource_1	3k_dlc04_start_pos	1755567076	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_hepu_capital	3k_dlc04_start_pos	1187127424		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_hepu_resource_1	3k_dlc04_start_pos	502080729		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_hepu_resource_2	3k_dlc04_start_pos	65448725		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jianan_capital	3k_dlc04_start_pos	597803789	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_jianan_resource_1	3k_dlc04_start_pos	1636896918	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jianan_resource_2	3k_dlc04_start_pos	2033838276	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jiangxia_capital	3k_dlc04_start_pos	360752080	898742897	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_jiangxia_resource_1	3k_dlc04_start_pos	189673420	898742897	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jiangyang_capital	3k_dlc04_start_pos	2090299554	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_jiangyang_resource_1	3k_dlc04_start_pos	1272377298	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jiangyang_resource_2	3k_dlc04_start_pos	1876647390		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jiangyang_resource_3	3k_dlc04_start_pos	728457679		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jianning_capital	3k_dlc04_start_pos	1700949585		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_jianning_resource_1	3k_dlc04_start_pos	84303562		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jianning_resource_2	3k_dlc04_start_pos	845205526		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jianye_capital	3k_dlc04_start_pos	649551499	2065267611	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_jianye_resource_1	3k_dlc04_start_pos	469031280	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jianye_resource_2	3k_dlc04_start_pos	1330252494	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jiaozhi_capital	3k_dlc04_start_pos	669955321		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_jiaozhi_resource_1	3k_dlc04_start_pos	1288865631		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jiaozhi_resource_2	3k_dlc04_start_pos	2075728914		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jincheng_capital	3k_dlc04_start_pos	2109845403	1422620432	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_jincheng_resource_1	3k_dlc04_start_pos	1525541870	1422620432	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jincheng_resource_2	3k_dlc04_start_pos	1306736490	1422620432	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_jingzhou_capital	3k_dlc04_start_pos	1165323473	1015943841	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_jingzhou_resource_1	3k_dlc04_start_pos	1222570799	2135626232	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_kuaiji_capital	3k_dlc04_start_pos	2122056814	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_kuaiji_resource_1	3k_dlc04_start_pos	393121257	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_kuaiji_resource_2	3k_dlc04_start_pos	2015768632	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_langye_capital	3k_dlc04_start_pos	2062063060	143912493	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_langye_resource_1	3k_dlc04_start_pos	916845497	143912493	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_langye_resource_2	3k_dlc04_start_pos	1037748008	143912493	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_lingling_capital	3k_dlc04_start_pos	1673374514		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_lingling_resource_1	3k_dlc04_start_pos	1914307868		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_lingling_resource_2	3k_dlc04_start_pos	198118077		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_lujiang_capital	3k_dlc04_start_pos	340601560	127424945	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_lujiang_resource_1	3k_dlc04_start_pos	1434296759	898742897	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_lujiang_resource_2	3k_dlc04_start_pos	47809743	127424945	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_luling_capital	3k_dlc04_start_pos	1151793848		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_luling_resource_1	3k_dlc04_start_pos	1527500664		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_luoyang_capital	3k_dlc04_start_pos	1847053406	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_luoyang_resource_1	3k_dlc04_start_pos	1147823446	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_nanhai_capital	3k_dlc04_start_pos	1517658793		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_nanhai_resource_1	3k_dlc04_start_pos	179379614		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_nanhai_resource_2	3k_dlc04_start_pos	1914169648		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_nanyang_capital	3k_dlc04_start_pos	340857083	2135626232	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_nanyang_resource_1	3k_dlc04_start_pos	1264240738	2135626232	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_penchang_capital	3k_dlc04_start_pos	1557450040	1195782409	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_penchang_resource_1	3k_dlc04_start_pos	51718978	1639628547	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_pingyuan_capital	3k_dlc04_start_pos	1257802279	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_pingyuan_resource_1	3k_dlc04_start_pos	202448775	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_poyang_capital	3k_dlc04_start_pos	187509942	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_poyang_resource_1	3k_dlc04_start_pos	1927963596	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_poyang_resource_2	3k_dlc04_start_pos	1466975765	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_poyang_resource_3	3k_dlc04_start_pos	237051671	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_runan_capital	3k_dlc04_start_pos	10903251		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_runan_resource_1	3k_dlc04_start_pos	1424375998	1195782409	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_shangdang_capital	3k_dlc04_start_pos	794961460	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_shangdang_resource_1	3k_dlc04_start_pos	1871787529	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_shangyong_capital	3k_dlc04_start_pos	2098235366	1798177023	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_shangyong_resource_1	3k_dlc04_start_pos	779957318	1798177023	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_shangyong_resource_2	3k_dlc04_start_pos	2028200064	309538171	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_shoufang_capital	3k_dlc04_start_pos	815113686	1145628661	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_shoufang_resource_1	3k_dlc04_start_pos	807363653	1145628661	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_shoufang_resource_2	3k_dlc04_start_pos	521191383	1991689332	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_shoufang_resource_3	3k_dlc04_start_pos	643971652	1145628661	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_taishan_capital	3k_dlc04_start_pos	2007944437	1639628547	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_taishan_resource_1	3k_dlc04_start_pos	121645348	1501032878	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_taiyuan_capital	3k_dlc04_start_pos	592705891	1878474362	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_taiyuan_resource_1	3k_dlc04_start_pos	1808776488	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_taiyuan_resource_2	3k_dlc04_start_pos	399243777	1878474362	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_tongan_capital	3k_dlc04_start_pos	420461049	1796765826	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	8	100
+3k_main_tongan_resource_1	3k_dlc04_start_pos	596506285	1796765826	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_weijun_capital	3k_dlc04_start_pos	1177211861	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_weijun_resource_1	3k_dlc04_start_pos	1226134508	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_wudu_capital	3k_dlc04_start_pos	690367282	1474247473	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_wudu_resource_1	3k_dlc04_start_pos	2138943351	1474247473	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_wudu_resource_2	3k_dlc04_start_pos	1697801645	1474247473	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_wuling_capital	3k_dlc04_start_pos	342782100		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_wuling_resource_1	3k_dlc04_start_pos	2117212649		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_wuling_resource_2	3k_dlc04_start_pos	285397167		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_wuwei_capital	3k_dlc04_start_pos	593398144	706700616	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_wuwei_resource_1	3k_dlc04_start_pos	639367688	706700616	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_wuwei_resource_2	3k_dlc04_start_pos	723384058	706700616	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_xiangyang_capital	3k_dlc04_start_pos	284506570	1015943841	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_xiangyang_resource_1	3k_dlc04_start_pos	1230649181	1015943841	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_xihe_capital	3k_dlc04_start_pos	1490210275	1145628661	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_xihe_resource_1	3k_dlc04_start_pos	359330113	1145628661	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_xindu_capital	3k_dlc04_start_pos	1752932138	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_xindu_resource_1	3k_dlc04_start_pos	1821360615	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_xindu_resource_2	3k_dlc04_start_pos	1399644031	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_yangzhou_capital	3k_dlc04_start_pos	613432323	795181066	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_yangzhou_resource_1	3k_dlc04_start_pos	2046830889	795181066	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yangzhou_resource_2	3k_dlc04_start_pos	1195769233	127424945	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yangzhou_resource_3	3k_dlc04_start_pos	1672057382	89714957	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yanmen_capital	3k_dlc04_start_pos	176476711	1878474362	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_yanmen_resource_1	3k_dlc04_start_pos	913002680	1878474362	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yingchuan_capital	3k_dlc04_start_pos	1987969114	309483846	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_yingchuan_resource_1	3k_dlc04_start_pos	2122242895	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yizhou_island_capital	3k_dlc04_start_pos	50686379		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_yizhou_island_resource_1	3k_dlc04_start_pos	1486078020		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_youbeiping_capital	3k_dlc04_start_pos	1558831290	1969423128	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_youbeiping_resource_1	3k_dlc04_start_pos	208859652	1969423128	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_youzhou_capital	3k_dlc04_start_pos	1659399126	70780163	true	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_youzhou_resource_1	3k_dlc04_start_pos	516422042	1969423128	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yu_capital	3k_dlc04_start_pos	934873214		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_yu_resource_1	3k_dlc04_start_pos	929482080	1969423128	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yulin_capital	3k_dlc04_start_pos	1568799255		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_yulin_resource_1	3k_dlc04_start_pos	1026043556		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_yulin_resource_2	3k_dlc04_start_pos	261242100		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yuzhang_capital	3k_dlc04_start_pos	707481498	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_yuzhang_resource_1	3k_dlc04_start_pos	446375749	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_yuzhang_resource_2	3k_dlc04_start_pos	1141740774	2065267611	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_zangke_capital	3k_dlc04_start_pos	1504555512		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_zangke_resource_1	3k_dlc04_start_pos	1769961443		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+3k_main_zangke_resource_2	3k_dlc04_start_pos	715747613		false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	3	100
+3k_main_zhongshan_capital	3k_dlc04_start_pos	1201002578	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	7	100
+3k_main_zhongshan_resource_1	3k_dlc04_start_pos	1593959430	309483846	false	100000	500000	100000	0	0	3k_dlc04_faction_rebels	3k_main_chinese	false	0	3k_dlc04_faction_rebels	5	0	2	100
+ironic_region_baek_capital	3k_dlc04_start_pos	548030432		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	10	100
+ironic_region_baek_resource_1	3k_dlc04_start_pos	990867705		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_baek_resource_2	3k_dlc04_start_pos	27428169		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_baek_resource_3	3k_dlc04_start_pos	390773480		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_baekje_capital	3k_dlc04_start_pos	814843438		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	10	100
+ironic_region_baekje_resource_1	3k_dlc04_start_pos	966173034		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_baekje_resource_2	3k_dlc04_start_pos	1011077075		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_dongokjeo_capital	3k_dlc04_start_pos	1423966152		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_dongokjeo_resource_1	3k_dlc04_start_pos	1978625115		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	3	100
+ironic_region_dongokjeo_resource_2	3k_dlc04_start_pos	1299535725		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_dongye_capital	3k_dlc04_start_pos	1202302261		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	10	100
+ironic_region_dongye_resource_1	3k_dlc04_start_pos	902299090		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_gyeongju_capital	3k_dlc04_start_pos	996988725		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_gyeongju_resource_1	3k_dlc04_start_pos	1816554719		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_hanseong_capital	3k_dlc04_start_pos	1250842808		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_hanseong_resource_1	3k_dlc04_start_pos	771592555		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	3	100
+ironic_region_hanseong_resource_2	3k_dlc04_start_pos	573774634		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_hanyang_capital	3k_dlc04_start_pos	556948181		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_hanyang_resource_1	3k_dlc04_start_pos	20867128		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_hyunto_capital	3k_dlc04_start_pos	482735552	1421042178	true	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_hyunto_resource_1	3k_dlc04_start_pos	1646293893	1421042178	false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_hyunto_resource_2	3k_dlc04_start_pos	155128496	1421042178	false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_jinbeongun_capital	3k_dlc04_start_pos	1723254983		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	10	100
+ironic_region_jinbeongun_resource_1	3k_dlc04_start_pos	615679893		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_jinbeongun_resource_2	3k_dlc04_start_pos	1498051494		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_kimhae_capital	3k_dlc04_start_pos	1902531723		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_kimhae_resource_1	3k_dlc04_start_pos	1162653044		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	3	100
+ironic_region_lelang_capital	3k_dlc04_start_pos	960139617		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_lelang_resource_1	3k_dlc04_start_pos	1964963365		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	3	100
+ironic_region_wuwei_resource_3	3k_dlc04_start_pos	571384828	706700616	false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_wuyuan_capital	3k_dlc04_start_pos	14934838	1991689332	true	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_wuyuan_resource_1	3k_dlc04_start_pos	2094121221	1991689332	false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_xi_capital	3k_dlc04_start_pos	416798757		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_xi_resource_1	3k_dlc04_start_pos	78935301		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_xiping_capital	3k_dlc04_start_pos	269771637		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_xiping_resource_1	3k_dlc04_start_pos	419400137		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_xiping_resource_2	3k_dlc04_start_pos	1425265771		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_anding	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	2	100
+ironic_region_ye_capital	3k_dlc04_start_pos	697436548		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	9	100
+ironic_region_ye_resource_1	3k_dlc04_start_pos	1432032004		false	100000	500000	100000	0	0	3k_main_faction_yellow_turban_rebels	3k_main_chinese	false	0	3k_main_faction_rebels	5	0	3	100
