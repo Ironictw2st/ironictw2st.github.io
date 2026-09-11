@@ -16,7 +16,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-5% upkeep for animal units (only if this character is faction leader)",
+        "name": "-5% upkeep for animal units (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -66,7 +66,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_spiritual_wood.png",
     "effects": [
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -74,7 +74,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+2 food production (only if this character is faction leader)",
+        "name": "+2 food production (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -99,7 +99,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_ambitious_earth.png",
     "effects": [
       {
-        "name": "+1 Increases ambition to gain independence as administrator (when council member)",
+        "name": "Increases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
@@ -107,7 +107,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+50 %n% desire for higher office (this character)",
+        "name": "+50 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -115,7 +115,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (this character)",
+        "name": "Increases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -132,7 +132,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_wise_earth.png",
     "effects": [
       {
-        "name": "+15 %n% desire for higher office (when council member)",
+        "name": "+15 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -202,7 +202,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Unbreakable (when attacking on campaign map) (this character)",
+        "name": "Enables: Unbreakable (when attacking on campaign map) (this character)",
         "desc": ""
       },
       {
@@ -223,7 +223,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (when council member)",
+        "name": "Increases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
@@ -235,7 +235,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (when council member)",
+        "name": "+15 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -251,7 +251,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (this character)",
+        "name": "Increases ambition to gain independence as administrator (this character)",
         "desc": ""
       }
     ]
@@ -334,7 +334,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (this character)",
+        "name": "Increases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -342,7 +342,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is faction leader)",
+        "name": "+5 satisfaction (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -350,7 +350,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+10 %n% desire for higher office (when council member)",
+        "name": "+10 desire for higher office (when council member)",
         "desc": ""
       }
     ]
@@ -433,11 +433,11 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (this character)",
+        "name": "Increases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
-        "name": "+15 %n% desire for higher office (when council member)",
+        "name": "+15 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -478,7 +478,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (this character)",
+        "name": "Decreases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -486,7 +486,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Disables: Duelling (this character) (Romance)",
+        "name": "Disables: Duelling (this character) (Romance)",
         "desc": ""
       },
       {
@@ -507,7 +507,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_angry_fire.png",
     "effects": [
       {
-        "name": "+10% income from all sources (only if this character is faction leader)",
+        "name": "+10% income from all sources (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -515,7 +515,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-4 public order (only if this character is faction leader)",
+        "name": "-4 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -552,7 +552,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (this character)",
+        "name": "+25 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -602,7 +602,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (this character)",
+        "name": "+25 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -618,7 +618,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+5 %n% desire for higher office (when council member)",
+        "name": "+5 desire for higher office (when council member)",
         "desc": ""
       }
     ]
@@ -668,7 +668,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Charge Reflect (this character)",
+        "name": "Enables: Charge Reflect (this character)",
         "desc": ""
       },
       {
@@ -693,7 +693,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Fatigue Resistance (this character)",
+        "name": "Enables: Fatigue Resistance (this character)",
         "desc": ""
       },
       {
@@ -718,15 +718,15 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_loyal_fire.png",
     "effects": [
       {
-        "name": "+15 %n% desire for higher office (when council member)",
+        "name": "+15 desire for higher office (when council member)",
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (when council member)",
+        "name": "Increases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
-        "name": "+50 %n% desire for higher office (this character)",
+        "name": "+50 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -734,7 +734,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (this character)",
+        "name": "Increases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -755,7 +755,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_impeccable_fire.png",
     "effects": [
       {
-        "name": "+1 Increases ambition to gain independence as administrator (this character)",
+        "name": "Increases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -775,7 +775,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (when council member)",
+        "name": "Increases ambition to gain independence as administrator (when council member)",
         "desc": ""
       }
     ]
@@ -788,11 +788,11 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_loyal_earth.png",
     "effects": [
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50 desire for higher office (this character)",
         "desc": ""
       },
       {
-        "name": "-10 %n% desire for higher office (when council member)",
+        "name": "-10 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -808,7 +808,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (when council member)",
+        "name": "Decreases ambition to gain independence as administrator (when council member)",
         "desc": ""
       }
     ]
@@ -957,11 +957,11 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-5 %n% desire for higher office (when council member)",
+        "name": "-5 desire for higher office (when council member)",
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -986,7 +986,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+10 %n% desire for higher office (when council member)",
+        "name": "+10 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -1002,11 +1002,11 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (this character)",
+        "name": "Increases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
-        "name": "+50 %n% desire for higher office (this character)",
+        "name": "+50 desire for higher office (this character)",
         "desc": ""
       }
     ]
@@ -1019,7 +1019,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_honourable_wood.png",
     "effects": [
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (this character)",
+        "name": "Decreases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -1027,7 +1027,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -1039,7 +1039,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-5 %n% desire for higher office (when council member)",
+        "name": "-5 desire for higher office (when council member)",
         "desc": ""
       }
     ]
@@ -1052,7 +1052,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_humble_earth.png",
     "effects": [
       {
-        "name": "-999 No desire for higher offices (this character)",
+        "name": "No desire for higher offices (this character)",
         "desc": ""
       },
       {
@@ -1060,11 +1060,11 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (this character)",
+        "name": "Decreases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
-        "name": "-5 %n% desire for higher office (when council member)",
+        "name": "-5 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -1072,7 +1072,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (when council member)",
+        "name": "Decreases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
@@ -1134,15 +1134,15 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (this character)",
+        "name": "Decreases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (when council member)",
+        "name": "Decreases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
-        "name": "+10 cover cost for enemy spies (only if this character is faction leader)",
+        "name": "+10 cover cost for enemy spies (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -1163,7 +1163,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Immune to Scaring (this character)",
+        "name": "Enables: Immune to Scaring (this character)",
         "desc": ""
       }
     ]
@@ -1180,7 +1180,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is faction leader)",
+        "name": "+5 satisfaction (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -1209,11 +1209,11 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_loyal_metal.png",
     "effects": [
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50 desire for higher office (this character)",
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (this character)",
+        "name": "Decreases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -1221,7 +1221,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (when council member)",
+        "name": "Decreases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
@@ -1229,7 +1229,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-5 %n% desire for higher office (when council member)",
+        "name": "-5 desire for higher office (when council member)",
         "desc": ""
       }
     ]
@@ -1242,7 +1242,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_humble_earth.png",
     "effects": [
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (when council member)",
+        "name": "Decreases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
@@ -1262,11 +1262,11 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (this character)",
+        "name": "Decreases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
-        "name": "-50 %n% desire for higher office (this character)",
+        "name": "-50 desire for higher office (this character)",
         "desc": ""
       }
     ]
@@ -1324,7 +1324,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Fatigue Resistance (this character)",
+        "name": "Enables: Fatigue Resistance (this character)",
         "desc": ""
       }
     ]
@@ -1366,7 +1366,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_anti-social_water.png",
     "effects": [
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (this character)",
+        "name": "Decreases ambition to gain independence as administrator (this character)",
         "desc": ""
       },
       {
@@ -1382,7 +1382,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Decreases ambition to gain independence as administrator (when council member)",
+        "name": "Decreases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
@@ -1552,7 +1552,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Unbreakable (when defending on campaign map) (this character)",
+        "name": "Enables: Unbreakable (when defending on campaign map) (this character)",
         "desc": ""
       }
     ]
@@ -1565,7 +1565,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_spiritual_wood.png",
     "effects": [
       {
-        "name": "+1 May randomly trigger superstition events for their owning faction (this character)",
+        "name": "May randomly trigger superstition events for their owning faction (this character)",
         "desc": ""
       },
       {
@@ -1606,7 +1606,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+10 undercover network cost for enemy spies (only if this character is faction leader)",
+        "name": "+10 undercover network cost for enemy spies (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -1619,7 +1619,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_social_metal.png",
     "effects": [
       {
-        "name": "-10 undercover network cost for enemy spies (only if this character is faction leader)",
+        "name": "-10 undercover network cost for enemy spies (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -1673,7 +1673,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+5 %n% desire for higher office (when council member)",
+        "name": "+5 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -1685,7 +1685,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Increases ambition to gain independence as administrator (when council member)",
+        "name": "Increases ambition to gain independence as administrator (when council member)",
         "desc": ""
       },
       {
@@ -1744,7 +1744,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_beautiful_good.png",
     "effects": [
       {
-        "name": "-5 satisfaction (only if this character is faction leader)",
+        "name": "-5 satisfaction (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -1752,7 +1752,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (this character)",
+        "name": "+25 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -1873,10 +1873,6 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+25% chance of having children (this character)",
-        "desc": ""
-      },
-      {
         "name": "+6 instinct (this character)",
         "desc": ""
       }
@@ -1915,11 +1911,11 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+25 %n% desire for higher office (this character)",
+        "name": "+25 desire for higher office (this character)",
         "desc": ""
       },
       {
-        "name": "-5 satisfaction (only if this character is faction leader)",
+        "name": "-5 satisfaction (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -2016,7 +2012,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Berserk (this character)",
+        "name": "Enables: Berserk (this character)",
         "desc": ""
       }
     ]
@@ -2075,8 +2071,8 @@ const TRAIT_DATA = [
   {
     "key": "3k_main_ceo_trait_physical_sui_knight",
     "node": "3k_main_ceo_node_trait_physical_sui_knight_01",
-    "title": "Sui Knight",
-    "description": "One of the formidable 'Knights of Han Sui', this warrior is not to be trifled with!",
+    "title": "Sui Riders",
+    "description": "One of the formidable 'Riders of Han Sui', this warrior is not to be trifled with!",
     "icon_path": "UI/Campaign UI/traits/icon_tiger_tally_good.png",
     "effects": [
       {
@@ -2084,7 +2080,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Raider (own retinue)",
+        "name": "Enables: Raider (own retinue)",
         "desc": ""
       },
       {
@@ -2180,7 +2176,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+2 public order (only if this character is faction leader)",
+        "name": "+2 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2242,7 +2238,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-5% construction cost (only if this character is faction leader)",
+        "name": "-5% construction cost (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2267,7 +2263,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-5% corruption (only if this character is faction leader)",
+        "name": "-5% corruption (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2292,7 +2288,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+2 public order (only if this character is faction leader)",
+        "name": "+2 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2317,7 +2313,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+5% corruption (only if this character is faction leader)",
+        "name": "+5% corruption (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2421,7 +2417,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-25 %n% desire for higher office (this character)",
+        "name": "-25 desire for higher office (this character)",
         "desc": ""
       },
       {
@@ -2429,7 +2425,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-10 %n% desire for higher office (when council member)",
+        "name": "-10 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -2475,7 +2471,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Immune to Fear & Terror (this character)",
+        "name": "Enables: Immune to Fear & Terror (this character)",
         "desc": ""
       },
       {
@@ -2504,7 +2500,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+2 public order (only if this character is faction leader)",
+        "name": "+2 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2521,7 +2517,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Scare (this character)",
+        "name": "Enables: Scare (this character)",
         "desc": ""
       },
       {
@@ -2550,7 +2546,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-10 %n% desire for higher office (when council member)",
+        "name": "-10 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -2616,7 +2612,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+5 satisfaction (only if this character is faction leader)",
+        "name": "+5 satisfaction (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -2637,7 +2633,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-10 %n% desire for higher office (when council member)",
+        "name": "-10 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -2649,7 +2645,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+2 public order (only if this character is faction leader)",
+        "name": "+2 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2670,7 +2666,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-10 %n% desire for higher office (when council member)",
+        "name": "-10 desire for higher office (when council member)",
         "desc": ""
       },
       {
@@ -2728,7 +2724,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-3 public order (only if this character is faction leader)",
+        "name": "-3 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2828,7 +2824,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+5% income from all sources (only if this character is faction leader)",
+        "name": "+5% income from all sources (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2845,7 +2841,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Charge Reflect (this character)",
+        "name": "Enables: Charge Reflect (this character)",
         "desc": ""
       },
       {
@@ -2878,7 +2874,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-3 public order (only if this character is faction leader)",
+        "name": "-3 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]
@@ -2895,7 +2891,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+10% trade influence (only if this character is faction leader)",
+        "name": "+10% trade influence (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -2912,7 +2908,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_angry_fire.png",
     "effects": [
       {
-        "name": "+1 Enables: Scare (this character)",
+        "name": "Enables: Scare (this character)",
         "desc": ""
       },
       {
@@ -2924,7 +2920,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "-4 satisfaction (only if this character is faction leader)",
+        "name": "-4 satisfaction (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       },
       {
@@ -2949,7 +2945,7 @@ const TRAIT_DATA = [
         "desc": ""
       },
       {
-        "name": "+1 Enables: Scare (this character)",
+        "name": "Enables: Scare (this character)",
         "desc": ""
       },
       {
@@ -2966,7 +2962,7 @@ const TRAIT_DATA = [
     "icon_path": "UI/Campaign UI/traits/icon_impeccable_fire.png",
     "effects": [
       {
-        "name": "+3 public order (only if this character is faction leader)",
+        "name": "+3 public order (faction-wide) (only if this character is prime minister, heir or faction leader)",
         "desc": ""
       }
     ]

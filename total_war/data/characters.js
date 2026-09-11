@@ -1,9 +1,10 @@
 // Auto-generated character data for 190 Expanded Wiki
-// Total characters: 1588
+// Total characters: 1651
 
 const CHARACTER_DATA = [
   {
     "key": "ironic_template_historical_agui_hero_wood",
+    "faction_leader_of": [],
     "name_key": "agui",
     "display_name": "Agui",
     "display_name_alt": "阿貴",
@@ -30,6 +31,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_ahuinan_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_ahuinan_190"
+    ],
     "name_key": "ahuinan",
     "display_name": "Ahuinan",
     "display_name_alt": "阿會喃",
@@ -55,7 +59,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_dlc06_skillset_romance_historical_nanman_generic"
   },
   {
+    "key": "ironic_template_historical_an_ryu_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "an_ryu_ironic",
+    "display_name": "An Ryu",
+    "display_name_alt": "晏留",
+    "forename": "Ryu",
+    "family_name": "An",
+    "forename_alt": "留",
+    "family_name_alt": "晏",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Discernment of Talent",
+    "description": "A humble individual knows his place, lowering himself to recommend worthy talents for the betterment of the realm.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "145",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_personality_honourable"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
     "key": "ep_template_historical_bai_jin_hero_fire_jiangxia",
+    "faction_leader_of": [],
     "name_key": "bai_jin",
     "display_name": "Bai Jin",
     "display_name_alt": "白金",
@@ -74,14 +106,15 @@ const CHARACTER_DATA = [
     "birth_year": "271",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_clever"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_main_template_historical_lady_wu_minyu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wu_minyu",
     "display_name": "Bai Xia",
     "display_name_alt": "柏洽",
@@ -100,14 +133,15 @@ const CHARACTER_DATA = [
     "birth_year": "159",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_sincere",
       "3k_ytr_ceo_trait_personality_people_friendly"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
     "key": "3k_dlc04_template_historical_bao_dan_water",
+    "faction_leader_of": [],
     "name_key": "bao_dan",
     "display_name": "Bao Dan",
     "display_name_alt": "鮑丹",
@@ -134,6 +168,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bao_long_hero_wood",
+    "faction_leader_of": [],
     "name_key": "bao_long",
     "display_name": "Bao Long",
     "display_name_alt": "鮑隆",
@@ -160,6 +195,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_bao_luan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "bao_luan",
     "display_name": "Bao Luan",
     "display_name_alt": "鮑鸞",
@@ -178,14 +214,15 @@ const CHARACTER_DATA = [
     "birth_year": "261",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "ironic_template_historical_bao_tao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "bao_tao",
     "display_name": "Bao Tao",
     "display_name_alt": "鮑韜",
@@ -202,7 +239,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_coordinated",
       "3k_main_ceo_trait_personality_reckless",
@@ -212,6 +249,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_bao_xiangru_hero_fire",
+    "faction_leader_of": [],
     "name_key": "bao_xiangru",
     "display_name": "Bao Xiangru",
     "display_name_alt": "鮑相如",
@@ -230,14 +268,15 @@ const CHARACTER_DATA = [
     "birth_year": "269",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_physical_beautiful"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_bao_xin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "bao_xin",
     "display_name": "Bao Xin",
     "display_name_alt": "鮑信",
@@ -247,14 +286,14 @@ const CHARACTER_DATA = [
     "family_name_alt": "鮑",
     "courtesy_name": "",
     "courtesy_name_alt": "",
-    "title": "The Hero of Jinan",
+    "title": "The Hero of Jibei",
     "description": "Come, rebels, and taste the blade of Bao Xin!",
     "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
     "birth_year": "152",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_disciplined",
@@ -264,6 +303,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_bao_xun_hero_water",
+    "faction_leader_of": [],
     "name_key": "bao_xun",
     "display_name": "Bao Xun",
     "display_name_alt": "鮑勛",
@@ -280,7 +320,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_cunning",
@@ -290,6 +330,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bao_zhong_hero_water",
+    "faction_leader_of": [],
     "name_key": "bao_zhong",
     "display_name": "Bao Zhong",
     "display_name_alt": "鮑忠",
@@ -316,6 +357,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bei_chong_hero_water",
+    "faction_leader_of": [],
     "name_key": "bei_chong",
     "display_name": "Bei Chong",
     "display_name_alt": "貝冲",
@@ -342,6 +384,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bei_jia_hero_water",
+    "faction_leader_of": [],
     "name_key": "bei_jia",
     "display_name": "Bei Jia",
     "display_name_alt": "貝嘉",
@@ -368,6 +411,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bei_yu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "bei_yu",
     "display_name": "Bei Yu",
     "display_name_alt": "貝羽",
@@ -394,6 +438,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_beigong_boyu_fire",
+    "faction_leader_of": [],
     "name_key": "beigong_boyu",
     "display_name": "Beigong Boyu",
     "display_name_alt": "北宮伯玉",
@@ -410,7 +455,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "146",
-    "death_year": "186",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_ambitious",
@@ -419,33 +464,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
-    "key": "ironic_template_historical_beolhyu_hero_water",
-    "name_key": "beolhyu",
-    "display_name": "Beolhyu Beolhyu",
-    "display_name_alt": "PLACEHOLDERPLACEHOLDER",
-    "forename": "Beolhyu",
-    "family_name": "Beolhyu",
-    "forename_alt": "PLACEHOLDER",
-    "family_name_alt": "PLACEHOLDER",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Regal and Warlike",
-    "description": "This aggressive king will be the first in the fray in an offensive battle, knowing his men will always follow him.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": true,
-    "is_unique": true,
-    "birth_year": "162",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_perceptive"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_water_strategist"
-  },
-  {
     "key": "ironic_template_historical_bi_chen_hero_metal",
+    "faction_leader_of": [],
     "name_key": "bi_chen",
     "display_name": "Bi Chen",
     "display_name_alt": "畢諶",
@@ -472,6 +492,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_zhang_jieyan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_jieyan",
     "display_name": "Bi Jieyan",
     "display_name_alt": "畢潔豔",
@@ -498,6 +519,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_bi_lan_water",
+    "faction_leader_of": [],
     "name_key": "bi_lan",
     "display_name": "Bi Lan",
     "display_name_alt": "畢嵐",
@@ -525,6 +547,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bian_baozhai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "bian_baozhai",
     "display_name": "Bian Baozhai",
     "display_name_alt": "邊宝钗",
@@ -551,6 +574,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_bian_bing_hero_wood",
+    "faction_leader_of": [],
     "name_key": "bian_bing",
     "display_name": "Bian Bing",
     "display_name_alt": "卞昺",
@@ -569,14 +593,15 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_clever",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "skill_set": "3k_main_skillset_generic_villager_wood"
   },
   {
     "key": "ironic_template_historical_bian_hong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "bian_hong",
     "display_name": "Bian Hong",
     "display_name_alt": "邊鴻",
@@ -603,6 +628,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_bian_rang_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_bian_rang_190"
+    ],
     "name_key": "bian_rang",
     "display_name": "Bian Rang",
     "display_name_alt": "邊讓",
@@ -619,7 +647,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "148",
-    "death_year": "193",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_stern",
       "3k_main_ceo_trait_personality_honourable",
@@ -629,6 +657,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bian_rou_hero_metal",
+    "faction_leader_of": [],
     "name_key": "bian_rou",
     "display_name": "Bian Rou",
     "display_name_alt": "邊柔",
@@ -655,6 +684,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bian_xi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "bian_xi",
     "display_name": "Bian Xi",
     "display_name_alt": "卞喜",
@@ -681,6 +711,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_bian_zhang_metal",
+    "faction_leader_of": [],
     "name_key": "bian_zhang",
     "display_name": "Bian Zhang",
     "display_name_alt": "邊章",
@@ -697,7 +728,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "133",
-    "death_year": "186",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_aescetic",
       "3k_main_ceo_trait_personality_quiet",
@@ -707,6 +738,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bing_yuan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "bing_yuan",
     "display_name": "Bing Yuan",
     "display_name_alt": "邴原",
@@ -733,6 +765,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_bing_zhi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "bing_zhi",
     "display_name": "Bing Zhi",
     "display_name_alt": "邴祉",
@@ -759,6 +792,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_bo_cai_wood",
+    "faction_leader_of": [],
     "name_key": "bo_cai",
     "display_name": "Bo Cai",
     "display_name_alt": "波才",
@@ -775,7 +809,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "150",
-    "death_year": "184",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_ytr_ceo_trait_personality_people_people_pleaser",
@@ -785,6 +819,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_bu_ci_hero_metal",
+    "faction_leader_of": [],
     "name_key": "bu_ci",
     "display_name": "Bu Ci",
     "display_name_alt": "卜慈",
@@ -803,14 +838,15 @@ const CHARACTER_DATA = [
     "birth_year": "269",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_ytr_ceo_trait_personality_land_aspiring"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_metal"
   },
   {
     "key": "3k_dlc05_template_historical_lu_lingqi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lu_lingqi",
     "display_name": "Bu Ji",
     "display_name_alt": "卜姬",
@@ -829,14 +865,15 @@ const CHARACTER_DATA = [
     "birth_year": "180",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_dlc07_ceo_trait_personality_frivolous"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "3k_main_template_historical_bu_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "bu_ji",
     "display_name": "Bu Ji",
     "display_name_alt": "步璣",
@@ -855,14 +892,15 @@ const CHARACTER_DATA = [
     "birth_year": "216",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_reckless"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ep_template_historical_bu_jun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "bu_jun",
     "display_name": "Bu Jun",
     "display_name_alt": "卜鈞",
@@ -881,14 +919,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_lady_bu_lianshi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "bu_lianshi",
     "display_name": "Bu Lianshi",
     "display_name_alt": "步練師",
@@ -905,16 +944,17 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "190",
-    "death_year": "238",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_beautiful",
       "3k_main_ceo_trait_personality_trusting",
       "3k_main_ceo_trait_personality_kind"
     ],
-    "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
+    "skill_set": "3k_main_skillset_bu_lianshi_envoy_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_bu_si_metal",
+    "faction_leader_of": [],
     "name_key": "bu_si",
     "display_name": "Bu Si",
     "display_name_alt": "卜巳",
@@ -941,6 +981,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_bu_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "bu_zhi",
     "display_name": "Bu Zhi",
     "display_name_alt": "步騭",
@@ -957,7 +998,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "172",
-    "death_year": "247",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_bright",
       "3k_main_ceo_trait_personality_cunning",
@@ -967,6 +1008,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_budugen_hero_metal",
+    "faction_leader_of": [],
     "name_key": "budugen",
     "display_name": "Budugen",
     "display_name_alt": "步度根",
@@ -983,7 +1025,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "169",
-    "death_year": "233",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_careless",
       "3k_main_ceo_trait_personality_fiery",
@@ -992,7 +1034,172 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_xianbei_general_metal"
   },
   {
+    "key": "ironic_template_historical_chogo_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_bakaja_190"
+    ],
+    "name_key": "chogo",
+    "display_name": "Buyeo Chogo",
+    "display_name_alt": "扶餘肖古",
+    "forename": "Chogo",
+    "family_name": "Buyeo",
+    "forename_alt": "肖古",
+    "family_name_alt": "扶餘",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Blitzing Besieger",
+    "description": "The leader of Baekje highly experienced in swift and aggressive campaigns, and the storming of fortresses.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "148",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_trusting"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth_chogo"
+  },
+  {
+    "key": "ironic_template_historical_buyeo_goi_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "buyeo_goi_ironic",
+    "display_name": "Buyeo Goi",
+    "display_name_alt": "扶餘古爾",
+    "forename": "Goi",
+    "family_name": "Buyeo",
+    "forename_alt": "古爾",
+    "family_name_alt": "扶餘",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Usurper and Reformist Monarch",
+    "description": "To depose a foolish and immature king and yet secure commendation, there is no greater means than establishing just cause and notable achievements.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "166",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_honourable"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth"
+  },
+  {
+    "key": "ironic_template_historical_buyeo_gusu_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "buyeo_gusu_ironic",
+    "display_name": "Buyeo Gusu",
+    "display_name_alt": "扶餘仇首",
+    "forename": "Gusu",
+    "family_name": "Buyeo",
+    "forename_alt": "仇首",
+    "family_name_alt": "扶餘",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Endless Conflict",
+    "description": "Amidst relentless harassment by foreign powers and nature, maintaining one’s position and affirming the legitimacy of the royal house is akin to a commander leading through chaotic warfare.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "160",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_defiant"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire_buyeo_gusu"
+  },
+  {
+    "key": "ironic_template_historical_buyeo_jil_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "buyeo_jil_ironic",
+    "display_name": "Buyeo Jil",
+    "display_name_alt": "扶餘質",
+    "forename": "Jil",
+    "family_name": "Buyeo",
+    "forename_alt": "質",
+    "family_name_alt": "扶餘",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Seasoned Elder",
+    "description": "Having lived through many years, the elder of the family understands the changes of the world and responds with humble wisdom.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "132",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_resourceful"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_buyeo_saban_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "buyeo_saban",
+    "display_name": "Buyeo Saban",
+    "display_name_alt": "扶餘沙伴",
+    "forename": "Saban",
+    "family_name": "Buyeo",
+    "forename_alt": "沙伴",
+    "family_name_alt": "扶餘",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "The Fragile Throne",
+    "description": "If one ascends the throne at a young age, even the closest relatives can become figures to be feared.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "220",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_fiery"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_buyeo_usu_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "buyeo_usu_ironic",
+    "display_name": "Buyeo Usu",
+    "display_name_alt": "扶餘優壽",
+    "forename": "Usu",
+    "family_name": "Buyeo",
+    "forename_alt": "優壽",
+    "family_name_alt": "扶餘",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Counselor of Reform",
+    "description": "When the foundational pillar wavers, the commencement of reform lies in steadfast support and the renewal of the ground upon which it stands.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "171",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_patient"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist"
+  },
+  {
     "key": "3k_main_template_historical_cai_he_hero_metal",
+    "faction_leader_of": [],
     "name_key": "cai_he",
     "display_name": "Cai He",
     "display_name_alt": "蔡和",
@@ -1019,6 +1226,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cai_hui_hero_metal",
+    "faction_leader_of": [],
     "name_key": "cai_hui",
     "display_name": "Cai Hui",
     "display_name_alt": "蔡惠",
@@ -1045,6 +1253,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cai_huizhen_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cai_huizhen",
     "display_name": "Cai Huizhen",
     "display_name_alt": "蔡蕙珍",
@@ -1071,6 +1280,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cai_mao_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_cai_mao_190"
+    ],
     "name_key": "cai_mao",
     "display_name": "Cai Mao",
     "display_name_alt": "蔡瑁",
@@ -1093,10 +1305,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_deceitful",
       "3k_main_ceo_trait_personality_ambitious"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_fire"
+    "skill_set": "3k_main_skillset_cai_mao_minister_fire"
   },
   {
     "key": "3k_main_template_historical_cai_xun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cai_xun",
     "display_name": "Cai Xun",
     "display_name_alt": "蔡塤",
@@ -1123,6 +1336,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cai_yan_m_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cai_yan_m",
     "display_name": "Cai Yan",
     "display_name_alt": "蔡琰",
@@ -1136,7 +1350,7 @@ const CHARACTER_DATA = [
     "description": "Sometimes, governors simply do whatever is required of them.",
     "element": "earth",
     "subtype": "3k_general_water",
-    "is_male": false,
+    "is_male": true,
     "is_unique": true,
     "birth_year": "162",
     "death_year": "???",
@@ -1149,6 +1363,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cai_yang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "cai_yang",
     "display_name": "Cai Yang",
     "display_name_alt": "蔡陽",
@@ -1167,14 +1382,15 @@ const CHARACTER_DATA = [
     "birth_year": "171",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_metal"
   },
   {
     "key": "3k_main_template_historical_cai_yong_hero_water",
+    "faction_leader_of": [],
     "name_key": "cai_yong",
     "display_name": "Cai Yong",
     "display_name_alt": "蔡邕",
@@ -1191,7 +1407,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "132",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_solitary",
       "3k_main_ceo_trait_personality_superstitious",
@@ -1201,6 +1417,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cai_zan_hero_water",
+    "faction_leader_of": [],
     "name_key": "cai_zan",
     "display_name": "Cai Zan",
     "display_name_alt": "蔡瓚",
@@ -1227,6 +1444,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cai_zhong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cai_zhong",
     "display_name": "Cai Zhong",
     "display_name_alt": "蔡中",
@@ -1253,6 +1471,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cang_ci_hero_metal",
+    "faction_leader_of": [],
     "name_key": "cang_ci",
     "display_name": "Cang Ci",
     "display_name_alt": "倉慈",
@@ -1279,6 +1498,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_cai_qinting_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cai_qinting",
     "display_name": "Cang Qinting",
     "display_name_alt": "倉勤婷",
@@ -1305,6 +1525,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_ang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cao_ang",
     "display_name": "Cao Ang",
     "display_name_alt": "曹昂",
@@ -1321,7 +1542,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "177",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_brave",
@@ -1331,6 +1552,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cao_anmin_hero_water",
+    "faction_leader_of": [],
     "name_key": "cao_anmin",
     "display_name": "Cao Anmin",
     "display_name_alt": "曹安民",
@@ -1347,7 +1569,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "178",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_cautious",
@@ -1357,6 +1579,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_biao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_biao",
     "display_name": "Cao Biao",
     "display_name_alt": "曹彪",
@@ -1373,16 +1596,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "195",
-    "death_year": "251",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_careless",
       "3k_main_ceo_trait_personality_superstitious",
       "3k_main_ceo_trait_personality_incompetent"
     ],
-    "skill_set": "3k_main_skillset_generic_agent_earth"
+    "skill_set": "3k_main_skillset_cao_biao_agent_earth"
   },
   {
     "key": "3k_main_template_historical_cao_cao_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_cao_cao_ruler"
+    ],
     "name_key": "cao_cao",
     "display_name": "Cao Cao",
     "display_name_alt": "曹操",
@@ -1399,7 +1625,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "155",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_suspicious",
       "3k_main_ceo_trait_personality_ambitious",
@@ -1409,6 +1635,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_chong_hero_water",
+    "faction_leader_of": [],
     "name_key": "cao_chong",
     "display_name": "Cao Chong",
     "display_name_alt": "曹沖",
@@ -1425,16 +1652,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "196",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_vengeful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_cao_chun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "cao_chun",
     "display_name": "Cao Chun",
     "display_name_alt": "曹純",
@@ -1451,7 +1679,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "210",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_relentless",
       "3k_main_ceo_trait_personality_disciplined",
@@ -1461,6 +1689,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_cao_de_earth",
+    "faction_leader_of": [],
     "name_key": "cao_de",
     "display_name": "Cao De",
     "display_name_alt": "曹德",
@@ -1477,7 +1706,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158",
-    "death_year": "193",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_unobservant",
@@ -1487,6 +1716,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_cao_ding_fire",
+    "faction_leader_of": [],
     "name_key": "cao_ding",
     "display_name": "Cao Ding",
     "display_name_alt": "曹鼎",
@@ -1514,6 +1744,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_fan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_fan",
     "display_name": "Cao Fan",
     "display_name_alt": "曹範",
@@ -1532,14 +1763,15 @@ const CHARACTER_DATA = [
     "birth_year": "190",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_earth"
   },
   {
     "key": "3k_main_template_historical_cao_hong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cao_hong",
     "display_name": "Cao Hong",
     "display_name_alt": "曹洪",
@@ -1556,7 +1788,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165",
-    "death_year": "232",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_main_ceo_trait_personality_loyal",
@@ -1566,6 +1798,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cao_hong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_hong",
     "display_name": "Cao Hong",
     "display_name_alt": "曹宏",
@@ -1592,6 +1825,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_cao_huan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_huan",
     "display_name": "Cao Huan",
     "display_name_alt": "曹奐",
@@ -1608,7 +1842,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "246",
-    "death_year": "303",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_humble",
@@ -1618,6 +1852,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_cao_jie_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_jie",
     "display_name": "Cao Jie",
     "display_name_alt": "曹節",
@@ -1634,7 +1869,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "197",
-    "death_year": "260",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_beautiful",
       "3k_main_ceo_trait_personality_humble",
@@ -1644,6 +1879,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_jun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_jun",
     "display_name": "Cao Jun",
     "display_name_alt": "曹峻",
@@ -1660,16 +1896,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "219",
-    "death_year": "259",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_earth"
   },
   {
     "key": "3k_main_template_historical_cao_pi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_pi",
     "display_name": "Cao Pi",
     "display_name_alt": "曹丕",
@@ -1686,7 +1923,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "187",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_clever",
@@ -1696,6 +1933,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cao_qinghe_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_qinghe",
     "display_name": "Cao Qinghe",
     "display_name_alt": "曹清河",
@@ -1722,6 +1960,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_ren_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_ren",
     "display_name": "Cao Ren",
     "display_name_alt": "曹仁",
@@ -1738,7 +1977,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_determined",
       "3k_ytr_ceo_trait_personality_land_courageous",
@@ -1748,6 +1987,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_rui_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_rui",
     "display_name": "Cao Rui",
     "display_name_alt": "曹叡",
@@ -1764,16 +2004,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "205",
-    "death_year": "239",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_careless",
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_charismatic"
     ],
-    "skill_set": "3k_main_skillset_generic_minister_earth"
+    "skill_set": "3k_main_skillset_cao_rui_minister_earth"
   },
   {
     "key": "3k_main_template_historical_cao_shuang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cao_shuang",
     "display_name": "Cao Shuang",
     "display_name_alt": "曹爽",
@@ -1790,7 +2031,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "203",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_arrogant",
@@ -1800,6 +2041,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_song_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_song",
     "display_name": "Cao Song",
     "display_name_alt": "曹嵩",
@@ -1816,7 +2058,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "139",
-    "death_year": "193",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_stern",
       "3k_main_ceo_trait_personality_dutiful",
@@ -1826,6 +2068,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_xi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cao_xi",
     "display_name": "Cao Xi",
     "display_name_alt": "曹羲",
@@ -1842,7 +2085,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "210",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_physical_graceful",
@@ -1852,6 +2095,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_xing_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cao_xing",
     "display_name": "Cao Xing",
     "display_name_alt": "曹杏",
@@ -1878,6 +2122,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_xiu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "cao_xiu",
     "display_name": "Cao Xiu",
     "display_name_alt": "曹休",
@@ -1894,16 +2139,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "175",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_physical_coordinated"
     ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
+    "skill_set": "3k_main_skillset_cao_xiu_general_fire"
   },
   {
     "key": "3k_main_template_historical_cao_yan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "cao_yan",
     "display_name": "Cao Yan",
     "display_name_alt": "曹彥",
@@ -1920,16 +2166,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "204",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_ytr_ceo_trait_personality_people_stern"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_main_template_historical_cao_zhang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cao_zhang",
     "display_name": "Cao Zhang",
     "display_name_alt": "曹彰",
@@ -1946,7 +2193,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_stubborn",
       "3k_main_ceo_trait_personality_disciplined",
@@ -1956,6 +2203,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_zhen_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cao_zhen",
     "display_name": "Cao Zhen",
     "display_name_alt": "曹真",
@@ -1972,7 +2220,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "180",
-    "death_year": "231",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_coordinated",
       "3k_main_ceo_trait_personality_intimidating",
@@ -1982,6 +2230,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cao_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "cao_zhi",
     "display_name": "Cao Zhi",
     "display_name_alt": "曹植",
@@ -1998,16 +2247,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "192",
-    "death_year": "232",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_main_ceo_trait_physical_drunk",
       "3k_main_ceo_trait_personality_scholarly"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_water_strategist"
+    "skill_set": "3k_main_skillset_cao_zhi_minister_water_strategist"
   },
   {
     "key": "ep_template_historical_chai_chang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "chai_chang",
     "display_name": "Chai Chang",
     "display_name_alt": "柴長",
@@ -2026,14 +2276,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_artful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_earth"
   },
   {
     "key": "3k_main_template_historical_chang_diao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chang_diao",
     "display_name": "Chang Diao",
     "display_name_alt": "常雕",
@@ -2050,16 +2301,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "182",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "3k_main_template_historical_chang_lin_hero_water",
+    "faction_leader_of": [],
     "name_key": "chang_lin",
     "display_name": "Chang Lin",
     "display_name_alt": "常林",
@@ -2078,14 +2330,15 @@ const CHARACTER_DATA = [
     "birth_year": "181",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_chang_xi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "chang_xi",
     "display_name": "Chang Xi",
     "display_name_alt": "昌豨",
@@ -2102,7 +2355,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "166",
-    "death_year": "206",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_disloyal",
@@ -2112,6 +2365,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chang_xia_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chang_xia",
     "display_name": "Chang Xia",
     "display_name_alt": "常洽",
@@ -2130,14 +2384,15 @@ const CHARACTER_DATA = [
     "birth_year": "152",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "3k_main_template_historical_che_zhou_hero_water",
+    "faction_leader_of": [],
     "name_key": "che_zhou",
     "display_name": "Che Zhou",
     "display_name_alt": "車胄",
@@ -2154,42 +2409,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "176",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
+      "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_ytr_ceo_trait_personality_trustworthy"
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
-    "key": "ironic_template_historical_chen_sun_hero_fire",
-    "name_key": "chen_sun",
-    "display_name": "Chen",
-    "display_name_alt": "陳",
-    "forename": "",
-    "family_name": "Chen",
-    "forename_alt": "",
-    "family_name_alt": "陳",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Outlaw Chieftain",
-    "description": "Whether one is considered a barbarian, a brigand or a local hero is dependant on rather narrow points of view.",
-    "element": "fire",
-    "subtype": "3k_general_fire",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "173",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_distinguished"
-    ],
-    "skill_set": "3k_dlc05_skillset_generic_bandit_governor_fire"
-  },
-  {
     "key": "3k_dlc07_template_generated_chen_bai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "chen_bai",
     "display_name": "Chen Bai",
     "display_name_alt": "陳敗",
@@ -2216,6 +2446,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc07_template_generated_wan_bing_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wan_bing",
     "display_name": "Chen Bai",
     "display_name_alt": "陳敗",
@@ -2235,13 +2466,14 @@ const CHARACTER_DATA = [
     "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_deceitful"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_chen_bao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "chen_bao",
     "display_name": "Chen Bao",
     "display_name_alt": "陳寶",
@@ -2268,6 +2500,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_biao_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_biao",
     "display_name": "Chen Biao",
     "display_name_alt": "陳表",
@@ -2284,16 +2517,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "204",
-    "death_year": "237",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_indecisive"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ironic_template_historical_chen_ce_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_ce",
     "display_name": "Chen Ce",
     "display_name_alt": "陳策",
@@ -2320,6 +2554,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_chao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "chen_chao",
     "display_name": "Chen Chao",
     "display_name_alt": "陳超",
@@ -2346,6 +2581,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chen_cong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "chen_cong",
     "display_name": "Chen Cong",
     "display_name_alt": "陳琮",
@@ -2372,6 +2608,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_chen_dan_hangong_metal",
+    "faction_leader_of": [],
     "name_key": "chen_dan_hangong",
     "display_name": "Chen Dan",
     "display_name_alt": "陳耽",
@@ -2388,7 +2625,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "144",
-    "death_year": "185",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_trusting",
       "3k_main_ceo_trait_personality_sincere",
@@ -2398,6 +2635,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chen_dao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "chen_dao",
     "display_name": "Chen Dao",
     "display_name_alt": "陳到",
@@ -2405,8 +2643,8 @@ const CHARACTER_DATA = [
     "family_name": "Chen",
     "forename_alt": "到",
     "family_name_alt": "陳",
-    "courtesy_name": "Shuzhi",
-    "courtesy_name_alt": "叔至",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "White Feathered General",
     "description": "With a distinctive plume of white and a majestic countenance, Chen Dao strikes a dashing figure on the battlefield.",
     "element": "earth",
@@ -2424,6 +2662,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_chen_deng_yuanlong_water",
+    "faction_leader_of": [],
     "name_key": "chen_deng_yuanlong",
     "display_name": "Chen Deng",
     "display_name_alt": "陳登",
@@ -2450,6 +2689,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_di_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_di",
     "display_name": "Chen Di",
     "display_name_alt": "陳袛",
@@ -2466,16 +2706,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "202",
-    "death_year": "258",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_chen_duan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "chen_duan",
     "display_name": "Chen Duan",
     "display_name_alt": "陳端",
@@ -2502,6 +2743,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chen_fu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_fu",
     "display_name": "Chen Fu",
     "display_name_alt": "陳福",
@@ -2528,6 +2770,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_gong_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_gong",
     "display_name": "Chen Gong",
     "display_name_alt": "陳宮",
@@ -2544,7 +2787,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "154",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_trusting",
       "3k_main_ceo_trait_personality_cautious",
@@ -2554,6 +2797,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc_04_template_historical_chen_gui_water",
+    "faction_leader_of": [
+      "3k_main_political_party_chen_gui_190"
+    ],
     "name_key": "chen_gui",
     "display_name": "Chen Gui",
     "display_name_alt": "陳珪",
@@ -2580,6 +2826,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chen_han_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_han",
     "display_name": "Chen Han",
     "display_name_alt": "陳韓",
@@ -2598,14 +2845,15 @@ const CHARACTER_DATA = [
     "birth_year": "116",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_chen_heng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_heng",
     "display_name": "Chen Heng",
     "display_name_alt": "陳橫",
@@ -2632,6 +2880,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_ji_hero_earth",
+    "faction_leader_of": [],
     "name_key": "chen_ji",
     "display_name": "Chen Ji",
     "display_name_alt": "陳紀",
@@ -2647,8 +2896,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "129",
-    "death_year": "199",
+    "birth_year": "135",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_modest",
       "3k_main_ceo_trait_personality_cunning",
@@ -2658,6 +2907,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chen_jiao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_jiao",
     "display_name": "Chen Jiao",
     "display_name_alt": "陳矯",
@@ -2665,8 +2915,8 @@ const CHARACTER_DATA = [
     "family_name": "Chen",
     "forename_alt": "矯",
     "family_name_alt": "陳",
-    "courtesy_name": "Jibi",
-    "courtesy_name_alt": "季弼",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Gregarious Tactician",
     "description": "Even on the field of war, Chen Jiao remains unflappable, generous and mirthful.",
     "element": "metal",
@@ -2674,7 +2924,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170",
-    "death_year": "237",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_cheerful",
       "3k_main_ceo_trait_personality_resourceful",
@@ -2684,6 +2934,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_jiu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "chen_jiu",
     "display_name": "Chen Jiu",
     "display_name_alt": "陳就",
@@ -2700,7 +2951,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "151",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_quiet",
       "3k_main_ceo_trait_personality_loyal",
@@ -2710,6 +2961,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_lan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "chen_lan",
     "display_name": "Chen Lan",
     "display_name_alt": "陳蘭",
@@ -2726,7 +2978,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_ytr_ceo_trait_personality_land_powerful",
@@ -2736,6 +2988,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_lin_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_lin",
     "display_name": "Chen Lin",
     "display_name_alt": "陳琳",
@@ -2752,16 +3005,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_humble"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "ironic_template_historical_chen_mu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_mu",
     "display_name": "Chen Mu",
     "display_name_alt": "陳牧",
@@ -2784,10 +3038,11 @@ const CHARACTER_DATA = [
       "3k_ytr_ceo_trait_personality_heaven_selfless",
       "3k_main_ceo_trait_personality_careless"
     ],
-    "skill_set": "3k_dlc05_skillset_generic_bandit_governor_earth"
+    "skill_set": "3k_dlc05_skillset_generic_bandit_governor_metal"
   },
   {
     "key": "ironic_template_historical_chen_pu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_pu",
     "display_name": "Chen Pu",
     "display_name_alt": "陳僕",
@@ -2814,6 +3069,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_qian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_qian",
     "display_name": "Chen Qian",
     "display_name_alt": "陳騫",
@@ -2830,16 +3086,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "211",
-    "death_year": "292",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_physical_clumsy"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_metal"
   },
   {
     "key": "ironic_template_historical_chen_qiao_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_qiao",
     "display_name": "Chen Qiao",
     "display_name_alt": "陳橋",
@@ -2858,14 +3115,15 @@ const CHARACTER_DATA = [
     "birth_year": "80",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_clumsy"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "ironic_template_historical_chen_qiu_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_qiu",
     "display_name": "Chen Qiu",
     "display_name_alt": "陳球",
@@ -2873,25 +3131,26 @@ const CHARACTER_DATA = [
     "family_name": "Chen",
     "forename_alt": "球",
     "family_name_alt": "陳",
-    "courtesy_name": "Bozhen",
-    "courtesy_name_alt": "伯真",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Manipulator",
     "description": "Always working behind the scenes, this individual is a master of intrigue.",
     "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "117",
-    "death_year": "179",
+    "birth_year": "118",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_chen_qun_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_qun",
     "display_name": "Chen Qun",
     "display_name_alt": "陳群",
@@ -2908,16 +3167,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "211",
-    "death_year": "237",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "3k_main_template_historical_chen_rong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "chen_rong",
     "display_name": "Chen Rong",
     "display_name_alt": "陳容",
@@ -2936,14 +3196,15 @@ const CHARACTER_DATA = [
     "birth_year": "144",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_mad"
     ],
     "skill_set": "3k_main_skillset_generic_agent_earth"
   },
   {
     "key": "ironic_template_historical_chen_sheng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "chen_sheng",
     "display_name": "Chen Sheng",
     "display_name_alt": "陳生",
@@ -2970,6 +3231,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chen_shi_ironic_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_shi_ironic",
     "display_name": "Chen Shi",
     "display_name_alt": "陳式",
@@ -2996,6 +3258,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_chen_su_water",
+    "faction_leader_of": [],
     "name_key": "chen_su",
     "display_name": "Chen Su",
     "display_name_alt": "陳肅",
@@ -3021,7 +3284,37 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
+    "key": "ironic_template_historical_chen_sun_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "chen_sun",
+    "display_name": "Chen Sun",
+    "display_name_alt": "陳孫",
+    "forename": "Sun",
+    "family_name": "Chen",
+    "forename_alt": "孫",
+    "family_name_alt": "陳",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Outlaw Chieftain",
+    "description": "Whether one is considered a barbarian, a brigand or a local hero is dependant on rather narrow points of view.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "173",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_vain",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_distinguished"
+    ],
+    "skill_set": "3k_dlc05_skillset_generic_bandit_governor_fire"
+  },
+  {
     "key": "3k_main_template_historical_chen_wen_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_chen_wen_190"
+    ],
     "name_key": "chen_wen",
     "display_name": "Chen Wen",
     "display_name_alt": "陳溫",
@@ -3048,6 +3341,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_wu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_wu",
     "display_name": "Chen Wu",
     "display_name_alt": "陳武",
@@ -3063,8 +3357,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "178",
-    "death_year": "215",
+    "birth_year": "182",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_physical_feared",
       "3k_main_ceo_trait_personality_intimidating",
@@ -3074,6 +3368,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_xiu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chen_xiu",
     "display_name": "Chen Xiu",
     "display_name_alt": "陳脩",
@@ -3092,14 +3387,15 @@ const CHARACTER_DATA = [
     "birth_year": "197",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_incompetent"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_metal"
   },
   {
     "key": "ironic_template_historical_chen_ying_z_hero_fire",
+    "faction_leader_of": [],
     "name_key": "chen_ying_z",
     "display_name": "Chen Ying",
     "display_name_alt": "陳應",
@@ -3126,6 +3422,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chen_ying_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_ying",
     "display_name": "Chen Ying",
     "display_name_alt": "陳應",
@@ -3152,6 +3449,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_chen_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_yu",
     "display_name": "Chen Yu",
     "display_name_alt": "陳瑀",
@@ -3178,6 +3476,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_zhen_hero_water",
+    "faction_leader_of": [],
     "name_key": "chen_zhen",
     "display_name": "Chen Zhen",
     "display_name_alt": "陳震",
@@ -3194,7 +3493,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "198",
-    "death_year": "235",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_humble",
@@ -3204,6 +3503,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chen_zheng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "chen_zheng",
     "display_name": "Chen Zheng",
     "display_name_alt": "陳正",
@@ -3222,14 +3522,15 @@ const CHARACTER_DATA = [
     "birth_year": "201",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_relentless"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_chen_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "chen_zhi",
     "display_name": "Chen Zhi",
     "display_name_alt": "陳祗",
@@ -3246,16 +3547,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "206",
-    "death_year": "258",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_dlc06_template_historical_cheng_bing_hero_water",
+    "faction_leader_of": [],
     "name_key": "cheng_bing",
     "display_name": "Cheng Bing",
     "display_name_alt": "程秉",
@@ -3263,8 +3565,8 @@ const CHARACTER_DATA = [
     "family_name": "Cheng",
     "forename_alt": "秉",
     "family_name_alt": "程",
-    "courtesy_name": "Deshu",
-    "courtesy_name_alt": "德樞",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Ceremonial Maestro",
     "description": "In order to secure heaven's blessings, and guarantee good fortune, rituals and ceremonies must be performed perfectly, and adhere to the and methods traditions of old.",
     "element": "water",
@@ -3282,6 +3584,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cheng_fu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "cheng_fu",
     "display_name": "Cheng Fu",
     "display_name_alt": "程甫",
@@ -3308,6 +3611,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cheng_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "cheng_ji",
     "display_name": "Cheng Ji",
     "display_name_alt": "成濟",
@@ -3324,16 +3628,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "206",
-    "death_year": "260",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "ironic_template_historical_cheng_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "cheng_ji",
     "display_name": "Cheng Ji",
     "display_name_alt": "程畿",
@@ -3341,8 +3646,8 @@ const CHARACTER_DATA = [
     "family_name": "Cheng",
     "forename_alt": "畿",
     "family_name_alt": "程",
-    "courtesy_name": "Jiran",
-    "courtesy_name_alt": "季然",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "The Righteous Halberdier",
     "description": "Never once have the principles of Cheng Ji wavered, never once has his honour been stained, never once has he fled a battle.",
     "element": "fire",
@@ -3350,7 +3655,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "158",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_stalwart",
       "3k_main_ceo_trait_personality_stubborn",
@@ -3360,6 +3665,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cheng_pu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "cheng_pu",
     "display_name": "Cheng Pu",
     "display_name_alt": "程普",
@@ -3367,8 +3673,8 @@ const CHARACTER_DATA = [
     "family_name": "Cheng",
     "forename_alt": "普",
     "family_name_alt": "程",
-    "courtesy_name": "Demou",
-    "courtesy_name_alt": "德謀",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Bandit Killer",
     "description": "'The General of the Household Who Defeats Bandits' is living proof that bravery can overcome adversity.",
     "element": "metal",
@@ -3376,7 +3682,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "154",
-    "death_year": "215",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_vengeful",
       "3k_main_ceo_trait_personality_loyal",
@@ -3386,6 +3692,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_cheng_qiu_water",
+    "faction_leader_of": [],
     "name_key": "cheng_qiu",
     "display_name": "Cheng Qiu",
     "display_name_alt": "程球",
@@ -3412,6 +3719,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cheng_xu_hero_water",
+    "faction_leader_of": [],
     "name_key": "cheng_xu",
     "display_name": "Cheng Xu",
     "display_name_alt": "程緒",
@@ -3430,14 +3738,15 @@ const CHARACTER_DATA = [
     "birth_year": "152",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_physical_lovestruck"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_cheng_yi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cheng_yi",
     "display_name": "Cheng Yi",
     "display_name_alt": "成宜",
@@ -3454,7 +3763,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "211",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_vain",
       "3k_main_ceo_trait_personality_scholarly",
@@ -3465,6 +3774,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cheng_yin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "cheng_yin",
     "display_name": "Cheng Yin",
     "display_name_alt": "程銀",
@@ -3492,6 +3802,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cheng_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "cheng_yu",
     "display_name": "Cheng Yu",
     "display_name_alt": "程昱",
@@ -3507,8 +3818,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "141",
-    "death_year": "220",
+    "birth_year": "142",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_resourceful",
       "3k_main_ceo_trait_personality_arrogant",
@@ -3518,6 +3829,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cheng_yu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cheng_yu",
     "display_name": "Cheng Yu",
     "display_name_alt": "程郁",
@@ -3544,6 +3856,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chenggong_ying_hero_fire",
+    "faction_leader_of": [],
     "name_key": "chenggong_ying",
     "display_name": "Chenggong Ying",
     "display_name_alt": "成公英",
@@ -3570,6 +3883,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chenglugui_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chenglugui",
     "display_name": "Chenglugui",
     "display_name_alt": "成律歸",
@@ -3595,33 +3909,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_xianbei_general_metal"
   },
   {
-    "key": "ironic_template_historical_chogo_hero_earth",
-    "name_key": "chogo",
-    "display_name": "Chogo Chogo",
-    "display_name_alt": "PLACEHOLDERPLACEHOLDER",
-    "forename": "Chogo",
-    "family_name": "Chogo",
-    "forename_alt": "PLACEHOLDER",
-    "family_name_alt": "PLACEHOLDER",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Blitzing Besieger",
-    "description": "The leader of Baekje highly experienced in swift and aggressive campaigns, and the storming of fortresses.",
-    "element": "earth",
-    "subtype": "3k_general_earth",
-    "is_male": true,
-    "is_unique": true,
-    "birth_year": "148",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_trusting"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_earth"
-  },
-  {
     "key": "3k_dlc04_template_historical_chu_gong_metal",
+    "faction_leader_of": [],
     "name_key": "chu_gong",
     "display_name": "Chu Gong",
     "display_name_alt": "褚貢",
@@ -3647,14 +3936,42 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
+    "key": "ironic_template_historical_chung_hweon_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "chung_hweon_ironic",
+    "display_name": "Chung Hwon",
+    "display_name_alt": "忠萱",
+    "forename": "Hwon",
+    "family_name": "Chung",
+    "forename_alt": "萱",
+    "family_name_alt": "忠",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Inexperienced Commander",
+    "description": "Leading a large army is futile if one cannot properly command; it’s no different from being a mere piece of paper.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_vengeful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
     "key": "ironic_template_historical_chunyu_dan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "chunyu_dan",
     "display_name": "Chunyu Dan",
     "display_name_alt": "淳于丹",
     "forename": "Dan",
     "family_name": "Chunyu",
-    "forename_alt": "丹",
-    "family_name_alt": "淳于",
+    "forename_alt": "于丹",
+    "family_name_alt": "淳",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "The Point of the Lance",
@@ -3674,6 +3991,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_chunyu_qiong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "chunyu_qiong",
     "display_name": "Chunyu Qiong",
     "display_name_alt": "淳于瓊",
@@ -3690,7 +4008,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "145",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_drunk",
       "3k_main_ceo_trait_personality_reckless",
@@ -3700,13 +4018,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_chunyu_shi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "chunyu_shi",
     "display_name": "Chunyu Shi",
     "display_name_alt": "淳于式",
     "forename": "Shi",
     "family_name": "Chunyu",
-    "forename_alt": "式",
-    "family_name_alt": "淳于",
+    "forename_alt": "于式",
+    "family_name_alt": "淳",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Attentive Secretary",
@@ -3726,6 +4045,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_congqian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "congqian",
     "display_name": "Congqian",
     "display_name_alt": "從錢",
@@ -3752,6 +4072,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_cuan_xi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "cuan_xi",
     "display_name": "Cuan Xi",
     "display_name_alt": "爨習",
@@ -3778,6 +4099,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cui_jun_hero_metal",
+    "faction_leader_of": [],
     "name_key": "cui_jun",
     "display_name": "Cui Jun",
     "display_name_alt": "崔鈞",
@@ -3785,8 +4107,8 @@ const CHARACTER_DATA = [
     "family_name": "Cui",
     "forename_alt": "鈞",
     "family_name_alt": "崔",
-    "courtesy_name": "Zhouping",
-    "courtesy_name_alt": "州平",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Stalwart Son",
     "description": "Those who display true filiial piety must be willing to criticise their own fathers if their morals have lead them astray.",
     "element": "metal",
@@ -3804,6 +4126,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cui_lie_hero_fire",
+    "faction_leader_of": [],
     "name_key": "cui_lie",
     "display_name": "Cui Lie",
     "display_name_alt": "崔烈",
@@ -3820,7 +4143,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "164",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_incompetent",
       "3k_main_ceo_trait_personality_greedy",
@@ -3830,6 +4153,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_cui_lin_hero_water",
+    "faction_leader_of": [],
     "name_key": "cui_lin",
     "display_name": "Cui Lin",
     "display_name_alt": "崔林",
@@ -3846,16 +4170,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "189",
-    "death_year": "244",
+    "death_year": "???",
     "traits": [
+      "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_energetic"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_cui_yan_hero_water",
+    "faction_leader_of": [],
     "name_key": "cui_yan",
     "display_name": "Cui Yan",
     "display_name_alt": "崔琰",
@@ -3872,16 +4197,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "163",
-    "death_year": "216",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_lady_da_qiao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "da_qiao",
     "display_name": "Da Qiao",
     "display_name_alt": "大喬",
@@ -3908,6 +4234,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_dai_liang_hero_water",
+    "faction_leader_of": [],
     "name_key": "dai_liang",
     "display_name": "Dai Liang",
     "display_name_alt": "戴良",
@@ -3934,6 +4261,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_dai_yuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dai_yuan",
     "display_name": "Dai Yuan",
     "display_name_alt": "戴員",
@@ -3950,7 +4278,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_vengeful",
@@ -3960,6 +4288,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_dailaidongzhu_hero_nanman",
+    "faction_leader_of": [],
     "name_key": "dailaidongzhu",
     "display_name": "Dailai Dongzhu",
     "display_name_alt": "带来洞主",
@@ -3986,6 +4315,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_dan_meng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "dan_meng",
     "display_name": "Dan Meng",
     "display_name_alt": "儋萌",
@@ -4012,6 +4342,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_dang_lianhua_hero_earth",
+    "faction_leader_of": [],
     "name_key": "dang_lianhua",
     "display_name": "Dang Lianhua",
     "display_name_alt": "黨莲花",
@@ -4037,33 +4368,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
-    "key": "ironic_template_historical_deng_zixiao_ironic_hero_fire",
-    "name_key": "deng_zixiao_ironic",
-    "display_name": "Deng",
-    "display_name_alt": "鄧",
-    "forename": "",
-    "family_name": "Deng",
-    "forename_alt": "",
-    "family_name_alt": "鄧",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Enlightened Refugee",
-    "description": "I've been everywhere, man, I've been everywhere. Crossed the Yangtze there, man, I breathed the Nanling air, man, I've been everywhere.",
-    "element": "fire",
-    "subtype": "3k_general_fire",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "161",
-    "death_year": "???",
-    "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_energetic"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
-  },
-  {
     "key": "3k_main_template_historical_deng_ai_hero_metal",
+    "faction_leader_of": [],
     "name_key": "deng_ai",
     "display_name": "Deng Ai",
     "display_name_alt": "鄧艾",
@@ -4080,16 +4386,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "197",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_stubborn",
       "3k_main_ceo_trait_physical_strong"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_metal"
+    "skill_set": "3k_main_skillset_deng_ai_general_metal"
   },
   {
     "key": "3k_main_template_historical_deng_fang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "deng_fang",
     "display_name": "Deng Fang",
     "display_name_alt": "鄧方",
@@ -4106,16 +4413,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "195",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_deng_ji_hero_earth",
+    "faction_leader_of": [],
     "name_key": "deng_ji",
     "display_name": "Deng Ji",
     "display_name_alt": "鄧濟",
@@ -4142,6 +4450,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_deng_ju_hero_fire",
+    "faction_leader_of": [],
     "name_key": "deng_ju",
     "display_name": "Deng Ju",
     "display_name_alt": "鄧句",
@@ -4160,14 +4469,15 @@ const CHARACTER_DATA = [
     "birth_year": "219",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_solitary"
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_deng_kai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "deng_kai",
     "display_name": "Deng Kai",
     "display_name_alt": "鄧凱",
@@ -4194,6 +4504,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_deng_long_hero_metal",
+    "faction_leader_of": [],
     "name_key": "deng_long",
     "display_name": "Deng Long",
     "display_name_alt": "鄧龍",
@@ -4220,6 +4531,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_ze_ningqin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ze_ningqin",
     "display_name": "Deng Ningqin",
     "display_name_alt": "鄧寧勤",
@@ -4242,10 +4554,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_personality_greedy"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_metal"
+    "skill_set": "3k_dlc05_skillset_generic_bandit_minister_metal"
   },
   {
     "key": "3k_dlc04_template_historical_deng_sheng_boneng_fire",
+    "faction_leader_of": [],
     "name_key": "deng_sheng_boneng",
     "display_name": "Deng Sheng",
     "display_name_alt": "鄧盛",
@@ -4272,6 +4585,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_deng_sheng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "deng_sheng",
     "display_name": "Deng Sheng",
     "display_name_alt": "鄧升",
@@ -4297,33 +4611,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
-    "key": "ironic_template_historical_deng_yi_hero_wood",
-    "name_key": "deng_yi",
-    "display_name": "Deng Yi",
-    "display_name_alt": "鄧羲",
-    "forename": "Yi",
-    "family_name": "Deng",
-    "forename_alt": "羲",
-    "family_name_alt": "鄧",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Uncompromising Prefect",
-    "description": "A wilful and principled man, Deng Yi would rather stand down and retire than follow his lord down a path that he cannot agree with.",
-    "element": "wood",
-    "subtype": "3k_general_wood",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "166",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_resourceful"
-    ],
-    "skill_set": "3k_main_skillset_generic_governor_wood"
-  },
-  {
     "key": "ironic_template_historical_deng_xi_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "deng_xi_ironic",
     "display_name": "Deng Xi",
     "display_name_alt": "鄧羲",
@@ -4350,6 +4639,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_deng_xian_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "deng_xian_ironic",
     "display_name": "Deng Xian",
     "display_name_alt": "鄧賢",
@@ -4376,6 +4666,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_deng_yang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "deng_yang",
     "display_name": "Deng Yang",
     "display_name_alt": "鄧颺",
@@ -4392,16 +4683,44 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "202",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_incompetent"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
+    "key": "ironic_template_historical_deng_yi_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "deng_yi",
+    "display_name": "Deng Yi",
+    "display_name_alt": "鄧羲",
+    "forename": "Yi",
+    "family_name": "Deng",
+    "forename_alt": "羲",
+    "family_name_alt": "鄧",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Uncompromising Prefect",
+    "description": "A wilful and principled man, Deng Yi would rather stand down and retire than follow his lord down a path that he cannot agree with.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "166",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_resourceful"
+    ],
+    "skill_set": "3k_main_skillset_generic_governor_wood"
+  },
+  {
     "key": "3k_main_template_historical_deng_yuan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "deng_yuan",
     "display_name": "Deng Yuan",
     "display_name_alt": "鄧淵",
@@ -4428,6 +4747,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_deng_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "deng_zhi",
     "display_name": "Deng Zhi",
     "display_name_alt": "鄧芝",
@@ -4444,7 +4764,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "178",
-    "death_year": "251",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_loyal",
@@ -4454,6 +4774,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_deng_zhong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "deng_zhong",
     "display_name": "Deng Zhong",
     "display_name_alt": "鄧忠",
@@ -4470,16 +4791,71 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_dlc07_ceo_trait_personality_frivolous"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
+    "key": "ironic_template_historical_deng_zixiao_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "deng_zixiao_ironic",
+    "display_name": "Deng Zixiao",
+    "display_name_alt": "鄧子孝",
+    "forename": "Zixiao",
+    "family_name": "Deng",
+    "forename_alt": "子孝",
+    "family_name_alt": "鄧",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Enlightened Refugee",
+    "description": "I've been everywhere, man, I've been everywhere. Crossed the Yangtze there, man, I breathed the Nanling air, man, I've been everywhere.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "161",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_energetic"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_fire"
+  },
+  {
+    "key": "ironic_template_historical_deuk_rae_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "deuk_rae_ironic",
+    "display_name": "Deuk Rae",
+    "display_name_alt": "得來",
+    "forename": "Rae",
+    "family_name": "Deuk",
+    "forename_alt": "來",
+    "family_name_alt": "得",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Wise Advisor",
+    "description": "A loyal minister is one who dares to risk death to offer honest counsel when the king makes a wrong decision.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "197",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_physical_strong"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
     "key": "3k_main_template_historical_dian_wei_hero_wood",
+    "faction_leader_of": [],
     "name_key": "dian_wei",
     "display_name": "Dian Wei",
     "display_name_alt": "典韋",
@@ -4496,7 +4872,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_brave",
@@ -4506,6 +4882,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_diao_chan_hero_water",
+    "faction_leader_of": [],
     "name_key": "diao_chan",
     "display_name": "Diaochan",
     "display_name_alt": "貂蟬",
@@ -4532,6 +4909,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ding_fan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "ding_fan",
     "display_name": "Ding Fan",
     "display_name_alt": "丁蕃",
@@ -4558,6 +4936,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ding_feng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ding_feng",
     "display_name": "Ding Feng",
     "display_name_alt": "丁奉",
@@ -4574,7 +4953,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "215",
-    "death_year": "271",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_healthy",
       "3k_main_ceo_trait_personality_brave",
@@ -4584,6 +4963,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ding_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "ding_yi",
     "display_name": "Ding Yi",
     "display_name_alt": "丁儀",
@@ -4600,16 +4980,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "169",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_ding_yuan_wood",
+    "faction_leader_of": [],
     "name_key": "ding_yuan",
     "display_name": "Ding Yuan",
     "display_name_alt": "丁原",
@@ -4626,7 +5007,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "135",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_trusting",
       "3k_main_ceo_trait_personality_sincere",
@@ -4636,6 +5017,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dong_bai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_bai",
     "display_name": "Dong Ba",
     "display_name_alt": "董巴",
@@ -4654,14 +5036,15 @@ const CHARACTER_DATA = [
     "birth_year": "154",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_main_ceo_trait_personality_cruel"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_main_template_historical_dong_bai_hero_metal",
+    "faction_leader_of": [],
     "name_key": "dong_bai",
     "display_name": "Dong Bai",
     "display_name_alt": "董白",
@@ -4678,7 +5061,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "178",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_greedy",
       "3k_main_ceo_trait_personality_energetic",
@@ -4688,6 +5071,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dong_bi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_bi",
     "display_name": "Dong Bi",
     "display_name_alt": "董弼",
@@ -4706,14 +5090,15 @@ const CHARACTER_DATA = [
     "birth_year": "195",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_main_template_historical_dong_chao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_chao",
     "display_name": "Dong Chao",
     "display_name_alt": "董超",
@@ -4732,14 +5117,15 @@ const CHARACTER_DATA = [
     "birth_year": "193",
     "death_year": "???",
     "traits": [
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_dong_cheng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_cheng",
     "display_name": "Dong Cheng",
     "display_name_alt": "董承",
@@ -4756,16 +5142,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "145",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_ytr_ceo_trait_personality_relentless"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_dlc04_template_historical_dong_zhong_metal",
+    "faction_leader_of": [],
     "name_key": "dong_zhong",
     "display_name": "Dong Chong",
     "display_name_alt": "董重",
@@ -4782,7 +5169,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "136",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_loyal",
@@ -4792,6 +5179,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dong_feng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "dong_feng",
     "display_name": "Dong Feng",
     "display_name_alt": "董奉",
@@ -4810,14 +5198,15 @@ const CHARACTER_DATA = [
     "birth_year": "220",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "skill_set": "3k_main_skillset_generic_minister_wood"
   },
   {
     "key": "ironic_template_historical_dong_fu_hero_water",
+    "faction_leader_of": [],
     "name_key": "dong_fu",
     "display_name": "Dong Fu",
     "display_name_alt": "董伏",
@@ -4844,6 +5233,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_dong_he_earth",
+    "faction_leader_of": [],
     "name_key": "dong_he",
     "display_name": "Dong He",
     "display_name_alt": "董和",
@@ -4870,6 +5260,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dong_heng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_heng",
     "display_name": "Dong Heng",
     "display_name_alt": "董衡",
@@ -4886,16 +5277,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "184",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_dong_huang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_huang",
     "display_name": "Dong Huang",
     "display_name_alt": "董璜",
@@ -4912,16 +5304,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "161",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_generated_lady_dong_li_hero_metal",
+    "faction_leader_of": [],
     "name_key": "dong_li",
     "display_name": "Dong Li",
     "display_name_alt": "董麗",
@@ -4948,6 +5341,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_dong_min_hero_earth",
+    "faction_leader_of": [],
     "name_key": "dong_min",
     "display_name": "Dong Min",
     "display_name_alt": "董旻",
@@ -4964,7 +5358,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "143",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_ytr_ceo_trait_personality_temperamental",
@@ -4974,6 +5368,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_dong_peishan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "dong_peishan",
     "display_name": "Dong Peishan",
     "display_name_alt": "董佩善",
@@ -5000,12 +5395,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dong_xi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_xi",
     "display_name": "Dong Xi",
-    "display_name_alt": "董襲",
+    "display_name_alt": "董席",
     "forename": "Xi",
     "family_name": "Dong",
-    "forename_alt": "襲",
+    "forename_alt": "席",
     "family_name_alt": "董",
     "courtesy_name": "Yuandai",
     "courtesy_name_alt": "元代",
@@ -5016,7 +5412,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "166",
-    "death_year": "215",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_stalwart",
       "3k_ytr_ceo_trait_personality_land_courageous",
@@ -5026,6 +5422,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dong_yue_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dong_yue",
     "display_name": "Dong Yue",
     "display_name_alt": "董越",
@@ -5042,16 +5439,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "157",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_relentless",
       "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_dong_yun_hero_water",
+    "faction_leader_of": [],
     "name_key": "dong_yun",
     "display_name": "Dong Yun",
     "display_name_alt": "董允",
@@ -5068,16 +5466,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "215",
-    "death_year": "246",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_dong_zhao_hero_water",
+    "faction_leader_of": [],
     "name_key": "dong_zhao",
     "display_name": "Dong Zhao",
     "display_name_alt": "董昭",
@@ -5092,18 +5491,21 @@ const CHARACTER_DATA = [
     "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
-    "is_unique": false,
+    "is_unique": true,
     "birth_year": "156",
-    "death_year": "236",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_dong_zhuo_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_dong_zhuo_ruler"
+    ],
     "name_key": "dong_zhuo",
     "display_name": "Dong Zhuo",
     "display_name_alt": "董卓",
@@ -5120,7 +5522,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "138",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cruel",
       "3k_main_ceo_trait_personality_arrogant",
@@ -5130,6 +5532,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_dongtuna_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_dongtuna_190"
+    ],
     "name_key": "dongtuna",
     "display_name": "Dongtuna",
     "display_name_alt": "董荼那",
@@ -5156,6 +5561,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dou_fu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "dou_fu",
     "display_name": "Dou Fu",
     "display_name_alt": "竇輔",
@@ -5174,14 +5580,17 @@ const CHARACTER_DATA = [
     "birth_year": "167",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "ironic_template_historical_duo_mao_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_di_tribes_190"
+    ],
     "name_key": "duo_mao",
     "display_name": "Dou Mao",
     "display_name_alt": "竇茂",
@@ -5208,6 +5617,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_du_hero_earth",
+    "faction_leader_of": [],
     "name_key": "du",
     "display_name": "Du",
     "display_name_alt": "",
@@ -5234,6 +5644,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_du_cha_hero_water",
+    "faction_leader_of": [],
     "name_key": "du_cha",
     "display_name": "Du Cha",
     "display_name_alt": "杜察",
@@ -5252,14 +5663,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_du_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "du_ji",
     "display_name": "Du Ji",
     "display_name_alt": "杜畿",
@@ -5276,7 +5688,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "163",
-    "death_year": "224",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_ytr_ceo_trait_personality_people_friendly",
@@ -5286,6 +5698,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_du_kui_ironic_hero_earth",
+    "faction_leader_of": [],
     "name_key": "du_kui_ironic",
     "display_name": "Du Kui",
     "display_name_alt": "杜夔",
@@ -5312,6 +5725,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_du_qiong_hero_water",
+    "faction_leader_of": [],
     "name_key": "du_qiong",
     "display_name": "Du Qiong",
     "display_name_alt": "杜瓊",
@@ -5328,7 +5742,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162",
-    "death_year": "250",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_superstitious",
       "3k_main_ceo_trait_personality_artful",
@@ -5338,6 +5752,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_du_shu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "du_shu",
     "display_name": "Du Shu",
     "display_name_alt": "杜恕",
@@ -5354,16 +5769,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "198",
-    "death_year": "252",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_du_song_hero_water",
+    "faction_leader_of": [],
     "name_key": "du_song",
     "display_name": "Du Song",
     "display_name_alt": "杜松",
@@ -5390,6 +5806,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_duan_gui_ziyin_fire",
+    "faction_leader_of": [],
     "name_key": "duan_gui_ziyin",
     "display_name": "Duan Gui",
     "display_name_alt": "段珪",
@@ -5406,7 +5823,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "138",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_greedy",
       "3k_main_ceo_trait_personality_cruel",
@@ -5417,6 +5834,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_duan_wei_hero_fire",
+    "faction_leader_of": [],
     "name_key": "duan_wei",
     "display_name": "Duan Wei",
     "display_name_alt": "段煨",
@@ -5433,7 +5851,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "158",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_honourable",
@@ -5443,6 +5861,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_king_duosi_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_king_duosi_190"
+    ],
     "name_key": "king_duosi",
     "display_name": "Duosi",
     "display_name_alt": "朵思",
@@ -5469,6 +5890,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_empress_he_fire",
+    "faction_leader_of": [],
     "name_key": "empress_he",
     "display_name": "Empress He",
     "display_name_alt": "何皇后",
@@ -5485,7 +5907,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "152",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_proud",
       "3k_main_ceo_trait_personality_ambitious",
@@ -5494,7 +5916,62 @@ const CHARACTER_DATA = [
     "skill_set": "3k_mtu_skillset_historical_empress_he"
   },
   {
+    "key": "ironic_template_historical_eo_biryu_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "eo_biryu_ironic",
+    "display_name": "Eo Biryu",
+    "display_name_alt": "於卑留",
+    "forename": "Biryu",
+    "family_name": "Eo",
+    "forename_alt": "卑留",
+    "family_name_alt": "於",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Power and Arrogance",
+    "description": "The downfall of those who swagger on borrowed status rather than their own standing will be dreadful.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "154",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_perceptive"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_eul_paso_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "eul_paso_ironic",
+    "display_name": "Eul Paso",
+    "display_name_alt": "乙巴素",
+    "forename": "Paso",
+    "family_name": "Eul",
+    "forename_alt": "巴素",
+    "family_name_alt": "乙",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Prime Minister of the Celestial Realm",
+    "description": "An exceptional talent, long withdrawn from the mundane world, is summoned and recognized as a prodigy of the realm.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_scholarly"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist_eul_paso"
+  },
+  {
     "key": "3k_main_template_historical_fa_zheng_hero_water",
+    "faction_leader_of": [],
     "name_key": "fa_zheng",
     "display_name": "Fa Zheng",
     "display_name_alt": "法正",
@@ -5511,7 +5988,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "176",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_personality_cruel",
@@ -5521,6 +5998,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_fan_chou_hero_fire",
+    "faction_leader_of": [],
     "name_key": "fan_chou",
     "display_name": "Fan Chou",
     "display_name_alt": "樊稠",
@@ -5537,7 +6015,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "153",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_charismatic",
@@ -5547,6 +6025,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_fan_fang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "fan_fang",
     "display_name": "Fan Fang",
     "display_name_alt": "范方",
@@ -5557,7 +6036,7 @@ const CHARACTER_DATA = [
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Ferocious Frontiersman",
-    "description": "Spending his entire life fighting along the borders has given Shan Jing a rather stern and grim view on life.",
+    "description": "Spending his entire life fighting along the borders has given Fan Fang a rather stern and grim view on life.",
     "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
@@ -5573,6 +6052,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_zhang_liyan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_liyan",
     "display_name": "Fan Liyan",
     "display_name_alt": "繁麗豔",
@@ -5599,6 +6079,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pan_miao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "pan_miao",
     "display_name": "Fan Miao",
     "display_name_alt": "番苗",
@@ -5625,6 +6106,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_fan_min_hero_water",
+    "faction_leader_of": [],
     "name_key": "fan_min",
     "display_name": "Fan Min",
     "display_name_alt": "樊敏",
@@ -5641,16 +6123,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "119",
-    "death_year": "203",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
     "key": "ironic_template_historical_fan_neng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "fan_neng",
     "display_name": "Fan Neng",
     "display_name_alt": "樊能",
@@ -5677,6 +6160,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_dong_peishan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "dong_peishan",
     "display_name": "Fan Peishan",
     "display_name_alt": "繁佩善",
@@ -5695,14 +6179,15 @@ const CHARACTER_DATA = [
     "birth_year": "148",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_personality_trusting"
     ],
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
     "key": "3k_main_template_historical_fan_qin_hero_water",
+    "faction_leader_of": [],
     "name_key": "fan_qin",
     "display_name": "Fan Qin",
     "display_name_alt": "繁欽",
@@ -5719,16 +6204,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "179",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ironic_template_historical_fan_xian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "fan_xian",
     "display_name": "Fan Xian",
     "display_name_alt": "范先",
@@ -5755,6 +6241,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pan_xin_hero_water",
+    "faction_leader_of": [],
     "name_key": "pan_xin",
     "display_name": "Fan Xin",
     "display_name_alt": "番歆",
@@ -5781,6 +6268,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_fan_yufeng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "fan_yufeng",
     "display_name": "Fan Yufeng",
     "display_name_alt": "樊玉鳳",
@@ -5807,6 +6295,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_fan_zhou_hero_water",
+    "faction_leader_of": [],
     "name_key": "fan_zhou",
     "display_name": "Fan Zhou",
     "display_name_alt": "氾州",
@@ -5825,14 +6314,15 @@ const CHARACTER_DATA = [
     "birth_year": "259",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_competative"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ironic_template_historical_fang_yue_hero_wood",
+    "faction_leader_of": [],
     "name_key": "fang_yue",
     "display_name": "Fang Yue",
     "display_name_alt": "方悅",
@@ -5858,33 +6348,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
-    "key": "ironic_template_historical_fei_yuelan_hero_earth",
-    "name_key": "fei_yuelan",
-    "display_name": "Fei",
-    "display_name_alt": "費",
-    "forename": "",
-    "family_name": "Fei",
-    "forename_alt": "",
-    "family_name_alt": "費",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "The Mercenary Princess",
-    "description": "Fei Yuelan is not afraid to take up her blade and fight - especially if the prospect and promise of profit and influence are on the horizon.",
-    "element": "earth",
-    "subtype": "3k_general_earth",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "173",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_personality_disciplined"
-    ],
-    "skill_set": "3k_dlc05_skillset_generic_bandit_envoy_earth"
-  },
-  {
     "key": "ironic_template_historical_fei_guan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "fei_guan",
     "display_name": "Fei Guan",
     "display_name_alt": "費觀",
@@ -5892,8 +6357,8 @@ const CHARACTER_DATA = [
     "family_name": "Fei",
     "forename_alt": "觀",
     "family_name_alt": "費",
-    "courtesy_name": "Binbo",
-    "courtesy_name_alt": "賓伯",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Border Fort Inspector",
     "description": "The safety and sanctity of the frontier regions are a vital line in the defence of the state.",
     "element": "metal",
@@ -5911,6 +6376,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc07_template_generated_lady_liu_zhang_water",
+    "faction_leader_of": [],
     "name_key": "liu_zhang",
     "display_name": "Fei Qiu",
     "display_name_alt": "費秋",
@@ -5937,6 +6403,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_fei_shi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "fei_shi",
     "display_name": "Fei Shi",
     "display_name_alt": "費詩",
@@ -5944,8 +6411,8 @@ const CHARACTER_DATA = [
     "family_name": "Fei",
     "forename_alt": "詩",
     "family_name_alt": "費",
-    "courtesy_name": "Gongju",
-    "courtesy_name_alt": "公舉",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Admonishing Advisor",
     "description": "A skilled governor and protective of his kin, Fei Shi is nonetheless not a man who fears criticising his superiors.",
     "element": "metal",
@@ -5963,6 +6430,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_fei_xin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "fei_xin",
     "display_name": "Fei Xin",
     "display_name_alt": "費昕",
@@ -5989,6 +6457,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_fei_yang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "fei_yang",
     "display_name": "Fei Yang",
     "display_name_alt": "費楊",
@@ -6015,6 +6484,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_fei_yi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "fei_yi",
     "display_name": "Fei Yi",
     "display_name_alt": "費禕",
@@ -6022,8 +6492,8 @@ const CHARACTER_DATA = [
     "family_name": "Fei",
     "forename_alt": "禕",
     "family_name_alt": "費",
-    "courtesy_name": "Wenwei",
-    "courtesy_name_alt": "文偉",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Convivial and Genial Minister",
     "description": "Fei Yi knows well that a state cannot be ran without happy and loyal friends at his side.",
     "element": "earth",
@@ -6031,7 +6501,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190",
-    "death_year": "253",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_trusting",
       "3k_ytr_ceo_trait_personality_people_amiable",
@@ -6040,7 +6510,37 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
+    "key": "ironic_template_historical_fei_yuelan_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "fei_yuelan",
+    "display_name": "Fei Yuelan",
+    "display_name_alt": "費悦兰",
+    "forename": "Yuelan",
+    "family_name": "Fei",
+    "forename_alt": "悦兰",
+    "family_name_alt": "費",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "The Mercenary Princess",
+    "description": "Fei Yuelan is not afraid to take up her blade and fight - especially if the prospect and promise of profit and influence are on the horizon.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "173",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_disciplined"
+    ],
+    "skill_set": "3k_dlc05_skillset_generic_bandit_envoy_earth"
+  },
+  {
     "key": "ironic_template_historical_fei_zhan_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_fei_zhan_190"
+    ],
     "name_key": "fei_zhan",
     "display_name": "Fei Zhan",
     "display_name_alt": "費棧",
@@ -6067,6 +6567,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_feng_fang_earth",
+    "faction_leader_of": [],
     "name_key": "feng_fang",
     "display_name": "Feng Fang",
     "display_name_alt": "馮方",
@@ -6093,6 +6594,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_feng_li_hero_fire",
+    "faction_leader_of": [],
     "name_key": "feng_li",
     "display_name": "Feng Li",
     "display_name_alt": "馮禮",
@@ -6111,14 +6613,15 @@ const CHARACTER_DATA = [
     "birth_year": "167",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_fraternal"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_feng_shuo_hero_water",
+    "faction_leader_of": [],
     "name_key": "feng_shuo",
     "display_name": "Feng Shuo",
     "display_name_alt": "馮碩",
@@ -6137,14 +6640,15 @@ const CHARACTER_DATA = [
     "birth_year": "145",
     "death_year": "???",
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_feng_xi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "feng_xi",
     "display_name": "Feng Xi",
     "display_name_alt": "馮習",
@@ -6161,16 +6665,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "179",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_physical_healthy"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_main_template_historical_fu_gan_hero_water",
+    "faction_leader_of": [],
     "name_key": "fu_gan",
     "display_name": "Fu Gan",
     "display_name_alt": "傅幹",
@@ -6197,6 +6702,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_fu_jia_hero_water",
+    "faction_leader_of": [],
     "name_key": "fu_jia",
     "display_name": "Fu Jia",
     "display_name_alt": "傅嘏",
@@ -6213,16 +6719,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209",
-    "death_year": "255",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_careless"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "3k_main_template_historical_fu_qian_hero_fire",
+    "faction_leader_of": [],
     "name_key": "fu_qian",
     "display_name": "Fu Qian",
     "display_name_alt": "傅僉",
@@ -6239,16 +6746,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "208",
-    "death_year": "263",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_enigmatic"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_fu_qun_hero_metal",
+    "faction_leader_of": [],
     "name_key": "fu_qun",
     "display_name": "Fu Qun",
     "display_name_alt": "傅羣",
@@ -6275,6 +6783,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_fu_rong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "fu_rong",
     "display_name": "Fu Rong",
     "display_name_alt": "傅肜",
@@ -6291,7 +6800,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "180",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_personality_stubborn",
@@ -6301,6 +6810,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_fu_shou_hero_earth",
+    "faction_leader_of": [],
     "name_key": "fu_shou",
     "display_name": "Fu Shou",
     "display_name_alt": "伏壽",
@@ -6314,19 +6824,20 @@ const CHARACTER_DATA = [
     "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
     "element": "earth",
     "subtype": "3k_general_earth",
-    "is_male": false,
+    "is_male": true,
     "is_unique": false,
     "birth_year": "180",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_fu_wan_hero_water",
+    "faction_leader_of": [],
     "name_key": "fu_wan",
     "display_name": "Fu Wan",
     "display_name_alt": "伏完",
@@ -6343,16 +6854,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "167",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_fu_xie_nanrong_wood",
+    "faction_leader_of": [],
     "name_key": "fu_xie_nanrong",
     "display_name": "Fu Xie",
     "display_name_alt": "傅燮",
@@ -6369,7 +6881,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "139",
-    "death_year": "187",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_perceptive",
@@ -6379,6 +6891,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_fu_xuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "fu_xuan",
     "display_name": "Fu Xuan",
     "display_name_alt": "傅玄",
@@ -6395,16 +6908,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "217",
-    "death_year": "278",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_patient"
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_fu_xun_hero_water",
+    "faction_leader_of": [],
     "name_key": "fu_xun",
     "display_name": "Fu Xun",
     "display_name_alt": "傅巽",
@@ -6431,6 +6945,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_fulohan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "fulohan",
     "display_name": "Fulohan",
     "display_name_alt": "扶罗韩",
@@ -6457,6 +6972,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gan_ji_hero_earth",
+    "faction_leader_of": [],
     "name_key": "gan_ji",
     "display_name": "Gan Ji",
     "display_name_alt": "邗吉",
@@ -6475,14 +6991,15 @@ const CHARACTER_DATA = [
     "birth_year": "156",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_ytr_ceo_trait_personality_heaven_creative"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_humble"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
     "key": "3k_main_template_historical_gan_li_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gan_li",
     "display_name": "Gan Li",
     "display_name_alt": "甘醴",
@@ -6509,6 +7026,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_gan_mei_hero_water",
+    "faction_leader_of": [],
     "name_key": "gan_mei",
     "display_name": "Gan Mei",
     "display_name_alt": "甘夫人",
@@ -6525,16 +7043,19 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_physical_beautiful"
     ],
-    "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
+    "skill_set": "3k_main_skillset_xin_xianying_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_gan_ning_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_gan_ning_190"
+    ],
     "name_key": "gan_ning",
     "display_name": "Gan Ning",
     "display_name_alt": "甘寧",
@@ -6560,33 +7081,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_historical_gan_ning"
   },
   {
-    "key": "ironic_template_historical_ganwigeo_hero_fire",
-    "name_key": "ganwigeo",
-    "display_name": "Ganwigeo",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "Ganwigeo",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "key": "ironic_template_historical_gang_hwon_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "gang_hwon_ironic",
+    "display_name": "Gang Hwon",
+    "display_name_alt": "康萱",
+    "forename": "Hwon",
+    "family_name": "Gang",
+    "forename_alt": "萱",
+    "family_name_alt": "康",
     "courtesy_name": "",
     "courtesy_name_alt": "",
-    "title": "Flames of the Radiant Sun",
-    "description": "The pride borne from a lineage claiming descent from the sun shines as brightly as the sunlight itself, yet it is akin to a flame that may soon flicker and fade.",
-    "element": "fire",
-    "subtype": "3k_general_fire",
+    "title": "Stalwart Defender",
+    "description": "To protect someone is a noble yet immensely challenging duty.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
     "is_male": true,
-    "is_unique": true,
-    "birth_year": "162",
+    "is_unique": false,
+    "birth_year": "193",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_competative"
     ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
+    "skill_set": "ironic_skillset_korea_general_wood"
   },
   {
     "key": "3k_main_template_historical_gao_dai_hero_water",
+    "faction_leader_of": [],
     "name_key": "gao_dai",
     "display_name": "Gao Dai",
     "display_name_alt": "高岱",
@@ -6613,6 +7136,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gao_ding_hero_wood",
+    "faction_leader_of": [],
     "name_key": "gao_ding",
     "display_name": "Gao Ding",
     "display_name_alt": "高定",
@@ -6629,16 +7153,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "175",
-    "death_year": "225",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_strong"
     ],
     "skill_set": "3k_main_skillset_generic_villager_wood"
   },
   {
     "key": "3k_main_template_historical_gao_gan_hero_metal",
+    "faction_leader_of": [
+      "ironic_main_gao_gan_faction_leader"
+    ],
     "name_key": "gao_gan",
     "display_name": "Gao Gan",
     "display_name_alt": "高幹",
@@ -6655,7 +7182,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "206",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_determined",
       "3k_main_ceo_trait_personality_careless",
@@ -6665,6 +7192,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gao_lan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "gao_lan",
     "display_name": "Gao Lan",
     "display_name_alt": "高覽",
@@ -6691,6 +7219,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gao_lu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gao_lu",
     "display_name": "Gao Lü",
     "display_name_alt": "高慮",
@@ -6709,14 +7238,15 @@ const CHARACTER_DATA = [
     "birth_year": "186",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_gao_pei_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gao_pei",
     "display_name": "Gao Pei",
     "display_name_alt": "高沛",
@@ -6743,6 +7273,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gao_rou_hero_water",
+    "faction_leader_of": [],
     "name_key": "gao_rou",
     "display_name": "Gao Rou",
     "display_name_alt": "高柔",
@@ -6759,7 +7290,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "174",
-    "death_year": "263",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_perceptive",
@@ -6769,6 +7300,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gao_sheng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "gao_sheng",
     "display_name": "Gao Sheng",
     "display_name_alt": "高勝",
@@ -6795,6 +7327,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gao_shun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gao_shun",
     "display_name": "Gao Shun",
     "display_name_alt": "高順",
@@ -6811,7 +7344,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_disciplined",
       "3k_main_ceo_trait_personality_dutiful",
@@ -6821,6 +7354,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_gao_wang_water",
+    "faction_leader_of": [],
     "name_key": "gao_wang",
     "display_name": "Gao Wang",
     "display_name_alt": "高望",
@@ -6848,6 +7382,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_gao_you_water",
+    "faction_leader_of": [],
     "name_key": "gao_you",
     "display_name": "Gao You",
     "display_name_alt": "高誘",
@@ -6874,6 +7409,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gaotang_long_hero_water",
+    "faction_leader_of": [],
     "name_key": "gaotang_long",
     "display_name": "Gaotang Long",
     "display_name_alt": "高堂隆",
@@ -6890,16 +7426,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "203",
-    "death_year": "237",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_ge_jing_hero_water",
+    "faction_leader_of": [],
     "name_key": "ge_jing",
     "display_name": "Ge Jing",
     "display_name_alt": "葛静",
@@ -6926,6 +7463,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ge_xuan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "ge_xuan",
     "display_name": "Ge Xuan",
     "display_name_alt": "葛玄",
@@ -6942,16 +7480,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "164",
-    "death_year": "244",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "skill_set": "3k_main_skillset_generic_villager_earth"
   },
   {
     "key": "3k_dlc04_template_historical_geng_bi_wood",
+    "faction_leader_of": [],
     "name_key": "geng_bi",
     "display_name": "Geng Bi",
     "display_name_alt": "耿鄙",
@@ -6968,7 +7507,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "155",
-    "death_year": "187",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_incompetent",
       "3k_main_ceo_trait_personality_reckless",
@@ -6978,6 +7517,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_geng_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "geng_ji",
     "display_name": "Geng Ji",
     "display_name_alt": "耿紀",
@@ -6994,16 +7534,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "174",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_geng_wu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "geng_wu",
     "display_name": "Geng Wu",
     "display_name_alt": "耿武",
@@ -7020,7 +7561,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "153",
-    "death_year": "191",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_stalwart",
       "3k_main_ceo_trait_personality_elusive",
@@ -7029,14 +7570,181 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_earth"
   },
   {
+    "key": "ironic_template_historical_gil_seon_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "gil_seon_ironic",
+    "display_name": "Gil Seon",
+    "display_name_alt": "吉宣",
+    "forename": "Seon",
+    "family_name": "Gil",
+    "forename_alt": "宣",
+    "family_name_alt": "吉",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Fugitive Traitor",
+    "description": "For a traitor who has shaken the realm to its core, exile remains the sole path to survival.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "146",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_stubborn"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal"
+  },
+  {
+    "key": "ironic_template_historical_go_bakwigeo_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "go_bakwigeo_ironic",
+    "display_name": "Go Bakwigeo",
+    "display_name_alt": "高駮位居",
+    "forename": "Bakwigeo",
+    "family_name": "Go",
+    "forename_alt": "駮位居",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Silent Son",
+    "description": "Go Bakwigeo remains silent even if his father rebels out of dissatisfaction with the throne, believing that such actions are wrong, and considers it unfilial to oppose them.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "180",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_stubborn"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_go_balgi_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "go_balgi_ironic",
+    "display_name": "Go Balgi",
+    "display_name_alt": "高發岐",
+    "forename": "Balgi",
+    "family_name": "Go",
+    "forename_alt": "發岐",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Rejected Heir",
+    "description": "Some princes are deemed unfit to ascend as heirs...",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "167",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_determined"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire_go_balgi"
+  },
+  {
+    "key": "ironic_template_historical_go_gyesu_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "go_gyesu_ironic",
+    "display_name": "Go Gyesu",
+    "display_name_alt": "高罽須",
+    "forename": "Gyesu",
+    "family_name": "Go",
+    "forename_alt": "罽須",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Noble Younger Brother",
+    "description": "One who humbly accepts the course of the world and understands his duty well merely fulfills his role.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "169",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_ytr_ceo_trait_personality_land_powerful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_go_ik_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "go_ik",
+    "display_name": "Go Ik",
+    "display_name_alt": "高翼",
+    "forename": "Ik",
+    "family_name": "Go",
+    "forename_alt": "翼",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Leader in Tranquility",
+    "description": "Is there any greater happiness than living peacefully in quiet lands, free from disaster?",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "190",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_competative"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_munseong_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_tamno_190"
+    ],
+    "name_key": "munseong",
+    "display_name": "Go Munseong",
+    "display_name_alt": "高文星",
+    "forename": "Munseong",
+    "family_name": "Go",
+    "forename_alt": "文星",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Unobscured Wisdom",
+    "description": "Those who approach others with humility and modesty often display the clearest wisdom and sharpest analysis.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "164",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_resourceful"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist"
+  },
+  {
     "key": "ironic_template_historical_gogukcheon_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_goguryeo_190"
+    ],
     "name_key": "gogukcheon",
-    "display_name": "Gogukcheon Gogukcheon",
-    "display_name_alt": "高男武高男武",
-    "forename": "Gogukcheon",
-    "family_name": "Gogukcheon",
-    "forename_alt": "高男武",
-    "family_name_alt": "高男武",
+    "display_name": "Go Nammu",
+    "display_name_alt": "高男武",
+    "forename": "Nammu",
+    "family_name": "Go",
+    "forename_alt": "男武",
+    "family_name_alt": "高",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "The Generous King",
@@ -7052,10 +7760,202 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_fiery",
       "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
+    "skill_set": "ironic_skillset_korea_minister_fire_gogukcheon"
+  },
+  {
+    "key": "ironic_template_historical_go_seongbang_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "go_seongbang",
+    "display_name": "Go Seongbang",
+    "display_name_alt": "高聖邦",
+    "forename": "Seongbang",
+    "family_name": "Go",
+    "forename_alt": "聖邦",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Aged Sage",
+    "description": "With the passage of time, wisdom naturally grows. If one’s youthful ambition and passion cool, and they come to understand when to step back, it may be a sign of true enlightenment.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "130",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_loyal"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth"
+  },
+  {
+    "key": "ironic_template_historical_go_su_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "go_su_ironic",
+    "display_name": "Go Su",
+    "display_name_alt": "高壽",
+    "forename": "Su",
+    "family_name": "Go",
+    "forename_alt": "壽",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Guardian of Etiquette and Tradition",
+    "description": "Upholding long-standing traditions and rituals in accordance with proper etiquette is deeply connected to the legitimacy of royal authority.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "210",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brave",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_fiery"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
+    "key": "ironic_template_historical_go_uru_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "go_uru_ironic",
+    "display_name": "Go Uru",
+    "display_name_alt": "高優婁",
+    "forename": "Uru",
+    "family_name": "Go",
+    "forename_alt": "優婁",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Prime Minister of Tranquil Reign",
+    "description": "Even after great storms have passed, some prepare the foundation for the future amid calm and peace.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "179",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_charismatic"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
+    "key": "ironic_template_historical_go_uwugeo_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "go_uwugeo_ironic",
+    "display_name": "Go Uwigeo",
+    "display_name_alt": "高憂位居",
+    "forename": "Uwigeo",
+    "family_name": "Go",
+    "forename_alt": "憂位居",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "King of Revival",
+    "description": "Though reaching the depths of ruin, through the support of countless loyal subjects and people, he rises once more.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "209",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_defiant"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
+    "key": "ironic_template_historical_go_yeonbul_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "go_yeonbul_ironic",
+    "display_name": "Go Yeonbul",
+    "display_name_alt": "高然弗",
+    "forename": "Yeonbul",
+    "family_name": "Go",
+    "forename_alt": "然弗",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Unshakable Royal Authority",
+    "description": "Amid external invasions and internal rebellions, the fragile foundation of the nation was strengthened once again through unwavering determination.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "224",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_ambitious"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
+    "key": "ironic_template_historical_go_yeonu_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "go_yeonu_ironic",
+    "display_name": "Go Yeonu",
+    "display_name_alt": "高延優",
+    "forename": "Yeonu",
+    "family_name": "Go",
+    "forename_alt": "延優",
+    "family_name_alt": "高",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Chosen Prince",
+    "description": "By the will of a single choice, one once a mere prince is destined to take the throne.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "168",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_resourceful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth_go_yeonu"
+  },
+  {
+    "key": "ironic_template_historical_gon_no_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "gon_no_ironic",
+    "display_name": "Gon No",
+    "display_name_alt": "昆奴",
+    "forename": "No",
+    "family_name": "Gon",
+    "forename_alt": "奴",
+    "family_name_alt": "昆",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Resolute Captain of the Guard",
+    "description": "Protecting the capital and guarding the king is an honorable duty.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "218",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_ytr_ceo_trait_personality_people_stern"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal"
   },
   {
     "key": "3k_ytr_template_historical_gong_du_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_yellow_anding_ruler"
+    ],
     "name_key": "gong_du",
     "display_name": "Gong Du",
     "display_name_alt": "龔都",
@@ -7082,6 +7982,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gong_lu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gong_lu",
     "display_name": "Gong Lu",
     "display_name_alt": "龔祿",
@@ -7100,21 +8001,49 @@ const CHARACTER_DATA = [
     "birth_year": "195",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
+    "key": "ironic_template_historical_gong_zhi_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "gong_zhi_ironic",
+    "display_name": "Gong Zhi",
+    "display_name_alt": "鞏志",
+    "forename": "Zhi",
+    "family_name": "Gong",
+    "forename_alt": "志",
+    "family_name_alt": "鞏",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Caustic Crossbowman",
+    "description": "That's it my lord...just look away, look over there... Yes, look at the pretty flowers... keep looking at the flowers...",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "172",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_patient"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_metal"
+  },
+  {
     "key": "ironic_template_historical_gongsun_baoyue_hero_earth",
+    "faction_leader_of": [],
     "name_key": "gongsun_baoyue",
     "display_name": "Gongsun Baoyue",
     "display_name_alt": "公孫宝月",
     "forename": "Baoyue",
     "family_name": "Gongsun",
-    "forename_alt": "宝月",
-    "family_name_alt": "公孫",
+    "forename_alt": "孫宝月",
+    "family_name_alt": "公",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Moonlit Bladeswoman",
@@ -7134,6 +8063,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gongsun_du_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_gongsun_du_190"
+    ],
     "name_key": "gongsun_du",
     "display_name": "Gongsun Du",
     "display_name_alt": "公孫度",
@@ -7150,7 +8082,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "148",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cruel",
       "3k_main_ceo_trait_personality_determined",
@@ -7160,6 +8092,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gongsun_fan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gongsun_fan",
     "display_name": "Gongsun Fan",
     "display_name_alt": "公孫範",
@@ -7186,6 +8119,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gongsun_gong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "gongsun_gong",
     "display_name": "Gongsun Gong",
     "display_name_alt": "公孫恭",
@@ -7212,6 +8146,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_gongsun_hong_hero_water",
+    "faction_leader_of": [],
     "name_key": "gongsun_hong",
     "display_name": "Gongsun Hong",
     "display_name_alt": "公孫宏",
@@ -7238,6 +8173,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_gongsun_jinting_hero_water",
+    "faction_leader_of": [],
     "name_key": "gongsun_jinting",
     "display_name": "Gongsun Jinting",
     "display_name_alt": "公孫金婷",
@@ -7256,14 +8192,15 @@ const CHARACTER_DATA = [
     "birth_year": "156",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_dutiful"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_ytr_ceo_trait_personality_people_cheerful"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_gongsun_kang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "gongsun_kang",
     "display_name": "Gongsun Kang",
     "display_name_alt": "公孫康",
@@ -7290,6 +8227,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_gongsun_mo_hero_wood",
+    "faction_leader_of": [],
     "name_key": "gongsun_mo",
     "display_name": "Gongsun Mo",
     "display_name_alt": "公孫莫",
@@ -7316,6 +8254,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gongsun_xiu_hero_water",
+    "faction_leader_of": [],
     "name_key": "gongsun_xiu",
     "display_name": "Gongsun Xiu",
     "display_name_alt": "公孫脩",
@@ -7332,16 +8271,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "197",
-    "death_year": "238",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
       "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_disciplined"
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_ytr_ceo_trait_physical_feared"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_gongsun_xu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gongsun_xu",
     "display_name": "Gongsun Xu",
     "display_name_alt": "公孫續",
@@ -7358,7 +8298,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_determined",
@@ -7368,6 +8308,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_gongsun_ya_hero_water",
+    "faction_leader_of": [],
     "name_key": "gongsun_ya",
     "display_name": "Gongsun Ya",
     "display_name_alt": "公孫雅",
@@ -7394,6 +8335,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_gong_father_son_fire",
+    "faction_leader_of": [],
     "name_key": "gong_father_son",
     "display_name": "Gongsun You",
     "display_name_alt": "公孫酉",
@@ -7412,14 +8354,15 @@ const CHARACTER_DATA = [
     "birth_year": "155",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_ytr_ceo_trait_personality_vindictive",
       "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "ironic_template_historical_gongsun_father_fire",
+    "faction_leader_of": [],
     "name_key": "gongsun_father",
     "display_name": "Gongsun Yu",
     "display_name_alt": "公孫㝢",
@@ -7438,14 +8381,15 @@ const CHARACTER_DATA = [
     "birth_year": "120",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_arrogant"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_gongsun_yuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gongsun_yuan",
     "display_name": "Gongsun Yuan",
     "display_name_alt": "公孫淵",
@@ -7462,16 +8406,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "210",
-    "death_year": "238",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_ytr_ceo_trait_personality_vindictive",
       "3k_main_ceo_trait_personality_arrogant"
     ],
-    "skill_set": "3k_main_skillset_generic_minister_fire"
+    "skill_set": "3k_main_skillset_gongsun_yuan_minister_fire"
   },
   {
     "key": "3k_main_template_historical_gongsun_yue_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gongsun_yue",
     "display_name": "Gongsun Yue",
     "display_name_alt": "公孫越",
@@ -7488,7 +8433,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "164",
-    "death_year": "191",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_trustworthy",
       "3k_main_ceo_trait_personality_careless",
@@ -7498,6 +8443,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_gongsun_zan_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_gongsun_zan_ruler"
+    ],
     "name_key": "gongsun_zan",
     "display_name": "Gongsun Zan",
     "display_name_alt": "公孫瓚",
@@ -7514,7 +8462,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "152",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_indecisive",
       "3k_main_ceo_trait_personality_determined",
@@ -7524,6 +8472,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_generated_gongxu_yan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gongxu_yan",
     "display_name": "Gongxu Yan",
     "display_name_alt": "公緒顏",
@@ -7542,14 +8491,15 @@ const CHARACTER_DATA = [
     "birth_year": "169",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_ytr_ceo_trait_personality_relentless",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_solitary"
     ],
     "skill_set": "3k_ytr_skillset_romance_generic_official_scholar"
   },
   {
     "key": "ironic_template_historical_gu_hui_hero_wood",
+    "faction_leader_of": [],
     "name_key": "gu_hui",
     "display_name": "Gu Hui",
     "display_name_alt": "顧徽",
@@ -7576,6 +8526,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_gu_li_hero_wood",
+    "faction_leader_of": [],
     "name_key": "gu_li",
     "display_name": "Gu Li",
     "display_name_alt": "谷利",
@@ -7602,6 +8553,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_han_ruilan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "han_ruilan",
     "display_name": "Gu Ruilan",
     "display_name_alt": "古瑞蘭",
@@ -7628,6 +8580,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_gu_shao_hero_water",
+    "faction_leader_of": [],
     "name_key": "gu_shao",
     "display_name": "Gu Shao",
     "display_name_alt": "顧邵",
@@ -7653,7 +8606,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
+    "key": "ironic_template_historical_gu_suhye_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "gu_suhye_ironic",
+    "display_name": "Gu Suhyeo",
+    "display_name_alt": "仇須兮",
+    "forename": "Suhyeo",
+    "family_name": "Gu",
+    "forename_alt": "須兮",
+    "family_name_alt": "仇",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Seasoned General",
+    "description": "There is no one more threatening to the enemy and reliable to allies than a general who has long roamed the battlefield.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "156",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_land_alert"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal"
+  },
+  {
     "key": "ep_template_historical_lady_gu_yanyan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gu_yanyan",
     "display_name": "Gu Yanyan",
     "display_name_alt": "古豔豔",
@@ -7672,14 +8653,15 @@ const CHARACTER_DATA = [
     "birth_year": "273",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "skill_set": "3k_main_skillset_generic_agent_metal"
   },
   {
     "key": "3k_main_template_historical_gu_yong_hero_water",
+    "faction_leader_of": [],
     "name_key": "gu_yong",
     "display_name": "Gu Yong",
     "display_name_alt": "顧雍",
@@ -7696,7 +8678,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "243",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_aescetic",
       "3k_ytr_ceo_trait_personality_heaven_honest",
@@ -7706,6 +8688,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_gu_zhen_hero_wood",
+    "faction_leader_of": [],
     "name_key": "gu_zhen",
     "display_name": "Gu Zhen",
     "display_name_alt": "谷軫",
@@ -7724,40 +8707,15 @@ const CHARACTER_DATA = [
     "birth_year": "269",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_wood"
   },
   {
-    "key": "3k_main_template_historical_guan_chun_hero_water",
-    "name_key": "guan_chun",
-    "display_name": "Guan Chun",
-    "display_name_alt": "關純",
-    "forename": "Chun",
-    "family_name": "Guan",
-    "forename_alt": "純",
-    "family_name_alt": "關",
-    "courtesy_name": "Bodian",
-    "courtesy_name_alt": "伯典",
-    "title": "Soft Spoken Strategist",
-    "description": "Even the most masterful of plans can fail if one lacks confidence or charisma to convince your lord.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": true,
-    "is_unique": true,
-    "birth_year": "166",
-    "death_year": "191",
-    "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_ytr_ceo_trait_personality_land_aspiring"
-    ],
-    "skill_set": "3k_main_skillset_generic_minister_water_strategist"
-  },
-  {
     "key": "3k_ytr_template_historical_guan_hai_hero_wood",
+    "faction_leader_of": [],
     "name_key": "guan_hai",
     "display_name": "Guan Hai",
     "display_name_alt": "管亥",
@@ -7784,6 +8742,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guan_jing_hero_water",
+    "faction_leader_of": [],
     "name_key": "guan_jing",
     "display_name": "Guan Jing",
     "display_name_alt": "關靖",
@@ -7800,7 +8759,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_clever",
       "3k_main_ceo_trait_personality_humble",
@@ -7810,6 +8769,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guan_lu_hero_water",
+    "faction_leader_of": [],
     "name_key": "guan_lu",
     "display_name": "Guan Lu",
     "display_name_alt": "管輅",
@@ -7826,16 +8786,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209",
-    "death_year": "256",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_personality_charitable"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_guan_ning_hero_water",
+    "faction_leader_of": [],
     "name_key": "guan_ning",
     "display_name": "Guan Ning",
     "display_name_alt": "管寧",
@@ -7852,7 +8813,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "158",
-    "death_year": "241",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_aescetic",
@@ -7862,6 +8823,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guan_ping_hero_fire",
+    "faction_leader_of": [],
     "name_key": "guan_ping",
     "display_name": "Guan Ping",
     "display_name_alt": "關平",
@@ -7878,7 +8840,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "182",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_strong",
       "3k_main_ceo_trait_personality_loyal",
@@ -7888,6 +8850,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guan_xing_hero_wood",
+    "faction_leader_of": [],
     "name_key": "guan_xing",
     "display_name": "Guan Xing",
     "display_name_alt": "關興",
@@ -7914,6 +8877,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_guan_yinping_hero_wood",
+    "faction_leader_of": [],
     "name_key": "guan_yinping",
     "display_name": "Guan Yinping",
     "display_name_alt": "關銀屏",
@@ -7932,14 +8896,15 @@ const CHARACTER_DATA = [
     "birth_year": "204",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_ytr_ceo_trait_personality_land_aspiring"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_physical_mad"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_mtu_template_historical_lady_guan_yinping_hero_wood",
+    "faction_leader_of": [],
     "name_key": "guan_yinping",
     "display_name": "Guan Yinping",
     "display_name_alt": "關銀屏",
@@ -7966,6 +8931,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guan_yu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "guan_yu",
     "display_name": "Guan Yu",
     "display_name_alt": "關羽",
@@ -7982,7 +8948,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fraternal",
       "3k_main_ceo_trait_personality_honourable",
@@ -7992,6 +8958,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guanqiu_dian_hero_water",
+    "faction_leader_of": [],
     "name_key": "guanqiu_dian",
     "display_name": "Guanqiu Dian",
     "display_name_alt": "毌丘甸",
@@ -8008,16 +8975,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "206",
-    "death_year": "255",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_disciplined"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_gui_lan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gui_lan",
     "display_name": "Gui Lan",
     "display_name_alt": "媯覽",
@@ -8034,7 +9002,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_elusive",
       "3k_main_ceo_trait_personality_cruel",
@@ -8044,6 +9012,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_lu_zheng_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_zheng",
     "display_name": "Gui Zheng",
     "display_name_alt": "圭政",
@@ -8062,14 +9031,15 @@ const CHARACTER_DATA = [
     "birth_year": "165",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "skill_set": "3k_dlc05_skillset_generic_bandit_agent_water_strategist"
   },
   {
     "key": "ironic_template_historical_gujin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gujin",
     "display_name": "Gujin",
     "display_name_alt": "骨進",
@@ -8095,7 +9065,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_wuhuan_general_fire"
   },
   {
+    "key": "ironic_template_historical_guk_ryang_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "guk_ryang_ironic",
+    "display_name": "Guk Ryang",
+    "display_name_alt": "國良",
+    "forename": "Ryang",
+    "family_name": "Guk",
+    "forename_alt": "良",
+    "family_name_alt": "國",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Magnanimous Commander",
+    "description": "Following a broad-minded general may not be arduous, but some may sense a certain laxness.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "163",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_resourceful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
     "key": "3k_ytr_template_historical_guo_da_hero_metal",
+    "faction_leader_of": [],
     "name_key": "guo_da",
     "display_name": "Guo Da",
     "display_name_alt": "郭大",
@@ -8122,6 +9120,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_guo_gong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "guo_gong",
     "display_name": "Guo Gong",
     "display_name_alt": "郭貢",
@@ -8148,6 +9147,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guo_huai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "guo_huai",
     "display_name": "Guo Huai",
     "display_name_alt": "郭淮",
@@ -8164,16 +9164,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "187",
-    "death_year": "255",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_stern",
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_cautious"
     ],
-    "skill_set": "3k_main_skillset_generic_minister_earth"
+    "skill_set": "3k_main_skillset_guo_huai_general_earth"
   },
   {
     "key": "3k_main_template_historical_guo_jia_hero_water",
+    "faction_leader_of": [],
     "name_key": "guo_jia",
     "display_name": "Guo Jia",
     "display_name_alt": "郭嘉",
@@ -8190,7 +9191,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "207",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_personality_brilliant",
@@ -8200,6 +9201,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guo_nuwang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "guo_nuwang",
     "display_name": "Guo Nüwang",
     "display_name_alt": "郭女王",
@@ -8216,7 +9218,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "184",
-    "death_year": "235",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_fertile",
       "3k_main_ceo_trait_personality_dutiful",
@@ -8226,6 +9228,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_guo_sheng_metal",
+    "faction_leader_of": [],
     "name_key": "guo_sheng",
     "display_name": "Guo Sheng",
     "display_name_alt": "郭勝",
@@ -8242,7 +9245,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_ytr_ceo_trait_personality_heaven_honest",
@@ -8253,6 +9256,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guo_si_hero_fire",
+    "faction_leader_of": [],
     "name_key": "guo_si",
     "display_name": "Guo Si",
     "display_name_alt": "郭汜",
@@ -8269,7 +9273,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "153",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_main_ceo_trait_personality_suspicious",
@@ -8279,6 +9283,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guo_tu_hero_water",
+    "faction_leader_of": [],
     "name_key": "guo_tu",
     "display_name": "Guo Tu",
     "display_name_alt": "郭圖",
@@ -8295,7 +9300,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159",
-    "death_year": "205",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_unobservant",
       "3k_main_ceo_trait_personality_vain",
@@ -8305,6 +9310,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guo_xian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "guo_xian",
     "display_name": "Guo Xian",
     "display_name_alt": "郭憲",
@@ -8323,14 +9329,15 @@ const CHARACTER_DATA = [
     "birth_year": "199",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ],
     "skill_set": "3k_main_skillset_generic_agent_metal"
   },
   {
     "key": "ironic_template_historical_guo_xian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "guo_xian",
     "display_name": "Guo Xian",
     "display_name_alt": "郭宪",
@@ -8357,6 +9364,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_guo_yuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "guo_yuan",
     "display_name": "Guo Yuan",
     "display_name_alt": "郭援",
@@ -8373,7 +9381,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "152",
-    "death_year": "202",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_vengeful",
       "3k_main_ceo_trait_personality_loyal",
@@ -8383,6 +9391,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_gurudun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "gurudun",
     "display_name": "Gurudun",
     "display_name_alt": "寇婁敦",
@@ -8408,7 +9417,64 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_wuhuan_governor_fire"
   },
   {
+    "key": "ironic_template_historical_ganwigeo_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_buyeo_190"
+    ],
+    "name_key": "ganwigeo",
+    "display_name": "Hae Ganwigeo",
+    "display_name_alt": "解簡位居",
+    "forename": "Ganwigeo",
+    "family_name": "Hae",
+    "forename_alt": "簡位居",
+    "family_name_alt": "解",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Flames of the Radiant Sun",
+    "description": "The pride borne from a lineage claiming descent from the sun shines as brightly as the sunlight itself, yet it is akin to a flame that may soon flicker and fade.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "146",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_direct"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_fire"
+  },
+  {
+    "key": "ironic_template_historical_hae_mayeo_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "hae_mayeo",
+    "display_name": "Hae Mayeo",
+    "display_name_alt": "解麻余",
+    "forename": "Mayeo",
+    "family_name": "Hae",
+    "forename_alt": "麻余",
+    "family_name_alt": "解",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Faint Sunlight",
+    "description": "Compared to a father whose light is fierce and intense, Hae mayeo casts a deep shadow due to her fragile constitution.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "168",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_determined"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth"
+  },
+  {
     "key": "3k_main_template_generated_lady_han_anyue_hero_metal",
+    "faction_leader_of": [],
     "name_key": "han_anyue",
     "display_name": "Han Anyue",
     "display_name_alt": "韓安月",
@@ -8435,6 +9501,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_han_chong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "han_chong",
     "display_name": "Han Chong",
     "display_name_alt": "韓崇",
@@ -8461,6 +9528,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_han_dang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "han_dang",
     "display_name": "Han Dang",
     "display_name_alt": "韓當",
@@ -8477,7 +9545,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_sincere",
@@ -8486,7 +9554,37 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_han_dang_general_fire"
   },
   {
+    "key": "3k_main_template_historical_min_chun_hero_water",
+    "faction_leader_of": [],
+    "name_key": "min_chun",
+    "display_name": "Han Duantui",
+    "display_name_alt": "韓断腿",
+    "forename": "Duantui",
+    "family_name": "Han",
+    "forename_alt": "断腿",
+    "family_name_alt": "韓",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "placeholder",
+    "description": "placeholder",
+    "element": "water",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "176",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_direct"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_fire"
+  },
+  {
     "key": "3k_main_template_historical_han_fu_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_han_fu_190"
+    ],
     "name_key": "han_fu",
     "display_name": "Han Fu",
     "display_name_alt": "韓馥",
@@ -8503,7 +9601,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "149",
-    "death_year": "191",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_trusting",
       "3k_main_ceo_trait_personality_humble",
@@ -8513,6 +9611,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_han_hao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "han_hao",
     "display_name": "Han Hao",
     "display_name_alt": "韓浩",
@@ -8539,6 +9638,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_han_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "han_ji",
     "display_name": "Han Ji",
     "display_name_alt": "韓暨",
@@ -8554,8 +9654,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "159",
-    "death_year": "238",
+    "birth_year": "210",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_humble",
@@ -8565,6 +9665,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_han_juzi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "han_juzi",
     "display_name": "Han Juzi",
     "display_name_alt": "韓子",
@@ -8583,14 +9684,15 @@ const CHARACTER_DATA = [
     "birth_year": "161",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_dlc04_template_historical_han_kui_earth",
+    "faction_leader_of": [],
     "name_key": "han_kui",
     "display_name": "Han Kui",
     "display_name_alt": "韓悝",
@@ -8618,6 +9720,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_han_lian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "han_lian",
     "display_name": "Han Lian",
     "display_name_alt": "韓麗安",
@@ -8644,6 +9747,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_han_ran_hero_water",
+    "faction_leader_of": [],
     "name_key": "han_ran",
     "display_name": "Han Ran",
     "display_name_alt": "韓冉",
@@ -8662,14 +9766,15 @@ const CHARACTER_DATA = [
     "birth_year": "187",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_clever"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_han_rong_hero_water",
+    "faction_leader_of": [],
     "name_key": "han_rong",
     "display_name": "Han Rong",
     "display_name_alt": "韓融",
@@ -8688,14 +9793,15 @@ const CHARACTER_DATA = [
     "birth_year": "155",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_stubborn"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_physical_handsome",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "ironic_template_historical_han_song_hero_metal",
+    "faction_leader_of": [],
     "name_key": "han_song",
     "display_name": "Han Song",
     "display_name_alt": "韓嵩",
@@ -8722,6 +9828,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_han_sui_hero_metal",
+    "faction_leader_of": [
+      "ironic_main_han_sui_faction_leader"
+    ],
     "name_key": "han_sui",
     "display_name": "Han Sui",
     "display_name_alt": "韓遂",
@@ -8738,7 +9847,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "144",
-    "death_year": "215",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_stubborn",
       "3k_main_ceo_trait_personality_sincere",
@@ -8748,6 +9857,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_han_tong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "han_tong",
     "display_name": "Han Tong",
     "display_name_alt": "韓同",
@@ -8774,6 +9884,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_han_xi_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "han_xi_ironic",
     "display_name": "Han Xi",
     "display_name_alt": "韓晞",
@@ -8800,6 +9911,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_han_xian_hero_water",
+    "faction_leader_of": [],
     "name_key": "han_xian",
     "display_name": "Han Xian",
     "display_name_alt": "韓暹",
@@ -8816,7 +9928,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_alert",
       "3k_main_ceo_trait_personality_ambitious",
@@ -8826,6 +9938,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_han_xin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "han_xin",
     "display_name": "Han Xin",
     "display_name_alt": "韓歆",
@@ -8852,6 +9965,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_han_xuan_hero_water",
+    "faction_leader_of": [],
     "name_key": "han_xuan",
     "display_name": "Han Xuan",
     "display_name_alt": "韓玄",
@@ -8878,6 +9992,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_han_yan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "han_yan",
     "display_name": "Han Yan",
     "display_name_alt": "韩晏",
@@ -8904,6 +10019,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_han_yin_hero_water",
+    "faction_leader_of": [],
     "name_key": "han_yin",
     "display_name": "Han Yin",
     "display_name_alt": "韓胤",
@@ -8920,16 +10036,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "157",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
+      "3k_main_ceo_trait_personality_resourceful",
       "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_land_aspiring"
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_han_zhong_water",
+    "faction_leader_of": [],
     "name_key": "han_zhong",
     "display_name": "Han Zhong",
     "display_name_alt": "韓忠",
@@ -8946,7 +10063,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162",
-    "death_year": "184",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_relentless",
       "3k_main_ceo_trait_personality_brave",
@@ -8956,6 +10073,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_handan_chun_hero_water",
+    "faction_leader_of": [],
     "name_key": "handan_chun",
     "display_name": "Handan Chun",
     "display_name_alt": "邯鄲淳",
@@ -8974,14 +10092,15 @@ const CHARACTER_DATA = [
     "birth_year": "132",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "3k_main_template_historical_handan_shang_hero_water",
+    "faction_leader_of": [],
     "name_key": "handan_shang",
     "display_name": "Handan Shang",
     "display_name_alt": "邯鄲商",
@@ -9000,14 +10119,17 @@ const CHARACTER_DATA = [
     "birth_year": "153",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_direct"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_handan_shang_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_handan_shang_190"
+    ],
     "name_key": "handan_shang",
     "display_name": "Handan Shang",
     "display_name_alt": "邯鄲尚",
@@ -9034,6 +10156,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hao_meng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "hao_meng",
     "display_name": "Hao Meng",
     "display_name_alt": "郝萌",
@@ -9050,7 +10173,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "196",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_competative",
       "3k_main_ceo_trait_personality_reckless",
@@ -9060,6 +10183,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_hao_pu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "hao_pu",
     "display_name": "Hao Pu",
     "display_name_alt": "郝普",
@@ -9076,7 +10200,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "172",
-    "death_year": "230",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fraternal",
       "3k_main_ceo_trait_personality_incompetent",
@@ -9086,6 +10210,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_he_da_hero_fire",
+    "faction_leader_of": [],
     "name_key": "he_da",
     "display_name": "He Da",
     "display_name_alt": "賀達",
@@ -9104,14 +10229,15 @@ const CHARACTER_DATA = [
     "birth_year": "178",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_dlc04_template_historical_he_jin_metal",
+    "faction_leader_of": [],
     "name_key": "he_jin",
     "display_name": "He Jin",
     "display_name_alt": "何進",
@@ -9128,7 +10254,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_dutiful",
@@ -9138,6 +10264,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_he_kui_hero_wood",
+    "faction_leader_of": [],
     "name_key": "he_kui",
     "display_name": "He Kui",
     "display_name_alt": "何夔",
@@ -9145,8 +10272,8 @@ const CHARACTER_DATA = [
     "family_name": "He",
     "forename_alt": "夔",
     "family_name_alt": "何",
-    "courtesy_name": "Shulong",
-    "courtesy_name_alt": "叔龍",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "placeholder",
     "description": "placeholder",
     "element": "wood",
@@ -9164,6 +10291,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_he_luan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "he_luan",
     "display_name": "He Luan",
     "display_name_alt": "和鸞",
@@ -9190,6 +10318,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_he_lun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "he_lun",
     "display_name": "He Lun",
     "display_name_alt": "何倫",
@@ -9216,6 +10345,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_he_man_hero_metal",
+    "faction_leader_of": [],
     "name_key": "he_man",
     "display_name": "He Man",
     "display_name_alt": "何曼",
@@ -9242,6 +10372,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_he_qi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "he_qi",
     "display_name": "He Qi",
     "display_name_alt": "賀齊",
@@ -9258,7 +10389,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "227",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_energetic",
       "3k_main_ceo_trait_personality_vain",
@@ -9268,6 +10399,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_he_qia_ironic_hero_fire",
+    "faction_leader_of": [],
     "name_key": "he_qia_ironic",
     "display_name": "He Xia",
     "display_name_alt": "和洽",
@@ -9275,8 +10407,8 @@ const CHARACTER_DATA = [
     "family_name": "He",
     "forename_alt": "洽",
     "family_name_alt": "和",
-    "courtesy_name": "Yangshi",
-    "courtesy_name_alt": "陽士",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Filial and Frugal",
     "description": "A man of great moral integrity, He Qia lives a simple and modest life even as his status rises to the high eschelons.",
     "element": "fire",
@@ -9294,6 +10426,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_he_xiong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "he_xiong",
     "display_name": "He Xiong",
     "display_name_alt": "何雄",
@@ -9320,6 +10453,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_he_yan_hero_water",
+    "faction_leader_of": [],
     "name_key": "he_yan",
     "display_name": "He Yan",
     "display_name_alt": "何晏",
@@ -9336,16 +10470,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "193",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_energetic"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_ytr_template_historical_he_yi_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_yellow_turban_ruler"
+    ],
     "name_key": "he_yi",
     "display_name": "He Yi",
     "display_name_alt": "何儀",
@@ -9372,6 +10509,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_he_zeng_hero_water",
+    "faction_leader_of": [],
     "name_key": "he_zeng",
     "display_name": "He Zeng",
     "display_name_alt": "何曾",
@@ -9388,16 +10526,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "199",
-    "death_year": "279",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "ironic_template_historical_he_zong_ironic_hero_water",
+    "faction_leader_of": [],
     "name_key": "he_zong_ironic",
     "display_name": "He Zong",
     "display_name_alt": "何宗",
@@ -9424,6 +10563,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_helian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "helian",
     "display_name": "Helian",
     "display_name_alt": "和連",
@@ -9442,14 +10582,15 @@ const CHARACTER_DATA = [
     "birth_year": "165",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_defiant"
     ],
     "skill_set": "3k_main_skillset_generic_agent_metal"
   },
   {
     "key": "ironic_template_historical_heng_ruiling_hero_earth",
+    "faction_leader_of": [],
     "name_key": "heng_ruiling",
     "display_name": "Heng Ruiling",
     "display_name_alt": "衡睿伶",
@@ -9475,7 +10616,89 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
+    "key": "ironic_template_historical_heo_hwangok_hero_water",
+    "faction_leader_of": [],
+    "name_key": "heo_hwangok",
+    "display_name": "Heo Hwangok",
+    "display_name_alt": "許黃玉",
+    "forename": "Hwangok",
+    "family_name": "Heo",
+    "forename_alt": "黃玉",
+    "family_name_alt": "許",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Marriage Across the Sea",
+    "description": "The steadfastness of a woman who crosses the sea to a distant land in marriage is truly deserving of blessing.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "132",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_main_ceo_trait_personality_charitable"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist_heo_hwangok"
+  },
+  {
+    "key": "ironic_template_historical_heung_seon_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "heung_seon_ironic",
+    "display_name": "Heung Seon",
+    "display_name_alt": "興宣",
+    "forename": "Seon",
+    "family_name": "Heung",
+    "forename_alt": "宣",
+    "family_name_alt": "興",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Master of Siege Tactics",
+    "description": "Conquering a fortress is not just about numbers but about employing various strategies and tactics to overwhelm the enemy.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "142",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_dutiful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_hoe_hoe_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "hoe_hoe_ironic",
+    "display_name": "Hoe Hoe",
+    "display_name_alt": "茴會",
+    "forename": "Hoe",
+    "family_name": "Hoe",
+    "forename_alt": "會",
+    "family_name_alt": "茴",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Perceptive Noble",
+    "description": "The foundation of becoming a great noble family is always the ability to quickly sense political changes.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_determined"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth"
+  },
+  {
     "key": "ironic_template_historical_hong_jin_hero_earth",
+    "faction_leader_of": [],
     "name_key": "hong_jin",
     "display_name": "Hong Jin",
     "display_name_alt": "洪進",
@@ -9502,6 +10725,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hong_ming_hero_wood",
+    "faction_leader_of": [],
     "name_key": "hong_ming",
     "display_name": "Hong Ming",
     "display_name_alt": "洪明",
@@ -9528,6 +10752,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_hou_cheng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "hou_cheng",
     "display_name": "Hou Cheng",
     "display_name_alt": "侯成",
@@ -9554,6 +10779,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_gongsun_jinting_hero_water",
+    "faction_leader_of": [],
     "name_key": "gongsun_jinting",
     "display_name": "Hou Jinting",
     "display_name_alt": "侯金婷",
@@ -9580,6 +10806,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_hou_xuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "hou_xuan",
     "display_name": "Hou Xuan",
     "display_name_alt": "侯選",
@@ -9607,6 +10834,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hou_yin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "hou_yin",
     "display_name": "Hou Yin",
     "display_name_alt": "侯音",
@@ -9623,7 +10851,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_enigmatic",
       "3k_main_ceo_trait_personality_defiant",
@@ -9632,33 +10860,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_envoy_metal"
   },
   {
-    "key": "ironic_template_historical_hu_yu_ironic_hero_metal",
-    "name_key": "hu_yu_ironic",
-    "display_name": "Hu",
-    "display_name_alt": "扈",
-    "forename": "",
-    "family_name": "Hu",
-    "forename_alt": "",
-    "family_name_alt": "扈",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Headstrong Battlemaiden",
-    "description": "Very much against her parents' wishes, this one takes up arms, dons armour and heads into the fray herself.",
-    "element": "metal",
-    "subtype": "3k_general_metal",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "179",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_careless",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_determined"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_metal"
-  },
-  {
     "key": "ironic_template_historical_hu_cai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "hu_cai",
     "display_name": "Hu Cai",
     "display_name_alt": "胡才",
@@ -9685,6 +10888,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hu_feng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "hu_feng",
     "display_name": "Hu Feng",
     "display_name_alt": "胡封",
@@ -9703,14 +10907,15 @@ const CHARACTER_DATA = [
     "birth_year": "151",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_hu_man_ironic_hero_earth",
+    "faction_leader_of": [],
     "name_key": "hu_man_ironic",
     "display_name": "Hu Man",
     "display_name_alt": "扈曼",
@@ -9737,6 +10942,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_hu_mao_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_hu_mao_190"
+    ],
     "name_key": "hu_mao",
     "display_name": "Hu Mao",
     "display_name_alt": "扈瑁",
@@ -9763,6 +10971,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_hu_qian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "hu_qian",
     "display_name": "Hu Qian",
     "display_name_alt": "胡潛",
@@ -9788,7 +10997,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_earth"
   },
   {
+    "key": "ironic_template_historical_hu_yu_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "hu_yu_ironic",
+    "display_name": "Hu Yu",
+    "display_name_alt": "扈雨",
+    "forename": "Yu",
+    "family_name": "Hu",
+    "forename_alt": "雨",
+    "family_name_alt": "扈",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Headstrong Battlemaiden",
+    "description": "Very much against her parents' wishes, this one takes up arms, dons armour and heads into the fray herself.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "179",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_careless",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_determined"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_metal"
+  },
+  {
     "key": "3k_main_template_historical_hu_zhao_hero_water",
+    "faction_leader_of": [],
     "name_key": "hu_zhao",
     "display_name": "Hu Zhao",
     "display_name_alt": "胡昭",
@@ -9805,16 +11042,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162",
-    "death_year": "250",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ironic_template_historical_hu_zhen_hero_earth",
+    "faction_leader_of": [],
     "name_key": "hu_zhen",
     "display_name": "Hu Zhen",
     "display_name_alt": "胡軫",
@@ -9841,6 +11079,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hu_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "hu_zhi",
     "display_name": "Hu Zhi",
     "display_name_alt": "胡質",
@@ -9857,16 +11096,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "217",
-    "death_year": "250",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_loyal"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_hu_zong_hero_water",
+    "faction_leader_of": [],
     "name_key": "hu_zong",
     "display_name": "Hu Zong",
     "display_name_alt": "胡綜",
@@ -9883,16 +11123,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "185",
-    "death_year": "243",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_hua_biao_hero_water",
+    "faction_leader_of": [],
     "name_key": "hua_biao",
     "display_name": "Hua Biao",
     "display_name_alt": "華表",
@@ -9909,16 +11150,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "204",
-    "death_year": "275",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_arrogant"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ironic_template_historical_hua_dang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "hua_dang",
     "display_name": "Hua Dang",
     "display_name_alt": "華當",
@@ -9945,6 +11187,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_hua_ji_hero_wood",
+    "faction_leader_of": [],
     "name_key": "hua_ji",
     "display_name": "Hua Ji",
     "display_name_alt": "华缉",
@@ -9971,6 +11214,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_lady_hua_jinting_hero_water",
+    "faction_leader_of": [],
     "name_key": "hua_jinting",
     "display_name": "Hua Jinting",
     "display_name_alt": "華金婷",
@@ -9989,14 +11233,15 @@ const CHARACTER_DATA = [
     "birth_year": "272",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_brilliant"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_mtu_template_historical_lady_ma_lanli_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ma_lanli",
     "display_name": "Hua Lanli",
     "display_name_alt": "華蘭麗",
@@ -10023,6 +11268,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hua_rong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "hua_rong",
     "display_name": "Hua Rong",
     "display_name_alt": "華融",
@@ -10041,14 +11287,15 @@ const CHARACTER_DATA = [
     "birth_year": "216",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_main_template_historical_hua_tuo_hero_water",
+    "faction_leader_of": [],
     "name_key": "hua_tuo",
     "display_name": "Hua Tuo",
     "display_name_alt": "華佗",
@@ -10065,7 +11312,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_resourceful",
       "3k_main_ceo_trait_personality_clever",
@@ -10075,6 +11322,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hua_xin_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_hua_xin_190"
+    ],
     "name_key": "hua_xin",
     "display_name": "Hua Xin",
     "display_name_alt": "華歆",
@@ -10091,7 +11341,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "157",
-    "death_year": "231",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cowardly",
       "3k_main_ceo_trait_personality_artful",
@@ -10101,6 +11351,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_hua_xiong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "hua_xiong",
     "display_name": "Hua Xiong",
     "display_name_alt": "華雄",
@@ -10117,7 +11368,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "154",
-    "death_year": "191",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_vengeful",
       "3k_main_ceo_trait_personality_fiery",
@@ -10127,6 +11378,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_cai_yan_hero_water",
+    "faction_leader_of": [],
     "name_key": "cai_yan",
     "display_name": "Hua Yan",
     "display_name_alt": "華琰",
@@ -10136,8 +11388,8 @@ const CHARACTER_DATA = [
     "family_name_alt": "華",
     "courtesy_name": "Wenji",
     "courtesy_name_alt": "文姬",
-    "title": "Tragic Writer",
-    "description": "She never gave up in life - her art and her will were passed on from generation to generation.",
+    "title": "The Nightingale",
+    "description": "Even the morningsong that drifts on the wind cannot compare to the sweet lyric of the muse.",
     "element": "water",
     "subtype": "3k_general_water",
     "is_male": false,
@@ -10153,6 +11405,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_yuan_anyang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_anyang",
     "display_name": "Huan Anyang",
     "display_name_alt": "桓安洋",
@@ -10168,24 +11421,25 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "178",
+    "birth_year": "172",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_huan_dian_hero_water",
+    "faction_leader_of": [],
     "name_key": "huan_dian",
     "display_name": "Huan Dian",
-    "display_name_alt": "桓典",
+    "display_name_alt": "宦典",
     "forename": "Dian",
     "family_name": "Huan",
     "forename_alt": "典",
-    "family_name_alt": "桓",
+    "family_name_alt": "宦",
     "courtesy_name": "Gongya",
     "courtesy_name_alt": "公雅",
     "title": "Tactician",
@@ -10197,14 +11451,15 @@ const CHARACTER_DATA = [
     "birth_year": "170",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_huan_fan_hero_water",
+    "faction_leader_of": [],
     "name_key": "huan_fan",
     "display_name": "Huan Fan",
     "display_name_alt": "桓範",
@@ -10221,16 +11476,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "211",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_physical_clumsy"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_huan_jia_hero_water",
+    "faction_leader_of": [],
     "name_key": "huan_jia",
     "display_name": "Huan Jia",
     "display_name_alt": "桓嘉",
@@ -10247,16 +11503,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "208",
-    "death_year": "252",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "ironic_template_historical_huan_jie_ironic_hero_water",
+    "faction_leader_of": [],
     "name_key": "huan_jie_ironic",
     "display_name": "Huan Jie",
     "display_name_alt": "桓階",
@@ -10264,8 +11521,8 @@ const CHARACTER_DATA = [
     "family_name": "Huan",
     "forename_alt": "階",
     "family_name_alt": "桓",
-    "courtesy_name": "Boxu",
-    "courtesy_name_alt": "伯緒",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Consummate Orator",
     "description": "Honeyed words and defiant speeches can cause regions and armies to move like puppets on strings.",
     "element": "water",
@@ -10273,7 +11530,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168",
-    "death_year": "221",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_cheerful",
       "3k_ytr_ceo_trait_personality_people_people_pleaser",
@@ -10283,6 +11540,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huan_lin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "huan_lin",
     "display_name": "Huan Lin",
     "display_name_alt": "桓鄰",
@@ -10309,6 +11567,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huan_shao_hero_water",
+    "faction_leader_of": [],
     "name_key": "huan_shao",
     "display_name": "Huan Shao",
     "display_name_alt": "楊俊",
@@ -10335,6 +11594,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huan_ye_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huan_ye",
     "display_name": "Huan Ye",
     "display_name_alt": "桓曄",
@@ -10361,6 +11621,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huan_zhi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "huan_zhi",
     "display_name": "Huan Zhi",
     "display_name_alt": "桓治",
@@ -10387,6 +11648,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_huang_anbao_hero_water",
+    "faction_leader_of": [],
     "name_key": "huang_anbao",
     "display_name": "Huang Anbao",
     "display_name_alt": "黃安寶",
@@ -10413,6 +11675,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huang_ang_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_huang_clan_190"
+    ],
     "name_key": "huang_ang",
     "display_name": "Huang Ang",
     "display_name_alt": "黃昂",
@@ -10439,6 +11704,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huang_chengyan_hero_water",
+    "faction_leader_of": [],
     "name_key": "huang_chengyan",
     "display_name": "Huang Chengyan",
     "display_name_alt": "黃承彥",
@@ -10465,6 +11731,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huang_chong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huang_chong",
     "display_name": "Huang Chong",
     "display_name_alt": "黃崇",
@@ -10481,16 +11748,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "216",
-    "death_year": "263",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_fraternal"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_huang_chun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "huang_chun",
     "display_name": "Huang Chun",
     "display_name_alt": "黃春",
@@ -10517,6 +11785,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_cp01_template_historical_huang_gai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huang_gai",
     "display_name": "Huang Gai",
     "display_name_alt": "黃蓋",
@@ -10543,6 +11812,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huang_gai_hero_wood",
+    "faction_leader_of": [],
     "name_key": "huang_gai",
     "display_name": "Huang Gai",
     "display_name_alt": "黃蓋",
@@ -10561,14 +11831,15 @@ const CHARACTER_DATA = [
     "birth_year": "154",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_ytr_ceo_trait_personality_simple"
     ],
     "skill_set": "3k_main_skillset_generic_agent_wood"
   },
   {
     "key": "ironic_template_historical_huang_hua_hero_earth",
+    "faction_leader_of": [],
     "name_key": "huang_hua",
     "display_name": "Huang Hua",
     "display_name_alt": "黃華",
@@ -10595,6 +11866,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huang_kui_hero_water",
+    "faction_leader_of": [],
     "name_key": "huang_kui",
     "display_name": "Huang Kui",
     "display_name_alt": "黃奎",
@@ -10621,13 +11893,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huanglong_luo_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huanglong_luo",
-    "display_name": "Huanglong Luo",
+    "display_name": "Huang Luo",
     "display_name_alt": "黃龍羅",
     "forename": "Luo",
-    "family_name": "Huanglong",
-    "forename_alt": "羅",
-    "family_name_alt": "黃龍",
+    "family_name": "Huang",
+    "forename_alt": "龍羅",
+    "family_name_alt": "黃",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Jiangdong Dragon",
@@ -10647,6 +11920,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huang_min_hero_water",
+    "faction_leader_of": [],
     "name_key": "huang_min",
     "display_name": "Huang Min",
     "display_name_alt": "黃敏",
@@ -10673,6 +11947,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huang_quan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huang_quan",
     "display_name": "Huang Quan",
     "display_name_alt": "黃權",
@@ -10689,7 +11964,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "177",
-    "death_year": "240",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fiery",
       "3k_ytr_ceo_trait_physical_feared",
@@ -10699,6 +11974,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_huang_shao_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_yellow_taishan_ruler"
+    ],
     "name_key": "huang_shao",
     "display_name": "Huang Shao",
     "display_name_alt": "黃邵",
@@ -10725,6 +12003,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huang_she_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huang_she",
     "display_name": "Huang She",
     "display_name_alt": "黃射",
@@ -10751,6 +12030,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huang_wan_hero_water",
+    "faction_leader_of": [],
     "name_key": "huang_wan",
     "display_name": "Huang Wan",
     "display_name_alt": "黃琬",
@@ -10767,7 +12047,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "141",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_bright",
       "3k_main_ceo_trait_personality_perceptive",
@@ -10777,6 +12057,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_huang_xin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huang_xin",
     "display_name": "Huang Xin",
     "display_name_alt": "黃信",
@@ -10795,14 +12076,15 @@ const CHARACTER_DATA = [
     "birth_year": "261",
     "death_year": "???",
     "traits": [
+      "3k_main_ceo_trait_personality_vain",
       "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_villager_metal"
   },
   {
     "key": "ironic_template_historical_huang_xun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "huang_xun",
     "display_name": "Huang Xun",
     "display_name_alt": "黃勋",
@@ -10829,6 +12111,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_huang_yan_water",
+    "faction_leader_of": [],
     "name_key": "huang_yan",
     "display_name": "Huang Yan",
     "display_name_alt": "黃衍",
@@ -10855,6 +12138,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_huang_yueying_hero_wood",
+    "faction_leader_of": [],
     "name_key": "huang_yueying",
     "display_name": "Huang Yueying",
     "display_name_alt": "黃月英",
@@ -10877,10 +12161,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_brilliant"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_metal"
+    "skill_set": "3k_main_skillset_huang_yueying_envoy_metal"
   },
   {
     "key": "3k_main_template_historical_huang_zhong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huang_zhong",
     "display_name": "Huang Zhong",
     "display_name_alt": "黃忠",
@@ -10897,7 +12182,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_personality_energetic",
@@ -10907,6 +12192,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huang_zu_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_huang_zu_190"
+    ],
     "name_key": "huang_zu",
     "display_name": "Huang Zu",
     "display_name_alt": "黃祖",
@@ -10923,7 +12211,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_humble",
       "3k_main_ceo_trait_personality_cautious",
@@ -10932,39 +12220,14 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_historical_huang_zu"
   },
   {
-    "key": "ironic_template_historical_huangfu_qi_ironic_hero_metal",
-    "name_key": "huangfu_qi_ironic",
-    "display_name": "Huangfu",
-    "display_name_alt": "皇甫",
-    "forename": "",
-    "family_name": "Huangfu",
-    "forename_alt": "",
-    "family_name_alt": "皇甫",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Satisfied and Content",
-    "description": "This noblewoman has achieved all that she could possibly want in her life, and enjoys a sense of pride and fulfillment.",
-    "element": "metal",
-    "subtype": "3k_general_metal",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "168",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_ytr_ceo_trait_personality_benevolent"
-    ],
-    "skill_set": "3k_main_skillset_generic_minister_earth"
-  },
-  {
     "key": "ironic_template_historical_huangfu_jianshou_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huangfu_jianshou",
     "display_name": "Huangfu Jianshou",
-    "display_name_alt": "皇甫堅壽",
+    "display_name_alt": "皇甫甫堅壽",
     "forename": "Jianshou",
     "family_name": "Huangfu",
-    "forename_alt": "堅壽",
+    "forename_alt": "甫堅壽",
     "family_name_alt": "皇甫",
     "courtesy_name": "",
     "courtesy_name_alt": "",
@@ -10985,6 +12248,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huangfu_mi_hero_water",
+    "faction_leader_of": [],
     "name_key": "huangfu_mi",
     "display_name": "Huangfu Mi",
     "display_name_alt": "皇甫謐",
@@ -11001,16 +12265,44 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "215",
-    "death_year": "282",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_cruel"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_direct"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
+    "key": "ironic_template_historical_huangfu_qi_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "huangfu_qi_ironic",
+    "display_name": "Huangfu Qi",
+    "display_name_alt": "皇甫甫琪",
+    "forename": "Qi",
+    "family_name": "Huangfu",
+    "forename_alt": "甫琪",
+    "family_name_alt": "皇甫",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Satisfied and Content",
+    "description": "This noblewoman has achieved all that she could possibly want in her life, and enjoys a sense of pride and fulfillment.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "168",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_ytr_ceo_trait_personality_benevolent"
+    ],
+    "skill_set": "3k_main_skillset_generic_minister_metal"
+  },
+  {
     "key": "ep_template_historical_huangfu_shang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huangfu_shang",
     "display_name": "Huangfu Shang",
     "display_name_alt": "皇甫商",
@@ -11027,7 +12319,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "245",
-    "death_year": "303",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_trustworthy",
       "3k_main_ceo_trait_personality_energetic",
@@ -11037,6 +12329,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huangfu_song_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huangfu_song",
     "display_name": "Huangfu Song",
     "display_name_alt": "皇甫嵩",
@@ -11053,7 +12346,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "131",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_personality_cautious",
@@ -11063,6 +12356,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huanglong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huanglong",
     "display_name": "Huanglong",
     "display_name_alt": "黃龍",
@@ -11089,6 +12383,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_huanglong_luo_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huanglong_luo",
     "display_name": "Huanglong Luo",
     "display_name_alt": "黃龍羅",
@@ -11115,6 +12410,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huche_er_hero_wood",
+    "faction_leader_of": [],
     "name_key": "huche_er",
     "display_name": "Huche 'Er",
     "display_name_alt": "胡車兒",
@@ -11141,6 +12437,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_huchuquan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "huchuquan",
     "display_name": "Huchuquan",
     "display_name_alt": "呼廚泉",
@@ -11167,6 +12464,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qu_gong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "qu_gong",
     "display_name": "Hui Gong",
     "display_name_alt": "惠恭",
@@ -11185,14 +12483,15 @@ const CHARACTER_DATA = [
     "birth_year": "163",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_people_stern"
     ],
     "skill_set": "3k_dlc05_skillset_generic_bandit_villager_wood"
   },
   {
     "key": "3k_main_template_generated_lady_ma_lanli_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ma_lanli",
     "display_name": "Hui Lanli",
     "display_name_alt": "惠蘭麗",
@@ -11211,14 +12510,15 @@ const CHARACTER_DATA = [
     "birth_year": "158",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_ytr_ceo_trait_personality_land_courageous"
     ],
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
     "key": "ironic_template_historical_hui_qu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "hui_qu",
     "display_name": "Hui Qu",
     "display_name_alt": "惠衢",
@@ -11244,7 +12544,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_villager_wood"
   },
   {
+    "key": "ironic_template_historical_hu_nyeo_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "hu_nyeo_ironic",
+    "display_name": "Hunyeo",
+    "display_name_alt": "后女",
+    "forename": "Hunyeo",
+    "family_name": "",
+    "forename_alt": "后女",
+    "family_name_alt": "",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Secondary Queen Consort",
+    "description": "A strong woman catches the king’s eye and wins his love. True to the king’s wish, she bears him a son.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "188",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
     "key": "ironic_template_historical_huo_du_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huo_du",
     "display_name": "Huo Du",
     "display_name_alt": "霍篤",
@@ -11271,6 +12599,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huo_jun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huo_jun",
     "display_name": "Huo Jun",
     "display_name_alt": "霍峻",
@@ -11297,6 +12626,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huo_nu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "huo_nu",
     "display_name": "Huo Nu",
     "display_name_alt": "霍砮",
@@ -11323,6 +12653,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_huo_xing_hero_fire",
+    "faction_leader_of": [],
     "name_key": "huo_xing",
     "display_name": "Huo Xing",
     "display_name_alt": "霍杏",
@@ -11341,14 +12672,42 @@ const CHARACTER_DATA = [
     "birth_year": "164",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
+    "key": "ironic_template_historical_hwon_gyeon_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "hwon_gyeon_ironic",
+    "display_name": "Hwon Gyeon",
+    "display_name_alt": "萱堅",
+    "forename": "Gyeon",
+    "family_name": "Hwon",
+    "forename_alt": "堅",
+    "family_name_alt": "萱",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Impulsive Vanguard",
+    "description": "Charging into enemy lines with youthful vigor is reckless yet brave—but returning alive is another matter.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "178",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_ytr_ceo_trait_personality_land_powerful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
     "key": "3k_main_template_historical_ji_ben_hero_wood",
+    "faction_leader_of": [],
     "name_key": "ji_ben",
     "display_name": "Ji Ben",
     "display_name_alt": "吉本",
@@ -11365,7 +12724,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "184",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_resourceful",
@@ -11375,6 +12734,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ji_ling_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ji_ling",
     "display_name": "Ji Ling",
     "display_name_alt": "紀靈",
@@ -11402,6 +12762,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ji_miao_hero_water",
+    "faction_leader_of": [],
     "name_key": "ji_miao",
     "display_name": "Ji Miao",
     "display_name_alt": "吉邈",
@@ -11418,16 +12779,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "177",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_ji_mu_hero_water",
+    "faction_leader_of": [],
     "name_key": "ji_mu",
     "display_name": "Ji Mu",
     "display_name_alt": "吉穆",
@@ -11444,16 +12806,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "195",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_jia_chong_hero_water",
+    "faction_leader_of": [],
     "name_key": "jia_chong",
     "display_name": "Jia Chong",
     "display_name_alt": "賈充",
@@ -11470,16 +12833,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "217",
-    "death_year": "282",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cruel",
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_deceitful"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_water_strategist"
+    "skill_set": "3k_main_skillset_jia_chong_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_jia_cong_hero_water",
+    "faction_leader_of": [],
     "name_key": "jia_cong",
     "display_name": "Jia Cong",
     "display_name_alt": "賈琮",
@@ -11498,14 +12862,15 @@ const CHARACTER_DATA = [
     "birth_year": "150",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_loyal"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_humble"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_jia_fan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "jia_fan",
     "display_name": "Jia Fan",
     "display_name_alt": "賈範",
@@ -11522,16 +12887,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "198",
-    "death_year": "237",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_ytr_ceo_trait_physical_feared"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_jia_hua_hero_wood",
+    "faction_leader_of": [],
     "name_key": "jia_hua",
     "display_name": "Jia Hua",
     "display_name_alt": "賈華",
@@ -11558,6 +12924,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jia_kui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "jia_kui",
     "display_name": "Jia Kui",
     "display_name_alt": "賈逵",
@@ -11574,7 +12941,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_disciplined",
       "3k_main_ceo_trait_personality_dutiful",
@@ -11584,6 +12951,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jia_long_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_jia_long_190"
+    ],
     "name_key": "jia_long",
     "display_name": "Jia Long",
     "display_name_alt": "賈龍",
@@ -11610,6 +12980,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_jia_mei_hero_earth",
+    "faction_leader_of": [],
     "name_key": "jia_mei",
     "display_name": "Jia Mei",
     "display_name_alt": "賈美",
@@ -11636,6 +13007,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_jia_mi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "jia_mi",
     "display_name": "Jia Mi",
     "display_name_alt": "賈謐",
@@ -11652,16 +13024,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "272",
-    "death_year": "300",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_aescetic"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ep_template_historical_jia_mo_hero_metal",
+    "faction_leader_of": [],
     "name_key": "jia_mo",
     "display_name": "Jia Mo",
     "display_name_alt": "賈默",
@@ -11680,14 +13053,15 @@ const CHARACTER_DATA = [
     "birth_year": "259",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_physical_feared"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "3k_main_template_historical_jia_xu_hero_water",
+    "faction_leader_of": [],
     "name_key": "jia_xu",
     "display_name": "Jia Xu",
     "display_name_alt": "賈詡",
@@ -11704,7 +13078,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_deceitful",
       "3k_main_ceo_trait_personality_perceptive",
@@ -11714,6 +13088,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_pang_de_hero_wood",
+    "faction_leader_of": [],
     "name_key": "pang_de",
     "display_name": "Jian De",
     "display_name_alt": "簡德",
@@ -11732,14 +13107,15 @@ const CHARACTER_DATA = [
     "birth_year": "168",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
     "key": "3k_main_template_historical_jian_yong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "jian_yong",
     "display_name": "Jian Xiong",
     "display_name_alt": "簡雄",
@@ -11758,14 +13134,15 @@ const CHARACTER_DATA = [
     "birth_year": "161",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_ytr_ceo_trait_personality_simple"
     ],
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
     "key": "3k_mtu_template_historical_jian_yong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "jian_yong",
     "display_name": "Jian Yong",
     "display_name_alt": "簡雍",
@@ -11792,6 +13169,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_jiang_gan_hero_water",
+    "faction_leader_of": [],
     "name_key": "jiang_gan",
     "display_name": "Jiang Gan",
     "display_name_alt": "蔣幹",
@@ -11799,8 +13177,8 @@ const CHARACTER_DATA = [
     "family_name": "Jiang",
     "forename_alt": "幹",
     "family_name_alt": "蔣",
-    "courtesy_name": "Ziyi",
-    "courtesy_name_alt": "子翼",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Of Shadowy Smiles",
     "description": "The scholarly Jiang Gan masks his true motivations behind gregarious laughter and charming sophistry.",
     "element": "water",
@@ -11818,6 +13196,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jiang_gong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "jiang_gong",
     "display_name": "Jiang Gong",
     "display_name_alt": "江宮",
@@ -11836,14 +13215,15 @@ const CHARACTER_DATA = [
     "birth_year": "153",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_physical_drunk"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ],
     "skill_set": "3k_dlc05_skillset_generic_bandit_general_wood"
   },
   {
     "key": "ironic_template_historical_jiang_gong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "jiang_gong",
     "display_name": "Jiang Gong",
     "display_name_alt": "江宫",
@@ -11870,6 +13250,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jiang_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "jiang_ji",
     "display_name": "Jiang Ji",
     "display_name_alt": "蔣濟",
@@ -11886,16 +13267,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "188",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_distinguished"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_jiang_qin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "jiang_qin",
     "display_name": "Jiang Qin",
     "display_name_alt": "蔣欽",
@@ -11912,7 +13294,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_tough",
       "3k_main_ceo_trait_personality_disciplined",
@@ -11922,6 +13304,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_jiang_shi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "jiang_shi",
     "display_name": "Jiang Shi",
     "display_name_alt": "蔣石",
@@ -11948,6 +13331,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jiang_wan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "jiang_wan",
     "display_name": "Jiang Wan",
     "display_name_alt": "蔣琬",
@@ -11964,7 +13348,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "181",
-    "death_year": "246",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_ytr_ceo_trait_personality_heaven_wise",
@@ -11974,6 +13358,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jiang_wei_hero_fire",
+    "faction_leader_of": [],
     "name_key": "jiang_wei",
     "display_name": "Jiang Wei",
     "display_name_alt": "姜維",
@@ -11990,7 +13375,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "202",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_solitary",
       "3k_main_ceo_trait_personality_clever",
@@ -12000,6 +13385,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_jiao_yi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "jiao_yi",
     "display_name": "Jiao Yi",
     "display_name_alt": "焦已",
@@ -12025,7 +13411,116 @@ const CHARACTER_DATA = [
     "skill_set": "3k_dlc05_skillset_generic_bandit_agent_wood"
   },
   {
+    "key": "ironic_template_historical_jin_chung_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "jin_chung_ironic",
+    "display_name": "Jin Chung",
+    "display_name_alt": "眞忠",
+    "forename": "Chung",
+    "family_name": "Jin",
+    "forename_alt": "忠",
+    "family_name_alt": "眞",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Upright Military Officer",
+    "description": "The Jin clan, one of the powerful noble families, wields strong influence over military affairs.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "210",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_ytr_ceo_trait_personality_stalwart"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_jin_ga_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "jin_ga_ironic",
+    "display_name": "Jin Ga",
+    "display_name_alt": "眞可",
+    "forename": "Ga",
+    "family_name": "Jin",
+    "forename_alt": "可",
+    "family_name_alt": "眞",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Sincere Aide",
+    "description": "A loyal retainer who always understands and supports the ruler’s intentions and meaning accurately is an essential figure.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "213",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_clever",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_jin_gwa_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "jin_gwa_ironic",
+    "display_name": "Jin Gwa",
+    "display_name_alt": "眞果",
+    "forename": "Gwa",
+    "family_name": "Jin",
+    "forename_alt": "果",
+    "family_name_alt": "眞",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Calm and Calculated Assault Commander",
+    "description": "Jin Gwa, who has led troops on the battlefield for many years, repeatedly secures victories against external enemies through sound strategy.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "172",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_brave"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth"
+  },
+  {
+    "key": "ironic_template_historical_jin_mul_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "jin_mul_ironic",
+    "display_name": "Jin Mul",
+    "display_name_alt": "眞勿",
+    "forename": "Mul",
+    "family_name": "Jin",
+    "forename_alt": "勿",
+    "family_name_alt": "眞",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Hereditary General",
+    "description": "Descendants who inherit the status of their ancestors sometimes take on their predecessors’ duties despite having a temperament ill-suited for the role.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "217",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brave",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_reckless"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
     "key": "ironic_template_historical_jin_qi_hero_water",
+    "faction_leader_of": [],
     "name_key": "jin_qi",
     "display_name": "Jin Qi",
     "display_name_alt": "金奇",
@@ -12052,6 +13547,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jin_xuan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "jin_xuan",
     "display_name": "Jin Xuan",
     "display_name_alt": "金旋",
@@ -12068,7 +13564,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cruel",
       "3k_main_ceo_trait_personality_greedy",
@@ -12078,6 +13574,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_jin_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "jin_yi",
     "display_name": "Jin Yi",
     "display_name_alt": "金禕",
@@ -12094,16 +13591,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "194",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_land_aspiring"
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_solitary"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_jin_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "jin_yi",
     "display_name": "Jin Yi",
     "display_name_alt": "金祎",
@@ -12111,8 +13609,8 @@ const CHARACTER_DATA = [
     "family_name": "Jin",
     "forename_alt": "祎",
     "family_name_alt": "金",
-    "courtesy_name": "Dewei",
-    "courtesy_name_alt": "德偉",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "All That Glitters",
     "description": "A respected family name and famed ancestor mean nothing if you are not willing to honour that legacy with your own deeds.",
     "element": "water",
@@ -12120,7 +13618,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_resourceful",
       "3k_main_ceo_trait_physical_coordinated",
@@ -12130,6 +13628,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_jin_yu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "jin_yu",
     "display_name": "Jin Yu",
     "display_name_alt": "靳彧",
@@ -12148,14 +13647,15 @@ const CHARACTER_DATA = [
     "birth_year": "258",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_physical_agile"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "ep_template_historical_jin_hong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "jin_hong",
     "display_name": "Jing Hong",
     "display_name_alt": "景洪",
@@ -12174,14 +13674,15 @@ const CHARACTER_DATA = [
     "birth_year": "260",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "skill_set": "3k_main_skillset_generic_agent_earth"
   },
   {
     "key": "ironic_template_historical_jing_yi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "jing_yi",
     "display_name": "Jing Yi",
     "display_name_alt": "景毅",
@@ -12208,6 +13709,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_jinhuansanjie_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_jinhuansanjie_190"
+    ],
     "name_key": "jinhuansanjie",
     "display_name": "Jinhuansanjie",
     "display_name_alt": "金環三結",
@@ -12234,6 +13738,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_jiong_mu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "jiong_mu",
     "display_name": "Jiong Mu",
     "display_name_alt": "炅母",
@@ -12260,6 +13765,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_jiu_dan_water",
+    "faction_leader_of": [],
     "name_key": "jiu_dan",
     "display_name": "Jiu Dan",
     "display_name_alt": "就耽",
@@ -12286,6 +13792,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ju_jun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ju_jun",
     "display_name": "Ju Jun",
     "display_name_alt": "沮俊",
@@ -12304,14 +13811,15 @@ const CHARACTER_DATA = [
     "birth_year": "171",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ep_template_historical_ju_ruo_hero_water_dai",
+    "faction_leader_of": [],
     "name_key": "ju_ruo",
     "display_name": "Ju Ruo",
     "display_name_alt": "句若",
@@ -12330,14 +13838,15 @@ const CHARACTER_DATA = [
     "birth_year": "251",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_ju_shou_hero_water",
+    "faction_leader_of": [],
     "name_key": "ju_shou",
     "display_name": "Ju Shou",
     "display_name_alt": "沮授",
@@ -12354,7 +13863,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "155",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_strong_willed",
       "3k_main_ceo_trait_personality_dutiful",
@@ -12364,6 +13873,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_liu_jiejie_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_jiejie",
     "display_name": "Jue Jiejie",
     "display_name_alt": "覺潔潔",
@@ -12390,6 +13900,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_jueji_hero_metal",
+    "faction_leader_of": [],
     "name_key": "jueji",
     "display_name": "Jueji",
     "display_name_alt": "厥機",
@@ -12415,7 +13926,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_xianbei_governor_metal"
   },
   {
+    "key": "ironic_template_historical_jwa_garyeo_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "jwa_garyeo_ironic",
+    "display_name": "Jwa Garyeo",
+    "display_name_alt": "左可慮",
+    "forename": "Garyeo",
+    "family_name": "Jwa",
+    "forename_alt": "可慮",
+    "family_name_alt": "左",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Instigator of Rebellion",
+    "description": "Shows just how far those in power and authority can become arrogant and tyrannical.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "156",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal"
+  },
+  {
     "key": "3k_main_template_historical_kan_ze_hero_water",
+    "faction_leader_of": [],
     "name_key": "kan_ze",
     "display_name": "Kan Ze",
     "display_name_alt": "闞澤",
@@ -12432,7 +13971,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "216",
-    "death_year": "243",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_humble",
       "3k_main_ceo_trait_personality_kind",
@@ -12442,6 +13981,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_kang_ji_hero_wood_yanmen",
+    "faction_leader_of": [],
     "name_key": "kang_ji",
     "display_name": "Kang Ji",
     "display_name_alt": "康楫",
@@ -12460,14 +14000,15 @@ const CHARACTER_DATA = [
     "birth_year": "262",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_patient"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_wood"
   },
   {
     "key": "3k_main_template_generated_lady_wang_qinmeng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_qinmeng",
     "display_name": "Kang Qinmeng",
     "display_name_alt": "康勤夢",
@@ -12494,6 +14035,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ke_ren_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ke_ren",
     "display_name": "Ke Ren",
     "display_name_alt": "柯仁",
@@ -12520,6 +14062,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ke_wu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ke_wu",
     "display_name": "Ke Wu",
     "display_name_alt": "柯吾",
@@ -12546,6 +14089,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_kebineng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "kebineng",
     "display_name": "Kebineng",
     "display_name_alt": "軻比能",
@@ -12562,7 +14106,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "235",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_ytr_ceo_trait_physical_feared",
@@ -12571,33 +14115,145 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_xianbei_minister_metal"
   },
   {
-    "key": "ironic_template_historical_kim_suro_hero_earth",
-    "name_key": "kim_suro",
-    "display_name": "Kim Suro",
-    "display_name_alt": "",
-    "forename": "Suro",
+    "key": "ironic_template_historical_kim_geodeung_hero_water",
+    "faction_leader_of": [],
+    "name_key": "kim_geodeung",
+    "display_name": "Kim Geodeung",
+    "display_name_alt": "金居登",
+    "forename": "Geodeung",
     "family_name": "Kim",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "forename_alt": "居登",
+    "family_name_alt": "金",
     "courtesy_name": "",
     "courtesy_name_alt": "",
-    "title": "Peacekeeper",
-    "description": "Conflict must be prevented by any means necessary.",
+    "title": "Diplomacy Amidst Chaos",
+    "description": "To save the realm in times of crisis requires calmness and swift action.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "168",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_patient"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist_kim_geodeung"
+  },
+  {
+    "key": "ironic_template_historical_kim_gudo_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "kim_gudo_ironic",
+    "display_name": "Kim Gudo",
+    "display_name_alt": "金仇道",
+    "forename": "Gudo",
+    "family_name": "Kim",
+    "forename_alt": "仇道",
+    "family_name_alt": "金",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "General of Trust and Loyalty",
+    "description": "Kim Gudo, who has long fought for his country on the battlefield, nearly faded from history due to a single mistake in his final battle. However, trusted and remembered by his descendants, who rose to the throne, his legacy lives on.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "154",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_loyal"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
+    "key": "ironic_template_historical_kim_malgu_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "kim_malgu_ironic",
+    "display_name": "Kim Malgu",
+    "display_name_alt": "金末仇",
+    "forename": "Malgu",
+    "family_name": "Kim",
+    "forename_alt": "末仇",
+    "family_name_alt": "金",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Unbroken Lineage",
+    "description": "Though Kim Malgu’s deeds may be modest, his descendants will carve great achievements into history and shine gloriously.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "207",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_fiery"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_kim_michu_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "kim_michu_ironic",
+    "display_name": "Kim Michu",
+    "display_name_alt": "金味鄒",
+    "forename": "Michu",
+    "family_name": "Kim",
+    "forename_alt": "味鄒",
+    "family_name_alt": "金",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Sovereign of All the People",
+    "description": "To establish a new royal lineage and secure its stability, the support of the people is indispensable.",
     "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "155",
+    "birth_year": "205",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_energetic"
     ],
-    "skill_set": "3k_main_skillset_generic_general_earth"
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
+    "key": "ironic_template_historical_kim_suro_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_gaya_190"
+    ],
+    "name_key": "kim_suro",
+    "display_name": "Kim Suro",
+    "display_name_alt": "金首露",
+    "forename": "Suro",
+    "family_name": "Kim",
+    "forename_alt": "首露",
+    "family_name_alt": "金",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Ode to the Turtle",
+    "description": "「O turtle, O turtle, show your head; if you do not, you shall be roasted and eaten.」",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "142",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_honourable"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth_kim_suro"
   },
   {
     "key": "ironic_template_historical_kong_gui_hero_water",
+    "faction_leader_of": [],
     "name_key": "kong_gui",
     "display_name": "Kong Gui",
     "display_name_alt": "孔桂",
@@ -12624,6 +14280,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_kong_rong_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_kong_rong_ruler"
+    ],
     "name_key": "kong_rong",
     "display_name": "Kong Rong",
     "display_name_alt": "孔融",
@@ -12640,7 +14299,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "153",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_scholarly",
@@ -12650,6 +14309,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_kong_zhou_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_kong_zhou_190"
+    ],
     "name_key": "kong_zhou",
     "display_name": "Kong Zhou",
     "display_name_alt": "孔伷",
@@ -12666,7 +14328,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cowardly",
       "3k_main_ceo_trait_personality_charismatic",
@@ -12676,13 +14338,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_kou_xiaolan_ironic_hero_metal",
+    "faction_leader_of": [],
     "name_key": "kou_xiaolan_ironic",
-    "display_name": "Kou Xiaolan Ironic",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name": "Kou Xiaolan",
+    "display_name_alt": "寇晓莲",
+    "forename": "Xiaolan",
+    "family_name": "Kou",
+    "forename_alt": "晓莲",
+    "family_name_alt": "寇",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Callous and Harsh",
@@ -12702,6 +14365,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_ku_song_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ku_song",
     "display_name": "Ku Song",
     "display_name_alt": "苦竦",
@@ -12720,14 +14384,15 @@ const CHARACTER_DATA = [
     "birth_year": "272",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_kuai_liang_hero_water",
+    "faction_leader_of": [],
     "name_key": "kuai_liang",
     "display_name": "Kuai Liang",
     "display_name_alt": "蒯良",
@@ -12754,6 +14419,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_kuai_qi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "kuai_qi",
     "display_name": "Kuai Qi",
     "display_name_alt": "蒯祺",
@@ -12780,6 +14446,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_kuai_yue_hero_water",
+    "faction_leader_of": [],
     "name_key": "kuai_yue",
     "display_name": "Kuai Yue",
     "display_name_alt": "蒯越",
@@ -12796,7 +14463,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_brilliant",
@@ -12806,6 +14473,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_kuang_gan_hero_water",
+    "faction_leader_of": [],
     "name_key": "kuang_gan",
     "display_name": "Kuang Gan",
     "display_name_alt": "鄺甘",
@@ -12832,6 +14500,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_kuitou_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_xianbei_kuitou_190"
+    ],
     "name_key": "kuitou",
     "display_name": "Kuitou",
     "display_name_alt": "魁頭",
@@ -12858,6 +14529,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_bian_huilan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "bian_huilan",
     "display_name": "Lady Bian",
     "display_name_alt": "卞夫人",
@@ -12874,7 +14546,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "230",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_humble",
@@ -12884,6 +14556,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_cai_yuxiang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cai_yuxiang",
     "display_name": "Lady Cai",
     "display_name_alt": "蔡夫人",
@@ -12910,6 +14583,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_generated_lady_cheng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "cheng",
     "display_name": "Lady Cheng",
     "display_name_alt": "程才人",
@@ -12928,14 +14602,15 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_physical_clumsy"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "skill_set": "3k_main_skillset_generic_agent_earth"
   },
   {
     "key": "3k_dlc04_template_historical_lady_ding_earth",
+    "faction_leader_of": [],
     "name_key": "ding",
     "display_name": "Lady Ding",
     "display_name_alt": "丁夫人",
@@ -12962,6 +14637,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_feng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "feng",
     "display_name": "Lady Feng",
     "display_name_alt": "馮夫人",
@@ -12988,6 +14664,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_lady_gan_water",
+    "faction_leader_of": [],
     "name_key": "gan",
     "display_name": "Lady Gan",
     "display_name_alt": "甘夫人",
@@ -13004,7 +14681,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "133",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_loyal",
@@ -13014,6 +14691,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_liu_limin_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_limin",
     "display_name": "Lady Liu",
     "display_name_alt": "劉夫人",
@@ -13040,6 +14718,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lady_lu_metal",
+    "faction_leader_of": [],
     "name_key": "lu",
     "display_name": "Lady Lu",
     "display_name_alt": "陸夫人",
@@ -13066,6 +14745,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lady_mi_earth",
+    "faction_leader_of": [],
     "name_key": "mi",
     "display_name": "Lady Mi",
     "display_name_alt": "麋夫人",
@@ -13091,7 +14771,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_historical_lady_mi"
   },
   {
+    "key": "ironic_template_historical_lady_sulye_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "sulye_ironic",
+    "display_name": "Lady Sulyeo",
+    "display_name_alt": "述禮夫人",
+    "forename": "Lady Sulyeo",
+    "family_name": "",
+    "forename_alt": "述禮夫人",
+    "family_name_alt": "",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Teaching of Etiquette",
+    "description": "Teaching children is an investment for the future and stems from love for one’s offspring.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "174",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_ytr_ceo_trait_personality_trustworthy"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
     "key": "3k_mtu_template_historical_lady_wu_minyu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wu_minyu",
     "display_name": "Lady Wu",
     "display_name_alt": "吳夫人",
@@ -13118,6 +14826,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lady_xiahou_hero_water",
+    "faction_leader_of": [],
     "name_key": "xiahou",
     "display_name": "Lady Xiahou",
     "display_name_alt": "夏侯夫人",
@@ -13144,6 +14853,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_lady_yan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yan",
     "display_name": "Lady Yan",
     "display_name_alt": "嚴夫人",
@@ -13170,6 +14880,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lady_yang_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang",
     "display_name": "Lady Yang",
     "display_name_alt": "楊夫人",
@@ -13196,6 +14907,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc07_template_historical_lady_zhen_water",
+    "faction_leader_of": [],
     "name_key": "zhen",
     "display_name": "Lady Zhen",
     "display_name_alt": "甄",
@@ -13212,7 +14924,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "183",
-    "death_year": "221",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_kind",
@@ -13222,6 +14934,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lai_feng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lai_feng",
     "display_name": "Lai Feng",
     "display_name_alt": "賴鳳",
@@ -13248,6 +14961,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lai_xun_hero_water",
+    "faction_leader_of": [],
     "name_key": "lai_xun",
     "display_name": "Lai Gong",
     "display_name_alt": "賴厷",
@@ -13274,6 +14988,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lai_gong_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_lai_gong_190"
+    ],
     "name_key": "lai_gong",
     "display_name": "Lai Gong",
     "display_name_alt": "賴恭",
@@ -13300,6 +15017,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lai_min_hero_water",
+    "faction_leader_of": [],
     "name_key": "lai_min",
     "display_name": "Lai Min",
     "display_name_alt": "來敏",
@@ -13307,8 +15025,8 @@ const CHARACTER_DATA = [
     "family_name": "Lai",
     "forename_alt": "敏",
     "family_name_alt": "來",
-    "courtesy_name": "Jingda",
-    "courtesy_name_alt": "敬達",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Master Debater",
     "description": "With swelling passion and without caring whom he may upset, Lai Min bursts into every debate and dispute, ejaculating phrases and idioms to their utmost girth and potency.",
     "element": "water",
@@ -13326,6 +15044,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lai_shuang_hero_water",
+    "faction_leader_of": [],
     "name_key": "lai_shuang",
     "display_name": "Lai Shuang",
     "display_name_alt": "來爽",
@@ -13352,6 +15071,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lai_zu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "lai_zu",
     "display_name": "Lai Zu",
     "display_name_alt": "賴镞",
@@ -13378,6 +15098,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lang_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lang_zhi",
     "display_name": "Lang Zhi",
     "display_name_alt": "郎稚",
@@ -13404,6 +15125,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_zhang_zhumeng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_zhumeng",
     "display_name": "Lao Zhumeng",
     "display_name_alt": "勞珠夢",
@@ -13430,6 +15152,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lei_xu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lei_xu",
     "display_name": "Lei Bo",
     "display_name_alt": "雷薄",
@@ -13456,6 +15179,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lei_ding_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lei_ding",
     "display_name": "Lei Ding",
     "display_name_alt": "雷定",
@@ -13482,6 +15206,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lei_tong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lei_tong",
     "display_name": "Lei Tong",
     "display_name_alt": "雷銅",
@@ -13498,7 +15223,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "176",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_energetic",
@@ -13508,6 +15233,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_leng_bao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "leng_bao",
     "display_name": "Leng Bao",
     "display_name_alt": "冷苞",
@@ -13534,6 +15260,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_bao_li_nanman",
+    "faction_leader_of": [],
     "name_key": "bao_li",
     "display_name": "Li Bao",
     "display_name_alt": "李褒",
@@ -13560,6 +15287,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_li_chang_hero_earth_lingling",
+    "faction_leader_of": [],
     "name_key": "li_chang",
     "display_name": "Li Chang",
     "display_name_alt": "李昌",
@@ -13578,14 +15306,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil"
     ],
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
     "key": "3k_main_template_historical_li_chao_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_chao",
     "display_name": "Li Chao",
     "display_name_alt": "李朝",
@@ -13612,6 +15341,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_damu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "li_damu",
     "display_name": "Li Damu",
     "display_name_alt": "李大目",
@@ -13638,6 +15368,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_dian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "li_dian",
     "display_name": "Li Dian",
     "display_name_alt": "李典",
@@ -13664,6 +15395,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_li_feng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "li_feng",
     "display_name": "Li Feng",
     "display_name_alt": "李豐",
@@ -13690,6 +15422,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_fu_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_fu",
     "display_name": "Li Fu",
     "display_name_alt": "李服",
@@ -13708,14 +15441,15 @@ const CHARACTER_DATA = [
     "birth_year": "204",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_physical_mad",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "ironic_template_historical_li_fu_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_fu",
     "display_name": "Li Fu",
     "display_name_alt": "李福",
@@ -13723,8 +15457,8 @@ const CHARACTER_DATA = [
     "family_name": "Li",
     "forename_alt": "福",
     "family_name_alt": "李",
-    "courtesy_name": "Sunde",
-    "courtesy_name_alt": "孫德",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Reliable Scribe",
     "description": "More than just a secretary, Li Fu acts as his master's eyes and ears throughout the realm.",
     "element": "water",
@@ -13732,7 +15466,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "187",
-    "death_year": "238",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_clever",
       "3k_ytr_ceo_trait_personality_heaven_bright",
@@ -13742,6 +15476,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_li_gui_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_gui",
     "display_name": "Li Gui",
     "display_name_alt": "李珪",
@@ -13768,6 +15503,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_li_han_hero_earth",
+    "faction_leader_of": [],
     "name_key": "li_han",
     "display_name": "Li Han",
     "display_name_alt": "李含",
@@ -13794,6 +15530,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_huan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "li_huan",
     "display_name": "Li Huan",
     "display_name_alt": "李桓",
@@ -13820,6 +15557,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_hui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_hui",
     "display_name": "Li Hui",
     "display_name_alt": "李恢",
@@ -13836,7 +15574,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "180",
-    "death_year": "231",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fraternal",
       "3k_main_ceo_trait_personality_charismatic",
@@ -13846,6 +15584,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_jue_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_jue",
     "display_name": "Li Jue",
     "display_name_alt": "李傕",
@@ -13862,7 +15601,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "142",
-    "death_year": "198",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_reckless",
@@ -13872,6 +15611,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_kan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_kan",
     "display_name": "Li Kan",
     "display_name_alt": "李堪",
@@ -13888,7 +15628,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "152",
-    "death_year": "211",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_ytr_ceo_trait_physical_feared",
@@ -13899,6 +15639,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_kang_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_kang",
     "display_name": "Li Kang",
     "display_name_alt": "李康",
@@ -13917,14 +15658,15 @@ const CHARACTER_DATA = [
     "birth_year": "196",
     "death_year": "???",
     "traits": [
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_main_ceo_trait_personality_solitary"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_li_le_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_le",
     "display_name": "Li Le",
     "display_name_alt": "李樂",
@@ -13943,14 +15685,15 @@ const CHARACTER_DATA = [
     "birth_year": "174",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_land_composed"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_dlc05_template_historical_li_li_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_li",
     "display_name": "Li Li",
     "display_name_alt": "李利",
@@ -13977,6 +15720,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_meng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_meng",
     "display_name": "Li Meng",
     "display_name_alt": "李蒙",
@@ -13993,7 +15737,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "145",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_elusive",
       "3k_main_ceo_trait_physical_coordinated",
@@ -14003,6 +15747,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_miao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_miao",
     "display_name": "Li Miao",
     "display_name_alt": "李邈",
@@ -14019,7 +15764,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "181",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_vindictive",
       "3k_ytr_ceo_trait_personality_heaven_honest",
@@ -14029,6 +15774,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_li_qian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "li_qian",
     "display_name": "Li Qian",
     "display_name_alt": "李乾",
@@ -14045,7 +15791,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "149",
-    "death_year": "194",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_distinguished",
@@ -14055,6 +15801,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_li_quan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "li_quan",
     "display_name": "Li Quan",
     "display_name_alt": "李權",
@@ -14081,6 +15828,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_ru_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_ru",
     "display_name": "Li Ru",
     "display_name_alt": "李儒",
@@ -14107,6 +15855,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_shao_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_shao",
     "display_name": "Li Shao",
     "display_name_alt": "李邵",
@@ -14133,6 +15882,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_shi_jiejin_hero_water",
+    "faction_leader_of": [],
     "name_key": "shi_jiejin",
     "display_name": "Li Shi",
     "display_name_alt": "李诗",
@@ -14159,6 +15909,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_shu_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_shu",
     "display_name": "Li Shu",
     "display_name_alt": "李術",
@@ -14175,7 +15926,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_disloyal",
       "3k_ytr_ceo_trait_personality_temperamental",
@@ -14185,6 +15936,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_li_si_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_si",
     "display_name": "Li Si",
     "display_name_alt": "李思",
@@ -14211,6 +15963,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_li_song_fire",
+    "faction_leader_of": [],
     "name_key": "li_song",
     "display_name": "Li Song",
     "display_name_alt": "栗嵩",
@@ -14238,6 +15991,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_su_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_su",
     "display_name": "Li Su",
     "display_name_alt": "李肅",
@@ -14264,6 +16018,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_li_tiao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_tiao",
     "display_name": "Li Tiao",
     "display_name_alt": "李條",
@@ -14290,6 +16045,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_tong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_tong",
     "display_name": "Li Tong",
     "display_name_alt": "李通",
@@ -14306,7 +16062,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_intimidating",
       "3k_main_ceo_trait_personality_careless",
@@ -14316,6 +16072,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_li_wenhou_wood",
+    "faction_leader_of": [],
     "name_key": "li_wenhou",
     "display_name": "Li Wenhou",
     "display_name_alt": "李文侯",
@@ -14342,6 +16099,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_li_xian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "li_xian",
     "display_name": "Li Xian",
     "display_name_alt": "李暹",
@@ -14368,6 +16126,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_xian_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_xian",
     "display_name": "Li Xian",
     "display_name_alt": "李暹",
@@ -14386,14 +16145,15 @@ const CHARACTER_DATA = [
     "birth_year": "174",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_li_xiu_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_xiu",
     "display_name": "Li Xiu",
     "display_name_alt": "李休",
@@ -14420,6 +16180,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_xu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_xu",
     "display_name": "Li Xu",
     "display_name_alt": "李勖",
@@ -14436,16 +16197,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "219",
-    "death_year": "270",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_li_yan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_yan",
     "display_name": "Li Yan",
     "display_name_alt": "李嚴",
@@ -14462,7 +16224,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_resourceful",
@@ -14472,6 +16234,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_li_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "li_yi",
     "display_name": "Li Yi",
     "display_name_alt": "李異",
@@ -14498,6 +16261,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_li_ying_hero_water",
+    "faction_leader_of": [],
     "name_key": "li_ying",
     "display_name": "Li Ying",
     "display_name_alt": "李應",
@@ -14524,6 +16288,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_li_yu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "li_yu",
     "display_name": "Li Yu",
     "display_name_alt": "李玉",
@@ -14550,6 +16315,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_liu_zhi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_zhi",
     "display_name": "Lian Zhi",
     "display_name_alt": "廉志",
@@ -14576,6 +16342,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_liang_boning_water",
+    "faction_leader_of": [],
     "name_key": "liang_boning",
     "display_name": "Liang Boning",
     "display_name_alt": "梁伯寧",
@@ -14602,6 +16369,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liang_gang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liang_gang",
     "display_name": "Liang Gang",
     "display_name_alt": "梁綱",
@@ -14620,14 +16388,15 @@ const CHARACTER_DATA = [
     "birth_year": "148",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_liang_mao_hero_water",
+    "faction_leader_of": [],
     "name_key": "liang_mao",
     "display_name": "Liang Mao",
     "display_name_alt": "梁茂",
@@ -14654,6 +16423,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_liang_shi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liang_shi",
     "display_name": "Liang Shi",
     "display_name_alt": "涼世",
@@ -14672,14 +16442,15 @@ const CHARACTER_DATA = [
     "birth_year": "267",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "ironic_template_historical_liang_shuang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "liang_shuang",
     "display_name": "Liang Shuang",
     "display_name_alt": "梁雙",
@@ -14706,6 +16477,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liang_xi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liang_xi",
     "display_name": "Liang Xi",
     "display_name_alt": "梁習",
@@ -14722,16 +16494,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "189",
-    "death_year": "230",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_liang_xing_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liang_xing",
     "display_name": "Liang Xing",
     "display_name_alt": "梁興",
@@ -14748,7 +16521,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_ytr_ceo_trait_personality_people_stern",
@@ -14759,6 +16532,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_liang_zhongning_wood",
+    "faction_leader_of": [],
     "name_key": "liang_zhongning",
     "display_name": "Liang Zhongning",
     "display_name_alt": "梁仲寧",
@@ -14785,6 +16559,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_liao_hua_hero_wood",
+    "faction_leader_of": [],
     "name_key": "liao_hua",
     "display_name": "Liao Hua",
     "display_name_alt": "廖化",
@@ -14792,8 +16567,8 @@ const CHARACTER_DATA = [
     "family_name": "Liao",
     "forename_alt": "化",
     "family_name_alt": "廖",
-    "courtesy_name": "Yuanjian",
-    "courtesy_name_alt": "元儉",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Of Enduring Duty",
     "description": "Let none underestimate the long-lasting fealty of Liao Hua.",
     "element": "wood",
@@ -14801,7 +16576,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "172",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fraternal",
       "3k_main_ceo_trait_personality_loyal",
@@ -14811,6 +16586,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liao_li_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liao_li",
     "display_name": "Liao Li",
     "display_name_alt": "廖立",
@@ -14818,8 +16594,8 @@ const CHARACTER_DATA = [
     "family_name": "Liao",
     "forename_alt": "立",
     "family_name_alt": "廖",
-    "courtesy_name": "Gongyuan",
-    "courtesy_name_alt": "公淵",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Conceited Minister",
     "description": "With an inflated ego and sense of self-importance, Liao Li must be careful not to choke on his own lofty aspirations.",
     "element": "metal",
@@ -14837,6 +16613,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liao_shi_hero_water",
+    "faction_leader_of": [],
     "name_key": "liao_shi",
     "display_name": "Liao Shi",
     "display_name_alt": "廖式",
@@ -14863,6 +16640,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lin_xun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lin_xun",
     "display_name": "Lin Xun",
     "display_name_alt": "林恂",
@@ -14881,14 +16659,15 @@ const CHARACTER_DATA = [
     "birth_year": "206",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_fraternal"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_main_template_historical_ling_cao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ling_cao",
     "display_name": "Ling Cao",
     "display_name_alt": "淩操",
@@ -14905,7 +16684,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "155",
-    "death_year": "203",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_agile",
       "3k_main_ceo_trait_personality_fiery",
@@ -14915,6 +16694,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ling_tong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "ling_tong",
     "display_name": "Ling Tong",
     "display_name_alt": "淩統",
@@ -14924,23 +16704,24 @@ const CHARACTER_DATA = [
     "family_name_alt": "淩",
     "courtesy_name": "Gongji",
     "courtesy_name_alt": "公績",
-    "title": "Daring Errant",
-    "description": "For some men, war is a chance to prove one’s self and seek adventure.",
+    "title": "placeholder",
+    "description": "placeholder",
     "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
     "birth_year": "189",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
+      "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_personality_fiery"
     ],
     "skill_set": "3k_main_skillset_ling_tong_general_wood"
   },
   {
     "key": "3k_dlc04_template_historical_ling_zheng_metal",
+    "faction_leader_of": [],
     "name_key": "ling_zheng",
     "display_name": "Ling Zheng",
     "display_name_alt": "泠徵",
@@ -14967,13 +16748,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_linghu_na_hero_earth",
+    "faction_leader_of": [],
     "name_key": "linghu_na",
     "display_name": "Linghu Na",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name_alt": "令狐娜",
+    "forename": "Na",
+    "family_name": "Linghu",
+    "forename_alt": "狐娜",
+    "family_name_alt": "令",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Of Steady Composure",
@@ -14993,13 +16775,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_linghu_qian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "linghu_qian",
     "display_name": "Linghu Qian",
     "display_name_alt": "令狐倩",
     "forename": "Qian",
     "family_name": "Linghu",
-    "forename_alt": "倩",
-    "family_name_alt": "令狐",
+    "forename_alt": "狐倩",
+    "family_name_alt": "令",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Peace-loving and Gentlehearted",
@@ -15019,6 +16802,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_linghu_yu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "linghu_yu",
     "display_name": "Linghu Yu",
     "display_name_alt": "令狐榆",
@@ -15037,14 +16821,15 @@ const CHARACTER_DATA = [
     "birth_year": "213",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_liu_ai_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_ai",
     "display_name": "Liu Ai",
     "display_name_alt": "劉爱",
@@ -15071,6 +16856,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_ba_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_ba",
     "display_name": "Liu Ba",
     "display_name_alt": "劉巴",
@@ -15087,7 +16873,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "164",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_modest",
       "3k_main_ceo_trait_personality_elusive",
@@ -15097,6 +16883,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_bao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_bao",
     "display_name": "Liu Bao",
     "display_name_alt": "劉豹",
@@ -15123,6 +16910,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_bei_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_bei_ruler"
+    ],
     "name_key": "liu_bei",
     "display_name": "Liu Bei",
     "display_name_alt": "劉備",
@@ -15139,7 +16929,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "161",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_humble",
       "3k_main_ceo_trait_personality_kind",
@@ -15149,6 +16939,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_emperor_shao_earth",
+    "faction_leader_of": [],
     "name_key": "emperor_shao",
     "display_name": "Liu Bian",
     "display_name_alt": "劉辯",
@@ -15165,7 +16956,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "176",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_distinguished",
@@ -15175,6 +16966,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_biao_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_biao_ruler"
+    ],
     "name_key": "liu_biao",
     "display_name": "Liu Biao",
     "display_name_alt": "劉表",
@@ -15191,7 +16985,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "142",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_indecisive",
@@ -15201,6 +16995,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_chan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_chan",
     "display_name": "Liu Chan",
     "display_name_alt": "劉闡",
@@ -15227,6 +17022,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_liu_cheng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_cheng",
     "display_name": "Liu Cheng",
     "display_name_alt": "劉承",
@@ -15245,14 +17041,15 @@ const CHARACTER_DATA = [
     "birth_year": "105",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
       "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
     "key": "3k_main_template_historical_liu_cheng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_cheng",
     "display_name": "Liu Cheng",
     "display_name_alt": "劉丞",
@@ -15271,14 +17068,17 @@ const CHARACTER_DATA = [
     "birth_year": "209",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_ytr_ceo_trait_personality_people_amiable"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_reckless"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_liu_chong_hero_earth",
+    "faction_leader_of": [
+      "3k_dlc04_main_political_party_prince_liu_chong_ruler"
+    ],
     "name_key": "liu_chong",
     "display_name": "Liu Chong",
     "display_name_alt": "劉寵",
@@ -15295,7 +17095,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "141",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_charismatic",
@@ -15305,6 +17105,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_cong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_cong",
     "display_name": "Liu Cong",
     "display_name_alt": "劉琮",
@@ -15331,6 +17132,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_dai_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_dai_190"
+    ],
     "name_key": "liu_dai",
     "display_name": "Liu Dai",
     "display_name_alt": "劉岱",
@@ -15347,7 +17151,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "146",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_competative",
@@ -15357,6 +17161,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc07_template_historical_liu_dan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "liu_dan",
     "display_name": "Liu Dan",
     "display_name_alt": "劉誕",
@@ -15373,7 +17178,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "155",
-    "death_year": "194",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_physical_strong",
@@ -15383,6 +17188,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_du_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_du",
     "display_name": "Liu Du",
     "display_name_alt": "劉度",
@@ -15409,6 +17215,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_dun_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_dun",
     "display_name": "Liu Dun",
     "display_name_alt": "劉惇",
@@ -15435,6 +17242,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc07_template_historical_liu_fan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_fan",
     "display_name": "Liu Fan",
     "display_name_alt": "劉範",
@@ -15451,7 +17259,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150",
-    "death_year": "194",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_fraternal",
@@ -15461,6 +17269,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_fan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_fan",
     "display_name": "Liu Fan",
     "display_name_alt": "劉範",
@@ -15477,16 +17286,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "140",
-    "death_year": "194",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_liu_fang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_fang",
     "display_name": "Liu Fang",
     "display_name_alt": "劉放",
@@ -15503,16 +17313,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "195",
-    "death_year": "250",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_unobservant"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_main_template_historical_liu_feng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_feng",
     "display_name": "Liu Feng",
     "display_name_alt": "劉封",
@@ -15529,7 +17340,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "192",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_cautious",
@@ -15539,6 +17350,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_fu_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_fu",
     "display_name": "Liu Fu",
     "display_name_alt": "劉馥",
@@ -15555,7 +17367,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "151",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_creative",
       "3k_main_ceo_trait_personality_charitable",
@@ -15565,6 +17377,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_gui_hero_wood",
+    "faction_leader_of": [],
     "name_key": "liu_gui",
     "display_name": "Liu Gui",
     "display_name_alt": "劉璝",
@@ -15581,7 +17394,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "213",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_suspicious",
       "3k_main_ceo_trait_personality_competative",
@@ -15591,6 +17404,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_he_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_he",
     "display_name": "Liu He",
     "display_name_alt": "劉和",
@@ -15617,6 +17431,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_he_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_he",
     "display_name": "Liu He",
     "display_name_alt": "劉闔",
@@ -15643,6 +17458,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_emperor_ling_earth",
+    "faction_leader_of": [],
     "name_key": "emperor_ling",
     "display_name": "Liu Hong",
     "display_name_alt": "劉宏",
@@ -15659,7 +17475,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_amiable",
       "3k_main_ceo_trait_personality_distinguished",
@@ -15669,6 +17485,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_liu_hong_water",
+    "faction_leader_of": [],
     "name_key": "liu_hong",
     "display_name": "Liu Hong",
     "display_name_alt": "劉洪",
@@ -15695,6 +17512,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_hu_ironic_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_hu_ironic",
     "display_name": "Liu Hu",
     "display_name_alt": "劉虎",
@@ -15721,6 +17539,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_liu_huimin_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_huimin",
     "display_name": "Liu Huimin",
     "display_name_alt": "劉慧敏",
@@ -15747,6 +17566,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_ji",
     "display_name": "Liu Ji",
     "display_name_alt": "劉基",
@@ -15773,6 +17593,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_ji",
     "display_name": "Liu Ji",
     "display_name_alt": "劉基",
@@ -15788,17 +17609,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "184",
-    "death_year": "232",
+    "birth_year": "181",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "ironic_template_historical_liu_jin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "liu_jin",
     "display_name": "Liu Jin",
     "display_name_alt": "劉金",
@@ -15825,6 +17647,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_jing_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_jing",
     "display_name": "Liu Jing",
     "display_name_alt": "劉靖",
@@ -15841,7 +17664,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "181",
-    "death_year": "254",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_artful",
       "3k_main_ceo_trait_personality_aescetic",
@@ -15851,6 +17674,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_jue_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_jue",
     "display_name": "Liu Jue",
     "display_name_alt": "留角",
@@ -15877,6 +17701,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_jun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_jun",
     "display_name": "Liu Jun",
     "display_name_alt": "劉俊",
@@ -15895,14 +17720,15 @@ const CHARACTER_DATA = [
     "birth_year": "212",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_dlc07_template_historical_liu_mao_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_mao",
     "display_name": "Liu Mao",
     "display_name_alt": "劉瑁",
@@ -15929,6 +17755,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_liu_min_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_min",
     "display_name": "Liu Min",
     "display_name_alt": "劉敏",
@@ -15955,6 +17782,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_pan_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_pan_190"
+    ],
     "name_key": "liu_pan",
     "display_name": "Liu Pan",
     "display_name_alt": "劉磐",
@@ -15981,6 +17811,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_liu_pi_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_yt_generic_190"
+    ],
     "name_key": "liu_pi",
     "display_name": "Liu Pi",
     "display_name_alt": "劉辟",
@@ -15997,7 +17830,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "140",
-    "death_year": "201",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_courageous",
       "3k_ytr_ceo_trait_personality_land_proud",
@@ -16007,6 +17840,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_liu_pingming_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_pingming",
     "display_name": "Liu Pingmin",
     "display_name_alt": "劉平敏",
@@ -16033,6 +17867,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_qi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_qi",
     "display_name": "Liu Qi",
     "display_name_alt": "劉琦",
@@ -16049,7 +17884,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_ytr_ceo_trait_personality_land_courageous",
@@ -16059,6 +17894,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_liu_qi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_qi",
     "display_name": "Liu Qi",
     "display_name_alt": "劉旂",
@@ -16085,6 +17921,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_rui_ironic_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_rui_ironic",
     "display_name": "Liu Rui",
     "display_name_alt": "劉叡",
@@ -16111,6 +17948,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_shan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_shan",
     "display_name": "Liu Shan",
     "display_name_alt": "劉禪",
@@ -16126,17 +17964,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "207",
-    "death_year": "271",
+    "birth_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_weak",
       "3k_ytr_ceo_trait_personality_land_proud",
       "3k_main_ceo_trait_personality_charismatic"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_earth"
+    "skill_set": "3k_main_skillset_liu_shan_minister_earth"
   },
   {
     "key": "3k_main_template_historical_liu_shang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_shang",
     "display_name": "Liu Shang",
     "display_name_alt": "劉尚",
@@ -16163,6 +18002,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_shao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "liu_shao",
     "display_name": "Liu Shao",
     "display_name_alt": "劉邵",
@@ -16189,6 +18029,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_liu_shen_hero_wood",
+    "faction_leader_of": [],
     "name_key": "liu_shen",
     "display_name": "Liu Shen",
     "display_name_alt": "劉沈",
@@ -16215,6 +18056,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_ting_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_ting",
     "display_name": "Liu Ting",
     "display_name_alt": "劉婷",
@@ -16241,6 +18083,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_wei_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_wei",
     "display_name": "Liu Wei",
     "display_name_alt": "劉威",
@@ -16267,6 +18110,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_xi_ironic_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_xi_ironic",
     "display_name": "Liu Xi",
     "display_name_alt": "劉熙",
@@ -16293,6 +18137,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_xian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "liu_xian",
     "display_name": "Liu Xian",
     "display_name_alt": "劉先",
@@ -16319,6 +18164,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_xian_ironic_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_xian_ironic",
     "display_name": "Liu Xian",
     "display_name_alt": "劉賢",
@@ -16345,6 +18191,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_emperor_xian_earth",
+    "faction_leader_of": [],
     "name_key": "emperor_xian",
     "display_name": "Liu Xie",
     "display_name_alt": "劉協",
@@ -16361,7 +18208,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "181",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_composed",
       "3k_main_ceo_trait_personality_humble",
@@ -16371,6 +18218,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_xie_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_xie",
     "display_name": "Liu Xie",
     "display_name_alt": "劉協",
@@ -16387,7 +18235,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "181",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_composed",
       "3k_main_ceo_trait_personality_humble",
@@ -16397,6 +18245,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_xie_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_xie",
     "display_name": "Liu Xie",
     "display_name_alt": "劉偕",
@@ -16423,6 +18272,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_xiu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_xiu",
     "display_name": "Liu Xiu",
     "display_name_alt": "劉脩",
@@ -16449,6 +18299,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_liu_xun_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_xun_190"
+    ],
     "name_key": "liu_xun",
     "display_name": "Liu Xun",
     "display_name_alt": "劉勛",
@@ -16475,6 +18328,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc07_template_generated_liu_xun_metal",
+    "faction_leader_of": [],
     "name_key": "liu_xun",
     "display_name": "Liu Xun",
     "display_name_alt": "劉循",
@@ -16501,6 +18355,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_yan_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_yan_ruler"
+    ],
     "name_key": "liu_yan",
     "display_name": "Liu Yan",
     "display_name_alt": "劉焉",
@@ -16517,7 +18374,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "131",
-    "death_year": "194",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_main_ceo_trait_personality_superstitious",
@@ -16527,6 +18384,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_yan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_yan",
     "display_name": "Liu Yan",
     "display_name_alt": "劉琰",
@@ -16534,8 +18392,8 @@ const CHARACTER_DATA = [
     "family_name": "Liu",
     "forename_alt": "琰",
     "family_name_alt": "劉",
-    "courtesy_name": "Weishuo",
-    "courtesy_name_alt": "威碩",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Extravagant Alcoholic",
     "description": "Liu Yan speaks with astonishing eloquence and charm, but under the surface he has dangerous and dark vices.",
     "element": "fire",
@@ -16543,7 +18401,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_drunk",
       "3k_ytr_ceo_trait_personality_people_cheerful",
@@ -16553,13 +18411,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_yan_ironic_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_yan_ironic",
-    "display_name": "Liu Yan Ironic",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name": "Liu Yan",
+    "display_name_alt": "刘彦",
+    "forename": "Yan",
+    "family_name": "Liu",
+    "forename_alt": "彦",
+    "family_name_alt": "刘",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Pompous Cavalier",
@@ -16579,6 +18438,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_yao_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_yao_190"
+    ],
     "name_key": "liu_yao",
     "display_name": "Liu Yao",
     "display_name_alt": "劉繇",
@@ -16595,7 +18457,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_unobservant",
       "3k_main_ceo_trait_personality_trusting",
@@ -16605,6 +18467,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_ye_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_ye",
     "display_name": "Liu Ye",
     "display_name_alt": "劉曄",
@@ -16621,7 +18484,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_careless",
@@ -16631,6 +18494,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_yi",
     "display_name": "Liu Yi",
     "display_name_alt": "劉毅",
@@ -16657,6 +18521,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_liu_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_yi",
     "display_name": "Liu Yi",
     "display_name_alt": "劉壹",
@@ -16683,6 +18548,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_yin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_yin",
     "display_name": "Liu Yin",
     "display_name_alt": "柳隱",
@@ -16699,16 +18565,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "190",
-    "death_year": "269",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_ytr_ceo_trait_personality_land_aspiring",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_liu_yu_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_liu_yu_190"
+    ],
     "name_key": "liu_yu",
     "display_name": "Liu Yu",
     "display_name_alt": "劉虞",
@@ -16725,7 +18594,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "144",
-    "death_year": "193",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_modest",
       "3k_main_ceo_trait_personality_fraternal",
@@ -16735,6 +18604,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_zan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "liu_zan",
     "display_name": "Liu Zan",
     "display_name_alt": "留贊",
@@ -16751,7 +18621,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "183",
-    "death_year": "255",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_physical_tough",
@@ -16761,6 +18631,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_zhang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "liu_zhang",
     "display_name": "Liu Zhang",
     "display_name_alt": "劉璋",
@@ -16777,7 +18648,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "161",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_clever",
       "3k_main_ceo_trait_personality_incompetent",
@@ -16787,6 +18658,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_liu_zhen_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_zhen",
     "display_name": "Liu Zhen",
     "display_name_alt": "劉楨",
@@ -16803,7 +18675,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_composed",
       "3k_main_ceo_trait_personality_artful",
@@ -16813,6 +18685,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lou_fa_hero_water",
+    "faction_leader_of": [],
     "name_key": "lou_fa",
     "display_name": "Lou Fa",
     "display_name_alt": "婁發",
@@ -16839,6 +18712,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lou_gui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lou_gui",
     "display_name": "Lou Gui",
     "display_name_alt": "婁圭",
@@ -16865,6 +18739,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_leipan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "leipan",
     "display_name": "Louban",
     "display_name_alt": "樓班",
@@ -16891,6 +18766,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lu_bao_shuming_wood",
+    "faction_leader_of": [],
     "name_key": "lu_bao_shuming",
     "display_name": "Lu Bao",
     "display_name_alt": "陸褒",
@@ -16917,6 +18793,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_bing_kang_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_bing_kang",
     "display_name": "Lu Bing",
     "display_name_alt": "陸冰",
@@ -16943,6 +18820,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_dang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_dang",
     "display_name": "Lu Dang",
     "display_name_alt": "陸當",
@@ -16969,6 +18847,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_fei_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lu_fei",
     "display_name": "Lu Fei",
     "display_name_alt": "陸费",
@@ -16995,6 +18874,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_he_hero_wood",
+    "faction_leader_of": [],
     "name_key": "lu_he",
     "display_name": "Lu He",
     "display_name_alt": "路合",
@@ -17021,12 +18901,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_ji",
     "display_name": "Lu Ji",
-    "display_name_alt": "陸績",
+    "display_name_alt": "陸機",
     "forename": "Ji",
     "family_name": "Lu",
-    "forename_alt": "績",
+    "forename_alt": "機",
     "family_name_alt": "陸",
     "courtesy_name": "Gongji",
     "courtesy_name_alt": "公紀",
@@ -17037,16 +18918,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "187",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_personality_resourceful"
     ],
-    "skill_set": "3k_main_skillset_generic_general_water_strategist"
+    "skill_set": "3k_main_skillset_lu_ji_minister_water_strategist"
   },
   {
     "key": "ep_template_historical_lu_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_ji",
     "display_name": "Lu Ji",
     "display_name_alt": "陸機",
@@ -17054,8 +18936,8 @@ const CHARACTER_DATA = [
     "family_name": "Lu",
     "forename_alt": "機",
     "family_name_alt": "陸",
-    "courtesy_name": "Shiheng",
-    "courtesy_name_alt": "士衡",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Renowned Scholar",
     "description": "Famed thoughout the realm as a gifted writer and literary critic. However, his ability as a commander remains... questionable.",
     "element": "water",
@@ -17063,7 +18945,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "261",
-    "death_year": "303",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_clever",
@@ -17073,6 +18955,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lu_jun_earth",
+    "faction_leader_of": [],
     "name_key": "lu_jun",
     "display_name": "Lu Jun",
     "display_name_alt": "陸儁",
@@ -17091,14 +18974,15 @@ const CHARACTER_DATA = [
     "birth_year": "146",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_ytr_ceo_trait_personality_temperamental"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_physical_tough"
     ],
     "skill_set": "3k_main_skillset_generic_governor_earth"
   },
   {
     "key": "3k_dlc04_template_historical_lu_jun_jicai_earth",
+    "faction_leader_of": [],
     "name_key": "lu_jun_jicai",
     "display_name": "Lu Jun",
     "display_name_alt": "陸駿",
@@ -17125,6 +19009,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_luo_jun_xiaoyuan_wood",
+    "faction_leader_of": [],
     "name_key": "luo_jun_xiaoyuan",
     "display_name": "Lu Jun",
     "display_name_alt": "盧俊",
@@ -17151,6 +19036,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_kang_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_lu_kang_190"
+    ],
     "name_key": "lu_kang",
     "display_name": "Lu Kang",
     "display_name_alt": "陸康",
@@ -17167,7 +19055,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "126",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_clever",
       "3k_main_ceo_trait_personality_distinguished",
@@ -17177,6 +19065,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_lady_lu_lianshi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "lu_lianshi",
     "display_name": "Lu Lianshi",
     "display_name_alt": "陸練師",
@@ -17195,14 +19084,15 @@ const CHARACTER_DATA = [
     "birth_year": "269",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "skill_set": "3k_main_skillset_generic_agent_earth"
   },
   {
     "key": "3k_main_template_historical_lu_mao_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_mao",
     "display_name": "Lu Mao",
     "display_name_alt": "陸瑁",
@@ -17229,6 +19119,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_mei_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lu_mei",
     "display_name": "Lu Ming",
     "display_name_alt": "陸明",
@@ -17255,6 +19146,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lu_kang_brother_wood",
+    "faction_leader_of": [],
     "name_key": "lu_kang_brother",
     "display_name": "Lu Qian",
     "display_name_alt": "陸謙",
@@ -17281,6 +19173,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lu_shang_fire",
+    "faction_leader_of": [],
     "name_key": "lu_shang",
     "display_name": "Lu Shang",
     "display_name_alt": "陸尚",
@@ -17307,6 +19200,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_shu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_shu",
     "display_name": "Lu Shu",
     "display_name_alt": "魯淑",
@@ -17322,17 +19216,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "218",
-    "death_year": "274",
+    "birth_year": "217",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_main_template_historical_lu_su_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_su",
     "display_name": "Lu Su",
     "display_name_alt": "魯肅",
@@ -17349,7 +19244,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "172",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_sincere",
       "3k_main_ceo_trait_personality_modest",
@@ -17359,6 +19254,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_xu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "lu_xu",
     "display_name": "Lu Xu",
     "display_name_alt": "盧绪",
@@ -17385,6 +19281,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_xun_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_xun",
     "display_name": "Lu Xun",
     "display_name_alt": "陸遜",
@@ -17401,16 +19298,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "183",
-    "death_year": "245",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_resourceful",
       "3k_main_ceo_trait_personality_loyal"
     ],
-    "skill_set": "3k_main_skillset_generic_general_water_strategist"
+    "skill_set": "3k_main_skillset_lu_xun_minister_water_strategist"
   },
   {
     "key": "3k_main_template_generated_lady_liu_yanglan_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_yanglan",
     "display_name": "Lu Yanglan",
     "display_name_alt": "盧洋蘭",
@@ -17437,6 +19335,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lu_yu_metal",
+    "faction_leader_of": [],
     "name_key": "lu_yu",
     "display_name": "Lu Yu",
     "display_name_alt": "陸紆",
@@ -17463,6 +19362,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_yu",
     "display_name": "Lu Yu",
     "display_name_alt": "盧毓",
@@ -17479,7 +19379,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "183",
-    "death_year": "257",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_sincere",
       "3k_main_ceo_trait_personality_trusting",
@@ -17489,6 +19389,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_lu_yun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_yun",
     "display_name": "Lu Yun",
     "display_name_alt": "陸允",
@@ -17507,14 +19408,15 @@ const CHARACTER_DATA = [
     "birth_year": "264",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_mtu_template_historical_lady_lu_zheng_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_zheng",
     "display_name": "Lu Zheng",
     "display_name_alt": "陸政",
@@ -17541,6 +19443,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lu_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_zhi",
     "display_name": "Lu Zhi",
     "display_name_alt": "盧植",
@@ -17557,7 +19460,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "139",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_sincere",
@@ -17567,6 +19470,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_zhi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lu_zhi",
     "display_name": "Lu Zhi",
     "display_name_alt": "盧植",
@@ -17583,16 +19487,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "139",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
       "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_vengeful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "ep_template_historical_lu_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_zhi",
     "display_name": "Lu Zhi",
     "display_name_alt": "盧志",
@@ -17609,7 +19514,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "256",
-    "death_year": "312",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_loyal",
@@ -17619,6 +19524,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lun_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lun_zhi",
     "display_name": "Lun Zhi",
     "display_name_alt": "倫直",
@@ -17637,14 +19543,15 @@ const CHARACTER_DATA = [
     "birth_year": "194",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_luo_li_hero_fire",
+    "faction_leader_of": [],
     "name_key": "luo_li",
     "display_name": "Luo Li",
     "display_name_alt": "羅厲",
@@ -17671,6 +19578,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_luo_luban_hero_metal",
+    "faction_leader_of": [],
     "name_key": "luo_luban",
     "display_name": "Luo Luban",
     "display_name_alt": "羅路頒",
@@ -17689,14 +19597,15 @@ const CHARACTER_DATA = [
     "birth_year": "246",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "3k_main_template_historical_luo_tong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "luo_tong",
     "display_name": "Luo Tong",
     "display_name_alt": "駱統",
@@ -17713,7 +19622,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "193",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_ytr_ceo_trait_personality_benevolent",
@@ -17723,6 +19632,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_an_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_an",
     "display_name": "Lü An",
     "display_name_alt": "呂安",
@@ -17741,14 +19651,15 @@ const CHARACTER_DATA = [
     "birth_year": "218",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "ironic_template_historical_lu_bing_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_bing",
     "display_name": "Lü Bing",
     "display_name_alt": "呂並",
@@ -17775,6 +19686,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_lu_boshe_wood",
+    "faction_leader_of": [],
     "name_key": "lu_boshe",
     "display_name": "Lü Boshe",
     "display_name_alt": "呂伯奢",
@@ -17801,6 +19713,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_bu_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_lu_bu_190"
+    ],
     "name_key": "lu_bu",
     "display_name": "Lü Bu",
     "display_name_alt": "呂布",
@@ -17817,7 +19732,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_physical_feared",
       "3k_ytr_ceo_trait_personality_land_powerful",
@@ -17827,6 +19742,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_chang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_chang",
     "display_name": "Lü Chang",
     "display_name_alt": "呂常",
@@ -17845,14 +19761,15 @@ const CHARACTER_DATA = [
     "birth_year": "160",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_lu_dai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_dai",
     "display_name": "Lü Dai",
     "display_name_alt": "呂岱",
@@ -17869,7 +19786,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "161",
-    "death_year": "256",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_physical_healthy",
@@ -17879,6 +19796,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_fan_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_fan",
     "display_name": "Lü Fan",
     "display_name_alt": "呂範",
@@ -17895,7 +19813,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_distinguished",
@@ -17905,6 +19823,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_gong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_gong",
     "display_name": "Lü Gong",
     "display_name_alt": "呂公",
@@ -17931,6 +19850,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_he_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lu_he",
     "display_name": "Lü He",
     "display_name_alt": "呂合",
@@ -17957,6 +19877,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_lu_ji_hero_wood",
+    "faction_leader_of": [],
     "name_key": "lu_ji",
     "display_name": "Lü Ji",
     "display_name_alt": "呂姬",
@@ -17983,6 +19904,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_ju_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_ju",
     "display_name": "Lü Ju",
     "display_name_alt": "呂據",
@@ -17999,16 +19921,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "214",
-    "death_year": "256",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_lu_kai_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_kai",
     "display_name": "Lü Kai",
     "display_name_alt": "呂凱",
@@ -18027,14 +19950,15 @@ const CHARACTER_DATA = [
     "birth_year": "202",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_superstitious"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_lu_meng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lu_meng",
     "display_name": "Lü Meng",
     "display_name_alt": "呂蒙",
@@ -18051,7 +19975,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "178",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fiery",
       "3k_main_ceo_trait_personality_cunning",
@@ -18061,6 +19985,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lu_qian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "lu_qian",
     "display_name": "Lü Qian",
     "display_name_alt": "呂虔",
@@ -18068,8 +19993,8 @@ const CHARACTER_DATA = [
     "family_name": "Lü",
     "forename_alt": "虔",
     "family_name_alt": "呂",
-    "courtesy_name": "Zike",
-    "courtesy_name_alt": "子恪",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Swift Bowman",
     "description": "A deadly hunter, a peerless scout, a loyal subordinate and a quick thinking general all in one - Lü Qian is a consumate commander.",
     "element": "metal",
@@ -18087,6 +20012,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lu_weihuang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "lu_weihuang",
     "display_name": "Lü Weihuang",
     "display_name_alt": "呂威璜",
@@ -18105,14 +20031,15 @@ const CHARACTER_DATA = [
     "birth_year": "171",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_lu_xing_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_xing",
     "display_name": "Lü Xing",
     "display_name_alt": "呂興",
@@ -18129,16 +20056,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "218",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_ytr_ceo_trait_personality_heaven_tranquil"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_personality_trusting"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_lu_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_yi",
     "display_name": "Lü Yi",
     "display_name_alt": "呂壹",
@@ -18155,7 +20083,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "189",
-    "death_year": "238",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_deceitful",
       "3k_ytr_ceo_trait_personality_vindictive",
@@ -18165,6 +20093,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_lü_you_hero_water",
+    "faction_leader_of": [],
     "name_key": "lü_you",
     "display_name": "Lü You",
     "display_name_alt": "茲攸",
@@ -18183,14 +20112,15 @@ const CHARACTER_DATA = [
     "birth_year": "170",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "ironic_template_historical_lu_you_hero_water",
+    "faction_leader_of": [],
     "name_key": "lu_you",
     "display_name": "Lü You",
     "display_name_alt": "呂由",
@@ -18209,21 +20139,24 @@ const CHARACTER_DATA = [
     "birth_year": "157",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_loyal"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ironic_template_historical_ma_ai_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_ma_ai_190"
+    ],
     "name_key": "ma_ai",
     "display_name": "Ma Ai",
-    "display_name_alt": "麻艾",
+    "display_name_alt": "馬艾",
     "forename": "Ai",
     "family_name": "Ma",
     "forename_alt": "艾",
-    "family_name_alt": "麻",
+    "family_name_alt": "馬",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "The Corridor's Warden",
@@ -18243,6 +20176,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_chao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ma_chao",
     "display_name": "Ma Chao",
     "display_name_alt": "馬超",
@@ -18259,7 +20193,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "176",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_brave",
@@ -18269,6 +20203,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_dai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ma_dai",
     "display_name": "Ma Dai",
     "display_name_alt": "馬岱",
@@ -18291,10 +20226,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_humble",
       "3k_ytr_ceo_trait_personality_stalwart"
     ],
-    "skill_set": "3k_main_skillset_generic_minister_fire"
+    "skill_set": "3k_main_skillset_ma_dai_general_fire"
   },
   {
     "key": "ironic_template_historical_ma_han_hero_wood",
+    "faction_leader_of": [],
     "name_key": "ma_han",
     "display_name": "Ma Han",
     "display_name_alt": "馬漢",
@@ -18321,6 +20257,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_liang_hero_water",
+    "faction_leader_of": [],
     "name_key": "ma_liang",
     "display_name": "Ma Liang",
     "display_name_alt": "馬良",
@@ -18337,16 +20274,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "187",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_people_pleaser",
       "3k_main_ceo_trait_personality_clever",
       "3k_main_ceo_trait_personality_modest"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_water_strategist"
+    "skill_set": "3k_main_skillset_ma_liang_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_ma_mao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ma_mao",
     "display_name": "Ma Mao",
     "display_name_alt": "馬茂",
@@ -18365,14 +20303,15 @@ const CHARACTER_DATA = [
     "birth_year": "198",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_ytr_ceo_trait_physical_feared"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_disciplined"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_metal"
   },
   {
     "key": "3k_main_template_historical_ma_midi_hero_water",
+    "faction_leader_of": [],
     "name_key": "ma_midi",
     "display_name": "Ma Midi",
     "display_name_alt": "馬日磾",
@@ -18389,7 +20328,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "194",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_deceitful",
       "3k_main_ceo_trait_personality_scholarly",
@@ -18399,6 +20338,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ma_qin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ma_qin",
     "display_name": "Ma Qin",
     "display_name_alt": "馬秦",
@@ -18425,6 +20365,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_qiu_hero_water",
+    "faction_leader_of": [],
     "name_key": "ma_qiu",
     "display_name": "Ma Qiu",
     "display_name_alt": "馬秋",
@@ -18443,14 +20384,15 @@ const CHARACTER_DATA = [
     "birth_year": "159",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_ma_su_hero_water",
+    "faction_leader_of": [],
     "name_key": "ma_su",
     "display_name": "Ma Su",
     "display_name_alt": "馬謖",
@@ -18467,16 +20409,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_scholarly"
     ],
-    "skill_set": "3k_main_skillset_generic_agent_water_strategist"
+    "skill_set": "3k_main_skillset_ma_su_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_ma_teng_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_ma_teng_ruler"
+    ],
     "name_key": "ma_teng",
     "display_name": "Ma Teng",
     "display_name_alt": "馬騰",
@@ -18493,7 +20438,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "145",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_careless",
       "3k_main_ceo_trait_personality_kind",
@@ -18503,6 +20448,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_tie_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ma_tie",
     "display_name": "Ma Tie",
     "display_name_alt": "馬鐵",
@@ -18519,7 +20465,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "181",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_energetic",
       "3k_main_ceo_trait_personality_determined",
@@ -18529,6 +20475,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_wan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ma_wan",
     "display_name": "Ma Wan",
     "display_name_alt": "馬玩",
@@ -18556,6 +20503,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_ma_xiang_water",
+    "faction_leader_of": [],
     "name_key": "ma_xiang",
     "display_name": "Ma Xiang",
     "display_name_alt": "馬相",
@@ -18572,7 +20520,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "138",
-    "death_year": "188",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_aspiring",
       "3k_ytr_ceo_trait_personality_temperamental",
@@ -18582,6 +20530,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_xiu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ma_xiu",
     "display_name": "Ma Xiu",
     "display_name_alt": "馬休",
@@ -18598,7 +20547,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "178",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_careless",
@@ -18608,6 +20557,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ma_xun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ma_xun",
     "display_name": "Ma Xun",
     "display_name_alt": "馬勳",
@@ -18634,6 +20584,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ma_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "ma_yu",
     "display_name": "Ma Yu",
     "display_name_alt": "馬宇",
@@ -18652,14 +20603,15 @@ const CHARACTER_DATA = [
     "birth_year": "141",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_ma_yuanyi_metal",
+    "faction_leader_of": [],
     "name_key": "ma_yuanyi",
     "display_name": "Ma Yuanyi",
     "display_name_alt": "馬元義",
@@ -18676,7 +20628,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "150",
-    "death_year": "184",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_clever",
@@ -18686,6 +20638,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_ma_yunlu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ma_yunlu",
     "display_name": "Ma Yunlu",
     "display_name_alt": "馬雲騄",
@@ -18712,6 +20665,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ma_zhong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "ma_zhong",
     "display_name": "Ma Zhong",
     "display_name_alt": "馬忠",
@@ -18734,10 +20688,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_physical_healthy",
       "3k_main_ceo_trait_physical_tough"
     ],
-    "skill_set": "3k_main_skillset_generic_general_wood"
+    "skill_set": "3k_main_skillset_ma_zhong_general_wood"
   },
   {
     "key": "ironic_template_historical_ma_zhong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ma_zhong",
     "display_name": "Ma Zhong",
     "display_name_alt": "馬忠",
@@ -18756,14 +20711,15 @@ const CHARACTER_DATA = [
     "birth_year": "187",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_enigmatic"
     ],
     "skill_set": ""
   },
   {
     "key": "3k_main_template_historical_man_chong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "man_chong",
     "display_name": "Man Chong",
     "display_name_alt": "滿寵",
@@ -18780,16 +20736,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "173",
-    "death_year": "242",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_disciplined",
       "3k_ytr_ceo_trait_personality_heaven_tranquil",
       "3k_main_ceo_trait_personality_perceptive"
     ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
+    "skill_set": "3k_main_skillset_man_chong_governor_fire"
   },
   {
     "key": "3k_dlc06_template_historical_mangyachang_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_mangyachang_190"
+    ],
     "name_key": "mangyachang",
     "display_name": "Mangyachang",
     "display_name_alt": "忙牙长",
@@ -18816,6 +20775,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_mao_gan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "mao_gan",
     "display_name": "Mao Gan",
     "display_name_alt": "毛甘",
@@ -18842,6 +20802,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_mao_jun_hero_wood",
+    "faction_leader_of": [],
     "name_key": "mao_jun",
     "display_name": "Mao Hui",
     "display_name_alt": "毛暉",
@@ -18868,6 +20829,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_mao_jia_hero_fire",
+    "faction_leader_of": [],
     "name_key": "mao_jia",
     "display_name": "Mao Jia",
     "display_name_alt": "毛嘉",
@@ -18886,14 +20848,15 @@ const CHARACTER_DATA = [
     "birth_year": "205",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_mao_jie_hero_water",
+    "faction_leader_of": [],
     "name_key": "mao_jie",
     "display_name": "Mao Jie",
     "display_name_alt": "毛玠",
@@ -18910,7 +20873,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "169",
-    "death_year": "216",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_resourceful",
       "3k_ytr_ceo_trait_personality_people_understanding",
@@ -18920,6 +20883,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_mao_ren_hero_metal_wuling",
+    "faction_leader_of": [],
     "name_key": "mao_ren",
     "display_name": "Mao Ren",
     "display_name_alt": "毛仁",
@@ -18938,14 +20902,15 @@ const CHARACTER_DATA = [
     "birth_year": "259",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ],
     "skill_set": "3k_main_skillset_generic_villager_metal"
   },
   {
     "key": "3k_main_template_historical_mei_cheng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "mei_cheng",
     "display_name": "Mei Cheng",
     "display_name_alt": "梅成",
@@ -18962,7 +20927,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_disloyal",
       "3k_main_ceo_trait_personality_incompetent",
@@ -18972,6 +20937,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_meng_da_hero_fire",
+    "faction_leader_of": [],
     "name_key": "meng_da",
     "display_name": "Meng Da",
     "display_name_alt": "孟達",
@@ -18988,7 +20954,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "193",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_deceitful",
@@ -18998,6 +20964,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_meng_guang_hero_water",
+    "faction_leader_of": [],
     "name_key": "meng_guang",
     "display_name": "Meng Guang",
     "display_name_alt": "孟光",
@@ -19024,6 +20991,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_king_meng_huo_hero_nanman",
+    "faction_leader_of": [
+      "3k_dlc06_political_party_nanman_king_meng_huo_ruler_190"
+    ],
     "name_key": "king_meng_huo",
     "display_name": "Meng Huo",
     "display_name_alt": "孟獲",
@@ -19050,6 +21020,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_meng_jie_hero_nanman",
+    "faction_leader_of": [],
     "name_key": "meng_jie",
     "display_name": "Meng Jie",
     "display_name_alt": "孟節",
@@ -19076,6 +21047,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_meng_you_hero_nanman",
+    "faction_leader_of": [],
     "name_key": "meng_you",
     "display_name": "Meng You",
     "display_name_alt": "孟优",
@@ -19102,6 +21074,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_mi_dian_hero_water_dongping",
+    "faction_leader_of": [],
     "name_key": "mi_dian",
     "display_name": "Mi Dian",
     "display_name_alt": "麋甸",
@@ -19120,14 +21093,15 @@ const CHARACTER_DATA = [
     "birth_year": "252",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_relentless"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_mi_fang_metal",
+    "faction_leader_of": [],
     "name_key": "mi_fang",
     "display_name": "Mi Fang",
     "display_name_alt": "麋芳",
@@ -19154,6 +21128,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_mi_heng_hero_water",
+    "faction_leader_of": [],
     "name_key": "mi_heng",
     "display_name": "Mi Heng",
     "display_name_alt": "禰衡",
@@ -19170,7 +21145,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "173",
-    "death_year": "198",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_brilliant",
@@ -19180,6 +21155,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_mi_zhu_hero_water",
+    "faction_leader_of": [],
     "name_key": "mi_zhu",
     "display_name": "Mi Zhu",
     "display_name_alt": "麋竺",
@@ -19196,7 +21172,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "164",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_pacifist",
@@ -19206,6 +21182,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_miao_shang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "miao_shang",
     "display_name": "Miao Shang",
     "display_name_alt": "繆尚",
@@ -19232,6 +21209,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_han_wanwan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "han_wanwan",
     "display_name": "Miao Wanwan",
     "display_name_alt": "繆婉婉",
@@ -19258,12 +21236,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_miao_xi_hero_water",
+    "faction_leader_of": [],
     "name_key": "miao_xi",
     "display_name": "Miao Xi",
-    "display_name_alt": "繆襲",
+    "display_name_alt": "繆席",
     "forename": "Xi",
     "family_name": "Miao",
-    "forename_alt": "襲",
+    "forename_alt": "席",
     "family_name_alt": "繆",
     "courtesy_name": "Xibo",
     "courtesy_name_alt": "熙伯",
@@ -19274,16 +21253,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "186",
-    "death_year": "245",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_mike_hero_metal",
+    "faction_leader_of": [],
     "name_key": "mike",
     "display_name": "Mike",
     "display_name_alt": "厥機",
@@ -19309,8 +21289,36 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_xianbei_general_metal"
   },
   {
-    "key": "3k_main_template_historical_min_chun_hero_water",
-    "name_key": "min_chun",
+    "key": "ironic_template_historical_mil_u_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "mil_u_ironic",
+    "display_name": "Mil U",
+    "display_name_alt": "密友",
+    "forename": "U",
+    "family_name": "Mil",
+    "forename_alt": "友",
+    "family_name_alt": "密",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Loyal Subject Who Sacrifices for the King",
+    "description": "A devoted retainer who offers his very life to safeguard the sovereign and uphold the realm.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "194",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_land_alert"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal"
+  },
+  {
+    "key": "3k_main_template_historical_guan_chun_hero_water",
+    "faction_leader_of": [],
+    "name_key": "guan_chun",
     "display_name": "Min Chun",
     "display_name_alt": "閔純",
     "forename": "Chun",
@@ -19319,23 +21327,24 @@ const CHARACTER_DATA = [
     "family_name_alt": "閔",
     "courtesy_name": "Bodian",
     "courtesy_name_alt": "伯典",
-    "title": "placeholder",
-    "description": "placeholder",
+    "title": "Soft Spoken Strategist",
+    "description": "Even the most masterful of plans can fail if one lacks confidence or charisma to convince your lord.",
     "element": "water",
-    "subtype": "3k_general_fire",
+    "subtype": "3k_general_water",
     "is_male": true,
-    "is_unique": false,
-    "birth_year": "144",
-    "death_year": "191",
+    "is_unique": true,
+    "birth_year": "166",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_clever",
+      "3k_ytr_ceo_trait_personality_land_aspiring"
     ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
+    "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ironic_template_historical_mohuba_hero_metal",
+    "faction_leader_of": [],
     "name_key": "mohuba",
     "display_name": "Mohuba",
     "display_name_alt": "莫護跋",
@@ -19362,6 +21371,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_mou_rong_hero_water",
+    "faction_leader_of": [],
     "name_key": "mou_rong",
     "display_name": "Mou Juzi",
     "display_name_alt": "牟子",
@@ -19388,6 +21398,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_mu_shun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "mu_shun",
     "display_name": "Mu Shun",
     "display_name_alt": "穆順",
@@ -19398,7 +21409,7 @@ const CHARACTER_DATA = [
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "The Unstoppable",
-    "description": "Few can match Mu Shun's prowess in battle! Just you wait, he'll soon win a great victory and- what?! What do you mean, he's already defeated?!\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_miao_shang_ironic\tJittery Supervisor\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_miao_shang_ironic\tAfter being subjected to multiple, bloody regime changes, anyone would be at least slightly nervous.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_min_chun_ironic\tForthright Attendant\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_min_chun_ironic\tSurrender? My lord, you cannot be serious! I would rather die with honour than give up!\"",
+    "description": "Few can match Mu Shun's prowess in battle! Just you wait, he'll soon win a great victory and- what?! What do you mean, he's already defeated?!\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_miao_shang_ironic\tJittery Supervisor\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_miao_shang_ironic\tAfter being subjected to multiple, bloody regime changes, anyone would be at least slightly nervous.\ttrue\nceo_nodes_title_3k_main_ceo_career_historical_min_chun_ironic\tUnmemorable Son\ttrue\nceo_nodes_description_3k_main_ceo_career_historical_min_chun_ironic\tDespite all that has happened, at least my beloved, only son is safe... Wait, what do you mean when you say you're also my son?\"",
     "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
@@ -19413,7 +21424,37 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
+    "key": "ironic_template_historical_mul_gyeja_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "mul_gyeja_ironic",
+    "display_name": "Mul Gyeja",
+    "display_name_alt": "勿稽子",
+    "forename": "Gyeja",
+    "family_name": "Mul",
+    "forename_alt": "稽子",
+    "family_name_alt": "勿",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Resolute General",
+    "description": "Though he may not receive due recognition for his merits, he humbly maintains his resolve to achieve further accomplishments.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "172",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_ytr_ceo_trait_personality_people_stern"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
     "key": "3k_dlc06_template_historical_king_mulu_hero_nanman",
+    "faction_leader_of": [
+      "3k_dlc06_political_party_nanman_king_mulu_ruler_190"
+    ],
     "name_key": "king_mulu",
     "display_name": "Mulu",
     "display_name_alt": "木鹿",
@@ -19439,33 +21480,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_dlc06_skillset_romance_historical_nanman_generic"
   },
   {
-    "key": "ironic_template_historical_munseong_hero_water",
-    "name_key": "munseong",
-    "display_name": "Munseong",
-    "display_name_alt": "",
-    "forename": "Munseong",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Advisor",
-    "description": "There is no worse enemy than bad advice, and few better friends than a wise confidant.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "164",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
-    ],
-    "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
-  },
-  {
     "key": "ironic_template_historical_murong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "murong",
     "display_name": "Murong",
     "display_name_alt": "慕容",
@@ -19475,8 +21491,8 @@ const CHARACTER_DATA = [
     "family_name_alt": "慕容",
     "courtesy_name": "",
     "courtesy_name_alt": "",
-    "title": "Lookout",
-    "description": "Keen eyesight enables this person to spot the enemy clearly, even under cover of night.",
+    "title": "Waymaker",
+    "description": "Navigating the endless, barren plains is no easy feat, and it takes a skilled mind and a keen pair of eyes.",
     "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
@@ -19484,21 +21500,49 @@ const CHARACTER_DATA = [
     "birth_year": "125",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "skill_set": "3k_main_skillset_xianbei_general_metal"
   },
   {
+    "key": "ironic_template_historical_myeongrim_eosu_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "myeongrim_eosu_ironic",
+    "display_name": "Myeongrim Eosu",
+    "display_name_alt": "明臨於漱",
+    "forename": "Eosu",
+    "family_name": "Myeongrim",
+    "forename_alt": "於漱",
+    "family_name_alt": "明臨",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Strategic Counselor",
+    "description": "A prime minister’s duty is not solely to oversee governance, but also to possess insight into the art of war.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "194",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
     "key": "ironic_template_historical_nangong_xinyu_hero_water",
+    "faction_leader_of": [],
     "name_key": "nangong_xinyu",
     "display_name": "Nangong Xinyu",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name_alt": "南宮欣語",
+    "forename": "Xinyu",
+    "family_name": "Nangong",
+    "forename_alt": "欣語",
+    "family_name_alt": "南宮",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Maiden of the Mountains",
@@ -19518,13 +21562,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_nangong_zixiao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "nangong_zixiao",
     "display_name": "Nangong Zixiao",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name_alt": "南宮子孝",
+    "forename": "Zixiao",
+    "family_name": "Nangong",
+    "forename_alt": "子孝",
+    "family_name_alt": "南宮",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Hill Chieftain",
@@ -19544,6 +21589,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_nanlu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "nanlu",
     "display_name": "Nanlu",
     "display_name_alt": "南婁",
@@ -19562,14 +21608,15 @@ const CHARACTER_DATA = [
     "birth_year": "164",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_physical_feared"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_indecisive"
     ],
     "skill_set": ""
   },
   {
     "key": "ironic_template_historical_nanlou_hero_fire",
+    "faction_leader_of": [],
     "name_key": "nanlou",
     "display_name": "Nanlu",
     "display_name_alt": "南婁",
@@ -19596,6 +21643,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ni_kan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "ni_kan",
     "display_name": "Ni Kan",
     "display_name_alt": "倪阚",
@@ -19622,6 +21670,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ni_lu_hero_water",
+    "faction_leader_of": [],
     "name_key": "ni_lu",
     "display_name": "Ni Lu",
     "display_name_alt": "倪禄",
@@ -19648,6 +21697,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ni_nu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ni_nu",
     "display_name": "Ni Nü",
     "display_name_alt": "倪女",
@@ -19674,6 +21724,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ni_xiaode_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_ni_xiaode_190"
+    ],
     "name_key": "ni_xiaode",
     "display_name": "Ni Xiaode",
     "display_name_alt": "倪孝悳",
@@ -19700,6 +21753,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_gongsun_tingping_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gongsun_tingping",
     "display_name": "Nie Tingping",
     "display_name_alt": "聶婷平",
@@ -19725,33 +21779,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_villager_metal"
   },
   {
-    "key": "ironic_template_historical_niu_wei_ironic_hero_water",
-    "name_key": "niu_wei_ironic",
-    "display_name": "Niu",
-    "display_name_alt": "牛",
-    "forename": "",
-    "family_name": "Niu",
-    "forename_alt": "",
-    "family_name_alt": "牛",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Supportive Strategist",
-    "description": "No man is an island, no man can rule alone.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "154",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
-    ],
-    "skill_set": "3k_main_skillset_generic_governor_water_strategist"
-  },
-  {
     "key": "ironic_template_historical_niu_dan_ironic_hero_earth",
+    "faction_leader_of": [],
     "name_key": "niu_dan_ironic",
     "display_name": "Niu Dan",
     "display_name_alt": "牛亶",
@@ -19778,6 +21807,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_niu_fu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "niu_fu",
     "display_name": "Niu Fu",
     "display_name_alt": "牛輔",
@@ -19794,7 +21824,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cruel",
       "3k_main_ceo_trait_personality_dutiful",
@@ -19803,7 +21833,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_niu_fu_general_fire"
   },
   {
+    "key": "ironic_template_historical_niu_wei_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "niu_wei_ironic",
+    "display_name": "Niu Wei",
+    "display_name_alt": "牛薇",
+    "forename": "Wei",
+    "family_name": "Niu",
+    "forename_alt": "薇",
+    "family_name_alt": "牛",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Supportive Strategist",
+    "description": "No man is an island, no man can rule alone.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "154",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
+    ],
+    "skill_set": "3k_main_skillset_generic_governor_water_strategist"
+  },
+  {
     "key": "ironic_template_historical_qu_jing_hero_earth",
+    "faction_leader_of": [],
     "name_key": "qu_jing",
     "display_name": "Ou Jing",
     "display_name_alt": "區景",
@@ -19830,6 +21888,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ouhou_cai_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ouhou_cai",
     "display_name": "Ouhou Cai",
     "display_name_alt": "歐侯彩",
@@ -19856,6 +21915,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ouyang_su_hero_earth",
+    "faction_leader_of": [],
     "name_key": "ouyang_su",
     "display_name": "Ouyang Su",
     "display_name_alt": "歐陽蘇",
@@ -19882,6 +21942,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pan_feng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "pan_feng",
     "display_name": "Pan Feng",
     "display_name_alt": "潘鳳",
@@ -19908,6 +21969,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pan_juan_hero_water",
+    "faction_leader_of": [],
     "name_key": "pan_juan",
     "display_name": "Pan Juan",
     "display_name_alt": "潘娟",
@@ -19934,6 +21996,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_pan_jun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "pan_jun",
     "display_name": "Pan Jun",
     "display_name_alt": "潘濬",
@@ -19950,7 +22013,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "191",
-    "death_year": "239",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_stern",
       "3k_ytr_ceo_trait_personality_heaven_honest",
@@ -19960,6 +22023,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pan_ke_hero_metal",
+    "faction_leader_of": [],
     "name_key": "pan_ke",
     "display_name": "Pan Ke",
     "display_name_alt": "潘可",
@@ -19986,6 +22050,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_pan_lin_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_pan_lin_190"
+    ],
     "name_key": "pan_lin",
     "display_name": "Pan Lin",
     "display_name_alt": "潘臨",
@@ -20012,6 +22079,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pan_man_hero_earth",
+    "faction_leader_of": [],
     "name_key": "pan_man",
     "display_name": "Pan Man",
     "display_name_alt": "潘曼",
@@ -20038,6 +22106,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pan_shun_hero_wood",
+    "faction_leader_of": [],
     "name_key": "pan_shun",
     "display_name": "Pan Shun",
     "display_name_alt": "潘順",
@@ -20064,6 +22133,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_pan_xu_hero_water",
+    "faction_leader_of": [],
     "name_key": "pan_xu",
     "display_name": "Pan Xu",
     "display_name_alt": "潘勖",
@@ -20080,16 +22150,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "188",
-    "death_year": "215",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_strong_willed"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_personality_unobservant"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "3k_main_template_historical_pan_zhang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "pan_zhang",
     "display_name": "Pan Zhang",
     "display_name_alt": "潘璋",
@@ -20106,7 +22177,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "171",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_greedy",
       "3k_ytr_ceo_trait_physical_feared",
@@ -20117,6 +22188,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_chen_jiu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "chen_jiu",
     "display_name": "Pang De",
     "display_name_alt": "龐德",
@@ -20133,7 +22205,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_stubborn",
       "3k_main_ceo_trait_personality_patient",
@@ -20143,6 +22215,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pang_degong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "pang_degong",
     "display_name": "Pang Degong",
     "display_name_alt": "龐德公",
@@ -20169,6 +22242,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_pang_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "pang_ji",
     "display_name": "Pang Ji",
     "display_name_alt": "逢紀",
@@ -20185,7 +22259,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147",
-    "death_year": "202",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_direct",
       "3k_main_ceo_trait_personality_competative",
@@ -20195,6 +22269,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pang_le_hero_metal",
+    "faction_leader_of": [],
     "name_key": "pang_le",
     "display_name": "Pang Le",
     "display_name_alt": "龐樂",
@@ -20221,6 +22296,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pang_shanmin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "pang_shanmin",
     "display_name": "Pang Shanmin",
     "display_name_alt": "龐山民",
@@ -20247,6 +22323,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_pang_tong_hero_water",
+    "faction_leader_of": [],
     "name_key": "pang_tong",
     "display_name": "Pang Tong",
     "display_name_alt": "龐統",
@@ -20263,7 +22340,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "179",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_humble",
@@ -20273,6 +22350,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pang_xi_hero_water",
+    "faction_leader_of": [],
     "name_key": "pang_xi",
     "display_name": "Pang Xi",
     "display_name_alt": "龐羲",
@@ -20299,6 +22377,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_pang_yu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "pang_yu",
     "display_name": "Pang Yu",
     "display_name_alt": "龐淯",
@@ -20325,6 +22404,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_pei_jun_hero_water",
+    "faction_leader_of": [],
     "name_key": "pei_jun",
     "display_name": "Pei Jun",
     "display_name_alt": "裴俊",
@@ -20343,14 +22423,15 @@ const CHARACTER_DATA = [
     "birth_year": "179",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_dutiful",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_physical_infertile"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_physical_beautiful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_pei_qian_hero_water",
+    "faction_leader_of": [],
     "name_key": "pei_qian",
     "display_name": "Pei Qian",
     "display_name_alt": "裴潛",
@@ -20367,7 +22448,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209",
-    "death_year": "244",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_tranquil",
       "3k_ytr_ceo_trait_personality_people_compassionate",
@@ -20377,6 +22458,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_pei_wei_hero_earth",
+    "faction_leader_of": [],
     "name_key": "pei_wei",
     "display_name": "Pei Wei",
     "display_name_alt": "裴偉",
@@ -20395,14 +22477,15 @@ const CHARACTER_DATA = [
     "birth_year": "255",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_ytr_template_historical_pei_yuanshao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "pei_yuanshao",
     "display_name": "Pei Yuanshao",
     "display_name_alt": "裴元紹",
@@ -20429,6 +22512,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_peng_cai_hero_wood",
+    "faction_leader_of": [],
     "name_key": "peng_cai",
     "display_name": "Peng Cai",
     "display_name_alt": "彭材",
@@ -20455,6 +22539,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_peng_hu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "peng_hu",
     "display_name": "Peng Hu",
     "display_name_alt": "彭虎",
@@ -20481,6 +22566,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_peng_shi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "peng_shi",
     "display_name": "Peng Shi",
     "display_name_alt": "彭式",
@@ -20507,6 +22593,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_peng_yang_hero_water",
+    "faction_leader_of": [],
     "name_key": "peng_yang",
     "display_name": "Peng Yang",
     "display_name_alt": "彭羕",
@@ -20523,7 +22610,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "178",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_arrogant",
@@ -20533,6 +22620,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_princess_pei_hero_metal",
+    "faction_leader_of": [],
     "name_key": "princess_pei",
     "display_name": "Princess Pei",
     "display_name_alt": "裴妃",
@@ -20559,6 +22647,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_puyang_lian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "puyang_lian",
     "display_name": "Puyang Lian",
     "display_name_alt": "濮陽连",
@@ -20585,6 +22674,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_puyang_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "puyang_yi",
     "display_name": "Puyang Yi",
     "display_name_alt": "濮陽逸",
@@ -20611,6 +22701,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_wang_liting_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_liting",
     "display_name": "Qi Liting",
     "display_name_alt": "祁麗婷",
@@ -20629,14 +22720,15 @@ const CHARACTER_DATA = [
     "birth_year": "150",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_main_ceo_trait_personality_trusting"
     ],
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
     "key": "ep_template_historical_qi_sheng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "qi_sheng",
     "display_name": "Qi Sheng",
     "display_name_alt": "岐盛",
@@ -20663,6 +22755,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qi_zhou_hero_water",
+    "faction_leader_of": [],
     "name_key": "qi_zhou",
     "display_name": "Qi Zhou",
     "display_name_alt": "齊周",
@@ -20681,14 +22774,15 @@ const CHARACTER_DATA = [
     "birth_year": "176",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_physical_mad"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "ironic_template_historical_qian_bo_z_hero_wood",
+    "faction_leader_of": [],
     "name_key": "qian_bo_z",
     "display_name": "Qian Bo",
     "display_name_alt": "錢波",
@@ -20715,6 +22809,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_qian_bo_hero_wood",
+    "faction_leader_of": [],
     "name_key": "qian_bo",
     "display_name": "Qian Bo",
     "display_name_alt": "錢博",
@@ -20741,6 +22836,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_qian_pu_hero_water",
+    "faction_leader_of": [],
     "name_key": "qian_pu",
     "display_name": "Qian Pu",
     "display_name_alt": "千樸",
@@ -20759,14 +22855,15 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_healthy"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ironic_template_historical_qian_tong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "qian_tong",
     "display_name": "Qian Tong",
     "display_name_alt": "錢銅",
@@ -20793,6 +22890,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_qian_zhao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "qian_zhao",
     "display_name": "Qian Zhao",
     "display_name_alt": "牽招",
@@ -20800,8 +22898,8 @@ const CHARACTER_DATA = [
     "family_name": "Qian",
     "forename_alt": "招",
     "family_name_alt": "牽",
-    "courtesy_name": "Zijing",
-    "courtesy_name_alt": "子經",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Envoy to the Wuhuan",
     "description": "Utilising his connections to the northern tribes, Qian Zhao acts like a bridge between cultures.",
     "element": "fire",
@@ -20809,16 +22907,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "163",
-    "death_year": "231",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_people_pleaser",
       "3k_main_ceo_trait_personality_brave",
       "3k_ytr_ceo_trait_personality_land_courageous"
     ],
-    "skill_set": "3k_main_skillset_generic_envoy_fire"
+    "skill_set": "3k_main_skillset_qian_zhao_general_fire"
   },
   {
     "key": "ironic_template_historical_qiang_duan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "qiang_duan",
     "display_name": "Qiang Duan",
     "display_name_alt": "强端",
@@ -20845,6 +22944,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_qlianman_hero_metal",
+    "faction_leader_of": [],
     "name_key": "qlianman",
     "display_name": "Qianman",
     "display_name_alt": "骞曼",
@@ -20871,6 +22971,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qiao_mao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "qiao_mao",
     "display_name": "Qiao Mao",
     "display_name_alt": "橋瑁",
@@ -20887,7 +22988,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "151",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_honourable",
@@ -20897,6 +22998,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qiao_rui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "qiao_rui",
     "display_name": "Qiao Rui",
     "display_name_alt": "橋蕤",
@@ -20913,16 +23015,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "161",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
       "3k_main_ceo_trait_personality_stubborn",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_personality_disloyal"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_dlc04_template_historical_qiao_xuan_gongzu_water",
+    "faction_leader_of": [],
     "name_key": "qiao_xuan_gongzu",
     "display_name": "Qiao Xuan",
     "display_name_alt": "橋玄",
@@ -20939,7 +23042,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "110",
-    "death_year": "184",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_personality_defiant",
@@ -20949,6 +23052,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qiao_zhou_hero_water",
+    "faction_leader_of": [],
     "name_key": "qiao_zhou",
     "display_name": "Qiao Zhou",
     "display_name_alt": "譙周",
@@ -20965,23 +23069,24 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "201",
-    "death_year": "270",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_qimu_kai_hero_water",
+    "faction_leader_of": [],
     "name_key": "qimu_kai",
     "display_name": "Qimu Kai",
     "display_name_alt": "綦母闓",
     "forename": "Kai",
     "family_name": "Qimu",
-    "forename_alt": "闓",
-    "family_name_alt": "綦母",
+    "forename_alt": "母闓",
+    "family_name_alt": "綦",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Wise Wordsmith",
@@ -21001,6 +23106,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qin_huang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "qin_huang",
     "display_name": "Qin Huang",
     "display_name_alt": "秦晃",
@@ -21019,14 +23125,15 @@ const CHARACTER_DATA = [
     "birth_year": "218",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_loyal"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ironic_template_historical_qin_lang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "qin_lang",
     "display_name": "Qin Lang",
     "display_name_alt": "秦狼",
@@ -21053,6 +23160,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qin_mi_hero_water",
+    "faction_leader_of": [],
     "name_key": "qin_mi",
     "display_name": "Qin Mi",
     "display_name_alt": "秦宓",
@@ -21069,7 +23177,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "172",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_elusive",
       "3k_main_ceo_trait_personality_pacifist",
@@ -21079,6 +23187,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_qin_song_hero_water",
+    "faction_leader_of": [],
     "name_key": "qin_song",
     "display_name": "Qin Song",
     "display_name_alt": "秦松",
@@ -21105,6 +23214,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qin_yilu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "qin_yilu",
     "display_name": "Qin Yilu",
     "display_name_alt": "秦宜祿",
@@ -21121,7 +23231,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_drunk",
       "3k_main_ceo_trait_personality_careless",
@@ -21131,6 +23241,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qiulijiu_hero_fire",
+    "faction_leader_of": [
+      "ironic_main_wuhuan_faction_leader"
+    ],
     "name_key": "qiulijiu",
     "display_name": "Qiuliju",
     "display_name_alt": "丘力居",
@@ -21147,7 +23260,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "154",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_tough",
       "3k_main_ceo_trait_personality_greedy",
@@ -21157,6 +23270,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_qu_chuntao_hero_water",
+    "faction_leader_of": [],
     "name_key": "qu_chuntao",
     "display_name": "Qu Chuntao",
     "display_name_alt": "麹春桃",
@@ -21183,6 +23297,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_qu_gong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "qu_gong",
     "display_name": "Qu Gong",
     "display_name_alt": "瞿恭",
@@ -21210,6 +23325,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_qu_pan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "qu_pan",
     "display_name": "Qu Pan",
     "display_name_alt": "屈攀",
@@ -21236,6 +23352,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_qu_yan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "qu_yan",
     "display_name": "Qu Yan",
     "display_name_alt": "麹演",
@@ -21262,6 +23379,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qu_yi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "qu_yi",
     "display_name": "Qu Yi",
     "display_name_alt": "麴義",
@@ -21288,6 +23406,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_qu_ying_hero_metal",
+    "faction_leader_of": [],
     "name_key": "qu_ying",
     "display_name": "Qu Ying",
     "display_name_alt": "麴英",
@@ -21306,14 +23425,15 @@ const CHARACTER_DATA = [
     "birth_year": "186",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "3k_main_template_historical_quan_cong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "quan_cong",
     "display_name": "Quan Cong",
     "display_name_alt": "全琮",
@@ -21330,16 +23450,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "198",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_quan_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "quan_ji",
     "display_name": "Quan Ji",
     "display_name_alt": "全寄",
@@ -21356,16 +23477,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "212",
-    "death_year": "250",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "3k_main_template_historical_quan_rou_hero_wood",
+    "faction_leader_of": [],
     "name_key": "quan_rou",
     "display_name": "Quan Rou",
     "display_name_alt": "全柔",
@@ -21392,6 +23514,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_quan_xi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "quan_xi",
     "display_name": "Quan Xi",
     "display_name_alt": "全熙",
@@ -21410,14 +23533,15 @@ const CHARACTER_DATA = [
     "birth_year": "203",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_qubei_hero_earth",
+    "faction_leader_of": [],
     "name_key": "qubei",
     "display_name": "Qubei",
     "display_name_alt": "劉去卑",
@@ -21444,6 +23568,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_que_chang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "que_chang",
     "display_name": "Que Chang",
     "display_name_alt": "闕昶",
@@ -21462,14 +23587,15 @@ const CHARACTER_DATA = [
     "birth_year": "257",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ],
     "skill_set": "3k_main_skillset_generic_agent_wood"
   },
   {
     "key": "3k_dlc07_template_generated_xi_jian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xi_jian",
     "display_name": "Que Jian",
     "display_name_alt": "郤儉",
@@ -21488,14 +23614,15 @@ const CHARACTER_DATA = [
     "birth_year": "155",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_que_xuan_hero_water",
+    "faction_leader_of": [],
     "name_key": "que_xuan",
     "display_name": "Que Xuan",
     "display_name_alt": "闕宣",
@@ -21512,7 +23639,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158",
-    "death_year": "193",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_ambitious",
@@ -21521,7 +23648,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
+    "key": "ironic_template_historical_lady_woo_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "woo_ironic",
+    "display_name": "Queen Woo",
+    "display_name_alt": "王后 于氏",
+    "forename": "Queen Woo",
+    "family_name": "",
+    "forename_alt": "王后 于氏",
+    "family_name_alt": "",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Queen Who Chooses the King",
+    "description": "The vacant throne is fated to find its master by her decisive selection.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "165",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_main_ceo_trait_personality_loyal"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal_lady_woo"
+  },
+  {
     "key": "3k_main_template_historical_ren_an_hero_water",
+    "faction_leader_of": [],
     "name_key": "ren_an",
     "display_name": "Ren An",
     "display_name_alt": "任安",
@@ -21538,7 +23693,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "124",
-    "death_year": "202",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_humble",
       "3k_main_ceo_trait_personality_quiet",
@@ -21548,6 +23703,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ren_jun_hero_water",
+    "faction_leader_of": [],
     "name_key": "ren_jun",
     "display_name": "Ren Jun",
     "display_name_alt": "任峻",
@@ -21564,16 +23720,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "159",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_ren_kui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ren_kui",
     "display_name": "Ren Kui",
     "display_name_alt": "任夔",
@@ -21592,14 +23749,15 @@ const CHARACTER_DATA = [
     "birth_year": "166",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_dlc06_ceo_trait_personality_animal_friend"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_ren_qi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ren_qi",
     "display_name": "Ren Qi",
     "display_name_alt": "任岐",
@@ -21625,33 +23783,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
-    "key": "ironic_template_historical_ying_rong_ironic_hero_metal",
-    "name_key": "ying_rong_ironic",
-    "display_name": "Rong",
-    "display_name_alt": "容",
-    "forename": "Rong",
-    "family_name": "",
-    "forename_alt": "容",
-    "family_name_alt": "",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Recorder of Annals",
-    "description": "This one would much rather build his schools, teach his pupils and pen his books than be disturbed and molested by war and malice.",
-    "element": "metal",
-    "subtype": "3k_general_metal",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "165",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_main_ceo_trait_personality_humble"
-    ],
-    "skill_set": "3k_main_skillset_generic_governor_metal"
-  },
-  {
     "key": "ironic_template_historical_rong_fang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "rong_fang",
     "display_name": "Rong Fang",
     "display_name_alt": "榮芳",
@@ -21678,6 +23811,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ru_xun_hero_water",
+    "faction_leader_of": [],
     "name_key": "ru_xun",
     "display_name": "Ru Xun",
     "display_name_alt": "孺曛",
@@ -21704,6 +23838,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ruan_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "ruan_ji",
     "display_name": "Ruan Ji",
     "display_name_alt": "阮籍",
@@ -21720,7 +23855,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "210",
-    "death_year": "263",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_sincere",
       "3k_ytr_ceo_trait_personality_land_composed",
@@ -21730,6 +23865,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_ruan_shen_hero_water_poyang",
+    "faction_leader_of": [],
     "name_key": "ruan_shen",
     "display_name": "Ruan Shen",
     "display_name_alt": "阮沈",
@@ -21748,14 +23884,15 @@ const CHARACTER_DATA = [
     "birth_year": "255",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_ytr_ceo_trait_personality_benevolent"
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_ruan_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "ruan_yu",
     "display_name": "Ruan Yu",
     "display_name_alt": "阮瑀",
@@ -21772,16 +23909,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "168",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ironic_template_historical_rui_liang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "rui_liang",
     "display_name": "Rui Liang",
     "display_name_alt": "芮良",
@@ -21808,6 +23946,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_rui_xuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "rui_xuan",
     "display_name": "Rui Xuan",
     "display_name_alt": "芮玄",
@@ -21823,8 +23962,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "173",
-    "death_year": "226",
+    "birth_year": "178",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_agile",
       "3k_main_ceo_trait_personality_artful",
@@ -21834,6 +23973,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_rui_zhi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "rui_zhi",
     "display_name": "Rui Zhi",
     "display_name_alt": "芮祉",
@@ -21860,6 +24000,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_liu_mengan_hero_water",
+    "faction_leader_of": [],
     "name_key": "liu_mengan",
     "display_name": "Sang Mengan",
     "display_name_alt": "桑夢安",
@@ -21885,7 +24026,282 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
+    "key": "ironic_template_historical_seok_aihye_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "seok_aihye_ironic",
+    "display_name": "Seok Aihyeo",
+    "display_name_alt": "昔阿爾兮",
+    "forename": "Aihyeo",
+    "family_name": "Seok",
+    "forename_alt": "阿爾兮",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Young Moon of the Night",
+    "description": "Like the beautiful moon in the night sky, it shines brightly even in the darkest of nights.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "195",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_charitable"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_beolhyu_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_shitla_190"
+    ],
+    "name_key": "beolhyu",
+    "display_name": "Seok Beolhyu",
+    "display_name_alt": "昔伐休",
+    "forename": "Beolhyu",
+    "family_name": "Seok",
+    "forename_alt": "伐休",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Regal and Warlike",
+    "description": "This aggressive king will be the first in the fray in an offensive battle, knowing his men will always follow him.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "162",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_perceptive"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist_beolhyu"
+  },
+  {
+    "key": "ironic_template_historical_seok_cheomhae_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "seok_cheomhae_ironic",
+    "display_name": "Seok Cheomhae",
+    "display_name_alt": "昔沾解",
+    "forename": "Cheomhae",
+    "family_name": "Seok",
+    "forename_alt": "沾解",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Lost Sovereign",
+    "description": "The consequences of his quest for legitimacy and the enigmatic death of a great general are unveiled by the will of the people.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "176",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_brave"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
+    "key": "ironic_template_historical_seok_jobun_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "seok_jobun_ironic",
+    "display_name": "Seok Jobun",
+    "display_name_alt": "昔助賁",
+    "forename": "Jobun",
+    "family_name": "Seok",
+    "forename_alt": "助賁",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Protector of the People",
+    "description": "In times of calamity, it is the sovereign’s foremost duty to step forward and deliver aid to the populace.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_fiery"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_lady_seok_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "seok_ironic",
+    "display_name": "Seok Lady",
+    "display_name_alt": "昔夫人",
+    "forename": "Lady",
+    "family_name": "Seok",
+    "forename_alt": "夫人",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Lady of the Pure Clan",
+    "description": "Maintaining the pure bloodline of the clan comes from uniting with those who share the same blood.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": true,
+    "birth_year": "173",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_seok_naeeum_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "seok_naeeum_ironic",
+    "display_name": "Seok Naeeum",
+    "display_name_alt": "昔奈音",
+    "forename": "Naeeum",
+    "family_name": "Seok",
+    "forename_alt": "奈音",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Unseen Prince",
+    "description": "An heir destined for the throne is denied his light by tragedy, fading into history’s shadows.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "193",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_ytr_ceo_trait_personality_land_powerful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
+  },
+  {
+    "key": "ironic_template_historical_seok_naehae_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "seok_naehae_ironic",
+    "display_name": "Seok Naehae",
+    "display_name_alt": "昔奈解",
+    "forename": "Naehae",
+    "family_name": "Seok",
+    "forename_alt": "奈解",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Steadfast Warlord",
+    "description": "Amidst countless wars, he remains unwavering, firmly sustaining the realm.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "172",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_resourceful"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth_seok_naehae"
+  },
+  {
+    "key": "ironic_template_historical_seok_uro_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "seok_uro_ironic",
+    "display_name": "Seok Uro",
+    "display_name_alt": "昔于老",
+    "forename": "Uro",
+    "family_name": "Seok",
+    "forename_alt": "于老",
+    "family_name_alt": "昔",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Tragic End",
+    "description": "No matter how great a general or prince of a nation, failure to uphold diplomatic decorum and respect towards other states may lead to a miserable demise.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "194",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_stubborn"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
+    "key": "ironic_template_historical_seol_bu_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "seol_bu_ironic",
+    "display_name": "Seol Bu",
+    "display_name_alt": "薛夫",
+    "forename": "Bu",
+    "family_name": "Seol",
+    "forename_alt": "夫",
+    "family_name_alt": "薛",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Lord Like a Mountain",
+    "description": "No matter how certain defeat in battle may be, he is willing to face death to defend the fortress.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "158",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_brave"
+    ],
+    "skill_set": "ironic_skillset_korea_general_earth"
+  },
+  {
+    "key": "ironic_template_historical_seol_ji_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "seol_ji_ironic",
+    "display_name": "Seol Ji",
+    "display_name_alt": "薛支",
+    "forename": "Ji",
+    "family_name": "Seol",
+    "forename_alt": "支",
+    "family_name_alt": "薛",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Attentive Commander",
+    "description": "If promoted due to a superior’s frequent mistakes, one should learn lessons from those past errors.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "161",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_energetic"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
     "key": "3k_dlc06_template_historical_king_shamoke_hero_nanman",
+    "faction_leader_of": [
+      "3k_dlc06_political_party_nanman_king_shamoke_ruler_190"
+    ],
     "name_key": "king_shamoke",
     "display_name": "Shamoke",
     "display_name_alt": "沙摩柯",
@@ -21902,7 +24318,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_modest",
@@ -21912,6 +24328,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_king_shamoke_hero_nanman_194",
+    "faction_leader_of": [],
     "name_key": "king_shamoke",
     "display_name": "Shamoke",
     "display_name_alt": "沙摩柯",
@@ -21928,7 +24345,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_personality_modest",
@@ -21938,6 +24355,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shan_gu_hero_water",
+    "faction_leader_of": [],
     "name_key": "shan_gu",
     "display_name": "Shan Gu",
     "display_name_alt": "單固",
@@ -21956,14 +24374,15 @@ const CHARACTER_DATA = [
     "birth_year": "219",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_shan_jing_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shan_jing",
     "display_name": "Shan Jing",
     "display_name_alt": "單經",
@@ -21990,6 +24409,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shan_tao_hero_water",
+    "faction_leader_of": [],
     "name_key": "shan_tao",
     "display_name": "Shan Tao",
     "display_name_alt": "山濤",
@@ -22006,16 +24426,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "205",
-    "death_year": "283",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ep_template_historical_shan_yu_hero_earth_badong",
+    "faction_leader_of": [],
     "name_key": "shan_yu",
     "display_name": "Shan Yu",
     "display_name_alt": "山玉",
@@ -22034,14 +24455,15 @@ const CHARACTER_DATA = [
     "birth_year": "257",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_physical_impeccable"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_intimidating"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "ironic_template_historical_shang_sheng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shang_sheng",
     "display_name": "Shang Sheng",
     "display_name_alt": "商升",
@@ -22068,6 +24490,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_she_jian_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "she_jian_ironic",
     "display_name": "She Jian",
     "display_name_alt": "射堅",
@@ -22094,6 +24517,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_she_yuan_ironic_hero_earth",
+    "faction_leader_of": [],
     "name_key": "she_yuan_ironic",
     "display_name": "She Yuan",
     "display_name_alt": "射援",
@@ -22120,6 +24544,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shen_cheng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "shen_cheng",
     "display_name": "Shen Cheng",
     "display_name_alt": "沈成",
@@ -22146,6 +24571,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_shen_chuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shen_chuan",
     "display_name": "Shen Chuan",
     "display_name_alt": "申川",
@@ -22164,14 +24590,15 @@ const CHARACTER_DATA = [
     "birth_year": "267",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "ironic_template_historical_shen_dan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "shen_dan",
     "display_name": "Shen Dan",
     "display_name_alt": "申耽",
@@ -22198,6 +24625,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shen_de_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shen_de",
     "display_name": "Shen De",
     "display_name_alt": "審惪",
@@ -22216,14 +24644,15 @@ const CHARACTER_DATA = [
     "birth_year": "189",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "ironic_template_historical_shen_mi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "shen_mi",
     "display_name": "Shen Mi",
     "display_name_alt": "沈彌",
@@ -22250,6 +24679,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shen_pei_hero_water",
+    "faction_leader_of": [],
     "name_key": "shen_pei",
     "display_name": "Shen Pei",
     "display_name_alt": "審配",
@@ -22266,7 +24696,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "154",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_main_ceo_trait_personality_direct",
@@ -22276,6 +24706,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shen_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shen_yi",
     "display_name": "Shen Yi",
     "display_name_alt": "申儀",
@@ -22302,6 +24733,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shen_you_hero_water",
+    "faction_leader_of": [],
     "name_key": "shen_you",
     "display_name": "Shen You",
     "display_name_alt": "沈友",
@@ -22318,16 +24750,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "176",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "ironic_template_historical_sheng_dao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sheng_dao",
     "display_name": "Sheng Dao",
     "display_name_alt": "盛道",
@@ -22354,6 +24787,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sheng_kuang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sheng_kuang",
     "display_name": "Sheng Kuang",
     "display_name_alt": "盛匡",
@@ -22380,6 +24814,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sheng_mai_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sheng_mai",
     "display_name": "Sheng Mai",
     "display_name_alt": "盛麦",
@@ -22406,6 +24841,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sheng_xian_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_sheng_xian_190"
+    ],
     "name_key": "sheng_xian",
     "display_name": "Sheng Xian",
     "display_name_alt": "盛憲",
@@ -22422,7 +24860,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_cautious",
@@ -22432,12 +24870,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shentu_xiang_hero_water",
+    "faction_leader_of": [],
     "name_key": "shentu_xiang",
     "display_name": "Shentu Xiang",
-    "display_name_alt": "申屠香",
+    "display_name_alt": "申屠屠香",
     "forename": "Xiang",
     "family_name": "Shentu",
-    "forename_alt": "香",
+    "forename_alt": "屠香",
     "family_name_alt": "申屠",
     "courtesy_name": "",
     "courtesy_name_alt": "",
@@ -22458,12 +24897,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shi_caiwei_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shi_caiwei",
-    "display_name": "Shi",
-    "display_name_alt": "士",
-    "forename": "",
+    "display_name": "Shi Caiwei",
+    "display_name_alt": "士采薇",
+    "forename": "Caiwei",
     "family_name": "Shi",
-    "forename_alt": "",
+    "forename_alt": "采薇",
     "family_name_alt": "士",
     "courtesy_name": "",
     "courtesy_name_alt": "",
@@ -22483,91 +24923,14 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_agent_metal"
   },
   {
-    "key": "ironic_template_historical_shi_han_hero_earth",
-    "name_key": "shi_han",
-    "display_name": "Shi",
-    "display_name_alt": "士",
-    "forename": "",
-    "family_name": "Shi",
-    "forename_alt": "",
-    "family_name_alt": "士",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Blossom of Jiaozhi",
-    "description": "Shi Han is as graceful and lovely as the spring blossoms blowing over the Pearl River.",
-    "element": "earth",
-    "subtype": "3k_general_earth",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "167",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_physical_beautiful"
-    ],
-    "skill_set": "3k_main_skillset_generic_agent_earth"
-  },
-  {
-    "key": "ironic_template_historical_shi_lihua_hero_water",
-    "name_key": "shi_lihua",
-    "display_name": "Shi",
-    "display_name_alt": "士",
-    "forename": "",
-    "family_name": "Shi",
-    "forename_alt": "",
-    "family_name_alt": "士",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Naive Beachcomber",
-    "description": "Shi Lihua cannot help but spend most of her time splashing in the water,  or exploring the beachfront and river's edge, much to the chagrin of her father and mother.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "173",
-    "death_year": "???",
-    "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_main_ceo_trait_personality_pacifist"
-    ],
-    "skill_set": "3k_main_skillset_generic_agent_water_strategist"
-  },
-  {
-    "key": "ironic_template_historical_shi_qi_ironic_hero_water",
-    "name_key": "shi_qi_ironic",
-    "display_name": "Shi",
-    "display_name_alt": "史",
-    "forename": "",
-    "family_name": "Shi",
-    "forename_alt": "",
-    "family_name_alt": "史",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Southern Belle",
-    "description": "Well, I do declare!",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "174",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_unobservant"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_water_strategist"
-  },
-  {
     "key": "ironic_template_historical_shi_changchang_ironic_hero_earth",
+    "faction_leader_of": [],
     "name_key": "shi_changchang_ironic",
-    "display_name": "Shi",
-    "display_name_alt": "史",
-    "forename": "",
+    "display_name": "Shi Changchang",
+    "display_name_alt": "史畅畅",
+    "forename": "Changchang",
     "family_name": "Shi",
-    "forename_alt": "",
+    "forename_alt": "畅畅",
     "family_name_alt": "史",
     "courtesy_name": "",
     "courtesy_name_alt": "",
@@ -22588,6 +24951,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_shi_chao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shi_chao",
     "display_name": "Shi Chao",
     "display_name_alt": "石超",
@@ -22604,7 +24968,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "268",
-    "death_year": "304",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_determined",
       "3k_main_ceo_trait_personality_defiant",
@@ -22614,6 +24978,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shi_en_ironic_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shi_en_ironic",
     "display_name": "Shi En",
     "display_name_alt": "史恩",
@@ -22640,6 +25005,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shi_fen_hero_water",
+    "faction_leader_of": [],
     "name_key": "shi_fen",
     "display_name": "Shi Fen",
     "display_name_alt": "士芬",
@@ -22666,6 +25032,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shi_gan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shi_gan",
     "display_name": "Shi Gan",
     "display_name_alt": "士幹",
@@ -22682,7 +25049,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "166",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_weak",
       "3k_main_ceo_trait_personality_aescetic",
@@ -22691,7 +25058,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
+    "key": "ironic_template_historical_shi_han_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "shi_han",
+    "display_name": "Shi Han",
+    "display_name_alt": "士菡",
+    "forename": "Han",
+    "family_name": "Shi",
+    "forename_alt": "菡",
+    "family_name_alt": "士",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Blossom of Jiaozhi",
+    "description": "Shi Han is as graceful and lovely as the spring blossoms blowing over the Pearl River.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "167",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_humble",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_physical_beautiful"
+    ],
+    "skill_set": "3k_main_skillset_generic_agent_earth"
+  },
+  {
     "key": "3k_main_template_historical_shi_huan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shi_huan",
     "display_name": "Shi Huan",
     "display_name_alt": "史渙",
@@ -22708,7 +25103,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "180",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_alert",
       "3k_ytr_ceo_trait_personality_stalwart",
@@ -22718,6 +25113,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shi_huang_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_shi_huang_190"
+    ],
     "name_key": "shi_huang",
     "display_name": "Shi Huang",
     "display_name_alt": "史璜",
@@ -22744,6 +25142,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shi_hui_hero_earth",
+    "faction_leader_of": [],
     "name_key": "shi_hui",
     "display_name": "Shi Hui",
     "display_name_alt": "士徽",
@@ -22760,7 +25159,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fraternal",
       "3k_main_ceo_trait_personality_modest",
@@ -22770,6 +25169,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_shi_kuang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shi_kuang",
     "display_name": "Shi Kuang",
     "display_name_alt": "士匡",
@@ -22795,7 +25195,62 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
+    "key": "ironic_template_historical_shi_lihua_hero_water",
+    "faction_leader_of": [],
+    "name_key": "shi_lihua",
+    "display_name": "Shi Lihua",
+    "display_name_alt": "士丽华",
+    "forename": "Lihua",
+    "family_name": "Shi",
+    "forename_alt": "丽华",
+    "family_name_alt": "士",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Naive Beachcomber",
+    "description": "Shi Lihua cannot help but spend most of her time splashing in the water,  or exploring the beachfront and river's edge, much to the chagrin of her father and mother.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "173",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_pacifist"
+    ],
+    "skill_set": "3k_main_skillset_generic_agent_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_shi_qi_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "shi_qi_ironic",
+    "display_name": "Shi Qi",
+    "display_name_alt": "史琪",
+    "forename": "Qi",
+    "family_name": "Shi",
+    "forename_alt": "琪",
+    "family_name_alt": "史",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Southern Belle",
+    "description": "Well, I do declare!",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "174",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_unobservant"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_water_strategist"
+  },
+  {
     "key": "ironic_template_historical_shi_ren_hero_wood",
+    "faction_leader_of": [],
     "name_key": "shi_ren",
     "display_name": "Shi Ren",
     "display_name_alt": "士仁",
@@ -22822,6 +25277,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_shi_song_hero_earth",
+    "faction_leader_of": [],
     "name_key": "shi_song",
     "display_name": "Shi Song",
     "display_name_alt": "士頌",
@@ -22838,7 +25294,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_tolerant",
       "3k_ytr_ceo_trait_personality_people_stern",
@@ -22848,6 +25304,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_shi_wei_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shi_wei",
     "display_name": "Shi Wei",
     "display_name_alt": "士䵋",
@@ -22862,34 +25319,8 @@ const CHARACTER_DATA = [
     "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
-    "is_unique": false,
-    "birth_year": "144",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_reckless"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_metal"
-  },
-  {
-    "key": "3k_main_template_historical_shi_wei_hero_water",
-    "name_key": "shi_wei",
-    "display_name": "Shi Wei",
-    "display_name_alt": "石偉",
-    "forename": "Wei",
-    "family_name": "Shi",
-    "forename_alt": "偉",
-    "family_name_alt": "石",
-    "courtesy_name": "Gongcao",
-    "courtesy_name_alt": "公操",
-    "title": "Rash Judge",
-    "description": "Judgement should never be swift or subjective; and yet…",
-    "element": "water",
-    "subtype": "3k_general_metal",
-    "is_male": true,
     "is_unique": true,
-    "birth_year": "208",
+    "birth_year": "144",
     "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_honest",
@@ -22899,7 +25330,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
+    "key": "3k_main_template_historical_shi_wei_hero_water",
+    "faction_leader_of": [],
+    "name_key": "shi_wei",
+    "display_name": "Shi Wei",
+    "display_name_alt": "石偉",
+    "forename": "Wei",
+    "family_name": "Shi",
+    "forename_alt": "偉",
+    "family_name_alt": "石",
+    "courtesy_name": "Gongcao",
+    "courtesy_name_alt": "公操",
+    "title": "Academic",
+    "description": "This one sees the value of institutionalised learning, and has embraced it.",
+    "element": "water",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "208",
+    "death_year": "???",
+    "traits": [
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_competative"
+    ],
+    "skill_set": "3k_main_skillset_generic_governor_water_strategist"
+  },
+  {
     "key": "ep_template_historical_shi_wei_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shi_wei",
     "display_name": "Shi Wei",
     "display_name_alt": "石偉",
@@ -22918,14 +25377,15 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_main_template_historical_shi_wu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shi_wu",
     "display_name": "Shi Wu",
     "display_name_alt": "士武",
@@ -22952,6 +25412,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shi_xie_hero_water",
+    "faction_leader_of": [
+      "3k_dlc06_political_party_shi_xie_ruler_190"
+    ],
     "name_key": "shi_xie",
     "display_name": "Shi Xie",
     "display_name_alt": "士燮",
@@ -22968,7 +25431,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "137",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_brilliant",
@@ -22978,6 +25441,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_shi_xin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "shi_xin",
     "display_name": "Shi Xin",
     "display_name_alt": "士廞",
@@ -23004,6 +25468,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shi_yi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shi_yi",
     "display_name": "Shi Yi",
     "display_name_alt": "士壹",
@@ -23030,6 +25495,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shi_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "shi_yi",
     "display_name": "Shi Yi",
     "display_name_alt": "是儀",
@@ -23056,6 +25522,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shi_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "shi_zhi",
     "display_name": "Shi Zhi",
     "display_name_alt": "士祗",
@@ -23072,7 +25539,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_main_ceo_trait_personality_perceptive",
@@ -23082,6 +25549,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_shi_zuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shi_zuan",
     "display_name": "Shi Zuan",
     "display_name_alt": "師纂",
@@ -23098,16 +25566,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "213",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_shisun_rui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "shisun_rui",
     "display_name": "Shisun Rui",
     "display_name_alt": "士孫瑞",
@@ -23124,16 +25593,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "159",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_shu_shao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shu_shao",
     "display_name": "Shu Shao",
     "display_name_alt": "舒邵",
@@ -23160,6 +25630,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_shu_yu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "shu_yu",
     "display_name": "Shu Yu",
     "display_name_alt": "舒禺",
@@ -23178,14 +25649,15 @@ const CHARACTER_DATA = [
     "birth_year": "264",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_distinguished"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "ironic_template_historical_si_cong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "si_cong",
     "display_name": "Si Cong",
     "display_name_alt": "斯從",
@@ -23211,33 +25683,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_dlc05_skillset_generic_bandit_general_wood"
   },
   {
-    "key": "ironic_template_historical_sima_zhi_ironic_hero_metal",
-    "name_key": "sima_zhi_ironic",
-    "display_name": "Sima",
-    "display_name_alt": "司馬",
-    "forename": "",
-    "family_name": "Sima",
-    "forename_alt": "",
-    "family_name_alt": "司馬",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Agricultural Revolutioniser",
-    "description": "Farming? Really? A man of your talents?",
-    "element": "metal",
-    "subtype": "3k_general_metal",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "171",
-    "death_year": "???",
-    "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_ytr_ceo_trait_personality_heaven_honest"
-    ],
-    "skill_set": "3k_main_skillset_generic_minister_metal"
-  },
-  {
     "key": "ep_template_historical_sima_ai_hero_wood_prince",
+    "faction_leader_of": [],
     "name_key": "sima_ai",
     "display_name": "Sima Ai",
     "display_name_alt": "司馬乂",
@@ -23245,16 +25692,16 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "乂",
     "family_name_alt": "司馬",
-    "courtesy_name": "Shidu",
-    "courtesy_name_alt": "士度",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Principled Administrator",
     "description": "I am afraid I cannot allow that. You see, in sub-section five, paragraph nine...",
     "element": "unknown",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "277",
-    "death_year": "304",
+    "birth_year": "272",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_loyal",
@@ -23264,6 +25711,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_bing_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_bing",
     "display_name": "Sima Bing",
     "display_name_alt": "司馬冰",
@@ -23282,14 +25730,15 @@ const CHARACTER_DATA = [
     "birth_year": "282",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_physical_strong"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_chang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sima_chang",
     "display_name": "Sima Chang",
     "display_name_alt": "司馬暢",
@@ -23308,14 +25757,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_ytr_ceo_trait_physical_feared"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "skill_set": "3k_main_skillset_generic_villager_wood"
   },
   {
     "key": "ep_template_historical_sima_chao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_chao",
     "display_name": "Sima Chao",
     "display_name_alt": "司馬超",
@@ -23334,14 +25784,15 @@ const CHARACTER_DATA = [
     "birth_year": "280",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_physical_lovestruck"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ep_template_historical_sima_chi_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_chi",
     "display_name": "Sima Chi",
     "display_name_alt": "司馬熾",
@@ -23349,25 +25800,26 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "熾",
     "family_name_alt": "司馬",
-    "courtesy_name": "Fengdu",
-    "courtesy_name_alt": "豐度",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Academic",
     "description": "This one sees the value of institutionalised learning, and has embraced it.",
     "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "284",
-    "death_year": "313",
+    "birth_year": "272",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_elusive"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_cui_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_cui",
     "display_name": "Sima Cui",
     "display_name_alt": "司馬粹",
@@ -23394,6 +25846,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_dan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_dan",
     "display_name": "Sima Dan",
     "display_name_alt": "司馬耽",
@@ -23412,14 +25865,15 @@ const CHARACTER_DATA = [
     "birth_year": "262",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_elusive",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_physical_sui_knight"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "ep_template_historical_sima_di_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_di",
     "display_name": "Sima Di",
     "display_name_alt": "司馬迪",
@@ -23438,14 +25892,15 @@ const CHARACTER_DATA = [
     "birth_year": "267",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_physical_weak"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_fan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sima_fan",
     "display_name": "Sima Fan",
     "display_name_alt": "司馬範",
@@ -23464,14 +25919,15 @@ const CHARACTER_DATA = [
     "birth_year": "286",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_cruel",
+      "3k_main_ceo_trait_personality_artful"
     ],
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
     "key": "3k_main_template_historical_sima_fang_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_fang",
     "display_name": "Sima Fang",
     "display_name_alt": "司馬防",
@@ -23488,16 +25944,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "149",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_sima_fu_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_fu",
     "display_name": "Sima Fu",
     "display_name_alt": "司馬孚",
@@ -23514,16 +25971,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "180",
-    "death_year": "272",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_fu_hero_earth_zhao",
+    "faction_leader_of": [],
     "name_key": "sima_fu",
     "display_name": "Sima Fu",
     "display_name_alt": "司馬馥",
@@ -23540,7 +25998,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "267",
-    "death_year": "301",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_deceitful",
@@ -23550,6 +26008,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_fu_hero_metal_zhao",
+    "faction_leader_of": [],
     "name_key": "sima_fu",
     "display_name": "Sima Fu",
     "display_name_alt": "司馬荂",
@@ -23566,7 +26025,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "264",
-    "death_year": "301",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_resourceful",
       "3k_main_ceo_trait_personality_patient",
@@ -23576,6 +26035,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_gan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_gan",
     "display_name": "Sima Gan",
     "display_name_alt": "司馬榦",
@@ -23583,8 +26043,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "榦",
     "family_name_alt": "司馬",
-    "courtesy_name": "Ziliang",
-    "courtesy_name_alt": "子良",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Tax Collector",
     "description": "Tax collection is a necessary evil, as are its instruments.",
     "element": "metal",
@@ -23592,16 +26052,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "232",
-    "death_year": "311",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_ytr_ceo_trait_personality_gentle_hearted"
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "ep_template_historical_sima_hong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_hong",
     "display_name": "Sima Hong",
     "display_name_alt": "司馬泓",
@@ -23620,14 +26081,15 @@ const CHARACTER_DATA = [
     "birth_year": "261",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "ep_template_historical_sima_huang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sima_huang",
     "display_name": "Sima Huang",
     "display_name_alt": "司馬晃",
@@ -23646,23 +26108,24 @@ const CHARACTER_DATA = [
     "birth_year": "240",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_governor_wood"
   },
   {
     "key": "ironic_template_historical_sima_hui_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_hui",
     "display_name": "Sima Hui",
-    "display_name_alt": "司馬徽",
+    "display_name_alt": "司馬馬徽",
     "forename": "Hui",
     "family_name": "Sima",
-    "forename_alt": "徽",
+    "forename_alt": "馬徽",
     "family_name_alt": "司馬",
-    "courtesy_name": "Decao",
-    "courtesy_name_alt": "德操",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Master Water Mirror",
     "description": "So, you wish to know your future? Hohohohohohoho! Good, very good! Yes, yes! Hohohohohoho!",
     "element": "water",
@@ -23670,7 +26133,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "148",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_elusive",
       "3k_main_ceo_trait_personality_superstitious",
@@ -23680,6 +26143,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_hun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_hun",
     "display_name": "Sima Hun",
     "display_name_alt": "司馬昆",
@@ -23698,14 +26162,15 @@ const CHARACTER_DATA = [
     "birth_year": "261",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_distinguished"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_cowardly"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
     "key": "ep_template_historical_sima_ji_hero_fire_yan",
+    "faction_leader_of": [],
     "name_key": "sima_ji",
     "display_name": "Sima Ji",
     "display_name_alt": "司馬幾",
@@ -23724,14 +26189,15 @@ const CHARACTER_DATA = [
     "birth_year": "257",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_scholarly",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_brilliant"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ep_template_historical_sima_ji_hero_water_rencheng",
+    "faction_leader_of": [],
     "name_key": "sima_ji",
     "display_name": "Sima Ji",
     "display_name_alt": "司馬濟",
@@ -23750,14 +26216,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_jian_hero_earth_lean",
+    "faction_leader_of": [],
     "name_key": "sima_jian",
     "display_name": "Sima Jian",
     "display_name_alt": "司馬鑒",
@@ -23776,14 +26243,15 @@ const CHARACTER_DATA = [
     "birth_year": "239",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
     "key": "ep_template_historical_sima_jian_hero_water_qin",
+    "faction_leader_of": [],
     "name_key": "sima_jian",
     "display_name": "Sima Jian",
     "display_name_alt": "司馬柬",
@@ -23791,8 +26259,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "柬",
     "family_name_alt": "司馬",
-    "courtesy_name": "Hongdu",
-    "courtesy_name_alt": "弘度",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Mediator",
     "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
     "element": "unknown",
@@ -23800,16 +26268,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "262",
-    "death_year": "291",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_main_ceo_trait_personality_humble"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_jiong_hero_earth_prince",
+    "faction_leader_of": [],
     "name_key": "sima_jiong",
     "display_name": "Sima Jiong",
     "display_name_alt": "司馬冏",
@@ -23817,8 +26286,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "冏",
     "family_name_alt": "司馬",
-    "courtesy_name": "Jingzhi",
-    "courtesy_name_alt": "景治",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Imperious Regent",
     "description": "A regent is like air; unseen and barely felt, but vital all the same.",
     "element": "unknown",
@@ -23826,7 +26295,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "264",
-    "death_year": "303",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_greedy",
@@ -23836,6 +26305,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_sima_ju_metal",
+    "faction_leader_of": [],
     "name_key": "sima_ju",
     "display_name": "Sima Ju",
     "display_name_alt": "司馬菊",
@@ -23862,6 +26332,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_ju_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_ju",
     "display_name": "Sima Ju",
     "display_name_alt": "司馬矩",
@@ -23888,6 +26359,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_kuo_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_kuo",
     "display_name": "Sima Kuo",
     "display_name_alt": "司馬廓",
@@ -23906,14 +26378,15 @@ const CHARACTER_DATA = [
     "birth_year": "290",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_ytr_ceo_trait_physical_impeccable"
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "3k_main_template_historical_sima_lang_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_lang",
     "display_name": "Sima Lang",
     "display_name_alt": "司馬朗",
@@ -23930,16 +26403,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "171",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_liang_hero_wood_prince",
+    "faction_leader_of": [],
     "name_key": "sima_liang",
     "display_name": "Sima Liang",
     "display_name_alt": "司馬亮",
@@ -23947,8 +26421,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "亮",
     "family_name_alt": "司馬",
-    "courtesy_name": "Ziyi",
-    "courtesy_name_alt": "子翼",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Rightful Regent",
     "description": "Son of the legendary Sima Yi, he has watched the Jin dynasty scuffle in his shadow.",
     "element": "unknown",
@@ -23956,7 +26430,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "229",
-    "death_year": "291",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_personality_humble",
@@ -23966,6 +26440,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_lun_hero_earth_prince",
+    "faction_leader_of": [],
     "name_key": "sima_lun",
     "display_name": "Sima Lun",
     "display_name_alt": "司馬倫",
@@ -23973,8 +26448,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "倫",
     "family_name_alt": "司馬",
-    "courtesy_name": "Ziyi",
-    "courtesy_name_alt": "子彝",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Usurper Prince",
     "description": "The Jin dynasty will endure under a wise and deserving emperor - me!",
     "element": "unknown",
@@ -23982,7 +26457,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "247",
-    "death_year": "301",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_suspicious",
       "3k_main_ceo_trait_personality_defiant",
@@ -23993,6 +26468,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_mao_hero_metal_jiangling",
+    "faction_leader_of": [],
     "name_key": "sima_mao",
     "display_name": "Sima Mao",
     "display_name_alt": "司馬楙",
@@ -24011,14 +26487,15 @@ const CHARACTER_DATA = [
     "birth_year": "244",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_vengeful"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_metal"
   },
   {
     "key": "ep_template_historical_sima_mo_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_mo",
     "display_name": "Sima Mo",
     "display_name_alt": "司馬模",
@@ -24035,16 +26512,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "254",
-    "death_year": "311",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_trustworthy"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "ep_template_historical_sima_mu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_mu",
     "display_name": "Sima Mu",
     "display_name_alt": "司馬睦",
@@ -24063,14 +26541,15 @@ const CHARACTER_DATA = [
     "birth_year": "256",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_cruel"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "ep_template_historical_sima_pi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sima_pi",
     "display_name": "Sima Pi",
     "display_name_alt": "司馬毗",
@@ -24089,14 +26568,15 @@ const CHARACTER_DATA = [
     "birth_year": "275",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_wood"
   },
   {
     "key": "ep_template_historical_sima_pu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_pu",
     "display_name": "Sima Pu",
     "display_name_alt": "司馬普",
@@ -24115,14 +26595,15 @@ const CHARACTER_DATA = [
     "birth_year": "288",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ep_template_historical_sima_qian_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_qian",
     "display_name": "Sima Qian",
     "display_name_alt": "司馬虔",
@@ -24139,7 +26620,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "270",
-    "death_year": "301",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_quiet",
       "3k_main_ceo_trait_personality_superstitious",
@@ -24149,6 +26630,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_rong_hero_metal_liang",
+    "faction_leader_of": [],
     "name_key": "sima_rong",
     "display_name": "Sima Rong",
     "display_name_alt": "司馬肜",
@@ -24156,8 +26638,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "肜",
     "family_name_alt": "司馬",
-    "courtesy_name": "Ziwei",
-    "courtesy_name_alt": "子徽",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Guard",
     "description": "A stalwart protector, they never fall asleep at their post.",
     "element": "unknown",
@@ -24165,16 +26647,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "245",
-    "death_year": "302",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_gentle_hearted"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "ep_template_historical_sima_rui_hero_earth_langye",
+    "faction_leader_of": [],
     "name_key": "sima_rui",
     "display_name": "Sima Rui",
     "display_name_alt": "司馬睿",
@@ -24182,25 +26665,26 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "睿",
     "family_name_alt": "司馬",
-    "courtesy_name": "Jingwen",
-    "courtesy_name_alt": "景文",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Officer",
     "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
     "element": "unknown",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "276",
-    "death_year": "323",
+    "birth_year": "272",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_physical_agile"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "ep_template_historical_sima_rui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_rui",
     "display_name": "Sima Rui",
     "display_name_alt": "司馬蕤",
@@ -24219,14 +26703,15 @@ const CHARACTER_DATA = [
     "birth_year": "269",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_sima_shi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_shi",
     "display_name": "Sima Shi",
     "display_name_alt": "司馬師",
@@ -24243,17 +26728,18 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "208",
-    "death_year": "255",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_ambitious",
       "3k_main_ceo_trait_personality_cunning"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_earth"
+    "skill_set": "3k_main_skillset_sima_shi_minister_earth"
   },
   {
     "key": "ep_template_historical_sima_shi_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_shi",
     "display_name": "Sima Shi",
     "display_name_alt": "司馬寔",
@@ -24272,14 +26758,15 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
       "3k_main_ceo_trait_personality_determined",
-      "3k_ytr_ceo_trait_personality_land_generous"
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_shuo_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_shuo",
     "display_name": "Sima Shuo",
     "display_name_alt": "司馬碩",
@@ -24298,14 +26785,15 @@ const CHARACTER_DATA = [
     "birth_year": "290",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_people_compassionate"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ],
     "skill_set": "3k_main_skillset_generic_governor_earth"
   },
   {
     "key": "ep_template_historical_sima_song_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_song",
     "display_name": "Sima Song",
     "display_name_alt": "司馬訟",
@@ -24324,14 +26812,15 @@ const CHARACTER_DATA = [
     "birth_year": "268",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_physical_beautiful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
     "key": "ep_template_historical_sima_sui_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_sui",
     "display_name": "Sima Sui",
     "display_name_alt": "司馬隨",
@@ -24350,14 +26839,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_personality_artful",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_intimidating"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ep_template_historical_sima_tai_hero_fire_donghai",
+    "faction_leader_of": [],
     "name_key": "sima_tai",
     "display_name": "Sima Tai",
     "display_name_alt": "司馬泰",
@@ -24376,14 +26866,15 @@ const CHARACTER_DATA = [
     "birth_year": "225",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_ytr_ceo_trait_personality_strong_willed"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_humble",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ep_template_historical_sima_tai_hero_metal_longxi",
+    "faction_leader_of": [],
     "name_key": "sima_tai",
     "display_name": "Sima Tai",
     "display_name_alt": "司馬泰",
@@ -24402,14 +26893,15 @@ const CHARACTER_DATA = [
     "birth_year": "250",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_incompetent"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "3k_main_template_historical_sima_wang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_wang",
     "display_name": "Sima Wang",
     "display_name_alt": "司馬望",
@@ -24426,16 +26918,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "205",
-    "death_year": "271",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_ytr_ceo_trait_personality_heaven_bright",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ep_template_historical_sima_wei_hero_fire_prince",
+    "faction_leader_of": [],
     "name_key": "sima_wei",
     "display_name": "Sima Wei",
     "display_name_alt": "司馬瑋",
@@ -24443,16 +26936,16 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "瑋",
     "family_name_alt": "司馬",
-    "courtesy_name": "Yandu",
-    "courtesy_name_alt": "彥度",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Tempestuous General",
     "description": "His reputation for belligerence is perhaps undeserved. Not so his famously short temper.",
     "element": "unknown",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "271",
-    "death_year": "291",
+    "birth_year": "258",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_reckless",
@@ -24462,6 +26955,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_wei_hero_fire_yiyang",
+    "faction_leader_of": [],
     "name_key": "sima_wei",
     "display_name": "Sima Wei",
     "display_name_alt": "司馬威",
@@ -24480,14 +26974,15 @@ const CHARACTER_DATA = [
     "birth_year": "270",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_ytr_ceo_trait_personality_relentless"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_ytr_ceo_trait_personality_land_generous"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ep_template_historical_sima_xi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_xi",
     "display_name": "Sima Xi",
     "display_name_alt": "司馬熙",
@@ -24506,14 +27001,15 @@ const CHARACTER_DATA = [
     "birth_year": "283",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_disloyal",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_ytr_ceo_trait_personality_heaven_wise"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
     "key": "ep_template_historical_sima_xia_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_xia",
     "display_name": "Sima Xia",
     "display_name_alt": "司馬遐",
@@ -24529,17 +27025,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "273",
-    "death_year": "300",
+    "birth_year": "272",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_enigmatic"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ep_template_historical_sima_xiao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_xiao",
     "display_name": "Sima Xiao",
     "display_name_alt": "司馬虓",
@@ -24556,16 +27053,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "270",
-    "death_year": "306",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_cruel"
     ],
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
     "key": "ep_template_historical_sima_xin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sima_xin",
     "display_name": "Sima Xin",
     "display_name_alt": "司馬歆",
@@ -24573,8 +27071,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "歆",
     "family_name_alt": "司馬",
-    "courtesy_name": "Hongshu",
-    "courtesy_name_alt": "弘舒",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Hunter",
     "description": "Expert with the bow, they are able to strike their quarry from quite a distance.",
     "element": "fire",
@@ -24582,16 +27080,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "268",
-    "death_year": "303",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_temperamental",
+      "3k_main_ceo_trait_personality_disloyal"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ep_template_historical_sima_xu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_xu",
     "display_name": "Sima Xu",
     "display_name_alt": "司馬詡",
@@ -24608,16 +27107,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "275",
-    "death_year": "301",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_artful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_metal"
   },
   {
     "key": "ep_template_historical_sima_yan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_yan",
     "display_name": "Sima Yan",
     "display_name_alt": "司馬晏",
@@ -24636,14 +27136,15 @@ const CHARACTER_DATA = [
     "birth_year": "272",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_ytr_ceo_trait_personality_people_friendly"
     ],
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
     "key": "ep_template_historical_sima_yang_hero_water_runan",
+    "faction_leader_of": [],
     "name_key": "sima_yang",
     "display_name": "Sima Yang",
     "display_name_alt": "司馬羕",
@@ -24670,6 +27171,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_yao_hero_wood_dongan",
+    "faction_leader_of": [],
     "name_key": "sima_yao",
     "display_name": "Sima Yao",
     "display_name_alt": "司馬繇",
@@ -24686,16 +27188,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "252",
-    "death_year": "304",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_main_ceo_trait_physical_scarred"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_physical_feared"
     ],
     "skill_set": "3k_main_skillset_generic_minister_wood"
   },
   {
     "key": "3k_main_template_historical_sima_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_yi",
     "display_name": "Sima Yi",
     "display_name_alt": "司馬懿",
@@ -24712,7 +27215,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "179",
-    "death_year": "251",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_main_ceo_trait_personality_brilliant",
@@ -24722,6 +27225,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_yi_hero_earth_chu",
+    "faction_leader_of": [],
     "name_key": "sima_yi",
     "display_name": "Sima Yi",
     "display_name_alt": "司馬儀",
@@ -24740,14 +27244,15 @@ const CHARACTER_DATA = [
     "birth_year": "288",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_agent_earth"
   },
   {
     "key": "ep_template_historical_sima_yi_hero_wood_piling",
+    "faction_leader_of": [],
     "name_key": "sima_yi",
     "display_name": "Sima Yi",
     "display_name_alt": "司馬儀",
@@ -24766,14 +27271,15 @@ const CHARACTER_DATA = [
     "birth_year": "251",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_strong_willed"
     ],
     "skill_set": "3k_main_skillset_generic_agent_wood"
   },
   {
     "key": "ep_template_historical_sima_yin_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_yin",
     "display_name": "Sima Yin",
     "display_name_alt": "司馬隱",
@@ -24792,14 +27298,15 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_people_friendly"
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "skill_set": "3k_main_skillset_generic_villager_earth"
   },
   {
     "key": "ep_template_historical_sima_ying_hero_metal_qi",
+    "faction_leader_of": [],
     "name_key": "sima_ying",
     "display_name": "Sima Ying",
     "display_name_alt": "司馬英",
@@ -24818,14 +27325,15 @@ const CHARACTER_DATA = [
     "birth_year": "283",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "ep_template_historical_sima_ying_hero_water_prince",
+    "faction_leader_of": [],
     "name_key": "sima_ying",
     "display_name": "Sima Ying",
     "display_name_alt": "司馬穎",
@@ -24833,16 +27341,16 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "穎",
     "family_name_alt": "司馬",
-    "courtesy_name": "Zhangdu",
-    "courtesy_name_alt": "章度",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Beloved Governor",
     "description": "Madness may grip the court, but Sima Ying will always think of his people.",
     "element": "unknown",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "279",
-    "death_year": "306",
+    "birth_year": "272",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_physical_handsome",
@@ -24853,6 +27361,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_yong_hero_fire_prince",
+    "faction_leader_of": [],
     "name_key": "sima_yong",
     "display_name": "Sima Yong",
     "display_name_alt": "司馬顒",
@@ -24860,8 +27369,8 @@ const CHARACTER_DATA = [
     "family_name": "Sima",
     "forename_alt": "顒",
     "family_name_alt": "司馬",
-    "courtesy_name": "Wenzai",
-    "courtesy_name_alt": "文載",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Shrewd Defender",
     "description": "Sima Yong has a duty to the emperor, and his loyalty will never waver.",
     "element": "unknown",
@@ -24869,7 +27378,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "244",
-    "death_year": "306",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_determined",
       "3k_main_ceo_trait_personality_indecisive",
@@ -24879,6 +27388,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_you_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sima_you",
     "display_name": "Sima You",
     "display_name_alt": "司馬祐",
@@ -24897,14 +27407,15 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
     "key": "ep_template_historical_sima_yue_hero_metal_prince",
+    "faction_leader_of": [],
     "name_key": "sima_yue",
     "display_name": "Sima Yue",
     "display_name_alt": "司馬越",
@@ -24921,7 +27432,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "254",
-    "death_year": "311",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_main_ceo_trait_personality_modest",
@@ -24931,6 +27442,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sima_yun_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sima_yun",
     "display_name": "Sima Yun",
     "display_name_alt": "司馬允",
@@ -24947,16 +27459,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "272",
-    "death_year": "300",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_physical_agile"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "ep_template_historical_sima_zan_hero_water",
+    "faction_leader_of": [],
     "name_key": "sima_zan",
     "display_name": "Sima Zan",
     "display_name_alt": "司馬贊",
@@ -24975,14 +27488,15 @@ const CHARACTER_DATA = [
     "birth_year": "268",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_physical_tough",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_sima_zhao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_zhao",
     "display_name": "Sima Zhao",
     "display_name_alt": "司馬昭",
@@ -24999,16 +27513,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "211",
-    "death_year": "265",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_main_ceo_trait_personality_enigmatic",
       "3k_ytr_ceo_trait_personality_people_amiable"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_earth"
+    "skill_set": "3k_main_skillset_sima_zhao_minister_earth"
   },
   {
     "key": "ep_template_historical_sima_zhi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sima_zhi",
     "display_name": "Sima Zhi",
     "display_name_alt": "司馬植",
@@ -25027,14 +27542,42 @@ const CHARACTER_DATA = [
     "birth_year": "232",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_earth"
   },
   {
+    "key": "ironic_template_historical_sima_zhi_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "sima_zhi_ironic",
+    "display_name": "Sima Zhi",
+    "display_name_alt": "司馬馬芝",
+    "forename": "Zhi",
+    "family_name": "Sima",
+    "forename_alt": "馬芝",
+    "family_name_alt": "司馬",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Agricultural Revolutioniser",
+    "description": "Farming? Really? A man of your talents?",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "171",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
+    ],
+    "skill_set": "3k_main_skillset_generic_minister_metal"
+  },
+  {
     "key": "ep_template_historical_sima_zong_hero_wood_runan",
+    "faction_leader_of": [],
     "name_key": "sima_zong",
     "display_name": "Sima Zong",
     "display_name_alt": "司馬宗",
@@ -25053,40 +27596,15 @@ const CHARACTER_DATA = [
     "birth_year": "278",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_physical_sickly"
     ],
     "skill_set": "3k_main_skillset_generic_agent_wood"
   },
   {
-    "key": "ironic_template_historical_song_shurou_ironic_hero_earth",
-    "name_key": "song_shurou_ironic",
-    "display_name": "Song",
-    "display_name_alt": "宋",
-    "forename": "",
-    "family_name": "Song",
-    "forename_alt": "",
-    "family_name_alt": "宋",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Kindler of Fires",
-    "description": "With proper care, a beacon will never be extinguished.",
-    "element": "earth",
-    "subtype": "3k_general_earth",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "156",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_physical_fertile"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_earth"
-  },
-  {
     "key": "3k_main_template_historical_lady_feng_hero_water",
+    "faction_leader_of": [],
     "name_key": "feng",
     "display_name": "Song Ba",
     "display_name_alt": "宋巴",
@@ -25102,17 +27620,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": false,
-    "birth_year": "158",
+    "birth_year": "166",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
       "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_land_aspiring"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_song_dian_earth",
+    "faction_leader_of": [],
     "name_key": "song_dian",
     "display_name": "Song Dian",
     "display_name_alt": "宋典",
@@ -25140,6 +27659,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_song_jian_hero_metal",
+    "faction_leader_of": [
+      "ironic_main_song_jian_faction_leader"
+    ],
     "name_key": "song_jian",
     "display_name": "Song Jian",
     "display_name_alt": "宋建",
@@ -25156,16 +27678,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "149",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_competative",
       "3k_ytr_ceo_trait_personality_relentless",
       "3k_main_ceo_trait_personality_defiant"
     ],
-    "skill_set": "3k_main_skillset_generic_agent_metal"
+    "skill_set": "3k_main_skillset_song_jian_minister_metal"
   },
   {
     "key": "ironic_template_historical_song_qian_hero_fire",
+    "faction_leader_of": [],
     "name_key": "song_qian",
     "display_name": "Song Qian",
     "display_name_alt": "宋謙",
@@ -25191,7 +27714,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
+    "key": "ironic_template_historical_song_shurou_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "song_shurou_ironic",
+    "display_name": "Song Shurou",
+    "display_name_alt": "宋舒柔",
+    "forename": "Shurou",
+    "family_name": "Song",
+    "forename_alt": "舒柔",
+    "family_name_alt": "宋",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Kindler of Fires",
+    "description": "With proper care, a beacon will never be extinguished.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "156",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_main_ceo_trait_physical_fertile"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_earth"
+  },
+  {
     "key": "ep_template_historical_song_wei_hero_earth",
+    "faction_leader_of": [],
     "name_key": "song_wei",
     "display_name": "Song Wei",
     "display_name_alt": "宋微",
@@ -25210,14 +27761,15 @@ const CHARACTER_DATA = [
     "birth_year": "255",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_deceitful"
     ],
     "skill_set": "3k_main_skillset_generic_agent_earth"
   },
   {
     "key": "ironic_template_historical_song_xian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "song_xian",
     "display_name": "Song Xian",
     "display_name_alt": "宋憲",
@@ -25244,6 +27796,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_song_yang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "song_yang",
     "display_name": "Song Yang",
     "display_name_alt": "宋揚",
@@ -25262,14 +27815,15 @@ const CHARACTER_DATA = [
     "birth_year": "174",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
       "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ],
     "skill_set": "3k_main_skillset_generic_villager_wood"
   },
   {
     "key": "ironic_template_historical_song_zhong_hero_water",
+    "faction_leader_of": [],
     "name_key": "song_zhong",
     "display_name": "Song Zhong",
     "display_name_alt": "宋忠",
@@ -25296,6 +27850,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_song_zhou_hero_earth",
+    "faction_leader_of": [],
     "name_key": "song_zhou",
     "display_name": "Song Zhou",
     "display_name_alt": "宋胄",
@@ -25322,6 +27877,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_su_dai_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_su_dai_190"
+    ],
     "name_key": "su_dai",
     "display_name": "Su Dai",
     "display_name_alt": "蘇代",
@@ -25348,6 +27906,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_su_fei_hero_fire",
+    "faction_leader_of": [],
     "name_key": "su_fei",
     "display_name": "Su Fei",
     "display_name_alt": "蘇飛",
@@ -25374,6 +27933,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_su_kelan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "su_kelan",
     "display_name": "Su Kelan",
     "display_name_alt": "蘇可岚",
@@ -25400,6 +27960,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_su_ping_hero_earth",
+    "faction_leader_of": [],
     "name_key": "su_ping",
     "display_name": "Su Ping",
     "display_name_alt": "蘇萍",
@@ -25426,6 +27987,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_su_shang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "su_shang",
     "display_name": "Su Shang",
     "display_name_alt": "蘇尚",
@@ -25444,14 +28006,15 @@ const CHARACTER_DATA = [
     "birth_year": "191",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_su_shuo_hero_water",
+    "faction_leader_of": [],
     "name_key": "su_shuo",
     "display_name": "Su Shuo",
     "display_name_alt": "蘇鑠",
@@ -25470,14 +28033,15 @@ const CHARACTER_DATA = [
     "birth_year": "218",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_defiant"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ep_template_historical_su_ting_hero_metal",
+    "faction_leader_of": [],
     "name_key": "su_ting",
     "display_name": "Su Ting",
     "display_name_alt": "粟亭",
@@ -25496,14 +28060,15 @@ const CHARACTER_DATA = [
     "birth_year": "265",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_physical_graceful"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_enigmatic"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "3k_main_template_historical_su_ze_hero_water",
+    "faction_leader_of": [],
     "name_key": "su_ze",
     "display_name": "Su Ze",
     "display_name_alt": "蘇則",
@@ -25520,16 +28085,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_ytr_ceo_trait_personality_land_powerful"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_sui_chun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sui_chun",
     "display_name": "Sui Chun",
     "display_name_alt": "隨春",
@@ -25556,6 +28122,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sui_gu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sui_gu",
     "display_name": "Sui Gu",
     "display_name_alt": "眭固",
@@ -25572,16 +28139,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_physical_agile"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_metal"
+    "skill_set": "3k_dlc05_skillset_generic_bandit_governor_metal"
   },
   {
     "key": "3k_main_template_historical_sui_yuanjin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sui_yuanjin",
     "display_name": "Sui Yuanjin",
     "display_name_alt": "眭元進",
@@ -25598,16 +28166,44 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "175",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_greedy",
       "3k_main_ceo_trait_personality_aescetic"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
+    "key": "ironic_template_historical_sul_myeong_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "sul_myeong_ironic",
+    "display_name": "Sul Myeong",
+    "display_name_alt": "述明",
+    "forename": "Myeong",
+    "family_name": "Sul",
+    "forename_alt": "明",
+    "family_name_alt": "述",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Faded Strategist",
+    "description": "It is truly unfortunate when those with great knowledge and wisdom never get the chance to realize their intentions.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "169",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_patient"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
     "key": "ironic_template_historical_Suli_hero_metal",
+    "faction_leader_of": [],
     "name_key": "Suli",
     "display_name": "Suli",
     "display_name_alt": "素利",
@@ -25634,6 +28230,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_ben_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_ben",
     "display_name": "Sun Ben",
     "display_name_alt": "孫賁",
@@ -25641,8 +28238,8 @@ const CHARACTER_DATA = [
     "family_name": "Sun",
     "forename_alt": "賁",
     "family_name_alt": "孫",
-    "courtesy_name": "Boyang",
-    "courtesy_name_alt": "伯陽",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "The Indomitable Lance",
     "description": "Let a man be judged on the deeds he has done, not on what he may not have done.",
     "element": "fire",
@@ -25660,6 +28257,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_ce_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_ce",
     "display_name": "Sun Ce",
     "display_name_alt": "孫策",
@@ -25676,7 +28274,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "175",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_arrogant",
@@ -25686,6 +28284,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_deng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_deng",
     "display_name": "Sun Deng",
     "display_name_alt": "孫登",
@@ -25702,7 +28301,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "209",
-    "death_year": "241",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_compassionate",
       "3k_ytr_ceo_trait_personality_heaven_tolerant",
@@ -25712,6 +28311,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_fu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_fu",
     "display_name": "Sun Fu",
     "display_name_alt": "孫輔",
@@ -25719,8 +28319,8 @@ const CHARACTER_DATA = [
     "family_name": "Sun",
     "forename_alt": "輔",
     "family_name_alt": "孫",
-    "courtesy_name": "Guoyi",
-    "courtesy_name_alt": "國儀",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Acute Besieger",
     "description": "Sun Fu's talents at raiding borders and siezing cities make him a valued ally, and feared enemy.",
     "element": "earth",
@@ -25738,6 +28338,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_guan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sun_guan",
     "display_name": "Sun Guan",
     "display_name_alt": "孫觀",
@@ -25745,8 +28346,8 @@ const CHARACTER_DATA = [
     "family_name": "Sun",
     "forename_alt": "觀",
     "family_name_alt": "孫",
-    "courtesy_name": "Zhongtai",
-    "courtesy_name_alt": "仲台",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Babyfaced Bandit",
     "description": "Let none dispute the Babyfaced Bandit's commitment and loyalty to his band of brothers, and to the people of Taishan.",
     "element": "wood",
@@ -25764,6 +28365,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_hao_hero_water",
+    "faction_leader_of": [],
     "name_key": "sun_hao",
     "display_name": "Sun Hao",
     "display_name_alt": "孫暠",
@@ -25790,12 +28392,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_he_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_he",
     "display_name": "Sun He",
-    "display_name_alt": "孫河",
+    "display_name_alt": "孫和",
     "forename": "He",
     "family_name": "Sun",
-    "forename_alt": "河",
+    "forename_alt": "和",
     "family_name_alt": "孫",
     "courtesy_name": "Bohai",
     "courtesy_name_alt": "伯海",
@@ -25806,7 +28409,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_determined",
       "3k_main_ceo_trait_personality_honourable",
@@ -25816,6 +28419,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_huan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_huan",
     "display_name": "Sun Huan",
     "display_name_alt": "孫奐",
@@ -25832,16 +28436,20 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "195",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_ytr_ceo_trait_personality_land_alert"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_sun_jian_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_sun_jian_ruler",
+      "ironic_main_sun_ce_faction_leader"
+    ],
     "name_key": "sun_jian",
     "display_name": "Sun Jian",
     "display_name_alt": "孫堅",
@@ -25858,7 +28466,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "155",
-    "death_year": "191",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_fiery",
@@ -25868,6 +28476,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_jiao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_jiao",
     "display_name": "Sun Jiao",
     "display_name_alt": "孫皎",
@@ -25884,7 +28493,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "184",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_humble",
       "3k_main_ceo_trait_physical_tough",
@@ -25894,6 +28503,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_jing_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sun_jing",
     "display_name": "Sun Jing",
     "display_name_alt": "孫靜",
@@ -25901,8 +28511,8 @@ const CHARACTER_DATA = [
     "family_name": "Sun",
     "forename_alt": "靜",
     "family_name_alt": "孫",
-    "courtesy_name": "Youtai",
-    "courtesy_name_alt": "幼台",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Composed and Genteel",
     "description": "It's honest work.",
     "element": "wood",
@@ -25912,14 +28522,15 @@ const CHARACTER_DATA = [
     "birth_year": "160",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_ytr_ceo_trait_personality_land_courageous"
     ],
     "skill_set": ""
   },
   {
     "key": "ironic_template_historical_sun_jing_hero_wood",
+    "faction_leader_of": [],
     "name_key": "sun_jing",
     "display_name": "Sun Jing",
     "display_name_alt": "孫靜",
@@ -25927,8 +28538,8 @@ const CHARACTER_DATA = [
     "family_name": "Sun",
     "forename_alt": "靜",
     "family_name_alt": "孫",
-    "courtesy_name": "Youtai",
-    "courtesy_name_alt": "幼台",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Composed and Genteel",
     "description": "It's honest work.",
     "element": "wood",
@@ -25946,6 +28557,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_jun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_jun",
     "display_name": "Sun Jun",
     "display_name_alt": "孫峻",
@@ -25962,16 +28574,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "219",
-    "death_year": "256",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_physical_mad"
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_physical_tough"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "ironic_template_historical_sun_kuang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_kuang",
     "display_name": "Sun Kuang",
     "display_name_alt": "孫匡",
@@ -25979,8 +28592,8 @@ const CHARACTER_DATA = [
     "family_name": "Sun",
     "forename_alt": "匡",
     "family_name_alt": "孫",
-    "courtesy_name": "Jizuo",
-    "courtesy_name_alt": "季佐",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Diplomatic Advocate",
     "description": "For the sake of his clan, this officer straddles the difficult path of politics.",
     "element": "earth",
@@ -25998,6 +28611,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_lang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_lang",
     "display_name": "Sun Lang",
     "display_name_alt": "孫朗",
@@ -26024,6 +28638,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_li_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_li",
     "display_name": "Sun Li",
     "display_name_alt": "孫禮",
@@ -26040,16 +28655,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "208",
-    "death_year": "250",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_main_template_historical_sun_luyu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_luyu",
     "display_name": "Sun Luyu",
     "display_name_alt": "孫魯育",
@@ -26063,19 +28679,20 @@ const CHARACTER_DATA = [
     "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
     "element": "earth",
     "subtype": "3k_general_earth",
-    "is_male": false,
+    "is_male": true,
     "is_unique": false,
     "birth_year": "205",
-    "death_year": "255",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_benevolent"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
     "key": "3k_main_template_historical_sun_lu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_lu",
     "display_name": "Sun Lü",
     "display_name_alt": "孫慮",
@@ -26092,16 +28709,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "213",
-    "death_year": "232",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_sun_qian_hero_water",
+    "faction_leader_of": [],
     "name_key": "sun_qian",
     "display_name": "Sun Qian",
     "display_name_alt": "孫乾",
@@ -26128,6 +28746,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_qiang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_qiang",
     "display_name": "Sun Qiang",
     "display_name_alt": "孫孙",
@@ -26146,14 +28765,15 @@ const CHARACTER_DATA = [
     "birth_year": "153",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_trusting"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_sun_quan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_quan",
     "display_name": "Sun Quan",
     "display_name_alt": "孫權",
@@ -26170,7 +28790,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "182",
-    "death_year": "252",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_loyal",
@@ -26180,6 +28800,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_sun_shangxiang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_shangxiang",
     "display_name": "Sun Ren",
     "display_name_alt": "孫仁",
@@ -26206,6 +28827,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_shao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "sun_shao",
     "display_name": "Sun Shao",
     "display_name_alt": "孫邵",
@@ -26222,7 +28844,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "163",
-    "death_year": "225",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_clever",
@@ -26232,6 +28854,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_shao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_shao",
     "display_name": "Sun Shao",
     "display_name_alt": "孫韶",
@@ -26239,8 +28862,8 @@ const CHARACTER_DATA = [
     "family_name": "Sun",
     "forename_alt": "韶",
     "family_name_alt": "孫",
-    "courtesy_name": "Gongli",
-    "courtesy_name_alt": "公禮",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Of Frosty Winds",
     "description": "Waging war over the great river is difficult in the best of circumstances, it takes true ability to commander both raids and defenses through the volatile chills of winter.",
     "element": "fire",
@@ -26248,7 +28871,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "188",
-    "death_year": "241",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_elusive",
@@ -26258,6 +28881,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_sun_shi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "sun_shi",
     "display_name": "Sun Shi",
     "display_name_alt": "孫氏",
@@ -26284,6 +28908,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_sun_xiu_hero_water",
+    "faction_leader_of": [],
     "name_key": "sun_xiu",
     "display_name": "Sun Xiu",
     "display_name_alt": "孫秀",
@@ -26300,7 +28925,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "243",
-    "death_year": "301",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_charismatic",
@@ -26310,6 +28935,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_xu_hero_water",
+    "faction_leader_of": [],
     "name_key": "sun_xu",
     "display_name": "Sun Xu",
     "display_name_alt": "孫諝",
@@ -26328,14 +28954,15 @@ const CHARACTER_DATA = [
     "birth_year": "207",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_sun_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_yi",
     "display_name": "Sun Yi",
     "display_name_alt": "孫翊",
@@ -26352,7 +28979,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "184",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_temperamental",
       "3k_main_ceo_trait_physical_handsome",
@@ -26362,6 +28989,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_yu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_yu",
     "display_name": "Sun Yu",
     "display_name_alt": "孫瑜",
@@ -26378,7 +29006,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "177",
-    "death_year": "215",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_brave",
@@ -26388,6 +29016,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_sun_zhang_wood",
+    "faction_leader_of": [],
     "name_key": "sun_zhang",
     "display_name": "Sun Zhang",
     "display_name_alt": "孫璋",
@@ -26415,6 +29044,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_sun_zi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "sun_zi",
     "display_name": "Sun Zi",
     "display_name_alt": "孫資",
@@ -26431,16 +29061,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "216",
-    "death_year": "251",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_ytr_ceo_trait_personality_land_alert",
       "3k_main_ceo_trait_physical_sickly"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ironic_template_historical_supuyan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "supuyan",
     "display_name": "Supuyan",
     "display_name_alt": "他浦沿",
@@ -26467,6 +29098,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_syiyan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "syiyan",
     "display_name": "Syiyan",
     "display_name_alt": "矢燕",
@@ -26493,6 +29125,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tadun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "tadun",
     "display_name": "Tadun",
     "display_name_alt": "蹋頓",
@@ -26509,7 +29142,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "207",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fiery",
       "3k_main_ceo_trait_personality_charismatic",
@@ -26519,6 +29152,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_taishi_ci_hero_metal",
+    "faction_leader_of": [],
     "name_key": "taishi_ci",
     "display_name": "Taishi Ci",
     "display_name_alt": "太史慈",
@@ -26535,7 +29169,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "166",
-    "death_year": "206",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_defiant",
       "3k_main_ceo_trait_personality_honourable",
@@ -26544,7 +29178,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_historical_taishi_ci"
   },
   {
+    "key": "ironic_template_historical_tam_hari_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "tam_hari",
+    "display_name": "Tam Hari",
+    "display_name_alt": "耽下里",
+    "forename": "Hari",
+    "family_name": "Tam",
+    "forename_alt": "下里",
+    "family_name_alt": "耽",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Assassin of the King",
+    "description": "Even one born a slave will lay down their life to carry out the king’s command.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "171",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_ytr_ceo_trait_personality_land_alert"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal"
+  },
+  {
     "key": "ep_template_historical_tang_si_hero_fire",
+    "faction_leader_of": [],
     "name_key": "tang_si",
     "display_name": "Tang Si",
     "display_name_alt": "唐祀",
@@ -26563,14 +29225,15 @@ const CHARACTER_DATA = [
     "birth_year": "260",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_ytr_ceo_trait_personality_land_courageous"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "ep_template_historical_tang_wen_hero_wood",
+    "faction_leader_of": [],
     "name_key": "tang_wen",
     "display_name": "Tang Wen",
     "display_name_alt": "堂溫",
@@ -26589,14 +29252,15 @@ const CHARACTER_DATA = [
     "birth_year": "258",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_villager_wood"
   },
   {
     "key": "3k_dlc04_template_historical_tang_zhou_water",
+    "faction_leader_of": [],
     "name_key": "tang_zhou",
     "display_name": "Tang Zhou",
     "display_name_alt": "唐周",
@@ -26623,6 +29287,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tanshihuai_hero_metal",
+    "faction_leader_of": [],
     "name_key": "tanshihuai",
     "display_name": "Tanshihuai",
     "display_name_alt": "檀石槐",
@@ -26639,16 +29304,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "133",
-    "death_year": "181",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "skill_set": "3k_main_skillset_generic_agent_metal"
   },
   {
     "key": "3k_main_template_historical_tao_qian_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_tao_qian_ruler"
+    ],
     "name_key": "tao_qian",
     "display_name": "Tao Qian",
     "display_name_alt": "陶謙",
@@ -26665,7 +29333,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "132",
-    "death_year": "194",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_generous",
       "3k_main_ceo_trait_personality_distinguished",
@@ -26675,6 +29343,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_tao_shang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "tao_shang",
     "display_name": "Tao Shang",
     "display_name_alt": "陶尚",
@@ -26701,6 +29370,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_tao_ying_hero_wood",
+    "faction_leader_of": [],
     "name_key": "tao_ying",
     "display_name": "Tao Ying",
     "display_name_alt": "陶應",
@@ -26727,6 +29397,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_teng_dan_hero_water",
+    "faction_leader_of": [],
     "name_key": "teng_dan",
     "display_name": "Teng Dan",
     "display_name_alt": "滕耽",
@@ -26753,6 +29424,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_teng_ling_hero_earth",
+    "faction_leader_of": [],
     "name_key": "teng_ling",
     "display_name": "Teng Ling",
     "display_name_alt": "滕玲",
@@ -26779,6 +29451,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_teng_yin_hero_water",
+    "faction_leader_of": [],
     "name_key": "teng_yin",
     "display_name": "Teng Yin",
     "display_name_alt": "滕胤",
@@ -26795,16 +29468,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "212",
-    "death_year": "256",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_indecisive"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ironic_template_historical_teng_zhou_hero_earth",
+    "faction_leader_of": [],
     "name_key": "teng_zhou",
     "display_name": "Teng Zhou",
     "display_name_alt": "滕胄",
@@ -26831,6 +29505,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_tian_ben_hero_wood",
+    "faction_leader_of": [],
     "name_key": "tian_ben",
     "display_name": "Tian Ben",
     "display_name_alt": "田本",
@@ -26849,14 +29524,15 @@ const CHARACTER_DATA = [
     "birth_year": "270",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_wood"
   },
   {
     "key": "3k_main_template_historical_tian_chou_hero_water",
+    "faction_leader_of": [],
     "name_key": "tian_chou",
     "display_name": "Tian Chou",
     "display_name_alt": "田疇",
@@ -26873,7 +29549,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "169",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_amiable",
       "3k_main_ceo_trait_personality_resourceful",
@@ -26883,6 +29559,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_tian_fen_hero_metal",
+    "faction_leader_of": [],
     "name_key": "tian_fen",
     "display_name": "Tian Fen",
     "display_name_alt": "田芬",
@@ -26901,14 +29578,15 @@ const CHARACTER_DATA = [
     "birth_year": "165",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_physical_clumsy"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_modest"
     ],
     "skill_set": "3k_main_skillset_generic_villager_metal"
   },
   {
     "key": "3k_main_template_historical_tian_feng_hero_water",
+    "faction_leader_of": [],
     "name_key": "tian_feng",
     "display_name": "Tian Feng",
     "display_name_alt": "田豐",
@@ -26925,7 +29603,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "144",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_ytr_ceo_trait_personality_heaven_honest",
@@ -26935,6 +29613,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_tian_jing_hero_water",
+    "faction_leader_of": [],
     "name_key": "tian_jing",
     "display_name": "Tian Jing",
     "display_name_alt": "田景",
@@ -26953,14 +29632,15 @@ const CHARACTER_DATA = [
     "birth_year": "165",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_physical_tough",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_physical_impeccable"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_tian_kai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "tian_kai",
     "display_name": "Tian Kai",
     "display_name_alt": "田楷",
@@ -26987,6 +29667,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tian_le_hero_earth",
+    "faction_leader_of": [],
     "name_key": "tian_le",
     "display_name": "Tian Le",
     "display_name_alt": "田樂",
@@ -27013,6 +29694,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_tian_yu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "tian_yu",
     "display_name": "Tian Yu",
     "display_name_alt": "田豫",
@@ -27029,7 +29711,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "171",
-    "death_year": "252",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_personality_direct",
@@ -27039,6 +29721,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tong_jie_hero_metal",
+    "faction_leader_of": [],
     "name_key": "tong_jie",
     "display_name": "Tong Jie",
     "display_name_alt": "僮洁",
@@ -27065,6 +29748,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tong_yang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "tong_yang",
     "display_name": "Tong Yang",
     "display_name_alt": "僮羊",
@@ -27091,6 +29775,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tong_yin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "tong_yin",
     "display_name": "Tong Yin",
     "display_name_alt": "僮印",
@@ -27117,6 +29802,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tong_you_hero_earth",
+    "faction_leader_of": [],
     "name_key": "tong_you",
     "display_name": "Tong You",
     "display_name_alt": "僮攸",
@@ -27143,6 +29829,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_kong_yurui_hero_water",
+    "faction_leader_of": [],
     "name_key": "kong_yurui",
     "display_name": "Tong Yurui",
     "display_name_alt": "僮玉瑞",
@@ -27169,6 +29856,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tong_zhi_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_tong_zhi_190"
+    ],
     "name_key": "tong_zhi",
     "display_name": "Tong Zhi",
     "display_name_alt": "僮芝",
@@ -27195,6 +29885,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_trieu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "trieu",
     "display_name": "Trieu",
     "display_name_alt": "",
@@ -27221,6 +29912,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_tu_an_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_tu_an_190"
+    ],
     "name_key": "tu_an",
     "display_name": "Tu An",
     "display_name_alt": "土安",
@@ -27247,6 +29941,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tufa_pigu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "tufa_pigu",
     "display_name": "Tufa Pigu",
     "display_name_alt": "禿髮匹孤",
@@ -27273,6 +29968,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_tuoba_jiefan_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_xianbei_tuoba_190"
+    ],
     "name_key": "tuoba_jiefan",
     "display_name": "Tuoba Jiefan",
     "display_name_alt": "拓跋詰汾",
@@ -27299,6 +29997,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_tuoba_liwei_hero_wood",
+    "faction_leader_of": [],
     "name_key": "tuoba_liwei",
     "display_name": "Tuoba Liwei",
     "display_name_alt": "拓跋力微",
@@ -27315,7 +30014,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "277",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_understanding",
       "3k_main_ceo_trait_personality_determined",
@@ -27325,6 +30024,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wan_bing_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wan_bing",
     "display_name": "Wan Bing",
     "display_name_alt": "万秉",
@@ -27351,6 +30051,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_wan_buyi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wan_buyi",
     "display_name": "Wan Buyi",
     "display_name_alt": "萬不疑",
@@ -27369,14 +30070,15 @@ const CHARACTER_DATA = [
     "birth_year": "245",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_competative"
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_drunk"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_wan_yan_hero_water",
+    "faction_leader_of": [],
     "name_key": "wan_yan",
     "display_name": "Wan Yan",
     "display_name_alt": "万演",
@@ -27402,59 +30104,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_dlc05_skillset_generic_bandit_agent_water_strategist"
   },
   {
-    "key": "ironic_template_historical_wang_qian_ironic_hero_metal",
-    "name_key": "wang_qian_ironic",
-    "display_name": "Wang",
-    "display_name_alt": "王",
-    "forename": "",
-    "family_name": "Wang",
-    "forename_alt": "",
-    "family_name_alt": "王",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Watchful Guardsman",
-    "description": "Hmm...someone's prowlin' 'round here...",
-    "element": "metal",
-    "subtype": "3k_general_metal",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "142",
-    "death_year": "???",
-    "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_ytr_ceo_trait_personality_simple"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_metal"
-  },
-  {
-    "key": "ironic_template_historical_wang_kai_ironic_hero_earth",
-    "name_key": "wang_kai_ironic",
-    "display_name": "Wang",
-    "display_name_alt": "王",
-    "forename": "",
-    "family_name": "Wang",
-    "forename_alt": "",
-    "family_name_alt": "王",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Sophisticated Socialite",
-    "description": "Oh my, can we please not draw blades here, gentlemen? It would be a shame to dirty our robes!",
-    "element": "earth",
-    "subtype": "3k_general_earth",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "175",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_indecisive"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_earth"
-  },
-  {
     "key": "ep_template_historical_wang_bao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wang_bao",
     "display_name": "Wang Bao",
     "display_name_alt": "王豹",
@@ -27481,6 +30132,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_wang_baolan_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_baolan",
     "display_name": "Wang Baolan",
     "display_name_alt": "王寶蘭",
@@ -27507,6 +30159,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_bi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_bi",
     "display_name": "Wang Bi",
     "display_name_alt": "王必",
@@ -27523,16 +30176,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "177",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_humble",
       "3k_ytr_ceo_trait_personality_heaven_tranquil",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_careless"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_wang_biao_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_biao",
     "display_name": "Wang Biao",
     "display_name_alt": "王表",
@@ -27551,14 +30205,15 @@ const CHARACTER_DATA = [
     "birth_year": "209",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_cunning"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_wang_can_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_can",
     "display_name": "Wang Can",
     "display_name_alt": "王粲",
@@ -27575,7 +30230,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "177",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_brilliant",
@@ -27585,6 +30240,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_dang_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_dang",
     "display_name": "Wang Dang",
     "display_name_alt": "王當",
@@ -27611,6 +30267,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_wang_du_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_du",
     "display_name": "Wang Du",
     "display_name_alt": "王度",
@@ -27629,14 +30286,15 @@ const CHARACTER_DATA = [
     "birth_year": "141",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "skill_set": "3k_ytr_skillset_romance_generic_official_healer"
   },
   {
     "key": "ironic_template_historical_wang_feng_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_feng",
     "display_name": "Wang Fang",
     "display_name_alt": "王芳",
@@ -27663,6 +30321,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_wang_fangyue_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_fangyue",
     "display_name": "Wang Fangyue",
     "display_name_alt": "王芳月",
@@ -27689,6 +30348,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_fu_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_fu",
     "display_name": "Wang Fu",
     "display_name_alt": "王甫",
@@ -27705,7 +30365,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "175",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_main_ceo_trait_physical_coordinated",
@@ -27715,6 +30375,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_hong_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_hong",
     "display_name": "Wang Gong",
     "display_name_alt": "王肱",
@@ -27740,33 +30401,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
-    "key": "ironic_template_historical_wang_gong_hero_wood",
-    "name_key": "wang_gong",
-    "display_name": "Wang Gong",
-    "display_name_alt": "王肱",
-    "forename": "Gong",
-    "family_name": "Wang",
-    "forename_alt": "肱",
-    "family_name_alt": "王",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Unheeding Bureaucrat",
-    "description": "The peasants are hungry? Then let them eat rice cake!",
-    "element": "wood",
-    "subtype": "3k_general_wood",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "164",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_ytr_ceo_trait_personality_simple"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_wood"
-  },
-  {
     "key": "3k_dlc04_template_historical_wang_guo_metal",
+    "faction_leader_of": [],
     "name_key": "wang_guo",
     "display_name": "Wang Guo",
     "display_name_alt": "王國",
@@ -27793,6 +30429,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wang_hai_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_hai",
     "display_name": "Wang Hai",
     "display_name_alt": "王海",
@@ -27819,6 +30456,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_ji",
     "display_name": "Wang Ji",
     "display_name_alt": "王基",
@@ -27835,16 +30473,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "190",
-    "death_year": "261",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_main_template_historical_wang_jian_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_jian",
     "display_name": "Wang Jian",
     "display_name_alt": "王建",
@@ -27863,14 +30502,15 @@ const CHARACTER_DATA = [
     "birth_year": "191",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_clumsy"
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_cowardly"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ironic_template_historical_wang_jin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wang_jin",
     "display_name": "Wang Jin",
     "display_name_alt": "王金",
@@ -27897,6 +30537,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_jing_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_jing",
     "display_name": "Wang Jing",
     "display_name_alt": "王經",
@@ -27913,16 +30554,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "218",
-    "death_year": "260",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_ytr_ceo_trait_personality_simple",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_competative"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_wang_jun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_jun",
     "display_name": "Wang Jun",
     "display_name_alt": "王濬",
@@ -27939,16 +30581,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "206",
-    "death_year": "286",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_distinguished"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_wang_kai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_kai",
     "display_name": "Wang Kai",
     "display_name_alt": "王楷",
@@ -27974,7 +30617,37 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_earth"
   },
   {
+    "key": "ironic_template_historical_wang_kai_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "wang_kai_ironic",
+    "display_name": "Wang Kai",
+    "display_name_alt": "王凯",
+    "forename": "Kai",
+    "family_name": "Wang",
+    "forename_alt": "凯",
+    "family_name_alt": "王",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Sophisticated Socialite",
+    "description": "Oh my, can we please not draw blades here, gentlemen? It would be a shame to dirty our robes!",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "175",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_kind",
+      "3k_ytr_ceo_trait_personality_people_understanding",
+      "3k_main_ceo_trait_personality_indecisive"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_earth"
+  },
+  {
     "key": "3k_main_template_historical_wang_kuang_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_wang_kuang_190"
+    ],
     "name_key": "wang_kuang",
     "display_name": "Wang Kuang",
     "display_name_alt": "王匡",
@@ -27991,7 +30664,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "138",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_vindictive",
       "3k_ytr_ceo_trait_physical_feared",
@@ -28001,6 +30674,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_lan_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_lan",
     "display_name": "Wang Lan",
     "display_name_alt": "王覽",
@@ -28017,16 +30691,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "206",
-    "death_year": "278",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_wang_lang_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_wang_lang_190"
+    ],
     "name_key": "wang_lang",
     "display_name": "Wang Lang",
     "display_name_alt": "王朗",
@@ -28043,7 +30720,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "161",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_honourable",
@@ -28053,6 +30730,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_wang_lanlan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_lanlan",
     "display_name": "Wang Lanlan",
     "display_name_alt": "王蘭蘭",
@@ -28079,6 +30757,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_lei_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_lei",
     "display_name": "Wang Lei",
     "display_name_alt": "王累",
@@ -28095,7 +30774,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165",
-    "death_year": "211",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_direct",
@@ -28105,6 +30784,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wang_lian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_lian",
     "display_name": "Wang Lian",
     "display_name_alt": "王連",
@@ -28112,8 +30792,8 @@ const CHARACTER_DATA = [
     "family_name": "Wang",
     "forename_alt": "連",
     "family_name_alt": "王",
-    "courtesy_name": "Wenyi",
-    "courtesy_name_alt": "文儀",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Frugal Magistrate",
     "description": "Salt, iron and other resources must be measured and recorded carefully, and distributed only when needed to ensure long-term prosperity.",
     "element": "metal",
@@ -28131,6 +30811,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_lie_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_lie",
     "display_name": "Wang Lie",
     "display_name_alt": "王烈",
@@ -28147,7 +30828,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "141",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_solitary",
       "3k_main_ceo_trait_personality_quiet",
@@ -28157,6 +30838,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wang_lie_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_lie",
     "display_name": "Wang Lie",
     "display_name_alt": "王烈",
@@ -28164,8 +30846,8 @@ const CHARACTER_DATA = [
     "family_name": "Wang",
     "forename_alt": "烈",
     "family_name_alt": "王",
-    "courtesy_name": "Yanfang",
-    "courtesy_name_alt": "彥方",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Seeker of Solitude",
     "description": "This wise disciple wishes only for peace and quiet, and for these damned warlords to leave him alone.",
     "element": "water",
@@ -28173,7 +30855,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_solitary",
       "3k_main_ceo_trait_personality_quiet",
@@ -28183,6 +30865,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_ling_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_ling",
     "display_name": "Wang Ling",
     "display_name_alt": "王淩",
@@ -28190,25 +30873,26 @@ const CHARACTER_DATA = [
     "family_name": "Wang",
     "forename_alt": "淩",
     "family_name_alt": "王",
-    "courtesy_name": "Yanyun",
-    "courtesy_name_alt": "彥雲",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Guerrilla",
     "description": "We might be vastly outnumbered, but never underestimate the element of surprise!",
     "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "172",
-    "death_year": "251",
+    "birth_year": "215",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "ironic_template_historical_wang_men_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_men",
     "display_name": "Wang Men",
     "display_name_alt": "王門",
@@ -28235,6 +30919,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_shi_mengjuan_hero_water",
+    "faction_leader_of": [],
     "name_key": "shi_mengjuan",
     "display_name": "Wang Mengjuan",
     "display_name_alt": "王夢娟",
@@ -28261,6 +30946,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wang_mou_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wang_mou",
     "display_name": "Wang Mou",
     "display_name_alt": "王謀",
@@ -28287,6 +30973,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_ping_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_ping",
     "display_name": "Wang Ping",
     "display_name_alt": "王平",
@@ -28303,16 +30990,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "248",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charitable",
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_resourceful"
     ],
-    "skill_set": "3k_main_skillset_generic_envoy_fire"
+    "skill_set": "3k_main_skillset_wang_ping_general_fire"
   },
   {
     "key": "3k_main_template_historical_wang_qi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_qi",
     "display_name": "Wang Qi",
     "display_name_alt": "王頎",
@@ -28331,14 +31019,42 @@ const CHARACTER_DATA = [
     "birth_year": "151",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_direct",
-      "3k_ytr_ceo_trait_personality_stalwart"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
+    "key": "ironic_template_historical_wang_qian_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "wang_qian_ironic",
+    "display_name": "Wang Qian",
+    "display_name_alt": "王谦",
+    "forename": "Qian",
+    "family_name": "Wang",
+    "forename_alt": "谦",
+    "family_name_alt": "王",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Watchful Guardsman",
+    "description": "Hmm...someone's prowlin' 'round here...",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "142",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_ytr_ceo_trait_personality_simple"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_metal"
+  },
+  {
     "key": "3k_ytr_template_historical_wang_rao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_rao",
     "display_name": "Wang Rao",
     "display_name_alt": "王饒",
@@ -28357,14 +31073,15 @@ const CHARACTER_DATA = [
     "birth_year": "155",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_main_ceo_trait_physical_sickly"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_ytr_ceo_trait_personality_heaven_selfless",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "skill_set": "3k_ytr_skillset_romance_generic_official_scholar"
   },
   {
     "key": "3k_dlc04_template_historical_wang_rui_fire",
+    "faction_leader_of": [],
     "name_key": "wang_rui",
     "display_name": "Wang Rui",
     "display_name_alt": "王睿",
@@ -28381,16 +31098,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "149",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_main_ceo_trait_physical_beautiful"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "ironic_template_historical_wang_shang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_shang",
     "display_name": "Wang Shang",
     "display_name_alt": "王商",
@@ -28417,6 +31135,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wang_sheng_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_wang_sheng_190"
+    ],
     "name_key": "wang_sheng",
     "display_name": "Wang Sheng",
     "display_name_alt": "王生",
@@ -28443,6 +31164,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_shi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_shi",
     "display_name": "Wang Shi",
     "display_name_alt": "王士",
@@ -28459,7 +31181,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "185",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_tough",
       "3k_main_ceo_trait_personality_competative",
@@ -28469,6 +31191,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_wang_shu_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_shu",
     "display_name": "Wang Shu",
     "display_name_alt": "王述",
@@ -28487,14 +31210,15 @@ const CHARACTER_DATA = [
     "birth_year": "180",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_physical_coordinated",
       "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_wang_shuang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_shuang",
     "display_name": "Wang Shuang",
     "display_name_alt": "王雙",
@@ -28511,16 +31235,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "175",
-    "death_year": "229",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_physical_fertile",
       "3k_main_ceo_trait_personality_intimidating"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_dlc04_template_historical_lady_wang_song_water",
+    "faction_leader_of": [],
     "name_key": "wang_song",
     "display_name": "Wang Song",
     "display_name_alt": "王宋",
@@ -28547,6 +31272,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_su_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_su",
     "display_name": "Wang Su",
     "display_name_alt": "王肅",
@@ -28554,8 +31280,8 @@ const CHARACTER_DATA = [
     "family_name": "Wang",
     "forename_alt": "肅",
     "family_name_alt": "王",
-    "courtesy_name": "Ziyong",
-    "courtesy_name_alt": "子雍",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Clerk",
     "description": "An expert notary, they know that effective record-keeping is only achieved through stubborn diligence.",
     "element": "metal",
@@ -28563,16 +31289,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "189",
-    "death_year": "256",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "skill_set": "3k_main_skillset_generic_governor_metal"
   },
   {
     "key": "3k_main_template_historical_wang_su_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_su",
     "display_name": "Wang Su",
     "display_name_alt": "王肅",
@@ -28589,7 +31316,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "195",
-    "death_year": "256",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_main_ceo_trait_physical_handsome",
@@ -28599,6 +31326,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wang_wei_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wang_wei",
     "display_name": "Wang Wei",
     "display_name_alt": "王威",
@@ -28625,6 +31353,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_xi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wang_xi",
     "display_name": "Wang Xi",
     "display_name_alt": "王熙",
@@ -28643,14 +31372,15 @@ const CHARACTER_DATA = [
     "birth_year": "210",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_main_ceo_trait_physical_healthy",
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_cowardly"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_wood"
   },
   {
     "key": "ironic_template_historical_wang_xian_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_xian",
     "display_name": "Wang Xian",
     "display_name_alt": "王咸",
@@ -28677,6 +31407,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_xiang_hero_water",
+    "faction_leader_of": [],
     "name_key": "wang_xiang",
     "display_name": "Wang Xiang",
     "display_name_alt": "王祥",
@@ -28693,7 +31424,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "185",
-    "death_year": "268",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_humble",
       "3k_main_ceo_trait_personality_modest",
@@ -28703,6 +31434,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wang_xiang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_xiang",
     "display_name": "Wang Xiang",
     "display_name_alt": "王象",
@@ -28729,6 +31461,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_xiu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_xiu",
     "display_name": "Wang Xiu",
     "display_name_alt": "王修",
@@ -28755,12 +31488,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_yi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_yi",
     "display_name": "Wang Yi",
-    "display_name_alt": "王儀",
+    "display_name_alt": "王異",
     "forename": "Yi",
     "family_name": "Wang",
-    "forename_alt": "儀",
+    "forename_alt": "異",
     "family_name_alt": "王",
     "courtesy_name": "Zhubiao",
     "courtesy_name_alt": "朱表",
@@ -28781,6 +31515,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_yu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_yu",
     "display_name": "Wang Yu",
     "display_name_alt": "王彧",
@@ -28807,6 +31542,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_yuanji_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wang_yuanji",
     "display_name": "Wang Yuanji",
     "display_name_alt": "王元姬",
@@ -28823,16 +31559,19 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "217",
-    "death_year": "268",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_ytr_ceo_trait_personality_land_aspiring",
       "3k_main_ceo_trait_physical_beautiful"
     ],
-    "skill_set": "3k_main_skillset_generic_envoy_earth"
+    "skill_set": "3k_main_skillset_wang_yuanji_envoy_earth"
   },
   {
     "key": "3k_main_template_historical_wang_yun_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_han_empire_190"
+    ],
     "name_key": "wang_yun",
     "display_name": "Wang Yun",
     "display_name_alt": "王允",
@@ -28849,7 +31588,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "137",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_personality_charismatic",
@@ -28859,6 +31598,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_zhi",
     "display_name": "Wang Zhi",
     "display_name_alt": "王直",
@@ -28877,14 +31617,15 @@ const CHARACTER_DATA = [
     "birth_year": "177",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_brave",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_ytr_ceo_trait_personality_temperamental"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ironic_template_historical_wang_zifu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_zifu",
     "display_name": "Wang Zifu",
     "display_name_alt": "王子服",
@@ -28901,7 +31642,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "152",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_vengeful",
       "3k_main_ceo_trait_personality_suspicious",
@@ -28911,6 +31652,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wangdong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wangdong",
     "display_name": "Wangdong",
     "display_name_alt": "王同",
@@ -28937,6 +31679,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_dan_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_dan",
     "display_name": "Wei Dan",
     "display_name_alt": "韋誕",
@@ -28953,16 +31696,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "179",
-    "death_year": "253",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_physical_sui_knight",
-      "3k_main_ceo_trait_personality_aescetic"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_physical_sui_knight"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ironic_template_historical_wei_dan_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_dan",
     "display_name": "Wei Dan",
     "display_name_alt": "韦诞",
@@ -28970,8 +31714,8 @@ const CHARACTER_DATA = [
     "family_name": "Wei",
     "forename_alt": "诞",
     "family_name_alt": "韦",
-    "courtesy_name": "Zhongjiang",
-    "courtesy_name_alt": "仲将",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Cursive Saint",
     "description": "With a flick of his pen, this one brings artistry to parchment.",
     "element": "water",
@@ -28979,7 +31723,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "179",
-    "death_year": "253",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_bright",
       "3k_main_ceo_trait_personality_clever",
@@ -28989,6 +31733,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wei_duan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wei_duan",
     "display_name": "Wei Duan",
     "display_name_alt": "韋端",
@@ -29015,6 +31760,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_feng_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_feng",
     "display_name": "Wei Feng",
     "display_name_alt": "魏諷",
@@ -29031,16 +31777,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "164",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_main_ceo_trait_personality_cowardly",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_reckless"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_wei_gu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_gu",
     "display_name": "Wei Gu",
     "display_name_alt": "衛固",
@@ -29067,6 +31814,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_guan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_guan",
     "display_name": "Wei Guan",
     "display_name_alt": "衛瓘",
@@ -29083,16 +31831,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "220",
-    "death_year": "291",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ep_template_historical_wei_guan_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_guan",
     "display_name": "Wei Guan",
     "display_name_alt": "衛瓘",
@@ -29100,8 +31849,8 @@ const CHARACTER_DATA = [
     "family_name": "Wei",
     "forename_alt": "瓘",
     "family_name_alt": "衛",
-    "courtesy_name": "Boyu",
-    "courtesy_name_alt": "伯玉",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Mediator",
     "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
     "element": "water",
@@ -29109,7 +31858,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "220",
-    "death_year": "291",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_clever",
@@ -29119,6 +31868,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_huang_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_huang",
     "display_name": "Wei Huang",
     "display_name_alt": "韋晃",
@@ -29135,7 +31885,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_amiable",
       "3k_main_ceo_trait_personality_reckless",
@@ -29145,6 +31895,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_ji",
     "display_name": "Wei Ji",
     "display_name_alt": "衛繼",
@@ -29163,14 +31914,15 @@ const CHARACTER_DATA = [
     "birth_year": "220",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_coordinated"
+      "3k_main_ceo_trait_physical_tough",
+      "3k_ytr_ceo_trait_personality_land_proud",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_wei_jie_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wei_jie",
     "display_name": "Wei Jie",
     "display_name_alt": "魏桀",
@@ -29189,14 +31941,15 @@ const CHARACTER_DATA = [
     "birth_year": "170",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_physical_handsome"
     ],
     "skill_set": "3k_main_skillset_generic_governor_wood"
   },
   {
     "key": "3k_main_template_historical_wei_kai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_kai",
     "display_name": "Wei Kai",
     "display_name_alt": "衛開",
@@ -29215,14 +31968,15 @@ const CHARACTER_DATA = [
     "birth_year": "168",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_ytr_ceo_trait_personality_simple"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_trustworthy"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_main_template_historical_wei_kang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_kang",
     "display_name": "Wei Kang",
     "display_name_alt": "韋康",
@@ -29230,8 +31984,8 @@ const CHARACTER_DATA = [
     "family_name": "Wei",
     "forename_alt": "康",
     "family_name_alt": "韋",
-    "courtesy_name": "Yuanjiang",
-    "courtesy_name_alt": "元將",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Warrior",
     "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
     "element": "fire",
@@ -29239,16 +31993,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "181",
-    "death_year": "213",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_charitable"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_wei_kang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wei_kang",
     "display_name": "Wei Kang",
     "display_name_alt": "韋康",
@@ -29256,8 +32011,8 @@ const CHARACTER_DATA = [
     "family_name": "Wei",
     "forename_alt": "康",
     "family_name_alt": "韋",
-    "courtesy_name": "Yuanjiang",
-    "courtesy_name_alt": "元將",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Resilient Inspector",
     "description": "Even when the city is surrounded, even when the walls are stormed and the gates are breached, Wei Kang will hold the line, come what may.",
     "element": "earth",
@@ -29265,7 +32020,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "213",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_stubborn",
       "3k_ytr_ceo_trait_personality_people_friendly",
@@ -29275,6 +32030,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wei_qian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wei_qian",
     "display_name": "Wei Qian",
     "display_name_alt": "魏謙",
@@ -29301,6 +32057,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wei_qing_f_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wei_qing_f",
     "display_name": "Wei Qing",
     "display_name_alt": "韋青",
@@ -29319,14 +32076,15 @@ const CHARACTER_DATA = [
     "birth_year": "158",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_ytr_ceo_trait_personality_people_stern"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_wei_shu_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_shu",
     "display_name": "Wei Shu",
     "display_name_alt": "魏舒",
@@ -29343,16 +32101,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209",
-    "death_year": "290",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_wei_wen_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_wen",
     "display_name": "Wei Wen",
     "display_name_alt": "衛溫",
@@ -29369,16 +32128,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "181",
-    "death_year": "231",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_ytr_ceo_trait_personality_heaven_bright"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_distinguished",
+      "3k_main_ceo_trait_personality_brilliant"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "ironic_template_historical_wei_xu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wei_xu",
     "display_name": "Wei Xu",
     "display_name_alt": "魏續",
@@ -29405,6 +32165,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_yan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_yan",
     "display_name": "Wei Yan",
     "display_name_alt": "魏延",
@@ -29421,7 +32182,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fraternal",
       "3k_main_ceo_trait_personality_fiery",
@@ -29431,6 +32192,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_yan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wei_yan",
     "display_name": "Wei Yan",
     "display_name_alt": "魏延",
@@ -29447,7 +32209,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fraternal",
       "3k_main_ceo_trait_personality_fiery",
@@ -29457,6 +32219,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_you_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_you",
     "display_name": "Wei You",
     "display_name_alt": "魏攸",
@@ -29483,6 +32246,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wei_zhao_hero_water",
+    "faction_leader_of": [],
     "name_key": "wei_zhao",
     "display_name": "Wei Zhao",
     "display_name_alt": "韋昭",
@@ -29499,16 +32263,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "204",
-    "death_year": "273",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_physical_coordinated"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "ironic_template_historical_wei_zi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wei_zi",
     "display_name": "Wei Zi",
     "display_name_alt": "衞茲",
@@ -29525,7 +32290,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "142",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_aspiring",
       "3k_main_ceo_trait_physical_agile",
@@ -29535,6 +32300,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wen_chou_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wen_chou",
     "display_name": "Wen Chou",
     "display_name_alt": "文醜",
@@ -29551,7 +32317,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_relentless",
       "3k_main_ceo_trait_personality_reckless",
@@ -29561,6 +32327,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wen_gong_hero_water",
+    "faction_leader_of": [],
     "name_key": "wen_gong",
     "display_name": "Wen Gong",
     "display_name_alt": "文恭",
@@ -29587,6 +32354,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wen_hui_hero_water",
+    "faction_leader_of": [],
     "name_key": "wen_hui",
     "display_name": "Wen Hui",
     "display_name_alt": "溫恢",
@@ -29603,16 +32371,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_artful"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ironic_template_historical_wen_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wen_ji",
     "display_name": "Wen Ji",
     "display_name_alt": "文稷",
@@ -29639,6 +32408,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wen_pin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wen_pin",
     "display_name": "Wen Ping",
     "display_name_alt": "文聘",
@@ -29665,6 +32435,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wen_qin_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wen_qin",
     "display_name": "Wen Qin",
     "display_name_alt": "文欽",
@@ -29681,7 +32452,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190",
-    "death_year": "258",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_deceitful",
@@ -29691,6 +32462,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wen_ying_ironic_hero_water",
+    "faction_leader_of": [],
     "name_key": "wen_ying_ironic",
     "display_name": "Wen Ying",
     "display_name_alt": "文穎",
@@ -29716,7 +32488,62 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
+    "key": "ironic_template_historical_woo_du_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "woo_du_ironic",
+    "display_name": "Woo Du",
+    "display_name_alt": "優豆",
+    "forename": "Du",
+    "family_name": "Woo",
+    "forename_alt": "豆",
+    "family_name_alt": "優",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Steward of Finance",
+    "description": "Managing the nation’s finances is a crucial position tied directly to the country’s survival.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "209",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_ytr_ceo_trait_personality_land_composed"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_woo_wigeo_hero_water",
+    "faction_leader_of": [],
+    "name_key": "woo_wigeo",
+    "display_name": "Woo Wigeo",
+    "display_name_alt": "牛位居",
+    "forename": "Wigeo",
+    "family_name": "Woo",
+    "forename_alt": "位居",
+    "family_name_alt": "牛",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Trusted Ally",
+    "description": "Woo Wigeo is a member of the Wooga clan, which holds considerable economic power in Buyeo. He plays a crucial role in managing the relationship between the Han and Buyeo, helping to keep Goguryeo in check.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "172",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_heaven_wise",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_resourceful"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_water_strategist"
+  },
+  {
     "key": "3k_mtu_template_historical_wu_anguo_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wu_anguo",
     "display_name": "Wu",
     "display_name_alt": "武",
@@ -29743,6 +32570,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_wu_ba_water",
+    "faction_leader_of": [],
     "name_key": "wu_ba",
     "display_name": "Wu Ba",
     "display_name_alt": "吳霸",
@@ -29769,6 +32597,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_ban_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wu_ban",
     "display_name": "Wu Ban",
     "display_name_alt": "吳班",
@@ -29795,6 +32624,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_can_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wu_can",
     "display_name": "Wu Can",
     "display_name_alt": "吾粲",
@@ -29811,7 +32641,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "174",
-    "death_year": "245",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_competative",
@@ -29821,6 +32651,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_chen_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wu_chen",
     "display_name": "Wu Chen",
     "display_name_alt": "吳綝",
@@ -29847,6 +32678,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_dang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wu_dang",
     "display_name": "Wu Dang",
     "display_name_alt": "吳碭",
@@ -29873,6 +32705,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_dun_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wu_dun",
     "display_name": "Wu Dun",
     "display_name_alt": "吴敦",
@@ -29899,6 +32732,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_fan_hero_water",
+    "faction_leader_of": [],
     "name_key": "wu_fan",
     "display_name": "Wu Fan",
     "display_name_alt": "吳範",
@@ -29915,7 +32749,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "159",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_ytr_ceo_trait_personality_heaven_wise",
@@ -29925,6 +32759,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_fen_hero_wood",
+    "faction_leader_of": [],
     "name_key": "wu_fen",
     "display_name": "Wu Fen",
     "display_name_alt": "吳奮",
@@ -29951,6 +32786,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_fu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wu_fu",
     "display_name": "Wu Fu",
     "display_name_alt": "伍孚",
@@ -29967,16 +32803,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "152",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_ytr_ceo_trait_personality_benevolent"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_physical_impeccable",
+      "3k_main_ceo_trait_personality_determined"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_main_template_generated_wu_hua_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wu_hua",
     "display_name": "Wu Huai",
     "display_name_alt": "吳懷",
@@ -29995,14 +32832,17 @@ const CHARACTER_DATA = [
     "birth_year": "122",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_personality_land_proud",
-      "3k_main_ceo_trait_personality_brave"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_stubborn",
+      "3k_ytr_ceo_trait_personality_heaven_honest"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_main_template_historical_wu_huan_hero_metal",
+    "faction_leader_of": [
+      "ironic_faction_yellow_turban_wu_huan_190"
+    ],
     "name_key": "wu_huan",
     "display_name": "Wu Huan",
     "display_name_alt": "吳桓",
@@ -30029,6 +32869,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_jing_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_wu_jing_190"
+    ],
     "name_key": "wu_jing",
     "display_name": "Wu Jing",
     "display_name_alt": "吳景",
@@ -30045,16 +32888,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147",
-    "death_year": "203",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_modest",
       "3k_ytr_ceo_trait_physical_impeccable",
       "3k_main_ceo_trait_personality_fraternal"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_fire"
+    "skill_set": "3k_main_skillset_wu_jing_minister_fire"
   },
   {
     "key": "3k_main_template_historical_wu_ju_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_wu_ju_190"
+    ],
     "name_key": "wu_ju",
     "display_name": "Wu Ju",
     "display_name_alt": "呉巨",
@@ -30071,7 +32917,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "210",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_stubborn",
       "3k_main_ceo_trait_personality_fiery",
@@ -30081,6 +32927,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_kuang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wu_kuang",
     "display_name": "Wu Kuang",
     "display_name_alt": "吳匡",
@@ -30107,6 +32954,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_lan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wu_lan",
     "display_name": "Wu Lan",
     "display_name_alt": "吳蘭",
@@ -30123,7 +32971,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "176",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_honest",
       "3k_main_ceo_trait_personality_reckless",
@@ -30133,6 +32981,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_mai_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wu_mai",
     "display_name": "Wu Mai",
     "display_name_alt": "吳霾",
@@ -30159,6 +33008,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_mian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wu_mian",
     "display_name": "Wu Mian",
     "display_name_alt": "吳免",
@@ -30185,6 +33035,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_qi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wu_qi",
     "display_name": "Wu Qi",
     "display_name_alt": "吳祺",
@@ -30211,6 +33062,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_wu_qiong_deyu_earth",
+    "faction_leader_of": [],
     "name_key": "wu_qiong_deyu",
     "display_name": "Wu Qiong",
     "display_name_alt": "伍瓊",
@@ -30227,7 +33079,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "145",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_ytr_ceo_trait_personality_land_composed",
@@ -30237,6 +33089,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_shuo_hero_water",
+    "faction_leader_of": [],
     "name_key": "wu_shuo",
     "display_name": "Wu Shuo",
     "display_name_alt": "吳碩",
@@ -30253,16 +33106,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "165",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_fiery",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ironic_template_historical_wu_wu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wu_wu",
     "display_name": "Wu Wu",
     "display_name_alt": "吳五",
@@ -30289,6 +33143,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_xi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "wu_xi",
     "display_name": "Wu Xi",
     "display_name_alt": "吳夕",
@@ -30315,6 +33170,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_xi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wu_xi",
     "display_name": "Wu Xi",
     "display_name_alt": "伍習",
@@ -30341,6 +33197,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wu_xiang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wu_xiang",
     "display_name": "Wu Xiang",
     "display_name_alt": "吳香",
@@ -30367,6 +33224,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wu_yi",
     "display_name": "Wu Yi",
     "display_name_alt": "吳懿",
@@ -30383,7 +33241,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "172",
-    "death_year": "237",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_powerful",
       "3k_main_ceo_trait_personality_direct",
@@ -30393,6 +33251,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wu_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "wu_zhi",
     "display_name": "Wu Zhi",
     "display_name_alt": "吳質",
@@ -30409,16 +33268,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "177",
-    "death_year": "230",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_incompetent"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_physical_eunuch"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_dlc06_template_historical_king_wutugu_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_king_wutugu_190"
+    ],
     "name_key": "king_wutugu",
     "display_name": "Wutugu",
     "display_name_alt": "兀突骨",
@@ -30445,6 +33307,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_wuyan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wuyan",
     "display_name": "Wuyan",
     "display_name_alt": "烏延",
@@ -30471,6 +33334,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xi_jiao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xi_jiao",
     "display_name": "Xi Jiao",
     "display_name_alt": "奚皎",
@@ -30497,6 +33361,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_xi_kan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xi_kan",
     "display_name": "Xi Kan",
     "display_name_alt": "戲侃",
@@ -30515,14 +33380,17 @@ const CHARACTER_DATA = [
     "birth_year": "268",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "skill_set": "3k_main_skillset_generic_governor_earth"
   },
   {
     "key": "3k_dlc06_template_historical_xi_ni_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_xi_ni_190"
+    ],
     "name_key": "xi_ni",
     "display_name": "Xi Ni",
     "display_name_alt": "奚泥",
@@ -30549,6 +33417,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xi_zhen_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xi_zhen",
     "display_name": "Xi Zhen",
     "display_name_alt": "習珍",
@@ -30565,16 +33434,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170",
-    "death_year": "221",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_stalwart",
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_greedy"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_brave"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "ironic_template_historical_xi_zhen_ironic_hero_water",
+    "faction_leader_of": [],
     "name_key": "xi_zhen_ironic",
     "display_name": "Xi Zhen",
     "display_name_alt": "習禎",
@@ -30582,8 +33452,8 @@ const CHARACTER_DATA = [
     "family_name": "Xi",
     "forename_alt": "禎",
     "family_name_alt": "習",
-    "courtesy_name": "Wenxiang",
-    "courtesy_name_alt": "文祥",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Marvellous and Meticulous",
     "description": "Even amongst his peers, Xi Zhen stands out as one of Jing's greatest scholars and academics.",
     "element": "water",
@@ -30601,6 +33471,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xi_zhicai_hero_water",
+    "faction_leader_of": [],
     "name_key": "xi_zhicai",
     "display_name": "Xi Zhicai",
     "display_name_alt": "戏志才",
@@ -30627,6 +33498,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xia_she_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xia_she",
     "display_name": "Xia She",
     "display_name_alt": "夏舍",
@@ -30645,14 +33517,15 @@ const CHARACTER_DATA = [
     "birth_year": "181",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_cunning"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_dlc04_template_historical_xia_yun_water",
+    "faction_leader_of": [],
     "name_key": "xia_yun",
     "display_name": "Xia Yun",
     "display_name_alt": "夏惲",
@@ -30669,7 +33542,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_distinguished",
@@ -30680,6 +33553,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xia_zhao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xia_zhao",
     "display_name": "Xia Zhao",
     "display_name_alt": "夏昭",
@@ -30706,6 +33580,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xiahou_ba_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiahou_ba",
     "display_name": "Xiahou Ba",
     "display_name_alt": "夏侯霸",
@@ -30728,10 +33603,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_resourceful"
     ],
-    "skill_set": "3k_main_skillset_generic_agent_fire"
+    "skill_set": "3k_main_skillset_xiahou_ba_general_fire"
   },
   {
     "key": "3k_main_template_historical_xiahou_dun_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xiahou_dun",
     "display_name": "Xiahou Dun",
     "display_name_alt": "夏侯惇",
@@ -30748,7 +33624,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_fiery",
@@ -30758,6 +33634,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xiahou_heng_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xiahou_heng",
     "display_name": "Xiahou Heng",
     "display_name_alt": "夏侯衡",
@@ -30776,14 +33653,15 @@ const CHARACTER_DATA = [
     "birth_year": "181",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_graceful",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_enigmatic"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "3k_main_template_historical_xiahou_hui_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xiahou_hui",
     "display_name": "Xiahou Hui",
     "display_name_alt": "夏侯徽",
@@ -30791,25 +33669,26 @@ const CHARACTER_DATA = [
     "family_name": "Xiahou",
     "forename_alt": "徽",
     "family_name_alt": "夏侯",
-    "courtesy_name": "Yuanrong",
-    "courtesy_name_alt": "媛容",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Officer",
     "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
     "element": "earth",
     "subtype": "3k_general_earth",
-    "is_male": false,
+    "is_male": true,
     "is_unique": false,
     "birth_year": "211",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_xiahou_jie_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiahou_jie",
     "display_name": "Xiahou Jie",
     "display_name_alt": "夏侯傑",
@@ -30836,12 +33715,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xiahou_lan_hero_water",
+    "faction_leader_of": [],
     "name_key": "xiahou_lan",
     "display_name": "Xiahou Lan",
-    "display_name_alt": "夏侯蘭",
+    "display_name_alt": "夏侯侯蘭",
     "forename": "Lan",
     "family_name": "Xiahou",
-    "forename_alt": "蘭",
+    "forename_alt": "侯蘭",
     "family_name_alt": "夏侯",
     "courtesy_name": "",
     "courtesy_name_alt": "",
@@ -30862,6 +33742,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xiahou_mao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiahou_mao",
     "display_name": "Xiahou Mao",
     "display_name_alt": "夏侯楙",
@@ -30869,8 +33750,8 @@ const CHARACTER_DATA = [
     "family_name": "Xiahou",
     "forename_alt": "楙",
     "family_name_alt": "夏侯",
-    "courtesy_name": "Zilin",
-    "courtesy_name_alt": "子林",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Boisterous and Blustering",
     "description": "When I'm in command, every mission is a suicide mission!",
     "element": "fire",
@@ -30888,6 +33769,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xiahou_rong_hero_water",
+    "faction_leader_of": [],
     "name_key": "xiahou_rong",
     "display_name": "Xiahou Rong",
     "display_name_alt": "夏侯榮",
@@ -30903,17 +33785,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "206",
-    "death_year": "219",
+    "birth_year": "166",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_physical_fertile",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_xiahou_shang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiahou_shang",
     "display_name": "Xiahou Shang",
     "display_name_alt": "夏侯尚",
@@ -30921,8 +33804,8 @@ const CHARACTER_DATA = [
     "family_name": "Xiahou",
     "forename_alt": "尚",
     "family_name_alt": "夏侯",
-    "courtesy_name": "Boren",
-    "courtesy_name_alt": "伯仁",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Gentleman of all Purposes",
     "description": "The multifaceted Xiahou Shang strives to excel in all aspects, but above all else, he puts his dearest friends and loved ones.",
     "element": "fire",
@@ -30930,7 +33813,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "185",
-    "death_year": "226",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_people_pleaser",
       "3k_main_ceo_trait_personality_fraternal",
@@ -30940,6 +33823,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xiahou_xuan_hero_water",
+    "faction_leader_of": [],
     "name_key": "xiahou_xuan",
     "display_name": "Xiahou Xuan",
     "display_name_alt": "夏侯玄",
@@ -30956,16 +33840,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209",
-    "death_year": "254",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_patient"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_main_template_historical_xiahou_yuan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiahou_yuan",
     "display_name": "Xiahou Yuan",
     "display_name_alt": "夏侯淵",
@@ -30982,7 +33867,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_energetic",
@@ -30992,6 +33877,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xiahou_zuo_hero_water",
+    "faction_leader_of": [],
     "name_key": "xiahou_zuo",
     "display_name": "Xiahou Zuo",
     "display_name_alt": "夏侯佐",
@@ -31010,14 +33896,15 @@ const CHARACTER_DATA = [
     "birth_year": "216",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_reckless"
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_pacifist"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_xiang_chong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiang_chong",
     "display_name": "Xiang Chong",
     "display_name_alt": "向寵",
@@ -31034,7 +33921,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "189",
-    "death_year": "240",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_honourable",
       "3k_ytr_ceo_trait_personality_trustworthy",
@@ -31044,6 +33931,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xiang_cun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiang_cun",
     "display_name": "Xiang Cun",
     "display_name_alt": "向存",
@@ -31062,14 +33950,15 @@ const CHARACTER_DATA = [
     "birth_year": "161",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_amiable",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_personality_disloyal"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_xiang_lang_hero_water",
+    "faction_leader_of": [],
     "name_key": "xiang_lang",
     "display_name": "Xiang Lang",
     "display_name_alt": "向朗",
@@ -31086,7 +33975,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "167",
-    "death_year": "247",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_friendly",
       "3k_main_ceo_trait_personality_clever",
@@ -31096,6 +33985,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_xiang_shi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xiang_shi",
     "display_name": "Xiang Shi",
     "display_name_alt": "襄市",
@@ -31114,21 +34004,22 @@ const CHARACTER_DATA = [
     "birth_year": "266",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_heaven_tranquil",
+      "3k_main_ceo_trait_physical_fertile"
     ],
     "skill_set": "3k_main_skillset_generic_agent_metal"
   },
   {
     "key": "ironic_template_historical_xianyu_dan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xianyu_dan",
     "display_name": "Xianyu Dan",
     "display_name_alt": "鲜于丹",
     "forename": "Dan",
     "family_name": "Xianyu",
-    "forename_alt": "丹",
-    "family_name_alt": "鲜于",
+    "forename_alt": "于丹",
+    "family_name_alt": "鲜",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Unrelenting Attacker",
@@ -31148,6 +34039,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xianyu_fu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xianyu_fu",
     "display_name": "Xianyu Fu",
     "display_name_alt": "鮮于輔",
@@ -31174,6 +34066,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xianyu_yin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xianyu_yin",
     "display_name": "Xianyu Yin",
     "display_name_alt": "鮮于銀",
@@ -31200,6 +34093,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xiao_jian_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xiao_jian",
     "display_name": "Xiao Jian",
     "display_name_alt": "蕭建",
@@ -31226,6 +34120,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_xiao_qiao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xiao_qiao",
     "display_name": "Xiao Qiao",
     "display_name_alt": "小喬",
@@ -31252,6 +34147,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xie_cheng_hero_water",
+    "faction_leader_of": [],
     "name_key": "xie_cheng",
     "display_name": "Xie Cheng",
     "display_name_alt": "謝承",
@@ -31259,8 +34155,8 @@ const CHARACTER_DATA = [
     "family_name": "Xie",
     "forename_alt": "承",
     "family_name_alt": "謝",
-    "courtesy_name": "Weiping",
-    "courtesy_name_alt": "偉平",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Eidetic and Erudite",
     "description": "Having a peerless memory and an enviable eye for detail are astounding qualities for a historian and scholar.",
     "element": "water",
@@ -31278,6 +34174,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xie_jiong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xie_jiong",
     "display_name": "Xie Jiong",
     "display_name_alt": "謝煚",
@@ -31304,6 +34201,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xie_mi_hero_water",
+    "faction_leader_of": [],
     "name_key": "xie_mi",
     "display_name": "Xie Mi",
     "display_name_alt": "謝宓",
@@ -31330,6 +34228,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_huang_yingxiu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huang_yingxiu",
     "display_name": "Xie Yingxiu",
     "display_name_alt": "謝英秀",
@@ -31356,6 +34255,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xie_zhen_hero_water",
+    "faction_leader_of": [],
     "name_key": "xie_zhen",
     "display_name": "Xie Zhen",
     "display_name_alt": "謝貞",
@@ -31382,6 +34282,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xin_fangyue_hero_water",
+    "faction_leader_of": [],
     "name_key": "xin_fangyue",
     "display_name": "Xin Fangyue",
     "display_name_alt": "辛芳月",
@@ -31408,6 +34309,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xin_pi_hero_water",
+    "faction_leader_of": [],
     "name_key": "xin_pi",
     "display_name": "Xin Pi",
     "display_name_alt": "辛毗",
@@ -31415,8 +34317,8 @@ const CHARACTER_DATA = [
     "family_name": "Xin",
     "forename_alt": "毗",
     "family_name_alt": "辛",
-    "courtesy_name": "Zuozhi",
-    "courtesy_name_alt": "佐治",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Outspoken and Upright",
     "description": "Be they colleague or Emperor, the truly honest and righteous advisor cares not who he criticizes.",
     "element": "water",
@@ -31424,7 +34326,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "170",
-    "death_year": "235",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_clever",
       "3k_main_ceo_trait_personality_direct",
@@ -31434,6 +34336,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xin_ping_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xin_ping",
     "display_name": "Xin Ping",
     "display_name_alt": "辛評",
@@ -31460,6 +34363,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xin_xianying_hero_water",
+    "faction_leader_of": [],
     "name_key": "xin_xianying",
     "display_name": "Xin Xianying",
     "display_name_alt": "辛憲英",
@@ -31476,7 +34380,7 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "191",
-    "death_year": "269",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_clever",
@@ -31486,12 +34390,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xing_daorong_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xing_daorong_ironic",
-    "display_name": "Xing",
-    "display_name_alt": "邢",
-    "forename": "",
+    "display_name": "Xing Daorong",
+    "display_name_alt": "邢道榮",
+    "forename": "Daorong",
     "family_name": "Xing",
-    "forename_alt": "",
+    "forename_alt": "道榮",
     "family_name_alt": "邢",
     "courtesy_name": "",
     "courtesy_name_alt": "",
@@ -31512,6 +34417,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xing_yong_hero_water",
+    "faction_leader_of": [],
     "name_key": "xing_yong",
     "display_name": "Xing Yong",
     "display_name_alt": "邢顒",
@@ -31528,16 +34434,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "177",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_xing_zhang_wood",
+    "faction_leader_of": [],
     "name_key": "xing_zhang",
     "display_name": "Xing Zhang",
     "display_name_alt": "姓璋",
@@ -31564,6 +34471,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_chu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xu_chu",
     "display_name": "Xu Chu",
     "display_name_alt": "許褚",
@@ -31590,6 +34498,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_ci_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_ci",
     "display_name": "Xu Ci",
     "display_name_alt": "許慈",
@@ -31597,8 +34506,8 @@ const CHARACTER_DATA = [
     "family_name": "Xu",
     "forename_alt": "慈",
     "family_name_alt": "許",
-    "courtesy_name": "Rendu",
-    "courtesy_name_alt": "仁篤",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Prudish Scholar",
     "description": "Although scholarly gentlemen should, by all reckonings, maintain humility and dignity, there are those who allow their own conceit to spiral out of control.",
     "element": "water",
@@ -31616,6 +34525,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_dan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xu_dan",
     "display_name": "Xu Dan",
     "display_name_alt": "許耽",
@@ -31642,6 +34552,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_gan_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_gan",
     "display_name": "Xu Gan",
     "display_name_alt": "徐幹",
@@ -31658,7 +34569,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_enigmatic",
       "3k_ytr_ceo_trait_personality_heaven_creative",
@@ -31668,6 +34579,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_gong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xu_gong",
     "display_name": "Xu Gong",
     "display_name_alt": "許貢",
@@ -31684,7 +34596,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_deceitful",
@@ -31694,6 +34606,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_xu_he_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xu_he",
     "display_name": "Xu He",
     "display_name_alt": "徐和",
@@ -31720,6 +34633,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_huang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xu_huang",
     "display_name": "Xu Huang",
     "display_name_alt": "徐晃",
@@ -31736,7 +34650,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "169",
-    "death_year": "227",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_disciplined",
       "3k_main_ceo_trait_personality_dutiful",
@@ -31746,6 +34660,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_jing_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_jing",
     "display_name": "Xu Jing",
     "display_name_alt": "許靖",
@@ -31762,7 +34677,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "152",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_resourceful",
@@ -31772,6 +34687,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_kun_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xu_kun",
     "display_name": "Xu Kun",
     "display_name_alt": "徐琨",
@@ -31798,6 +34714,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_miao_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_miao",
     "display_name": "Xu Miao",
     "display_name_alt": "徐邈",
@@ -31814,7 +34731,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "171",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_gentle_hearted",
       "3k_main_ceo_trait_physical_drunk",
@@ -31824,6 +34741,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_qian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xu_qian",
     "display_name": "Xu Qian",
     "display_name_alt": "許乾",
@@ -31850,6 +34768,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_rong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xu_rong",
     "display_name": "Xu Rong",
     "display_name_alt": "徐榮",
@@ -31866,7 +34785,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "149",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_intimidating",
       "3k_main_ceo_trait_physical_strong",
@@ -31876,6 +34795,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_shao_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_shao",
     "display_name": "Xu Shao",
     "display_name_alt": "許劭",
@@ -31892,7 +34812,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_ytr_ceo_trait_personality_heaven_wise",
@@ -31902,6 +34822,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_sheng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xu_sheng",
     "display_name": "Xu Sheng",
     "display_name_alt": "徐盛",
@@ -31909,8 +34830,8 @@ const CHARACTER_DATA = [
     "family_name": "Xu",
     "forename_alt": "盛",
     "family_name_alt": "徐",
-    "courtesy_name": "Wenxiang",
-    "courtesy_name_alt": "文向",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "The Insurmountable Bulwark",
     "description": "You shall not pass!",
     "element": "earth",
@@ -31928,6 +34849,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_shu_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_shu",
     "display_name": "Xu Shu",
     "display_name_alt": "徐庶",
@@ -31954,6 +34876,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_si_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_si",
     "display_name": "Xu Si",
     "display_name_alt": "許汜",
@@ -31980,6 +34903,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_ta_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_ta",
     "display_name": "Xu Ta",
     "display_name_alt": "徐他",
@@ -31998,14 +34922,15 @@ const CHARACTER_DATA = [
     "birth_year": "159",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_indecisive"
+      "3k_main_ceo_trait_personality_patient",
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_greedy"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_xu_xi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xu_xi",
     "display_name": "Xu Xi",
     "display_name_alt": "徐翕",
@@ -32032,6 +34957,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_xiu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xu_xiu",
     "display_name": "Xu Xiu",
     "display_name_alt": "徐秀",
@@ -32058,6 +34984,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_xuan_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_xuan",
     "display_name": "Xu Xuan",
     "display_name_alt": "徐宣",
@@ -32073,8 +35000,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "200",
-    "death_year": "236",
+    "birth_year": "169",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_people_understanding",
       "3k_main_ceo_trait_personality_energetic",
@@ -32084,6 +35011,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_yan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xu_yan",
     "display_name": "Xu Yan",
     "display_name_alt": "許晏",
@@ -32100,16 +35028,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "200",
-    "death_year": "233",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_physical_lovestruck"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_physical_mad"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "ep_template_historical_xu_yan_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_yan",
     "display_name": "Xu Yan",
     "display_name_alt": "徐炎",
@@ -32128,14 +35057,15 @@ const CHARACTER_DATA = [
     "birth_year": "257",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_ytr_ceo_trait_personality_people_friendly",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_physical_mad",
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_cruel"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_xu_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xu_yi",
     "display_name": "Xu Yi",
     "display_name_alt": "許儀",
@@ -32152,16 +35082,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "211",
-    "death_year": "263",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_scarred",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_brilliant"
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_main_ceo_trait_physical_drunk"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_xu_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xu_yi",
     "display_name": "Xu Yi",
     "display_name_alt": "徐揖",
@@ -32188,6 +35119,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_yi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xu_yi",
     "display_name": "Xu Yi",
     "display_name_alt": "徐奕",
@@ -32195,8 +35127,8 @@ const CHARACTER_DATA = [
     "family_name": "Xu",
     "forename_alt": "奕",
     "family_name_alt": "徐",
-    "courtesy_name": "Jicai",
-    "courtesy_name_alt": "季才",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Commendable Attendant",
     "description": "This officer has rightfully earned praise for being a loyal and honourable subordinate.",
     "element": "wood",
@@ -32204,7 +35136,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_dutiful",
@@ -32214,6 +35146,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_you_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_you",
     "display_name": "Xu You",
     "display_name_alt": "許攸",
@@ -32230,7 +35163,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "204",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_personality_suspicious",
@@ -32240,6 +35173,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_yuanxian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xu_yuanxian",
     "display_name": "Xu Yuanxian",
     "display_name_alt": "徐元贤",
@@ -32266,6 +35200,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_zhao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xu_zhao",
     "display_name": "Xu Zhao",
     "display_name_alt": "許昭",
@@ -32292,6 +35227,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xu_zhen_hero_water",
+    "faction_leader_of": [],
     "name_key": "xu_zhen",
     "display_name": "Xu Zhen",
     "display_name_alt": "徐真",
@@ -32318,6 +35254,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xu_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xu_zhi",
     "display_name": "Xu Zhi",
     "display_name_alt": "徐質",
@@ -32334,16 +35271,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "212",
-    "death_year": "254",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_energetic",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_main_template_historical_xuan_fan_hero_water",
+    "faction_leader_of": [],
     "name_key": "xuan_fan",
     "display_name": "Xuan Fan",
     "display_name_alt": "宣璠",
@@ -32362,14 +35300,15 @@ const CHARACTER_DATA = [
     "birth_year": "150",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_main_ceo_trait_personality_cowardly",
-      "3k_ytr_ceo_trait_physical_impeccable"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_incompetent",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "skill_set": "3k_main_skillset_generic_minister_wood"
   },
   {
     "key": "3k_main_template_historical_xue_lan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xue_lan",
     "display_name": "Xue Lan",
     "display_name_alt": "薛蘭",
@@ -32386,16 +35325,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "139",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_indecisive",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_reckless"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_xue_li_hero_metal",
+    "faction_leader_of": [],
     "name_key": "xue_li",
     "display_name": "Xue Li",
     "display_name_alt": "薛禮",
@@ -32422,6 +35362,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xue_xu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "xue_xu",
     "display_name": "Xue Xu",
     "display_name_alt": "薛珝",
@@ -32440,14 +35381,15 @@ const CHARACTER_DATA = [
     "birth_year": "207",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_intimidating"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_dlc04_template_historical_xue_zhou_wood",
+    "faction_leader_of": [],
     "name_key": "xue_zhou",
     "display_name": "Xue Zhou",
     "display_name_alt": "薛州",
@@ -32474,6 +35416,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xue_zong_hero_water",
+    "faction_leader_of": [],
     "name_key": "xue_zong",
     "display_name": "Xue Zong",
     "display_name_alt": "薛綜",
@@ -32490,7 +35433,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "243",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_wise",
       "3k_ytr_ceo_trait_personality_people_people_pleaser",
@@ -32500,6 +35443,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_xun_chen_hero_water",
+    "faction_leader_of": [],
     "name_key": "xun_chen",
     "display_name": "Xun Chen",
     "display_name_alt": "荀諶",
@@ -32507,8 +35451,8 @@ const CHARACTER_DATA = [
     "family_name": "Xun",
     "forename_alt": "諶",
     "family_name_alt": "荀",
-    "courtesy_name": "Youruo",
-    "courtesy_name_alt": "友若",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Wily Instigator",
     "description": "I have a cunning plan, my lord...",
     "element": "water",
@@ -32526,6 +35470,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_xun_shuang_ciming_wood",
+    "faction_leader_of": [],
     "name_key": "xun_shuang_ciming",
     "display_name": "Xun Shuang",
     "display_name_alt": "荀爽",
@@ -32542,7 +35487,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "128",
-    "death_year": "190",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_solitary",
       "3k_main_ceo_trait_personality_direct",
@@ -32552,6 +35497,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xun_wei_hero_water",
+    "faction_leader_of": [],
     "name_key": "xun_wei",
     "display_name": "Xun Wei",
     "display_name_alt": "荀緯",
@@ -32568,16 +35514,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "182",
-    "death_year": "223",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_patient",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_xun_you_hero_earth",
+    "faction_leader_of": [],
     "name_key": "xun_you",
     "display_name": "Xun You",
     "display_name_alt": "荀攸",
@@ -32594,7 +35541,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "157",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_dutiful",
@@ -32604,6 +35551,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xun_you_hero_water",
+    "faction_leader_of": [],
     "name_key": "xun_you",
     "display_name": "Xun You",
     "display_name_alt": "荀攸",
@@ -32620,7 +35568,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "157",
-    "death_year": "214",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charismatic",
       "3k_main_ceo_trait_personality_dutiful",
@@ -32630,6 +35578,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xun_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "xun_yu",
     "display_name": "Xun Yu",
     "display_name_alt": "荀彧",
@@ -32646,7 +35595,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "163",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_brilliant",
@@ -32656,6 +35605,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_xun_yue_hero_water",
+    "faction_leader_of": [],
     "name_key": "xun_yue",
     "display_name": "Xun Yue",
     "display_name_alt": "荀悅",
@@ -32672,16 +35622,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "148",
-    "death_year": "209",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ironic_template_historical_xun_zheng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "xun_zheng",
     "display_name": "Xun Zheng",
     "display_name_alt": "荀正",
@@ -32708,6 +35659,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yalu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yalu",
     "display_name": "Yalu",
     "display_name_alt": "娥淚",
@@ -32734,6 +35686,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yan_baihu_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_white_tiger_yan_ruler"
+    ],
     "name_key": "yan_baihu",
     "display_name": "Yan Baihu",
     "display_name_alt": "嚴白虎",
@@ -32760,6 +35715,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yan_gang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yan_gang",
     "display_name": "Yan Gang",
     "display_name_alt": "嚴綱",
@@ -32776,7 +35732,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "155",
-    "death_year": "191",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_ytr_ceo_trait_physical_feared",
@@ -32786,6 +35742,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yan_jun_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yan_jun",
     "display_name": "Yan Jun",
     "display_name_alt": "颜俊",
@@ -32812,6 +35769,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yan_jun_hero_water",
+    "faction_leader_of": [],
     "name_key": "yan_jun",
     "display_name": "Yan Jun",
     "display_name_alt": "嚴畯",
@@ -32819,8 +35777,8 @@ const CHARACTER_DATA = [
     "family_name": "Yan",
     "forename_alt": "畯",
     "family_name_alt": "嚴",
-    "courtesy_name": "Mancai",
-    "courtesy_name_alt": "曼才",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Advocate for Humility",
     "description": "Yan Jun mediates disputes and arguments within the court with firmness and fairness, lending an ear to all sides and offering soothing advice to smooth things over.",
     "element": "water",
@@ -32838,6 +35796,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yan_lan_hero_water",
+    "faction_leader_of": [],
     "name_key": "yan_lan",
     "display_name": "Yan Lan",
     "display_name_alt": "嚴兰",
@@ -32864,6 +35823,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yan_liang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yan_liang",
     "display_name": "Yan Liang",
     "display_name_alt": "顏良",
@@ -32880,7 +35840,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_relentless",
       "3k_dlc07_ceo_trait_personality_frivolous",
@@ -32890,6 +35850,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yan_pu_hero_water",
+    "faction_leader_of": [],
     "name_key": "yan_pu",
     "display_name": "Yan Pu",
     "display_name_alt": "閻圃",
@@ -32916,6 +35877,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yan_rou_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yan_rou",
     "display_name": "Yan Rou",
     "display_name_alt": "閻柔",
@@ -32938,10 +35900,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_direct",
       "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
-    "skill_set": "3k_main_skillset_generic_villager_fire"
+    "skill_set": "3k_main_skillset_wuhuan_general_fire"
   },
   {
     "key": "3k_main_template_historical_yan_wen_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yan_wen",
     "display_name": "Yan Wen",
     "display_name_alt": "閻溫",
@@ -32958,16 +35921,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178",
-    "death_year": "213",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_feared",
-      "3k_main_ceo_trait_physical_handsome",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_disciplined"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ironic_template_historical_yan_xia_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yan_xia",
     "display_name": "Yan Xia",
     "display_name_alt": "嚴䖎",
@@ -32994,6 +35958,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_yan_xiang_hero_water",
+    "faction_leader_of": [],
     "name_key": "yan_xiang",
     "display_name": "Yan Xiang",
     "display_name_alt": "閻象",
@@ -33020,6 +35985,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yan_xiang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yan_xiang",
     "display_name": "Yan Xiang",
     "display_name_alt": "嚴象",
@@ -33036,7 +36002,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "163",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_elusive",
@@ -33046,6 +36012,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yan_xing_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yan_xing",
     "display_name": "Yan Xing",
     "display_name_alt": "閻行",
@@ -33072,6 +36039,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yan_yan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yan_yan",
     "display_name": "Yan Yan",
     "display_name_alt": "颜严",
@@ -33098,6 +36066,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yan_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "yan_yu",
     "display_name": "Yan Yu",
     "display_name_alt": "嚴輿",
@@ -33114,16 +36083,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "142",
-    "death_year": "196",
+    "death_year": "???",
     "traits": [
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_personality_modest"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_personality_greedy"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_yan_yu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yan_yu",
     "display_name": "Yan Yu",
     "display_name_alt": "嚴輿",
@@ -33140,7 +36110,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "172",
-    "death_year": "196",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_brave",
@@ -33149,33 +36119,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_historical_yan_yu"
   },
   {
-    "key": "ironic_template_historical_yang_ling_ironic_hero_fire",
-    "name_key": "yang_ling_ironic",
-    "display_name": "Yang",
-    "display_name_alt": "楊",
-    "forename": "",
-    "family_name": "Yang",
-    "forename_alt": "",
-    "family_name_alt": "楊",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Aggressive and Foreboding",
-    "description": "Enemy officers quiver in fear before Yang Ling!",
-    "element": "fire",
-    "subtype": "3k_general_fire",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "174",
-    "death_year": "???",
-    "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_main_ceo_trait_personality_reckless",
-      "3k_main_ceo_trait_personality_intimidating"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
-  },
-  {
     "key": "ironic_template_historical_yang_ang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yang_ang",
     "display_name": "Yang Ang",
     "display_name_alt": "楊昂",
@@ -33192,7 +36137,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165",
-    "death_year": "215",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_energetic",
       "3k_main_ceo_trait_personality_loyal",
@@ -33202,6 +36147,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_biao_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang_biao",
     "display_name": "Yang Biao",
     "display_name_alt": "楊彪",
@@ -33218,7 +36164,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "142",
-    "death_year": "225",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_vengeful",
       "3k_ytr_ceo_trait_personality_land_aspiring",
@@ -33228,6 +36174,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_bo_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yang_bo",
     "display_name": "Yang Bo",
     "display_name_alt": "楊帛",
@@ -33254,6 +36201,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_chou_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang_chou",
     "display_name": "Yang Chou",
     "display_name_alt": "楊醜",
@@ -33270,7 +36218,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_main_ceo_trait_personality_perceptive",
@@ -33280,6 +36228,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_dao_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang_dao",
     "display_name": "Yang Dao",
     "display_name_alt": "央衜",
@@ -33298,14 +36247,15 @@ const CHARACTER_DATA = [
     "birth_year": "197",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_elusive",
+      "3k_ytr_ceo_trait_personality_people_understanding",
       "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_patient"
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_yang_ding_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yang_ding",
     "display_name": "Yang Ding",
     "display_name_alt": "楊定",
@@ -33332,6 +36282,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_yang_feng_hero_nanman",
+    "faction_leader_of": [
+      "3k_main_political_party_faction_nanman_yang_feng_190"
+    ],
     "name_key": "yang_feng",
     "display_name": "Yang Feng",
     "display_name_alt": "楊鋒",
@@ -33358,6 +36311,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_feng_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_yang_feng_190"
+    ],
     "name_key": "yang_feng",
     "display_name": "Yang Feng",
     "display_name_alt": "楊奉",
@@ -33374,7 +36330,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "147",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_defiant",
@@ -33384,6 +36340,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_hong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yang_hong",
     "display_name": "Yang Hong",
     "display_name_alt": "楊弘",
@@ -33410,6 +36367,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yang_hong_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yang_hong_ironic",
     "display_name": "Yang Hong",
     "display_name_alt": "楊洪",
@@ -33417,8 +36375,8 @@ const CHARACTER_DATA = [
     "family_name": "Yang",
     "forename_alt": "洪",
     "family_name_alt": "楊",
-    "courtesy_name": "Jixiu",
-    "courtesy_name_alt": "季休",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Altruistic Comrade",
     "description": "A friend in need is a friend indeed.",
     "element": "wood",
@@ -33426,7 +36384,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "180",
-    "death_year": "228",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_direct",
       "3k_main_ceo_trait_personality_fraternal",
@@ -33436,6 +36394,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_huai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yang_huai",
     "display_name": "Yang Huai",
     "display_name_alt": "楊懷",
@@ -33452,7 +36411,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "170",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_direct",
       "3k_main_ceo_trait_personality_loyal",
@@ -33462,32 +36421,34 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_huiyu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yang_huiyu",
     "display_name": "Yang Huiyu",
-    "display_name_alt": "羊徽瑜",
+    "display_name_alt": "央徽瑜",
     "forename": "Huiyu",
     "family_name": "Yang",
     "forename_alt": "徽瑜",
-    "family_name_alt": "羊",
+    "family_name_alt": "央",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Officer",
     "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
     "element": "earth",
     "subtype": "3k_general_earth",
-    "is_male": false,
+    "is_male": true,
     "is_unique": false,
     "birth_year": "214",
-    "death_year": "278",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_unobservant"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "ironic_template_historical_yang_jun_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yang_jun",
     "display_name": "Yang Jun",
     "display_name_alt": "楊俊",
@@ -33495,8 +36456,8 @@ const CHARACTER_DATA = [
     "family_name": "Yang",
     "forename_alt": "俊",
     "family_name_alt": "楊",
-    "courtesy_name": "Jicai",
-    "courtesy_name_alt": "季才",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Attentive Aide",
     "description": "A dutiful pupil, Yang Jun emodies the ideals of his tutor and takes all his applied knowledge, using it all for the betterment of the state.",
     "element": "metal",
@@ -33504,7 +36465,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "171",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_clever",
       "3k_main_ceo_trait_personality_loyal",
@@ -33514,6 +36475,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yang_kui_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yang_kui",
     "display_name": "Yang Kui",
     "display_name_alt": "阳逵",
@@ -33539,7 +36501,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
+    "key": "ironic_template_historical_yang_ling_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "yang_ling_ironic",
+    "display_name": "Yang Ling",
+    "display_name_alt": "楊齡",
+    "forename": "Ling",
+    "family_name": "Yang",
+    "forename_alt": "齡",
+    "family_name_alt": "楊",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Aggressive and Foreboding",
+    "description": "Enemy officers quiver in fear before Yang Ling!",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_strong_willed",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_intimidating"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_fire"
+  },
+  {
     "key": "ironic_template_historical_yang_qianwan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yang_qianwan",
     "display_name": "Yang Qianwan",
     "display_name_alt": "楊千萬",
@@ -33566,6 +36556,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yang_qiu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yang_qiu",
     "display_name": "Yang Qiu",
     "display_name_alt": "杨秋",
@@ -33593,6 +36584,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_qun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yang_qun",
     "display_name": "Yang Qun",
     "display_name_alt": "陽群",
@@ -33611,14 +36603,15 @@ const CHARACTER_DATA = [
     "birth_year": "191",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_cautious",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_ytr_ceo_trait_personality_benevolent",
+      "3k_main_ceo_trait_personality_cautious"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_yang_ren_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yang_ren",
     "display_name": "Yang Ren",
     "display_name_alt": "楊任",
@@ -33635,7 +36628,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "159",
-    "death_year": "215",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_physical_feared",
       "3k_main_ceo_trait_personality_disciplined",
@@ -33645,6 +36638,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_song_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yang_song",
     "display_name": "Yang Song",
     "display_name_alt": "楊松",
@@ -33671,6 +36665,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_xi_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang_xi",
     "display_name": "Yang Xi",
     "display_name_alt": "楊戲",
@@ -33687,16 +36682,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "209",
-    "death_year": "261",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_personality_arrogant"
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_perceptive",
+      "3k_main_ceo_trait_personality_careless"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_yang_xiu_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang_xiu",
     "display_name": "Yang Xiu",
     "display_name_alt": "楊修",
@@ -33713,7 +36709,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "175",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_ambitious",
@@ -33723,6 +36719,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yang_yi",
     "display_name": "Yang Yi",
     "display_name_alt": "楊儀",
@@ -33739,7 +36736,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "154",
-    "death_year": "235",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_proud",
       "3k_main_ceo_trait_physical_lumbering",
@@ -33749,6 +36746,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yang_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang_yi",
     "display_name": "Yang Yi",
     "display_name_alt": "楊儀",
@@ -33756,8 +36754,8 @@ const CHARACTER_DATA = [
     "family_name": "Yang",
     "forename_alt": "儀",
     "family_name_alt": "楊",
-    "courtesy_name": "Weigong",
-    "courtesy_name_alt": "威公",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Boastful Braggart",
     "description": "You cannot do anything to harm me - I have friends at court.",
     "element": "water",
@@ -33765,7 +36763,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "186",
-    "death_year": "235",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_vindictive",
       "3k_main_ceo_trait_personality_arrogant",
@@ -33775,6 +36773,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yang_yong_hero_water",
+    "faction_leader_of": [],
     "name_key": "yang_yong",
     "display_name": "Yang Yong",
     "display_name_alt": "楊顒",
@@ -33782,8 +36781,8 @@ const CHARACTER_DATA = [
     "family_name": "Yang",
     "forename_alt": "顒",
     "family_name_alt": "楊",
-    "courtesy_name": "Zizhao",
-    "courtesy_name_alt": "子昭",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Careful Advisor",
     "description": "Hesitation and patience can often save lives.",
     "element": "water",
@@ -33801,6 +36800,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yang_zhong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yang_zhong",
     "display_name": "Yang Zhong",
     "display_name_alt": "楊忠",
@@ -33819,14 +36819,15 @@ const CHARACTER_DATA = [
     "birth_year": "140",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_personality_energetic"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant",
+      "3k_ytr_ceo_trait_personality_land_proud"
     ],
     "skill_set": "3k_main_skillset_generic_minister_metal"
   },
   {
     "key": "ep_template_historical_yang_zhuo_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yang_zhuo",
     "display_name": "Yang Zhuo",
     "display_name_alt": "央灼",
@@ -33845,14 +36846,15 @@ const CHARACTER_DATA = [
     "birth_year": "262",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_ytr_ceo_trait_personality_heaven_honest",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_yao_tai_hero_water",
+    "faction_leader_of": [],
     "name_key": "yao_tai",
     "display_name": "Yao Tai",
     "display_name_alt": "姚泰",
@@ -33871,14 +36873,15 @@ const CHARACTER_DATA = [
     "birth_year": "183",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_main_ceo_trait_personality_deceitful"
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_personality_humble"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_yan_xiang_hero_water",
+    "faction_leader_of": [],
     "name_key": "yan_xiang",
     "display_name": "Yao Xiang",
     "display_name_alt": "姚象",
@@ -33894,17 +36897,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "144",
+    "birth_year": "170",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_direct",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_personality_charismatic",
+      "3k_main_ceo_trait_physical_strong",
+      "3k_ytr_ceo_trait_personality_stalwart"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_yao_zhou_hero_water",
+    "faction_leader_of": [],
     "name_key": "yao_zhou",
     "display_name": "Yao Zhou",
     "display_name_alt": "姚伷",
@@ -33931,32 +36935,63 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yeonbul_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_korea_ye_190"
+    ],
     "name_key": "yeonbul",
-    "display_name": "Yeonbul",
-    "display_name_alt": "",
-    "forename": "Yeonbul",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name": "Yeo Bulnae",
+    "display_name_alt": "黎不耐",
+    "forename": "Bulnae",
+    "family_name": "Yeo",
+    "forename_alt": "不耐",
+    "family_name_alt": "黎",
     "courtesy_name": "",
     "courtesy_name_alt": "",
-    "title": "Guard",
-    "description": "A stalwart protector, they never fall asleep at their post.",
+    "title": "Coordinator of Changhae",
+    "description": "The Changhae Three Kingdoms refers to Ye-guk, Siljik-guk, and Pajo-guk. If a leader were to unite these states, they could be remembered in history.",
     "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
-    "is_unique": false,
+    "is_unique": true,
     "birth_year": "162",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_careless",
+      "3k_main_ceo_trait_personality_fiery"
     ],
-    "skill_set": "3k_main_skillset_generic_general_metal"
+    "skill_set": "ironic_skillset_korea_minister_metal"
+  },
+  {
+    "key": "ironic_template_historical_yeon_jin_ironic_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "yeon_jin_ironic",
+    "display_name": "Yeon Jin",
+    "display_name_alt": "蓮珍",
+    "forename": "Jin",
+    "family_name": "Yeon",
+    "forename_alt": "珍",
+    "family_name_alt": "蓮",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Commander of the Mountains",
+    "description": "Whether in rugged mountains or wide plains, a skilled general finds joy as if playing with toys, no matter the variables.",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "174",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_competative",
+      "3k_main_ceo_trait_personality_reckless"
+    ],
+    "skill_set": "ironic_skillset_korea_general_wood"
   },
   {
     "key": "ironic_template_historical_yi_ji_ironic_hero_water",
+    "faction_leader_of": [],
     "name_key": "yi_ji_ironic",
     "display_name": "Yi Ji",
     "display_name_alt": "伊籍",
@@ -33964,8 +36999,8 @@ const CHARACTER_DATA = [
     "family_name": "Yi",
     "forename_alt": "籍",
     "family_name_alt": "伊",
-    "courtesy_name": "Jibo",
-    "courtesy_name_alt": "機伯",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Of Administrative Acumen",
     "description": "Yi Ji's aptitude for governance is only matched by his diplomatic flair and wit.",
     "element": "water",
@@ -33983,6 +37018,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yi_liao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yi_liao",
     "display_name": "Yi Liao",
     "display_name_alt": "夷廖",
@@ -34009,6 +37045,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_wang_liting_hero_metal",
+    "faction_leader_of": [],
     "name_key": "wang_liting",
     "display_name": "Yijian Liting",
     "display_name_alt": "伊健麗婷",
@@ -34035,6 +37072,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yin_feng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yin_feng",
     "display_name": "Yin Feng",
     "display_name_alt": "尹奉",
@@ -34061,6 +37099,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yin_li_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yin_li",
     "display_name": "Yin Li",
     "display_name_alt": "尹禮",
@@ -34087,6 +37126,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yin_lu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yin_lu",
     "display_name": "Yin Lu",
     "display_name_alt": "尹盧",
@@ -34105,14 +37145,15 @@ const CHARACTER_DATA = [
     "birth_year": "181",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_main_ceo_trait_physical_clumsy"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_yin_mo_ironic_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yin_mo_ironic",
     "display_name": "Yin Mo",
     "display_name_alt": "尹默",
@@ -34139,6 +37180,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_ying_feng_shishu_earth",
+    "faction_leader_of": [],
     "name_key": "ying_feng_shishu",
     "display_name": "Ying Feng",
     "display_name_alt": "應奉",
@@ -34165,6 +37207,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ying_lun_hero_water",
+    "faction_leader_of": [],
     "name_key": "ying_lun",
     "display_name": "Ying Lun",
     "display_name_alt": "應倫",
@@ -34191,6 +37234,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ying_qu_hero_water",
+    "faction_leader_of": [],
     "name_key": "ying_qu",
     "display_name": "Ying Qu",
     "display_name_alt": "應璩",
@@ -34207,7 +37251,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "190",
-    "death_year": "252",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_quiet",
       "3k_ytr_ceo_trait_personality_heaven_tranquil",
@@ -34217,6 +37261,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_ying_rong_hero_water",
+    "faction_leader_of": [],
     "name_key": "ying_rong",
     "display_name": "Ying Rong",
     "display_name_alt": "穎容",
@@ -34242,7 +37287,37 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_minister_water_strategist"
   },
   {
+    "key": "ironic_template_historical_ying_rong_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "ying_rong_ironic",
+    "display_name": "Ying Rong",
+    "display_name_alt": "穎容",
+    "forename": "Rong",
+    "family_name": "Ying",
+    "forename_alt": "容",
+    "family_name_alt": "穎",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Recorder of Annals",
+    "description": "This one would much rather build his schools, teach his pupils and pen his books than be disturbed and molested by war and malice.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "165",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_artful",
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_humble"
+    ],
+    "skill_set": "3k_main_skillset_generic_governor_metal"
+  },
+  {
     "key": "3k_main_template_historical_ying_shao_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_ying_shao_190"
+    ],
     "name_key": "ying_shao",
     "display_name": "Ying Shao",
     "display_name_alt": "應劭",
@@ -34269,6 +37344,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_ying_xiang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "ying_xiang",
     "display_name": "Ying Xiang",
     "display_name_alt": "潁像",
@@ -34287,14 +37363,15 @@ const CHARACTER_DATA = [
     "birth_year": "268",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_ytr_ceo_trait_personality_land_courageous"
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_elusive",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_dlc04_template_historical_ying_xun_jiyu_fire",
+    "faction_leader_of": [],
     "name_key": "ying_xun_jiyu",
     "display_name": "Ying Xun",
     "display_name_alt": "應珣",
@@ -34321,6 +37398,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ying_yang_hero_water",
+    "faction_leader_of": [],
     "name_key": "ying_yang",
     "display_name": "Ying Yang",
     "display_name_alt": "應瑒",
@@ -34330,14 +37408,14 @@ const CHARACTER_DATA = [
     "family_name_alt": "應",
     "courtesy_name": "Delian",
     "courtesy_name_alt": "德璉",
-    "title": "Chess Grandmaster",
-    "description": "Typically, however, the winner is just the player who made the penultimate mistake.",
+    "title": "Master of Harmonies",
+    "description": "Poems of \"great harmony, but lacking strength\" are the specialty of this famed literary artist of the Ying clan.",
     "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
     "birth_year": "183",
-    "death_year": "217",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_scholarly",
       "3k_main_ceo_trait_personality_cunning",
@@ -34347,6 +37425,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_ying_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "ying_yu",
     "display_name": "Ying Yu",
     "display_name_alt": "應余",
@@ -34365,14 +37444,15 @@ const CHARACTER_DATA = [
     "birth_year": "168",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_humble",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_ytr_ceo_trait_personality_stalwart",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_yong_kai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yong_kai",
     "display_name": "Yong Kai",
     "display_name_alt": "雍闓",
@@ -34389,7 +37469,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "180",
-    "death_year": "225",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_main_ceo_trait_personality_charismatic",
@@ -34399,6 +37479,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_you_mi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "you_mi",
     "display_name": "You Mi",
     "display_name_alt": "尤糸",
@@ -34425,6 +37506,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_you_tu_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_you_tu_190"
+    ],
     "name_key": "you_tu",
     "display_name": "You Tu",
     "display_name_alt": "尤突",
@@ -34451,6 +37535,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_you_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "you_yu",
     "display_name": "You Yu",
     "display_name_alt": "尤玉",
@@ -34477,6 +37562,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yu_bao_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yu_bao_ironic",
     "display_name": "Yu Bao",
     "display_name_alt": "虞褒",
@@ -34503,6 +37589,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_wang_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "wang_yi",
     "display_name": "Yu Degong",
     "display_name_alt": "俞德公",
@@ -34521,14 +37608,15 @@ const CHARACTER_DATA = [
     "birth_year": "168",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_physical_lumbering"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_yu_du_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yu_du",
     "display_name": "Yu Du",
     "display_name_alt": "于毒",
@@ -34555,12 +37643,13 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yu_fan_hero_water",
+    "faction_leader_of": [],
     "name_key": "yu_fan",
     "display_name": "Yu Fan",
-    "display_name_alt": "虞翻",
+    "display_name_alt": "虞帆",
     "forename": "Fan",
     "family_name": "Yu",
-    "forename_alt": "翻",
+    "forename_alt": "帆",
     "family_name_alt": "虞",
     "courtesy_name": "Zhongxiang",
     "courtesy_name_alt": "仲翔",
@@ -34571,7 +37660,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "164",
-    "death_year": "233",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_drunk",
       "3k_main_ceo_trait_personality_direct",
@@ -34580,7 +37669,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
+    "key": "ironic_template_historical_yu_gi_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "yu_gi_ironic",
+    "display_name": "Yu Gi",
+    "display_name_alt": "惟己",
+    "forename": "Gi",
+    "family_name": "Yu",
+    "forename_alt": "己",
+    "family_name_alt": "惟",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Impartial Justice",
+    "description": "Judging crime and punishment fairly is not a matter to be decided arbitrarily; that is why laws and precedents exist to guide these decisions.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "216",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_competative"
+    ],
+    "skill_set": "ironic_skillset_korea_minister_earth"
+  },
+  {
     "key": "ironic_template_historical_gan_ji_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gan_ji",
     "display_name": "Yu Ji",
     "display_name_alt": "于吉",
@@ -34597,7 +37714,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "165",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_defiant",
       "3k_main_ceo_trait_physical_drunk",
@@ -34607,6 +37724,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yu_jin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yu_jin",
     "display_name": "Yu Jin",
     "display_name_alt": "于禁",
@@ -34623,7 +37741,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158",
-    "death_year": "221",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_intimidating",
       "3k_ytr_ceo_trait_personality_land_alert",
@@ -34633,6 +37751,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yu_mi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yu_mi",
     "display_name": "Yu Mi",
     "display_name_alt": "于麋",
@@ -34659,6 +37778,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_jia_minxiang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "jia_minxiang",
     "display_name": "Yu Minxiang",
     "display_name_alt": "育敏香",
@@ -34684,7 +37804,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_minister_earth"
   },
   {
+    "key": "ironic_template_historical_yu_okgu_ironic_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "yu_okgu_ironic",
+    "display_name": "Yu Okgu",
+    "display_name_alt": "劉屋句",
+    "forename": "Okgu",
+    "family_name": "Yu",
+    "forename_alt": "屋句",
+    "family_name_alt": "劉",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Rescuing General",
+    "description": "Following orders to the battlefield to save comrades is a perilous task.",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "199",
+    "death_year": "???",
+    "traits": [
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_main_ceo_trait_personality_ambitious"
+    ],
+    "skill_set": "ironic_skillset_korea_general_fire"
+  },
+  {
     "key": "3k_main_template_historical_yu_qin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yu_qin",
     "display_name": "Yu Qin",
     "display_name_alt": "虞欽",
@@ -34703,14 +37851,15 @@ const CHARACTER_DATA = [
     "birth_year": "217",
     "death_year": "???",
     "traits": [
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_modest",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_personality_deceitful",
+      "3k_ytr_ceo_trait_personality_people_amiable",
+      "3k_ytr_ceo_trait_personality_heaven_wise"
     ],
     "skill_set": "3k_main_skillset_generic_villager_wood"
   },
   {
     "key": "ironic_template_historical_yu_she_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yu_she",
     "display_name": "Yu She",
     "display_name_alt": "俞涉",
@@ -34736,7 +37885,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
+    "key": "ironic_template_historical_yu_yu_ironic_hero_metal",
+    "faction_leader_of": [],
+    "name_key": "yu_yu_ironic",
+    "display_name": "Yu Yu",
+    "display_name_alt": "紐由",
+    "forename": "Yu",
+    "family_name": "Yu",
+    "forename_alt": "由",
+    "family_name_alt": "紐",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Foolhardy Loyalist",
+    "description": "Even when faced with desperate measures, this loyal subject acts and sacrifices himself for the troubled nation and king—such devotion should be remembered by future generations.",
+    "element": "metal",
+    "subtype": "3k_general_metal",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "212",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_main_ceo_trait_personality_trusting"
+    ],
+    "skill_set": "ironic_skillset_korea_general_metal"
+  },
+  {
     "key": "3k_main_template_historical_yu_zhujian_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yu_zhujian",
     "display_name": "Yu Zhujian",
     "display_name_alt": "鬱築鞬",
@@ -34755,14 +37932,15 @@ const CHARACTER_DATA = [
     "birth_year": "176",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_determined"
+      "3k_main_ceo_trait_physical_agile",
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_physical_infertile"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ironic_template_historical_yu_zi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yu_zi",
     "display_name": "Yu Zi",
     "display_name_alt": "于茲",
@@ -34785,10 +37963,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_careless",
       "3k_ytr_ceo_trait_personality_vindictive"
     ],
-    "skill_set": "3k_main_skillset_generic_general_wood"
+    "skill_set": "3k_dlc05_skillset_generic_bandit_general_wood"
   },
   {
     "key": "3k_mtu_template_historical_lady_yuan_anyang_hero_water",
+    "faction_leader_of": [],
     "name_key": "yuan_anyang",
     "display_name": "Yuan Anyang",
     "display_name_alt": "袁安洋",
@@ -34815,6 +37994,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yuan_ba_hero_water",
+    "faction_leader_of": [],
     "name_key": "yuan_ba",
     "display_name": "Yuan Ba",
     "display_name_alt": "袁霸",
@@ -34841,6 +38021,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_huan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_huan",
     "display_name": "Yuan Huan",
     "display_name_alt": "袁渙",
@@ -34867,6 +38048,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yuan_hui_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_hui",
     "display_name": "Yuan Hui",
     "display_name_alt": "袁徽",
@@ -34893,6 +38075,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_long_hero_water",
+    "faction_leader_of": [],
     "name_key": "yuan_long",
     "display_name": "Yuan Long",
     "display_name_alt": "袁龍",
@@ -34919,6 +38102,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yuan_min_hero_wood",
+    "faction_leader_of": [],
     "name_key": "yuan_min",
     "display_name": "Yuan Min",
     "display_name_alt": "袁敏",
@@ -34945,6 +38129,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_shang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_shang",
     "display_name": "Yuan Shang",
     "display_name_alt": "袁尚",
@@ -34961,7 +38146,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "176",
-    "death_year": "207",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_greedy",
       "3k_main_ceo_trait_personality_vain",
@@ -34971,6 +38156,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_shao_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_yuan_shao_ruler"
+    ],
     "name_key": "yuan_shao",
     "display_name": "Yuan Shao",
     "display_name_alt": "袁紹",
@@ -34987,7 +38175,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "154",
-    "death_year": "202",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_vain",
       "3k_main_ceo_trait_personality_arrogant",
@@ -34997,6 +38185,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_shu_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_yuan_shu_ruler"
+    ],
     "name_key": "yuan_shu",
     "display_name": "Yuan Shu",
     "display_name_alt": "袁術",
@@ -35013,7 +38204,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_ambitious",
@@ -35023,6 +38214,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_tan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_tan",
     "display_name": "Yuan Tan",
     "display_name_alt": "袁譚",
@@ -35039,7 +38231,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "172",
-    "death_year": "205",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_incompetent",
       "3k_main_ceo_trait_personality_vengeful",
@@ -35049,6 +38241,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_xi_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_xi",
     "display_name": "Yuan Xi",
     "display_name_alt": "袁熙",
@@ -35065,7 +38258,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "175",
-    "death_year": "207",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_pacifist",
@@ -35075,6 +38268,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_yao_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_yao",
     "display_name": "Yuan Yao",
     "display_name_alt": "袁耀",
@@ -35101,6 +38295,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yuan_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "yuan_yi",
     "display_name": "Yuan Yi",
     "display_name_alt": "袁遺",
@@ -35117,7 +38312,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_composed",
       "3k_main_ceo_trait_personality_quiet",
@@ -35127,6 +38322,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yuan_yin_hero_earth",
+    "faction_leader_of": [],
     "name_key": "yuan_yin",
     "display_name": "Yuan Yin",
     "display_name_alt": "袁胤",
@@ -35153,6 +38349,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yuan_yu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yuan_yu",
     "display_name": "Yuan Yu",
     "display_name_alt": "苑御",
@@ -35179,6 +38376,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_yuan_zhong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yuan_zhong",
     "display_name": "Yuan Zhong",
     "display_name_alt": "袁忠",
@@ -35205,6 +38403,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yue_dun_hero_water",
+    "faction_leader_of": [],
     "name_key": "yue_dun",
     "display_name": "Yue Dun",
     "display_name_alt": "樂敦",
@@ -35223,14 +38422,15 @@ const CHARACTER_DATA = [
     "birth_year": "211",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_fraternal",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_vengeful"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "3k_main_template_historical_yue_jin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "yue_jin",
     "display_name": "Yue Jin",
     "display_name_alt": "樂進",
@@ -35247,7 +38447,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "158",
-    "death_year": "218",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_dutiful",
@@ -35257,6 +38457,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yue_jiu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yue_jiu",
     "display_name": "Yue Jiu",
     "display_name_alt": "樂就",
@@ -35283,6 +38484,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_yue_lin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "yue_lin",
     "display_name": "Yue Lin",
     "display_name_alt": "樂綝",
@@ -35299,16 +38501,19 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "203",
-    "death_year": "257",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_vain",
-      "3k_main_ceo_trait_personality_suspicious"
+      "3k_main_ceo_trait_personality_clever",
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_defiant"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_yufuluo_hero_earth",
+    "faction_leader_of": [
+      "ironic_main_xiongnu_faction_leader"
+    ],
     "name_key": "yufuluo",
     "display_name": "Yufuluo",
     "display_name_alt": "於夫羅",
@@ -35325,7 +38530,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "160",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_greedy",
       "3k_main_ceo_trait_physical_healthy",
@@ -35334,7 +38539,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_xiongnu_minister_earth"
   },
   {
+    "key": "ironic_template_historical_yun_jong_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "yun_jong_ironic",
+    "display_name": "Yun Jong",
+    "display_name_alt": "允宗",
+    "forename": "Jong",
+    "family_name": "Yun",
+    "forename_alt": "宗",
+    "family_name_alt": "允",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Strategist Who Finishes Strong",
+    "description": "Even if the beginning is rough and difficult, steadily carrying out the planned tasks without giving up will ultimately bring great results.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "181",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
+    ],
+    "skill_set": "ironic_skillset_korea_general_water_strategist"
+  },
+  {
     "key": "3k_main_template_historical_zang_ba_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zang_ba",
     "display_name": "Zang Ba",
     "display_name_alt": "臧霸",
@@ -35361,6 +38594,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zang_hong_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zang_hong",
     "display_name": "Zang Hong",
     "display_name_alt": "臧洪",
@@ -35377,7 +38611,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "152",
-    "death_year": "196",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_distinguished",
@@ -35387,6 +38621,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zao_zhan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zao_zhan",
     "display_name": "Zao Zhan",
     "display_name_alt": "早湛",
@@ -35413,6 +38648,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zao_zhi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zao_zhi",
     "display_name": "Zao Zhi",
     "display_name_alt": "棗祗",
@@ -35439,6 +38675,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_ze_bu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "ze_bu",
     "display_name": "Ze Bu",
     "display_name_alt": "笮布",
@@ -35461,10 +38698,13 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_greedy"
     ],
-    "skill_set": "3k_main_skillset_generic_minister_wood"
+    "skill_set": "3k_dlc05_skillset_generic_bandit_minister_wood"
   },
   {
     "key": "3k_main_template_historical_ze_rong_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_ze_rong_190"
+    ],
     "name_key": "ze_rong",
     "display_name": "Ze Rong",
     "display_name_alt": "笮融",
@@ -35481,7 +38721,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "146",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charitable",
       "3k_main_ceo_trait_personality_deceitful",
@@ -35491,6 +38731,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_ze_yue_hero_metal",
+    "faction_leader_of": [],
     "name_key": "ze_yue",
     "display_name": "Ze Yue",
     "display_name_alt": "笮月",
@@ -35513,10 +38754,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_suspicious",
       "3k_main_ceo_trait_personality_loyal"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_metal"
+    "skill_set": "3k_dlc05_skillset_generic_bandit_governor_metal"
   },
   {
     "key": "ironic_template_historical_zhan_qiang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhan_qiang",
     "display_name": "Zhan Qiang",
     "display_name_alt": "詹強",
@@ -35543,6 +38785,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_zhang_xingcai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_xingcai",
     "display_name": "Zhang",
     "display_name_alt": "張",
@@ -35568,33 +38811,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_historical_lady_zhang_xingcai"
   },
   {
-    "key": "ironic_template_historical_zhang_zhongjing_ironic_hero_water",
-    "name_key": "zhang_zhongjing_ironic",
-    "display_name": "Zhang",
-    "display_name_alt": "張",
-    "forename": "",
-    "family_name": "Zhang",
-    "forename_alt": "",
-    "family_name_alt": "張",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Sagacious Physician",
-    "description": "Whatever ails you, this \"Sage of Medicine\" has a cure.",
-    "element": "water",
-    "subtype": "3k_general_water",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "150",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
-    ],
-    "skill_set": "3k_main_skillset_generic_governor_water_strategist"
-  },
-  {
     "key": "3k_main_template_historical_zhang_ba_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_ba",
     "display_name": "Zhang Ba",
     "display_name_alt": "張霸",
@@ -35613,14 +38831,15 @@ const CHARACTER_DATA = [
     "birth_year": "182",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_benevolent",
       "3k_ytr_ceo_trait_personality_stalwart"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_mtu_template_historical_zhang_bao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_bao",
     "display_name": "Zhang Bao",
     "display_name_alt": "張苞",
@@ -35647,6 +38866,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_bu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_bu",
     "display_name": "Zhang Bu",
     "display_name_alt": "張布",
@@ -35663,16 +38883,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "220",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_tough",
-      "3k_ytr_ceo_trait_personality_vindictive",
-      "3k_main_ceo_trait_physical_sui_knight"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_scholarly"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_zhang_chang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_chang",
     "display_name": "Zhang Chang",
     "display_name_alt": "張萇",
@@ -35699,6 +38920,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_chao_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_zhang_chao_190"
+    ],
     "name_key": "zhang_chao",
     "display_name": "Zhang Chao",
     "display_name_alt": "張超",
@@ -35715,7 +38939,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "150",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_cautious",
       "3k_main_ceo_trait_personality_energetic",
@@ -35725,6 +38949,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_cheng_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_cheng",
     "display_name": "Zhang Cheng",
     "display_name_alt": "張承",
@@ -35751,6 +38976,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_cheng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_cheng",
     "display_name": "Zhang Cheng",
     "display_name_alt": "張晟",
@@ -35777,6 +39003,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_chi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_chi",
     "display_name": "Zhang Chi",
     "display_name_alt": "張赤",
@@ -35803,6 +39030,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_chunhua_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_chunhua",
     "display_name": "Zhang Chunhua",
     "display_name_alt": "張春華",
@@ -35819,16 +39047,17 @@ const CHARACTER_DATA = [
     "is_male": false,
     "is_unique": true,
     "birth_year": "189",
-    "death_year": "247",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_dutiful",
       "3k_main_ceo_trait_personality_cunning",
       "3k_main_ceo_trait_personality_deceitful"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_water_strategist"
+    "skill_set": "3k_main_skillset_zhang_chunhua_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_zhang_cun_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_cun_ironic",
     "display_name": "Zhang Cun",
     "display_name_alt": "張存",
@@ -35845,7 +39074,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "179",
-    "death_year": "213",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_vindictive",
       "3k_main_ceo_trait_personality_incompetent",
@@ -35855,6 +39084,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_duo_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_duo",
     "display_name": "Zhang Duo",
     "display_name_alt": "張多",
@@ -35881,6 +39111,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_zhang_fang_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_fang",
     "display_name": "Zhang Fang",
     "display_name_alt": "張方",
@@ -35903,10 +39134,11 @@ const CHARACTER_DATA = [
       "3k_main_ceo_trait_personality_determined",
       "3k_main_ceo_trait_personality_stubborn"
     ],
-    "skill_set": "3k_main_skillset_generic_agent_earth"
+    "skill_set": "3k_dlc05_skillset_generic_bandit_minister_earth"
   },
   {
     "key": "3k_main_template_historical_zhang_fang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_fang",
     "display_name": "Zhang Fang",
     "display_name_alt": "張房",
@@ -35925,14 +39157,15 @@ const CHARACTER_DATA = [
     "birth_year": "179",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_lumbering",
-      "3k_main_ceo_trait_personality_arrogant",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_physical_sickly",
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_ytr_ceo_trait_personality_people_amiable"
     ],
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
     "key": "ep_template_historical_zhang_fang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_fang",
     "display_name": "Zhang Fang",
     "display_name_alt": "張方",
@@ -35949,7 +39182,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "249",
-    "death_year": "306",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_energetic",
@@ -35959,6 +39192,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_fei_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_fei",
     "display_name": "Zhang Fei",
     "display_name_alt": "張飛",
@@ -35975,7 +39209,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "221",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_fiery",
       "3k_main_ceo_trait_personality_intimidating",
@@ -35985,6 +39219,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_fu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_fu",
     "display_name": "Zhang Fu",
     "display_name_alt": "張富",
@@ -36011,6 +39246,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zhang_gong_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_gong",
     "display_name": "Zhang Gong",
     "display_name_alt": "張恭",
@@ -36038,6 +39274,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_guang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_guang",
     "display_name": "Zhang Guang",
     "display_name_alt": "張廣",
@@ -36064,6 +39301,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_he_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_he",
     "display_name": "Zhang He",
     "display_name_alt": "張郃",
@@ -36080,7 +39318,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "166",
-    "death_year": "231",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_resourceful",
       "3k_ytr_ceo_trait_personality_heaven_creative",
@@ -36090,6 +39328,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_heng_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_heng",
     "display_name": "Zhang Heng",
     "display_name_alt": "張橫",
@@ -36117,6 +39356,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_hong_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_hong",
     "display_name": "Zhang Hong",
     "display_name_alt": "張紘",
@@ -36133,7 +39373,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "153",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_ytr_ceo_trait_personality_people_friendly",
@@ -36143,6 +39383,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_hu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_hu",
     "display_name": "Zhang Hu",
     "display_name_alt": "張虎",
@@ -36169,6 +39410,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_zhang_hua_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_hua",
     "display_name": "Zhang Hua",
     "display_name_alt": "張華",
@@ -36176,8 +39418,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhang",
     "forename_alt": "華",
     "family_name_alt": "張",
-    "courtesy_name": "Maoxian",
-    "courtesy_name_alt": "茂先",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Academic",
     "description": "This one sees the value of institutionalised learning, and has embraced it.",
     "element": "water",
@@ -36185,7 +39427,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "232",
-    "death_year": "300",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_creative",
       "3k_main_ceo_trait_personality_clever",
@@ -36196,6 +39438,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_ji_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_ji",
     "display_name": "Zhang Ji",
     "display_name_alt": "張機",
@@ -36214,14 +39457,15 @@ const CHARACTER_DATA = [
     "birth_year": "216",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_fertile",
-      "3k_main_ceo_trait_personality_honourable",
-      "3k_main_ceo_trait_personality_scholarly"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zhang_ji_dong_zhou_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_ji_dong_zhou",
     "display_name": "Zhang Ji",
     "display_name_alt": "張濟",
@@ -36238,16 +39482,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "147",
-    "death_year": "196",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
-      "3k_main_ceo_trait_personality_careless",
-      "3k_dlc06_ceo_trait_personality_animal_friend"
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_main_ceo_trait_personality_cautious",
+      "3k_ytr_ceo_trait_personality_simple"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_zhang_jian_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_jian",
     "display_name": "Zhang Jian",
     "display_name_alt": "張臶",
@@ -36266,14 +39511,17 @@ const CHARACTER_DATA = [
     "birth_year": "126",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_personality_resourceful"
+      "3k_main_ceo_trait_personality_aescetic",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_personality_sincere"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_zhang_jin_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_zhang_jin_190"
+    ],
     "name_key": "zhang_jin",
     "display_name": "Zhang Jin",
     "display_name_alt": "張進",
@@ -36300,6 +39548,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_jin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_jin",
     "display_name": "Zhang Jin",
     "display_name_alt": "張進",
@@ -36326,6 +39575,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_jing_ironic_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_jing_ironic",
     "display_name": "Zhang Jing",
     "display_name_alt": "張静",
@@ -36352,6 +39602,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_zhang_kai_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_kai",
     "display_name": "Zhang Kai",
     "display_name_alt": "張闓",
@@ -36378,6 +39629,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_liao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_liao",
     "display_name": "Zhang Liao",
     "display_name_alt": "張遼",
@@ -36385,8 +39637,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhang",
     "forename_alt": "遼",
     "family_name_alt": "張",
-    "courtesy_name": "Wenyuan",
-    "courtesy_name_alt": "文遠",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "The Heavenly Dragon General",
     "description": "The model of professionalism and organisation, Zhang Liao has heavenly leadership skills.",
     "element": "metal",
@@ -36394,7 +39646,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "169",
-    "death_year": "222",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_relentless",
       "3k_ytr_ceo_trait_personality_land_aspiring",
@@ -36404,6 +39656,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_lili_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_lili",
     "display_name": "Zhang Lili",
     "display_name_alt": "張麗莉",
@@ -36430,6 +39683,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_lu_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_zhang_lu_190"
+    ],
     "name_key": "zhang_lu",
     "display_name": "Zhang Lu",
     "display_name_alt": "張魯",
@@ -36446,7 +39702,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "162",
-    "death_year": "216",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_superstitious",
@@ -36456,6 +39712,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_luo_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_luo",
     "display_name": "Zhang Luo",
     "display_name_alt": "張罗",
@@ -36482,6 +39739,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_luoluo_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_luoluo",
     "display_name": "Zhang Luoluo",
     "display_name_alt": "張儸锣",
@@ -36508,6 +39766,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zhang_mancheng_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_mancheng",
     "display_name": "Zhang Mancheng",
     "display_name_alt": "張曼成",
@@ -36524,7 +39783,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "134",
-    "death_year": "184",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_artful",
@@ -36534,6 +39793,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_meimei_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_meimei",
     "display_name": "Zhang Meimei",
     "display_name_alt": "張美梅",
@@ -36560,6 +39820,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_meng_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_meng",
     "display_name": "Zhang Meng",
     "display_name_alt": "張猛",
@@ -36586,6 +39847,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_mi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_mi",
     "display_name": "Zhang Mi",
     "display_name_alt": "張彌",
@@ -36602,16 +39864,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "178",
-    "death_year": "233",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_mad",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_honourable"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_zhang_miao_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_miao",
     "display_name": "Zhang Miao",
     "display_name_alt": "張邈",
@@ -36628,7 +39891,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "141",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_charitable",
       "3k_main_ceo_trait_personality_clever",
@@ -36638,6 +39901,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_min_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_min",
     "display_name": "Zhang Min",
     "display_name_alt": "張旻",
@@ -36664,6 +39928,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_mu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_mu",
     "display_name": "Zhang Mu",
     "display_name_alt": "張慕",
@@ -36682,14 +39947,15 @@ const CHARACTER_DATA = [
     "birth_year": "189",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_physical_eunuch"
+      "3k_main_ceo_trait_personality_vain",
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_zhang_nan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_nan",
     "display_name": "Zhang Nan",
     "display_name_alt": "張南",
@@ -36716,6 +39982,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_ni_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_ni",
     "display_name": "Zhang Ni",
     "display_name_alt": "張嶷",
@@ -36723,8 +39990,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhang",
     "forename_alt": "嶷",
     "family_name_alt": "張",
-    "courtesy_name": "Boqi",
-    "courtesy_name_alt": "伯岐",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "The Flying Blade",
     "description": "Heroic and hardy, Zhang Ni is famed as a hero, and has won the respect of even former enemies and barbarians.",
     "element": "wood",
@@ -36732,16 +39999,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "190",
-    "death_year": "254",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_ytr_ceo_trait_personality_heaven_selfless",
       "3k_main_ceo_trait_physical_agile"
     ],
-    "skill_set": "3k_main_skillset_generic_general_wood"
+    "skill_set": "3k_main_skillset_zhang_ni_general_wood"
   },
   {
     "key": "3k_main_template_historical_zhang_quan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_quan",
     "display_name": "Zhang Quan",
     "display_name_alt": "張泉",
@@ -36758,16 +40026,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "165",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_superstitious"
+      "3k_main_ceo_trait_personality_solitary",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "3k_dlc04_template_historical_zhang_rang_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_rang",
     "display_name": "Zhang Rang",
     "display_name_alt": "張讓",
@@ -36784,7 +40053,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "132",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_physical_eunuch",
       "3k_main_ceo_trait_personality_ambitious",
@@ -36795,6 +40064,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_ren_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_ren",
     "display_name": "Zhang Ren",
     "display_name_alt": "張任",
@@ -36811,7 +40081,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "166",
-    "death_year": "213",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_defiant",
       "3k_ytr_ceo_trait_physical_feared",
@@ -36821,6 +40091,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_zhang_shangxiu_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_shangxiu",
     "display_name": "Zhang Shangxiu",
     "display_name_alt": "張尚秀",
@@ -36847,6 +40118,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_shuo_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_shuo",
     "display_name": "Zhang Shuo",
     "display_name_alt": "張碩",
@@ -36873,6 +40145,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_song_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_song",
     "display_name": "Zhang Song",
     "display_name_alt": "張松",
@@ -36889,7 +40162,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "212",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_bright",
       "3k_main_ceo_trait_personality_clever",
@@ -36899,6 +40172,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_su_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_su",
     "display_name": "Zhang Su",
     "display_name_alt": "張肅",
@@ -36925,6 +40199,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_wei_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_wei",
     "display_name": "Zhang Wei",
     "display_name_alt": "張衛",
@@ -36951,6 +40226,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_wen_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_wen",
     "display_name": "Zhang Wen",
     "display_name_alt": "張溫",
@@ -36967,7 +40243,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "139",
-    "death_year": "191",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_ambitious",
@@ -36977,6 +40253,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_wu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_wu",
     "display_name": "Zhang Wu",
     "display_name_alt": "張武",
@@ -37003,13 +40280,16 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_xian_hero_metal",
+    "faction_leader_of": [
+      "3k_main_political_party_zhang_xian_190"
+    ],
     "name_key": "zhang_xian",
     "display_name": "Zhang Xian",
-    "display_name_alt": "章獻",
+    "display_name_alt": "张羡",
     "forename": "Xian",
     "family_name": "Zhang",
-    "forename_alt": "獻",
-    "family_name_alt": "章",
+    "forename_alt": "羡",
+    "family_name_alt": "张",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "The Unquenchable Fire",
@@ -37029,6 +40309,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_xiang_ironic_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_xiang_ironic",
     "display_name": "Zhang Xiang",
     "display_name_alt": "張翔",
@@ -37055,6 +40336,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_zhang_xiangyang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_xiangyang",
     "display_name": "Zhang Xiangyang",
     "display_name_alt": "張香洋",
@@ -37081,6 +40363,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_xiu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_xiu",
     "display_name": "Zhang Xiu",
     "display_name_alt": "張繡",
@@ -37097,7 +40380,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "163",
-    "death_year": "207",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_temperamental",
       "3k_main_ceo_trait_personality_cowardly",
@@ -37107,6 +40390,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_zhang_xun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_xun",
     "display_name": "Zhang Xun",
     "display_name_alt": "張勳",
@@ -37133,6 +40417,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_ya_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_ya",
     "display_name": "Zhang Ya",
     "display_name_alt": "張雅",
@@ -37159,6 +40444,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_yan_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_zhang_yan_ruler"
+    ],
     "name_key": "zhang_yan",
     "display_name": "Zhang Yan",
     "display_name_alt": "張燕",
@@ -37185,6 +40473,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_yan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_yan",
     "display_name": "Zhang Yan",
     "display_name_alt": "張琰",
@@ -37211,6 +40500,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_yang_hero_earth",
+    "faction_leader_of": [
+      "3k_main_political_party_zhang_yang_190"
+    ],
     "name_key": "zhang_yang",
     "display_name": "Zhang Yang",
     "display_name_alt": "張楊",
@@ -37227,7 +40519,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "151",
-    "death_year": "198",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_kind",
       "3k_main_ceo_trait_personality_energetic",
@@ -37237,6 +40529,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_zhang_yanyan_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_yanyan",
     "display_name": "Zhang Yanyan",
     "display_name_alt": "張豔豔",
@@ -37263,6 +40556,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_yi",
     "display_name": "Zhang Yi",
     "display_name_alt": "張逸",
@@ -37279,16 +40573,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "188",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_quiet",
-      "3k_main_ceo_trait_physical_handsome"
+      "3k_main_ceo_trait_physical_weak",
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_personality_quiet"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "ironic_template_historical_zhang_yi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_yi",
     "display_name": "Zhang Yi",
     "display_name_alt": "張翼",
@@ -37296,8 +40591,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhang",
     "forename_alt": "翼",
     "family_name_alt": "張",
-    "courtesy_name": "Bogong",
-    "courtesy_name_alt": "伯恭",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "The Shield of Jiange",
     "description": "A descendant of the famed statesman Zhang Liang, Zhang Yi is no less loyal and stalwart, and will fight to the bitter end to defend his state and people.",
     "element": "metal",
@@ -37305,16 +40600,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "188",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_patient",
       "3k_ytr_ceo_trait_personality_people_stern",
       "3k_ytr_ceo_trait_personality_land_alert"
     ],
-    "skill_set": "3k_main_skillset_generic_minister_metal"
+    "skill_set": "3k_main_skillset_zhang_yi_general_metal"
   },
   {
     "key": "ironic_template_historical_zhang_yi_title_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_yi_title",
     "display_name": "Zhang Yi",
     "display_name_alt": "張裔",
@@ -37322,16 +40618,16 @@ const CHARACTER_DATA = [
     "family_name": "Zhang",
     "forename_alt": "裔",
     "family_name_alt": "張",
-    "courtesy_name": "Junsi",
-    "courtesy_name_alt": "君嗣",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Immeasurable Exemplary",
     "description": "A true hero of Yizhou, Zhang Yi exceeds in countless fields. He is a faultless general, administrator, diplomat - even a talented weaponsmith. Few other men from the region can measure up to him.",
     "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "165",
-    "death_year": "230",
+    "birth_year": "157",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_resourceful",
       "3k_main_ceo_trait_personality_honourable",
@@ -37341,6 +40637,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_yi_ironic_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_yi_ironic",
     "display_name": "Zhang Yi",
     "display_name_alt": "張懌",
@@ -37367,6 +40664,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_ying_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhang_ying",
     "display_name": "Zhang Ying",
     "display_name_alt": "張英",
@@ -37393,6 +40691,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_yu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_yu",
     "display_name": "Zhang Yu",
     "display_name_alt": "張裕",
@@ -37400,8 +40699,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhang",
     "forename_alt": "裕",
     "family_name_alt": "張",
-    "courtesy_name": "Nanhe",
-    "courtesy_name_alt": "南和",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Of Forthcoming Predictions",
     "description": "When Zhang Yu claims to have foreseen a calamity, one is best to pay heed.",
     "element": "earth",
@@ -37409,7 +40708,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "177",
-    "death_year": "219",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_wise",
       "3k_main_ceo_trait_personality_superstitious",
@@ -37419,6 +40718,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_yun_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_yun",
     "display_name": "Zhang Yun",
     "display_name_alt": "張允",
@@ -37445,6 +40745,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_zan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_zan",
     "display_name": "Zhang Zan",
     "display_name_alt": "張瓚",
@@ -37463,14 +40764,15 @@ const CHARACTER_DATA = [
     "birth_year": "150",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_dlc06_ceo_trait_personality_animal_friend",
+      "3k_ytr_ceo_trait_personality_strong_willed"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zhang_ze_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_ze",
     "display_name": "Zhang Ze",
     "display_name_alt": "張則",
@@ -37489,14 +40791,15 @@ const CHARACTER_DATA = [
     "birth_year": "192",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_honest",
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_cowardly"
+      "3k_main_ceo_trait_personality_fiery",
+      "3k_main_ceo_trait_personality_ambitious",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "3k_main_template_historical_zhang_zhao_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_zhao",
     "display_name": "Zhang Zhao",
     "display_name_alt": "張昭",
@@ -37513,7 +40816,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "236",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_wise",
       "3k_main_ceo_trait_personality_intimidating",
@@ -37523,6 +40826,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhang_zhen_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_zhen",
     "display_name": "Zhang Zhen",
     "display_name_alt": "張震",
@@ -37541,14 +40845,15 @@ const CHARACTER_DATA = [
     "birth_year": "210",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_ytr_ceo_trait_personality_people_stern",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_personality_brilliant",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zhang_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhang_zhi",
     "display_name": "Zhang Zhi",
     "display_name_alt": "張芝",
@@ -37565,16 +40870,44 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "158",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_suspicious",
-      "3k_ytr_ceo_trait_personality_vindictive"
+      "3k_ytr_ceo_trait_personality_heaven_bright",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_trustworthy"
+    ],
+    "skill_set": "3k_main_skillset_generic_governor_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_zhang_zhongjing_ironic_hero_water",
+    "faction_leader_of": [],
+    "name_key": "zhang_zhongjing_ironic",
+    "display_name": "Zhang Zhongjing",
+    "display_name_alt": "張仲景",
+    "forename": "Zhongjing",
+    "family_name": "Zhang",
+    "forename_alt": "仲景",
+    "family_name_alt": "張",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Sagacious Physician",
+    "description": "Whatever ails you, this \"Sage of Medicine\" has a cure.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "150",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zhang_zun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhang_zun",
     "display_name": "Zhang Zun",
     "display_name_alt": "張遵",
@@ -37591,16 +40924,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "218",
-    "death_year": "263",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_charitable",
-      "3k_main_ceo_trait_personality_fraternal"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_main_ceo_trait_personality_defiant",
+      "3k_ytr_ceo_trait_personality_people_understanding"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_mtu_template_historical_trieu_quocdat_hero_earth",
+    "faction_leader_of": [],
     "name_key": "trieu_quocdat",
     "display_name": "Zhao",
     "display_name_alt": "趙",
@@ -37619,14 +40953,15 @@ const CHARACTER_DATA = [
     "birth_year": "208",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_trustworthy",
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_main_ceo_trait_personality_clever"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_earth"
   },
   {
     "key": "3k_main_template_historical_zhao_ang_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_ang",
     "display_name": "Zhao Ang",
     "display_name_alt": "趙昂",
@@ -37645,14 +40980,15 @@ const CHARACTER_DATA = [
     "birth_year": "181",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_healthy",
-      "3k_main_ceo_trait_personality_clever",
-      "3k_main_ceo_trait_personality_unobservant"
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_reckless",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "ironic_template_historical_zhao_ang_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_ang",
     "display_name": "Zhao Ang",
     "display_name_alt": "趙昂",
@@ -37679,6 +41015,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_ytr_template_historical_zhao_bo_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhao_bo",
     "display_name": "Zhao Bo",
     "display_name_alt": "趙伯",
@@ -37705,6 +41042,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhao_cen_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhao_cen",
     "display_name": "Zhao Cen",
     "display_name_alt": "趙岑",
@@ -37731,6 +41069,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhao_da_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_da",
     "display_name": "Zhao Da",
     "display_name_alt": "趙達",
@@ -37757,6 +41096,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhao_du_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhao_du",
     "display_name": "Zhao Du",
     "display_name_alt": "趙犢",
@@ -37775,14 +41115,15 @@ const CHARACTER_DATA = [
     "birth_year": "173",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_ytr_ceo_trait_personality_heaven_tolerant",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "skill_set": "3k_main_skillset_generic_governor_wood"
   },
   {
     "key": "ironic_template_historical_zhao_e_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhao_e",
     "display_name": "Zhao E",
     "display_name_alt": "趙娥",
@@ -37809,6 +41150,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhao_fan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_fan",
     "display_name": "Zhao Fan",
     "display_name_alt": "趙範",
@@ -37835,6 +41177,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhao_guang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhao_guang",
     "display_name": "Zhao Guang",
     "display_name_alt": "趙廣",
@@ -37851,16 +41194,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "210",
-    "death_year": "263",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_people_stern"
+      "3k_main_ceo_trait_physical_lumbering",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_dlc04_template_historical_zhao_hong_water",
+    "faction_leader_of": [],
     "name_key": "zhao_hong",
     "display_name": "Zhao Hong",
     "display_name_alt": "趙弘",
@@ -37877,7 +41221,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "141",
-    "death_year": "184",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_ambitious",
       "3k_ytr_ceo_trait_personality_trustworthy",
@@ -37887,6 +41231,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhao_lei_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhao_lei",
     "display_name": "Zhao Lei",
     "display_name_alt": "趙累",
@@ -37903,7 +41248,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "173",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_trustworthy",
       "3k_main_ceo_trait_personality_stubborn",
@@ -37913,13 +41258,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhao_lingjing_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhao_lingjing",
     "display_name": "Zhao Lingjing",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name_alt": "赵灵静",
+    "forename": "Lingjing",
+    "family_name": "Zhao",
+    "forename_alt": "灵静",
+    "family_name_alt": "赵",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Of Sensible Sensibility",
@@ -37939,6 +41285,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhao_qi_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_qi",
     "display_name": "Zhao Qi",
     "display_name_alt": "趙岐",
@@ -37955,16 +41302,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "108",
-    "death_year": "201",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_greedy",
-      "3k_main_ceo_trait_personality_cruel",
-      "3k_main_ceo_trait_personality_ambitious"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "skill_set": "3k_main_skillset_generic_general_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zhao_qian_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhao_qian",
     "display_name": "Zhao Qian",
     "display_name_alt": "趙謙",
@@ -37981,16 +41329,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "152",
-    "death_year": "192",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brave",
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_main_ceo_trait_personality_cunning",
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_heaven_bright"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_zhao_rui_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhao_rui",
     "display_name": "Zhao Rui",
     "display_name_alt": "趙叡",
@@ -38009,21 +41358,22 @@ const CHARACTER_DATA = [
     "birth_year": "176",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_determined",
-      "3k_main_ceo_trait_personality_defiant"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_zhao_shurou_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_shurou",
     "display_name": "Zhao Shurou",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name_alt": "赵舒柔",
+    "forename": "Shurou",
+    "family_name": "Zhao",
+    "forename_alt": "舒柔",
+    "family_name_alt": "赵",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "The Beauty of Baxi",
@@ -38043,6 +41393,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhao_wei_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_zhao_wei_190"
+    ],
     "name_key": "zhao_wei",
     "display_name": "Zhao Wei",
     "display_name_alt": "趙韙",
@@ -38059,7 +41412,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "151",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_cunning",
@@ -38069,6 +41422,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhao_wen_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_wen",
     "display_name": "Zhao Wen",
     "display_name_alt": "趙溫",
@@ -38085,16 +41439,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "137",
-    "death_year": "208",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_strong_willed",
-      "3k_ytr_ceo_trait_personality_people_compassionate",
-      "3k_main_ceo_trait_physical_fertile"
+      "3k_main_ceo_trait_personality_trusting",
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_ytr_ceo_trait_personality_people_compassionate"
     ],
     "skill_set": "3k_main_skillset_generic_agent_earth"
   },
   {
     "key": "3k_main_template_historical_zhao_yan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_yan",
     "display_name": "Zhao Yan",
     "display_name_alt": "趙儼",
@@ -38111,16 +41466,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "171",
-    "death_year": "245",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_cautious",
       "3k_ytr_ceo_trait_personality_land_alert",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zhao_yi_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhao_yi",
     "display_name": "Zhao Yi",
     "display_name_alt": "趙壹",
@@ -38139,14 +41495,15 @@ const CHARACTER_DATA = [
     "birth_year": "122",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_relentless",
-      "3k_main_ceo_trait_personality_vengeful",
-      "3k_main_ceo_trait_physical_beautiful"
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_ytr_ceo_trait_personality_simple",
+      "3k_main_ceo_trait_personality_perceptive"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "ironic_template_historical_zhao_yu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhao_yu",
     "display_name": "Zhao Yu",
     "display_name_alt": "趙昱",
@@ -38163,7 +41520,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "138",
-    "death_year": "193",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_trusting",
       "3k_main_ceo_trait_personality_charitable",
@@ -38173,13 +41530,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhao_yuanjiang_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhao_yuanjiang",
     "display_name": "Zhao Yuanjiang",
-    "display_name_alt": "",
-    "forename": "",
-    "family_name": "",
-    "forename_alt": "",
-    "family_name_alt": "",
+    "display_name_alt": "赵媛姜",
+    "forename": "Yuanjiang",
+    "family_name": "Zhao",
+    "forename_alt": "媛姜",
+    "family_name_alt": "赵",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Sacrificial Maiden",
@@ -38199,6 +41557,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhao_yun_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhao_yun",
     "display_name": "Zhao Yun",
     "display_name_alt": "趙雲",
@@ -38215,7 +41574,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "168",
-    "death_year": "229",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_kind",
@@ -38225,6 +41584,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zhao_zhi_metal",
+    "faction_leader_of": [],
     "name_key": "zhao_zhi",
     "display_name": "Zhao Zhi",
     "display_name_alt": "趙祇",
@@ -38251,6 +41611,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zhao_zhong_water",
+    "faction_leader_of": [],
     "name_key": "zhao_zhong",
     "display_name": "Zhao Zhong",
     "display_name_alt": "趙忠",
@@ -38267,7 +41628,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "123",
-    "death_year": "189",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_aspiring",
       "3k_main_ceo_trait_personality_resourceful",
@@ -38278,6 +41639,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhen_xiang_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhen_xiang",
     "display_name": "Zhen Xiang",
     "display_name_alt": "甄像",
@@ -38296,14 +41658,15 @@ const CHARACTER_DATA = [
     "birth_year": "192",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_powerful",
-      "3k_main_ceo_trait_personality_solitary",
-      "3k_main_ceo_trait_personality_patient"
+      "3k_main_ceo_trait_physical_drunk",
+      "3k_ytr_ceo_trait_personality_land_composed",
+      "3k_main_ceo_trait_physical_healthy"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_zheng_bao_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zheng_bao",
     "display_name": "Zheng Bao",
     "display_name_alt": "鄭寶",
@@ -38320,16 +41683,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "156",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_fiery"
+      "3k_main_ceo_trait_personality_dutiful",
+      "3k_ytr_ceo_trait_personality_land_alert",
+      "3k_ytr_ceo_trait_personality_vindictive"
     ],
     "skill_set": "3k_main_skillset_generic_villager_metal"
   },
   {
     "key": "ironic_template_historical_zheng_bao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zheng_bao",
     "display_name": "Zheng Bao",
     "display_name_alt": "郑宝",
@@ -38346,7 +41710,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "162",
-    "death_year": "199",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brave",
       "3k_main_ceo_trait_personality_distinguished",
@@ -38356,6 +41720,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_zheng_dan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zheng_dan",
     "display_name": "Zheng Dan",
     "display_name_alt": "正澹",
@@ -38374,14 +41739,15 @@ const CHARACTER_DATA = [
     "birth_year": "260",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_ytr_ceo_trait_personality_heaven_selfless",
-      "3k_main_ceo_trait_personality_clever"
+      "3k_main_ceo_trait_physical_sui_knight",
+      "3k_main_ceo_trait_physical_coordinated",
+      "3k_main_ceo_trait_physical_infertile"
     ],
     "skill_set": "3k_main_skillset_generic_governor_wood"
   },
   {
     "key": "ironic_template_historical_zheng_du_hero_water",
+    "faction_leader_of": [],
     "name_key": "zheng_du",
     "display_name": "Zheng Du",
     "display_name_alt": "鄭度",
@@ -38408,6 +41774,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zheng_fei_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zheng_fei",
     "display_name": "Zheng Fei",
     "display_name_alt": "郑菲",
@@ -38434,6 +41801,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zheng_gan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zheng_gan",
     "display_name": "Zheng Gan",
     "display_name_alt": "鄭甘",
@@ -38452,14 +41820,15 @@ const CHARACTER_DATA = [
     "birth_year": "171",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_temperamental",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_main_ceo_trait_personality_kind"
+      "3k_ytr_ceo_trait_personality_land_courageous",
+      "3k_ytr_ceo_trait_personality_people_stern",
+      "3k_ytr_ceo_trait_personality_heaven_selfless"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_fire"
   },
   {
     "key": "ironic_template_historical_zheng_hun_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zheng_hun",
     "display_name": "Zheng Hun",
     "display_name_alt": "鄭渾",
@@ -38486,6 +41855,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_lady_zheng_jiang_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_zheng_jiang_ruler"
+    ],
     "name_key": "zheng_jiang",
     "display_name": "Zheng Jiang",
     "display_name_alt": "鄭姜",
@@ -38512,6 +41884,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_generated_lady_zhang_jinglan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhang_jinglan",
     "display_name": "Zheng Lan",
     "display_name_alt": "鄭蘭",
@@ -38538,6 +41911,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zheng_mao_hero_water",
+    "faction_leader_of": [],
     "name_key": "zheng_mao",
     "display_name": "Zheng Mao",
     "display_name_alt": "鄭袤",
@@ -38554,7 +41928,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "189",
-    "death_year": "273",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_heaven_wise",
       "3k_main_ceo_trait_personality_cautious",
@@ -38564,6 +41938,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_dong_min_hero_earth",
+    "faction_leader_of": [],
     "name_key": "dong_min",
     "display_name": "Zheng Min",
     "display_name_alt": "鄭旻",
@@ -38582,14 +41957,15 @@ const CHARACTER_DATA = [
     "birth_year": "143",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_disloyal"
+      "3k_ytr_ceo_trait_personality_heaven_creative",
+      "3k_main_ceo_trait_personality_superstitious",
+      "3k_main_ceo_trait_personality_ambitious"
     ],
     "skill_set": "3k_main_skillset_generic_general_earth"
   },
   {
     "key": "3k_main_template_historical_zheng_mo_hero_water",
+    "faction_leader_of": [],
     "name_key": "zheng_mo",
     "display_name": "Zheng Mo",
     "display_name_alt": "鄭默",
@@ -38606,16 +41982,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "213",
-    "death_year": "280",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_gentle_hearted",
-      "3k_dlc07_ceo_trait_personality_frivolous",
-      "3k_ytr_ceo_trait_personality_heaven_selfless"
+      "3k_main_ceo_trait_personality_humble",
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_ytr_ceo_trait_personality_relentless"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zheng_sui_hero_water",
+    "faction_leader_of": [],
     "name_key": "zheng_sui",
     "display_name": "Zheng Sui",
     "display_name_alt": "鄭遂",
@@ -38634,14 +42011,42 @@ const CHARACTER_DATA = [
     "birth_year": "139",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_artful",
-      "3k_main_ceo_trait_physical_eunuch",
-      "3k_main_ceo_trait_personality_perceptive"
+      "3k_main_ceo_trait_personality_intimidating",
+      "3k_main_ceo_trait_personality_charitable",
+      "3k_ytr_ceo_trait_personality_people_people_pleaser"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
+    "key": "ironic_template_historical_wang_gong_hero_wood",
+    "faction_leader_of": [],
+    "name_key": "wang_gong",
+    "display_name": "Zheng Sui",
+    "display_name_alt": "鄭遂",
+    "forename": "Sui",
+    "family_name": "Zheng",
+    "forename_alt": "遂",
+    "family_name_alt": "鄭",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Unheeding Bureaucrat",
+    "description": "The peasants are hungry? Then let them eat rice cake!",
+    "element": "wood",
+    "subtype": "3k_general_wood",
+    "is_male": true,
+    "is_unique": false,
+    "birth_year": "164",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_indecisive",
+      "3k_dlc07_ceo_trait_personality_frivolous",
+      "3k_ytr_ceo_trait_personality_simple"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_wood"
+  },
+  {
     "key": "3k_main_template_historical_zheng_tai_hero_water",
+    "faction_leader_of": [],
     "name_key": "zheng_tai",
     "display_name": "Zheng Tai",
     "display_name_alt": "鄭泰",
@@ -38657,8 +42062,8 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "151",
-    "death_year": "192",
+    "birth_year": "167",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_elusive",
       "3k_main_ceo_trait_personality_determined",
@@ -38668,6 +42073,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhang_tiansheng_ironic_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhang_tiansheng_ironic",
     "display_name": "Zheng Tiansheng",
     "display_name_alt": "鄭天生",
@@ -38694,6 +42100,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zheng_xuan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zheng_xuan",
     "display_name": "Zheng Xuan",
     "display_name_alt": "鄭玄",
@@ -38710,16 +42117,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "127",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_heaven_wise",
-      "3k_ytr_ceo_trait_personality_benevolent",
-      "3k_main_ceo_trait_personality_careless"
+      "3k_main_ceo_trait_personality_direct",
+      "3k_main_ceo_trait_personality_greedy",
+      "3k_main_ceo_trait_personality_clever"
     ],
     "skill_set": "3k_main_skillset_generic_villager_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zheng_yan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zheng_yan",
     "display_name": "Zheng Yan",
     "display_name_alt": "鄭炎",
@@ -38745,33 +42153,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_envoy_wood"
   },
   {
-    "key": "ironic_template_historical_gong_zhi_ironic_hero_metal",
-    "name_key": "gong_zhi_ironic",
-    "display_name": "Zhi",
-    "display_name_alt": "志",
-    "forename": "Zhi",
-    "family_name": "",
-    "forename_alt": "志",
-    "family_name_alt": "",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Caustic Crossbowman",
-    "description": "That's it my lord...just look away, look over there... Yes, look at the pretty flowers... keep looking at the flowers...",
-    "element": "metal",
-    "subtype": "3k_general_metal",
-    "is_male": true,
-    "is_unique": false,
-    "birth_year": "172",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_physical_agile",
-      "3k_main_ceo_trait_personality_distinguished",
-      "3k_main_ceo_trait_personality_patient"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_metal"
-  },
-  {
     "key": "ironic_template_historical_zhong_hui_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhong_hui",
     "display_name": "Zhong Hui",
     "display_name_alt": "鍾會",
@@ -38779,8 +42162,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhong",
     "forename_alt": "會",
     "family_name_alt": "鍾",
-    "courtesy_name": "Shiji",
-    "courtesy_name_alt": "士季",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Of Flamboyant Ambition",
     "description": "One day you'll see, you'll all see!",
     "element": "earth",
@@ -38788,16 +42171,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "225",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_arrogant",
       "3k_main_ceo_trait_personality_vain"
     ],
-    "skill_set": "3k_main_skillset_generic_governor_earth"
+    "skill_set": "3k_main_skillset_zhong_hui_general_earth"
   },
   {
     "key": "3k_main_template_historical_zhong_ji_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhong_ji",
     "display_name": "Zhong Ji",
     "display_name_alt": "種輯",
@@ -38814,16 +42198,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "158",
-    "death_year": "200",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_brilliant",
-      "3k_main_ceo_trait_personality_superstitious",
-      "3k_main_ceo_trait_personality_pacifist"
+      "3k_main_ceo_trait_personality_fraternal",
+      "3k_main_ceo_trait_physical_beautiful",
+      "3k_main_ceo_trait_personality_aescetic"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_zhong_yao_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhong_yao",
     "display_name": "Zhong Yao",
     "display_name_alt": "鍾繇",
@@ -38840,16 +42225,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "151",
-    "death_year": "230",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_perceptive",
       "3k_main_ceo_trait_personality_clever",
       "3k_main_ceo_trait_personality_superstitious"
     ],
-    "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
+    "skill_set": "3k_main_skillset_zhong_yao_governor_water_strategist"
   },
   {
     "key": "3k_main_template_historical_zhong_yong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhong_yong",
     "display_name": "Zhong Yong",
     "display_name_alt": "鍾邕",
@@ -38866,16 +42252,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "216",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_ytr_ceo_trait_personality_heaven_creative",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_ytr_ceo_trait_personality_heaven_creative"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_main_template_historical_zhongchang_tong_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhongchang_tong",
     "display_name": "Zhongchang Tong",
     "display_name_alt": "仲長統",
@@ -38892,16 +42279,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "180",
-    "death_year": "220",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_incompetent",
-      "3k_main_ceo_trait_personality_intimidating",
-      "3k_main_ceo_trait_physical_tough"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_ytr_ceo_trait_personality_people_compassionate",
+      "3k_main_ceo_trait_personality_resourceful"
     ],
     "skill_set": "3k_main_skillset_generic_governor_water_strategist"
   },
   {
     "key": "ironic_template_historical_zhongli_xu_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhongli_xu",
     "display_name": "Zhongli Xu",
     "display_name_alt": "钟离绪",
@@ -38928,6 +42316,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zhou_ang_earth",
+    "faction_leader_of": [],
     "name_key": "zhou_ang",
     "display_name": "Zhou Ang",
     "display_name_alt": "周昂",
@@ -38954,6 +42343,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zhou_bi_zhongyuan_water",
+    "faction_leader_of": [],
     "name_key": "zhou_bi_zhongyuan",
     "display_name": "Zhou Bi",
     "display_name_alt": "周珌",
@@ -38980,6 +42370,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc05_template_historical_zhou_bo_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhou_bo",
     "display_name": "Zhou Bo",
     "display_name_alt": "周勃",
@@ -39006,6 +42397,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhou_cang_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhou_cang",
     "display_name": "Zhou Cang",
     "display_name_alt": "周倉",
@@ -39032,6 +42424,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhou_che_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhou_che",
     "display_name": "Zhou Che",
     "display_name_alt": "周車",
@@ -39058,6 +42451,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhou_gu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhou_gu",
     "display_name": "Zhou Gu",
     "display_name_alt": "周谷",
@@ -39084,6 +42478,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhou_he_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhou_he",
     "display_name": "Zhou He",
     "display_name_alt": "周賀",
@@ -39100,16 +42495,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "208",
-    "death_year": "232",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_clumsy",
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_vain"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_modest",
+      "3k_main_ceo_trait_personality_charismatic"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_zhou_huan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhou_huan",
     "display_name": "Zhou Huan",
     "display_name_alt": "周奐",
@@ -39128,14 +42524,15 @@ const CHARACTER_DATA = [
     "birth_year": "143",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_charismatic",
-      "3k_main_ceo_trait_personality_kind",
-      "3k_main_ceo_trait_personality_solitary"
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_ytr_ceo_trait_personality_simple"
     ],
     "skill_set": "3k_main_skillset_generic_agent_water_strategist"
   },
   {
     "key": "ironic_template_historical_huan_zhi_hero_wood",
+    "faction_leader_of": [],
     "name_key": "huan_zhi",
     "display_name": "Zhou Jing",
     "display_name_alt": "周京",
@@ -39154,14 +42551,15 @@ const CHARACTER_DATA = [
     "birth_year": "155",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_lovestruck",
-      "3k_dlc06_ceo_trait_personality_animal_friend",
-      "3k_ytr_ceo_trait_personality_land_powerful"
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_personality_brave",
+      "3k_main_ceo_trait_personality_fraternal"
     ],
     "skill_set": ""
   },
   {
     "key": "ironic_template_historical_huan_lin_hero_metal",
+    "faction_leader_of": [],
     "name_key": "huan_lin",
     "display_name": "Zhou Jing",
     "display_name_alt": "周京",
@@ -39180,14 +42578,15 @@ const CHARACTER_DATA = [
     "birth_year": "155",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_strong",
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_physical_healthy"
+      "3k_main_ceo_trait_personality_disloyal",
+      "3k_main_ceo_trait_personality_energetic",
+      "3k_ytr_ceo_trait_personality_heaven_tolerant"
     ],
     "skill_set": ""
   },
   {
     "key": "ironic_template_historical_zhou_jing_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhou_jing",
     "display_name": "Zhou Jing",
     "display_name_alt": "周京",
@@ -39214,6 +42613,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhou_qun_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhou_qun",
     "display_name": "Zhou Qun",
     "display_name_alt": "周群",
@@ -39240,6 +42640,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhou_shan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhou_shan",
     "display_name": "Zhou Shan",
     "display_name_alt": "周善",
@@ -39266,6 +42667,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhou_shang_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhou_shang",
     "display_name": "Zhou Shang",
     "display_name_alt": "周尚",
@@ -39292,6 +42694,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhou_shao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhou_shao",
     "display_name": "Zhou Shao",
     "display_name_alt": "周邵",
@@ -39310,14 +42713,15 @@ const CHARACTER_DATA = [
     "birth_year": "198",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_cunning",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_trusting"
+      "3k_main_ceo_trait_personality_quiet",
+      "3k_main_ceo_trait_personality_disciplined",
+      "3k_main_ceo_trait_physical_weak"
     ],
     "skill_set": "3k_main_skillset_generic_villager_fire"
   },
   {
     "key": "3k_dlc04_template_historical_zhou_shen_metal",
+    "faction_leader_of": [],
     "name_key": "zhou_shen",
     "display_name": "Zhou Shen",
     "display_name_alt": "周慎",
@@ -39344,6 +42748,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhou_shu_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhou_shu",
     "display_name": "Zhou Shu",
     "display_name_alt": "周術",
@@ -39370,6 +42775,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhou_tai_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhou_tai",
     "display_name": "Zhou Tai",
     "display_name_alt": "周泰",
@@ -39377,8 +42783,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhou",
     "forename_alt": "泰",
     "family_name_alt": "周",
-    "courtesy_name": "Youping",
-    "courtesy_name_alt": "幼平",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "Reformed Brigand",
     "description": "Do not let Zhou Tai's chequered past and grim expression mislead you - he will serve his master with a fierce loyalty.",
     "element": "fire",
@@ -39396,6 +42802,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhou_xin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhou_xin",
     "display_name": "Zhou Xin",
     "display_name_alt": "周昕",
@@ -39422,6 +42829,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhou_yin_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhou_yin",
     "display_name": "Zhou Yin",
     "display_name_alt": "周胤",
@@ -39440,14 +42848,15 @@ const CHARACTER_DATA = [
     "birth_year": "206",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_sickly",
-      "3k_main_ceo_trait_personality_ambitious",
-      "3k_ytr_ceo_trait_personality_people_cheerful"
+      "3k_ytr_ceo_trait_personality_gentle_hearted",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_physical_scarred"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ironic_template_historical_zhou_ying_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhou_ying",
     "display_name": "Zhou Ying",
     "display_name_alt": "周英",
@@ -39474,6 +42883,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zhou_yu_renming_fire",
+    "faction_leader_of": [],
     "name_key": "zhou_yu_renming",
     "display_name": "Zhou Yu",
     "display_name_alt": "周喁",
@@ -39500,6 +42910,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhou_yu_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhou_yu",
     "display_name": "Zhou Yu",
     "display_name_alt": "周瑜",
@@ -39516,7 +42927,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "175",
-    "death_year": "210",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_loyal",
@@ -39526,6 +42937,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhou_zhi_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhou_zhi",
     "display_name": "Zhou Zhi",
     "display_name_alt": "周祗",
@@ -39544,14 +42956,15 @@ const CHARACTER_DATA = [
     "birth_year": "192",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_infertile",
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_people_people_pleaser"
+      "3k_ytr_ceo_trait_personality_land_powerful",
+      "3k_main_ceo_trait_physical_clumsy",
+      "3k_main_ceo_trait_personality_charitable"
     ],
     "skill_set": "3k_main_skillset_generic_envoy_water_strategist"
   },
   {
     "key": "3k_mtu_template_historical_lady_zhu_beng_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhu_beng",
     "display_name": "Zhu",
     "display_name_alt": "朱",
@@ -39570,40 +42983,15 @@ const CHARACTER_DATA = [
     "birth_year": "171",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_perceptive",
-      "3k_ytr_ceo_trait_personality_land_aspiring",
-      "3k_main_ceo_trait_personality_vengeful"
+      "3k_main_ceo_trait_physical_lovestruck",
+      "3k_main_ceo_trait_personality_artful",
+      "3k_main_ceo_trait_personality_fiery"
     ],
     "skill_set": "3k_main_skillset_historical_lady_zhu_beng"
   },
   {
-    "key": "ironic_template_historical_zhu_liu_ironic_hero_earth",
-    "name_key": "zhu_liu_ironic",
-    "display_name": "Zhu",
-    "display_name_alt": "朱",
-    "forename": "",
-    "family_name": "Zhu",
-    "forename_alt": "",
-    "family_name_alt": "朱",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Peaceloving Student",
-    "description": "Zhu Liu desires only a simple life, surrounded by tomes and scrolls, far away from the worries of the world.",
-    "element": "earth",
-    "subtype": "3k_general_earth",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "175",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_personality_modest"
-    ],
-    "skill_set": "3k_main_skillset_generic_general_earth"
-  },
-  {
     "key": "3k_main_template_historical_zhu_en_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhu_en",
     "display_name": "Zhu En",
     "display_name_alt": "朱恩",
@@ -39630,6 +43018,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_fu_hero_water",
+    "faction_leader_of": [
+      "3k_main_political_party_zhu_fu_190"
+    ],
     "name_key": "zhu_fu",
     "display_name": "Zhu Fu",
     "display_name_alt": "朱符",
@@ -39656,6 +43047,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_gui_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhu_gui",
     "display_name": "Zhu Gui",
     "display_name_alt": "祝閨",
@@ -39682,6 +43074,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_han_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhu_han",
     "display_name": "Zhu Han",
     "display_name_alt": "朱漢",
@@ -39708,6 +43101,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_hao_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_zhu_hao_190"
+    ],
     "name_key": "zhu_hao",
     "display_name": "Zhu Hao",
     "display_name_alt": "朱皓",
@@ -39724,7 +43120,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "167",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_disciplined",
       "3k_main_ceo_trait_personality_defiant",
@@ -39734,6 +43130,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_huan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhu_huan",
     "display_name": "Zhu Huan",
     "display_name_alt": "朱桓",
@@ -39749,17 +43146,18 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
-    "birth_year": "177",
-    "death_year": "238",
+    "birth_year": "176",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_land_powerful",
       "3k_ytr_ceo_trait_physical_feared",
       "3k_main_ceo_trait_physical_mad"
     ],
-    "skill_set": "3k_main_skillset_generic_general_earth"
+    "skill_set": "3k_main_skillset_zhu_huan_general_earth"
   },
   {
     "key": "3k_main_template_historical_zhu_ju_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhu_ju",
     "display_name": "Zhu Ju",
     "display_name_alt": "朱據",
@@ -39776,16 +43174,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "194",
-    "death_year": "250",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_coordinated",
-      "3k_main_ceo_trait_personality_defiant",
-      "3k_main_ceo_trait_physical_strong"
+      "3k_main_ceo_trait_personality_vengeful",
+      "3k_main_ceo_trait_physical_infertile",
+      "3k_main_ceo_trait_physical_agile"
     ],
     "skill_set": "3k_main_skillset_generic_minister_fire"
   },
   {
     "key": "3k_main_template_historical_zhu_jun_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhu_jun",
     "display_name": "Zhu Jun",
     "display_name_alt": "朱儁",
@@ -39802,7 +43201,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "144",
-    "death_year": "195",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_intimidating",
       "3k_main_ceo_trait_personality_disciplined",
@@ -39812,6 +43211,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhu_lian_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhu_lian",
     "display_name": "Zhu Lian",
     "display_name_alt": "朱廉",
@@ -39838,6 +43238,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_ling_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhu_ling",
     "display_name": "Zhu Ling",
     "display_name_alt": "朱靈",
@@ -39845,8 +43246,8 @@ const CHARACTER_DATA = [
     "family_name": "Zhu",
     "forename_alt": "靈",
     "family_name_alt": "朱",
-    "courtesy_name": "Wenbo",
-    "courtesy_name_alt": "文博",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
     "title": "The Ferocious Bear",
     "description": "Zhu Ling rips through his opposition, like a roaring, rampaging beast.",
     "element": "fire",
@@ -39863,7 +43264,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
+    "key": "ironic_template_historical_zhu_liu_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "zhu_liu_ironic",
+    "display_name": "Zhu Liu",
+    "display_name_alt": "朱柳",
+    "forename": "Liu",
+    "family_name": "Zhu",
+    "forename_alt": "柳",
+    "family_name_alt": "朱",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Peaceloving Student",
+    "description": "Zhu Liu desires only a simple life, surrounded by tomes and scrolls, far away from the worries of the world.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "175",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_pacifist",
+      "3k_main_ceo_trait_personality_resourceful",
+      "3k_main_ceo_trait_personality_modest"
+    ],
+    "skill_set": "3k_main_skillset_generic_general_earth"
+  },
+  {
     "key": "ironic_template_historical_zhu_min_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhu_min",
     "display_name": "Zhu Min",
     "display_name_alt": "朱敏",
@@ -39890,6 +43319,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_ran_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhu_ran",
     "display_name": "Zhu Ran",
     "display_name_alt": "朱然",
@@ -39906,16 +43336,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "182",
-    "death_year": "249",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_physical_impeccable",
       "3k_ytr_ceo_trait_personality_heaven_bright",
       "3k_main_ceo_trait_personality_fiery"
     ],
-    "skill_set": "3k_main_skillset_generic_general_fire"
+    "skill_set": "3k_main_skillset_zhu_ran_general_fire"
   },
   {
     "key": "ironic_template_historical_zhu_shulian_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhu_shulian",
     "display_name": "Zhu Shulian",
     "display_name_alt": "朱叔廉",
@@ -39942,6 +43373,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhu_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhu_yi",
     "display_name": "Zhu Yi",
     "display_name_alt": "朱異",
@@ -39958,16 +43390,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "208",
-    "death_year": "257",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_generous",
-      "3k_main_ceo_trait_personality_disciplined",
-      "3k_main_ceo_trait_personality_solitary"
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_personality_determined",
+      "3k_main_ceo_trait_personality_stubborn"
     ],
     "skill_set": "3k_main_skillset_generic_agent_fire"
   },
   {
     "key": "3k_main_template_historical_zhu_zhen_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhu_zhen",
     "display_name": "Zhu Zhen",
     "display_name_alt": "朱貞",
@@ -39986,20 +43419,21 @@ const CHARACTER_DATA = [
     "birth_year": "206",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_unobservant",
-      "3k_main_ceo_trait_personality_deceitful",
-      "3k_ytr_ceo_trait_personality_land_composed"
+      "3k_ytr_ceo_trait_personality_land_generous",
+      "3k_main_ceo_trait_physical_eunuch",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_zhu_zhi_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhu_zhi",
     "display_name": "Zhu Zhi",
-    "display_name_alt": "朱治",
+    "display_name_alt": "朱志",
     "forename": "Zhi",
     "family_name": "Zhu",
-    "forename_alt": "治",
+    "forename_alt": "志",
     "family_name_alt": "朱",
     "courtesy_name": "Junli",
     "courtesy_name_alt": "君理",
@@ -40010,7 +43444,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "156",
-    "death_year": "224",
+    "death_year": "???",
     "traits": [
       "3k_ytr_ceo_trait_personality_trustworthy",
       "3k_ytr_ceo_trait_personality_stalwart",
@@ -40020,6 +43454,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuang_zhen_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhuang_zhen",
     "display_name": "Zhuang Zhen",
     "display_name_alt": "莊珍",
@@ -40046,13 +43481,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuge_bin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhuge_bin",
     "display_name": "Zhuge Bin",
     "display_name_alt": "諸葛彬",
     "forename": "Bin",
     "family_name": "Zhuge",
-    "forename_alt": "彬",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛彬",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "placeholder",
@@ -40072,6 +43508,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhuge_dan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhuge_dan",
     "display_name": "Zhuge Dan",
     "display_name_alt": "諸葛誕",
@@ -40088,24 +43525,51 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "188",
-    "death_year": "258",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_competative",
       "3k_main_ceo_trait_personality_reckless",
       "3k_main_ceo_trait_personality_defiant"
     ],
-    "skill_set": "3k_main_skillset_generic_minister_fire"
+    "skill_set": "3k_main_skillset_zhuge_dan_general_fire"
   },
-
+  {
+    "key": "ironic_template_historical_zhuge_dan_hero_fire",
+    "faction_leader_of": [],
+    "name_key": "zhuge_dan",
+    "display_name": "Zhuge Dan",
+    "display_name_alt": "諸葛誕",
+    "forename": "Dan",
+    "family_name": "Zhuge",
+    "forename_alt": "葛誕",
+    "family_name_alt": "諸",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "The Hound of Shouchun",
+    "description": "Every dog has its day...",
+    "element": "fire",
+    "subtype": "3k_general_fire",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "190",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_cautious"
+    ],
+    "skill_set": ""
+  },
   {
     "key": "ironic_template_historical_zhuge_fu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhuge_fu",
     "display_name": "Zhuge Fu",
     "display_name_alt": "諸葛宓",
     "forename": "Fu",
     "family_name": "Zhuge",
-    "forename_alt": "宓",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛宓",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "placeholder",
@@ -40125,13 +43589,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuge_gan_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zhuge_gan",
     "display_name": "Zhuge Gan",
     "display_name_alt": "諸葛甘",
     "forename": "Gan",
     "family_name": "Zhuge",
-    "forename_alt": "甘",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛甘",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "placeholder",
@@ -40151,13 +43616,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuge_guo_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhuge_guo",
     "display_name": "Zhuge Guo",
     "display_name_alt": "諸葛果",
     "forename": "Guo",
     "family_name": "Zhuge",
-    "forename_alt": "果",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛果",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Graceful and Soaring",
@@ -40177,13 +43643,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuge_ji_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhuge_ji",
     "display_name": "Zhuge Ji",
     "display_name_alt": "諸葛计",
     "forename": "Ji",
     "family_name": "Zhuge",
-    "forename_alt": "计",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛计",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Charming Eavesdropper",
@@ -40203,6 +43670,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhuge_jin_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhuge_jin",
     "display_name": "Zhuge Jin",
     "display_name_alt": "諸葛瑾",
@@ -40219,7 +43687,34 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "174",
-    "death_year": "241",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_loyal",
+      "3k_main_ceo_trait_personality_scholarly",
+      "3k_main_ceo_trait_personality_superstitious"
+    ],
+    "skill_set": "3k_main_skillset_zhuge_jin_minister_water_strategist"
+  },
+  {
+    "key": "ironic_template_historical_zhuge_jin_hero_water",
+    "faction_leader_of": [],
+    "name_key": "zhuge_jin",
+    "display_name": "Zhuge Jin",
+    "display_name_alt": "諸葛瑾",
+    "forename": "Jin",
+    "family_name": "Zhuge",
+    "forename_alt": "葛瑾",
+    "family_name_alt": "諸",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Bookish Scholar",
+    "description": "Having studied history and poetry in years past, Zhuge Jin is a man who appreciates scholarship.",
+    "element": "water",
+    "subtype": "3k_general_water",
+    "is_male": true,
+    "is_unique": true,
+    "birth_year": "174",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_loyal",
       "3k_main_ceo_trait_personality_scholarly",
@@ -40229,13 +43724,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuge_jun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhuge_jun",
     "display_name": "Zhuge Jun",
     "display_name_alt": "諸葛均",
     "forename": "Jun",
     "family_name": "Zhuge",
-    "forename_alt": "均",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛均",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Tactful Keeper",
@@ -40255,6 +43751,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhuge_ke_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhuge_ke",
     "display_name": "Zhuge Ke",
     "display_name_alt": "諸葛恪",
@@ -40264,23 +43761,24 @@ const CHARACTER_DATA = [
     "family_name_alt": "諸葛",
     "courtesy_name": "Yuanxun",
     "courtesy_name_alt": "元遜",
-    "title": "Outsider",
-    "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
+    "title": "Prodigious and Conceited",
+    "description": "Zhuge Ke's boundless talents are matched only by his incessant ego.",
     "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
-    "is_unique": false,
+    "is_unique": true,
     "birth_year": "203",
-    "death_year": "253",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_physical_beautiful",
-      "3k_main_ceo_trait_personality_enigmatic",
-      "3k_main_ceo_trait_personality_sincere"
+      "3k_main_ceo_trait_personality_arrogant",
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_brilliant"
     ],
-    "skill_set": "3k_main_skillset_generic_envoy_earth"
+    "skill_set": "3k_main_skillset_zhuge_ke_minister_earth"
   },
   {
     "key": "3k_main_template_historical_zhuge_liang_hero_water",
+    "faction_leader_of": [],
     "name_key": "zhuge_liang",
     "display_name": "Zhuge Liang",
     "display_name_alt": "諸葛亮",
@@ -40297,7 +43795,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "181",
-    "death_year": "234",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_brilliant",
       "3k_main_ceo_trait_personality_cunning",
@@ -40307,13 +43805,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuge_luo_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhuge_luo",
     "display_name": "Zhuge Luo",
     "display_name_alt": "諸葛洛",
     "forename": "Luo",
     "family_name": "Zhuge",
-    "forename_alt": "洛",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛洛",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "placeholder",
@@ -40333,13 +43832,14 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuge_pian_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhuge_pian",
     "display_name": "Zhuge Pian",
     "display_name_alt": "諸葛骈",
     "forename": "Pian",
     "family_name": "Zhuge",
-    "forename_alt": "骈",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛骈",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Of Still Waters",
@@ -40359,6 +43859,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhuge_qiao_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhuge_qiao",
     "display_name": "Zhuge Qiao",
     "display_name_alt": "諸葛喬",
@@ -40374,24 +43875,25 @@ const CHARACTER_DATA = [
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
-    "birth_year": "204",
-    "death_year": "228",
+    "birth_year": "197",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_understanding",
-      "3k_main_ceo_trait_personality_stubborn",
-      "3k_main_ceo_trait_personality_honourable"
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_ytr_ceo_trait_physical_feared",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "ironic_template_historical_zhuge_qiong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhuge_qiong",
     "display_name": "Zhuge Qiong",
     "display_name_alt": "諸葛瓊",
     "forename": "Qiong",
     "family_name": "Zhuge",
-    "forename_alt": "瓊",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛瓊",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "placeholder",
@@ -40411,6 +43913,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhuge_rong_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhuge_rong",
     "display_name": "Zhuge Rong",
     "display_name_alt": "諸葛融",
@@ -40427,23 +43930,24 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "215",
-    "death_year": "253",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_competative",
-      "3k_main_ceo_trait_personality_resourceful",
-      "3k_main_ceo_trait_physical_lumbering"
+      "3k_main_ceo_trait_physical_graceful",
+      "3k_ytr_ceo_trait_personality_people_friendly",
+      "3k_main_ceo_trait_personality_elusive"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_zhuge_xu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zhuge_xu",
     "display_name": "Zhuge Xu",
     "display_name_alt": "諸葛緒",
     "forename": "Xu",
     "family_name": "Zhuge",
-    "forename_alt": "緒",
-    "family_name_alt": "諸葛",
+    "forename_alt": "葛緒",
+    "family_name_alt": "諸",
     "courtesy_name": "",
     "courtesy_name_alt": "",
     "title": "Enduring Minister",
@@ -40463,6 +43967,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhuge_xuan_hero_fire",
+    "faction_leader_of": [
+      "3k_main_political_party_zhuge_xuan_190"
+    ],
     "name_key": "zhuge_xuan",
     "display_name": "Zhuge Xuan",
     "display_name_alt": "諸葛玄",
@@ -40479,7 +43986,7 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": true,
     "birth_year": "139",
-    "death_year": "197",
+    "death_year": "???",
     "traits": [
       "3k_main_ceo_trait_personality_distinguished",
       "3k_main_ceo_trait_personality_scholarly",
@@ -40489,6 +43996,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zhuge_zhi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhuge_zhi",
     "display_name": "Zhuge Zhi",
     "display_name_alt": "諸葛直",
@@ -40505,16 +44013,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "197",
-    "death_year": "231",
+    "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_land_composed",
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_ytr_ceo_trait_personality_people_people_pleaser",
+      "3k_main_ceo_trait_personality_vain",
+      "3k_main_ceo_trait_personality_suspicious"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "ironic_template_historical_zhuo_xiangyun_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zhuo_xiangyun",
     "display_name": "Zhuo Xiangyun",
     "display_name_alt": "卓湘雲",
@@ -40541,6 +44050,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zhuo_ying_ironic_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zhuo_ying_ironic",
     "display_name": "Zhuo Ying",
     "display_name_alt": "卓膺",
@@ -40567,6 +44077,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc06_template_historical_lady_zhurong_hero_nanman",
+    "faction_leader_of": [
+      "3k_dlc06_political_party_nanman_lady_zhurong_ruler_190"
+    ],
     "name_key": "zhurong",
     "display_name": "Zhurong",
     "display_name_alt": "祝融",
@@ -40593,6 +44106,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zong_bao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zong_bao",
     "display_name": "Zong Bao",
     "display_name_alt": "宗寶",
@@ -40611,14 +44125,15 @@ const CHARACTER_DATA = [
     "birth_year": "165",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_aescetic",
-      "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_cautious"
+      "3k_ytr_ceo_trait_personality_vindictive",
+      "3k_main_ceo_trait_personality_kind",
+      "3k_main_ceo_trait_physical_graceful"
     ],
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
     "key": "ironic_template_historical_zong_cheng_hero_water",
+    "faction_leader_of": [],
     "name_key": "zong_cheng",
     "display_name": "Zong Cheng",
     "display_name_alt": "宗承",
@@ -40645,6 +44160,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_zong_yi_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zong_yi",
     "display_name": "Zong Yi",
     "display_name_alt": "鬷義",
@@ -40663,14 +44179,15 @@ const CHARACTER_DATA = [
     "birth_year": "258",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_physical_impeccable",
-      "3k_main_ceo_trait_personality_loyal",
-      "3k_ytr_ceo_trait_physical_feared"
+      "3k_main_ceo_trait_personality_suspicious",
+      "3k_main_ceo_trait_physical_scarred",
+      "3k_main_ceo_trait_physical_lovestruck"
     ],
     "skill_set": "3k_main_skillset_generic_governor_fire"
   },
   {
     "key": "3k_main_template_historical_zong_yu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zong_yu",
     "display_name": "Zong Yu",
     "display_name_alt": "宗預",
@@ -40687,16 +44204,17 @@ const CHARACTER_DATA = [
     "is_male": true,
     "is_unique": false,
     "birth_year": "187",
-    "death_year": "264",
+    "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_pacifist",
-      "3k_main_ceo_trait_physical_drunk",
-      "3k_ytr_ceo_trait_personality_people_understanding"
+      "3k_main_ceo_trait_physical_strong",
+      "3k_main_ceo_trait_personality_honourable",
+      "3k_main_ceo_trait_personality_vain"
     ],
     "skill_set": "3k_main_skillset_generic_general_fire"
   },
   {
     "key": "3k_dlc04_template_historical_zong_yuan_fire",
+    "faction_leader_of": [],
     "name_key": "zong_yuan",
     "display_name": "Zong Yuan",
     "display_name_alt": "宗員",
@@ -40723,6 +44241,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_mtu_template_historical_lady_zou_yuan_hero_water",
+    "faction_leader_of": [],
     "name_key": "zou_yuan",
     "display_name": "Zou",
     "display_name_alt": "鄒",
@@ -40749,6 +44268,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zou_dan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zou_dan",
     "display_name": "Zou Dan",
     "display_name_alt": "鄒丹",
@@ -40775,6 +44295,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_dlc04_template_historical_zou_jing_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zou_jing",
     "display_name": "Zou Jing",
     "display_name_alt": "鄒靖",
@@ -40793,14 +44314,15 @@ const CHARACTER_DATA = [
     "birth_year": "133",
     "death_year": "???",
     "traits": [
-      "3k_main_ceo_trait_personality_trusting",
-      "3k_main_ceo_trait_physical_weak",
-      "3k_main_ceo_trait_personality_quiet"
+      "3k_ytr_ceo_trait_personality_trustworthy",
+      "3k_main_ceo_trait_personality_unobservant",
+      "3k_ytr_ceo_trait_personality_land_alert"
     ],
     "skill_set": "3k_main_skillset_generic_general_metal"
   },
   {
     "key": "3k_main_template_historical_zou_lin_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zou_lin",
     "display_name": "Zou Lin",
     "display_name_alt": "鄒臨",
@@ -40827,6 +44349,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zou_ta_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zou_ta",
     "display_name": "Zou Ta",
     "display_name_alt": "鄒他",
@@ -40852,33 +44375,8 @@ const CHARACTER_DATA = [
     "skill_set": "3k_dlc05_skillset_generic_bandit_general_metal"
   },
   {
-    "key": "ironic_template_historical_zu_si_ironic_hero_earth",
-    "name_key": "zu_si_ironic",
-    "display_name": "Zu",
-    "display_name_alt": "祖",
-    "forename": "",
-    "family_name": "Zu",
-    "forename_alt": "",
-    "family_name_alt": "祖",
-    "courtesy_name": "",
-    "courtesy_name_alt": "",
-    "title": "Cultured and Merry",
-    "description": "A highborn madam, Zu Si enjoys a privileged life, and maintains an air of kindness and respectability.",
-    "element": "earth",
-    "subtype": "3k_general_earth",
-    "is_male": false,
-    "is_unique": false,
-    "birth_year": "152",
-    "death_year": "???",
-    "traits": [
-      "3k_main_ceo_trait_personality_sincere",
-      "3k_ytr_ceo_trait_personality_people_cheerful",
-      "3k_main_ceo_trait_personality_dutiful"
-    ],
-    "skill_set": "3k_main_skillset_generic_minister_earth"
-  },
-  {
     "key": "ironic_template_historical_zu_cui_hero_water",
+    "faction_leader_of": [],
     "name_key": "zu_cui",
     "display_name": "Zu Cui",
     "display_name_alt": "祖翠",
@@ -40905,6 +44403,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zu_hong_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zu_hong",
     "display_name": "Zu Hong",
     "display_name_alt": "祖红",
@@ -40931,6 +44430,9 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zu_lang_hero_wood",
+    "faction_leader_of": [
+      "3k_main_political_party_zu_lang_190"
+    ],
     "name_key": "zu_lang",
     "display_name": "Zu Lang",
     "display_name_alt": "祖郎",
@@ -40957,6 +44459,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zu_mao_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zu_mao",
     "display_name": "Zu Mao",
     "display_name_alt": "祖茂",
@@ -40983,6 +44486,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zu_mo_hero_water",
+    "faction_leader_of": [],
     "name_key": "zu_mo",
     "display_name": "Zu Mo",
     "display_name_alt": "祖茉",
@@ -41009,6 +44513,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zu_shan_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zu_shan",
     "display_name": "Zu Shan",
     "display_name_alt": "祖山",
@@ -41035,6 +44540,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zu_si_hero_earth",
+    "faction_leader_of": [],
     "name_key": "zu_si",
     "display_name": "Zu Si",
     "display_name_alt": "祖姒",
@@ -41060,7 +44566,35 @@ const CHARACTER_DATA = [
     "skill_set": "3k_dlc05_skillset_generic_bandit_general_earth"
   },
   {
+    "key": "ironic_template_historical_zu_si_ironic_hero_earth",
+    "faction_leader_of": [],
+    "name_key": "zu_si_ironic",
+    "display_name": "Zu Si",
+    "display_name_alt": "祖姒",
+    "forename": "Si",
+    "family_name": "Zu",
+    "forename_alt": "姒",
+    "family_name_alt": "祖",
+    "courtesy_name": "",
+    "courtesy_name_alt": "",
+    "title": "Cultured and Merry",
+    "description": "A highborn madam, Zu Si enjoys a privileged life, and maintains an air of kindness and respectability.",
+    "element": "earth",
+    "subtype": "3k_general_earth",
+    "is_male": false,
+    "is_unique": false,
+    "birth_year": "152",
+    "death_year": "???",
+    "traits": [
+      "3k_main_ceo_trait_personality_sincere",
+      "3k_ytr_ceo_trait_personality_people_cheerful",
+      "3k_main_ceo_trait_personality_dutiful"
+    ],
+    "skill_set": "3k_main_skillset_generic_minister_earth"
+  },
+  {
     "key": "ironic_template_historical_zu_ting_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zu_ting",
     "display_name": "Zu Ting",
     "display_name_alt": "祖婷",
@@ -41087,6 +44621,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ep_template_historical_zuo_cen_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zuo_cen",
     "display_name": "Zuo Cen",
     "display_name_alt": "左岑",
@@ -41105,14 +44640,15 @@ const CHARACTER_DATA = [
     "birth_year": "269",
     "death_year": "???",
     "traits": [
-      "3k_ytr_ceo_trait_personality_people_cheerful",
       "3k_ytr_ceo_trait_personality_land_courageous",
-      "3k_main_ceo_trait_personality_direct"
+      "3k_main_ceo_trait_personality_enigmatic",
+      "3k_main_ceo_trait_personality_dutiful"
     ],
     "skill_set": "3k_main_skillset_generic_general_wood"
   },
   {
     "key": "ironic_template_historical_zuo_chengxu_hero_water",
+    "faction_leader_of": [],
     "name_key": "zuo_chengxu",
     "display_name": "Zuo Chengzu",
     "display_name_alt": "左丞祖",
@@ -41139,6 +44675,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zuo_chengxu_hero_fire",
+    "faction_leader_of": [],
     "name_key": "zuo_chengxu",
     "display_name": "Zuo Chengzu",
     "display_name_alt": "左丞祖",
@@ -41165,6 +44702,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zuo_xian_hero_water",
+    "faction_leader_of": [],
     "name_key": "zuo_xian",
     "display_name": "Zuo Xian",
     "display_name_alt": "左咸",
@@ -41191,6 +44729,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "ironic_template_historical_zuo_yu_hero_metal",
+    "faction_leader_of": [],
     "name_key": "zuo_yu",
     "display_name": "Zuo Yu",
     "display_name_alt": "左羽",
@@ -41217,6 +44756,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_historical_zuozi_hangba_hero_wood",
+    "faction_leader_of": [],
     "name_key": "zuozi_hangba",
     "display_name": "Zuozi Hangba",
     "display_name_alt": "左髭丈八",
@@ -41243,6 +44783,7 @@ const CHARACTER_DATA = [
   },
   {
     "key": "3k_main_template_generated_lady_gao_zhulan_hero_metal",
+    "faction_leader_of": [],
     "name_key": "gao_zhulan",
     "display_name": "Zuozi Zhulan",
     "display_name_alt": "左髭珠蘭",
@@ -41271,6 +44812,9 @@ const CHARACTER_DATA = [
 
 const CHARACTER_LOOKUP = {};
 CHARACTER_DATA.forEach(char => { CHARACTER_LOOKUP[char.name_key] = char; });
+
+const CHARACTER_BY_KEY = {};
+CHARACTER_DATA.forEach(char => { CHARACTER_BY_KEY[char.key] = char; });
 
 const CHARACTERS_BY_ELEMENT = {
   fire: CHARACTER_DATA.filter(c => c.element === 'fire'),
