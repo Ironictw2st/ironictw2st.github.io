@@ -1,12 +1,23 @@
 {
   "campaign": "3k_main_campaign_map",
-  "regions": 240,
-  "units": 70,
-  "pairs": 1065,
-  "gatedPairs": 496,
-  "unitsNamedFromLoc": 70,
-  "unitsInTwoRegionsOrFewer": 7,
-  "scopes": 4,
-  "restrictedGrants": 1065,
-  "kb": 41
+  "source": "AOR_recruitment.lua",
+  "units": 66,
+  "hubs": 27,
+  "regionsInAHub": 199,
+  "regionsWithout": 41,
+  "pairs": 753,
+  "capitalsCovered": 75,
+  "factionsWithExemptions": 10,
+  "danglingGroupRefs": [
+    "ironic_province_yong_qiang",
+    "ironic_province_you_standard"
+  ],
+  "ghostRegionKeys": [
+    "3k_dlc06_hedong_capital",
+    "3k_dlc06_jianning_capital",
+    "3k_dlc06_jiaozhi_capital",
+    "3k_dlc06_shangdang_capital",
+    "ironic_region_wuwei_capital"
+  ],
+  "kb": 36
 }

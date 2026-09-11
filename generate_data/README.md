@@ -79,38 +79,44 @@ traced polygon's area against its mask pixel count, confirms every centroid fall
 region, and lists in `last_run_map.json` any start-position region that produced no shape at all
 (none currently do).
 
-`build_recruitment.py` answers "what can I recruit here" for the Map page. It runs off the
-synced tables, so run it after `sync_from_mod.py`.
+`build_recruitment.py` answers "what can I raise here" for the Map page, which paints regions
+by their area of recruitment.
 
 ```
 python build_recruitment.py             # -> total_war/data/map_recruitment.js
 python build_recruitment.py --dry-run   # report the joins without writing
 ```
 
-Nothing in the game data says "region -> unit". It is assembled from six joins:
+**The answer is not in the db tables.** It is in the mod's own campaign script,
+`2_Char/script/campaign/mod/ui/AOR_recruitment.lua`, which holds `aor_region_groups` (named
+region lists - the recruitment hubs, capitals included) and `aor_restrictions_with_groups`
+(unit -> the hubs it is confined to). The script's own comment states the rule: a unit in that
+table is recruitable ONLY in the regions listed, and a unit absent from it is recruitable
+anywhere. `lua_table.py` is a small Lua table-literal reader that lifts those tables out; it
+handles only the shapes those scripts use and raises on anything else, so a script that changes
+shape fails loudly instead of yielding half a table.
 
-```
-start_pos_region_slot_templates   region     -> slot template   (per campaign)
-slot_template_to_building_superchain_junctions -> superchain
-building_chains                   superchain -> chain
-building_levels                   chain      -> building level
-campaign_unit_requirements        building1  -> requirement
-campaign_unit_permission_requirements        -> unit
-```
+An earlier pass derived this from the db instead, walking `start_pos_region_slot_templates` ->
+building superchains -> chains -> levels -> `campaign_unit_requirements` ->
+`campaign_unit_permission_requirements`. That describes what *unlocks* a unit, but not where it
+may be *raised*: it missed every province capital, because the hub building sits on the
+secondary slots, and it swept in faction-unique district chains, which put Ma Teng's Qiang units
+in Korea. Only the requirement gates (rank, tech) still come from those tables, keyed by unit.
 
-**The join alone is far too generous, and the failure is silent.** Most regions carry the
-generic `3k_districts` slot template, which reaches every district chain in the game -
-including faction-unique ones like Ma Teng's `3k_district_military_security_ma_teng`. Taken at
-face value that puts Qiang units in Korea. So every grant also carries who is allowed to build
-the thing behind it, from `building_chain_availability_sets` -> `building_chain_availabilities`
-(faction / sub_culture). A grant open to a whole subculture is ordinary regional recruitment; one
-pinned to a single faction is that faction's roster and is labelled `<Faction> only`. Scopes are
-resolved against the 108 factions that actually hold ground at turn one, not all 348 faction
-records, so "most factions" means something.
+Two limits the page states rather than hides: the restriction table is keyed by subculture and
+only `3k_main_chinese` is populated, so these rules bind Han Chinese factions; and
+`aor_exemptions` lists units certain factions may raise anywhere regardless, carried through per
+faction.
 
-`is_restriction` rows in `campaign_unit_permission_requirements` are exclusions, not grants, and
-are skipped. Tech, character-rank and agent gates ride along as notes on each grant rather than
-being filtered on.
+The run reports two classes of problem in the mod's own data rather than silently absorbing
+them, because the lua treats an unrecognised name as a literal region key and so does the game:
+
+- **Dangling hub references** - a unit pointing at a hub that does not exist, which therefore
+  grants nothing. Currently `ironic_province_yong_qiang` (8 units) and
+  `ironic_province_you_standard` (2 units).
+- **Ghost region keys** - a region key in a group that is not in the campaign, usually a wrong
+  pack prefix. Currently five, all of which have a correctly-prefixed sibling already listed,
+  so nothing is lost.
 
 `family_tree/family_extractor.py` is separate and hand-fed (`starter.xlsx` + lua); it is not part of the sync.
 
@@ -145,9 +151,12 @@ being filtered on.
   outlines are flat `[x0,y0,x1,y1,...]` rings in source-image pixels, grouped `parts -> rings` so the
   first ring of a part is its outline and the rest are its enclaves, which is the shape `L.polygon`
   wants. The Map page is the only consumer.
-- `../total_war/data/map_recruitment.js` — the Map page's recruitment filter, written by
-  `build_recruitment.py`. `RECRUIT_BY_REGION[key] = [[unitIndex, scopeIndex, gate?], ...]`;
-  `RECRUIT_SCOPES[i].factions === null` means anyone holding the region can raise it.
+- `../total_war/data/map_recruitment.js` — the Map page's recruitment paint and filter, written
+  by `build_recruitment.py`. `RECRUIT_ZONES` are the hubs (name, colour, region count, units),
+  `RECRUIT_ZONE_BY_REGION[key]` the hubs a region sits in, `RECRUIT_BY_REGION[key]` the unit
+  indices it can raise, and `RECRUIT_EXEMPT[faction]` the units that faction may raise anywhere.
+- `lua_table.py` — minimal Lua table-literal reader, used to read data tables straight out of the
+  mod's campaign scripts when the db tables do not express them.
 - `last_run_*.json`, `last_audit.json` — counts from the last run, used by the audit to show deltas.
 
 ## Campaigns
