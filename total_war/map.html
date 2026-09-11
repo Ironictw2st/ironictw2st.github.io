@@ -147,6 +147,22 @@
         .sel-unit .su-scope { color: var(--gold-light); }
         .sel-unit .su-gate { color: #d2705a; }
 
+        .paint-modes { display: flex; gap: 0.4rem; }
+        .paint-btn {
+            flex: 1; padding: 0.4rem 0.5rem; font-family: inherit; font-size: 0.8rem;
+            background: var(--bg-secondary); border: 1px solid #303035; color: var(--text-secondary);
+            cursor: pointer;
+        }
+        .paint-btn:hover { color: var(--title-cream); border-color: #45454f; }
+        .paint-btn.active { background: rgba(201,162,39,0.16); color: var(--gold-light); border-color: var(--gold-dark); }
+
+        .hub-chips { margin-bottom: 0.6rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+        .hub-chip {
+            font-size: 0.7rem; padding: 0.1rem 0.4rem; border: 1px solid #444; cursor: pointer;
+            color: var(--text-secondary);
+        }
+        .hub-chip:hover { color: var(--title-cream); }
+
         @media (max-width: 1000px) {
             .map-shell { grid-template-columns: 1fr; }
             .map-side { max-height: none; }
@@ -182,11 +198,12 @@
 
 <main class="map-main">
     <div class="map-intro">
-        <p>Who holds what at the start of the 190 campaign. Hover a region for its owner, click for detail.</p>
+        <p>Regions painted by their area of recruitment. Switch to ownership for who holds what at turn one.</p>
         <div class="map-stats">
             <span><b id="stat-regions">-</b> regions</span>
             <span><b id="stat-factions">-</b> factions</span>
             <span><b id="stat-capitals">-</b> capitals</span>
+            <span><b id="stat-hubs">-</b> hubs</span>
             <span><b id="stat-units">-</b> regional units</span>
         </div>
     </div>
@@ -201,17 +218,29 @@
             </div>
 
             <div class="side-section">
-                <div class="side-title">Layers</div>
-                <div class="toggles">
-                    <label><input type="checkbox" id="toggle-regions" checked> Region ownership</label>
+                <div class="side-title">Paint</div>
+                <div class="paint-modes">
+                    <button class="paint-btn active" data-mode="recruit">Recruitment</button>
+                    <button class="paint-btn" data-mode="owner">Ownership</button>
+                </div>
+                <div class="toggles" style="margin-top:0.7rem">
+                    <label><input type="checkbox" id="toggle-regions" checked> Region shading</label>
                     <label><input type="checkbox" id="toggle-pins" checked> Faction capitals</label>
                 </div>
             </div>
 
-            <div class="side-section">
-                <div class="side-title">Recruitment</div>
+            <div class="side-section" id="zone-section">
+                <div class="side-title">Recruitment hubs</div>
                 <p class="map-note" style="margin-bottom:0.6rem">
-                    Pick a unit to see every region that unlocks it.
+                    Each hub is an area of recruitment. Pick one to isolate it.
+                </p>
+                <div class="faction-list" id="zone-list"></div>
+            </div>
+
+            <div class="side-section">
+                <div class="side-title">Units</div>
+                <p class="map-note" style="margin-bottom:0.6rem">
+                    Pick a unit to see every region it can be raised in.
                 </p>
                 <input type="search" class="side-search" id="unit-search" placeholder="Find a unit..." autocomplete="off">
                 <div class="unit-list" id="unit-list"></div>
@@ -321,29 +350,28 @@
     let selectedKey = null;
     let focusFaction = null;
     let focusUnit = null;     // index into RECRUIT_UNITS
+    let focusZone = null;     // index into RECRUIT_ZONES
+    let paintMode = 'recruit';
 
     // -------------------------------------------------------------- recruitment
-    // RECRUIT_BY_REGION[key] = [[unitIndex, scopeIndex, {tech|rank|agent}?], ...]
-    const unitRegions = RECRUIT_UNITS.map(() => []);
-    Object.entries(RECRUIT_BY_REGION).forEach(([regionKey, entries]) => {
-        entries.forEach(e => unitRegions[e[0]].push(regionKey));
-    });
+    // RECRUIT_BY_REGION[key] = [unitIndex, ...]; RECRUIT_ZONE_BY_REGION[key] = [zoneIndex, ...]
+    const unitsIn = key => RECRUIT_BY_REGION[key] || [];
+    const zonesIn = key => RECRUIT_ZONE_BY_REGION[key] || [];
 
-    function grantIn(regionKey, unitIdx) {
-        return (RECRUIT_BY_REGION[regionKey] || []).find(e => e[0] === unitIdx) || null;
-    }
-
-    // A grant is only real for the faction in focus if that faction may build the thing
-    // behind it; scope.factions === null means anyone holding the region can.
-    function grantApplies(grant, factionKey) {
-        if (!grant) return false;
-        if (!factionKey) return true;
-        const scope = RECRUIT_SCOPES[grant[1]];
-        return scope.factions === null || scope.factions.indexOf(factionKey) !== -1;
+    // The region's colour in recruitment mode. A region can sit in more than one hub - the
+    // Yi regions carry both a standard and a Nanman hub - so the smallest one wins, because
+    // the narrower hub is the one that makes the region distinctive.
+    function zoneOf(key) {
+        const ids = zonesIn(key);
+        if (!ids.length) return null;
+        return ids.reduce((a, b) => RECRUIT_ZONES[b].regions < RECRUIT_ZONES[a].regions ? b : a);
     }
 
     function regionOffersFocusUnit(r) {
-        return focusUnit !== null && grantApplies(grantIn(r.key, focusUnit), focusFaction);
+        if (focusUnit === null) return false;
+        if (unitsIn(r.key).indexOf(focusUnit) !== -1) return true;
+        // a faction with an exemption may raise its units anywhere at all
+        return !!focusFaction && (RECRUIT_EXEMPT[focusFaction] || []).indexOf(focusUnit) !== -1;
     }
 
     // faction page ids, so a region can link through to its owner
@@ -359,7 +387,7 @@
         const colour = f ? f.colour : '#5a5a66';
 
         // A unit in focus takes over the colouring: the question on screen is no longer
-        // "who owns this" but "can this be raised here", so owner colour would only muddy it.
+        // "who owns this" but "can this be raised here", so any other colour would muddy it.
         if (focusUnit !== null) {
             const hot = regionOffersFocusUnit(r);
             return {
@@ -370,6 +398,26 @@
                 fillOpacity: hot ? 0.62 : 0.03,
             };
         }
+
+        if (paintMode === 'recruit') {
+            const zi = zoneOf(r.key);
+            if (zi === null) {
+                // no hub at all: nothing regional comes out of here, and saying so plainly
+                // is more useful than tinting it something that implies a roster
+                return { color: '#3a3a44', weight: 0.6, opacity: 0.35,
+                         fillColor: '#20202a', fillOpacity: 0.30 };
+            }
+            const z = RECRUIT_ZONES[zi];
+            const dim = focusZone !== null && zonesIn(r.key).indexOf(focusZone) === -1;
+            return {
+                color: z.colour,
+                weight: dim ? 0.6 : 1.1,
+                opacity: dim ? 0.15 : 0.85,
+                fillColor: z.colour,
+                fillOpacity: dim ? 0.05 : 0.58,
+            };
+        }
+
         const dimmed = focusFaction && r.owner !== focusFaction;
         return {
             color: colour,
@@ -382,11 +430,14 @@
 
     function tooltipHtml(r) {
         const f = MAP_FACTION_BY_KEY[r.owner];
-        const n = (RECRUIT_BY_REGION[r.key] || []).length;
+        const n = unitsIn(r.key).length;
+        const zi = zoneOf(r.key);
         return `<div class="rt-name">${escapeHtml(r.name)}</div>`
             + (r.province ? `<div class="rt-prov">${escapeHtml(r.province)} province</div>` : '')
             + `<div class="rt-owner">${escapeHtml(f ? f.name : 'Unowned')}</div>`
-            + (n ? `<div class="rt-prov">${n} unit${n === 1 ? '' : 's'} recruitable</div>` : '')
+            + (zi === null
+                ? '<div class="rt-prov">No regional recruitment</div>'
+                : `<div class="rt-prov">${escapeHtml(RECRUIT_ZONES[zi].name)} · ${n} unit${n === 1 ? '' : 's'}</div>`)
             + (r.isCapital ? '<div class="rt-cap">Faction capital</div>' : '');
     }
 
@@ -453,6 +504,9 @@
         panel.querySelectorAll('[data-unit]').forEach(el => {
             el.addEventListener('click', () => setUnit(Number(el.dataset.unit)));
         });
+        panel.querySelectorAll('[data-zone]').forEach(el => {
+            el.addEventListener('click', () => setZone(Number(el.dataset.zone)));
+        });
     }
 
     function gateText(gate) {
@@ -460,26 +514,73 @@
         const bits = [];
         if (gate.rank) bits.push(`character rank ${gate.rank}+`);
         if (gate.tech) bits.push('a technology');
-        if (gate.agent) bits.push(gate.agent.replace(/^3k_/, '').replace(/_/g, ' '));
         return bits.join(', ');
     }
 
+    function elemTag(u) {
+        return u.element
+            ? `<span class="elem elem-${u.element.toLowerCase()}">${escapeHtml(u.element)}</span>` : '';
+    }
+
     function recruitHtml(r) {
-        const entries = RECRUIT_BY_REGION[r.key] || [];
-        if (!entries.length) return '<div class="sel-units"><h4>Recruitment</h4>'
-            + '<p class="map-note">No regional units unlock here.</p></div>';
-        const rows = entries.map(e => {
-            const u = RECRUIT_UNITS[e[0]];
-            const scope = RECRUIT_SCOPES[e[1]];
-            const gate = gateText(e[2]);
-            const el = u.element ? `<span class="elem elem-${u.element.toLowerCase()}">${escapeHtml(u.element)}</span>` : '';
+        const ids = unitsIn(r.key);
+        const zi = zoneOf(r.key);
+        const hubs = zonesIn(r.key).map(i =>
+            `<span class="hub-chip" style="border-color:${escapeHtml(RECRUIT_ZONES[i].colour)}"
+                   data-zone="${i}">${escapeHtml(RECRUIT_ZONES[i].name)}</span>`).join(' ');
+        if (!ids.length) {
+            return '<div class="sel-units"><h4>Recruitment</h4>'
+                 + '<p class="map-note">No regional units can be raised here.</p></div>';
+        }
+        const rows = ids.map(i => {
+            const u = RECRUIT_UNITS[i];
+            const gate = gateText(u.gate);
             return `<div class="sel-unit">
-                <div class="su-top">${el}<span class="su-name" data-unit="${e[0]}" style="cursor:pointer">${escapeHtml(u.name)}</span></div>
+                <div class="su-top">${elemTag(u)}<span class="su-name" data-unit="${i}" style="cursor:pointer">${escapeHtml(u.name)}</span></div>
                 <div class="su-meta">${escapeHtml(u.cls || u.caste)}${u.cost ? ' · ' + u.cost + ' gold' : ''}
-                    · <span class="su-scope">${escapeHtml(scope.label)}</span>${gate ? ' · <span class="su-gate">needs ' + escapeHtml(gate) + '</span>' : ''}</div>
+                    · <span class="su-scope">${u.regions} region${u.regions === 1 ? '' : 's'}</span>${gate ? ' · <span class="su-gate">needs ' + escapeHtml(gate) + '</span>' : ''}</div>
             </div>`;
         }).join('');
-        return `<div class="sel-units"><h4>Recruitment (${entries.length})</h4>${rows}</div>`;
+        return `<div class="sel-units"><h4>Recruitment (${ids.length})</h4>`
+             + (hubs ? `<div class="hub-chips">${hubs}</div>` : '') + rows + '</div>';
+    }
+
+    // ------------------------------------------------------------- hub legend
+    function renderZoneList() {
+        const list = document.getElementById('zone-list');
+        list.innerHTML = RECRUIT_ZONES
+            .map((z, i) => [z, i])
+            .sort((a, b) => b[0].regions - a[0].regions)
+            .map(([z, i]) => `<button class="faction-row${focusZone === i ? ' active' : ''}" data-zone="${i}">
+                    <span class="swatch" style="background:${escapeHtml(z.colour)}"></span>
+                    <span class="fname">${escapeHtml(z.name)}</span>
+                    <span class="fcount">${z.units.length}u / ${z.regions}r</span>
+                </button>`).join('');
+        list.querySelectorAll('[data-zone]').forEach(btn => {
+            btn.addEventListener('click', () => setZone(focusZone === Number(btn.dataset.zone)
+                                                        ? null : Number(btn.dataset.zone)));
+        });
+    }
+
+    function setZone(i) {
+        focusZone = i;
+        if (i !== null) { focusUnit = null; renderUnitList(document.getElementById('unit-search').value); }
+        restyleAll();
+        renderZoneList();
+        if (i === null) return;
+        fitTo(MAP_REGIONS.filter(r => zonesIn(r.key).indexOf(i) !== -1));
+    }
+
+    function restyleAll() {
+        MAP_REGIONS.forEach(r => { if (r.key !== selectedKey) shapes[r.key].setStyle(baseStyle(r)); });
+    }
+
+    function fitTo(regions) {
+        if (!regions.length) return;
+        const all = regions.flatMap(r => r.parts.flatMap(p => p[0]));
+        const xs = all.filter((_, k) => k % 2 === 0), ys = all.filter((_, k) => k % 2 === 1);
+        map.fitBounds([toLatLng(Math.min(...xs), Math.min(...ys)),
+                       toLatLng(Math.max(...xs), Math.max(...ys))], { padding: [50, 50] });
     }
 
     // ----------------------------------------------------------- unit focus
@@ -491,8 +592,9 @@
             .filter(([u]) => !q || normalize(u.name).includes(q) || normalize(u.cls).includes(q)
                              || normalize(u.element).includes(q))
             .sort((a, b) => a[0].regions - b[0].regions || a[0].name.localeCompare(b[0].name))
-            .map(([u, i]) => `<button class="unit-row${focusUnit === i ? ' active' : ''}" data-unit="${i}">
-                    ${u.element ? `<span class="elem elem-${u.element.toLowerCase()}">${escapeHtml(u.element)}</span>` : ''}
+            .map(([u, i]) => `<button class="unit-row${focusUnit === i ? ' active' : ''}" data-unit="${i}"
+                    title="${escapeHtml(u.zones.map(z => RECRUIT_ZONES[z].name).join(', '))}">
+                    ${elemTag(u)}
                     <span class="uname">${escapeHtml(u.name)}</span>
                     <span class="ucount">${u.regions} region${u.regions === 1 ? '' : 's'}</span>
                 </button>`).join('');
@@ -505,15 +607,10 @@
 
     function setUnit(i) {
         focusUnit = i;
-        MAP_REGIONS.forEach(r => { if (r.key !== selectedKey) shapes[r.key].setStyle(baseStyle(r)); });
+        if (i !== null) { focusZone = null; renderZoneList(); }
+        restyleAll();
         renderUnitList(document.getElementById('unit-search').value);
-        if (i === null) return;
-        const hot = MAP_REGIONS.filter(regionOffersFocusUnit);
-        if (!hot.length) return;
-        const all = hot.flatMap(r => r.parts.flatMap(p => p[0]));
-        const xs = all.filter((_, k) => k % 2 === 0), ys = all.filter((_, k) => k % 2 === 1);
-        map.fitBounds([toLatLng(Math.min(...xs), Math.min(...ys)),
-                       toLatLng(Math.max(...xs), Math.max(...ys))], { padding: [50, 50] });
+        if (i !== null) fitTo(MAP_REGIONS.filter(regionOffersFocusUnit));
     }
 
     // ------------------------------------------------------------ faction list
@@ -535,7 +632,7 @@
 
     function setFocus(key) {
         focusFaction = key;
-        MAP_REGIONS.forEach(r => { if (r.key !== selectedKey) shapes[r.key].setStyle(baseStyle(r)); });
+        restyleAll();
         renderFactionList(document.getElementById('faction-search').value);
         // with a unit in focus the map is answering "where can this be raised", so picking a
         // faction narrows that question rather than replacing it - do not fly to their lands
@@ -558,9 +655,11 @@
     document.getElementById('stat-factions').textContent = MAP_FACTIONS.length;
     document.getElementById('stat-capitals').textContent = MAP_REGIONS.filter(r => r.isCapital).length;
     document.getElementById('stat-units').textContent = RECRUIT_UNITS.length;
+    document.getElementById('stat-hubs').textContent = RECRUIT_ZONES.length;
     document.getElementById('map-note').textContent =
-        'Region shapes are read from the mod’s own campaign map, so they match the game exactly. '
-        + 'Ownership is the state on turn one of the 190 campaign.';
+        'Region shapes come from the mod’s own campaign map and ownership is turn one of the 190 '
+        + 'campaign. Recruitment is read from the mod’s AOR script: these rules bind Han Chinese '
+        + 'factions, and some factions can raise their own units anywhere regardless.';
 
     document.getElementById('toggle-regions').addEventListener('change', e => {
         e.target.checked ? map.addLayer(regionLayer) : map.removeLayer(regionLayer);
@@ -583,8 +682,20 @@
     const unitSearch = document.getElementById('unit-search');
     unitSearch.addEventListener('input', () => renderUnitList(unitSearch.value));
 
+    document.querySelectorAll('.paint-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            paintMode = btn.dataset.mode;
+            document.querySelectorAll('.paint-btn').forEach(b =>
+                b.classList.toggle('active', b === btn));
+            document.getElementById('zone-section').style.display =
+                paintMode === 'recruit' ? '' : 'none';
+            restyleAll();
+        });
+    });
+
     renderFactionList('');
     renderUnitList('');
+    renderZoneList();
 </script>
 
 </body>
