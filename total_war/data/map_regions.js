@@ -39,7 +39,7 @@ const MAP_FACTIONS = [
  {
   "key": "3k_dlc04_faction_rebels",
   "name": "Looters",
-  "colour": "#825BA5",
+  "colour": "#A5775B",
   "regions": 6,
   "capitals": []
  },
