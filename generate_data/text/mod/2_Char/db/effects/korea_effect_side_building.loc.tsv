@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/effects/korea_effect_side_building.loc		
+effects_description_3k_mod_unit_unlock_yemaek_valley_warriors	Yemaek Valley Warriors (Rank 3) available for recruitment	false
+effects_description_3k_mod_unit_unlock_yemaek_scouts	Yemaek Scouts (Rank 6) available for recruitment	false
+effects_description_3k_mod_unit_unlock_samhan_raiders	Samhan Raiders (Rank 3) available for recruitment	false
+effects_description_3k_mod_unit_unlock_samhan_assault_infantry	Samhan Assault Infantry (Rank 6) available for recruitment	false
+effects_description_3k_mod_unit_unlock_lelang_guards	Lelang Guards (Rank 3) available for recruitment	false
+effects_description_3k_mod_unit_unlock_daifang_defenders	Daifang Defenders (Rank 6) available for recruitment	false

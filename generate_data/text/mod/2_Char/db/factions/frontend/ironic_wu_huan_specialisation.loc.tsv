@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/factions/frontend/ironic_wu_huan_specialisation.loc		
+effect_bundles_localised_title_ironic_wu_huan_resource_desc	Southern Spark	true
+effects_generalised_descriptions_localised_description_ironic_wu_huan_frontend_1	• [[b]]Embers[[/b]] is gained from Ember Shrines built in your settlements.	true
+effects_generalised_descriptions_localised_description_ironic_wu_huan_frontend_2	• Embers increases replenishment, population growth and damage resistance as it grows.	true
+effects_generalised_descriptions_localised_description_ironic_wu_huan_frontend_3	• Embers decreases over time, and from losing battles.	true
+effects_generalised_descriptions_localised_description_ironic_wu_huan_frontend_4	• Your armies may ambush the enemy while attacking. The chance is based on the ground type.	true
+effects_generalised_descriptions_localised_description_ironic_wu_huan_frontend_5	• [[b]]Embers[[/b]] is a resource shared among the Yellow Turban factions.	true

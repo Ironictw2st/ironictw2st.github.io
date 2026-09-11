@@ -1,0 +1,13 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zu_langresource						
+ironic_zu_lang_independence_resource_level_0			regional_faction_support.png	faction	negative	false
+ironic_zu_lang_independence_resource_level_1			regional_faction_support.png	faction	negative	false
+ironic_zu_lang_independence_resource_level_2			regional_faction_support.png	faction	neutral	false
+ironic_zu_lang_independence_resource_level_3			regional_faction_support.png	faction	positive	false
+ironic_zu_lang_independence_resource_level_4			regional_faction_support.png	faction	positive	false
+ironic_zu_lang_independence_captives_execute			no_effect.png	force	neutral	false
+ironic_zu_lang_independence_captives_recruit			no_effect.png	force	neutral	false
+ironic_zu_lang_independence_captives_release			no_effect.png	force	neutral	false
+ironic_zu_lang_independence_garrisoned			regional_faction_support.png	force	neutral	false
+ironic_zu_lang_independence_vassalized			regional_faction_support.png	force	neutral	false
+ironic_zu_lang_independence_effect_bundle			regional_faction_support.png	faction	neutral	false

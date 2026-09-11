@@ -1,0 +1,18 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/sheng_xianresource								
+ironic_inner_circle_decay	unlocks_legendary_characters.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_armies	unlocks_legendary_characters.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_captives_post_battle	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_garrisoned	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_vassalized	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_inner_circle_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_inner_circle_executed	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_assignments	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_relationships	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_characters	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_inner_circle_effect_bundle_1	unlocks_legendary_characters.png	1	campaign		ironic_inner_circle_effect_bundle_1	0.0000	positive_value_is_good	default
+ironic_inner_circle_effect_bundle_2	unlocks_legendary_characters.png	2	campaign		ironic_inner_circle_effect_bundle_2	0.0000	positive_value_is_good	default
+ironic_inner_circle_effect_bundle_3	unlocks_legendary_characters.png	3	campaign		ironic_inner_circle_effect_bundle_3	0.0000	positive_value_is_good	default
+ironic_inner_circle_effect_bundle_4	unlocks_legendary_characters.png	4	campaign		ironic_inner_circle_effect_bundle_4	0.0000	positive_value_is_good	default
+ironic_inner_circle_buildings	unlocks_legendary_characters.png	100	campaign			0.0000	positive_value_is_good	default

@@ -1,0 +1,17 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/huangclanresource								
+ironic_supervision_decay	spies.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_supervision_armies	spies.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_supervision_captives_post_battle	spies.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_supervision_characters	spies.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_supervision_garrisoned	spies.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_supervision_vassalized	spies.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_supervision_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_supervision_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_supervision_executed	spies.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_supervision_assignments	spies.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_huang_clan_supervision_governors	spies.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_huang_ang_supervision_frontend_1	spies.png	1	campaign		ironic_huang_ang_supervision_frontend_1	0.0000	positive_value_is_good	default
+ironic_huang_ang_supervision_frontend_2	spies.png	2	campaign		ironic_huang_ang_supervision_frontend_2	0.0000	positive_value_is_good	default
+ironic_huang_ang_supervision_frontend_3	spies.png	3	campaign		ironic_huang_ang_supervision_frontend_3	0.0000	positive_value_is_good	default
+ironic_huang_ang_supervision_frontend_4	spies.png	4	campaign		ironic_huang_ang_supervision_frontend_4	0.0000	positive_value_is_good	default

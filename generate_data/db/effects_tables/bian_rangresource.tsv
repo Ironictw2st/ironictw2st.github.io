@@ -1,0 +1,16 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/bian_rangresource								
+ironic_recruitment_decay	melee_cavalry.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_armies	melee_cavalry.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_captives_post_battle	melee_cavalry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_characters	melee_cavalry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_garrisoned	melee_cavalry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_vassalized	melee_cavalry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_recruitment_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_recruitment_executed	melee_cavalry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_assignments	melee_cavalry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_recruitment_frontend_1	melee_cavalry.png	1	campaign		ironic_recruitment_frontend_1	0.0000	positive_value_is_good	default
+ironic_recruitment_frontend_2	melee_cavalry.png	2	campaign		ironic_recruitment_frontend_2	0.0000	positive_value_is_good	default
+ironic_recruitment_frontend_3	melee_cavalry.png	3	campaign		ironic_recruitment_frontend_3	0.0000	positive_value_is_good	default
+ironic_recruitment_frontend_4	melee_cavalry.png	4	campaign		ironic_recruitment_frontend_4	0.0000	positive_value_is_good	default

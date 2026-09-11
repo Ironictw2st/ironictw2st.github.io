@@ -1,0 +1,8 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ironic_wu_huan						
+ironic_wu_huan_unique_default_stance			army.png	faction	neutral	true
+3k_wu_huan_embers_bundle_1	Our message is still quiet, and our growth is slow.	Simmering Sentiment	3k_embers_pooled_resource.png	faction	positive	false
+3k_wu_huan_embers_bundle_2	They speak of our message, and some join us, but many remain wary and afraid.	Enkindled Passion	3k_embers_pooled_resource.png	faction	positive	false
+3k_wu_huan_embers_bundle_3	They hear our words and understand. More have come to join us, and spread the word to others.	Burning Support	3k_embers_pooled_resource.png	faction	positive	false
+3k_wu_huan_embers_bundle_4	Our reach is great and many come to follow us.	Fiery Determination	3k_embers_pooled_resource.png	faction	positive	false
+3k_wu_huan_embers_bundle_5	The Yellow Sky looms large - followers flock to us in droves!	Explosive Fanaticism	3k_embers_pooled_resource.png	faction	positive	false

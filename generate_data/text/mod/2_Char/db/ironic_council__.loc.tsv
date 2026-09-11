@@ -1,0 +1,635 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_council__.loc		
+campaign_localised_strings_string_ironic_issue_mint_new_coinage_title	Mint New Coinage	false
+campaign_localised_strings_string_ironic_issue_mint_new_coinage	The books will not balance and the armies are owed, my lord. A new issue struck at a lighter weight would cover the shortfall within the month, though the merchants will know what we have done.	false
+campaign_localised_strings_string_ironic_issue_patronage_of_the_arts_title	Patronage of the Arts	false
+campaign_localised_strings_string_ironic_issue_patronage_of_the_arts	We have the schools and the temples, my lord, but nothing to make a learned man wish to teach in them. Endow the academies and the wealthy will follow the scholars here.	false
+campaign_localised_strings_string_ironic_issue_host_a_tournament_title	Host a Tournament	false
+campaign_localised_strings_string_ironic_issue_host_a_tournament	There are men in your court with nothing to prove and nobody to prove it against, my lord. Announce the lists and let them fight for your name before a crowd.	false
+campaign_localised_strings_string_ironic_issue_reward_heroism_title	Reward Heroism	false
+campaign_localised_strings_string_ironic_issue_reward_heroism	This general came back from the field with the enemy's standards, my lord. Grant the honours publicly, and with them the instruction of the finest masters your gold can summon.	false
+campaign_localised_strings_string_ironic_issue_court_examination_title	Court Examination	false
+campaign_localised_strings_string_ironic_issue_court_examination	Your halls are thin of talent, my lord. Announce an examination and the provinces will send us their best, already schooled and ready for a post.	false
+campaign_localised_strings_string_ironic_issue_reassess_the_rolls_title	Reassess the Rolls	false
+campaign_localised_strings_string_ironic_issue_reassess_the_rolls	This one has been overlooked for years, my lord, and the rolls do him no justice. Reassess his record and give him the rank his service has already earned.	false
+campaign_localised_strings_string_ironic_issue_purge_corrupt_officials_title	Purge the Corrupt Officials	false
+campaign_localised_strings_string_ironic_issue_purge_corrupt_officials	The tax rolls and the treasury no longer agree, my lord, and the difference is sitting in a great many private houses. Purge the offices, though those who remain will not thank you.	false
+campaign_localised_strings_string_ironic_issue_tax_amnesty_title	Tax Amnesty	false
+campaign_localised_strings_string_ironic_issue_tax_amnesty	The people are near the end of what they will bear, my lord. Forgive this season's taxes and they will remember it far longer than the revenue would have lasted.	false
+campaign_localised_strings_string_ironic_issue_open_the_granaries_title	Open the Granaries	false
+campaign_localised_strings_string_ironic_issue_open_the_granaries	There is hunger in the provinces and grain in your stores, my lord. Open the granaries now and the gratitude will outlast the winter.	false
+campaign_localised_strings_string_ironic_issue_grand_review_of_troops_title	Grand Review of Troops	false
+campaign_localised_strings_string_ironic_issue_grand_review_of_troops	Your armies have not stood together under your eye in years, my lord. Call a grand review; the men march the better for having been counted.	false
+campaign_localised_strings_string_ironic_issue_summon_a_physician_title	Summon a Physician	false
+campaign_localised_strings_string_ironic_issue_summon_a_physician	This general suffers from an affliction he will not speak of, my lord. Send for a physician of real skill before it costs you the man entirely.	false
+campaign_localised_strings_string_ironic_issue_grant_land_to_gentry_title	Grant Land to the Gentry	false
+campaign_localised_strings_string_ironic_issue_grant_land_to_gentry	The local families have been loyal and have had little for it, my lord. Grant them land and their tenants will work it harder than any levy of ours could manage.	false
+campaign_localised_strings_string_ironic_issue_expand_the_black_office_title	Expand the Black Office	false
+campaign_localised_strings_string_ironic_issue_expand_the_black_office	Our people abroad are underpaid and working out of borrowed rooms, my lord, which is how such men come to talk. Give the office its own budget and they will keep their footing.	false
+campaign_localised_strings_string_ironic_issue_unmask_the_informers_title	Unmask the Informers	false
+campaign_localised_strings_string_ironic_issue_unmask_the_informers	There are ears in this court that are not ours, my lord. Let us find them, and make the next ones far more expensive to place.	false
+campaign_localised_strings_string_ironic_issue_convene_the_scholars_title	Convene the Scholars	false
+campaign_localised_strings_string_ironic_issue_convene_the_scholars	There is a question the ministry has circled for years, my lord, and the men who could settle it are scattered across three provinces. Summon them and it will be decided this season.	false
+campaign_localised_strings_string_ironic_issue_retrench_the_court_title	Retrench the Court	false
+campaign_localised_strings_string_ironic_issue_retrench_the_court	The treasury cannot carry this court much longer, my lord. Cut the stipends to the bone; your ministers will be furious and your armies will still be paid.	false
+campaign_localised_strings_string_ironic_issue_quarter_the_army_on_the_land_title	Quarter the Army on the Land	false
+campaign_localised_strings_string_ironic_issue_quarter_the_army_on_the_land	Feeding the army from the granaries is bleeding us, my lord. Quarter them on the villages instead and the upkeep falls, though the villages will not enjoy it.	false
+campaign_localised_strings_string_ironic_issue_levy_the_corvee_title	Levy the Corvee	false
+campaign_localised_strings_string_ironic_issue_levy_the_corvee	There is work to be done and no coin to pay for it, my lord. Call up the corvee; the roads and walls will rise cheaply, and the people will grumble about it for a season.	false
+campaign_localised_strings_string_ironic_issue_contract_free_companies_title	Contract the Free Companies	false
+campaign_localised_strings_string_ironic_issue_contract_free_companies	The captains who ride for us sell their swords to whoever asks first, my lord, and others have been asking. Negotiate the contracts now, as a body, and the price falls sharply.	false
+campaign_localised_strings_string_ironic_issue_winter_provisioning_title	Provision the Marches	false
+campaign_localised_strings_string_ironic_issue_winter_provisioning	The marches will kill more of your men this season than the enemy will, my lord. Lay in the depots now and the columns will come back whole.	false
+campaign_localised_strings_string_ironic_issue_post_riders_title	Post Riders on the Roads	false
+campaign_localised_strings_string_ironic_issue_post_riders	Word from the far commanderies reaches us weeks late, my lord. Man the relay stations properly and your orders will arrive while they still mean something.	false
+campaign_localised_strings_string_ironic_issue_send_envoys_title	Send the Envoys	false
+campaign_localised_strings_string_ironic_issue_send_envoys	We are a rumour in courts we have never visited, my lord. Send envoys with gifts to every hall that will receive them, and become a name they recognise rather than one they distrust.	false
+campaign_localised_strings_string_ironic_issue_open_the_silk_routes_title	Open the Silk Routes	false
+campaign_localised_strings_string_ironic_issue_open_the_silk_routes	The passes are open and nobody is minding them, my lord. Clear the roads, garrison the caravanserai and post an honest toll, and the caravans will come to us.	false
+campaign_localised_strings_string_ironic_issue_resettle_the_displaced_title	Resettle the Displaced	false
+campaign_localised_strings_string_ironic_issue_resettle_the_displaced	The roads are full of people with nowhere to go, my lord, and your cities have room for them. Settle them, feed them through the season, and they will be yours.	false
+campaign_localised_strings_string_ironic_issue_open_the_coffers_title	Open the Coffers	false
+campaign_localised_strings_string_ironic_issue_open_the_coffers	Your ministers have served through lean years without complaint, my lord. Open the coffers and pay them what the work was worth; loyalty bought now is bought cheaply.	false
+campaign_localised_strings_string_ironic_issue_spread_sedition_title	Spread Sedition	false
+campaign_localised_strings_string_ironic_issue_spread_sedition	Their provinces are quieter than they deserve, my lord. A little coin in the right hands and their magistrates will have troubles enough of their own to attend to.	false
+campaign_localised_strings_string_ironic_issue_blight_their_harvest_title	Blight Their Harvest	false
+campaign_localised_strings_string_ironic_issue_blight_their_harvest	Their granaries are their strength, my lord. Men can be paid to be careless with a torch at harvest, and nothing will ever be proven against us.	false
+campaign_localised_strings_string_ironic_issue_buy_out_their_merchants_title	Buy Out Their Merchants	false
+campaign_localised_strings_string_ironic_issue_buy_out_their_merchants	Their wealth runs through a handful of trading houses, my lord. Buy those houses out from under them and the loss will be felt for years.	false
+campaign_localised_strings_string_ironic_issue_denounce_them_abroad_title	Denounce Them Abroad	false
+campaign_localised_strings_string_ironic_issue_denounce_them_abroad	Their name still carries weight in courts that should know better, my lord. Let us see it ruined, politely and in writing, in every hall that matters.	false
+campaign_localised_strings_string_ironic_issue_suborn_their_commander_title	Suborn Their Commander	false
+campaign_localised_strings_string_ironic_issue_suborn_their_commander	One of their generals believes he is owed more than he has been given, my lord. He is not wrong, and he is not expensive.	false
+campaign_localised_strings_string_ironic_issue_bribe_their_quartermasters_title	Bribe Their Quartermasters	false
+campaign_localised_strings_string_ironic_issue_bribe_their_quartermasters	An army is only as good as the men who count its carts, my lord. Those men are poorly paid, and they will count very badly indeed for very little.	false
+campaign_localised_strings_string_ironic_issue_vassal_tribute_title	Vassal Tribute	false
+campaign_localised_strings_string_ironic_issue_vassal_tribute	Our tributaries pay what was agreed and not a coin more, my lord, while their granaries fill. Revise the terms upward; every court will note how you treat those who submit to you.	false
+campaign_localised_strings_string_ironic_issue_promote_industry_title	Promote Industry	false
+campaign_localised_strings_string_ironic_issue_promote_industry	Our forges and workshops are an afterthought beside our neighbours', my lord. Second the surveyors and remit the levies, and the next foundry will rise faster and cheaper than the last.	false
+campaign_localised_strings_string_ironic_issue_promote_commerce_title	Promote Commerce	false
+campaign_localised_strings_string_ironic_issue_promote_commerce	For all the roads that pass through us we have built little to profit by them, my lord. Put the state's carpenters and the state's money behind the markets and the wharves for a season.	false
+campaign_localised_strings_string_ironic_issue_promote_peasantry_title	Promote the Land	false
+campaign_localised_strings_string_ironic_issue_promote_peasantry	Too many households are crowded onto too little worked ground, my lord. Fund the waterworks, the granaries and the field roads at our expense rather than the districts' own.	false
+campaign_localised_strings_string_ironic_issue_promote_culture_title	Promote Learning	false
+campaign_localised_strings_string_ironic_issue_promote_culture	We have grain and we have soldiers, my lord, and almost nothing to make an educated man stay. Endow the schools and the temples, and make it cheap to raise more of them.	false
+campaign_localised_strings_string_ironic_issue_seek_weapon_title	Seek a Weapon	false
+campaign_localised_strings_string_ironic_issue_seek_weapon	There are blades in this country worth more than the men who carry them, my lord, and most do not know it. Send buyers to the smithies and the estate sales and see what returns.	false
+campaign_localised_strings_string_ironic_issue_seek_armour_title	Seek Armour	false
+campaign_localised_strings_string_ironic_issue_seek_armour	Good harness outlives the man it was forged for, my lord, and a great deal of it has lain in chests since the rebellion. Put out word that we are buying, and pay without haggling.	false
+campaign_localised_strings_string_ironic_issue_seek_mount_title	Seek a Mount	false
+campaign_localised_strings_string_ironic_issue_seek_mount	The horse a general rides is the first thing an army sees of him, my lord. Send agents to the northern herds and the breeders' fairs with orders not to return empty-handed.	false
+campaign_localised_strings_string_ironic_issue_seek_follower_title	Seek a Follower	false
+campaign_localised_strings_string_ironic_issue_seek_follower	Every court of consequence has its physicians, its diviners and its quiet men of business, my lord. Ours is thin in all three. Let it be known that we are hiring, and generously.	false
+campaign_localised_strings_string_ironic_issue_seek_accessory_title	Seek a Curiosity	false
+campaign_localised_strings_string_ironic_issue_seek_accessory	Seals, manuals and jade mark a court as one worth attending, my lord. Send collectors out with a purse and no very precise instructions as to how they spend it.	false
+campaign_localised_strings_string_ironic_issue_bandit_divide_the_spoils_title	Divide the Spoils	false
+campaign_localised_strings_string_ironic_issue_bandit_divide_the_spoils	This one did not come to you for a salary, my lord. Let him open the strongroom before his own men and hand it out by the fistful; it is not how a ministry does things, and that is the point.	false
+campaign_localised_strings_string_ironic_issue_bandit_hill_country_levy_title	Levy the Hill Country	false
+campaign_localised_strings_string_ironic_issue_bandit_hill_country_levy	There are men in the high valleys who have never paid a tax and never will, my lord, but who will march for someone who speaks their dialect. We happen to have such a man.	false
+campaign_localised_strings_string_ironic_issue_scholar_compile_commentaries_title	Compile the Commentaries	false
+campaign_localised_strings_string_ironic_issue_scholar_compile_commentaries	Give this one a room, a stipend and some quiet, my lord, and he will produce a commentary that outlives all of us. We cannot spare him years, but we can spare him the room.	false
+campaign_localised_strings_string_ironic_issue_scholar_plain_speech_title	Permit Plain Speech	false
+campaign_localised_strings_string_ironic_issue_scholar_plain_speech	He has asked leave to say what he actually thinks in open council, my lord. Grant it; the accounts will be honest for a season and a good many officials will discover urgent business elsewhere.	false
+campaign_localised_strings_string_ironic_issue_renowned_name_precedes_him_title	Let His Name Precede Him	false
+campaign_localised_strings_string_ironic_issue_renowned_name_precedes_him	Send this one ahead of the column with a modest escort and orders to be seen, my lord. Half the villages between here and the border have argued about him over dinner.	false
+campaign_localised_strings_string_ironic_issue_renowned_champions_example_title	The Champion's Example	false
+campaign_localised_strings_string_ironic_issue_renowned_champions_example	Put him in front of the recruits for a season rather than in front of the enemy, my lord. They will drill until they drop for a man they have heard songs about.	false
+campaign_localised_strings_string_ironic_issue_char_cao_cao_title	The Agricultural Garrisons	false
+campaign_localised_strings_string_ironic_issue_char_cao_cao	The land between the ruins is good and nobody is left to work it, my lord, while your soldiers eat through a granary a season. Settle them on it: soldiers in spring, farmers in summer.	false
+campaign_localised_strings_string_ironic_issue_char_liu_bei_title	Benevolence Proclaimed	false
+campaign_localised_strings_string_ironic_issue_char_liu_bei	The refugees on the road are choosing which lord to walk toward, my lord, and they have been choosing you. Say plainly what you intend for them, and see that it is true when they arrive.	false
+campaign_localised_strings_string_ironic_issue_char_sun_jian_title	The Tiger's Pace	false
+campaign_localised_strings_string_ironic_issue_char_sun_jian	He does not wait for the baggage, my lord, and the men have stopped expecting him to. Formalise it: light columns, forward depots, and orders written for where the army will be.	false
+campaign_localised_strings_string_ironic_issue_char_yuan_shao_title	Four Generations, Three Excellencies	false
+campaign_localised_strings_string_ironic_issue_char_yuan_shao	There is not a court in the empire where your family name needs explaining, my lord. Spend it. Send the letters under your seal and let four generations of Excellencies argue for you.	false
+campaign_localised_strings_string_ironic_issue_char_dong_zhuo_title	Strip the Capital	false
+campaign_localised_strings_string_ironic_issue_char_dong_zhuo	The palaces are full of things that cannot be eaten and the treasury is full of nothing, my lord. Melt what can be melted, sell what can be sold, and let the histories say what they like.	false
+campaign_localised_strings_string_ironic_issue_char_zhuge_liang_title	The Longzhong Plan	false
+campaign_localised_strings_string_ironic_issue_char_zhuge_liang	He has drawn the whole empire on a single sheet, my lord, and marked which powers will fight each other without our help. Act on it and we shall discover whether he is right.	false
+campaign_localised_strings_string_ironic_issue_char_sima_yi_title	Wait for the Wind	false
+campaign_localised_strings_string_ironic_issue_char_sima_yi	He advises doing nothing, my lord, at length and with unnerving precision about when the nothing should end. Fund the watchers and let the men in a hurry exhaust themselves.	false
+campaign_localised_strings_string_ironic_issue_char_lu_xun_title	The Scholar in Armour	false
+campaign_localised_strings_string_ironic_issue_char_lu_xun	He reads ground the way other men read a ledger, my lord, and the columns he plans arrive with their boots intact. Give him the marching orders and the supply tables both.	false
+campaign_localised_strings_string_ironic_issue_char_lu_meng_title	White Clothes Crossing the River	false
+campaign_localised_strings_string_ironic_issue_char_lu_meng	Merchants going upriver in white, poling quietly, with the armour in the bottom of the boat, my lord. Nobody challenges a merchant until the beacon towers are already ours.	false
+campaign_localised_strings_string_ironic_issue_char_lu_bu_title	No Man Rides Ahead of Him	false
+campaign_localised_strings_string_ironic_issue_char_lu_bu	He will not hold the centre and he will not wait for the order, my lord. Write the plan around a man who is always half a day further forward than anyone intended him to be.	false
+campaign_localised_strings_string_ironic_issue_char_sun_ce_title	The Little Conqueror	false
+campaign_localised_strings_string_ironic_issue_char_sun_ce	He takes a commandery in the time it takes the ministry to appoint a clerk for it, my lord. Supply the column properly and send the administrators after him, several weeks behind.	false
+campaign_localised_strings_string_ironic_issue_char_sun_quan_title	Hold What My Brother Took	false
+campaign_localised_strings_string_ironic_issue_char_sun_quan	You will not conquer the south a second time, my lord; it is already yours. Settle the garrisons, pay the tribute, and be remembered as the man it stayed with.	false
+campaign_localised_strings_string_ironic_issue_char_liu_shan_title	The Court Governs Itself	false
+campaign_localised_strings_string_ironic_issue_char_liu_shan	He signs what is put before him and asks after the gardens, my lord. A chancellery that governs unsupervised is a cheap one, and what the ministers take on the side is the price of it.	false
+campaign_localised_strings_string_ironic_issue_char_cao_pi_title	The Nine Ranks	false
+campaign_localised_strings_string_ironic_issue_char_cao_pi	Grade every official one to nine and appoint strictly by the grade, my lord. It is fairer than what we do now, and the great families will have it gamed within a decade.	false
+campaign_localised_strings_string_ironic_issue_char_gongsun_zan_title	The White Horse Fellows	false
+campaign_localised_strings_string_ironic_issue_char_gongsun_zan	Every man on a white horse and every horse chosen for the road, my lord. The steppe has learned what the colour means; keep the remounts coming and it will keep meaning it.	false
+campaign_localised_strings_string_ironic_issue_char_kong_rong_title	The Rites Observed	false
+campaign_localised_strings_string_ironic_issue_char_kong_rong	He proposes we do the thing properly, my lord: the full ceremonies, the schools endowed, the descendants of Confucius seated where they belong. It will cost us a season's revenue.	false
+campaign_localised_strings_string_ironic_issue_char_liu_biao_title	The Peace of Jing	false
+campaign_localised_strings_string_ironic_issue_char_liu_biao	While the north burns the scholars keep arriving here with their libraries on carts, my lord. Do nothing to disturb it; garrison the passes, feed the newcomers, and let Jing stay quiet.	false
+campaign_localised_strings_string_ironic_issue_char_liu_yan_title	Close the Roads to Yi	false
+campaign_localised_strings_string_ironic_issue_char_liu_yan	The passes into Yi can be held by very few men against very many, my lord. Close them, build inward, and let the rest of the empire wonder what we are doing behind them.	false
+campaign_localised_strings_string_ironic_issue_char_ma_teng_title	The Liang Horsemen	false
+campaign_localised_strings_string_ironic_issue_char_ma_teng	Liang breeds more horses than it can feed and more riders than it can employ, my lord. Take both. They will eat everything we have and nothing on this frontier can catch them.	false
+campaign_localised_strings_string_ironic_issue_char_tao_qian_title	Xu Province Endures	false
+campaign_localised_strings_string_ironic_issue_char_tao_qian	He is old and tired, my lord, and he has kept Xu fed through two rebellions without raising the grain tax. Fund whatever he is doing and stop asking him to explain it to the ministry.	false
+campaign_localised_strings_string_ironic_issue_char_yuan_shu_title	The Seal Is Ours	false
+campaign_localised_strings_string_ironic_issue_char_yuan_shu	The seal is in your keeping, my lord, and a seal in one's keeping is very nearly a mandate. Say so loudly and in writing; every court will take offence and every court will be talking.	false
+campaign_localised_strings_string_ironic_issue_char_zheng_jiang_title	The Bandit Queen's Word	false
+campaign_localised_strings_string_ironic_issue_char_zheng_jiang	Her word in the hills is worth more than your seal on paper, my lord, and she has never once broken it. Let her give it on your behalf; the accounting will be creative and the peace real.	false
+campaign_localised_strings_string_ironic_issue_char_zhang_yan_title	The Black Mountain	false
+campaign_localised_strings_string_ironic_issue_char_zhang_yan	A hundred thousand men live in those valleys, my lord, and not one has been paid in coin. They want salt, grain and to be left alone in winter, which is an army at a fraction of the cost.	false
+campaign_localised_strings_string_ironic_issue_char_yan_baihu_title	The White Tiger's Toll	false
+campaign_localised_strings_string_ironic_issue_char_yan_baihu	Every barge on the lower river already pays him something, my lord. Formalise it into a toll with a posted rate; the merchants will complain about the rate and be relieved about the receipt.	false
+campaign_localised_strings_string_ironic_issue_char_han_sui_title	The Old Alliance of Liang	false
+campaign_localised_strings_string_ironic_issue_char_han_sui	He has sworn brotherhood with half the chieftains west of the pass and outlived most of them, my lord. The oaths still bind their sons; send him to collect while the sons remember why.	false
+campaign_localised_strings_string_ironic_issue_char_gao_gan_title	The Governor of Bing	false
+campaign_localised_strings_string_ironic_issue_char_gao_gan	Bing is poor, exposed and full of people who would rather be governed by us than by the steppe, my lord. That is a low bar and a real advantage. Build while they still feel that way.	false
+campaign_localised_strings_string_ironic_issue_char_song_jian_title	King of Hexi	false
+campaign_localised_strings_string_ironic_issue_char_song_jian	He has already taken the title, minted the coin and appointed the ministers, my lord. Grant it retroactively and in fifty years the histories will not be able to tell the difference.	false
+campaign_localised_strings_string_ironic_issue_char_liu_yu_title	The Northern Peace	false
+campaign_localised_strings_string_ironic_issue_char_liu_yu	He would rather trade with the Wuhuan than fight them, my lord, and for twenty years it has worked. Fund the frontier markets, keep the tribute flowing, and send the war party elsewhere.	false
+campaign_localised_strings_string_ironic_issue_char_wang_kuang_title	The Henei Levy	false
+campaign_localised_strings_string_ironic_issue_char_wang_kuang	Henei has been raising and losing armies since the alliance, my lord, and has grown very good at the raising. Use the machinery; the men are cheap, willing and available again next spring.	false
+campaign_localised_strings_string_ironic_issue_char_zhang_yang_title	The Quiet Marches	false
+campaign_localised_strings_string_ironic_issue_char_zhang_yang	He has kept a road open through four years of other men's wars by taking no side loudly, my lord. Use the road: depots at every stage and no banners on the carts.	false
+campaign_localised_strings_string_ironic_issue_char_yang_feng_title	The White Wave Bargain	false
+campaign_localised_strings_string_ironic_issue_char_yang_feng	His men were rebels last year and will be again the moment the grain stops, my lord. Until then they are the cheapest infantry in the empire and they ask no questions.	false
+campaign_localised_strings_string_ironic_issue_char_liu_chong_title	The Prince's Purse	false
+campaign_localised_strings_string_ironic_issue_char_liu_chong	A prince of the Han with a full treasury and no army worth the name is a very specific kind of asset, my lord. Take the money and the legitimacy both, and keep his household in its accustomed style.	false
+campaign_localised_strings_string_ironic_issue_char_zhu_hao_title	The Captains' Contract	false
+campaign_localised_strings_string_ironic_issue_char_zhu_hao	The free companies will ride for him personally and haggle with everyone else, my lord. Have him do the negotiating; the rate drops the moment they see whose seal is on the contract.	false
+campaign_localised_strings_string_ironic_issue_char_bian_rang_title	The Scholar's Circle	false
+campaign_localised_strings_string_ironic_issue_char_bian_rang	Half the promising young men in the province write to him, my lord, and a fair number of the dangerous ones. Give the correspondence a roof and a stipend and see what comes of it.	false
+campaign_localised_strings_string_ironic_issue_char_wang_sheng_title	The Hall of Repose	false
+campaign_localised_strings_string_ironic_issue_char_wang_sheng	Exhausted men make bad decisions slowly and then defend them, my lord. Open the hall and order the rota as an instruction rather than a favour; nobody will thank you and everybody will sleep.	false
+campaign_localised_strings_string_ironic_issue_char_zhang_chao_title	The Calligrapher's Hand	false
+campaign_localised_strings_string_ironic_issue_char_zhang_chao	An order in his hand is obeyed faster than the same order in anyone else's, my lord. That is either a point about authority or a comment on our clerks; either way, have him write the important ones.	false
+campaign_localised_strings_string_ironic_issue_char_guan_yu_title	The Duke's Oath	false
+campaign_localised_strings_string_ironic_issue_char_guan_yu	He returned the gifts, left the seal on the table and rode back to a man who had nothing to offer him, my lord. Every soldier knows the story; let it be known he serves you and say nothing further.	false
+campaign_localised_strings_string_ironic_issue_char_zhang_fei_title	Drink and Discipline	false
+campaign_localised_strings_string_ironic_issue_char_zhang_fei	He can turn a mob into a battle line in a fortnight, my lord, by methods the ministry would prefer not to record. Give him the recruits and do not visit the camp.	false
+campaign_localised_strings_string_ironic_issue_char_zhao_yun_title	The Escort of the Heir	false
+campaign_localised_strings_string_ironic_issue_char_zhao_yun	He came out of a lost field carrying a child and said nothing of it afterwards, my lord. Put him where the people who matter to you are, and stop worrying about them.	false
+campaign_localised_strings_string_ironic_issue_char_ma_chao_title	The Western Riders	false
+campaign_localised_strings_string_ironic_issue_char_ma_chao	The Qiang follow him and not us, my lord, which is worth remembering. They will ride the length of the frontier while our infantry is still forming up.	false
+campaign_localised_strings_string_ironic_issue_char_zhou_yu_title	The River Is Ours	false
+campaign_localised_strings_string_ironic_issue_char_zhou_yu	He knows which channels take a loaded hull in low water and which villages will sell grain to a fleet, my lord. Give him the river and the campaign stops depending on the roads at all.	false
+campaign_localised_strings_string_ironic_issue_char_meng_huo_title	The Southern Tribes	false
+campaign_localised_strings_string_ironic_issue_char_meng_huo	His people cross ground that kills our columns and think nothing of it, my lord. Bring them in on their own terms, which are simpler than ours and mostly involve being left alone afterwards.	false
+campaign_localised_strings_string_ironic_issue_captains_yuan_shao_title	Open the Armoury at Ye	false
+campaign_localised_strings_string_ironic_issue_captains_yuan_shao	The captains ride for you already, my lord, in whatever harness they could afford. Open the armoury and let them draw from the state stores at the state's price.	false
+campaign_localised_strings_string_ironic_issue_captains_bian_rang_title	Borrowed Banners	false
+campaign_localised_strings_string_ironic_issue_captains_bian_rang	The captains who answer to us answer to Yuan Shao first, my lord, and everyone involved knows it. Pay the difference, fly his colours where it helps, and take the men.	false
+campaign_localised_strings_string_ironic_issue_captains_zhu_hao_title	Blood the New Captains	false
+campaign_localised_strings_string_ironic_issue_captains_zhu_hao	The companies are willing and green, my lord, a combination that gets men killed in the first engagement. Give them a season of real work under officers who have survived one.	false
+effect_bundles_localised_title_ironic_council_mint_new_coinage	Debased Coinage	false
+effect_bundles_localised_description_ironic_council_mint_new_coinage	The new cash rings thin, and everyone from the salt merchants to the market watch knows it.	false
+effect_bundles_localised_title_ironic_council_patronage_of_the_arts	Patronage of the Arts	false
+effect_bundles_localised_description_ironic_council_patronage_of_the_arts	Scholars, artisans and their wealthy admirers have made your court their own.	false
+effect_bundles_localised_title_ironic_council_host_a_tournament	The Grand Tournament	false
+effect_bundles_localised_description_ironic_council_host_a_tournament	For a season the commanderies talk of nothing but the lists, the wagers and the winner.	false
+effect_bundles_localised_title_ironic_council_tournament_injury	Tournament Injury	false
+effect_bundles_localised_description_ironic_council_tournament_injury	The fall was worse than it looked, and it will be some months before the arm answers properly.	false
+effect_bundles_localised_title_ironic_tournament_reward_dynasty	Renown of the Tournament	false
+effect_bundles_localised_description_ironic_tournament_reward_dynasty	Word of the victory is travelling further than any proclamation could.	false
+effect_bundles_localised_title_ironic_tournament_reward_champion	Laurels of the Lists	false
+effect_bundles_localised_description_ironic_tournament_reward_champion	The crowd knows the name now, and so does the champion. Winning again simply renews this.	false
+effect_bundles_localised_title_ironic_tournament_reward_crowd	The Crowd's Favour	false
+effect_bundles_localised_description_ironic_tournament_reward_crowd	The lists were a good day out and the grain was free. Winning again simply renews this.	false
+effect_bundles_localised_title_ironic_tournament_setback	Beaten in the Lists	false
+effect_bundles_localised_description_ironic_tournament_setback	He was unhorsed in front of half the commandery, and he will hear about it for a while.	false
+effect_bundles_localised_title_ironic_council_reward_heroism	Honoured for Valour	false
+effect_bundles_localised_description_ironic_council_reward_heroism	He has been decorated before the whole court and set to study under the finest masters available.	false
+effect_bundles_localised_title_ironic_council_court_examination	The Examination Halls	false
+effect_bundles_localised_description_ironic_council_court_examination	The halls are open, the examiners are seated, and the candidates are queued into the street.	false
+effect_bundles_localised_title_ironic_council_reassess_the_rolls	Advanced by Merit	false
+effect_bundles_localised_description_ironic_council_reassess_the_rolls	Overlooked for years, he has been raised in an afternoon to the grade his record always warranted.	false
+effect_bundles_localised_title_ironic_council_purge_corrupt_officials	The Inspectors' Purge	false
+effect_bundles_localised_description_ironic_council_purge_corrupt_officials	The ledgers are honest again, and the clerks who kept them are considerably less comfortable.	false
+effect_bundles_localised_title_ironic_council_tax_amnesty	Tax Amnesty	false
+effect_bundles_localised_description_ironic_council_tax_amnesty	This season's levy has been remitted in full, and the commanderies have noticed.	false
+effect_bundles_localised_title_ironic_council_open_the_granaries	The Granaries Opened	false
+effect_bundles_localised_description_ironic_council_open_the_granaries	State grain is moving into the district markets under your banner.	false
+effect_bundles_localised_title_ironic_council_grand_review_of_troops	Grand Review	false
+effect_bundles_localised_description_ironic_council_grand_review_of_troops	Every standard has been inspected and every complaint heard, and the men are the better for it.	false
+effect_bundles_localised_title_ironic_council_summon_a_physician	Under the Physician's Care	false
+effect_bundles_localised_description_ironic_council_summon_a_physician	He is in competent hands, and sleeping properly for the first time in a long while.	false
+effect_bundles_localised_title_ironic_council_grant_land_to_gentry	Gentry Estates	false
+effect_bundles_localised_description_ironic_council_grant_land_to_gentry	The great houses have been settled on the land and are working it with a will.	false
+effect_bundles_localised_title_ironic_council_expand_the_black_office	The Black Office	false
+effect_bundles_localised_description_ironic_council_expand_the_black_office	The office has quiet rooms and a real budget, and is keeping its people abroad rather better.	false
+effect_bundles_localised_title_ironic_council_unmask_the_informers	Watchers on the Watchers	false
+effect_bundles_localised_description_ironic_council_unmask_the_informers	Foreign agents are finding this court a markedly less comfortable place to work.	false
+effect_bundles_localised_title_ironic_council_convene_the_scholars	The Assembled Scholars	false
+effect_bundles_localised_description_ironic_council_convene_the_scholars	The scholars are shut in with the archives until the matter is settled, and the court is paying for all of them.	false
+effect_bundles_localised_title_ironic_council_retrench_the_court	Retrenchment	false
+effect_bundles_localised_description_ironic_council_retrench_the_court	Stipends have been cut and attendants dismissed; the treasury breathes and the court sulks.	false
+effect_bundles_localised_title_ironic_council_quarter_the_army	Quartered on the Land	false
+effect_bundles_localised_description_ironic_council_quarter_the_army	The regiments are dispersed into the villages, fed and housed by the districts they sit in.	false
+effect_bundles_localised_title_ironic_council_levy_the_corvee	The Corvee	false
+effect_bundles_localised_description_ironic_council_levy_the_corvee	Labour service has been called up, so the works rise quickly and the fields go untended.	false
+effect_bundles_localised_title_ironic_council_contract_free_companies	The Free Companies	false
+effect_bundles_localised_description_ironic_council_contract_free_companies	Contracts have been signed with the border captains in advance, and at a considerable discount.	false
+effect_bundles_localised_title_ironic_council_winter_provisioning	Provisioned Marches	false
+effect_bundles_localised_description_ironic_council_winter_provisioning	Salt, grain and felt have been laid in along the roads before the campaigning season opens.	false
+effect_bundles_localised_title_ironic_council_post_riders	The Post Roads	false
+effect_bundles_localised_description_ironic_council_post_riders	The relay stations are manned at proper intervals, with fresh horses waiting at every one.	false
+effect_bundles_localised_title_ironic_council_send_envoys	Envoys Abroad	false
+effect_bundles_localised_description_ironic_council_send_envoys	Gifts and reassurances have been delivered to every hall that would receive them.	false
+effect_bundles_localised_title_ironic_council_open_the_silk_routes	The Silk Routes	false
+effect_bundles_localised_description_ironic_council_open_the_silk_routes	The passes are cleared and the caravanserai garrisoned, with an honest toll posted for every merchant to read.	false
+effect_bundles_localised_title_ironic_council_resettle_the_displaced	Resettlement	false
+effect_bundles_localised_description_ironic_council_resettle_the_displaced	The roads are emptying as the displaced take up land, seed and a year's exemption.	false
+effect_bundles_localised_title_ironic_council_open_the_coffers	The Coffers Opened	false
+effect_bundles_localised_description_ironic_council_open_the_coffers	Stipends have been raised and arrears settled; it is expensive, and the court has noticed.	false
+effect_bundles_localised_title_ironic_council_spread_sedition	Sedition Abroad	false
+effect_bundles_localised_description_ironic_council_spread_sedition	Someone has been putting coin and grievance into the wrong hands out in the commanderies.	false
+effect_bundles_localised_title_ironic_council_blight_their_harvest	The Blighted Harvest	false
+effect_bundles_localised_description_ironic_council_blight_their_harvest	The fields burnt in the season when nothing can be replanted, and the granaries will be light.	false
+effect_bundles_localised_title_ironic_council_buy_out_their_merchants	The Merchants Bought	false
+effect_bundles_localised_description_ironic_council_buy_out_their_merchants	The great trading houses have found a better arrangement elsewhere and taken the routes with them.	false
+effect_bundles_localised_title_ironic_council_denounce_them_abroad	Denounced Abroad	false
+effect_bundles_localised_description_ironic_council_denounce_them_abroad	An account of their worst decisions is circulating in every court that matters.	false
+effect_bundles_localised_title_ironic_council_suborn_their_commander	A Commander Courted	false
+effect_bundles_localised_description_ironic_council_suborn_their_commander	Someone has been agreeing with him, at length, about everything he is owed.	false
+effect_bundles_localised_title_ironic_council_bribe_their_quartermasters	The Carts Miscounted	false
+effect_bundles_localised_description_ironic_council_bribe_their_quartermasters	The men who count the fodder have been paid to count it badly.	false
+effect_bundles_localised_title_ironic_council_vassal_tribute	Revised Tribute	false
+effect_bundles_localised_description_ironic_council_vassal_tribute	The tributaries are paying rather more than they agreed to, and everyone knows it.	false
+effect_bundles_localised_title_ironic_council_promote_industry	Industry Promoted	false
+effect_bundles_localised_description_ironic_council_promote_industry	Surveyors have been seconded and levies remitted, so workshops, forges and mines rise faster and cheaper.	false
+effect_bundles_localised_title_ironic_council_promote_commerce	Commerce Promoted	false
+effect_bundles_localised_description_ironic_council_promote_commerce	State carpenters and state money are behind the markets, the wharves and the trade roads.	false
+effect_bundles_localised_title_ironic_council_promote_peasantry	The Land Promoted	false
+effect_bundles_localised_description_ironic_council_promote_peasantry	Waterworks, granaries and field roads are being raised at the treasury's expense rather than the district's.	false
+effect_bundles_localised_title_ironic_council_promote_culture	Learning Promoted	false
+effect_bundles_localised_description_ironic_council_promote_culture	Schools, temples and tea houses are endowed, and cheaper to raise than they have ever been.	false
+effect_bundles_localised_title_ironic_council_seek_weapon	Buyers at the Smithies	false
+effect_bundles_localised_description_ironic_council_seek_weapon	Agents have been sent to every forge and estate sale with instructions to buy.	false
+effect_bundles_localised_title_ironic_council_seek_armour	Buyers for Armour	false
+effect_bundles_localised_description_ironic_council_seek_armour	Word is out that the court is buying harness, and paying without haggling.	false
+effect_bundles_localised_title_ironic_council_seek_mount	Agents at the Horse Fairs	false
+effect_bundles_localised_description_ironic_council_seek_mount	Buyers have been dispatched to the northern herds and the breeders' fairs.	false
+effect_bundles_localised_title_ironic_council_seek_follower	The Court Is Hiring	false
+effect_bundles_localised_description_ironic_council_seek_follower	Physicians, diviners and men of business have been invited to present themselves.	false
+effect_bundles_localised_title_ironic_council_seek_accessory	Collectors Dispatched	false
+effect_bundles_localised_description_ironic_council_seek_accessory	Collectors have been sent out with a purse and no very precise instructions.	false
+effect_bundles_localised_title_ironic_council_bandit_divide_spoils	The Spoils Divided	false
+effect_bundles_localised_description_ironic_council_bandit_divide_spoils	He handed it out by the fistful before the men who earned it, and they will not forget who allowed it.	false
+effect_bundles_localised_title_ironic_council_bandit_hill_levy	The Hill Country Levy	false
+effect_bundles_localised_description_ironic_council_bandit_hill_levy	The hill men are cheap and willing, and behaving exactly as badly as expected.	false
+effect_bundles_localised_title_ironic_council_scholar_commentaries	The Commentaries	false
+effect_bundles_localised_description_ironic_council_scholar_commentaries	He has a room, a stipend and as much quiet as a war allows.	false
+effect_bundles_localised_title_ironic_council_scholar_plain_speech	Plain Speech Permitted	false
+effect_bundles_localised_description_ironic_council_scholar_plain_speech	The accounts are honest for a season, and a good many officials have been posted elsewhere.	false
+effect_bundles_localised_title_ironic_council_renowned_name	His Name Precedes Him	false
+effect_bundles_localised_description_ironic_council_renowned_name	He is being seen in the squares and argued about at every dinner table between here and the border.	false
+effect_bundles_localised_title_ironic_council_renowned_example	The Champion's Example	false
+effect_bundles_localised_description_ironic_council_renowned_example	The recruits are drilling past exhaustion for a man they have heard songs about.	false
+effect_bundles_localised_title_ironic_council_char_cao_cao	The Agricultural Garrisons	false
+effect_bundles_localised_description_ironic_council_char_cao_cao	The garrisons soldier in spring and farm in summer, and the grain never has to be carted anywhere.	false
+effect_bundles_localised_title_ironic_council_char_liu_bei	Benevolence Proclaimed	false
+effect_bundles_localised_description_ironic_council_char_liu_bei	The promise was made plainly and kept when the refugees arrived, and word of that travels.	false
+effect_bundles_localised_title_ironic_council_char_sun_jian	The Tiger's Pace	false
+effect_bundles_localised_description_ironic_council_char_sun_jian	The columns are light and the depots forward, and orders are written for where the army will be.	false
+effect_bundles_localised_title_ironic_council_char_yuan_shao	Four Generations, Three Excellencies	false
+effect_bundles_localised_description_ironic_council_char_yuan_shao	The letters go under a seal that needs no explanation, carried by officials who expect to be paid like it.	false
+effect_bundles_localised_title_ironic_council_char_dong_zhuo	The Capital Stripped	false
+effect_bundles_localised_description_ironic_council_char_dong_zhuo	The capital has been melted, sold and carted out, and the histories will say what they always would.	false
+effect_bundles_localised_title_ironic_council_char_zhuge_liang	The Longzhong Plan	false
+effect_bundles_localised_description_ironic_council_char_zhuge_liang	The whole empire is drawn on one sheet, with the wars we do not have to fight marked out.	false
+effect_bundles_localised_title_ironic_council_char_sima_yi	Waiting for the Wind	false
+effect_bundles_localised_description_ironic_council_char_sima_yi	The watchers are funded, the court is patient, and the men in a hurry are tiring themselves.	false
+effect_bundles_localised_title_ironic_council_char_lu_xun	The Scholar in Armour	false
+effect_bundles_localised_description_ironic_council_char_lu_xun	The marching orders and supply tables are written by the same hand, and the column arrives intact.	false
+effect_bundles_localised_title_ironic_council_char_lu_meng	White Clothes on the River	false
+effect_bundles_localised_description_ironic_council_char_lu_meng	Merchants are poling quietly upriver with the armour in the bottom of the boat.	false
+effect_bundles_localised_title_ironic_council_char_lu_bu	No Man Rides Ahead of Him	false
+effect_bundles_localised_description_ironic_council_char_lu_bu	The plan is written around him rather than at him; the court is furious and the enemy is late.	false
+effect_bundles_localised_title_ironic_council_char_sun_ce	The Little Conqueror	false
+effect_bundles_localised_description_ironic_council_char_sun_ce	The columns are moving faster than the clerks who are supposed to follow them.	false
+effect_bundles_localised_title_ironic_council_char_sun_quan	Hold What Was Taken	false
+effect_bundles_localised_description_ironic_council_char_sun_quan	The garrisons are settled and the tribute paid by a house that means to be here in thirty years.	false
+effect_bundles_localised_title_ironic_council_char_liu_shan	The Court Governs Itself	false
+effect_bundles_localised_description_ironic_council_char_liu_shan	The ministers govern unsupervised, delighted, and are helping themselves at a steady rate.	false
+effect_bundles_localised_title_ironic_council_char_cao_pi	The Nine Ranks	false
+effect_bundles_localised_description_ironic_council_char_cao_pi	Every official is graded and appointed by the grade, and the great families are reading it carefully.	false
+effect_bundles_localised_title_ironic_council_char_gongsun_zan	The White Horse Fellows	false
+effect_bundles_localised_description_ironic_council_char_gongsun_zan	The remounts are kept up, and the steppe has learned to read the colour at a distance.	false
+effect_bundles_localised_title_ironic_council_char_kong_rong	The Rites Observed	false
+effect_bundles_localised_description_ironic_council_char_kong_rong	The ceremonies are observed in full and the schools endowed, and a season's revenue is quietly gone.	false
+effect_bundles_localised_title_ironic_council_char_liu_biao	The Peace of Jing	false
+effect_bundles_localised_description_ironic_council_char_liu_biao	The passes are garrisoned and the refugees fed, and the army has grown very comfortable indeed.	false
+effect_bundles_localised_title_ironic_council_char_liu_yan	The Roads Closed	false
+effect_bundles_localised_description_ironic_council_char_liu_yan	We are building inward behind held passes, and the plain is left to guess at it.	false
+effect_bundles_localised_title_ironic_council_char_ma_teng	The Liang Horsemen	false
+effect_bundles_localised_description_ironic_council_char_ma_teng	There are more riders than we can feed, moving faster than anything that might object.	false
+effect_bundles_localised_title_ironic_council_char_tao_qian	Xu Endures	false
+effect_bundles_localised_description_ironic_council_char_tao_qian	The granaries are run by a tired old man who has never yet had to raise the grain tax.	false
+effect_bundles_localised_title_ironic_council_char_yuan_shu	The Seal Displayed	false
+effect_bundles_localised_description_ironic_council_char_yuan_shu	The claim has been made loudly and in writing; everyone has taken offence and everyone is talking.	false
+effect_bundles_localised_title_ironic_council_char_zheng_jiang	The Queen's Word	false
+effect_bundles_localised_description_ironic_council_char_zheng_jiang	The accounting is creative and the peace in the hills actually holds.	false
+effect_bundles_localised_title_ironic_council_char_zhang_yan	The Black Mountain	false
+effect_bundles_localised_description_ironic_council_char_zhang_yan	The army is paid in salt and grain, and the magistrates are left to cope.	false
+effect_bundles_localised_title_ironic_council_char_yan_baihu	The White Tiger's Toll	false
+effect_bundles_localised_description_ironic_council_char_yan_baihu	There is a posted rate and a receipt, which is more than the merchants had before.	false
+effect_bundles_localised_title_ironic_council_char_han_sui	The Old Alliance	false
+effect_bundles_localised_description_ironic_council_char_han_sui	The old oaths are being collected from the sons of the men who swore them.	false
+effect_bundles_localised_title_ironic_council_char_gao_gan	The Governor of Bing	false
+effect_bundles_localised_description_ironic_council_char_gao_gan	We are building fast in a province that has decided it prefers us to the alternative.	false
+effect_bundles_localised_title_ironic_council_char_song_jian	King of Hexi	false
+effect_bundles_localised_description_ironic_council_char_song_jian	The title was taken and then granted retroactively, and nobody will be the wiser in fifty years.	false
+effect_bundles_localised_title_ironic_council_char_liu_yu	The Northern Peace	false
+effect_bundles_localised_description_ironic_council_char_liu_yu	The frontier markets are funded, the tribute flows, and the war party has been sent elsewhere.	false
+effect_bundles_localised_title_ironic_council_char_wang_kuang	The Henei Levy	false
+effect_bundles_localised_description_ironic_council_char_wang_kuang	The province has become extremely practised at replacing its own army.	false
+effect_bundles_localised_title_ironic_council_char_zhang_yang	The Quiet Marches	false
+effect_bundles_localised_description_ironic_council_char_zhang_yang	There are depots at every stage and no banners on the carts, and the road is still open.	false
+effect_bundles_localised_title_ironic_council_char_yang_feng	The White Wave Bargain	false
+effect_bundles_localised_description_ironic_council_char_yang_feng	They are the cheapest infantry in the empire, for exactly as long as the grain lasts.	false
+effect_bundles_localised_title_ironic_council_char_liu_chong	The Prince's Purse	false
+effect_bundles_localised_description_ironic_council_char_liu_chong	The treasury is full, and a princely household expects to be kept in the style it is used to.	false
+effect_bundles_localised_title_ironic_council_char_zhu_hao	The Captains' Contract	false
+effect_bundles_localised_description_ironic_council_char_zhu_hao	The rate drops the moment the captains see whose seal is on the contract.	false
+effect_bundles_localised_title_ironic_council_char_bian_rang	The Scholar's Circle	false
+effect_bundles_localised_description_ironic_council_char_bian_rang	The province's promising young men are under one roof and on a stipend.	false
+effect_bundles_localised_title_ironic_council_char_wang_sheng	The Hall of Repose	false
+effect_bundles_localised_description_ironic_council_char_wang_sheng	The rota was nobody's idea and the court has finally slept.	false
+effect_bundles_localised_title_ironic_council_char_zhang_chao	The Calligrapher's Hand	false
+effect_bundles_localised_description_ironic_council_char_zhang_chao	The important orders are written in the one hand nobody argues with.	false
+effect_bundles_localised_title_ironic_council_char_guan_yu	The Duke's Oath	false
+effect_bundles_localised_description_ironic_council_char_guan_yu	A story every soldier already knows is now attached to your banner.	false
+effect_bundles_localised_title_ironic_council_char_zhang_fei	Drink and Discipline	false
+effect_bundles_localised_description_ironic_council_char_zhang_fei	He has turned a mob into a battle line in a fortnight, and nobody visits the camp.	false
+effect_bundles_localised_title_ironic_council_char_zhao_yun	The Escort of the Heir	false
+effect_bundles_localised_description_ironic_council_char_zhao_yun	The people who matter are placed behind the one man nobody has to worry about.	false
+effect_bundles_localised_title_ironic_council_char_ma_chao	The Western Riders	false
+effect_bundles_localised_description_ironic_council_char_ma_chao	The riders follow him rather than us, and cover ground nobody else can.	false
+effect_bundles_localised_title_ironic_council_char_zhou_yu	The River Is Ours	false
+effect_bundles_localised_description_ironic_council_char_zhou_yu	The channels, depots and grain villages are his, and the campaign no longer needs the roads.	false
+effect_bundles_localised_title_ironic_council_char_meng_huo	The Southern Tribes	false
+effect_bundles_localised_description_ironic_council_char_meng_huo	They cross the killing ground without noticing it, on terms of their own.	false
+effect_bundles_localised_title_ironic_council_captains_yuan_shao	The Armoury at Ye	false
+effect_bundles_localised_description_ironic_council_captains_yuan_shao	The captains have been re-horsed and re-armed from the state stores, at the state's price.	false
+effect_bundles_localised_title_ironic_council_captains_bian_rang	Borrowed Banners	false
+effect_bundles_localised_description_ironic_council_captains_bian_rang	Another man's captains are flying another man's colours and doing our work.	false
+effect_bundles_localised_title_ironic_council_captains_zhu_hao	The New Captains Blooded	false
+effect_bundles_localised_description_ironic_council_captains_zhu_hao	The new companies are getting a season of real work under officers who have survived one.	false
+effects_description_ironic_dummy_effect_council_treasury_instant	[[b]]%+n[[/b]] to the treasury, paid once on enactment	false
+effects_value_format_ironic_dummy_effect_council_treasury_instant		false
+effects_description_ironic_dummy_effect_council_experience_instant	[[b]]%+n[[/b]] experience, granted once on enactment	false
+effects_value_format_ironic_dummy_effect_council_experience_instant		false
+effects_description_ironic_dummy_effect_council_new_character	A new character of at least rank 3 joins your court	false
+effects_value_format_ironic_dummy_effect_council_new_character		false
+effects_description_ironic_dummy_effect_council_promote_character	This character is advanced to rank 4 or 5	false
+effects_value_format_ironic_dummy_effect_council_promote_character		false
+effects_description_ironic_dummy_effect_council_heal_injury	Removes one lingering injury or illness from this character	false
+effects_value_format_ironic_dummy_effect_council_heal_injury		false
+effects_description_ironic_dummy_effect_council_tournament_pending	Dilemmas will trigger soon.	false
+effects_value_format_ironic_dummy_effect_council_tournament_pending		false
+effects_description_ironic_dummy_effect_council_extra_reform	[[b]]%+n[[/b]] reform researched at once, this turn	false
+effects_value_format_ironic_dummy_effect_council_extra_reform		false
+effects_description_ironic_dummy_effect_council_ancillary_draw	A random ancillary of this kind joins your bank	false
+effects_value_format_ironic_dummy_effect_council_ancillary_draw		false
+effects_description_ironic_effect_construction_time_industry	[[b]]%+n[[/b]] construction time (industry)	false
+effects_value_format_ironic_effect_construction_time_industry		false
+effects_description_ironic_effect_construction_cost_industry	[[b]]%+n%%[[/b]] construction cost (industry)	false
+effects_value_format_ironic_effect_construction_cost_industry		false
+effects_description_ironic_effect_construction_time_commerce	[[b]]%+n[[/b]] construction time (commerce)	false
+effects_value_format_ironic_effect_construction_time_commerce		false
+effects_description_ironic_effect_construction_cost_commerce	[[b]]%+n%%[[/b]] construction cost (commerce)	false
+effects_value_format_ironic_effect_construction_cost_commerce		false
+effects_description_ironic_effect_construction_time_peasantry	[[b]]%+n[[/b]] construction time (agriculture)	false
+effects_value_format_ironic_effect_construction_time_peasantry		false
+effects_description_ironic_effect_construction_cost_peasantry	[[b]]%+n%%[[/b]] construction cost (agriculture)	false
+effects_value_format_ironic_effect_construction_cost_peasantry		false
+effects_description_ironic_effect_construction_time_culture	[[b]]%+n[[/b]] construction time (learning)	false
+effects_value_format_ironic_effect_construction_time_culture		false
+effects_description_ironic_effect_construction_cost_culture	[[b]]%+n%%[[/b]] construction cost (learning)	false
+effects_value_format_ironic_effect_construction_cost_culture		false
+effects_description_ironic_dummy_effect_council_captain_level	[[b]]%+n[[/b]] captain retinue level	false
+effects_value_format_ironic_dummy_effect_council_captain_level		false
+dilemmas_localised_title_ironic_tournament_dlm_open_01	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_01	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nTwo of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_012	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_012	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nThree of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_0123	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_0123	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nFour of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_013	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_013	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nThree of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_02	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_02	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nTwo of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_023	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_023	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nThree of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_03	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_03	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nTwo of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_12	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_12	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nTwo of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_123	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_123	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nThree of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_13	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_13	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nTwo of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_open_23	The Lists Are Opened	false
+dilemmas_localised_description_ironic_tournament_dlm_open_23	The heralds have gone out and the ground is marked. What remains is to name the man who will ride in your colours for the year.\\n\\nTwo of your officers are at court and unattached to any army. Each is a different sort of fighter, and each would bring a different sort of glory.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_1_won	Victory: The sand ring	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_1_won	Your champion came through the sand ring — a plain circle, a plain crowd, and nowhere at all to hide a bad guard — and the ground is his.\\n\\nWhat remains is to say whose victory it was.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_1_lost	Defeat: The sand ring	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_1_lost	He was beaten at the sand ring, in front of a plain circle, a plain crowd, and nowhere at all to hide a bad guard.\\n\\nNothing can be done about the result. Something can be done about how it is remembered.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_2_won	Victory: The mounted passes	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_2_won	Your champion came through the mounted passes — two riders, a hundred paces of churned ground, and the horses deciding half of it — and the ground is his.\\n\\nWhat remains is to say whose victory it was.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_2_lost	Defeat: The mounted passes	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_2_lost	He was beaten at the mounted passes, in front of two riders, a hundred paces of churned ground, and the horses deciding half of it.\\n\\nNothing can be done about the result. Something can be done about how it is remembered.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_3_won	Victory: The archery butts	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_3_won	Your champion came through the archery butts — no shouting, no shoving, and a silence that unnerves men who fight for a living — and the ground is his.\\n\\nWhat remains is to say whose victory it was.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_3_lost	Defeat: The archery butts	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_3_lost	He was beaten at the archery butts, in front of no shouting, no shoving, and a silence that unnerves men who fight for a living.\\n\\nNothing can be done about the result. Something can be done about how it is remembered.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_4_won	Victory: The melee at the barrier	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_4_won	Your champion came through the melee at the barrier — a dozen men on the sand at once, and the judges frankly guessing at the rest — and the ground is his.\\n\\nWhat remains is to say whose victory it was.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_4_lost	Defeat: The melee at the barrier	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_4_lost	He was beaten at the melee at the barrier, in front of a dozen men on the sand at once, and the judges frankly guessing at the rest.\\n\\nNothing can be done about the result. Something can be done about how it is remembered.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_5_won	Victory: The bouts by torchlight	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_5_won	Your champion came through the bouts by torchlight — the crowd drunk, the shadows unhelpful, and everything happening rather faster than it should — and the ground is his.\\n\\nWhat remains is to say whose victory it was.	false
+dilemmas_localised_title_ironic_tournament_dlm_bout_5_lost	Defeat: The bouts by torchlight	false
+dilemmas_localised_description_ironic_tournament_dlm_bout_5_lost	He was beaten at the bouts by torchlight, in front of the crowd drunk, the shadows unhelpful, and everything happening rather faster than it should.\\n\\nNothing can be done about the result. Something can be done about how it is remembered.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_1_lostFIRST	Make Good His Wagers	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_1_lostFIRST	[[i]]"Settle what he owes before anyone thinks to gossip about it."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_1_lost_first	The debts are quietly paid and his name comes through the day intact.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_1_lostSECOND	Let Him Answer For It	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_1_lostSECOND	[[i]]"He rode in my colours and he lost. He can carry that himself."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_1_lost_second	No help offered. He wears the defeat, and knows it.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_1_wonFIRST	For the Dynasty	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_1_wonFIRST	[[i]]"Ride under the banner. Let them see whose colours took the field."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_1_won_first	The victory is credited to your house rather than to any one man.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_1_wonSECOND	For His Own Name	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_1_wonSECOND	[[i]]"Let him take the laurels himself. He has earned the right to be known."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_1_won_second	The champion takes the laurels, and the confidence that comes with them.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_1_wonTHIRD	For the Crowd	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_1_wonTHIRD	[[i]]"Play to the stands. Open the wine and let them remember the day fondly."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_1_won_third	The crowd goes home happy, and rather well disposed towards you.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_2_lostFIRST	Make Good His Wagers	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_2_lostFIRST	[[i]]"Settle what he owes before anyone thinks to gossip about it."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_2_lost_first	The debts are quietly paid and his name comes through the day intact.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_2_lostSECOND	Let Him Answer For It	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_2_lostSECOND	[[i]]"He rode in my colours and he lost. He can carry that himself."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_2_lost_second	No help offered. He wears the defeat, and knows it.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_2_wonFIRST	For the Dynasty	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_2_wonFIRST	[[i]]"Ride under the banner. Let them see whose colours took the field."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_2_won_first	The victory is credited to your house rather than to any one man.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_2_wonSECOND	For His Own Name	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_2_wonSECOND	[[i]]"Let him take the laurels himself. He has earned the right to be known."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_2_won_second	The champion takes the laurels, and the confidence that comes with them.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_2_wonTHIRD	For the Crowd	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_2_wonTHIRD	[[i]]"Play to the stands. Open the wine and let them remember the day fondly."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_2_won_third	The crowd goes home happy, and rather well disposed towards you.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_3_lostFIRST	Make Good His Wagers	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_3_lostFIRST	[[i]]"Settle what he owes before anyone thinks to gossip about it."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_3_lost_first	The debts are quietly paid and his name comes through the day intact.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_3_lostSECOND	Let Him Answer For It	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_3_lostSECOND	[[i]]"He rode in my colours and he lost. He can carry that himself."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_3_lost_second	No help offered. He wears the defeat, and knows it.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_3_wonFIRST	For the Dynasty	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_3_wonFIRST	[[i]]"Ride under the banner. Let them see whose colours took the field."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_3_won_first	The victory is credited to your house rather than to any one man.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_3_wonSECOND	For His Own Name	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_3_wonSECOND	[[i]]"Let him take the laurels himself. He has earned the right to be known."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_3_won_second	The champion takes the laurels, and the confidence that comes with them.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_3_wonTHIRD	For the Crowd	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_3_wonTHIRD	[[i]]"Play to the stands. Open the wine and let them remember the day fondly."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_3_won_third	The crowd goes home happy, and rather well disposed towards you.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_4_lostFIRST	Make Good His Wagers	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_4_lostFIRST	[[i]]"Settle what he owes before anyone thinks to gossip about it."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_4_lost_first	The debts are quietly paid and his name comes through the day intact.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_4_lostSECOND	Let Him Answer For It	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_4_lostSECOND	[[i]]"He rode in my colours and he lost. He can carry that himself."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_4_lost_second	No help offered. He wears the defeat, and knows it.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_4_wonFIRST	For the Dynasty	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_4_wonFIRST	[[i]]"Ride under the banner. Let them see whose colours took the field."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_4_won_first	The victory is credited to your house rather than to any one man.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_4_wonSECOND	For His Own Name	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_4_wonSECOND	[[i]]"Let him take the laurels himself. He has earned the right to be known."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_4_won_second	The champion takes the laurels, and the confidence that comes with them.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_4_wonTHIRD	For the Crowd	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_4_wonTHIRD	[[i]]"Play to the stands. Open the wine and let them remember the day fondly."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_4_won_third	The crowd goes home happy, and rather well disposed towards you.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_5_lostFIRST	Make Good His Wagers	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_5_lostFIRST	[[i]]"Settle what he owes before anyone thinks to gossip about it."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_5_lost_first	The debts are quietly paid and his name comes through the day intact.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_5_lostSECOND	Let Him Answer For It	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_5_lostSECOND	[[i]]"He rode in my colours and he lost. He can carry that himself."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_5_lost_second	No help offered. He wears the defeat, and knows it.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_5_wonFIRST	For the Dynasty	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_5_wonFIRST	[[i]]"Ride under the banner. Let them see whose colours took the field."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_5_won_first	The victory is credited to your house rather than to any one man.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_5_wonSECOND	For His Own Name	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_5_wonSECOND	[[i]]"Let him take the laurels himself. He has earned the right to be known."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_5_won_second	The champion takes the laurels, and the confidence that comes with them.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_bout_5_wonTHIRD	For the Crowd	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_bout_5_wonTHIRD	[[i]]"Play to the stands. Open the wine and let them remember the day fondly."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_bout_5_won_third	The crowd goes home happy, and rather well disposed towards you.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_01FIRST	The Vanguard	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_01FIRST	[[i]]"Give me the man who breaks the line. Refinement is for scholars."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_01_first	Your finest unattached Vanguard takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_01SECOND	The Sentinel	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_01SECOND	[[i]]"Send the one they cannot move. Let them tire themselves against him."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_01_second	Your finest unattached Sentinel takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_012FIRST	The Vanguard	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_012FIRST	[[i]]"Give me the man who breaks the line. Refinement is for scholars."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_012_first	Your finest unattached Vanguard takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_012SECOND	The Sentinel	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_012SECOND	[[i]]"Send the one they cannot move. Let them tire themselves against him."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_012_second	Your finest unattached Sentinel takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_012THIRD	The Champion	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_012THIRD	[[i]]"A duellist, then. The crowd came to see a duel."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_012_third	Your finest unattached Champion takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_0123FIRST	The Vanguard	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_0123FIRST	[[i]]"Give me the man who breaks the line. Refinement is for scholars."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_0123_first	Your finest unattached Vanguard takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_0123SECOND	The Sentinel	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_0123SECOND	[[i]]"Send the one they cannot move. Let them tire themselves against him."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_0123_second	Your finest unattached Sentinel takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_0123THIRD	The Champion	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_0123THIRD	[[i]]"A duellist, then. The crowd came to see a duel."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_0123_third	Your finest unattached Champion takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_0123FOURTH	The Strategist	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_0123FOURTH	[[i]]"He will not out-fight them. He does not need to."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_0123_fourth	Your finest unattached Strategist takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_013FIRST	The Vanguard	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_013FIRST	[[i]]"Give me the man who breaks the line. Refinement is for scholars."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_013_first	Your finest unattached Vanguard takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_013SECOND	The Sentinel	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_013SECOND	[[i]]"Send the one they cannot move. Let them tire themselves against him."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_013_second	Your finest unattached Sentinel takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_013THIRD	The Strategist	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_013THIRD	[[i]]"He will not out-fight them. He does not need to."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_013_third	Your finest unattached Strategist takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_02FIRST	The Vanguard	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_02FIRST	[[i]]"Give me the man who breaks the line. Refinement is for scholars."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_02_first	Your finest unattached Vanguard takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_02SECOND	The Champion	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_02SECOND	[[i]]"A duellist, then. The crowd came to see a duel."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_02_second	Your finest unattached Champion takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_023FIRST	The Vanguard	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_023FIRST	[[i]]"Give me the man who breaks the line. Refinement is for scholars."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_023_first	Your finest unattached Vanguard takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_023SECOND	The Champion	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_023SECOND	[[i]]"A duellist, then. The crowd came to see a duel."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_023_second	Your finest unattached Champion takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_023THIRD	The Strategist	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_023THIRD	[[i]]"He will not out-fight them. He does not need to."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_023_third	Your finest unattached Strategist takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_03FIRST	The Vanguard	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_03FIRST	[[i]]"Give me the man who breaks the line. Refinement is for scholars."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_03_first	Your finest unattached Vanguard takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_03SECOND	The Strategist	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_03SECOND	[[i]]"He will not out-fight them. He does not need to."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_03_second	Your finest unattached Strategist takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_12FIRST	The Sentinel	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_12FIRST	[[i]]"Send the one they cannot move. Let them tire themselves against him."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_12_first	Your finest unattached Sentinel takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_12SECOND	The Champion	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_12SECOND	[[i]]"A duellist, then. The crowd came to see a duel."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_12_second	Your finest unattached Champion takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_123FIRST	The Sentinel	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_123FIRST	[[i]]"Send the one they cannot move. Let them tire themselves against him."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_123_first	Your finest unattached Sentinel takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_123SECOND	The Champion	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_123SECOND	[[i]]"A duellist, then. The crowd came to see a duel."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_123_second	Your finest unattached Champion takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_123THIRD	The Strategist	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_123THIRD	[[i]]"He will not out-fight them. He does not need to."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_123_third	Your finest unattached Strategist takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_13FIRST	The Sentinel	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_13FIRST	[[i]]"Send the one they cannot move. Let them tire themselves against him."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_13_first	Your finest unattached Sentinel takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_13SECOND	The Strategist	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_13SECOND	[[i]]"He will not out-fight them. He does not need to."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_13_second	Your finest unattached Strategist takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_23FIRST	The Champion	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_23FIRST	[[i]]"A duellist, then. The crowd came to see a duel."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_23_first	Your finest unattached Champion takes up the colours.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_tournament_dlm_open_23SECOND	The Strategist	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_tournament_dlm_open_23SECOND	[[i]]"He will not out-fight them. He does not need to."[[/i]]	false
+campaign_payload_ui_details_description_ironic_tournament_dlm_open_23_second	Your finest unattached Strategist takes up the colours.	false
+incidents_localised_title_ironic_tournament_incident_champion	Champion of the Realm	false
+incidents_localised_description_ironic_tournament_incident_champion	Your man took the meeting outright, and the shouting went on long after the crowd should have gone home. He will be spoken of in commanderies that have never heard your name — which is, of course, rather the point.	false
+incidents_localised_title_ironic_tournament_incident_injured	Carried From the Lists	false
+incidents_localised_description_ironic_tournament_incident_injured	It was not a clean fall, and he did not get up on his own. The physicians expect a recovery, in time. The tournament, however, will finish without him.	false
+incidents_localised_title_ironic_tournament_incident_only_one	One Man Could Be Spared	false
+incidents_localised_description_ironic_tournament_incident_only_one	Only one of your officers was free to ride, so there was nothing to decide. He has the colours and the ground is marked; the rest is up to him.	false
+incidents_localised_title_ironic_tournament_incident_abandoned	The Lists Stand Empty	false
+incidents_localised_description_ironic_tournament_incident_abandoned	Your champion is dead, and there is no one at court with either the standing or the appetite to take his place mid-season. The heralds have been sent to call the thing off.	false
+incidents_localised_title_ironic_hostile_incident_sedition	Unrest in the Commanderies	false
+incidents_localised_description_ironic_hostile_incident_sedition	Reports arrive of coin changing hands in market squares and old grievances suddenly finding their voice. Somebody is paying for this, and it is not one of your magistrates.	false
+incidents_localised_title_ironic_hostile_incident_blight	The Fields Are Burning	false
+incidents_localised_description_ironic_hostile_incident_blight	Riders came through the farmland at night with torches and salt, in the one season when nothing can be replanted. The granary counts for next year will make grim reading.	false
+incidents_localised_title_ironic_hostile_incident_merchants	The Trading Houses Withdraw	false
+incidents_localised_description_ironic_hostile_incident_merchants	The great merchant families have quietly accepted a better offer elsewhere, and the caravan routes have gone with them. Your customs officers are standing at empty gates.	false
+incidents_localised_title_ironic_hostile_incident_denounced	Denounced in Every Court	false
+incidents_localised_description_ironic_hostile_incident_denounced	A carefully assembled account of your worst decisions is being read aloud in halls you have never visited. Enough of it is true to make the rest stick.	false
+incidents_localised_title_ironic_hostile_incident_suborned	A Commander's Grievance	false
+incidents_localised_description_ironic_hostile_incident_suborned	One of your generals has been receiving a great deal of sympathetic correspondence about how badly he has been used. He appears to have found it persuasive.	false
+incidents_localised_title_ironic_hostile_incident_quartermasters	The Carts Do Not Add Up	false
+incidents_localised_description_ironic_hostile_incident_quartermasters	The fodder counts are wrong, and have been for some time. Your quartermasters are either incompetent or have been paid to appear so.	false

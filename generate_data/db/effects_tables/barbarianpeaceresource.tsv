@@ -1,0 +1,13 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/barbarianpeaceresource								
+ironic_barbarian_decay	mh_political_parties_icon_warlords.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_barbarian_armies	mh_political_parties_icon_warlords.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_rage_captives_post_battle	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_barbarian_rage_rage	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_barbarian_rage_garrisoned	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_barbarian_rage_vassalized	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_barbarian_rage_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_barbarian_rage_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_barbarian_rage_executed	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_barbarian_rage_tax	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_barbarian_rage_war	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default

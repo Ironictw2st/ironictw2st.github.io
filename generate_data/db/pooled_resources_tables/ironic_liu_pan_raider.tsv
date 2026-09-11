@@ -1,0 +1,4 @@
+key	persistent_factors	default_factor	ai_ignored	minimum	maximum	overflow_behaviour	reset_policy	icon_path	ui_value_scale_factor	income_policy	shared
+#pooled_resources_tables;10;db/pooled_resources_tables/ironic_liu_pan_raider											
+ironic_liu_pan_ferocity	false	ironic_liu_pan_ferocity_factor	false	0	100	DISCARD	NONE	ui/Campaign UI/effect_bundles/ironic_poolde_resource_raider.png	1.0000	END_OF_ROUND	false
+ironic_liu_pan_uncle_favour	false	ironic_liu_pan_uncle_favour_factor	false	0	100	DISCARD	NONE	ui/campaign ui/effect_bundles/icon_attitude_trusted_friend.png	1.0000	END_OF_ROUND	false

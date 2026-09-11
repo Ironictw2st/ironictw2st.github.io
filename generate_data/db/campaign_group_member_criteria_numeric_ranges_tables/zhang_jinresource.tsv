@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/zhang_jinresource			
+ironic_zhang_jin_qi_level_0	20	0	value
+ironic_zhang_jin_qi_level_1	40	21	value
+ironic_zhang_jin_qi_level_2	60	41	value
+ironic_zhang_jin_qi_level_3	80	61	value
+ironic_zhang_jin_qi_level_4	100	81	value

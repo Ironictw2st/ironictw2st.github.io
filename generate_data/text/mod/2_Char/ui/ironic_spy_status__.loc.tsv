@@ -1,0 +1,15 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_spy_status__.loc		
+campaign_localised_strings_string_ironic_spy_tt_spy	[[col:red]]Foreign agent.[[/col]] This character is an undercover operative working for another faction. Your counter-espionage has seen through their cover.	false
+campaign_localised_strings_string_ironic_spy_tt_willing	[[col:green]]Open to persuasion.[[/col]] This character could be turned into an undercover agent, and their loyalty is low enough that they would accept the offer.	false
+campaign_localised_strings_string_ironic_spy_tt_refuse	[[col:green]]Loyal.[[/col]] This character is willing to serve as an undercover agent for your purpose.	false
+campaign_localised_strings_string_ironic_spy_tt_cannot	This character can never serve as an undercover agent.	false
+campaign_localised_strings_string_ironic_spy_tt_unknown	Your counter-espionage is not strong enough to judge this character. Increase your spy defence to see through their cover.	false
+campaign_localised_strings_string_ironic_spy_tt_no_data	No counter-espionage report for this character. If you see this on everyone, the mod is not receiving data.	false
+campaign_localised_strings_string_ironic_spy_tt_suspect	[[col:yellow]]Under suspicion.[[/col]] Something about this character does not sit right. Your counter-espionage cannot yet tell whether they serve another master or are simply loyal to you.	false
+effect_bundles_localised_title_ironic_spy_defence_1	Counter-Espionage Network	false
+effect_bundles_localised_description_ironic_spy_defence_1	Your agents watch the court. Weak infiltrators can no longer hide from you.	false
+effect_bundles_localised_title_ironic_spy_defence_2	Watchful Court	false
+effect_bundles_localised_description_ironic_spy_defence_2	A disciplined web of informants. Most foreign agents are exposed.	false
+effect_bundles_localised_title_ironic_spy_defence_3	The Silent Bureau	false
+effect_bundles_localised_description_ironic_spy_defence_3	Nothing said in your halls escapes you. Even veteran agents are laid bare.	false

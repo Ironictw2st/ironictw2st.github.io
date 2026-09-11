@@ -1,0 +1,14 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/@@path_to_unity								
+3k_main_effect_unit_cap_earth_handmaid_guards	replenishment.png	150	battle	earth		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_fire_destroyers_of_treachery	replenishment.png	150	battle	fire		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_fire_qiang_marauders	replenishment.png	150	battle	fire		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_metal_imperial_guards	replenishment.png	150	battle	metal		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_metal_warriors_of_xu	replenishment.png	150	battle	metal		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_metal_xu_raiders	replenishment.png	150	battle	metal		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_water_archers_of_jing	replenishment.png	150	battle	water		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_water_dongzhoubing_marksmen	replenishment.png	150	battle	water		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_water_white_horse_fellows	replenishment.png	150	battle	water		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_wood_dongzhoubing_defenders	replenishment.png	150	battle	wood		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_wood_imperial_defenders	replenishment.png	150	battle	wood		0.0000	positive_value_is_good	default
+3k_main_effect_unit_cap_wood_infantry_of_jing	replenishment.png	150	battle	wood		0.0000	positive_value_is_good	default

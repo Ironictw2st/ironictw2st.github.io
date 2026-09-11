@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_horde_dilemmas.loc		
+dilemmas_localised_title_ironic_horde_dlm_plague	Plague in the Host	false
+dilemmas_localised_description_ironic_horde_dlm_plague	Sickness spreads through one of your wandering camps. The shamans argue over the remedy.	false
+random_localisation_strings_string_ironic_horde_dlm_plague_first	Cull the sick before it spreads.	false
+random_localisation_strings_string_ironic_horde_dlm_plague_second	Pay the healers to tend them.	false
+dilemmas_localised_title_ironic_horde_dlm_feud	A Tribal Feud	false
+dilemmas_localised_description_ironic_horde_dlm_feud	Two clans in one of your hosts have come to blows over an old insult. Blood may answer blood.	false
+random_localisation_strings_string_ironic_horde_dlm_feud_first	Let them settle it in blood.	false
+random_localisation_strings_string_ironic_horde_dlm_feud_second	Pay the blood-price and end it.	false
+dilemmas_localised_title_ironic_horde_dlm_kin	Wandering Kin	false
+dilemmas_localised_description_ironic_horde_dlm_kin	A band of displaced kinsfolk has found one of your camps and asks to join the host.	false
+random_localisation_strings_string_ironic_horde_dlm_kin_first	Welcome them to the fires.	false
+random_localisation_strings_string_ironic_horde_dlm_kin_second	Turn them away, but take their tribute.	false

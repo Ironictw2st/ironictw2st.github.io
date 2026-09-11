@@ -1,0 +1,12 @@
+key
+#pooled_resource_factors_tables;0;db/pooled_resource_factors_tables/you_turesource
+ironic_enforcement_factor
+ironic_enforcement_victory
+ironic_enforcement_defeat
+ironic_enforcement_decay
+ironic_enforcement_at_war
+ironic_enforcement_post_battle_options
+ironic_enforcement_assignments
+ironic_enforcement_purchases
+ironic_enforcement_duel_won
+ironic_enforcement_duel_lost

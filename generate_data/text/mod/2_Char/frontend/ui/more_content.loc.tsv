@@ -1,0 +1,112 @@
+key	text	tooltip
+#Loc;1;text/frontend/ui/more_content.loc		
+more_content_component_korea_190e_title	[[b]][NEW][[/b]] The Korean Peninsula	false
+more_content_component_korea_190e_bullet_1	Seven Korean polities gain named historical characters of their own.	false
+more_content_component_korea_190e_bullet_2	A dedicated 60-tech tree across Court, Military and Economy.	false
+more_content_component_korea_190e_bullet_3	Fifteen generic skill trees and twelve unique ones.	false
+more_content_component_nomad_hordes_title	[[b]][NEW][[/b]] Nomadic Hordes	false
+more_content_component_nomad_hordes_bullet_1	Wuhuan, Xiongnu and Xianbei develop through armies, not settlements.	false
+more_content_component_nomad_hordes_bullet_2	Build inside an army, and pass it to an heir when a general falls.	false
+more_content_component_ma_teng_stables_title	[[b]][NEW][[/b]] Ma Teng's Stables	false
+more_content_component_ma_teng_stables_bullet_1	Breed, train and break in horses across six frontier bloodlines.	false
+more_content_component_ma_teng_stables_bullet_2	Mount champions on them, sell them, or dedicate them for blessings.	false
+more_content_component_governor_edicts_title	[[b]][NEW][[/b]] Governor Edicts	false
+more_content_component_governor_edicts_bullet_1	Gongsun Zan's five inspectors each enact a regional edict.	false
+more_content_component_governor_edicts_bullet_2	Which edicts you get depends on traits; strength scales with rank.	false
+more_content_component_trial_by_combat_title	[[b]][NEW][[/b]] Trial by Combat	false
+more_content_component_trial_by_combat_bullet_1	Lu Bu duels the Greatest Warriors serving in his own faction.	false
+more_content_component_trial_by_combat_bullet_2	The roster of Greatest Warriors grows from 46 to 88.	false
+more_content_component_black_market_title	[[b]][NEW][[/b]] The Black Market	false
+more_content_component_black_market_bullet_1	You Tu earns Enforcement by winning battles and duels.	false
+more_content_component_black_market_bullet_2	Spend Enforcement or gold on twelve kinds of equipment case.	false
+more_content_component_faction_council_190e_title	[[b]][NEW][[/b]] Faction Council Expansion	false
+more_content_component_faction_council_190e_bullet_1	Around ninety new suggestions join the seasonal council meeting.	false
+more_content_component_bandit_council_title	[[b]][NEW][[/b]] The Bandit Council	false
+more_content_component_bandit_council_bullet_1	Bandit factions hold their own council each Winter.	false
+more_content_component_grand_tournament_title	[[b]][NEW][[/b]] The Grand Tournament	false
+more_content_component_grand_tournament_bullet_1	A year-long arc: pick a discipline and field a champion.	false
+more_content_component_needle_path_title	[[b]][NEW][[/b]] The Needle Path	false
+more_content_component_needle_path_bullet_1	Zhang Jin spends Qi across 32 acupuncture points.	false
+more_content_component_needle_path_bullet_2	Blessings cost Qi; forbidden points drain it every turn.	false
+more_content_component_fathers_legacy_title	[[b]][NEW][[/b]] Father's Legacy	false
+more_content_component_fathers_legacy_bullet_1	A twelve-mission track out from under his father's shadow.	false
+more_content_component_fathers_legacy_bullet_2	Spend it on 24 doctrines, at the cost of your leader's own bonus.	false
+more_content_component_qu_pan_sanity_title	[[b]][NEW][[/b]] Sanity	false
+more_content_component_qu_pan_sanity_bullet_1	Qu Pan's grip on reality drives a seasonal event each Harvest.	false
+more_content_component_qu_pan_sanity_bullet_2	High Sanity brings gifts that erode it; low Sanity, disasters.	false
+more_content_component_northern_captains_title	[[b]][NEW][[/b]] Contest of the Northern Captains	false
+more_content_component_northern_captains_bullet_1	Seven northern warlords race up a seven-level mission ladder.	false
+more_content_component_new_units_190e_title	[[b]][NEW][[/b]] New Units	false
+more_content_component_new_units_190e_bullet_1	Over sixty new units across Korea, the south and the Liu vassals.	false
+more_content_component_new_units_190e_bullet_2	Each faction leader unlocks their own pair at ranks 3 and 6.	false
+more_content_component_ironic_menu_title	[[b]][NEW][[/b]] The Ironic Menu	false
+more_content_component_ironic_menu_bullet_1	A new HUD hub: Character Births, Character Joins and the Mod Guide.	false
+more_content_component_ironic_menu_bullet_2	Track every scripted birth and every general who can join you.	false
+more_content_component_credit_title	Credits	false
+more_content_component_credit_desc_author	Mod Author: Ironic & Rewan	false
+more_content_component_credit_desc_lore	Lore & Flavor Text: Gaz	false
+more_content_component_credit_desc_art	Art: SpartanAssassin & Supa & Lemony & Pieces & Puzzle Team	false
+more_content_component_credit_desc_model	Models: DrunkenPanda & Crucius	false
+more_content_component_credit_desc_beta	Beta Testers: Lain, Hover, Total Warlord, Intrex, Mr Nana, Axiom, Samio, Knt, RexNatura, Abel, Beans, BlackLight, Apostle, Digimetal, F2pmaniac, Harz, Melia, Raiderack, DreamingDragon, Smisloff, TheReaperOfChess, Tory, usernamehere, ΣyN, Tarquin, BakiBardock, Crabbass, Rogardin, ShadowFox, Z3nCha0s, Dominican_Narc0, GiantDwarf, JTS, kw107, and Naturath	false
+more_content_component_credit_desc_script	Script & UI Help: Alex Zhao, Sleeping Rowlet & Deezy	false
+more_content_component_credit_desc_etc	Others: MutatedTree	false
+more_content_component_credit_desc_korean	Korean Unit Card Illustrations & Lore: SilverCat	false
+more_content_component_spy_title	Character Spies	false
+more_content_component_spy_bullet_1	Characters in your recruitment pool no longer display the spy icon until they are recruited.	false
+more_content_component_spy_bullet_2		false
+more_content_component_spy_bullet_3		false
+more_content_component_AOR_title	Area of Recruitment System	false
+more_content_component_AOR_bullet_1	Area of Recruitment is a [[b]]PLAYER ONLY[[/b]] mechanic to prevent AI complications.	false
+more_content_component_AOR_bullet_2	Unique units from provincial buildings can only be recruited in their specific region and its capital.	false
+more_content_component_AOR_bullet_3	Certain factions have exemptions - for example, Kong Rong can recruit Qi units regardless of location.	false
+more_content_component_side_building_title	Building System Overhaul	false
+more_content_component_side_building_bullet_1	Side buildings have been removed and replaced with Provincial Buildings.	false
+more_content_component_mct_title	Mod Configuration Tool	false
+more_content_component_mct_bullet_1	Starting events have been removed - you now need the MCT mod to enable options.	false
+more_content_component_mct_bullet_2	These changes persist throughout each save game.	false
+more_content_component_progression_changes_title	Faction Progression Changes	false
+more_content_component_progression_changes_bullet_1	Progression now differs between Major and Minor Factions.	false
+more_content_component_progression_changes_bullet_2	Major Factions can now acquire one additional full bar (32 points total).	false
+more_content_component_progression_changes_bullet_3	Minor Factions remain at 24 points, unchanged from vanilla.	false
+more_content_component_progression_changes_bullet_4	All Han factions now start with 2 armies (except Liu Bei, who starts with 1).	false
+more_content_component_resource_buildings_title	Fortified Resource Counties [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_resource_buildings_bullet_1	Resource counties now gain defensive walls at Tiers 4 and 5.	false
+more_content_component_character_rank_title	Rank-Based Unit Unlocks [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_character_rank_bullet_1	Unit unlocks have been moved from Reforms to character rank requirements.	false
+more_content_component_character_rank_bullet_2	Higher-ranked characters can recruit more advanced unit types.	false
+more_content_component_traits_court_title	Trait-Based Court Positions	false
+more_content_component_traits_court_bullet_1	Basic Court Positions now provide bonuses or penalties based on character traits.	false
+more_content_component_traits_court_bullet_2	These effects do not carry over when becoming Emperor.	false
+more_content_component_nomadic_generics_title	Nomadic Generic Characters	false
+more_content_component_nomadic_generics_bullet_1	Nomadic factions can now generate faction-specific generic characters.	false
+more_content_component_nomadic_generics_bullet_2	Currently available only for Xianbei factions.	false
+more_content_component_title_change_title	Title & Armor Rebalance	false
+more_content_component_title_change_bullet_1	Titles are now categorized into three tiers: Generic, Unique, and Faction Leader.	false
+more_content_component_title_change_bullet_2	Generic titles provide 1 effect, Unique titles provide 2 effects, and select faction leaders receive 3 effects.	false
+more_content_component_title_change_bullet_3	All unique armor pieces grant 1 additional effect.	false
+more_content_component_spousal_effects_title	Spousal Bonuses	false
+more_content_component_spousal_effects_bullet_1	Spousal Bonuses are unique effects applied from the wife to the husband.	false
+more_content_component_spousal_effects_bullet_2	These unique bonuses range from character, army, region, and faction-wide.	false
+more_content_component_child_birth_title	Historical Children	false
+more_content_component_child_birth_bullet_1	Children born after 190 AD, are now spawned in when their birth year is, if their parent is still alive. (Such as, Cao Zhi)	false
+more_content_component_character_spawns_title	Character Spawns	false
+more_content_component_character_spawns_bullet_1	Characters who join faction during certain years, are now included, find Man Chong and more!	false
+more_content_component_attribute_change_title	Attribute Changes [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_attribute_change_bullet_point_1	All Attributes have been changed, now they provide, one minister, one admin, and one character bonus.	false
+more_content_component_attribute_change_bullet_point_2	Expertise loses it ability to reduce building cost, and now provides it faction-wide.	false
+more_content_component_building_changes_title	Building Changes [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_building_changes_bullet_point_1	Buildings have been changed to prevent the Commerce + Industry spam.	false
+more_content_component_building_changes_bullet_point_2	All income types are viable, and now provide more bonuses	false
+more_content_component_building_changes_bullet_point_3	Corruption is now more deadly as it's limited to one building.	false
+more_content_component_unit_balance_title	Unit Balance [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_unit_balance_bullet_point_1	All units are been tweaked to be useful in their specific situations.	false
+more_content_component_yellow_turban_recruitment_title	Yellow Turban Recruitment	false
+more_content_component_yellow_turban_recruitment_bullet_point_1	As Han, you are now able to recruit Yellow Turban generals.	false
+more_content_component_yellow_turban_recruitment_bullet_point_2	As Yellow Turban, you are now able to recruit Han generals.	false
+more_content_component_character_count_title	Character Roster Expansion	false
+more_content_component_character_count_bullet_point_1	Current total of unique characters increased to 533 across all factions.	false
+more_content_component_character_count_bullet_point_2	These either start in the map, or spawn in later, to specific factions or to recruitment pools.	false
+more_content_component_progression_tradeoffs_title	Progression Tradeoffs  [[b]](OVERHAUL ONLY)[[/b]]	false
+more_content_component_progression_tradeoffs_bullet_point_1	Progression now comes with tradeoffs, each upgrade threshold passed comes with a negative effect	false
+more_content_component_trait_changes_title	Trait Changes	false
+more_content_component_trait_changes_bullet_point_1	Traits no longer appear passively, and are influenced based on what your generals are doing.	false

@@ -1,0 +1,24 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/!!ironic_korea_skilltree								
+ironic_korea_effect_ability_clear_the_fields	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_dongmaeng_oath	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_buyeo_horse_lords	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_horses_of_the_maga	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_hwandudaedo_cut	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_iron_cuirass	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_maek_bow	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_dangung_reach	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_cheonguns_ground	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_bells_and_drums	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_jindaebeop	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_from_the_furrow	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_queens_night	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_elder_brothers_claim	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_walls_of_hwando	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_long_feud	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_crown_princes_command	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_wind_and_cloud	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_relief_to_allies	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_iron_sea	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_bride_from_the_sea	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_korea_effect_ability_second_king	unit_attributes.png	100	campaign			0.0000	positive_value_is_good	default

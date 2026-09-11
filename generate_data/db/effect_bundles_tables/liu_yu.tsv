@@ -1,0 +1,4 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/liu_yu						
+ironic_liu_yu_disable_northern_courage			army.png	faction	positive	true
+ironic_liu_yu_enable_northern_courage			army.png	faction	positive	false

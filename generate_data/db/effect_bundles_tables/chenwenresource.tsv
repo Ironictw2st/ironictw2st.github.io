@@ -1,0 +1,20 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/chenwenresource						
+ironic_coalition_of_the_plains_resource_level_0			flag.png	faction	negative	false
+ironic_coalition_of_the_plains_resource_level_1			flag.png	faction	negative	false
+ironic_coalition_of_the_plains_resource_level_2			flag.png	faction	neutral	false
+ironic_coalition_of_the_plains_resource_level_3			flag.png	faction	positive	false
+ironic_coalition_of_the_plains_resource_level_4			flag.png	faction	positive	false
+ironic_coalition_of_the_plains_captives_execute			no_effect.png	force	neutral	false
+ironic_coalition_of_the_plains_captives_recruit			no_effect.png	force	neutral	false
+ironic_coalition_of_the_plains_captives_release			no_effect.png	force	neutral	false
+ironic_coalition_of_the_plains_garrisoned			flag.png	force	neutral	false
+ironic_coalition_of_the_plains_vassalized			flag.png	force	neutral	false
+ironic_coalition_of_the_plains_effect_bundle			flag.png	faction	neutral	false
+ironic_chen_wen_character_experience			flag.png	faction	positive	true
+ironic_chen_wen_rally_the_troops			flag.png	character	positive	true
+ironic_chen_wen_arm_the_archers			flag.png	faction	positive	true
+ironic_chen_wen_bribe_the_land			flag.png	faction	positive	true
+ironic_chen_wen_feed_the_horses			flag.png	faction	positive	true
+ironic_chen_wen_spear_head			flag.png	faction	positive	true
+ironic_chen_wen_monitor_the_armor			flag.png	force	positive	true

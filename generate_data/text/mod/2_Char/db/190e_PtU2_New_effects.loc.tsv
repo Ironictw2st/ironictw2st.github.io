@@ -1,0 +1,32 @@
+key	text	tooltip
+#Loc;1;text/db/190e_PtU2_New_effects.loc		
+effects_description_rew_iro_190e_melee_damage_flat_all_militia	[[b]]%+n[[/b]] flat base melee damage for militia units	false
+effects_description_rew_iro_190e_melee_damage_AP_flat_all_militia	[[b]]%+n[[/b]] flat AP melee damage for militia units	false
+effects_description_rew_iro_190e_melee_damage_both_mod_all_militia	[[b]]%+n%[[/b]] base and AP melee damage for militia units	false
+effects_description_rew_iro_190e_melee_attack_rate_all_militia	[[b]]%+n%[[/b]] attack rate for militia units	false
+effects_description_rew_iro_190e_melee_hit_rate_all_militia	[[b]]%+n[[/b]] hit chance for militia units	false
+effects_description_rew_iro_190e_ranged_damage_both_mod_all_militia	[[b]]%+n%[[/b]] base and AP ranged damage for militia units	false
+effects_description_rew_iro_190e_range_mod_all_militia	[[b]]%+n%[[/b]] range for militia units	false
+effects_description_rew_iro_190e_ammo_mod_all_militia	[[b]]%+n%[[/b]] ammo for militia units	false
+effects_description_rew_iro_190e_reload_mod_all_militia	[[b]]%+n%[[/b]] reload for militia units	false
+effects_description_rew_iro_190e_charge_bonus_flat_all_militia	[[b]]%+n[[/b]] flat charge bonus for militia units	false
+effects_description_rew_iro_190e_charge_bonus_mod_all_militia	[[b]]%+n%[[/b]] charge bonus modifier for militia units	false
+effects_description_rew_iro_190e_melee_evasion_flat_all_militia	[[b]]%+n%[[/b]] evasion for militia units	false
+effects_description_rew_iro_190e_armour_flat_all_militia	[[b]]%+n%[[/b]] armour for militia units	false
+effects_description_rew_iro_190e_missile_block_chance_all_militia	[[b]]%+n%[[/b]] missile block chance for militia units	false
+effects_description_rew_iro_190e_speed_all_militia	[[b]]%+n%[[/b]] battle movement speed for militia units	false
+effects_value_format_rew_iro_190e_melee_damage_flat_all_militia		false
+effects_value_format_rew_iro_190e_melee_damage_AP_flat_all_militia		false
+effects_value_format_rew_iro_190e_melee_damage_both_mod_all_militia		false
+effects_value_format_rew_iro_190e_melee_attack_rate_all_militia		false
+effects_value_format_rew_iro_190e_melee_hit_rate_all_militia		false
+effects_value_format_rew_iro_190e_ranged_damage_both_mod_all_militia		false
+effects_value_format_rew_iro_190e_range_mod_all_militia		false
+effects_value_format_rew_iro_190e_ammo_mod_all_militia		false
+effects_value_format_rew_iro_190e_reload_mod_all_militia		false
+effects_value_format_rew_iro_190e_charge_bonus_flat_all_militia		false
+effects_value_format_rew_iro_190e_charge_bonus_mod_all_militia		false
+effects_value_format_rew_iro_190e_melee_evasion_flat_all_militia		false
+effects_value_format_rew_iro_190e_armour_flat_all_militia		false
+effects_value_format_rew_iro_190e_missile_block_chance_all_militia		false
+effects_value_format_rew_iro_190e_speed_all_militia		false

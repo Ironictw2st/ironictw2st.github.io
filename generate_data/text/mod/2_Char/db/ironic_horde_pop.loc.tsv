@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_horde_pop.loc		
+effects_description_ironic_horde_effect_population_growth	[[b]]%+n[[/b]] host population per turn from this camp (Herders and Gatherers; growth stops at the camp's population capacity)	false
+effects_value_format_ironic_horde_effect_population_growth		false

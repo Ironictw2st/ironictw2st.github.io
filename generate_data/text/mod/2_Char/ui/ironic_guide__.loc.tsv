@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_guide__.loc		
+campaign_localised_strings_string_ironic_guide_title	IRONIC MOD GUIDE	false
+campaign_localised_strings_string_ironic_guide_menu_title	IRONIC MENU	false
+campaign_localised_strings_string_ironic_guide_menu_body	Open the Ironic Menu from the button on the top menu bar. It is the hub for this mod's custom features - each button opens that feature's panel.	false
+campaign_localised_strings_string_ironic_guide_joins_title	CHARACTER JOINS	false
+campaign_localised_strings_string_ironic_guide_joins_body	Lists every historical general that can join Cao Cao, Sun Jian, Sun Ce or Liu Bei. Each row shows the general, the years they may arrive (the join window), and a status - Not yet (grey) means not spawned, In world (green) means they have joined, Fallen (red) means they have died. Click a joined general's row to select and zoom the camera to them on the map.	false
+campaign_localised_strings_string_ironic_guide_how_title	HOW JOINS WORK	false
+campaign_localised_strings_string_ironic_guide_how_body	Each general has an eligibility window, e.g. 192 - 198 AD. During those years there is a chance each turn that the general joins your faction. Romance-only characters appear only in Romance mode. Generals also join AI factions, so their status can change without you doing anything.	false
+campaign_localised_strings_string_ironic_guide_credits_title	CREDITS	false
+campaign_localised_strings_string_ironic_guide_credits_body	Ironic mod - custom UI and campaign features. Built on Total War: THREE KINGDOMS.	false

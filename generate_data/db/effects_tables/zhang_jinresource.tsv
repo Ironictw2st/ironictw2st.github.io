@@ -1,0 +1,16 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/zhang_jinresource								
+ironic_qi_decay	3k_dlc04_assignment_tao_qian_promote_peace.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_qi_captives_post_battle	3k_dlc04_assignment_tao_qian_promote_peace.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_qi_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_qi_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_qi_executed	3k_dlc04_assignment_tao_qian_promote_peace.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_qi_assignments	3k_dlc04_assignment_tao_qian_promote_peace.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_qi_affliction_flow	3k_dlc04_assignment_tao_qian_promote_peace.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_qi_1		1	campaign		ironic_frontend_description_qi_1	0.0000	neutral	default
+ironic_frontend_description_qi_2		2	campaign		ironic_frontend_description_qi_2	0.0000	neutral	default
+ironic_frontend_description_qi_3		3	campaign		ironic_frontend_description_qi_3	0.0000	neutral	default
+ironic_frontend_description_qi_4		4	campaign		ironic_frontend_description_qi_4	0.0000	neutral	default
+ironic_frontend_description_zhang_jin_leader_1		1	campaign		ironic_frontend_description_zhang_jin_leader_1	0.0000	neutral	default
+ironic_frontend_description_zhang_jin_leader_2		2	campaign		ironic_frontend_description_zhang_jin_leader_2	0.0000	neutral	default
+ironic_frontend_description_zhang_jin_leader_3		3	campaign		ironic_frontend_description_zhang_jin_leader_3	0.0000	neutral	default

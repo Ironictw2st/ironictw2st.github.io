@@ -1,0 +1,61 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/qu_panresource/resource_madness.loc		
+effect_bundles_localised_title_ironic_frontend_leader_madness_special	Sanity	true
+effect_bundles_localised_title_ironic_madness_resource_level_0	Sanity:	true
+effect_bundles_localised_title_ironic_madness_resource_level_1	Sanity:	true
+effect_bundles_localised_title_ironic_madness_resource_level_2	Sanity:	true
+effect_bundles_localised_title_ironic_madness_resource_level_3	Sanity:	true
+effect_bundles_localised_title_ironic_madness_resource_level_4	Sanity:	true
+effect_bundles_localised_description_ironic_madness_resource_level_0	The bottom of the spiral. Almost every episode is harmful, and the god in the birdcage is watching.	true
+effect_bundles_localised_description_ironic_madness_resource_level_1	Deep in the madness. Most episodes are harmful, but surviving them claws sanity back.	true
+effect_bundles_localised_description_ironic_madness_resource_level_2	The tipping point. Good and bad episodes come in equal measure.	true
+effect_bundles_localised_description_ironic_madness_resource_level_3	Mostly lucid. Most episodes are gifts, but every gift erodes a little more sanity.	true
+effect_bundles_localised_description_ironic_madness_resource_level_4	Clear-eyed and beloved of the parrot god. Episodes are almost all gifts, and every one of them costs.	true
+effects_description_ironic_madness_decay	[[b]]%+n[[/b]] Decay	true
+effects_description_ironic_madness_event_tier_0	High chance of negative events	false
+effects_description_ironic_madness_event_tier_1	Moderate chance of negative events	false
+effects_description_ironic_madness_event_tier_2	Even chance of both positive and negative events	false
+effects_description_ironic_madness_event_tier_3	Moderate chance of positive events	false
+effects_description_ironic_madness_event_tier_4	High chance of positive events	false
+effects_description_ironic_madness_info_gain	[[b]]Sanity[[/b]] can only be gained through Commander Lu's presence and certain events.	true
+effects_description_ironic_madness_info_loss	[[b]]Sanity[[/b]] can only be lost through certain events.	true
+effect_bundles_localised_title_ironic_madness_effect_bundle	Sanity	false
+effect_bundles_localised_description_ironic_madness_effect_bundle	Qu Pan's grip on reality, measured. Each Harvest, Sanity decides what kind of episode visits the court.	false
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qu_pan_1	• Sanity triggers a seasonal event each Harvest, granting a random effect.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qu_pan_2	• Sanity events can be positive or negative and will increase or decrease Sanity.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qu_pan_3	• High Sanity increases the chance of positive events.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qu_pan_4	• Low Sanity increases the chance of negative and game-altering events.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_description_qu_pan_5	• Put your trust in Commander Lu.	false
+pooled_resource_factors_display_name_negative_ironic_madness_decay	Events	true
+pooled_resource_factors_display_name_positive_ironic_madness_decay	Events	false
+pooled_resource_factors_display_name_negative_ironic_madness_defeat	Battles Lost	true
+pooled_resource_factors_display_name_positive_ironic_madness_victory	Battles Won	true
+pooled_resource_factors_display_name_positive_ironic_madness_factor	Base	true
+pooled_resource_factors_display_name_positive_ironic_madness_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_positive_ironic_madness_at_war	At War	true
+pooled_resource_factors_display_name_negative_ironic_madness_post_battle_options	Post Battle Options	true
+pooled_resource_factors_display_name_negative_ironic_madness_at_war	At War	true
+pooled_resources_description_ironic_madness	Qu Pan's grip on reality. High Sanity brings gifts that erode it; low Sanity brings disasters that restore it. Only Commander Lu stands outside the spiral.	true
+pooled_resources_display_name_ironic_madness	Sanity	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_madness		true
+pooled_resources_negative_factors_display_name_ironic_madness	Decrease	true
+pooled_resources_positive_factors_display_name_ironic_madness	Increase	true
+ui_text_replacements_localised_text_victory_condition_madness	CHINA MUST BE UNITED!	true
+pooled_resource_factors_display_name_negative_ironic_madness_factor	Base	false
+pooled_resource_factors_display_name_negative_ironic_madness_victory	Battles Won	false
+pooled_resource_factors_display_name_positive_ironic_madness_defeat	Battles Lost	false
+pooled_resource_factors_display_name_positive_ironic_madness_assignments	Assignments	false
+pooled_resource_factors_display_name_negative_ironic_madness_assignments	Assignments	false
+effects_description_ironic_madness_captives_post_battle	[[b]]%+n[[/b]] Madness	false
+effects_description_ironic_madness_executed	[[b]]%+n[[/b]] Madness	false
+effects_description_ironic_madness_assignments	[[b]]%+n[[/b]] Madness	false
+effects_description_ironic_madness_event_gain	[[b]]%+n[[/b]] Sanity	false
+effects_description_ironic_madness_event_loss	[[b]]%+n[[/b]] Sanity	false
+ui_character_assignments_localised_title_ironic_qu_pan_assignment_consult_lu	Consult Commander Lu	false
+ui_character_assignments_localised_description_ironic_qu_pan_assignment_consult_lu	Assign an officer to attend the Commander's perch and take down his counsel verbatim. The counsel is mostly squawks, but the officer returns strangely settled, and Qu Pan's grip on reality steadies. (+1 Sanity per turn)	false
+frontend_faction_leader_unique_features_localised_description_ironic_qu_pan_unique_sanity	[[b]]Sanity[[/b]]\\n[[col:scope_description]]Faction Feature[[/col]]\\nEach Harvest, Qu Pan's grip on reality decides what visits the court: gifts at high Sanity, disasters at low.\\nEvery gift erodes Sanity; enduring the disasters restores it.\\n[[i]][[col:flavour]]The spiral only turns one way, unless the bird says otherwise.[[/col]][[/i]]	false
+frontend_faction_leader_unique_features_localised_description_ironic_qu_pan_unique_commander_lu	[[b]]Commander Lu[[/b]]\\n[[col:scope_description]]Assignments[[/col]]\\nConsult Commander Lu: an assigned officer attends the perch and steadies Qu Pan's mind (+1 Sanity per turn).\\nWhen the hallucinations offer a choice, trusting the Commander is always the safer road.\\n[[i]][[col:flavour]]The counsel is mostly squawks. It works anyway.[[/col]][[/i]]	false
+frontend_faction_leader_unique_features_localised_description_ironic_qu_pan_unique_game_altering	[[b]]The Birdcage Opens[[/b]]\\n[[col:scope_description]]Faction Feature[[/col]]\\nAt low Sanity the episodes stop being metaphors: armies are moved, wars are declared, courts are unmade.\\nOne episode, spoken only once, ends the campaign.\\n[[i]][[col:flavour]]I HAVE NO CRACKER AND I MUST SQUAWK.[[/col]][[/i]]	false
+campaign_post_battle_captive_options_onscreen_name_killironic_qu_pan_captive_execute	Execute the captives (-1 Sanity)	false
+campaign_post_battle_captive_options_onscreen_name_enslaveironic_qu_pan_captive_recruit	Recruit the captives	false
+campaign_post_battle_captive_options_onscreen_name_releaseironic_qu_pan_captive_release	Release the captives (+1 Sanity)	false

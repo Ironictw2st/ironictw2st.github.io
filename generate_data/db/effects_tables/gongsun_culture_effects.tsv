@@ -1,0 +1,9 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/gongsun_culture_effects								
+ironic_gongsun_du_han_units_upkeep	upkeep_cost.png	130	campaign			0.0000	negative_value_is_good	default
+ironic_gongsun_du_foreign_units_upkeep	upkeep_cost.png	130	campaign			0.0000	negative_value_is_good	default
+3k_dlc07_pooled_factor_resource_imperial_favour_affairs	3k_dlc07_imperial_favour.png	15	campaign			0.0000	positive_value_is_good	default
+ironic_gongsun_du_diplomactic_relations_with_han_factions	diplomacy_attitude_effect.png	15	campaign			0.0000	positive_value_is_good	default
+ironic_gongsun_du_diplomactic_relations_with_non_han_factions	diplomacy_attitude_effect.png	15	campaign			0.0000	positive_value_is_good	default
+ironic_effect_nanman_animal_unit_cap	replenishment.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_effect_nanman_infantry_unit_cap	replenishment.png	100	campaign			0.0000	positive_value_is_good	default

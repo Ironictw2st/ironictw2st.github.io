@@ -1,0 +1,119 @@
+[description] Ahuinan (3k_main_political_party_faction_nanman_ahuinan_190): missing / placeholder description
+[description] Ahuinan (3k_main_political_party_faction_nanman_ahuinan_190): missing / placeholder description
+[description] Buyeo Chogo (3k_main_political_party_bakaja_190): missing / placeholder description
+[description] Buyeo Chogo (3k_main_political_party_bakaja_190): missing / placeholder description
+[description] Cao Ren (ironic_faction_cao_ren_gathering): missing / placeholder description
+[description] Chen Lan (ironic_faction_chen_lan_gathering): missing / placeholder description
+[description] Dongtuna (3k_main_political_party_faction_nanman_dongtuna_190): missing / placeholder description
+[description] Dongtuna (3k_main_political_party_faction_nanman_dongtuna_190): missing / placeholder description
+[description] Du Ji (ironic_faction_du_ji_gathering): missing / placeholder description
+[description] Duosi (3k_main_political_party_faction_nanman_king_duosi_190): missing / placeholder description
+[description] Duosi (3k_main_political_party_faction_nanman_king_duosi_190): missing / placeholder description
+[description] Go Munseong (3k_main_political_party_tamno_190): missing / placeholder description
+[description] Go Nammu (3k_main_political_party_goguryeo_190): missing / placeholder description
+[description] Go Nammu (3k_main_political_party_goguryeo_190): missing / placeholder description
+[description] Guan Yu (ironic_faction_guan_yu_gathering): missing / placeholder description
+[description] Hae Ganwigeo (3k_main_political_party_buyeo_190): missing / placeholder description
+[description] Han Xuan (ironic_faction_han_xuan_gathering): missing / placeholder description
+[description] Hu Mao (3k_main_political_party_hu_mao_190): missing / placeholder description
+[description] Jiangyang Tribes (3k_main_political_party_faction_nanman_jiangyang_190): missing / placeholder description
+[description] Jiangyang Tribes (3k_main_political_party_faction_nanman_jiangyang_190): missing / placeholder description
+[description] Jianning Tribes (3k_main_political_party_faction_nanman_jianning_190): missing / placeholder description
+[description] Jianning Tribes (3k_main_political_party_faction_nanman_jianning_190): missing / placeholder description
+[description] Jiaozhi Tribes (3k_main_political_party_faction_nanman_jiaozhi_190): missing / placeholder description
+[description] Jiaozhi Tribes (3k_main_political_party_faction_nanman_jiaozhi_190): missing / placeholder description
+[description] Jinhuansanjie (3k_main_political_party_faction_nanman_jinhuansanjie_190): missing / placeholder description
+[description] Jinhuansanjie (3k_main_political_party_faction_nanman_jinhuansanjie_190): missing / placeholder description
+[description] Kim Suro (3k_main_political_party_gaya_190): missing / placeholder description
+[description] Lai Gong (3k_main_political_party_lai_gong_190): missing / placeholder description
+[description] Lai Gong (3k_main_political_party_lai_gong_190): missing / placeholder description
+[description] Lei Bo (ironic_faction_lei_xu_gathering): missing / placeholder description
+[description] Liu Du (ironic_faction_liu_du_gathering): missing / placeholder description
+[description] Liu Pi (3k_main_political_party_yt_generic_190): missing / placeholder description
+[description] Liu Pi (3k_main_political_party_yt_generic_190): missing / placeholder description
+[description] Liu Shan (ironic_faction_liu_shan_gathering): missing / placeholder description
+[description] Ma Chao (ironic_faction_ma_chao_gathering): missing / placeholder description
+[description] Mangyachang (3k_main_political_party_faction_nanman_mangyachang_190): missing / placeholder description
+[description] Mangyachang (3k_main_political_party_faction_nanman_mangyachang_190): missing / placeholder description
+[description] Ni Xiaode (3k_main_political_party_ni_xiaode_190): missing / placeholder description
+[description] Seok Beolhyu (3k_main_political_party_shitla_190): missing / placeholder description
+[description] Seok Beolhyu (3k_main_political_party_shitla_190): missing / placeholder description
+[description] Sheng Xian (3k_main_political_party_sheng_xian_190): missing / placeholder description
+[description] Sheng Xian (3k_main_political_party_sheng_xian_190): missing / placeholder description
+[description] Shi Huang (3k_main_political_party_shi_huang_190): missing / placeholder description
+[description] Shi Huang (3k_main_political_party_shi_huang_190): missing / placeholder description
+[description] Su Dai (3k_main_political_party_su_dai_190): missing / placeholder description
+[description] Sun Ben (ironic_faction_sun_ben_gathering): missing / placeholder description
+[description] Sun Quan (ironic_faction_sun_quan_gathering): missing / placeholder description
+[description] Tu An (3k_main_political_party_faction_nanman_tu_an_190): missing / placeholder description
+[description] Tu An (3k_main_political_party_faction_nanman_tu_an_190): missing / placeholder description
+[description] Wang Yun (3k_main_political_party_han_empire_190): missing / placeholder description
+[description] Wang Yun (3k_main_political_party_han_empire_190): missing / placeholder description
+[description] Wu Ju (3k_main_political_party_wu_ju_190): missing / placeholder description
+[description] Wu Ju (3k_main_political_party_wu_ju_190): missing / placeholder description
+[description] Wutugu (3k_main_political_party_faction_nanman_king_wutugu_190): missing / placeholder description
+[description] Wutugu (3k_main_political_party_faction_nanman_king_wutugu_190): missing / placeholder description
+[description] Xi Ni (3k_main_political_party_faction_nanman_xi_ni_190): missing / placeholder description
+[description] Xi Ni (3k_main_political_party_faction_nanman_xi_ni_190): missing / placeholder description
+[description] Xiahou Yuan (ironic_faction_xiahou_yuan_gathering): missing / placeholder description
+[description] Xu He (ironic_faction_yellow_turban_xu_he_gathering): missing / placeholder description
+[description] Yang Feng (3k_main_political_party_faction_nanman_yang_feng_190): missing / placeholder description
+[description] Yang Feng (3k_main_political_party_faction_nanman_yang_feng_190): missing / placeholder description
+[description] Yeo Bulnae (3k_main_political_party_korea_ye_190): missing / placeholder description
+[description] Yongchang Tribes (3k_main_political_party_faction_nanman_yongchang_190): missing / placeholder description
+[description] Yongchang Tribes (3k_main_political_party_faction_nanman_yongchang_190): missing / placeholder description
+[description] Yunnan Tribes (3k_main_political_party_faction_nanman_yunnan_190): missing / placeholder description
+[description] Yunnan Tribes (3k_main_political_party_faction_nanman_yunnan_190): missing / placeholder description
+[description] Zangke Tribes (3k_main_political_party_faction_nanman_zangke_190): missing / placeholder description
+[description] Zangke Tribes (3k_main_political_party_faction_nanman_zangke_190): missing / placeholder description
+[description] Zhang Jin (3k_main_political_party_zhang_jin_190): missing / placeholder description
+[description] Zhang Jin (3k_main_political_party_zhang_jin_190): missing / placeholder description
+[description] Zhang Jin (3k_main_political_party_zhang_jin_190): missing / placeholder description
+[description] Zhang Liao (ironic_faction_zhang_liao_gathering): missing / placeholder description
+[description] Zhang Xian (3k_main_political_party_zhang_xian_190): missing / placeholder description
+[description] Zhang Xian (3k_main_political_party_zhang_xian_190): missing / placeholder description
+[description] Zhao Fan (ironic_faction_zhao_fan_gathering): missing / placeholder description
+[description] Zhong Yao (ironic_faction_zhong_yao_gathering): missing / placeholder description
+[description] Zhou Yu (ironic_faction_zhou_yu_gathering): missing / placeholder description
+[description] Zhu Fu (3k_main_political_party_zhu_fu_190): missing / placeholder description
+[description] Zhu Fu (3k_main_political_party_zhu_fu_190): missing / placeholder description
+[description] Zhu Jun (ironic_faction_zhu_jun_gathering): missing / placeholder description
+[description] Zhuge Liang (ironic_faction_zhuge_liang_gathering): missing / placeholder description
+[description] Zu Lang (ironic_faction_zu_lang_gathering): missing / placeholder description
+[features] Cao Ren (ironic_faction_cao_ren_gathering): no unique features
+[features] Chen Lan (ironic_faction_chen_lan_gathering): no unique features
+[features] Du Ji (ironic_faction_du_ji_gathering): no unique features
+[features] Guan Yu (ironic_faction_guan_yu_gathering): no unique features
+[features] Han Xuan (ironic_faction_han_xuan_gathering): no unique features
+[features] Lei Bo (ironic_faction_lei_xu_gathering): no unique features
+[features] Liu Du (ironic_faction_liu_du_gathering): no unique features
+[features] Liu Pi (3k_main_political_party_yt_generic_190): no unique features
+[features] Liu Pi (3k_main_political_party_yt_generic_190): no unique features
+[features] Liu Shan (ironic_faction_liu_shan_gathering): no unique features
+[features] Ma Chao (ironic_faction_ma_chao_gathering): no unique features
+[features] Sun Ben (ironic_faction_sun_ben_gathering): no unique features
+[features] Sun Quan (ironic_faction_sun_quan_gathering): no unique features
+[features] Xiahou Yuan (ironic_faction_xiahou_yuan_gathering): no unique features
+[features] Xu He (ironic_faction_yellow_turban_xu_he_gathering): no unique features
+[features] Zhang Liao (ironic_faction_zhang_liao_gathering): no unique features
+[features] Zhao Fan (ironic_faction_zhao_fan_gathering): no unique features
+[features] Zhong Yao (ironic_faction_zhong_yao_gathering): no unique features
+[features] Zhou Yu (ironic_faction_zhou_yu_gathering): no unique features
+[features] Zhu Jun (ironic_faction_zhu_jun_gathering): no unique features
+[features] Zhuge Liang (ironic_faction_zhuge_liang_gathering): no unique features
+[features] Zu Lang (ironic_faction_zu_lang_gathering): no unique features
+[flag] Cao Ren (ironic_faction_cao_ren): flag folder 'ironic_faction_cao_ren' not found
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[icon] missing icon custom_pin_naval.png
+[resource] ironic_han_liu_yu_peace: no display name loc, using 'Liu Yu Peace'
+[resource] ironic_han_liu_yu_peace: no display name loc, using 'Liu Yu Peace'

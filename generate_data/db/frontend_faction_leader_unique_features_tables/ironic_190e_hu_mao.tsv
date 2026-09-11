@@ -1,0 +1,4 @@
+key	icon_path	feature_type	sort_order
+#frontend_faction_leader_unique_features_tables;3;db/frontend_faction_leader_unique_features_tables/ironic_190e_hu_mao			
+rew_iro_hu_mao_metal_prefects_watch	ui/hvo/units_reworked/hv_unit_yuan_sword_infantry.png	unit	0
+rew_iro_hu_mao_water_vigil_repeaters	ui/hvo/units_reworked/hv_unit_chen_rep_crossbow_defenders.png	unit	1

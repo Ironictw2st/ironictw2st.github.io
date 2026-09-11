@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/events/ironic_save_alarm.loc		
+incidents_localised_title_ironic_event_save_alarm_savefail	190Expanded: This Save Did Not Store Mod Data	false
+incidents_localised_description_ironic_event_save_alarm_savefail	Something went wrong while your last save was being written: the mod's script data could not be stored. If that save is loaded later, 190Expanded systems (titles, council, missions, stables and others) will be reset to their defaults.\\n\\nPlease try saving again to a NEW slot. If this warning appears again, report it on the mod page and include the file 190E_SAVE_INCIDENT.txt from your Total War THREE KINGDOMS game folder (next to Three_Kingdoms.exe), or a screenshot of this message.	false
+incidents_localised_title_ironic_event_save_alarm_wipe	190Expanded: Mod Save Data Was Lost	false
+incidents_localised_description_ironic_event_save_alarm_wipe	This save was loaded, but some or all of 190Expanded's script data was missing from it. The affected systems have reset to their default state. This usually means the save was written incorrectly at the moment it was made.\\n\\nPlease report this on the mod page and include the file 190E_SAVE_INCIDENT.txt from your Total War THREE KINGDOMS game folder (next to Three_Kingdoms.exe) - it lists exactly which systems were affected.	false

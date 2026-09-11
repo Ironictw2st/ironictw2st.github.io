@@ -1,0 +1,18 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/wang_shengresource								
+ironic_languor_decay	icon_love_bad.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_languor_armies	icon_love_bad.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_languor_captives_post_battle	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_characters	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_garrisoned	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_vassalized	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_languor_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_languor_executed	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_assignments	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_lady_wu_married	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_wu_family_killed	icon_love_bad.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_languor_effect_bundle_1	icon_love_bad.png	100	campaign		ironic_languor_effect_bundle_1	0.0000	positive_value_is_good	default
+ironic_languor_effect_bundle_2	icon_love_bad.png	100	campaign		ironic_languor_effect_bundle_2	0.0000	positive_value_is_good	default
+ironic_languor_effect_bundle_3	icon_love_bad.png	100	campaign		ironic_languor_effect_bundle_3	0.0000	positive_value_is_good	default
+ironic_languor_effect_bundle_4	icon_love_bad.png	100	campaign		ironic_languor_effect_bundle_4	0.0000	positive_value_is_good	default

@@ -1,0 +1,118 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_190e_southern_rosters.loc		
+land_units_onscreen_name_rew_iro_shi_xie_wood_jiaozhi_javelin_spears	Jiaozhi Javelineers	false
+land_units_concealed_name_rew_iro_shi_xie_wood_jiaozhi_javelin_spears	Jiaozhi Javelineers	false
+land_units_onscreen_name_rew_iro_shi_xie_water_jiaozhi_longbows	Jiaozhi Longbows	false
+land_units_concealed_name_rew_iro_shi_xie_water_jiaozhi_longbows	Jiaozhi Longbows	false
+land_units_onscreen_name_rew_iro_qu_pan_metal_jiuzhen_tiger_handlers	Jiuzhen Tigers	false
+land_units_concealed_name_rew_iro_qu_pan_metal_jiuzhen_tiger_handlers	Jiuzhen Tigers	false
+land_units_onscreen_name_rew_iro_qu_pan_water_jiuzhen_elephants	Jiuzhen Elephants	false
+land_units_concealed_name_rew_iro_qu_pan_water_jiuzhen_elephants	Jiuzhen Elephants	false
+land_units_onscreen_name_rew_iro_shi_huang_wood_cangwu_shield_spears	Cangwu Shieldwall	false
+land_units_concealed_name_rew_iro_shi_huang_wood_cangwu_shield_spears	Cangwu Shieldwall	false
+land_units_onscreen_name_rew_iro_shi_huang_metal_cangwu_axes	Cangwu Breachers	false
+land_units_concealed_name_rew_iro_shi_huang_metal_cangwu_axes	Cangwu Breachers	false
+land_units_onscreen_name_rew_iro_fei_zhan_water_yue_hill_archers	Yue Archers	false
+land_units_concealed_name_rew_iro_fei_zhan_water_yue_hill_archers	Yue Archers	false
+land_units_onscreen_name_rew_iro_fei_zhan_metal_yue_forest_axes	Forest Axes	false
+land_units_concealed_name_rew_iro_fei_zhan_metal_yue_forest_axes	Forest Axes	false
+land_units_onscreen_name_rew_iro_zhang_xian_wood_lingling_spears	Lingling Spears	false
+land_units_concealed_name_rew_iro_zhang_xian_wood_lingling_spears	Lingling Spears	false
+land_units_onscreen_name_rew_iro_zhang_xian_metal_lingling_swordguard	Lingling Swordguard	false
+land_units_concealed_name_rew_iro_zhang_xian_metal_lingling_swordguard	Lingling Swordguard	false
+land_units_onscreen_name_rew_iro_pan_lin_water_shanyue_hunters	Shanyue Hunters	false
+land_units_concealed_name_rew_iro_pan_lin_water_shanyue_hunters	Shanyue Hunters	false
+land_units_onscreen_name_rew_iro_pan_lin_wood_shanyue_dread_spears	Dread Spears	false
+land_units_concealed_name_rew_iro_pan_lin_wood_shanyue_dread_spears	Dread Spears	false
+land_units_onscreen_name_rew_iro_liu_pan_earth_changsha_raiders	Changsha Raiders	false
+land_units_concealed_name_rew_iro_liu_pan_earth_changsha_raiders	Changsha Raiders	false
+land_units_onscreen_name_rew_iro_liu_pan_metal_changsha_stalking_axes	Changsha Stalkers	false
+land_units_concealed_name_rew_iro_liu_pan_metal_changsha_stalking_axes	Changsha Stalkers	false
+land_units_onscreen_name_rew_iro_liu_xun_water_lujiang_spear_archers	Lujiang Archers	false
+land_units_concealed_name_rew_iro_liu_xun_water_lujiang_spear_archers	Lujiang Archers	false
+land_units_onscreen_name_rew_iro_liu_xun_metal_lujiang_shieldguard	Lujiang Shieldguard	false
+land_units_concealed_name_rew_iro_liu_xun_metal_lujiang_shieldguard	Lujiang Shieldguard	false
+land_units_onscreen_name_rew_iro_ni_xiaode_water_nanhai_marine_crossbows	Nanhai Marines	false
+land_units_concealed_name_rew_iro_ni_xiaode_water_nanhai_marine_crossbows	Nanhai Marines	false
+land_units_onscreen_name_rew_iro_ni_xiaode_wood_nanhai_pearl_halberdiers	Pearl Halberdiers	false
+land_units_concealed_name_rew_iro_ni_xiaode_wood_nanhai_pearl_halberdiers	Pearl Halberdiers	false
+land_units_onscreen_name_rew_iro_zhu_fu_metal_wuling_improvisers	Wuling Improvisers	false
+land_units_concealed_name_rew_iro_zhu_fu_metal_wuling_improvisers	Wuling Improvisers	false
+land_units_onscreen_name_rew_iro_zhu_fu_water_wuling_inconstant_guard	Inconstant Guard	false
+land_units_concealed_name_rew_iro_zhu_fu_water_wuling_inconstant_guard	Inconstant Guard	false
+land_units_onscreen_name_rew_iro_bian_rang_water_scholar_crossbows	Scholar Crossbows	false
+land_units_concealed_name_rew_iro_bian_rang_water_scholar_crossbows	Scholar Crossbows	false
+land_units_onscreen_name_rew_iro_bian_rang_wood_retainer_spearguards	Retainer Spearguards	false
+land_units_concealed_name_rew_iro_bian_rang_wood_retainer_spearguards	Retainer Spearguards	false
+land_units_onscreen_name_rew_iro_su_dai_water_hired_marksmen	Hired Marksmen	false
+land_units_concealed_name_rew_iro_su_dai_water_hired_marksmen	Hired Marksmen	false
+land_units_onscreen_name_rew_iro_su_dai_metal_caravan_guards	Caravan Wardens	false
+land_units_concealed_name_rew_iro_su_dai_metal_caravan_guards	Caravan Wardens	false
+land_units_onscreen_name_rew_iro_lai_gong_wood_gaoliang_levy_spears	Gaoliang Levies	false
+land_units_concealed_name_rew_iro_lai_gong_wood_gaoliang_levy_spears	Gaoliang Levies	false
+land_units_onscreen_name_rew_iro_lai_gong_water_southern_watch_archers	Watch Archers	false
+land_units_concealed_name_rew_iro_lai_gong_water_southern_watch_archers	Watch Archers	false
+land_units_onscreen_name_rew_iro_wu_ju_metal_yulin_storm_axes	Storm Axes	false
+land_units_concealed_name_rew_iro_wu_ju_metal_yulin_storm_axes	Storm Axes	false
+land_units_onscreen_name_rew_iro_wu_ju_metal_yulin_tempest_glaives	Tempest Glaives	false
+land_units_concealed_name_rew_iro_wu_ju_metal_yulin_tempest_glaives	Tempest Glaives	false
+land_units_onscreen_name_rew_iro_wu_huan_ytr_wood_jiangdong_zealot_spears	Jiangdong Zealots	false
+land_units_concealed_name_rew_iro_wu_huan_ytr_wood_jiangdong_zealot_spears	Jiangdong Zealots	false
+land_units_onscreen_name_rew_iro_wu_huan_ytr_water_faithful_archers	Faithful Archers	false
+land_units_concealed_name_rew_iro_wu_huan_ytr_water_faithful_archers	Faithful Archers	false
+land_units_onscreen_name_rew_iro_zhang_jin_water_vermilion_veil_archers	Vermilion Archers	false
+land_units_concealed_name_rew_iro_zhang_jin_water_vermilion_veil_archers	Vermilion Archers	false
+land_units_onscreen_name_rew_iro_zhang_jin_wood_meridian_halberdiers	Meridian Halberdiers	false
+land_units_concealed_name_rew_iro_zhang_jin_wood_meridian_halberdiers	Meridian Halberdiers	false
+ui_unit_bullet_point_enums_onscreen_name_strength_snipe	Snipe	false
+ui_unit_bullet_point_enums_tooltip_strength_snipe	This unit picks its targets carefully, striking at officers and champions.	false
+ui_unit_bullet_point_enums_onscreen_name_strength_ammunition	Deep Quivers	false
+ui_unit_bullet_point_enums_tooltip_strength_ammunition	This unit carries far more ammunition than usual.	false
+ui_unit_bullet_point_enums_onscreen_name_strength_long_range	Long Range	false
+ui_unit_bullet_point_enums_tooltip_strength_long_range	This unit's missiles carry further than any other.	false
+ui_unit_bullet_point_enums_onscreen_name_strength_large_unit_size	Large Unit	false
+ui_unit_bullet_point_enums_tooltip_strength_large_unit_size	This unit fields considerably more men than usual.	false
+ui_unit_bullet_point_enums_onscreen_name_strength_charge_negation	Charge Negation	false
+ui_unit_bullet_point_enums_tooltip_strength_charge_negation	This unit blunts the impact of an enemy charge.	false
+ui_unit_bullet_point_enums_onscreen_name_strength_cause_terror	Causes Terror	false
+ui_unit_bullet_point_enums_tooltip_strength_cause_terror	The sight of this unit can rout lesser troops outright.	false
+ui_unit_bullet_point_enums_onscreen_name_strength_melee_defence	Melee Defence	false
+ui_unit_bullet_point_enums_tooltip_strength_melee_defence	This unit is hard to bring down in a sustained melee.	false
+ui_unit_bullet_point_enums_onscreen_name_weakness_fire	Vulnerable to Fire	false
+ui_unit_bullet_point_enums_tooltip_weakness_fire	This unit's equipment burns readily.	false
+ui_unit_bullet_point_enums_onscreen_name_strength_stalk	Stalk	false
+ui_unit_bullet_point_enums_tooltip_strength_stalk	This unit can remain hidden even while moving.	false
+ui_unit_bullet_point_enums_onscreen_name_battlefield_role_anti_cavalry	Anti-Cavalry	false
+ui_unit_bullet_point_enums_tooltip_battlefield_role_anti_cavalry	This unit is trained to hold and break cavalry charges.	false
+frontend_faction_leader_unique_features_localised_description_rew_iro_shi_xie_wood_jiaozhi_javelin_spears	[[b]]Jiaozhi Javelineers[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Flank Defence\\n[[col:green]]+[[/col]] Snipe\\n[[col:green]]+[[/col]] Deep Quivers\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_shi_xie_water_jiaozhi_longbows	[[b]]Jiaozhi Longbows[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Long Range\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_qu_pan_metal_jiuzhen_tiger_handlers	[[b]]Jiuzhen Tigers[[/b]]\\n[[col:scope_description]]Animal Handlers[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Flanking\\n[[col:green]]+[[/col]] Stalk\\n[[col:green]]+[[/col]] Animal Handler\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_qu_pan_water_jiuzhen_elephants	[[b]]Jiuzhen Elephants[[/b]]\\n[[col:scope_description]]War Beast[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Assault\\n[[col:green]]+[[/col]] Stalk\\n[[col:green]]+[[/col]] Mighty Knockback\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_shi_huang_wood_cangwu_shield_spears	[[b]]Cangwu Shieldwall[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Missile Defence\\n[[col:green]]+[[/col]] Large Unit\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_shi_huang_metal_cangwu_axes	[[b]]Cangwu Breachers[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Flanking\\n[[col:green]]+[[/col]] Charge\\n[[col:red]]-[[/col]] Missile Defence\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_fei_zhan_water_yue_hill_archers	[[b]]Yue Archers[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] All-Terrain Movement\\n[[col:red]]-[[/col]] Cannot Assume Formations\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_fei_zhan_metal_yue_forest_axes	[[b]]Forest Axes[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Assault\\n[[col:green]]+[[/col]] Charge\\n[[col:green]]+[[/col]] Forest Fighters\\n[[col:green]]+[[/col]] Throws Axes\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_zhang_xian_wood_lingling_spears	[[b]]Lingling Spears[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Anti-Cavalry\\n[[col:green]]+[[/col]] Bonus vs Mounted\\n[[col:red]]-[[/col]] Missile Defence\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_zhang_xian_metal_lingling_swordguard	[[b]]Lingling Swordguard[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Melee Defence\\n[[col:green]]+[[/col]] Charge Negation\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_pan_lin_water_shanyue_hunters	[[b]]Shanyue Hunters[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Harassers\\n[[col:green]]+[[/col]] Snipe\\n[[col:red]]-[[/col]] Vulnerable to Fire\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_pan_lin_wood_shanyue_dread_spears	[[b]]Dread Spears[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: All Rounder\\n[[col:green]]+[[/col]] Causes Terror\\n[[col:green]]+[[/col]] Missile Defence\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_liu_pan_earth_changsha_raiders	[[b]]Changsha Raiders[[/b]]\\n[[col:scope_description]]Melee Cavalry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Flanker\\n[[col:green]]+[[/col]] Good Charge\\n[[col:green]]+[[/col]] Carries a Bow\\n[[col:red]]-[[/col]] Raider\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_liu_pan_metal_changsha_stalking_axes	[[b]]Changsha Stalkers[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Assault\\n[[col:green]]+[[/col]] Stalk\\n[[col:green]]+[[/col]] Charge\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_liu_xun_water_lujiang_spear_archers	[[b]]Lujiang Archers[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Bonus vs Mounted\\n[[col:green]]+[[/col]] Good Ranged Damage\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_liu_xun_metal_lujiang_shieldguard	[[b]]Lujiang Shieldguard[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Melee Defence\\n[[col:red]]-[[/col]] Weak vs Cavalry\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_ni_xiaode_water_nanhai_marine_crossbows	[[b]]Nanhai Marines[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Armour-Piercing Missiles\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_ni_xiaode_wood_nanhai_pearl_halberdiers	[[b]]Pearl Halberdiers[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Missile Defence\\n[[col:green]]+[[/col]] Charge Negation\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_zhu_fu_metal_wuling_improvisers	[[b]]Wuling Improvisers[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Support\\n[[col:green]]+[[/col]] Expendable\\n[[col:green]]+[[/col]] Throws Axes\\n[[col:red]]-[[/col]] Unruly\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_zhu_fu_water_wuling_inconstant_guard	[[b]]Inconstant Guard[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: All Rounder\\n[[col:green]]+[[/col]] Melee Secondary\\n[[col:green]]+[[/col]] Guerrilla Deployment\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_bian_rang_water_scholar_crossbows	[[b]]Scholar Crossbows[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Armour-Piercing Missiles\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_bian_rang_wood_retainer_spearguards	[[b]]Retainer Spearguards[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Encourages\\n[[col:red]]-[[/col]] Charge Reflected by Spears\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_su_dai_water_hired_marksmen	[[b]]Hired Marksmen[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Harassers\\n[[col:green]]+[[/col]] Has Ranged\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_su_dai_metal_caravan_guards	[[b]]Caravan Wardens[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Armour\\n[[col:green]]+[[/col]] Melee Defence\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_lai_gong_wood_gaoliang_levy_spears	[[b]]Gaoliang Levies[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Anti-Cavalry\\n[[col:green]]+[[/col]] Bonus vs Mounted\\n[[col:red]]-[[/col]] Missile Defence\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_lai_gong_water_southern_watch_archers	[[b]]Watch Archers[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Forest Fighters\\n[[col:green]]+[[/col]] Snipe\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_wu_ju_metal_yulin_storm_axes	[[b]]Storm Axes[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Assault\\n[[col:green]]+[[/col]] Charge\\n[[col:green]]+[[/col]] Throws Axes\\n[[col:red]]-[[/col]] Missile Defence\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_wu_ju_metal_yulin_tempest_glaives	[[b]]Tempest Glaives[[/b]]\\n[[col:scope_description]]Melee Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Splash Attacks\\n[[col:green]]+[[/col]] Armour-Piercing Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_wu_huan_ytr_wood_jiangdong_zealot_spears	[[b]]Jiangdong Zealots[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Frontline\\n[[col:green]]+[[/col]] Morale\\n[[col:red]]-[[/col]] Unruly\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_wu_huan_ytr_water_faithful_archers	[[b]]Faithful Archers[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Fire Damage\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_zhang_jin_water_vermilion_veil_archers	[[b]]Vermilion Archers[[/b]]\\n[[col:scope_description]]Missile Infantry[[/col]]\\n\\nAvailable for characters rank 3 or higher\\n\\nRole: Rearline\\n[[col:green]]+[[/col]] Stalk\\n[[col:red]]-[[/col]] Poor Melee\\n	true
+frontend_faction_leader_unique_features_localised_description_rew_iro_zhang_jin_wood_meridian_halberdiers	[[b]]Meridian Halberdiers[[/b]]\\n[[col:scope_description]]Infantry Spearmen[[/col]]\\n\\nAvailable for characters rank 6 or higher\\n\\nRole: Anti-Cavalry\\n[[col:green]]+[[/col]] Bonus vs Mounted\\n[[col:green]]+[[/col]] Has Ranged\\n	true

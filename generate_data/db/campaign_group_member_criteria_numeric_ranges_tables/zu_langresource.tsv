@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/zu_langresource			
+ironic_zu_lang_zu_lang_independence_level_0	15	0	value
+ironic_zu_lang_zu_lang_independence_level_1	30	16	value
+ironic_zu_lang_zu_lang_independence_level_2	55	31	value
+ironic_zu_lang_zu_lang_independence_level_3	84	56	value
+ironic_zu_lang_zu_lang_independence_level_4	100	85	value

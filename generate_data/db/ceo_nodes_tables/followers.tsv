@@ -1,0 +1,80 @@
+key	ceo_effect_list	point_change_per_turn_if_active	title	description	icon_path	opinion_topic_modifier
+#ceo_nodes_tables;0;ceo_db/ceo_nodes_tables/followers						
+3k_dlc04_ancillary_apprentice_crafter	3k_dlc04_ancillary_follower_apprentice_crafter	0	Apprentice Crafter	Though yet to gain the benefits that storied experience brings, he nevertheless is skilled in constructing battlefield defences, and can pass that knowledge on to others.	followers/3k_dlc04_ancillary_apprentice_crafter.png	
+3k_dlc04_ancillary_master_crafter	3k_dlc04_ancillary_follower_master_crafter	0	Master Crafter	A veteran of the wars that almost tore the kingdom apart, this man is both a masterful battlefield engineer and a more-than-competent instructor in his area.	followers/3k_dlc04_ancillary_master_crafter.png	
+3k_dlc06_ancillary_follower_shaman	3k_dlc06_ancillary_follower_shaman	0	Shaman	Versed in the laws of the southlands, the shaman can find the things which others fail to see.	followers/3k_dlc06_ancillary_follower_shaman.png	
+3k_dlc06_ancillary_follower_translator	3k_dlc06_ancillary_follower_translator	0	Representationist	To communicate between the tribes of the south, one must speak not one, but many languages.	followers/3k_dlc06_ancillary_follower_translator.png	
+3k_dlc07_ancillary_northern_army_captain	3k_dlc07_ancillary_accessory_northern_army_captain_unique	0	Colonel of the Northern Army	The Northern Army is yours to command! Each colonel is loyal to whom they have been assigned, vowing never to leave their side!	followers/3k_main_ancillary_military_expert.png	
+3k_gsz_ancillary_follower_bandit_earth	3k_gsz_ancillary_follower_bandit_earth	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_officer.png	
+3k_gsz_ancillary_follower_bandit_fire	3k_gsz_ancillary_follower_bandit_fire	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_military_instructor.png	
+3k_gsz_ancillary_follower_bandit_metal	3k_gsz_ancillary_follower_bandit_metal	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_builder.png	
+3k_gsz_ancillary_follower_bandit_water	3k_gsz_ancillary_follower_bandit_water	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_eavesdropper.png	
+3k_gsz_ancillary_follower_bandit_wood	3k_gsz_ancillary_follower_bandit_wood	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_qiang_grand_warrior.png	
+3k_gsz_ancillary_follower_barbarian_earth	3k_gsz_ancillary_follower_barbarian_earth	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_officer.png	
+3k_gsz_ancillary_follower_barbarian_fire	3k_gsz_ancillary_follower_barbarian_fire	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_military_instructor.png	
+3k_gsz_ancillary_follower_barbarian_metal	3k_gsz_ancillary_follower_barbarian_metal	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_builder.png	
+3k_gsz_ancillary_follower_barbarian_water	3k_gsz_ancillary_follower_barbarian_water	0	placeholder	placeholder	ui/ancillaries/followers/3k_main_ancillary_eavesdropper.png	
+3k_gsz_ancillary_follower_barbarian_wood	3k_gsz_ancillary_follower_barbarian_wood	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_qiang_grand_warrior.png	
+3k_gsz_ancillary_follower_han_earth	3k_gsz_ancillary_follower_han_earth	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_chen_honorguard_commander.png	
+3k_gsz_ancillary_follower_han_fire	3k_gsz_ancillary_follower_han_fire	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_tiger_and_leopard_cavalry_commander.png	
+3k_gsz_ancillary_follower_han_metal	3k_gsz_ancillary_follower_han_metal	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_camp_crusher_drillmaster.png	
+3k_gsz_ancillary_follower_han_water	3k_gsz_ancillary_follower_han_water	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_yi_expert_marksman.png	
+3k_gsz_ancillary_follower_han_wood	3k_gsz_ancillary_follower_han_wood	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_spearmen_officer.png	
+3k_gsz_ancillary_follower_korea_earth	3k_gsz_ancillary_follower_korea_earth	0	placeholder	placeholder	ui/ancillaries/followers/3k_dlc04_ancillary_apprentice_crafter.png	
+3k_gsz_ancillary_follower_korea_fire	3k_gsz_ancillary_follower_korea_fire	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_cavalry_officer.png	
+3k_gsz_ancillary_follower_korea_metal	3k_gsz_ancillary_follower_korea_metal	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_head_of_yuan_guard.png	
+3k_gsz_ancillary_follower_korea_water	3k_gsz_ancillary_follower_korea_water	0	placeholder	placeholder	ui/ancillaries/followers/3k_dlc04_ancillary_master_crafter.png	
+3k_gsz_ancillary_follower_korea_wood	3k_gsz_ancillary_follower_korea_wood	0	placeholder	placeholder	ui/ancillaries/followers/3k_puzzle_ancillary_leader_of_refugees.png	
+3k_gsz_ancillary_follower_nanman_animal	3k_gsz_ancillary_follower_nanman_animal	0	placeholder	placeholder	ui/ancillaries/followers/3k_dlc06_ancillary_follower_shaman.png	
+3k_gsz_ancillary_follower_nanman_infantry	3k_gsz_ancillary_follower_nanman_infantry	0	placeholder	placeholder	ui/ancillaries/followers/3k_dlc06_ancillary_follower_shaman.png	
+3k_ironic_ancillary_follower_xiliang_commander	3k_ironic_ancillary_follower_xiliang_commander	0	placeholder	placeholder	followers/3k_ironic_ancillary_follower_xiliang_commander.png	
+3k_main_ancillary_adept	3k_main_ancillary_follower_adept	0	Adept	"Practice makes perfect, the more that you do it."	followers/3k_main_ancillary_adept.png	
+3k_main_ancillary_architect	3k_main_ancillary_follower_architect	0	Architect	This man oversees all aspects of construction, from the thought right through to the final form.	followers/3k_main_ancillary_architect.png	
+3k_main_ancillary_artisan	3k_main_ancillary_follower_artisan	0	Artisan	More than a mere worker, this one is skilled with his hands in a particular, valuable field.	followers/3k_main_ancillary_artisan.png	
+3k_main_ancillary_astronomer	3k_main_ancillary_follower_astronomer	0	Astronomer	"See how the Twenty-eight Mansions move through the Four Symbols. There is a pattern - as in all things, I find - like the workings of a machine."	followers/3k_main_ancillary_astronomer.png	
+3k_main_ancillary_bodyguard	3k_main_ancillary_follower_bodyguard	0	Bodyguard	If they want you they must go through him first. Good luck.	followers/3k_main_ancillary_bodyguard.png	
+3k_main_ancillary_builder	3k_main_ancillary_follower_builder	0	Builder	He turns the architect's visions into a reality of wood and clay.	followers/3k_main_ancillary_builder.png	
+3k_main_ancillary_concubine	3k_main_ancillary_follower_concubine	0	Concubine	"No, she's not my wife. I keep her for… pleasures. It's less complicated than it sounds."	followers/3k_main_ancillary_concubine.png	
+3k_main_ancillary_confucian_sage	3k_main_ancillary_follower_confucian_sage	0	Confucian Sage	Junzi has many characteristics. Junzi can live with poverty; Junzi does more and speaks less. Junzi disciplines himself.	followers/3k_main_ancillary_confucian_sage.png	
+3k_main_ancillary_craftsman	3k_main_ancillary_follower_craftsman	0	Craftsman	In a sea of so many souls, it quite literally pays to specialise.	followers/3k_main_ancillary_craftsman.png	
+3k_main_ancillary_cryptographer	3k_main_ancillary_follower_cryptographer	0	Cryptographer	The cipher conceals the details of the plan - and, often, the plan itself - from the enemy at hand.	followers/3k_main_ancillary_cryptographer.png	
+3k_main_ancillary_devious_attendant	3k_main_ancillary_follower_devious_attendant	0	Devious Attendant	"My lord, if I may approach - I've had a few thoughts that may be of use…"	followers/3k_main_ancillary_devious_attendant.png	
+3k_main_ancillary_diviner	3k_main_ancillary_follower_diviner	0	Diviner	"No, it is not guesswork - I have a… sense for these things."	followers/3k_main_ancillary_diviner.png	
+3k_main_ancillary_eavesdropper	3k_main_ancillary_follower_eavesdropper	0	Eavesdropper	You never know who may be listening, and where they may be hiding.	followers/3k_main_ancillary_eavesdropper.png	
+3k_main_ancillary_elite_trainer	3k_main_ancillary_follower_elite_trainer	0	Elite Trainer	The best of the best are about to get better.	followers/3k_main_ancillary_elite_trainer.png	
+3k_main_ancillary_engineer	3k_main_ancillary_follower_engineer	0	Engineer	Levered catapults, repeating crossbows, cloud ladders, rotating arcuballistas - whatever your siege requires, this one can provide.	followers/3k_main_ancillary_engineer.png	
+3k_main_ancillary_eunuch	3k_main_ancillary_follower_eunuch	0	Eunuch	"He may not be as... 'complete' as other men, but he has many times the guile, believe you me."	followers/3k_main_ancillary_eunuch.png	
+3k_main_ancillary_farm_manager	3k_main_ancillary_follower_farm_manager	0	Farm Manager	Standing between the landowner and the peasants, this one ensures the system - and the resultant flow of money - works as expected.	followers/3k_main_ancillary_farm_manager.png	
+3k_main_ancillary_farmer	3k_main_ancillary_follower_farmer	0	Farmer	Even the hardest soil can be coaxed into giving life.	followers/3k_main_ancillary_farmer.png	
+3k_main_ancillary_follower_weapon_craftsman	3k_main_ancillary_follower_weapon_craftsman	0	placeholder	placeholder	followers/3k_main_ancillary_builder.png	
+3k_main_ancillary_foreman	3k_main_ancillary_follower_foreman	0	Foreman	If the work is to proceed on schedule, the workers must be supervised and directed by another.	followers/3k_main_ancillary_foreman.png	
+3k_main_ancillary_forge_master	3k_main_ancillary_follower_forge_master	0	Forge Master	The fruits of the furnace must be carefully managed.	followers/3k_main_ancillary_forge_master.png	
+3k_main_ancillary_guard	3k_main_ancillary_follower_guard	0	Guard	Sensible precaution or advertising for criminals? It depends very much on the man chosen.	followers/3k_main_ancillary_guard.png	
+3k_main_ancillary_herdsman	3k_main_ancillary_follower_herdsman	0	Herdsman	This one looks after the livestock until it is needed.	followers/3k_main_ancillary_herdsman.png	
+3k_main_ancillary_hua_tuo	3k_main_ancillary_follower_hua_tuo	0	Hua Tuo	"Drink this… trust me, you will feel no pain."	followers/3k_main_ancillary_hua_tuo.png	
+3k_main_ancillary_inspector	3k_main_ancillary_follower_inspector	0	Inspector	Standards must be upheld.	followers/3k_main_ancillary_inspector.png	
+3k_main_ancillary_jade_sculptor	3k_main_ancillary_follower_jade_sculptor	0	Jade Sculptor	The most precious stone rewards the gentlest hand.	followers/3k_main_ancillary_jade_sculptor.png	
+3k_main_ancillary_labour_recruiter	3k_main_ancillary_follower_labour_recruiter	0	Labour Recruiter	"Think of it like this: you will be working directly for the emperor himself."	followers/3k_main_ancillary_labour_recruiter.png	
+3k_main_ancillary_land_shaper	3k_main_ancillary_follower_land_shaper	0	Land Shaper	"Yes, clear all of it away - I wish to see the lake from here."	followers/3k_main_ancillary_land_shaper.png	
+3k_main_ancillary_law_enforcer	3k_main_ancillary_follower_law_enforcer	0	Law Enforcer	In society, one must learn to conform.	followers/3k_main_ancillary_law_enforcer.png	
+3k_main_ancillary_legalist_fanatic	3k_main_ancillary_follower_legalist_fanatic	0	Legalist Fanatic	Standards must not be allowed to slip, for if the state fails, what hope is there for the country?	followers/3k_main_ancillary_legalist_fanatic.png	
+3k_main_ancillary_local_administrator	3k_main_ancillary_follower_local_administrator	0	Local Administrator	A little local knowledge makes for a more tailored service.	followers/3k_main_ancillary_local_administrator.png	
+3k_main_ancillary_master_craftsman	3k_main_ancillary_follower_master_craftsman	0	Master Craftsman	At the top of his profession, this man receives offers of work from far and wide.	followers/3k_main_ancillary_master_craftsman.png	
+3k_main_ancillary_mathematician	3k_main_ancillary_follower_mathematician	0	Mathematician	Much more than a student of numbers, this one can see them in his mind's eye and manipulate them instantly.	followers/3k_main_ancillary_mathematician.png	
+3k_main_ancillary_merchant	3k_main_ancillary_follower_merchant	0	Merchant	When the world is for sale, the smart man sees a way to profit from it.	followers/3k_main_ancillary_merchant.png	
+3k_main_ancillary_military_expert	3k_main_ancillary_follower_military_expert	0	Military Expert	This grizzled warrior has survived not by running away, but by standing his ground.	followers/3k_main_ancillary_military_expert.png	
+3k_main_ancillary_military_instructor	3k_main_ancillary_follower_military_instructor	0	Military Instructor	"Right, you ingrates, listen to me if you want to see another dawn!"	followers/3k_main_ancillary_military_instructor.png	
+3k_main_ancillary_monk	3k_main_ancillary_follower_monk	0	Taoist Monk	He lives by alms because the world of men has no value.	followers/3k_main_ancillary_monk.png	
+3k_main_ancillary_officer	3k_main_ancillary_follower_officer	0	Officer	"You heard the man and you know the plan!"	followers/3k_main_ancillary_officer.png	
+3k_main_ancillary_overseer	3k_main_ancillary_follower_overseer	0	Overseer	"Not like that! Stop, now watch me. That's better."	followers/3k_main_ancillary_overseer.png	
+3k_main_ancillary_philosopher	3k_main_ancillary_follower_philosopher	0	Philosopher	"Life is really simple, but we insist on making it complicated."	followers/3k_main_ancillary_philosopher.png	
+3k_main_ancillary_prefect	3k_main_ancillary_follower_prefect	0	Prefect	The governor can share surplus food, or take it away, with a mere wave of his hand.	followers/3k_main_ancillary_prefect.png	
+3k_main_ancillary_professional_instructor	3k_main_ancillary_follower_professional_instuctor	0	Professional Instructor	You're never too old, or too powerful, to learn something new.	followers/3k_main_ancillary_professional_instructor.png	
+3k_main_ancillary_professor	3k_main_ancillary_follower_professor	0	Professor	What use is all that knowledge if it is not passed on to the coming generation?	followers/3k_main_ancillary_professor.png	
+3k_main_ancillary_provincial_advisor	3k_main_ancillary_follower_provincial_advisor	0	Provincial Advisor	This man knows both the land and its people, and can organise them both.	followers/3k_main_ancillary_provincial_advisor.png	
+3k_main_ancillary_provincial_auditor	3k_main_ancillary_follower_provincial_auditor	0	Provincial Auditor	You cannot hide from the state.	followers/3k_main_ancillary_provincial_auditor.png	
+3k_main_ancillary_scholar	3k_main_ancillary_follower_scholar	0	Scholar	Before specialisation, learn the basics.	followers/3k_main_ancillary_scholar.png	
+3k_main_ancillary_spy_master	3k_main_ancillary_follower_spy_master	0	Spy Master	The gathering of information, and what is done with it afterwards, is an art like any other.	followers/3k_main_ancillary_spy_master.png	
+3k_main_ancillary_tax_collector	3k_main_ancillary_follower_tax_collector	0	Tax Collector	It's a dirty job but someone has to do it.	followers/3k_main_ancillary_tax_collector.png	
+3k_main_ancillary_trader	3k_main_ancillary_follower_trader	0	Trader	What many consider to be beneath them, this man sees as his route to riches.	followers/3k_main_ancillary_trader.png	
+3k_main_ancillary_tycoon	3k_main_ancillary_follower_tycoon	0	Tycoon	Commerce is all.	followers/3k_main_ancillary_tycoon.png	

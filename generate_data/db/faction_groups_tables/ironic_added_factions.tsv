@@ -1,0 +1,6 @@
+key	order	ui_icon	effect_bundle
+#faction_groups_tables;5;db/faction_groups_tables/ironic_added_factions			
+heir_factions	20	x	3k_main_dummy_effect_bundle
+all_factions	25	x	3k_main_dummy_effect_bundle
+korea_factions	15	x	3k_main_dummy_effect_bundle
+barbarian_factions	10	x	3k_main_dummy_effect_bundle

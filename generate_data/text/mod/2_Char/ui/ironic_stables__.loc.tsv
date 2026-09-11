@@ -1,0 +1,200 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_stables__.loc		
+campaign_localised_strings_string_ironic_stables_title	MA TENG'S STABLES	false
+campaign_localised_strings_string_ironic_stables_tab_stalls	TRAINING STALLS	false
+campaign_localised_strings_string_ironic_stables_tab_paddock	PADDOCK	false
+campaign_localised_strings_string_ironic_stables_hdr_stalls	STALLS	false
+campaign_localised_strings_string_ironic_stables_hdr_paddock	PADDOCK	false
+campaign_localised_strings_string_ironic_stables_cap_tip_title	Stall capacity	false
+campaign_localised_strings_string_ironic_stables_cap_tip_rank	from rank	false
+campaign_localised_strings_string_ironic_stables_cap_tip_regions	from horse pastures	false
+campaign_localised_strings_string_ironic_stables_cap_tip_districts	from Xiliang supply lines	false
+campaign_localised_strings_string_ironic_stables_focus_instinct	Hill Gallops	false
+campaign_localised_strings_string_ironic_stables_focus_expertise	Formation Drills	false
+campaign_localised_strings_string_ironic_stables_focus_resolve	Long Rides	false
+campaign_localised_strings_string_ironic_stables_focus_cunning	Night Runs	false
+campaign_localised_strings_string_ironic_stables_focus_authority	Parade Grounds	false
+campaign_localised_strings_string_ironic_stables_focus_rest	Rest	false
+campaign_localised_strings_string_ironic_stables_attr_instinct	Instinct	false
+campaign_localised_strings_string_ironic_stables_attr_expertise	Expertise	false
+campaign_localised_strings_string_ironic_stables_attr_resolve	Resolve	false
+campaign_localised_strings_string_ironic_stables_attr_cunning	Cunning	false
+campaign_localised_strings_string_ironic_stables_attr_authority	Authority	false
+campaign_localised_strings_string_ironic_stables_btn_focus	Training	false
+campaign_localised_strings_string_ironic_stables_btn_breakin	Break In	false
+campaign_localised_strings_string_ironic_stables_btn_buy	Stable a Foal	false
+campaign_localised_strings_string_ironic_stables_btn_move	To Paddock	false
+campaign_localised_strings_string_ironic_stables_btn_assign	Assign	false
+campaign_localised_strings_string_ironic_stables_btn_sell	Sell	false
+campaign_localised_strings_string_ironic_stables_btn_dedicate	Dedicate	false
+campaign_localised_strings_string_ironic_stables_btn_release	Release	false
+campaign_localised_strings_string_ironic_stables_btn_confirm_release	Confirm?	false
+campaign_localised_strings_string_ironic_stables_btn_breed	Breed	false
+campaign_localised_strings_string_ironic_stables_btn_pair	Pair	false
+campaign_localised_strings_string_ironic_stables_btn_cancel_breed	Cancel	false
+campaign_localised_strings_string_ironic_stables_tt_sex_title	Sire or Dam	false
+campaign_localised_strings_string_ironic_stables_tt_sex_body	A pairing needs one of each. Check a horse's sex before you plan a bloodline - foals are born sire or dam at random.	false
+campaign_localised_strings_string_ironic_stables_btn_cancel	Cancel	false
+campaign_localised_strings_string_ironic_stables_assign_title	Assign to whom?	false
+campaign_localised_strings_string_ironic_stables_has_mount	(replaces mount)	false
+campaign_localised_strings_string_ironic_stables_buy_title	Choose a Foal	false
+campaign_localised_strings_string_ironic_stables_breed_common	Common Foal	false
+campaign_localised_strings_string_ironic_stables_breed_common_desc	A hardy foal from the county markets. No particular gifts, no particular price.	false
+campaign_localised_strings_string_ironic_stables_breed_common_req	Always available.	false
+campaign_localised_strings_string_ironic_stables_breed_qiang	Qiang Foal	false
+campaign_localised_strings_string_ironic_stables_breed_qiang_desc	Mountain-bred by the Qiang herdsmen. Steady and tireless - born with Resolve, learning it faster and tiring slower.	false
+campaign_localised_strings_string_ironic_stables_breed_qiang_req	Own a commandery in Liang: Wuwei, Jincheng, Wudu or Anding.	false
+campaign_localised_strings_string_ironic_stables_breed_wuhuan	Wuhuan Foal	false
+campaign_localised_strings_string_ironic_stables_breed_wuhuan_desc	A raider's horse from the northeast marches. Quick-blooded - born with Instinct, learning it faster and tiring slower.	false
+campaign_localised_strings_string_ironic_stables_breed_wuhuan_req	Own a commandery in the northeast: Youbeiping, Liaoxi or Guangyang.	false
+campaign_localised_strings_string_ironic_stables_breed_xianbei	Xianbei Foal	false
+campaign_localised_strings_string_ironic_stables_breed_xianbei_desc	From the herds beyond the wall. Sure-footed and drilled - born with Expertise, learning it faster and tiring slower.	false
+campaign_localised_strings_string_ironic_stables_breed_xianbei_req	Own a commandery on the northern wall: Yanmen, Dai or Liaodong.	false
+campaign_localised_strings_string_ironic_stables_breed_xiongnu	Xiongnu Foal	false
+campaign_localised_strings_string_ironic_stables_breed_xiongnu_desc	Of the old steppe lines of the Chanyu. Proud and commanding - born with Authority, learning it faster and tiring slower.	false
+campaign_localised_strings_string_ironic_stables_breed_xiongnu_req	Own a commandery in Bing: Shuofang, Yulin, Xihe, Taiyuan or Shangdang.	false
+campaign_localised_strings_string_ironic_stables_breed_han	Han Pasture Foal	false
+campaign_localised_strings_string_ironic_stables_breed_han_desc	Raised in the imperial pastures for courtiers and spies alike. Clever - born with Cunning, learning it faster and tiring slower.	false
+campaign_localised_strings_string_ironic_stables_breed_han_req	Own a commandery in the heartland: Jingzhao, Luoyang or Henei.	false
+campaign_localised_strings_string_ironic_stables_rar_common	Common	false
+campaign_localised_strings_string_ironic_stables_rar_refined	Refined	false
+campaign_localised_strings_string_ironic_stables_rar_exceptional	Exceptional	false
+campaign_localised_strings_string_ironic_stables_rar_elite	Elite	false
+campaign_localised_strings_string_ironic_stables_sex_sire	Sire	false
+campaign_localised_strings_string_ironic_stables_sex_dam	Dam	false
+campaign_localised_strings_string_ironic_stables_pedigree	Pedigree	false
+campaign_localised_strings_string_ironic_stables_champion	Champion line	false
+campaign_localised_strings_string_ironic_stables_stall_empty	Empty Stall	false
+campaign_localised_strings_string_ironic_stables_stall_locked	Locked	false
+campaign_localised_strings_string_ironic_stables_stall_finished	Awaiting the paddock	false
+campaign_localised_strings_string_ironic_stables_age_label	Age	false
+campaign_localised_strings_string_ironic_stables_fatigue_label	Fatigue	false
+campaign_localised_strings_string_ironic_stables_total_label	Training	false
+campaign_localised_strings_string_ironic_stables_armed_hint	Choose a mate on another card	false
+campaign_localised_strings_string_ironic_stables_paddock_empty	THE PADDOCK IS EMPTY	false
+campaign_localised_strings_string_ironic_stables_paddock_empty_hint	Raise a foal in the Training Stalls and Break It In - broken-in horses wait here, ready to be assigned as mounts, sold, dedicated to your armies, or bred.	false
+campaign_localised_strings_string_ironic_stables_cooldown_label	Recovering	false
+campaign_localised_strings_string_ironic_stables_tip_fatigue	Exhausted horses risk training setbacks. Rest clears fatigue.	false
+campaign_localised_strings_string_ironic_stables_tip_cap	Turns before the horse must be broken in.	false
+campaign_localised_strings_string_ironic_stables_tip_paddock_full	The paddock is full. Make room before breaking in another horse.	false
+campaign_localised_strings_string_ironic_stables_tip_replace_mount	Replaces this character's current mount (it returns to your Ancillaries).	false
+campaign_localised_strings_string_ironic_stables_tip_dedicate	Consume this horse to grant its bloodline's blessing to your armies.	false
+campaign_localised_strings_string_ironic_stables_tip_release	Turn the horse loose. It is gone for good.	false
+campaign_localised_strings_string_ironic_stables_tt_gold_title	Treasury	false
+campaign_localised_strings_string_ironic_stables_tt_gold_body	Your faction's gold. Foals, breeding fees and stable events all draw from it; sold horses pay into it.	false
+campaign_localised_strings_string_ironic_stables_tt_cap_body	Stalls are earned, never bought: your rank grants 2 at Noble and 1 more per rank gained (6 at King), each owned horse-pasture region grants 3 (6 such pastures exist), and each stable district building grants 1 (up to 12).	false
+campaign_localised_strings_string_ironic_stables_tt_tab_stalls_body	Foals in training. Set each horse's training focus, manage its fatigue, answer stable events, and break it in when ready.	false
+campaign_localised_strings_string_ironic_stables_tt_tab_paddock_body	Your broken-in horses. Assign them as mounts, sell them, dedicate them to your armies, breed them, or turn them loose.	false
+campaign_localised_strings_string_ironic_stables_tt_attr_instinct_body	Trained by Hill Gallops. Feeds the red Fire bloodline. The highest aptitude decides the horse's breed at break-in.	false
+campaign_localised_strings_string_ironic_stables_tt_attr_expertise_body	Trained by Formation Drills. Feeds the grey Metal bloodline. The highest aptitude decides the horse's breed at break-in.	false
+campaign_localised_strings_string_ironic_stables_tt_attr_resolve_body	Trained by Long Rides. Feeds the brown Earth bloodline. The highest aptitude decides the horse's breed at break-in.	false
+campaign_localised_strings_string_ironic_stables_tt_attr_cunning_body	Trained by Night Runs. Feeds the black Water bloodline. The highest aptitude decides the horse's breed at break-in.	false
+campaign_localised_strings_string_ironic_stables_tt_attr_authority_body	Trained by Parade Grounds. Feeds the white Wood bloodline. The highest aptitude decides the horse's breed at break-in.	false
+campaign_localised_strings_string_ironic_stables_tt_focus_instinct_body	Train Instinct each turn. Training builds fatigue.	false
+campaign_localised_strings_string_ironic_stables_tt_focus_expertise_body	Train Expertise each turn. Training builds fatigue.	false
+campaign_localised_strings_string_ironic_stables_tt_focus_resolve_body	Train Resolve each turn. Training builds fatigue.	false
+campaign_localised_strings_string_ironic_stables_tt_focus_cunning_body	Train Cunning each turn. Training builds fatigue.	false
+campaign_localised_strings_string_ironic_stables_tt_focus_authority_body	Train Authority each turn. Training builds fatigue.	false
+campaign_localised_strings_string_ironic_stables_tt_focus_rest_body	Rest clears 30 fatigue per turn. A tired horse (50+) risks training setbacks; an exhausted one (80+) risks them badly.	false
+campaign_localised_strings_string_ironic_stables_tt_focus_line_body	The horse's current training. It keeps at this until you change it - pick a focus with the round buttons below.	false
+campaign_localised_strings_string_ironic_stables_tt_age_body	Age in turns, with turns remaining in brackets - at the cap the horse is broken in whether you are ready or not. Fatigue past 50 risks setbacks; past 80, serious ones. Rest to recover.	false
+campaign_localised_strings_string_ironic_stables_tt_total_body	Total training decides the quality at break-in: 30+ Refined, 55+ Exceptional, 80+ Elite, with a small chance to land one tier higher or lower. A bought foal tops out around Exceptional - Elite comes from breeding.	false
+campaign_localised_strings_string_ironic_stables_tt_breakin_body	End this horse's training now. Its highest aptitude picks the bloodline, its total training the quality, and it moves to the paddock. Needs paddock room.	false
+campaign_localised_strings_string_ironic_stables_tt_await_title	Awaiting Your Decision	false
+campaign_localised_strings_string_ironic_stables_tt_await_body	A stable event concerning this horse is waiting in your event feed. Answer it there; the horse keeps training in the meantime.	false
+campaign_localised_strings_string_ironic_stables_tt_move_body	Move this horse to the paddock, freeing the stall.	false
+campaign_localised_strings_string_ironic_stables_tt_sell_body	Sell this horse to the markets. Better horses fetch far better prices.	false
+campaign_localised_strings_string_ironic_stables_tt_horse_body	A broken-in horse. It stays in your paddock until you assign, sell, dedicate, breed or release it.	false
+campaign_localised_strings_string_ironic_stables_tt_pedigree_body	Born of a same-bloodline pairing. Each generation of pedigree improves this line's chance of breaking in a tier above its training.	false
+campaign_localised_strings_string_ironic_stables_tt_champion_body	Both parents were elite or better of the same bloodline. Champion foals are far likelier to break in a tier higher.	false
+campaign_localised_strings_string_ironic_stables_tt_cooldown_body	This horse has bred recently and must recover before pairing again.	false
+campaign_localised_strings_string_ironic_stables_tt_assign_body	Equip this horse on a character as their mount. A character carries one mount; any current mount returns to your Ancillaries.	false
+campaign_localised_strings_string_ironic_stables_tt_dedicate_body	Give this horse to your armies. Its bloodline grants a faction-wide blessing that scales with the horse's quality - one active per bloodline. An elite grants it permanently; a lesser horse grants it for a time, with a chance to take root forever. A permanent blessing is only replaced by a better horse of the same bloodline.	false
+campaign_localised_strings_string_ironic_stables_tt_breed_body	Choose this horse for breeding, then pick a mate of the opposite sex on another card. Costs 400 gold and an empty stall; the foal inherits from its parents, and same-bloodline pairs build pedigree.	false
+campaign_localised_strings_string_ironic_stables_tt_cancel_breed_body	Stop choosing a mate for this horse. Nothing is spent and the horse is unchanged.	false
+campaign_localised_strings_string_ironic_stables_pair_block_self	This is the horse you chose to breed. Pick its mate on another card, or press Cancel.	false
+campaign_localised_strings_string_ironic_stables_pair_block_same_sex	These two are the same sex. A pairing needs a sire and a dam.	false
+campaign_localised_strings_string_ironic_stables_pair_block_cooldown	One of these horses is still recovering from a recent pairing.	false
+campaign_localised_strings_string_ironic_stables_pair_block_no_stall	Every training stall is occupied. A foal needs somewhere to be raised.	false
+campaign_localised_strings_string_ironic_stables_pair_block_no_gold	You cannot afford the breeding fee.	false
+campaign_localised_strings_string_ironic_stables_tt_pair_body	Pair this horse with your chosen mate for 400 gold - the foal starts training with aptitudes inherited from both parents. Greyed out when the pair cannot breed: the sexes must differ, both horses must be recovered, and you need an empty stall and the fee.	false
+campaign_localised_strings_string_ironic_stables_tt_perm	Always permanent	false
+campaign_localised_strings_string_ironic_stables_tt_perma_chance	chance to become permanent	false
+campaign_localised_strings_string_ironic_stables_tt_turns	turns	false
+campaign_localised_strings_string_ironic_stables_tt_buy_body	Stable a new foal here. Breeds beyond the Common foal unlock while you hold regions in their homelands, and each is born gifted in its people's signature aptitude - learning it faster and tiring slower when training it.	false
+campaign_localised_strings_string_ironic_stables_tt_breed_body	Click to stable this foal. Locked breeds unlock while you own a region of their homeland; the requirement is shown on the card.	false
+uied_component_texts_localised_string_horse_stables_button_Tooltip_1c3214	[[b]]Horse Stables[[/b]] ||Raise and train Xiliang foals, breed the finest bloodlines, and turn them into legendary mounts, gold, or blessings for your armies.	false
+dilemmas_localised_title_ironic_stables_dlm_skittish_foal	A Skittish Foal	false
+dilemmas_localised_description_ironic_stables_dlm_skittish_foal	One of the young horses in your stables shies at every shadow and will not take the halter. The grooms look to you.	false
+random_localisation_strings_string_ironic_stables_dlm_skittish_foal_first	Steady it patiently	false
+random_localisation_strings_string_ironic_stables_dlm_skittish_foal_second	Let it run itself out	false
+dilemmas_localised_title_ironic_stables_dlm_wolf_scare	Wolves on the Wind	false
+dilemmas_localised_description_ironic_stables_dlm_wolf_scare	A wolf pack has been circling your pastures by night, and one of the horses in training frets at every howl.	false
+random_localisation_strings_string_ironic_stables_dlm_wolf_scare_first	Let the horse face them	false
+random_localisation_strings_string_ironic_stables_dlm_wolf_scare_second	Stable it safely inside	false
+dilemmas_localised_title_ironic_stables_dlm_horse_merchant	A Travelling Horse Merchant	false
+dilemmas_localised_description_ironic_stables_dlm_horse_merchant	A trader from the western roads has come to your stables with rare feed and finer tack than your grooms can afford.	false
+random_localisation_strings_string_ironic_stables_dlm_horse_merchant_first	Pay 400 gold for his wares	false
+random_localisation_strings_string_ironic_stables_dlm_horse_merchant_second	Send him on his way	false
+dilemmas_localised_title_ironic_stables_dlm_spring_pasture	Spring Pastures	false
+dilemmas_localised_description_ironic_stables_dlm_spring_pasture	The hills above your stables are green and the streams run full. A horse in training could be turned out, or driven harder while the weather holds.	false
+random_localisation_strings_string_ironic_stables_dlm_spring_pasture_first	Turn the horse out to graze	false
+random_localisation_strings_string_ironic_stables_dlm_spring_pasture_second	Push the training harder	false
+dilemmas_localised_title_ironic_stables_dlm_loose_shoe	A Thrown Shoe	false
+dilemmas_localised_description_ironic_stables_dlm_loose_shoe	One of your horses has thrown a shoe on the stony track. The farrier names his price.	false
+random_localisation_strings_string_ironic_stables_dlm_loose_shoe_first	Pay 200 gold for the farrier	false
+random_localisation_strings_string_ironic_stables_dlm_loose_shoe_second	Let it toughen naturally	false
+dilemmas_localised_title_ironic_stables_dlm_night_thunder	Thunder in the Night	false
+dilemmas_localised_description_ironic_stables_dlm_night_thunder	A storm has your whole stable stamping and rolling its eyes. One horse in particular will not settle.	false
+random_localisation_strings_string_ironic_stables_dlm_night_thunder_first	Ride it through the storm	false
+random_localisation_strings_string_ironic_stables_dlm_night_thunder_second	Calm the stalls till dawn	false
+effect_bundles_localised_title_ironic_stables_ded_red_common	Gift of the Fire Herds	true
+effect_bundles_localised_description_ironic_stables_ded_red_common	Xiliang fire-blood chargers ride with your armies.	true
+effect_bundles_localised_title_ironic_stables_ded_red_refined	Blessing of the Fire Herds	true
+effect_bundles_localised_description_ironic_stables_ded_red_refined	Xiliang fire-blood chargers ride with your armies.	true
+effect_bundles_localised_title_ironic_stables_ded_red_exceptional	Pride of the Fire Herds	true
+effect_bundles_localised_description_ironic_stables_ded_red_exceptional	Xiliang fire-blood chargers ride with your armies.	true
+effect_bundles_localised_title_ironic_stables_ded_red_elite	Legacy of the Fire Herds	true
+effect_bundles_localised_description_ironic_stables_ded_red_elite	Xiliang fire-blood chargers ride with your armies.	true
+effect_bundles_localised_title_ironic_stables_ded_grey_common	Gift of the Metal Herds	true
+effect_bundles_localised_description_ironic_stables_ded_grey_common	Iron-shod Xiliang mounts harden your cavalry.	true
+effect_bundles_localised_title_ironic_stables_ded_grey_refined	Blessing of the Metal Herds	true
+effect_bundles_localised_description_ironic_stables_ded_grey_refined	Iron-shod Xiliang mounts harden your cavalry.	true
+effect_bundles_localised_title_ironic_stables_ded_grey_exceptional	Pride of the Metal Herds	true
+effect_bundles_localised_description_ironic_stables_ded_grey_exceptional	Iron-shod Xiliang mounts harden your cavalry.	true
+effect_bundles_localised_title_ironic_stables_ded_grey_elite	Legacy of the Metal Herds	true
+effect_bundles_localised_description_ironic_stables_ded_grey_elite	Iron-shod Xiliang mounts harden your cavalry.	true
+effect_bundles_localised_title_ironic_stables_ded_brown_common	Gift of the Earth Herds	true
+effect_bundles_localised_description_ironic_stables_ded_brown_common	Steady Xiliang stock eases the burden of your riders.	true
+effect_bundles_localised_title_ironic_stables_ded_brown_refined	Blessing of the Earth Herds	true
+effect_bundles_localised_description_ironic_stables_ded_brown_refined	Steady Xiliang stock eases the burden of your riders.	true
+effect_bundles_localised_title_ironic_stables_ded_brown_exceptional	Pride of the Earth Herds	true
+effect_bundles_localised_description_ironic_stables_ded_brown_exceptional	Steady Xiliang stock eases the burden of your riders.	true
+effect_bundles_localised_title_ironic_stables_ded_brown_elite	Legacy of the Earth Herds	true
+effect_bundles_localised_description_ironic_stables_ded_brown_elite	Steady Xiliang stock eases the burden of your riders.	true
+effect_bundles_localised_title_ironic_stables_ded_black_common	Gift of the Water Herds	true
+effect_bundles_localised_description_ironic_stables_ded_black_common	Night-black Xiliang scouts carry your armies far and unseen.	true
+effect_bundles_localised_title_ironic_stables_ded_black_refined	Blessing of the Water Herds	true
+effect_bundles_localised_description_ironic_stables_ded_black_refined	Night-black Xiliang scouts carry your armies far and unseen.	true
+effect_bundles_localised_title_ironic_stables_ded_black_exceptional	Pride of the Water Herds	true
+effect_bundles_localised_description_ironic_stables_ded_black_exceptional	Night-black Xiliang scouts carry your armies far and unseen.	true
+effect_bundles_localised_title_ironic_stables_ded_black_elite	Legacy of the Water Herds	true
+effect_bundles_localised_description_ironic_stables_ded_black_elite	Night-black Xiliang scouts carry your armies far and unseen.	true
+effect_bundles_localised_title_ironic_stables_ded_white_common	Gift of the Wood Herds	true
+effect_bundles_localised_description_ironic_stables_ded_white_common	Proud Xiliang parade mounts lift your soldiers' spirits.	true
+effect_bundles_localised_title_ironic_stables_ded_white_refined	Blessing of the Wood Herds	true
+effect_bundles_localised_description_ironic_stables_ded_white_refined	Proud Xiliang parade mounts lift your soldiers' spirits.	true
+effect_bundles_localised_title_ironic_stables_ded_white_exceptional	Pride of the Wood Herds	true
+effect_bundles_localised_description_ironic_stables_ded_white_exceptional	Proud Xiliang parade mounts lift your soldiers' spirits.	true
+effect_bundles_localised_title_ironic_stables_ded_white_elite	Legacy of the Wood Herds	true
+effect_bundles_localised_description_ironic_stables_ded_white_elite	Proud Xiliang parade mounts lift your soldiers' spirits.	true
+incidents_localised_title_ironic_stables_incident_elite	A Peerless Steed	false
+incidents_localised_description_ironic_stables_incident_elite	Your stables have raised a horse of the finest stock. Open the Stables panel to assign it to a champion, sell it, or breed from it.	false
+incidents_localised_title_ironic_stables_incident_forced_breakin	A Horse Comes of Age	false
+incidents_localised_description_ironic_stables_incident_forced_breakin	A horse has grown too old for the training stalls and has been broken in. It waits in your paddock, ready to be assigned, sold, dedicated or bred.	false
+incidents_localised_title_ironic_stables_incident_perma	The Blessing Endures	false
+incidents_localised_description_ironic_stables_incident_perma	The herd's gift has taken permanent root among your armies - this bonus will never expire.	false
+incidents_localised_title_ironic_stables_incident_foal	A Foal is Born	false
+incidents_localised_description_ironic_stables_incident_foal	Your pairing has produced a foal, and it has taken a stall in your stables. Open the Stables panel to set its training - it begins with its parents' gifts.	false
+incidents_localised_title_ironic_stables_incident_decision	A Decision Waits at the Stables	false
+incidents_localised_description_ironic_stables_incident_decision	Your grooms are still waiting on your word about one of the horses in training. The choice sits unanswered in your event scroll, and the Stables panel marks which stall it was drawn for.	false

@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/liu_chong/resource_fortitude.loc		
+pooled_resource_factors_display_name_negative_ironic_fortitude_gain_buildings	Buildings	false
+pooled_resource_factors_display_name_positive_ironic_fortitude_gain_buildings	Buildings	false
+effects_description_3k_main_resource_gain_fortitude_building	[[b]]%+n[[/b]] Fortitude	false

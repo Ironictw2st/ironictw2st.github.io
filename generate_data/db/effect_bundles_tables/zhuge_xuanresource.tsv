@@ -1,0 +1,17 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zhuge_xuanresource						
+ironic_sleeping_dragon_resource_level_0			mh_political_parties_icon_empress.png	faction	negative	false
+ironic_sleeping_dragon_resource_level_1			mh_political_parties_icon_empress.png	faction	negative	false
+ironic_sleeping_dragon_resource_level_2			mh_political_parties_icon_empress.png	faction	neutral	false
+ironic_sleeping_dragon_resource_level_3			mh_political_parties_icon_empress.png	faction	positive	false
+ironic_sleeping_dragon_resource_level_4			mh_political_parties_icon_empress.png	faction	positive	false
+ironic_sleeping_dragon_resource_level_5			mh_political_parties_icon_empress.png	faction	positive	false
+ironic_sleeping_dragon_resource_level_6			mh_political_parties_icon_empress.png	faction	positive	false
+ironic_sleeping_dragon_resource_level_7			mh_political_parties_icon_empress.png	faction	positive	false
+ironic_sleeping_dragon_captives_execute			no_effect.png	force	neutral	false
+ironic_sleeping_dragon_captives_recruit			no_effect.png	force	neutral	false
+ironic_sleeping_dragon_captives_release			no_effect.png	force	neutral	false
+ironic_sleeping_dragon_garrisoned			mh_political_parties_icon_empress.png	force	neutral	false
+ironic_sleeping_dragon_vassalized			mh_political_parties_icon_empress.png	force	neutral	false
+ironic_sleeping_dragon_effect_bundle			mh_political_parties_icon_empress.png	faction	neutral	false
+ironic_sleeping_dragon_resource_level_8			mh_political_parties_icon_empress.png	faction	positive	false

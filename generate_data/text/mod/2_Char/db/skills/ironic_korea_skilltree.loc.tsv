@@ -1,0 +1,104 @@
+key	text	tooltip
+#Loc;1;text/db/skills/ironic_korea_skilltree.loc		
+character_skills_localised_name_ironic_korea_skill_sanseong	Mountain Fortress	false
+character_skills_localised_description_ironic_korea_skill_sanseong	Every ridge above the valley carries its own wall, and the people go up to it with the herds. An army that takes the valley has taken nothing.	false
+character_skills_localised_name_ironic_korea_skill_byeonhan_iron	Byeonhan Iron	false
+character_skills_localised_description_ironic_korea_skill_byeonhan_iron	The iron of the twelve states goes north to the commanderies, east to Ye and over the water to Wa, and is weighed out as money. What stays here is worn.	false
+character_skills_localised_name_ironic_korea_skill_yemaek_hunt	Yemaek Hunters	false
+character_skills_localised_description_ironic_korea_skill_yemaek_hunt	Men who follow sable and tiger through the eastern hills, and who make the sandalwood bow, do not lose their way nor miss their mark.	false
+character_skills_localised_name_ironic_korea_skill_lelang_tribute	Tribute to Lelang	false
+character_skills_localised_description_ironic_korea_skill_lelang_tribute	Gifts carried to the commandery at Lelang buy silk, seals of office, and the years we need to make ready.	false
+character_skills_localised_name_ironic_korea_skill_sodo_rite	Sodo Sanctuary	false
+character_skills_localised_description_ironic_korea_skill_sodo_rite	The pole is raised with its bells and drums, and inside the sodo no man may be seized. The people keep faith with the cheon'gun, and so with you.	false
+character_skills_localised_name_ironic_korea_skill_twelvefold_law	Twelvefold Law	false
+character_skills_localised_description_ironic_korea_skill_twelvefold_law	In Buyeo a thief repays twelve times what he took, and his household with him. Word of it travels further than any magistrate.	false
+character_skills_localised_name_ironic_korea_skill_five_bu	Council of the Five Bu	false
+character_skills_localised_description_ironic_korea_skill_five_bu	Gyeru, Sono, Jeolo, Sunno and Gwanno. The king rules with the five bu at his shoulder, and the levies come in on time.	false
+character_skills_localised_name_ironic_korea_skill_ability_jindaebeop	Jindaebeop	false
+character_skills_localised_description_ironic_korea_skill_ability_jindaebeop	The grain he lent out in the famine year is standing in the line with him now, and it does not break.	false
+character_skills_localised_name_ironic_korea_skill_ability_from_the_furrow	Plucked from the Furrow	false
+character_skills_localised_description_ironic_korea_skill_ability_from_the_furrow	A minister who has broken ground with his own hands knows exactly how long men can be asked to stand.	false
+character_skills_localised_name_ironic_korea_skill_ability_queens_night	The Queen's Night	false
+character_skills_localised_description_ironic_korea_skill_ability_queens_night	She moved once, in the dark, before anyone knew there was a decision to be made. She picks her man and she does not raise her voice.	false
+character_skills_localised_name_ironic_korea_skill_ability_elder_brothers_claim	Claim of the Elder Brother	false
+character_skills_localised_description_ironic_korea_skill_ability_elder_brothers_claim	The throne passed him by, so he went to Liaodong for thirty thousand men and came back to argue the point.	false
+character_skills_localised_name_ironic_korea_skill_ability_walls_of_hwando	The Walls of Hwando	false
+character_skills_localised_description_ironic_korea_skill_ability_walls_of_hwando	He put his capital behind a mountain wall. Whatever comes up the slope arrives with nothing left in it.	false
+character_skills_localised_name_ironic_korea_skill_ability_long_feud	The Long Feud	false
+character_skills_localised_description_ironic_korea_skill_ability_long_feud	Forty years of raids across the Silla border. His men have stopped asking what the quarrel was about.	false
+character_skills_localised_name_ironic_korea_skill_ability_crown_princes_command	The Crown Prince's Command	false
+character_skills_localised_description_ironic_korea_skill_ability_crown_princes_command	He led his father's armies against the Malgal long before the crown came to him. The veterans know the voice.	false
+character_skills_localised_name_ironic_korea_skill_ability_wind_and_cloud	Reader of Wind and Cloud	false
+character_skills_localised_description_ironic_korea_skill_ability_wind_and_cloud	He is said to read flood and drought a season out. A battlefield holds nothing like that much weather.	false
+character_skills_localised_name_ironic_korea_skill_ability_relief_to_allies	Relief to Allies	false
+character_skills_localised_description_ironic_korea_skill_ability_relief_to_allies	When the call came from the south the column was on the road before the envoy had eaten.	false
+character_skills_localised_name_ironic_korea_skill_ability_iron_sea	Lord of the Iron Sea	false
+character_skills_localised_description_ironic_korea_skill_ability_iron_sea	Every ingot that leaves the Nakdong passes a wharf he owns, and the best of it never leaves at all.	false
+character_skills_localised_name_ironic_korea_skill_ability_bride_from_the_sea	The Bride from the Sea	false
+character_skills_localised_description_ironic_korea_skill_ability_bride_from_the_sea	She came ashore with a stone pagoda in the hold. Men who fight under her expect to be on the winning side.	false
+character_skills_localised_name_ironic_korea_skill_ability_second_king	The Second King	false
+character_skills_localised_description_ironic_korea_skill_ability_second_king	The first king came out of an egg. The second has to be a government, and the ranks can feel the difference.	false
+character_skills_localised_name_ironic_korea_skill_ability_clear_the_fields	Clear the Fields	false
+character_skills_localised_description_ironic_korea_skill_ability_clear_the_fields	Burn the valley, drive in the herds and hold the ridge wall. Let them come to us, and let them find nothing on the way.	false
+character_skills_localised_name_ironic_korea_skill_ability_dongmaeng_oath	Dongmaeng Oath	false
+character_skills_localised_description_ironic_korea_skill_ability_dongmaeng_oath	Sworn at the tenth-month rite before heaven and the ancestors of the five bu. Men who have sworn together do not give ground.	false
+character_skills_localised_name_ironic_korea_skill_ability_buyeo_horse_lords	Buyeo Horse Lords	false
+character_skills_localised_description_ironic_korea_skill_ability_buyeo_horse_lords	The horse clans of the northern plain ride down whatever stands in front of them, and think about their own guard afterwards.	false
+character_skills_localised_name_ironic_korea_skill_ability_horses_of_the_maga	Horses of the Maga	false
+character_skills_localised_description_ironic_korea_skill_ability_horses_of_the_maga	The horse clan answers for the herds, as the ox, pig and dog clans answer for theirs. Buyeo horses are known as far as Luoyang.	false
+character_skills_localised_name_ironic_korea_skill_ability_hwandudaedo_cut	Hwandudaedo Cut	false
+character_skills_localised_description_ironic_korea_skill_ability_hwandudaedo_cut	The ring-pommel sword is made to cut, not to parry. Shrug the plate off your shoulders and use it.	false
+character_skills_localised_name_ironic_korea_skill_ability_iron_cuirass	Iron Cuirass	false
+character_skills_localised_description_ironic_korea_skill_ability_iron_cuirass	Byeonhan iron goes out to the commanderies, to Ye and to Wa as money. What stays at home is worn.	false
+character_skills_localised_name_ironic_korea_skill_ability_maek_bow	Maek Bow	false
+character_skills_localised_description_ironic_korea_skill_ability_maek_bow	The bow of the Maek is asked for by name in the Han markets. Every archer in the army draws it at once.	false
+character_skills_localised_name_ironic_korea_skill_ability_dangung_reach	Dan'gung Reach	false
+character_skills_localised_description_ironic_korea_skill_ability_dangung_reach	The sandalwood bow of Ye, cut and cured in the eastern hills, outranges what the commanderies issue.	false
+character_skills_localised_name_ironic_korea_skill_ability_cheonguns_ground	Cheon'gun's Ground	false
+character_skills_localised_description_ironic_korea_skill_ability_cheonguns_ground	The pole is raised with its bells and drums. Inside the sodo no man may be seized and no man takes a step back - nor a step forward.	false
+character_skills_localised_name_ironic_korea_skill_ability_bells_and_drums	Bells and Drums	false
+character_skills_localised_description_ironic_korea_skill_ability_bells_and_drums	Sowing in the fifth month, harvest in the tenth: dozens stamping in time, and the drums never out of earshot.	false
+unit_abilities_onscreen_name_ironic_korea_ability_clear_the_fields	Clear the Fields	false
+unit_abilities_tooltip_text_ironic_korea_ability_clear_the_fields	Burn the valley, drive in the herds and hold the ridge wall. Let them come to us, and let them find nothing on the way.	false
+unit_abilities_onscreen_name_ironic_korea_ability_dongmaeng_oath	Dongmaeng Oath	false
+unit_abilities_tooltip_text_ironic_korea_ability_dongmaeng_oath	Sworn at the tenth-month rite before heaven and the ancestors of the five bu. Men who have sworn together do not give ground.	false
+unit_abilities_onscreen_name_ironic_korea_ability_buyeo_horse_lords	Buyeo Horse Lords	false
+unit_abilities_tooltip_text_ironic_korea_ability_buyeo_horse_lords	The horse clans of the northern plain ride down whatever stands in front of them, and think about their own guard afterwards.	false
+unit_abilities_onscreen_name_ironic_korea_ability_horses_of_the_maga	Horses of the Maga	false
+unit_abilities_tooltip_text_ironic_korea_ability_horses_of_the_maga	The horse clan answers for the herds, as the ox, pig and dog clans answer for theirs. Buyeo horses are known as far as Luoyang.	false
+unit_abilities_onscreen_name_ironic_korea_ability_hwandudaedo_cut	Hwandudaedo Cut	false
+unit_abilities_tooltip_text_ironic_korea_ability_hwandudaedo_cut	The ring-pommel sword is made to cut, not to parry. Shrug the plate off your shoulders and use it.	false
+unit_abilities_onscreen_name_ironic_korea_ability_iron_cuirass	Iron Cuirass	false
+unit_abilities_tooltip_text_ironic_korea_ability_iron_cuirass	Byeonhan iron goes out to the commanderies, to Ye and to Wa as money. What stays at home is worn.	false
+unit_abilities_onscreen_name_ironic_korea_ability_maek_bow	Maek Bow	false
+unit_abilities_tooltip_text_ironic_korea_ability_maek_bow	The bow of the Maek is asked for by name in the Han markets. Every archer in the army draws it at once.	false
+unit_abilities_onscreen_name_ironic_korea_ability_dangung_reach	Dan'gung Reach	false
+unit_abilities_tooltip_text_ironic_korea_ability_dangung_reach	The sandalwood bow of Ye, cut and cured in the eastern hills, outranges what the commanderies issue.	false
+unit_abilities_onscreen_name_ironic_korea_ability_cheonguns_ground	Cheon'gun's Ground	false
+unit_abilities_tooltip_text_ironic_korea_ability_cheonguns_ground	The pole is raised with its bells and drums. Inside the sodo no man may be seized and no man takes a step back - nor a step forward.	false
+unit_abilities_onscreen_name_ironic_korea_ability_bells_and_drums	Bells and Drums	false
+unit_abilities_tooltip_text_ironic_korea_ability_bells_and_drums	Sowing in the fifth month, harvest in the tenth: dozens stamping in time, and the drums never out of earshot.	false
+unit_abilities_onscreen_name_ironic_korea_ability_jindaebeop	Jindaebeop	false
+unit_abilities_tooltip_text_ironic_korea_ability_jindaebeop	The grain he lent out in the famine year is standing in the line with him now, and it does not break.	false
+unit_abilities_onscreen_name_ironic_korea_ability_from_the_furrow	Plucked from the Furrow	false
+unit_abilities_tooltip_text_ironic_korea_ability_from_the_furrow	A minister who has broken ground with his own hands knows exactly how long men can be asked to stand.	false
+unit_abilities_onscreen_name_ironic_korea_ability_queens_night	The Queen's Night	false
+unit_abilities_tooltip_text_ironic_korea_ability_queens_night	She moved once, in the dark, before anyone knew there was a decision to be made. She picks her man and she does not raise her voice.	false
+unit_abilities_onscreen_name_ironic_korea_ability_elder_brothers_claim	Claim of the Elder Brother	false
+unit_abilities_tooltip_text_ironic_korea_ability_elder_brothers_claim	The throne passed him by, so he went to Liaodong for thirty thousand men and came back to argue the point.	false
+unit_abilities_onscreen_name_ironic_korea_ability_walls_of_hwando	The Walls of Hwando	false
+unit_abilities_tooltip_text_ironic_korea_ability_walls_of_hwando	He put his capital behind a mountain wall. Whatever comes up the slope arrives with nothing left in it.	false
+unit_abilities_onscreen_name_ironic_korea_ability_long_feud	The Long Feud	false
+unit_abilities_tooltip_text_ironic_korea_ability_long_feud	Forty years of raids across the Silla border. His men have stopped asking what the quarrel was about.	false
+unit_abilities_onscreen_name_ironic_korea_ability_crown_princes_command	The Crown Prince's Command	false
+unit_abilities_tooltip_text_ironic_korea_ability_crown_princes_command	He led his father's armies against the Malgal long before the crown came to him. The veterans know the voice.	false
+unit_abilities_onscreen_name_ironic_korea_ability_wind_and_cloud	Reader of Wind and Cloud	false
+unit_abilities_tooltip_text_ironic_korea_ability_wind_and_cloud	He is said to read flood and drought a season out. A battlefield holds nothing like that much weather.	false
+unit_abilities_onscreen_name_ironic_korea_ability_relief_to_allies	Relief to Allies	false
+unit_abilities_tooltip_text_ironic_korea_ability_relief_to_allies	When the call came from the south the column was on the road before the envoy had eaten.	false
+unit_abilities_onscreen_name_ironic_korea_ability_iron_sea	Lord of the Iron Sea	false
+unit_abilities_tooltip_text_ironic_korea_ability_iron_sea	Every ingot that leaves the Nakdong passes a wharf he owns, and the best of it never leaves at all.	false
+unit_abilities_onscreen_name_ironic_korea_ability_bride_from_the_sea	The Bride from the Sea	false
+unit_abilities_tooltip_text_ironic_korea_ability_bride_from_the_sea	She came ashore with a stone pagoda in the hold. Men who fight under her expect to be on the winning side.	false
+unit_abilities_onscreen_name_ironic_korea_ability_second_king	The Second King	false
+unit_abilities_tooltip_text_ironic_korea_ability_second_king	The first king came out of an egg. The second has to be a government, and the ranks can feel the difference.	false

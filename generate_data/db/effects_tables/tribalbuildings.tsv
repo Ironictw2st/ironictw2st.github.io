@@ -1,0 +1,13 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/tribalbuildings								
+ironic_qiang_infantry	replenishment.png	150	battle	metal		0.0000	positive_value_is_good	default
+ironic_qiang_cavalry	replenishment.png	150	battle	fire		0.0000	positive_value_is_good	default
+ironic_xiongnu_cavalry	replenishment.png	150	campaign	fire		0.0000	positive_value_is_good	default
+ironic_xiongnu_infantry	replenishment.png	150	campaign	metal		0.0000	positive_value_is_good	default
+ironic_xiongnu_heavy_infantry	replenishment.png	150	campaign	metal		0.0000	positive_value_is_good	default
+ironic_xiliang_cav	replenishment.png	150	campaign	fire		0.0000	positive_value_is_good	default
+ironic_xianbei_cav	replenishment.png	150	campaign	fire		0.0000	positive_value_is_good	default
+ironic_yue_unit	replenishment.png	150	campaign	metal		0.0000	positive_value_is_good	default
+ironic_chu_unit	replenishment.png	150	campaign	metal		0.0000	positive_value_is_good	default
+ironic_qi_unit	replenishment.png	150	campaign	water		0.0000	positive_value_is_good	default
+ironic_wuhuan_unit	replenishment.png	150	campaign	fire		0.0000	positive_value_is_good	default

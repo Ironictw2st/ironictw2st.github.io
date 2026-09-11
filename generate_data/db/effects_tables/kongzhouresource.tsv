@@ -1,0 +1,16 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/kongzhouresource								
+ironic_harmony_decay	dlc04_yt_people.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_harmony_armies	dlc04_yt_people.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_harmony_captives_post_battle	dlc04_yt_people.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_harmony_characters	dlc04_yt_people.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_harmony_building	dlc04_yt_people.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_harmony_armies_on_field	dlc04_yt_people.png	100	campaign			0.0000	positive_value_is_good	info
+ironic_harmony_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_harmony_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_harmony_executed	dlc04_yt_people.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_harmony_assignments	dlc04_yt_people.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_harmony_1	info.png	1	campaign		ironic_frontend_description_harmony_1	0.0000	positive_value_is_good	default
+ironic_frontend_description_harmony_2	info.png	2	campaign		ironic_frontend_description_harmony_2	0.0000	positive_value_is_good	default
+ironic_frontend_description_harmony_3	info.png	3	campaign		ironic_frontend_description_harmony_3	0.0000	positive_value_is_good	default
+ironic_frontend_description_harmony_4	info.png	4	campaign		ironic_frontend_description_harmony_4	0.0000	positive_value_is_good	default

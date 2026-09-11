@@ -1,0 +1,10 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/rebellionresource								
+ironic_rebellion_decay	sword_infantry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_rebellion_armies	sword_infantry.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_bandit_captives_post_battle	sword_infantry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_bandit_rebellion_bandit	sword_infantry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_bandit_rebellion_garrisoned	sword_infantry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_bandit_rebellion_vassalized	sword_infantry.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_bandit_rebellion_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_bandit_rebellion_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info

@@ -1,0 +1,201 @@
+key	text	tooltip
+#Loc;1;text/db/ironic_horde_effects.loc		
+effect_bundles_localised_title_ironic_horde_city_1	Nomadic Host (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_city_1	The rolling heart of the horde. Every level opens new building slots, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_2	Nomadic Host (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_city_2	The rolling heart of the horde. Every level opens new building slots, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_3	Nomadic Host (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_city_3	The rolling heart of the horde. Every level opens new building slots, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_4	Nomadic Host (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_city_4	The rolling heart of the horde. Every level opens new building slots, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_5	Nomadic Host (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_city_5	The rolling heart of the horde. Every level opens new building slots, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_6	Nomadic Host (Tier 6)	false
+effect_bundles_localised_description_ironic_horde_city_6	The rolling heart of the horde. Every level opens new building slots, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_7	Nomadic Host (Tier 7)	false
+effect_bundles_localised_description_ironic_horde_city_7	The rolling heart of the horde. Every level opens new building slots, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_wuhuan_1	Nomadic Host of the Wuhuan (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_city_wuhuan_1	The rolling heart of the Wuhuan. Every level opens new building slots and quickens the march, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_wuhuan_2	Nomadic Host of the Wuhuan (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_city_wuhuan_2	The rolling heart of the Wuhuan. Every level opens new building slots and quickens the march, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_wuhuan_3	Nomadic Host of the Wuhuan (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_city_wuhuan_3	The rolling heart of the Wuhuan. Every level opens new building slots and quickens the march, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_wuhuan_4	Nomadic Host of the Wuhuan (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_city_wuhuan_4	The rolling heart of the Wuhuan. Every level opens new building slots and quickens the march, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_wuhuan_5	Nomadic Host of the Wuhuan (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_city_wuhuan_5	The rolling heart of the Wuhuan. Every level opens new building slots and quickens the march, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_wuhuan_6	Nomadic Host of the Wuhuan (Tier 6)	false
+effect_bundles_localised_description_ironic_horde_city_wuhuan_6	The rolling heart of the Wuhuan. Every level opens new building slots and quickens the march, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_city_wuhuan_7	Nomadic Host of the Wuhuan (Tier 7)	false
+effect_bundles_localised_description_ironic_horde_city_wuhuan_7	The rolling heart of the Wuhuan. Every level opens new building slots and quickens the march, but so great a host is costly to keep.	false
+effect_bundles_localised_title_ironic_horde_forge_1	Mobile Forge (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_forge_1	The horde's smiths ride with the war-band. Better armour and blades for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_forge_2	Mobile Forge (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_forge_2	The horde's smiths ride with the war-band. Better armour and blades for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_forge_3	Mobile Forge (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_forge_3	The horde's smiths ride with the war-band. Better armour and blades for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_forge_4	Mobile Forge (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_forge_4	The horde's smiths ride with the war-band. Better armour and blades for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_forge_5	Mobile Forge (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_forge_5	The horde's smiths ride with the war-band. Better armour and blades for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_forge_fac	Mobile Forge (Legacy)	false
+effect_bundles_localised_description_ironic_horde_forge_fac	The horde's smiths ride with the war-band. Better armour and blades for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_stockade_1	Fletchers (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_stockade_1	Bowyers and fletchers keep every quiver full. More ammunition and deadlier arrows for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_stockade_2	Fletchers (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_stockade_2	Bowyers and fletchers keep every quiver full. More ammunition and deadlier arrows for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_stockade_3	Fletchers (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_stockade_3	Bowyers and fletchers keep every quiver full. More ammunition and deadlier arrows for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_stockade_4	Fletchers (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_stockade_4	Bowyers and fletchers keep every quiver full. More ammunition and deadlier arrows for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_stockade_5	Fletchers (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_stockade_5	Bowyers and fletchers keep every quiver full. More ammunition and deadlier arrows for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_stockade_fac	Fletchers (Legacy)	false
+effect_bundles_localised_description_ironic_horde_stockade_fac	Bowyers and fletchers keep every quiver full. More ammunition and deadlier arrows for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_tribute_1	Saddlemaker (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_tribute_1	Saddles and tack for the riders. Harder charges and longer bowshots for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_tribute_2	Saddlemaker (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_tribute_2	Saddles and tack for the riders. Harder charges and longer bowshots for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_tribute_3	Saddlemaker (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_tribute_3	Saddles and tack for the riders. Harder charges and longer bowshots for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_tribute_4	Saddlemaker (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_tribute_4	Saddles and tack for the riders. Harder charges and longer bowshots for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_tribute_5	Saddlemaker (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_tribute_5	Saddles and tack for the riders. Harder charges and longer bowshots for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_tribute_fac	Saddlemaker (Legacy)	false
+effect_bundles_localised_description_ironic_horde_tribute_fac	Saddles and tack for the riders. Harder charges and longer bowshots for this army, at a cost in upkeep.	false
+effect_bundles_localised_title_ironic_horde_shrine_1	Shaman's Yurt (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_shrine_1	The spirits speak through the smoke. This army stands firmer and tires slower.	false
+effect_bundles_localised_title_ironic_horde_shrine_2	Shaman's Yurt (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_shrine_2	The spirits speak through the smoke. This army stands firmer and tires slower.	false
+effect_bundles_localised_title_ironic_horde_shrine_3	Shaman's Yurt (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_shrine_3	The spirits speak through the smoke. This army stands firmer and tires slower.	false
+effect_bundles_localised_title_ironic_horde_shrine_4	Shaman's Yurt (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_shrine_4	The spirits speak through the smoke. This army stands firmer and tires slower.	false
+effect_bundles_localised_title_ironic_horde_shrine_5	Shaman's Yurt (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_shrine_5	The spirits speak through the smoke. This army stands firmer and tires slower.	false
+effect_bundles_localised_title_ironic_horde_shrine_fac	Shaman's Yurt (Legacy)	false
+effect_bundles_localised_description_ironic_horde_shrine_fac	The spirits speak through the smoke. This army stands firmer and tires slower.	false
+effect_bundles_localised_title_ironic_horde_pasture_1	Herders (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_pasture_1	Herds follow the host: the people grow, a little coin flows, and riders come cheap.	false
+effect_bundles_localised_title_ironic_horde_pasture_2	Herders (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_pasture_2	Herds follow the host: the people grow, a little coin flows, and riders come cheap.	false
+effect_bundles_localised_title_ironic_horde_pasture_3	Herders (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_pasture_3	Herds follow the host: the people grow, a little coin flows, and riders come cheap.	false
+effect_bundles_localised_title_ironic_horde_pasture_4	Herders (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_pasture_4	Herds follow the host: the people grow, a little coin flows, and riders come cheap.	false
+effect_bundles_localised_title_ironic_horde_pasture_5	Herders (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_pasture_5	Herds follow the host: the people grow, a little coin flows, and riders come cheap.	false
+effect_bundles_localised_title_ironic_horde_pasture_fac	Herders (Legacy)	false
+effect_bundles_localised_description_ironic_horde_pasture_fac	Herds follow the host: the people grow, a little coin flows, and riders come cheap.	false
+effect_bundles_localised_title_ironic_horde_artisans_1	Traveling Artisans (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_artisans_1	Craftsmen ply their trade on the march. Rich income, siegecraft on arrival, and cheaper recruits.	false
+effect_bundles_localised_title_ironic_horde_artisans_2	Traveling Artisans (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_artisans_2	Craftsmen ply their trade on the march. Rich income, siegecraft on arrival, and cheaper recruits.	false
+effect_bundles_localised_title_ironic_horde_artisans_3	Traveling Artisans (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_artisans_3	Craftsmen ply their trade on the march. Rich income, siegecraft on arrival, and cheaper recruits.	false
+effect_bundles_localised_title_ironic_horde_artisans_4	Traveling Artisans (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_artisans_4	Craftsmen ply their trade on the march. Rich income, siegecraft on arrival, and cheaper recruits.	false
+effect_bundles_localised_title_ironic_horde_artisans_5	Traveling Artisans (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_artisans_5	Craftsmen ply their trade on the march. Rich income, siegecraft on arrival, and cheaper recruits.	false
+effect_bundles_localised_title_ironic_horde_artisans_fac	Traveling Artisans (Legacy)	false
+effect_bundles_localised_description_ironic_horde_artisans_fac	Craftsmen ply their trade on the march. Rich income, siegecraft on arrival, and cheaper recruits.	false
+effect_bundles_localised_title_ironic_horde_market_1	Traders and Salvagers (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_market_1	Nothing the horde takes goes to waste. The richest income of all, and richer post-battle loot.	false
+effect_bundles_localised_title_ironic_horde_market_2	Traders and Salvagers (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_market_2	Nothing the horde takes goes to waste. The richest income of all, and richer post-battle loot.	false
+effect_bundles_localised_title_ironic_horde_market_3	Traders and Salvagers (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_market_3	Nothing the horde takes goes to waste. The richest income of all, and richer post-battle loot.	false
+effect_bundles_localised_title_ironic_horde_market_4	Traders and Salvagers (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_market_4	Nothing the horde takes goes to waste. The richest income of all, and richer post-battle loot.	false
+effect_bundles_localised_title_ironic_horde_market_5	Traders and Salvagers (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_market_5	Nothing the horde takes goes to waste. The richest income of all, and richer post-battle loot.	false
+effect_bundles_localised_title_ironic_horde_market_fac	Traders and Salvagers (Legacy)	false
+effect_bundles_localised_description_ironic_horde_market_fac	Nothing the horde takes goes to waste. The richest income of all, and richer post-battle loot.	false
+effect_bundles_localised_title_ironic_horde_hunt_1	Gatherers and Foragers (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_hunt_1	Foragers range ahead of the host. The people grow, the granaries fill, and the scouts see far.	false
+effect_bundles_localised_title_ironic_horde_hunt_2	Gatherers and Foragers (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_hunt_2	Foragers range ahead of the host. The people grow, the granaries fill, and the scouts see far.	false
+effect_bundles_localised_title_ironic_horde_hunt_3	Gatherers and Foragers (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_hunt_3	Foragers range ahead of the host. The people grow, the granaries fill, and the scouts see far.	false
+effect_bundles_localised_title_ironic_horde_hunt_4	Gatherers and Foragers (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_hunt_4	Foragers range ahead of the host. The people grow, the granaries fill, and the scouts see far.	false
+effect_bundles_localised_title_ironic_horde_hunt_5	Gatherers and Foragers (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_hunt_5	Foragers range ahead of the host. The people grow, the granaries fill, and the scouts see far.	false
+effect_bundles_localised_title_ironic_horde_hunt_fac	Gatherers and Foragers (Legacy)	false
+effect_bundles_localised_description_ironic_horde_hunt_fac	Foragers range ahead of the host. The people grow, the granaries fill, and the scouts see far.	false
+effect_bundles_localised_title_ironic_horde_wuhuan_herds_1	Grand Equine Entourage (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_wuhuan_herds_1	The finest herds of the steppe follow the Wuhuan. Heavier horses -- and now and then, a great one.	false
+effect_bundles_localised_title_ironic_horde_wuhuan_herds_2	Grand Equine Entourage (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_wuhuan_herds_2	The finest herds of the steppe follow the Wuhuan. Heavier horses -- and now and then, a great one.	false
+effect_bundles_localised_title_ironic_horde_wuhuan_herds_3	Grand Equine Entourage (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_wuhuan_herds_3	The finest herds of the steppe follow the Wuhuan. Heavier horses -- and now and then, a great one.	false
+effect_bundles_localised_title_ironic_horde_wuhuan_herds_4	Grand Equine Entourage (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_wuhuan_herds_4	The finest herds of the steppe follow the Wuhuan. Heavier horses -- and now and then, a great one.	false
+effect_bundles_localised_title_ironic_horde_wuhuan_herds_5	Grand Equine Entourage (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_wuhuan_herds_5	The finest herds of the steppe follow the Wuhuan. Heavier horses -- and now and then, a great one.	false
+effect_bundles_localised_title_ironic_horde_wuhuan_herds_fac	Grand Equine Entourage (Legacy)	false
+effect_bundles_localised_description_ironic_horde_wuhuan_herds_fac	The finest herds of the steppe follow the Wuhuan. Heavier horses -- and now and then, a great one.	false
+effect_bundles_localised_title_ironic_horde_tuoba_forges_1	Ordo Forges (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_tuoba_forges_1	The Tuoba carry their forges with them. Keener edges through any armour -- and now and then, a masterwork.	false
+effect_bundles_localised_title_ironic_horde_tuoba_forges_2	Ordo Forges (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_tuoba_forges_2	The Tuoba carry their forges with them. Keener edges through any armour -- and now and then, a masterwork.	false
+effect_bundles_localised_title_ironic_horde_tuoba_forges_3	Ordo Forges (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_tuoba_forges_3	The Tuoba carry their forges with them. Keener edges through any armour -- and now and then, a masterwork.	false
+effect_bundles_localised_title_ironic_horde_tuoba_forges_4	Ordo Forges (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_tuoba_forges_4	The Tuoba carry their forges with them. Keener edges through any armour -- and now and then, a masterwork.	false
+effect_bundles_localised_title_ironic_horde_tuoba_forges_5	Ordo Forges (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_tuoba_forges_5	The Tuoba carry their forges with them. Keener edges through any armour -- and now and then, a masterwork.	false
+effect_bundles_localised_title_ironic_horde_tuoba_forges_fac	Ordo Forges (Legacy)	false
+effect_bundles_localised_description_ironic_horde_tuoba_forges_fac	The Tuoba carry their forges with them. Keener edges through any armour -- and now and then, a masterwork.	false
+effect_bundles_localised_title_ironic_horde_kuitou_muster_1	Confederation Muster (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_kuitou_muster_1	The confederation's banners draw the tribes together: friendship among the nomads, and recovery far from home.	false
+effect_bundles_localised_title_ironic_horde_kuitou_muster_2	Confederation Muster (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_kuitou_muster_2	The confederation's banners draw the tribes together: friendship among the nomads, and recovery far from home.	false
+effect_bundles_localised_title_ironic_horde_kuitou_muster_3	Confederation Muster (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_kuitou_muster_3	The confederation's banners draw the tribes together: friendship among the nomads, and recovery far from home.	false
+effect_bundles_localised_title_ironic_horde_kuitou_muster_4	Confederation Muster (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_kuitou_muster_4	The confederation's banners draw the tribes together: friendship among the nomads, and recovery far from home.	false
+effect_bundles_localised_title_ironic_horde_kuitou_muster_5	Confederation Muster (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_kuitou_muster_5	The confederation's banners draw the tribes together: friendship among the nomads, and recovery far from home.	false
+effect_bundles_localised_title_ironic_horde_kuitou_muster_fac	Confederation Muster (Legacy)	false
+effect_bundles_localised_description_ironic_horde_kuitou_muster_fac	The confederation's banners draw the tribes together: friendship among the nomads, and recovery far from home.	false
+effect_bundles_localised_title_ironic_horde_xiongnu_yoke_1	The Chanyu's Tents (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_xiongnu_yoke_1	The court of the Chanyu rides with this army. Prestige and learning flow from its fires.	false
+effect_bundles_localised_title_ironic_horde_xiongnu_yoke_2	The Chanyu's Tents (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_xiongnu_yoke_2	The court of the Chanyu rides with this army. Prestige and learning flow from its fires.	false
+effect_bundles_localised_title_ironic_horde_xiongnu_yoke_3	The Chanyu's Tents (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_xiongnu_yoke_3	The court of the Chanyu rides with this army. Prestige and learning flow from its fires.	false
+effect_bundles_localised_title_ironic_horde_xiongnu_yoke_4	The Chanyu's Tents (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_xiongnu_yoke_4	The court of the Chanyu rides with this army. Prestige and learning flow from its fires.	false
+effect_bundles_localised_title_ironic_horde_xiongnu_yoke_5	The Chanyu's Tents (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_xiongnu_yoke_5	The court of the Chanyu rides with this army. Prestige and learning flow from its fires.	false
+effect_bundles_localised_title_ironic_horde_xiongnu_yoke_fac	The Chanyu's Tents (Legacy)	false
+effect_bundles_localised_description_ironic_horde_xiongnu_yoke_fac	The court of the Chanyu rides with this army. Prestige and learning flow from its fires.	false
+effect_bundles_localised_title_ironic_horde_di_granaries_1	Di Pathfinders (Tier 1)	false
+effect_bundles_localised_description_ironic_horde_di_granaries_1	The Di know every pass and goat-track. This army marches far and recovers well.	false
+effect_bundles_localised_title_ironic_horde_di_granaries_2	Di Pathfinders (Tier 2)	false
+effect_bundles_localised_description_ironic_horde_di_granaries_2	The Di know every pass and goat-track. This army marches far and recovers well.	false
+effect_bundles_localised_title_ironic_horde_di_granaries_3	Di Pathfinders (Tier 3)	false
+effect_bundles_localised_description_ironic_horde_di_granaries_3	The Di know every pass and goat-track. This army marches far and recovers well.	false
+effect_bundles_localised_title_ironic_horde_di_granaries_4	Di Pathfinders (Tier 4)	false
+effect_bundles_localised_description_ironic_horde_di_granaries_4	The Di know every pass and goat-track. This army marches far and recovers well.	false
+effect_bundles_localised_title_ironic_horde_di_granaries_5	Di Pathfinders (Tier 5)	false
+effect_bundles_localised_description_ironic_horde_di_granaries_5	The Di know every pass and goat-track. This army marches far and recovers well.	false
+effect_bundles_localised_title_ironic_horde_di_granaries_fac	Di Pathfinders (Legacy)	false
+effect_bundles_localised_description_ironic_horde_di_granaries_fac	The Di know every pass and goat-track. This army marches far and recovers well.	false
+effect_bundles_localised_title_ironic_horde_pop_1	Starving Host	false
+effect_bundles_localised_description_ironic_horde_pop_1	Too few mouths to sustain the war-band: morale, replenishment and pace all suffer.	false
+effect_bundles_localised_title_ironic_horde_pop_2	Meagre Host	false
+effect_bundles_localised_description_ironic_horde_pop_2	A thin populace; the host is stretched and slow to recover.	false
+effect_bundles_localised_title_ironic_horde_pop_3	Steady Host	false
+effect_bundles_localised_description_ironic_horde_pop_3	The people and the war-band are in balance.	false
+effect_bundles_localised_title_ironic_horde_pop_4	Thriving Host	false
+effect_bundles_localised_description_ironic_horde_pop_4	A swelling populace fuels the war-band: higher morale, replenishment, pace and striking power.	false
+effect_bundles_localised_title_ironic_horde_pop_5	Overcrowded Host	false
+effect_bundles_localised_description_ironic_horde_pop_5	A vast host: mighty in battle, but too many mouths slow it to a crawl.	false
+effect_bundles_localised_title_ironic_horde_drained	Population Drained	false
+effect_bundles_localised_description_ironic_horde_drained	The horde has carried off much of the populace. Growth, order and income here suffer for a time.	false
+effect_bundles_localised_title_ironic_horde_resettled	Resettled by the Horde	false
+effect_bundles_localised_description_ironic_horde_resettled	The horde has settled new people here. Growth and prosperity rise.	false
+effects_description_ironic_horde_effect_diplomacy_nomads	Diplomatic relations with the nomadic tribes	false

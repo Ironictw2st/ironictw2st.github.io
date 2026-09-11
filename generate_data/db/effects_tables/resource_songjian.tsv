@@ -1,0 +1,10 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/resource_songjian								
+ironic_song_jian_decay	trade_influence.png	1	campaign	metal		0.0000	positive_value_is_good	default
+ironic_song_jian_building	trade_influence.png	1	campaign	metal		0.0000	positive_value_is_good	default
+ironic_song_jian_frontend_1	trade_influence.png	1	campaign	metal	ironic_song_jian_frontend_1	0.0000	positive_value_is_good	default
+ironic_song_jian_frontend_2	trade_influence.png	2	campaign	metal	ironic_song_jian_frontend_2	0.0000	positive_value_is_good	default
+ironic_song_jian_frontend_3	trade_influence.png	3	campaign	metal	ironic_song_jian_frontend_3	0.0000	positive_value_is_good	default
+ironic_song_jian_frontend_4	trade_influence.png	4	campaign	metal	ironic_song_jian_frontend_4	0.0000	positive_value_is_good	default
+ironic_song_jian_gain	trade_influence.png	1	campaign	metal		0.0000	positive_value_is_good	info
+ironic_song_jian_loss	trade_influence.png	2	campaign	metal		0.0000	positive_value_is_good	info

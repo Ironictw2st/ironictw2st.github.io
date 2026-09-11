@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/events/ironic_orphan_child.loc		
+dilemmas_localised_title_ironic_orphan_child_adoption	An Orphan of War	false
+dilemmas_localised_description_ironic_orphan_child_adoption	With the fall of this house, a child of its blood has been left with no one. They have been brought into your court for now, though your ministers are already divided on what should become of them. Raise them among your own, and one day they may serve you as kin. Send them on to distant relations, and you spare yourself a rival's blood beneath your roof.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_orphan_child_adoptionFIRST	RAISE THEM AS YOUR OWN	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_orphan_child_adoptionFIRST	The child is kept in your court.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_orphan_child_adoptionSECOND	SEND THEM TO DISTANT KIN	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_orphan_child_adoptionSECOND	The child is sent on to another house of their people.	false

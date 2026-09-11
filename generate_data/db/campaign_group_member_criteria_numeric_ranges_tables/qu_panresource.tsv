@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/qu_panresource			
+ironic_qu_pan_madness_level_0	10	0	value
+ironic_qu_pan_madness_level_1	40	11	value
+ironic_qu_pan_madness_level_2	60	41	value
+ironic_qu_pan_madness_level_3	80	61	value
+ironic_qu_pan_madness_level_4	100	81	value

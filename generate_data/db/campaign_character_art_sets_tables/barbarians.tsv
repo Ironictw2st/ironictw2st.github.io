@@ -1,0 +1,8 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/barbarians								
+ironic_barbarian_generic_xianbei_m_general	general	3k_main_chinese	3k_dlc05_subculture_bandits		true	true	3k_general_metal	1.0000
+ironic_barbarian_generic_xianbei_f_general	general	3k_main_chinese	3k_dlc05_subculture_bandits		true	false	3k_general_metal	1.0000
+ironic_barbarian_generic_xianbei_m_minister	general	3k_main_chinese	3k_dlc05_subculture_bandits		true	true	3k_general_metal	1.0000
+ironic_barbarian_generic_xianbei_f_minister	general	3k_main_chinese	3k_dlc05_subculture_bandits		true	false	3k_general_metal	1.0000
+ironic_barbarian_generic_xianbei_m_governor	general	3k_main_chinese	3k_dlc05_subculture_bandits		true	true	3k_general_metal	1.0000
+ironic_barbarian_generic_xianbei_f_governor	general	3k_main_chinese	3k_dlc05_subculture_bandits		true	false	3k_general_metal	1.0000

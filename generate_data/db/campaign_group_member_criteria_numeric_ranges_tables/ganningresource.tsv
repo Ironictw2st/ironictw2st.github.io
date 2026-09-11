@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/ganningresource			
+ironic_gan_ning_robin_hood_level_0	24	0	value
+ironic_gan_ning_robin_hood_level_1	40	25	value
+ironic_gan_ning_robin_hood_level_2	64	41	value
+ironic_gan_ning_robin_hood_level_3	84	65	value
+ironic_gan_ning_robin_hood_level_4	100	85	value

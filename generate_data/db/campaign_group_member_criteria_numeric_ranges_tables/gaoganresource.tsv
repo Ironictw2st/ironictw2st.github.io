@@ -1,0 +1,9 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/gaoganresource			
+ironic_gao_gan_defensive_level_0	9	0	value
+ironic_gao_gan_defensive_level_1	19	10	value
+ironic_gao_gan_defensive_level_2	39	20	value
+ironic_gao_gan_defensive_level_3	59	40	value
+ironic_gao_gan_defensive_level_4	79	60	value
+ironic_gao_gan_defensive_level_5	89	80	value
+ironic_gao_gan_defensive_level_6	100	90	value

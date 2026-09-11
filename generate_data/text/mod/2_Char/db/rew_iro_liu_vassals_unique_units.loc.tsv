@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/rew_iro_liu_vassals_unique_units.loc		
+land_units_onscreen_name_rew_iro_huang_zu_wood_jingzhou_ambushers	Jingzhou Ambushers	true
+land_units_onscreen_name_rew_iro_huang_zu_metal_skyrim_stealth_archers	Veteran Ambuscader	true
+land_units_onscreen_name_rew_iro_cai_mao_metal_jingzhou_marines	Jingzhou Marines	true
+land_units_onscreen_name_rew_iro_cai_mao_metal_assault_marines	Elite Naval Vanguard	true
+unit_abilities_onscreen_name_rew_iro_huang_zu_stone_toss	Devastating Ambush	false
+unit_abilities_tooltip_text_rew_iro_huang_zu_stone_toss	Unleashing boulders on an unexpecting foe. Not very honorable, but effective.	false
+unit_abilities_onscreen_name_rew_iro_cai_mao_ship_barrage	Naval Support	false
+unit_abilities_tooltip_text_rew_iro_cai_mao_ship_barrage	Order your ships catapults to fire on your target even from very far away.	false

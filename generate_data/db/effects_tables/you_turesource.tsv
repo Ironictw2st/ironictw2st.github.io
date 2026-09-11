@@ -1,0 +1,16 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/you_turesource								
+ironic_enforcement_decay	bodyguard_unit_size.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_armies	bodyguard_unit_size.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_captives_post_battle	bodyguard_unit_size.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_characters	bodyguard_unit_size.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_garrisoned	bodyguard_unit_size.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_vassalized	bodyguard_unit_size.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_enforcement_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_enforcement_executed	bodyguard_unit_size.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_assignments	bodyguard_unit_size.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_enforcement_effect_bundle_1	bodyguard_unit_size.png	1	campaign		ironic_enforcement_effect_bundle_1	0.0000	positive_value_is_good	default
+ironic_enforcement_effect_bundle_2	bodyguard_unit_size.png	2	campaign		ironic_enforcement_effect_bundle_2	0.0000	positive_value_is_good	default
+ironic_enforcement_effect_bundle_3	bodyguard_unit_size.png	3	campaign		ironic_enforcement_effect_bundle_3	0.0000	positive_value_is_good	default
+ironic_enforcement_effect_bundle_4	bodyguard_unit_size.png	4	campaign		ironic_enforcement_effect_bundle_4	0.0000	positive_value_is_good	default

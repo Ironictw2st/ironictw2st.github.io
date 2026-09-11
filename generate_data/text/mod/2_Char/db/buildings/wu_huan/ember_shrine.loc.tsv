@@ -1,0 +1,21 @@
+key	text	tooltip
+#Loc;1;text/db/buildings/wu_huan/ember_shrine.loc		
+building_chains_chain_tooltip_ironic_ytr_district_wu_huan_ember_shrine	Ember Shrine	true
+building_chains_encyclopedia_name_ironic_ytr_district_wu_huan_ember_shrine	Ember Shrine	true
+building_chains_encyclopedia_description_ironic_ytr_district_wu_huan_ember_shrine	Clandestine shrines of the southern Yellow Turbans, unique to Wu Huan.	true
+building_chains_override_description_ironic_ytr_district_wu_huan_ember_shrine	Hidden congregations that nurture the southern spark, generating Embers and teaching the faithful to strike from cover.	true
+building_culture_variants_name_ironic_ytr_district_wu_huan_ember_shrine_1	Hidden Shrine	true
+building_description_texts_long_description_ironic_long_description_wu_huan_ember_shrine_1	Deep in the hills of Jiangdong, where the Yellow Sky was never raised, a handful of believers meet by night. The word is passed quietly, from farmer to fisherman, and the first embers begin to glow.	true
+building_short_description_texts_short_description_ironic_short_description_wu_huan_ember_shrine_1	A hidden meeting place for the faithful of the south.	true
+building_culture_variants_name_ironic_ytr_district_wu_huan_ember_shrine_2	Ember Shrine	true
+building_description_texts_long_description_ironic_long_description_wu_huan_ember_shrine_2	The congregation grows. Grain and news move along paths the Han magistrates do not know, and those who shelter here learn the hills as well as any hunter.	true
+building_short_description_texts_short_description_ironic_short_description_wu_huan_ember_shrine_2	Nurture the southern spark and spread the Way.	true
+building_culture_variants_name_ironic_ytr_district_wu_huan_ember_shrine_3	Sanctuary of the Southern Spark	true
+building_description_texts_long_description_ironic_long_description_wu_huan_ember_shrine_3	No longer a secret whispered between neighbours, the shrine draws pilgrims from across the southern commanderies. What was a spark on the wind is now a steady flame.	true
+building_short_description_texts_short_description_ironic_short_description_wu_huan_ember_shrine_3	A sanctuary where the faithful gather in secret.	true
+building_culture_variants_name_ironic_ytr_district_wu_huan_ember_shrine_4	Great Sanctuary of the Ember	true
+building_description_texts_long_description_ironic_long_description_wu_huan_ember_shrine_4	The sanctuary is the beating heart of the southern rising. Its faithful are many, its paths are hidden, and the Han lapdogs who come looking seldom return.	true
+building_short_description_texts_short_description_ironic_short_description_wu_huan_ember_shrine_4	The heart of the southern rebellion.	true
+building_culture_variants_name_ironic_ytr_district_wu_huan_ember_shrine_5	Inferno of the Yellow Sky	true
+building_description_texts_long_description_ironic_long_description_wu_huan_ember_shrine_5	The Yellow Sky burns over Jiangdong at last. What Wu Huan nursed for years alone has spread beyond any hope of quenching - an inferno that will consume the south.	true
+building_short_description_texts_short_description_ironic_short_description_wu_huan_ember_shrine_5	The spark has become an inferno.	true

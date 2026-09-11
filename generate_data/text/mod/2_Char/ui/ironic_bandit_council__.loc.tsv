@@ -1,0 +1,64 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_bandit_council__.loc		
+campaign_localised_strings_string_ironic_bc_reason_season	The bandit council convenes each Winter - your ministers will gather again at year's end.	false
+campaign_localised_strings_string_ironic_bc_reason_no_councilors	You currently have no bandit council members - assign court ministers to linked council seats.	false
+campaign_localised_strings_string_ironic_bc_reason_already_held	Your bandit council has convened once this year already, so your ministers have returned to their regular duties.	false
+campaign_localised_strings_string_ironic_bc_button_tt	[[b]]Bandit Council[[/b]] ||View and enact the policies proposed by your ministers each Winter.	false
+campaign_localised_strings_string_ironic_bc_button_tt_default	[[b]]Faction Council[[/b]] ||View and enact suggestions of your councillors every spring.	false
+uied_component_texts_localised_string_ironic_bandit_council_header	BANDIT COUNCIL OF	false
+campaign_localised_strings_string_ironic_bc_incense_a	Thin smoke, thinner purses. The rites are observed to the letter and not a coin further.	false
+campaign_localised_strings_string_ironic_bc_incense_a_title	Cheap Incense Burning	false
+effect_bundles_localised_title_ironic_bc_incense_a	Cheap Incense Burning	true
+effect_bundles_localised_description_ironic_bc_incense_a	Thin smoke, thinner purses. The rites are observed to the letter and not a coin further.	true
+campaign_localised_strings_string_ironic_bc_incense_b	Sandalwood by the crate. Every induction is a spectacle, and every minister is paid like one.	false
+campaign_localised_strings_string_ironic_bc_incense_b_title	Expensive Incense Burning	false
+effect_bundles_localised_title_ironic_bc_incense_b	Expensive Incense Burning	true
+effect_bundles_localised_description_ironic_bc_incense_b	Sandalwood by the crate. Every induction is a spectacle, and every minister is paid like one.	true
+campaign_localised_strings_string_ironic_bc_arms_a	The men keep more of what they take. They cost less to keep, and they hand up less of the spoils.	false
+campaign_localised_strings_string_ironic_bc_arms_a_title	Increase Troop Share	false
+effect_bundles_localised_title_ironic_bc_arms_a	Increase Troop Share	true
+effect_bundles_localised_description_ironic_bc_arms_a	The men keep more of what they take. They cost less to keep, and they hand up less of the spoils.	true
+campaign_localised_strings_string_ironic_bc_arms_b	The war chest takes the larger cut. The coffers swell and the ranks mutter.	false
+campaign_localised_strings_string_ironic_bc_arms_b_title	Decrease Troop Share	false
+effect_bundles_localised_title_ironic_bc_arms_b	Decrease Troop Share	true
+effect_bundles_localised_description_ironic_bc_arms_b	The war chest takes the larger cut. The coffers swell and the ranks mutter.	true
+campaign_localised_strings_string_ironic_bc_smuggler_a	Every road a smuggling route. The honest trade withers and nobody misses it.	false
+campaign_localised_strings_string_ironic_bc_smuggler_a_title	Black Market Focus	false
+effect_bundles_localised_title_ironic_bc_smuggler_a	Black Market Focus	true
+effect_bundles_localised_description_ironic_bc_smuggler_a	Every road a smuggling route. The honest trade withers and nobody misses it.	true
+campaign_localised_strings_string_ironic_bc_smuggler_b	Ledgers, licences and warehouses. Slower, duller, and it does not get anyone hanged.	false
+campaign_localised_strings_string_ironic_bc_smuggler_b_title	Traditional Channels Focus	false
+effect_bundles_localised_title_ironic_bc_smuggler_b	Traditional Channels Focus	true
+effect_bundles_localised_description_ironic_bc_smuggler_b	Ledgers, licences and warehouses. Slower, duller, and it does not get anyone hanged.	true
+campaign_localised_strings_string_ironic_bc_negotiator_a	Hire out the swords and keep the reputation clean. The Han remember who did not burn their granaries.	false
+campaign_localised_strings_string_ironic_bc_negotiator_a_title	Renowned Mercenaries	false
+effect_bundles_localised_title_ironic_bc_negotiator_a	Renowned Mercenaries	true
+effect_bundles_localised_description_ironic_bc_negotiator_a	Hire out the swords and keep the reputation clean. The Han remember who did not burn their granaries.	true
+campaign_localised_strings_string_ironic_bc_negotiator_b	Squeeze the client states for everything the traffic will bear. Word of it travels.	false
+campaign_localised_strings_string_ironic_bc_negotiator_b_title	Extort Tributaries	false
+effect_bundles_localised_title_ironic_bc_negotiator_b	Extort Tributaries	true
+effect_bundles_localised_description_ironic_bc_negotiator_b	Squeeze the client states for everything the traffic will bear. Word of it travels.	true
+campaign_localised_strings_string_ironic_bc_enforcer_a	Rank is held, not sought. Nobody schemes for a better seat, and nobody enjoys the one they have.	false
+campaign_localised_strings_string_ironic_bc_enforcer_a_title	Strict Discipline	false
+effect_bundles_localised_title_ironic_bc_enforcer_a	Strict Discipline	true
+effect_bundles_localised_description_ironic_bc_enforcer_a	Rank is held, not sought. Nobody schemes for a better seat, and nobody enjoys the one they have.	true
+campaign_localised_strings_string_ironic_bc_enforcer_b	Let them dream of promotion. A contented court is a hungry one.	false
+campaign_localised_strings_string_ironic_bc_enforcer_b_title	Loose Ambitions	false
+effect_bundles_localised_title_ironic_bc_enforcer_b	Loose Ambitions	true
+effect_bundles_localised_description_ironic_bc_enforcer_b	Let them dream of promotion. A contented court is a hungry one.	true
+campaign_localised_strings_string_ironic_bc_right_hand_a	Always moving, never waiting. Speed bought at the price of caution.	false
+campaign_localised_strings_string_ironic_bc_right_hand_a_title	Offensive Maneuvers	false
+effect_bundles_localised_title_ironic_bc_right_hand_a	Offensive Maneuvers	true
+effect_bundles_localised_description_ironic_bc_right_hand_a	Always moving, never waiting. Speed bought at the price of caution.	true
+campaign_localised_strings_string_ironic_bc_right_hand_b	Scout the ground, hold the treeline, and let them walk into it.	false
+campaign_localised_strings_string_ironic_bc_right_hand_b_title	Defensive Tactics	false
+effect_bundles_localised_title_ironic_bc_right_hand_b	Defensive Tactics	true
+effect_bundles_localised_description_ironic_bc_right_hand_b	Scout the ground, hold the treeline, and let them walk into it.	true
+campaign_localised_strings_string_ironic_bc_heir_a	The heir's men take their cut off the top, in kind rather than coin.	false
+campaign_localised_strings_string_ironic_bc_heir_a_title	Loot Requisition	false
+effect_bundles_localised_title_ironic_bc_heir_a	Loot Requisition	true
+effect_bundles_localised_description_ironic_bc_heir_a	The heir's men take their cut off the top, in kind rather than coin.	true
+campaign_localised_strings_string_ironic_bc_heir_b	Take whoever is standing in the road. They are cheap and they are unwilling.	false
+campaign_localised_strings_string_ironic_bc_heir_b_title	Press Gang	false
+effect_bundles_localised_title_ironic_bc_heir_b	Press Gang	true
+effect_bundles_localised_description_ironic_bc_heir_b	Take whoever is standing in the road. They are cheap and they are unwilling.	true

@@ -1,0 +1,22 @@
+key	text	tooltip
+#Loc;1;text/mct/ui/english/190E.loc		
+MCT_localised_string_section_190E_Frontend_EN	190E Frontend	false
+MCT_localised_string_section_190E_Options_EN	190E Options	false
+MCT_localised_string_ahistoric_EN	Enable if you want Historic mode, (Wu Anguo / Hua Xiong killed)	false
+MCT_localised_string_empty_land_EN	Enable if you want Looters to take over empty land.	false
+MCT_localised_string_destroy_nanman_EN	Destroy Nanman	false
+MCT_localised_string_one_faction_EN	One faction controls all	false
+MCT_localised_string_split_EN	Split into three (WIP)	false
+MCT_localised_string_lu_bu_on_field_EN	Enable if you want Lu Bu on the field	false
+MCT_localised_string_sun_ce_on_field_EN	Enable if you want Sun Ce on the field	false
+MCT_localised_string_total_war_mode_EN	Enable if you want Total War Mode on	false
+MCT_localised_string_MP_mode_EN	MULTIPLAYER MODE	false
+MCT_localised_string_prevent_march_EN	Prevent AI from using march	false
+MCT_localised_string_enable_march_EN	Allow AI to march	false
+MCT_localised_string_enable_dev_ui_EN	Enable DEV UI	false
+MCT_localised_string_scripted_confederations_EN	Enable scripted lord confederations (master switch)	false
+MCT_localised_string_confed_han_fu_EN	Yuan Shao confederates Han Fu (turns 3-6)	false
+MCT_localised_string_confed_kong_zhou_EN	Yuan Shu takes Kong Zhou (191-195) - required for Liu Dai and Chen Wen	false
+MCT_localised_string_confed_liu_dai_EN	Cao Cao confederates Liu Dai (192-195) - needs Kong Zhou	false
+MCT_localised_string_confed_chen_wen_EN	Yuan Shu takes Chen Wen (193-199) - needs Kong Zhou	false
+MCT_localised_string_frontend_only_EN	FRONTEND ONLY - takes effect on your next campaign	false

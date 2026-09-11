@@ -1,0 +1,10 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/jurisdictionresource								
+ironic_jurisdiction_decay	3k_dlc07_military_sanction.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_jurisdiction_armies	3k_dlc07_military_sanction.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_governor_captives_post_battle	3k_dlc07_military_sanction.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_governor_jurisdiction_governor	3k_dlc07_military_sanction.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_governor_jurisdiction_garrisoned	3k_dlc07_military_sanction.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_governor_jurisdiction_vassalized	3k_dlc07_military_sanction.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_governor_jurisdiction_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_governor_jurisdiction_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info

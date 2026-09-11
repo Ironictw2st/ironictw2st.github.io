@@ -1,0 +1,22 @@
+key	text	tooltip
+#Loc;1;text/db/events/new_events.loc		
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_event_que_xuan_declares_himselfFIRST	EXECUTE QUE XUAN	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_event_que_xuan_declares_himselfFIRST	It is best to quell the shameful fools.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_event_que_xuan_declares_himselfSECOND	SPARE QUE XUAN	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_event_que_xuan_declares_himselfSECOND	Some things... are best left ignored.	false
+effect_bundles_localised_title_ironic_que_xuan_kill	Death of a Traitor	false
+effect_bundles_localised_description_ironic_que_xuan_kill	Some men do not know how to keep their mouths shut.	false
+effect_bundles_localised_title_ironic_que_xuan_spare	False Son of Heaven	false
+effect_bundles_localised_description_ironic_que_xuan_spare	It is best to ignore this mad one.	false
+dilemmas_localised_title_ironic_event_que_xuan_declares_himself	Que Xuan Declares Himself	false
+dilemmas_localised_description_ironic_event_que_xuan_declares_himself	Word spreads in your court, that Que Xuan has boldly declared himself to be the true Son of Heaven. Casting aside restraint and doubt, he believes no force remains that can quell his ambition. What shall you do with this traitor?	false
+dilemmas_localised_title_ironic_event_kong_rong_is_an_idiot	Kong Rong Berates You	false
+dilemmas_localised_description_ironic_event_kong_rong_is_an_idiot	He condemns your rule as cruel, your authority as usurped, and your governance as the work of a tyrant clad in the trappings of order. He invokes the sages, the rites, and the Mandate itself, declaring that Heaven will not long tolerate such arrogance.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_event_kong_rong_is_an_idiotFIRST	EXECUTE KONG RONG	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_event_kong_rong_is_an_idiotFIRST	One who berates their leader should not speak nor use their head.	false
+cdir_events_dilemma_choice_details_localised_choice_label_ironic_event_kong_rong_is_an_idiotSECOND	SPARE KONG RONG	false
+cdir_events_dilemma_choice_details_localised_choice_title_ironic_event_kong_rong_is_an_idiotSECOND	Perhaps he has some truth to him?	false
+effect_bundles_localised_title_ironic_kong_rong_kill	Death of A Scholar	false
+effect_bundles_localised_description_ironic_kong_rong_kill	One who berates their leader should not speak nor use their head.	false
+effect_bundles_localised_title_ironic_kong_rong_spare	The Scholar's Correct Words	false
+effect_bundles_localised_description_ironic_kong_rong_spare	Perhaps he has some truth to him?	false

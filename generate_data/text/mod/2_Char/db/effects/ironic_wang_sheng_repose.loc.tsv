@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/effects/ironic_wang_sheng_repose.loc		
+effects_description_ironic_languor_repose_buildings	[[b]]%+n[[/b]] Languor	false
+effects_value_format_ironic_languor_repose_buildings		false
+pooled_resource_factors_display_name_positive_ironic_languor_repose_buildings	Halls of Repose	false
+pooled_resource_factors_display_name_negative_ironic_languor_repose_buildings	Halls of Repose	false
+effects_description_ironic_ytr_embers_dummy	[[b]]%+n[[/b]] Embers	false
+effects_value_format_ironic_ytr_embers_dummy		false

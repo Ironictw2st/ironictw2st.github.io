@@ -1,0 +1,102 @@
+key	text	tooltip
+#Loc;1;text/frontend/ui/ui_cheat.loc		
+uied_component_texts_localised_string_button_update_log	UPDATE LOG (VERSION 0.90)	false
+uied_component_texts_localised_string_bullet_point_1_update_log	[[b]]PROGRESSION REWORK[[/b]]	false
+uied_component_texts_localised_string_bullet_point_1_update_log_unit_1	[[b]]Bingzhou Riders[[/b]] (Zhang Yang)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_2	[[b]]Bingzhou Raider Cavalry[[/b]] (Gao Gan)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_3	[[b]]Immovable Blades[[/b]] (Gao Gan)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_4	[[b]]Guardian of Hebei[[/b]] (Han Fu)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_5	[[b]]Swiftfoot Spears[[/b]] (Wang Kuang)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_6	[[b]]Tao Penitents[[/b]] (Zhang Lu)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_unit_7	[[b]]Zhenren Defenders[[/b]] (Zhang Lu)	false
+uied_component_texts_localised_string_bullet_point_1_update_log_1	Major factions get a total of 32 points 	false
+uied_component_texts_localised_string_bullet_point_1_update_log_2	Minor factions get a total of 24 points	false
+uied_component_texts_localised_string_bullet_point_1_update_log_3	Gongsun Zan gets a total of 30 points	false
+uied_component_texts_localised_string_bullet_point_1_update_log_4	All Han factions now start with 2 army cap (1 in case of Liu Bei)	false
+uied_component_texts_localised_string_bullet_point_2_update_log	[[b]]LIU YU REWORK[[/b]]	false
+uied_component_texts_localised_string_bullet_point_2_update_log_1	Adjusted Liu Yu's Northern Courage disable from being given at the start to now being based on his resource (restricted to the last two tiers of his mechanic)	false
+uied_component_texts_localised_string_bullet_point_2_update_log_2	Qiang, Di, Xianbei, and Xiliang characters and regions	false
+uied_component_texts_localised_string_bullet_point_2_update_log_3	Added Yan Rou to the Backbone	false
+uied_component_texts_localised_string_bullet_point_2_update_log_4	PLACEHOLDER	false
+uied_component_texts_localised_string_bullet_point_1_building_1	[[b]]Yufuluo[[/b]] gains a unique banditry building option.	false
+uied_component_texts_localised_string_title_building_new_1	UNIQUE BUILDINGS	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_title	[[b]]ADDITONS + BUG FIXES[[/b]]	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_1	Fixed Gongsun Zan, Yuan Yi, and Yuan Shu not getting their unique skills	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_2	All Han, bandit, and Northern Tribes playable factions should have access to missions	false
+uied_component_texts_localised_string_bullet_point_3_bug_fix_3	Fixed Chen Wen not being able to recruit the new units added by the Southern update	false
+uied_component_texts_localised_string_bullet_point_1_building_2	[[b]]Zhang Yang[[/b]] gains a unique forge building option.	false
+uied_component_texts_localised_string_children_character_list_NewState_Text_330073	CHILDREN IN COURT	false
+uied_component_texts_localised_string_family_tree_NewState_Text_201111	Family Tree	false
+uied_component_texts_localised_string_ironic_190e_korea_title	[[b]]KOREA & THE NORTHEAST[[/b]]	false
+uied_component_texts_localised_string_ironic_190e_korea_1	Goguryeo, Silla, Gaya, Buyeo, Dongye, Baekje and Tamno gain around 59 named historical characters.	false
+uied_component_texts_localised_string_ironic_190e_korea_2	Baekje adds sixteen named characters of the Onjo line, with their own name pool.	false
+uied_component_texts_localised_string_ironic_190e_korea_3	A hundred Korea-specific generic templates, so Korean factions no longer draw on the Han Chinese pool.	false
+uied_component_texts_localised_string_ironic_190e_korea_4	A dedicated Korean technology tree: Court, Military and Economy, five tiers each, 60 techs.	false
+uied_component_texts_localised_string_ironic_190e_korea_5	Fifteen skill trees for generic Korean characters and twelve unique trees for named rulers.	false
+uied_component_texts_localised_string_ironic_190e_korea_6	A Korean court screen with its own office titles, and a matching faction progression panel.	false
+uied_component_texts_localised_string_ironic_190e_korea_7	Korean Frontier Works: five provincial recruitment hubs drawing on the peoples of each province.	false
+uied_component_texts_localised_string_ironic_190e_korea_8	Seven dynastic career chains unlocking unique armour and narrative titles.	false
+uied_component_texts_localised_string_ironic_190e_korea_9	Twenty-one new birth events for Korean children, plus events for unique characters joining you.	false
+uied_component_texts_localised_string_ironic_190e_mech_title	[[b]]NEW MECHANICS[[/b]]	false
+uied_component_texts_localised_string_ironic_190e_mech_1	Nomadic Hordes: Wuhuan, Xiongnu and Xianbei develop through their armies instead of settlements.	false
+uied_component_texts_localised_string_ironic_190e_mech_2	Governor Edicts: Gongsun Zan's five inspectors each enact a regional edict drawn from their traits.	false
+uied_component_texts_localised_string_ironic_190e_mech_3	Ma Teng's Stables: breed, train and break in horses across six frontier bloodlines.	false
+uied_component_texts_localised_string_ironic_190e_mech_4	Trial by Combat: Lu Bu duels the Greatest Warriors serving in his own faction.	false
+uied_component_texts_localised_string_ironic_190e_mech_5	The Greatest Warriors roster grows from 46 to 88.	false
+uied_component_texts_localised_string_ironic_190e_mech_6	The Black Market: You Tu earns Enforcement in battle and spends it on equipment cases.	false
+uied_component_texts_localised_string_ironic_190e_mech_7	Around ninety new Faction Council suggestions, generic and faction-flavoured.	false
+uied_component_texts_localised_string_ironic_190e_mech_8	The Bandit Council: bandit factions hold their own council each Winter.	false
+uied_component_texts_localised_string_ironic_190e_mech_9	The Grand Tournament: a year-long arc with a champion and four seasonal bouts.	false
+uied_component_texts_localised_string_ironic_190e_mech_11	The Needle Path: Zhang Jin spends Qi across 32 acupuncture points.	false
+uied_component_texts_localised_string_ironic_190e_mech_12	Father's Legacy: a twelve-mission track for Zhu Hao and 24 permanent unit doctrines.	false
+uied_component_texts_localised_string_ironic_190e_mech_13	Sanity: Qu Pan's grip on reality drives a seasonal event each Harvest.	false
+uied_component_texts_localised_string_ironic_190e_mech_14	Contest of the Northern Captains: seven warlords race up a seven-level mission ladder.	false
+uied_component_texts_localised_string_ironic_190e_units2_title	[[b]]NEW UNITS (AUGUST 2026)[[/b]]	false
+uied_component_texts_localised_string_ironic_190e_units2_1	Over sixty new units, unlocking at character ranks 3 and 6.	false
+uied_component_texts_localised_string_ironic_190e_units2_2	Six Korean polities gain two units each, plus the Arrow Storm war machine for all of Korea.	false
+uied_component_texts_localised_string_ironic_190e_units2_3	Sixteen southern warlords gain two units each.	false
+uied_component_texts_localised_string_ironic_190e_units2_4	Huang Zu, Cai Mao, Hu Mao and You Tu gain unique units of their own.	false
+uied_component_texts_localised_string_ironic_190e_units2_5	New regional-recruitment Korean units, and new banners for the steppe factions.	false
+uied_component_texts_localised_string_ironic_190e_build2_title	[[b]]NEW BUILDINGS (AUGUST 2026)[[/b]]	false
+uied_component_texts_localised_string_ironic_190e_build2_1	A complete nomadic settlement line across five districts, up to the Royal Encampment.	false
+uied_component_texts_localised_string_ironic_190e_build2_2	Chen Kingdom Garrison, Liu Chong's unique military chain.	false
+uied_component_texts_localised_string_ironic_190e_build2_3	Ember Shrine, Wu Huan's hidden congregations, up to the Inferno of the Yellow Sky.	false
+uied_component_texts_localised_string_ironic_190e_build2_4	Hall of Repose, Wang Sheng's unique building.	false
+uied_component_texts_localised_string_ironic_190e_build2_5	New garrison chains for Ma Teng and for the nomadic factions.	false
+uied_component_texts_localised_string_ironic_190e_ui2_title	[[b]]INTERFACE & QUALITY OF LIFE[[/b]]	false
+uied_component_texts_localised_string_ironic_190e_ui2_1	The Ironic Menu, a new hub linking Character Births, Character Joins and the Mod Guide.	false
+uied_component_texts_localised_string_ironic_190e_ui2_2	Character Births lists every scripted historical child and whether they have been born.	false
+uied_component_texts_localised_string_ironic_190e_ui2_3	Character Joins lists every general who can come over, with their window and status.	false
+uied_component_texts_localised_string_ironic_190e_ui2_4	The Character Compendium shows birth year, age, service, spouse and effects.	false
+uied_component_texts_localised_string_ironic_190e_ui2_5	Spy status badges give a counter-espionage read on each character.	false
+uied_component_texts_localised_string_ironic_190e_ui2_6	Mute a commandery to silence its notification badges, up to eight at a time.	false
+uied_component_texts_localised_string_ironic_190e_ui2_7	Releasing a character from service now asks for confirmation first.	false
+uied_component_texts_localised_string_ironic_190e_ui2_8	Horde building costs and Ze Rong raid income appear in the standard hover breakdowns.	false
+uied_component_texts_localised_string_ironic_190e_ui2_9	Several settings now apply the moment you press Apply, without a reload.	false
+uied_component_texts_localised_string_ironic_190e_bal2_title	[[b]]BALANCE & TUNING[[/b]]	false
+uied_component_texts_localised_string_ironic_190e_bal2_1	Wooden Stakes are disabled by default; a setting turns them back on.	false
+uied_component_texts_localised_string_ironic_190e_bal2_2	Barbarian factions no longer take the rage-based tax modifier.	false
+uied_component_texts_localised_string_ironic_190e_bal2_3	New starting retinues for Cai Mao, Liu Biao, Huang Zu and You Tu.	false
+uied_component_texts_localised_string_ironic_190e_bal2_4	Liu Xun, Shi Huang, Zhu Fu and Jiuzhen recruit from their own pools.	false
+uied_component_texts_localised_string_ironic_190e_bal2_5	Campaign intro loading screens added for fifteen more factions.	false
+uied_component_texts_localised_string_ironic_190e_bal2_6	Korean name pools expand by 134 clone names and 34 unique names.	false
+uied_component_texts_localised_string_ironic_190e_bal2_7	Twenty-four bandit and rebel factions move onto the bandit building set.	false
+uied_component_texts_localised_string_ironic_190e_bal2_8	Tribal buildings open to Korean, Yellow Turban and Nanman cultures.	false
+uied_component_texts_localised_string_ironic_190e_bal2_9	New difficulty and playstyle ratings on the faction select screen.	false
+uied_component_texts_localised_string_ironic_190e_bal2_10	You Tu can confederate with bandits; Huang Clan and Zhang Jin can treat with them.	false
+uied_component_texts_localised_string_ironic_190e_bal2_11	Jiuzhen now holds Faction Council meetings.	false
+uied_component_texts_localised_string_ironic_190e_bal2_12	Spouse assignment experience is capped so it no longer runs away early.	false
+uied_component_texts_localised_string_ironic_190e_bal2_13	Ma Teng loses access to the Qiang building chain.	false
+uied_component_texts_localised_string_ironic_190e_bal2_14	The window to claim a faction tutorial reward grows from 3 turns to 10.	false
+uied_component_texts_localised_string_ironic_190e_fix2_title	[[b]]FIXES (AUGUST 2026)[[/b]]	false
+uied_component_texts_localised_string_ironic_190e_fix2_1	Fixed an intermittent crash when a faction died and its characters were absorbed.	false
+uied_component_texts_localised_string_ironic_190e_fix2_2	Singleplayer characters now receive their scripted starting equipment.	false
+uied_component_texts_localised_string_ironic_190e_fix2_3	Scripted level-ups work again, so Northern Captains promotions now advance.	false
+uied_component_texts_localised_string_ironic_190e_fix2_4	Physical trait removal works again.	false
+uied_component_texts_localised_string_ironic_190e_fix2_5	Ze Rong's raiding income no longer stacks when several armies share a region.	false
+uied_component_texts_localised_string_ironic_190e_fix2_6	Korean effect bundles can be removed again, and children are no longer skipped.	false
+uied_component_texts_localised_string_ironic_190e_fix2_7	Faction tutorial chains regain their missing recruit-units step.	false
+uied_component_texts_localised_string_ironic_190e_fix2_8	A settings opt-out that compared against text rather than true or false now works.	false
+uied_component_texts_localised_string_ironic_190e_fix2_9	Eighteen placeholder skill and ability entries have real names and descriptions.	false
+uied_component_texts_localised_string_ironic_190e_fix2_10	Faction feature target markers no longer over-fire for Liu Bei and Liu Yu.	false
+uied_component_texts_localised_string_ironic_190e_fix2_11	You Tu's faction-select border no longer uses Zhang Jin's artwork.	false

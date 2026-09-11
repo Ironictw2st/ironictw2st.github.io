@@ -1,0 +1,23 @@
+key	text	tooltip
+#Loc;1;text/mct/ui/english/190E_cheats.loc		
+MCT_localised_string_section_190E_Cheats_EN	190E Cheats	false
+MCT_localised_string_header_cheat_prestige_EN	Prestige	false
+MCT_localised_string_cheat_prestige_EN	+999 prestige PER TURN while ticked (player only - starts at the START OF YOUR NEXT TURN; prestige can only be granted by an effect)	false
+MCT_localised_string_header_cheat_army_slots_EN	Army Slots	false
+MCT_localised_string_cheat_army_slots_EN	+999 army slots (player only - takes effect at the start of your next turn)	false
+MCT_localised_string_header_cheat_spies_EN	Spies	false
+MCT_localised_string_cheat_spies_EN	+999 undercover network (spy) slots (player only - takes effect at the start of your next turn)	false
+MCT_localised_string_header_cheat_trade_EN	Trade Agreements	false
+MCT_localised_string_cheat_trade_EN	+999 trade agreement capacity (player only - takes effect at the start of your next turn)	false
+MCT_localised_string_header_cheat_governors_EN	Governors	false
+MCT_localised_string_cheat_governors_EN	+999 governor positions (player only - takes effect at the start of your next turn)	false
+MCT_localised_string_header_cheat_assignments_EN	Assignments	false
+MCT_localised_string_cheat_assignments_EN	+999 assignment slots - NOTE: the game hard-caps total assignments at 10 (player only - takes effect at the start of your next turn)	false
+MCT_localised_string_header_cheat_initiatives_EN	Province Initiatives	false
+MCT_localised_string_cheat_initiatives_EN	+999 province initiative capacity (player only - takes effect at the start of your next turn)	false
+MCT_localised_string_header_cheat_retinues_EN	Retinue Deployment	false
+MCT_localised_string_cheat_retinues_EN	+999 retinues deployable per turn (player only - takes effect at the start of your next turn)	false
+MCT_localised_string_header_cheat_treasury_EN	Treasury	false
+MCT_localised_string_cheat_treasury_EN	+100,000 treasury now (player only, instant)	false
+MCT_localised_string_header_cheat_unlock_ranks_EN	Rank Ups	false
+MCT_localised_string_cheat_unlock_ranks_EN	Unlock unlimited rank ups now (skips the prestige requirement, instant)	false

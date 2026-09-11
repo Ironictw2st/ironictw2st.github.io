@@ -1,0 +1,11 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/zhangluresource								
+ironic_celestial_decay	3k_dlc04_tech_yellow_turban_characters_1_1.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_celestial_stance	3k_dlc04_tech_yellow_turban_characters_1_1.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_celestial_faction_leader	3k_dlc04_tech_yellow_turban_characters_1_1.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_celestial_execute	3k_dlc04_tech_yellow_turban_characters_1_1.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_celestial_recruit	3k_dlc04_tech_yellow_turban_characters_1_1.png	1	campaign			0.0000	positive_value_is_good	default
+ironic_celestial_building_gain	3k_dlc04_tech_yellow_turban_characters_1_1.png	999	campaign			0.0000	positive_value_is_good	default
+ironic_celestial_building_loss	3k_dlc04_tech_yellow_turban_characters_1_1.png	999	campaign			0.0000	positive_value_is_good	default
+ironic_celestial_resource_gain	3k_dlc04_tech_yellow_turban_characters_1_1.png	999	campaign			0.0000	positive_value_is_good	info
+ironic_celestial_resource_loss	3k_dlc04_tech_yellow_turban_characters_1_1.png	999	campaign			0.0000	positive_value_is_good	info

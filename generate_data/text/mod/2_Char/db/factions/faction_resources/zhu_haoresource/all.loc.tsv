@@ -1,0 +1,83 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/zhu_haoresource/all.loc		
+effect_bundles_localised_title_ironic_unit_upgrades_earth_range_block	Earth Doctrine: Shield Discipline	false
+effect_bundles_localised_description_ironic_unit_upgrades_earth_range_block	Shield drills beaten into the Earth ranks until raised shields answer the whistle of arrows without an order spoken.	false
+effect_bundles_localised_title_ironic_unit_upgrades_earth_all_damage	Earth Doctrine: Crushing Blows	false
+effect_bundles_localised_description_ironic_unit_upgrades_earth_all_damage	Zhu Jun taught that a blow worth striking is worth striking through. Earth units hit with the full weight of the old drills.	false
+effect_bundles_localised_title_ironic_unit_upgrades_earth_speed	Earth Doctrine: Forced March	false
+effect_bundles_localised_description_ironic_unit_upgrades_earth_speed	The old general's marching cadences, measured against the drum until Earth columns eat the road.	false
+effect_bundles_localised_title_ironic_unit_upgrades_earth_armor	Earth Doctrine: Hardened Ranks	false
+effect_bundles_localised_description_ironic_unit_upgrades_earth_armor	Lamellar checked plate by plate at every muster, as the old general demanded of his own guard.	false
+effect_bundles_localised_title_ironic_unit_upgrades_fire_charge_bonus	Fire Doctrine: Furious Charge	false
+effect_bundles_localised_description_ironic_unit_upgrades_fire_charge_bonus	The thunderclap charge Zhu Jun loosed at Wancheng, drilled into every Fire lance.	false
+effect_bundles_localised_title_ironic_unit_upgrades_fire_speed	Fire Doctrine: Swift Advance	false
+effect_bundles_localised_description_ironic_unit_upgrades_fire_speed	Fire columns advance at the old campaign pace: arrive first, choose the ground.	false
+effect_bundles_localised_title_ironic_unit_upgrades_fire_armor	Fire Doctrine: Tempered Plate	false
+effect_bundles_localised_description_ironic_unit_upgrades_fire_armor	Plate quenched and re-fitted after every action, by the old general's standing order.	false
+effect_bundles_localised_title_ironic_unit_upgrades_fire_fatigue_rate	Fire Doctrine: Tireless Fervour	false
+effect_bundles_localised_description_ironic_unit_upgrades_fire_fatigue_rate	March, fight, and march again. Fire units are conditioned to the old general's punishing tempo.	false
+effect_bundles_localised_title_ironic_unit_upgrades_water_range_view	Water Doctrine: Far Sight	false
+effect_bundles_localised_description_ironic_unit_upgrades_water_range_view	Crossbow lines sited from the high ground, as the old general always placed them.	false
+effect_bundles_localised_title_ironic_unit_upgrades_water_ammo	Water Doctrine: Deep Quivers	false
+effect_bundles_localised_description_ironic_unit_upgrades_water_ammo	No volley wasted, no quiver short. Supply discipline as strict as any battle drill.	false
+effect_bundles_localised_title_ironic_unit_upgrades_water_range_block	Water Doctrine: Arrow Wards	false
+effect_bundles_localised_description_ironic_unit_upgrades_water_range_block	Pavise and posture drilled until Water lines shrug off the counter-volley.	false
+effect_bundles_localised_title_ironic_unit_upgrades_water_all_damage	Water Doctrine: Piercing Volleys	false
+effect_bundles_localised_description_ironic_unit_upgrades_water_all_damage	Massed volleys timed to the drum, loosed as one, as the old general's manuals prescribe.	false
+effect_bundles_localised_title_ironic_unit_upgrades_metal_speed	Metal Doctrine: Loping Stride	false
+effect_bundles_localised_description_ironic_unit_upgrades_metal_speed	Metal companies trained to close distance at the wolf's pace, arriving with wind to spare.	false
+effect_bundles_localised_title_ironic_unit_upgrades_metal_melee_evasion	Metal Doctrine: Sidestep	false
+effect_bundles_localised_description_ironic_unit_upgrades_metal_melee_evasion	Slip the blow, answer it. The old general's duelling footwork taught to whole companies.	false
+effect_bundles_localised_title_ironic_unit_upgrades_metal_attack_rate	Metal Doctrine: Frenzied Blows	false
+effect_bundles_localised_description_ironic_unit_upgrades_metal_attack_rate	Strike on the count, and the count never stops. Metal units cut to the old drum's rhythm.	false
+effect_bundles_localised_title_ironic_unit_upgrades_metal_charge_bonus	Metal Doctrine: Thunderous Charge	false
+effect_bundles_localised_description_ironic_unit_upgrades_metal_charge_bonus	The hammer stroke Zhu Jun saved for the breaking point, delivered by Metal's finest.	false
+effects_description_ironic_unit_upgrades_earth_all_damage	[[b]]%+n%[[/b]] all damage for all earth units	false
+effects_description_ironic_unit_upgrades_earth_speed	[[b]]%+n%[[/b]] speed for all earth units	false
+effects_description_ironic_unit_upgrades_fire_charge_bonus	[[b]]%+n%[[/b]] charge bonus for all fire units	false
+effects_description_ironic_unit_upgrades_fire_speed	[[b]]%+n%[[/b]] speed for all fire units	false
+effects_description_ironic_unit_upgrades_water_range_view	[[b]]%+n%[[/b]] range for all water units	false
+effects_description_ironic_unit_upgrades_water_ammo	[[b]]%+n%[[/b]] ammo for all water units	false
+effects_description_ironic_unit_upgrades_water_range_block	[[b]]%+n%[[/b]] missile block chance for all water units	false
+effects_description_ironic_unit_upgrades_water_all_damage	[[b]]%+n%[[/b]] all ranged damage for all water units	false
+effects_description_ironic_unit_upgrades_metal_attack_rate	[[b]]%+n%[[/b]] attack rate for all metal units	false
+effects_description_ironic_unit_upgrades_metal_charge_bonus	[[b]]%+n%[[/b]] charge bonus for all metal units	false
+effects_description_ironic_unit_upgrades_metal_general_armor	[[b]]%+n%[[/b]] armor for all generals	false
+effects_description_ironic_unit_upgrades_water_general_melee_evasion	[[b]]%+n%[[/b]] melee evasion for all generals	false
+effects_description_ironic_unit_upgrades_fire_general_charge_bonus	[[b]]%+n%[[/b]] charge bonus for all generals	false
+effects_description_ironic_unit_upgrades_earth_general_range_block	[[b]]%+n%[[/b]] missile block chance for all generals	false
+effect_bundles_localised_title_ironic_unit_upgrades_wood_armor	Wood Doctrine: Stalwart Mail	false
+effect_bundles_localised_description_ironic_unit_upgrades_wood_armor	Mail for the spear lines, maintained to the old general's inspection standard.	false
+effect_bundles_localised_title_ironic_unit_upgrades_wood_melee_evasion	Wood Doctrine: Weaving Spears	false
+effect_bundles_localised_description_ironic_unit_upgrades_wood_melee_evasion	Footwork before force: spear ranks that give ground by inches and take it back by yards.	false
+effect_bundles_localised_title_ironic_unit_upgrades_wood_ap_damage	Wood Doctrine: Splitting Points	false
+effect_bundles_localised_description_ironic_unit_upgrades_wood_ap_damage	Points ground to a killing taper, driven through shield and scale alike.	false
+effect_bundles_localised_title_ironic_unit_upgrades_wood_range_block	Wood Doctrine: Raised Shields	false
+effect_bundles_localised_description_ironic_unit_upgrades_wood_range_block	The patience of the old campaigns: shields up until the sky stops falling.	false
+effects_description_ironic_unit_upgrades_wood_armor	[[b]]%+n%[[/b]] armour for all spear infantry	false
+effects_description_ironic_unit_upgrades_wood_melee_evasion	[[b]]%+n%[[/b]] melee evasion for all spear infantry	false
+effects_description_ironic_unit_upgrades_wood_ap_damage	[[b]]%+n%[[/b]] armour-piercing damage for all spear infantry	false
+effects_description_ironic_unit_upgrades_wood_range_block	[[b]]%+n%[[/b]] missile block chance for all spear infantry	false
+effects_description_ironic_unit_upgrades_wood_general_all_damage	[[b]]%+n%[[/b]] all damage for generals	false
+effects_description_ironic_unit_upgrades_all_armour	[[b]]%+n%[[/b]] armour for all units	false
+effects_description_ironic_unit_upgrades_all_melee_defence	[[b]]%+n%[[/b]] melee evasion for all units	false
+effects_description_ironic_unit_upgrades_all_melee_ap_damage	[[b]]%+n%[[/b]] armour-piercing damage for all units	false
+effects_description_ironic_unit_upgrades_all_melee_all_damage	[[b]]%+n%[[/b]] melee damage for all units	false
+effects_description_ironic_unit_upgrades_all_missile_block	[[b]]%+n%[[/b]] missile block chance for all units	false
+effects_description_ironic_unit_upgrades_all_speed	[[b]]%+n%[[/b]] speed for all units	false
+effects_description_ironic_unit_upgrades_all_charge	[[b]]%+n%[[/b]] charge bonus for all units	false
+effects_description_ironic_unit_upgrades_all_range	[[b]]%+n%[[/b]] missile range for all units	false
+effects_description_ironic_unit_upgrades_all_ammo	[[b]]%+n%[[/b]] ammunition for all units	false
+effects_description_ironic_unit_upgrades_all_missile_all_damage	[[b]]%+n%[[/b]] missile damage for all units	false
+effects_description_ironic_unit_upgrades_all_attack_rate	[[b]]%+n%[[/b]] melee attack rate for all units	false
+effects_description_ironic_unit_upgrades_all_fatigue	[[b]]%+n%[[/b]] fatigue resistance for all units	false
+effect_bundles_localised_title_ironic_unit_upgrades_set_earth	Earth Doctrines Complete: Rapid Deploy	false
+effect_bundles_localised_description_ironic_unit_upgrades_set_earth	Every soldier now drills to the old general's standard. The whole army gains Guerrilla Deploy.	false
+effect_bundles_localised_title_ironic_unit_upgrades_set_fire	Fire Doctrines Complete: Mighty Knockback	false
+effect_bundles_localised_description_ironic_unit_upgrades_set_fire	The hammer stroke is taught to every company. The whole army strikes with Mighty Knockback.	false
+effect_bundles_localised_title_ironic_unit_upgrades_set_water	Water Doctrines Complete: Fire While Moving and Parthian Shot	false
+effect_bundles_localised_description_ironic_unit_upgrades_set_water	Every rider looses as the old horse-archers did. The whole army may fire while moving, and behind.	false
+effect_bundles_localised_title_ironic_unit_upgrades_set_wood	Wood Doctrines Complete: Fatigue Immune	false
+effect_bundles_localised_description_ironic_unit_upgrades_set_wood	The punishing march is the army's daily bread. The whole army gains Fatigue Immune.	false
+effect_bundles_localised_title_ironic_unit_upgrades_set_metal	Metal Doctrines Complete: Stalk	false
+effect_bundles_localised_description_ironic_unit_upgrades_set_metal	The wolf's approach, taught to every company. The whole army moves with Stalk.	false

@@ -1,0 +1,44 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/guv_yellow_turban_190_resource								
+3k_ytr_faction_trait_he_yi_1	army.png	15	campaign	wood	3k_main_faction_trait_he_yi_1	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_he_yi_2_dummy	army.png	15	campaign		3k_main_faction_trait_he_yi_2	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_he_yi_3_dummy	army.png	17	campaign		3k_main_faction_trait_he_yi_3_recruitment	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_huang_shao_1	army.png	15	campaign	wood	3k_main_faction_trait_huang_shao_1	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_huang_shao_2_dummy	army.png	15	campaign		3k_main_faction_trait_huang_shao_2	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_huang_shao_3_dummy	army.png	17	campaign		3k_main_faction_trait_huang_shao_3	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_gong_du_0_dummy	army.png	15	campaign		3k_main_faction_trait_gong_du_0	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_gong_du_1_dummy	army.png	15	campaign		3k_main_faction_trait_gong_du_1	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_he_yi_0_dummy	army.png	15	campaign		3k_main_faction_trait_he_yi_0	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_he_yi_1_dummy	army.png	15	campaign		3k_main_faction_trait_he_yi_1	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_huang_shao_0_dummy	army.png	15	campaign		3k_main_faction_trait_huang_shao_0	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_huang_shao_1_dummy	army.png	15	campaign		3k_main_faction_trait_huang_shao_1	0.0000	positive_value_is_good	default
+3k_dummy_embers_info_dummy_bundle	info.png	5	campaign			0.0000	positive_value_is_good	info
+3k_dummy_embers_info	info.png	5	campaign			0.0000	positive_value_is_good	info
+3k_dummy_embers_info_bads	info.png	6	campaign			0.0000	positive_value_is_good	info
+3k_dummy_he_yi_info	info.png	10	campaign			0.0000	positive_value_is_good	info
+3k_dummy_gong_du_info	info.png	10	campaign			0.0000	positive_value_is_good	info
+3k_dummy_huang_shao_info	info.png	10	campaign			0.0000	positive_value_is_good	info
+3k_guv_embers_from_effects	3k_embers_pooled_resource.png	1	campaign			0.0000	positive_value_is_good	default
+3k_guv_embers_from_technologies	3k_embers_pooled_resource.png	1	campaign			0.0000	positive_value_is_good	default
+3k_embers_pooled_resource_decay	3k_embers_pooled_resource.png	1	campaign			0.0000	positive_value_is_good	default
+3k_embers_pooled_resource_decay_dummy	3k_embers_pooled_resource.png	1	campaign			0.0000	positive_value_is_good	default
+3k_guv_embers_he_yi_population	3k_embers_pooled_resource.png	100	campaign			0.0000	positive_value_is_good	default
+3k_guv_embers_he_yi_population_none	3k_embers_pooled_resource.png	100	campaign			0.0000	positive_value_is_good	default
+3k_guv_embers_he_yi_occupy_aiding	3k_embers_pooled_resource.png	100	campaign			0.0000	positive_value_is_good	default
+3k_guv_embers_gong_du_raiding	3k_embers_pooled_resource.png	20	campaign			0.0000	positive_value_is_good	default
+3k_guv_embers_gong_du_casualties	3k_embers_pooled_resource.png	20	campaign			0.0000	positive_value_is_good	default
+3k_ytr_guv_embers_gong_du_caches	3k_embers_pooled_resource.png	5	campaign	fire		0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_he_yi_2_2_dummy	army.png	16	campaign		3k_main_faction_trait_he_yi_2_2	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_huang_shao_2_2_dummy	army.png	16	campaign		3k_main_faction_trait_huang_shao_2_2	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_gong_du_2_2_dummy	army.png	16	campaign		3k_main_faction_trait_gong_du_2_2	0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_gong_du_3	sacking_income.png	15	campaign	wood		0.0000	positive_value_is_good	default
+3k_ytr_faction_trait_gong_du_3_dummy	army.png	17	campaign		3k_main_faction_trait_gong_du_3	0.0000	positive_value_is_good	default
+3k_ytr_faction_debuff_enemy_damage	stat_melee_damage_base.png	55	battle	fire		0.0000	negative_value_is_good	default
+3k_ytr_faction_bonus_damage_resistance	resistance_ward_save.png	55	battle	earth		0.0000	positive_value_is_good	default
+3k_ytr_faction_bonus_damage_resistance_characters	resistance_ward_save.png	0				0.0000	positive_value_is_good	default
+3k_ytr_faction_bonus_damage_he_yi	stat_melee_damage_base.png	56	battle			0.0000	positive_value_is_good	default
+3k_ytr_faction_bonus_damage_he_yi_characters	stat_melee_damage_base.png	0				0.0000	positive_value_is_good	default
+3k_ytr_faction_charge_bonus_gong_du	charge_bonus.png	56	battle			0.0000	positive_value_is_good	default
+3k_ytr_faction_charge_bonus_gong_du_characters	charge_bonus.png	0				0.0000	positive_value_is_good	default
+3k_ytr_faction_bonus_missile_huang_shao	ranged_weapon_upgrade.png	56	battle			0.0000	positive_value_is_good	default
+3k_ytr_faction_bonus_missile_huang_shao_characters	ranged_weapon_upgrade.png	0				0.0000	positive_value_is_good	default

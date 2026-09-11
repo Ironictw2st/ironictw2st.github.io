@@ -1,0 +1,5 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ironic_spy_status						
+ironic_spy_defence_1			spy_limit.png	faction	neutral	true
+ironic_spy_defence_2			spy_limit.png	faction	neutral	true
+ironic_spy_defence_3			spy_limit.png	faction	neutral	true

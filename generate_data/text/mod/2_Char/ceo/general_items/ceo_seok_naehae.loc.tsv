@@ -1,0 +1,56 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/ceo_seok_naehae.loc		
+ceo_nodes_title_3k_main_ceo_career_historical_seok_naehae	Steadfast Warlord	true
+ceo_nodes_description_3k_main_ceo_career_historical_seok_naehae	Amidst countless wars, he remains unwavering, firmly sustaining the realm.	true
+ceo_nodes_title_3k_main_ancilliary_armour_seok_naehae_armour_unique	Seok Naehae's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_seok_naehae_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lady_sulye	Teaching of Etiquette	true
+ceo_nodes_description_3k_main_ceo_career_historical_lady_sulye	Teaching children is an investment for the future and stems from love for one’s offspring.	true
+ceo_nodes_title_3k_main_ancilliary_armour_lady_sulye_armour_unique	Lady Sulye's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_lady_sulye_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_seok_jobun	Protector of the People	true
+ceo_nodes_description_3k_main_ceo_career_historical_seok_jobun	In times of calamity, it is the sovereign’s foremost duty to step forward and deliver aid to the populace.	true
+ceo_nodes_title_3k_main_ceo_career_historical_seok_cheomhae	Lost Sovereign	true
+ceo_nodes_description_3k_main_ceo_career_historical_seok_cheomhae	The consequences of his quest for legitimacy and the enigmatic death of a great general are unveiled by the will of the people.	true
+ceo_nodes_title_3k_main_ceo_career_historical_seok_naeeum	Unseen Prince	true
+ceo_nodes_description_3k_main_ceo_career_historical_seok_naeeum	An heir destined for the throne is denied his light by tragedy, fading into history’s shadows.	true
+ceo_nodes_title_3k_main_ceo_career_historical_seok_uro	Tragic End	true
+ceo_nodes_description_3k_main_ceo_career_historical_seok_uro	No matter how great a general or prince of a nation, failure to uphold diplomatic decorum and respect towards other states may lead to a miserable demise.	true
+ceo_nodes_title_3k_main_ceo_career_historical_seok_aihye	Young Moon of the Night	true
+ceo_nodes_description_3k_main_ceo_career_historical_seok_aihye	Like the beautiful moon in the night sky, it shines brightly even in the darkest of nights.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lady_seok	Lady of the Pure Clan	true
+ceo_nodes_description_3k_main_ceo_career_historical_lady_seok	Maintaining the pure bloodline of the clan comes from uniting with those who share the same blood.	true
+ceo_nodes_title_3k_main_ancilliary_armour_lady_seok_armour_unique	Lady Seok's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_lady_seok_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_kim_gudo	General of Trust and Loyalty	true
+ceo_nodes_description_3k_main_ceo_career_historical_kim_gudo	Kim Gudo, who has long fought for his country on the battlefield, nearly faded from history due to a single mistake in his final battle. However, trusted and remembered by his descendants, who rose to the throne, his legacy lives on.	true
+ceo_nodes_title_3k_main_ancilliary_armour_kim_gudo_armour_unique	Kim Gudo's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_kim_gudo_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_kim_michu	Sovereign of All the People	true
+ceo_nodes_description_3k_main_ceo_career_historical_kim_michu	To establish a new royal lineage and secure its stability, the support of the people is indispensable.	true
+ceo_nodes_title_3k_main_ceo_career_historical_kim_malgu	Unbroken Lineage	true
+ceo_nodes_description_3k_main_ceo_career_historical_kim_malgu	Though Kim Malgu’s deeds may be modest, his descendants will carve great achievements into history and shine gloriously.	true
+ceo_nodes_title_3k_main_ceo_career_historical_mul_gyeja	Resolute General	true
+ceo_nodes_description_3k_main_ceo_career_historical_mul_gyeja	Though he may not receive due recognition for his merits, he humbly maintains his resolve to achieve further accomplishments.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gu_suhye	Seasoned General	true
+ceo_nodes_description_3k_main_ceo_career_historical_gu_suhye	There is no one more threatening to the enemy and reliable to allies than a general who has long roamed the battlefield.	true
+ceo_nodes_title_3k_main_ceo_career_historical_chung_hweon	Inexperienced Commander	true
+ceo_nodes_description_3k_main_ceo_career_historical_chung_hweon	Leading a large army is futile if one cannot properly command; it’s no different from being a mere piece of paper.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yeon_jin	Commander of the Mountains	true
+ceo_nodes_description_3k_main_ceo_career_historical_yeon_jin	Whether in rugged mountains or wide plains, a skilled general finds joy as if playing with toys, no matter the variables.	true
+ceo_nodes_title_3k_main_ceo_career_historical_heung_seon	Master of Siege Tactics	true
+ceo_nodes_description_3k_main_ceo_career_historical_heung_seon	Conquering a fortress is not just about numbers but about employing various strategies and tactics to overwhelm the enemy.	true
+ceo_nodes_title_3k_main_ceo_career_historical_seol_bu	Lord Like a Mountain	true
+ceo_nodes_description_3k_main_ceo_career_historical_seol_bu	No matter how certain defeat in battle may be, he is willing to face death to defend the fortress.	true
+ceo_nodes_title_3k_main_ceo_career_historical_seol_ji	Attentive Commander	true
+ceo_nodes_description_3k_main_ceo_career_historical_seol_ji	If promoted due to a superior’s frequent mistakes, one should learn lessons from those past errors.	true
+ceo_nodes_title_3k_main_ceo_career_historical_guk_ryang	Magnanimous Commander	true
+ceo_nodes_description_3k_main_ceo_career_historical_guk_ryang	Following a broad-minded general may not be arduous, but some may sense a certain laxness.	true
+ceo_nodes_title_3k_main_ceo_career_historical_sul_myeong	Faded Strategist	true
+ceo_nodes_description_3k_main_ceo_career_historical_sul_myeong	It is truly unfortunate when those with great knowledge and wisdom never get the chance to realize their intentions.	true
+ceo_nodes_title_3k_main_ceo_career_historical_hwon_gyeon	Impulsive Vanguard	true
+ceo_nodes_description_3k_main_ceo_career_historical_hwon_gyeon	Charging into enemy lines with youthful vigor is reckless yet brave—but returning alive is another matter.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yun_jong	Strategist Who Finishes Strong	true
+ceo_nodes_description_3k_main_ceo_career_historical_yun_jong	Even if the beginning is rough and difficult, steadily carrying out the planned tasks without giving up will ultimately bring great results.	true
+ceo_nodes_title_3k_main_ceo_career_historical_gang_hwon	Stalwart Defender	true
+ceo_nodes_description_3k_main_ceo_career_historical_gang_hwon	To protect someone is a noble yet immensely challenging duty.	true

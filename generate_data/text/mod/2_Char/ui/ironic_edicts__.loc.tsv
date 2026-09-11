@@ -1,0 +1,341 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_edicts__.loc		
+campaign_localised_strings_string_ironic_edicts_title	GOVERNOR EDICTS	false
+campaign_localised_strings_string_ironic_edicts_subtitle	The Five Inspectors	false
+campaign_localised_strings_string_ironic_edicts_rule	Each inspector governing a commandery may enact one edict. Edicts remain in force until revoked and can be changed at any time.	false
+campaign_localised_strings_string_ironic_edicts_office_earth	Government Inspector	false
+campaign_localised_strings_string_ironic_edicts_office_fire	Military Inspector	false
+campaign_localised_strings_string_ironic_edicts_office_metal	Industrial Inspector	false
+campaign_localised_strings_string_ironic_edicts_office_water	Economic Inspector	false
+campaign_localised_strings_string_ironic_edicts_office_wood	Agricultural Inspector	false
+campaign_localised_strings_string_ironic_edicts_status_vacant	No inspector appointed	false
+campaign_localised_strings_string_ironic_edicts_status_not_governing	Not governing a commandery	false
+campaign_localised_strings_string_ironic_edicts_status_no_edict	No edict enacted	false
+campaign_localised_strings_string_ironic_edicts_btn_choose	Choose Edict	false
+campaign_localised_strings_string_ironic_edicts_btn_revoke	Revoke	false
+campaign_localised_strings_string_ironic_edicts_btn_cancel	Cancel	false
+campaign_localised_strings_string_ironic_edicts_chooser_title	Enact an Edict	false
+campaign_localised_strings_string_ironic_edicts_chooser_hint	The pool is drawn from this inspector's traits and grows with their rank. Every edict also strains the provinces that uphold it - its toll is listed among its effects and deepens with tier.	false
+campaign_localised_strings_string_ironic_edicts_risky_tag	Risky decree	false
+campaign_localised_strings_string_ironic_edicts_active_tag	Currently enacted	false
+campaign_localised_strings_string_ironic_edicts_from	From trait:	false
+campaign_localised_strings_string_ironic_edicts_fee_note	Enacting or changing an edict costs	false
+campaign_localised_strings_string_ironic_edicts_no_gold	Not enough gold	false
+campaign_localised_strings_string_ironic_edicts_map_title	Trait to Edict Mapping	false
+campaign_localised_strings_string_ironic_edicts_map_hint	Which traits grant which edicts. A governor's pool is the union of the edicts granted by their traits. Hover a tier numeral to see that tier's effects; tiers unlock at governor rank 1, 3, 5, 7 and 10.	false
+campaign_localised_strings_string_ironic_edicts_req_rank_1	Requires rank 1	false
+campaign_localised_strings_string_ironic_edicts_req_rank_3	Requires rank 3	false
+campaign_localised_strings_string_ironic_edicts_req_rank_5	Requires rank 5	false
+campaign_localised_strings_string_ironic_edicts_req_rank_7	Requires rank 7	false
+campaign_localised_strings_string_ironic_edicts_req_rank_10	Requires rank 10	false
+campaign_localised_strings_string_ironic_edicts_tier_1	Tier I	false
+campaign_localised_strings_string_ironic_edicts_tier_2	Tier II	false
+campaign_localised_strings_string_ironic_edicts_tier_3	Tier III	false
+campaign_localised_strings_string_ironic_edicts_tier_4	Tier IV	false
+campaign_localised_strings_string_ironic_edicts_tier_5	Tier V	false
+campaign_localised_strings_string_ironic_edicts_basic_tag	Available to every governor	false
+campaign_localised_strings_string_ironic_edicts_pool_empty	No edicts available	false
+campaign_localised_strings_string_ironic_edicts_tt_coverage	Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	false
+campaign_localised_strings_string_ironic_edicts_tt_lock	Edicts remain in force until you revoke them, and the choice can be changed freely at any time.	false
+campaign_localised_strings_string_ironic_edicts_tt_pool	Edicts are drawn from the inspector's traits and always apply at full strength. Rank 3 grants 2 choices, rank 5 grants 4, rank 7 the full pool.	false
+campaign_localised_strings_string_ironic_edicts_tt_risky	Drawn from the inspector's darker traits. The downside applies alongside the benefit for as long as the edict stands.	false
+campaign_localised_strings_string_ironic_edicts_tt_not_governing	Assign this inspector as a commandery administrator on the court screen or a commandery panel to let them enact edicts.	false
+campaign_localised_strings_string_ironic_edicts_arch_oversight	Provincial Oversight	false
+campaign_localised_strings_string_ironic_edicts_arch_drills	Drill Fields	false
+campaign_localised_strings_string_ironic_edicts_arch_order	Magistrate Courts	false
+campaign_localised_strings_string_ironic_edicts_arch_agriculture	Irrigation Works	false
+campaign_localised_strings_string_ironic_edicts_arch_commerce	Market Charters	false
+campaign_localised_strings_string_ironic_edicts_arch_industry	Foundry Quotas	false
+campaign_localised_strings_string_ironic_edicts_arch_trade	Caravan Patronage	false
+campaign_localised_strings_string_ironic_edicts_arch_culture	Patronage of Scholars	false
+campaign_localised_strings_string_ironic_edicts_arch_growth	Settlement Charters	false
+campaign_localised_strings_string_ironic_edicts_arch_construction	Corvee Exemptions	false
+campaign_localised_strings_string_ironic_edicts_arch_audits	Incorruptible Audits	false
+campaign_localised_strings_string_ironic_edicts_arch_garrison	Border Watch	false
+campaign_localised_strings_string_ironic_edicts_arch_logistics	Granary Convoys	false
+campaign_localised_strings_string_ironic_edicts_arch_vigilance	Inspector's Eyes	false
+campaign_localised_strings_string_ironic_edicts_arch_granaries	Great Granaries	false
+campaign_localised_strings_string_ironic_edicts_arch_frugality	Lean Administration	false
+campaign_localised_strings_string_ironic_edicts_arch_resettlement	Frontier Resettlement	false
+campaign_localised_strings_string_ironic_edicts_arch_temples	Temple Patronage	false
+campaign_localised_strings_string_ironic_edicts_arch_siegeworks	Siege Preparations	false
+campaign_localised_strings_string_ironic_edicts_arch_tax_relief	Peasant Tax Relief	false
+campaign_localised_strings_string_ironic_edicts_arch_tolls	Extortionate Tolls	false
+campaign_localised_strings_string_ironic_edicts_arch_levies	Forced Conscription	false
+campaign_localised_strings_string_ironic_edicts_arch_taxfarm	Tax Farming	false
+campaign_localised_strings_string_ironic_edicts_arch_quarantine	Quarantine Decrees	false
+campaign_localised_strings_string_ironic_edicts_arch_misrule	Laissez-Faire Governance	false
+campaign_localised_strings_string_ironic_edicts_arch_war_economy	War Economy	false
+campaign_localised_strings_string_ironic_edicts_arch_vice	Tolerated Vices	false
+uied_component_texts_localised_string_ironic_edicts_button_Tooltip_7e41a2	[[b]]Governor Edicts[[/b]] ||Your five inspectors may each enact an edict over the commandery they govern and its neighbouring regions.	false
+uied_component_texts_localised_string_admin_edicts_button_Tooltip_1c3214	[[b]]Edicts[[/b]] ||View and enact edicts that boosts your cities.	false
+effect_bundles_localised_title_ironic_edict_oversight_t1	Edict: Provincial Oversight	true
+effect_bundles_localised_description_ironic_edict_oversight_t1	Routine inspections keep the worst hands out of the granary ledgers. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_oversight_t2	Edict: Provincial Oversight	true
+effect_bundles_localised_description_ironic_edict_oversight_t2	Routine inspections keep the worst hands out of the granary ledgers. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_oversight_t3	Edict: Provincial Oversight	true
+effect_bundles_localised_description_ironic_edict_oversight_t3	Routine inspections keep the worst hands out of the granary ledgers. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_oversight_t4	Edict: Provincial Oversight	true
+effect_bundles_localised_description_ironic_edict_oversight_t4	Routine inspections keep the worst hands out of the granary ledgers. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_oversight_t5	Edict: Provincial Oversight	true
+effect_bundles_localised_description_ironic_edict_oversight_t5	Routine inspections keep the worst hands out of the granary ledgers. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_drills_t1	Edict: Drill Fields	true
+effect_bundles_localised_description_ironic_edict_drills_t1	Levies drill on the commandery's fields; campaigning armies mend their ranks. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_drills_t2	Edict: Drill Fields	true
+effect_bundles_localised_description_ironic_edict_drills_t2	Levies drill on the commandery's fields; campaigning armies mend their ranks. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_drills_t3	Edict: Drill Fields	true
+effect_bundles_localised_description_ironic_edict_drills_t3	Levies drill on the commandery's fields; campaigning armies mend their ranks. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_drills_t4	Edict: Drill Fields	true
+effect_bundles_localised_description_ironic_edict_drills_t4	Levies drill on the commandery's fields; campaigning armies mend their ranks. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_drills_t5	Edict: Drill Fields	true
+effect_bundles_localised_description_ironic_edict_drills_t5	Levies drill on the commandery's fields; campaigning armies mend their ranks. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_order_t1	Edict: Magistrate Courts	true
+effect_bundles_localised_description_ironic_edict_order_t1	Stern county magistrates hold court in the inspector's name. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_order_t2	Edict: Magistrate Courts	true
+effect_bundles_localised_description_ironic_edict_order_t2	Stern county magistrates hold court in the inspector's name. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_order_t3	Edict: Magistrate Courts	true
+effect_bundles_localised_description_ironic_edict_order_t3	Stern county magistrates hold court in the inspector's name. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_order_t4	Edict: Magistrate Courts	true
+effect_bundles_localised_description_ironic_edict_order_t4	Stern county magistrates hold court in the inspector's name. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_order_t5	Edict: Magistrate Courts	true
+effect_bundles_localised_description_ironic_edict_order_t5	Stern county magistrates hold court in the inspector's name. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_agriculture_t1	Edict: Irrigation Works	true
+effect_bundles_localised_description_ironic_edict_agriculture_t1	Dykes and channels are dug to feed field and granary alike. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_agriculture_t2	Edict: Irrigation Works	true
+effect_bundles_localised_description_ironic_edict_agriculture_t2	Dykes and channels are dug to feed field and granary alike. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_agriculture_t3	Edict: Irrigation Works	true
+effect_bundles_localised_description_ironic_edict_agriculture_t3	Dykes and channels are dug to feed field and granary alike. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_agriculture_t4	Edict: Irrigation Works	true
+effect_bundles_localised_description_ironic_edict_agriculture_t4	Dykes and channels are dug to feed field and granary alike. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_agriculture_t5	Edict: Irrigation Works	true
+effect_bundles_localised_description_ironic_edict_agriculture_t5	Dykes and channels are dug to feed field and granary alike. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_commerce_t1	Edict: Market Charters	true
+effect_bundles_localised_description_ironic_edict_commerce_t1	Chartered markets draw merchants under the inspector's seal. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_commerce_t2	Edict: Market Charters	true
+effect_bundles_localised_description_ironic_edict_commerce_t2	Chartered markets draw merchants under the inspector's seal. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_commerce_t3	Edict: Market Charters	true
+effect_bundles_localised_description_ironic_edict_commerce_t3	Chartered markets draw merchants under the inspector's seal. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_commerce_t4	Edict: Market Charters	true
+effect_bundles_localised_description_ironic_edict_commerce_t4	Chartered markets draw merchants under the inspector's seal. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_commerce_t5	Edict: Market Charters	true
+effect_bundles_localised_description_ironic_edict_commerce_t5	Chartered markets draw merchants under the inspector's seal. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_industry_t1	Edict: Foundry Quotas	true
+effect_bundles_localised_description_ironic_edict_industry_t1	Smelters and workshops labour to quotas set by the inspectorate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_industry_t2	Edict: Foundry Quotas	true
+effect_bundles_localised_description_ironic_edict_industry_t2	Smelters and workshops labour to quotas set by the inspectorate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_industry_t3	Edict: Foundry Quotas	true
+effect_bundles_localised_description_ironic_edict_industry_t3	Smelters and workshops labour to quotas set by the inspectorate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_industry_t4	Edict: Foundry Quotas	true
+effect_bundles_localised_description_ironic_edict_industry_t4	Smelters and workshops labour to quotas set by the inspectorate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_industry_t5	Edict: Foundry Quotas	true
+effect_bundles_localised_description_ironic_edict_industry_t5	Smelters and workshops labour to quotas set by the inspectorate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_trade_t1	Edict: Caravan Patronage	true
+effect_bundles_localised_description_ironic_edict_trade_t1	Caravans on the inspector's roads travel under official patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_trade_t2	Edict: Caravan Patronage	true
+effect_bundles_localised_description_ironic_edict_trade_t2	Caravans on the inspector's roads travel under official patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_trade_t3	Edict: Caravan Patronage	true
+effect_bundles_localised_description_ironic_edict_trade_t3	Caravans on the inspector's roads travel under official patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_trade_t4	Edict: Caravan Patronage	true
+effect_bundles_localised_description_ironic_edict_trade_t4	Caravans on the inspector's roads travel under official patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_trade_t5	Edict: Caravan Patronage	true
+effect_bundles_localised_description_ironic_edict_trade_t5	Caravans on the inspector's roads travel under official patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_culture_t1	Edict: Patronage of Scholars	true
+effect_bundles_localised_description_ironic_edict_culture_t1	Schools and shrines flourish under the inspector's patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_culture_t2	Edict: Patronage of Scholars	true
+effect_bundles_localised_description_ironic_edict_culture_t2	Schools and shrines flourish under the inspector's patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_culture_t3	Edict: Patronage of Scholars	true
+effect_bundles_localised_description_ironic_edict_culture_t3	Schools and shrines flourish under the inspector's patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_culture_t4	Edict: Patronage of Scholars	true
+effect_bundles_localised_description_ironic_edict_culture_t4	Schools and shrines flourish under the inspector's patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_culture_t5	Edict: Patronage of Scholars	true
+effect_bundles_localised_description_ironic_edict_culture_t5	Schools and shrines flourish under the inspector's patronage. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_growth_t1	Edict: Settlement Charters	true
+effect_bundles_localised_description_ironic_edict_growth_t1	Land grants and charters draw settlers to the frontier. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_growth_t2	Edict: Settlement Charters	true
+effect_bundles_localised_description_ironic_edict_growth_t2	Land grants and charters draw settlers to the frontier. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_growth_t3	Edict: Settlement Charters	true
+effect_bundles_localised_description_ironic_edict_growth_t3	Land grants and charters draw settlers to the frontier. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_growth_t4	Edict: Settlement Charters	true
+effect_bundles_localised_description_ironic_edict_growth_t4	Land grants and charters draw settlers to the frontier. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_growth_t5	Edict: Settlement Charters	true
+effect_bundles_localised_description_ironic_edict_growth_t5	Land grants and charters draw settlers to the frontier. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_construction_t1	Edict: Corvee Exemptions	true
+effect_bundles_localised_description_ironic_edict_construction_t1	Corvee labour is marshalled where the inspector wills it. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_construction_t2	Edict: Corvee Exemptions	true
+effect_bundles_localised_description_ironic_edict_construction_t2	Corvee labour is marshalled where the inspector wills it. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_construction_t3	Edict: Corvee Exemptions	true
+effect_bundles_localised_description_ironic_edict_construction_t3	Corvee labour is marshalled where the inspector wills it. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_construction_t4	Edict: Corvee Exemptions	true
+effect_bundles_localised_description_ironic_edict_construction_t4	Corvee labour is marshalled where the inspector wills it. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_construction_t5	Edict: Corvee Exemptions	true
+effect_bundles_localised_description_ironic_edict_construction_t5	Corvee labour is marshalled where the inspector wills it. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_audits_t1	Edict: Incorruptible Audits	true
+effect_bundles_localised_description_ironic_edict_audits_t1	The inspector's clerks audit every granary ledger and toll gate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_audits_t2	Edict: Incorruptible Audits	true
+effect_bundles_localised_description_ironic_edict_audits_t2	The inspector's clerks audit every granary ledger and toll gate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_audits_t3	Edict: Incorruptible Audits	true
+effect_bundles_localised_description_ironic_edict_audits_t3	The inspector's clerks audit every granary ledger and toll gate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_audits_t4	Edict: Incorruptible Audits	true
+effect_bundles_localised_description_ironic_edict_audits_t4	The inspector's clerks audit every granary ledger and toll gate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_audits_t5	Edict: Incorruptible Audits	true
+effect_bundles_localised_description_ironic_edict_audits_t5	The inspector's clerks audit every granary ledger and toll gate. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_garrison_t1	Edict: Border Watch	true
+effect_bundles_localised_description_ironic_edict_garrison_t1	Watchtowers are manned and garrison rolls kept at full strength. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_garrison_t2	Edict: Border Watch	true
+effect_bundles_localised_description_ironic_edict_garrison_t2	Watchtowers are manned and garrison rolls kept at full strength. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_garrison_t3	Edict: Border Watch	true
+effect_bundles_localised_description_ironic_edict_garrison_t3	Watchtowers are manned and garrison rolls kept at full strength. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_garrison_t4	Edict: Border Watch	true
+effect_bundles_localised_description_ironic_edict_garrison_t4	Watchtowers are manned and garrison rolls kept at full strength. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_garrison_t5	Edict: Border Watch	true
+effect_bundles_localised_description_ironic_edict_garrison_t5	Watchtowers are manned and garrison rolls kept at full strength. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_logistics_t1	Edict: Granary Convoys	true
+effect_bundles_localised_description_ironic_edict_logistics_t1	Grain convoys keep the muster fields stocked and armies moving. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_logistics_t2	Edict: Granary Convoys	true
+effect_bundles_localised_description_ironic_edict_logistics_t2	Grain convoys keep the muster fields stocked and armies moving. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_logistics_t3	Edict: Granary Convoys	true
+effect_bundles_localised_description_ironic_edict_logistics_t3	Grain convoys keep the muster fields stocked and armies moving. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_logistics_t4	Edict: Granary Convoys	true
+effect_bundles_localised_description_ironic_edict_logistics_t4	Grain convoys keep the muster fields stocked and armies moving. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_logistics_t5	Edict: Granary Convoys	true
+effect_bundles_localised_description_ironic_edict_logistics_t5	Grain convoys keep the muster fields stocked and armies moving. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_vigilance_t1	Edict: Inspector's Eyes	true
+effect_bundles_localised_description_ironic_edict_vigilance_t1	Nothing moves on the inspector's roads without being seen. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_vigilance_t2	Edict: Inspector's Eyes	true
+effect_bundles_localised_description_ironic_edict_vigilance_t2	Nothing moves on the inspector's roads without being seen. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_vigilance_t3	Edict: Inspector's Eyes	true
+effect_bundles_localised_description_ironic_edict_vigilance_t3	Nothing moves on the inspector's roads without being seen. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_vigilance_t4	Edict: Inspector's Eyes	true
+effect_bundles_localised_description_ironic_edict_vigilance_t4	Nothing moves on the inspector's roads without being seen. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_vigilance_t5	Edict: Inspector's Eyes	true
+effect_bundles_localised_description_ironic_edict_vigilance_t5	Nothing moves on the inspector's roads without being seen. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_granaries_t1	Edict: Great Granaries	true
+effect_bundles_localised_description_ironic_edict_granaries_t1	Grain is bought, stored and guarded against lean years. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_granaries_t2	Edict: Great Granaries	true
+effect_bundles_localised_description_ironic_edict_granaries_t2	Grain is bought, stored and guarded against lean years. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_granaries_t3	Edict: Great Granaries	true
+effect_bundles_localised_description_ironic_edict_granaries_t3	Grain is bought, stored and guarded against lean years. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_granaries_t4	Edict: Great Granaries	true
+effect_bundles_localised_description_ironic_edict_granaries_t4	Grain is bought, stored and guarded against lean years. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_granaries_t5	Edict: Great Granaries	true
+effect_bundles_localised_description_ironic_edict_granaries_t5	Grain is bought, stored and guarded against lean years. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_frugality_t1	Edict: Lean Administration	true
+effect_bundles_localised_description_ironic_edict_frugality_t1	Clerks are few, honest and poorly fed. Little is wasted. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_frugality_t2	Edict: Lean Administration	true
+effect_bundles_localised_description_ironic_edict_frugality_t2	Clerks are few, honest and poorly fed. Little is wasted. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_frugality_t3	Edict: Lean Administration	true
+effect_bundles_localised_description_ironic_edict_frugality_t3	Clerks are few, honest and poorly fed. Little is wasted. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_frugality_t4	Edict: Lean Administration	true
+effect_bundles_localised_description_ironic_edict_frugality_t4	Clerks are few, honest and poorly fed. Little is wasted. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_frugality_t5	Edict: Lean Administration	true
+effect_bundles_localised_description_ironic_edict_frugality_t5	Clerks are few, honest and poorly fed. Little is wasted. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_resettlement_t1	Edict: Frontier Resettlement	true
+effect_bundles_localised_description_ironic_edict_resettlement_t1	Land grants draw settler families to empty acres. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_resettlement_t2	Edict: Frontier Resettlement	true
+effect_bundles_localised_description_ironic_edict_resettlement_t2	Land grants draw settler families to empty acres. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_resettlement_t3	Edict: Frontier Resettlement	true
+effect_bundles_localised_description_ironic_edict_resettlement_t3	Land grants draw settler families to empty acres. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_resettlement_t4	Edict: Frontier Resettlement	true
+effect_bundles_localised_description_ironic_edict_resettlement_t4	Land grants draw settler families to empty acres. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_resettlement_t5	Edict: Frontier Resettlement	true
+effect_bundles_localised_description_ironic_edict_resettlement_t5	Land grants draw settler families to empty acres. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_temples_t1	Edict: Temple Patronage	true
+effect_bundles_localised_description_ironic_edict_temples_t1	Shrines are restored and the rites observed in full. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_temples_t2	Edict: Temple Patronage	true
+effect_bundles_localised_description_ironic_edict_temples_t2	Shrines are restored and the rites observed in full. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_temples_t3	Edict: Temple Patronage	true
+effect_bundles_localised_description_ironic_edict_temples_t3	Shrines are restored and the rites observed in full. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_temples_t4	Edict: Temple Patronage	true
+effect_bundles_localised_description_ironic_edict_temples_t4	Shrines are restored and the rites observed in full. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_temples_t5	Edict: Temple Patronage	true
+effect_bundles_localised_description_ironic_edict_temples_t5	Shrines are restored and the rites observed in full. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_siegeworks_t1	Edict: Siege Preparations	true
+effect_bundles_localised_description_ironic_edict_siegeworks_t1	Walls are provisioned and every tower kept manned. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_siegeworks_t2	Edict: Siege Preparations	true
+effect_bundles_localised_description_ironic_edict_siegeworks_t2	Walls are provisioned and every tower kept manned. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_siegeworks_t3	Edict: Siege Preparations	true
+effect_bundles_localised_description_ironic_edict_siegeworks_t3	Walls are provisioned and every tower kept manned. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_siegeworks_t4	Edict: Siege Preparations	true
+effect_bundles_localised_description_ironic_edict_siegeworks_t4	Walls are provisioned and every tower kept manned. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_siegeworks_t5	Edict: Siege Preparations	true
+effect_bundles_localised_description_ironic_edict_siegeworks_t5	Walls are provisioned and every tower kept manned. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_tax_relief_t1	Edict: Peasant Tax Relief	true
+effect_bundles_localised_description_ironic_edict_tax_relief_t1	The field tax is eased and the villages breathe again. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_tax_relief_t2	Edict: Peasant Tax Relief	true
+effect_bundles_localised_description_ironic_edict_tax_relief_t2	The field tax is eased and the villages breathe again. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_tax_relief_t3	Edict: Peasant Tax Relief	true
+effect_bundles_localised_description_ironic_edict_tax_relief_t3	The field tax is eased and the villages breathe again. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_tax_relief_t4	Edict: Peasant Tax Relief	true
+effect_bundles_localised_description_ironic_edict_tax_relief_t4	The field tax is eased and the villages breathe again. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_tax_relief_t5	Edict: Peasant Tax Relief	true
+effect_bundles_localised_description_ironic_edict_tax_relief_t5	The field tax is eased and the villages breathe again. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control.	true
+effect_bundles_localised_title_ironic_edict_tolls_t1	Edict: Extortionate Tolls	true
+effect_bundles_localised_description_ironic_edict_tolls_t1	Every bridge and gate pays. The people notice. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_tolls_t2	Edict: Extortionate Tolls	true
+effect_bundles_localised_description_ironic_edict_tolls_t2	Every bridge and gate pays. The people notice. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_tolls_t3	Edict: Extortionate Tolls	true
+effect_bundles_localised_description_ironic_edict_tolls_t3	Every bridge and gate pays. The people notice. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_tolls_t4	Edict: Extortionate Tolls	true
+effect_bundles_localised_description_ironic_edict_tolls_t4	Every bridge and gate pays. The people notice. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_tolls_t5	Edict: Extortionate Tolls	true
+effect_bundles_localised_description_ironic_edict_tolls_t5	Every bridge and gate pays. The people notice. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_levies_t1	Edict: Forced Conscription	true
+effect_bundles_localised_description_ironic_edict_levies_t1	The press gangs fill the muster rolls. The villages empty. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_levies_t2	Edict: Forced Conscription	true
+effect_bundles_localised_description_ironic_edict_levies_t2	The press gangs fill the muster rolls. The villages empty. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_levies_t3	Edict: Forced Conscription	true
+effect_bundles_localised_description_ironic_edict_levies_t3	The press gangs fill the muster rolls. The villages empty. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_levies_t4	Edict: Forced Conscription	true
+effect_bundles_localised_description_ironic_edict_levies_t4	The press gangs fill the muster rolls. The villages empty. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_levies_t5	Edict: Forced Conscription	true
+effect_bundles_localised_description_ironic_edict_levies_t5	The press gangs fill the muster rolls. The villages empty. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_taxfarm_t1	Edict: Tax Farming	true
+effect_bundles_localised_description_ironic_edict_taxfarm_t1	Collection is sold to the highest bidder, who answers few questions. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_taxfarm_t2	Edict: Tax Farming	true
+effect_bundles_localised_description_ironic_edict_taxfarm_t2	Collection is sold to the highest bidder, who answers few questions. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_taxfarm_t3	Edict: Tax Farming	true
+effect_bundles_localised_description_ironic_edict_taxfarm_t3	Collection is sold to the highest bidder, who answers few questions. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_taxfarm_t4	Edict: Tax Farming	true
+effect_bundles_localised_description_ironic_edict_taxfarm_t4	Collection is sold to the highest bidder, who answers few questions. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_taxfarm_t5	Edict: Tax Farming	true
+effect_bundles_localised_description_ironic_edict_taxfarm_t5	Collection is sold to the highest bidder, who answers few questions. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_quarantine_t1	Edict: Quarantine Decrees	true
+effect_bundles_localised_description_ironic_edict_quarantine_t1	Gates close at dusk and travellers are turned away. Order, at a price. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_quarantine_t2	Edict: Quarantine Decrees	true
+effect_bundles_localised_description_ironic_edict_quarantine_t2	Gates close at dusk and travellers are turned away. Order, at a price. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_quarantine_t3	Edict: Quarantine Decrees	true
+effect_bundles_localised_description_ironic_edict_quarantine_t3	Gates close at dusk and travellers are turned away. Order, at a price. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_quarantine_t4	Edict: Quarantine Decrees	true
+effect_bundles_localised_description_ironic_edict_quarantine_t4	Gates close at dusk and travellers are turned away. Order, at a price. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_quarantine_t5	Edict: Quarantine Decrees	true
+effect_bundles_localised_description_ironic_edict_quarantine_t5	Gates close at dusk and travellers are turned away. Order, at a price. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_misrule_t1	Edict: Laissez-Faire Governance	true
+effect_bundles_localised_description_ironic_edict_misrule_t1	The inspector signs whatever is put in front of him. Things get built. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_misrule_t2	Edict: Laissez-Faire Governance	true
+effect_bundles_localised_description_ironic_edict_misrule_t2	The inspector signs whatever is put in front of him. Things get built. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_misrule_t3	Edict: Laissez-Faire Governance	true
+effect_bundles_localised_description_ironic_edict_misrule_t3	The inspector signs whatever is put in front of him. Things get built. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_misrule_t4	Edict: Laissez-Faire Governance	true
+effect_bundles_localised_description_ironic_edict_misrule_t4	The inspector signs whatever is put in front of him. Things get built. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_misrule_t5	Edict: Laissez-Faire Governance	true
+effect_bundles_localised_description_ironic_edict_misrule_t5	The inspector signs whatever is put in front of him. Things get built. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_war_economy_t1	Edict: War Economy	true
+effect_bundles_localised_description_ironic_edict_war_economy_t1	Every forge serves the army. The fields serve the forges. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_war_economy_t2	Edict: War Economy	true
+effect_bundles_localised_description_ironic_edict_war_economy_t2	Every forge serves the army. The fields serve the forges. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_war_economy_t3	Edict: War Economy	true
+effect_bundles_localised_description_ironic_edict_war_economy_t3	Every forge serves the army. The fields serve the forges. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_war_economy_t4	Edict: War Economy	true
+effect_bundles_localised_description_ironic_edict_war_economy_t4	Every forge serves the army. The fields serve the forges. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_war_economy_t5	Edict: War Economy	true
+effect_bundles_localised_description_ironic_edict_war_economy_t5	Every forge serves the army. The fields serve the forges. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_vice_t1	Edict: Tolerated Vices	true
+effect_bundles_localised_description_ironic_edict_vice_t1	Wine-houses and gambling dens pay well to stay open. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_vice_t2	Edict: Tolerated Vices	true
+effect_bundles_localised_description_ironic_edict_vice_t2	Wine-houses and gambling dens pay well to stay open. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_vice_t3	Edict: Tolerated Vices	true
+effect_bundles_localised_description_ironic_edict_vice_t3	Wine-houses and gambling dens pay well to stay open. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_vice_t4	Edict: Tolerated Vices	true
+effect_bundles_localised_description_ironic_edict_vice_t4	Wine-houses and gambling dens pay well to stay open. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true
+effect_bundles_localised_title_ironic_edict_vice_t5	Edict: Tolerated Vices	true
+effect_bundles_localised_description_ironic_edict_vice_t5	Wine-houses and gambling dens pay well to stay open. Enacted by an inspector. Applies to the governed commandery and adjacent regions you control. A risky decree: its drawbacks are part of the bargain.	true

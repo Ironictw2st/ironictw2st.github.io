@@ -58,6 +58,10 @@ import json
 import re
 from collections import defaultdict
 
+import tw3k_common
+from tw3k_common import replace_tr_tokens
+from tw3k_common import load_site_loc, sub_loc, build_ui_text_replacements
+
 # ============================================================================
 # CONFIGURATION (relative to script directory)
 # ============================================================================
@@ -67,18 +71,20 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(SCRIPT_DIR, "db")
 
 # Big fallback loc
-ALL_TITLES_LOC_PATH = os.path.join(SCRIPT_DIR, "all_titles_full.loc.tsv")
+
 
 # Effects loc folder (effect descriptions)
-EFFECTS_LOC_FOLDER = os.path.join(SCRIPT_DIR, "effects")
+
 
 # Scopes loc folder
-SCOPES_LOC_FOLDER = os.path.join(SCRIPT_DIR, "scopes")
+
 
 # Skills loc folder (for skill names/descriptions)
-SKILLS_LOC_FOLDER = os.path.join(SCRIPT_DIR, "skills")
 
-OUTPUT_PATH = os.path.join(SCRIPT_DIR, "total_war", "data", "skill_trees.js")
+
+TEXT_ROOT = os.path.join(SCRIPT_DIR, "text")
+SITE_DATA = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "total_war", "data"))
+OUTPUT_PATH = os.path.join(SITE_DATA, "skill_trees.js")
 
 DEBUG_MISSING = True
 
@@ -242,7 +248,7 @@ TR_REPLACEMENTS = {
 }
 
 
-def replace_tr_tokens(text: str) -> str:
+def _unused_replace_tr_tokens(text: str) -> str:
     def repl(match):
         key = match.group(1)
         replacement = TR_REPLACEMENTS.get(key)
@@ -680,11 +686,10 @@ def load_skill_level_to_effects(db_path):
         )
         
         if skill_key and effect_key:
-            result[skill_key].append({
-                "effect_key": effect_key,
-                "value": value,
-                "effect_scope": scope,
-            })
+            entry = {"effect_key": effect_key, "value": value, "effect_scope": scope}
+            if entry in result[skill_key]:
+                continue  # vanilla rows repeated in mod copies of the table
+            result[skill_key].append(entry)
     
     total_effects = sum(len(v) for v in result.values())
     print(f"  Loaded {total_effects} skill effects across {len(result)} skills from {len(files_loaded)} files")
@@ -782,22 +787,15 @@ def main():
         print(f"ERROR: Database folder not found: {DB_PATH}")
         return
 
-    # [1/7] Load localization files
+    # [1/7] Load localization files (one merged dict: text/vanilla -> text/mod -> text/extra)
     print("[1/7] Loading localization files...")
-    
-    all_loc_kv = {}
-    if os.path.exists(ALL_TITLES_LOC_PATH):
-        all_loc_kv = load_loc_kv(ALL_TITLES_LOC_PATH)
-        print(f"  Loaded {len(all_loc_kv)} keys from {os.path.basename(ALL_TITLES_LOC_PATH)}")
-    
-    effects_loc_kv = load_all_loc_kv_from_folder(EFFECTS_LOC_FOLDER)
-    print(f"  Loaded {len(effects_loc_kv)} effect loc keys")
-    
-    scope_loc_kv = load_all_loc_kv_from_folder(SCOPES_LOC_FOLDER)
-    print(f"  Loaded {len(scope_loc_kv)} scope loc keys")
-    
-    skills_loc_kv = load_all_loc_kv_from_folder(SKILLS_LOC_FOLDER)
-    print(f"  Loaded {len(skills_loc_kv)} skill loc keys")
+    all_loc_kv = load_site_loc(TEXT_ROOT)
+    print(f"  Loaded {len(all_loc_kv)} loc keys")
+    effects_loc_kv = sub_loc(all_loc_kv, "effects_")
+    scope_loc_kv = sub_loc(all_loc_kv, "campaign_effect_scopes_")
+    skills_loc_kv = sub_loc(all_loc_kv, "character_skill")
+    tw3k_common.set_ui_text_replacements(build_ui_text_replacements(all_loc_kv))
+    print(f"  effects {len(effects_loc_kv)}, scopes {len(scope_loc_kv)}, skills {len(skills_loc_kv)}")
     print()
 
     # [2/7] Load character generation templates

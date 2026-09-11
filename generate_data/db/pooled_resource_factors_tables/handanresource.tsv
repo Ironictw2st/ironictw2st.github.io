@@ -1,0 +1,12 @@
+key
+#pooled_resource_factors_tables;0;db/pooled_resource_factors_tables/handanresource
+ironic_firmness_factor
+ironic_firmness_victory
+ironic_firmness_defeat
+ironic_firmness_decay
+ironic_firmness_at_war
+ironic_firmness_post_battle_options
+ironic_firmness_assignments
+ironic_firmness_armies
+ironic_handan_clan_firmness_governors
+ironic_handan_clan_diplomatic_treaties

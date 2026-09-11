@@ -1,0 +1,56 @@
+key	text	tooltip
+#Loc;1;text/ceo/general_items/ceo_go_balgi.loc		
+ceo_nodes_title_3k_main_ceo_career_historical_go_balgi	Rejected Heir	true
+ceo_nodes_description_3k_main_ceo_career_historical_go_balgi	Some princes are deemed unfit to ascend as heirs...	true
+ceo_nodes_title_3k_main_ancilliary_armour_go_balgi_armour_unique	Go Balgi's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_go_balgi_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_go_yeonu	Chosen Prince	true
+ceo_nodes_description_3k_main_ceo_career_historical_go_yeonu	By the will of a single choice, one once a mere prince is destined to take the throne.	true
+ceo_nodes_title_3k_main_ancilliary_armour_go_yeonu_armour_unique	Go Yeonu's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_go_yeonu_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_go_gyesu	Noble Younger Brother	true
+ceo_nodes_description_3k_main_ceo_career_historical_go_gyesu	One who humbly accepts the course of the world and understands his duty well merely fulfills his role.	true
+ceo_nodes_title_3k_main_ancilliary_armour_go_gyesu_armour_unique	Go Gyesu's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_go_gyesu_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_go_uwugeo	King of Revival	true
+ceo_nodes_description_3k_main_ceo_career_historical_go_uwugeo	Though reaching the depths of ruin, through the support of countless loyal subjects and people, he rises once more.	true
+ceo_nodes_title_3k_main_ancilliary_armour_go_uwugeo_armour_unique	Go Uwugeo's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_go_uwugeo_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_go_bakwigeo	Silent Son	true
+ceo_nodes_description_3k_main_ceo_career_historical_go_bakwigeo	Go Bakwigeo remains silent even if his father rebels out of dissatisfaction with the throne, believing that such actions are wrong, and considers it unfilial to oppose them.	true
+ceo_nodes_title_3k_main_ceo_career_historical_lady_woo	Queen Who Chooses the King	true
+ceo_nodes_description_3k_main_ceo_career_historical_lady_woo	The vacant throne is fated to find its master by her decisive selection.	true
+ceo_nodes_title_3k_main_ancilliary_armour_lady_woo_armour_unique	Lady Woo's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_lady_woo_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_an_ryu	Discernment of Talent	true
+ceo_nodes_description_3k_main_ceo_career_historical_an_ryu	A humble individual knows his place, lowering himself to recommend worthy talents for the betterment of the realm.	true
+ceo_nodes_title_3k_main_ceo_career_historical_eul_paso	Prime Minister of the Celestial Realm	true
+ceo_nodes_description_3k_main_ceo_career_historical_eul_paso	An exceptional talent, long withdrawn from the mundane world, is summoned and recognized as a prodigy of the realm.	true
+ceo_nodes_title_3k_main_ancilliary_armour_eul_paso_armour_unique	Eul Paso's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_eul_paso_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_jwa_garyeo	Instigator of Rebellion	true
+ceo_nodes_description_3k_main_ceo_career_historical_jwa_garyeo	Shows just how far those in power and authority can become arrogant and tyrannical.	true
+ceo_nodes_title_3k_main_ceo_career_historical_eo_biryu	Power and Arrogance	true
+ceo_nodes_description_3k_main_ceo_career_historical_eo_biryu	The downfall of those who swagger on borrowed status rather than their own standing will be dreadful.	true
+ceo_nodes_title_3k_main_ceo_career_historical_myeongrim_eosu	Strategic Counselor	true
+ceo_nodes_description_3k_main_ceo_career_historical_myeongrim_eosu	A prime minister’s duty is not solely to oversee governance, but also to possess insight into the art of war.	true
+ceo_nodes_title_3k_main_ceo_career_historical_go_uru	Prime Minister of Tranquil Reign	true
+ceo_nodes_description_3k_main_ceo_career_historical_go_uru	Even after great storms have passed, some prepare the foundation for the future amid calm and peace.	true
+ceo_nodes_title_3k_main_ceo_career_historical_mil_u	Loyal Subject Who Sacrifices for the King	true
+ceo_nodes_description_3k_main_ceo_career_historical_mil_u	A devoted retainer who offers his very life to safeguard the sovereign and uphold the realm.	true
+ceo_nodes_title_3k_main_ancilliary_armour_mil_u_armour_unique	Mil U's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_mil_u_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yu_yu	Foolhardy Loyalist	true
+ceo_nodes_description_3k_main_ceo_career_historical_yu_yu	Even when faced with desperate measures, this loyal subject acts and sacrifices himself for the troubled nation and king—such devotion should be remembered by future generations.	true
+ceo_nodes_title_3k_main_ancilliary_armour_yu_yu_armour_unique	Yu Yu's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_yu_yu_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_yu_okgu	Rescuing General	true
+ceo_nodes_description_3k_main_ceo_career_historical_yu_okgu	Following orders to the battlefield to save comrades is a perilous task.	true
+ceo_nodes_title_3k_main_ancilliary_armour_yu_okgu_armour_unique	Yu Okgu's Armour	true
+ceo_nodes_description_3k_main_ancilliary_armour_yu_okgu_armour_unique	The perfect weight and fit, tailored for this warrior of class and distinction.	true
+ceo_nodes_title_3k_main_ceo_career_historical_go_yeonbul	Unshakable Royal Authority	true
+ceo_nodes_description_3k_main_ceo_career_historical_go_yeonbul	Amid external invasions and internal rebellions, the fragile foundation of the nation was strengthened once again through unwavering determination.	true
+ceo_nodes_title_3k_main_ceo_career_historical_hu_nyeo	Secondary Queen Consort	true
+ceo_nodes_description_3k_main_ceo_career_historical_hu_nyeo	A strong woman catches the king’s eye and wins his love. True to the king’s wish, she bears him a son.	true
+ceo_nodes_title_3k_main_ceo_career_historical_deuk_rae	Wise Advisor	true
+ceo_nodes_description_3k_main_ceo_career_historical_deuk_rae	A loyal minister is one who dares to risk death to offer honest counsel when the king makes a wrong decision.	true

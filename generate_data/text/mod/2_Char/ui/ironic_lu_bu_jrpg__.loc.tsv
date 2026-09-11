@@ -1,0 +1,86 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_lu_bu_jrpg__.loc		
+campaign_localised_strings_string_ironic_lb_jrpg_title	TRIAL BY COMBAT	false
+campaign_localised_strings_string_ironic_lb_jrpg_hdr_progress	TROPHIES CLAIMED	false
+campaign_localised_strings_string_ironic_lb_jrpg_list_empty	No Greatest Warrior in your service awaits a challenge. Recruit one, or win their trophy on the battlefield.	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_challenge	CHALLENGE	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_attack	ATTACK	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_guard	GUARD	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_special	SPECIAL	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_flee	YIELD	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_back	RETURN	false
+campaign_localised_strings_string_ironic_lb_jrpg_lbl_hp	HP	false
+campaign_localised_strings_string_ironic_lb_jrpg_lbl_atk	ATK	false
+campaign_localised_strings_string_ironic_lb_jrpg_lbl_def	DEF	false
+campaign_localised_strings_string_ironic_lb_jrpg_lbl_round	ROUND	false
+campaign_localised_strings_string_ironic_lb_jrpg_state_cooldown	Ready in	false
+campaign_localised_strings_string_ironic_lb_jrpg_unknown_warrior	Unnamed Warrior	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_target_ready	This warrior serves you but has not yet been humbled. Defeat them in single combat to claim their trophy.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_target_locked	You were bested. They will not face you again for another	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_attack_title	Attack	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_attack_body	A full swing. Deals damage scaled by your Attack against their Defence, and may land a critical blow. Builds 1 Momentum, or 2 on a critical.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_guard_title	Guard	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_guard_body	Brace. Incoming damage this round is cut to 45 percent and you recover 4 percent of your maximum health. Builds 2 Momentum. Cannot be used twice in a row.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_special_title	Special	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_special_body	A committed strike at 2.2 times damage that ignores half their Defence, but cannot land a critical. Spends 3 Momentum.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_flee_title	Yield	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_flee_body	Withdraw from the duel. This counts as a defeat: the warrior will not face you again for 3 turns.	false
+campaign_localised_strings_string_ironic_lb_jrpg_log_begin	A challenge is issued to	false
+campaign_localised_strings_string_ironic_lb_jrpg_log_resumed	The duel resumes.	false
+campaign_localised_strings_string_ironic_lb_jrpg_log_attack	strikes	false
+campaign_localised_strings_string_ironic_lb_jrpg_log_guard	guards	false
+campaign_localised_strings_string_ironic_lb_jrpg_log_special	unleashes a devastating blow	false
+campaign_localised_strings_string_ironic_lb_jrpg_log_crit	CRITICAL	false
+campaign_localised_strings_string_ironic_lb_jrpg_result_win	You have humbled	false
+campaign_localised_strings_string_ironic_lb_jrpg_result_lose	You were bested by	false
+campaign_localised_strings_string_ironic_lb_jrpg_result_fled	You withdrew from	false
+campaign_localised_strings_string_ironic_lb_jrpg_result_judged	The duel went the distance and was decided on the balance of wounds.	false
+campaign_localised_strings_string_ironic_lb_jrpg_log_debate_begin	A debate is convened with	false
+campaign_localised_strings_string_ironic_lb_jrpg_stance_negative	he has spoken against this	false
+campaign_localised_strings_string_ironic_lb_jrpg_stance_positive	he holds this view	false
+campaign_localised_strings_string_ironic_lb_jrpg_stance_is	this is his very nature	false
+campaign_localised_strings_string_ironic_lb_jrpg_stance_unknown	his view was untested	false
+campaign_localised_strings_string_ironic_lb_jrpg_lbl_composure	COMPOSURE	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_topic_title	Choose your ground	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_topic_body	Argue a point he is on record opposing and it lands. Argue one he holds and he will rebut you. An untested point is a probe: you learn where he stands, at some cost.	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_ignore	PRETEND TO IGNORE	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_halberd	INVOKE MY HALBERD	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_subject	CHANGE THE SUBJECT	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_stare	STARE BLANKLY	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_feign	FEIGN AGREEMENT	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_punch	PUNCH THE NERD	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_ignore_ok	Lu Bu examines his halberd while the point is made. It is not clear he heard any of it.	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_ignore_fail	Lu Bu looks up a moment too late, and is obliged to answer.	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_halberd	Lu Bu rests Sky Piercer on the table. The argument acquires a certain weight.	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_subject	"Enough of that. Let us speak of something else."	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_stare_ok	Lu Bu says nothing at all. The silence does more damage than any rebuttal.	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_stare_fail	Lu Bu stares. His opponent, unhelpfully, waits him out.	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_feign	"Mm. Quite so." Lu Bu has no idea what was just said, but the nodding buys him time.	false
+campaign_localised_strings_string_ironic_lb_jrpg_move_punch	Lu Bu ends the debate the only way he was ever going to.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_ignore_title	Pretend to Ignore	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_ignore_body	Affect complete disinterest. If it works he lands nothing this round and loses composure at being so plainly unheard. If it fails, he gets a free point in.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_halberd_title	Invoke My Halberd	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_halberd_body	Make the point martially. This round is settled on your battle stats rather than your wits, which for Lu Bu is a considerable upgrade. Twice per debate.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_subject_title	Change the Subject	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_subject_body	Discard all three topics for three new ones. Costs you a little composure and a round, but beats arguing a point he happens to be right about.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_stare_title	Stare Blankly	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_stare_body	Offer nothing. He must explain himself to a man who is visibly not listening, which is exhausting. Usually costs him more than it costs you.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_feign_title	Feign Agreement	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_feign_body	Nod along. You recover a good deal of composure, but so does he - this buys time, it does not win.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_punch_title	Punch the Nerd	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_lb_punch_body	Stop talking. Ends the debate immediately and claims the trophy. Offered only once you are genuinely losing, which is the only reason to argue at all.	false
+uied_component_texts_localised_string_button_lu_bu_duel_Tooltip_lb0001	[[b]]Trial by Combat[[/b]]|| Challenge a Greatest Warrior serving in your faction and settle the matter in person. \\n\\n Warriors are fought. Scholars are debated.	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_title	HOW TO PLAY	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_help	HOW TO PLAY	false
+campaign_localised_strings_string_ironic_lb_jrpg_btn_help_back	BACK	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_trial_t	THE TRIAL	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_trial_b	Greatest Warriors serving in your faction can be challenged in person. The list refreshes at the start of each turn and every time you open this panel. Winning claims their trophy exactly as killing them in battle would, and counts toward the set. Losing locks that man for 3 turns before he will face you again.	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_duel_t	THE DUEL	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_duel_b	ATTACK swings for full damage and can land a critical. GUARD cuts the incoming blow to 45 percent, restores 4 percent of your health and builds 2 Momentum, but cannot be used twice in a row. SPECIAL strikes for 2.2 times damage and ignores half his Defence, spending 3 Momentum. Whoever reaches zero first loses: a man who is put down does not swing back, so no exchange ends with both of you on the floor. Evenly matched men fall in about 8 rounds; if 12 rounds pass, whoever holds the greater share of his health wins on points.	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_debate_t	THE DEBATE	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_debate_b	Scholars are argued with rather than fought. Each round offers three topics drawn from what men of the age actually held opinions on. Argue a point he is on record OPPOSING and it lands hard. Argue one he HOLDS and he rebuts you with his own words. An untested point is a probe: it costs you a little, and reveals where he stands for the rest of the debate.	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_lubu_t	LU BU'S OWN METHODS	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_lubu_b	Lu Bu is a poor listener, and has options no heir inherits. PRETEND TO IGNORE may negate his entire point. INVOKE MY HALBERD settles a round on martial strength instead of wit, twice per debate. CHANGE THE SUBJECT discards all three topics. STARE BLANKLY costs him composure as he explains himself to a man who is not listening. FEIGN AGREEMENT buys you time and steadies you both. And once you have lost more than 65 percent of your composure, PUNCH THE NERD ends the argument permanently.	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_gear_t	ARMS AND ARMOUR	false
+campaign_localised_strings_string_ironic_lb_jrpg_help_gear_b	What a man carries changes who he is. Every equipped weapon, armour, mount, accessory and follower feeds his five attributes, and both contests derive their numbers from those. A blade that sharpens Instinct wins duels; a scholar's gift that deepens Cunning wins debates. Lu Bu also strikes harder for every trophy already in the cabinet.	false
+campaign_localised_strings_string_ironic_lb_jrpg_tt_help_body	Open the rules for the trial: how targets appear, how a duel and a debate are fought, Lu Bu's own methods, and how your equipment feeds into all of it.	false

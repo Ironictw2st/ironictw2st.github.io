@@ -1,0 +1,14 @@
+key	order	ui_icon	effect_bundle
+#faction_groups_tables;5;db/faction_groups_tables/data__			
+3k_Imperial_governors	1	x	3k_main_dummy_effect_bundle
+3k_bandits	2	x	3k_main_dummy_effect_bundle
+3k_imperial_warlords	0	x	3k_main_dummy_effect_bundle
+3k_nanman	3	x	3k_main_dummy_effect_bundle
+3k_regional_warlords	1	x	3k_main_dummy_effect_bundle
+3k_the_coalition	0	x	3k_main_dummy_effect_bundle
+3k_the_eight_princes	7	x	3k_main_dummy_effect_bundle
+3k_the_empire	1	x	3k_main_dummy_effect_bundle
+3k_the_han	3	x	3k_main_dummy_effect_bundle
+3k_warlords	0	x	3k_main_dummy_effect_bundle
+3k_yellow_turban_remnants	4	x	3k_main_dummy_effect_bundle
+3k_yellow_turbans	4	x	3k_main_dummy_effect_bundle

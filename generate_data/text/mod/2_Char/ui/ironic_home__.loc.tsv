@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/ui/ironic_home__.loc		
+campaign_localised_strings_string_ironic_home_title	IRONIC MENU	false
+campaign_localised_strings_string_ironic_home_joins	CHARACTER JOINS	false
+campaign_localised_strings_string_ironic_home_births	CHARACTER BIRTHS	false
+campaign_localised_strings_string_ironic_home_guide	MOD GUIDE	false
+ironic_home_button_Tooltip_ir0003	[[b]]Ironic Menu[[/b]] ||Open the hub of custom features for this mod.	false

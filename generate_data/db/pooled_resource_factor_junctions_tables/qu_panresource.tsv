@@ -1,0 +1,9 @@
+key	factor	maximum	minimum	resource	ai_can_propose	is_recurring_factor
+#pooled_resource_factor_junctions_tables;3;db/pooled_resource_factor_junctions_tables/qu_panresource						
+ironic_madness_factor	ironic_madness_factor	2147483647	-2147483647	ironic_madness	true	true
+ironic_madness_victory	ironic_madness_victory	2147483647	-2147483647	ironic_madness	true	false
+ironic_madness_defeat	ironic_madness_defeat	2147483647	-2147483647	ironic_madness	true	false
+ironic_madness_decay	ironic_madness_decay	2147483647	-2147483647	ironic_madness	true	true
+ironic_madness_at_war	ironic_madness_at_war	2147483647	-2147483647	ironic_madness	true	false
+ironic_madness_post_battle_options	ironic_madness_post_battle_options	2147483647	-2147483647	ironic_madness	true	true
+ironic_madness_assignments	ironic_madness_assignments	2147483647	-2147483647	ironic_madness	true	true

@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/events/missions/ironic_korea_missions.loc		
+missions_localised_title_ironic_mission_korea_complete_objective_defeat_gongsun_du	Break the Grip of Liaodong	false
+missions_localised_description_ironic_mission_korea_complete_objective_defeat_gongsun_du	From Liaodong, Gongsun Du treats the kingdoms beyond the Yalu as tributaries to be squeezed. Goguryeo will bow to no Han governor. Destroy his faction and the northern road is yours.	false
+missions_localised_supplementary_text_ironic_mission_korea_complete_objective_defeat_gongsun_du	[[i]]Eliminate the faction of Gongsun Du.[[/i]]	false
+missions_localised_title_ironic_mission_korea_complete_objective_defeat_korea_factions	One Crown East of the Yalu	false
+missions_localised_description_ironic_mission_korea_complete_objective_defeat_korea_factions	Buyeo to the north, Bakaja and Tamno in the west, Gaya and Shitla in the south: each claims a corner of the peninsula. While any of them stands, Goguryeo's rule is a claim, not a fact. Destroy them all.	false
+missions_localised_supplementary_text_ironic_mission_korea_complete_objective_defeat_korea_factions	[[i]]Eliminate Buyeo, Bakaja, Tamno, Gaya and Shitla.[[/i]]	false
+missions_localised_title_ironic_mission_korea_complete_objective_take_korea_land	Master of the Three Han	false
+missions_localised_description_ironic_mission_korea_complete_objective_take_korea_land	The old commanderies of Lelang, Xuantu and Zhenfan, the Han river valley, the lands of Baekje and Gyeongju and the Gaya coast: hold every one of them and no one on the peninsula can deny that Goguryeo is its master.	false
+missions_localised_supplementary_text_ironic_mission_korea_complete_objective_take_korea_land	[[i]]Control 27 regions, including every settlement of the Korean peninsula.[[/i]]	false

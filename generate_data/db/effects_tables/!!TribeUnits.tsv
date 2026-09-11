@@ -1,0 +1,11 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/!!TribeUnits								
+ironic_effect_unit_cap_3k_mod_unit_fire_wuhuan_dragons	replenishment.png	150	battle	fire		0.0000	positive_value_is_good	default
+ironic_effect_unit_cap_3k_mod_unit_earth_xianbei_swordguard	replenishment.png	150	battle	earth		0.0000	positive_value_is_good	default
+ironic_effect_unit_cap_3k_mod_unit_metal_wuhuan_infantry	replenishment.png	150	battle	metal		0.0000	positive_value_is_good	default
+ironic_effect_unit_cap_3k_mod_unit_metal_xianbei_headhunters	replenishment.png	150	battle	metal		0.0000	positive_value_is_good	default
+ironic_effect_unit_cap_3k_mod_unit_water_wuhuan_archers	replenishment.png	150	battle	water		0.0000	positive_value_is_good	default
+ironic_effect_unit_cap_3k_mod_unit_water_xiongnu_assassins	replenishment.png	150	battle	water		0.0000	positive_value_is_good	default
+ironic_effect_unit_cap_3k_dlc07_unit_earth_xiongnu_noble_cavalry	replenishment.png	150	battle	earth		0.0000	positive_value_is_good	default
+ironic_effect_unit_cap_3k_mod_unit_earth_wuhuan_cavalry	replenishment.png	150	battle	earth		0.0000	positive_value_is_good	default
+ironic_effect_xiliang_commander_unit_cap	replenishment.png	150	battle	fire		0.0000	positive_value_is_good	default

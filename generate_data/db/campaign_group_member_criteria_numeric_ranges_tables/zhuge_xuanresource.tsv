@@ -1,0 +1,11 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/zhuge_xuanresource			
+ironic_zhuge_xuan_sleeping_dragon_level_0	10	0	value
+ironic_zhuge_xuan_sleeping_dragon_level_1	20	11	value
+ironic_zhuge_xuan_sleeping_dragon_level_2	30	21	value
+ironic_zhuge_xuan_sleeping_dragon_level_3	40	31	value
+ironic_zhuge_xuan_sleeping_dragon_level_4	60	41	value
+ironic_zhuge_xuan_sleeping_dragon_level_5	70	61	value
+ironic_zhuge_xuan_sleeping_dragon_level_6	80	71	value
+ironic_zhuge_xuan_sleeping_dragon_level_7	90	81	value
+ironic_zhuge_xuan_sleeping_dragon_level_8	100	91	value

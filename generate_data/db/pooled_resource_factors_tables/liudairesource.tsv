@@ -1,0 +1,10 @@
+key
+#pooled_resource_factors_tables;0;db/pooled_resource_factors_tables/liudairesource
+ironic_siege_warfare_factor
+ironic_siege_warfare_victory
+ironic_siege_warfare_defeat
+ironic_siege_warfare_decay
+ironic_siege_warfare_at_war
+ironic_siege_warfare_post_battle_options
+ironic_siege_warfare_assignments
+ironic_siege_warfare_casualities

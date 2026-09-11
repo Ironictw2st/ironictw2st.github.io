@@ -1,0 +1,4 @@
+key	icon_path	feature_type	sort_order
+#frontend_faction_leader_unique_features_tables;3;db/frontend_faction_leader_unique_features_tables/ironic_wu_huan			
+ironic_ytr_unique_features_wu_huan_building	UI\Buildings\Icons\district\yellow_turban\3k_district_yellow_turban_caches_5.png	building	1
+ironic_ytr_unique_features_wu_huan_ambush	UI\skins\default\scroll.png	ceo	2

@@ -1,0 +1,22 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/liuyuresource								
+ironic_han_decay	3k_ironic_190_revamp_liu_yu.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_han_armies	3k_ironic_190_revamp_liu_yu.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_liu_yu_peace_captives_post_battle	3k_ironic_190_revamp_liu_yu.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_liu_yu_peace	3k_ironic_190_revamp_liu_yu.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_garrisoned	3k_ironic_190_revamp_liu_yu.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_vassalized	3k_ironic_190_revamp_liu_yu.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_han_liu_yu_peace_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_han_liu_yu_peace_executed	3k_ironic_190_revamp_liu_yu.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_imperial_favour	3k_dlc07_imperial_favour.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_public_order	3k_ironic_190_revamp_liu_yu.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_frontend_description_liu_yu_peace_1	3k_ironic_190_revamp_liu_yu.png	1	campaign	earth	ironic_frontend_description_liu_yu_peace_1	0.0000	positive_value_is_good	default
+ironic_frontend_description_liu_yu_peace_2	3k_ironic_190_revamp_liu_yu.png	2	campaign	earth	ironic_frontend_description_liu_yu_peace_2	0.0000	positive_value_is_good	default
+ironic_frontend_description_liu_yu_peace_3	3k_ironic_190_revamp_liu_yu.png	3	campaign	earth	ironic_frontend_description_liu_yu_peace_3	0.0000	positive_value_is_good	default
+ironic_frontend_description_liu_yu_peace_4	3k_ironic_190_revamp_liu_yu.png	4	campaign	earth	ironic_frontend_description_liu_yu_peace_4	0.0000	positive_value_is_good	default
+ironic_increased_barbarian_cap_infantry	replenishment.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_increased_barbarian_cap_cavalry	replenishment.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_increased_barbarian_cap_archer_cavalry	replenishment.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_gain_alliance	3k_ironic_190_revamp_liu_yu.png	200	campaign			0.0000	positive_value_is_good	default
+ironic_han_liu_yu_peace_loss_war	3k_ironic_190_revamp_liu_yu.png	200	campaign			0.0000	positive_value_is_good	default

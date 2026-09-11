@@ -1,0 +1,14 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/huangzu-resource						
+ironic_huang_zu_frontend_bundle			icon_ambush.png	faction	positive	true
+ironic_huang_zu_prime_ambush_level_0			army.png	faction	neutral	false
+ironic_huang_zu_prime_ambush_level_1			army.png	faction	neutral	false
+ironic_huang_zu_prime_ambush_level_2			army.png	faction	neutral	false
+ironic_huang_zu_prime_ambush_level_3			army.png	faction	neutral	false
+ironic_huang_zu_prime_ambush_level_4			army.png	faction	neutral	false
+ironic_huang_zu_prime_ambush_level_5			army.png	faction	neutral	false
+ironic_huang_zu_prime_ambush_level_6			army.png	faction	neutral	false
+ironic_huang_zu_unique_ambush_stance			army.png	faction	neutral	true
+ironic_huang_zu_unique_default_stance			army.png	faction	neutral	true
+ironic_huang_zu_vassal_master			army.png	faction	neutral	true
+ironic_huang_zu_alone_vassal			army.png	faction	neutral	true

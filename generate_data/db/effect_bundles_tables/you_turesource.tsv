@@ -1,0 +1,13 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/you_turesource						
+ironic_enforcement_resource_level_0			bodyguard_unit_size.png	faction	negative	false
+ironic_enforcement_resource_level_1			bodyguard_unit_size.png	faction	negative	false
+ironic_enforcement_resource_level_2			bodyguard_unit_size.png	faction	neutral	false
+ironic_enforcement_resource_level_3			bodyguard_unit_size.png	faction	positive	false
+ironic_enforcement_resource_level_4			bodyguard_unit_size.png	faction	positive	false
+ironic_enforcement_captives_execute			no_effect.png	force	neutral	false
+ironic_enforcement_captives_recruit			no_effect.png	force	neutral	false
+ironic_enforcement_captives_release			no_effect.png	force	neutral	false
+ironic_enforcement_garrisoned			bodyguard_unit_size.png	force	neutral	false
+ironic_enforcement_vassalized			bodyguard_unit_size.png	force	neutral	false
+ironic_enforcement_effect_bundle			bodyguard_unit_size.png	faction	neutral	false

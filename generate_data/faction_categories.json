@@ -1,0 +1,1102 @@
+{
+  "3k_dlc04_faction_chen_gui": {
+    "category": "dlc-fd",
+    "name": "Chen Gui",
+    "state": "Chen Gui"
+  },
+  "3k_dlc04_faction_chen_gui~goh": {
+    "category": "gathering",
+    "name": "Chen Gui",
+    "state": "Chen Gui"
+  },
+  "3k_dlc04_faction_empress_he~goh": {
+    "category": "gathering",
+    "name": "Liu Hong",
+    "state": "Han Dynasty"
+  },
+  "3k_dlc04_faction_liang_rebels": {
+    "category": "dlc-fd",
+    "name": "Song Jian",
+    "state": "Song Jian"
+  },
+  "3k_dlc04_faction_liang_rebels~goh": {
+    "category": "gathering",
+    "name": "Song Jian",
+    "state": "Song Jian"
+  },
+  "3k_dlc04_faction_liu_xun": {
+    "category": "dlc-fd",
+    "name": "Liu Xun",
+    "state": "Liu Xun"
+  },
+  "3k_dlc04_faction_lu_kang": {
+    "category": "dlc-fd",
+    "name": "Lu Kang",
+    "state": "Lu Kang"
+  },
+  "3k_dlc04_faction_lu_kang~goh": {
+    "category": "gathering",
+    "name": "Lu Kang",
+    "state": "Lu Kang"
+  },
+  "3k_dlc04_faction_lu_zhi~goh": {
+    "category": "gathering",
+    "name": "Lu Zhi",
+    "state": "Lu Zhi"
+  },
+  "3k_dlc04_faction_prince_liu_chong": {
+    "category": "dlc-fd",
+    "name": "Liu Chong",
+    "state": "Prince Liu Chong"
+  },
+  "3k_dlc04_faction_prince_liu_chong~goh": {
+    "category": "gathering",
+    "name": "Liu Chong",
+    "state": "Prince Liu Chong"
+  },
+  "3k_dlc04_faction_ying_shao": {
+    "category": "dlc-fd",
+    "name": "Ying Shao",
+    "state": "Ying Shao"
+  },
+  "3k_dlc04_faction_ying_shao~goh": {
+    "category": "gathering",
+    "name": "Ying Shao",
+    "state": "Ying Shao"
+  },
+  "3k_dlc04_faction_zhang_bao~goh": {
+    "category": "gathering",
+    "name": "Zhang Bao",
+    "state": "Zhang Bao"
+  },
+  "3k_dlc04_faction_zhang_jue~goh": {
+    "category": "gathering",
+    "name": "Zhang Jue",
+    "state": "Zhang Jue"
+  },
+  "3k_dlc04_faction_zhang_liang~goh": {
+    "category": "gathering",
+    "name": "Zhang Liang",
+    "state": "Zhang Liang"
+  },
+  "3k_dlc05_faction_hua_xin": {
+    "category": "dlc-awb",
+    "name": "Hua Xin",
+    "state": "Hua"
+  },
+  "3k_dlc05_faction_hua_xin~goh": {
+    "category": "gathering",
+    "name": "Hua Xin",
+    "state": "Hua"
+  },
+  "3k_dlc05_faction_sheng_xian": {
+    "category": "dlc-awb",
+    "name": "Sheng Xian",
+    "state": "Sheng Xian"
+  },
+  "3k_dlc05_faction_sheng_xian~goh": {
+    "category": "gathering",
+    "name": "Sheng Xian",
+    "state": "Sheng Xian"
+  },
+  "3k_dlc05_faction_shi_huang": {
+    "category": "dlc-awb",
+    "name": "Shi Huang",
+    "state": "Shi"
+  },
+  "3k_dlc05_faction_shi_huang~goh": {
+    "category": "gathering",
+    "name": "Shi Huang",
+    "state": "Shi"
+  },
+  "3k_dlc05_faction_sun_ce": {
+    "category": "warlords",
+    "name": "Sun Jian",
+    "state": "Wu"
+  },
+  "3k_dlc05_faction_sun_ce~goh": {
+    "category": "gathering",
+    "name": "Sun Jian",
+    "state": "Wu"
+  },
+  "3k_dlc05_faction_white_tiger_yan": {
+    "category": "dlc-awb",
+    "name": "Yan Baihu",
+    "state": "Eastern Wu"
+  },
+  "3k_dlc05_faction_wu_jing": {
+    "category": "dlc-awb",
+    "name": "Wu Jing",
+    "state": "Northern Wu"
+  },
+  "3k_dlc05_faction_yang_feng": {
+    "category": "dlc-awb",
+    "name": "Yang Feng",
+    "state": "Yang"
+  },
+  "3k_dlc05_faction_yang_feng~goh": {
+    "category": "gathering",
+    "name": "Yang Feng",
+    "state": "Yang"
+  },
+  "3k_dlc05_faction_zhu_fu": {
+    "category": "dlc-awb",
+    "name": "Zhu Fu",
+    "state": "Zhu"
+  },
+  "3k_dlc05_faction_zhu_fu~goh": {
+    "category": "gathering",
+    "name": "Zhu Fu",
+    "state": "Zhu"
+  },
+  "3k_dlc06_faction_jiuzhen": {
+    "category": "nanman",
+    "name": "Qu Pan",
+    "state": "Jiuzhen"
+  },
+  "3k_dlc06_faction_jiuzhen~goh": {
+    "category": "gathering",
+    "name": "Qu Pan",
+    "state": "Jiuzhen"
+  },
+  "3k_dlc06_faction_nanman_ahuinan": {
+    "category": "nanman",
+    "name": "Ahuinan",
+    "state": "Ahuinan"
+  },
+  "3k_dlc06_faction_nanman_ahuinan~goh": {
+    "category": "gathering",
+    "name": "Ahuinan",
+    "state": "Ahuinan"
+  },
+  "3k_dlc06_faction_nanman_dongtuna": {
+    "category": "nanman",
+    "name": "Dongtuna",
+    "state": "Dongtuna"
+  },
+  "3k_dlc06_faction_nanman_dongtuna~goh": {
+    "category": "gathering",
+    "name": "Dongtuna",
+    "state": "Dongtuna"
+  },
+  "3k_dlc06_faction_nanman_jiangyang": {
+    "category": "nanman",
+    "name": "Jiangyang Tribes",
+    "state": "Jiangyang Tribes"
+  },
+  "3k_dlc06_faction_nanman_jiangyang~goh": {
+    "category": "gathering",
+    "name": "Jiangyang Tribes",
+    "state": "Jiangyang Tribes"
+  },
+  "3k_dlc06_faction_nanman_jianning": {
+    "category": "nanman",
+    "name": "Jianning Tribes",
+    "state": "Jianning Tribes"
+  },
+  "3k_dlc06_faction_nanman_jianning~goh": {
+    "category": "gathering",
+    "name": "Jianning Tribes",
+    "state": "Jianning Tribes"
+  },
+  "3k_dlc06_faction_nanman_jiaozhi": {
+    "category": "nanman",
+    "name": "Jiaozhi Tribes",
+    "state": "Jiaozhi Tribes"
+  },
+  "3k_dlc06_faction_nanman_jiaozhi~goh": {
+    "category": "gathering",
+    "name": "Jiaozhi Tribes",
+    "state": "Jiaozhi Tribes"
+  },
+  "3k_dlc06_faction_nanman_jinhuansanjie": {
+    "category": "nanman",
+    "name": "Jinhuansanjie",
+    "state": "Jinhuansanjie"
+  },
+  "3k_dlc06_faction_nanman_jinhuansanjie~goh": {
+    "category": "gathering",
+    "name": "Jinhuansanjie",
+    "state": "Jinhuansanjie"
+  },
+  "3k_dlc06_faction_nanman_king_duosi": {
+    "category": "nanman",
+    "name": "Duosi",
+    "state": "King Duosi"
+  },
+  "3k_dlc06_faction_nanman_king_duosi~goh": {
+    "category": "gathering",
+    "name": "Duosi",
+    "state": "King Duosi"
+  },
+  "3k_dlc06_faction_nanman_king_meng_huo": {
+    "category": "nanman",
+    "name": "Meng Huo",
+    "state": "Meng Huo"
+  },
+  "3k_dlc06_faction_nanman_king_mulu": {
+    "category": "nanman",
+    "name": "Mulu",
+    "state": "King Mulu"
+  },
+  "3k_dlc06_faction_nanman_king_shamoke": {
+    "category": "nanman",
+    "name": "Shamoke",
+    "state": "King Shamoke"
+  },
+  "3k_dlc06_faction_nanman_king_wutugu": {
+    "category": "nanman",
+    "name": "Wutugu",
+    "state": "King Wutugu"
+  },
+  "3k_dlc06_faction_nanman_king_wutugu~goh": {
+    "category": "gathering",
+    "name": "Wutugu",
+    "state": "King Wutugu"
+  },
+  "3k_dlc06_faction_nanman_lady_zhurong": {
+    "category": "nanman",
+    "name": "Zhurong",
+    "state": "Lady Zhurong"
+  },
+  "3k_dlc06_faction_nanman_mangyachang": {
+    "category": "nanman",
+    "name": "Mangyachang",
+    "state": "Mangyachang"
+  },
+  "3k_dlc06_faction_nanman_mangyachang~goh": {
+    "category": "gathering",
+    "name": "Mangyachang",
+    "state": "Mangyachang"
+  },
+  "3k_dlc06_faction_nanman_tu_an": {
+    "category": "nanman",
+    "name": "Tu An",
+    "state": "Tu'An"
+  },
+  "3k_dlc06_faction_nanman_tu_an~goh": {
+    "category": "gathering",
+    "name": "Tu An",
+    "state": "Tu'An"
+  },
+  "3k_dlc06_faction_nanman_xi_ni": {
+    "category": "nanman",
+    "name": "Xi Ni",
+    "state": "Xi'Ni"
+  },
+  "3k_dlc06_faction_nanman_xi_ni~goh": {
+    "category": "gathering",
+    "name": "Xi Ni",
+    "state": "Xi'Ni"
+  },
+  "3k_dlc06_faction_nanman_yang_feng": {
+    "category": "nanman",
+    "name": "Yang Feng",
+    "state": "Yang Feng"
+  },
+  "3k_dlc06_faction_nanman_yang_feng~goh": {
+    "category": "gathering",
+    "name": "Yang Feng",
+    "state": "Yang Feng"
+  },
+  "3k_dlc06_faction_nanman_yongchang": {
+    "category": "nanman",
+    "name": "Yongchang Tribes",
+    "state": "Yongchang Tribes"
+  },
+  "3k_dlc06_faction_nanman_yongchang~goh": {
+    "category": "gathering",
+    "name": "Yongchang Tribes",
+    "state": "Yongchang Tribes"
+  },
+  "3k_dlc06_faction_nanman_yunnan": {
+    "category": "nanman",
+    "name": "Yunnan Tribes",
+    "state": "Yunnan Tribes"
+  },
+  "3k_dlc06_faction_nanman_yunnan~goh": {
+    "category": "gathering",
+    "name": "Yunnan Tribes",
+    "state": "Yunnan Tribes"
+  },
+  "3k_dlc06_faction_nanman_zangke": {
+    "category": "nanman",
+    "name": "Zangke Tribes",
+    "state": "Zangke Tribes"
+  },
+  "3k_dlc06_faction_nanman_zangke~goh": {
+    "category": "gathering",
+    "name": "Zangke Tribes",
+    "state": "Zangke Tribes"
+  },
+  "3k_dlc07_faction_shanyue_rebels": {
+    "category": "shanyue",
+    "name": "Pan Lin",
+    "state": "Shanyue Rebels"
+  },
+  "3k_main_faction_cai_mao": {
+    "category": "empire",
+    "name": "Cai Mao",
+    "state": "Cai"
+  },
+  "3k_main_faction_cai_mao~goh": {
+    "category": "gathering",
+    "name": "Cai Mao",
+    "state": "Cai"
+  },
+  "3k_main_faction_cao_cao": {
+    "category": "warlords",
+    "name": "Cao Cao",
+    "state": "Wei"
+  },
+  "3k_main_faction_cao_cao~goh": {
+    "category": "gathering",
+    "name": "Cao Cao",
+    "state": "Wei"
+  },
+  "3k_main_faction_dong_zhuo": {
+    "category": "warlords",
+    "name": "Dong Zhuo",
+    "state": "Dong Zhuo"
+  },
+  "3k_main_faction_dong_zhuo~goh": {
+    "category": "gathering",
+    "name": "Dong Zhuo",
+    "state": "Dong Zhuo"
+  },
+  "3k_main_faction_gao_gan": {
+    "category": "empire",
+    "name": "Gao Gan",
+    "state": "Bing"
+  },
+  "3k_main_faction_gao_gan~goh": {
+    "category": "gathering",
+    "name": "Gao Gan",
+    "state": "Bing"
+  },
+  "3k_main_faction_gaoliang": {
+    "category": "shanyue",
+    "name": "Lai Gong",
+    "state": "Gaoliang"
+  },
+  "3k_main_faction_gaoliang~goh": {
+    "category": "gathering",
+    "name": "Lai Gong",
+    "state": "Gaoliang"
+  },
+  "3k_main_faction_gongsun_du": {
+    "category": "empire",
+    "name": "Gongsun Du",
+    "state": "Guzhu"
+  },
+  "3k_main_faction_gongsun_du~goh": {
+    "category": "gathering",
+    "name": "Gongsun Du",
+    "state": "Guzhu"
+  },
+  "3k_main_faction_gongsun_zan": {
+    "category": "warlords",
+    "name": "Gongsun Zan",
+    "state": "Yan"
+  },
+  "3k_main_faction_gongsun_zan~goh": {
+    "category": "gathering",
+    "name": "Gongsun Zan",
+    "state": "Yan"
+  },
+  "3k_main_faction_han_empire": {
+    "category": "empire",
+    "name": "Wang Yun",
+    "state": "Han Empire"
+  },
+  "3k_main_faction_han_empire~goh": {
+    "category": "gathering",
+    "name": "Wang Yun",
+    "state": "Han Empire"
+  },
+  "3k_main_faction_han_fu": {
+    "category": "empire",
+    "name": "Han Fu",
+    "state": "Nie"
+  },
+  "3k_main_faction_han_fu~goh": {
+    "category": "gathering",
+    "name": "Han Fu",
+    "state": "Nie"
+  },
+  "3k_main_faction_han_sui": {
+    "category": "empire",
+    "name": "Han Sui",
+    "state": "Zhai"
+  },
+  "3k_main_faction_han_sui~goh": {
+    "category": "gathering",
+    "name": "Han Sui",
+    "state": "Zhai"
+  },
+  "3k_main_faction_huang_zu": {
+    "category": "empire",
+    "name": "Huang Zu",
+    "state": "Sui"
+  },
+  "3k_main_faction_huang_zu~goh": {
+    "category": "gathering",
+    "name": "Huang Zu",
+    "state": "Sui"
+  },
+  "3k_main_faction_jia_long": {
+    "category": "shanyue",
+    "name": "Jia Long",
+    "state": "Jianwei"
+  },
+  "3k_main_faction_jia_long~goh": {
+    "category": "gathering",
+    "name": "Jia Long",
+    "state": "Jianwei"
+  },
+  "3k_main_faction_kong_rong": {
+    "category": "warlords",
+    "name": "Kong Rong",
+    "state": "Qi"
+  },
+  "3k_main_faction_kong_rong~goh": {
+    "category": "gathering",
+    "name": "Kong Rong",
+    "state": "Qi"
+  },
+  "3k_main_faction_kong_zhou": {
+    "category": "empire",
+    "name": "Kong Zhou",
+    "state": "Chen"
+  },
+  "3k_main_faction_kong_zhou~goh": {
+    "category": "gathering",
+    "name": "Kong Zhou",
+    "state": "Chen"
+  },
+  "3k_main_faction_liu_bei": {
+    "category": "warlords",
+    "name": "Liu Bei",
+    "state": "Shu-Han"
+  },
+  "3k_main_faction_liu_bei~goh": {
+    "category": "gathering",
+    "name": "Liu Bei",
+    "state": "Shu-Han"
+  },
+  "3k_main_faction_liu_biao": {
+    "category": "warlords",
+    "name": "Liu Biao",
+    "state": "Chu"
+  },
+  "3k_main_faction_liu_biao~goh": {
+    "category": "gathering",
+    "name": "Liu Biao",
+    "state": "Chu"
+  },
+  "3k_main_faction_liu_dai": {
+    "category": "empire",
+    "name": "Liu Dai",
+    "state": "Tang"
+  },
+  "3k_main_faction_liu_dai~goh": {
+    "category": "gathering",
+    "name": "Liu Dai",
+    "state": "Tang"
+  },
+  "3k_main_faction_liu_yan": {
+    "category": "warlords",
+    "name": "Liu Yan",
+    "state": "Xun"
+  },
+  "3k_main_faction_liu_yan~goh": {
+    "category": "gathering",
+    "name": "Liu Yan",
+    "state": "Xun"
+  },
+  "3k_main_faction_liu_yao": {
+    "category": "empire",
+    "name": "Liu Yao",
+    "state": "Yue"
+  },
+  "3k_main_faction_liu_yao~goh": {
+    "category": "gathering",
+    "name": "Liu Yao",
+    "state": "Yue"
+  },
+  "3k_main_faction_liu_yu": {
+    "category": "empire",
+    "name": "Liu Yu",
+    "state": "Dai"
+  },
+  "3k_main_faction_liu_yu~goh": {
+    "category": "gathering",
+    "name": "Liu Yu",
+    "state": "Dai"
+  },
+  "3k_main_faction_lu_bu": {
+    "category": "warlords",
+    "name": "Lü Bu",
+    "state": "Lü Bu"
+  },
+  "3k_main_faction_lu_bu~goh": {
+    "category": "gathering",
+    "name": "Lü Bu",
+    "state": "Lü Bu"
+  },
+  "3k_main_faction_ma_teng": {
+    "category": "warlords",
+    "name": "Ma Teng",
+    "state": "Liang"
+  },
+  "3k_main_faction_ma_teng~goh": {
+    "category": "gathering",
+    "name": "Ma Teng",
+    "state": "Liang"
+  },
+  "3k_main_faction_nanhai": {
+    "category": "empire",
+    "name": "Ni Xiaode",
+    "state": "Nanhai"
+  },
+  "3k_main_faction_shi_xie": {
+    "category": "empire",
+    "name": "Shi Xie",
+    "state": "Ba"
+  },
+  "3k_main_faction_shi_xie~goh": {
+    "category": "gathering",
+    "name": "Shi Xie",
+    "state": "Ba"
+  },
+  "3k_main_faction_sun_jian": {
+    "category": "warlords",
+    "name": "Sun Jian",
+    "state": "Wu"
+  },
+  "3k_main_faction_sun_jian~goh": {
+    "category": "gathering",
+    "name": "Sun Jian",
+    "state": "Wu"
+  },
+  "3k_main_faction_tao_qian": {
+    "category": "empire",
+    "name": "Tao Qian",
+    "state": "Lu"
+  },
+  "3k_main_faction_tao_qian~goh": {
+    "category": "gathering",
+    "name": "Tao Qian",
+    "state": "Lu"
+  },
+  "3k_main_faction_wang_kuang": {
+    "category": "empire",
+    "name": "Wang Kuang",
+    "state": "Wang"
+  },
+  "3k_main_faction_wang_kuang~goh": {
+    "category": "gathering",
+    "name": "Wang Kuang",
+    "state": "Wang"
+  },
+  "3k_main_faction_wang_lang": {
+    "category": "empire",
+    "name": "Wang Lang",
+    "state": "Tan"
+  },
+  "3k_main_faction_wang_lang~goh": {
+    "category": "gathering",
+    "name": "Wang Lang",
+    "state": "Tan"
+  },
+  "3k_main_faction_yellow_turban_anding": {
+    "category": "yellow-turbans",
+    "name": "Gong Du",
+    "state": "Gong Du Yellow Turbans"
+  },
+  "3k_main_faction_yellow_turban_anding~goh": {
+    "category": "gathering",
+    "name": "Gong Du",
+    "state": "Gong Du Yellow Turbans"
+  },
+  "3k_main_faction_yellow_turban_generic": {
+    "category": "yellow-turbans",
+    "name": "Liu Pi",
+    "state": "Yellow Turban Rebellion"
+  },
+  "3k_main_faction_yellow_turban_generic~goh": {
+    "category": "gathering",
+    "name": "Liu Pi",
+    "state": "Yellow Turban Rebellion"
+  },
+  "3k_main_faction_yellow_turban_rebels": {
+    "category": "yellow-turbans",
+    "name": "He Yi",
+    "state": "He Yi Yellow Turbans"
+  },
+  "3k_main_faction_yellow_turban_rebels~goh": {
+    "category": "gathering",
+    "name": "He Yi",
+    "state": "He Yi Yellow Turbans"
+  },
+  "3k_main_faction_yellow_turban_taishan": {
+    "category": "yellow-turbans",
+    "name": "Huang Shao",
+    "state": "Huang Shao Yellow Turbans"
+  },
+  "3k_main_faction_yellow_turban_taishan~goh": {
+    "category": "gathering",
+    "name": "Huang Shao",
+    "state": "Huang Shao Yellow Turbans"
+  },
+  "3k_main_faction_yuan_shao": {
+    "category": "warlords",
+    "name": "Yuan Shao",
+    "state": "Song"
+  },
+  "3k_main_faction_yuan_shao~goh": {
+    "category": "gathering",
+    "name": "Yuan Shao",
+    "state": "Song"
+  },
+  "3k_main_faction_yuan_shu": {
+    "category": "warlords",
+    "name": "Yuan Shu",
+    "state": "Zhong"
+  },
+  "3k_main_faction_yuan_shu~goh": {
+    "category": "gathering",
+    "name": "Yuan Shu",
+    "state": "Zhong"
+  },
+  "3k_main_faction_yulin": {
+    "category": "shanyue",
+    "name": "Wu Ju",
+    "state": "Yulin"
+  },
+  "3k_main_faction_yulin~goh": {
+    "category": "gathering",
+    "name": "Wu Ju",
+    "state": "Yulin"
+  },
+  "3k_main_faction_zhai_rong": {
+    "category": "bandits",
+    "name": "Ze Rong",
+    "state": "Chao"
+  },
+  "3k_main_faction_zhai_rong~goh": {
+    "category": "gathering",
+    "name": "Ze Rong",
+    "state": "Chao"
+  },
+  "3k_main_faction_zhang_chao": {
+    "category": "empire",
+    "name": "Zhang Chao",
+    "state": "Zhongwu"
+  },
+  "3k_main_faction_zhang_chao~goh": {
+    "category": "gathering",
+    "name": "Zhang Chao",
+    "state": "Zhongwu"
+  },
+  "3k_main_faction_zhang_lu": {
+    "category": "empire",
+    "name": "Zhang Lu",
+    "state": "Hanning"
+  },
+  "3k_main_faction_zhang_lu~goh": {
+    "category": "gathering",
+    "name": "Zhang Lu",
+    "state": "Hanning"
+  },
+  "3k_main_faction_zhang_yan": {
+    "category": "bandits",
+    "name": "Zhang Yan",
+    "state": "Heishan"
+  },
+  "3k_main_faction_zhang_yang": {
+    "category": "empire",
+    "name": "Zhang Yang",
+    "state": "Zhongshan"
+  },
+  "3k_main_faction_zhang_yang~goh": {
+    "category": "gathering",
+    "name": "Zhang Yang",
+    "state": "Zhongshan"
+  },
+  "3k_main_faction_zhang_yan~goh": {
+    "category": "gathering",
+    "name": "Zhang Yan",
+    "state": "Heishan"
+  },
+  "3k_main_faction_zheng_jiang": {
+    "category": "bandits",
+    "name": "Zheng Jiang",
+    "state": "Tai Bandits"
+  },
+  "3k_main_faction_zheng_jiang~goh": {
+    "category": "gathering",
+    "name": "Zheng Jiang",
+    "state": "Tai Bandits"
+  },
+  "ironic_faction_bakaja": {
+    "category": "korean",
+    "name": "Buyeo Chogo",
+    "state": "Baekje"
+  },
+  "ironic_faction_bakaja~goh": {
+    "category": "gathering",
+    "name": "Buyeo Chogo",
+    "state": "Baekje"
+  },
+  "ironic_faction_bian_rang": {
+    "category": "minor",
+    "name": "Bian Rang",
+    "state": "Bian Rang"
+  },
+  "ironic_faction_bian_rang~goh": {
+    "category": "gathering",
+    "name": "Bian Rang",
+    "state": "Bian Rang"
+  },
+  "ironic_faction_buyeo": {
+    "category": "korean",
+    "name": "Hae Ganwigeo",
+    "state": "Buyeo"
+  },
+  "ironic_faction_cao_ren~goh": {
+    "category": "gathering",
+    "name": "Cao Ren",
+    "state": "Cao Ren"
+  },
+  "ironic_faction_chen_lan~goh": {
+    "category": "gathering",
+    "name": "Chen Lan",
+    "state": "Chen Lan"
+  },
+  "ironic_faction_chen_wen": {
+    "category": "minor",
+    "name": "Chen Wen",
+    "state": "Chen Wen"
+  },
+  "ironic_faction_chen_wen~goh": {
+    "category": "gathering",
+    "name": "Chen Wen",
+    "state": "Chen Wen"
+  },
+  "ironic_faction_di_tribes": {
+    "category": "nomads",
+    "name": "Dou Mao",
+    "state": "Di Tribes"
+  },
+  "ironic_faction_di_tribes~goh": {
+    "category": "gathering",
+    "name": "Dou Mao",
+    "state": "Di Tribes"
+  },
+  "ironic_faction_du_ji~goh": {
+    "category": "gathering",
+    "name": "Du Ji",
+    "state": "Du Ji"
+  },
+  "ironic_faction_fei_zhan": {
+    "category": "minor",
+    "name": "Fei Zhan",
+    "state": "Fei Zhan"
+  },
+  "ironic_faction_gan_ning": {
+    "category": "bandits",
+    "name": "Gan Ning",
+    "state": "Gan Ning"
+  },
+  "ironic_faction_gan_ning~goh": {
+    "category": "gathering",
+    "name": "Gan Ning",
+    "state": "Gan Ning"
+  },
+  "ironic_faction_gaya": {
+    "category": "korean",
+    "name": "Kim Suro",
+    "state": "Gaya"
+  },
+  "ironic_faction_goguryeo": {
+    "category": "korean",
+    "name": "Go Nammu",
+    "state": "Goguryeo"
+  },
+  "ironic_faction_goguryeo~goh": {
+    "category": "gathering",
+    "name": "Go Nammu",
+    "state": "Goguryeo"
+  },
+  "ironic_faction_guan_yu~goh": {
+    "category": "gathering",
+    "name": "Guan Yu",
+    "state": "Guan Yu"
+  },
+  "ironic_faction_han_xuan~goh": {
+    "category": "gathering",
+    "name": "Han Xuan",
+    "state": "Han Xuan"
+  },
+  "ironic_faction_hu_mao": {
+    "category": "minor",
+    "name": "Hu Mao",
+    "state": "Hu Mao"
+  },
+  "ironic_faction_huang_clan": {
+    "category": "minor",
+    "name": "Huang Ang",
+    "state": "Huang Clan"
+  },
+  "ironic_faction_huang_clan~goh": {
+    "category": "gathering",
+    "name": "Huang Ang",
+    "state": "Huang Clan"
+  },
+  "ironic_faction_korea_ye": {
+    "category": "korean",
+    "name": "Yeo Bulnae",
+    "state": "Dongye"
+  },
+  "ironic_faction_lei_xu~goh": {
+    "category": "gathering",
+    "name": "Lei Bo",
+    "state": "Lei Xu"
+  },
+  "ironic_faction_liu_du~goh": {
+    "category": "gathering",
+    "name": "Liu Du",
+    "state": "Liu Du"
+  },
+  "ironic_faction_liu_pan": {
+    "category": "minor",
+    "name": "Liu Pan",
+    "state": "Liu Pan"
+  },
+  "ironic_faction_liu_pan~goh": {
+    "category": "gathering",
+    "name": "Liu Pan",
+    "state": "Liu Pan"
+  },
+  "ironic_faction_liu_shan~goh": {
+    "category": "gathering",
+    "name": "Liu Shan",
+    "state": "Liu Shan"
+  },
+  "ironic_faction_ma_ai": {
+    "category": "minor",
+    "name": "Ma Ai",
+    "state": "Ma Ai"
+  },
+  "ironic_faction_ma_ai~goh": {
+    "category": "gathering",
+    "name": "Ma Ai",
+    "state": "Ma Ai"
+  },
+  "ironic_faction_ma_chao~goh": {
+    "category": "gathering",
+    "name": "Ma Chao",
+    "state": "Ma Chao"
+  },
+  "ironic_faction_shitla": {
+    "category": "korean",
+    "name": "Seok Beolhyu",
+    "state": "Silla"
+  },
+  "ironic_faction_shitla~goh": {
+    "category": "gathering",
+    "name": "Seok Beolhyu",
+    "state": "Silla"
+  },
+  "ironic_faction_su_dai": {
+    "category": "minor",
+    "name": "Su Dai",
+    "state": "Su Dai"
+  },
+  "ironic_faction_sun_ben~goh": {
+    "category": "gathering",
+    "name": "Sun Ben",
+    "state": "Sun Ben"
+  },
+  "ironic_faction_sun_quan~goh": {
+    "category": "gathering",
+    "name": "Sun Quan",
+    "state": "Sun Quan"
+  },
+  "ironic_faction_tamno": {
+    "category": "korean",
+    "name": "Go Munseong",
+    "state": "Tamna"
+  },
+  "ironic_faction_tong_zhi": {
+    "category": "minor",
+    "name": "Tong Zhi",
+    "state": "Tong Zhi"
+  },
+  "ironic_faction_wang_sheng": {
+    "category": "minor",
+    "name": "Wang Sheng",
+    "state": "Wang Sheng"
+  },
+  "ironic_faction_wuhuan_tribes": {
+    "category": "nomads",
+    "name": "Qiuliju",
+    "state": "Wuhuan Tribes"
+  },
+  "ironic_faction_wuhuan_tribes~goh": {
+    "category": "gathering",
+    "name": "Qiuliju",
+    "state": "Wuhuan Tribes"
+  },
+  "ironic_faction_xiahou_yuan~goh": {
+    "category": "gathering",
+    "name": "Xiahou Yuan",
+    "state": "Xiahou Yuan"
+  },
+  "ironic_faction_xianbei_kuitou": {
+    "category": "nomads",
+    "name": "Kuitou",
+    "state": "Tuyuhun"
+  },
+  "ironic_faction_xianbei_kuitou~goh": {
+    "category": "gathering",
+    "name": "Kuitou",
+    "state": "Tuyuhun"
+  },
+  "ironic_faction_xianbei_tuoba": {
+    "category": "nomads",
+    "name": "Tuoba Jiefan",
+    "state": "Northern Wei"
+  },
+  "ironic_faction_xianbei_tuoba~goh": {
+    "category": "gathering",
+    "name": "Tuoba Jiefan",
+    "state": "Northern Wei"
+  },
+  "ironic_faction_xiongnu_tribes": {
+    "category": "nomads",
+    "name": "Yufuluo",
+    "state": "Xiongnu Tribes"
+  },
+  "ironic_faction_xiongnu_tribes~goh": {
+    "category": "gathering",
+    "name": "Yufuluo",
+    "state": "Xiongnu Tribes"
+  },
+  "ironic_faction_yellow_turban_wu_huan": {
+    "category": "yellow-turbans",
+    "name": "Wu Huan",
+    "state": "Yellow Turban Wu Huan"
+  },
+  "ironic_faction_yellow_turban_xu_he~goh": {
+    "category": "gathering",
+    "name": "Xu He",
+    "state": "Yellow Turban Xu He"
+  },
+  "ironic_faction_you_tu": {
+    "category": "nomads",
+    "name": "You Tu",
+    "state": "You Tu"
+  },
+  "ironic_faction_zhang_jin": {
+    "category": "minor",
+    "name": "Zhang Jin",
+    "state": "Zhang Jin"
+  },
+  "ironic_faction_zhang_jin_border": {
+    "category": "nomads",
+    "name": "Handan Shang",
+    "state": "Handan Shang"
+  },
+  "ironic_faction_zhang_jin_border__3k_main_political_party_handan_shang_190~goh": {
+    "category": "gathering",
+    "name": "Handan Shang",
+    "state": "Handan Shang"
+  },
+  "ironic_faction_zhang_jin_border__3k_main_political_party_zhang_jin_190~goh": {
+    "category": "gathering",
+    "name": "Zhang Jin",
+    "state": "Handan Shang"
+  },
+  "ironic_faction_zhang_jin~goh": {
+    "category": "gathering",
+    "name": "Zhang Jin",
+    "state": "Zhang Jin"
+  },
+  "ironic_faction_zhang_liao~goh": {
+    "category": "gathering",
+    "name": "Zhang Liao",
+    "state": "Zhang Liao"
+  },
+  "ironic_faction_zhang_xian": {
+    "category": "minor",
+    "name": "Zhang Xian",
+    "state": "Zhang Xian"
+  },
+  "ironic_faction_zhang_xian~goh": {
+    "category": "gathering",
+    "name": "Zhang Xian",
+    "state": "Zhang Xian"
+  },
+  "ironic_faction_zhao_fan~goh": {
+    "category": "gathering",
+    "name": "Zhao Fan",
+    "state": "Zhao Fan"
+  },
+  "ironic_faction_zhao_wei": {
+    "category": "minor",
+    "name": "Zhao Wei",
+    "state": "Zhao Wei"
+  },
+  "ironic_faction_zhong_yao~goh": {
+    "category": "gathering",
+    "name": "Zhong Yao",
+    "state": "Zhong Yao"
+  },
+  "ironic_faction_zhou_yu~goh": {
+    "category": "gathering",
+    "name": "Zhou Yu",
+    "state": "Zhou Yu"
+  },
+  "ironic_faction_zhu_hao": {
+    "category": "minor",
+    "name": "Zhu Hao",
+    "state": "Zhu Hao"
+  },
+  "ironic_faction_zhu_hao~goh": {
+    "category": "gathering",
+    "name": "Zhu Hao",
+    "state": "Zhu Hao"
+  },
+  "ironic_faction_zhu_jun~goh": {
+    "category": "gathering",
+    "name": "Zhu Jun",
+    "state": "Zhu Jun"
+  },
+  "ironic_faction_zhuge_liang~goh": {
+    "category": "gathering",
+    "name": "Zhuge Liang",
+    "state": "Zhuge Liang"
+  },
+  "ironic_faction_zhuge_xuan": {
+    "category": "minor",
+    "name": "Zhuge Xuan",
+    "state": "Zhuge Xuan"
+  },
+  "ironic_faction_zhuge_xuan~goh": {
+    "category": "gathering",
+    "name": "Zhuge Xuan",
+    "state": "Zhuge Xuan"
+  },
+  "ironic_faction_zu_lang": {
+    "category": "bandits",
+    "name": "Zu Lang",
+    "state": "Zu Lang"
+  },
+  "ironic_faction_zu_lang~goh": {
+    "category": "gathering",
+    "name": "Zu Lang",
+    "state": "Zu Lang"
+  }
+}

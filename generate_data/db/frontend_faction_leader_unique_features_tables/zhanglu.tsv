@@ -1,0 +1,5 @@
+key	icon_path	feature_type	sort_order
+#frontend_faction_leader_unique_features_tables;3;db/frontend_faction_leader_unique_features_tables/zhanglu			
+ironic_tao_penitents_wood	ui/vaca_units/wood/tao_penitents.png	unit	1
+ironic_zhenren_defenders_wood	ui/vaca_units/wood/zhenren_defenders.png	unit	2
+ironic_zhang_lu_unique_roster	ui/units/wood/large/ironic_farmland_protectors.png	unit	0

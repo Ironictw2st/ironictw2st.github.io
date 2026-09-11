@@ -1,0 +1,17 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ironic_liu_pan_raider						
+ironic_liu_pan_ferocity_level_0			ironic_poolde_resource_raider.png	faction	neutral	false
+ironic_liu_pan_ferocity_level_1			ironic_poolde_resource_raider.png	faction	neutral	false
+ironic_liu_pan_ferocity_level_2			ironic_poolde_resource_raider.png	faction	neutral	false
+ironic_liu_pan_ferocity_level_3			ironic_poolde_resource_raider.png	faction	neutral	false
+ironic_liu_pan_ferocity_level_4			ironic_poolde_resource_raider.png	faction	neutral	false
+ironic_liu_pan_ferocity_level_5			ironic_poolde_resource_raider.png	faction	neutral	false
+ironic_liu_pan_uncle_favour_level_0			icon_attitude_trusted_friend.png	faction	neutral	false
+ironic_liu_pan_uncle_favour_level_1			icon_attitude_trusted_friend.png	faction	neutral	false
+ironic_liu_pan_uncle_favour_level_2			icon_attitude_trusted_friend.png	faction	neutral	false
+ironic_liu_pan_uncle_favour_level_3			icon_attitude_trusted_friend.png	faction	neutral	false
+ironic_liu_pan_uncle_favour_level_4			icon_attitude_trusted_friend.png	faction	neutral	false
+ironic_liu_pan_vassal_master			icon_attitude_trusted_friend.png	faction	positive	true
+ironic_liu_pan_alone			icon_attitude_trusted_friend.png	faction	negative	true
+ironic_liu_pan_raiding_stance			army.png	force	neutral	false
+ironic_liu_pan_frontend_bundle			ironic_poolde_resource_raider.png	faction	positive	true

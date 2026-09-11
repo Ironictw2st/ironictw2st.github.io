@@ -1,0 +1,16 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/sheng_xianresource						
+ironic_inner_circle_resource_level_0			unlocks_legendary_characters.png	faction	positive	false
+ironic_inner_circle_resource_level_1			unlocks_legendary_characters.png	faction	positive	false
+ironic_inner_circle_captives_execute			no_effect.png	force	neutral	false
+ironic_inner_circle_captives_recruit			no_effect.png	force	neutral	false
+ironic_inner_circle_captives_release			no_effect.png	force	neutral	false
+ironic_inner_circle_garrisoned			unlocks_legendary_characters.png	force	neutral	false
+ironic_inner_circle_vassalized			unlocks_legendary_characters.png	force	neutral	false
+ironic_inner_circle_effect_bundle			unlocks_legendary_characters.png	faction	neutral	false
+ironic_inner_circle_relationships_negative_3			unlocks_legendary_characters.png	faction	negative	false
+ironic_inner_circle_relationships_negative_2			unlocks_legendary_characters.png	faction	negative	false
+ironic_inner_circle_relationships_negative_1			unlocks_legendary_characters.png	faction	negative	false
+ironic_inner_circle_relationships_positive_1			unlocks_legendary_characters.png	faction	positive	false
+ironic_inner_circle_relationships_positive_2			unlocks_legendary_characters.png	faction	positive	false
+ironic_inner_circle_relationships_positive_3			unlocks_legendary_characters.png	faction	positive	false

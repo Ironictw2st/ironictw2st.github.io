@@ -1,0 +1,5 @@
+key	exists_in_location	category	priority	turns_to_expire	point_change_per_turn_if_inactive	point_change_per_turn_while_active	provides_scripted_permissions_on_spawn	can_be_looted_post_battle	inheritance_chance	can_be_traded_in_diplomacy	can_be_stolen	rarity	can_be_unequipped	can_be_transferred_if_equipped	cannot_reequip_until_next_round_if_unequipped	equipped_in_location	point_change_per_turn_while_equipped
+#ceos_tables;0;ceo_db/ceos_tables/yuan_shao																	
+3k_dlc07_ceo_factional_yuan_shao_captain_quest_combat	faction_ceo_manager	3k_dlc07_ceo_category_factional_yuan_shao	1	0	0	0		false	0	false	false	common	true	false	true	faction_equipment	0
+3k_dlc07_ceo_factional_yuan_shao_captain_quest_recruitment	faction_ceo_manager	3k_dlc07_ceo_category_factional_yuan_shao	1	0	0	0		false	0	false	false	common	true	false	true	faction_equipment	0
+3k_dlc07_ceo_factional_yuan_shao_captain_quest_victory	faction_ceo_manager	3k_dlc07_ceo_category_factional_yuan_shao	1	0	0	0		false	0	false	false	common	true	false	true	faction_equipment	0

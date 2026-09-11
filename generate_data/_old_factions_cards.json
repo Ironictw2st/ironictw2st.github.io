@@ -1,0 +1,614 @@
+{
+  "Cao Cao": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Hero of Chaos",
+    "tag": "Vanilla"
+  },
+  "Liu Bei": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Humble Ruler",
+    "tag": "Vanilla"
+  },
+  "Sun Jian": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Tiger of Jiangdong",
+    "tag": "Vanilla"
+  },
+  "Dong Zhuo": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Tyrant",
+    "tag": "Vanilla"
+  },
+  "Yuan Shao": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Dragon of the North",
+    "tag": "Vanilla"
+  },
+  "Yuan Shu": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Pretender",
+    "tag": "Vanilla"
+  },
+  "Lü Bu": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Warrior Without Equal",
+    "tag": "Vanilla"
+  },
+  "Gongsun Zan": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The White Horse General",
+    "tag": "Vanilla"
+  },
+  "Ma Teng": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "Protector of the West",
+    "tag": "Vanilla"
+  },
+  "Liu Biao": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "Gentleman of Jing",
+    "tag": "Vanilla"
+  },
+  "Liu Yan": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "Governor of Yi",
+    "tag": "Vanilla"
+  },
+  "Kong Rong": {
+    "category": "warlords",
+    "type": "han",
+    "subtitle": "The Scholarly Lord",
+    "tag": "Vanilla"
+  },
+  "Han Empire": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Emperor Xian",
+    "tag": "Vanilla"
+  },
+  "Tao Qian": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Governor of Xu",
+    "tag": "Vanilla"
+  },
+  "Zhang Lu": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "The Celestial Master",
+    "tag": "Vanilla"
+  },
+  "Shi Xie": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "King of Jiaozhi",
+    "tag": "Vanilla"
+  },
+  "Liu Yu": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Inspector of You",
+    "tag": "Vanilla"
+  },
+  "Liu Yao": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Governor of Yang",
+    "tag": "Vanilla"
+  },
+  "Liu Dai": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Governor of Yan",
+    "tag": "Vanilla"
+  },
+  "Han Fu": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Governor of Ji",
+    "tag": "Vanilla"
+  },
+  "Han Sui": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Warlord of Liang",
+    "tag": "Vanilla"
+  },
+  "Wang Kuang": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Administrator of Henei",
+    "tag": "Vanilla"
+  },
+  "Wang Lang": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Governor of Kuaiji",
+    "tag": "Vanilla"
+  },
+  "Zhang Chao": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Administrator of Guangling",
+    "tag": "Vanilla"
+  },
+  "Zhang Yang": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Administrator of Shangdang",
+    "tag": "Vanilla"
+  },
+  "Cai Mao": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "General of Jingzhou",
+    "tag": "Vanilla"
+  },
+  "Gao Gan": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Governor of Bing",
+    "tag": "Vanilla"
+  },
+  "Gongsun Du": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Lord of Liaodong",
+    "tag": "Vanilla"
+  },
+  "Huang Zu": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Admiral of Jiangxia",
+    "tag": "Vanilla"
+  },
+  "Kong Zhou": {
+    "category": "empire",
+    "type": "han",
+    "subtitle": "Governor of Yu",
+    "tag": "Vanilla"
+  },
+  "Sun Ce": {
+    "category": "dlc-awb",
+    "type": "han",
+    "subtitle": "The Little Conqueror",
+    "tag": "DLC"
+  },
+  "Yan Baihu": {
+    "category": "dlc-awb",
+    "type": "bandit",
+    "subtitle": "The White Tiger",
+    "tag": "DLC"
+  },
+  "Hua Xin": {
+    "category": "dlc-awb",
+    "type": "han",
+    "subtitle": "Administrator of Yuzhang",
+    "tag": "DLC"
+  },
+  "Yang Feng": {
+    "category": "dlc-awb",
+    "type": "han",
+    "subtitle": "Former Yellow Turban",
+    "tag": "DLC"
+  },
+  "Zhu Fu": {
+    "category": "dlc-awb",
+    "type": "han",
+    "subtitle": "Inspector of Jiao Province",
+    "tag": "DLC"
+  },
+  "Wu Jing": {
+    "category": "dlc-awb",
+    "type": "han",
+    "subtitle": "Prefect of Danyang",
+    "tag": "DLC"
+  },
+  "Sheng Xian": {
+    "category": "dlc-awb",
+    "type": "han",
+    "subtitle": "Defender of Xu Province",
+    "tag": "DLC"
+  },
+  "Shi Huang": {
+    "category": "dlc-awb",
+    "type": "han",
+    "subtitle": "Defender of the People",
+    "tag": "DLC"
+  },
+  "Liu Chong": {
+    "category": "dlc-fd",
+    "type": "han",
+    "subtitle": "Prince of Chenliu",
+    "tag": "DLC"
+  },
+  "Liu Xun": {
+    "category": "dlc-fd",
+    "type": "han",
+    "subtitle": "Governor of Lujiang",
+    "tag": "DLC"
+  },
+  "Lu Kang": {
+    "category": "dlc-fd",
+    "type": "han",
+    "subtitle": "General of Lü Bu",
+    "tag": "DLC"
+  },
+  "Chen Gui": {
+    "category": "dlc-fd",
+    "type": "han",
+    "subtitle": "Advisor of Xu Province",
+    "tag": "DLC"
+  },
+  "Ying Shao": {
+    "category": "dlc-fd",
+    "type": "han",
+    "subtitle": "Scholar Official",
+    "tag": "DLC"
+  },
+  "Song Jian": {
+    "category": "dlc-fd",
+    "type": "han",
+    "subtitle": "Western Insurgents",
+    "tag": "DLC"
+  },
+  "He Yi": {
+    "category": "yellow-turbans",
+    "type": "yellow-turban",
+    "subtitle": "The Way of Peace",
+    "tag": "Vanilla"
+  },
+  "Huang Shao": {
+    "category": "yellow-turbans",
+    "type": "yellow-turban",
+    "subtitle": "Mountain Zealots",
+    "tag": "Vanilla"
+  },
+  "Gong Du": {
+    "category": "yellow-turbans",
+    "type": "yellow-turban",
+    "subtitle": "Western Believers",
+    "tag": "Vanilla"
+  },
+  "Liu Pi": {
+    "category": "yellow-turbans",
+    "type": "yellow-turban",
+    "subtitle": "Scattered Faithful",
+    "tag": "Vanilla"
+  },
+  "Wu Huan": {
+    "category": "yellow-turbans",
+    "type": "yellow-turban",
+    "subtitle": "Nomadic Converts",
+    "tag": "190 Expanded"
+  },
+  "Zheng Jiang": {
+    "category": "bandits",
+    "type": "bandit",
+    "subtitle": "The Bandit Queen",
+    "tag": "Vanilla"
+  },
+  "Zhang Yan": {
+    "category": "bandits",
+    "type": "bandit",
+    "subtitle": "King of Black Mountain",
+    "tag": "Vanilla"
+  },
+  "Ze Rong": {
+    "category": "bandits",
+    "type": "bandit",
+    "subtitle": "Buddhist Warlord",
+    "tag": "Vanilla"
+  },
+  "Gan Ning": {
+    "category": "bandits",
+    "type": "bandit",
+    "subtitle": "The Pirate King",
+    "tag": "190 Expanded"
+  },
+  "Zu Lang": {
+    "category": "bandits",
+    "type": "bandit",
+    "subtitle": "Raider Chief",
+    "tag": "190 Expanded"
+  },
+  "Meng Huo": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "King of the Nanman",
+    "tag": "DLC"
+  },
+  "Lady Zhurong": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Daughter of the Fire God",
+    "tag": "DLC"
+  },
+  "King Shamoke": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Wuling Barbarian King",
+    "tag": "DLC"
+  },
+  "King Mulu": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Beastmaster King",
+    "tag": "DLC"
+  },
+  "King Duosi": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Lord of Silver Mines",
+    "tag": "DLC"
+  },
+  "King Wutugu": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Lord of Wugo",
+    "tag": "DLC"
+  },
+  "Jinhuansanjie": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "The Golden Ring",
+    "tag": "DLC"
+  },
+  "Dongtuna": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Cave Dweller Chief",
+    "tag": "DLC"
+  },
+  "Ahuinan": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Third Cave Chief",
+    "tag": "DLC"
+  },
+  "Tu An": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Tribal Warrior",
+    "tag": "DLC"
+  },
+  "Xi Ni": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Jungle Lord",
+    "tag": "DLC"
+  },
+  "Yang Feng (Nanman)": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Nanman Chieftain",
+    "tag": "DLC"
+  },
+  "Mangyachang": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Bamboo Tribe Chief",
+    "tag": "DLC"
+  },
+  "Qu Pan": {
+    "category": "nanman",
+    "type": "nanman",
+    "subtitle": "Southern Commander",
+    "tag": "DLC"
+  },
+  "Pan Lin": {
+    "category": "shanyue",
+    "type": "nanman",
+    "subtitle": "Mountain Yue Tribes",
+    "tag": "DLC"
+  },
+  "Jia Long": {
+    "category": "shanyue",
+    "type": "nanman",
+    "subtitle": "Shanyue Chieftain",
+    "tag": "Vanilla"
+  },
+  "Ni Xiaoode": {
+    "category": "shanyue",
+    "type": "han",
+    "subtitle": "Southern Commandery",
+    "tag": "Vanilla"
+  },
+  "Wu Ju": {
+    "category": "shanyue",
+    "type": "han",
+    "subtitle": "Frontier Garrison",
+    "tag": "Vanilla"
+  },
+  "Lai Gong": {
+    "category": "shanyue",
+    "type": "han",
+    "subtitle": "Southern Settlement",
+    "tag": "Vanilla"
+  },
+  "Kuitou": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Xianbei Chanyu",
+    "tag": "190 Expanded"
+  },
+  "Tuoba Jiefan": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Tuoba Clan",
+    "tag": "190 Expanded"
+  },
+  "Qiulijiu": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Eastern Nomads",
+    "tag": "190 Expanded"
+  },
+  "Yufuluo": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "The Great Horde",
+    "tag": "190 Expanded"
+  },
+  "Dou Mao": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Northwestern Peoples",
+    "tag": "190 Expanded"
+  },
+  "Shitla": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Steppe Warriors",
+    "tag": "190 Expanded"
+  },
+  "Bakaja": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Northern Raiders",
+    "tag": "190 Expanded"
+  },
+  "You Tu": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Nomad Chieftain",
+    "tag": "190 Expanded"
+  },
+  "Handan Shang": {
+    "category": "nomads",
+    "type": "nomad",
+    "subtitle": "Frontier Commander",
+    "tag": "190 Expanded"
+  },
+  "Goguryeo": {
+    "category": "korean",
+    "type": "korean",
+    "subtitle": "Kingdom of the North",
+    "tag": "190 Expanded"
+  },
+  "Buyeo": {
+    "category": "korean",
+    "type": "korean",
+    "subtitle": "Ancient Kingdom",
+    "tag": "190 Expanded"
+  },
+  "Korea - Ye": {
+    "category": "korean",
+    "type": "korean",
+    "subtitle": "Eastern Tribe",
+    "tag": "190 Expanded"
+  },
+  "Gaya": {
+    "category": "korean",
+    "type": "korean",
+    "subtitle": "Confederacy",
+    "tag": "190 Expanded"
+  },
+  "Tamno": {
+    "category": "korean",
+    "type": "korean",
+    "subtitle": "Island Kingdom",
+    "tag": "190 Expanded"
+  },
+  "Zhuge Xuan": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Uncle of Zhuge Liang",
+    "tag": "190 Expanded"
+  },
+  "Fei Zhan": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Local Administrator",
+    "tag": "190 Expanded"
+  },
+  "Zhao Wei": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Provincial Official",
+    "tag": "190 Expanded"
+  },
+  "Zhang Jin": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Regional Commander",
+    "tag": "190 Expanded"
+  },
+  "Ma Ai": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Western Lord",
+    "tag": "190 Expanded"
+  },
+  "Zhang Xian": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Military Governor",
+    "tag": "190 Expanded"
+  },
+  "Chen Wen": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Local Magnate",
+    "tag": "190 Expanded"
+  },
+  "Zhu Hao": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Southern Administrator",
+    "tag": "190 Expanded"
+  },
+  "Bian Rang": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Scholar Lord",
+    "tag": "190 Expanded"
+  },
+  "Tong Zhi": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Regional Leader",
+    "tag": "190 Expanded"
+  },
+  "Liu Pan": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Frontier Governor",
+    "tag": "190 Expanded"
+  },
+  "Su Dai": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Minor Official",
+    "tag": "190 Expanded"
+  },
+  "Wang Sheng": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Landowner",
+    "tag": "190 Expanded"
+  },
+  "Huang Ang": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Noble Family",
+    "tag": "190 Expanded"
+  },
+  "Hu Mao": {
+    "category": "minor",
+    "type": "han",
+    "subtitle": "Local Strongman",
+    "tag": "190 Expanded"
+  }
+}

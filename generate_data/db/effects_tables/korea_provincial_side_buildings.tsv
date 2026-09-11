@@ -1,0 +1,8 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/korea_provincial_side_buildings								
+3k_mod_unit_unlock_yemaek_valley_warriors	replenishment.png	70	campaign			0.0000	positive_value_is_good	default
+3k_mod_unit_unlock_yemaek_scouts	replenishment.png	71	campaign			0.0000	positive_value_is_good	default
+3k_mod_unit_unlock_samhan_raiders	replenishment.png	72	campaign			0.0000	positive_value_is_good	default
+3k_mod_unit_unlock_samhan_assault_infantry	replenishment.png	73	campaign			0.0000	positive_value_is_good	default
+3k_mod_unit_unlock_lelang_guards	replenishment.png	74	campaign			0.0000	positive_value_is_good	default
+3k_mod_unit_unlock_daifang_defenders	replenishment.png	75	campaign			0.0000	positive_value_is_good	default

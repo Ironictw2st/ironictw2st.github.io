@@ -1,0 +1,18 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/maairesource								
+ironic_ma_ai_mercantilism_decay	trade_agreement_limit.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_captives_post_battle	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_characters	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_garrisoned	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_vassalized	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_ma_ai_mercantilism_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_ma_ai_mercantilism_executed	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_assignments	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_main_effect_economy_trade_agreement_mod	trade_influence.png	223	campaign		3k_main_effect_description_buildings_faction_trade_volume	0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_governors	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_armies	trade_agreement_limit.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_frontend_1	trade_agreement_limit.png	1	campaign		ironic_ma_ai_mercantilism_frontend_1	0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_frontend_2	trade_agreement_limit.png	2	campaign		ironic_ma_ai_mercantilism_frontend_2	0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_frontend_3	trade_agreement_limit.png	3	campaign		ironic_ma_ai_mercantilism_frontend_3	0.0000	positive_value_is_good	default
+ironic_ma_ai_mercantilism_frontend_4	trade_agreement_limit.png	4	campaign		ironic_ma_ai_mercantilism_frontend_4	0.0000	positive_value_is_good	default

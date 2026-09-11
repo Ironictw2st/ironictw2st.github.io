@@ -1,0 +1,17 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ganningresource								
+ironic_robin_hood_decay	mh_political_parties_icon_warlords.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_armies	mh_political_parties_icon_warlords.png	10000	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_captives_post_battle	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_robin_hood	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_garrisoned	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_vassalized	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_robin_hood_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_robin_hood_executed	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_gain_spoils	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_loss_raid	mh_political_parties_icon_warlords.png	100	campaign			0.0000	positive_value_is_good	default
+ironic_robin_hood_effect_bundle_1	mh_political_parties_icon_warlords.png	100	campaign		ironic_robin_hood_effect_bundle_1	0.0000	positive_value_is_good	default
+ironic_robin_hood_effect_bundle_2	mh_political_parties_icon_warlords.png	100	campaign		ironic_robin_hood_effect_bundle_2	0.0000	positive_value_is_good	default
+ironic_robin_hood_effect_bundle_3	mh_political_parties_icon_warlords.png	100	campaign		ironic_robin_hood_effect_bundle_3	0.0000	positive_value_is_good	default
+ironic_robin_hood_effect_bundle_4	mh_political_parties_icon_warlords.png	100	campaign		ironic_robin_hood_effect_bundle_4	0.0000	positive_value_is_good	default

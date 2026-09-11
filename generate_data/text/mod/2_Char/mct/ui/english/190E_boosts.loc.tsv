@@ -1,0 +1,33 @@
+key	text	tooltip
+#Loc;1;text/mct/ui/english/190E_boosts.loc		
+MCT_localised_string_section_190E_Boosts_EN	190E Boosts	false
+MCT_localised_string_subsection_BoostsPlayer_EN	Player Boosts	false
+MCT_localised_string_subsection_BoostsAI_EN	AI Boosts	false
+MCT_localised_string_header_boost_xp_player_EN	Character Experience (Player)	false
+MCT_localised_string_boost_xp_player_EN	+X% character experience gain for the player faction, in steps of 25 (0 = off). Covers all XP sources, including the per-turn minister/assignment stipends. Takes effect at the start of your next turn.	false
+MCT_localised_string_header_boost_research_player_EN	Research Rate (Player)	false
+MCT_localised_string_boost_research_player_EN	+X% research rate for the player faction, in steps of 25 (0 = off). Takes effect at the start of your next turn.	false
+MCT_localised_string_header_boost_replenishment_player_EN	Replenishment (Player)	false
+MCT_localised_string_boost_replenishment_player_EN	+X% unit replenishment for the player faction's armies, in steps of 5 up to +50 (0 = off). Takes effect at the start of your next turn.	false
+MCT_localised_string_header_boost_income_player_EN	Income (Player)	false
+MCT_localised_string_boost_income_player_EN	+X% to all GDP (commerce, industry, agriculture, etc.) in the player faction's regions, in steps of 25 (0 = off). Takes effect at the start of your next turn.	false
+MCT_localised_string_header_boost_public_order_player_EN	Public Order (Player)	false
+MCT_localised_string_boost_public_order_player_EN	+X flat public order in the player faction's provinces, in steps of 2 up to +20 (0 = off). Takes effect at the start of your next turn.	false
+MCT_localised_string_header_boost_movement_player_EN	Movement Range (Player)	false
+MCT_localised_string_boost_movement_player_EN	+X% campaign movement range for the player faction's armies, in steps of 25 (0 = off). Takes effect at the start of your next turn.	false
+MCT_localised_string_header_boost_char_cost_player_EN	Character Costs (Player)	false
+MCT_localised_string_boost_char_cost_player_EN	-X% character salary for the player faction, in steps of 5 up to -100 (0 = off). Character hiring fees are salary-based, so this cuts both recruitment cost and upkeep. Takes effect at the start of your next turn.	false
+MCT_localised_string_header_boost_xp_ai_EN	Character Experience (AI)	false
+MCT_localised_string_boost_xp_ai_EN	+X% character experience gain for every AI faction, in steps of 25 (0 = off). Takes effect at the start of each AI faction's next turn.	false
+MCT_localised_string_header_boost_research_ai_EN	Research Rate (AI)	false
+MCT_localised_string_boost_research_ai_EN	+X% research rate for every AI faction, in steps of 25 (0 = off). Takes effect at the start of each AI faction's next turn.	false
+MCT_localised_string_header_boost_replenishment_ai_EN	Replenishment (AI)	false
+MCT_localised_string_boost_replenishment_ai_EN	+X% unit replenishment for every AI faction's armies, in steps of 5 up to +50 (0 = off). Takes effect at the start of each AI faction's next turn.	false
+MCT_localised_string_header_boost_income_ai_EN	Income (AI)	false
+MCT_localised_string_boost_income_ai_EN	+X% to all GDP in every AI faction's regions, in steps of 25 (0 = off). Takes effect at the start of each AI faction's next turn.	false
+MCT_localised_string_header_boost_public_order_ai_EN	Public Order (AI)	false
+MCT_localised_string_boost_public_order_ai_EN	+X flat public order in every AI faction's provinces, in steps of 2 up to +20 (0 = off). Takes effect at the start of each AI faction's next turn.	false
+MCT_localised_string_header_boost_movement_ai_EN	Movement Range (AI)	false
+MCT_localised_string_boost_movement_ai_EN	+X% campaign movement range for every AI faction's armies, in steps of 25 (0 = off). Takes effect at the start of each AI faction's next turn.	false
+MCT_localised_string_header_boost_char_cost_ai_EN	Character Costs (AI)	false
+MCT_localised_string_boost_char_cost_ai_EN	-X% character salary for every AI faction, in steps of 5 up to -100 (0 = off). Character hiring fees are salary-based, so this cuts both recruitment cost and upkeep. Takes effect at the start of each AI faction's next turn.	false

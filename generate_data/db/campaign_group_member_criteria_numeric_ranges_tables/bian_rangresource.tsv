@@ -1,0 +1,7 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/bian_rangresource			
+ironic_bian_rang_recruitment_level_0	20	0	value
+ironic_bian_rang_recruitment_level_1	50	21	value
+ironic_bian_rang_recruitment_level_2	70	51	value
+ironic_bian_rang_recruitment_level_3	84	71	value
+ironic_bian_rang_recruitment_level_4	100	85	value

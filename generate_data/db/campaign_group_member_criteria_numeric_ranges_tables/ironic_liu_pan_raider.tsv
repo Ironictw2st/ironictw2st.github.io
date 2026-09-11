@@ -1,0 +1,13 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/ironic_liu_pan_raider			
+ironic_liu_pan_ferocity_level_0	9	0	value
+ironic_liu_pan_ferocity_level_1	24	10	value
+ironic_liu_pan_ferocity_level_2	44	25	value
+ironic_liu_pan_ferocity_level_3	64	45	value
+ironic_liu_pan_ferocity_level_4	84	65	value
+ironic_liu_pan_ferocity_level_5	100	85	value
+ironic_liu_pan_uncle_favour_level_0	19	0	value
+ironic_liu_pan_uncle_favour_level_1	39	20	value
+ironic_liu_pan_uncle_favour_level_2	59	40	value
+ironic_liu_pan_uncle_favour_level_3	79	60	value
+ironic_liu_pan_uncle_favour_level_4	100	80	value

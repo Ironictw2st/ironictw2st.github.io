@@ -1,0 +1,10 @@
+key	factor	maximum	minimum	resource	ai_can_propose	is_recurring_factor
+#pooled_resource_factor_junctions_tables;3;db/pooled_resource_factor_junctions_tables/zhang_jinresource						
+ironic_qi_factor	ironic_qi_factor	2147483647	-2147483647	ironic_qi	true	true
+ironic_qi_victory	ironic_qi_victory	2147483647	-2147483647	ironic_qi	true	false
+ironic_qi_defeat	ironic_qi_defeat	2147483647	-2147483647	ironic_qi	true	false
+ironic_qi_decay	ironic_qi_decay	2147483647	-2147483647	ironic_qi	true	true
+ironic_qi_post_battle_options	ironic_qi_post_battle_options	2147483647	-2147483647	ironic_qi	true	true
+ironic_qi_assignments	ironic_qi_assignments	2147483647	-2147483647	ironic_qi	true	true
+ironic_qi_afflictions	ironic_qi_afflictions	2147483647	-2147483647	ironic_qi	true	true
+ironic_qi_needles	ironic_qi_needles	2147483647	-2147483647	ironic_qi	true	false

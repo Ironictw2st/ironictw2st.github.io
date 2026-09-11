@@ -1,0 +1,17 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/liu_yaoresource								
+ironic_war_weariness_decay	mh_political_parties_icon_warlords.png	10000	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_armies	mh_political_parties_icon_warlords.png	10000	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_captives_post_battle	mh_political_parties_icon_warlords.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_characters	mh_political_parties_icon_warlords.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_garrisoned	mh_political_parties_icon_warlords.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_vassalized	mh_political_parties_icon_warlords.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_info_gain	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_war_weariness_info_loss	info.png	1000	campaign			0.0000	positive_value_is_good	info
+ironic_war_weariness_executed	mh_political_parties_icon_warlords.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_assignments	mh_political_parties_icon_warlords.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_war_weariness_buildings	mh_political_parties_icon_warlords.png	100	campaign			0.0000	negative_value_is_good	default
+ironic_liu_yao_frontend_1	mh_political_parties_icon_warlords.png	1	campaign		ironic_liu_yao_frontend_1	0.0000	positive_value_is_good	default
+ironic_liu_yao_frontend_2	mh_political_parties_icon_warlords.png	2	campaign		ironic_liu_yao_frontend_2	0.0000	positive_value_is_good	default
+ironic_liu_yao_frontend_3	mh_political_parties_icon_warlords.png	3	campaign		ironic_liu_yao_frontend_3	0.0000	positive_value_is_good	default
+ironic_liu_yao_frontend_4	mh_political_parties_icon_warlords.png	4	campaign		ironic_liu_yao_frontend_4	0.0000	positive_value_is_good	default

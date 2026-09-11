@@ -1,0 +1,13 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/liu_yaoresource						
+ironic_war_weariness_resource_level_0			mh_political_parties_icon_warlords.png	faction	negative	false
+ironic_war_weariness_resource_level_1			mh_political_parties_icon_warlords.png	faction	negative	false
+ironic_war_weariness_resource_level_2			mh_political_parties_icon_warlords.png	faction	neutral	false
+ironic_war_weariness_resource_level_3			mh_political_parties_icon_warlords.png	faction	positive	false
+ironic_war_weariness_resource_level_4			mh_political_parties_icon_warlords.png	faction	positive	false
+ironic_war_weariness_captives_execute			no_effect.png	force	neutral	false
+ironic_war_weariness_captives_recruit			no_effect.png	force	neutral	false
+ironic_war_weariness_captives_release			no_effect.png	force	neutral	false
+ironic_war_weariness_garrisoned			mh_political_parties_icon_warlords.png	force	neutral	false
+ironic_war_weariness_vassalized			mh_political_parties_icon_warlords.png	force	neutral	false
+ironic_war_weariness_effect_bundle			mh_political_parties_icon_warlords.png	faction	neutral	false

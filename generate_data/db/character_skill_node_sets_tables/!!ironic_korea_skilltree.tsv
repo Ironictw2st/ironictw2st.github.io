@@ -1,0 +1,29 @@
+key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key	game_mode
+#character_skill_node_sets_tables;3;db/character_skill_node_sets_tables/!!ironic_korea_skilltree								
+ironic_skillset_korea_general_earth	general				false	false	3k_general_earth	
+ironic_skillset_korea_general_fire	general				false	false	3k_general_fire	
+ironic_skillset_korea_general_metal	general				false	false	3k_general_metal	
+ironic_skillset_korea_general_water_strategist	general				false	false	3k_general_water	
+ironic_skillset_korea_general_wood	general				false	false	3k_general_wood	
+ironic_skillset_korea_governor_earth	general				false	false	3k_general_earth	
+ironic_skillset_korea_governor_fire	general				false	false	3k_general_fire	
+ironic_skillset_korea_governor_metal	general				false	false	3k_general_metal	
+ironic_skillset_korea_governor_water_strategist	general				false	false	3k_general_water	
+ironic_skillset_korea_governor_wood	general				false	false	3k_general_wood	
+ironic_skillset_korea_minister_earth	general				false	false	3k_general_earth	
+ironic_skillset_korea_minister_fire	general				false	false	3k_general_fire	
+ironic_skillset_korea_minister_metal	general				false	false	3k_general_metal	
+ironic_skillset_korea_minister_water_strategist	general				false	false	3k_general_water	
+ironic_skillset_korea_minister_wood	general				false	false	3k_general_wood	
+ironic_skillset_korea_minister_fire_gogukcheon	general				false	false	3k_general_fire	
+ironic_skillset_korea_general_water_strategist_eul_paso	general				false	false	3k_general_water	
+ironic_skillset_korea_general_metal_lady_woo	general				false	false	3k_general_metal	
+ironic_skillset_korea_general_fire_go_balgi	general				false	false	3k_general_fire	
+ironic_skillset_korea_general_earth_go_yeonu	general				false	false	3k_general_earth	
+ironic_skillset_korea_minister_earth_chogo	general				false	false	3k_general_earth	
+ironic_skillset_korea_general_fire_buyeo_gusu	general				false	false	3k_general_fire	
+ironic_skillset_korea_minister_water_strategist_beolhyu	general				false	false	3k_general_water	
+ironic_skillset_korea_general_earth_seok_naehae	general				false	false	3k_general_earth	
+ironic_skillset_korea_minister_earth_kim_suro	general				false	false	3k_general_earth	
+ironic_skillset_korea_minister_water_strategist_heo_hwangok	general				false	false	3k_general_water	
+ironic_skillset_korea_minister_water_strategist_kim_geodeung	general				false	false	3k_general_water	

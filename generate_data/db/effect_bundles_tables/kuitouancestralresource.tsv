@@ -1,0 +1,10 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/kuitouancestralresource						
+ironic_ancestral_legacy_resource_level_0			unlocks_legendary_characters.png	faction	negative	false
+ironic_ancestral_legacy_resource_level_1			unlocks_legendary_characters.png	faction	negative	false
+ironic_ancestral_legacy_captives_recruit			no_effect.png	force	neutral	false
+ironic_ancestral_legacy_captives_release			no_effect.png	force	neutral	false
+ironic_ancestral_legacy_garrisoned			unlocks_legendary_characters.png	force	neutral	false
+ironic_ancestral_legacy_vassalized			unlocks_legendary_characters.png	force	neutral	false
+ironic_ancestral_legacy_effect_bundle			unlocks_legendary_characters.png	faction	neutral	false
+ironic_ancestral_legacy_character_attach			unlocks_legendary_characters.png	character	neutral	false

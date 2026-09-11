@@ -1,0 +1,191 @@
+key	text	tooltip
+#Loc;1;text/db/tech/ironic_korea_tech.loc		
+technology_node_sets_localised_name_ironic_korea_heaven_main	Court	false
+technology_node_sets_tooltip_string_ironic_korea_heaven_main	PLACEHOLDER	false
+technology_node_sets_encyclopaedia_string_ironic_korea_heaven_main	PLACEHOLDER	false
+technology_node_sets_localised_name_ironic_korea_earth_main	Military	false
+technology_node_sets_tooltip_string_ironic_korea_earth_main	PLACEHOLDER	false
+technology_node_sets_encyclopaedia_string_ironic_korea_earth_main	PLACEHOLDER	false
+technology_node_sets_localised_name_ironic_korea_human_main	Economy	false
+technology_node_sets_tooltip_string_ironic_korea_human_main	PLACEHOLDER	false
+technology_node_sets_encyclopaedia_string_ironic_korea_human_main	PLACEHOLDER	false
+technologies_onscreen_name_ironic_korea_heaven_0_0	Those Beneath the Crown	false
+technologies_short_description_ironic_korea_heaven_0_0	Officials beneath the royal crown are bound into service, widening the reach of government assignments.	false
+technologies_long_description_ironic_korea_heaven_0_0	Officials beneath the royal crown are bound into service, widening the reach of government assignments.	false
+technologies_onscreen_name_ironic_korea_heaven_0_1	Improved Tax Collection	false
+technologies_short_description_ironic_korea_heaven_0_1	More capable tax offices draw greater income from every source without relying on disorder.	false
+technologies_long_description_ironic_korea_heaven_0_1	More capable tax offices draw greater income from every source without relying on disorder.	false
+technologies_onscreen_name_ironic_korea_heaven_0_2	Rites of Legitimacy	false
+technologies_short_description_ironic_korea_heaven_0_2	Sacred rites affirm the rightful order of the court and calm the ambitions of those who serve it.	false
+technologies_long_description_ironic_korea_heaven_0_2	Sacred rites affirm the rightful order of the court and calm the ambitions of those who serve it.	false
+technologies_onscreen_name_ironic_korea_heaven_0_3	Records of Appointment	false
+technologies_short_description_ironic_korea_heaven_0_3	Written appointment records make administration more reliable and open space for another administrator.	false
+technologies_long_description_ironic_korea_heaven_0_3	Written appointment records make administration more reliable and open space for another administrator.	false
+technologies_onscreen_name_ironic_korea_heaven_0_4	Sacred Sanctions	false
+technologies_short_description_ironic_korea_heaven_0_4	Religious sanction reinforces court authority and binds service to sacred duty.	false
+technologies_long_description_ironic_korea_heaven_0_4	Religious sanction reinforces court authority and binds service to sacred duty.	false
+technologies_onscreen_name_ironic_korea_heaven_1_0	Council Beneath Heaven	false
+technologies_short_description_ironic_korea_heaven_1_0	A formal council restrains ambition and makes service to the throne less costly.	false
+technologies_long_description_ironic_korea_heaven_1_0	A formal council restrains ambition and makes service to the throne less costly.	false
+technologies_onscreen_name_ironic_korea_heaven_1_1	Fair Taxation	false
+technologies_short_description_ironic_korea_heaven_1_1	Fairer and more complete taxation strengthens the state while preserving legitimacy.	false
+technologies_long_description_ironic_korea_heaven_1_1	Fairer and more complete taxation strengthens the state while preserving legitimacy.	false
+technologies_onscreen_name_ironic_korea_heaven_1_2	The Royal Steward	false
+technologies_short_description_ironic_korea_heaven_1_2	The steward oversees royal resources and helps restrain corruption throughout the administration.	false
+technologies_long_description_ironic_korea_heaven_1_2	The steward oversees royal resources and helps restrain corruption throughout the administration.	false
+technologies_onscreen_name_ironic_korea_heaven_1_3	Eyes and Ears	false
+technologies_short_description_ironic_korea_heaven_1_3	A network of informants and loyal agents protects the court from enemy spies.	false
+technologies_long_description_ironic_korea_heaven_1_3	A network of informants and loyal agents protects the court from enemy spies.	false
+technologies_onscreen_name_ironic_korea_heaven_1_4	School of Service	false
+technologies_short_description_ironic_korea_heaven_1_4	Schools prepare men for state service and strengthen the experience of officials across the realm.	false
+technologies_long_description_ironic_korea_heaven_1_4	Schools prepare men for state service and strengthen the experience of officials across the realm.	false
+technologies_onscreen_name_ironic_korea_heaven_2_0	Envoys from the Crown	false
+technologies_short_description_ironic_korea_heaven_2_0	Envoys carry royal will beyond the court, improving foreign relations and administrative reach.	false
+technologies_long_description_ironic_korea_heaven_2_0	Envoys carry royal will beyond the court, improving foreign relations and administrative reach.	false
+technologies_onscreen_name_ironic_korea_heaven_2_1	Court Harmony	false
+technologies_short_description_ironic_korea_heaven_2_1	Harmony among officials increases loyalty while reducing the burden of court salaries.	false
+technologies_long_description_ironic_korea_heaven_2_1	Harmony among officials increases loyalty while reducing the burden of court salaries.	false
+technologies_onscreen_name_ironic_korea_heaven_2_2	King's Law	false
+technologies_short_description_ironic_korea_heaven_2_2	The king's law is set into court administration, making corruption harder to conceal.	false
+technologies_long_description_ironic_korea_heaven_2_2	The king's law is set into court administration, making corruption harder to conceal.	false
+technologies_onscreen_name_ironic_korea_heaven_2_3	Servants of Long Memory	false
+technologies_short_description_ironic_korea_heaven_2_3	Experienced servants preserve institutional knowledge and train officials for longer service.	false
+technologies_long_description_ironic_korea_heaven_2_3	Experienced servants preserve institutional knowledge and train officials for longer service.	false
+technologies_onscreen_name_ironic_korea_heaven_2_4	Minister of the Guards	false
+technologies_short_description_ironic_korea_heaven_2_4	The minister commands royal security and expands the military capacity of the state.	false
+technologies_long_description_ironic_korea_heaven_2_4	The minister commands royal security and expands the military capacity of the state.	false
+technologies_onscreen_name_ironic_korea_heaven_3_0	Minister of Justice	false
+technologies_short_description_ironic_korea_heaven_3_0	The minister of justice strengthens court authority and deepens anti-corruption oversight.	false
+technologies_long_description_ironic_korea_heaven_3_0	The minister of justice strengthens court authority and deepens anti-corruption oversight.	false
+technologies_onscreen_name_ironic_korea_heaven_3_1	The Imperial Clan	false
+technologies_short_description_ironic_korea_heaven_3_1	The royal clan becomes a political institution with its own eyes, ears, and trusted agents.	false
+technologies_long_description_ironic_korea_heaven_3_1	The royal clan becomes a political institution with its own eyes, ears, and trusted agents.	false
+technologies_onscreen_name_ironic_korea_heaven_3_2	The Imperial Household	false
+technologies_short_description_ironic_korea_heaven_3_2	The household of the crown formalises service around the ruler and reduces the cost of maintaining officials.	false
+technologies_long_description_ironic_korea_heaven_3_2	The household of the crown formalises service around the ruler and reduces the cost of maintaining officials.	false
+technologies_onscreen_name_ironic_korea_heaven_3_3	Seat of Power	false
+technologies_short_description_ironic_korea_heaven_3_3	A stronger administrative centre concentrates authority and expands the reach of royal governance.	false
+technologies_long_description_ironic_korea_heaven_3_3	A stronger administrative centre concentrates authority and expands the reach of royal governance.	false
+technologies_onscreen_name_ironic_korea_heaven_3_4	Crown of Sidansu	false
+technologies_short_description_ironic_korea_heaven_3_4	At the crown of Sidansu, royal law, sacred legitimacy, and court order are joined as one.	false
+technologies_long_description_ironic_korea_heaven_3_4	At the crown of Sidansu, royal law, sacred legitimacy, and court order are joined as one.	false
+technologies_onscreen_name_ironic_korea_earth_0_0	First Muster	false
+technologies_short_description_ironic_korea_earth_0_0	A realm first learns to defend itself when households answer the call together.	false
+technologies_long_description_ironic_korea_earth_0_0	A realm first learns to defend itself when households answer the call together.	false
+technologies_onscreen_name_ironic_korea_earth_0_1	Watch Beneath the Boughs	false
+technologies_short_description_ironic_korea_earth_0_1	Before armies march, sentries learn the paths by which danger approaches.	false
+technologies_long_description_ironic_korea_earth_0_1	Before armies march, sentries learn the paths by which danger approaches.	false
+technologies_onscreen_name_ironic_korea_earth_0_2	Spears of the Villages	false
+technologies_short_description_ironic_korea_earth_0_2	Simple weapons placed in disciplined hands give every village a place in the line.	false
+technologies_long_description_ironic_korea_earth_0_2	Simple weapons placed in disciplined hands give every village a place in the line.	false
+technologies_onscreen_name_ironic_korea_earth_0_3	The Warrior Household	false
+technologies_short_description_ironic_korea_earth_0_3	Those who farm in peace must also know how to stand when peace is broken.	false
+technologies_long_description_ironic_korea_earth_0_3	Those who farm in peace must also know how to stand when peace is broken.	false
+technologies_onscreen_name_ironic_korea_earth_0_4	Guarded Roads	false
+technologies_short_description_ironic_korea_earth_0_4	Secure roads let orders, supplies, and reinforcements reach the places that need them.	false
+technologies_long_description_ironic_korea_earth_0_4	Secure roads let orders, supplies, and reinforcements reach the places that need them.	false
+technologies_onscreen_name_ironic_korea_earth_1_0	Seasoned Levies	false
+technologies_short_description_ironic_korea_earth_1_0	Men who survive one campaign teach the next levy how to endure another.	false
+technologies_long_description_ironic_korea_earth_1_0	Men who survive one campaign teach the next levy how to endure another.	false
+technologies_onscreen_name_ironic_korea_earth_1_1	Workshops of War	false
+technologies_short_description_ironic_korea_earth_1_1	Armourers, bowyers, and weaponsmiths turn raw material into dependable strength.	false
+technologies_long_description_ironic_korea_earth_1_1	Armourers, bowyers, and weaponsmiths turn raw material into dependable strength.	false
+technologies_onscreen_name_ironic_korea_earth_1_2	Ordered Muster	false
+technologies_short_description_ironic_korea_earth_1_2	A levy assembled with order becomes an army sooner and wastes less strength in confusion.	false
+technologies_long_description_ironic_korea_earth_1_2	A levy assembled with order becomes an army sooner and wastes less strength in confusion.	false
+technologies_onscreen_name_ironic_korea_earth_1_3	Fortified Commanderies	false
+technologies_short_description_ironic_korea_earth_1_3	Security rests on strongholds that protect roads, horses, stores, and the people behind them.	false
+technologies_long_description_ironic_korea_earth_1_3	Security rests on strongholds that protect roads, horses, stores, and the people behind them.	false
+technologies_onscreen_name_ironic_korea_earth_1_4	Northern Garrisons	false
+technologies_short_description_ironic_korea_earth_1_4	The northern approaches demand permanent watchfulness and warriors accustomed to hard ground.	false
+technologies_long_description_ironic_korea_earth_1_4	The northern approaches demand permanent watchfulness and warriors accustomed to hard ground.	false
+technologies_onscreen_name_ironic_korea_earth_2_0	The Armourer's Quarter	false
+technologies_short_description_ironic_korea_earth_2_0	War becomes more reliable when equipment is produced by specialists rather than gathered in haste.	false
+technologies_long_description_ironic_korea_earth_2_0	War becomes more reliable when equipment is produced by specialists rather than gathered in haste.	false
+technologies_onscreen_name_ironic_korea_earth_2_1	Rapid Redeployment	false
+technologies_short_description_ironic_korea_earth_2_1	A commander who moves strength before the enemy expects it may win without a costly battle.	false
+technologies_long_description_ironic_korea_earth_2_1	A commander who moves strength before the enemy expects it may win without a costly battle.	false
+technologies_onscreen_name_ironic_korea_earth_2_2	Iron for the Host	false
+technologies_short_description_ironic_korea_earth_2_2	Iron drawn from the earth is shaped not merely for wealth, but for the survival of the realm.	false
+technologies_long_description_ironic_korea_earth_2_2	Iron drawn from the earth is shaped not merely for wealth, but for the survival of the realm.	false
+technologies_onscreen_name_ironic_korea_earth_2_3	Registers of Conscription	false
+technologies_short_description_ironic_korea_earth_2_3	Men, obligations, and exemptions are recorded so that mustering serves strategy rather than panic.	false
+technologies_long_description_ironic_korea_earth_2_3	Men, obligations, and exemptions are recorded so that mustering serves strategy rather than panic.	false
+technologies_onscreen_name_ironic_korea_earth_2_4	Hosts of the Realm	false
+technologies_short_description_ironic_korea_earth_2_4	A great kingdom must be able to field more than one answer to danger.	false
+technologies_long_description_ironic_korea_earth_2_4	A great kingdom must be able to field more than one answer to danger.	false
+technologies_onscreen_name_ironic_korea_earth_3_0	Wall of Spears	false
+technologies_short_description_ironic_korea_earth_3_0	Late in the art of war, discipline turns the spear line into a wall that is difficult to break.	false
+technologies_long_description_ironic_korea_earth_3_0	Late in the art of war, discipline turns the spear line into a wall that is difficult to break.	false
+technologies_onscreen_name_ironic_korea_earth_3_1	Feathered Storm	false
+technologies_short_description_ironic_korea_earth_3_1	Training and supply allow archers to darken the field before the enemy can close.	false
+technologies_long_description_ironic_korea_earth_3_1	Training and supply allow archers to darken the field before the enemy can close.	false
+technologies_onscreen_name_ironic_korea_earth_3_2	Iron Resolve	false
+technologies_short_description_ironic_korea_earth_3_2	The strongest infantry do not merely strike harder; they remain when lesser men would flee.	false
+technologies_long_description_ironic_korea_earth_3_2	The strongest infantry do not merely strike harder; they remain when lesser men would flee.	false
+technologies_onscreen_name_ironic_korea_earth_3_3	Thunder of Hooves	false
+technologies_short_description_ironic_korea_earth_3_3	Horse, rider, and armour become one force when trained for the decisive charge.	false
+technologies_long_description_ironic_korea_earth_3_3	Horse, rider, and armour become one force when trained for the decisive charge.	false
+technologies_onscreen_name_ironic_korea_earth_3_4	Crown of War	false
+technologies_short_description_ironic_korea_earth_3_4	At the highest bough, the realm joins movement, courage, and violence into a single doctrine of victory.	false
+technologies_long_description_ironic_korea_earth_3_4	At the highest bough, the realm joins movement, courage, and violence into a single doctrine of victory.	false
+technologies_onscreen_name_ironic_korea_human_0_0	Economic Foundations	false
+technologies_short_description_ironic_korea_human_0_0	Basic organisation of labour, fields, and exchange forms the base from which greater prosperity can grow.	false
+technologies_long_description_ironic_korea_human_0_0	Basic organisation of labour, fields, and exchange forms the base from which greater prosperity can grow.	false
+technologies_onscreen_name_ironic_korea_human_0_1	Seasonal Plenty	false
+technologies_short_description_ironic_korea_human_0_1	Careful stewardship of fields and village administration brings dependable harvests throughout the year.	false
+technologies_long_description_ironic_korea_human_0_1	Careful stewardship of fields and village administration brings dependable harvests throughout the year.	false
+technologies_onscreen_name_ironic_korea_human_0_2	Construction Projects	false
+technologies_short_description_ironic_korea_human_0_2	Organised works improve storehouses, granaries, and the extraction of timber and tools needed for expansion.	false
+technologies_long_description_ironic_korea_human_0_2	Organised works improve storehouses, granaries, and the extraction of timber and tools needed for expansion.	false
+technologies_onscreen_name_ironic_korea_human_0_3	Industrial Investments	false
+technologies_short_description_ironic_korea_human_0_3	Early investment in labour and workshops directs resources toward craft production and industrial growth.	false
+technologies_long_description_ironic_korea_human_0_3	Early investment in labour and workshops directs resources toward craft production and industrial growth.	false
+technologies_onscreen_name_ironic_korea_human_0_4	Resource Procurement	false
+technologies_short_description_ironic_korea_human_0_4	Surveying and developing mines and saltworks ensures a steady flow of raw materials.	false
+technologies_long_description_ironic_korea_human_0_4	Surveying and developing mines and saltworks ensures a steady flow of raw materials.	false
+technologies_onscreen_name_ironic_korea_human_1_0	Hands of Industry	false
+technologies_short_description_ironic_korea_human_1_0	Skilled labour and mature workshops turn local industry into a major pillar of wealth.	false
+technologies_long_description_ironic_korea_human_1_0	Skilled labour and mature workshops turn local industry into a major pillar of wealth.	false
+technologies_onscreen_name_ironic_korea_human_1_1	Wealth from the Earth	false
+technologies_short_description_ironic_korea_human_1_1	The peninsula’s ores, salt, and jade reward rulers who invest in extraction and control.	false
+technologies_long_description_ironic_korea_human_1_1	The peninsula’s ores, salt, and jade reward rulers who invest in extraction and control.	false
+technologies_onscreen_name_ironic_korea_human_1_2	Build to Last	false
+technologies_short_description_ironic_korea_human_1_2	Durable construction and well-maintained infrastructure reduce costs over time and keep settlements productive.	false
+technologies_long_description_ironic_korea_human_1_2	Durable construction and well-maintained infrastructure reduce costs over time and keep settlements productive.	false
+technologies_onscreen_name_ironic_korea_human_1_3	Merchant Roads	false
+technologies_short_description_ironic_korea_human_1_3	Roadside inns and regular markets knit regional commerce into dependable trade routes.	false
+technologies_long_description_ironic_korea_human_1_3	Roadside inns and regular markets knit regional commerce into dependable trade routes.	false
+technologies_onscreen_name_ironic_korea_human_1_4	Managed Estates	false
+technologies_short_description_ironic_korea_human_1_4	Well-administered estates and farms yield more grain, rice, and livestock for the realm.	false
+technologies_long_description_ironic_korea_human_1_4	Well-administered estates and farms yield more grain, rice, and livestock for the realm.	false
+technologies_onscreen_name_ironic_korea_human_2_0	Improved Shipbuilding	false
+technologies_short_description_ironic_korea_human_2_0	Stronger ports and seaworthy vessels expand coastal commerce and support maritime development.	false
+technologies_long_description_ironic_korea_human_2_0	Stronger ports and seaworthy vessels expand coastal commerce and support maritime development.	false
+technologies_onscreen_name_ironic_korea_human_2_1	Weights and Measures	false
+technologies_short_description_ironic_korea_human_2_1	Common standards make trade more efficient, reduce disputes, and encourage larger markets.	false
+technologies_long_description_ironic_korea_human_2_1	Common standards make trade more efficient, reduce disputes, and encourage larger markets.	false
+technologies_onscreen_name_ironic_korea_human_2_2	Large Drydocks	false
+technologies_short_description_ironic_korea_human_2_2	Expanded dockyards and port facilities support heavier shipping and richer coastal exchange.	false
+technologies_long_description_ironic_korea_human_2_2	Expanded dockyards and port facilities support heavier shipping and richer coastal exchange.	false
+technologies_onscreen_name_ironic_korea_human_2_3	Grand Irrigation Projects	false
+technologies_short_description_ironic_korea_human_2_3	Major irrigation and administrative coordination increase the productivity of cultivated land.	false
+technologies_long_description_ironic_korea_human_2_3	Major irrigation and administrative coordination increase the productivity of cultivated land.	false
+technologies_onscreen_name_ironic_korea_human_2_4	Harvests of the Peninsula	false
+technologies_short_description_ironic_korea_human_2_4	Farms and pastoral lands reach their full promise when supported by mature rural infrastructure.	false
+technologies_long_description_ironic_korea_human_2_4	Farms and pastoral lands reach their full promise when supported by mature rural infrastructure.	false
+technologies_onscreen_name_ironic_korea_human_3_0	Luxuries from Afar	false
+technologies_short_description_ironic_korea_human_3_0	Silk and spice networks bring rare wealth to those who can draw far-off goods into their markets.	false
+technologies_long_description_ironic_korea_human_3_0	Silk and spice networks bring rare wealth to those who can draw far-off goods into their markets.	false
+technologies_onscreen_name_ironic_korea_human_3_1	Riches from Distant Shores	false
+technologies_short_description_ironic_korea_human_3_1	Tea and bamboo, prized across the seas, strengthen Korea’s place in overseas exchange.	false
+technologies_long_description_ironic_korea_human_3_1	Tea and bamboo, prized across the seas, strengthen Korea’s place in overseas exchange.	false
+technologies_onscreen_name_ironic_korea_human_3_2	ironic_korea_human_3_2	false
+technologies_short_description_ironic_korea_human_3_2	ironic_korea_human_3_2	false
+technologies_long_description_ironic_korea_human_3_2	ironic_korea_human_3_2	false
+technologies_onscreen_name_ironic_korea_human_3_3	ironic_korea_human_3_3	false
+technologies_short_description_ironic_korea_human_3_3	ironic_korea_human_3_3	false
+technologies_long_description_ironic_korea_human_3_3	ironic_korea_human_3_3	false
+technologies_onscreen_name_ironic_korea_human_3_4	ironic_korea_human_3_4	false
+technologies_short_description_ironic_korea_human_3_4	ironic_korea_human_3_4	false
+technologies_long_description_ironic_korea_human_3_4	ironic_korea_human_3_4	false

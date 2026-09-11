@@ -1,0 +1,10 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/ironic_190e_cheats						
+ironic_bundle_cheat_prestige	+999 prestige per turn (190E cheat)	Cheat: Prestige	prestige.png	faction	positive	true
+ironic_bundle_cheat_army_slots	+999 army slots (190E cheat)	Cheat: Army Slots	army_limit.png	faction	positive	true
+ironic_bundle_cheat_spies	+999 undercover network slots (190E cheat)	Cheat: Spies	spy_limit.png	faction	positive	true
+ironic_bundle_cheat_trade	+999 trade agreement capacity (190E cheat)	Cheat: Trade Agreements	trade_agreement_limit.png	faction	positive	true
+ironic_bundle_cheat_governors	+999 governor positions (190E cheat)	Cheat: Governors	governor_limit.png	faction	positive	true
+ironic_bundle_cheat_assignments	+999 assignment slots, game caps total at 10 (190E cheat)	Cheat: Assignments	assignment_limit.png	faction	positive	true
+ironic_bundle_cheat_initiatives	+999 province initiative capacity (190E cheat)	Cheat: Province Initiatives	prestige.png	faction	positive	true
+ironic_bundle_cheat_retinues	+999 retinues deployable per turn (190E cheat)	Cheat: Retinue Deployment	army_limit.png	faction	positive	true

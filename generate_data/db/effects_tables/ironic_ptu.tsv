@@ -1,0 +1,12 @@
+effect	icon	priority	category	elemental_group	generalised_description	max_value	icon_supplement_colour_type	ui_category
+#effects_tables;9;db/effects_tables/ironic_ptu								
+ironic_effect_ptu_character_joins	unlocks_legendary_characters.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_tiger_general_slot	unlocks_legendary_characters.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_confederation	diplomacy_attitude_effect.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_unlock_fire_destroyer_of_traitors	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_unlock_water_territorial_archer	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_unlock_wood_territorial_spearmen	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_unlock_earth_handmaid_guard	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_unlock_water_white_horse_raiders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_unlock_wood_imperial_defenders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default
+ironic_effect_ptu_unlock_metal_xu_raiders	replenishment.png	150	campaign			0.0000	positive_value_is_good	default

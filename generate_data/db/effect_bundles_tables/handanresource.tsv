@@ -1,0 +1,21 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/handanresource						
+ironic_firmness_resource_level_0			ep_frontend_leader_prince_of_hejian_specialisation.png	faction	negative	false
+ironic_firmness_resource_level_1			ep_frontend_leader_prince_of_hejian_specialisation.png	faction	negative	false
+ironic_firmness_resource_level_2			ep_frontend_leader_prince_of_hejian_specialisation.png	faction	neutral	false
+ironic_firmness_resource_level_3			ep_frontend_leader_prince_of_hejian_specialisation.png	faction	positive	false
+ironic_firmness_resource_level_4			ep_frontend_leader_prince_of_hejian_specialisation.png	faction	positive	false
+ironic_firmness_captives_execute			no_effect.png	force	neutral	false
+ironic_firmness_captives_recruit			no_effect.png	force	neutral	false
+ironic_firmness_captives_release			no_effect.png	force	neutral	false
+ironic_firmness_garrisoned			ep_frontend_leader_prince_of_hejian_specialisation.png	force	neutral	false
+ironic_firmness_vassalized			ep_frontend_leader_prince_of_hejian_specialisation.png	force	neutral	false
+ironic_firmness_effect_bundle			ep_frontend_leader_prince_of_hejian_specialisation.png	faction	neutral	false
+3k_main_effect_bundle_allied_land_handan_clan	These borders are guarded and the people welcoming, you may pass through peacefully.	In Friendly Territory	army.png	force	positive	true
+3k_main_effect_bundle_foreign_land_at_war_easy_handan_clan	Within enemy territory your troops must be prepared for any and all hostile actions.	Spent Season in Hostile Lands	army.png	force	negative	true
+3k_main_effect_bundle_foreign_land_at_war_handan_clan	Within enemy territory your troops must be prepared for any and all hostile actions.	Spent Season in Hostile Lands	army.png	force	negative	true
+3k_main_effect_bundle_foreign_land_at_war_normal_handan_clan	Within enemy territory your troops must be prepared for any and all hostile actions.	Spent Season in Hostile Lands	army.png	force	negative	true
+3k_main_effect_bundle_foreign_land_easy_handan_clan	This landscape is unfamiliar to your troops, so caution should be exercised whilst passing through.	Spent Season on Foreign Soil	army.png	force	negative	true
+3k_main_effect_bundle_foreign_land_handan_clan	This landscape is unfamiliar to your troops, so caution should be exercised whilst passing through.	Spent Season on Foreign Soil	army.png	force	negative	true
+3k_main_effect_bundle_foreign_land_normal_handan_clan	This landscape is unfamiliar to your troops, so caution should be exercised whilst passing through.	Spent Season on Foreign Soil	army.png	force	negative	true
+3k_main_effect_bundle_own_land_handan_clan	The lay of the land is well known and those fighting to protect it know what is at stake.	Spent Season in Own Domain	army.png	force	positive	true

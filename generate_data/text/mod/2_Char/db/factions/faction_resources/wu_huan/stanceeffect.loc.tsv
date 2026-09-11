@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/wu_huan/stanceeffect.loc		
+effect_bundles_localised_title_ironic_wu_huan_unique_default_stance	Stance: Hill Stalkers	true
+effect_bundles_localised_description_ironic_wu_huan_unique_default_stance	This army has a chance to ambush the enemy when attacking. The chance is based on the ground type.	true
+effect_bundles_localised_title_3k_wu_huan_embers_bundle_1	A Futile Cause	false
+effect_bundles_localised_description_3k_wu_huan_embers_bundle_1	The yellow turban cause has failed.	false
+effect_bundles_localised_title_3k_wu_huan_embers_bundle_2	Enkindled Passion	false
+effect_bundles_localised_description_3k_wu_huan_embers_bundle_2	They speak of our message, and some join us, but many remain wary and afraid.	false
+effect_bundles_localised_title_3k_wu_huan_embers_bundle_3	Burning Support	false
+effect_bundles_localised_description_3k_wu_huan_embers_bundle_3	They hear our words and understand. More have come to join us, and spread the word to others.	false
+effect_bundles_localised_title_3k_wu_huan_embers_bundle_4	Fiery Determination	false
+effect_bundles_localised_description_3k_wu_huan_embers_bundle_4	Our reach is great and many come to follow us.	false
+effect_bundles_localised_title_3k_wu_huan_embers_bundle_5	Explosive Fanaticism	false
+effect_bundles_localised_description_3k_wu_huan_embers_bundle_5	The Yellow Sky looms large - followers flock to us in droves!	false

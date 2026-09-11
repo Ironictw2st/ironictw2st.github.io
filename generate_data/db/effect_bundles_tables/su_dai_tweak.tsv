@@ -1,0 +1,7 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/su_dai_tweak						
+su_dai_effect_bundle_pooled_resource_reformation_level_1	The government has fallen back into the restrictive administration of the Han, and is equally outdated and corrupt. 	Reformation: Restrictive	ep_frontend_leader_prince_of_changsha_specialisation.png	faction	negative	false
+su_dai_effect_bundle_pooled_resource_reformation_level_2	Under a conservative administration the government and economy will suffer from inefficiency.	Reformation: Conservative	ep_frontend_leader_prince_of_changsha_specialisation.png	faction	neutral	false
+su_dai_effect_bundle_pooled_resource_reformation_level_3	Progressive reformation has led to a more efficient administration and booming trade.	Reformation: Progressive	ep_frontend_leader_prince_of_changsha_specialisation.png	faction	positive	false
+su_dai_effect_bundle_pooled_resource_reformation_level_4	The increasing decentralisation of the administration has made the government more efficient and traders more prosperous.	Reformation: De-centralised	ep_frontend_leader_prince_of_changsha_specialisation.png	faction	positive	false
+su_dai_effect_bundle_pooled_resource_reformation_level_5	Government and economy are thriving due to a fully modernised administration.	Reformation: Modernised	ep_frontend_leader_prince_of_changsha_specialisation.png	faction	positive	false

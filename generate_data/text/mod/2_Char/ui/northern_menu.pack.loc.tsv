@@ -1,0 +1,39 @@
+key	text	tooltip
+#Loc;1;text/ui/northern_menu.pack.loc		
+missions_localised_title_ironic_northern_captains_missions_kill_n_armies	Test the Steel of the Northern Captains	false
+missions_localised_description_ironic_northern_captains_missions_kill_n_armies	The Northern Captains are warriors of proven merit, but strength must be demonstrated, not claimed. Defeat enemy armies in battle and show that your command is worthy of their respect.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_kill_n_armies		false
+missions_localised_title_ironic_northern_captains_missions_hold_n_regions	Secure the Northern Reach	false
+missions_localised_description_ironic_northern_captains_missions_hold_n_regions	Control of territory reflects stability and authority. Expand your rule across the land and establish firm control, proving you possess the foundation required to command the Northern Captains.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_hold_n_regions		false
+missions_localised_title_ironic_northern_captains_missions_construct_building	Lay the Foundations of Authority	false
+missions_localised_description_ironic_northern_captains_missions_construct_building	Order and governance begin with construction. Develop your lands and demonstrate your ability to strengthen and sustain the realm that the Northern Captains would defend.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_construct_building		false
+missions_localised_title_ironic_northern_captains_missions_recruit_n_units	Gather Proven Talent	false
+missions_localised_description_ironic_northern_captains_missions_recruit_n_units	No commander rises alone. Recruit capable individuals to your cause and show that skilled minds and loyal hands are willing to stand beneath your banner.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_recruit_n_units		false
+missions_localised_title_ironic_northern_captains_missions_capture_x_region	Claim a Realm Worth Defending	false
+missions_localised_description_ironic_northern_captains_missions_capture_x_region	A force such as the Northern Captains does not serve minor ambitions. Expand your dominion across many regions and prove that your realm is worthy of their protection.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_capture_x_region		false
+missions_localised_title_ironic_northern_captains_missions_sack_x_settlement	Crush a Rival Power	false
+missions_localised_description_ironic_northern_captains_missions_sack_x_settlement	Only decisive leaders earn the loyalty of elite warriors. Eliminate a rival faction entirely, and demonstrate that you possess the resolve to remove threats without hesitation.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_sack_x_settlement		false
+missions_localised_title_ironic_northern_captains_missions_have_x_food	Secure the Granaries	false
+missions_localised_description_ironic_northern_captains_missions_have_x_food	Even the finest soldiers cannot march on empty stomachs. Ensure your stores are well supplied, proving that the Northern Captains would never lack provisions under your command.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_have_x_food		false
+missions_localised_title_ironic_northern_captains_missions_faction_leader_hits_rank_5	Rise as a Leader of Renown	false
+missions_localised_description_ironic_northern_captains_missions_faction_leader_hits_rank_5	The Northern Captains follow strength tempered by experience. Elevate your leadership through deeds and command until your reputation alone demands their attention.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_declare_war_x		false
+missions_localised_title_ironic_northern_captains_missions_have_x_armies_on_field	Command the Armies of the Realm	false
+missions_localised_description_ironic_northern_captains_missions_have_x_armies_on_field	The Northern Captains respect leaders who already command forces of consequence. Maintain multiple armies in the field to show that you are accustomed to directing men in war.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_have_x_armies_on_field		false
+missions_localised_title_ironic_northern_captains_missions_end_rebellion	Prove Your Worth Before the Northern Captains	false
+missions_localised_description_ironic_northern_captains_missions_end_rebellion	Words and preparations are no longer enough. Face the Northern Captains directly in battle, and prove through force of arms that you are worthy of their allegiance.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_end_rebellion		false
+missions_localised_title_ironic_northern_captains_missions_stock_treasury	Amass the Wealth of Command	false
+missions_localised_description_ironic_northern_captains_missions_stock_treasury	Elite soldiers require resources beyond bravery alone. Accumulate a substantial treasury to demonstrate that you can sustain the Northern Captains in times of war and peace alike.	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_stock_treasury		false
+uied_component_texts_localised_string_northern_menu_button_Tooltip_1c3214	[[b]]Contest of the Northern Captains[[/b]]|| Monitor your standing in the struggle for the Northern Captains and keep watch over the ambitions of rival factions. \\n\\n [[i]][[b]]This unlocks in 194 CE.[[/b]][[/i]]	false
+missions_localised_supplementary_text_ironic_northern_captains_missions_faction_leader_hits_rank_5		false
+incidents_localised_title_ironic_won_the_northern_menu	The Northern Captains Choose Their Commander	false
+incidents_localised_description_ironic_won_the_northern_menu	Trial by battle, governance, and resolve has set you apart from all rivals. The Northern Captains, long watchful within Luoyang, now acknowledge your strength and unity of command. Their banners are raised in your name, and the capital’s elite stand ready to march at your word.	false

@@ -1,0 +1,10 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/xiongnuresource						
+ironic_xiongnu_resource_level_0	You do not have 	The Verge of Collapse	army.png	faction		false
+ironic_xiongnu_resource_level_1		level 1	army.png	faction		false
+ironic_xiongnu_resource_level_2		level 2	army.png	faction		false
+ironic_xiongnu_resource_level_3		level 3	army.png	faction		false
+ironic_xiongnu_resource_level_4		level 4	army.png	faction		false
+ironic_xiongnu_resource_level_5		The Great Xiongnu Empire	army.png	faction		false
+ironic_frontend_leader_xiongnu_bundle			army.png	faction		true
+ironic_frontend_leader_xiongnu_tribe_special			ironic_pooled_resource_xiongnu.png	faction		true

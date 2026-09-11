@@ -1,0 +1,27 @@
+{
+  "characters": 1651,
+  "titles": 1650,
+  "descriptions": 1650,
+  "portraits": 1636,
+  "details": 1651,
+  "skill_sets": 1645,
+  "equipment": 1641,
+  "traits": 107,
+  "missing_portrait": [
+    "Bo Cai",
+    "Bu Si",
+    "Gao You",
+    "Gongxu Yan",
+    "Han Zhong",
+    "Liang Boning",
+    "Liang Zhongning",
+    "Ma Xiang",
+    "Ma Yuanyi",
+    "Tang Zhou",
+    "Wang Jun",
+    "Wu Ba",
+    "Xu Ta",
+    "Ying Yang",
+    "Zhang Mancheng"
+  ]
+}

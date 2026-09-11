@@ -1,0 +1,108 @@
+key	text	tooltip
+#Loc;1;text/db/factions/faction_resources/liu_pan/liu_pan_resources.loc		
+pooled_resources_display_name_ironic_liu_pan_ferocity	Ferocity	true
+pooled_resources_description_ironic_liu_pan_ferocity	Liu Pan is fierce and brave, and the border counties will soon learn to fear his raids. Ferocity builds with every attack, every sacked town and every executed captive, and fades whenever his riders sit idle behind the walls of Lingxian.	true
+pooled_resources_positive_factors_display_name_ironic_liu_pan_ferocity	Increase	true
+pooled_resources_negative_factors_display_name_ironic_liu_pan_ferocity	Decrease	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_liu_pan_ferocity	 	true
+pooled_resources_display_name_ironic_liu_pan_uncle_favour	Liu Biao's Favour	true
+pooled_resources_description_ironic_liu_pan_uncle_favour	Liu Biao gave his nephew a free hand on the Changsha frontier. Loyal service keeps Xiangyang's coin and goodwill flowing; unchecked raiding and sacking make the uncle wonder what his kinsman is really building down south.	true
+pooled_resources_positive_factors_display_name_ironic_liu_pan_uncle_favour	Increase	true
+pooled_resources_negative_factors_display_name_ironic_liu_pan_uncle_favour	Decrease	true
+pooled_resources_foreign_diplomacy_view_tooltip_ironic_liu_pan_uncle_favour	 	true
+pooled_resource_factors_display_name_positive_ironic_liu_pan_ferocity_factor	Ferocity	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_ferocity_factor	Ferocity	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_ferocity_victory	Victories	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_ferocity_victory	Victories	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_ferocity_defeat	Defeats	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_ferocity_defeat	Defeats	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_ferocity_sacking	Sacked settlements	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_ferocity_sacking	Sacked settlements	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_ferocity_captives	Executed captives	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_ferocity_captives	Executed captives	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_ferocity_decay	Idle riders	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_ferocity_decay	Idle riders	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_ferocity_raiding	Armies raiding	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_ferocity_raiding	Armies raiding	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_uncle_favour_factor	Favour	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_uncle_favour_factor	Favour	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_uncle_favour_vassal	Service to Liu Biao	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_uncle_favour_vassal	Service to Liu Biao	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_uncle_favour_war_service	Victories over Liu Biao's enemies	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_uncle_favour_war_service	Victories over Liu Biao's enemies	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_uncle_favour_sacking	Sacking	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_uncle_favour_sacking	Sacking	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_uncle_favour_ferocity_drain	Unchecked ferocity	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_uncle_favour_ferocity_drain	Unchecked ferocity	false
+pooled_resource_factors_display_name_positive_ironic_liu_pan_uncle_favour_independence	Independence	false
+pooled_resource_factors_display_name_negative_ironic_liu_pan_uncle_favour_independence	Independence	false
+effects_description_ironic_liu_pan_ferocity_decay	[[b]]%+n[[/b]] Ferocity per turn (idle riders)	false
+effects_value_format_ironic_liu_pan_ferocity_decay		false
+effects_description_ironic_liu_pan_ferocity_raiding	[[b]]%+n[[/b]] Ferocity per turn while this army raids	false
+effects_value_format_ironic_liu_pan_ferocity_raiding		false
+effects_description_ironic_liu_pan_favour_drain	[[b]]%+n[[/b]] Liu Biao's Favour per turn (unchecked ferocity)	false
+effects_value_format_ironic_liu_pan_favour_drain		false
+effects_description_ironic_liu_pan_favour_vassal	[[b]]%+n[[/b]] Liu Biao's Favour per turn (service as his vassal)	false
+effects_value_format_ironic_liu_pan_favour_vassal		false
+effects_description_ironic_liu_pan_favour_alone	[[b]]%+n[[/b]] Liu Biao's Favour per turn (no longer his vassal)	false
+effects_value_format_ironic_liu_pan_favour_alone		false
+effects_description_ironic_liu_pan_dummy_ferocity	Ferocity is Liu Pan's raiding momentum: attacks, sacking and executions raise it, idleness lowers it.	false
+effects_value_format_ironic_liu_pan_dummy_ferocity		false
+effects_description_ironic_liu_pan_dummy_favour	Liu Biao's Favour measures how far Xiangyang still trusts its nephew on the frontier.	false
+effects_value_format_ironic_liu_pan_dummy_favour		false
+effects_description_ironic_liu_pan_raider_upkeep	[[b]]%+n%[[/b]] upkeep for Changsha Raiders and Changsha Stalkers	false
+effects_value_format_ironic_liu_pan_raider_upkeep		false
+effect_bundles_localised_title_ironic_liu_pan_ferocity_level_0	Ferocity: Dormant	true
+effect_bundles_localised_description_ironic_liu_pan_ferocity_level_0	Liu Pan's riders wait behind the walls of Lingxian. Nobody across the border has heard from him in a season.	true
+effect_bundles_localised_title_ironic_liu_pan_ferocity_level_1	Ferocity: Restless	true
+effect_bundles_localised_description_ironic_liu_pan_ferocity_level_1	Scouts range across the border again. The raiders ride a little faster and come home a little richer.	true
+effect_bundles_localised_title_ironic_liu_pan_ferocity_level_2	Ferocity: Fierce	true
+effect_bundles_localised_description_ironic_liu_pan_ferocity_level_2	Border towns bar their gates at dusk. Supplies are taken from the land, and the men fight harder on foreign soil, though the peasants at home grumble at the levies.	true
+effect_bundles_localised_title_ironic_liu_pan_ferocity_level_3	Ferocity: Dreaded	true
+effect_bundles_localised_description_ironic_liu_pan_ferocity_level_3	Enemy captains speak Liu Pan's name with irritation. His columns replenish in enemy land and strike from ambush, but Xiangyang begins to ask what its nephew is doing down south.	true
+effect_bundles_localised_title_ironic_liu_pan_ferocity_level_4	Ferocity: Scourge of the South	true
+effect_bundles_localised_description_ironic_liu_pan_ferocity_level_4	Whole counties are reorganised just to contain him. Every raid is faster, richer and better hidden, and Liu Biao's patience grows thinner with each one.	true
+effect_bundles_localised_title_ironic_liu_pan_ferocity_level_5	Ferocity: Terror of the South	true
+effect_bundles_localised_description_ironic_liu_pan_ferocity_level_5	It would take a general of rare quality to hold him now. The Changsha bands are cheap to keep and impossible to catch, and the uncle who set him loose no longer trusts him.	true
+effect_bundles_localised_title_ironic_liu_pan_uncle_favour_level_0	Favour: Estranged	true
+effect_bundles_localised_description_ironic_liu_pan_uncle_favour_level_0	Xiangyang has stopped answering Liu Pan's letters. No coin, no goodwill, and a court that quietly wonders whether the nephew has gone his own way.	true
+effect_bundles_localised_title_ironic_liu_pan_uncle_favour_level_1	Favour: Tolerated	true
+effect_bundles_localised_description_ironic_liu_pan_uncle_favour_level_1	Liu Biao lets his nephew be. The frontier is quiet enough, and quiet is all the governor of Jing asks for.	true
+effect_bundles_localised_title_ironic_liu_pan_uncle_favour_level_2	Favour: Trusted Kinsman	true
+effect_bundles_localised_description_ironic_liu_pan_uncle_favour_level_2	The uncle is pleased. Grain and coin move south a little more freely, and levies are easier to raise in Liu Biao's name.	true
+effect_bundles_localised_title_ironic_liu_pan_uncle_favour_level_3	Favour: Uncle's Right Hand	true
+effect_bundles_localised_description_ironic_liu_pan_uncle_favour_level_3	Liu Biao names his nephew first among the border commanders. A stipend rides down from Xiangyang each season and the court speaks well of Changsha.	true
+effect_bundles_localised_title_ironic_liu_pan_uncle_favour_level_4	Favour: Heir of Jing	true
+effect_bundles_localised_description_ironic_liu_pan_uncle_favour_level_4	Some at Xiangyang whisper that the nephew would make a better heir than the sons. Liu Biao's treasury and his best replacements flow to the frontier without question.	true
+effect_bundles_localised_title_ironic_liu_pan_vassal_master	Liu Biao's Nephew	true
+effect_bundles_localised_description_ironic_liu_pan_vassal_master	Liu Pan serves as his uncle's vassal on the Changsha frontier. Favour grows each turn while the bond holds.	true
+effect_bundles_localised_title_ironic_liu_pan_alone	Master of His Own House	true
+effect_bundles_localised_description_ironic_liu_pan_alone	Liu Pan no longer answers to Xiangyang. Whatever favour remained is spent.	true
+effect_bundles_localised_title_ironic_liu_pan_raiding_stance	Stance: Raiding	false
+effect_bundles_localised_description_ironic_liu_pan_raiding_stance	Plunder the local region for supplies. Liu Pan's Ferocity grows with every turn his riders spend raiding.	false
+effect_bundles_localised_title_ironic_liu_pan_frontend_bundle	Ferocity and Favour	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_liu_pan_1	• Ferocity rises with attacking victories, sacked settlements, executed captives and armies in the Raiding stance, and decays while Liu Pan's riders sit idle.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_liu_pan_2	• High Ferocity grants campaign movement, loot, supplies from raiding, replenishment in foreign land and ambush chance, at the cost of public order and Liu Biao's Favour.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_liu_pan_3	• Liu Biao's Favour grows each turn while Liu Pan remains his uncle's vassal and when he defeats Liu Biao's enemies; sacking and unchecked ferocity erode it.	true
+effects_generalised_descriptions_localised_description_ironic_frontend_desc_liu_pan_4	• High Favour brings income, cheaper recruitment, satisfaction and a stipend from Xiangyang; lose it and the frontier is on its own.	true
+frontend_faction_leader_unique_features_localised_description_ironic_liu_pan_ferocity_feature	[[b]]Ferocity[[/b]]\\n[[col:scope_description]]Faction feature[[/col]]\\n\\n[[col:green]]+[[/col]] Raiding stance for all armies\\n[[col:green]]+[[/col]] Campaign movement range\\n[[col:green]]+[[/col]] Loot, supplies and replenishment on enemy soil\\n[[col:green]]+[[/col]] Ambush chance\\n[[col:red]]-[[/col]] Public order and Liu Biao's Favour at high tiers\\n\\n[[i]][[col:flavour]]Built by attacking, sacking and executing captives; fades whenever Liu Pan's riders sit idle.[[/col]][[/i]]	false
+frontend_faction_leader_unique_features_localised_description_ironic_liu_pan_favour_feature	[[b]]Liu Biao's Favour[[/b]]\\n[[col:scope_description]]Faction feature[[/col]]\\n\\n[[col:green]]+[[/col]] Income and cheaper recruitment\\n[[col:green]]+[[/col]] Satisfaction and a stipend from Xiangyang\\n[[col:red]]-[[/col]] Lost by sacking, unchecked ferocity or independence\\n\\n[[i]][[col:flavour]]Grows each turn while Liu Pan remains his uncle's vassal and whenever he defeats Liu Biao's enemies.[[/col]][[/i]]	false
+campaign_diplomacy_treaty_components_onscreen_name_treaty_components_liu_pan_stipend_right_hand	Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_title_ui_treaty_components_liu_pan_stipend_right_hand	Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_tooltip_ui_treaty_components_liu_pan_stipend_right_hand	Liu Biao sends his right hand a share of the revenue of Jing: 3% of his regular income each turn.	false
+ui_diplomacy_treaty_components_localised_action_ui_treaty_components_liu_pan_stipend_right_hand	Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_active_proposer_string_ui_treaty_components_liu_pan_stipend_right_hand	We send {#recipientsfaction#} a stipend	false
+ui_diplomacy_treaty_components_localised_active_recipient_string_ui_treaty_components_liu_pan_stipend_right_hand	{#proposersfaction#} sends us a stipend	false
+ui_diplomacy_treaty_components_localised_event_feed_header_ui_treaty_components_liu_pan_stipend_right_hand	Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_proposer_string_ui_treaty_components_liu_pan_stipend_right_hand	HIDDEN	false
+campaign_diplomacy_treaty_components_onscreen_name_treaty_components_liu_pan_stipend_heir	Heir's Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_title_ui_treaty_components_liu_pan_stipend_heir	Heir's Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_tooltip_ui_treaty_components_liu_pan_stipend_heir	Liu Biao treats his nephew as an heir: 6% of his regular income each turn.	false
+ui_diplomacy_treaty_components_localised_action_ui_treaty_components_liu_pan_stipend_heir	Heir's Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_active_proposer_string_ui_treaty_components_liu_pan_stipend_heir	We send {#recipientsfaction#} a stipend	false
+ui_diplomacy_treaty_components_localised_active_recipient_string_ui_treaty_components_liu_pan_stipend_heir	{#proposersfaction#} sends us a stipend	false
+ui_diplomacy_treaty_components_localised_event_feed_header_ui_treaty_components_liu_pan_stipend_heir	Heir's Stipend from Xiangyang	false
+ui_diplomacy_treaty_components_localised_proposer_string_ui_treaty_components_liu_pan_stipend_heir	HIDDEN	false
+campaign_diplomacy_treaty_components_onscreen_name_treaty_components_liu_pan_stipend_break	hidden	false
+campaign_diplomacy_treaty_components_onscreen_name_treaty_components_liu_pan_stipend_right_hand_set	hidden	false
+campaign_diplomacy_treaty_components_onscreen_name_treaty_components_liu_pan_stipend_heir_set	hidden	false

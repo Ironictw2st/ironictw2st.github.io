@@ -1,0 +1,27 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/Generic						
+ironic_barbarian_resource			sword_infantry.png	faction	positive	true
+ironic_jursidiction_resource			3k_dlc07_military_sanction.png	faction	positive	true
+ironic_yue_units			.	faction	negative	false
+ironic_jin_xuan_nanman_knowledge	Prevents Nanman Debuff		dlc06_dense_jungle.png	faction	positive	true
+ironic_zhang_meng_boosted_estate	+50% more estate		treasury.png	faction	positive	true
+ironic_liu_du_boosted_peasantry	+100% Peasantry		treasury.png	faction	positive	true
+ironic_han_xuan_boosted_commerce	+50% Commerce		treasury.png	faction	positive	true
+ironic_child_zhong_yao			child_chance.png	character	positive	true
+ironic_child_cao_cao			child_chance.png	character	positive	true
+ironic_child_liu_bei			child_chance.png	character	positive	true
+ironic_child_xin_pi			child_chance.png	character	positive	true
+ironic_child_luo_jun			child_chance.png	character	positive	true
+ironic_child_wang_lang			child_chance.png	character	positive	true
+ironic_child_cao_zhen			child_chance.png	character	positive	true
+ironic_child_cao_pi			child_chance.png	character	positive	true
+ironic_child_sima_yi			child_chance.png	character	positive	true
+ironic_child_sun_quan			child_chance.png	character	positive	true
+ironic_child_wang_su			child_chance.png	character	positive	true
+ironic_child_jia_kui			child_chance.png	character	positive	true
+ironic_child_guan_yu			child_chance.png	character	positive	true
+ironic_child_zhuge_jin			child_chance.png	character	positive	true
+ironic_child_gongsun_kang			child_chance.png	character	positive	true
+ironic_child_zhang_fei			child_chance.png	character	positive	true
+ironic_hua_xin_effect_bundle			treasury.png	faction	positive	true
+ironic_child_gongsun_kang			child_chance.png	character	positive	true

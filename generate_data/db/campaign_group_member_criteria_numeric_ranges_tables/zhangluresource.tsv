@@ -1,0 +1,8 @@
+member	max_range	min_range	context
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/zhangluresource			
+ironic_zhang_lu_celestial_level_0	9	0	value
+ironic_zhang_lu_celestial_level_1	19	10	value
+ironic_zhang_lu_celestial_level_2	39	20	value
+ironic_zhang_lu_celestial_level_3	69	40	value
+ironic_zhang_lu_celestial_level_4	89	70	value
+ironic_zhang_lu_celestial_level_5	100	90	value

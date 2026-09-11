@@ -1,0 +1,37 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/190_expanded_extras						
+ironic_xiongnu_units_limited			army.png	faction	positive	false
+ironic_wuhuan_units_limited			army.png	faction	positive	false
+ironic_xianbei_units_limited			army.png	faction	positive	false
+ironic_xiliang_units_limited			army.png	faction	positive	false
+ironic_faction_council_assign_titles			character.png	faction	positive	false
+ironic_white_wave_units_limited			army.png	faction	positive	false
+ironic_korea_prestige_gain			prestige.png	faction	positive	true
+effect_Bundle_AMBUSH			army.png	force	positive	true
+effect_Bundle_ASSEMBLE_FLEET			army.png	force	positive	true
+effect_Bundle_CHANNELING			army.png	force	positive	true
+effect_Bundle_DEFAULT			army.png	force	positive	true
+effect_Bundle_DOUBLE_TIME			army.png	force	positive	true
+effect_Bundle_LAND_RAID			army.png	force	positive	true
+effect_Bundle_MARCH			army.png	force	positive	true
+effect_Bundle_MUSTER			army.png	force	positive	true
+effect_Bundle_PATROL			army.png	force	positive	true
+effect_Bundle_RAISE_DEAD			army.png	force	positive	true
+effect_Bundle_SEA_RAID			army.png	force	positive	true
+effect_Bundle_SETTLE			army.png	force	positive	true
+effect_Bundle_SET_CAMP			army.png	force	positive	true
+effect_Bundle_SET_CAMP_RAIDING			army.png	force	positive	true
+effect_Bundle_TUNNELING			army.png	force	positive	true
+effect_Bundle_CAPTURE_CHANCE			army.png	force	positive	true
+effect_Bundle_prestige			prestige.png	faction	positive	true
+effect_Bundle_deployables			army.png	faction	positive	true
+effect_Bundle_spies			spies.png	faction	positive	false
+effect_Bundle_wang_lang_salary			trade_influence.png	faction	negative	true
+effect_Bundle_wu_jing_satisfaction			prestige.png	faction	positive	true
+effect_Bundle_zheng_jiang_ai_bonus			prestige.png	faction	positive	true
+effect_Bundle_annex_spy_faction			spies.png	faction	negative	true
+effect_Bundle_spy_testing			spies.png	faction	negative	true
+ironic_que_xuan_kill			prestige.png	faction	positive	true
+ironic_que_xuan_spare			prestige.png	faction	negative	true
+ironic_kong_rong_kill			prestige.png	faction	neutral	true
+ironic_kong_rong_spare			prestige.png	faction	neutral	true

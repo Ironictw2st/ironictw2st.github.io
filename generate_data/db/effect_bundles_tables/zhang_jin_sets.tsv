@@ -1,0 +1,26 @@
+key	localised_description	localised_title	ui_icon	bundle_target	icon_supplement_colour_type	show_in_generic_bundle_display
+#effect_bundles_tables;3;db/effect_bundles_tables/zhang_jin_sets						
+np_set_crown			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_hand			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_guard			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_root			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_stride			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_breath			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_belly			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_spine			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_whisper			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	false
+np_set_broken			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	false
+np_set_hollow			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	false
+np_set_sunken			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	false
+np_set_upper			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_warrior			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_steward			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_court			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_tainted			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	false
+np_set_crippled			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	false
+np_set_marrow			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_pierce			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_master			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_jade			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
+np_set_vermillion			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	negative	false
+np_set_balanced			3k_dlc04_assignment_tao_qian_promote_peace.png	faction	positive	false
