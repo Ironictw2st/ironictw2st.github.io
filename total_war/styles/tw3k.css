@@ -518,6 +518,44 @@ footer a:hover {
     text-decoration: underline;
 }
 
+footer .ext-links {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+/* External links row (landing page) */
+.links-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0 auto 3rem;
+}
+
+.link-btn {
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--title-cream);
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #303035;
+    background: var(--bg-card);
+    transition: all 0.2s ease;
+}
+
+.link-btn:hover {
+    border-color: var(--gold-dark);
+    color: var(--gold-light);
+    background: var(--bg-card-hover);
+}
+
+.link-btn.steam { border-left: 3px solid #1b2838; }
+.link-btn.nexus { border-left: 3px solid #d98e04; }
+.link-btn.discord { border-left: 3px solid #5865f2; }
+
 /* ============================================
    Animations
    ============================================ */
