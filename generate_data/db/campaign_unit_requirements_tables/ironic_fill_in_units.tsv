@@ -1,0 +1,8 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/ironic_fill_in_units													
+unit_fire_ironic_heavy_lance_cavalry_tech								3k_main_tech_fire_tier3_hereditary_buqu		false	5	3k_general_fire	
+unit_metal_ironic_veteran_sabre_infantry_tech								3k_main_tech_metal_tier3_state_monopolies		false	5	3k_general_metal	
+unit_earth_ironic_veteran_sabre_cavalry_tech								3k_main_tech_earth_tier3_six_bureaus_of_bureaucracy		false	5	3k_general_earth	
+unit_water_ironic_veteran_armoured_archers_tech								3k_main_tech_water_tier2_handbook_of_excellence		false	5	3k_general_water	
+unit_metal_ironic_veteran_jian_infantry_tech										false	5	3k_general_metal	
+unit_earth_ironic_veteran_jian_cavalry_tech										false	5	3k_general_earth	

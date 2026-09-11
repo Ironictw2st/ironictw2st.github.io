@@ -1,0 +1,6 @@
+id	set_id	culture	faction	sub_culture	campaign
+#building_chain_availabilities_tables;1;db/building_chain_availabilities_tables/data__tribalbuildings					
+88977532	tribal_buildings			3k_main_chinese	
+88977533	tribal_buildings			3k_ironic_korea	
+88977534	tribal_buildings			3k_main_subculture_yellow_turban	
+88977535	tribal_buildings			3k_dlc06_subculture_nanman	

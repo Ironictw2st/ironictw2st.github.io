@@ -1,0 +1,5 @@
+id	building_superchain	slot_template
+#slot_template_to_building_superchain_junctions_tables;0;db/slot_template_to_building_superchain_junctions_tables/gatebuilding		
+1381110125	ironic_gate_buildings	ironic_gate_buildings
+462979592	ironic_gate_buildings	3k_dlc06_gate
+1895139866	3k_resource_bandit_buildings	3k_dlc06_gate

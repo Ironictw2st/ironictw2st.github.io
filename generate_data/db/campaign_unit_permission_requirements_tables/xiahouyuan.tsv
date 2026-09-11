@@ -1,0 +1,4 @@
+permission	requirement	unit	is_restriction
+#campaign_unit_permission_requirements_tables;0;db/campaign_unit_permission_requirements_tables/xiahouyuan			
+ironic_xiahou_yuan_faction	level_3	ironic_chibi_xiahou_heavy_riders	false
+ironic_xiahou_yuan_faction	level_6	ironic_chibi_xiahou_metal_rebel_slayer	false

@@ -1,0 +1,20 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/korea_provincial_side_buildings													
+ironic_province_korea_standard_yemaek_valley_warriors	ironic_province_korea_standard									false	3		
+ironic_province_korea_standard_yemaek_scouts	ironic_province_korea_standard									false	6		
+ironic_province_korea_xianbei_yemaek_valley_warriors	ironic_province_korea_xianbei									false	3		
+ironic_province_korea_xianbei_yemaek_scouts	ironic_province_korea_xianbei									false	6		
+ironic_province_korea_xianbei_xianbei_swordguard	ironic_province_korea_xianbei									false	3		
+ironic_province_korea_xianbei_xianbei_headhunters	ironic_province_korea_xianbei									false	6		
+ironic_province_korea_xianbei_xianbei_horse_archers	ironic_province_korea_xianbei									false	6		
+ironic_province_korea_xianbei_xianbei_riders	ironic_province_korea_xianbei									false	3		
+ironic_province_korea_han_yemaek_valley_warriors	ironic_province_korea_han									false	3		
+ironic_province_korea_han_yemaek_scouts	ironic_province_korea_han									false	6		
+ironic_province_korea_han_lelang_guards	ironic_province_korea_han									false	3		
+ironic_province_korea_han_daifang_defenders	ironic_province_korea_han									false	6		
+ironic_province_southern_korea_standard_samhan_raiders	ironic_province_southern_korea_standard									false	3		
+ironic_province_southern_korea_standard_samhan_assault_infantry	ironic_province_southern_korea_standard									false	6		
+ironic_province_southern_korea_northern_korea_samhan_raiders	ironic_province_southern_korea_northern_korea									false	3		
+ironic_province_southern_korea_northern_korea_samhan_assault_infantry	ironic_province_southern_korea_northern_korea									false	6		
+ironic_province_southern_korea_northern_korea_yemaek_valley_warriors	ironic_province_southern_korea_northern_korea									false	3		
+ironic_province_southern_korea_northern_korea_yemaek_scouts	ironic_province_southern_korea_northern_korea									false	6		

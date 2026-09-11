@@ -1,0 +1,27 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/ironic_ceo_locked													
+ironic_xiliang_commander_lock										false	3		3k_ironic_ancillary_follower_xiliang_commander
+ironic_xiliang_cavalry_3_lock										false	3		3k_ironic_ancillary_follower_xiliang_commander
+ironic_xiliang_cavalry_6_lock										false	6		3k_ironic_ancillary_follower_xiliang_commander
+3k_gsz_ancillary_follower_bandit_earth										false	0		3k_gsz_ancillary_follower_bandit_earth
+3k_gsz_ancillary_follower_bandit_fire										false	0		3k_gsz_ancillary_follower_bandit_fire
+3k_gsz_ancillary_follower_bandit_metal										false	0		3k_gsz_ancillary_follower_bandit_metal
+3k_gsz_ancillary_follower_bandit_water										false	0		3k_gsz_ancillary_follower_bandit_water
+3k_gsz_ancillary_follower_bandit_wood										false	0		3k_gsz_ancillary_follower_bandit_wood
+3k_gsz_ancillary_follower_barbarian_earth										false	0		3k_gsz_ancillary_follower_barbarian_earth
+3k_gsz_ancillary_follower_barbarian_fire										false	0		3k_gsz_ancillary_follower_barbarian_fire
+3k_gsz_ancillary_follower_barbarian_metal										false	0		3k_gsz_ancillary_follower_barbarian_metal
+3k_gsz_ancillary_follower_barbarian_water										false	0		3k_gsz_ancillary_follower_barbarian_water
+3k_gsz_ancillary_follower_barbarian_wood										false	0		3k_gsz_ancillary_follower_barbarian_wood
+3k_gsz_ancillary_follower_han_earth										false	0		3k_gsz_ancillary_follower_han_earth
+3k_gsz_ancillary_follower_han_fire										false	0		3k_gsz_ancillary_follower_han_fire
+3k_gsz_ancillary_follower_han_metal										false	0		3k_gsz_ancillary_follower_han_metal
+3k_gsz_ancillary_follower_han_water										false	0		3k_gsz_ancillary_follower_han_water
+3k_gsz_ancillary_follower_han_wood										false	0		3k_gsz_ancillary_follower_han_wood
+3k_gsz_ancillary_follower_korea_earth										false	0		3k_gsz_ancillary_follower_korea_earth
+3k_gsz_ancillary_follower_korea_fire										false	0		3k_gsz_ancillary_follower_korea_fire
+3k_gsz_ancillary_follower_korea_metal										false	0		3k_gsz_ancillary_follower_korea_metal
+3k_gsz_ancillary_follower_korea_water										false	0		3k_gsz_ancillary_follower_korea_water
+3k_gsz_ancillary_follower_korea_wood										false	0		3k_gsz_ancillary_follower_korea_wood
+3k_gsz_ancillary_follower_nanman_animal										false	0		3k_gsz_ancillary_follower_nanman_animal
+3k_gsz_ancillary_follower_nanman_infantry										false	0		3k_gsz_ancillary_follower_nanman_infantry

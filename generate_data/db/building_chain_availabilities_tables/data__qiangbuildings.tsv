@@ -1,0 +1,4 @@
+id	set_id	culture	faction	sub_culture	campaign
+#building_chain_availabilities_tables;1;db/building_chain_availabilities_tables/data__qiangbuildings					
+14245125124	ironic_qiang_building_sui		3k_main_faction_han_sui		
+14245125125	ironic_qiang_building_jian		3k_dlc04_faction_liang_rebels		

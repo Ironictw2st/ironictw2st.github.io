@@ -1,0 +1,6 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/4_zhangunique													
+ironic_tao_penitents_wood_requirement										false	3	3k_general_wood	
+ironic_zhenren_defenders_wood_requirement										false	6	3k_general_wood	
+ironic_tao_penitents_wood_requirement_all										false	6		
+ironic_zhenren_defenders_wood_requirement_all										false	8		

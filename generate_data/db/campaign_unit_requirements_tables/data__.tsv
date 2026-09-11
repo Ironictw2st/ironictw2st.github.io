@@ -1,0 +1,390 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/data__													
+3k_dlc04_unit_requirement_earth_chen_peacekeepers										false	6		
+3k_dlc04_unit_requirement_earth_imperial_household_cavalry								3k_main_tech_earth_tier3_mandate_of_heaven		true	0		
+3k_dlc04_unit_requirement_earth_jaizi_raiders								3k_dlc04_tech_yellow_turban_units_3_4		false	0	3k_general_metal	
+3k_dlc04_unit_requirement_earth_messengers_of_heaven								3k_dlc04_tech_yellow_turban_units_1_2		false	3		
+3k_dlc04_unit_requirement_earth_mounted_sabre_defectors								3k_dlc04_tech_yellow_turban_units_3_1		false	0	3k_general_metal	
+3k_dlc04_unit_requirement_fire_destroyer_of_traitors										false	6		
+3k_dlc04_unit_requirement_fire_imperial_lancer_cavalry								3k_main_tech_fire_tier3_hierarchical_enfeoffments		true	0		
+3k_dlc04_unit_requirement_fire_mounted_lancer_defectors								3k_dlc04_tech_yellow_turban_units_2_1		false	0	3k_general_water	
+3k_dlc04_unit_requirement_fire_righteous_vanguards								3k_dlc04_tech_yellow_turban_units_2_4		false	0	3k_general_water	
+3k_dlc04_unit_requirement_fire_tyrant_slayers								3k_dlc04_tech_yellow_turban_units_1_2		false	6		
+3k_dlc04_unit_requirement_metal_bringers_of_peace								3k_dlc04_tech_yellow_turban_units_2_3		false	0	3k_general_water	
+3k_dlc04_unit_requirement_metal_chosen_of_the_eight_immortals								3k_dlc04_tech_yellow_turban_units_0_2		false	6		
+3k_dlc04_unit_requirement_metal_exemplars_of_the_tao								3k_dlc04_tech_yellow_turban_units_4_4		false	0	3k_general_wood	
+3k_dlc04_unit_requirement_metal_huanglao_s_paragons								3k_dlc04_tech_yellow_turban_units_3_3		false	0	3k_general_metal	
+3k_dlc04_unit_requirement_metal_imperial_sword_guard								3k_main_tech_metal_tier3_state_blast_furnaces		true	0		
+3k_dlc04_unit_requirement_metal_qiang_warrior	3k_district_military_security_ma_teng_4									false	0		
+3k_dlc04_unit_requirement_metal_qiang_warrior_2	3k_district_military_security_ma_teng_5									false	0		
+3k_dlc04_unit_requirement_metal_redeemed_outlaws								3k_dlc04_tech_yellow_turban_units_0_1		false	0		
+3k_dlc04_unit_requirement_metal_sabre_defectors								3k_dlc04_tech_yellow_turban_units_1_3		false	0		
+3k_dlc04_unit_requirement_water_archer_defectors								3k_dlc04_tech_yellow_turban_units_4_1		false	0	3k_general_wood	
+3k_dlc04_unit_requirement_water_chen_royal_guard										false	3		
+3k_dlc04_unit_requirement_water_imperial_palace_cavalry								3k_main_tech_water_tier3_silk_road_expeditions		true	0		
+3k_dlc04_unit_requirement_water_imperial_palace_crossbowmen								3k_main_tech_water_tier3_silk_road_expeditions		true	0		
+3k_dlc04_unit_requirement_water_multiple_bolt_crossbow_yt								3k_dlc04_tech_yellow_turban_units_5_1		false	0	3k_general_fire	
+3k_dlc04_unit_requirement_water_multiple_bolt_crossbow_yt_alternate								3k_dlc04_tech_yellow_turban_units_5_1		false	0	3k_general_wood	
+3k_dlc04_unit_requirement_water_qiang_archers	3k_district_military_security_ma_teng_2									false	0		
+3k_dlc04_unit_requirement_water_qiang_archers_2	3k_district_military_security_ma_teng_3									false	0		
+3k_dlc04_unit_requirement_water_qiang_archers_3	3k_district_military_security_ma_teng_4									false	0		
+3k_dlc04_unit_requirement_water_qiang_archers_4	3k_district_military_security_ma_teng_5									false	0		
+3k_dlc04_unit_requirement_water_territorial_archer										false	3		
+3k_dlc04_unit_requirement_water_the_land_s_chosen								3k_dlc04_tech_yellow_turban_units_4_3		false	0	3k_general_wood	
+3k_dlc04_unit_requirement_water_trebuchet_yt								3k_dlc04_tech_yellow_turban_units_5_1		false	0	3k_general_fire	
+3k_dlc04_unit_requirement_water_trebuchet_yt_alternate								3k_dlc04_tech_yellow_turban_units_5_1		false	0	3k_general_wood	
+3k_dlc04_unit_requirement_water_yaoguai_hunters								3k_dlc04_tech_yellow_turban_units_0_2		false	6		
+3k_dlc04_unit_requirement_wood_ascetics_of_the_way								3k_dlc04_tech_yellow_turban_units_3_2		false	0	3k_general_metal	
+3k_dlc04_unit_requirement_wood_defenders_of_the_empire										false	3		
+3k_dlc04_unit_requirement_wood_fervent_defenders								3k_dlc04_tech_yellow_turban_units_4_2		false	0	3k_general_wood	
+3k_dlc04_unit_requirement_wood_gallants_of_the_people								3k_dlc04_tech_yellow_turban_units_0_2		false	3		
+3k_dlc04_unit_requirement_wood_imperial_gate_guards								3k_main_tech_wood_tier3_facilitation_of_landlord_exploitation		true	0		
+3k_dlc04_unit_requirement_wood_ji_defectors								3k_dlc04_tech_yellow_turban_units_1_1		false	0		
+3k_dlc04_unit_requirement_wood_qiang_polearms	3k_district_military_security_ma_teng_2									false	0		
+3k_dlc04_unit_requirement_wood_qiang_polearms_2	3k_district_military_security_ma_teng_3									false	0		
+3k_dlc04_unit_requirement_wood_qiang_polearms_3	3k_district_military_security_ma_teng_4									false	0		
+3k_dlc04_unit_requirement_wood_qiang_polearms_4	3k_district_military_security_ma_teng_5									false	0		
+3k_dlc04_unit_requirement_wood_stalwart_shields								3k_dlc04_tech_yellow_turban_units_2_2		false	0	3k_general_water	
+3k_dlc04_unit_requirement_wood_territorial_spearmen										false	3		
+3k_dlc04_unit_requirement_wood_zealots_of_the_way								3k_dlc04_tech_yellow_turban_units_1_2		false	3		
+3k_dlc05_unit_requirement_earth_bandit_network_cangwu								3k_dlc05_tech_bandit_network_jiaozhi_cangwu		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_hanzhong								3k_dlc05_tech_bandit_network_yi_hanzhong		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_hedong								3k_dlc05_tech_bandit_network_sili_hedong		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_jingzhou								3k_dlc05_tech_bandit_network_jing_jingzhou		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_langye								3k_dlc05_tech_bandit_network_xu_langye		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_earth_bandit_network_liang_outer								3k_dlc05_tech_bandit_network_liang_outer_west		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_lingling								3k_dlc05_tech_bandit_network_jing_lingling		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_luoyang								3k_dlc05_tech_bandit_network_sili_luoyang		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_penchang								3k_dlc05_tech_bandit_network_xu_penchang		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_pingyuan								3k_dlc05_tech_bandit_network_qing_pingyuan		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_wudu								3k_dlc05_tech_bandit_network_liang_wudu		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_bandit_network_yangzhou								3k_dlc05_tech_bandit_network_yang_yangzhou		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_earth_bandit_network_yizhou								3k_dlc05_tech_bandit_network_yi_yizhou		false	0	3k_general_earth	
+3k_dlc05_unit_requirement_earth_handmaid_guard										false	3		
+3k_dlc05_unit_requirement_fire_bandit_network_baxi								3k_dlc05_tech_bandit_network_yi_baxi		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_beihai								3k_dlc05_tech_bandit_network_qing_beihai		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_bing_outer								3k_dlc05_tech_bandit_network_bing_outer_north		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_henei								3k_dlc05_tech_bandit_network_yan_henei		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_jianan								3k_dlc05_tech_bandit_network_yang_jianan		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_jiangyang								3k_dlc05_tech_bandit_network_yi_jiangyang		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_lujiang								3k_dlc05_tech_bandit_network_yang_lujiang		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_nanyang								3k_dlc05_tech_bandit_network_jing_nanyang		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_shuofang								3k_dlc05_tech_bandit_network_bing_shoufang		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_taiyuan								3k_dlc05_tech_bandit_network_bing_taiyuan		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_wuling								3k_dlc05_tech_bandit_network_jing_wuling		false	0		
+3k_dlc05_unit_requirement_fire_bandit_network_wuwei								3k_dlc05_tech_bandit_network_liang_wuwei		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_you_outer								3k_dlc05_tech_bandit_network_you_outer_north		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_bandit_network_yu								3k_dlc05_tech_bandit_network_you_yu		false	0	3k_general_fire	
+3k_dlc05_unit_requirement_fire_formation_breakers										false	2		
+3k_dlc05_unit_requirement_metal_bandit_network_anding								3k_dlc05_tech_bandit_network_liang_anding		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_anping								3k_dlc05_tech_bandit_network_ji_anping		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_dongjun								3k_dlc05_tech_bandit_network_yan_dongjun		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_donglai								3k_dlc05_tech_bandit_network_qing_donglai		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_fuling								3k_dlc05_tech_bandit_network_yi_fuling		false	0		
+3k_dlc05_unit_requirement_metal_bandit_network_hepu								3k_dlc05_tech_bandit_network_jiaozhi_hepu		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_houguan								3k_dlc05_tech_bandit_network_yang_ye		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_jianning								3k_dlc05_tech_bandit_network_yi_jianning		false	0	3k_general_water	
+3k_dlc05_unit_requirement_metal_bandit_network_jiuzhen								3k_dlc06_tech_bandit_network_jiaozhi_jiuzhen		false	0		
+3k_dlc05_unit_requirement_metal_bandit_network_luling								3k_dlc05_tech_bandit_network_yang_luling		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_nanhai								3k_dlc05_tech_bandit_network_jiaozhi_nanhai		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_poyang								3k_dlc05_tech_bandit_network_yang_poyang		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_shangyong								3k_dlc05_tech_bandit_network_yi_shangyong		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_taishan								3k_dlc05_tech_bandit_network_qing_taishan		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_xiapi								3k_dlc06_tech_bandit_network_xu_xiapi		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_xihe								3k_dlc05_tech_bandit_network_bing_xihe		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_bandit_network_xindu								3k_dlc05_tech_bandit_network_yang_xindu		false	0	3k_general_metal	
+3k_dlc05_unit_requirement_metal_camp_crushers										false	4		
+3k_dlc05_unit_requirement_metal_white_tiger_warriors										false	2		
+3k_dlc05_unit_requirement_metal_yue_remnant_warriors_building_shanyue_2	3k_resource_banditry_white_tiger_yan_shanyue_2									false	0		
+3k_dlc05_unit_requirement_metal_zhanmajian_infantry										false	3	3k_general_metal	
+3k_dlc05_unit_requirement_nanman_bandit_network_jiaozhi								3k_dlc05_tech_bandit_network_jiaozhi_jiaozhi		false	0		
+3k_dlc05_unit_requirement_nanman_bandit_network_yunnan								3k_dlc06_tech_bandit_network_jiaozhi_yunnan		false	0		
+3k_dlc05_unit_requirement_water_bandit_network_ba								3k_dlc05_tech_bandit_network_yi_bajun		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_badong								3k_dlc05_tech_bandit_network_yi_badong		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_chen								3k_dlc05_tech_bandit_network_yu_chenjun		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_chengdu								3k_dlc05_tech_bandit_network_yi_chengdu		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_dai								3k_dlc05_tech_bandit_network_you_daijun		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_guangling								3k_dlc05_tech_bandit_network_xu_guangling		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_jiangxia								3k_dlc05_tech_bandit_network_jing_jiangxia		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_jiaozhi								3k_dlc05_tech_bandit_network_jiaozhi_jiaozhi		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_jincheng								3k_dlc05_tech_bandit_network_liang_jincheng		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_kuaiji								3k_dlc05_tech_bandit_network_yang_kuaiji		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_shangdang								3k_dlc05_tech_bandit_network_bing_shangdang		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_yongchang								3k_dlc06_tech_bandit_network_jiaozhi_yongchang		false	0		
+3k_dlc05_unit_requirement_water_bandit_network_you_outer_east								3k_dlc05_tech_bandit_network_you_outer_east		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_youbeiping								3k_dlc05_tech_bandit_network_you_youbeiping		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_yulin								3k_dlc05_tech_bandit_network_jiaozhi_yulin		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_bandit_network_zhongshan								3k_dlc05_tech_bandit_network_ji_zhongshan		false	0	3k_general_water	
+3k_dlc05_unit_requirement_water_white_tiger_raiders										false	4		
+3k_dlc05_unit_requirement_wood_bandit_network_bohai								3k_dlc05_tech_bandit_network_you_bohai		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_changan								3k_dlc05_tech_bandit_network_sili_changan		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_changsha								3k_dlc05_tech_bandit_network_jing_changsha		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_donghai								3k_dlc05_tech_bandit_network_xu_donghai		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_dongou								3k_dlc05_tech_bandit_network_yang_dongou		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_gaoliang								3k_dlc05_tech_bandit_network_jiaozhi_gaoliang		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_jianye								3k_dlc05_tech_bandit_network_yang_jianye		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_runan								3k_dlc05_tech_bandit_network_jing_runan		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_tongan								3k_dlc05_tech_bandit_network_yang_tongan		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_weijun								3k_dlc05_tech_bandit_network_ji_weijun		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_xiangyang								3k_dlc05_tech_bandit_network_jing_xiangyang		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_yanmen								3k_dlc05_tech_bandit_network_bing_yanmen		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_yingchuan								3k_dlc05_tech_bandit_network_yan_yingchuan		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_youzhou								3k_dlc05_tech_bandit_network_you_youzhou		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_yuzhang								3k_dlc05_tech_bandit_network_yang_yuzhang		false	0	3k_general_wood	
+3k_dlc05_unit_requirement_wood_bandit_network_zangke								3k_dlc05_tech_bandit_network_yi_zangke		false	0		
+3k_dlc05_unit_requirement_wood_tiger_guard										false	6		
+3k_dlc05_unit_requirement_wood_yue_tribesmen_building_shanyue_1	3k_resource_banditry_white_tiger_yan_shanyue_1									false	0		
+3k_dlc05_unit_requirement_wood_yue_tribesmen_building_shanyue_2	3k_resource_banditry_white_tiger_yan_shanyue_2									false	0		
+3k_dlc06_unit_requirement_fire_bandit_network_wuling								3k_dlc05_tech_bandit_network_jing_wuling		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_metal_bandit_network_fuling								3k_dlc05_tech_bandit_network_yi_fuling		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_metal_bandit_network_jianning								3k_dlc05_tech_bandit_network_yi_jianning		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_metal_bandit_network_jiuzhen								3k_dlc06_tech_bandit_network_jiaozhi_jiuzhen		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_metal_bandit_network_xiapi								3k_dlc06_tech_bandit_network_xu_xiapi		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_archers								3k_main_tech_water_tier0_private_tutors		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_anding								3k_dlc05_tech_bandit_network_liang_anding		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_badong								3k_dlc05_tech_bandit_network_yi_badong		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_bohai								3k_dlc05_tech_bandit_network_you_bohai		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_changan								3k_dlc05_tech_bandit_network_sili_changan		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_changsha								3k_dlc05_tech_bandit_network_jing_changsha		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_donghai								3k_dlc05_tech_bandit_network_xu_donghai		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_dongjun								3k_dlc05_tech_bandit_network_yan_dongjun		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_donglai								3k_dlc05_tech_bandit_network_qing_donglai		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_dongou								3k_dlc05_tech_bandit_network_yang_dongou		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_gaoliang								3k_dlc05_tech_bandit_network_jiaozhi_gaoliang		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_hepu								3k_dlc05_tech_bandit_network_jiaozhi_hepu		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_houguan								3k_dlc05_tech_bandit_network_yang_ye		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_jianan								3k_dlc05_tech_bandit_network_yang_jianan		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_jianye								3k_dlc05_tech_bandit_network_yang_jianye		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_jiaozhi								3k_dlc05_tech_bandit_network_jiaozhi_jiaozhi		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_nanhai								3k_dlc05_tech_bandit_network_jiaozhi_nanhai		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_poyang								3k_dlc05_tech_bandit_network_yang_poyang		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_shangdang								3k_dlc05_tech_bandit_network_bing_shangdang		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_tongan								3k_dlc05_tech_bandit_network_yang_tongan		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_weijun								3k_dlc05_tech_bandit_network_ji_weijun		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_xiangyang								3k_dlc05_tech_bandit_network_jing_xiangyang		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_yanmen								3k_dlc05_tech_bandit_network_bing_yanmen		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_yingchuan								3k_dlc05_tech_bandit_network_yan_yingchuan		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_youzhou								3k_dlc05_tech_bandit_network_you_youzhou		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_yunnan								3k_dlc06_tech_bandit_network_jiaozhi_yunnan		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_zangke								3k_dlc05_tech_bandit_network_yi_zangke		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_bandit_network_zhongshan								3k_dlc05_tech_bandit_network_ji_zhongshan		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_base										false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_ji_infantry								3k_main_tech_wood_tier2_government_controlled_granaries		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_nanman_sabre_infantry								3k_main_tech_metal_tier2_office_of_arts_and_crafts		false	0	3k_general_nanman	
+3k_dlc06_unit_requirement_water_bandit_network_yongchang								3k_dlc06_tech_bandit_network_jiaozhi_yongchang		false	0	3k_general_nanman	
+3k_dlc06_unit_requirements_fire_southern_elephants										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_mulu
+3k_dlc06_unit_requirements_fire_war_elephants										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_mulu
+3k_dlc06_unit_requirements_han_cavalry_contracts								3k_dlc06_tech_nanman_mr4_1_cavalry_contracts_han		false	0		
+3k_dlc06_unit_requirements_han_southern_hirelings								3k_dlc06_tech_nanman_mr2_1_southern_hirelings_han		false	0		
+3k_dlc06_unit_requirements_metal_axe_throwers										false	0		3k_dlc06_ceo_factional_nanman_fealty_minor_zangke
+3k_dlc06_unit_requirements_metal_followers_of_the_flame										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_lady_zhurong
+3k_dlc06_unit_requirements_metal_might_of_the_valley										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_shamoke
+3k_dlc06_unit_requirements_metal_nanzhong_champions										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_meng_huo
+3k_dlc06_unit_requirements_metal_ravine_warriors										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_mulu
+3k_dlc06_unit_requirements_metal_tiger_warriors										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_lady_zhurong
+3k_dlc06_unit_requirements_metal_valley_tribesmen										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_wutugu
+3k_dlc06_unit_requirements_metal_wugou_axe_throwers										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_wutugu
+3k_dlc06_unit_requirements_metal_wuling_fighters										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_shamoke
+3k_dlc06_unit_requirements_water_fire_archers										false	0		3k_dlc06_ceo_factional_nanman_fealty_minor_yunnan
+3k_dlc06_unit_requirements_water_hidden_vipers										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_duosi
+3k_dlc06_unit_requirements_water_javelin_throwers										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_yang_feng
+3k_dlc06_unit_requirements_water_nanzhong_elephants										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_meng_huo
+3k_dlc06_unit_requirements_water_sanjiang_poison_darts										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_duosi
+3k_dlc06_unit_requirements_water_tiger_slingers										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_lady_zhurong
+3k_dlc06_unit_requirements_water_wuling_slingers										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_shamoke
+3k_dlc06_unit_requirements_wood_javelin_spear_guards										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_yang_feng
+3k_dlc06_unit_requirements_wood_javelin_spearmen										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_yang_feng
+3k_dlc06_unit_requirements_wood_nanzhong_spearmen										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_meng_huo
+3k_dlc06_unit_requirements_wood_sanjiang_poison_spears										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_duosi
+3k_dlc06_unit_requirements_wood_shields_of_the_south										false	0		3k_dlc06_ceo_factional_nanman_fealty_major_king_wutugu
+3k_dlc06_unit_requirements_wood_wolf_pack										false	0		3k_dlc06_ceo_factional_nanman_fealty_minor_jianning
+3k_dlc07_unit_requirement_earth_northern_sabre_cavalry										false	0		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_earth_northern_veteran_sabre_cavalry										false	3		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_earth_tiger_cubs										false	0		
+3k_dlc07_unit_requirement_earth_xiongnu_noble_cavalry										false	0		
+3k_dlc07_unit_requirement_fire_northern_lancer_cavalry										false	0		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_fire_northern_veteran_lancers										false	3		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_metal_liyang_daring_infantry										false	0	3k_general_metal	
+3k_dlc07_unit_requirement_metal_northern_sabre_infantry										false	0		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_metal_northern_veteran_sabre_infantry										false	3		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_metal_quingzhou_assault_infantry										false	0		
+3k_dlc07_unit_requirement_water_dongzhoubing_marksmen										false	0		
+3k_dlc07_unit_requirement_water_northern_mounted_archers										false	3		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_water_northern_mounted_raiders										false	3		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_water_ye_vanguard_crossbows										false	3		
+3k_dlc07_unit_requirement_wood_dongzhoubing_defenders										false	0		
+3k_dlc07_unit_requirement_wood_northern_ji_infantry										false	0		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_wood_northern_spear_guards										false	0		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_wood_northern_veteran_ji_infantry										false	3		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_wood_northern_veteran_spears										false	3		3k_dlc07_ancillary_follower_northern_army_captain
+3k_dlc07_unit_requirement_wood_quingzhou_halberds										false	0		
+3k_dlc07_unit_requirement_wood_quingzhou_spears										false	0		
+3k_dlc07_unit_requirement_wood_ye_vanguard_spearmen										false	3		
+3k_main_unit_requirement_earth_archers								3k_main_tech_water_tier0_private_tutors		false	0	3k_general_earth	
+3k_main_unit_requirement_earth_base										false	0	3k_general_earth	
+3k_main_unit_requirement_earth_base_bandits										false	0	3k_general_earth	
+3k_main_unit_requirement_earth_elite								3k_main_tech_earth_tier3_mandate_of_heaven		false	0		
+3k_main_unit_requirement_earth_ji_infantry								3k_main_tech_wood_tier2_government_controlled_granaries		false	0	3k_general_earth	
+3k_main_unit_requirement_earth_sabre_cavalry								3k_main_tech_earth_tier1_regular_palace_attendants		false	0	3k_general_earth	
+3k_main_unit_requirement_earth_sabre_infantry								3k_main_tech_metal_tier2_office_of_arts_and_crafts		false	0	3k_general_earth	
+3k_main_unit_requirement_fire_base										false	0	3k_general_fire	
+3k_main_unit_requirement_fire_base_bandits										false	0	3k_general_fire	
+3k_main_unit_requirement_fire_elite								3k_main_tech_fire_tier3_hierarchical_enfeoffments		false	0		
+3k_main_unit_requirement_fire_heavy_tiger_and_leopard_cavalry										false	6		
+3k_main_unit_requirement_fire_heavy_xiliang_cavalry										false	6		
+3k_main_unit_requirement_fire_lancer_cavalry								3k_main_tech_fire_tier2_retainer_armies		false	0	3k_general_fire	
+3k_main_unit_requirement_fire_peasant_raiders								3k_main_tech_fire_tier2_convict_drafts		false	0	3k_general_fire	
+3k_main_unit_requirement_fire_tiger_and_leopard_cavalry										false	3		
+3k_main_unit_requirement_fire_xiliang_cavalry										false	3		
+3k_main_unit_requirement_metal_axe_band										false	0	3k_general_metal	
+3k_main_unit_requirement_metal_base										false	0	3k_general_metal	
+3k_main_unit_requirement_metal_base_bandits										false	0	3k_general_metal	
+3k_main_unit_requirement_metal_black_mountain_marauders										false	1		
+3k_main_unit_requirement_metal_elite								3k_main_tech_metal_tier3_state_blast_furnaces		false	0		
+3k_main_unit_requirement_metal_fists_of_the_bandit_queen										false	6		
+3k_main_unit_requirement_metal_hidden_axes										false	3		
+3k_main_unit_requirement_metal_rapid_tiger_infantry										false	3		
+3k_main_unit_requirement_metal_sabre_infantry								3k_main_tech_metal_tier2_office_of_arts_and_crafts		false	0	3k_general_metal	
+3k_main_unit_requirement_metal_warriors_of_the_left										false	6		
+3k_main_unit_requirement_special_records_gan_ning						3k_main_skill_bodyguard_gan_ning				false	0		
+3k_main_unit_requirement_special_records_huang_zhong						3k_main_skill_bodyguard_huang_zhong				false	0		
+3k_main_unit_requirement_special_records_taishi_ci						3k_main_skill_bodyguard_taishi_ci				false	0		
+3k_main_unit_requirement_special_romance_gan_ning						3k_main_skill_special_ability_fire_hail_of_arrows				false	0		
+3k_main_unit_requirement_special_romance_huang_zhong						3k_main_skill_special_ability_metal_warning_shot				false	0		
+3k_main_unit_requirement_special_romance_taishi_ci						3k_main_skill_special_ability_metal_hail_of_arrows				false	0		
+3k_main_unit_requirement_water_advanced								3k_main_tech_water_tier2_inns		false	0	3k_general_water	
+3k_main_unit_requirement_water_archers								3k_main_tech_water_tier0_private_tutors		false	0	3k_general_water	
+3k_main_unit_requirement_water_base										false	0	3k_general_water	
+3k_main_unit_requirement_water_base_bandits										false	0	3k_general_water	
+3k_main_unit_requirement_water_black_mountain_hunters										false	5		
+3k_main_unit_requirement_water_elite								3k_main_tech_water_tier3_silk_road_expeditions		false	0		
+3k_main_unit_requirement_water_fury_of_behai										false	3		
+3k_main_unit_requirement_water_heavy_crossbowmen										false	6	3k_general_water	
+3k_main_unit_requirement_water_heavy_repeating_crossbowmen								3k_main_tech_water_tier3_hostels		false	0	3k_general_water	
+3k_main_unit_requirement_water_mounted_archers								3k_main_tech_fire_tier3_strategic_fortresses		false	0		
+3k_main_unit_requirement_water_qiang_hunters										false	3		
+3k_main_unit_requirement_water_qiang_marauders										false	1		
+3k_main_unit_requirement_water_qiang_raiders										false	5		
+3k_main_unit_requirement_water_thunder_of_jian_an										false	6		
+3k_main_unit_requirement_water_white_horse_fellows										false	6		
+3k_main_unit_requirement_water_white_horse_raiders										false	3		
+3k_main_unit_requirement_water_yi_archers										false	3		
+3k_main_unit_requirement_water_yi_marksmen										false	6		
+3k_main_unit_requirement_wood_advanced										false	6	3k_general_wood	
+3k_main_unit_requirement_wood_base										false	0	3k_general_wood	
+3k_main_unit_requirement_wood_base_bandits										false	0	3k_general_wood	
+3k_main_unit_requirement_wood_black_mountain_outlaws										false	3		
+3k_main_unit_requirement_wood_defenders_of_hebei										false	6		
+3k_main_unit_requirement_wood_elite								3k_main_tech_wood_tier3_facilitation_of_landlord_exploitation		false	0		
+3k_main_unit_requirement_wood_heavy_ji_infantry								3k_main_tech_wood_tier3_agricultural_garrisons		false	0	3k_general_wood	
+3k_main_unit_requirement_wood_imperial_defenders										false	6		
+3k_main_unit_requirement_wood_infantry_of_jing										false	3		
+3k_main_unit_requirement_wood_ji_infantry								3k_main_tech_wood_tier2_government_controlled_granaries		false	0	3k_general_wood	
+3k_main_unit_requirement_wood_peasant_band								3k_main_tech_wood_tier1_agricultural_tax_relief		false	0	3k_general_wood	
+3k_main_unit_requirement_wood_spear_warriors								3k_main_tech_wood_tier1_government_tool_distribution		false	0	3k_general_wood	
+3k_main_unit_requirement_wood_warriors_of_ye										false	3		
+3k_main_unit_requirement_world_leader										true	0		
+3k_main_unit_requirements_water_juggernaut										false	6	3k_general_water	
+3k_ytr_unit_requirement_mercenaries_sun_jian										false	1		
+3k_ytr_unit_requirement_mercenaries_sun_jian_advanced										false	3		
+3k_ytr_unit_requirement_mercenaries_sun_jian_elite										false	5		
+3k_ytr_unit_requirement_yellow_turban_archers										false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turban_archers_progression_1										false	4	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turban_archers_progression_2										false	5	3k_general_water	
+3k_ytr_unit_requirement_yellow_turban_horsemen										false	3		
+3k_ytr_unit_requirement_yellow_turban_spearmen										false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turban_spearmen_progression_1										false	4	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turban_spearmen_progression_2										false	5	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turban_warriors										false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turban_warriors_progression_1										false	4	3k_general_water	
+3k_ytr_unit_requirement_yellow_turban_warriors_progression_2										false	5	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_chanters								3k_ytr_tech_yellow_turban_people_3_5		false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_chanters_alternate								3k_ytr_tech_yellow_turban_people_3_5		false	0	3k_general_earth	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_archery_masters								3k_ytr_tech_yellow_turban_heaven_3_1		false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_archery_masters_alternate								3k_ytr_tech_yellow_turban_heaven_3_1		false	0	3k_general_earth	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_arm_of_the_supreme_peace								3k_ytr_tech_yellow_turban_people_4_1		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_arm_of_the_supreme_peace_alternative								3k_ytr_tech_yellow_turban_people_4_1		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_bringers_of_righteousness								3k_ytr_tech_yellow_turban_people_2_1		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_fervent_defenders								3k_ytr_tech_yellow_turban_land_2_1		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_guardians_of_the_land								3k_ytr_tech_yellow_turban_land_3_1		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_guardians_of_the_land_alternate								3k_ytr_tech_yellow_turban_land_3_1		false	0	3k_general_fire	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_huanglao_s_paragons								3k_ytr_tech_yellow_turban_heaven_2_1		false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_jaizi_raiders								3k_ytr_tech_yellow_turban_people_3_1		false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_lands_chosen								3k_ytr_tech_yellow_turban_heaven_3_1		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_righteous_vanguards								3k_ytr_tech_yellow_turban_people_2_1		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_scholar_warriors								3k_ytr_tech_yellow_turban_heaven_4_1		false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_scholar_warriors_alternate								3k_ytr_tech_yellow_turban_heaven_4_1		false	0	3k_general_earth	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_stalwart_shields								3k_ytr_tech_yellow_turban_land_3_1		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_venerable_wu								3k_ytr_tech_yellow_turban_heaven_2_1		false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_venerable_wu_alternate								3k_ytr_tech_yellow_turban_heaven_2_1		false	0	3k_general_earth	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_virtuous_noblemen								3k_ytr_tech_yellow_turban_land_4_1		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_virtuous_noblemen_alternate								3k_ytr_tech_yellow_turban_land_4_1		false	0	3k_general_fire	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_watchmen_of_the_peace								3k_ytr_tech_yellow_turban_land_2_1		false	0	3k_general_fire	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_watchmen_of_the_peace_alternate								3k_ytr_tech_yellow_turban_land_2_1		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_faction_unique_youxia								3k_ytr_tech_yellow_turban_people_3_1		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_horseback_huntsmen								3k_ytr_tech_yellow_turban_land_3_2		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_horseback_huntsmen_alternate								3k_ytr_tech_yellow_turban_land_3_2		false	0	3k_general_fire	
+3k_ytr_unit_requirement_yellow_turbans_men_of_the_forest										false	0	3k_general_fire	
+3k_ytr_unit_requirement_yellow_turbans_men_of_the_forest_alternate										false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_militia_of_virtue								3k_ytr_tech_yellow_turban_people_3_5		false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_militia_of_virtue_alternate								3k_ytr_tech_yellow_turban_people_3_5		false	0	3k_general_earth	
+3k_ytr_unit_requirement_yellow_turbans_peoples_warband										false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_peoples_warband_alternate										false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_reclaimers								3k_ytr_tech_yellow_turban_land_3_2		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_reclaimers_alternate								3k_ytr_tech_yellow_turban_land_3_2		false	0	3k_general_fire	
+3k_ytr_unit_requirement_yellow_turbans_trebuchet								3k_ytr_tech_yellow_turban_heaven_3_3		false	0	3k_general_fire	
+3k_ytr_unit_requirement_yellow_turbans_trebuchet_alternate								3k_ytr_tech_yellow_turban_heaven_3_3		false	0	3k_general_wood	
+3k_ytr_unit_requirement_yellow_turbans_white_wave_horsemen								3k_ytr_tech_yellow_turban_people_3_3		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_white_wave_horsemen_alternative								3k_ytr_tech_yellow_turban_people_3_3		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_white_wave_veterans								3k_ytr_tech_yellow_turban_people_3_3		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_white_wave_veterans_alternative								3k_ytr_tech_yellow_turban_people_3_3		false	0	3k_general_water	
+3k_ytr_unit_requirement_yellow_turbans_yellow_sky_heralds										false	0	3k_general_metal	
+3k_ytr_unit_requirement_yellow_turbans_yellow_sky_heralds_alternate										false	0	3k_general_earth	
+ep_unit_requirement_earth_archers								ep_tech_military_1_2		false	0	3k_general_earth	
+ep_unit_requirement_earth_elite								ep_tech_military_3_3		false	0		
+ep_unit_requirement_earth_imperial_household_cavalry								ep_tech_military_4_3		false	0		
+ep_unit_requirement_earth_ji_infantry								ep_tech_military_2_5		false	0	3k_general_earth	
+ep_unit_requirement_earth_sabre_cavalry								ep_tech_military_1_3		false	0	3k_general_earth	
+ep_unit_requirement_earth_sabre_infantry								ep_tech_military_2_3		false	0	3k_general_earth	
+ep_unit_requirement_fire_cataphracts_main_campaign								3k_main_tech_fire_tier2_shock_warfare		false	0	3k_general_fire	
+ep_unit_requirement_fire_elite								ep_tech_military_3_3		false	0		
+ep_unit_requirement_fire_heavy_cataphracts								ep_tech_military_4_1		false	0	3k_general_fire	
+ep_unit_requirement_fire_heavy_cataphracts_main_campaign								3k_main_tech_fire_tier3_barded_mounts		false	6	3k_general_fire	
+ep_unit_requirement_fire_imperial_lancer_cavalry								ep_tech_military_4_1		false	0		
+ep_unit_requirement_fire_lancer_cavalry								ep_tech_military_2_2		false	0	3k_general_fire	
+ep_unit_requirement_fire_peasant_raiders								ep_tech_military_2_2		false	0	3k_general_fire	
+ep_unit_requirement_fire_xianbei_riders										false	3		
+ep_unit_requirement_fire_xiongnu_cataphracts										false	6		
+ep_unit_requirement_fire_xiongnu_cavalry										false	3		
+ep_unit_requirement_metal_axe_band								ep_tech_military_1_2		false	0	3k_general_metal	
+ep_unit_requirement_metal_chu_infantry										false	3		
+ep_unit_requirement_metal_elite								ep_tech_military_3_4		false	0		
+ep_unit_requirement_metal_imperial_guards										false	3		
+ep_unit_requirement_metal_imperial_sword_guard								ep_tech_military_4_2		false	0		
+ep_unit_requirement_metal_sabre_infantry								ep_tech_military_2_3		false	0	3k_general_metal	
+ep_unit_requirement_metal_warriors_of_xu										false	6		
+ep_unit_requirement_metal_xu_raiders										false	3		
+ep_unit_requirement_water_advanced								ep_tech_military_2_4		false	0	3k_general_water	
+ep_unit_requirement_water_archers								ep_tech_military_1_2		false	0	3k_general_water	
+ep_unit_requirement_water_archers_of_jing										false	3		
+ep_unit_requirement_water_defenders_of_earth								ep_tech_military_4_3		false	0		
+ep_unit_requirement_water_elite								ep_tech_military_3_1		false	0		
+ep_unit_requirement_water_heavy_mounted_archers								ep_tech_military_3_4		false	0	3k_general_water	
+ep_unit_requirement_water_heavy_mounted_archers_main_campaign								3k_main_tech_fire_tier3_swiftness_is_the_key_in_war		false	6		
+ep_unit_requirement_water_heavy_repeating_crossbowmen								ep_tech_military_3_1		false	0	3k_general_water	
+ep_unit_requirement_water_imperial_palace_cavalry								ep_tech_military_4_4		false	0		
+ep_unit_requirement_water_imperial_palace_crossbowmen								ep_tech_military_4_4		false	0		
+ep_unit_requirement_water_mounted_archers								ep_tech_military_1_3		false	0	3k_general_water	
+ep_unit_requirement_water_mounted_crossbowmen_main_campaign								3k_main_tech_water_tier3_divine_manipultation_of_threads		false	0	3k_general_water	
+ep_unit_requirement_water_qi_crossbowmen										false	3		
+ep_unit_requirement_water_xianbei_horse_archers										false	3		
+ep_unit_requirement_wood_chu_spearmen										false	3		
+ep_unit_requirement_wood_elite								ep_tech_military_4_4		false	0		
+ep_unit_requirement_wood_heavy_ji_infantry								ep_tech_military_3_4		false	0	3k_general_wood	
+ep_unit_requirement_wood_imperial_gate_guards								ep_tech_military_4_2		false	0		
+ep_unit_requirement_wood_ji_infantry								ep_tech_military_2_5		false	0	3k_general_wood	
+ep_unit_requirement_wood_peasant_band								ep_tech_military_1_2		false	0	3k_general_wood	
+ep_unit_requirement_wood_protectors_of_heaven								ep_tech_military_4_2		false	0		
+ep_unit_requirement_wood_qi_guardsmen										false	3		
+ep_unit_requirement_wood_spear_warriors								ep_tech_military_1_3		false	0	3k_general_wood	
+no_requirement										false	0		

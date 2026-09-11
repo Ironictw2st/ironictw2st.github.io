@@ -1,0 +1,12 @@
+{
+  "campaign": "3k_main_campaign_map",
+  "regions": 240,
+  "units": 70,
+  "pairs": 1065,
+  "gatedPairs": 496,
+  "unitsNamedFromLoc": 70,
+  "unitsInTwoRegionsOrFewer": 7,
+  "scopes": 4,
+  "restrictedGrants": 1065,
+  "kb": 41
+}

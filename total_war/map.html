@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map | 190 Expanded Wiki</title>
+    <meta name="description" content="Interactive campaign map for 190 Expanded, showing who owns which region at the start of the 190 campaign.">
+    <link rel="stylesheet" href="styles/tw3k.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <style>
+        main.map-main { max-width: none; padding: 1.5rem 2rem 2rem; }
+
+        /* The map wants the viewport, so this page runs a shorter masthead than the
+           article pages do. The nav and the wordmark stay, the theatre shrinks. */
+        header { padding: 0.75rem 2rem 1.25rem; }
+        .top-nav { margin-bottom: 0.75rem; }
+        header h1 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: 0.5rem; }
+        header h1::after { margin-top: 0.5rem; }
+        .header-content .subtitle { margin-bottom: 0.4rem; }
+
+        .map-intro {
+            display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: baseline;
+            margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #252530;
+        }
+        .map-intro p { color: var(--text-secondary); font-size: 0.9rem; margin: 0; }
+        .map-stats { margin-left: auto; display: flex; gap: 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+        .map-stats b { color: var(--title-cream); font-family: 'Cinzel', serif; }
+
+        .map-shell { display: grid; grid-template-columns: 1fr 320px; gap: 1rem; align-items: start; }
+
+        /* JS sets the real height from the element's own top offset; this is the
+           pre-script value so the map never flashes at zero height. */
+        #map {
+            height: calc(100vh - 330px); min-height: 460px;
+            background: #07070a; border: 1px solid #252530;
+        }
+        .leaflet-container { background: #07070a; font-family: 'Segoe UI', Arial, sans-serif; }
+        .leaflet-control-zoom a {
+            background: var(--bg-card); color: var(--text-secondary); border-color: #303035;
+        }
+        .leaflet-control-zoom a:hover { background: var(--bg-card-hover); color: var(--gold-light); }
+
+        /* tooltip */
+        .leaflet-tooltip.region-tip {
+            background: rgba(10,10,14,0.95); border: 1px solid #2a2a35; color: var(--text-primary);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.6); font-size: 0.85rem; padding: 0.4rem 0.6rem;
+        }
+        .leaflet-tooltip.region-tip::before { display: none; }
+        .region-tip .rt-name { font-family: 'Cinzel', serif; color: var(--title-cream); }
+        .region-tip .rt-prov { font-size: 0.75rem; color: var(--text-muted); }
+        .region-tip .rt-owner { font-size: 0.8rem; color: var(--text-secondary); }
+        .region-tip .rt-cap { font-size: 0.7rem; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.08em; }
+
+        /* capital pins */
+        .cap-pin { background: none; border: none; }
+        .cap-pin img {
+            width: 30px; height: 30px; object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.9));
+            transition: transform 0.15s ease;
+        }
+        .cap-pin:hover img { transform: scale(1.25); }
+        /* 102 capitals on one screen swamps the ownership colours, so the pins shrink
+           as the view pulls back. The tier class is set on zoomend. */
+        .z-far .cap-pin img, .z-far .cap-dot { width: 16px; height: 16px; }
+        .z-far .cap-dot { width: 11px; height: 11px; margin: 2px; border-width: 1px; }
+        .z-mid .cap-pin img, .z-mid .cap-dot { width: 22px; height: 22px; }
+        .z-mid .cap-dot { width: 14px; height: 14px; margin: 4px; }
+        .cap-dot {
+            display: block; width: 18px; height: 18px; margin: 6px; border-radius: 50%;
+            border: 2px solid rgba(245,240,225,0.85); box-shadow: 0 2px 4px rgba(0,0,0,0.9);
+        }
+
+        /* side panel */
+        .map-side {
+            background: var(--bg-card); border: 1px solid #252530;
+            max-height: calc(100vh - 330px); overflow-y: auto;
+        }
+        .side-section { padding: 1rem 1.1rem; border-bottom: 1px solid #252530; }
+        .side-section:last-child { border-bottom: none; }
+        .side-title {
+            font-family: 'Cinzel', serif; font-size: 0.72rem; letter-spacing: 0.16em;
+            text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.7rem;
+        }
+        .side-search {
+            width: 100%; padding: 0.45rem 0.7rem; background: var(--bg-secondary);
+            border: 1px solid #303035; color: var(--text-primary); font-size: 0.85rem;
+        }
+        .side-search:focus { outline: none; border-color: var(--gold-dark); }
+
+        .toggles { display: flex; flex-direction: column; gap: 0.45rem; }
+        .toggles label { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; color: var(--text-secondary); cursor: pointer; }
+
+        #selected .sel-name { font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--title-cream); }
+        #selected .sel-prov { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.1rem; }
+        #selected .sel-owner { font-size: 0.9rem; color: var(--gold-light); margin-top: 0.15rem; }
+        #selected .sel-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.4rem; }
+        #selected a.sel-link {
+            display: inline-block; margin-top: 0.7rem; font-size: 0.8rem; color: var(--gold-light);
+            text-decoration: none; border: 1px solid #303035; padding: 0.25rem 0.6rem;
+        }
+        #selected a.sel-link:hover { border-color: var(--gold-dark); }
+        #selected .sel-empty { color: var(--text-muted); font-style: italic; font-size: 0.85rem; }
+
+        .faction-list { display: flex; flex-direction: column; gap: 1px; }
+        .faction-row {
+            display: flex; align-items: center; gap: 0.5rem; width: 100%;
+            padding: 0.3rem 0.4rem; background: none; border: none; cursor: pointer;
+            color: var(--text-secondary); font-size: 0.82rem; text-align: left;
+            font-family: inherit;
+        }
+        .faction-row:hover { background: rgba(255,255,255,0.04); color: var(--title-cream); }
+        .faction-row.active { background: rgba(201,162,39,0.14); color: var(--gold-light); }
+        .faction-row .swatch { width: 12px; height: 12px; flex: 0 0 12px; border: 1px solid rgba(0,0,0,0.6); }
+        .faction-row .fname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .faction-row .fcount { color: var(--text-muted); font-size: 0.75rem; }
+
+        .map-note { font-size: 0.75rem; color: var(--text-muted); line-height: 1.5; }
+
+        /* recruitment */
+        .unit-list { margin-top: 0.6rem; max-height: 320px; overflow-y: auto; }
+        .unit-row {
+            display: flex; align-items: baseline; gap: 0.5rem; width: 100%;
+            padding: 0.32rem 0.4rem; background: none; border: none; cursor: pointer;
+            color: var(--text-secondary); font-size: 0.82rem; text-align: left; font-family: inherit;
+        }
+        .unit-row:hover { background: rgba(255,255,255,0.04); color: var(--title-cream); }
+        .unit-row.active { background: rgba(201,162,39,0.16); color: var(--gold-light); }
+        .unit-row .uname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .unit-row .ucount { color: var(--text-muted); font-size: 0.72rem; }
+        .elem {
+            font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase;
+            padding: 0.05rem 0.3rem; border: 1px solid currentColor; opacity: 0.75;
+        }
+        .elem-metal { color: #c9c9d4; } .elem-wood { color: #7fae6a; }
+        .elem-water { color: #6f9fd8; } .elem-fire  { color: #d2705a; }
+        .elem-earth { color: #c2a05a; }
+
+        .sel-units { margin-top: 0.9rem; border-top: 1px solid #252530; padding-top: 0.7rem; }
+        .sel-units h4 {
+            font-family: 'Cinzel', serif; font-size: 0.68rem; letter-spacing: 0.14em;
+            text-transform: uppercase; color: var(--text-muted); margin: 0 0 0.5rem; font-weight: normal;
+        }
+        .sel-unit { margin-bottom: 0.5rem; }
+        .sel-unit .su-top { display: flex; align-items: baseline; gap: 0.4rem; }
+        .sel-unit .su-name { color: var(--text-primary); font-size: 0.84rem; }
+        .sel-unit .su-meta { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.1rem; }
+        .sel-unit .su-scope { color: var(--gold-light); }
+        .sel-unit .su-gate { color: #d2705a; }
+
+        @media (max-width: 1000px) {
+            .map-shell { grid-template-columns: 1fr; }
+            .map-side { max-height: none; }
+            #map { height: 60vh; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="../index.html" class="back-link">← Home</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">190 Expanded Wiki</p>
+        <h1>Map</h1>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="factions.html">Factions</a></li>
+        <li><a href="map.html" class="active">Map</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+</nav>
+
+<main class="map-main">
+    <div class="map-intro">
+        <p>Who holds what at the start of the 190 campaign. Hover a region for its owner, click for detail.</p>
+        <div class="map-stats">
+            <span><b id="stat-regions">-</b> regions</span>
+            <span><b id="stat-factions">-</b> factions</span>
+            <span><b id="stat-capitals">-</b> capitals</span>
+            <span><b id="stat-units">-</b> regional units</span>
+        </div>
+    </div>
+
+    <div class="map-shell">
+        <div id="map"></div>
+
+        <aside class="map-side">
+            <div class="side-section">
+                <div class="side-title">Selected</div>
+                <div id="selected"><p class="sel-empty">Click a region on the map.</p></div>
+            </div>
+
+            <div class="side-section">
+                <div class="side-title">Layers</div>
+                <div class="toggles">
+                    <label><input type="checkbox" id="toggle-regions" checked> Region ownership</label>
+                    <label><input type="checkbox" id="toggle-pins" checked> Faction capitals</label>
+                </div>
+            </div>
+
+            <div class="side-section">
+                <div class="side-title">Recruitment</div>
+                <p class="map-note" style="margin-bottom:0.6rem">
+                    Pick a unit to see every region that unlocks it.
+                </p>
+                <input type="search" class="side-search" id="unit-search" placeholder="Find a unit..." autocomplete="off">
+                <div class="unit-list" id="unit-list"></div>
+            </div>
+
+            <div class="side-section">
+                <div class="side-title">Factions</div>
+                <input type="search" class="side-search" id="faction-search" placeholder="Find a faction, region or province..." autocomplete="off">
+                <div class="faction-list" id="faction-list" style="margin-top:0.6rem"></div>
+            </div>
+
+            <div class="side-section">
+                <p class="map-note" id="map-note"></p>
+            </div>
+        </aside>
+    </div>
+</main>
+
+<footer>
+    <p>
+        Created by Ironic ·
+        <a href="https://steamcommunity.com/id/ironictw2st/myworkshopfiles/?appid=779340">
+            Steam Workshop
+        </a>
+    </p>
+    <p class="ext-links">
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+        <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+        <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data/map_regions.js"></script>
+<script src="data/map_recruitment.js"></script>
+<script src="data/factions.js"></script>
+<script>
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str == null ? '' : String(str);
+        return div.innerHTML;
+    }
+    function normalize(t) {
+        return (t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    }
+
+    const W = MAP_CONFIG.width, H = MAP_CONFIG.height;
+    // CRS.Simple treats the image as a flat pixel plane; Leaflet wants [y, x], and y grows
+    // downward in image space, so rows are mirrored into map space.
+    const bounds = [[0, 0], [H, W]];
+    const toLatLng = (x, y) => [H - y, x];
+
+    // Give the map whatever viewport is left below the masthead, rather than a guessed
+    // constant: the header's height depends on the wordmark's clamp() and on the nav
+    // wrapping, both of which move with the window width.
+    const mapEl = document.getElementById('map');
+    const sideEl = document.querySelector('.map-side');
+    function sizeMap() {
+        // document-space offset, so a resize while scrolled still gets the same answer
+        const top = mapEl.getBoundingClientRect().top + window.scrollY;
+        const h = Math.max(460, Math.round(window.innerHeight - top - 24));
+        mapEl.style.height = h + 'px';
+        sideEl.style.maxHeight = h + 'px';
+    }
+    sizeMap();
+
+    const map = L.map('map', {
+        crs: L.CRS.Simple,
+        minZoom: -3, maxZoom: 1, zoomSnap: 0.25, zoomDelta: 0.5,
+        maxBounds: [[-H * 0.1, -W * 0.1], [H * 1.1, W * 1.1]],
+        attributionControl: false,
+        zoomControl: true,
+    });
+    L.imageOverlay(MAP_CONFIG.image, bounds).addTo(map);
+
+    // Fit to where the regions actually are, not to the whole image: the artwork carries
+    // a wide empty margin of ocean and off-map filler that would otherwise waste the view.
+    const ext = MAP_REGIONS.reduce((a, r) => {
+        r.parts.forEach(p => { const o = p[0];
+            for (let i = 0; i < o.length; i += 2) {
+                if (o[i] < a[0]) a[0] = o[i]; if (o[i] > a[2]) a[2] = o[i];
+                if (o[i + 1] < a[1]) a[1] = o[i + 1]; if (o[i + 1] > a[3]) a[3] = o[i + 1];
+            }});
+        return a;
+    }, [Infinity, Infinity, -Infinity, -Infinity]);
+    const homeView = [toLatLng(ext[0], ext[1]), toLatLng(ext[2], ext[3])];
+    map.fitBounds(homeView, { padding: [10, 10] });
+
+    function setZoomTier() {
+        const z = map.getZoom(), el = map.getContainer();
+        el.classList.toggle('z-far', z < -1.9);
+        el.classList.toggle('z-mid', z >= -1.9 && z < -1.1);
+    }
+    map.on('zoomend', setZoomTier);
+    setZoomTier();
+
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => { sizeMap(); map.invalidateSize(); }, 150);
+    });
+
+    // ---------------------------------------------------------------- layers
+    const regionLayer = L.layerGroup().addTo(map);
+    const pinLayer = L.layerGroup().addTo(map);
+    const shapes = {};        // region key -> L.polygon
+    let selectedKey = null;
+    let focusFaction = null;
+    let focusUnit = null;     // index into RECRUIT_UNITS
+
+    // -------------------------------------------------------------- recruitment
+    // RECRUIT_BY_REGION[key] = [[unitIndex, scopeIndex, {tech|rank|agent}?], ...]
+    const unitRegions = RECRUIT_UNITS.map(() => []);
+    Object.entries(RECRUIT_BY_REGION).forEach(([regionKey, entries]) => {
+        entries.forEach(e => unitRegions[e[0]].push(regionKey));
+    });
+
+    function grantIn(regionKey, unitIdx) {
+        return (RECRUIT_BY_REGION[regionKey] || []).find(e => e[0] === unitIdx) || null;
+    }
+
+    // A grant is only real for the faction in focus if that faction may build the thing
+    // behind it; scope.factions === null means anyone holding the region can.
+    function grantApplies(grant, factionKey) {
+        if (!grant) return false;
+        if (!factionKey) return true;
+        const scope = RECRUIT_SCOPES[grant[1]];
+        return scope.factions === null || scope.factions.indexOf(factionKey) !== -1;
+    }
+
+    function regionOffersFocusUnit(r) {
+        return focusUnit !== null && grantApplies(grantIn(r.key, focusUnit), focusFaction);
+    }
+
+    // faction page ids, so a region can link through to its owner
+    const factionPageId = {};
+    if (typeof FACTION_DATA !== 'undefined') {
+        FACTION_DATA.forEach(f => {
+            if (f.campaign === '190' && !factionPageId[f.faction_key]) factionPageId[f.faction_key] = f.id;
+        });
+    }
+
+    function baseStyle(r) {
+        const f = MAP_FACTION_BY_KEY[r.owner];
+        const colour = f ? f.colour : '#5a5a66';
+
+        // A unit in focus takes over the colouring: the question on screen is no longer
+        // "who owns this" but "can this be raised here", so owner colour would only muddy it.
+        if (focusUnit !== null) {
+            const hot = regionOffersFocusUnit(r);
+            return {
+                color: hot ? '#f0d97a' : colour,
+                weight: hot ? 1.8 : 0.6,
+                opacity: hot ? 0.95 : 0.1,
+                fillColor: hot ? '#c9a227' : colour,
+                fillOpacity: hot ? 0.62 : 0.03,
+            };
+        }
+        const dimmed = focusFaction && r.owner !== focusFaction;
+        return {
+            color: colour,
+            weight: r.isCapital ? 1.6 : 1,
+            opacity: dimmed ? 0.15 : 0.75,
+            fillColor: colour,
+            fillOpacity: dimmed ? 0.04 : (r.owner ? 0.42 : 0.12),
+        };
+    }
+
+    function tooltipHtml(r) {
+        const f = MAP_FACTION_BY_KEY[r.owner];
+        const n = (RECRUIT_BY_REGION[r.key] || []).length;
+        return `<div class="rt-name">${escapeHtml(r.name)}</div>`
+            + (r.province ? `<div class="rt-prov">${escapeHtml(r.province)} province</div>` : '')
+            + `<div class="rt-owner">${escapeHtml(f ? f.name : 'Unowned')}</div>`
+            + (n ? `<div class="rt-prov">${n} unit${n === 1 ? '' : 's'} recruitable</div>` : '')
+            + (r.isCapital ? '<div class="rt-cap">Faction capital</div>' : '');
+    }
+
+    MAP_REGIONS.forEach(r => {
+        // parts -> rings -> flat [x0,y0,...]; ring 0 of a part is its outline, the rest are enclaves
+        const latlngs = r.parts.map(part => part.map(ring => {
+            const pts = [];
+            for (let i = 0; i < ring.length; i += 2) pts.push(toLatLng(ring[i], ring[i + 1]));
+            return pts;
+        }));
+        const poly = L.polygon(latlngs, baseStyle(r));
+        poly.bindTooltip(tooltipHtml(r), { className: 'region-tip', sticky: true });
+        poly.on('mouseover', () => { if (r.key !== selectedKey) poly.setStyle({ fillOpacity: 0.68, weight: 2 }); });
+        poly.on('mouseout', () => { if (r.key !== selectedKey) poly.setStyle(baseStyle(r)); });
+        poly.on('click', () => select(r.key));
+        poly.addTo(regionLayer);
+        shapes[r.key] = poly;
+    });
+
+    MAP_FACTIONS.forEach(f => {
+        f.capitals.forEach(capKey => {
+            const r = MAP_REGIONS.find(x => x.key === capKey);
+            if (!r) return;
+            // two of the 107 factions ship no flag image; they fall back to a colour disc
+            const icon = L.divIcon({
+                className: 'cap-pin',
+                html: `<img src="data/images/flags/${encodeURIComponent(f.key)}_64.png" alt="" loading="lazy"`
+                    + ` onerror="this.replaceWith(Object.assign(document.createElement('span'),`
+                    + `{className:'cap-dot',style:'background:${f.colour}'}))">`,
+                iconSize: [30, 30], iconAnchor: [15, 15],
+            });
+            L.marker(toLatLng(r.centroid[0], r.centroid[1]), { icon, title: f.name })
+                .on('click', () => select(r.key))
+                .addTo(pinLayer);
+        });
+    });
+
+    // -------------------------------------------------------------- selection
+    function select(key) {
+        if (selectedKey && shapes[selectedKey]) {
+            const prev = MAP_REGIONS.find(x => x.key === selectedKey);
+            shapes[selectedKey].setStyle(baseStyle(prev));
+        }
+        selectedKey = key;
+        const r = MAP_REGIONS.find(x => x.key === key);
+        const panel = document.getElementById('selected');
+        if (!r) { panel.innerHTML = '<p class="sel-empty">Click a region on the map.</p>'; return; }
+
+        shapes[key].setStyle({ weight: 3, opacity: 1, fillOpacity: 0.7, color: '#f5f0e1' });
+        shapes[key].bringToFront();
+
+        const f = MAP_FACTION_BY_KEY[r.owner];
+        const pageId = factionPageId[r.owner];
+        panel.innerHTML = `
+            <div class="sel-name">${escapeHtml(r.name)}</div>
+            ${r.province ? `<div class="sel-prov">${escapeHtml(r.province)} province</div>` : ''}
+            <div class="sel-owner">${escapeHtml(f ? f.name : 'Unowned')}</div>
+            <div class="sel-meta">
+                ${r.isCapital ? 'Faction capital · ' : ''}${f ? escapeHtml(f.regions) + (f.regions === 1 ? ' region' : ' regions') + ' at start' : 'no starting owner'}
+            </div>
+            ${pageId ? `<a class="sel-link" href="faction.html?key=${encodeURIComponent(pageId)}">Open faction page →</a>` : ''}
+            ${recruitHtml(r)}`;
+
+        panel.querySelectorAll('[data-unit]').forEach(el => {
+            el.addEventListener('click', () => setUnit(Number(el.dataset.unit)));
+        });
+    }
+
+    function gateText(gate) {
+        if (!gate) return '';
+        const bits = [];
+        if (gate.rank) bits.push(`character rank ${gate.rank}+`);
+        if (gate.tech) bits.push('a technology');
+        if (gate.agent) bits.push(gate.agent.replace(/^3k_/, '').replace(/_/g, ' '));
+        return bits.join(', ');
+    }
+
+    function recruitHtml(r) {
+        const entries = RECRUIT_BY_REGION[r.key] || [];
+        if (!entries.length) return '<div class="sel-units"><h4>Recruitment</h4>'
+            + '<p class="map-note">No regional units unlock here.</p></div>';
+        const rows = entries.map(e => {
+            const u = RECRUIT_UNITS[e[0]];
+            const scope = RECRUIT_SCOPES[e[1]];
+            const gate = gateText(e[2]);
+            const el = u.element ? `<span class="elem elem-${u.element.toLowerCase()}">${escapeHtml(u.element)}</span>` : '';
+            return `<div class="sel-unit">
+                <div class="su-top">${el}<span class="su-name" data-unit="${e[0]}" style="cursor:pointer">${escapeHtml(u.name)}</span></div>
+                <div class="su-meta">${escapeHtml(u.cls || u.caste)}${u.cost ? ' · ' + u.cost + ' gold' : ''}
+                    · <span class="su-scope">${escapeHtml(scope.label)}</span>${gate ? ' · <span class="su-gate">needs ' + escapeHtml(gate) + '</span>' : ''}</div>
+            </div>`;
+        }).join('');
+        return `<div class="sel-units"><h4>Recruitment (${entries.length})</h4>${rows}</div>`;
+    }
+
+    // ----------------------------------------------------------- unit focus
+    function renderUnitList(filter) {
+        const q = normalize(filter);
+        const list = document.getElementById('unit-list');
+        const rows = RECRUIT_UNITS
+            .map((u, i) => [u, i])
+            .filter(([u]) => !q || normalize(u.name).includes(q) || normalize(u.cls).includes(q)
+                             || normalize(u.element).includes(q))
+            .sort((a, b) => a[0].regions - b[0].regions || a[0].name.localeCompare(b[0].name))
+            .map(([u, i]) => `<button class="unit-row${focusUnit === i ? ' active' : ''}" data-unit="${i}">
+                    ${u.element ? `<span class="elem elem-${u.element.toLowerCase()}">${escapeHtml(u.element)}</span>` : ''}
+                    <span class="uname">${escapeHtml(u.name)}</span>
+                    <span class="ucount">${u.regions} region${u.regions === 1 ? '' : 's'}</span>
+                </button>`).join('');
+        list.innerHTML = rows || '<p class="map-note">No unit matches.</p>';
+        list.querySelectorAll('.unit-row').forEach(btn => {
+            btn.addEventListener('click', () => setUnit(focusUnit === Number(btn.dataset.unit)
+                                                        ? null : Number(btn.dataset.unit)));
+        });
+    }
+
+    function setUnit(i) {
+        focusUnit = i;
+        MAP_REGIONS.forEach(r => { if (r.key !== selectedKey) shapes[r.key].setStyle(baseStyle(r)); });
+        renderUnitList(document.getElementById('unit-search').value);
+        if (i === null) return;
+        const hot = MAP_REGIONS.filter(regionOffersFocusUnit);
+        if (!hot.length) return;
+        const all = hot.flatMap(r => r.parts.flatMap(p => p[0]));
+        const xs = all.filter((_, k) => k % 2 === 0), ys = all.filter((_, k) => k % 2 === 1);
+        map.fitBounds([toLatLng(Math.min(...xs), Math.min(...ys)),
+                       toLatLng(Math.max(...xs), Math.max(...ys))], { padding: [50, 50] });
+    }
+
+    // ------------------------------------------------------------ faction list
+    function renderFactionList(filter) {
+        const q = normalize(filter);
+        const list = document.getElementById('faction-list');
+        const rows = MAP_FACTIONS
+            .filter(f => !q || normalize(f.name).includes(q) || normalize(f.key).includes(q))
+            .map(f => `<button class="faction-row${focusFaction === f.key ? ' active' : ''}" data-key="${escapeHtml(f.key)}">
+                    <span class="swatch" style="background:${escapeHtml(f.colour)}"></span>
+                    <span class="fname">${escapeHtml(f.name)}</span>
+                    <span class="fcount">${f.regions}</span>
+                </button>`).join('');
+        list.innerHTML = rows || '<p class="map-note">No faction matches.</p>';
+        list.querySelectorAll('.faction-row').forEach(btn => {
+            btn.addEventListener('click', () => setFocus(btn.dataset.key === focusFaction ? null : btn.dataset.key));
+        });
+    }
+
+    function setFocus(key) {
+        focusFaction = key;
+        MAP_REGIONS.forEach(r => { if (r.key !== selectedKey) shapes[r.key].setStyle(baseStyle(r)); });
+        renderFactionList(document.getElementById('faction-search').value);
+        // with a unit in focus the map is answering "where can this be raised", so picking a
+        // faction narrows that question rather than replacing it - do not fly to their lands
+        if (focusUnit !== null) return;
+        if (key) {
+            const owned = MAP_REGIONS.filter(r => r.owner === key);
+            if (owned.length) {
+                const all = owned.flatMap(r => r.parts.flatMap(p => p[0]));
+                const xs = all.filter((_, i) => i % 2 === 0), ys = all.filter((_, i) => i % 2 === 1);
+                map.fitBounds([toLatLng(Math.min(...xs), Math.min(...ys)),
+                               toLatLng(Math.max(...xs), Math.max(...ys))], { padding: [40, 40] });
+            }
+        } else {
+            map.fitBounds(homeView, { padding: [10, 10] });
+        }
+    }
+
+    // ----------------------------------------------------------------- wiring
+    document.getElementById('stat-regions').textContent = MAP_REGIONS.length;
+    document.getElementById('stat-factions').textContent = MAP_FACTIONS.length;
+    document.getElementById('stat-capitals').textContent = MAP_REGIONS.filter(r => r.isCapital).length;
+    document.getElementById('stat-units').textContent = RECRUIT_UNITS.length;
+    document.getElementById('map-note').textContent =
+        'Region shapes are read from the mod’s own campaign map, so they match the game exactly. '
+        + 'Ownership is the state on turn one of the 190 campaign.';
+
+    document.getElementById('toggle-regions').addEventListener('change', e => {
+        e.target.checked ? map.addLayer(regionLayer) : map.removeLayer(regionLayer);
+    });
+    document.getElementById('toggle-pins').addEventListener('change', e => {
+        e.target.checked ? map.addLayer(pinLayer) : map.removeLayer(pinLayer);
+    });
+
+    const search = document.getElementById('faction-search');
+    search.addEventListener('input', () => {
+        renderFactionList(search.value);
+        const q = normalize(search.value);
+        if (q.length >= 3) {
+            const hit = MAP_REGIONS.find(r => normalize(r.name).includes(q))
+                     || MAP_REGIONS.find(r => normalize(r.province).includes(q));
+            if (hit) { select(hit.key); map.panTo(toLatLng(hit.centroid[0], hit.centroid[1])); }
+        }
+    });
+
+    const unitSearch = document.getElementById('unit-search');
+    unitSearch.addEventListener('input', () => renderUnitList(unitSearch.value));
+
+    renderFactionList('');
+    renderUnitList('');
+</script>
+
+</body>
+</html>

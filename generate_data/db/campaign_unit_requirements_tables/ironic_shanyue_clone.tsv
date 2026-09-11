@@ -1,0 +1,5 @@
+key	building1	building2	religion	resource1	resource2	skill1	skill2	tech1	tech2	must_be_world_leader	minimum_character_rank	agent_subtype	ceo
+#campaign_unit_requirements_tables;5;db/campaign_unit_requirements_tables/ironic_shanyue_clone													
+ironic_unit_requirement_metal_yue_remnant_warriors_shanyue_clone_1	ironic_resource_banditry_shanyue_1									false	0		
+ironic_unit_requirement_wood_yue_tribesmen_shanyue_clone_0	ironic_resource_banditry_shanyue_0									false	0		
+ironic_unit_requirement_wood_yue_tribesmen_shanyue_clone_1	ironic_resource_banditry_shanyue_1									false	0		
