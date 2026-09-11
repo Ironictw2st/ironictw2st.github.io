@@ -57,6 +57,32 @@
             width: 100%;
         }
 
+        .effect-box { flex: 1; min-width: 280px; }
+        .effect-box input { width: 100%; }
+        .effect-note { font-size: 0.75rem; color: var(--text-muted); }
+        .effect-note.unknown { color: #e8a679; }
+
+        /* attribute strip on each card */
+        .attr-strip {
+            display: flex; flex-wrap: wrap; gap: 0.3rem;
+            margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px solid #252530;
+        }
+        .attr {
+            font-size: 0.7rem; padding: 0.1rem 0.4rem;
+            border: 1px solid #2b2b33; color: var(--text-secondary);
+            background: rgba(255,255,255,0.03); white-space: nowrap;
+        }
+        .attr b { color: var(--title-cream); font-weight: 600; }
+        .attr.negative b { color: #e0a0a0; }
+        .attr.sorted { border-color: var(--gold-dark); background: rgba(201,162,39,0.12); }
+        .attr.sorted b { color: var(--gold-light); }
+        .attr-none { font-size: 0.72rem; color: var(--text-muted); font-style: italic; }
+
+        .effect-hit {
+            display: block; margin-top: 0.5rem; font-size: 0.78rem;
+            color: #9bc2e8; border-left: 2px solid #3f5a7a; padding-left: 0.5rem;
+        }
+
         .results-info {
             display: flex;
             justify-content: space-between;
@@ -472,13 +498,27 @@
                     <option value="name">Name (A-Z)</option>
                     <option value="name-desc">Name (Z-A)</option>
                     <option value="element">Element</option>
+                    <optgroup label="Highest attribute first">
+                        <option value="attr:authority">Authority</option>
+                        <option value="attr:cunning">Cunning</option>
+                        <option value="attr:expertise">Expertise</option>
+                        <option value="attr:instinct">Instinct</option>
+                        <option value="attr:resolve">Resolve</option>
+                        <option value="attr:resilience">Resilience</option>
+                    </optgroup>
                 </select>
+            </div>
+            <div class="filter-group effect-box">
+                <label for="effect-filter">Has Effect</label>
+                <input type="search" id="effect-filter" list="effect-options" placeholder="Start typing, e.g. income, morale, replenishment" autocomplete="off">
+                <datalist id="effect-options"></datalist>
             </div>
         </div>
 
         <!-- Results info -->
         <div class="results-info">
             <span class="results-count" id="results-count">Loading...</span>
+            <span class="effect-note" id="effect-note"></span>
             <div class="view-toggle">
                 <button id="grid-view" class="active" title="Grid View">▦</button>
                 <button id="list-view" title="List View">☰</button>
@@ -520,11 +560,68 @@
         let currentUnique = 'all';
         let currentSort = 'name';
         let isListView = false;
+        let currentEffectId = null;   // id into EFFECT_TYPES, or null for "any"
+
+        const ATTRIBUTE_ORDER = ['authority', 'cunning', 'expertise', 'instinct', 'resolve', 'resilience'];
+        const ATTRIBUTE_SHORT = {
+            authority: 'AUT', cunning: 'CUN', expertise: 'EXP',
+            instinct: 'INS', resolve: 'RES', resilience: 'RSL'
+        };
+
+        // label -> effect type, for resolving what was typed into the datalist input
+        const EFFECT_BY_LABEL = {};
+        if (typeof EFFECT_TYPES !== 'undefined') {
+            EFFECT_TYPES.forEach(e => { EFFECT_BY_LABEL[e.label.toLowerCase()] = e; });
+        }
 
         // Initialize
+        function populateEffectOptions() {
+            if (typeof EFFECT_TYPES === 'undefined') return;
+            const list = document.getElementById('effect-options');
+            // most widely shared effects first, so the unfiltered dropdown opens on useful ones
+            const frag = document.createDocumentFragment();
+            EFFECT_TYPES.slice().sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
+                .forEach(e => {
+                    const o = document.createElement('option');
+                    o.value = e.label;
+                    o.label = `${e.count} character${e.count === 1 ? '' : 's'}`;
+                    frag.appendChild(o);
+                });
+            list.appendChild(frag);
+        }
+
+        // Keep the effect and sort in the URL so a useful search can be shared or bookmarked.
+        function applyUrlState() {
+            const params = new URLSearchParams(window.location.search);
+            const sort = params.get('sort');
+            if (sort && document.querySelector(`#sort-filter option[value="${CSS.escape(sort)}"]`)) {
+                currentSort = sort;
+                document.getElementById('sort-filter').value = sort;
+            }
+            const effect = (params.get('effect') || '').trim().toLowerCase();
+            if (effect && EFFECT_BY_LABEL[effect]) {
+                currentEffectId = EFFECT_BY_LABEL[effect].id;
+                document.getElementById('effect-filter').value = EFFECT_BY_LABEL[effect].label;
+                document.getElementById('effect-note').textContent =
+                    `${EFFECT_BY_LABEL[effect].count} characters have this effect`;
+            }
+        }
+
+        function updateUrlState() {
+            const params = new URLSearchParams();
+            if (currentSort !== 'name') params.set('sort', currentSort);
+            if (currentEffectId !== null && EFFECT_TYPE_BY_ID[currentEffectId]) {
+                params.set('effect', EFFECT_TYPE_BY_ID[currentEffectId].label);
+            }
+            const qs = params.toString();
+            history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             updateStats();
             updateElementCounts();
+            populateEffectOptions();
+            applyUrlState();
             renderCharacters();
             setupEventListeners();
             attachCharacterNavigation();
@@ -578,6 +675,30 @@
             // Sort
             document.getElementById('sort-filter').addEventListener('change', (e) => {
                 currentSort = e.target.value;
+                updateUrlState();
+                renderCharacters();
+            });
+
+            // Effect filter. The datalist gives native typeahead over the whole list;
+            // a value only filters once it matches an effect exactly.
+            const effectInput = document.getElementById('effect-filter');
+            const effectNote = document.getElementById('effect-note');
+            effectInput.addEventListener('input', () => {
+                const typed = effectInput.value.trim().toLowerCase();
+                if (!typed) {
+                    currentEffectId = null;
+                    effectNote.textContent = '';
+                    effectNote.className = 'effect-note';
+                } else if (EFFECT_BY_LABEL[typed]) {
+                    currentEffectId = EFFECT_BY_LABEL[typed].id;
+                    effectNote.textContent = `${EFFECT_BY_LABEL[typed].count} characters have this effect`;
+                    effectNote.className = 'effect-note';
+                } else {
+                    currentEffectId = null;
+                    effectNote.textContent = 'Pick an effect from the list to filter';
+                    effectNote.className = 'effect-note unknown';
+                }
+                updateUrlState();
                 renderCharacters();
             });
 
@@ -669,13 +790,28 @@
 
             // Unique filter
             if (currentUnique !== 'all') {
-                filtered = filtered.filter(c => 
+                filtered = filtered.filter(c =>
                     currentUnique === 'unique' ? c.is_unique : !c.is_unique
                 );
             }
 
+            // Effect filter
+            if (currentEffectId !== null) {
+                filtered = filtered.filter(c => (c.effects || []).includes(currentEffectId));
+            }
+
             // Sort
+            const attrSort = currentSort.startsWith('attr:') ? currentSort.slice(5) : null;
             filtered.sort((a, b) => {
+                if (attrSort) {
+                    const av = (a.attributes || {})[attrSort];
+                    const bv = (b.attributes || {})[attrSort];
+                    // characters without the attribute sort last rather than as zero
+                    if (av === undefined && bv === undefined) return a.display_name.localeCompare(b.display_name);
+                    if (av === undefined) return 1;
+                    if (bv === undefined) return -1;
+                    return bv - av || a.display_name.localeCompare(b.display_name);
+                }
                 switch (currentSort) {
                     case 'name':
                         return a.display_name.localeCompare(b.display_name);
@@ -689,6 +825,17 @@
             });
 
             return filtered;
+        }
+
+        function attrStripHtml(char) {
+            const attrs = char.attributes || {};
+            const sorted = currentSort.startsWith('attr:') ? currentSort.slice(5) : null;
+            const parts = ATTRIBUTE_ORDER
+                .filter(a => attrs[a] !== undefined)
+                .map(a => `<span class="attr${a === sorted ? ' sorted' : ''}${attrs[a] < 0 ? ' negative' : ''}">`
+                    + `${ATTRIBUTE_SHORT[a]} <b>${attrs[a] > 0 ? '+' : ''}${attrs[a]}</b></span>`);
+            if (!parts.length) return '<div class="attr-strip"><span class="attr-none">No attribute bonuses</span></div>';
+            return `<div class="attr-strip">${parts.join('')}</div>`;
         }
 
         function escapeHtml(str) {
@@ -759,6 +906,9 @@
                     ` : ''}
                     ${char.title ? `<p class="character-title">${escapeHtml(char.title)}</p>` : ''}
                     ${char.description ? `<p class="character-description">${escapeHtml(char.description)}</p>` : ''}
+                    ${currentEffectId !== null && EFFECT_TYPE_BY_ID[currentEffectId]
+                        ? `<span class="effect-hit">${escapeHtml(EFFECT_TYPE_BY_ID[currentEffectId].label)}</span>` : ''}
+                    ${attrStripHtml(char)}
                     <div class="character-meta">
                         ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
                         ${!char.is_male ? '<span class="meta-tag female">Female</span>' : '<span class="meta-tag male">Male</span>'}

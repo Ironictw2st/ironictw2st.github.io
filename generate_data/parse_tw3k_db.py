@@ -64,6 +64,26 @@ def resolve_name_key(name_key):
     return NAME_KEY_OVERRIDES.get(name_key, name_key)
 
 
+# The six character attributes are their own effect keys, so the sortable numbers on the
+# Characters page are summed from these rather than parsed out of the display text.
+ATTRIBUTE_KEYS = {
+    "3k_main_effect_character_attribute_authority_mod": "authority",
+    "3k_main_effect_character_attribute_cunning_mod": "cunning",
+    "3k_main_effect_character_attribute_expertise_mod": "expertise",
+    "3k_main_effect_character_attribute_instinct_mod": "instinct",
+    "3k_main_effect_character_attribute_resolve_mod": "resolve",
+    "3k_main_effect_character_num_lives": "resilience",
+}
+ATTRIBUTE_ORDER = ["authority", "cunning", "expertise", "instinct", "resolve", "resilience"]
+
+
+def _effect_value(value):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return 0.0
+
+
 def _first(row, *cols):
     for c in cols:
         v = _s(row.get(c, ""))
@@ -368,6 +388,7 @@ def main():
         a_desc = ""
         a_icon_path = ""
         a_effects_out = []
+        a_effects_struct = []
 
         def _populate_from_node(node_key: str):
             nonlocal a_node_key, a_title, a_desc, a_icon_path, a_effects_out
@@ -395,6 +416,9 @@ def main():
                     if not line:
                         continue
                     a_effects_out.append({"name": line, "desc": ""})
+                    # kept for the Characters page index, stripped back out before
+                    # character_details.js is written
+                    a_effects_struct.append((eff_key, val))
 
         # PRIMARY: CEO -> threshold -> node
         if a_threshold:
@@ -418,6 +442,7 @@ def main():
             "description": a_desc,
             "icon_path": a_icon_path,
             "effects": a_effects_out,
+            "effects_struct": a_effects_struct,
         }
         
         print("EQUIP RESOLVE", category_name, "ceo=", akey, "threshold=", a_threshold, "node=", a_node_key, "icon=", a_icon_path)
@@ -596,7 +621,7 @@ def main():
         # Get skill set for this character template
         skill_set = template_to_skill_set.get(key, "")
 
-        characters.append({
+        char_record = {
             "key": key,
             "faction_leader_of": template_to_leaders.get(key, []),
             "name_key": char_name_key,
@@ -618,12 +643,14 @@ def main():
             "death_year": "???",
             "traits": trait_ceos,
             "skill_set": skill_set,
-        })
+        }
+        characters.append(char_record)
 
         # =========================
         # Character Details (effects + portrait + equipment)
         # =========================
         effects_out = []
+        effects_struct = []   # (effect_key, value) for the Characters page index
 
         if ceo_node_key:
             node_data = ceo_nodes.get(ceo_node_key, {})
@@ -638,6 +665,7 @@ def main():
                     if not line:
                         continue
                     effects_out.append({"name": line, "desc": ""})
+                    effects_struct.append((eff_key, val))
 
         # Portrait
         art_set_override = _s(template.get("art_set_override", ""))
@@ -664,8 +692,26 @@ def main():
                     "icon_path": anc_def.get("icon_path", ""),
                     "effects": anc_def.get("effects", []),
                 }
+                # equipment counts toward the sortable numbers; the structured form stays
+                # out of character_details.js, which only needs the display lines
+                effects_struct.extend(anc_def.get("effects_struct", []))
 
         has_equipment = bool(equipment_data)
+
+        # Index for the Characters page: attribute totals plus the set of other effect keys.
+        attributes = {}
+        other_keys = set()
+        for eff_key, val in effects_struct:
+            attr = ATTRIBUTE_KEYS.get(eff_key)
+            if attr:
+                attributes[attr] = attributes.get(attr, 0.0) + _effect_value(val)
+            else:
+                other_keys.add(eff_key)
+        char_record["attributes"] = {
+            a: int(attributes[a]) if float(attributes[a]).is_integer() else round(attributes[a], 2)
+            for a in ATTRIBUTE_ORDER if attributes.get(a)
+        }
+        char_record["_effect_keys"] = sorted(other_keys)   # swapped for ids once the table is built
 
         if effects_out or portrait_url or has_equipment:
             character_details[key] = {
@@ -680,6 +726,48 @@ def main():
             }
 
     characters.sort(key=lambda x: x["display_name"])
+
+    # ------------------------------------------------------------------
+    # Effect index for the Characters page.
+    # One entry per non-attribute effect key that reaches at least one character, so the
+    # list page can filter by effect without loading character_details.js (4 MB).
+    # ------------------------------------------------------------------
+    # Group by LABEL, not by effect key. The same wording is often delivered by several keys
+    # (satisfaction has 8, public order 4), and somebody filtering for "income from all sources"
+    # wants every character who gets it, not just those on one of the two keys behind it.
+    keys_by_label = defaultdict(set)
+    label_display = {}
+    for c in characters:
+        for k in c.get("_effect_keys", []):
+            _raw, label = resolve_effect_loc(k, effects_loc_kv)
+            if not label:
+                continue   # nothing to show in the control, so nothing to filter on
+            low = label.lower()
+            keys_by_label[low].add(k)
+            label_display.setdefault(low, label)
+
+    effect_types = [{"label": label_display[low], "keys": sorted(ks)} for low, ks in keys_by_label.items()]
+    effect_types.sort(key=lambda e: e["label"].lower())
+    group_id_by_key = {}
+    for i, e in enumerate(effect_types):
+        e["id"] = i
+        for k in e["keys"]:
+            group_id_by_key[k] = i
+
+    for c in characters:
+        c["effects"] = sorted({group_id_by_key[k] for k in c.pop("_effect_keys", []) if k in group_id_by_key})
+
+    group_counts = defaultdict(int)
+    for c in characters:
+        for i in c["effects"]:
+            group_counts[i] += 1
+    for e in effect_types:
+        e["count"] = group_counts[e["id"]]
+
+    with_attributes = sum(1 for c in characters if c.get("attributes"))
+    print(f"  Effect index: {len(effect_types)} effect types, "
+          f"{sum(len(c['effects']) for c in characters)} character-effect links")
+    print(f"  With attribute totals: {with_attributes}")
 
     with_titles = sum(1 for c in characters if c["title"])
     with_desc = sum(1 for c in characters if c["description"])
@@ -716,16 +804,40 @@ def main():
     print("Generating output files...")
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
+    effect_types_json = json.dumps(
+        [{"id": e["id"], "label": e["label"], "count": e["count"], "keys": e["keys"]} for e in effect_types],
+        indent=2, ensure_ascii=False)
+
+    def _compact_index_fields(js):
+        """
+        indent=2 puts every effect id and attribute on its own line, which adds about
+        400 KB to a file the Characters page loads up front. Collapse those two fields
+        onto one line each; everything else keeps the readable formatting.
+        """
+        js = re.sub(r'"(effects|traits|faction_leader_of)": \[\s*\n\s*([^\[\]]*?)\s*\n\s*\]',
+                    lambda m: '"%s": [%s]' % (m.group(1), " ".join(m.group(2).split())), js)
+        js = re.sub(r'"attributes": \{\s*\n\s*([^{}]*?)\s*\n\s*\}',
+                    lambda m: '"attributes": {%s}' % " ".join(m.group(1).split()), js)
+        return js
+
     js_output = f"""// Auto-generated character data for 190 Expanded Wiki
 // Total characters: {len(characters)}
+// Effect types: {len(effect_types)}
 
-const CHARACTER_DATA = {json.dumps(characters, indent=2, ensure_ascii=False)};
+const CHARACTER_DATA = {_compact_index_fields(json.dumps(characters, indent=2, ensure_ascii=False))};
 
 const CHARACTER_LOOKUP = {{}};
 CHARACTER_DATA.forEach(char => {{ CHARACTER_LOOKUP[char.name_key] = char; }});
 
 const CHARACTER_BY_KEY = {{}};
 CHARACTER_DATA.forEach(char => {{ CHARACTER_BY_KEY[char.key] = char; }});
+
+// Effect index: char.effects holds ids into this table. Attribute effects are not listed
+// here, because they are already summed into char.attributes.
+const EFFECT_TYPES = {effect_types_json};
+
+const EFFECT_TYPE_BY_ID = {{}};
+EFFECT_TYPES.forEach(e => {{ EFFECT_TYPE_BY_ID[e.id] = e; }});
 
 const CHARACTERS_BY_ELEMENT = {{
   fire: CHARACTER_DATA.filter(c => c.element === 'fire'),

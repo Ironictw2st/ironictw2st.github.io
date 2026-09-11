@@ -58,6 +58,14 @@ rather than writing an empty file.
   move a faction. New factions are appended automatically.
 - `factions_report.txt` — data-quality notes from the last faction run (placeholder descriptions, missing
   flags/icons, factions without unique features).
+- `characters.js` also carries the Characters page's effect index: `char.attributes` holds the six
+  attribute totals summed from the career title plus starting equipment, and `char.effects` holds ids
+  into `EFFECT_TYPES`. That index is grouped by effect **label**, not by effect key, because the same
+  wording is often delivered by several keys (satisfaction by 8, public order by 4) and a filter
+  should find every character with the effect. Attribute effects are deliberately absent from
+  `EFFECT_TYPES`, since they are already numbers. Traits are excluded from the totals because
+  `pick_traits_for_stage()` fills a character to three traits at random when their stage defines
+  fewer, so trait numbers would be fiction for generic characters.
 - `../total_war/data/roadmap.js` — the Roadmap page's content. **Hand-maintained, not generated**;
   edit it directly. One item is flagged `computed` so the page appends the live list of Han factions
   that still have no mechanic, read from `factions.js`.

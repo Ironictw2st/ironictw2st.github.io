@@ -11,6 +11,11 @@
 - factions_gathering: 24
 - family_relationships: 2348
 
+## Effect index (Characters page filter)
+
+- 367 effect groups, 8058 links, 1645 characters with attribute totals
+- index is consistent
+
 ## Duplicate template keys
 
 - none
