@@ -40,6 +40,31 @@ pushes into the entry that has notes, and rebuilds each body from an HTML allow-
 `changelog.html` injects it with `innerHTML`. If Steam changes its layout the script fails loudly
 rather than writing an empty file.
 
+`build_map.py` is separate too: it reads the mod's campaign map art rather than the db tables, so
+run it only when a region's shape or its turn-one owner changes.
+
+```
+python build_map.py                 # -> total_war/data/map_regions.js + data/images/map/campaign_map.webp
+python build_map.py --tolerance N   # Douglas-Peucker tolerance in pixels (default 2.0)
+python build_map.py --no-image      # re-trace the polygons without re-exporting the base map
+```
+
+It decodes `3k_main_lookup.tga` (an uncompressed colour-mapped TGA, one 16-bit palette index per
+pixel) into a region-id array, matches each palette colour to a row in `regions_tables`, then traces
+the outlines itself: run-length union-find for connected parts, crack following around each part,
+enclave detection so a region that wraps another does not swallow it, and Douglas-Peucker to
+simplify. `scipy`/`shapely`/`cv2` are not installed, so all of that is hand-rolled here.
+
+Which regions appear is decided by data, not by name: a region is drawn only if it has a row in
+`start_pos_regions_tables` for the 190 campaign, which excludes sea and river zones for free.
+Owners resolve through `start_pos_factions_tables` (`owning_faction` is a numeric id). Faction
+colours come from `faction_banners_tables.primary_hex` where there is a row, otherwise from the
+dominant colour of the faction's own flag image, otherwise a generated fallback.
+
+The run self-checks: it compares every traced polygon's area against its mask pixel count, confirms
+each centroid falls inside its own region, and lists in `last_run_map.json` any start-position region
+that produced no shape at all (seven do, in the far south, because the lookup has no pixels for them).
+
 `family_tree/family_extractor.py` is separate and hand-fed (`starter.xlsx` + lua); it is not part of the sync.
 
 ## Layout
@@ -69,6 +94,10 @@ rather than writing an empty file.
 - `../total_war/data/roadmap.js` — the Roadmap page's content. **Hand-maintained, not generated**;
   edit it directly. One item is flagged `computed` so the page appends the live list of Han factions
   that still have no mechanic, read from `factions.js`.
+- `../total_war/data/map_regions.js` — the Map page's polygons, written by `build_map.py`. Region
+  outlines are flat `[x0,y0,x1,y1,...]` rings in source-image pixels, grouped `parts -> rings` so the
+  first ring of a part is its outline and the rest are its enclaves, which is the shape `L.polygon`
+  wants. The Map page is the only consumer.
 - `last_run_*.json`, `last_audit.json` — counts from the last run, used by the audit to show deltas.
 
 ## Campaigns

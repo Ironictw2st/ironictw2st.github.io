@@ -1,0 +1,21 @@
+{
+  "regions": 231,
+  "owned": 220,
+  "capitals": 102,
+  "factions": 107,
+  "paletteResolved": 318,
+  "paletteUsed": 300,
+  "points": 7834,
+  "holes": 2,
+  "dataMB": 0.13,
+  "areaWarnings": 0,
+  "noShape": [
+    "3k_dlc06_jiuzhen_capital",
+    "3k_dlc06_jiuzhen_resource_1",
+    "3k_main_gaoliang_resource_1",
+    "3k_main_hepu_capital",
+    "3k_main_hepu_resource_1",
+    "3k_main_hepu_resource_2",
+    "3k_main_jiaozhi_capital"
+  ]
+}
