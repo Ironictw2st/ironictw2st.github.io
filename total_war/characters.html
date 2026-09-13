@@ -845,21 +845,17 @@
             return div.innerHTML;
         }
 
+        // The tables carry a birth year but no death year, so this is a birth date and an age,
+        // not a lifespan. `age_at_start` is null for the 310 characters born after 190, who are
+        // simply not on the map when the campaign opens - saying so is the point, since a birth
+        // year in the 200s otherwise reads as an error.
         function formatLifespan(char) {
             const b = char.birth_year;
-            const d = char.death_year;
-
-            // No data
-            if (!b && !d) return '';
-
-            // Both present: "169–199 AD"
-            if (b && d) return `${b}–${d} AD`;
-
-            // Only birth: "Born 169 AD"
-            if (b) return `Born ${b} AD`;
-
-            // Only death: "Died 199 AD"
-            return `Died ${d} AD`;
+            if (!b) return '';
+            const age = char.age_at_start;
+            return age === null || age === undefined
+                ? `Born ${b} AD · after the campaign starts`
+                : `Born ${b} AD · aged ${age} in 190`;
         }
 
 
@@ -913,7 +909,7 @@
                     <div class="character-meta">
                         ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
                         ${!char.is_male ? '<span class="meta-tag female">Female</span>' : '<span class="meta-tag male">Male</span>'}
-                        ${(char.birth_year || char.death_year) ? `<span class="meta-tag birth-year">${escapeHtml(formatLifespan(char))}</span>` : ''}
+                        ${char.birth_year ? `<span class="meta-tag birth-year">${escapeHtml(formatLifespan(char))}</span>` : ''}
                     </div>
                 </article>
             `).join('');

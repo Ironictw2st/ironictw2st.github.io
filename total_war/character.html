@@ -2171,14 +2171,14 @@
       // Equipment (ancillaries): armour, weapon, mount, accessory, follower
       const equipment = details?.equipment || {};
 
+      // birth year plus age at the campaign opening; there is no death year in the tables,
+      // and the "– ???" that used to stand in for one was only ever a placeholder
       let dateStr = '';
       if (char.birth_year) {
-        dateStr = `${char.birth_year} AD`;
-        if (char?.death_year) {
-          dateStr += ` – ${char.death_year} AD`;
-        } else {
-          dateStr += ' – ???';
-        }
+        const age = char.age_at_start;
+        dateStr = (age === null || age === undefined)
+          ? `Born ${char.birth_year} AD · not yet born when the campaign begins`
+          : `Born ${char.birth_year} AD · aged ${age} at the start of the 190 campaign`;
       }
 
       const root = document.getElementById('character-root');

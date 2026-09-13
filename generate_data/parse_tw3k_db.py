@@ -40,6 +40,26 @@ from tw3k_common import _s, _dedupe_preserve
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(SCRIPT_DIR, "db")
+
+# Hand-maintained corrections for characters the merged tables get wrong; see
+# character_overrides.json. Loaded here so a typo in the file fails at import.
+_OVERRIDES_PATH = os.path.join(SCRIPT_DIR, "character_overrides.json")
+_OVERRIDES = json.load(open(_OVERRIDES_PATH, encoding="utf-8")) if os.path.exists(_OVERRIDES_PATH) else {}
+OVERRIDE_RENAME = _OVERRIDES.get("rename", {})
+OVERRIDE_HIDE = set(_OVERRIDES.get("hide", {}))
+
+# The year the 190 campaign opens. Characters born after it are not on the map at the start,
+# which is the honest thing to say about a birth year in the 200s rather than leaving a
+# reader to assume the wiki has it wrong - the most common report in #website-feedback.
+CAMPAIGN_START_YEAR = 190
+
+
+def _age_at_start(birth_year):
+    """Years old at the opening of the 190 campaign, or None if born after it."""
+    if not str(birth_year).isdigit():
+        return None
+    age = CAMPAIGN_START_YEAR - int(birth_year)
+    return age if age >= 0 else None
 TEXT_ROOT = os.path.join(SCRIPT_DIR, "text")
 SITE_DATA = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "total_war", "data"))
 
@@ -528,6 +548,14 @@ def main():
         family_name = names_lookup.get(family_name_id, "")
         courtesy_name = names_lookup.get(clan_name_id, "")
 
+        # hand-maintained corrections; see character_overrides.json for why each exists
+        if key in OVERRIDE_HIDE:
+            continue
+        _ov = OVERRIDE_RENAME.get(key)
+        if _ov:
+            forename = _ov.get("forename", forename)
+            family_name = _ov.get("family_name", family_name)
+
         forename_alt = alt_names_lookup.get(forename_id, "")
         family_name_alt = alt_names_lookup.get(family_name_id, "")
         courtesy_name_alt = alt_names_lookup.get(clan_name_id, "")
@@ -640,7 +668,10 @@ def main():
             "is_male": _s(template.get("is_male", "true")).lower() == "true",
             "is_unique": computed_is_unique,
             "birth_year": birth_year,
-            "death_year": "???",
+            # age_at_start is None when the character is not yet born in 190; the pages use
+            # that to say so outright. There is no death year anywhere in the tables, so the
+            # field that used to carry the literal "???" is gone rather than rendered.
+            "age_at_start": _age_at_start(birth_year),
             "traits": trait_ceos,
             "skill_set": skill_set,
         }

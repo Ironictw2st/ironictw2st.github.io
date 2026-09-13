@@ -51,7 +51,8 @@ const ROADMAP_DATA = [
         items: [
           "Liu Pan's mechanic",
           "Vassal Contracts",
-          "Imperial Succession"
+          "Imperial Succession",
+          { text: "Offspring Raising", note: "Shape your children as they grow" }
         ]
       }
     ]
