@@ -30,7 +30,9 @@ LAST = os.path.join(SCRIPT_DIR, "last_audit.json")
 PAGES = ["index.html", "total_war/index.html", "total_war/factions.html", "total_war/faction.html",
          "total_war/map.html",
          "total_war/characters.html", "total_war/character.html", "total_war/guides.html",
-         "total_war/roadmap.html", "total_war/changelog.html"]
+         "total_war/roadmap.html", "total_war/changelog.html",
+         "tools/index.html", "tools/mod-manager.html", "tools/script-extender.html",
+         "tools/se-api.html"]
 
 
 def read(path):

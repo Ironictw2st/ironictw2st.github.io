@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>se.* API Reference | 190 Expanded Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scripting reference for the se.* Lua API added by the TK Script Extender to Total War: Three Kingdoms - conventions, every function signature, worked recipes and troubleshooting.">
+    <link rel="stylesheet" href="../total_war/styles/tw3k.css">
+    <link rel="stylesheet" href="styles/tools.css">
+    <style>
+        main { max-width: 1400px; }
+
+        .api-layout {
+            display: grid;
+            grid-template-columns: 290px minmax(0, 1fr);
+            gap: 2.5rem;
+            align-items: start;
+        }
+
+        /* ---------- sidebar ---------- */
+
+        .api-side {
+            position: sticky;
+            top: 4.5rem;
+            max-height: calc(100vh - 6rem);
+            display: flex;
+            flex-direction: column;
+            background: var(--bg-card);
+            border: 1px solid #252530;
+            border-top: 3px solid var(--gold-dark);
+        }
+
+        .api-search { padding: 0.9rem; border-bottom: 1px solid #252530; }
+
+        .api-search input {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            background: var(--bg-secondary);
+            border: 1px solid #303035;
+            color: var(--text-primary);
+            font-size: 0.88rem;
+        }
+
+        .api-search input:focus { outline: none; border-color: var(--gold-dark); }
+
+        .api-search .hits {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            min-height: 1em;
+        }
+
+        .api-toc {
+            overflow-y: auto;
+            padding: 0.5rem 0 1rem;
+            scrollbar-width: thin;
+        }
+
+        .api-toc a {
+            display: block;
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.35;
+            padding: 0.32rem 0.9rem 0.32rem 0.9rem;
+            border-left: 2px solid transparent;
+        }
+
+        .api-toc a:hover { color: var(--gold-light); background: var(--bg-card-hover); }
+
+        .api-toc a.lvl2 {
+            font-family: 'Cinzel', serif;
+            font-size: 0.78rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--title-cream);
+            margin-top: 0.6rem;
+        }
+
+        .api-toc a.lvl3 { padding-left: 1.5rem; }
+
+        .api-toc a.lvl4 {
+            padding-left: 2.3rem;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        .api-toc a.current {
+            color: var(--gold-light);
+            border-left-color: var(--gold-primary);
+            background: var(--bg-card-hover);
+        }
+
+        .api-toc a[hidden] { display: none; }
+
+        /* ---------- content ---------- */
+
+        .api-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid #252530;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .api-meta a { color: var(--gold-light); text-decoration: none; }
+        .api-meta a:hover { text-decoration: underline; }
+
+        .api-body h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.4rem;
+            color: var(--title-cream);
+            letter-spacing: 0.03em;
+            margin: 3rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #252530;
+            scroll-margin-top: 5rem;
+        }
+
+        .api-body h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            color: var(--gold-light);
+            margin: 2.25rem 0 0.75rem;
+            scroll-margin-top: 5rem;
+        }
+
+        .api-body h4 {
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 1.6rem 0 0.5rem;
+            padding: 0.45rem 0.7rem;
+            background: var(--bg-card);
+            border-left: 3px solid var(--gold-dark);
+            scroll-margin-top: 5rem;
+        }
+
+        .api-body h4 code {
+            background: none;
+            border: none;
+            padding: 0;
+            color: var(--gold-light);
+            white-space: normal;
+        }
+
+        .api-body h1 { display: none; }
+
+        .api-body p { margin-bottom: 0.9rem; color: var(--text-secondary); }
+        .api-body a { color: var(--gold-light); text-decoration: none; }
+        .api-body a:hover { text-decoration: underline; }
+        .api-body ul, .api-body ol { margin: 0 0 1rem 1.2rem; color: var(--text-secondary); }
+        .api-body li { margin-bottom: 0.4rem; }
+        .api-body strong { color: var(--text-primary); }
+        .api-body hr { border: none; border-top: 1px solid #1c1c22; margin: 2rem 0; }
+
+        .anchor {
+            float: right;
+            margin-left: 0.5rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            opacity: 0;
+            transition: opacity 0.15s ease;
+            font-family: 'Segoe UI', sans-serif;
+            font-weight: 400;
+        }
+
+        .api-body h2:hover .anchor,
+        .api-body h3:hover .anchor,
+        .api-body h4:hover .anchor { opacity: 1; }
+
+        .anchor:hover { color: var(--gold-light); }
+
+        /* ---------- lua highlighting ---------- */
+
+        .tok-kw { color: #c9a227; }
+        .tok-str { color: #8fb98f; }
+        .tok-com { color: #6a6a74; font-style: italic; }
+        .tok-num { color: #c58fb9; }
+
+        /* ---------- fallback ---------- */
+
+        .api-missing {
+            border: 1px solid #252530;
+            border-left: 3px solid var(--red-accent);
+            background: var(--bg-card);
+            padding: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 1000px) {
+            /* minmax(0,...) so the single column may shrink below its content's
+               min-content width instead of stretching the page. */
+            .api-layout { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+            .api-side { position: static; max-height: none; }
+            .api-toc { max-height: 45vh; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="index.html" class="back-link">← Tools</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">TK Script Extender</p>
+        <h1>se.* API Reference</h1>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../total_war/factions.html">Factions</a></li>
+        <li><a href="../total_war/map.html">Map</a></li>
+        <li><a href="../total_war/characters.html">Characters</a></li>
+        <li><a href="../total_war/guides.html">Guides</a></li>
+        <li><a href="../total_war/roadmap.html">Roadmap</a></li>
+        <li><a href="../total_war/changelog.html">Changelog</a></li>
+        <li><a href="index.html" class="active">Tools</a></li>
+    </ul>
+</nav>
+
+<main>
+    <nav class="tool-subnav">
+        <a href="index.html">Overview</a>
+        <a href="mod-manager.html">Mod Manager</a>
+        <a href="script-extender.html">Script Extender</a>
+        <a href="se-api.html" class="active">se.* API Reference</a>
+    </nav>
+
+    <div class="api-layout">
+        <aside class="api-side">
+            <div class="api-search">
+                <input type="search" id="api-search" placeholder="Search functions and sections…"
+                       aria-label="Search the API reference" autocomplete="off">
+                <div class="hits" id="api-hits"></div>
+            </div>
+            <nav class="api-toc" id="api-toc" aria-label="Contents"></nav>
+        </aside>
+
+        <div>
+            <div class="api-meta" id="api-meta"></div>
+            <article class="api-body" id="api-body">
+                <div class="api-missing">
+                    Loading the reference… if this message stays, <code>total_war/data/se_docs.js</code>
+                    has not been generated. Run
+                    <code>python generate_data/fetch_tool_docs.py</code>, or read
+                    <a href="https://github.com/Ironictw2st/TK-ScriptExtender/blob/master/docs/SCRIPTING.md" target="_blank" rel="noopener">SCRIPTING.md on GitHub</a>.
+                </div>
+            </article>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Created by Ironic · <a href="https://steamcommunity.com/id/ironictw2st/myworkshopfiles/?appid=779340">Steam Workshop</a></p>
+    <p class="ext-links">
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+        <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+        <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+</footer>
+
+<script src="../total_war/data/tools.js"></script>
+<script src="../total_war/data/se_docs.js"></script>
+<script src="scripts/tool_release.js"></script>
+<script>
+/* The section html in SE_DOCS is a pre-sanitised allow-list built by
+   generate_data/fetch_tool_docs.py, the same arrangement changelog.html uses for the Steam
+   change notes. Everything this page adds on top is escaped here. */
+
+const LUA_KEYWORDS = /\b(and|break|do|else|elseif|end|false|for|function|goto|if|in|local|nil|not|or|repeat|return|then|true|until|while|self)\b/g;
+
+/* Highlight Lua inside <pre><code class="lang-lua">, working on text nodes only so the
+   already-escaped markup around them is never re-parsed. */
+function highlightLua(root) {
+    root.querySelectorAll('pre > code.lang-lua').forEach(block => {
+        const src = block.textContent;
+        const out = [];
+        let i = 0;
+
+        // one pass: comments, strings, then keywords/numbers in the gaps
+        const re = /--\[\[[\s\S]*?\]\]|--[^\n]*|"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\[\[[\s\S]*?\]\]/g;
+        let m;
+        const plain = (s) => escapeHtml(s)
+            .replace(LUA_KEYWORDS, '<span class="tok-kw">$1</span>')
+            .replace(/\b(\d+\.?\d*)\b/g, '<span class="tok-num">$1</span>');
+
+        while ((m = re.exec(src)) !== null) {
+            out.push(plain(src.slice(i, m.index)));
+            const cls = m[0].startsWith('--') ? 'tok-com' : 'tok-str';
+            out.push('<span class="' + cls + '">' + escapeHtml(m[0]) + '</span>');
+            i = m.index + m[0].length;
+        }
+        out.push(plain(src.slice(i)));
+        block.innerHTML = out.join('');
+    });
+}
+
+function renderMeta(doc) {
+    const info = toolInfo('script_extender');
+    const bits = [];
+    if (info.version) {
+        bits.push('<span class="ver-chip">DLL ' + escapeHtml(info.version) + '</span>');
+    }
+    bits.push(`Generated from <code>docs/${escapeHtml(doc.file)}</code> &mdash; `
+        + `<a href="${escapeHtml(doc.source)}" target="_blank" rel="noopener">source on GitHub</a>`);
+    bits.push('<a href="script-extender.html">What the script extender is</a>');
+    document.getElementById('api-meta').innerHTML = bits.join('<span>·</span>');
+}
+
+function renderBody(doc) {
+    const body = document.getElementById('api-body');
+    const html = doc.sections.map(s => {
+        if (!s.title) return s.html;                       // lede before the first heading
+        const h = Math.min(Math.max(s.level, 1), 4);
+        const anchor = '<a class="anchor" href="#' + escapeHtml(s.id) + '" aria-label="Link to this section">#</a>';
+        return '<h' + h + ' id="' + escapeHtml(s.id) + '">' + s.title + anchor + '</h' + h + '>' + s.html;
+    }).join('');
+    body.innerHTML = html;
+    highlightLua(body);
+}
+
+function renderToc(doc) {
+    const toc = document.getElementById('api-toc');
+    toc.innerHTML = doc.sections
+        .filter(s => s.title && s.level >= 2 && s.level <= 4)
+        .map(s => '<a class="lvl' + s.level + '" href="#' + escapeHtml(s.id) + '" '
+            + 'data-text="' + escapeHtml(s.text.toLowerCase()) + '">'
+            + escapeHtml(s.text) + '</a>')
+        .join('');
+    return Array.from(toc.querySelectorAll('a'));
+}
+
+function wireSearch(links) {
+    const input = document.getElementById('api-search');
+    const hits = document.getElementById('api-hits');
+
+    function apply() {
+        const q = input.value.trim().toLowerCase();
+        if (!q) {
+            links.forEach(a => a.hidden = false);
+            hits.textContent = '';
+            return;
+        }
+        let n = 0;
+        links.forEach(a => {
+            const match = a.dataset.text.indexOf(q) !== -1;
+            a.hidden = !match;
+            if (match) n++;
+        });
+        hits.textContent = n + (n === 1 ? ' match' : ' matches');
+    }
+
+    input.addEventListener('input', apply);
+    input.addEventListener('keydown', e => {
+        if (e.key === 'Escape') { input.value = ''; apply(); }
+    });
+}
+
+/* Highlight whichever heading is currently at the top of the viewport. */
+function wireScrollSpy(links) {
+    const byId = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+    const headings = Array.from(document.querySelectorAll('.api-body h2[id], .api-body h3[id], .api-body h4[id]'));
+    if (!headings.length || !('IntersectionObserver' in window)) return;
+
+    let current = null;
+    const seen = new Set();
+
+    const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+            if (e.isIntersecting) seen.add(e.target.id); else seen.delete(e.target.id);
+        });
+        // topmost visible heading in document order
+        const next = headings.find(h => seen.has(h.id));
+        const link = next && byId.get(next.id);
+        if (link === current) return;
+        if (current) current.classList.remove('current');
+        current = link || null;
+        if (current) {
+            current.classList.add('current');
+            const box = current.closest('.api-toc');
+            const top = current.offsetTop - box.clientHeight / 2;
+            box.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+        }
+    }, { rootMargin: '-80px 0px -70% 0px' });
+
+    headings.forEach(h => obs.observe(h));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (typeof SE_DOCS === 'undefined' || !SE_DOCS.docs || !SE_DOCS.docs.length) {
+        return;   // the fallback message in the markup stays put
+    }
+    const doc = SE_DOCS.docs[0];
+    renderMeta(doc);
+    renderBody(doc);
+    const links = renderToc(doc);
+    wireSearch(links);
+    wireScrollSpy(links);
+
+    // a deep link only resolves once the body exists
+    if (location.hash) {
+        const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (target) target.scrollIntoView();
+    }
+});
+</script>
+</body>
+</html>

@@ -40,6 +40,34 @@ pushes into the entry that has notes, and rebuilds each body from an HTML allow-
 `changelog.html` injects it with `innerHTML`. If Steam changes its layout the script fails loudly
 rather than writing an empty file.
 
+`fetch_tool_docs.py` is separate as well: it reads the sibling **script extender** repo on disk
+and the GitHub Releases API, not the mod tree. Run it when the script extender docs change or a
+new release of either tool is tagged.
+
+```
+python fetch_tool_docs.py                  # -> total_war/data/se_docs.js + data/tools.js
+python fetch_tool_docs.py --dry-run        # convert and report without writing
+python fetch_tool_docs.py --offline        # skip the release API, keep the stored versions
+python fetch_tool_docs.py --docs-dir DIR   # convert from somewhere other than Z:\Claude\ScriptExtender\docs
+```
+
+`se_docs.js` is `docs/SCRIPTING.md` converted to an HTML allow-list and split into one entry per
+heading, which `tools/se-api.html` renders with a sidebar TOC and a search box. The Markdown
+converter is hand-rolled against the subset that file actually uses (headings, fenced code, pipe
+tables, rules, flat lists, inline code/links/bold) because the pipeline is otherwise stdlib-only.
+Emphasis is asterisk-only on purpose: the docs contain hundreds of snake_case identifiers outside
+code spans, and underscore emphasis would shred them.
+
+`tools.js` is the latest release of each tool. The download buttons on the tools pages always
+point at the repo's permanent `/releases/latest` URL, so a stale `tools.js` only makes the version
+label old, never the link wrong. A failed API call keeps the previous values rather than blanking
+the file.
+
+The script **reports** upstream staleness (a function documented in prose but missing from the
+index, an unverified feature) instead of patching it: `docs/SCRIPTING.md` stays the source of
+truth. The one thing it drops is the "current DLL version at the time of writing" line, which goes
+stale within days; the page shows the real latest release instead.
+
 `build_map.py` is separate too: it reads the mod's campaign map art rather than the db tables, so
 run it only when a region's shape or its turn-one owner changes.
 
