@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TK Mod Manager | 190 Expanded Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TK Mod Manager for Total War: Three Kingdoms - install, profiles, real load order, mod status dots, movie packs, conflict detection and script-extender injection.">
+    <link rel="stylesheet" href="../total_war/styles/tw3k.css">
+    <link rel="stylesheet" href="styles/tools.css">
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="index.html" class="back-link">← Tools</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">Total War: Three Kingdoms</p>
+        <h1>TK Mod Manager</h1>
+        <p class="tagline">Profiles, real load order, and one-click script-extender injection.</p>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../total_war/factions.html">Factions</a></li>
+        <li><a href="../total_war/map.html">Map</a></li>
+        <li><a href="../total_war/characters.html">Characters</a></li>
+        <li><a href="../total_war/guides.html">Guides</a></li>
+        <li><a href="../total_war/roadmap.html">Roadmap</a></li>
+        <li><a href="../total_war/changelog.html">Changelog</a></li>
+        <li><a href="index.html" class="active">Tools</a></li>
+    </ul>
+</nav>
+
+<main>
+    <nav class="tool-subnav">
+        <a href="index.html">Overview</a>
+        <a href="mod-manager.html" class="active">Mod Manager</a>
+        <a href="script-extender.html">Script Extender</a>
+        <a href="se-api.html">se.* API Reference</a>
+    </nav>
+
+    <div class="doc">
+
+        <section id="install">
+            <h2>Install</h2>
+            <div class="tool-actions" id="actions-mm" style="margin-bottom:1.25rem"></div>
+            <p>
+                Download the zip from the latest release, unpack it into any folder, and start
+                <code>TKModManager.exe</code>. It is portable &mdash; nothing is installed and
+                nothing is written to the registry. Updates install in place from the same zip.
+            </p>
+            <p>
+                Your settings, profiles, notes, Workshop cache and downloaded DLLs live in
+                <code>%APPDATA%\TKModManager</code>, so they survive an update or a move.
+            </p>
+            <div class="note">
+                <span class="note-title">Upgrading from 0.3.x</span>
+                0.3.x looks for a single <code>.exe</code> in the release and will report that
+                there is no update. Download <code>TKModManager-x64.zip</code> once by hand and
+                unpack it; everything in <code>%APPDATA%\TKModManager</code> is kept.
+            </div>
+        </section>
+
+        <figure class="shot">
+            <img src="img/mod-manager.png" alt="The TK Mod Manager window: tabs and profile selector across the top, the mod list with load order and status dots, and the details and launch panel on the right"
+                 width="1402" height="932" loading="lazy">
+            <figcaption>
+                Tabs, profile and Settings across the top; the mod list in load order; details
+                and launch controls in the right-hand column.
+            </figcaption>
+        </figure>
+
+        <section id="mod-list">
+            <h2>The mod list</h2>
+            <p>
+                Every pack the manager can see, in the order the game will load it. Mods lower in
+                the list win: the precedence model is <em>vanilla &lt; mod packs in list order
+                &lt; movie packs</em>, and the last pack to provide a file is the one that takes
+                effect.
+            </p>
+            <p>
+                Drag rows to reorder. Double-click a row to enable or disable it. Use
+                <strong>Add group</strong> to make a folding tree row &mdash; ticking the group
+                header turns every mod in it on or off, and dragging the group moves all of them
+                together. Row height is Compact, Normal or Large.
+            </p>
+
+            <h3>Status dots</h3>
+            <div class="dot-legend">
+                <div class="row"><span class="dot green"></span>
+                    <span><strong>Green</strong> &mdash; up to date.</span></div>
+                <div class="row"><span class="dot amber"></span>
+                    <span><strong>Amber</strong> &mdash; last updated before the current game
+                        build. Informational, not a problem in itself; plenty of good mods are
+                        simply finished.</span></div>
+                <div class="row"><span class="dot red"></span>
+                    <span><strong>Red</strong> &mdash; update pending: Steam has a newer version
+                        than the one installed. Read from Steam's own Workshop manifest, so it
+                        works offline.</span></div>
+                <div class="row"><span class="dot grey"></span>
+                    <span><strong>Grey</strong> &mdash; a local pack, or no data to compare
+                        against.</span></div>
+                <div class="row"><span class="se-chip">SE</span>
+                    <span><strong>SE</strong> &mdash; this mod needs the
+                        <a href="script-extender.html">script extender</a>. The chip turns red
+                        when the current launch would not provide it.</span></div>
+            </div>
+            <p>
+                You can filter and sort by status, source, type and text, and the details pane on
+                the right explains whatever state the selected mod is in. The cut-off date for
+                "older than the game patch" defaults to the game executable's build date and can
+                be changed in Settings.
+            </p>
+        </section>
+
+        <section id="launching">
+            <h2>How it launches the game</h2>
+            <p>
+                The manager writes <code>tkmm_mods.txt</code> into the game folder and starts
+                <code>Three_Kingdoms.exe</code> directly with that file, rather than going through
+                the CA launcher. That is what gives it real control over load order.
+            </p>
+            <ul>
+                <li>Workshop packs load from wherever Steam already put them, via
+                    <code>add_working_directory</code>. <strong>Nothing is copied into
+                    <code>data/</code>.</strong></li>
+                <li>Movie-type packs in <code>data/</code> that you turn off are excluded with
+                    <code>exclude_pack_file</code>.</li>
+                <li>Files are never renamed or moved. Turning a mod off in the manager does not
+                    touch it on disk.</li>
+            </ul>
+
+            <h3>Steam, Epic and Game Pass</h3>
+            <p>
+                The manager finds every copy of the game on the PC &mdash; Steam libraries, the
+                Epic launcher's installs and <code>XboxGames</code> &mdash; and you pick which one
+                to manage with the <strong>Copy</strong> box next to Play. Each copy keeps its own
+                profiles, so Steam Workshop packs do not show up as "missing" under Epic. Packs in
+                the game's own <code>mods\</code> folder, where the Epic and Game Pass builds keep
+                them, are listed as <code>mods/</code>.
+            </p>
+            <div class="note warn">
+                <span class="note-title">The Epic copy works differently</span>
+                Epic will not let anything but its own launcher start the game, and CA's launcher
+                passes its own mod list. So for Epic the profile is written to the game's
+                <code>user.script.txt</code>, which the game reads on every start: the manager
+                opens Epic, you press Play in CA's launcher, and injection happens as usual. The
+                file is removed when the game exits, or if the app was closed mid-launch. If CA's
+                launcher has mods of its own ticked, the manager says so before launching. The
+                Epic build ignores a save passed on the command line, so <em>Load save</em> is
+                refused there.
+            </div>
+            <p>
+                Steam must be running to launch a Steam copy and for the Workshop features.
+            </p>
+        </section>
+
+        <section id="script-extender">
+            <h2>Script extender</h2>
+            <p>
+                Tick <strong>Script extender</strong> in the launch panel. After the game reaches
+                the main menu the DLL is injected once; the DLL verifies the game build itself and
+                the launch panel shows the result. <strong>A DLL built for another game build is
+                never injected.</strong>
+            </p>
+            <p>
+                <strong>All versions…</strong> lists every published script-extender release with
+                its date and the game build it was made for. Installing an older one
+                <em>pins</em> it, so that version is injected instead of the newest match until
+                you choose <strong>Always use newest</strong>. A single DLL release can cover
+                several game builds through a <code>builds</code> list in its
+                <code>manifest.json</code>.
+            </p>
+            <p>
+                Before launch, the panel lists any enabled mod whose script-extender need is unmet
+                &mdash; extender turned off, no DLL for this game build, or an installed DLL
+                outside the mod's version range &mdash; each with a one-click fix.
+            </p>
+            <p>See <a href="script-extender.html">the script extender page</a> for what the DLL
+               actually does, and <a href="se-api.html">the API reference</a> for scripting it.</p>
+        </section>
+
+        <section id="declaring-that-your-mod-needs-the-script-extender">
+            <h2>Declaring that your mod needs the script extender</h2>
+            <p>Ship this file inside your pack:</p>
+            <pre><code>SE/script_extender.json</code></pre>
+            <p>Its contents look like this:</p>
+            <pre><code class="lang-json">{
+    "author": "Ironic",
+    "minimum_version": 0.28,
+    "maximum_version": 0.28,
+    "notes": ""
+}</code></pre>
+            <p>
+                A pack needs the script extender <strong>exactly when it contains this
+                file</strong> &mdash; there is no heuristic and no per-mod override.
+            </p>
+            <ul>
+                <li>Every field is optional, and a trailing comma is tolerated.</li>
+                <li>Versions may be numbers or strings, such as <code>"0.28.1"</code>.</li>
+                <li>They compare as dotted versions, so <code>0.30</code> is newer than
+                    <code>0.28</code> &mdash; and a maximum of <code>0.28</code> allows every
+                    0.28.x release.</li>
+                <li>The manager warns before launch when the installed DLL falls outside the
+                    range, in <em>either</em> direction.</li>
+                <li><code>author</code> and <code>notes</code> are shown in the details pane.</li>
+            </ul>
+            <p>
+                The game never loads the <code>SE/</code> folder, so the file is harmless to ship.
+            </p>
+        </section>
+
+        <section id="conflicts-and-logs">
+            <h2>Conflicts and Logs</h2>
+            <p>
+                The <strong>Conflicts</strong> tab lists every file path provided by more than one
+                enabled pack, together with the packs that contain it in precedence order, and a
+                per-pack count of how many collisions it takes part in. Pack indexes are read
+                lazily (header and index only) and cached, so a rescan on a large setup is cheap.
+            </p>
+            <p>
+                The <strong>Logs</strong> tab collects the logs a run produces &mdash; the script
+                extender's own log, plus the game-root logs that mods write
+                (<code>lua_mod_log.txt</code>, the newest <code>script_log_*.txt</code> and
+                <code>ironic_log_*.txt</code>) &mdash; so you can read them without hunting
+                through folders. Reading is restricted to files under the game root or the
+                manager's DLL folder.
+            </p>
+        </section>
+
+        <section id="updates">
+            <h2>Updates</h2>
+            <p>
+                On startup the app checks for both app and script-extender updates and
+                <strong>asks before installing anything</strong>, with <em>Install</em>,
+                <em>Skip this version</em> and <em>Not now</em>. A skipped version is never
+                offered again. Nothing downloads or installs without your say-so.
+            </p>
+            <p>
+                Pre-releases are only offered when Settings → Behaviour → <em>Include
+                pre-releases</em> is ticked; the stable channel stays on full releases.
+            </p>
+        </section>
+
+        <section id="building">
+            <h2>Building from source</h2>
+            <p>
+                The workspace has two crates. <code>crates/core</code>
+                (<code>tkmm_core</code>) is everything except the window &mdash; pack scanning,
+                profiles, groups, launch and injection, Workshop, updates &mdash; with no GUI and
+                no Qt needed; CI runs its tests. <code>crates/app</code> (<code>tkmm</code>) is
+                the Qt Widgets UI.
+            </p>
+            <pre><code>cargo test -p tkmm_core                                                        # core tests
+powershell -ExecutionPolicy Bypass -File scripts\build.ps1 [-Release] [-Run]   # the app
+powershell -ExecutionPolicy Bypass -File scripts\release.ps1 [-Publish]        # release zip</code></pre>
+            <p>
+                The UI builds against Qt 6 (MSVC) from
+                <a href="https://community.kde.org/Craft" target="_blank" rel="noopener">KDE Craft</a>
+                in <code>C:\CraftRoot</code> and the ritual-generated Qt bindings from an RPFM
+                checkout &mdash; the same setup RPFM uses &mdash; so it builds on a prepared
+                Windows PC only. To run a dev build, put <code>C:\CraftRoot\bin</code> on
+                <code>PATH</code> and set <code>QT_PLUGIN_PATH=C:\CraftRoot\plugins</code>.
+            </p>
+        </section>
+
+        <section id="license">
+            <h2>License</h2>
+            <p>
+                MIT. You are free to use, modify and redistribute it, including commercially,
+                as long as the copyright notice and licence text come along.
+            </p>
+        </section>
+
+        <section id="help">
+            <h2>Something went wrong</h2>
+            <p>
+                Ask in the <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">190
+                Expanded Discord</a>, or open an issue on
+                <a href="https://github.com/Ironictw2st/TKModManager/issues" target="_blank" rel="noopener">GitHub</a>.
+                The Logs tab is the fastest way to find out what the game and the script extender
+                thought was happening.
+            </p>
+        </section>
+
+    </div>
+</main>
+
+<footer>
+    <p>Created by Ironic · <a href="https://steamcommunity.com/id/ironictw2st/myworkshopfiles/?appid=779340">Steam Workshop</a></p>
+    <p class="ext-links">
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+        <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+        <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+</footer>
+
+<script src="../total_war/data/tools.js"></script>
+<script src="scripts/tool_release.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        renderRelease('mod_manager', null, 'actions-mm', []);
+    });
+</script>
+</body>
+</html>

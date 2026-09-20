@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tools | 190 Expanded Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TK Mod Manager and TK Script Extender for Total War: Three Kingdoms - load order and profiles, movie packs, conflict detection, and extra se.* Lua functions for mod authors.">
+    <link rel="stylesheet" href="../total_war/styles/tw3k.css">
+    <link rel="stylesheet" href="styles/tools.css">
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="../index.html" class="back-link">← Home</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">Total War: Three Kingdoms</p>
+        <h1>Tools</h1>
+        <p class="tagline">A launcher that respects your load order, and a script extender that lifts the engine's limits.</p>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../total_war/factions.html">Factions</a></li>
+        <li><a href="../total_war/map.html">Map</a></li>
+        <li><a href="../total_war/characters.html">Characters</a></li>
+        <li><a href="../total_war/guides.html">Guides</a></li>
+        <li><a href="../total_war/roadmap.html">Roadmap</a></li>
+        <li><a href="../total_war/changelog.html">Changelog</a></li>
+        <li><a href="index.html" class="active">Tools</a></li>
+    </ul>
+</nav>
+
+<main>
+    <nav class="tool-subnav">
+        <a href="index.html" class="active">Overview</a>
+        <a href="mod-manager.html">Mod Manager</a>
+        <a href="script-extender.html">Script Extender</a>
+        <a href="se-api.html">se.* API Reference</a>
+    </nav>
+
+    <p class="tool-intro">
+        Two standalone Windows tools for Total War: THREE KINGDOMS. They work with any mod setup,
+        not just <a href="../index.html">190 Expanded</a> &mdash; but the two are built together,
+        and the mod manager is the supported way to run the script extender.
+    </p>
+
+    <section class="tool-grid">
+        <article class="tool-card">
+            <div class="tool-glyph">器</div>
+            <h2>TK Mod Manager</h2>
+            <div id="chip-mm"></div>
+            <p class="tool-lede">
+                Replaces the CA launcher. Real load-order control, profiles, movie packs,
+                Workshop metadata, conflict detection, and one-click script-extender injection.
+            </p>
+            <ul>
+                <li>Drag mods into the order you actually want</li>
+                <li>Profiles for separate mod setups</li>
+                <li>Status dots for out-of-date and superseded packs</li>
+                <li>Never copies, renames or moves your pack files</li>
+                <li>Portable and self-updating</li>
+            </ul>
+            <div class="tool-actions" id="actions-mm"></div>
+        </article>
+
+        <article class="tool-card">
+            <div class="tool-glyph">術</div>
+            <h2>TK Script Extender</h2>
+            <div id="chip-se"></div>
+            <p class="tool-lede">
+                A native DLL injected into the running game that registers extra
+                <code>se.*</code> functions into the campaign Lua VM &mdash; things the stock
+                script interface simply cannot do.
+            </p>
+            <ul>
+                <li>Move characters between faction recruitment pools</li>
+                <li>Recruit, replace and disband retinue units</li>
+                <li>Edit experience, skill points and faction potential</li>
+                <li>Buildings, effect bundles, income lines, auto-resolve</li>
+                <li>Verifies the game build before it touches anything</li>
+            </ul>
+            <div class="tool-actions" id="actions-se"></div>
+        </article>
+    </section>
+
+    <figure class="shot">
+        <img src="img/mod-manager.png" alt="TK Mod Manager showing the mod list with load order, status dots and the launch panel"
+             width="1402" height="932" loading="lazy">
+        <figcaption>
+            TK Mod Manager: the mod list with load order and status dots, and the launch panel
+            on the right with the script extender enabled.
+        </figcaption>
+    </figure>
+
+    <div class="doc">
+        <section>
+            <h2>How they fit together</h2>
+            <p>
+                The mod manager launches the game directly rather than going through the CA
+                launcher, so it controls the real load order. If you tick
+                <strong>Script extender</strong> in the launch panel, it also downloads the
+                matching DLL, checks it against your game build, and injects it once the main
+                menu is up.
+            </p>
+            <p>
+                You do not need the script extender to use the mod manager. You do need the mod
+                manager &mdash; or a manual injector &mdash; to use the script extender.
+            </p>
+            <div class="note">
+                <span class="note-title">For mod authors</span>
+                A pack declares that it needs the script extender by shipping an
+                <code>SE/script_extender.json</code> file. The manager reads it, marks the mod
+                with an <span class="se-chip">SE</span> chip, and warns before launch if the
+                installed DLL falls outside the version range.
+                <a href="mod-manager.html#declaring-that-your-mod-needs-the-script-extender">How to declare it →</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Requirements</h2>
+            <ul>
+                <li><strong>Windows</strong>, 64-bit. Both tools are native Windows apps.</li>
+                <li><strong>Total War: THREE KINGDOMS</strong>. The script extender targets build
+                    <code>1.7.2.0</code> and stays inert on anything else.</li>
+                <li><strong>Steam running</strong>, for the mod manager's Workshop features and
+                    for launching a Steam copy. Epic and Game Pass copies are supported too.</li>
+                <li>The script extender is <strong>single-player and campaign only</strong>.
+                    Multiplayer support exists but is not yet verified on two machines.</li>
+            </ul>
+        </section>
+    </div>
+
+    <section class="links-row" aria-label="Source repositories">
+        <a class="link-btn github" href="https://github.com/Ironictw2st/TKModManager" target="_blank" rel="noopener">GitHub: Mod Manager</a>
+        <a class="link-btn github" href="https://github.com/Ironictw2st/TK-ScriptExtender" target="_blank" rel="noopener">GitHub: Script Extender</a>
+        <a class="link-btn discord" href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </section>
+</main>
+
+<footer>
+    <p>Created by Ironic · <a href="https://steamcommunity.com/id/ironictw2st/myworkshopfiles/?appid=779340">Steam Workshop</a></p>
+    <p class="ext-links">
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+        <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+        <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+</footer>
+
+<script src="../total_war/data/tools.js"></script>
+<script src="scripts/tool_release.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        renderRelease('mod_manager', 'chip-mm', 'actions-mm', [
+            { label: 'Documentation', href: 'mod-manager.html' }
+        ]);
+        renderRelease('script_extender', 'chip-se', 'actions-se', [
+            { label: 'Documentation', href: 'script-extender.html' },
+            { label: 'se.* API', href: 'se-api.html' }
+        ]);
+    });
+</script>
+</body>
+</html>

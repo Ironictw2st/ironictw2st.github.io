@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TK Script Extender | 190 Expanded Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TK Script Extender for Total War: Three Kingdoms - a native DLL that adds se.* functions to the campaign Lua VM. What it does, how to install it, how it verifies the game build, and how to troubleshoot it.">
+    <link rel="stylesheet" href="../total_war/styles/tw3k.css">
+    <link rel="stylesheet" href="styles/tools.css">
+</head>
+<body>
+
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="index.html" class="back-link">← Tools</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">Total War: Three Kingdoms</p>
+        <h1>TK Script Extender</h1>
+        <p class="tagline">Extra <code>se.*</code> functions in the campaign Lua VM, for things the stock script interface cannot reach.</p>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../total_war/factions.html">Factions</a></li>
+        <li><a href="../total_war/map.html">Map</a></li>
+        <li><a href="../total_war/characters.html">Characters</a></li>
+        <li><a href="../total_war/guides.html">Guides</a></li>
+        <li><a href="../total_war/roadmap.html">Roadmap</a></li>
+        <li><a href="../total_war/changelog.html">Changelog</a></li>
+        <li><a href="index.html" class="active">Tools</a></li>
+    </ul>
+</nav>
+
+<main>
+    <nav class="tool-subnav">
+        <a href="index.html">Overview</a>
+        <a href="mod-manager.html">Mod Manager</a>
+        <a href="script-extender.html" class="active">Script Extender</a>
+        <a href="se-api.html">se.* API Reference</a>
+    </nav>
+
+    <div class="doc">
+
+        <section id="what-it-is">
+            <h2>What it is</h2>
+            <div class="tool-actions" id="actions-se" style="margin-bottom:1.25rem"></div>
+            <p>
+                A native DLL that is injected into the running <code>Three_Kingdoms.exe</code> and
+                registers extra functions into the campaign Lua VM. It started from one problem
+                &mdash; moving an existing character between factions' recruitment pools without
+                creating a new character, which stock campaign Lua simply cannot do &mdash; and
+                has grown from there.
+            </p>
+            <p>What the <code>se.*</code> API now covers:</p>
+            <ul>
+                <li>Characters and faction recruitment pools</li>
+                <li>Retinues and units: recruit, replace, disband, strength, chevrons</li>
+                <li>Character experience and skill points; assignments</li>
+                <li>Faction progression, the Three Kingdoms and emperor seats</li>
+                <li>Faction potential, CAI personality, diplomacy attitude</li>
+                <li>Buildings and region slots; alliances and coalitions</li>
+                <li>Effect bundles, income lines and horde income</li>
+                <li>Auto-resolve outcomes, the main-menu build string</li>
+                <li>Performance diagnostics and an AI recruitment policy</li>
+            </ul>
+            <p>
+                The full signature-level reference is on the
+                <a href="se-api.html">se.* API reference</a> page.
+            </p>
+        </section>
+
+        <section id="install">
+            <h2>Install</h2>
+            <p>
+                <strong>Use the <a href="mod-manager.html">TK Mod Manager</a>.</strong> That is
+                the supported path: tick <em>Script extender</em> in the launch panel and it
+                downloads <code>script_extender.dll</code>, checks the release's
+                <code>manifest.json</code> fingerprint against your installed executable, and
+                injects the DLL once the game reaches the main menu.
+            </p>
+            <p>
+                There is a command-line loader in the releases for development use:
+            </p>
+            <pre><code>injector.exe &lt;dll&gt; [Three_Kingdoms.exe]</code></pre>
+            <p>Run it once the main menu is up. Building from source:</p>
+            <pre><code>cargo build --release</code></pre>
+            <p>
+                which produces <code>target/release/script_extender.dll</code> and
+                <code>injector.exe</code>.
+            </p>
+            <div class="note caution">
+                <span class="note-title">Never inject twice</span>
+                Do not inject into the same process more than once, and never load a second or
+                newer DLL on top of a running one. To update: quit the game, start it again, and
+                inject once after the main menu.
+            </div>
+        </section>
+
+        <section id="safety">
+            <h2>How it avoids breaking your game</h2>
+            <p>
+                The DLL fingerprints the executable by its PE <code>TimeDateStamp</code> and
+                <code>SizeOfImage</code>, and verifies every engine address it intends to use by
+                its first bytes <em>before</em> touching anything. On any mismatch it logs and
+                does nothing. A patched or updated game is therefore safe but inert &mdash; never
+                half-working.
+            </p>
+            <ul>
+                <li>The on-disk executable is <strong>never patched</strong>. Everything happens
+                    in memory, in that one session.</li>
+                <li>There is deliberately <strong>no generic peek / poke / call primitive</strong>.
+                    Only named, high-level operations are exposed.</li>
+                <li>The internal natives (<code>se_recruit_unit</code>,
+                    <code>se_slot_construct</code>, …) are not the public surface. Scripts use the
+                    <code>se</code> module only.</li>
+                <li>Saves made after using <code>se.modify.*</code> carry the results &mdash; they
+                    are ordinary engine state. The DLL is not required to <em>load</em> such a
+                    save, only to keep using the API.</li>
+            </ul>
+            <p>
+                A healthy DLL log contains <code>all N addresses and M vtables verified</code>,
+                then <code>lua_gettop hook installed</code>, then one
+                <code>registered se_* functions into lua_State …</code> per Lua state.
+            </p>
+        </section>
+
+        <section id="multiplayer">
+            <h2>Multiplayer</h2>
+            <div class="note warn">
+                <span class="note-title">Not yet verified on two machines</span>
+                The rules below are implemented and reasoned through, but the project has not yet
+                confirmed them against a real two-machine session. Treat multiplayer support as
+                provisional.
+            </div>
+            <p>
+                Campaign multiplayer is lockstep: every machine runs the same scripts and must
+                make the same change at the same model tick. Since DLL 0.30 the API is built for
+                that:
+            </p>
+            <ul>
+                <li><code>se.modify.*</code> runs <strong>only inside a model callback</strong> in
+                    multiplayer. Called from a UI click, a timer or the console it is refused
+                    rather than queued &mdash; queuing would change only one machine's model and
+                    desync the game.</li>
+                <li>Nothing a synced script does may depend on <em>which</em> machine it runs on.
+                    Do not branch on <code>cm:get_local_faction()</code> or
+                    <code>is_local_player</code> in code that ends in a modify call, and do not
+                    use <code>math.random</code> or <code>os.time</code> to decide a change.</li>
+                <li>Both machines must run the same extender with the same simulation settings.
+                    The DLL forces its version and a hook fingerprint into the game's build
+                    string, which the lobby compares, so a player without the DLL or with a
+                    different one cannot join.</li>
+            </ul>
+            <p>
+                Session-only state &mdash; auto-resolver variables, redefined bundles, income
+                lines, emperor policy &mdash; must be re-applied by the mod after loading, from a
+                callback that runs on every machine.
+            </p>
+        </section>
+
+        <section id="for-mod-authors">
+            <h2>For mod authors</h2>
+            <p>Feature-gate rather than assuming the DLL is there:</p>
+            <pre><code class="lang-lua">if type(se) ~= "table" then
+    ModLog("script extender not present in this Lua state")
+    return
+end
+ModLog("script extender " .. se.version())
+if not se.available("se_slot_construct") then
+    ModLog("this DLL is too old for buildings")
+end</code></pre>
+            <p>
+                Two objects must be handed over explicitly, because the module chunk runs inside
+                the DLL and does not see the script libraries' globals:
+            </p>
+            <pre><code class="lang-lua">se.logger = ModLog   -- any function(string)
+se.core   = core     -- the event manager</code></pre>
+            <p>
+                Tell the mod manager that your pack needs the extender by shipping
+                <code>SE/script_extender.json</code> &mdash;
+                <a href="mod-manager.html#declaring-that-your-mod-needs-the-script-extender">how to declare it</a>.
+                Then read the <a href="se-api.html">API reference</a>, which has the conventions,
+                every function signature, and ten worked recipes.
+            </p>
+        </section>
+
+        <section id="troubleshooting">
+            <h2>Troubleshooting</h2>
+
+            <h3>The API is not there at all</h3>
+            <ul>
+                <li><code>type(se) ~= "table"</code> means the DLL is not injected, or has not yet
+                    registered into <em>this</em> Lua state. Registration happens the first time a
+                    state ticks Lua: the main-menu state is served first, the campaign state once
+                    a campaign has loaded.</li>
+                <li>Check the DLL log for <code>fingerprint mismatch: expected …</code> or
+                    <code>N anchor(s) failed; refusing to run</code>. That means the game was
+                    updated and the DLL has to be rebuilt against the new build.</li>
+            </ul>
+
+            <h3>Where the logs are</h3>
+            <ul>
+                <li><strong>DLL log</strong>: <code>script_extender.log</code>, next to the
+                    injected <code>script_extender.dll</code>. Truncated on every injection and
+                    mirrored to <code>OutputDebugString</code>.</li>
+                <li><strong>Lua log</strong>: <code>lua_mod_log.txt</code> in the game root, plus
+                    the per-session <code>ironic_log_&lt;faction&gt;_&lt;stamp&gt;.txt</code>
+                    &mdash; newest by modification time is the current one.</li>
+                <li><strong>Crash dumps</strong>: <code>%LOCALAPPDATA%\CrashDumps</code>.</li>
+            </ul>
+            <p>
+                The mod manager's <strong>Logs</strong> tab shows all of these without you having
+                to find them.
+            </p>
+
+            <h3>Reporting a crash</h3>
+            <p>
+                Send the game build number, the DLL version (<code>se.version()</code>), the DLL
+                log, the minidump from <code>%LOCALAPPDATA%\CrashDumps</code>, the Lua log, and
+                the exact script that was running.
+            </p>
+            <p>
+                The natives validate vtables, back-pointers and registry round-trips and
+                <em>refuse</em> instead of writing, so a refusal message is the expected outcome
+                of a bad argument. A crash is a bug worth reporting &mdash;
+                <a href="https://github.com/Ironictw2st/TK-ScriptExtender/issues" target="_blank" rel="noopener">open an issue</a>
+                or say so in the
+                <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>.
+            </p>
+            <p>
+                The <a href="se-api.html#common-refusal-messages">API reference</a> has the full
+                table of refusal messages and what each one means.
+            </p>
+        </section>
+
+        <section id="license">
+            <h2>License</h2>
+            <p>
+                MIT, the same as the mod manager. You are free to use, modify and redistribute
+                it, including commercially, as long as the copyright notice and licence text
+                come along.
+            </p>
+        </section>
+
+        <section id="further-reading">
+            <h2>Further reading</h2>
+            <p>
+                Two companion documents live in the repository rather than on this site, because
+                they are a design writeup and a dated experiment log rather than reference
+                material:
+            </p>
+            <ul>
+                <li><a href="https://github.com/Ironictw2st/TK-ScriptExtender/blob/master/docs/AI_RECRUITMENT.md" target="_blank" rel="noopener">AI_RECRUITMENT.md</a>
+                    &mdash; how the vanilla campaign AI recruits, the measurements showing what it
+                    leaves on the table, and the design of the replacement policy.</li>
+                <li><a href="https://github.com/Ironictw2st/TK-ScriptExtender/blob/master/docs/AI_RECRUITMENT_RUN_T1_T50.md" target="_blank" rel="noopener">AI_RECRUITMENT_RUN_T1_T50.md</a>
+                    &mdash; what that policy actually did to AI armies over 50 unattended turns.</li>
+            </ul>
+        </section>
+
+    </div>
+</main>
+
+<footer>
+    <p>Created by Ironic · <a href="https://steamcommunity.com/id/ironictw2st/myworkshopfiles/?appid=779340">Steam Workshop</a></p>
+    <p class="ext-links">
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875547086" target="_blank" rel="noopener">Steam Workshop</a> ·
+        <a href="https://www.nexusmods.com/totalwarthreekingdoms/mods/244" target="_blank" rel="noopener">Nexus Mods</a> ·
+        <a href="https://discord.gg/cNQvD4N6SP" target="_blank" rel="noopener">Discord</a>
+    </p>
+</footer>
+
+<script src="../total_war/data/tools.js"></script>
+<script src="scripts/tool_release.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        renderRelease('script_extender', null, 'actions-se', [
+            { label: 'se.* API Reference', href: 'se-api.html' }
+        ]);
+    });
+</script>
+</body>
+</html>
