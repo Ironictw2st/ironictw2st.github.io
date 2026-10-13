@@ -92,7 +92,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Partisan",
     "description": "Always led by conviction, this one exhibits clear bias in their opinions.",
-    "element": "unknown",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -317,7 +317,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Eager Forerunner",
     "description": "\"I, Bao Zhong, will never quiver before a foe, nor flee from a fight! Follow me to victory, men!\"",
-    "element": "water",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -867,7 +867,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Modest Beauty",
     "description": "Lady Bu is as famed for her kindness and sincerity as she is for her gorgeous looks and grace.",
-    "element": "wood",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
@@ -1267,7 +1267,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Consistent Administrator",
     "description": "Sometimes, governors simply do whatever is required of them.",
-    "element": "earth",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
@@ -1342,7 +1342,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Middling Magistrate",
     "description": "Of all the civil officials under the heavens, Cai Zan is certainly one of them.",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
@@ -2267,7 +2267,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Converted Shanyue",
     "description": "\"So you're sayin' I just have to wrap this yellow cloth 'round my head, and I never have to pay taxes again? Why didn't you say so sooner!\"",
-    "element": "earth",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
@@ -4592,7 +4592,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "承淵",
     "title": "The Fist of Glory",
     "description": "The sheer presence of Ding Feng causes even the most gallant of foes to quiver in fear!",
-    "element": "metal",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -4692,7 +4692,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Successful Girl",
     "description": "At an early age, Dong Zhuo gave Dong Bai his land to her. For some reason, her personality and reputation are not very good, but no one has been treated recklessly because of Dong Zhuo who takes care of her.",
-    "element": "metal",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
@@ -5317,7 +5317,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "伯瑜",
     "title": "Wistful and Enigmatic",
     "description": "A man of few words, Du Qiong has devoted his life to uncovering the mysteries of Heaven and Earth.",
-    "element": "water",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -5667,7 +5667,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "升達",
     "title": "Outsider",
     "description": "Accepted by their surrogate family, but nevertheless still a fish out of water.",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -6492,7 +6492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Deft Axeman",
     "description": "With adroitness and skill, Gan Li makes even wielding a seemingly ponderous and hefty weapon look easy.",
-    "element": "metal",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -6767,7 +6767,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Underhanded Gambler",
     "description": "The game was rigged from the start..",
-    "element": "wood",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
@@ -7492,7 +7492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Protector of Bohai",
     "description": "Bribery and titles are meaningless trinkets to one so loyal to his family and clan.",
-    "element": "fire",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -8542,7 +8542,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Paranoid Thug",
     "description": "Guo Si has many real enemies – and many more imagined ones!",
-    "element": "fire",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -8817,7 +8817,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Unmemorable Son",
     "description": "\"Despite all that has happened, at least my beloved, only son is safe... Wait, what do you mean when you say you're also my son?\"",
-    "element": "water",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -8842,7 +8842,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "文節",
     "title": "Diligent Agriculturalist",
     "description": "Using his ability to manage food supplies with tireless efficiency, Han Fu is a most valuable logistician.",
-    "element": "earth",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -9342,7 +9342,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "The Steadyhanded Prefect",
     "description": "This official governs carefully amidst a maelstrom of intrigue, mindful of the creeping ambition of those around him.",
-    "element": "wood",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
@@ -10617,7 +10617,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Careful Advisor",
     "description": "Decades of work, and the fate of an entire kingdom, can be undone with a single poor decision. Huan Lin only hopes that his warnings carry weight.",
-    "element": "wood",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
@@ -10742,7 +10742,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Guts and Guile",
     "description": "To be a noble landowner on the fractured frontier requires courage and strength of arms, as well as social savvy and wits.",
-    "element": "water",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -11167,7 +11167,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "The Dragon's Aide",
     "description": "As the rising dragon soars, this one does all she can to assist his ascent to the heavens.",
-    "element": "wood",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": false,
     "is_unique": true,
@@ -12242,7 +12242,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Cutthroat of the Crimson Blade",
     "description": "This assassin has a knack for slitting the throats of his targets and deftly escaping, before anyone even realises what is happening.",
-    "element": "wood",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -12717,7 +12717,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Academic",
     "description": "This one sees the value of institutionalised learning, and has embraced it.",
-    "element": "unknown",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
@@ -12867,7 +12867,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Village Chief",
     "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
-    "element": "unknown",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -13367,7 +13367,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Humble Matriarch",
     "description": "It takes patience and wisdom to manage the fractious brood that is the Cao family.",
-    "element": "wood",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": true,
@@ -14067,7 +14067,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Magistrate",
     "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -14092,7 +14092,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "偉南",
     "title": "Constant and Consistent",
     "description": "It is hard to find faults with Li Chao's methods, and none can put any doubts on his loyalty and sincerity.",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -14292,7 +14292,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Nanyue Lordling",
     "description": "Leader of an obscure southern clan, Li Huan seeks only the prosperity of his home village.",
-    "element": "wood",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -14467,7 +14467,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Expert Besieger",
     "description": "Whether you need a wall stormed or a gate knocked down, Li Meng is the man for the job!",
-    "element": "fire",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -14492,7 +14492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "漢南",
     "title": "Blunt Critic",
     "description": "With an acidic tongue and burning temper, Li Miao is honest to a fault. It is a wonder that he has kept his head for so long...",
-    "element": "fire",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -15592,7 +15592,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Lord Shi",
     "description": "Due to fears for his health, Liu Bian was raised away from the capital by the famed Taoist, Shi Zimiao, earning him the nickname 'Lord Shi'.",
-    "element": "earth",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
@@ -16442,7 +16442,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Fate's Ladder",
     "description": "Just as greatness lies just out of reach above, a disastrous downfall lurks below.",
-    "element": "earth",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
@@ -16967,7 +16967,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "正禮",
     "title": "Welcoming Magistrate",
     "description": "Liu Yao appears to be a ‘yes’ man, but is nevertheless known for his staunch incorruptibility.",
-    "element": "earth",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
@@ -17017,7 +17017,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "恭嗣",
     "title": "Adventurous Pirate",
     "description": "From Shandong to the peninsula across the sea, this hearty captain seeks adventure, exploration and plunder!",
-    "element": "water",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -17167,7 +17167,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "公幹",
     "title": "Scholarly Sage",
     "description": "\"The nature of men are all alike, it is their habits that carry them far apart.\"",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -17492,7 +17492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "季寧",
     "title": "Paragon of Governance",
     "description": "Being born to a vast family can feed either vice or virtue. Luckily, this one is kind to a fault, but it could've gone either way.",
-    "element": "water",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -17542,7 +17542,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "子璋",
     "title": "Respectable Consultant",
     "description": "Peer and lord alike are keen to listen to the wise advice of Lu Mao.",
-    "element": "water",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -19217,7 +19217,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Lookout",
     "description": "Keen eyesight enables this person to spot the enemy clearly, even under cover of night.",
-    "element": "unknown",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -19392,7 +19392,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Academic",
     "description": "This one sees the value of institutionalised learning, and has embraced it.",
-    "element": "unknown",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
@@ -20442,7 +20442,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Phoenix Caretaker",
     "description": "Even those of us with the most potential cannot thrive without a solid foundation and support network.",
-    "element": "earth",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
@@ -20642,7 +20642,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "文行",
     "title": "Calm Peacekeeper",
     "description": "This administrator knows well that petty conflicts and squabbles with tribes can swiftly lead to the collapse of local government. He does whatever he can to maintain tranquillity in his jurisdiction.",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -21317,7 +21317,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "子勑",
     "title": "Of Flowing Rectitude",
     "description": "Qin Mi is a man of eloquent rhetoric and excellent debate, but he will not serve a man who he does not consider worthy.",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -21492,7 +21492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Defiant Warlord",
     "description": "Qu Yan commands his people with an iron rod, using fear and intimidation to keep the masses in line.",
-    "element": "metal",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -21967,7 +21967,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Mediator",
     "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
-    "element": "unknown",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
@@ -22042,7 +22042,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "文表",
     "title": "Effective Scribe",
     "description": "Rui Xuan maintains the truth, the hard truth, and nothing but the truth.",
-    "element": "fire",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -22392,7 +22392,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Ruler of the Five Valleys",
     "description": "Shamoke brooks no resistance to his rule, showing mercy to his tribes and destruction to his enemies.",
-    "element": "unknown",
+    "element": "nanman",
     "subtype": "3k_general_nanman",
     "is_male": true,
     "is_unique": true,
@@ -22492,7 +22492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Officer",
     "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -22717,7 +22717,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "正南",
     "title": "The Dependable",
     "description": "When everyone else is losing their heads, Shen Pei can be trusted to keep things going.",
-    "element": "water",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -23317,7 +23317,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "公操",
     "title": "Academic",
     "description": "This one sees the value of institutionalised learning, and has embraced it.",
-    "element": "water",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -23642,7 +23642,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Principled Administrator",
     "description": "\"I am afraid I cannot allow that. You see, in sub-section five, paragraph nine...\"",
-    "element": "unknown",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -23917,7 +23917,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Magistrate",
     "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -23942,7 +23942,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Trader",
     "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
-    "element": "unknown",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -24042,7 +24042,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Master Water Mirror",
     "description": "\"So, you wish to know your future? Hohohohohohoho! Good, very good! Yes, yes! Hohohohohoho!\"",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
@@ -24092,7 +24092,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Warrior",
     "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
-    "element": "unknown",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -24117,7 +24117,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Mediator",
     "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
-    "element": "unknown",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
@@ -24142,7 +24142,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Magistrate",
     "description": "An important cog of law administration, who is no stranger to the pressures of bureaucracy.",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -24167,7 +24167,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Mediator",
     "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
-    "element": "unknown",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
@@ -24192,7 +24192,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Imperious Regent",
     "description": "\"A regent is like air; unseen and barely felt, but vital all the same.\"",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
@@ -24317,7 +24317,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Rightful Regent",
     "description": "Son of the legendary Sima Yi, he has watched the Jin dynasty scuffle in his shadow.",
-    "element": "unknown",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -24342,7 +24342,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Usurper Prince",
     "description": "\"The Jin dynasty will endure under a wise and deserving emperor - me!\"",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
@@ -24367,7 +24367,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Trader",
     "description": "People-skills, coupled to an aptitude for business, make this one a crafty merchant indeed.",
-    "element": "unknown",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -24517,7 +24517,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Guard",
     "description": "A stalwart protector, they never fall asleep at their post.",
-    "element": "unknown",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -24542,7 +24542,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Officer",
     "description": "It is better to have an army of donkeys led by a tiger, than an army of tigers led by a donkey.",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -24717,7 +24717,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Inspector",
     "description": "Paying close attention to detail, this one is always aware of the goings-on in their jurisdiction.",
-    "element": "unknown",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -24742,7 +24742,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Tax Collector",
     "description": "Tax collection is a necessary evil, as are its instruments.",
-    "element": "unknown",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -24792,7 +24792,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Tempestuous General",
     "description": "His reputation for belligerence is perhaps undeserved. Not so his famously short temper.",
-    "element": "unknown",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
@@ -24817,7 +24817,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Warrior",
     "description": "Any simpleton can wield a weapon and fight, but a resolute acceptance of death marks out the true warrior.",
-    "element": "unknown",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -24992,7 +24992,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Mediator",
     "description": "This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.",
-    "element": "unknown",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": false,
@@ -25017,7 +25017,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Filial & Pious",
     "description": "\"Respect for parents, elders, and ancestors is the root of all virtue, the stem from which all moral teachings grow.\"",
-    "element": "unknown",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -25067,7 +25067,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Preacher",
     "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
-    "element": "unknown",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -25092,7 +25092,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Local Hero",
     "description": "Not all heroes wear armour. But some, also, do.",
-    "element": "unknown",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -25142,7 +25142,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Tax Collector",
     "description": "Tax collection is a necessary evil, as are its instruments.",
-    "element": "unknown",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -25167,7 +25167,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Beloved Governor",
     "description": "Madness may grip the court, but Sima Ying will always think of his people.",
-    "element": "unknown",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
@@ -25192,7 +25192,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Shrewd Defender",
     "description": "Sima Yong has a duty to the emperor, and his loyalty will never waver.",
-    "element": "unknown",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
@@ -25242,7 +25242,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Imperial Overseer",
     "description": "\"There must be oversight in all things, especially important matters of state.\"",
-    "element": "unknown",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
@@ -25392,7 +25392,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Local Hero",
     "description": "Not all heroes wear armour. But some, also, do.",
-    "element": "unknown",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -26142,7 +26142,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "伯海",
     "title": "Faithful Retainer",
     "description": "\"I'd follow you, my brother, my captain, my king.\"",
-    "element": "fire",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -26217,7 +26217,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "叔朗",
     "title": "The Sharpened Blade",
     "description": "With keenly honed abilities, Sun Jiao commands respect from peers and rivals alike.",
-    "element": "fire",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
@@ -26692,7 +26692,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "仲異",
     "title": "Resourceful Governor",
     "description": "Attracting both wisdom and military talents, Sun Yu is a solid pillar for his state.",
-    "element": "fire",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
@@ -27367,7 +27367,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Of Fierce Independence",
     "description": "The Lady Tong is a fiery trailblazer, eschewing societal norms and generally being something of a trouble maker, unable to be tied down in one place for very long.",
-    "element": "metal",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": false,
     "is_unique": true,
@@ -27617,7 +27617,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Auspicious Patriarch",
     "description": "This wise chieftain has lead the Tuoba clan through trial and tribulation, migrating his people over great distances to find lands of safety and prosperity.",
-    "element": "wood",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
@@ -29342,7 +29342,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Spear of Justice",
     "description": "\"Let's end this, right here and right now! I'll show you just how defiant Han loyalists can be!\"",
-    "element": "water",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -30142,7 +30142,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "文則",
     "title": "Predictor of Calamities",
     "description": "Pay heed to the farseeing advice of Wu Fan, if disaster is what you wish to evade!",
-    "element": "water",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -31267,7 +31267,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "巨達",
     "title": "Ingenious Curator",
     "description": "A well learned, sagacious statesman, Xiang Lang is also particularly well known for his massive library of tomes and scrolls.",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -31417,7 +31417,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Daughter of the Southlands",
     "description": "To the filial and the devout, life will give not one, but two measures of its respect.",
-    "element": "metal",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": false,
     "is_unique": true,
@@ -32017,7 +32017,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "The Consumate Professional",
     "description": "Xu Rong may seem like a rather ordinary man, and one of few words, but he will get the job done with unrivalled efficiency.",
-    "element": "fire",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -32217,7 +32217,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "寶堅",
     "title": "Sedulous Minister",
     "description": "The industrious Xu Xuan tirelessly throws himself into whatever task is asked of him, and performs them all without hesitation or complaint.",
-    "element": "water",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -32492,7 +32492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Filial & Pious",
     "description": "\"Respect for parents, elders, and ancestors is the root of all virtue, the stem from which all moral teachings grow.\"",
-    "element": "water",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": false,
@@ -32892,7 +32892,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Vanguard of White Horse Fellows",
     "description": "With the thunder of hooves, the unmatchable charge of the infamous White Horse cavalry strikes fear into even the most stalwart of foes.",
-    "element": "metal",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
@@ -33292,7 +33292,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "文先",
     "title": "Eminent Excellency",
     "description": "The Yang clan has thrived, endured and prospered in eras of turmoil, and will continue to do so. As one of the clan's most dignified members, Yang Biao is no exception to this.",
-    "element": "water",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
@@ -33517,7 +33517,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Attentive Guardian",
     "description": "Mindful and heedful, few foes escape Yang Huai's gaze.",
-    "element": "fire",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -33992,7 +33992,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "子緒",
     "title": "Firm but Fair",
     "description": "An expert at managing people, Yao Zhou treats his subordinates virtuously.",
-    "element": "water",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": false,
@@ -34492,7 +34492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Manipulative Schemer",
     "description": "With plans upon plans, Yong Kai bides his time, waiting the perfect moment to lay his ambitions to bare...",
-    "element": "fire",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -35067,7 +35067,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Disreputable Highwayman",
     "description": "\"Your money, or your life!\"",
-    "element": "water",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -35842,7 +35842,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Flowing Calligrapher",
     "description": "Such graceful skills with ink and brush are the mark a man of great education and scholarly puissance.",
-    "element": "water",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
@@ -36192,7 +36192,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "儁乂",
     "title": "Courageous General",
     "description": "Zhang He’s fearlessness enables him to retain his composure when having to adapt to unfavourable situations.",
-    "element": "fire",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": true,
@@ -37292,7 +37292,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "稚叔",
     "title": "Ignored Warlord",
     "description": "What is the fate of he who is forsaken and unjustly distrusted by his fellow warlords? Only heaven knows.",
-    "element": "earth",
+    "element": "fire",
     "subtype": "3k_general_fire",
     "is_male": true,
     "is_unique": true,
@@ -38142,7 +38142,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "子柔",
     "title": "Preacher",
     "description": "A zealously made point, delivered with wild-eyed conviction, can inspire and incite even the staunchest non-believer.",
-    "element": "water",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": false,
@@ -39492,7 +39492,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "仁明",
     "title": "Militant Prefect",
     "description": "\"Blue? No, no, my favourite colour is yellow. Mayhaps you are thinking of some other Zhou Yu?\"",
-    "element": "fire",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
@@ -39567,7 +39567,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Village Chief",
     "description": "To lead a community takes confidence, focus and integrity, which this one has in abundance.",
-    "element": "wood",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": false,
     "is_unique": false,
@@ -39667,7 +39667,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Violent Thug",
     "description": "When Zhu Han seeks vengeance, killing his targets is far too easy. Whilst he is busy enjoying himself mid torture, he never even stops to consider the petty reasons for his violent revenge.",
-    "element": "water",
+    "element": "metal",
     "subtype": "3k_general_metal",
     "is_male": true,
     "is_unique": false,
@@ -39717,7 +39717,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "休穆",
     "title": "The Dire Enshroud",
     "description": "\"Mad? I'm not mad! You're mad! I'll kill you, madman!\"",
-    "element": "fire",
+    "element": "earth",
     "subtype": "3k_general_earth",
     "is_male": true,
     "is_unique": true,
@@ -39817,7 +39817,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "The Ferocious Bear",
     "description": "Zhu Ling rips through his opposition, like a roaring, rampaging beast.",
-    "element": "fire",
+    "element": "wood",
     "subtype": "3k_general_wood",
     "is_male": true,
     "is_unique": true,
@@ -40817,7 +40817,7 @@ const CHARACTER_DATA = [
     "courtesy_name_alt": "",
     "title": "Crafty Warlord",
     "description": "The terrain and climate of Jiangdong provide myriad challenges to northerners who venture south of the Great River. To those whose family have made this land their home for generations, however, such challenges are boons and bounties.",
-    "element": "wood",
+    "element": "water",
     "subtype": "3k_general_water",
     "is_male": true,
     "is_unique": true,
@@ -41266,7 +41266,8 @@ CHARACTER_DATA.forEach(char => { CHARACTER_BY_KEY[char.key] = char; });
 const EFFECT_TYPES = [
   {
     "id": 0,
-    "label": "ability recharge rate",
+    "label": "Ability recharge rate",
+    "group": "Battle",
     "count": 5,
     "keys": [
       "3k_main_skill_ability_recharge"
@@ -41275,6 +41276,7 @@ const EFFECT_TYPES = [
   {
     "id": 1,
     "label": "Ability: Blade Dance",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "ironic_ling_tong_avengers"
@@ -41283,6 +41285,7 @@ const EFFECT_TYPES = [
   {
     "id": 2,
     "label": "Ability: Blood Price",
+    "group": "Abilities",
     "count": 2,
     "keys": [
       "3k_dlc06_skill_blood_price"
@@ -41291,6 +41294,7 @@ const EFFECT_TYPES = [
   {
     "id": 3,
     "label": "Ability: Blow for Blow",
+    "group": "Abilities",
     "count": 4,
     "keys": [
       "3k_dlc06_skill_blow_for_blow"
@@ -41299,6 +41303,7 @@ const EFFECT_TYPES = [
   {
     "id": 4,
     "label": "Ability: Bold Command",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_dlc06_ability_bold_command"
@@ -41307,6 +41312,7 @@ const EFFECT_TYPES = [
   {
     "id": 5,
     "label": "Ability: Crippling Blow",
+    "group": "Abilities",
     "count": 3,
     "keys": [
       "3k_dlc06_skill_crippling_blow"
@@ -41315,6 +41321,7 @@ const EFFECT_TYPES = [
   {
     "id": 6,
     "label": "Ability: Defiant Cry",
+    "group": "Abilities",
     "count": 3,
     "keys": [
       "3k_dlc06_skill_defiant_cry"
@@ -41323,6 +41330,7 @@ const EFFECT_TYPES = [
   {
     "id": 7,
     "label": "Ability: Desperate Rage",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_dlc06_skill_desperate_rage"
@@ -41331,6 +41339,7 @@ const EFFECT_TYPES = [
   {
     "id": 8,
     "label": "Ability: Downpour",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "ironic_special_ability_gan_ning_bow"
@@ -41339,6 +41348,7 @@ const EFFECT_TYPES = [
   {
     "id": 9,
     "label": "Ability: Endless Volley",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_dlc06_ability_endless_volley"
@@ -41347,6 +41357,7 @@ const EFFECT_TYPES = [
   {
     "id": 10,
     "label": "Ability: Expose",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_dlc06_ability_expose"
@@ -41355,6 +41366,7 @@ const EFFECT_TYPES = [
   {
     "id": 11,
     "label": "Ability: Flames of the Phoenix",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_main_skill_flames_of_the_phoenix"
@@ -41363,6 +41375,7 @@ const EFFECT_TYPES = [
   {
     "id": 12,
     "label": "Ability: Flying Daggers",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_dlc06_ability_flying_daggers"
@@ -41371,6 +41384,7 @@ const EFFECT_TYPES = [
   {
     "id": 13,
     "label": "Ability: Fury",
+    "group": "Abilities",
     "count": 2,
     "keys": [
       "3k_dlc06_skill_fury"
@@ -41379,6 +41393,7 @@ const EFFECT_TYPES = [
   {
     "id": 14,
     "label": "Ability: Gore",
+    "group": "Abilities",
     "count": 2,
     "keys": [
       "3k_dlc06_gore"
@@ -41387,6 +41402,7 @@ const EFFECT_TYPES = [
   {
     "id": 15,
     "label": "Ability: Mending",
+    "group": "Abilities",
     "count": 3,
     "keys": [
       "3k_dlc05_skill_mending"
@@ -41395,6 +41411,7 @@ const EFFECT_TYPES = [
   {
     "id": 16,
     "label": "Ability: Mercy Stroke",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "ironic_pan_zhang_axe"
@@ -41403,6 +41420,7 @@ const EFFECT_TYPES = [
   {
     "id": 17,
     "label": "Ability: Nature's Protection",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_dlc06_skill_natures_protection"
@@ -41411,6 +41429,7 @@ const EFFECT_TYPES = [
   {
     "id": 18,
     "label": "Ability: Off Guard",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_dlc06_ability_off_guard"
@@ -41419,6 +41438,7 @@ const EFFECT_TYPES = [
   {
     "id": 19,
     "label": "Ability: Power of Love",
+    "group": "Abilities",
     "count": 2,
     "keys": [
       "3k_dlc06_ability_power_of_love"
@@ -41427,6 +41447,7 @@ const EFFECT_TYPES = [
   {
     "id": 20,
     "label": "Ability: Proud Regality",
+    "group": "Abilities",
     "count": 5,
     "keys": [
       "ironic_special_ability_yuan_royalty"
@@ -41435,6 +41456,7 @@ const EFFECT_TYPES = [
   {
     "id": 21,
     "label": "Ability: Recovery",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_ytr_ability_recovery"
@@ -41443,6 +41465,7 @@ const EFFECT_TYPES = [
   {
     "id": 22,
     "label": "Ability: Rending Strike",
+    "group": "Abilities",
     "count": 4,
     "keys": [
       "3k_dlc06_skill_rending_strike"
@@ -41451,6 +41474,7 @@ const EFFECT_TYPES = [
   {
     "id": 23,
     "label": "Ability: Roar of the Beast",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_main_skill_roar_of_the_beast"
@@ -41459,6 +41483,7 @@ const EFFECT_TYPES = [
   {
     "id": 24,
     "label": "Ability: Sacred Ground",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "ironic_xu_sheng_earth"
@@ -41467,6 +41492,7 @@ const EFFECT_TYPES = [
   {
     "id": 25,
     "label": "Ability: Southern Wrath",
+    "group": "Abilities",
     "count": 3,
     "keys": [
       "3k_dlc06_skill_southern_wrath"
@@ -41475,6 +41501,7 @@ const EFFECT_TYPES = [
   {
     "id": 26,
     "label": "Ability: Stomp",
+    "group": "Abilities",
     "count": 2,
     "keys": [
       "3k_dlc06_stomp"
@@ -41483,6 +41510,7 @@ const EFFECT_TYPES = [
   {
     "id": 27,
     "label": "Ability: Stone Bulwark",
+    "group": "Abilities",
     "count": 1,
     "keys": [
       "3k_main_skill_stone_bulwark"
@@ -41491,6 +41519,7 @@ const EFFECT_TYPES = [
   {
     "id": 28,
     "label": "Ability: Subdue",
+    "group": "Abilities",
     "count": 3,
     "keys": [
       "3k_dlc06_skill_subdue"
@@ -41499,6 +41528,7 @@ const EFFECT_TYPES = [
   {
     "id": 29,
     "label": "Ability: Swift Steps",
+    "group": "Abilities",
     "count": 2,
     "keys": [
       "3k_dlc06_ability_swift_steps"
@@ -41507,6 +41537,7 @@ const EFFECT_TYPES = [
   {
     "id": 30,
     "label": "Ability: Tenacity of Steel",
+    "group": "Abilities",
     "count": 3,
     "keys": [
       "3k_main_skill_tenacity_of_steel"
@@ -41515,6 +41546,7 @@ const EFFECT_TYPES = [
   {
     "id": 31,
     "label": "Ability: Trumpet",
+    "group": "Abilities",
     "count": 2,
     "keys": [
       "3k_dlc06_trumpet"
@@ -41523,6 +41555,7 @@ const EFFECT_TYPES = [
   {
     "id": 32,
     "label": "Ability: Unity of The Suns",
+    "group": "Abilities",
     "count": 17,
     "keys": [
       "ironic_special_ability_unity_of_family"
@@ -41530,7 +41563,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 33,
-    "label": "additional buildings can be constructed each turn",
+    "label": "Additional buildings can be constructed each turn",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_province_building_additional_construction_limit"
@@ -41539,6 +41573,7 @@ const EFFECT_TYPES = [
   {
     "id": 34,
     "label": "Administrators provided",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_main_effect_progression_effect_governors"
@@ -41546,7 +41581,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 35,
-    "label": "all damage for all forces when attacking",
+    "label": "All damage for all forces when attacking",
+    "group": "Battle",
     "count": 12,
     "keys": [
       "3k_main_effect_force_army_all_damage_and_all_ap_damage_when_attacking"
@@ -41554,7 +41590,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 36,
-    "label": "all damage for all forces when defending",
+    "label": "All damage for all forces when defending",
+    "group": "Battle",
     "count": 9,
     "keys": [
       "3k_main_effect_force_army_all_damage_and_all_ap_damage_when_defending"
@@ -41562,7 +41599,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 37,
-    "label": "ammunition",
+    "label": "Ammunition",
+    "group": "Battle",
     "count": 36,
     "keys": [
       "3k_main_effect_character_stat_mod_ammunition",
@@ -41571,7 +41609,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 38,
-    "label": "ammunition for all units",
+    "label": "Ammunition for all units",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_main_effect_tech_ammunition_increase_all"
@@ -41579,7 +41618,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 39,
-    "label": "ammunition for archers",
+    "label": "Ammunition for archers",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_ammunition_archers"
@@ -41587,7 +41627,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 40,
-    "label": "ammunition for artillery units",
+    "label": "Ammunition for artillery units",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_ammo_mod_artillery_units"
@@ -41595,7 +41636,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 41,
-    "label": "ammunition for ranged units",
+    "label": "Ammunition for ranged units",
+    "group": "Battle",
     "count": 50,
     "keys": [
       "3k_main_effect_unit_stats_ammo_mod_water_units"
@@ -41603,7 +41645,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 42,
-    "label": "armour",
+    "label": "Armour",
+    "group": "Battle",
     "count": 32,
     "keys": [
       "3k_main_effect_character_stat_mod_armour",
@@ -41612,7 +41655,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 43,
-    "label": "armour for all shock cavalry",
+    "label": "Armour for all shock cavalry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_armour_mod_fire_units"
@@ -41620,7 +41664,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 44,
-    "label": "armour for all spear infantry",
+    "label": "Armour for all spear infantry",
+    "group": "Battle",
     "count": 10,
     "keys": [
       "3k_main_effect_unit_stats_armour_mod_wood_units"
@@ -41628,7 +41673,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 45,
-    "label": "armour for cavalry units",
+    "label": "Armour for cavalry units",
+    "group": "Battle",
     "count": 5,
     "keys": [
       "3k_main_effect_unit_stats_armour_mod_cavalry"
@@ -41636,7 +41682,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 46,
-    "label": "armour for melee cavalry",
+    "label": "Armour for melee cavalry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_stats_armour_mod_earth_units"
@@ -41644,7 +41691,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 47,
-    "label": "armour for shield infantry",
+    "label": "Armour for shield infantry",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc06_effect_unit_stats_armour_mod_shield_infantry"
@@ -41652,7 +41700,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 48,
-    "label": "armour-piercing damage",
+    "label": "Armour-piercing damage",
+    "group": "Battle",
     "count": 8,
     "keys": [
       "3k_dlc06_dummy_effect_character_stat_mod_ap_damage",
@@ -41661,7 +41710,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 49,
-    "label": "armour-piercing ranged damage for ranged units",
+    "label": "Armour-piercing ranged damage for ranged units",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_ranged_ap_damage_water_units"
@@ -41670,6 +41720,7 @@ const EFFECT_TYPES = [
   {
     "id": 50,
     "label": "Armour: Champion",
+    "group": "Equipment",
     "count": 2,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_wood"
@@ -41678,6 +41729,7 @@ const EFFECT_TYPES = [
   {
     "id": 51,
     "label": "Armour: Commander",
+    "group": "Equipment",
     "count": 7,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_earth"
@@ -41686,6 +41738,7 @@ const EFFECT_TYPES = [
   {
     "id": 52,
     "label": "Armour: Healer",
+    "group": "Equipment",
     "count": 7,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_ytr_water"
@@ -41694,6 +41747,7 @@ const EFFECT_TYPES = [
   {
     "id": 53,
     "label": "Armour: Scholar",
+    "group": "Equipment",
     "count": 5,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_ytr_metal"
@@ -41702,6 +41756,7 @@ const EFFECT_TYPES = [
   {
     "id": 54,
     "label": "Armour: Sentinel",
+    "group": "Equipment",
     "count": 6,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_metal"
@@ -41710,6 +41765,7 @@ const EFFECT_TYPES = [
   {
     "id": 55,
     "label": "Armour: Sentinel & Commander",
+    "group": "Equipment",
     "count": 299,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_metal_earth"
@@ -41718,6 +41774,7 @@ const EFFECT_TYPES = [
   {
     "id": 56,
     "label": "Armour: Strategist",
+    "group": "Equipment",
     "count": 261,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_water"
@@ -41726,6 +41783,7 @@ const EFFECT_TYPES = [
   {
     "id": 57,
     "label": "Armour: Unique",
+    "group": "Equipment",
     "count": 636,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_unique"
@@ -41734,6 +41792,7 @@ const EFFECT_TYPES = [
   {
     "id": 58,
     "label": "Armour: Vanguard",
+    "group": "Equipment",
     "count": 8,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_fire"
@@ -41742,6 +41801,7 @@ const EFFECT_TYPES = [
   {
     "id": 59,
     "label": "Armour: Vanguard & Champion",
+    "group": "Equipment",
     "count": 342,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_fire_wood"
@@ -41750,6 +41810,7 @@ const EFFECT_TYPES = [
   {
     "id": 60,
     "label": "Armour: Veteran",
+    "group": "Equipment",
     "count": 6,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_armour_ytr_wood"
@@ -41758,6 +41819,7 @@ const EFFECT_TYPES = [
   {
     "id": 61,
     "label": "Assignment slots provided",
+    "group": "Unlocks",
     "count": 2,
     "keys": [
       "3k_main_effect_progression_effect_assignments"
@@ -41765,7 +41827,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 62,
-    "label": "attack rate for ranged units",
+    "label": "Attack rate for ranged units",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_attack_rate_ranged_units"
@@ -41774,6 +41837,7 @@ const EFFECT_TYPES = [
   {
     "id": 63,
     "label": "Attrition from military supply shortage",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_dummy_effect_attrition_military_supplies"
@@ -41781,7 +41845,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 64,
-    "label": "attrition to hostile forces",
+    "label": "Attrition to hostile forces",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_province_security_attrition_hostile_force"
@@ -41789,7 +41854,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 65,
-    "label": "available armies",
+    "label": "Available armies",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_progression_limit_army"
@@ -41797,7 +41863,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 66,
-    "label": "available assignments",
+    "label": "Available assignments",
+    "group": "Campaign",
     "count": 6,
     "keys": [
       "3k_main_effect_politics_assignment_limit"
@@ -41805,7 +41872,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 67,
-    "label": "available Spies positions",
+    "label": "Available Spies positions",
+    "group": "Campaign",
     "count": 6,
     "keys": [
       "3k_main_effect_undercover_character_max_count_bonus"
@@ -41813,7 +41881,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 68,
-    "label": "available trade agreements",
+    "label": "Available trade agreements",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_diplomacy_trade_agreement_capacity"
@@ -41821,7 +41890,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 69,
-    "label": "battle running speed",
+    "label": "Battle running speed",
+    "group": "Battle",
     "count": 22,
     "keys": [
       "3k_main_skill_run_speed"
@@ -41829,7 +41899,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 70,
-    "label": "bonus experience for units per season",
+    "label": "Bonus experience for units per season",
+    "group": "Campaign",
     "count": 44,
     "keys": [
       "3k_main_skill_unit_experience"
@@ -41837,7 +41908,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 71,
-    "label": "building upkeep",
+    "label": "Building upkeep",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_province_building_upkeep"
@@ -41845,7 +41917,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 72,
-    "label": "bureaucrats influence",
+    "label": "Bureaucrats influence",
+    "group": "Campaign",
     "count": 13,
     "keys": [
       "3k_dlc04_effect_pooled_resource_bureaucrats_influence_increase_from_characters"
@@ -41853,7 +41926,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 73,
-    "label": "campaign line-of-sight",
+    "label": "Campaign line-of-sight",
+    "group": "Campaign",
     "count": 18,
     "keys": [
       "3k_main_skill_line_of_sight"
@@ -41861,7 +41935,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 74,
-    "label": "campaign movement range",
+    "label": "Campaign movement range",
+    "group": "Campaign",
     "count": 91,
     "keys": [
       "3k_main_effect_force_all_campaign_movement_range"
@@ -41869,7 +41944,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 75,
-    "label": "campaign movement range when in own region",
+    "label": "Campaign movement range when in own region",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_ironic_effect_campaign_movement_in_own_regions"
@@ -41877,7 +41953,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 76,
-    "label": "campaign movement range when in own sea region",
+    "label": "Campaign movement range when in own sea region",
+    "group": "Campaign",
     "count": 9,
     "keys": [
       "3k_ironic_effect_campaign_movement_sea_in_own_regions"
@@ -41886,6 +41963,7 @@ const EFFECT_TYPES = [
   {
     "id": 77,
     "label": "Can have night battles triggered against",
+    "group": "Passives",
     "count": 1,
     "keys": [
       "3k_main_effect_night_battles_against"
@@ -41893,7 +41971,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 78,
-    "label": "chance of ambushing",
+    "label": "Chance of ambushing",
+    "group": "Campaign",
     "count": 36,
     "keys": [
       "3k_main_effect_skill_ambush_attack_chance"
@@ -41902,6 +41981,7 @@ const EFFECT_TYPES = [
   {
     "id": 79,
     "label": "Chance of ambushing any enemy army this force attacks",
+    "group": "Campaign",
     "count": 8,
     "keys": [
       "3k_main_effect_stance_ambush_chance"
@@ -41909,7 +41989,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 80,
-    "label": "chance of avoiding ambush",
+    "label": "Chance of avoiding ambush",
+    "group": "Campaign",
     "count": 15,
     "keys": [
       "3k_main_effect_skill_ambush_defence_chance"
@@ -41917,7 +41998,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 81,
-    "label": "chance of capturing enemy officers post-battle",
+    "label": "Chance of capturing enemy officers post-battle",
+    "group": "Campaign",
     "count": 6,
     "keys": [
       "3k_main_effect_character_captives_capture_chance"
@@ -41925,7 +42007,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 82,
-    "label": "chance of discovery when performing spy actions",
+    "label": "Chance of discovery when performing spy actions",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_undercover_character_additional_discover_chance"
@@ -41933,7 +42016,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 83,
-    "label": "chance of evading capture post-battle",
+    "label": "Chance of evading capture post-battle",
+    "group": "Campaign",
     "count": 48,
     "keys": [
       "3k_main_effect_character_captives_escape_chance"
@@ -41942,6 +42026,7 @@ const EFFECT_TYPES = [
   {
     "id": 84,
     "label": "Chance to build siege equipment instantly",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "ironic_dummy_effect_chance_to_build_towers"
@@ -41949,7 +42034,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 85,
-    "label": "character experience",
+    "label": "Character experience",
+    "group": "Campaign",
     "count": 199,
     "keys": [
       "3k_main_effect_characters_experience_bonus"
@@ -41957,7 +42043,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 86,
-    "label": "character salary",
+    "label": "Character salary",
+    "group": "Campaign",
     "count": 28,
     "keys": [
       "3k_main_effect_character_salary"
@@ -41965,7 +42052,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 87,
-    "label": "charge bonus",
+    "label": "Charge bonus",
+    "group": "Battle",
     "count": 233,
     "keys": [
       "3k_main_effect_unit_stats_charge_bonus_abs_character",
@@ -41974,7 +42062,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 88,
-    "label": "charge bonus for all infantry",
+    "label": "Charge bonus for all infantry",
+    "group": "Battle",
     "count": 25,
     "keys": [
       "3k_main_effect_unit_stats_charge_bonus_modifier_infantry"
@@ -41982,7 +42071,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 89,
-    "label": "charge bonus for all units",
+    "label": "Charge bonus for all units",
+    "group": "Battle",
     "count": 71,
     "keys": [
       "3k_main_effect_unit_stats_charge_bonus_abs_all_when_attacking",
@@ -41991,7 +42081,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 90,
-    "label": "charge bonus for cavalry",
+    "label": "Charge bonus for cavalry",
+    "group": "Battle",
     "count": 37,
     "keys": [
       "3k_main_effect_faction_trait_tigers_fury_sun_jian"
@@ -41999,7 +42090,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 91,
-    "label": "charge bonus for elephant units",
+    "label": "Charge bonus for elephant units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc06_effect_unit_stats_charge_bonus_mod_elephants"
@@ -42007,7 +42099,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 92,
-    "label": "charge bonus for shock and melee cavalry",
+    "label": "Charge bonus for shock and melee cavalry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_charge_bonus_abs_cavalry"
@@ -42015,7 +42108,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 93,
-    "label": "charge bonus for shock cavalry",
+    "label": "Charge bonus for shock cavalry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_charge_bonus_abs_fire_units"
@@ -42023,7 +42117,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 94,
-    "label": "charge bonus for spear infantry",
+    "label": "Charge bonus for spear infantry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_charge_bonus_abs_wood_units"
@@ -42031,7 +42126,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 95,
-    "label": "charge bonus for Wuhuan units",
+    "label": "Charge bonus for Wuhuan units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "ironic_liu_yu_wuhuan_charge"
@@ -42039,7 +42135,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 96,
-    "label": "charge speed",
+    "label": "Charge speed",
+    "group": "Battle",
     "count": 6,
     "keys": [
       "3k_main_effect_character_stat_mod_charge_speed"
@@ -42047,7 +42144,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 97,
-    "label": "charge speed for shock and melee cavalry",
+    "label": "Charge speed for shock and melee cavalry",
+    "group": "Battle",
     "count": 24,
     "keys": [
       "3k_main_effect_all_cavalry_stat_mod_charge_speed"
@@ -42055,7 +42153,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 98,
-    "label": "commandery campaign line-of-sight",
+    "label": "Commandery campaign line-of-sight",
+    "group": "Campaign",
     "count": 10,
     "keys": [
       "3k_main_effect_province_line_of_sight"
@@ -42063,7 +42162,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 99,
-    "label": "construction cost",
+    "label": "Construction cost",
+    "group": "Campaign",
     "count": 29,
     "keys": [
       "3k_main_effect_province_building_construction_cost_mod",
@@ -42072,7 +42172,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 100,
-    "label": "construction cost (agriculture)",
+    "label": "Construction cost (agriculture)",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_province_building_construction_cost_mod_wood"
@@ -42080,7 +42181,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 101,
-    "label": "construction cost (resource settlements)",
+    "label": "Construction cost (resource settlements)",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_province_building_construction_cost_mod_resources"
@@ -42088,7 +42190,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 102,
-    "label": "construction cost (settlement administration)",
+    "label": "Construction cost (settlement administration)",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_province_building_construction_cost_mod_city_level"
@@ -42096,7 +42199,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 103,
-    "label": "construction time",
+    "label": "Construction time",
+    "group": "Campaign",
     "count": 19,
     "keys": [
       "3k_main_effect_province_building_construction_time_mod"
@@ -42104,7 +42208,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 104,
-    "label": "construction time (agriculture)",
+    "label": "Construction time (agriculture)",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_province_building_construction_time_mod_wood"
@@ -42112,7 +42217,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 105,
-    "label": "construction time (learning and markets)",
+    "label": "Construction time (learning and markets)",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_province_building_construction_time_mod_water"
@@ -42120,7 +42226,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 106,
-    "label": "construction time (settlement administration)",
+    "label": "Construction time (settlement administration)",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_province_building_construction_time_mod_city_level"
@@ -42128,7 +42235,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 107,
-    "label": "corruption",
+    "label": "Corruption",
+    "group": "Campaign",
     "count": 46,
     "keys": [
       "3k_main_effect_province_corruption"
@@ -42136,7 +42244,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 108,
-    "label": "county campaign line-of-sight",
+    "label": "County campaign line-of-sight",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_region_line_of_sight_mod"
@@ -42144,7 +42253,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 109,
-    "label": "cover cost for enemy spies",
+    "label": "Cover cost for enemy spies",
+    "group": "Campaign",
     "count": 21,
     "keys": [
       "3k_main_effect_undercover_character_defence_against_action_cover_cost_bonus"
@@ -42152,7 +42262,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 110,
-    "label": "cover cost for enemy spies who are family members",
+    "label": "Cover cost for enemy spies who are family members",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_undercover_character_defence_against_action_cover_cost_bonus_family_member"
@@ -42160,7 +42271,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 111,
-    "label": "cover cost when performing spy actions",
+    "label": "Cover cost when performing spy actions",
+    "group": "Campaign",
     "count": 26,
     "keys": [
       "3k_main_effect_undercover_character_cover_point_cost_bonus"
@@ -42168,7 +42280,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 112,
-    "label": "cover gain per turn when spying",
+    "label": "Cover gain per turn when spying",
+    "group": "Campaign",
     "count": 12,
     "keys": [
       "3k_main_effect_undercover_character_cover_points_per_turn_mod"
@@ -42176,7 +42289,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 113,
-    "label": "damage for Missile Cavalry",
+    "label": "Damage for Missile Cavalry",
+    "group": "Battle",
     "count": 24,
     "keys": [
       "ironic_unit_increase_ranged_cavalry_base_damage"
@@ -42184,7 +42298,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 114,
-    "label": "Decreases rate of wall and settlement damage during sieges.",
+    "label": "Decreases rate of wall and settlement damage during sieges",
+    "group": "Battle",
     "count": 3,
     "keys": [
       "3k_main_effect_force_siege_escalation_effectiveness_decrease"
@@ -42192,7 +42307,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 115,
-    "label": "desire for higher office",
+    "label": "Desire for higher office",
+    "group": "Campaign",
     "count": 50,
     "keys": [
       "3k_main_effect_character_job_satisfaction_penalty_modifier_increased",
@@ -42202,7 +42318,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 116,
-    "label": "diplomatic attitude with most factions (strategic threat)",
+    "label": "Diplomatic attitude with most factions (strategic threat)",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_diplomacy_strategic_threat"
@@ -42210,7 +42327,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 117,
-    "label": "diplomatic income from tributaries",
+    "label": "Diplomatic income from tributaries",
+    "group": "Campaign",
     "count": 10,
     "keys": [
       "3k_main_effect_diplomacy_modify_vassal_income"
@@ -42218,7 +42336,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 118,
-    "label": "diplomatic relations with all factions",
+    "label": "Diplomatic relations with all factions",
+    "group": "Campaign",
     "count": 20,
     "keys": [
       "3k_main_faction_diplomacy_mod",
@@ -42228,7 +42347,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 119,
-    "label": "diplomatic relations with Han Empire factions",
+    "label": "Diplomatic relations with Han Empire factions",
+    "group": "Campaign",
     "count": 15,
     "keys": [
       "3k_main_effect_diplomacy_han_empire_mod"
@@ -42236,7 +42356,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 120,
-    "label": "diplomatic relations with Wang Kuang's factions",
+    "label": "Diplomatic relations with Wang Kuang's factions",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "ironic_effect_wang_kuang_diplomacy"
@@ -42245,6 +42366,7 @@ const EFFECT_TYPES = [
   {
     "id": 121,
     "label": "Disables: Character Abilities",
+    "group": "Passives",
     "count": 3,
     "keys": [
       "3k_dlc06_effect_attribute_cannot_use_abilities"
@@ -42253,6 +42375,7 @@ const EFFECT_TYPES = [
   {
     "id": 122,
     "label": "Disables: Dismount",
+    "group": "Passives",
     "count": 3,
     "keys": [
       "3k_dlc06_effect_attribute_cannot_dismount"
@@ -42261,6 +42384,7 @@ const EFFECT_TYPES = [
   {
     "id": 123,
     "label": "Disables: Duelling",
+    "group": "Passives",
     "count": 4,
     "keys": [
       "3k_dlc06_effect_attribute_cannot_duel"
@@ -42269,6 +42393,7 @@ const EFFECT_TYPES = [
   {
     "id": 124,
     "label": "Disables: Matched Combat",
+    "group": "Passives",
     "count": 4,
     "keys": [
       "ironic_dummy_disabled_matched_combat"
@@ -42277,6 +42402,7 @@ const EFFECT_TYPES = [
   {
     "id": 125,
     "label": "Dongzhoubing Marksmen and Defenders available for recruitment",
+    "group": "Unlocks",
     "count": 4,
     "keys": [
       "3k_dlc07_effect_unit_cap_wood_dongzhoubing_units"
@@ -42284,7 +42410,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 126,
-    "label": "dynasty influence",
+    "label": "Dynasty influence",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_dlc04_effect_pooled_resource_dynasty_influence_increase_from_characters"
@@ -42293,6 +42420,7 @@ const EFFECT_TYPES = [
   {
     "id": 127,
     "label": "Enables: Charge Negate",
+    "group": "Passives",
     "count": 15,
     "keys": [
       "3k_main_ancillary_charge_negate"
@@ -42301,6 +42429,7 @@ const EFFECT_TYPES = [
   {
     "id": 128,
     "label": "Enables: Charge Reflect",
+    "group": "Passives",
     "count": 11,
     "keys": [
       "3k_main_ancillary_charge_reflect"
@@ -42309,6 +42438,7 @@ const EFFECT_TYPES = [
   {
     "id": 129,
     "label": "Enables: Disciplined",
+    "group": "Passives",
     "count": 38,
     "keys": [
       "3k_main_effect_unit_attribute_disciplined"
@@ -42317,6 +42447,7 @@ const EFFECT_TYPES = [
   {
     "id": 130,
     "label": "Enables: Encourage",
+    "group": "Passives",
     "count": 55,
     "keys": [
       "3k_main_effect_attribute_encourages"
@@ -42325,6 +42456,7 @@ const EFFECT_TYPES = [
   {
     "id": 131,
     "label": "Enables: Fatigue Immunity",
+    "group": "Passives",
     "count": 16,
     "keys": [
       "3k_main_ancillary_fatigue_immune"
@@ -42333,6 +42465,7 @@ const EFFECT_TYPES = [
   {
     "id": 132,
     "label": "Enables: Fatigue Resistance",
+    "group": "Passives",
     "count": 38,
     "keys": [
       "3k_main_ancillary_fatigue_resistance"
@@ -42341,6 +42474,7 @@ const EFFECT_TYPES = [
   {
     "id": 133,
     "label": "Enables: Fire Arrows",
+    "group": "Passives",
     "count": 3,
     "keys": [
       "3k_main_effect_enable_projectile_fire_arrows"
@@ -42349,6 +42483,7 @@ const EFFECT_TYPES = [
   {
     "id": 134,
     "label": "Enables: Fire Arrows and Flaming Shot",
+    "group": "Passives",
     "count": 2,
     "keys": [
       "3k_main_skill_fire_arrows"
@@ -42357,6 +42492,7 @@ const EFFECT_TYPES = [
   {
     "id": 135,
     "label": "Enables: Fire Backwards",
+    "group": "Passives",
     "count": 42,
     "keys": [
       "3k_main_effect_attribute_mounted_fire_parthian"
@@ -42365,6 +42501,7 @@ const EFFECT_TYPES = [
   {
     "id": 136,
     "label": "Enables: Guerrilla Deployment",
+    "group": "Passives",
     "count": 7,
     "keys": [
       "3k_main_effect_unit_attribute_battle_context_guerrilla_deploy",
@@ -42374,6 +42511,7 @@ const EFFECT_TYPES = [
   {
     "id": 137,
     "label": "Enables: Hide in Scrub",
+    "group": "Passives",
     "count": 1,
     "keys": [
       "3k_main_ancillary_hide_in_scrub"
@@ -42382,6 +42520,7 @@ const EFFECT_TYPES = [
   {
     "id": 138,
     "label": "Enables: Ignore Forest Penalties",
+    "group": "Passives",
     "count": 6,
     "keys": [
       "3k_main_faction_trait_zhang_yan_1",
@@ -42391,6 +42530,7 @@ const EFFECT_TYPES = [
   {
     "id": 139,
     "label": "Enables: Immune to Fear & Terror",
+    "group": "Passives",
     "count": 9,
     "keys": [
       "3k_main_effect_attribute_immune_to_psychology"
@@ -42399,6 +42539,7 @@ const EFFECT_TYPES = [
   {
     "id": 140,
     "label": "Enables: Immune to Scaring",
+    "group": "Passives",
     "count": 6,
     "keys": [
       "3k_main_effect_attribute_scare_immune"
@@ -42407,6 +42548,7 @@ const EFFECT_TYPES = [
   {
     "id": 141,
     "label": "Enables: Mighty Knockback",
+    "group": "Passives",
     "count": 13,
     "keys": [
       "3k_main_effect_attribute_mighty_knockback"
@@ -42415,6 +42557,7 @@ const EFFECT_TYPES = [
   {
     "id": 142,
     "label": "Enables: Mounted Fire while Moving",
+    "group": "Passives",
     "count": 42,
     "keys": [
       "3k_main_effect_attribute_mounted_fire_move"
@@ -42423,6 +42566,7 @@ const EFFECT_TYPES = [
   {
     "id": 143,
     "label": "Enables: Night Battles",
+    "group": "Passives",
     "count": 4,
     "keys": [
       "3k_main_skill_night_battles"
@@ -42431,6 +42575,7 @@ const EFFECT_TYPES = [
   {
     "id": 144,
     "label": "Enables: Poison Arrows",
+    "group": "Passives",
     "count": 1,
     "keys": [
       "3k_main_effect_enable_projectile_poison_arrows"
@@ -42439,6 +42584,7 @@ const EFFECT_TYPES = [
   {
     "id": 145,
     "label": "Enables: Raider",
+    "group": "Passives",
     "count": 28,
     "keys": [
       "3k_main_effect_attribute_raider"
@@ -42447,6 +42593,7 @@ const EFFECT_TYPES = [
   {
     "id": 146,
     "label": "Enables: Scare",
+    "group": "Passives",
     "count": 9,
     "keys": [
       "3k_main_skill_cause_fear"
@@ -42455,6 +42602,7 @@ const EFFECT_TYPES = [
   {
     "id": 147,
     "label": "Enables: Scare (when attacking on campaign map)",
+    "group": "Passives",
     "count": 1,
     "keys": [
       "3k_dlc05_effect_causes_fear_when_attacking"
@@ -42463,6 +42611,7 @@ const EFFECT_TYPES = [
   {
     "id": 148,
     "label": "Enables: Scare Horse",
+    "group": "Passives",
     "count": 1,
     "keys": [
       "3k_main_ancillary_scare_horse"
@@ -42471,6 +42620,7 @@ const EFFECT_TYPES = [
   {
     "id": 149,
     "label": "Enables: Snipe",
+    "group": "Passives",
     "count": 17,
     "keys": [
       "3k_main_ancillary_snipe"
@@ -42479,6 +42629,7 @@ const EFFECT_TYPES = [
   {
     "id": 150,
     "label": "Enables: Stalk",
+    "group": "Passives",
     "count": 16,
     "keys": [
       "3k_main_ancillary_stalk"
@@ -42487,6 +42638,7 @@ const EFFECT_TYPES = [
   {
     "id": 151,
     "label": "Enables: Terror",
+    "group": "Passives",
     "count": 9,
     "keys": [
       "3k_main_ancillary_cause_terror"
@@ -42495,6 +42647,7 @@ const EFFECT_TYPES = [
   {
     "id": 152,
     "label": "Enables: Unbreakable",
+    "group": "Passives",
     "count": 4,
     "keys": [
       "3k_main_skill_unbreakable"
@@ -42503,6 +42656,7 @@ const EFFECT_TYPES = [
   {
     "id": 153,
     "label": "Enables: Unbreakable (when attacking on campaign map)",
+    "group": "Passives",
     "count": 6,
     "keys": [
       "3k_dlc05_effect_unbreakable_when_attacking"
@@ -42511,6 +42665,7 @@ const EFFECT_TYPES = [
   {
     "id": 154,
     "label": "Enables: Unbreakable (when defending on campaign map)",
+    "group": "Passives",
     "count": 6,
     "keys": [
       "3k_dlc05_effect_unbreakable_when_defending"
@@ -42519,6 +42674,7 @@ const EFFECT_TYPES = [
   {
     "id": 155,
     "label": "Enables: Unruly",
+    "group": "Passives",
     "count": 3,
     "keys": [
       "3k_main_effect_attribute_unruly"
@@ -42526,7 +42682,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 156,
-    "label": "enemy armour",
+    "label": "Enemy armour",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_main_dummy_effect_character_stat_mod_armour"
@@ -42534,7 +42691,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 157,
-    "label": "faction support",
+    "label": "Faction support",
+    "group": "Campaign",
     "count": 9,
     "keys": [
       "3k_main_effect_faction_support_gain"
@@ -42542,7 +42700,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 158,
-    "label": "fatigue rate",
+    "label": "Fatigue rate",
+    "group": "Battle",
     "count": 5,
     "keys": [
       "3k_main_effect_unit_stats_fatigue_resistance_mod"
@@ -42550,7 +42709,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 159,
-    "label": "fatigue rate for cavalry",
+    "label": "Fatigue rate for cavalry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_dlc07_effect_unit_stats_fatigue_resistance_mod_cavalry"
@@ -42558,7 +42718,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 160,
-    "label": "fatigue rate for melee cavalry",
+    "label": "Fatigue rate for melee cavalry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_stats_fatigue_resistance_mod_earth_units"
@@ -42566,7 +42727,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 161,
-    "label": "fatigue rate for shock cavalry",
+    "label": "Fatigue rate for shock cavalry",
+    "group": "Battle",
     "count": 3,
     "keys": [
       "3k_main_effect_unit_stats_fatigue_resistance_mod_fire_units"
@@ -42574,7 +42736,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 162,
-    "label": "fervour from characters",
+    "label": "Fervour from characters",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_dlc04_effect_region_fervour_regional_characters"
@@ -42583,6 +42746,7 @@ const EFFECT_TYPES = [
   {
     "id": 163,
     "label": "Fire Resistance",
+    "group": "Passives",
     "count": 1,
     "keys": [
       "ironic_effect_flame_resistance"
@@ -42590,7 +42754,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 164,
-    "label": "food production",
+    "label": "Food production",
+    "group": "Campaign",
     "count": 29,
     "keys": [
       "3k_main_effect_province_food_abs_characters",
@@ -42601,7 +42766,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 165,
-    "label": "food production (foraging)",
+    "label": "Food production (foraging)",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_province_food_abs_foraging"
@@ -42609,7 +42775,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 166,
-    "label": "general's aura of influence",
+    "label": "General's aura of influence",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_main_ancillary_general_aura_mod"
@@ -42617,7 +42784,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 167,
-    "label": "general's bodyguard size",
+    "label": "General's bodyguard size",
+    "group": "Battle",
     "count": 11,
     "keys": [
       "3k_main_effect_character_stat_mod_health_records_bodyguard"
@@ -42625,7 +42793,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 168,
-    "label": "general's health",
+    "label": "General's health",
+    "group": "Battle",
     "count": 11,
     "keys": [
       "3k_main_effect_character_stat_mod_health_romance_personal"
@@ -42633,7 +42802,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 169,
-    "label": "hit chance",
+    "label": "Hit chance",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_stats_unit_hit_chance"
@@ -42642,6 +42812,7 @@ const EFFECT_TYPES = [
   {
     "id": 170,
     "label": "Immune to morale penalties",
+    "group": "Passives",
     "count": 1,
     "keys": [
       "3k_main_effect_sworn_brothers"
@@ -42649,7 +42820,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 171,
-    "label": "income (peasantry)",
+    "label": "Income (peasantry)",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_economy_gdp_abs_peasantry"
@@ -42657,7 +42829,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 172,
-    "label": "income (silk)",
+    "label": "Income (silk)",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_economy_gdp_abs_silk"
@@ -42665,7 +42838,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 173,
-    "label": "income from all sources",
+    "label": "Income from all sources",
+    "group": "Campaign",
     "count": 57,
     "keys": [
       "3k_main_effect_economy_gdp_mod_all",
@@ -42674,7 +42848,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 174,
-    "label": "income from banditry",
+    "label": "Income from banditry",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_dlc05_effect_economy_gdp_mod_banditry"
@@ -42682,7 +42857,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 175,
-    "label": "income from commerce",
+    "label": "Income from commerce",
+    "group": "Campaign",
     "count": 22,
     "keys": [
       "3k_main_effect_economy_gdp_mod_commerce"
@@ -42690,7 +42866,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 176,
-    "label": "income from commerce and culture",
+    "label": "Income from commerce and culture",
+    "group": "Campaign",
     "count": 6,
     "keys": [
       "3k_main_effect_economy_gdp_mod_commerce_and_culture"
@@ -42698,7 +42875,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 177,
-    "label": "income from commerce and industry",
+    "label": "Income from commerce and industry",
+    "group": "Campaign",
     "count": 13,
     "keys": [
       "3k_main_effect_economy_gdp_mod_commerce_and_industry"
@@ -42706,7 +42884,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 178,
-    "label": "income from culture",
+    "label": "Income from culture",
+    "group": "Campaign",
     "count": 23,
     "keys": [
       "3k_main_effect_economy_gdp_mod_culture"
@@ -42714,7 +42893,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 179,
-    "label": "income from family estates",
+    "label": "Income from family estates",
+    "group": "Campaign",
     "count": 34,
     "keys": [
       "3k_main_effect_background_income_rich",
@@ -42723,7 +42903,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 180,
-    "label": "income from industry",
+    "label": "Income from industry",
+    "group": "Campaign",
     "count": 19,
     "keys": [
       "3k_main_effect_economy_gdp_mod_industry"
@@ -42731,7 +42912,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 181,
-    "label": "income from looting settlements",
+    "label": "Income from looting settlements",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_force_all_campaign_loot_income"
@@ -42739,7 +42921,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 182,
-    "label": "income from peasantry",
+    "label": "Income from peasantry",
+    "group": "Campaign",
     "count": 34,
     "keys": [
       "3k_main_effect_economy_gdp_mod_peasantry"
@@ -42747,7 +42930,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 183,
-    "label": "income from peasantry and commerce",
+    "label": "Income from peasantry and commerce",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_economy_gdp_mod_peasantry_and_commerce"
@@ -42755,7 +42939,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 184,
-    "label": "income from silk",
+    "label": "Income from silk",
+    "group": "Campaign",
     "count": 5,
     "keys": [
       "3k_main_effect_economy_gdp_mod_silk"
@@ -42763,7 +42948,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 185,
-    "label": "income from silk and spice",
+    "label": "Income from silk and spice",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_faction_trait_ma_teng_2_protector_of_the_silk_road"
@@ -42771,7 +42957,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 186,
-    "label": "income from spice",
+    "label": "Income from spice",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_economy_gdp_mod_spice"
@@ -42779,7 +42966,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 187,
-    "label": "income from trade agreements",
+    "label": "Income from trade agreements",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "ironic_main_effect_economy_trade_agreement_mod"
@@ -42788,6 +42976,7 @@ const EFFECT_TYPES = [
   {
     "id": 188,
     "label": "Increases ambition to gain independence as administrator",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_dummy_effect_personality_governor_independence_increased"
@@ -42795,7 +42984,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 189,
-    "label": "Increases rate of wall and settlement damage during sieges.",
+    "label": "Increases rate of wall and settlement damage during sieges",
+    "group": "Battle",
     "count": 8,
     "keys": [
       "3k_main_effect_force_siege_escalation_effectiveness_increase"
@@ -42803,7 +42993,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 190,
-    "label": "maximum cover when spying",
+    "label": "Maximum cover when spying",
+    "group": "Campaign",
     "count": 6,
     "keys": [
       "3k_main_effect_undercover_character_maximum_cover_point_mod"
@@ -42811,7 +43002,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 191,
-    "label": "melee armour-piercing damage",
+    "label": "Melee armour-piercing damage",
+    "group": "Battle",
     "count": 24,
     "keys": [
       "3k_main_effect_character_stat_mod_ap_damage_melee"
@@ -42819,7 +43011,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 192,
-    "label": "melee attack rate",
+    "label": "Melee attack rate",
+    "group": "Battle",
     "count": 231,
     "keys": [
       "3k_main_skill_attack_rate"
@@ -42827,7 +43020,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 193,
-    "label": "melee damage",
+    "label": "Melee damage",
+    "group": "Battle",
     "count": 56,
     "keys": [
       "3k_main_effect_character_stat_mod_melee_attack",
@@ -42837,7 +43031,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 194,
-    "label": "melee damage for all animal troops",
+    "label": "Melee damage for all animal troops",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc06_effect_unit_stats_melee_damage_animal_units"
@@ -42845,7 +43040,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 195,
-    "label": "melee damage for all melee cavalry",
+    "label": "Melee damage for all melee cavalry",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_main_effect_unit_stats_melee_damage_mod_earth_units"
@@ -42853,7 +43049,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 196,
-    "label": "melee damage for all shock cavalry",
+    "label": "Melee damage for all shock cavalry",
+    "group": "Battle",
     "count": 5,
     "keys": [
       "3k_main_effect_unit_stats_melee_damage_mod_fire_units"
@@ -42861,7 +43058,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 197,
-    "label": "melee damage for axe infantry",
+    "label": "Melee damage for axe infantry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_dlc06_effect_unit_stats_melee_damage_mod_axe_infantry"
@@ -42869,7 +43067,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 198,
-    "label": "melee damage for cavalry",
+    "label": "Melee damage for cavalry",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_main_faction_trait_ma_teng_1_general_of_the_west"
@@ -42877,7 +43076,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 199,
-    "label": "melee damage for melee infantry",
+    "label": "Melee damage for melee infantry",
+    "group": "Battle",
     "count": 11,
     "keys": [
       "3k_main_effect_unit_stats_melee_damage_mod_melee_units",
@@ -42886,7 +43086,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 200,
-    "label": "melee damage for spear infantry",
+    "label": "Melee damage for spear infantry",
+    "group": "Battle",
     "count": 3,
     "keys": [
       "3k_main_effect_unit_stats_melee_damage_mod_wood_units"
@@ -42894,7 +43095,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 201,
-    "label": "melee damage for tiger units",
+    "label": "Melee damage for tiger units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc06_effect_unit_stats_melee_damage_mod_tiger_units"
@@ -42902,7 +43104,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 202,
-    "label": "melee evasion",
+    "label": "Melee evasion",
+    "group": "Battle",
     "count": 91,
     "keys": [
       "3k_main_effect_character_stat_mod_melee_defence",
@@ -42911,7 +43114,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 203,
-    "label": "melee evasion for melee infantry",
+    "label": "Melee evasion for melee infantry",
+    "group": "Battle",
     "count": 18,
     "keys": [
       "3k_main_effect_unit_stats_melee_defence_mod_metal_units"
@@ -42919,7 +43123,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 204,
-    "label": "melee evasion for Nanman units",
+    "label": "Melee evasion for Nanman units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc06_effect_unit_stats_melee_defence_nanman"
@@ -42927,7 +43132,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 205,
-    "label": "melee evasion for spear infantry",
+    "label": "Melee evasion for spear infantry",
+    "group": "Battle",
     "count": 15,
     "keys": [
       "3k_main_effect_unit_stats_melee_defence_mod_wood_units"
@@ -42935,7 +43141,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 206,
-    "label": "melee evasion when defending",
+    "label": "Melee evasion when defending",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_character_stat_mod_melee_defence_while_defending"
@@ -42944,6 +43151,7 @@ const EFFECT_TYPES = [
   {
     "id": 207,
     "label": "Military buildings construction cost reduction",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_construction_cost_residential_to_military"
@@ -42951,7 +43159,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 208,
-    "label": "military supplies",
+    "label": "Military supplies",
+    "group": "Campaign",
     "count": 84,
     "keys": [
       "3k_main_effect_force_military_supplies_from_characters",
@@ -42960,7 +43169,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 209,
-    "label": "military supplies (own territory)",
+    "label": "Military supplies (own territory)",
+    "group": "Campaign",
     "count": 21,
     "keys": [
       "3k_main_effect_force_military_supplies_own_territory_from_characters",
@@ -42969,7 +43179,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 210,
-    "label": "military supplies in enemy territory",
+    "label": "Military supplies in enemy territory",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_force_military_supplies_enemy_territory_from_characters"
@@ -42977,7 +43188,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 211,
-    "label": "militia replenishment",
+    "label": "Militia replenishment",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_replenishment_buildings_militia"
@@ -42985,7 +43197,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 212,
-    "label": "morale",
+    "label": "Morale",
+    "group": "Battle",
     "count": 134,
     "keys": [
       "3k_main_effect_unit_stats_morale_abs"
@@ -42993,7 +43206,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 213,
-    "label": "morale for advanced melee cavalry",
+    "label": "Morale for advanced melee cavalry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_advanced_earth"
@@ -43001,7 +43215,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 214,
-    "label": "morale for advanced ranged units",
+    "label": "Morale for advanced ranged units",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_advanced_water"
@@ -43009,7 +43224,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 215,
-    "label": "morale for advanced shock cavalry",
+    "label": "Morale for advanced shock cavalry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_advanced_fire"
@@ -43017,7 +43233,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 216,
-    "label": "morale for advanced spear infantry",
+    "label": "Morale for advanced spear infantry",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_advanced_wood"
@@ -43025,7 +43242,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 217,
-    "label": "morale for advanced sword and axe infantry",
+    "label": "Morale for advanced sword and axe infantry",
+    "group": "Battle",
     "count": 3,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_advanced_metal"
@@ -43033,7 +43251,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 218,
-    "label": "morale for advanced units",
+    "label": "Morale for advanced units",
+    "group": "Battle",
     "count": 6,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_advanced_all"
@@ -43041,7 +43260,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 219,
-    "label": "morale for attacking enemy forces",
+    "label": "Morale for attacking enemy forces",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_stats_morale_enemy_forces_when_self_defending"
@@ -43049,7 +43269,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 220,
-    "label": "morale for Chen Wen's unique units and militia",
+    "label": "Morale for Chen Wen's unique units and militia",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_chen_wen_units"
@@ -43057,7 +43278,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 221,
-    "label": "morale for crossbow units",
+    "label": "Morale for crossbow units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc04_effect_unit_stats_morale_abs_crossbow_units"
@@ -43065,7 +43287,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 222,
-    "label": "morale for defending enemy forces",
+    "label": "Morale for defending enemy forces",
+    "group": "Battle",
     "count": 3,
     "keys": [
       "3k_main_effect_unit_stats_morale_enemy_forces_when_self_attacking"
@@ -43073,7 +43296,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 223,
-    "label": "morale for Di tribal units",
+    "label": "Morale for Di tribal units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_di"
@@ -43081,7 +43305,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 224,
-    "label": "morale for elite units",
+    "label": "Morale for elite units",
+    "group": "Battle",
     "count": 10,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_elite_all"
@@ -43089,7 +43314,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 225,
-    "label": "morale for infantry",
+    "label": "Morale for infantry",
+    "group": "Battle",
     "count": 6,
     "keys": [
       "3k_main_effect_unit_stats_morale_abs_infantry"
@@ -43097,7 +43323,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 226,
-    "label": "morale for melee cavalry",
+    "label": "Morale for melee cavalry",
+    "group": "Battle",
     "count": 5,
     "keys": [
       "3k_main_effect_unit_stats_morale_abs_earth_units"
@@ -43105,7 +43332,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 227,
-    "label": "morale for militia melee cavalry",
+    "label": "Morale for militia melee cavalry",
+    "group": "Battle",
     "count": 7,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_militia_earth"
@@ -43113,7 +43341,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 228,
-    "label": "morale for militia ranged units",
+    "label": "Morale for militia ranged units",
+    "group": "Battle",
     "count": 5,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_militia_water"
@@ -43121,7 +43350,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 229,
-    "label": "morale for militia shock cavalry",
+    "label": "Morale for militia shock cavalry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_militia_fire"
@@ -43129,7 +43359,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 230,
-    "label": "morale for militia sword and axe infantry",
+    "label": "Morale for militia sword and axe infantry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_militia_metal"
@@ -43137,7 +43368,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 231,
-    "label": "morale for militia units",
+    "label": "Morale for militia units",
+    "group": "Battle",
     "count": 15,
     "keys": [
       "3k_main_effect_unit_stats_morale_abs_militia",
@@ -43146,7 +43378,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 232,
-    "label": "morale for ranged units",
+    "label": "Morale for ranged units",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_dlc04_effect_unit_stats_morale_abs_water_units"
@@ -43154,7 +43387,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 233,
-    "label": "morale for shock cavalry",
+    "label": "Morale for shock cavalry",
+    "group": "Battle",
     "count": 6,
     "keys": [
       "3k_dlc04_effect_unit_stats_morale_abs_fire_units"
@@ -43162,7 +43396,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 234,
-    "label": "morale for spear infantry",
+    "label": "Morale for spear infantry",
+    "group": "Battle",
     "count": 6,
     "keys": [
       "3k_dlc04_effect_unit_stats_morale_abs_wood_units"
@@ -43170,7 +43405,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 235,
-    "label": "morale for sword and shield infantry",
+    "label": "Morale for sword and shield infantry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_dlc04_effect_unit_stats_morale_abs_metal_units"
@@ -43178,7 +43414,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 236,
-    "label": "morale for Yellow Turban units",
+    "label": "Morale for Yellow Turban units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "ironic_effect_unit_stats_morale_abs_yellow_turban"
@@ -43186,7 +43423,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 237,
-    "label": "morale in enemy territory",
+    "label": "Morale in enemy territory",
+    "group": "Battle",
     "count": 5,
     "keys": [
       "3k_main_effect_unit_stats_morale_enemy_territory"
@@ -43194,7 +43432,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 238,
-    "label": "morale in own territory",
+    "label": "Morale in own territory",
+    "group": "Battle",
     "count": 8,
     "keys": [
       "3k_main_effect_unit_stats_morale_own_territory"
@@ -43202,7 +43441,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 239,
-    "label": "morale when attacking",
+    "label": "Morale when attacking",
+    "group": "Battle",
     "count": 29,
     "keys": [
       "3k_main_effect_unit_stats_morale_own_forces_when_attacking"
@@ -43210,7 +43450,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 240,
-    "label": "morale when defending",
+    "label": "Morale when defending",
+    "group": "Battle",
     "count": 36,
     "keys": [
       "3k_main_effect_unit_stats_morale_own_forces_when_defending"
@@ -43219,6 +43460,7 @@ const EFFECT_TYPES = [
   {
     "id": 241,
     "label": "Mount: Elephant",
+    "group": "Equipment",
     "count": 3,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_mount_elephant"
@@ -43226,7 +43468,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 242,
-    "label": "mustering turns",
+    "label": "Mustering turns",
+    "group": "Campaign",
     "count": 6,
     "keys": [
       "3k_main_effect_province_mustering_speed"
@@ -43235,6 +43478,7 @@ const EFFECT_TYPES = [
   {
     "id": 243,
     "label": "Oil (pre-battle deployable)",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dlc04_deployables_deployable_oil_enable"
@@ -43243,6 +43487,7 @@ const EFFECT_TYPES = [
   {
     "id": 244,
     "label": "Once equipped, this item can't be unequipped until it is emptied, in 20 turns!",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_dlc06_dummy_effect_tribute_chest_equippable"
@@ -43251,6 +43496,7 @@ const EFFECT_TYPES = [
   {
     "id": 245,
     "label": "Poor background: income from family estates",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_background_income_poor"
@@ -43258,7 +43504,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 246,
-    "label": "population growth",
+    "label": "Population growth",
+    "group": "Campaign",
     "count": 22,
     "keys": [
       "3k_main_effect_province_population_attraction",
@@ -43271,7 +43518,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 247,
-    "label": "post-battle loot income",
+    "label": "Post-battle loot income",
+    "group": "Campaign",
     "count": 47,
     "keys": [
       "3k_main_effect_force_all_campaign_post_battle_loot_income",
@@ -43280,7 +43528,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 248,
-    "label": "public order",
+    "label": "Public order",
+    "group": "Campaign",
     "count": 190,
     "keys": [
       "3k_main_effect_province_public_order_faction",
@@ -43291,7 +43540,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 249,
-    "label": "range",
+    "label": "Range",
+    "group": "Battle",
     "count": 17,
     "keys": [
       "3k_dlc07_effect_unit_stat_mod_missile_range"
@@ -43299,7 +43549,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 250,
-    "label": "ranged block chance",
+    "label": "Ranged block chance",
+    "group": "Battle",
     "count": 155,
     "keys": [
       "3k_dlc07_effect_unit_stats_missile_block_mod_all",
@@ -43308,7 +43559,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 251,
-    "label": "ranged block chance for melee cavalry",
+    "label": "Ranged block chance for melee cavalry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_stats_missile_block_mod_earth_units"
@@ -43316,7 +43568,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 252,
-    "label": "ranged damage",
+    "label": "Ranged damage",
+    "group": "Battle",
     "count": 27,
     "keys": [
       "3k_main_effect_character_stat_mod_missile_damage",
@@ -43325,7 +43578,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 253,
-    "label": "ranged damage for artillery",
+    "label": "Ranged damage for artillery",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc04_effect_unit_stats_ranged_damage_artillery"
@@ -43333,7 +43587,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 254,
-    "label": "ranged damage for crossbows",
+    "label": "Ranged damage for crossbows",
+    "group": "Battle",
     "count": 3,
     "keys": [
       "3k_main_effect_unit_stats_ranged_damage_crossbows"
@@ -43341,7 +43596,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 255,
-    "label": "ranged damage for javelin units",
+    "label": "Ranged damage for javelin units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc06_effect_unit_stats_ranged_damage_javelins"
@@ -43349,7 +43605,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 256,
-    "label": "ranged firing rate",
+    "label": "Ranged firing rate",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_main_effect_force_army_reload"
@@ -43357,7 +43614,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 257,
-    "label": "ranged firing rate for artillery",
+    "label": "Ranged firing rate for artillery",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_main_effect_force_army_reload_artillery_units"
@@ -43365,7 +43623,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 258,
-    "label": "recruitment and upkeep cost for captain retinues",
+    "label": "Recruitment and upkeep cost for captain retinues",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_faction_mercenary_pool_cost_mod"
@@ -43373,7 +43632,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 259,
-    "label": "recruitment and upkeep cost for mercenary retinues",
+    "label": "Recruitment and upkeep cost for mercenary retinues",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_faction_mercenary_pool_cost_mod_sun_jian"
@@ -43381,7 +43641,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 260,
-    "label": "recruitment and upkeep cost for Qiang units",
+    "label": "Recruitment and upkeep cost for Qiang units",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_upkeep_cost_qiang"
@@ -43389,7 +43650,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 261,
-    "label": "recruitment cost",
+    "label": "Recruitment cost",
+    "group": "Campaign",
     "count": 71,
     "keys": [
       "3k_main_ancillary_recruitment_cost_mod",
@@ -43398,7 +43660,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 262,
-    "label": "recruitment cost for cavalry",
+    "label": "Recruitment cost for cavalry",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_faction_trait_cao_cao_horse_lord"
@@ -43406,7 +43669,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 263,
-    "label": "recruitment cost for cavalry units",
+    "label": "Recruitment cost for cavalry units",
+    "group": "Campaign",
     "count": 5,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_cavalry"
@@ -43414,7 +43678,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 264,
-    "label": "recruitment cost for Chen units",
+    "label": "Recruitment cost for Chen units",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_chen"
@@ -43422,7 +43687,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 265,
-    "label": "recruitment cost for crossbow units",
+    "label": "Recruitment cost for crossbow units",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_crossbow"
@@ -43430,7 +43696,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 266,
-    "label": "recruitment cost for melee infantry",
+    "label": "Recruitment cost for melee infantry",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_armour"
@@ -43438,7 +43705,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 267,
-    "label": "recruitment cost for polearm infantry",
+    "label": "Recruitment cost for polearm infantry",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_polearm"
@@ -43446,7 +43714,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 268,
-    "label": "recruitment cost for ranged cavalry units",
+    "label": "Recruitment cost for ranged cavalry units",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_ranged_cavalry"
@@ -43454,7 +43723,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 269,
-    "label": "recruitment cost for ranged units",
+    "label": "Recruitment cost for ranged units",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_ranged"
@@ -43462,7 +43732,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 270,
-    "label": "recruitment cost for shock cavalry",
+    "label": "Recruitment cost for shock cavalry",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_cavalry_shock"
@@ -43470,7 +43741,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 271,
-    "label": "recruitment cost for spear infantry",
+    "label": "Recruitment cost for spear infantry",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_force_army_campaign_recruitment_cost_weapon"
@@ -43478,7 +43750,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 272,
-    "label": "redeployment cost",
+    "label": "Redeployment cost",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_force_redeployment_cost"
@@ -43486,7 +43759,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 273,
-    "label": "reinforcement range",
+    "label": "Reinforcement range",
+    "group": "Campaign",
     "count": 16,
     "keys": [
       "3k_main_ancillary_reinforcement_range_mod"
@@ -43494,7 +43768,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 274,
-    "label": "replenishment",
+    "label": "Replenishment",
+    "group": "Campaign",
     "count": 70,
     "keys": [
       "3k_main_effect_replenishment_base",
@@ -43505,7 +43780,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 275,
-    "label": "replenishment for garrisons",
+    "label": "Replenishment for garrisons",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_region_garrison_replenishment"
@@ -43513,7 +43789,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 276,
-    "label": "replenishment in foreign land",
+    "label": "Replenishment in foreign land",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_forces_replenishment_foreign_land"
@@ -43521,7 +43798,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 277,
-    "label": "research rate",
+    "label": "Research rate",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_technology_research_points"
@@ -43529,7 +43807,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 278,
-    "label": "reserves",
+    "label": "Reserves",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_province_supply_stockpile_abs_increase_from_characters"
@@ -43537,7 +43816,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 279,
-    "label": "retinue upkeep",
+    "label": "Retinue upkeep",
+    "group": "Campaign",
     "count": 36,
     "keys": [
       "3k_main_effect_force_retinue_upkeep"
@@ -43545,7 +43825,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 280,
-    "label": "satisfaction",
+    "label": "Satisfaction",
+    "group": "Campaign",
     "count": 276,
     "keys": [
       "3k_main_effect_characters_satisfaction_bonus_ancillaries",
@@ -43560,7 +43841,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 281,
-    "label": "satisfaction for all characters",
+    "label": "Satisfaction for all characters",
+    "group": "Campaign",
     "count": 8,
     "keys": [
       "3k_main_effect_characters_satisfaction"
@@ -43568,7 +43850,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 282,
-    "label": "satisfaction for champions",
+    "label": "Satisfaction for champions",
+    "group": "Campaign",
     "count": 8,
     "keys": [
       "3k_main_effect_characters_satisfaction_champion_infrastructure"
@@ -43576,7 +43859,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 283,
-    "label": "satisfaction for commanders",
+    "label": "Satisfaction for commanders",
+    "group": "Campaign",
     "count": 14,
     "keys": [
       "3k_main_effect_characters_satisfaction_commander_infrastructure"
@@ -43584,7 +43868,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 284,
-    "label": "satisfaction for Nanman",
+    "label": "Satisfaction for Nanman",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_dlc06_effect_characters_satisfaction_bonus_nanman_character"
@@ -43592,7 +43877,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 285,
-    "label": "satisfaction for sentinels",
+    "label": "Satisfaction for sentinels",
+    "group": "Campaign",
     "count": 8,
     "keys": [
       "3k_main_effect_characters_satisfaction_sentinel_infrastructure"
@@ -43600,7 +43886,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 286,
-    "label": "satisfaction for strategists",
+    "label": "Satisfaction for strategists",
+    "group": "Campaign",
     "count": 18,
     "keys": [
       "3k_main_effect_characters_satisfaction_strategist_infrastructure"
@@ -43608,7 +43895,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 287,
-    "label": "satisfaction for vanguards",
+    "label": "Satisfaction for vanguards",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_characters_satisfaction_vanguard_infrastructure"
@@ -43616,7 +43904,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 288,
-    "label": "speed",
+    "label": "Speed",
+    "group": "Battle",
     "count": 282,
     "keys": [
       "3k_main_effect_character_stat_mod_battle_movement_speed"
@@ -43624,7 +43913,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 289,
-    "label": "speed for axe infantry",
+    "label": "Speed for axe infantry",
+    "group": "Battle",
     "count": 2,
     "keys": [
       "3k_dlc06_effect_unit_stats_battle_movement_speed_mod_axe_infantry"
@@ -43632,7 +43922,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 290,
-    "label": "speed for blowpipe units",
+    "label": "Speed for blowpipe units",
+    "group": "Battle",
     "count": 1,
     "keys": [
       "3k_dlc06_effect_unit_stats_movement_speed_mod_blowpipes"
@@ -43640,7 +43931,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 291,
-    "label": "speed for melee infantry",
+    "label": "Speed for melee infantry",
+    "group": "Battle",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_mod_battle_movement_speed_metal_units"
@@ -43648,7 +43940,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 292,
-    "label": "speed for shock cavalry",
+    "label": "Speed for shock cavalry",
+    "group": "Battle",
     "count": 3,
     "keys": [
       "3k_main_effect_character_stat_mod_battle_movement_speed_fire_units"
@@ -43657,6 +43950,7 @@ const EFFECT_TYPES = [
   {
     "id": 293,
     "label": "Spies provided",
+    "group": "Unlocks",
     "count": 3,
     "keys": [
       "3k_main_effect_progression_effect_undercover_characters"
@@ -43664,7 +43958,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 294,
-    "label": "starting rank for all Black Mountain units",
+    "label": "Starting rank for all Black Mountain units",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_black_mountain"
@@ -43672,7 +43967,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 295,
-    "label": "starting rank for all cavalry units",
+    "label": "Starting rank for all cavalry units",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_cavalry"
@@ -43680,7 +43976,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 296,
-    "label": "starting rank for all ranged units",
+    "label": "Starting rank for all ranged units",
+    "group": "Campaign",
     "count": 3,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_ranged"
@@ -43688,7 +43985,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 297,
-    "label": "starting rank for all recruits",
+    "label": "Starting rank for all recruits",
+    "group": "Campaign",
     "count": 9,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits"
@@ -43696,7 +43994,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 298,
-    "label": "starting rank for all White Tiger units",
+    "label": "Starting rank for all White Tiger units",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_white_tiger"
@@ -43704,7 +44003,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 299,
-    "label": "starting rank for bandit recruits",
+    "label": "Starting rank for bandit recruits",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_dlc05_effect_unit_rank_new_recruits_bandits"
@@ -43712,7 +44012,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 300,
-    "label": "starting rank for cavalry recruits",
+    "label": "Starting rank for cavalry recruits",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_force_army_campaign_ranks_new_recruits_cavalry"
@@ -43720,7 +44021,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 301,
-    "label": "starting rank for melee infantry and melee cavalry",
+    "label": "Starting rank for melee infantry and melee cavalry",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_metal_earth"
@@ -43728,7 +44030,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 302,
-    "label": "starting rank for melee infantry recruits",
+    "label": "Starting rank for melee infantry recruits",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_infantry_melee",
@@ -43737,7 +44040,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 303,
-    "label": "starting rank for militia recruits",
+    "label": "Starting rank for militia recruits",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_faction_trait_liu_bei_militia_ranks"
@@ -43745,7 +44049,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 304,
-    "label": "starting rank for polearm and spear infantry recruits",
+    "label": "Starting rank for polearm and spear infantry recruits",
+    "group": "Campaign",
     "count": 6,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_infantry_spear"
@@ -43753,7 +44058,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 305,
-    "label": "starting rank for polearm infantry recruits",
+    "label": "Starting rank for polearm infantry recruits",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_unit_rank_new_recruits_infantry_polearm"
@@ -43761,7 +44067,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 306,
-    "label": "starting rank for ranged unit recruits",
+    "label": "Starting rank for ranged unit recruits",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_unit_stats_unit_xp_mod_water_units"
@@ -43769,7 +44076,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 307,
-    "label": "subterfuge",
+    "label": "Subterfuge",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "ep_effect_faction_resource_sima_lun_subterfuge_gain_people_in_power"
@@ -43778,6 +44086,7 @@ const EFFECT_TYPES = [
   {
     "id": 308,
     "label": "This character is able to engage in duels",
+    "group": "Passives",
     "count": 2,
     "keys": [
       "3k_dlc05_ability_unlocks_duelling"
@@ -43786,6 +44095,7 @@ const EFFECT_TYPES = [
   {
     "id": 309,
     "label": "Towers (pre-battle deployable) (land battle)",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dlc04_deployables_towers_enable"
@@ -43793,7 +44103,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 310,
-    "label": "trade influence",
+    "label": "Trade influence",
+    "group": "Campaign",
     "count": 8,
     "keys": [
       "3k_main_effect_economy_trade_power"
@@ -43801,7 +44112,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 311,
-    "label": "undercover network cost for enemy spies",
+    "label": "Undercover network cost for enemy spies",
+    "group": "Campaign",
     "count": 15,
     "keys": [
       "3k_main_effect_undercover_character_defence_against_action_network_cost_bonus"
@@ -43809,7 +44121,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 312,
-    "label": "undercover network cost when performing spy actions",
+    "label": "Undercover network cost when performing spy actions",
+    "group": "Campaign",
     "count": 21,
     "keys": [
       "3k_main_effect_undercover_character_network_cost_bonus"
@@ -43817,7 +44130,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 313,
-    "label": "undercover network gain per turn",
+    "label": "Undercover network gain per turn",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_faction_undercover_network_all_factions"
@@ -43825,7 +44139,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 314,
-    "label": "undercover network gain per turn when spying",
+    "label": "Undercover network gain per turn when spying",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_undercover_character_network_points_per_turn_mod"
@@ -43833,7 +44148,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 315,
-    "label": "unit mass",
+    "label": "Unit mass",
+    "group": "Battle",
     "count": 9,
     "keys": [
       "3k_main_effect_all_cavalry_stat_mod_mass",
@@ -43843,6 +44159,7 @@ const EFFECT_TYPES = [
   {
     "id": 316,
     "label": "Unlocks assignment: Agricultural Development",
+    "group": "Unlocks",
     "count": 6,
     "keys": [
       "3k_dummy_effect_assignment_unlock_agent_wood"
@@ -43851,6 +44168,7 @@ const EFFECT_TYPES = [
   {
     "id": 317,
     "label": "Unlocks assignment: Bandit Patrols",
+    "group": "Unlocks",
     "count": 2,
     "keys": [
       "3k_dummy_effect_assignment_unlock_zhang_yan"
@@ -43859,6 +44177,7 @@ const EFFECT_TYPES = [
   {
     "id": 318,
     "label": "Unlocks assignment: Black Market Investigation",
+    "group": "Unlocks",
     "count": 6,
     "keys": [
       "3k_dummy_effect_assignment_unlock_agent_metal"
@@ -43867,6 +44186,7 @@ const EFFECT_TYPES = [
   {
     "id": 319,
     "label": "Unlocks assignment: Clan Stewardship",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dummy_effect_assignment_unlock_family_estate_boost"
@@ -43875,6 +44195,7 @@ const EFFECT_TYPES = [
   {
     "id": 320,
     "label": "Unlocks assignment: Conduct Schooling",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dummy_effect_assignment_unlock_lady_yan"
@@ -43883,6 +44204,7 @@ const EFFECT_TYPES = [
   {
     "id": 321,
     "label": "Unlocks assignment: Counter-espionage",
+    "group": "Unlocks",
     "count": 23,
     "keys": [
       "3k_dummy_effect_assignment_unlock_agent_water"
@@ -43891,6 +44213,7 @@ const EFFECT_TYPES = [
   {
     "id": 322,
     "label": "Unlocks assignment: Exercise Government Authority",
+    "group": "Unlocks",
     "count": 10,
     "keys": [
       "3k_dummy_effect_assignment_unlock_agent_earth"
@@ -43899,6 +44222,7 @@ const EFFECT_TYPES = [
   {
     "id": 323,
     "label": "Unlocks assignment: Focused Nurturing",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dummy_effect_assignment_unlock_standard_child_xp"
@@ -43907,6 +44231,7 @@ const EFFECT_TYPES = [
   {
     "id": 324,
     "label": "Unlocks assignment: Hold a Census",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dummy_effect_assignment_unlock_lady_dong_peishan"
@@ -43915,6 +44240,7 @@ const EFFECT_TYPES = [
   {
     "id": 325,
     "label": "Unlocks assignment: Increased Provisions",
+    "group": "Unlocks",
     "count": 16,
     "keys": [
       "3k_dummy_effect_assignment_unlock_stockpiles_water_increased_provisions"
@@ -43923,6 +44249,7 @@ const EFFECT_TYPES = [
   {
     "id": 326,
     "label": "Unlocks assignment: Military Labor",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dummy_effect_assignment_unlock_building_upkeep_boost"
@@ -43931,6 +44258,7 @@ const EFFECT_TYPES = [
   {
     "id": 327,
     "label": "Unlocks assignment: Military Requisition",
+    "group": "Unlocks",
     "count": 13,
     "keys": [
       "3k_dummy_effect_assignment_unlock_stockpiles_fire_military_requisition"
@@ -43939,6 +44267,7 @@ const EFFECT_TYPES = [
   {
     "id": 328,
     "label": "Unlocks assignment: Organise Guerrilla",
+    "group": "Unlocks",
     "count": 17,
     "keys": [
       "3k_dummy_effect_assignment_unlock_agent_fire"
@@ -43947,6 +44276,7 @@ const EFFECT_TYPES = [
   {
     "id": 329,
     "label": "Unlocks assignment: Public Appeasement",
+    "group": "Unlocks",
     "count": 7,
     "keys": [
       "3k_dummy_effect_assignment_unlock_stockpiles_earth_public_appeasement"
@@ -43955,6 +44285,7 @@ const EFFECT_TYPES = [
   {
     "id": 330,
     "label": "Unlocks assignment: Replenish Supplies",
+    "group": "Unlocks",
     "count": 2,
     "keys": [
       "3k_dummy_effect_assignment_unlock_wood_replenish_supplies"
@@ -43963,6 +44294,7 @@ const EFFECT_TYPES = [
   {
     "id": 331,
     "label": "Unlocks assignment: Spousal Support",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "3k_dummy_effect_assignment_unlock_lady_zou"
@@ -43971,6 +44303,7 @@ const EFFECT_TYPES = [
   {
     "id": 332,
     "label": "Unlocks assignment: Surplus Distribution",
+    "group": "Unlocks",
     "count": 8,
     "keys": [
       "3k_dummy_effect_assignment_unlock_stockpiles_wood_surplus_distribution"
@@ -43979,6 +44312,7 @@ const EFFECT_TYPES = [
   {
     "id": 333,
     "label": "Unlocks assignment: Surplus Markets",
+    "group": "Unlocks",
     "count": 10,
     "keys": [
       "3k_dummy_effect_assignment_unlock_stockpiles_metal_surplus_markets"
@@ -43987,6 +44321,7 @@ const EFFECT_TYPES = [
   {
     "id": 334,
     "label": "Unlocks assignment: Teaching Assignment",
+    "group": "Unlocks",
     "count": 21,
     "keys": [
       "3k_dummy_effect_assignment_unlock_teaching_global"
@@ -43995,6 +44330,7 @@ const EFFECT_TYPES = [
   {
     "id": 335,
     "label": "Unlocks corresponding attribute's units for recruitment",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "ironic_attribute_unlock_unit"
@@ -44002,7 +44338,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 336,
-    "label": "upkeep cost for mercenaries",
+    "label": "Upkeep cost for mercenaries",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effects_mercenary_upkeep_cost"
@@ -44010,7 +44347,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 337,
-    "label": "upkeep cost for new spies",
+    "label": "Upkeep cost for new spies",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_undercover_character_upkeep_cost_mod"
@@ -44018,7 +44356,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 338,
-    "label": "upkeep for all units",
+    "label": "Upkeep for all units",
+    "group": "Campaign",
     "count": 26,
     "keys": [
       "3k_main_effect_unit_stats_unit_upkeep_all_units"
@@ -44026,7 +44365,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 339,
-    "label": "upkeep for animal units",
+    "label": "Upkeep for animal units",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_dlc06_effect_unit_stats_unit_upkeep_animal_units"
@@ -44034,7 +44374,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 340,
-    "label": "upkeep for Camp Crusher and Flying Riders units",
+    "label": "Upkeep for Camp Crusher and Flying Riders units",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_dlc05_effects_unit_stats_unit_upkeep_camp_crushers_formation_breakers"
@@ -44042,7 +44383,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 341,
-    "label": "upkeep for cavalry units",
+    "label": "Upkeep for cavalry units",
+    "group": "Campaign",
     "count": 5,
     "keys": [
       "3k_main_effect_force_army_campaign_upkeep_cavalry"
@@ -44050,7 +44392,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 342,
-    "label": "upkeep for crossbow units",
+    "label": "Upkeep for crossbow units",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_dlc04_effect_unit_stats_unit_upkeep_crossbow_units"
@@ -44058,7 +44401,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 343,
-    "label": "upkeep for Imperial units",
+    "label": "Upkeep for Imperial units",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_dlc04_effect_unit_stats_unit_upkeep_imperial_units"
@@ -44066,7 +44410,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 344,
-    "label": "upkeep for melee cavalry",
+    "label": "Upkeep for melee cavalry",
+    "group": "Campaign",
     "count": 5,
     "keys": [
       "3k_main_effect_unit_stats_unit_upkeep_earth_units"
@@ -44074,7 +44419,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 345,
-    "label": "upkeep for militia infantry",
+    "label": "Upkeep for militia infantry",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_faction_trait_liu_bei_free_militia"
@@ -44082,7 +44428,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 346,
-    "label": "upkeep for militia units",
+    "label": "Upkeep for militia units",
+    "group": "Campaign",
     "count": 8,
     "keys": [
       "3k_main_effect_unit_stats_unit_upkeep_militia_units"
@@ -44090,7 +44437,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 347,
-    "label": "upkeep for Qiang units",
+    "label": "Upkeep for Qiang units",
+    "group": "Campaign",
     "count": 4,
     "keys": [
       "3k_main_effect_unit_stats_unit_upkeep_qiang_units"
@@ -44098,7 +44446,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 348,
-    "label": "upkeep for ranged units",
+    "label": "Upkeep for ranged units",
+    "group": "Campaign",
     "count": 2,
     "keys": [
       "3k_main_effect_unit_stats_unit_upkeep_water_units"
@@ -44106,7 +44455,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 349,
-    "label": "upkeep for shock cavalry",
+    "label": "Upkeep for shock cavalry",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_unit_stats_unit_upkeep_fire_units"
@@ -44114,7 +44464,8 @@ const EFFECT_TYPES = [
   },
   {
     "id": 350,
-    "label": "upkeep for sword and shield infantry",
+    "label": "Upkeep for sword and shield infantry",
+    "group": "Campaign",
     "count": 1,
     "keys": [
       "3k_main_effect_unit_stats_unit_upkeep_metal_units"
@@ -44123,6 +44474,7 @@ const EFFECT_TYPES = [
   {
     "id": 351,
     "label": "Weapon: Axes",
+    "group": "Equipment",
     "count": 7,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_axe_one_handed"
@@ -44131,6 +44483,7 @@ const EFFECT_TYPES = [
   {
     "id": 352,
     "label": "Weapon: Ji",
+    "group": "Equipment",
     "count": 6,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_halberd"
@@ -44139,6 +44492,7 @@ const EFFECT_TYPES = [
   {
     "id": 353,
     "label": "Weapon: Polearms",
+    "group": "Equipment",
     "count": 588,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_spear_two_handed"
@@ -44147,6 +44501,7 @@ const EFFECT_TYPES = [
   {
     "id": 354,
     "label": "Weapon: Staves",
+    "group": "Equipment",
     "count": 1,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_staff_two_handed"
@@ -44155,6 +44510,7 @@ const EFFECT_TYPES = [
   {
     "id": 355,
     "label": "Weapon: Swords",
+    "group": "Equipment",
     "count": 976,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_sword_one_handed"
@@ -44163,6 +44519,7 @@ const EFFECT_TYPES = [
   {
     "id": 356,
     "label": "Weapon: Twin Axes",
+    "group": "Equipment",
     "count": 3,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_axe_dual"
@@ -44171,6 +44528,7 @@ const EFFECT_TYPES = [
   {
     "id": 357,
     "label": "Weapon: Twin Ji",
+    "group": "Equipment",
     "count": 2,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_spear_dual"
@@ -44179,6 +44537,7 @@ const EFFECT_TYPES = [
   {
     "id": 358,
     "label": "Weapon: Twin Maces",
+    "group": "Equipment",
     "count": 4,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_mace_dual"
@@ -44187,6 +44546,7 @@ const EFFECT_TYPES = [
   {
     "id": 359,
     "label": "Weapon: Twin Swords",
+    "group": "Equipment",
     "count": 10,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_sword_dual"
@@ -44195,6 +44555,7 @@ const EFFECT_TYPES = [
   {
     "id": 360,
     "label": "Weapon: Two-handed Axes",
+    "group": "Equipment",
     "count": 7,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_axe_two_handed"
@@ -44203,6 +44564,7 @@ const EFFECT_TYPES = [
   {
     "id": 361,
     "label": "Weapon: Two-handed Maces",
+    "group": "Equipment",
     "count": 12,
     "keys": [
       "3k_dummy_effect_ceo_subcategory_weapon_mace_two_handed"
@@ -44211,6 +44573,7 @@ const EFFECT_TYPES = [
   {
     "id": 362,
     "label": "Wooden Stakes (pre-battle deployable)",
+    "group": "Unlocks",
     "count": 2,
     "keys": [
       "3k_dlc04_deployables_wooden_stakes_enable"
@@ -44219,6 +44582,7 @@ const EFFECT_TYPES = [
   {
     "id": 363,
     "label": "Wuhuan Lancer (Vanguard, Rank 6) available for recruitment",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "ironic_effect_unit_cap_3k_mod_unit_fire_wuhuan_dragons"
@@ -44227,6 +44591,7 @@ const EFFECT_TYPES = [
   {
     "id": 364,
     "label": "Wuhuan Lancers (Rank 6) unlocked for recruitment",
+    "group": "Unlocks",
     "count": 1,
     "keys": [
       "ironic_liu_yu_unlock_wuhuan_lancers"
@@ -44235,6 +44600,7 @@ const EFFECT_TYPES = [
   {
     "id": 365,
     "label": "Xiliang Cavalry (Rank 3), Xiliang Heavy Cavalry (Rank 6) available for recruitment",
+    "group": "Unlocks",
     "count": 3,
     "keys": [
       "ironic_xiliang_units_limited"
@@ -44243,6 +44609,7 @@ const EFFECT_TYPES = [
   {
     "id": 366,
     "label": "Xiliang Commander (Rank 3) available for recruitment",
+    "group": "Unlocks",
     "count": 3,
     "keys": [
       "ironic_effect_xiliang_commander_unit_cap"
@@ -44252,6 +44619,8 @@ const EFFECT_TYPES = [
 
 const EFFECT_TYPE_BY_ID = {};
 EFFECT_TYPES.forEach(e => { EFFECT_TYPE_BY_ID[e.id] = e; });
+
+const EFFECT_GROUP_ORDER = ["Abilities", "Equipment", "Passives", "Unlocks", "Battle", "Campaign"];
 
 const CHARACTERS_BY_ELEMENT = {
   fire: CHARACTER_DATA.filter(c => c.element === 'fire'),

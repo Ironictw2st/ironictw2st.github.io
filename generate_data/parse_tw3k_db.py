@@ -104,6 +104,45 @@ def _effect_value(value):
         return 0.0
 
 
+# Groups for the Characters page effect filter. effects_tables.category is no help here: it
+# files most battle stats and every ability under "campaign", so the group comes from the wording.
+EFFECT_GROUP_ORDER = ["Abilities", "Equipment", "Passives", "Unlocks", "Battle", "Campaign"]
+_EFFECT_GROUP_PREFIXES = [
+    ("Ability:", "Abilities"),
+    ("Weapon:", "Equipment"), ("Armour:", "Equipment"), ("Mount:", "Equipment"),
+    ("Enables:", "Passives"), ("Disables:", "Passives"), ("Unlocks", "Unlocks"),
+]
+_EFFECT_UNLOCK_RE = re.compile(r"(available|unlocked) for recruitment|pre-battle deployable|\bprovided$", re.I)
+_EFFECT_PASSIVE_RE = re.compile(r"^(immune|fire resistance|this character is able|can have night battles)", re.I)
+_EFFECT_BATTLE_RE = re.compile(
+    r"damage|armour|ammunition|charge|melee|ranged|morale|speed|evasion|block|hit chance|health|"
+    r"fatigue|^range$|unit mass|attack rate|firing rate|ability recharge|bodyguard|aura|siege", re.I)
+_EFFECT_CAMPAIGN_RE = re.compile(
+    r"campaign|^(recruitment|upkeep|starting rank|construction|income|post-battle)|siege equipment", re.I)
+
+
+def effect_group(label):
+    for prefix, group in _EFFECT_GROUP_PREFIXES:
+        if label.startswith(prefix):
+            return group
+    if _EFFECT_UNLOCK_RE.search(label):
+        return "Unlocks"
+    if _EFFECT_PASSIVE_RE.search(label):
+        return "Passives"
+    # "recruitment cost for ranged units" names a unit type but is paid on the campaign map
+    if _EFFECT_CAMPAIGN_RE.search(label):
+        return "Campaign"
+    if _EFFECT_BATTLE_RE.search(label):
+        return "Battle"
+    return "Campaign"
+
+
+def tidy_effect_label(label):
+    """The loc mixes "speed", "Weapon: Swords" and full sentences; give the filter one casing."""
+    label = label.strip().rstrip(".")
+    return label[:1].upper() + label[1:]
+
+
 def _first(row, *cols):
     for c in cols:
         v = _s(row.get(c, ""))
@@ -538,7 +577,12 @@ def main():
             continue
 
         char_name_key = _s(name_match.group(1))
-        element = extract_element_from_key(key)
+        # The subtype is what the game reads. The element in the key name is only a fallback:
+        # some keys end in a place (..._hero_fire_jiangxia), and the mod reassigns others
+        # without renaming them (lady_bu_lianshi_hero_wood is a water strategist).
+        subtype_match = re.fullmatch(r"3k_general_(fire|earth|water|wood|metal|nanman)",
+                                     _s(template.get("subtype", "")))
+        element = subtype_match.group(1) if subtype_match else extract_element_from_key(key)
 
         forename_id = _s(template.get("forename", "0"))
         family_name_id = _s(template.get("family_name", "0"))
@@ -773,11 +817,13 @@ def main():
             _raw, label = resolve_effect_loc(k, effects_loc_kv)
             if not label:
                 continue   # nothing to show in the control, so nothing to filter on
+            label = tidy_effect_label(label)
             low = label.lower()
             keys_by_label[low].add(k)
             label_display.setdefault(low, label)
 
-    effect_types = [{"label": label_display[low], "keys": sorted(ks)} for low, ks in keys_by_label.items()]
+    effect_types = [{"label": label_display[low], "group": effect_group(label_display[low]), "keys": sorted(ks)}
+                    for low, ks in keys_by_label.items()]
     effect_types.sort(key=lambda e: e["label"].lower())
     group_id_by_key = {}
     for i, e in enumerate(effect_types):
@@ -836,7 +882,8 @@ def main():
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
     effect_types_json = json.dumps(
-        [{"id": e["id"], "label": e["label"], "count": e["count"], "keys": e["keys"]} for e in effect_types],
+        [{"id": e["id"], "label": e["label"], "group": e["group"], "count": e["count"], "keys": e["keys"]}
+         for e in effect_types],
         indent=2, ensure_ascii=False)
 
     def _compact_index_fields(js):
@@ -869,6 +916,8 @@ const EFFECT_TYPES = {effect_types_json};
 
 const EFFECT_TYPE_BY_ID = {{}};
 EFFECT_TYPES.forEach(e => {{ EFFECT_TYPE_BY_ID[e.id] = e; }});
+
+const EFFECT_GROUP_ORDER = {json.dumps(EFFECT_GROUP_ORDER)};
 
 const CHARACTERS_BY_ELEMENT = {{
   fire: CHARACTER_DATA.filter(c => c.element === 'fire'),
