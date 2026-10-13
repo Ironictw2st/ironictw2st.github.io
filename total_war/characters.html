@@ -57,10 +57,80 @@
             width: 100%;
         }
 
-        .effect-box { flex: 1; min-width: 280px; }
-        .effect-box input { width: 100%; }
-        .effect-note { font-size: 0.75rem; color: var(--text-muted); }
-        .effect-note.unknown { color: #e8a679; }
+        .filters-actions {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .clear-filters {
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: 1px solid #303035;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+        .clear-filters:hover:not(:disabled) { border-color: var(--gold-dark); color: var(--gold-light); }
+        .clear-filters:disabled { opacity: 0.4; cursor: default; }
+
+        /* Effect picker: chips for chosen effects, then a text box with a grouped dropdown */
+        .filters-break { flex-basis: 100%; height: 0; }
+        .effect-box { flex: 1; min-width: 280px; position: relative; }
+        .effect-field {
+            display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem;
+            padding: 0.3rem 0.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid #303035;
+            cursor: text;
+        }
+        .effect-field:focus-within { border-color: var(--gold-dark); }
+        .effect-box .effect-field input {
+            flex: 1; min-width: 200px;
+            padding: 0.2rem 0.3rem;
+            border: none; background: transparent;
+        }
+        .effect-chip {
+            display: inline-flex; align-items: center; gap: 0.3rem;
+            padding: 0.15rem 0.3rem 0.15rem 0.55rem;
+            font-size: 0.8rem; color: var(--gold-light);
+            background: rgba(201,162,39,0.12); border: 1px solid var(--gold-dark);
+        }
+        .effect-chip button {
+            border: none; background: none; color: inherit; cursor: pointer;
+            font-size: 0.95rem; line-height: 1; padding: 0 0.2rem;
+        }
+        .effect-chip button:hover { color: var(--title-cream); }
+
+        .effect-menu {
+            position: absolute; z-index: 20; left: 0; right: 0; top: 100%;
+            max-height: 340px; overflow-y: auto;
+            scrollbar-color: #3a3a44 transparent;
+            margin-top: 2px;
+            background: var(--bg-card);
+            border: 1px solid var(--gold-dark);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+        }
+        .effect-menu[hidden] { display: none; }
+        .effect-menu-group {
+            position: sticky; top: 0;
+            padding: 0.35rem 0.75rem;
+            font-family: 'Cinzel', serif; font-size: 0.7rem;
+            letter-spacing: 0.1em; text-transform: uppercase;
+            color: var(--text-secondary); background: #1c1c22;
+            border-bottom: 1px solid #252530;
+        }
+        .effect-option {
+            display: flex; justify-content: space-between; gap: 1rem;
+            padding: 0.4rem 0.75rem;
+            font-size: 0.85rem; color: var(--text-primary);
+            cursor: pointer;
+        }
+        .effect-option .n { color: var(--text-muted); font-size: 0.75rem; white-space: nowrap; }
+        .effect-option mark { background: none; color: var(--gold-light); font-weight: 600; }
+        .effect-option.active { background: rgba(201,162,39,0.15); }
+        .effect-option.any { color: var(--gold-light); border-bottom: 1px solid #252530; }
+        .effect-option.none { color: var(--text-muted); }
+        .effect-menu-empty { padding: 0.6rem 0.75rem; font-size: 0.85rem; color: var(--text-muted); }
 
         /* attribute strip on each card */
         .attr-strip {
@@ -82,6 +152,7 @@
             display: block; margin-top: 0.5rem; font-size: 0.78rem;
             color: #9bc2e8; border-left: 2px solid #3f5a7a; padding-left: 0.5rem;
         }
+        .effect-hit + .effect-hit { margin-top: 0.15rem; }
 
         .results-info {
             display: flex;
@@ -511,17 +582,31 @@
                     </optgroup>
                 </select>
             </div>
+            <div class="filter-group">
+                <label for="equip-filter">Can Equip</label>
+                <select id="equip-filter">
+                    <option value="">Anything</option>
+                </select>
+            </div>
+            <div class="filters-break"></div>
             <div class="filter-group effect-box">
-                <label for="effect-filter">Has Effect</label>
-                <input type="search" id="effect-filter" list="effect-options" placeholder="Start typing, e.g. income, morale, replenishment" autocomplete="off">
-                <datalist id="effect-options"></datalist>
+                <label for="effect-filter">Has Effects</label>
+                <div class="effect-field" id="effect-field">
+                    <span id="effect-chips"></span>
+                    <input type="text" id="effect-filter" autocomplete="off" spellcheck="false"
+                           role="combobox" aria-expanded="false" aria-controls="effect-menu" aria-autocomplete="list"
+                           placeholder="Type to find an effect, e.g. income, morale, replenishment">
+                </div>
+                <div class="effect-menu" id="effect-menu" role="listbox" hidden></div>
+            </div>
+            <div class="filters-actions">
+                <button type="button" class="clear-filters" id="clear-filters" disabled>Clear filters</button>
             </div>
         </div>
 
         <!-- Results info -->
         <div class="results-info">
             <span class="results-count" id="results-count">Loading...</span>
-            <span class="effect-note" id="effect-note"></span>
             <div class="view-toggle">
                 <button id="grid-view" class="active" title="Grid View">▦</button>
                 <button id="list-view" title="List View">☰</button>
@@ -563,70 +648,158 @@
         let currentUnique = 'all';
         let currentSort = 'name';
         let isListView = false;
-        let currentEffectId = null;   // id into EFFECT_TYPES, or null for "any"
+        let currentEquipId = null;    // id of an Equipment-group effect, or null
+        // Chosen effects, all of which a character must have. {id} is one exact effect;
+        // {text} is "any effect whose label matches this text", e.g. every kind of morale.
+        let effectChips = [];
+        let effectQuery = '';         // typed but not yet committed; filters live like a text chip
 
         const ATTRIBUTE_ORDER = ['authority', 'cunning', 'expertise', 'instinct', 'resolve', 'resilience'];
         const ATTRIBUTE_SHORT = {
             authority: 'AUT', cunning: 'CUN', expertise: 'EXP',
             instinct: 'INS', resolve: 'RES', resilience: 'RSL'
         };
+        const ELEMENTS = ['fire', 'earth', 'water', 'wood', 'metal', 'nanman'];
 
-        // label -> effect type, for resolving what was typed into the datalist input
+        const ALL_EFFECTS = typeof EFFECT_TYPES !== 'undefined' ? EFFECT_TYPES : [];
+        const GROUP_ORDER = typeof EFFECT_GROUP_ORDER !== 'undefined' ? EFFECT_GROUP_ORDER : [];
+        // Equipment has its own dropdown, so the effect picker only offers the rest
+        const PICKABLE_EFFECTS = ALL_EFFECTS.filter(e => e.group !== 'Equipment');
         const EFFECT_BY_LABEL = {};
-        if (typeof EFFECT_TYPES !== 'undefined') {
-            EFFECT_TYPES.forEach(e => { EFFECT_BY_LABEL[e.label.toLowerCase()] = e; });
+        ALL_EFFECTS.forEach(e => { EFFECT_BY_LABEL[e.label.toLowerCase()] = e; });
+
+        // Every word typed must appear in the label, in any order: "cavalry morale" finds
+        // "Morale for melee cavalry".
+        function queryWords(text) {
+            return normalizeText(text).split(/\s+/).filter(Boolean);
         }
 
-        // Initialize
-        function populateEffectOptions() {
-            if (typeof EFFECT_TYPES === 'undefined') return;
-            const list = document.getElementById('effect-options');
-            // most widely shared effects first, so the unfiltered dropdown opens on useful ones
-            const frag = document.createDocumentFragment();
-            EFFECT_TYPES.slice().sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
+        function effectsMatching(text) {
+            const words = queryWords(text);
+            if (!words.length) return [];
+            return PICKABLE_EFFECTS.filter(e => {
+                const label = normalizeText(e.label);
+                return words.every(w => label.includes(w));
+            });
+        }
+
+        // Each effect filter becomes a set of effect ids; a character passes it with any one of them.
+        function activeEffectSets() {
+            const sets = effectChips.map(chip => chip.id !== undefined
+                ? new Set([chip.id])
+                : new Set(effectsMatching(chip.text).map(e => e.id)));
+            if (effectQuery.trim()) sets.push(new Set(effectsMatching(effectQuery).map(e => e.id)));
+            return sets;
+        }
+
+        function populateEquipOptions() {
+            const select = document.getElementById('equip-filter');
+            ALL_EFFECTS.filter(e => e.group === 'Equipment')
+                .sort((a, b) => a.label.localeCompare(b.label))
                 .forEach(e => {
                     const o = document.createElement('option');
-                    o.value = e.label;
-                    o.label = `${e.count} character${e.count === 1 ? '' : 's'}`;
-                    frag.appendChild(o);
+                    o.value = e.id;
+                    o.textContent = `${e.label} (${e.count})`;
+                    select.appendChild(o);
                 });
-            list.appendChild(frag);
         }
 
-        // Keep the effect and sort in the URL so a useful search can be shared or bookmarked.
+        // Every filter lives in the URL, so a search can be shared or bookmarked.
         function applyUrlState() {
             const params = new URLSearchParams(window.location.search);
-            const sort = params.get('sort');
-            if (sort && document.querySelector(`#sort-filter option[value="${CSS.escape(sort)}"]`)) {
-                currentSort = sort;
-                document.getElementById('sort-filter').value = sort;
+            const setSelect = (id, value) => {
+                const el = document.getElementById(id);
+                if (value && el.querySelector(`option[value="${CSS.escape(value)}"]`)) {
+                    el.value = value;
+                    return true;
+                }
+                return false;
+            };
+
+            currentSearch = params.get('q') || '';
+            document.getElementById('search').value = currentSearch;
+
+            const element = params.get('element');
+            if (ELEMENTS.includes(element)) {
+                currentElement = element;
+                document.querySelectorAll('.element-btn').forEach(b =>
+                    b.classList.toggle('active', b.dataset.element === element));
             }
-            const effect = (params.get('effect') || '').trim().toLowerCase();
-            if (effect && EFFECT_BY_LABEL[effect]) {
-                currentEffectId = EFFECT_BY_LABEL[effect].id;
-                document.getElementById('effect-filter').value = EFFECT_BY_LABEL[effect].label;
-                document.getElementById('effect-note').textContent =
-                    `${EFFECT_BY_LABEL[effect].count} characters have this effect`;
+            if (setSelect('gender-filter', params.get('gender'))) currentGender = params.get('gender');
+            if (setSelect('unique-filter', params.get('type'))) currentUnique = params.get('type');
+            if (setSelect('sort-filter', params.get('sort'))) currentSort = params.get('sort');
+
+            const equip = EFFECT_BY_LABEL[(params.get('equip') || '').trim().toLowerCase()];
+            if (equip && equip.group === 'Equipment') {
+                currentEquipId = equip.id;
+                document.getElementById('equip-filter').value = equip.id;
             }
+
+            params.getAll('effect').forEach(label => {
+                const e = EFFECT_BY_LABEL[label.trim().toLowerCase()];
+                if (e && e.group !== 'Equipment' && !effectChips.some(c => c.id === e.id)) effectChips.push({ id: e.id });
+            });
+            params.getAll('match').forEach(text => {
+                if (text.trim()) effectChips.push({ text: text.trim() });
+            });
+            renderEffectChips();
         }
 
         function updateUrlState() {
             const params = new URLSearchParams();
+            if (currentSearch.trim()) params.set('q', currentSearch.trim());
+            if (currentElement !== 'all') params.set('element', currentElement);
+            if (currentGender !== 'all') params.set('gender', currentGender);
+            if (currentUnique !== 'all') params.set('type', currentUnique);
             if (currentSort !== 'name') params.set('sort', currentSort);
-            if (currentEffectId !== null && EFFECT_TYPE_BY_ID[currentEffectId]) {
-                params.set('effect', EFFECT_TYPE_BY_ID[currentEffectId].label);
-            }
+            if (currentEquipId !== null) params.set('equip', EFFECT_TYPE_BY_ID[currentEquipId].label);
+            effectChips.forEach(chip => chip.id !== undefined
+                ? params.append('effect', EFFECT_TYPE_BY_ID[chip.id].label)
+                : params.append('match', chip.text));
             const qs = params.toString();
             history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
+        }
+
+        function hasActiveFilters() {
+            return Boolean(currentSearch.trim() || currentElement !== 'all' || currentGender !== 'all'
+                || currentUnique !== 'all' || currentEquipId !== null || effectChips.length || effectQuery.trim());
+        }
+
+        // Called after any filter changes
+        function refresh() {
+            updateUrlState();
+            renderCharacters();
+            document.getElementById('clear-filters').disabled = !hasActiveFilters();
+        }
+
+        function clearFilters() {
+            currentElement = 'all';
+            currentSearch = '';
+            currentGender = 'all';
+            currentUnique = 'all';
+            currentEquipId = null;
+            effectChips = [];
+            effectQuery = '';
+            document.querySelectorAll('.element-btn').forEach(b =>
+                b.classList.toggle('active', b.dataset.element === 'all'));
+            document.getElementById('search').value = '';
+            document.getElementById('gender-filter').value = 'all';
+            document.getElementById('unique-filter').value = 'all';
+            document.getElementById('equip-filter').value = '';
+            document.getElementById('effect-filter').value = '';
+            renderEffectChips();
+            closeEffectMenu();
+            refresh();
         }
 
         document.addEventListener('DOMContentLoaded', () => {
             updateStats();
             updateElementCounts();
-            populateEffectOptions();
+            populateEquipOptions();
             applyUrlState();
-            renderCharacters();
+            refresh();
             setupEventListeners();
+            setupEffectPicker();
             attachCharacterNavigation();
         });
 
@@ -638,12 +811,9 @@
         }
 
         function updateElementCounts() {
-            document.getElementById('count-fire').textContent = `(${CHARACTER_STATS.byElement.fire})`;
-            document.getElementById('count-earth').textContent = `(${CHARACTER_STATS.byElement.earth})`;
-            document.getElementById('count-water').textContent = `(${CHARACTER_STATS.byElement.water})`;
-            document.getElementById('count-wood').textContent = `(${CHARACTER_STATS.byElement.wood})`;
-            document.getElementById('count-metal').textContent = `(${CHARACTER_STATS.byElement.metal})`;
-            document.getElementById('count-nanman').textContent = `(${CHARACTER_STATS.byElement.nanman})`;
+            ELEMENTS.forEach(el => {
+                document.getElementById(`count-${el}`).textContent = `(${CHARACTER_STATS.byElement[el]})`;
+            });
         }
 
         function setupEventListeners() {
@@ -653,57 +823,43 @@
                     document.querySelectorAll('.element-btn').forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
                     currentElement = btn.dataset.element;
-                    renderCharacters();
+                    refresh();
                 });
             });
 
-            // Search
+            // Search. Rebuilding 1,650 cards per keystroke stutters, so wait for a pause in typing.
+            let searchTimer = null;
             document.getElementById('search').addEventListener('input', (e) => {
                 currentSearch = e.target.value;
-                renderCharacters();
+                clearTimeout(searchTimer);
+                searchTimer = setTimeout(refresh, 150);
             });
 
             // Gender filter
             document.getElementById('gender-filter').addEventListener('change', (e) => {
                 currentGender = e.target.value;
-                renderCharacters();
+                refresh();
             });
 
             // Unique filter
             document.getElementById('unique-filter').addEventListener('change', (e) => {
                 currentUnique = e.target.value;
-                renderCharacters();
+                refresh();
             });
 
             // Sort
             document.getElementById('sort-filter').addEventListener('change', (e) => {
                 currentSort = e.target.value;
-                updateUrlState();
-                renderCharacters();
+                refresh();
             });
 
-            // Effect filter. The datalist gives native typeahead over the whole list;
-            // a value only filters once it matches an effect exactly.
-            const effectInput = document.getElementById('effect-filter');
-            const effectNote = document.getElementById('effect-note');
-            effectInput.addEventListener('input', () => {
-                const typed = effectInput.value.trim().toLowerCase();
-                if (!typed) {
-                    currentEffectId = null;
-                    effectNote.textContent = '';
-                    effectNote.className = 'effect-note';
-                } else if (EFFECT_BY_LABEL[typed]) {
-                    currentEffectId = EFFECT_BY_LABEL[typed].id;
-                    effectNote.textContent = `${EFFECT_BY_LABEL[typed].count} characters have this effect`;
-                    effectNote.className = 'effect-note';
-                } else {
-                    currentEffectId = null;
-                    effectNote.textContent = 'Pick an effect from the list to filter';
-                    effectNote.className = 'effect-note unknown';
-                }
-                updateUrlState();
-                renderCharacters();
+            // Equipment
+            document.getElementById('equip-filter').addEventListener('change', (e) => {
+                currentEquipId = e.target.value === '' ? null : Number(e.target.value);
+                refresh();
             });
+
+            document.getElementById('clear-filters').addEventListener('click', clearFilters);
 
             // View toggle
             document.getElementById('grid-view').addEventListener('click', () => {
@@ -718,6 +874,166 @@
                 document.getElementById('list-view').classList.add('active');
                 document.getElementById('grid-view').classList.remove('active');
                 document.getElementById('character-grid').classList.add('list-view');
+            });
+        }
+
+        // ------------------------------------------------------------------
+        // Effect picker
+        // ------------------------------------------------------------------
+        let menuOptions = [];     // chips offered by the open menu, in display order
+        let menuActive = -1;
+
+        function chipLabel(chip) {
+            return chip.id !== undefined ? EFFECT_TYPE_BY_ID[chip.id].label : `Any “${chip.text}”`;
+        }
+
+        function renderEffectChips() {
+            document.getElementById('effect-chips').innerHTML = effectChips.map((chip, i) => `
+                <span class="effect-chip">${escapeHtml(chipLabel(chip))}
+                    <button type="button" data-remove="${i}" aria-label="Remove ${escapeHtml(chipLabel(chip))}">×</button>
+                </span>`).join('');
+            document.getElementById('effect-filter').placeholder = effectChips.length
+                ? 'Add another effect…'
+                : 'Type to find an effect, e.g. income, morale, replenishment';
+        }
+
+        function highlight(label, words) {
+            // match on the plain label, then escape each piece, so markup in a label can't leak
+            if (!words.length) return escapeHtml(label);
+            const escaped = words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+            return label.split(new RegExp(`(${escaped.join('|')})`, 'ig'))
+                .map((part, i) => i % 2 ? `<mark>${escapeHtml(part)}</mark>` : escapeHtml(part))
+                .join('');
+        }
+
+        function openEffectMenu() {
+            const menu = document.getElementById('effect-menu');
+            const text = effectQuery.trim();
+            const words = queryWords(text);
+            const chosen = new Set(effectChips.filter(c => c.id !== undefined).map(c => c.id));
+
+            // With nothing typed, show everything grouped, most common first in each group.
+            const matches = (text ? effectsMatching(text) : PICKABLE_EFFECTS).filter(e => !chosen.has(e.id));
+
+            // Count within the characters the other filters already leave, so the menu doesn't
+            // offer an effect that would empty the page. The text being typed is left out of it.
+            const typed = effectQuery;
+            effectQuery = '';
+            const pool = filterCharacters();
+            effectQuery = typed;
+            const countIn = {};
+            pool.forEach(c => (c.effects || []).forEach(id => { countIn[id] = (countIn[id] || 0) + 1; }));
+            const n = e => countIn[e.id] || 0;
+            const narrowed = pool.length < CHARACTER_DATA.length;
+
+            menuOptions = [];
+            let html = '';
+            if (text && matches.length > 1) {
+                html += `<div class="effect-option any" data-i="0" role="option">
+                    <span>Any effect matching “${escapeHtml(text)}”</span>
+                    <span class="n">${matches.length} effects</span></div>`;
+                menuOptions.push({ text });
+            }
+            GROUP_ORDER.forEach(group => {
+                const items = matches.filter(e => e.group === group)
+                    .sort((a, b) => n(b) - n(a) || b.count - a.count || a.label.localeCompare(b.label));
+                if (!items.length) return;
+                html += `<div class="effect-menu-group">${group}</div>`;
+                items.forEach(e => {
+                    const count = narrowed ? `${n(e)} of ${e.count}` : `${e.count}`;
+                    html += `<div class="effect-option${n(e) ? '' : ' none'}" data-i="${menuOptions.length}" role="option">
+                        <span>${highlight(e.label, words)}</span>
+                        <span class="n">${count} character${e.count === 1 ? '' : 's'}</span></div>`;
+                    menuOptions.push({ id: e.id });
+                });
+            });
+            if (!menuOptions.length) {
+                html = `<div class="effect-menu-empty">No effect matches “${escapeHtml(text)}”</div>`;
+            }
+
+            menu.innerHTML = html;
+            menu.hidden = false;
+            document.getElementById('effect-filter').setAttribute('aria-expanded', 'true');
+            setMenuActive(text ? 0 : -1);
+        }
+
+        function closeEffectMenu() {
+            document.getElementById('effect-menu').hidden = true;
+            document.getElementById('effect-filter').setAttribute('aria-expanded', 'false');
+            menuActive = -1;
+        }
+
+        function setMenuActive(i) {
+            const menu = document.getElementById('effect-menu');
+            menu.querySelectorAll('.effect-option.active').forEach(el => el.classList.remove('active'));
+            menuActive = menuOptions.length ? Math.max(-1, Math.min(i, menuOptions.length - 1)) : -1;
+            if (menuActive < 0) return;
+            const el = menu.querySelector(`.effect-option[data-i="${menuActive}"]`);
+            el.classList.add('active');
+            el.scrollIntoView({ block: 'nearest' });
+        }
+
+        function addEffectChip(chip) {
+            const dup = effectChips.some(c => chip.id !== undefined ? c.id === chip.id
+                : c.text !== undefined && c.text.toLowerCase() === chip.text.toLowerCase());
+            if (!dup) effectChips.push(chip);
+            effectQuery = '';
+            document.getElementById('effect-filter').value = '';
+            renderEffectChips();
+            closeEffectMenu();
+            refresh();
+        }
+
+        function setupEffectPicker() {
+            const input = document.getElementById('effect-filter');
+            const menu = document.getElementById('effect-menu');
+
+            document.getElementById('effect-field').addEventListener('click', (e) => {
+                const remove = e.target.closest('[data-remove]');
+                if (remove) {
+                    effectChips.splice(Number(remove.dataset.remove), 1);
+                    renderEffectChips();
+                    refresh();
+                }
+                input.focus();
+                if (menu.hidden) openEffectMenu();
+            });
+
+            input.addEventListener('focus', openEffectMenu);
+            input.addEventListener('blur', closeEffectMenu);
+            input.addEventListener('input', () => {
+                effectQuery = input.value;
+                openEffectMenu();
+                refresh();
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    if (menu.hidden) openEffectMenu();
+                    setMenuActive(menuActive + (e.key === 'ArrowDown' ? 1 : -1));
+                } else if (e.key === 'Enter') {
+                    e.preventDefault();
+                    if (menuActive >= 0) addEffectChip(menuOptions[menuActive]);
+                    else if (effectQuery.trim()) addEffectChip({ text: effectQuery.trim() });
+                } else if (e.key === 'Escape') {
+                    closeEffectMenu();
+                } else if (e.key === 'Backspace' && !input.value && effectChips.length) {
+                    effectChips.pop();
+                    renderEffectChips();
+                    refresh();
+                }
+            });
+
+            // mousedown, not click, so the input keeps focus and the menu doesn't close first
+            menu.addEventListener('mousedown', (e) => {
+                e.preventDefault();
+                const opt = e.target.closest('.effect-option');
+                if (opt) addEffectChip(menuOptions[Number(opt.dataset.i)]);
+            });
+            menu.addEventListener('mousemove', (e) => {
+                const opt = e.target.closest('.effect-option');
+                if (opt && Number(opt.dataset.i) !== menuActive) setMenuActive(Number(opt.dataset.i));
             });
         }
 
@@ -799,8 +1115,15 @@
             }
 
             // Effect filter
-            if (currentEffectId !== null) {
-                filtered = filtered.filter(c => (c.effects || []).includes(currentEffectId));
+            if (currentEquipId !== null) {
+                filtered = filtered.filter(c => (c.effects || []).includes(currentEquipId));
+            }
+            const effectSets = activeEffectSets();
+            if (effectSets.length) {
+                filtered = filtered.filter(c => {
+                    const has = c.effects || [];
+                    return effectSets.every(set => has.some(id => set.has(id)));
+                });
             }
 
             // Sort
@@ -841,6 +1164,21 @@
             return `<div class="attr-strip">${parts.join('')}</div>`;
         }
 
+        // Under each card, name the effects that made it match, so a broad "morale" filter
+        // says which kind of morale this character actually has.
+        function effectHitsHtml(char, effectSets) {
+            if (!effectSets.length) return '';
+            const shown = new Set();
+            (char.effects || []).forEach(id => {
+                if (effectSets.some(set => set.has(id))) shown.add(id);
+            });
+            const labels = [...shown].map(id => EFFECT_TYPE_BY_ID[id].label).sort();
+            const extra = labels.length > 4 ? labels.length - 3 : 0;
+            return (extra ? labels.slice(0, 3) : labels)
+                .map(l => `<span class="effect-hit">${escapeHtml(l)}</span>`).join('')
+                + (extra ? `<span class="effect-hit">+${extra} more</span>` : '');
+        }
+
         function escapeHtml(str) {
             const div = document.createElement('div');
             div.textContent = str;
@@ -863,6 +1201,7 @@
 
         function renderCharacters() {
             const filtered = filterCharacters();
+            const effectSets = activeEffectSets();
             const grid = document.getElementById('character-grid');
             
             // Update count
@@ -873,7 +1212,9 @@
                 grid.innerHTML = `
                     <div class="no-results">
                         <h3>No characters found</h3>
-                        <p>Try adjusting your filters or search term.</p>
+                        <p>${effectSets.length > 1
+                            ? 'No one has all of these effects together. Try removing one.'
+                            : 'Try adjusting your filters or search term.'}</p>
                     </div>
                 `;
                 return;
@@ -905,8 +1246,7 @@
                     ` : ''}
                     ${char.title ? `<p class="character-title">${escapeHtml(char.title)}</p>` : ''}
                     ${char.description ? `<p class="character-description">${escapeHtml(char.description)}</p>` : ''}
-                    ${currentEffectId !== null && EFFECT_TYPE_BY_ID[currentEffectId]
-                        ? `<span class="effect-hit">${escapeHtml(EFFECT_TYPE_BY_ID[currentEffectId].label)}</span>` : ''}
+                    ${effectHitsHtml(char, effectSets)}
                     ${attrStripHtml(char)}
                     <div class="character-meta">
                         ${char.is_unique ? '<span class="meta-tag unique">Unique</span>' : '<span class="meta-tag">Generic</span>'}
