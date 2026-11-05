@@ -1,88 +1,120 @@
-# STATUS 5 Nov 2026: undecided
+# Moving the wiki to Cloudflare Pages (5 Nov 2026)
 
-The user first said "stay on GitHub Pages" (too much overhead), then asked whether the 1 GB Pages limit makes Cloudflare Pages worth it. The site is currently ~621 MB, i.e. under the limit, and Phase 1 in REVIEW.md (thumbnails, split data) shrinks what is served either way. A **hosting-only move** (same static files, no login/forms) is the low-overhead option: see the summary below. Logins/forms are only possible after moving.
+**Status: decided, built locally, not deployed.** The user chose Cloudflare Pages and a redesigned wiki. Everything in this branch runs on a laptop (wrangler / Miniflare). No Cloudflare account exists yet, nothing is pushed, no DNS has changed.
 
-# Migration plan: GitHub Pages → a host with logins + forms (5 Nov 2026)
+## What this gives you
 
-Goal: keep the static wiki, add (1) Discord login, (2) bug-report / suggestion forms that land in the Discord forum channels, (3) optional per-user favourites. Nothing here has been deployed; no accounts created, no DNS touched.
+- Same static wiki, same URLs, same generators. `scripts/build_site.mjs` copies the repo as it is into `dist/`.
+- `/api/roadmap`: the public roadmap, read from D1, cached at the edge, with a static `roadmap.json` fallback.
+- `/admin/roadmap`: an editor (add, edit, drag to reorder, change status, delete, restore a previous version), behind Cloudflare Access.
+- Room for later features (Discord login, forms into the Discord forums) on the same project. Not built.
 
-Plan limits below are from memory of each vendor's public pricing (late 2025/2026). **Re-check the pricing pages before committing**; the figures are for orientation, not a quote.
+## Cost and limits (checked 5 Nov 2026)
 
-## Constraints from this site
+Free plan figures, from Cloudflare's docs and pricing pages (the Pages and D1 limits pages, plus the Zero Trust plan page; some figures were confirmed via third-party mirrors, so glance at the official page before you rely on a number):
 
-- 621 MB / ~4,100 files (472 MB images), growing; 27 MB of JS data on the heaviest page.
-- Traffic is modest (53K subscribers, a wiki) but bursty after updates.
-- Needs: custom domain `190-expanded.com`, Discord OAuth2, a small relational store (users, reports, favourites), server-side secret for the Discord webhook/bot, keep the Python generators + git workflow.
-- Owner is a solo modder: ease of setup and zero running cost matter more than scale.
+| Item | Limit on the free plan | This site |
+|---|---|---|
+| Pages static requests and bandwidth | unlimited, no egress fee | fine |
+| Pages files per site | 20,000 | about 4,100 |
+| Pages max file size | 25 MiB | largest is `skill_trees.js`, 16 MB |
+| Pages builds | 500 per month, counted across the account | we deploy from GitHub Actions, direct upload |
+| Pages Functions requests | 100,000 per day, shared with Workers (10 ms CPU each) | roadmap reads are edge-cached, so a few hundred a day |
+| D1 | 5 GB per account, 500 MB per database, 5 M rows read and 100 k rows written per day | a few KB |
+| Access (Zero Trust) | free for up to 50 users, 24 h log retention | 1 user |
+| Domain | you already own 190-expanded.com | $0 |
 
-## Comparison
+**Total: $0 per month.** Two changes since the first draft of this plan:
+- Cloudflare enforces the free D1 daily limits since 1 Sep 2026 (queries fail past the cap until 00:00 UTC). The roadmap is far below them, and the static fallback covers an outage.
+- The Zero Trust free plan may ask for a payment method at sign-up even though it costs nothing.
 
-| | **Cloudflare Pages + Workers + D1 (+R2)** | Vercel + Supabase | Netlify + Supabase |
-|---|---|---|---|
-| Static hosting limits (free) | 20,000 files/site, 25 MiB/file, unlimited bandwidth; 500 builds/mo. 4.1K files fits. | Hobby: 100 GB/mo bandwidth, deployment-size caps (~100 MB class for CLI uploads; large static trees are awkward) | 100 GB/mo bandwidth (credit-based on newer plans); 621 MB deploy is allowed but slow deploys |
-| Bandwidth risk | none (no egress charge) | overage → upgrade to Pro ($20/user/mo); Hobby is non-commercial only | overage → paid plan ($19/mo/member class) |
-| Large images | put `data/images` in **R2** (10 GB free, $0 egress) or leave in Pages | needs Blob/S3 for the 472 MB | needs Large Media or external S3 |
-| API / forms | Workers (100k req/day free); same-origin `/api/*` | Serverless functions (limits per Hobby) | Netlify Functions (125k/mo free) |
-| DB | **D1** (SQLite) 5 GB, 5M reads + 100k writes/day free | Supabase Postgres 500 MB free; **free projects pause after a week of inactivity** | same Supabase limits |
-| Discord OAuth | hand-rolled in a Worker (~80 lines, standard authorization-code flow) | Supabase Auth has a built-in Discord provider | same |
-| Custom domain | free, apex via CNAME flattening if DNS is moved to Cloudflare (or CNAME `www`) | free | free |
-| Cost for this site | **$0** (Workers Paid is $5/mo if ever needed) | $0 now, ~$45/mo realistic once past limits | $0 now, ~$19–25/mo once past limits |
-| Ease | one vendor, one dashboard, `wrangler` CLI; GitHub integration builds on push | two vendors to wire | two vendors to wire |
-| Main downside | Discord OAuth is DIY; D1 is SQLite (fine here) | pause-on-idle DB; non-commercial Hobby clause | same as Vercel for DB |
+The paid tier is Workers Paid at $5/month. You would only need it if daily requests ever pass 100,000.
 
-## Recommendation: Cloudflare Pages + Workers + D1 (+ R2 for images)
+The old 1 GB GitHub Pages worry goes away: Pages has no total-size cap, only the per-file and file-count limits above. Phase 1 in REVIEW.md (thumbnails, split data) is still worth doing for visitors' sake.
 
-**Cost: $0/month** at this scale (domain is already owned). No egress fees is the deciding factor given 472 MB of images and a heavy character page. Optional later: Workers Paid $5/mo if daily request limits are ever hit.
-
-### Architecture
+## What is in the repo
 
 ```
- browser ──► Cloudflare Pages  (static wiki: index.html, total_war/**, tools/**, data JS)
-        └──► /api/*  (Pages Functions or one Worker on the same domain)
-                ├─ GET  /api/auth/login      → redirect to Discord OAuth2 (scope: identify), state cookie
-                ├─ GET  /api/auth/callback   → exchange code, fetch /users/@me, upsert user in D1,
-                │                               set signed HttpOnly+Secure+SameSite=Lax session cookie
-                ├─ POST /api/auth/logout
-                ├─ GET  /api/me
-                ├─ POST /api/report          → validate + rate-limit, insert row in D1, post to Discord forum
-                ├─ POST /api/suggestion      → same, different forum channel
-                └─ GET/PUT /api/favourites   → optional: per-user character/faction favourites
- D1 tables: users(discord_id PK, name, avatar, created), reports(id, user_id, kind, title, body,
-            game_version, discord_thread_id, created), favourites(user_id, kind, key)
- R2 (optional): data/images + UI art, served via a custom domain `img.190-expanded.com`
+wrangler.toml               Pages project + D1 binding (placeholder id) + non-secret vars
+functions/                  Pages Functions, TypeScript
+  api/roadmap.ts              GET public roadmap (edge cache, static fallback)
+  api/admin/_middleware.ts    Access JWT check for every /api/admin/* call
+  api/admin/roadmap/*         list/create, update/delete, reorder, history, restore
+  admin/_middleware.ts        Access JWT check for every /admin/* page + CSP, no-store, noindex
+  _lib/                       access.ts (JWT), validate.ts, roadmap_db.ts, handlers.ts, http.ts
+migrations/0001_roadmap.sql D1 schema: roadmap_items, roadmap_history
+db/roadmap_seed.json        DRAFT seed (29 items), also builds db/seed_roadmap.sql and total_war/data/roadmap.json
+admin/roadmap.html|js, admin.css    the editor
+total_war/roadmap.html + scripts/roadmap.js + styles/roadmap.css    the public page
+_routes.json _headers _redirects    Pages routing (/roadmap -> /total_war/roadmap.html)
+.github/workflows/deploy.yml        tests -> D1 migrate -> export fallback -> build -> deploy (off until enabled)
+tests/                      30 tests: validation, JWT rejection, handlers on a real SQLite
 ```
 
-Discord side. **Forum posts:** a webhook created on a forum channel can start a thread (`thread_name` in the execute-webhook payload; embed carries the report body, username, game version). Start with a webhook per forum (bug reports, suggestions): no bot hosting, secret lives in a Worker secret. If the bot must read replies back or close threads, the existing bot (bugcat) can poll D1 or be called by a Worker via its token instead; decide later. Show reporter as "Name (Discord)" only after OAuth; anonymous submissions allowed behind Turnstile if wanted.
+## Run it locally (no account, no network)
 
-Guard rails: Cloudflare Turnstile on forms (free), per-user + per-IP rate limit (D1 counter or the Workers rate-limit binding), 4 KB body cap, strip `@everyone/@here` (`allowed_mentions: {parse: []}`), HTML-escape everything rendered back.
+```
+npm install
+copy .dev.vars.example .dev.vars        # DEV_BYPASS_ACCESS=1: editor works on localhost only
+npm run db:migrate:local
+npm run db:seed:local
+npm run dev                             # http://localhost:8788
+npm test
+```
 
-### Generator / deploy pipeline
+The dev bypass is honoured only when the request host is `localhost`, `127.0.0.1` or `[::1]`, and only when the variable is set. `.dev.vars` is git-ignored. Production has no such variable, and a test proves the flag does nothing on a real host.
 
-- GitHub repo stays source of truth. Cloudflare Pages connected to `Ironictw2st/ironictw2st.github.io` (or Direct Upload via GitHub Actions + `wrangler pages deploy`): push to `main` = production, other branches (e.g. `redesign`) = preview URL for review.
-- The Python generators keep running locally against the mod tree (they read `Z:\Claude\190Expanded\…`, which CI cannot see), then the committed output is deployed. GitHub Action (`.github/workflows/deploy.yml`): checkout → (optional) `python generate_data/audit_site.py` as a gate → `wrangler pages deploy . --project-name=…` and `wrangler d1 migrations apply`.
-- Image pipeline to add: a generator step producing 160/480 px WebP thumbnails; originals go to R2 via `rclone`/`wrangler r2 object put` (not in the Pages bundle), which also takes the repo from 621 MB toward ~150 MB.
-- Rollback: Pages keeps every deployment; keep GitHub Pages live until cut-over is verified.
+## Security model
 
-### Steps for the user (nothing done yet)
+1. **Cloudflare Access** (edge) puts a login in front of `/admin/*` and `/api/admin/*`. Policy: your email only.
+2. **The Function checks the Access token too** (`Cf-Access-Jwt-Assertion`): RS256 signature against the team's published keys, issuer, audience (the Access app's AUD tag), expiry, and an optional email allow-list. Missing, forged, expired or wrong-audience tokens get a 403. If the team domain or AUD is not configured, the endpoints refuse everything (fail closed). So a mistake in the Access policy cannot expose the editor. There are no custom passwords and no sessions of our own.
+3. **Request checks on every write:** JSON content type only, `Origin` and `Sec-Fetch-Site` must be this site, body capped at 64 KB. A cross-site form or fetch cannot get through.
+4. **Input validation:** title 1 to 80 characters, description up to 280, status and category from fixed lists, date shaped like 2026-11-05, ids positive integers. Every query is parameterised.
+5. **Output:** both pages write server text with `textContent` only. The admin pages send a strict CSP (`script-src 'self'`, no inline scripts or styles).
+6. **No secrets in the repo.** The Access team domain and AUD tag are identifiers, not secrets. The only secrets are the two GitHub Actions secrets below.
 
-1. Create a free Cloudflare account; add the site (Workers & Pages → Create → Pages → connect GitHub repo, authorise the Cloudflare GitHub app on that one repo).
-2. Create D1 database `wiki` and (optional) R2 bucket `wiki-assets`; I supply `schema.sql` + `wrangler.toml`.
-3. Discord Developer Portal: New Application → OAuth2 → add redirect `https://190-expanded.com/api/auth/callback` (and the `*.pages.dev` preview URL for testing) → copy Client ID + Secret.
-4. Discord: in each forum channel → Integrations → Webhooks → New webhook → copy URL (one for bugs, one for suggestions).
-5. Cloudflare Pages project → Settings → Variables and Secrets (as **secrets**, never in the repo): `DISCORD_CLIENT_ID`, `DISCORD_CLIENT_SECRET`, `SESSION_SECRET` (32 random bytes), `WEBHOOK_BUGS`, `WEBHOOK_SUGGESTIONS`, `TURNSTILE_SECRET`; public var `TURNSTILE_SITEKEY`.
-6. DNS: simplest is to move the `190-expanded.com` nameservers to Cloudflare (free), then Pages → Custom domains → add `190-expanded.com` + `www`. Keep the old CNAME untouched until the preview passes; then switch and remove the GitHub Pages custom domain. TTL low (300 s) during the change.
-7. Test on the `*.pages.dev` preview (login, a report landing in a test forum), then flip DNS.
+## Steps for you
 
-No secret ever goes into the repo; `.dev.vars` (local wrangler secrets) is git-ignored.
+Do these in order. Each one is safe to stop after.
 
-### Staging order (suggested)
+1. **Cloudflare account.** Sign up (free) at dash.cloudflare.com. Turn on two-factor sign-in.
+2. **Log in from the repo (once).** In the repo folder run `npx wrangler login`. A browser opens; approve it.
+3. **Create the Pages project** (direct upload, because GitHub Actions deploys it):
+   `npx wrangler pages project create 190-expanded --production-branch main`
+   The site will be live at `https://190-expanded.pages.dev`.
+4. **Create the database:** `npx wrangler d1 create 190-expanded`. Copy the `database_id` it prints into `wrangler.toml` (`database_id = "..."`) and commit that change. An id is not a secret.
+   Then load the schema and the draft roadmap:
+   `npx wrangler d1 migrations apply DB --remote`
+   `npx wrangler d1 execute DB --remote --file db/seed_roadmap.sql`
+5. **Set up Cloudflare Access** (Zero Trust dashboard):
+   1. Settings, Authentication: make sure **One-time PIN** is enabled as a login method (or add Google / GitHub).
+   2. Access, Applications, **Add an application**, **Self-hosted**. Name it "190E admin". Session duration 24 hours.
+   3. Public hostnames (destinations), all four: `190-expanded.com` path `admin/*`, `190-expanded.com` path `api/admin/*`, and the same two paths on `190-expanded.pages.dev`.
+   4. Policy: **Allow**, Include **Emails**, your email address only. Nothing else.
+   5. Save. Copy the **Application Audience (AUD) tag** from the application's overview page. Your **team domain** is shown under Zero Trust, Settings, Custom Pages (it looks like `yourteam.cloudflareaccess.com`).
+6. **Give the site those two values.** Either fill them in `wrangler.toml` under `[vars]` (`ACCESS_TEAM_DOMAIN`, `ACCESS_AUD`, and optionally `ACCESS_ALLOWED_EMAILS` with your email) and commit, or set them in the Pages project under Settings, Variables and Secrets. Never set `DEV_BYPASS_ACCESS` in production.
+7. **Let GitHub deploy.** In Cloudflare, My Profile, API Tokens, Create Token, Custom: permissions **Account / Cloudflare Pages / Edit** and **Account / D1 / Edit**, scoped to your account. In the GitHub repo, Settings, Secrets and variables, Actions: add secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` (the account id is on the dashboard overview), and a repository **variable** `CLOUDFLARE_DEPLOY_ENABLED` = `true`. Then run the workflow once from the Actions tab (Run workflow).
+8. **Test on the preview address, before any DNS change.** Open `https://190-expanded.pages.dev/total_war/roadmap.html` (public page shows the draft items). Open `https://190-expanded.pages.dev/admin/roadmap`: you should get the Cloudflare login, then the editor. Try an edit, a drag, History and Restore. Check that a private window without a login gets the Access screen, not the editor.
+9. **Move the domain with no downtime.**
+   1. In Cloudflare, **Add a site** `190-expanded.com` (free plan). Cloudflare scans the existing DNS records. Compare them against your registrar's DNS page and add anything missing (especially MX and TXT records if the domain has email). Leave the four GitHub Pages A records (`185.199.108.153`, `.109.153`, `.110.153`, `.111.153`) as they are for now.
+   2. A day earlier, lower the TTL on the current records to 300 seconds at the registrar.
+   3. At the registrar, change the nameservers to the two Cloudflare gives you. DNS answers stay identical, so the site keeps being served from GitHub Pages with no gap.
+   4. When Cloudflare shows the site as Active, open Pages project, **Custom domains**, add `190-expanded.com` (and `www.190-expanded.com`). Cloudflare swaps the GitHub A records for the Pages target. That is the cutover, and it takes effect within a minute or two because the records are proxied.
+   5. Check the site and `/admin/roadmap` on the real domain.
+   6. **Rollback** if anything is wrong: restore the four A records in Cloudflare DNS. Keep GitHub Pages enabled for about a week as the safety net, then turn it off (Settings, Pages) and delete the repo's `CNAME` file.
+10. **Later (not built): Discord login and forms.** Create a Discord application (Developer Portal, OAuth2), add the redirect `https://190-expanded.com/api/auth/callback`, keep the client secret as a Pages secret (`DISCORD_CLIENT_SECRET`), and add one webhook per forum channel as secrets. The code would be a few Functions beside the roadmap ones, with sessions in a signed cookie and users in D1. Ask when you want it.
 
-1. Re-host the static site on Cloudflare Pages unchanged (or with the `redesign` branch) — zero-risk, proves domain + deploy.
-2. Move images to R2 + thumbnails.
-3. Add `/api/auth/*` + `/api/me` (login button in the nav).
-4. Add report/suggestion forms → D1 + Discord webhook.
-5. Favourites, then per-character permalinks/OG tags via a Function.
+## Day-to-day after launch
 
-### If Cloudflare is rejected
+- Edit the roadmap at `/admin/roadmap`. It saves instantly; the public page updates within about two minutes (edge cache), sooner after a save because the editor purges the cached copy.
+- Mistake? History, Restore this version. A restore is saved too, so it can be undone.
+- Wiki content still comes from the Python generators, committed to `main`. A push to `main` runs the tests and deploys.
+- Each deploy refreshes `roadmap.json` from the live database, so the fallback never goes stale.
 
-Fallback: stay on GitHub Pages for the wiki and put only `/api` on a Cloudflare Worker at `api.190-expanded.com` (CORS-allow the wiki origin; cookies on the parent domain). Same Worker code, no migration of the static site, but the 1 GB GitHub Pages ceiling remains a problem for the images.
+## Known limits and follow-ups
+
+- The old `total_war/data/roadmap.js` (hand-written stages) is no longer used by any page. Delete it once you are happy with the seed.
+- All 29 seed items are marked **Draft**. Some descriptions are thin because the sources were terse (for example Sky City, Chengle road, Yongchang swap). Edit them in the editor.
+- The edge cache purge is best effort. If it fails, the public page is at most about two minutes behind.
+- History keeps the last 200 saves. No per-user roles: anyone passing Access with an allowed email can edit.
+- Not yet done: a WebP thumbnail pipeline and splitting `skill_trees.js` (REVIEW.md, Phase 1).

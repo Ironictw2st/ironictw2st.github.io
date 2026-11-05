@@ -1,0 +1,4 @@
+# Copy to .dev.vars (git-ignored) for local `npm run dev`. Never commit real values.
+# Lets you use /admin/roadmap on http://localhost:8788 without Cloudflare Access.
+# Honoured ONLY when the request host is localhost / 127.0.0.1, so it is inert in production.
+DEV_BYPASS_ACCESS=1

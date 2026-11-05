@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roadmap editor | 190 Expanded Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="/total_war/styles/tw3k.css">
+    <link rel="stylesheet" href="/total_war/styles/roadmap.css">
+    <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+<div class="page-bg"></div>
+
+<header>
+    <nav class="top-nav">
+        <a href="/total_war/roadmap.html" class="back-link">← Public roadmap</a>
+    </nav>
+    <div class="header-content">
+        <p class="subtitle">190 Expanded Wiki · Admin</p>
+        <h1>Roadmap editor</h1>
+        <p class="tagline">Drag a card to reorder it or move it to another column. Changes save at once and can be undone from History.</p>
+    </div>
+</header>
+
+<main>
+    <div class="ad-toolbar">
+        <button type="button" id="ad-add" class="ad-btn ad-primary">Add item</button>
+        <button type="button" id="ad-history" class="ad-btn">History</button>
+        <p id="ad-status" class="ad-status" role="status" aria-live="polite"></p>
+    </div>
+
+    <section id="rm-board" class="rm-board ad-board" aria-label="Roadmap by status"></section>
+</main>
+
+<dialog id="ad-edit" class="ad-dialog" aria-labelledby="ad-edit-title">
+    <form id="ad-form" method="dialog" novalidate>
+        <h2 id="ad-edit-title">Edit item</h2>
+
+        <label for="f-title">Title <span class="ad-hint">(up to 80)</span></label>
+        <input id="f-title" name="title" type="text" maxlength="80" required>
+
+        <label for="f-description">Description <span class="ad-hint">(one plain sentence, up to 280)</span></label>
+        <textarea id="f-description" name="description" rows="3" maxlength="280"></textarea>
+
+        <div class="ad-row">
+            <div>
+                <label for="f-status">Status</label>
+                <select id="f-status" name="status">
+                    <option value="live">In the game</option>
+                    <option value="next">Next update</option>
+                    <option value="planned">Planned</option>
+                    <option value="idea">Idea</option>
+                </select>
+            </div>
+            <div>
+                <label for="f-category">Category</label>
+                <select id="f-category" name="category">
+                    <option>Mod</option>
+                    <option>Map</option>
+                    <option>Script Extender</option>
+                    <option>Mod Manager</option>
+                    <option>Wiki</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="ad-row">
+            <div>
+                <label for="f-version">Version <span class="ad-hint">(optional)</span></label>
+                <input id="f-version" name="version" type="text" maxlength="20">
+            </div>
+            <div>
+                <label for="f-date">Date <span class="ad-hint">(2026, 2026-11 or 2026-11-05)</span></label>
+                <input id="f-date" name="release_date" type="text" maxlength="10" placeholder="optional">
+            </div>
+        </div>
+
+        <label class="ad-check"><input id="f-draft" name="draft" type="checkbox"> Draft (shows a Draft mark on the public page)</label>
+
+        <p id="ad-form-error" class="ad-error" role="alert" hidden></p>
+        <div class="ad-actions">
+            <button type="button" id="ad-cancel" class="ad-btn">Cancel</button>
+            <button type="submit" id="ad-save" class="ad-btn ad-primary">Save</button>
+        </div>
+    </form>
+</dialog>
+
+<dialog id="ad-hist" class="ad-dialog ad-wide" aria-labelledby="ad-hist-title">
+    <h2 id="ad-hist-title">History</h2>
+    <p class="ad-hint">Every save keeps a snapshot of the whole roadmap. Restoring one replaces the current roadmap, and the restore is itself saved, so you can undo it.</p>
+    <ol id="ad-hist-list" class="ad-hist-list"></ol>
+    <div class="ad-actions"><button type="button" id="ad-hist-close" class="ad-btn">Close</button></div>
+</dialog>
+
+<script src="/admin/roadmap.js"></script>
+</body>
+</html>

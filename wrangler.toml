@@ -1,0 +1,22 @@
+# Cloudflare Pages project for the 190 Expanded wiki.
+# Local only until the user creates the Cloudflare account (see MIGRATION.md). No secrets in this file.
+name = "190-expanded"
+compatibility_date = "2025-11-01"
+# Deploys publish ./dist (built by scripts/build_site.mjs); local dev serves the repo root.
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "190-expanded"
+# Local dev ignores this id. Replace it with the id printed by `wrangler d1 create 190-expanded`
+# (a database id is an identifier, not a secret, so it may be committed).
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+# Non-secret settings for the Access check. Fill in after creating the Access application.
+# The AUD tag and team domain are identifiers, not secrets, but keep them in the Pages dashboard
+# (Settings > Variables) if you prefer; values set there override these.
+[vars]
+ACCESS_TEAM_DOMAIN = ""        # e.g. "yourteam.cloudflareaccess.com"
+ACCESS_AUD = ""                # Application Audience (AUD) tag from the Access application
+ACCESS_ALLOWED_EMAILS = ""     # optional extra allow-list, comma separated

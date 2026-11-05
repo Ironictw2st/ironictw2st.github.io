@@ -1,0 +1,13 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+/total_war/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/total_war/data/images/*
+  Cache-Control: public, max-age=604800
+
+/total_war/data/roadmap.json
+  Cache-Control: public, max-age=60

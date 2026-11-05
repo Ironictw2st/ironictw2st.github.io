@@ -1,0 +1,54 @@
+/* Roadmap editor chrome. Loaded after tw3k.css + roadmap.css. No inline styles anywhere (CSP: style-src 'self'). */
+
+.ad-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin-bottom: 1.5rem; }
+.ad-btn {
+    font-family: var(--f-display); font-size: .76rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+    padding: .55rem 1rem; cursor: pointer;
+    background: var(--paper-light); color: var(--ink); border: 1px solid var(--line-strong);
+}
+.ad-btn:hover { border-color: var(--seal); color: var(--seal-dark); }
+.ad-btn:disabled { opacity: .5; cursor: default; }
+.ad-primary { background: var(--seal); color: #f8e9d0; border-color: var(--seal-dark); }
+.ad-primary:hover { background: var(--seal-dark); color: #fff; border-color: var(--seal-dark); }
+.ad-danger { color: var(--seal-dark); }
+.ad-status { margin-left: auto; color: var(--ink-soft); font-size: .95rem; min-height: 1.4em; }
+.ad-status.is-error { color: var(--seal); font-weight: 600; }
+
+.ad-board .rm-card { cursor: grab; }
+.ad-board .rm-card.is-dragging { opacity: .4; }
+.ad-board .rm-col.is-over { outline: 2px dashed var(--seal); outline-offset: -4px; }
+.ad-card-actions { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .55rem; }
+.ad-mini {
+    font-size: .74rem; padding: .2rem .55rem; cursor: pointer;
+    background: transparent; color: var(--ink-soft); border: 1px solid var(--line-strong); font-family: var(--f-body);
+}
+.ad-mini:hover { border-color: var(--seal); color: var(--seal-dark); }
+.ad-mini.is-armed { background: var(--seal); color: #f8e9d0; border-color: var(--seal-dark); }
+
+.ad-dialog {
+    margin: auto; /* tw3k.css zeroes margins, which would pin the dialog top-left */
+    border: 1px solid var(--line-strong); background: var(--paper-light); color: var(--ink);
+    padding: 1.5rem 1.6rem; width: min(560px, 94vw); box-shadow: 0 20px 50px rgba(30,15,5,.45);
+}
+.ad-dialog::backdrop { background: rgba(29, 21, 17, .6); }
+.ad-wide { width: min(720px, 94vw); }
+.ad-dialog h2 { margin-bottom: .8rem; font-size: 1.25rem; }
+.ad-dialog label { display: block; margin: .8rem 0 .25rem; font-family: var(--f-display); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.ad-dialog input[type="text"], .ad-dialog textarea, .ad-dialog select {
+    width: 100%; padding: .5rem .65rem; font: inherit; font-size: 1rem;
+    background: var(--paper); color: var(--ink); border: 1px solid var(--line-strong);
+}
+.ad-dialog textarea { resize: vertical; }
+.ad-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+.ad-hint { font-family: var(--f-body); text-transform: none; letter-spacing: 0; color: var(--ink-faint); font-size: .85rem; }
+.ad-check { display: flex !important; align-items: center; gap: .5rem; font-family: var(--f-body) !important; text-transform: none !important; letter-spacing: 0 !important; font-size: .95rem !important; }
+.ad-error { color: var(--seal); font-weight: 600; margin-top: .8rem; }
+.ad-actions { display: flex; justify-content: flex-end; gap: .6rem; margin-top: 1.2rem; }
+
+.ad-hist-list { list-style: none; max-height: 50vh; overflow: auto; margin-top: .8rem; border-top: 1px solid var(--line); }
+.ad-hist-list li { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .55rem .2rem; border-bottom: 1px solid var(--line); }
+.ad-hist-main { min-width: 0; }
+.ad-hist-sum { display: block; color: var(--ink); }
+.ad-hist-meta { display: block; color: var(--ink-faint); font-size: .82rem; }
+
+@media (max-width: 640px) { .ad-row { grid-template-columns: 1fr; } .ad-status { margin-left: 0; width: 100%; } }

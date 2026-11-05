@@ -1,0 +1,65 @@
+# Deploys the wiki to Cloudflare Pages. NOT ACTIVE until the user adds the two repository secrets below
+# (Settings > Secrets and variables > Actions) and creates the Pages project (see MIGRATION.md).
+# No secret values live in this repository; the names below are placeholders for GitHub secrets.
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24      # built-in TypeScript type stripping + node:sqlite for the tests
+          cache: npm
+      - run: npm ci
+      - run: npm test
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    # Only deploy when the secrets exist (so forks and the pre-setup state stay green).
+    if: ${{ vars.CLOUDFLARE_DEPLOY_ENABLED == 'true' }}
+    permissions:
+      contents: read
+      deployments: write
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}     # token with: Pages Edit, D1 Edit (account scope)
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      # 1. Schema first, so new code never meets an old table.
+      - name: Apply D1 migrations
+        run: npx wrangler d1 migrations apply DB --remote
+
+      # 2. Refresh the static fallback (roadmap.json) from the live database, so the public page still has
+      #    current content if D1 is ever unreachable. Falls back to the committed seed if the export fails.
+      - name: Export roadmap to the static fallback
+        run: |
+          npx wrangler d1 execute DB --remote --json \
+            --command "SELECT id, title, description, status, category, sort_order, version, release_date, draft, updated_at FROM roadmap_items" \
+            > roadmap_export.json \
+            && node scripts/build_roadmap_json.mjs --from-file roadmap_export.json \
+            || (echo "export failed, keeping the committed roadmap.json" && git checkout -- total_war/data/roadmap.json)
+
+      - name: Build site (dist)
+        run: node scripts/build_site.mjs
+
+      # 3. Publish. Pages compiles ./functions from the repo root and uploads ./dist.
+      - name: Deploy
+        run: npx wrangler pages deploy dist --project-name=190-expanded --branch=main --commit-dirty=true
