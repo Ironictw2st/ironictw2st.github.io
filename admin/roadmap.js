@@ -76,7 +76,9 @@
     meta.appendChild(el('span', 'rm-chip', it.category));
     var when = [it.version, it.release_date].filter(Boolean).join(' · ');
     if (when) meta.appendChild(el('span', 'rm-when', when));
+    if (it.link) meta.appendChild(el('span', 'rm-when', it.link));
     c.appendChild(meta);
+    if (typeof it.progress === 'number') c.appendChild(progressRow(it.progress));
 
     var acts = el('div', 'ad-card-actions');
     acts.appendChild(miniBtn('Edit', function () { openEdit(it); }));
@@ -107,6 +109,17 @@
       Array.prototype.forEach.call(board.querySelectorAll('.is-over'), function (n) { n.classList.remove('is-over'); });
     });
     return c;
+  }
+
+  function progressRow(pct) {
+    var row = el('div', 'rm-progress-row');
+    var bar = el('div', 'rm-progress');
+    var fill = el('span', 'rm-progress-fill');
+    fill.style.width = pct + '%';
+    bar.appendChild(fill);
+    row.appendChild(bar);
+    row.appendChild(el('span', 'rm-progress-label', pct + '%'));
+    return row;
   }
 
   function miniBtn(label, fn, aria) {
@@ -218,7 +231,9 @@
     category: document.getElementById('f-category'),
     version: document.getElementById('f-version'),
     release_date: document.getElementById('f-date'),
-    draft: document.getElementById('f-draft')
+    draft: document.getElementById('f-draft'),
+    progress: document.getElementById('f-progress'),
+    link: document.getElementById('f-link')
   };
 
   function openEdit(it) {
@@ -231,6 +246,8 @@
     F.version.value = it ? it.version : '';
     F.release_date.value = it ? it.release_date : '';
     F.draft.checked = it ? !!it.draft : false;
+    F.progress.value = it && typeof it.progress === 'number' ? String(it.progress) : '';
+    F.link.value = it ? (it.link || '') : '';
     formError.hidden = true;
     if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
     F.title.focus();
@@ -242,7 +259,8 @@
     ev.preventDefault();
     var body = {
       title: F.title.value, description: F.description.value, status: F.status.value, category: F.category.value,
-      version: F.version.value, release_date: F.release_date.value, draft: F.draft.checked
+      version: F.version.value, release_date: F.release_date.value, draft: F.draft.checked,
+      progress: F.progress.value.trim(), link: F.link.value.trim()
     };
     var req = editingId === null ? api('POST', '', body) : api('PUT', '/' + editingId, body);
     document.getElementById('ad-save').disabled = true;

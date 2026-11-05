@@ -13,6 +13,8 @@ export interface ItemInput {
   version: string;
   release_date: string;
   draft: 0 | 1;
+  progress: number | null; // 0-100, or null when not tracked
+  link: string;           // site-internal path such as /total_war/changes.html, or ''
 }
 
 export const MAX_BODY_BYTES = 64 * 1024;
@@ -56,7 +58,15 @@ export function parseItem(body: unknown): ItemInput {
   const description = b.description === undefined || b.description === null || b.description === '' ? '' : str(b.description, 'description', 0, 280, true);
   const draftRaw = b.draft === undefined ? 0 : b.draft;
   if (draftRaw !== 0 && draftRaw !== 1 && draftRaw !== true && draftRaw !== false) throw new ValidationError('draft', 'draft must be true or false');
+  let progress: number | null = null;
+  if (b.progress !== undefined && b.progress !== null && b.progress !== '') {
+    const n = typeof b.progress === 'string' && /^\d{1,3}$/.test(b.progress) ? Number(b.progress) : b.progress;
+    if (typeof n !== 'number' || !Number.isInteger(n) || n < 0 || n > 100) throw new ValidationError('progress', 'progress must be a whole number from 0 to 100');
+    progress = n;
+  }
   return {
+    progress,
+    link: parseLink(b.link),
     title: str(b.title, 'title', 1, 80),
     description,
     status: oneOf(b.status, 'status', STATUSES),
@@ -65,6 +75,22 @@ export function parseItem(body: unknown): ItemInput {
     release_date: release,
     draft: draftRaw === 1 || draftRaw === true ? 1 : 0,
   };
+}
+
+/**
+ * Links may only point inside the wiki (total_war/ or tools/ pages), so the roadmap can never be used to publish an
+ * external or javascript: URL. Accepts "/total_war/x.html#a" or "total_war/x.html"; stores the leading-slash form.
+ */
+export function parseLink(v: unknown): string {
+  if (v === undefined || v === null || v === '') return '';
+  if (typeof v !== 'string') throw new ValidationError('link', 'link must be text');
+  let s = v.trim();
+  if (s === '') return '';
+  if (!s.startsWith('/')) s = '/' + s;
+  if (s.length > 200 || !/^\/(total_war|tools)\/[A-Za-z0-9_./?=&#%~+-]+$/.test(s) || s.includes('..') || s.includes('//')) {
+    throw new ValidationError('link', 'link must be a wiki page such as total_war/changes.html');
+  }
+  return s;
 }
 
 /** Parse a positive integer id from a route param or JSON value. */

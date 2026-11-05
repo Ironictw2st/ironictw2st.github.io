@@ -11,7 +11,7 @@ function req(method: string, path: string, body?: unknown, headers: Record<strin
     body: body === undefined ? undefined : JSON.stringify(body),
   });
 }
-const item = (over: Record<string, unknown> = {}) => ({ title: 'T', description: 'd', status: 'next', category: 'Mod', version: '', release_date: '', draft: false, ...over });
+const item = (over: Record<string, unknown> = {}) => ({ title: 'T', description: 'd', status: 'next', category: 'Mod', version: '', release_date: '', draft: false, progress: null, link: '', ...over });
 
 function setup() {
   const db = makeDb();
@@ -122,5 +122,24 @@ test('history is capped', async () => {
   const { db, ctx } = setup();
   for (let i = 0; i < 205; i++) await adminCreate(ctx(req('POST', '/x', item({ title: `T${i}` }))));
   assert.equal((db.raw.prepare('SELECT COUNT(*) c FROM roadmap_history').get() as any).c, 200);
+  db.raw.close();
+});
+
+test('progress and link round-trip; restore of an older snapshot without them still works', async () => {
+  const { db, ctx } = setup();
+  const id = ((await (await adminCreate(ctx(req('POST', '/x', item({ title: 'P', progress: 60, link: 'total_war/changes.html' }))))).json()) as any).id;
+  const row = db.raw.prepare('SELECT progress, link FROM roadmap_items WHERE id = ?').get(id) as any;
+  assert.equal(row.progress, 60);
+  assert.equal(row.link, '/total_war/changes.html');
+  assert.equal((await adminCreate(ctx(req('POST', '/x', item({ link: 'https://evil.example' }))))).status, 400);
+  assert.equal((await adminCreate(ctx(req('POST', '/x', item({ progress: 120 }))))).status, 400);
+
+  // a snapshot written before v2 has no progress/link keys
+  const old = JSON.stringify([{ id: 99, title: 'Old', description: '', status: 'idea', category: 'Wiki', sort_order: 10, version: '', release_date: '', draft: 0, updated_at: 'x' }]);
+  db.raw.prepare("INSERT INTO roadmap_history (saved_at, saved_by, action, summary, snapshot) VALUES ('t', 'x', 'update', 'old', ?)").run(old);
+  const hid = (db.raw.prepare('SELECT MAX(id) m FROM roadmap_history').get() as any).m;
+  assert.equal((await adminRestore(ctx(req('POST', '/x', { history_id: hid })))).status, 200);
+  const r = db.raw.prepare('SELECT title, progress, link FROM roadmap_items').get() as any;
+  assert.deepEqual({ ...r }, { title: 'Old', progress: null, link: '' });
   db.raw.close();
 });

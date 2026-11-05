@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseItem, parseId, parseReorder, ValidationError } from '../functions/_lib/validate.ts';
+import { parseItem, parseId, parseLink, parseReorder, ValidationError } from '../functions/_lib/validate.ts';
 
 const ok = { title: 'Siege AI', description: 'In progress.', status: 'next', category: 'Mod', version: '1105', release_date: '2026-11-05', draft: true };
 const bad = (v: unknown) => assert.throws(() => parseItem(v), ValidationError);
@@ -61,4 +61,22 @@ test('reorder payload', () => {
     assert.throws(() => parseReorder(v), ValidationError);
   }
   assert.throws(() => parseReorder({ order: Array.from({ length: 501 }, (_, i) => ({ id: i + 1, status: 'live' })) }), ValidationError);
+});
+
+test('progress is a whole number 0-100 or empty', () => {
+  assert.equal(parseItem({ ...ok, progress: 40 }).progress, 40);
+  assert.equal(parseItem({ ...ok, progress: '75' }).progress, 75);
+  assert.equal(parseItem({ ...ok, progress: 0 }).progress, 0);
+  for (const v of [undefined, null, '']) assert.equal(parseItem({ ...ok, progress: v }).progress, null);
+  for (const v of [-1, 101, 4.5, 'abc', '1e2', true, [], {}]) bad({ ...ok, progress: v });
+});
+
+test('links stay inside the wiki', () => {
+  assert.equal(parseLink('total_war/changes.html'), '/total_war/changes.html');
+  assert.equal(parseLink('/total_war/map.html#region-12'), '/total_war/map.html#region-12');
+  assert.equal(parseLink('/tools/mod-manager.html'), '/tools/mod-manager.html');
+  assert.equal(parseLink(''), '');
+  for (const v of ['https://evil.example/x', '//evil.example/x', 'javascript:alert(1)', '/total_war/../admin/roadmap', '/admin/roadmap', '/total_war/', 'total_war//x', '/total_war/a b', 5, '/total_war/' + 'x'.repeat(200)]) {
+    assert.throws(() => parseLink(v), ValidationError);
+  }
 });

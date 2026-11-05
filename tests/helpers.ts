@@ -1,6 +1,6 @@
 // Test helpers: a D1-compatible wrapper over node:sqlite (real SQL, real migration), and a JWT signer.
 import { DatabaseSync } from 'node:sqlite';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import type { D1Like, D1Statement, D1Result } from '../functions/_lib/types.ts';
@@ -21,7 +21,7 @@ class Stmt implements D1Statement {
 
 export function makeDb(): D1Like & { raw: DatabaseSync } {
   const raw = new DatabaseSync(':memory:');
-  raw.exec(readFileSync(join(root, 'migrations', '0001_roadmap.sql'), 'utf8'));
+  for (const f of readdirSync(join(root, 'migrations')).filter((n) => n.endsWith('.sql')).sort()) raw.exec(readFileSync(join(root, 'migrations', f), 'utf8'));
   return {
     raw,
     prepare: (sql: string) => new Stmt(raw, sql),

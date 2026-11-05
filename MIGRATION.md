@@ -42,7 +42,7 @@ functions/                  Pages Functions, TypeScript
   api/admin/roadmap/*         list/create, update/delete, reorder, history, restore
   admin/_middleware.ts        Access JWT check for every /admin/* page + CSP, no-store, noindex
   _lib/                       access.ts (JWT), validate.ts, roadmap_db.ts, handlers.ts, http.ts
-migrations/0001_roadmap.sql D1 schema: roadmap_items, roadmap_history
+migrations/0001, 0002   D1 schema: roadmap_items (with progress + wiki link), roadmap_history
 db/roadmap_seed.json        DRAFT seed (29 items), also builds db/seed_roadmap.sql and total_war/data/roadmap.json
 admin/roadmap.html|js, admin.css    the editor
 total_war/roadmap.html + scripts/roadmap.js + styles/roadmap.css    the public page
@@ -84,7 +84,7 @@ Do these in order. Each one is safe to stop after.
    The site will be live at `https://190-expanded.pages.dev`.
 4. **Create the database:** `npx wrangler d1 create 190-expanded`. Copy the `database_id` it prints into `wrangler.toml` (`database_id = "..."`) and commit that change. An id is not a secret.
    Then load the schema and the draft roadmap:
-   `npx wrangler d1 migrations apply DB --remote`
+   `npx wrangler d1 migrations apply DB --remote`   (applies every file in migrations/)
    `npx wrangler d1 execute DB --remote --file db/seed_roadmap.sql`
 5. **Set up Cloudflare Access** (Zero Trust dashboard):
    1. Settings, Authentication: make sure **One-time PIN** is enabled as a login method (or add Google / GitHub).

@@ -4,7 +4,7 @@ import type { ItemInput, ReorderEntry } from './validate.ts';
 
 export interface RoadmapItem extends ItemInput { id: number; sort_order: number; updated_at: string }
 export const HISTORY_KEEP = 200;
-const COLS = 'id, title, description, status, category, sort_order, version, release_date, draft, updated_at';
+const COLS = 'id, title, description, status, category, sort_order, version, release_date, draft, progress, link, updated_at';
 
 export async function listItems(db: D1Like): Promise<RoadmapItem[]> {
   const r = await db.prepare(`SELECT ${COLS} FROM roadmap_items ORDER BY CASE status WHEN 'live' THEN 0 WHEN 'next' THEN 1 WHEN 'planned' THEN 2 ELSE 3 END, sort_order, id`).all<RoadmapItem>();
@@ -17,7 +17,7 @@ function snapshotStmt(db: D1Like, by: string, action: string, summary: string, n
     `INSERT INTO roadmap_history (saved_at, saved_by, action, summary, snapshot)
      SELECT ?, ?, ?, ?, COALESCE(json_group_array(json_object(
        'id', id, 'title', title, 'description', description, 'status', status, 'category', category,
-       'sort_order', sort_order, 'version', version, 'release_date', release_date, 'draft', draft, 'updated_at', updated_at)), '[]')
+       'sort_order', sort_order, 'version', version, 'release_date', release_date, 'draft', draft, 'progress', progress, 'link', link, 'updated_at', updated_at)), '[]')
      FROM (SELECT * FROM roadmap_items ORDER BY id)`,
   ).bind(now, by, action, summary.slice(0, 200));
 }
@@ -29,9 +29,9 @@ function pruneStmt(db: D1Like) {
 export async function createItem(db: D1Like, it: ItemInput, by: string, now = new Date().toISOString()): Promise<number | null> {
   const [ins] = await db.batch([
     db.prepare(
-      `INSERT INTO roadmap_items (title, description, status, category, sort_order, version, release_date, draft, updated_at)
-       VALUES (?, ?, ?, ?, COALESCE((SELECT MAX(sort_order) + 10 FROM roadmap_items WHERE status = ?), 10), ?, ?, ?, ?)`,
-    ).bind(it.title, it.description, it.status, it.category, it.status, it.version, it.release_date, it.draft, now),
+      `INSERT INTO roadmap_items (title, description, status, category, sort_order, version, release_date, draft, progress, link, updated_at)
+       VALUES (?, ?, ?, ?, COALESCE((SELECT MAX(sort_order) + 10 FROM roadmap_items WHERE status = ?), 10), ?, ?, ?, ?, ?, ?)`,
+    ).bind(it.title, it.description, it.status, it.category, it.status, it.version, it.release_date, it.draft, it.progress, it.link, now),
     snapshotStmt(db, by, 'create', `Added "${it.title}"`, now),
     pruneStmt(db),
   ]);
@@ -45,8 +45,8 @@ export async function updateItem(db: D1Like, id: number, it: ItemInput, by: stri
   if (!exists) return false;
   await db.batch([
     db.prepare(
-      `UPDATE roadmap_items SET title=?, description=?, status=?, category=?, version=?, release_date=?, draft=?, updated_at=? WHERE id=?`,
-    ).bind(it.title, it.description, it.status, it.category, it.version, it.release_date, it.draft, now, id),
+      `UPDATE roadmap_items SET title=?, description=?, status=?, category=?, version=?, release_date=?, draft=?, progress=?, link=?, updated_at=? WHERE id=?`,
+    ).bind(it.title, it.description, it.status, it.category, it.version, it.release_date, it.draft, it.progress, it.link, now, id),
     snapshotStmt(db, by, 'update', `Edited "${it.title}"`, now),
     pruneStmt(db),
   ]);
@@ -96,9 +96,9 @@ export async function restoreSnapshot(db: D1Like, historyId: number, by: string,
   const stmts = [db.prepare('DELETE FROM roadmap_items')];
   for (const i of items) {
     stmts.push(db.prepare(
-      `INSERT INTO roadmap_items (id, title, description, status, category, sort_order, version, release_date, draft, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
-    ).bind(i.id, i.title, i.description, i.status, i.category, i.sort_order, i.version, i.release_date, i.draft ? 1 : 0, now));
+      `INSERT INTO roadmap_items (id, title, description, status, category, sort_order, version, release_date, draft, progress, link, updated_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+    ).bind(i.id, i.title, i.description, i.status, i.category, i.sort_order, i.version, i.release_date, i.draft ? 1 : 0, i.progress ?? null, i.link ?? '', now));
   }
   stmts.push(snapshotStmt(db, by, 'restore', `Restored version from ${row.saved_at}`, now), pruneStmt(db));
   await db.batch(stmts);

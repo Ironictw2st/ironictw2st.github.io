@@ -31,7 +31,6 @@
         <li><a href="guides.html">Guides</a></li>
         <li><a href="roadmap.html" class="active">Roadmap</a></li>
         <li><a href="changes.html">Changes</a></li>
-        <li><a href="changelog.html">Changelog</a></li>
         <li><a href="../tools/index.html">Tools</a></li>
     </ul>
 </nav>
@@ -39,6 +38,17 @@
 <main>
     <p id="rm-draft" class="rm-banner" hidden>Draft roadmap. Items marked <span class="rm-draft-mark">Draft</span> are not confirmed and may change.</p>
 
+    <section id="rm-shipped" class="rm-shipped" aria-labelledby="rm-shipped-h" hidden>
+        <h2 id="rm-shipped-h" class="rm-section-title">Just shipped</h2>
+        <div id="rm-shipped-list" class="rm-shipped-list"></div>
+    </section>
+
+    <section class="rm-timeline-wrap" aria-labelledby="rm-timeline-h">
+        <h2 id="rm-timeline-h" class="rm-section-title">Timeline</h2>
+        <div id="rm-timeline" class="rm-timeline" tabindex="0" role="region" aria-label="Release timeline, scrolls sideways"></div>
+    </section>
+
+    <h2 class="rm-section-title rm-board-title">What is coming</h2>
     <div class="rm-toolbar">
         <div id="rm-filters" class="rm-filters" role="group" aria-label="Filter by category"></div>
         <p id="rm-updated" class="rm-updated"></p>

@@ -1,37 +1,271 @@
 {
   "_note": "DRAFT seed, written 5 Nov 2026 from coordination-log-2026-10-14.md and bugcat MORNING_1105.md. Every item is draft=1 so the public page flags it; edit in /admin/roadmap. Wording follows AITextReview/STYLE.md: one plain sentence, British spelling.",
   "items": [
-    { "status": "live", "category": "Mod", "title": "Install 1104B", "version": "1104B", "release_date": "2026-11-05", "description": "Gaya income, Mahan changes, Imperial Favour for the bandits and Lei Xu, Silla castellans and text fixes.", "draft": 1 },
-    { "status": "live", "category": "Mod", "title": "August 2026 update", "version": "", "release_date": "2026-08-22", "description": "Korea, nomadic hordes, Ma Teng's stables, governor edicts and a dozen new faction mechanics.", "draft": 1 },
-
-    { "status": "next", "category": "Mod", "title": "Fei Zhan uprising", "version": "", "release_date": "", "description": "Gold gain doubles, and a 10-turn grudge follows.", "draft": 1 },
-    { "status": "next", "category": "Mod", "title": "Event gates A002 and B002", "version": "", "release_date": "", "description": "Both events get proper trigger conditions.", "draft": 1 },
-    { "status": "next", "category": "Mod", "title": "Gaya income", "version": "", "release_date": "", "description": "Gaya income moves into the database.", "draft": 1 },
-    { "status": "next", "category": "Mod", "title": "Kin and officer panel", "version": "", "release_date": "", "description": "Fixes the vassal kin panel and Lend an Officer, whose lists never fill.", "draft": 1 },
-    { "status": "next", "category": "Mod", "title": "End-turn crash guard", "version": "", "release_date": "", "description": "Guards against an end-turn crash.", "draft": 1 },
-    { "status": "next", "category": "Mod", "title": "Liu Pan AI", "version": "", "release_date": "", "description": "Liu Pan's AI stops parking its raids.", "draft": 1 },
-    { "status": "next", "category": "Mod", "title": "Wuyan Smith-Lore fix", "version": "", "release_date": "", "description": "Fixes the Smith-Lore hover.", "draft": 1 },
-    { "status": "next", "category": "Mod", "title": "Siege AI rework", "version": "", "release_date": "", "description": "In progress: making AI armies assault when they can win and pull back before attrition wipes them out.", "draft": 1 },
-    { "status": "next", "category": "Script Extender", "title": "CAI null guard", "version": "", "release_date": "", "description": "Stops a campaign AI crash on missing data.", "draft": 1 },
-    { "status": "next", "category": "Script Extender", "title": "Battle speed patch", "version": "", "release_date": "", "description": "Adds a battle speed patch.", "draft": 1 },
-    { "status": "next", "category": "Mod Manager", "title": "Crash summary", "version": "", "release_date": "", "description": "Shows a short summary of each crash.", "draft": 1 },
-    { "status": "next", "category": "Mod Manager", "title": "Large dump upload", "version": "", "release_date": "", "description": "Lets you upload large crash dumps.", "draft": 1 },
-
-    { "status": "planned", "category": "Map", "title": "Jiaozhi and Yulin reshuffle", "version": "", "release_date": "", "description": "Redraws the two regions. Dingzhou stays as it is.", "draft": 1 },
-    { "status": "planned", "category": "Map", "title": "Yongchang swap", "version": "", "release_date": "", "description": "Swaps the Yongchang regions.", "draft": 1 },
-    { "status": "planned", "category": "Map", "title": "Wulu", "version": "", "release_date": "", "description": "Waiting on a decision about the Suli bonuses.", "draft": 1 },
-    { "status": "planned", "category": "Map", "title": "Cliff banks", "version": "", "release_date": "", "description": "Partly done. Fixes the cliff banks.", "draft": 1 },
-    { "status": "planned", "category": "Map", "title": "Sky City", "version": "", "release_date": "", "description": "Map fix for Sky City.", "draft": 1 },
-    { "status": "planned", "category": "Map", "title": "Chengle road", "version": "", "release_date": "", "description": "Map fix for the Chengle road.", "draft": 1 },
-    { "status": "planned", "category": "Mod", "title": "Vassal Contracts", "version": "", "release_date": "", "description": "Contracts between a lord and each vassal.", "draft": 1 },
-    { "status": "planned", "category": "Mod", "title": "Imperial Succession", "version": "", "release_date": "", "description": "A succession system for the imperial throne.", "draft": 1 },
-    { "status": "planned", "category": "Mod", "title": "Offspring Raising", "version": "", "release_date": "", "description": "Shape your children as they grow.", "draft": 1 },
-    { "status": "planned", "category": "Mod", "title": "Remaining faction mechanics", "version": "", "release_date": "", "description": "Zhang Xian, Zhu Fu, Pan Lin, Shi Huang and Lai Gong.", "draft": 1 },
-    { "status": "planned", "category": "Mod", "title": "Late game scenarios and victory conditions", "version": "", "release_date": "", "description": "New late game scenarios and new victory conditions.", "draft": 1 },
-
-    { "status": "idea", "category": "Mod", "title": "Nomadic tribes as their own culture", "version": "", "release_date": "", "description": "Gives the nomads a culture of their own.", "draft": 1 },
-    { "status": "idea", "category": "Mod", "title": "A new tech tree", "version": "", "release_date": "", "description": "A new tech tree for the campaign.", "draft": 1 },
-    { "status": "idea", "category": "Mod", "title": "Nanman and Korean factions fleshed out", "version": "", "release_date": "", "description": "More depth for the Nanman and Korean factions.", "draft": 1 },
-    { "status": "idea", "category": "Map", "title": "194 campaign", "version": "", "release_date": "", "description": "A second start date, four years into the war.", "draft": 1 }
+    {
+      "status": "live",
+      "category": "Mod",
+      "title": "Install 1104B",
+      "version": "1104B",
+      "release_date": "2026-11-05",
+      "description": "Gaya income, Mahan changes, Imperial Favour for the bandits and Lei Xu, Silla castellans and text fixes.",
+      "draft": 1,
+      "link": "/total_war/changelog.html"
+    },
+    {
+      "status": "live",
+      "category": "Mod",
+      "title": "August 2026 update",
+      "version": "",
+      "release_date": "2026-08-22",
+      "description": "Korea, nomadic hordes, Ma Teng's stables, governor edicts and a dozen new faction mechanics.",
+      "draft": 1,
+      "link": "/total_war/changelog.html"
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "Fei Zhan uprising",
+      "version": "",
+      "release_date": "",
+      "description": "Gold gain doubles, and a 10-turn grudge follows.",
+      "draft": 1,
+      "link": ""
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "Event gates A002 and B002",
+      "version": "",
+      "release_date": "",
+      "description": "Both events get proper trigger conditions.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "Gaya income",
+      "version": "",
+      "release_date": "",
+      "description": "Gaya income moves into the database.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "Kin and officer panel",
+      "version": "",
+      "release_date": "",
+      "description": "Fixes the vassal kin panel and Lend an Officer, whose lists never fill.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "End-turn crash guard",
+      "version": "",
+      "release_date": "",
+      "description": "Guards against an end-turn crash.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "Liu Pan AI",
+      "version": "",
+      "release_date": "",
+      "description": "Liu Pan's AI stops parking its raids.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "Wuyan Smith-Lore fix",
+      "version": "",
+      "release_date": "",
+      "description": "Fixes the Smith-Lore hover.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod",
+      "title": "Siege AI rework",
+      "version": "",
+      "release_date": "",
+      "description": "In progress: making AI armies assault when they can win and pull back before attrition wipes them out.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Script Extender",
+      "title": "CAI null guard",
+      "version": "",
+      "release_date": "",
+      "description": "Stops a campaign AI crash on missing data.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Script Extender",
+      "title": "Battle speed patch",
+      "version": "",
+      "release_date": "",
+      "description": "Adds a battle speed patch.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod Manager",
+      "title": "Crash summary",
+      "version": "",
+      "release_date": "",
+      "description": "Shows a short summary of each crash.",
+      "draft": 1
+    },
+    {
+      "status": "next",
+      "category": "Mod Manager",
+      "title": "Large dump upload",
+      "version": "",
+      "release_date": "",
+      "description": "Lets you upload large crash dumps.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Map",
+      "title": "Jiaozhi and Yulin reshuffle",
+      "version": "",
+      "release_date": "",
+      "description": "Redraws the two regions. Dingzhou stays as it is.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Map",
+      "title": "Yongchang swap",
+      "version": "",
+      "release_date": "",
+      "description": "Swaps the Yongchang regions.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Map",
+      "title": "Wulu",
+      "version": "",
+      "release_date": "",
+      "description": "Waiting on a decision about the Suli bonuses.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Map",
+      "title": "Cliff banks",
+      "version": "",
+      "release_date": "",
+      "description": "Partly done. Fixes the cliff banks.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Map",
+      "title": "Sky City",
+      "version": "",
+      "release_date": "",
+      "description": "Map fix for Sky City.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Map",
+      "title": "Chengle road",
+      "version": "",
+      "release_date": "",
+      "description": "Map fix for the Chengle road.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Mod",
+      "title": "Vassal Contracts",
+      "version": "",
+      "release_date": "",
+      "description": "Contracts between a lord and each vassal.",
+      "draft": 1,
+      "link": ""
+    },
+    {
+      "status": "planned",
+      "category": "Mod",
+      "title": "Imperial Succession",
+      "version": "",
+      "release_date": "",
+      "description": "A succession system for the imperial throne.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Mod",
+      "title": "Offspring Raising",
+      "version": "",
+      "release_date": "",
+      "description": "Shape your children as they grow.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Mod",
+      "title": "Remaining faction mechanics",
+      "version": "",
+      "release_date": "",
+      "description": "Zhang Xian, Zhu Fu, Pan Lin, Shi Huang and Lai Gong.",
+      "draft": 1
+    },
+    {
+      "status": "planned",
+      "category": "Mod",
+      "title": "Late game scenarios and victory conditions",
+      "version": "",
+      "release_date": "",
+      "description": "New late game scenarios and new victory conditions.",
+      "draft": 1
+    },
+    {
+      "status": "idea",
+      "category": "Mod",
+      "title": "Nomadic tribes as their own culture",
+      "version": "",
+      "release_date": "",
+      "description": "Gives the nomads a culture of their own.",
+      "draft": 1
+    },
+    {
+      "status": "idea",
+      "category": "Mod",
+      "title": "A new tech tree",
+      "version": "",
+      "release_date": "",
+      "description": "A new tech tree for the campaign.",
+      "draft": 1
+    },
+    {
+      "status": "idea",
+      "category": "Mod",
+      "title": "Nanman and Korean factions fleshed out",
+      "version": "",
+      "release_date": "",
+      "description": "More depth for the Nanman and Korean factions.",
+      "draft": 1
+    },
+    {
+      "status": "idea",
+      "category": "Map",
+      "title": "194 campaign",
+      "version": "",
+      "release_date": "",
+      "description": "A second start date, four years into the war.",
+      "draft": 1,
+      "link": ""
+    }
   ]
 }
