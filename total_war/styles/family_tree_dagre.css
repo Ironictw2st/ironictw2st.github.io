@@ -9,7 +9,7 @@
   letter-spacing: 0.1em;
   margin: 0 0 1rem 0;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid rgba(255,255,255,0.10);
+  border-bottom: 1px solid rgba(110,75,25,0.18);
 }
 
 .ft-hint {
@@ -21,9 +21,9 @@
 
 .ft-wrap {
   position: relative;
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(110,75,25,0.15);
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0.12) 100%);
+  background: rgba(120,85,30,.10);
   overflow: auto;
   padding: 18px;
   min-height: 420px;
@@ -66,8 +66,8 @@
   width: 92px;
   height: 92px;
   border-radius: 4px;
-  border: 2px solid rgba(255,255,255,0.14);
-  background-color: #0a0a0c;
+  border: 2px solid rgba(110,75,25,0.24);
+  background-color: var(--paper);
   background-size: cover;
   background-position: center top;
   box-shadow: 0 10px 18px rgba(0,0,0,0.50);
@@ -81,7 +81,7 @@
 .ft-portrait.no-portrait {
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #1a1a1d 0%, #0a0a0c 100%);
+  background: linear-gradient(135deg, var(--paper-deep) 0%, var(--paper) 100%);
 }
 
 .ft-portrait.no-portrait::after {
@@ -108,7 +108,7 @@
   margin-top: 6px;
   font-size: 0.62rem;
   padding: 2px 6px;
-  border: 1px solid rgba(255,255,255,0.10);
+  border: 1px solid rgba(110,75,25,0.18);
   background: rgba(0,0,0,0.35);
   color: var(--theme);
   letter-spacing: 0.06em;
@@ -118,7 +118,7 @@
 
 /* SVG edges */
 .ft-links path[data-edge="parent"] {
-  stroke: rgba(255,255,255,0.22);
+  stroke: rgba(80,55,20,.55);
   stroke-width: 2;
   fill: none;
 }
@@ -128,7 +128,7 @@
 }
 
 .ft-links path[data-edge="spouse"] {
-  stroke: rgba(255,255,255,0.22);
+  stroke: rgba(80,55,20,.55);
   stroke-width: 2;
   fill: none;
   stroke-dasharray: 6 5;
@@ -142,5 +142,5 @@
 
 .ft-node[data-role="spouse"] .ft-badge {
   color: rgba(255,255,255,0.75);
-  border-color: rgba(255,255,255,0.10);
+  border-color: rgba(110,75,25,0.18);
 }

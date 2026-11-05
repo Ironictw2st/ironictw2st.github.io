@@ -5,8 +5,8 @@
   gap: 8px;
   margin-bottom: 12px;
   padding: 8px 12px;
-  background: rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(120,85,30,.14);
+  border: 1px solid rgba(110,75,25,.01);
   border-radius: 6px;
   width: fit-content;
 }
@@ -16,7 +16,7 @@
   height: 32px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(110,75,25,0.15);
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.1rem;
   font-weight: 600;
@@ -28,7 +28,7 @@
 }
 
 .ft-zoom-btn:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(110,75,25,0.26);
   border-color: rgba(255, 255, 255, 0.35);
 }
 
@@ -47,9 +47,9 @@
 .ft-wrapper {
   overflow: auto;
   max-height: 70vh;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(110,75,25,0.15);
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.10) 100%);
+  background: rgba(120,85,30,.10);
 }
 
 .ft-canvas {
@@ -86,7 +86,7 @@
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #b48eff;
+  color: #6a3fa0;
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(180, 142, 255, 0.3);
   padding: 3px 8px;
@@ -99,7 +99,7 @@
   flex-direction: column;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(110,75,25,0.21);
   border-radius: 6px;
   padding: 8px;
   transition: all 0.15s ease;
@@ -115,8 +115,8 @@
   width: 90px;
   height: 90px;
   border-radius: 4px;
-  border: 2px solid rgba(255, 255, 255, 0.15);
-  background-color: #0a0a0c;
+  border: 2px solid rgba(110,75,25,0.26);
+  background-color: var(--paper);
   background-size: cover;
   background-position: center top;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -126,7 +126,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%);
+  background: linear-gradient(135deg, rgba(110,75,25,0.15) 0%, rgba(110,75,25,0.06) 100%);
 }
 
 .family-portrait.no-portrait::after {
@@ -152,7 +152,7 @@
 }
 
 .family-member-missing:hover .ft-card-content {
-  border-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(110,75,25,0.21);
   background: rgba(0, 0, 0, 0.5);
   box-shadow: none;
 }

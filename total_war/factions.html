@@ -14,7 +14,7 @@
             margin-bottom: 2rem;
             padding: 1.5rem;
             background: var(--bg-card);
-            border: 1px solid #252530;
+            border: 1px solid var(--line);
             border-radius: 4px;
             align-items: flex-end;
         }
@@ -29,7 +29,7 @@
         .filter-group input, .filter-group select {
             padding: 0.5rem 1rem;
             background: var(--bg-secondary);
-            border: 1px solid #303035;
+            border: 1px solid var(--line-strong);
             color: var(--text-primary);
             font-size: 0.9rem;
             min-width: 150px;
@@ -41,7 +41,7 @@
 
         .results-info {
             display: flex; justify-content: space-between; align-items: center;
-            margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #252530;
+            margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line);
             font-size: 0.9rem; color: var(--text-secondary);
         }
 
@@ -52,21 +52,21 @@
             object-fit: contain;
             filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6));
         }
-        .faction-flag.missing { background: rgba(255,255,255,0.04); border: 1px dashed #303035; }
+        .faction-flag.missing { background: rgba(110,75,25,0.09); border: 1px dashed var(--line-strong); }
         .faction-name { margin-bottom: 0; }
         .faction-state { font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.05em; text-transform: uppercase; }
         .faction-leader { margin-bottom: 0.5rem; font-style: italic; }
         .faction-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.6rem; }
         .chip {
             font-size: 0.68rem; padding: 0.12rem 0.45rem;
-            border: 1px solid #303035; color: var(--text-secondary);
-            background: rgba(255,255,255,0.03); letter-spacing: 0.03em;
+            border: 1px solid var(--line-strong); color: var(--text-secondary);
+            background: rgba(110,75,25,0.07); letter-spacing: 0.03em;
         }
-        .chip.diff-easy { border-color: #3f7a4a; color: #8fd19b; }
-        .chip.diff-normal { border-color: #6f6a3f; color: #d9cf8a; }
-        .chip.diff-hard { border-color: #8a4b2c; color: #e8a679; }
-        .chip.diff-very_hard, .chip.diff-legendary { border-color: #8b1a1a; color: #e88a8a; }
-        .chip.playstyle { border-color: #3f5a7a; color: #9bc2e8; }
+        .chip.diff-easy { border-color: #3f7a4a; color: #2e6b3f; }
+        .chip.diff-normal { border-color: #6f6a3f; color: #6a4f12; }
+        .chip.diff-hard { border-color: #8a4b2c; color: #8a4a18; }
+        .chip.diff-very_hard, .chip.diff-legendary { border-color: #8b1a1a; color: #8a2a2a; }
+        .chip.playstyle { border-color: #3f5a7a; color: #2b5f8f; }
         .faction-extras { font-size: 0.75rem; color: var(--text-muted); }
         .faction-extras b { color: var(--text-secondary); font-weight: 500; }
 

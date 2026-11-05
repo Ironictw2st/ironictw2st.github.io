@@ -26,17 +26,17 @@
             display: flex;
             flex-direction: column;
             background: var(--bg-card);
-            border: 1px solid #252530;
+            border: 1px solid var(--line);
             border-top: 3px solid var(--gold-dark);
         }
 
-        .cx-search { padding: 0.9rem; border-bottom: 1px solid #252530; }
+        .cx-search { padding: 0.9rem; border-bottom: 1px solid var(--line); }
 
         .cx-search input {
             width: 100%;
             padding: 0.5rem 0.75rem;
             background: var(--bg-secondary);
-            border: 1px solid #303035;
+            border: 1px solid var(--line-strong);
             color: var(--text-primary);
             font-size: 0.88rem;
         }
@@ -89,7 +89,7 @@
         .cx-meta {
             margin-bottom: 1.5rem;
             padding-bottom: 1.25rem;
-            border-bottom: 1px solid #252530;
+            border-bottom: 1px solid var(--line);
             font-size: 0.85rem;
             color: var(--text-muted);
         }
@@ -101,7 +101,7 @@
             letter-spacing: 0.03em;
             margin: 3rem 0 1rem;
             padding-bottom: 0.5rem;
-            border-bottom: 1px solid #252530;
+            border-bottom: 1px solid var(--line);
             scroll-margin-top: 5rem;
         }
 
@@ -131,7 +131,7 @@
         .cx-body ul, .cx-body ol { margin: 0 0 1rem 1.2rem; color: var(--text-secondary); }
         .cx-body li { margin-bottom: 0.4rem; }
         .cx-body strong { color: var(--text-primary); }
-        .cx-body hr { border: none; border-top: 1px solid #1c1c22; margin: 2rem 0; }
+        .cx-body hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
         .cx-body tr[hidden] { display: none; }
 
         .anchor {
@@ -147,7 +147,7 @@
         .cx-body h2:hover .anchor, .cx-body h3:hover .anchor, .cx-body h4:hover .anchor { opacity: 1; }
 
         .cx-missing {
-            border: 1px solid #252530;
+            border: 1px solid var(--line);
             border-left: 3px solid var(--red-accent);
             background: var(--bg-card);
             padding: 1.25rem;

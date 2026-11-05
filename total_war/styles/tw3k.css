@@ -1,196 +1,197 @@
 /* ============================================
-   190 Expanded Wiki - Three Kingdoms Theme
+   190 Expanded Wiki - Three Kingdoms theme (paper & ink)
+   Silk/paper ground, ink text, vermilion seal accents,
+   lacquer + bronze chrome. No raster art: grain, washes
+   and seals are CSS/SVG so the page stays light and legible.
+   Legacy token names (--title-cream, --gold-*, --bg-*) are kept as
+   aliases because the per-page inline styles still use them; their
+   VALUES now mean "ink on paper".
    ============================================ */
 
-/* Google Fonts - Cinzel for headers (classical feel) */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+/* Self-hosted fonts (SIL OFL 1.1; licences in /total_war/fonts/OFL-*.txt)
+   Cinzel            - Latin display / headings
+   Source Serif 4    - body text
+   Ma Shan Zheng     - brush face, subset to the Chinese glyphs the site uses */
+@font-face { font-family: 'Cinzel'; font-weight: 600; font-style: normal; font-display: swap;
+    src: url('../fonts/cinzel-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Cinzel'; font-weight: 700; font-style: normal; font-display: swap;
+    src: url('../fonts/cinzel-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Source Serif 4'; font-weight: 400; font-style: normal; font-display: swap;
+    src: url('../fonts/source-serif-4-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Source Serif 4'; font-weight: 400; font-style: italic; font-display: swap;
+    src: url('../fonts/source-serif-4-latin-400-italic.woff2') format('woff2'); }
+@font-face { font-family: 'Source Serif 4'; font-weight: 600; font-style: normal; font-display: swap;
+    src: url('../fonts/source-serif-4-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Ma Shan Zheng'; font-weight: 400; font-style: normal; font-display: swap;
+    src: url('../fonts/MaShanZheng-subset.woff') format('woff'); }
 
 :root {
-    /* TW3K Title Colors - cream/off-white like the logo */
-    --title-cream: #f5f0e1;
-    --title-cream-dark: #d4cbb8;
-    --title-shadow: rgba(0, 0, 0, 0.8);
-    
-    /* Gold palette - for accents */
-    --gold-primary: #c9a227;
-    --gold-light: #e8d48b;
-    --gold-dark: #8b6914;
-    
-    /* Red palette - subtle, used sparingly */
-    --red-primary: #8b1a1a;
-    --red-dark: #5c1010;
-    --red-darker: #2a0808;
-    --red-accent: #c41e3a;
-    
-    /* Base colors - dark like the TW3K UI */
-    --bg-primary: #0a0a0c;
-    --bg-secondary: #0f0f14;
-    --bg-card: #151519;
-    --bg-card-hover: #1a1a20;
-    
-    /* Text */
-    --text-primary: #e6e6eb;
-    --text-secondary: #a09a90;
-    --text-muted: #706a60;
-    
-    /* Faction colors */
-    --faction-han: #c9a227;
-    --faction-yellow-turban: #d4a017;
-    --faction-nanman: #2e8b57;
-    --faction-nomad: #7b68ee;
-    --faction-korean: #4682b4;
-    --faction-bandit: #8b4513;
+    /* --- Ground --- */
+    --paper: #efe4cc;
+    --paper-light: #f7efdc;
+    --paper-deep: #e3d4b1;
+    --ink: #1f1913;
+    --ink-soft: #4a3e31;
+    --ink-faint: #6a5b48;
+    --line: #cdbb94;
+    --line-strong: #b39d70;
+    --lacquer: #1d1511;
+    --lacquer-2: #2b1d16;
+    --silk-cream: #f3e8cc;
+    --bronze: #8a6a1f;
+    --bronze-dark: #6a4f12;
+    --bronze-light: #c4a24f;
+    --seal: #a3231d;
+    --seal-dark: #6e1612;
+    --jade: #3d6b53;
+
+    /* --- Legacy aliases (meaning inverted for the light theme) --- */
+    --title-cream: var(--ink);
+    --title-cream-dark: var(--ink-soft);
+    --title-shadow: transparent;
+    --gold-primary: var(--bronze);
+    --gold-light: var(--bronze-dark);
+    --gold-dark: var(--line-strong);
+    --red-primary: var(--seal);
+    --red-dark: var(--seal-dark);
+    --red-darker: #3a0b09;
+    --red-accent: var(--seal);
+    --bg-primary: var(--paper);
+    --bg-secondary: var(--paper-deep);
+    --bg-card: var(--paper-light);
+    --bg-card-hover: #fcf6e6;
+    --text-primary: var(--ink);
+    --text-secondary: var(--ink-soft);
+    --text-muted: var(--ink-faint);
+
+    /* --- Faction colours (darkened for contrast on paper) --- */
+    --faction-han: #8a6a1f;
+    --faction-yellow-turban: #b07d0e;
+    --faction-nanman: #2e7050;
+    --faction-nomad: #5b4aa8;
+    --faction-korean: #2f6a9a;
+    --faction-bandit: #7a3d16;
+
+    --f-display: 'Cinzel', 'Ma Shan Zheng', 'Times New Roman', serif;
+    --f-brush: 'Ma Shan Zheng', 'KaiTi', 'STKaiti', serif;
+    --f-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
 
 body {
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    background: var(--bg-primary);
-    color: var(--text-primary);
+    font-family: var(--f-body);
+    font-size: 1.0625rem;
+    background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255,248,225,.7), transparent 70%),
+        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(150,110,50,.10), transparent 70%),
+        var(--paper);
+    color: var(--ink);
     min-height: 100vh;
-    line-height: 1.6;
+    line-height: 1.65;
 }
 
-/* Subtle texture overlay */
+a { color: var(--seal-dark); text-underline-offset: 2px; }
+a:hover { color: var(--seal); }
+:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
+::selection { background: rgba(163,35,29,.22); }
+
+/* Paper grain over the whole page (procedural, ~no weight) */
 .page-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    opacity: 0.02;
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0 0.12  0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: .10;
+    mix-blend-mode: multiply;
     pointer-events: none;
     z-index: 1000;
 }
 
 /* ============================================
-   Header - TW3K Logo Style
+   Header - lacquer band with a brushed title
    ============================================ */
 
 header {
-    background: 
-        linear-gradient(180deg, 
-            rgba(20, 10, 10, 0.9) 0%, 
-            rgba(10, 10, 12, 0.95) 60%, 
-            var(--bg-primary) 100%
-        ),
-        url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    border-bottom: 1px solid rgba(201, 162, 39, 0.3);
-    padding: 1rem 2rem 3rem;
+    background:
+        radial-gradient(ellipse at 50% 0%, rgba(163,35,29,.28), transparent 65%),
+        linear-gradient(180deg, var(--lacquer-2), var(--lacquer));
+    color: var(--silk-cream);
+    border-bottom: 3px double var(--bronze);
+    padding: 1rem 2rem 2.75rem;
     text-align: center;
     position: relative;
 }
 
+/* faint ink-wash "mountains" low in the band */
 header::before {
     content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(ellipse at center top, rgba(139, 26, 26, 0.15) 0%, transparent 70%);
+    position: absolute; left: 0; right: 0; bottom: 0; height: 55%;
+    background:
+        radial-gradient(ellipse 28% 100% at 18% 100%, rgba(243,232,204,.07), transparent 70%),
+        radial-gradient(ellipse 36% 120% at 62% 100%, rgba(243,232,204,.06), transparent 70%),
+        radial-gradient(ellipse 22% 80% at 90% 100%, rgba(243,232,204,.07), transparent 70%);
     pointer-events: none;
 }
 
-header::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 10%;
-    right: 10%;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(245, 240, 225, 0.3), transparent);
-}
-
-.top-nav {
-    text-align: left;
-    margin-bottom: 2rem;
-    position: relative;
-}
+.top-nav { text-align: left; margin-bottom: 1.5rem; position: relative; }
 
 .back-link {
-    color: var(--text-secondary);
+    color: var(--bronze-light);
     text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.2s;
+    font-size: .95rem;
+    transition: color .2s;
 }
+.back-link:hover { color: var(--silk-cream); }
 
-.back-link:hover {
-    color: var(--title-cream);
-}
-
-.header-content {
-    position: relative;
-}
+.header-content { position: relative; }
 
 .header-content .subtitle {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: var(--text-secondary);
-    letter-spacing: 0.4em;
+    font-family: var(--f-display);
+    font-size: .75rem;
+    font-weight: 600;
+    color: var(--bronze-light);
+    letter-spacing: .4em;
     text-transform: uppercase;
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
 }
 
-/* Main Title - TW3K Logo Style */
 header h1 {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    font-family: var(--f-display);
+    font-size: clamp(2.2rem, 7vw, 4.25rem);
     font-weight: 700;
-    color: var(--title-cream);
-    letter-spacing: 0.12em;
+    color: var(--silk-cream);
+    letter-spacing: .12em;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
     position: relative;
-    
-    /* Multi-layer shadow for depth like the TW3K logo */
-    text-shadow: 
-        0 1px 0 rgba(255, 255, 255, 0.1),
-        0 2px 4px rgba(0, 0, 0, 0.5),
-        0 4px 8px rgba(0, 0, 0, 0.4),
-        0 8px 16px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 0 rgba(0,0,0,.45);
 }
 
-/* Ink brush stroke decoration under title */
+/* brush-stroke rule under the title */
 header h1::after {
     content: '';
     display: block;
     width: 60%;
-    max-width: 300px;
-    height: 3px;
-    margin: 1rem auto 0;
-    background: linear-gradient(90deg, 
-        transparent 0%, 
-        var(--red-accent) 20%, 
-        var(--red-accent) 80%, 
-        transparent 100%
-    );
-    opacity: 0.7;
-    border-radius: 2px;
+    max-width: 320px;
+    height: 6px;
+    margin: .9rem auto 0;
+    background: var(--seal);
+    clip-path: polygon(0 55%, 8% 20%, 30% 40%, 55% 10%, 78% 35%, 100% 15%, 96% 70%, 70% 90%, 45% 70%, 20% 95%, 4% 80%);
+    opacity: .9;
 }
 
-.tagline {
-    font-style: italic;
-    color: var(--text-secondary);
-    font-size: 1rem;
-    margin-top: 0.5rem;
-}
+.tagline { font-style: italic; color: rgba(243,232,204,.82); font-size: 1.05rem; margin-top: .5rem; }
 
 /* ============================================
-   Navigation (for sub-pages)
+   Navigation
    ============================================ */
 
 nav.main-nav {
-    background: var(--bg-secondary);
-    border-bottom: 1px solid rgba(201, 162, 39, 0.2);
-    padding: 1rem 0;
+    background: var(--lacquer);
+    border-bottom: 1px solid var(--bronze);
+    box-shadow: 0 4px 10px rgba(40,25,10,.25);
+    padding: .85rem 0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -199,7 +200,7 @@ nav.main-nav {
 nav.main-nav ul {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.75rem;
     list-style: none;
     max-width: 1200px;
     margin: 0 auto;
@@ -208,240 +209,169 @@ nav.main-nav ul {
 }
 
 nav.main-nav a {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: var(--text-secondary);
+    font-family: var(--f-display);
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgba(243,232,204,.78);
     text-decoration: none;
-    letter-spacing: 0.15em;
+    letter-spacing: .14em;
     text-transform: uppercase;
-    transition: color 0.3s ease;
-    padding: 0.25rem 0;
-    border-bottom: 1px solid transparent;
+    transition: color .2s ease;
+    padding: .3rem 0;
+    border-bottom: 2px solid transparent;
 }
-
-nav.main-nav a:hover,
+nav.main-nav a:hover { color: var(--silk-cream); }
 nav.main-nav a.active {
-    color: var(--title-cream);
-    border-bottom-color: var(--red-accent);
+    color: var(--silk-cream);
+    border-bottom-color: var(--seal);
 }
 
 /* ============================================
-   Main Content Area
+   Main content
    ============================================ */
 
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 2rem;
-}
+main { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+
+h2, h3 { font-family: var(--f-display); letter-spacing: .04em; color: var(--ink); }
 
 /* ============================================
-   Index Page - Wiki Cards
+   Home - wiki cards (hung-scroll motif) + seals
    ============================================ */
 
 .wiki-links {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 4rem;
+    gap: 1.75rem;
+    margin-bottom: 3.5rem;
 }
 
 .wiki-card {
-    background: linear-gradient(145deg, var(--bg-card) 0%, #101014 100%);
-    border: 1px solid #252530;
-    border-left: 3px solid var(--gold-dark);
-    padding: 2rem;
+    background:
+        linear-gradient(180deg, rgba(255,255,255,.35), transparent 30%),
+        var(--paper-light);
+    border: 1px solid var(--line);
+    border-top: 0; border-bottom: 0;
+    padding: 2.1rem 1.6rem 1.7rem;
     text-decoration: none;
     color: inherit;
-    transition: all 0.3s ease;
+    transition: transform .2s ease, box-shadow .2s ease;
     position: relative;
-    overflow: hidden;
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset, 0 2px 6px rgba(70,45,15,.12);
 }
-
-.wiki-card::before {
+/* scroll rods top and bottom */
+.wiki-card::before, .wiki-card::after {
     content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(201, 162, 39, 0.05) 0%, transparent 50%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    position: absolute; left: -7px; right: -7px; height: 9px;
+    background: linear-gradient(180deg, #3a271c, var(--lacquer) 60%, #3a271c);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(196,162,79,.35);
 }
+.wiki-card::before { top: -4px; }
+.wiki-card::after  { bottom: -4px; }
 
-.wiki-card:hover {
-    border-color: rgba(196, 30, 58, 0.5);
-    border-left-color: var(--red-accent);
-    transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(0,0,0,0.4);
-}
+.wiki-card:hover { transform: translateY(-3px); box-shadow: 0 10px 22px rgba(70,45,15,.22); }
+.wiki-card:hover h2 { color: var(--seal-dark); }
 
-.wiki-card:hover::before {
-    opacity: 1;
-}
-
-.card-icon {
-    font-size: 2.5rem;
+/* Seal (chop): square vermilion stamp with a brush character */
+.card-icon, .uc-icon {
+    width: 3.1rem; height: 3.1rem;
+    display: grid; place-items: center;
     margin-bottom: 1rem;
-    color: var(--red-accent);
-    font-family: serif;
-    opacity: 0.9;
+    background: var(--seal);
+    color: #f8e9d0;
+    font-family: var(--f-brush);
+    font-size: 1.9rem; line-height: 1;
+    border-radius: 3px;
+    transform: rotate(-3deg);
+    box-shadow: inset 0 0 0 2px rgba(248,233,208,.28), inset 0 0 0 4px var(--seal), 0 1px 2px rgba(60,10,5,.35);
 }
+.uc-icon { margin: 0 auto 1.5rem; width: 4rem; height: 4rem; font-size: 2.4rem; }
 
 .wiki-card h2 {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 1.3rem;
-    color: var(--title-cream);
-    margin-bottom: 0.5rem;
-    position: relative;
-    letter-spacing: 0.05em;
-}
-
-.wiki-card p {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
+    font-size: 1.2rem;
+    color: var(--ink);
+    margin-bottom: .45rem;
     position: relative;
 }
 
-/* Quick stats */
+.wiki-card p { font-size: .95rem; color: var(--ink-soft); position: relative; line-height: 1.55; }
+
 .quick-stats {
     display: flex;
     justify-content: center;
     gap: 4rem;
     padding: 2rem;
-    border-top: 1px solid #252530;
-    border-bottom: 1px solid #252530;
+    border-top: 1px solid var(--line-strong);
+    border-bottom: 1px solid var(--line-strong);
     flex-wrap: wrap;
+    background: linear-gradient(180deg, transparent, rgba(150,110,50,.06), transparent);
 }
-
-.stat {
-    text-align: center;
-}
-
+.stat { text-align: center; }
 .stat-number {
     display: block;
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--title-cream);
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-family: var(--f-display);
+    font-size: 2.5rem; font-weight: 700;
+    color: var(--seal-dark);
 }
-
-.stat-label {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
+.stat-label { font-size: .85rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .12em; }
 
 /* ============================================
-   Factions Page
+   Factions
    ============================================ */
 
 .intro {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 3rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #252530;
+    text-align: center; max-width: 800px;
+    margin: 0 auto 3rem; padding-bottom: 2rem;
+    border-bottom: 1px solid var(--line-strong);
 }
+.intro p { color: var(--ink-soft); font-size: 1.1rem; font-style: italic; }
 
-.intro p {
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-/* Category sections */
-.faction-category {
-    margin-bottom: 3rem;
-}
+.faction-category { margin-bottom: 3rem; }
 
 .category-header {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    margin-bottom: 1.5rem;
-    cursor: pointer;
-    user-select: none;
+    display: flex; align-items: center; gap: 1.5rem;
+    margin-bottom: 1.5rem; cursor: pointer; user-select: none;
 }
-
-.category-header::before,
-.category-header::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, #252530, transparent);
+.category-header::before, .category-header::after {
+    content: ''; flex: 1; height: 1px;
+    background: linear-gradient(90deg, var(--line-strong), transparent);
 }
-
-.category-header::after {
-    background: linear-gradient(270deg, #252530, transparent);
-}
+.category-header::after { background: linear-gradient(270deg, var(--line-strong), transparent); }
 
 .category-title {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--title-cream);
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+    font-family: var(--f-display);
+    font-size: 1.15rem; font-weight: 700;
+    color: var(--ink);
+    letter-spacing: .15em; text-transform: uppercase;
     white-space: nowrap;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex; align-items: center; gap: .75rem;
 }
+.category-title .toggle-icon { font-size: .7rem; color: var(--seal); transition: transform .3s ease; }
+.faction-category.collapsed .toggle-icon { transform: rotate(-90deg); }
+.category-count { font-family: var(--f-body); font-size: .85rem; color: var(--ink-faint); font-weight: 400; }
 
-.category-title .toggle-icon {
-    font-size: 0.7rem;
-    transition: transform 0.3s ease;
-}
-
-.faction-category.collapsed .toggle-icon {
-    transform: rotate(-90deg);
-}
-
-.category-count {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    font-weight: 400;
-}
-
-/* Faction grid */
 .faction-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1rem;
     overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.3s ease;
+    transition: max-height .5s ease, opacity .3s ease;
 }
+.faction-category.collapsed .faction-grid { max-height: 0; opacity: 0; margin: 0; }
 
-.faction-category.collapsed .faction-grid {
-    max-height: 0;
-    opacity: 0;
-    margin: 0;
-}
-
-/* Faction cards */
 .faction-card {
-    background: var(--bg-card);
-    border: 1px solid #202025;
-    border-left: 3px solid var(--faction-color, var(--gold-dark));
+    background: var(--paper-light);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--faction-color, var(--bronze));
     padding: 1rem 1.25rem;
-    transition: all 0.3s ease;
+    transition: transform .2s ease, box-shadow .2s ease, background .2s;
     position: relative;
 }
-
 .faction-card:hover {
     background: var(--bg-card-hover);
-    border-color: #303035;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 16px rgba(70,45,15,.18);
 }
-
 .faction-card[data-type="han"] { --faction-color: var(--faction-han); }
 .faction-card[data-type="yellow-turban"] { --faction-color: var(--faction-yellow-turban); }
 .faction-card[data-type="nanman"] { --faction-color: var(--faction-nanman); }
@@ -449,253 +379,123 @@ main {
 .faction-card[data-type="korean"] { --faction-color: var(--faction-korean); }
 .faction-card[data-type="bandit"] { --faction-color: var(--faction-bandit); }
 
-.faction-name {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--title-cream);
-    margin-bottom: 0.25rem;
-    letter-spacing: 0.03em;
-}
-
-.faction-leader {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    margin-bottom: 0.75rem;
-}
-
-.faction-tags {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-}
+.faction-name { font-family: var(--f-display); font-size: 1rem; font-weight: 700; color: var(--ink); margin-bottom: .25rem; letter-spacing: .03em; }
+.faction-leader { font-size: .9rem; color: var(--ink-soft); margin-bottom: .75rem; }
+.faction-tags { display: flex; gap: .5rem; flex-wrap: wrap; }
 
 .faction-tag {
-    font-size: 0.65rem;
-    padding: 0.15rem 0.5rem;
-    background: rgba(201, 162, 39, 0.1);
-    border: 1px solid var(--gold-dark);
-    color: var(--gold-light);
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+    font-size: .68rem; padding: .12rem .5rem;
+    background: rgba(138,106,31,.10);
+    border: 1px solid var(--line-strong);
+    color: var(--bronze-dark);
+    letter-spacing: .06em; text-transform: uppercase;
 }
-
-.faction-tag.modded {
-    background: rgba(139, 26, 26, 0.2);
-    border-color: var(--red-primary);
-    color: #e8a0a0;
-}
-
-.faction-tag.dlc {
-    background: rgba(100, 100, 200, 0.15);
-    border-color: #5050a0;
-    color: #a0a0e8;
-}
+.faction-tag.modded { background: rgba(163,35,29,.09); border-color: rgba(163,35,29,.5); color: var(--seal-dark); }
+.faction-tag.dlc { background: rgba(91,74,168,.09); border-color: rgba(91,74,168,.5); color: #473a8a; }
 
 /* ============================================
    Footer
    ============================================ */
 
 footer {
-    background: var(--bg-secondary);
-    border-top: 1px solid #252530;
+    background: var(--lacquer);
+    color: rgba(243,232,204,.7);
+    border-top: 3px double var(--bronze);
     padding: 2rem;
     text-align: center;
     margin-top: 4rem;
 }
+footer p { font-size: .9rem; color: rgba(243,232,204,.7); }
+footer a { color: var(--silk-cream); text-decoration: none; }
+footer a:hover { text-decoration: underline; color: #fff; }
+footer .ext-links { margin-top: .5rem; font-size: .85rem; letter-spacing: .05em; }
 
-footer p {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-}
-
-footer a {
-    color: var(--title-cream);
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-footer .ext-links {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-    letter-spacing: 0.05em;
-}
-
-/* External links row (landing page) */
-.links-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    margin: 0 auto 3rem;
-}
+.links-row { display: flex; justify-content: center; flex-wrap: wrap; gap: .75rem; margin: 0 auto 3rem; }
 
 .link-btn {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--title-cream);
+    font-family: var(--f-display);
+    font-size: .78rem; font-weight: 600;
+    letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink);
     text-decoration: none;
-    padding: 0.6rem 1.2rem;
-    border: 1px solid #303035;
-    background: var(--bg-card);
-    transition: all 0.2s ease;
+    padding: .6rem 1.1rem;
+    border: 1px solid var(--line-strong);
+    background: var(--paper-light);
+    transition: all .2s ease;
 }
-
-.link-btn:hover {
-    border-color: var(--gold-dark);
-    color: var(--gold-light);
-    background: var(--bg-card-hover);
-}
-
-.link-btn.steam { border-left: 3px solid #1b2838; }
-.link-btn.nexus { border-left: 3px solid #d98e04; }
-.link-btn.discord { border-left: 3px solid #5865f2; }
-.link-btn.github { border-left: 3px solid #6e5494; }
+.link-btn:hover { border-color: var(--seal); color: var(--seal-dark); background: var(--bg-card-hover); }
+.link-btn.steam { border-left: 4px solid #1b2838; }
+.link-btn.nexus { border-left: 4px solid #d98e04; }
+.link-btn.discord { border-left: 4px solid #5865f2; }
+.link-btn.github { border-left: 4px solid #6e5494; }
 
 /* ============================================
-   Animations
+   Animations (respect reduced motion)
    ============================================ */
 
-.faction-card {
-    opacity: 0;
-    transform: translateY(15px);
-    animation: fadeInUp 0.4s ease forwards;
-}
+.faction-card { opacity: 0; transform: translateY(12px); animation: fadeInUp .4s ease forwards; }
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+.faction-grid .faction-card:nth-child(1) { animation-delay: .02s; }
+.faction-grid .faction-card:nth-child(2) { animation-delay: .04s; }
+.faction-grid .faction-card:nth-child(3) { animation-delay: .06s; }
+.faction-grid .faction-card:nth-child(4) { animation-delay: .08s; }
+.faction-grid .faction-card:nth-child(5) { animation-delay: .10s; }
+.faction-grid .faction-card:nth-child(6) { animation-delay: .12s; }
+.faction-grid .faction-card:nth-child(7) { animation-delay: .14s; }
+.faction-grid .faction-card:nth-child(8) { animation-delay: .16s; }
+.faction-grid .faction-card:nth-child(9) { animation-delay: .18s; }
+.faction-grid .faction-card:nth-child(10) { animation-delay: .20s; }
 
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0s !important; transition-duration: .01ms !important; }
 }
-
-.faction-grid .faction-card:nth-child(1) { animation-delay: 0.02s; }
-.faction-grid .faction-card:nth-child(2) { animation-delay: 0.04s; }
-.faction-grid .faction-card:nth-child(3) { animation-delay: 0.06s; }
-.faction-grid .faction-card:nth-child(4) { animation-delay: 0.08s; }
-.faction-grid .faction-card:nth-child(5) { animation-delay: 0.10s; }
-.faction-grid .faction-card:nth-child(6) { animation-delay: 0.12s; }
-.faction-grid .faction-card:nth-child(7) { animation-delay: 0.14s; }
-.faction-grid .faction-card:nth-child(8) { animation-delay: 0.16s; }
-.faction-grid .faction-card:nth-child(9) { animation-delay: 0.18s; }
-.faction-grid .faction-card:nth-child(10) { animation-delay: 0.20s; }
 
 /* ============================================
    Responsive
    ============================================ */
 
 @media (max-width: 768px) {
-    header {
-        padding: 1rem 1rem 2rem;
-    }
-    
-    main {
-        padding: 2rem 1rem;
-    }
-    
-    nav.main-nav ul {
-        gap: 1rem;
-    }
-    
-    nav.main-nav a {
-        font-size: 0.75rem;
-    }
-    
-    .category-title {
-        font-size: 1.1rem;
-    }
-    
-    .quick-stats {
-        gap: 2rem;
-    }
-    
-    .stat-number {
-        font-size: 2rem;
-    }
+    body { font-size: 1rem; }
+    header { padding: .75rem 1rem 2rem; }
+    main { padding: 2rem 1rem; }
+    nav.main-nav { padding: .5rem 0; }
+    nav.main-nav ul { gap: .35rem 1rem; padding: 0 .75rem; }
+    nav.main-nav a { font-size: .72rem; letter-spacing: .08em; padding: .45rem 0; }
+    .category-title { font-size: 1rem; letter-spacing: .08em; white-space: normal; }
+    .quick-stats { gap: 2rem; }
+    .stat-number { font-size: 2rem; }
+    .wiki-links { gap: 1.5rem; }
 }
 
 /* ============================================
-   Under Construction / Locked Records
+   Under construction / locked records
    ============================================ */
 
 .under-construction {
-    background: linear-gradient(
-        145deg,
-        rgba(20, 20, 26, 0.95),
-        rgba(10, 10, 14, 0.95)
-    );
-    border: 1px solid #252530;
-    border-left: 4px solid var(--red-accent);
+    background: var(--paper-light);
+    border: 1px solid var(--line-strong);
+    border-left: 4px solid var(--seal);
     padding: 3rem 2.5rem;
     max-width: 760px;
     margin: 4rem auto;
     text-align: center;
     position: relative;
 }
-
 .under-construction::before {
     content: "未完成";
-    position: absolute;
-    top: -1.2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 0.7rem;
-    letter-spacing: 0.4em;
-    padding: 0.25rem 0.75rem;
-    background: var(--bg-primary);
-    color: var(--text-muted);
-    border: 1px solid #252530;
+    position: absolute; top: -1.2rem; left: 50%; transform: translateX(-50%);
+    font-family: var(--f-brush);
+    font-size: 1rem; letter-spacing: .3em;
+    padding: .2rem .75rem;
+    background: var(--paper);
+    color: var(--ink-faint);
+    border: 1px solid var(--line-strong);
 }
+.under-construction h2 { font-size: 1.6rem; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 1rem; }
+.under-construction p { font-size: 1rem; color: var(--ink-soft); max-width: 560px; margin: 0 auto 1.5rem; line-height: 1.7; font-style: italic; }
+.uc-divider { width: 60%; height: 1px; margin: 2rem auto; background: linear-gradient(90deg, transparent, var(--bronze), transparent); }
+.uc-status { font-size: .8rem; color: var(--ink-faint); letter-spacing: .2em; text-transform: uppercase; }
 
-.uc-icon {
-    font-size: 3rem;
-    color: var(--red-accent);
-    margin-bottom: 1.5rem;
-    opacity: 0.9;
-}
-
-.under-construction h2 {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-size: 1.8rem;
-    color: var(--title-cream);
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    text-shadow:
-        0 2px 4px rgba(0, 0, 0, 0.5),
-        0 6px 12px rgba(0, 0, 0, 0.4);
-}
-
-.under-construction p {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    max-width: 560px;
-    margin: 0 auto 1.5rem;
-    line-height: 1.7;
-    font-style: italic;
-}
-
-.uc-divider {
-    width: 60%;
-    height: 1px;
-    margin: 2rem auto;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(201, 162, 39, 0.4),
-        transparent
-    );
-}
-
-.uc-status {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
+/* In-page back links sit on paper, not on the lacquer header */
+.back-link:not(header .back-link) { color: var(--seal-dark); }
+.back-link:not(header .back-link):hover { color: var(--seal); text-decoration: underline; }

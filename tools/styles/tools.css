@@ -14,7 +14,7 @@
     gap: 1.75rem;
     margin: 0 auto 2.5rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #252530;
+    border-bottom: 1px solid var(--line);
 }
 
 .tool-subnav a {
@@ -59,7 +59,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--gold-light);
-    border: 1px solid #303035;
+    border: 1px solid var(--line-strong);
     border-left: 3px solid var(--gold-dark);
     background: var(--bg-secondary);
     padding: 0.3rem 0.7rem;
@@ -72,7 +72,7 @@
     text-transform: none;
 }
 
-.ver-chip.unknown { border-left-color: #3a3a44; color: var(--text-muted); }
+.ver-chip.unknown { border-left-color: var(--line-strong); color: var(--text-muted); }
 
 /* ---------- tool cards on the hub ---------- */
 
@@ -87,7 +87,7 @@
     display: flex;
     flex-direction: column;
     background: var(--bg-card);
-    border: 1px solid #252530;
+    border: 1px solid var(--line);
     border-top: 3px solid var(--gold-dark);
     padding: 1.75rem;
 }
@@ -152,7 +152,7 @@ figure.shot {
 figure.shot img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #303035;
+    border: 1px solid var(--line-strong);
     background: var(--bg-secondary);
 }
 
@@ -178,7 +178,7 @@ figure.shot figcaption {
     letter-spacing: 0.04em;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid #252530;
+    border-bottom: 1px solid var(--line);
 }
 
 .doc h3 {
@@ -217,8 +217,8 @@ code {
 }
 
 pre {
-    background: #08080a;
-    border: 1px solid #252530;
+    background: #ece0c2;
+    border: 1px solid var(--line);
     border-left: 3px solid var(--gold-dark);
     padding: 1rem 1.1rem;
     overflow-x: auto;
@@ -229,7 +229,7 @@ pre code {
     background: none;
     border: none;
     padding: 0;
-    color: #d7d2c4;
+    color: #4a3e31;
     font-size: 0.86rem;
     line-height: 1.55;
     white-space: pre;
@@ -254,13 +254,13 @@ pre code {
     text-align: left;
     padding: 0.55rem 0.7rem;
     background: var(--bg-secondary);
-    border-bottom: 1px solid #303035;
+    border-bottom: 1px solid var(--line-strong);
     white-space: nowrap;
 }
 
 .doc-table td {
     padding: 0.55rem 0.7rem;
-    border-bottom: 1px solid #1c1c22;
+    border-bottom: 1px solid var(--line);
     color: var(--text-secondary);
     vertical-align: top;
 }
@@ -270,7 +270,7 @@ pre code {
 /* ---------- callouts ---------- */
 
 .note {
-    border: 1px solid #252530;
+    border: 1px solid var(--line);
     border-left: 3px solid #4a6fa5;
     background: var(--bg-card);
     padding: 0.9rem 1.1rem;
@@ -301,7 +301,7 @@ pre code {
     align-items: baseline;
     gap: 0.75rem;
     padding: 0.5rem 0;
-    border-bottom: 1px solid #1c1c22;
+    border-bottom: 1px solid var(--line);
     font-size: 0.9rem;
     color: var(--text-secondary);
 }
@@ -319,7 +319,7 @@ pre code {
 .dot.green { background: #4f9d5d; }
 .dot.amber { background: #c9a227; }
 .dot.red { background: #b3302f; }
-.dot.grey { background: none; border: 1px solid #6a6a74; }
+.dot.grey { background: none; border: 1px solid #8a7d68; }
 
 .se-chip {
     flex: none;
