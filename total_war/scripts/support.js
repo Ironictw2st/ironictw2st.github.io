@@ -4,8 +4,8 @@
   'use strict';
 
   var SUPPORT = {
-    kofi: '',      // e.g. 'https://ko-fi.com/yourname'
-    patreon: ''    // e.g. 'https://www.patreon.com/yourname'
+    kofi: 'https://ko-fi.com/ironictw1st',
+    patreon: 'https://www.patreon.com/c/ironictw2st'
   };
 
   var items = [];

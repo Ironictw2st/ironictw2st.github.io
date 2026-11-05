@@ -19,4 +19,5 @@ migrations_dir = "migrations"
 [vars]
 ACCESS_TEAM_DOMAIN = "withered-bird-8824.cloudflareaccess.com"        # e.g. "yourteam.cloudflareaccess.com"
 ACCESS_AUD = "5d1f9865938a9e8d840becb07124fd4f17ac5762cc909324782f0042f5bfb9e6"                # Application Audience (AUD) tag from the Access application
-ACCESS_ALLOWED_EMAILS = "arsalzubair904@gmail.com"     # optional extra allow-list, comma separated
+# Optional second check: add ACCESS_ALLOWED_EMAILS (comma separated) in the Pages dashboard under Settings > Variables and Secrets.
+# It is not set here so a personal email address is not stored in the public repo.
