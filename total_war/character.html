@@ -15,44 +15,44 @@
    ========================= */
 
     .character-page {
-      --theme: #9a8648; /* fallback: aged earth gold */
+      --theme: #7a6420; /* fallback: aged earth gold */
       --theme-soft: rgba(154, 134, 72, 0.16);
       --theme-glow: rgba(154, 134, 72, 0.22);
     }
 
     /* Muted element mappings */
     .character-page[data-element="water"] {
-      --theme: #4f6f8f;
+      --theme: #38597a;
       --theme-soft: rgba(79, 111, 143, 0.16);
       --theme-glow: rgba(79, 111, 143, 0.22);
     }
 
     .character-page[data-element="wood"] {
-      --theme: #4f7a55;
+      --theme: #386a40;
       --theme-soft: rgba(79, 122, 85, 0.16);
       --theme-glow: rgba(79, 122, 85, 0.22);
     }
 
     .character-page[data-element="fire"] {
-      --theme: #8c3a3a;
+      --theme: #8c2a2a;
       --theme-soft: rgba(140, 58, 58, 0.16);
       --theme-glow: rgba(140, 58, 58, 0.22);
     }
 
     .character-page[data-element="earth"] {
-      --theme: #9a8648;
+      --theme: #7a6420;
       --theme-soft: rgba(154, 134, 72, 0.16);
       --theme-glow: rgba(154, 134, 72, 0.22);
     }
 
     .character-page[data-element="metal"] {
-      --theme: #7a6a99;
+      --theme: #5b4a86;
       --theme-soft: rgba(122, 106, 153, 0.16);
       --theme-glow: rgba(122, 106, 153, 0.22);
     }
 
     .character-page[data-element="nanman"] {
-      --theme: #7f8f4a;
+      --theme: #63732a;
       --theme-soft: rgba(127, 143, 74, 0.16);
       --theme-glow: rgba(127, 143, 74, 0.22);
     }
@@ -71,12 +71,12 @@
        font-size: 0.65rem;
        letter-spacing: 0.08em;
        text-transform: uppercase;
-       color: rgba(255,255,255,0.70);
+       color: var(--ink-soft);
      }
 
      .trait-tooltip .t-effect {
        font-size: 0.8rem;
-       color: rgba(255,255,255,0.80);
+       color: var(--ink);
        line-height: 1.25;
        background: rgba(110,75,25,0.09);
        border-left: 2px solid rgba(110,75,25,0.30);
@@ -327,14 +327,14 @@
     .trait-tooltip .t-title {
       font-family: 'Cinzel', serif;
       font-size: 0.95rem;
-      color: rgba(255,255,255,0.92);
+      color: var(--ink);
       margin: 0 0 6px 0;
       line-height: 1.2;
     }
 
     .trait-tooltip .t-desc {
       font-size: 0.85rem;
-      color: rgba(255,255,255,0.75);
+      color: var(--ink-soft);
       margin: 0;
       line-height: 1.35;
       white-space: normal;
@@ -444,14 +444,14 @@
     .equipment-tooltip .eq-title {
       font-family: 'Cinzel', serif;
       font-size: 0.95rem;
-      color: rgba(255,255,255,0.92);
+      color: var(--ink);
       margin: 0 0 6px 0;
       line-height: 1.2;
     }
 
     .equipment-tooltip .eq-desc {
       font-size: 0.85rem;
-      color: rgba(255,255,255,0.75);
+      color: var(--ink-soft);
       margin: 0 0 8px 0;
       line-height: 1.35;
       white-space: normal;
@@ -471,12 +471,12 @@
       font-size: 0.65rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.70);
+      color: var(--ink-soft);
     }
 
     .equipment-tooltip .eq-effect {
       font-size: 0.8rem;
-      color: rgba(255,255,255,0.80);
+      color: var(--ink);
       line-height: 1.25;
       background: rgba(110,75,25,0.09);
       border-left: 2px solid rgba(110,75,25,0.30);
@@ -524,9 +524,18 @@
     .title-panel {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      min-height: 180px;
+      justify-content: flex-start;
+      gap: .25rem;
+      min-height: 0;
       border-left: 4px solid var(--theme);
+    }
+
+    .char-seal {
+      width: 3.4rem; height: 3.4rem; display: grid; place-items: center;
+      margin: 0 0 .9rem; background: var(--seal); color: #f8e9d0;
+      font-family: var(--f-brush); font-size: 2.2rem; line-height: 1;
+      border-radius: 3px; transform: rotate(-3deg);
+      box-shadow: inset 0 0 0 2px rgba(248,233,208,.28), inset 0 0 0 4px var(--seal), 0 1px 2px rgba(60,10,5,.35);
     }
 
     .char-title {
@@ -539,12 +548,12 @@
     }
 
     /* Muted element mappings — char-title ONLY */
-    .char-title[data-element="water"] { --color: #4f6f8f; --theme-glow: rgba(79, 111, 143, 0.22); }
-    .char-title[data-element="wood"] { --color: #4f7a55; --theme-glow: rgba(79, 122, 85, 0.22); }
-    .char-title[data-element="fire"] { --color: #8c3a3a; --theme-glow: rgba(140, 58, 58, 0.22); }
-    .char-title[data-element="earth"] { --color: #9a8648; --theme-glow: rgba(154, 134, 72, 0.22); }
-    .char-title[data-element="metal"] { --color: #7a6a99; --theme-glow: rgba(122, 106, 153, 0.22); }
-    .char-title[data-element="nanman"] { --color: #7f8f4a; --theme-glow: rgba(127, 143, 74, 0.22); }
+    .char-title[data-element="water"] { --color: #38597a; --theme-glow: rgba(79, 111, 143, 0.22); }
+    .char-title[data-element="wood"] { --color: #386a40; --theme-glow: rgba(79, 122, 85, 0.22); }
+    .char-title[data-element="fire"] { --color: #8c2a2a; --theme-glow: rgba(140, 58, 58, 0.22); }
+    .char-title[data-element="earth"] { --color: #7a6420; --theme-glow: rgba(154, 134, 72, 0.22); }
+    .char-title[data-element="metal"] { --color: #5b4a86; --theme-glow: rgba(122, 106, 153, 0.22); }
+    .char-title[data-element="nanman"] { --color: #63732a; --theme-glow: rgba(127, 143, 74, 0.22); }
 
     .char-description {
       color: var(--text-secondary);
@@ -570,7 +579,7 @@
       min-height: 180px;
     }
 
-    .info-panel h1 {
+    .info-panel .char-name {
       font-family: 'Cinzel', serif;
       font-size: 1.5rem;
       font-weight: 600;
@@ -618,20 +627,20 @@
     }
 
     .tag {
-      font-size: 0.7rem;
-      padding: 0.2rem 0.5rem;
+      font-size: 0.74rem;
+      padding: 0.2rem 0.55rem;
       background: rgba(110,75,25,0.09);
       border: 1px solid var(--line-strong);
-      color: var(--text-muted);
+      color: var(--ink-soft);
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
 
     .attr-pills { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.75rem; }
     .attr-pill {
-      font-size: 0.72rem; padding: 0.15rem 0.5rem;
-      border: 1px solid #2b2b33; color: var(--text-secondary);
-      background: rgba(110,75,25,0.07); white-space: nowrap;
+      padding: 0.15rem 0.55rem;
+      border: 1px solid var(--line-strong); color: var(--ink); font-size: .78rem;
+      background: var(--paper-deep); white-space: nowrap;
     }
     .attr-pill b { color: var(--title-cream); font-weight: 600; }
     .attr-pill.negative b { color: #8a2a2a; }
@@ -645,7 +654,7 @@
       background: rgba(120,85,30,.08);
       border-color: var(--theme);
       color: var(--theme);
-      box-shadow: inset 0 0 0 1px rgba(0,0,0,0.35);
+      
     }
 
     /* =========================
@@ -715,11 +724,11 @@
     }
 
     .effect-item {
-      font-size: 0.85rem;
-      color: var(--text-secondary);
-      padding: 0.2rem 0.5rem;
-      background: rgba(110,75,25,0.06);
-      border-left: 2px solid rgba(110,75,25,0.18);
+      font-size: 0.9rem;
+      color: var(--ink);
+      padding: 0.25rem 0.55rem;
+      background: rgba(110,75,25,0.10);
+      border-left: 3px solid var(--line-strong);
     }
 
     /* =========================
@@ -1230,7 +1239,7 @@
       min-width: 280px;
       max-width: 380px;
       background: rgba(247,239,220,.98);
-      border: 1px solid #3a3a45;
+      border: 1px solid var(--line-strong);
       border-radius: 8px;
       padding: 14px 16px;
       box-shadow: 0 20px 50px rgba(0,0,0,0.7);
@@ -1292,13 +1301,13 @@
       font-size: 0.65rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.55);
+      color: var(--ink-soft);
       margin-bottom: 8px;
     }
 
     .skill-tooltip-effect {
       font-size: 0.8rem;
-      color: rgba(255,255,255,0.85);
+      color: var(--ink);
       line-height: 1.35;
       background: rgba(110,75,25,0.09);
       border-left: 2px solid var(--theme);
@@ -1384,7 +1393,8 @@
     </nav>
     <div class="header-content">
       <p class="subtitle">190 Expanded Wiki</p>
-      <h1>Character</h1>
+      <h1 id="page-title">Character</h1>
+      <p class="tagline" id="page-tagline" hidden></p>
     </div>
   </header>
 
@@ -2149,6 +2159,13 @@
         <span style="color:var(--text-muted)">(faction page)</span></p>`;
     }
 
+    // seal glyph: the family-name character if known, else the first CJK character of the name
+    function sealGlyph(c) {
+      const src = c.family_name_alt || c.display_name_alt || '';
+      const m = src.match(/[㐀-鿿]/);
+      return m ? m[0] : '';
+    }
+
     function renderCharacter(char) {
       const details = (typeof CHARACTER_DETAILS_LOOKUP !== 'undefined')
         ? (CHARACTER_DETAILS_LOOKUP[char.key] || null)
@@ -2179,6 +2196,16 @@
           : `Born ${char.birth_year} AD · aged ${age} at the start of the 190 campaign`;
       }
 
+      // page header: the character's name, courtesy name as the subtitle line
+      const pageTitle = document.getElementById('page-title');
+      pageTitle.innerHTML = escapeHtml(char.display_name)
+        + (char.display_name_alt ? ` <span class="brush-name">${escapeHtml(char.display_name_alt)}</span>` : '');
+      const pageTag = document.getElementById('page-tagline');
+      if (char.courtesy_name) {
+        pageTag.textContent = `Courtesy name ${char.courtesy_name}` + (char.courtesy_name_alt ? ` · ${char.courtesy_name_alt}` : '');
+        pageTag.hidden = false;
+      }
+
       const root = document.getElementById('character-root');
       root.setAttribute('data-element', element);
 
@@ -2186,6 +2213,7 @@
         <div class="content-area">
           <div class="row-top">
             <div class="panel panel-divider-right panel-divider-bottom title-panel">
+              ${sealGlyph(char) ? `<div class="char-seal" aria-hidden="true">${escapeHtml(sealGlyph(char))}</div>` : ''}
               ${char.title
                 ? `<h2 class="char-title" data-element="${escapeHtml(element)}">
                     ${escapeHtml(char.title)}
@@ -2204,10 +2232,10 @@
             </div>
 
             <div class="panel panel-divider-bottom info-panel">
-              <h1>
+              <h2 class="char-name">
                 ${escapeHtml(char.display_name)}
                 ${char.display_name_alt ? `<span class="chinese-name">${escapeHtml(char.display_name_alt)}</span>` : ''}
-              </h1>
+              </h2>
               ${char.courtesy_name ? `
                 <p class="courtesy-name">
                   <span class="courtesy-label">Courtesy Name:</span> 

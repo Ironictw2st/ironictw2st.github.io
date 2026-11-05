@@ -1,3 +1,7 @@
+# STATUS 5 Nov 2026: undecided
+
+The user first said "stay on GitHub Pages" (too much overhead), then asked whether the 1 GB Pages limit makes Cloudflare Pages worth it. The site is currently ~621 MB, i.e. under the limit, and Phase 1 in REVIEW.md (thumbnails, split data) shrinks what is served either way. A **hosting-only move** (same static files, no login/forms) is the low-overhead option: see the summary below. Logins/forms are only possible after moving.
+
 # Migration plan: GitHub Pages → a host with logins + forms (5 Nov 2026)
 
 Goal: keep the static wiki, add (1) Discord login, (2) bug-report / suggestion forms that land in the Discord forum channels, (3) optional per-user favourites. Nothing here has been deployed; no accounts created, no DNS touched.

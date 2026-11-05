@@ -69,3 +69,15 @@ Approach: the legacy token names stay but now hold paper/ink values (`--title-cr
 Look: parchment ground with procedural paper grain (SVG noise, no images), ink text, vermilion seal chops (CSS squares with a brush character) on the home cards, lacquer-black header/nav/footer with a bronze double rule, hung-scroll rods on home cards, a brush-stroke rule under titles. Fonts self-hosted in `total_war/fonts/` (all SIL OFL 1.1, licences alongside): **Cinzel** (headings), **Source Serif 4** (body), **Ma Shan Zheng** (brush face, subset to 46 CJK glyphs = 16 KB). No AI art; the mod's real UI art (faction flags, feature icons, portraits) is shown as-is on paper.
 
 Done and screenshotted (1440 + 390 wide in `shots/`): home, characters list, character page, faction page, changelog. Map checked at 1440 (renders well; the black fringe is the map image's own transparent edge). Restyled by the same CSS but not yet visually checked: factions list, roadmap, changes, tools/*. Known leftovers: skill-tree widget on the character page (Skills tab) not reviewed; family-tree node cards intentionally stay dark (they sit over portraits).
+
+## Phase 1 (platform-independent): make the site light
+
+The user leans towards staying on GitHub Pages (see MIGRATION.md; platform still undecided), so this is the main engineering plan, in priority order. None of it needs a new host.
+
+1. **WebP thumbnails.** New generator step (`generate_data/make_thumbs.py`, Pillow): from each `data/images/db/*.png` portrait write `thumb/<name>.webp` at 160 px wide (~6-10 KB) and `med/<name>.webp` at 480 px (~40 KB). Use thumbs in the faction leader card, family-tree nodes and any list; use `med` for the character-page hero (keep the PNG as a "full size" link). Expected: -95% image bytes on faction/family-tree views, about 1.2 MB -> 40 KB on the character page. Add `loading="lazy"` and `width/height` to every `<img>`.
+2. **Split `skill_trees.js` (16 MB).** The character page needs one skill set (366 sets). Emit `data/skill_trees/<skill_set>.js` (or `.json`, fetched on the Skills tab only) and load it lazily when the tab opens. Expected: character page JS from ~27 MB to ~11 MB, and skills only on demand.
+3. **Split `character_details.js` (4.2 MB) and `family_tree.js` (1.9 MB)** per character (or per 100-character shard) the same way, and have `faction.html` read only its leader. With 1 and 2 done the heaviest page drops from ~28 MB to well under 3 MB.
+4. **Keep the repo under the 1 GB Pages ceiling**: originals can stay in git, but thumbs mean the live site no longer needs the 430 MB of full PNGs on hot paths. Longer term, drop unused full-size PNGs from the published tree (a `gh-pages` branch built by the existing generators) if size becomes a problem.
+5. **Cheap wins in the same pass:** self-host Leaflet (remove unpkg), shared header/nav include via a tiny build step in the generators (14 files of copy-pasted nav), `asset_version.py` cache-busting on the new files, aria/keyboard fixes listed above.
+
+Estimate: items 1-2 are an afternoon each in the existing Python pipeline; the front-end changes are small (path swaps and a lazy loader).

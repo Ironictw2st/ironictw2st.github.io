@@ -185,30 +185,30 @@
           gap: 8px;
           margin-bottom: 12px;
           padding: 8px 12px;
-          background: rgba(0, 0, 0, 0.4);
-          border: 1px solid rgba(255, 255, 255, 0.1);
+          background: var(--paper-deep);
+          border: 1px solid var(--line-strong);
           border-radius: 6px;
           width: fit-content;
         }
         .ft-zoom-btn {
           width: 32px;
           height: 32px;
-          border: 1px solid rgba(255, 255, 255, 0.2);
+          border: 1px solid var(--line-strong);
           border-radius: 4px;
-          background: rgba(255, 255, 255, 0.08);
-          color: rgba(255, 255, 255, 0.85);
+          background: var(--paper-light);
+          color: var(--ink);
           font-size: 1.1rem;
           font-weight: 600;
           cursor: pointer;
           transition: all 0.15s ease;
         }
         .ft-zoom-btn:hover {
-          background: rgba(255, 255, 255, 0.15);
-          border-color: rgba(255, 255, 255, 0.35);
+          background: #fff8e6;
+          border-color: var(--seal);
         }
         .ft-zoom-level {
           font-size: 0.8rem;
-          color: rgba(255, 255, 255, 0.65);
+          color: var(--ink-soft);
           min-width: 45px;
           text-align: center;
           font-family: monospace;
@@ -216,9 +216,9 @@
         .ft-wrapper {
           overflow: auto;
           max-height: 70vh;
-          border: 1px solid rgba(255, 255, 255, 0.08);
+          border: 1px solid var(--line-strong);
           border-radius: 8px;
-          background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.10) 100%);
+          background: var(--paper-deep);
         }
         .ft-canvas {
           position: relative;
@@ -232,13 +232,13 @@
           overflow: visible;
         }
         .ft-links path {
-          stroke: rgba(255,255,255,0.35);
+          stroke: #7a6340;
           stroke-width: 2;
           fill: none;
         }
         .ft-links path[data-edge="spouse"] {
           stroke-dasharray: 6 4;
-          stroke: rgba(255,255,255,0.25);
+          stroke: #7a6340;
         }
         .ft-nodes {
           position: relative;
@@ -255,15 +255,15 @@
         }
         .ftd-card {
           border-radius: 8px;
-          border: 1px solid rgba(255,255,255,0.16);
-          background: rgba(0,0,0,0.45);
-          box-shadow: 0 12px 24px rgba(0,0,0,0.50);
+          border: 1px solid var(--line-strong);
+          background: var(--paper-light);
+          box-shadow: 0 4px 10px rgba(70,45,15,0.22);
           overflow: hidden;
           transition: border-color 0.15s, box-shadow 0.15s;
         }
         .ftd-node:hover .ftd-card {
-          border-color: rgba(255,255,255,0.30);
-          box-shadow: 0 0 20px rgba(255,255,255,0.08), 0 12px 24px rgba(0,0,0,0.55);
+          border-color: var(--seal);
+          box-shadow: 0 6px 14px rgba(70,45,15,0.32);
         }
         .ftd-label {
           display: block;
@@ -273,15 +273,15 @@
           font-weight: 600;
           letter-spacing: 0.1em;
           text-transform: uppercase;
-          color: #b48eff;
-          background: rgba(0,0,0,0.6);
+          color: var(--seal-dark);
+          background: var(--paper-deep);
           padding: 5px 8px;
-          border-bottom: 1px solid rgba(255,255,255,0.08);
+          border-bottom: 1px solid var(--line-strong);
         }
         .ftd-portrait {
           width: 100%;
           height: 100px;
-          background-color: #0a0a0c;
+          background-color: var(--paper-deep);
           background-size: cover;
           background-position: center top;
         }
@@ -289,21 +289,21 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
+          background: var(--paper-deep);
         }
         .ftd-portrait.no-portrait::after {
           content: "?";
           font-family: 'Cinzel', serif;
           font-size: 2rem;
-          color: rgba(255,255,255,0.4);
+          color: var(--ink-faint);
         }
         .ftd-name {
           padding: 8px;
           text-align: center;
           font-size: 0.75rem;
           line-height: 1.2;
-          color: rgba(255,255,255,0.85);
-          background: rgba(0,0,0,0.3);
+          color: var(--ink);
+          background: var(--paper-light);
         }
         .ftd-name-alt {
           display: block;
@@ -327,7 +327,8 @@
     controls.innerHTML = `
       <button class="ft-zoom-btn" data-zoom="in" title="Zoom In">+</button>
       <button class="ft-zoom-btn" data-zoom="out" title="Zoom Out">−</button>
-      <button class="ft-zoom-btn" data-zoom="reset" title="Reset">⟲</button>
+      <button class="ft-zoom-btn" data-zoom="reset" title="Actual size">⟲</button>
+      <button class="ft-zoom-btn" data-zoom="fit" title="Fit to width" aria-label="Fit to width" style="width:auto;padding:0 10px;font-size:.75rem">Fit</button>
       <span class="ft-zoom-level">100%</span>
     `;
     hostEl.appendChild(controls);
@@ -584,7 +585,22 @@
     function updateZoom(newZoom) {
       currentZoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, newZoom));
       canvas.style.transform = `scale(${currentZoom})`;
+      // transform doesn't change layout size: trim the unscaled overflow so zooming out leaves no dead space
+      canvas.style.marginRight = `${-W * (1 - currentZoom)}px`;
+      canvas.style.marginBottom = `${-H * (1 - currentZoom)}px`;
       controls.querySelector(".ft-zoom-level").textContent = `${Math.round(currentZoom * 100)}%`;
+    }
+
+    function centreOnSelf() {
+      const cp = positions[center];
+      if (!cp) return;
+      const cx = ((cp.x - minX) + PAD) * currentZoom, cy = ((cp.y - minY) + PAD) * currentZoom;
+      wrapper.scrollLeft = Math.max(0, cx - wrapper.clientWidth / 2);
+      wrapper.scrollTop = Math.max(0, cy - wrapper.clientHeight / 2);
+    }
+    function fitToWidth() {
+      const w = wrapper.clientWidth || 800;
+      updateZoom(Math.max(0.5, Math.min(1, w / W)));
     }
 
     controls.addEventListener("click", (e) => {
@@ -593,7 +609,8 @@
       const action = btn.dataset.zoom;
       if (action === "in") updateZoom(currentZoom + ZOOM_STEP);
       else if (action === "out") updateZoom(currentZoom - ZOOM_STEP);
-      else if (action === "reset") updateZoom(1);
+      else if (action === "reset") { updateZoom(1); centreOnSelf(); }
+      else if (action === "fit") { fitToWidth(); centreOnSelf(); }
     });
 
     wrapper.addEventListener("wheel", (e) => {
@@ -603,6 +620,10 @@
         updateZoom(currentZoom + delta);
       }
     }, { passive: false });
+
+    // initial view: fit to the panel, centred on this character
+    fitToWidth();
+    centreOnSelf();
   }
 
   window.renderFamilyTreeDagre = renderFamilyTreeDagre;

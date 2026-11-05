@@ -499,3 +499,6 @@ footer .ext-links { margin-top: .5rem; font-size: .85rem; letter-spacing: .05em;
 /* In-page back links sit on paper, not on the lacquer header */
 .back-link:not(header .back-link) { color: var(--seal-dark); }
 .back-link:not(header .back-link):hover { color: var(--seal); text-decoration: underline; }
+
+/* Character page header: name in Cinzel, Chinese name in brush */
+header h1 .brush-name { font-family: var(--f-brush); font-weight: 400; text-transform: none; letter-spacing: .05em; margin-left: .25em; }
