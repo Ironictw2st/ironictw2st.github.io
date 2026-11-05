@@ -612,6 +612,8 @@
       // transform doesn't change layout size: trim the unscaled overflow so zooming out leaves no dead space
       canvas.style.marginRight = `${-W * (1 - currentZoom)}px`;
       canvas.style.marginBottom = `${-H * (1 - currentZoom)}px`;
+      // modest trees need no vertical scrolling: size the panel to the scaled tree (capped to the viewport)
+      wrapper.style.maxHeight = `${Math.min(Math.round(H * currentZoom) + 2, 920, Math.round(window.innerHeight * 0.82))}px`;
       controls.querySelector(".ft-zoom-level").textContent = `${Math.round(currentZoom * 100)}%`;
     }
 
@@ -621,7 +623,8 @@
       const cx = ((cp.x - minX) + PAD) * currentZoom, cy = ((cp.y - minY) + PAD) * currentZoom;
       wrapper.scrollLeft = Math.max(0, cx - wrapper.clientWidth / 2);
       const wantTop = cy - wrapper.clientHeight * 0.4;
-      wrapper.scrollTop = wantTop < 160 ? 0 : wantTop; // near the top: show the oldest generation in full
+      // keep the oldest generation in view whenever the subject's row is already visible; only scroll for very tall trees
+      wrapper.scrollTop = (cy + (NODE_H / 2) * currentZoom + 24 <= wrapper.clientHeight) ? 0 : Math.max(0, wantTop);
     }
     // readable start (never below 60%); the Fit button shows the whole tree whatever the size
     function fitToWidth(minZoom = 0.6) {
