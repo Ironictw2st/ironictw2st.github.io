@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="scripts/theme.js"></script>
     <meta charset="UTF-8">
     <title>Changes: update history | 190 Expanded Wiki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,11 +78,11 @@
             border: 1px solid var(--line-strong); color: var(--text-muted); white-space: nowrap;
         }
         .pack-chip[data-pack="Factions & Characters"] { border-color: var(--gold-dark); color: var(--gold-light); }
-        .pack-chip[data-pack="Overhaul"] { border-color: #5050a0; color: #473a8a; }
-        .pack-chip[data-pack="Extra Regions"] { border-color: #3f7a4a; color: #2e6b3f; }
+        .pack-chip[data-pack="Overhaul"] { border-color: #5050a0; color: var(--c-purple); }
+        .pack-chip[data-pack="Extra Regions"] { border-color: var(--c-green); color: var(--c-green); }
 
         .entry-body {
-            background: rgba(110,75,25,0.06); border: 1px solid var(--line);
+            background: rgba(var(--tint-rgb),0.06); border: 1px solid var(--line);
             padding: 1rem 1.25rem; margin-top: 0.6rem;
             font-size: 0.88rem; line-height: 1.65; color: var(--text-primary);
             overflow-wrap: break-word;
@@ -115,7 +116,7 @@
         }
         details.entry[open] > summary::after { transform: rotate(180deg); }
         details.entry > summary:hover .entry-title, details.entry > summary:hover .entry-lead { color: var(--gold-light); }
-        details.entry > summary:hover { background: rgba(110,75,25,0.06); }
+        details.entry > summary:hover { background: rgba(var(--tint-rgb),0.06); }
         .entry-body-wrap { padding-bottom: 0.6rem; }
 
         .entry-link { font-size: 0.72rem; color: var(--text-muted); text-decoration: none; }

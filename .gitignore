@@ -7,3 +7,5 @@ node_modules/
 .wrangler-dev.log
 .wrangler-dev2.log
 .wrangler-dev3.log
+dist/
+.wrangler-dev4.log

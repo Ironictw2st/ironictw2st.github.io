@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="scripts/theme.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map | 190 Expanded Wiki</title>
@@ -32,9 +33,9 @@
            pre-script value so the map never flashes at zero height. */
         #map {
             height: calc(100vh - 330px); min-height: 460px;
-            background: #d9ccaa; border: 1px solid var(--line);
+            background: var(--paper-deep); border: 1px solid var(--line);
         }
-        .leaflet-container { background: #d9ccaa; font-family: 'Segoe UI', Arial, sans-serif; }
+        .leaflet-container { background: var(--paper-deep); font-family: 'Segoe UI', Arial, sans-serif; }
         .leaflet-control-zoom a {
             background: var(--bg-card); color: var(--text-secondary); border-color: var(--line-strong);
         }
@@ -108,7 +109,7 @@
             color: var(--text-secondary); font-size: 0.82rem; text-align: left;
             font-family: inherit;
         }
-        .faction-row:hover { background: rgba(110,75,25,0.09); color: var(--title-cream); }
+        .faction-row:hover { background: rgba(var(--tint-rgb),0.09); color: var(--title-cream); }
         .faction-row.active { background: rgba(201,162,39,0.14); color: var(--gold-light); }
         .faction-row .swatch { width: 12px; height: 12px; flex: 0 0 12px; border: 1px solid rgba(0,0,0,0.6); }
         .faction-row .fname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -123,7 +124,7 @@
             padding: 0.32rem 0.4rem; background: none; border: none; cursor: pointer;
             color: var(--text-secondary); font-size: 0.82rem; text-align: left; font-family: inherit;
         }
-        .unit-row:hover { background: rgba(110,75,25,0.09); color: var(--title-cream); }
+        .unit-row:hover { background: rgba(var(--tint-rgb),0.09); color: var(--title-cream); }
         .unit-row.active { background: rgba(201,162,39,0.16); color: var(--gold-light); }
         .unit-row .uname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
         .unit-row .ucount { color: var(--text-muted); font-size: 0.72rem; }
@@ -131,9 +132,9 @@
             font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase;
             padding: 0.05rem 0.3rem; border: 1px solid currentColor; opacity: 0.75;
         }
-        .elem-metal { color: #4a3e31; } .elem-wood { color: #3f7a2a; }
-        .elem-water { color: #2b5f8f; } .elem-fire  { color: #d2705a; }
-        .elem-earth { color: #6a4f12; }
+        .elem-metal { color: var(--ink-soft); } .elem-wood { color: var(--c-green); }
+        .elem-water { color: var(--c-blue); } .elem-fire  { color: #d2705a; }
+        .elem-earth { color: var(--bronze-dark); }
 
         .sel-units { margin-top: 0.9rem; border-top: 1px solid var(--line); padding-top: 0.7rem; }
         .sel-units h4 {

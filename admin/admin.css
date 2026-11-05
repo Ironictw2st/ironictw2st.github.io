@@ -9,7 +9,7 @@
 .ad-btn:hover { border-color: var(--seal); color: var(--seal-dark); }
 .ad-btn:disabled { opacity: .5; cursor: default; }
 .ad-primary { background: var(--seal); color: #f8e9d0; border-color: var(--seal-dark); }
-.ad-primary:hover { background: var(--seal-dark); color: #fff; border-color: var(--seal-dark); }
+.ad-primary:hover { background: var(--seal-deep); color: #fff; border-color: var(--seal-dark); }
 .ad-danger { color: var(--seal-dark); }
 .ad-status { margin-left: auto; color: var(--ink-soft); font-size: .95rem; min-height: 1.4em; }
 .ad-status.is-error { color: var(--seal); font-weight: 600; }

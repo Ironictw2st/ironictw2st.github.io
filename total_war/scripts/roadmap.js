@@ -5,7 +5,6 @@
   'use strict';
 
   var COLUMNS = [
-    { key: 'live', title: 'In the game', blurb: 'Already live in the current build.' },
     { key: 'next', title: 'Next update', blurb: 'Being built or tested now.' },
     { key: 'planned', title: 'Planned', blurb: 'Agreed, not started.' },
     { key: 'idea', title: 'Ideas', blurb: 'Not decided yet.' }
@@ -89,9 +88,9 @@
   // ---------- just shipped ----------
 
   function renderShipped() {
-    var live = items.filter(function (i) { return i.status === 'live'; }).sort(function (a, b) {
+    var live = items.filter(function (i) { return i.status === 'live' && (activeCategory === 'All' || i.category === activeCategory); }).sort(function (a, b) {
       return (b.release_date || '').localeCompare(a.release_date || '');
-    }).slice(0, 3);
+    }).slice(0, 4);
     shippedList.textContent = '';
     if (!live.length) { shippedEl.hidden = true; return; }
     live.forEach(function (it) {
@@ -133,7 +132,7 @@
     timelineEl.textContent = '';
     var track = el('div', 'rm-track');
     var seen = {};
-    var past = releases.filter(function (r) { if (seen[r.date]) return false; seen[r.date] = true; return true; }).slice(-10);
+    var past = releases.filter(function (r) { if (seen[r.date]) return false; seen[r.date] = true; return true; }).slice(-5);
     past.forEach(function (r) {
       var l = releaseLabel(r);
       track.appendChild(node('past', l.when, l.text, ''));
@@ -152,7 +151,7 @@
     track.appendChild(node('idea', 'Ideas', ideas.length + (ideas.length === 1 ? ' item' : ' items'), ''));
     timelineEl.appendChild(track);
     // bring "Now" into view, leaving some history on the left
-    var left = nowNode.offsetLeft - Math.min(240, timelineEl.clientWidth / 3);
+    var left = nowNode.offsetLeft - timelineEl.clientWidth * 0.3;
     timelineEl.scrollLeft = Math.max(0, left);
   }
 
@@ -186,6 +185,7 @@
         activeCategory = cat;
         buildFilters();
         render();
+        renderShipped();
       });
       filters.appendChild(b);
     });

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="scripts/theme.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factions | 190 Expanded Wiki</title>
@@ -52,7 +53,7 @@
             object-fit: contain;
             filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6));
         }
-        .faction-flag.missing { background: rgba(110,75,25,0.09); border: 1px dashed var(--line-strong); }
+        .faction-flag.missing { background: rgba(var(--tint-rgb),0.09); border: 1px dashed var(--line-strong); }
         .faction-name { margin-bottom: 0; }
         .faction-state { font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.05em; text-transform: uppercase; }
         .faction-leader { margin-bottom: 0.5rem; font-style: italic; }
@@ -60,13 +61,13 @@
         .chip {
             font-size: 0.68rem; padding: 0.12rem 0.45rem;
             border: 1px solid var(--line-strong); color: var(--text-secondary);
-            background: rgba(110,75,25,0.07); letter-spacing: 0.03em;
+            background: rgba(var(--tint-rgb),0.07); letter-spacing: 0.03em;
         }
-        .chip.diff-easy { border-color: #3f7a4a; color: #2e6b3f; }
-        .chip.diff-normal { border-color: #6f6a3f; color: #6a4f12; }
-        .chip.diff-hard { border-color: #8a4b2c; color: #8a4a18; }
-        .chip.diff-very_hard, .chip.diff-legendary { border-color: #8b1a1a; color: #8a2a2a; }
-        .chip.playstyle { border-color: #3f5a7a; color: #2b5f8f; }
+        .chip.diff-easy { border-color: var(--c-green); color: var(--c-green); }
+        .chip.diff-normal { border-color: #6f6a3f; color: var(--bronze-dark); }
+        .chip.diff-hard { border-color: #8a4b2c; color: var(--c-orange); }
+        .chip.diff-very_hard, .chip.diff-legendary { border-color: #8b1a1a; color: var(--c-red); }
+        .chip.playstyle { border-color: var(--c-blue); color: var(--c-blue); }
         .faction-extras { font-size: 0.75rem; color: var(--text-muted); }
         .faction-extras b { color: var(--text-secondary); font-weight: 500; }
 

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="scripts/theme.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Characters | 190 Expanded Wiki</title>
@@ -140,17 +141,17 @@
         .attr {
             font-size: 0.7rem; padding: 0.1rem 0.4rem;
             border: 1px solid #2b2b33; color: var(--text-secondary);
-            background: rgba(110,75,25,0.07); white-space: nowrap;
+            background: rgba(var(--tint-rgb),0.07); white-space: nowrap;
         }
         .attr b { color: var(--title-cream); font-weight: 600; }
-        .attr.negative b { color: #8a2a2a; }
+        .attr.negative b { color: var(--c-red); }
         .attr.sorted { border-color: var(--gold-dark); background: rgba(201,162,39,0.12); }
         .attr.sorted b { color: var(--gold-light); }
         .attr-none { font-size: 0.72rem; color: var(--text-muted); font-style: italic; }
 
         .effect-hit {
             display: block; margin-top: 0.5rem; font-size: 0.78rem;
-            color: #2b5f8f; border-left: 2px solid #3f5a7a; padding-left: 0.5rem;
+            color: var(--c-blue); border-left: 2px solid var(--c-blue); padding-left: 0.5rem;
         }
         .effect-hit + .effect-hit { margin-top: 0.15rem; }
 
@@ -221,7 +222,7 @@
         .character-card[data-element="fire"]   { --element-color: #8c3a3a; }
         .character-card[data-element="earth"]  { --element-color: #9a8648; }
         .character-card[data-element="metal"]  { --element-color: #7a6a99; }
-        .character-card[data-element="nanman"] { --element-color: #7f8f4a; }
+        .character-card[data-element="nanman"] { --element-color: var(--c-olive); }
         .character-card[data-element="unknown"] { --element-color: var(--gold-dark); }
 
         .character-header {
@@ -249,7 +250,7 @@
         .character-element {
             font-size: 0.65rem;
             padding: 0.2rem 0.5rem;
-            background: rgba(110,75,25,0.11);
+            background: rgba(var(--tint-rgb),0.11);
             border: 1px solid var(--element-color);
             color: var(--element-color);
             text-transform: uppercase;
@@ -315,12 +316,12 @@
 
         .meta-tag.female {
             border-color: #9966cc;
-            color: #6a3fa0;
+            color: var(--c-purple);
         }
 
         .meta-tag.birth-year {
-            border-color: #4a6fa5;
-            color: #2b5f8f;
+            border-color: var(--c-blue);
+            color: var(--c-blue);
         }
 
         /* List view styles */
@@ -412,8 +413,8 @@
         .element-btn[data-element="earth"] { --element-color: #b8860b; }
         .element-btn[data-element="water"] { --element-color: #4169e1; }
         .element-btn[data-element="wood"] { --element-color: #228b22; }
-        .element-btn[data-element="metal"] { --element-color: #4a3e31; }
-        .element-btn[data-element="nanman"] { --element-color: #7f8f4a; }
+        .element-btn[data-element="metal"] { --element-color: var(--ink-soft); }
+        .element-btn[data-element="nanman"] { --element-color: var(--c-olive); }
         .element-btn[data-element="all"] { --element-color: var(--gold-primary); }
 
         .element-dot {

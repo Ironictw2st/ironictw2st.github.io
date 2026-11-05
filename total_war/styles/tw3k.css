@@ -43,6 +43,7 @@
     --bronze-light: #c4a24f;
     --seal: #a3231d;
     --seal-dark: #6e1612;
+    --seal-deep: #6e1612;   /* maroon for BACKGROUNDS; --seal-dark is the readable text/link red */
     --jade: #3d6b53;
 
     /* --- Legacy aliases (meaning inverted for the light theme) --- */
@@ -53,7 +54,7 @@
     --gold-light: var(--bronze-dark);
     --gold-dark: var(--line-strong);
     --red-primary: var(--seal);
-    --red-dark: var(--seal-dark);
+    --red-dark: var(--seal-deep);
     --red-darker: #3a0b09;
     --red-accent: var(--seal);
     --bg-primary: var(--paper);
@@ -72,10 +73,94 @@
     --faction-korean: #2f6a9a;
     --faction-bandit: #7a3d16;
 
+    /* theme helpers (overridden in dark mode) */
+    --tint-rgb: 110, 75, 25;        /* brown wash on paper */
+    --stroke-rgb: 80, 55, 20;       /* tree / connector lines */
+    --paper-glass: rgba(247, 239, 220, .98);
+    --glow-1: rgba(255, 248, 225, .7);
+    --glow-2: rgba(150, 110, 50, .10);
+    --sheen: rgba(255, 255, 255, .35);
+    --tree-line: #7a6340;
+    --c-green: #2e6b3f;
+    --c-blue: #2b5f8f;
+    --c-red: #8a2a2a;
+    --c-purple: #473a8a;
+    --c-olive: #63732a;
+    --c-orange: #8a4a18;
+    --c-pink: #8a3f78;
+    color-scheme: light;
+
     --f-display: 'Cinzel', 'Ma Shan Zheng', 'Times New Roman', serif;
     --f-brush: 'Ma Shan Zheng', 'KaiTi', 'STKaiti', serif;
     --f-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
 }
+
+/* ============================================
+   Dark mode: the same tokens, on lacquer and ink-wash.
+   Set by theme.js (saved choice, else the system setting).
+   ============================================ */
+html[data-theme="dark"] {
+    --paper: #17120e;
+    --paper-light: #211a14;
+    --paper-deep: #2b2219;
+    --ink: #efe4cc;
+    --ink-soft: #cdbf9f;
+    --ink-faint: #a1927a;
+    --line: #3b3027;
+    --line-strong: #5a4a38;
+    --lacquer: #0d0907;
+    --lacquer-2: #1a100c;
+    --bronze: #c4a24f;
+    --bronze-dark: #d8b865;
+    --seal: #b02a22;
+    --seal-dark: #e58a82;
+    --seal-deep: #8c2a24;
+    --jade: #6fb08c;
+    --bg-card-hover: #2a2018;
+
+    --tint-rgb: 235, 210, 165;
+    --stroke-rgb: 200, 180, 140;
+    --paper-glass: rgba(33, 26, 20, .98);
+    --glow-1: rgba(120, 70, 40, .22);
+    --glow-2: rgba(60, 40, 20, .35);
+    --sheen: rgba(255, 255, 255, .04);
+    --tree-line: #8f7d60;
+    --c-green: #7fc29a;
+    --c-blue: #8ab4e0;
+    --c-red: #e58a82;
+    --c-purple: #b6a6ee;
+    --c-olive: #b3c46a;
+    --c-orange: #e0a46a;
+    --c-pink: #e3a0cf;
+    color-scheme: dark;
+
+    --faction-han: #c4a24f;
+    --faction-yellow-turban: #e0b030;
+    --faction-nanman: #5fb38a;
+    --faction-nomad: #9d8de0;
+    --faction-korean: #6aa8d8;
+    --faction-bandit: #c4814f;
+}
+/* element colours (character cards and page), readable on dark */
+html[data-theme="dark"] .character-card[data-element="water"],  html[data-theme="dark"] .character-page[data-element="water"]  { --element-color: #7fa6d6; --theme: #7fa6d6; }
+html[data-theme="dark"] .character-card[data-element="wood"],   html[data-theme="dark"] .character-page[data-element="wood"]   { --element-color: #7fbf8c; --theme: #7fbf8c; }
+html[data-theme="dark"] .character-card[data-element="fire"],   html[data-theme="dark"] .character-page[data-element="fire"]   { --element-color: #e07a72; --theme: #e07a72; }
+html[data-theme="dark"] .character-card[data-element="earth"],  html[data-theme="dark"] .character-page[data-element="earth"]  { --element-color: #d6b45f; --theme: #d6b45f; }
+html[data-theme="dark"] .character-card[data-element="metal"],  html[data-theme="dark"] .character-page[data-element="metal"]  { --element-color: #b6a6ee; --theme: #b6a6ee; }
+html[data-theme="dark"] .character-card[data-element="nanman"], html[data-theme="dark"] .character-page[data-element="nanman"] { --element-color: #b3c46a; --theme: #b3c46a; }
+html[data-theme="dark"] .page-bg { mix-blend-mode: screen; opacity: .04; }
+html[data-theme="dark"] .rm-progress-fill { background: linear-gradient(90deg, #8c2a24, #c9423a); }
+
+/* the toggle lives in the nav bar (or floats top-right where a page has no nav) */
+.theme-item { list-style: none; }
+.theme-toggle {
+    font-family: var(--f-display); font-size: .72rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+    color: rgba(243,232,204,.85); background: transparent; border: 1px solid rgba(196,162,79,.55);
+    padding: .25rem .65rem; cursor: pointer; border-radius: 2px;
+}
+.theme-toggle:hover { color: #fff; border-color: var(--bronze-light); }
+.theme-toggle-floating { position: absolute; right: 1rem; top: .8rem; }
+header .top-nav { position: relative; }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -85,8 +170,8 @@ body {
     font-family: var(--f-body);
     font-size: 1.0625rem;
     background:
-        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255,248,225,.7), transparent 70%),
-        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(150,110,50,.10), transparent 70%),
+        radial-gradient(ellipse 80% 50% at 50% 0%, var(--glow-1), transparent 70%),
+        radial-gradient(ellipse 60% 40% at 100% 100%, var(--glow-2), transparent 70%),
         var(--paper);
     color: var(--ink);
     min-height: 100vh;
@@ -247,7 +332,7 @@ h2, h3 { font-family: var(--f-display); letter-spacing: .04em; color: var(--ink)
 
 .wiki-card {
     background:
-        linear-gradient(180deg, rgba(255,255,255,.35), transparent 30%),
+        linear-gradient(180deg, var(--sheen), transparent 30%),
         var(--paper-light);
     border: 1px solid var(--line);
     border-top: 0; border-bottom: 0;
@@ -391,7 +476,7 @@ h2, h3 { font-family: var(--f-display); letter-spacing: .04em; color: var(--ink)
     letter-spacing: .06em; text-transform: uppercase;
 }
 .faction-tag.modded { background: rgba(163,35,29,.09); border-color: rgba(163,35,29,.5); color: var(--seal-dark); }
-.faction-tag.dlc { background: rgba(91,74,168,.09); border-color: rgba(91,74,168,.5); color: #473a8a; }
+.faction-tag.dlc { background: rgba(91,74,168,.09); border-color: rgba(91,74,168,.5); color: var(--c-purple); }
 
 /* ============================================
    Footer

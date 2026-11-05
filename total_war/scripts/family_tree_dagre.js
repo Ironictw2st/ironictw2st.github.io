@@ -275,13 +275,13 @@
           overflow: visible;
         }
         .ft-links path {
-          stroke: #7a6340;
+          stroke: var(--tree-line);
           stroke-width: 2;
           fill: none;
         }
         .ft-links path[data-edge="spouse"] {
           stroke-width: 4;
-          stroke: #7a6340;
+          stroke: var(--tree-line);
         }
         .ft-nodes {
           position: relative;
@@ -360,7 +360,7 @@
         .ftd-node.is-missing .ftd-card { border-style: dashed; }
         .ftd-node.is-self .ftd-card {
           border: 2px solid var(--seal);
-          box-shadow: 0 0 0 3px rgba(163,35,29,.18), 0 6px 14px rgba(70,45,15,0.32);
+          box-shadow: 0 0 0 3px rgba(163,35,29,.28), 0 6px 14px rgba(70,45,15,0.32);
         }
         .ftd-node.is-self .ftd-label { background: var(--seal); color: #f8e9d0; }
         .ft-wrapper.is-panning { cursor: grabbing; user-select: none; }
