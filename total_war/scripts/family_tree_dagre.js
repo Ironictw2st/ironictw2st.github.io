@@ -54,9 +54,8 @@
   }
 
   function getDetailsPortraitUrl(templateKey) {
-    if (typeof CHARACTER_DETAILS_LOOKUP === "undefined") return "";
-    const details = CHARACTER_DETAILS_LOOKUP[templateKey] || null;
-    return details?.portrait?.url || "";
+    const url = (typeof PORTRAIT_URLS !== "undefined" && PORTRAIT_URLS[templateKey]) || "";
+    return window.portraitVariant ? window.portraitVariant(url, "thumb") : url;
   }
 
   function extractRelatedTemplate(rel) {

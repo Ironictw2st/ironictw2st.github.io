@@ -58,6 +58,7 @@ npm install
 copy .dev.vars.example .dev.vars        # DEV_BYPASS_ACCESS=1: editor works on localhost only
 npm run db:migrate:local
 npm run db:seed:local
+npm run build:data                      # WebP thumbnails + split data files (needs Python + Pillow)
 npm run dev                             # http://localhost:8788
 npm test
 ```

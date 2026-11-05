@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <script src="scripts/theme.js"></script>
+    <script src="scripts/support.js" defer></script>
+    <script src="scripts/portraits.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Faction | 190 Expanded Wiki</title>
@@ -179,7 +181,7 @@
   </footer>
 
   <script src="data/characters.js"></script>
-  <script src="data/character_details.js"></script>
+  <script src="data/portrait_urls.js"></script>
   <script src="data/factions.js"></script>
   <script>
     function escapeHtml(str) {
@@ -194,8 +196,8 @@
       return null;
     }
     function portraitFor(key) {
-      const d = (typeof CHARACTER_DETAILS !== 'undefined') ? CHARACTER_DETAILS[key] : null;
-      return d?.portrait?.url || '';
+      const url = (typeof PORTRAIT_URLS !== 'undefined' && PORTRAIT_URLS[key]) || '';
+      return window.portraitVariant(url, 'thumb');
     }
     function effectClass(line) {
       const m = /^([+-])\d/.exec(line || '');
@@ -333,7 +335,7 @@
             <div class="people">
               ${notable.map(c => `
                 <a class="person" href="character.html?key=${encodeURIComponent(c.key)}">
-                  ${portraitFor(c.key) ? `<img src="${escapeHtml(portraitFor(c.key))}" alt="">` : ''}
+                  ${portraitFor(c.key) ? `<img src="${escapeHtml(portraitFor(c.key))}" alt="" loading="lazy">` : ''}
                   <div>
                     <div class="pname">${escapeHtml(c.display_name)}</div>
                     ${c.title ? `<div class="ptitle">${escapeHtml(c.title)}</div>` : ''}
@@ -366,7 +368,7 @@
             <div class="label">Faction Leader</div>
             ${leader ? `
               <a class="leader-card" href="character.html?key=${encodeURIComponent(leader.key)}">
-                ${leaderPortrait ? `<img src="${escapeHtml(leaderPortrait)}" alt="">` : ''}
+                ${leaderPortrait ? `<img src="${escapeHtml(leaderPortrait)}" alt="" width="64" height="64">` : ''}
                 <div>
                   <div class="name">${escapeHtml(leader.display_name)}</div>
                   ${leader.display_name_alt ? `<div class="alt">${escapeHtml(leader.display_name_alt)}</div>` : ''}

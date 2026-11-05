@@ -9,3 +9,8 @@ node_modules/
 .wrangler-dev3.log
 dist/
 .wrangler-dev4.log
+total_war/data/images/db_thumb/
+total_war/data/images/db_med/
+total_war/data/skill_trees/
+total_war/data/details/
+total_war/data/portrait_urls.js

@@ -8,6 +8,7 @@
     "db:seed:local": "wrangler d1 execute DB --local --persist-to .wrangler/state --file=db/seed_roadmap.sql",
     "build:roadmap": "node scripts/build_roadmap_json.mjs",
     "build:releases": "node scripts/build_releases_json.mjs",
+    "build:data": "python scripts/make_thumbs.py && node scripts/split_data.mjs && node scripts/build_releases_json.mjs",
     "test": "node --experimental-sqlite --test tests/*.test.ts"
   },
   "devDependencies": {

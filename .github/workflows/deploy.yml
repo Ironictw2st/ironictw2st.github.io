@@ -57,8 +57,14 @@ jobs:
             && node scripts/build_roadmap_json.mjs --from-file roadmap_export.json \
             || (echo "export failed, keeping the committed roadmap.json" && git checkout -- total_war/data/roadmap.json)
 
-      - name: Build release timeline data
-        run: node scripts/build_releases_json.mjs
+      # Page-weight work: WebP portrait thumbnails + per-item data files (git-ignored, rebuilt on every deploy).
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build thumbnails, split data and release timeline
+        run: |
+          pip install pillow
+          npm run build:data
 
       - name: Build site (dist)
         run: node scripts/build_site.mjs

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <script src="scripts/theme.js"></script>
+    <script src="scripts/support.js" defer></script>
+    <script src="scripts/portraits.js"></script>
   <meta charset="UTF-8" />
   <title>Character | 190 Expanded Wiki</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -1437,12 +1439,11 @@
   </footer>
 
   <script src="data/characters.js"></script>
-  <script src="data/character_details.js"></script>
+  <script src="data/portrait_urls.js"></script>
   <script src="data/character_bios.js"></script>
   <script src="data/character_bios_new.js"></script>
   <script src="data/family_tree.js"></script>
   <script src="data/traits.js"></script>
-  <script src="data/skill_trees.js"></script>
   <script src="data/factions.js"></script>
 
   <!-- Dagre + Family Tree renderer -->
@@ -2178,7 +2179,7 @@
       document.title = `${char.display_name} | 190 Expanded Wiki`;
 
       const element = (char.element || 'unknown').toLowerCase();
-      const portraitUrl = details?.portrait?.url || '';
+      const portraitUrl = window.portraitVariant(details?.portrait?.url || '', 'med');
       const effects = Array.isArray(details?.effects) ? details.effects : [];
 
       const traits = Array.isArray(details?.traits) ? details.traits : (Array.isArray(char?.traits) ? char.traits : []);
@@ -2327,10 +2328,19 @@
       }
 
       const skillsTab = document.getElementById('tab-skills');
-      skillsTab.innerHTML = renderSkillTreeContent(char);
+      // the skill tree is one small file per skill set, fetched after the page is up
+      if (char.skill_set) {
+        skillsTab.innerHTML = '<div class="skill-tree-empty">Loading skill tree…</div>';
+        loadScript('data/skill_trees/' + window.dataFileKey(char.skill_set) + '.js').then(() => {
+          skillsTab.innerHTML = renderSkillTreeContent(char);
+          initSkillTreeModeToggle();
+        });
+      } else {
+        skillsTab.innerHTML = renderSkillTreeContent(char);
+        initSkillTreeModeToggle();
+      }
 
       initTabs();
-      initSkillTreeModeToggle();
 
       if (portraitUrl) {
         const portraitCol = document.getElementById('portrait-column');
@@ -2419,6 +2429,16 @@
       container.innerHTML = html;
     }
 
+    function loadScript(src) {
+      return new Promise((resolve) => {
+        const s = document.createElement('script');
+        s.src = src;
+        s.onload = () => resolve(true);
+        s.onerror = () => resolve(false); // missing file: the page still renders, without that data
+        document.head.appendChild(s);
+      });
+    }
+
     function renderNotFound(key) {
       document.title = "Character not found | 190 Expanded Wiki";
       document.getElementById('character-root').innerHTML = `
@@ -2444,7 +2464,8 @@
       if (!char) {
         renderNotFound(key);
       } else {
-        renderCharacter(char);
+        // details (effects, traits, equipment) are one small file per character
+        loadScript('data/details/' + window.dataFileKey(char.key) + '.js').then(() => renderCharacter(char));
       }
     }
   </script>

@@ -81,3 +81,15 @@ The user leans towards staying on GitHub Pages (see MIGRATION.md; platform still
 5. **Cheap wins in the same pass:** self-host Leaflet (remove unpkg), shared header/nav include via a tiny build step in the generators (14 files of copy-pasted nav), `asset_version.py` cache-busting on the new files, aria/keyboard fixes listed above.
 
 Estimate: items 1-2 are an afternoon each in the existing Python pipeline; the front-end changes are small (path swaps and a lazy loader).
+
+### Phase 1 result (done 5 Nov, measured on pages.dev, cold cache, over the wire)
+
+| Page | Before | After |
+|---|---|---|
+| Character (Cai Mao) | 13.3 MB, 121 requests | 2.5 MB, 125 requests |
+| Faction (Cao Cao) | 14.7 MB | 1.9 MB |
+| Home | not measured before | 0.1 MB |
+
+What changed: WebP portrait variants (`scripts/make_thumbs.py`: 160 px thumbs for trees and faction pages, 640 px for the character hero), per-item data files instead of the 16 MB skill tree file and the 4 MB details file (`scripts/split_data.mjs`, loaded on demand), a two-part brush font loaded only where used (`scripts/build_brush_font.py`), and the 430 MB of full-size PNGs left out of the deploy (dist went from 571 MB to 172 MB). The split files, thumbnails and font subsets are rebuilt by `npm run build:data` and by the deploy workflow; they are git-ignored. Compressed JS was only about 2 MB before, so images were the real cost.
+
+Still heavy: UI icon PNGs (ancillaries and resources, 0.2-0.3 MB each) and `characters.js`/`factions.js`/`family_tree.js` (about 0.2-0.3 MB each over the wire). Next candidates: WebP for the UI icons, self-hosting dagre (currently from unpkg), and splitting `family_tree.js`.
